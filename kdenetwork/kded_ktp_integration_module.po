@@ -3,27 +3,28 @@
 #
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-01-15 03:11+0100\n"
-"PO-Revision-Date: 2013-10-21 13:37+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-03-24 16:32+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: config/telepathy-kded-config.cpp:39
 #, kde-format
 msgid ""
 "<p>Tokens can be used wherever a status message can be set to create a "
 "dynamic status message.</p>"
-msgstr ""
+msgstr "<p>Token 可以用於任何可以設定狀態訊息來建立一個動態狀態訊息</p>"
 
 #: config/telepathy-kded-config.cpp:40
 #, kde-format
@@ -31,6 +32,8 @@ msgid ""
 "<p><strong>%tr+&lt;val&gt;</strong>: Countdown to 0 from <strong>&lt;val&gt;"
 "</strong> minutes. e.g. %tr+30</p>"
 msgstr ""
+"<p><strong>%tr+&lt;val&gt;</strong>：倒數計時從 <strong>&lt;val&gt;"
+"</strong> 至結束的分鐘數。範例：%tr+30</p>"
 
 #: config/telepathy-kded-config.cpp:41
 #, kde-format
@@ -39,6 +42,8 @@ msgid ""
 "value is specified, the local time <strong>&lt;val&gt;</strong> minutes in "
 "the future. e.g. %time+10</p>"
 msgstr ""
+"<p><strong>%time+[&lt;val&gt;]</strong>：目前的本機時間，或當一個值被指定，"
+"目前的本機時間將會在未來 <strong>&lt;val&gt;</strong>分鐘。範例：%time+10</p>"
 
 #: config/telepathy-kded-config.cpp:42
 #, kde-format
@@ -47,6 +52,9 @@ msgid ""
 "is specified, the UTC time <strong>&lt;val&gt;</strong> minutes into the "
 "future. e.g. %utc</p>"
 msgstr ""
+"<p><strong>%utc+[&lt;val&gt;]</strong>：目前的 UTC 時間，或當"
+"一個值被指定，這個值將會在未來 <strong>&lt;val&gt;</strong> 分鐘。"
+"範例：%utc</p>"
 
 #: config/telepathy-kded-config.cpp:43
 #, kde-format
@@ -55,29 +63,32 @@ msgid ""
 "Append an initial elapsed time &quot;&lt;val&gt;&quot; in minutes. e.g. %te"
 "+5</p>"
 msgstr ""
+"<p><strong>%te+[&lt;val&gt;]</strong>：訊息啟用後過的時間。 "
+"附加在最後初始的時間 &quot;&lt;val&gt;&quot; 分鐘。範例：%te"
+"+5</p>"
 
 #: config/telepathy-kded-config.cpp:44
 #, kde-format
 msgid "<p><strong>%title</strong>: Now Playing track title.</p>"
-msgstr ""
+msgstr "<p><strong>%title</strong>：目前播放的音軌標題。</p>"
 
 #: config/telepathy-kded-config.cpp:45
 #, kde-format
 msgid "<p><strong>%artist</strong>: Now Playing track or album artist.</p>"
-msgstr ""
+msgstr "<p><strong>%artist</strong>：目前播放中的音軌或專輯藝術家。</p>"
 
 #: config/telepathy-kded-config.cpp:46
 #, kde-format
 msgid "<p><strong>%album</strong>: Now Playing album.</p>"
-msgstr ""
+msgstr "<p><strong>%album</strong>：目前播放中的專輯。</p>"
 
 #: config/telepathy-kded-config.cpp:47
 #, kde-format
 msgid "<p><strong>%track</strong>: Now Playing track number.</p>"
-msgstr ""
+msgstr "<p><strong>%track</strong>：目前播放中的音軌號碼</p>"
 
 #: config/telepathy-kded-config.cpp:48
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "<p><strong>%um+[&lt;val&gt;]</strong>: When specified globally or in an "
 "account presence status message, overrides all automatic presence messages. "
@@ -88,6 +99,12 @@ msgid ""
 "message or automatic presence status message with the global presence status "
 "message. e.g. %um, %um+g</p>"
 msgstr ""
+"<p><strong>%um+[&lt;val&gt;]</strong>：當指定全域或在一個"
+"帳號存在時的狀態訊息時， 將覆蓋所有自動存在訊息。當指定了一"
+"自動存在狀態訊息，以取代全域或帳號存在時的狀態消息"
+"（假如已指定）。當 <strong>val = g</strong> 在帳號存在時的狀態消息或"
+"自動存在狀態消息，覆蓋帳號的狀態訊息或自動存在狀態消息透過全域存在狀態消息"
+"範例：%um, %um+g</p>"
 
 #: config/telepathy-kded-config.cpp:49
 #, kde-format
@@ -95,6 +112,8 @@ msgid ""
 "<p><strong>%tu+&lt;val&gt;</strong>: Refresh the status message every "
 "<strong>&lt;val&gt;</strong> minutes. e.g. %tu+2</p>"
 msgstr ""
+"<p><strong>%tu+&lt;val&gt;</strong>：重新整理狀態訊息於每"
+"<strong>&lt;val&gt;</strong> 分鐘。範例：%tu+2</p>"
 
 #: config/telepathy-kded-config.cpp:50
 #, kde-format
@@ -103,6 +122,9 @@ msgid ""
 "<strong>&lt;val&gt;</strong> minutes, or when the Now Playing active player "
 "stops (<strong>val = np</strong>). e.g. %tx+20, %tx+np</p>"
 msgstr ""
+"<p><strong>%tx+&lt;val&gt;</strong>：讓狀態訊息過期，當狀態訊息已持續超過"
+"<strong>&lt;val&gt;</strong> 分鐘，或當「正在播放」的執行中播放器停止播放"
+"(<strong>val = np</strong>)。範例：%tx+20, %tx+np</p>"
 
 #: config/telepathy-kded-config.cpp:51
 #, kde-format
@@ -111,6 +133,9 @@ msgid ""
 "%tr, %time, %utc, and %tx token expiry. e.g. %xm+&quot;Back %time. %tx+3 %xm"
 "+&quot;Running late&quot;&quot;</p>"
 msgstr ""
+"<p><strong>%xm+&quot;&lt;val&gt;&quot;</strong>：指定一個訊息去追蹤"
+"%tr、%time、%utc 和 %tx Token 是否過期。範例：%xm+&quot;Back %time. %tx+3 %xm"
+"+&quot;Running late&quot;&quot;</p>"
 
 #: config/telepathy-kded-config.cpp:52
 #, kde-format
@@ -119,6 +144,9 @@ msgid ""
 "local time using QDateTime::toString() expressions. e.g. %tf+&quot;h:mm AP "
 "t&quot;</p>"
 msgstr ""
+"<p><strong>%tf+&quot;&lt;val&gt;&quot;</strong>：指定一個為本機時間的格式"
+"使用 QDateTime::toString() 表達式。範例：%tf+&quot;h:mm AP "
+"t&quot;</p>"
 
 #: config/telepathy-kded-config.cpp:53
 #, kde-format
@@ -127,6 +155,9 @@ msgid ""
 "time using QDateTime::toString() expressions. e.g. %uf+&quot;hh:mm t&quot;</"
 "p>"
 msgstr ""
+"<p><strong>%uf+&quot;&lt;val&gt;&quot;</strong>：指定一個格式給 UTC "
+"時間，使用 QDateTime::toString() 表達式。範例：%uf+&quot;hh:mm t&quot;</"
+"p>"
 
 #: config/telepathy-kded-config.cpp:54
 #, kde-format
@@ -134,6 +165,8 @@ msgid ""
 "<p><strong>%sp+&quot;&lt;val&gt;&quot;</strong>: Change the separator for "
 "empty fields. e.g. %sp+&quot;-&quot;</p>"
 msgstr ""
+"<p><strong>%sp+&quot;&lt;val&gt;&quot;</strong>：修改空領域的分割器"
+"。範例：%sp+&quot;-&quot;</p>"
 
 #: config/telepathy-kded-config.cpp:55
 #, kde-format
@@ -141,6 +174,9 @@ msgid ""
 "<p>Using tokens requires the Telepathy KDED module to be loaded. Tokens can "
 "be escaped by prepending a backslash character, e.g. &#92;%sp</p>"
 msgstr ""
+"<p>使用 Tokens 需要 Telepathy KDED 模組被載入。"
+"Tokens 可以被退出，只需要預先加一個反斜杠字符。"
+"範例：&#92;%sp</p>"
 
 #: config/telepathy-kded-config.cpp:74 config/telepathy-kded-config.cpp:77
 #, kde-format

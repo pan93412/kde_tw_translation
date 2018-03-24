@@ -9,15 +9,14 @@ msgstr ""
 "Project-Id-Version: katekonsoleplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-01-27 03:11+0100\n"
-"PO-Revision-Date: 2014-08-18 14:29+0800\n"
+"PO-Revision-Date: 2018-03-24 00:22+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"dot tw>\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: kateconsole.cpp:67
@@ -51,7 +50,7 @@ msgstr "以目前的文件同步終端機裡的內容(&Y) "
 #, kde-format
 msgctxt "@action"
 msgid "Run Current Document"
-msgstr ""
+msgstr "執行目前的檔案"
 
 #: kateconsole.cpp:151
 #, kde-format
@@ -84,30 +83,30 @@ msgstr "抱歉，無法進入目錄 %1"
 #: kateconsole.cpp:314
 #, kde-format
 msgid "Not a local file: '%1'"
-msgstr ""
+msgstr "非本機檔案：「%1」"
 
 #: kateconsole.cpp:348
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you really want to pipe the text to the console? This will execute any "
-#| "contained commands with your user rights."
+#, kde-format
 msgid ""
 "Do you really want to Run the document ?\n"
 "This will execute the following command,\n"
 "with your user rights, in the terminal:\n"
 "'%1'"
-msgstr "您確定要將文字導向到主控台嗎？這會用您的權限來執行所有包含的指令。"
+msgstr ""
+"你確定要執行這個文檔？\n"
+"這將會利用你的使用者權限，\n"
+"在終端器執行下方的指令：\n"
+"「%1」"
 
 #: kateconsole.cpp:352
-#, fuzzy, kde-format
-#| msgid "Pipe to Terminal?"
+#, kde-format
 msgid "Run in Terminal?"
-msgstr "要導向到主控台嗎？"
+msgstr "在終端器執行？"
 
 #: kateconsole.cpp:353
 #, kde-format
 msgid "Run"
-msgstr ""
+msgstr "執行"
 
 #: kateconsole.cpp:369 kateconsole.cpp:385
 #, kde-format
@@ -127,25 +126,24 @@ msgid ""
 msgstr "自動以目前的文件來同步終端機(&A)"
 
 #: kateconsole.cpp:413 kateconsole.cpp:434
-#, fuzzy, kde-format
-#| msgid "Pipe to Terminal"
+#, kde-format
 msgid "Run in terminal"
-msgstr "管線導向到終端機"
+msgstr "在終端器執行"
 
 #: kateconsole.cpp:415
 #, kde-format
 msgid "&Remove extension"
-msgstr ""
+msgstr "移除附加元件（&R）"
 
 #: kateconsole.cpp:420
 #, kde-format
 msgid "Prefix:"
-msgstr ""
+msgstr "前置文字："
 
 #: kateconsole.cpp:428
 #, kde-format
 msgid "&Show warning next time"
-msgstr ""
+msgstr "下次仍顯示這個警告（&S）"
 
 #: kateconsole.cpp:430
 #, kde-format
@@ -153,6 +151,8 @@ msgid ""
 "The next time '%1' is executed, make sure a warning window will pop up, "
 "displaying the command to be sent to terminal, for review."
 msgstr ""
+"當下一次「%1」執行時，請確定警告視窗會顯示，並且顯示要傳送到終端器的指令以供"
+"再次確認。"
 
 #: kateconsole.cpp:444
 #, kde-format

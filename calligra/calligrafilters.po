@@ -13,13 +13,14 @@
 # Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011.
 # Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kofficefilters\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-06-07 06:07+0200\n"
-"PO-Revision-Date: 2016-12-08 08:53+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2018-03-24 19:22+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -583,8 +584,7 @@ msgstr "使用預設的樣式(&D)"
 msgid ""
 "Select this option to specify a separate stylesheet for the HTML page. You "
 "can select or type on in the field below."
-msgstr ""
-"選擇此選項為 HTML 頁面指定不同的樣式表。您可以選擇或直接輸入底下的欄位。"
+msgstr "選擇此選項為 HTML 頁面指定不同的樣式表。您可以選擇或直接輸入底下的欄位。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mCustomButton)
 #: sheets/html/exportwidget.ui:145
@@ -685,7 +685,7 @@ msgstr "這份文件將可以單獨編譯。"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, fullDocButton)
 #: sheets/latex/export/latexexportwidget.ui:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The document will be generated as a full latex document since all the "
 #| "include will be generated before the \\begin[document} and "
@@ -695,7 +695,7 @@ msgid ""
 "include will be generated before the \\begin{document} and \\end{document} "
 "commands."
 msgstr ""
-"此文件在以完整 latex 文件產生時，所有介於 \\begin[document} 以及 "
+"此文件在以完整 latex 文件產生時，所有介於 \\begin{document} 以及 "
 "\\end{document} 指令間的引入文件將一起產生。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, fullDocButton)

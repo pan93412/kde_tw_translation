@@ -8,13 +8,14 @@
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-04 03:25+0100\n"
-"PO-Revision-Date: 2017-07-03 20:26+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2018-03-24 14:56+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -289,8 +290,7 @@ msgstr "詢問使用者壓縮檔名稱，並將指定的檔案加入。完成後
 msgid ""
 "Add the specified files to 'filename'. Create archive if it does not exist. "
 "Quit when finished."
-msgstr ""
-"將指定的檔案加入壓縮檔 filename 中。若壓縮檔不存在則建立新檔案。完成即離開。"
+msgstr "將指定的檔案加入壓縮檔 filename 中。若壓縮檔不存在則建立新檔案。完成即離開。"
 
 #: app/main.cpp:183
 #, kde-format
@@ -864,7 +864,7 @@ msgid_plural "Extracting %1 files"
 msgstr[0] "解開 %1 個檔案"
 
 #: kerfuffle/jobs.cpp:513
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Destination"
 msgctxt "extraction folder"
 msgid "Destination"
@@ -1282,8 +1282,7 @@ msgstr "以文字模式預覽"
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
-msgstr ""
-"內部檢視器無法預覽此未知型態的檔案。<nl/><nl/>您要試著以純文字模式檢視嗎？"
+msgstr "內部檢視器無法預覽此未知型態的檔案。<nl/><nl/>您要試著以純文字模式檢視嗎？"
 
 #: part/arkviewer.cpp:159
 #, kde-format
@@ -1767,17 +1766,17 @@ msgid "Listing the archive failed."
 msgstr "列出歸檔失敗。"
 
 #: plugins/cli7zplugin/cliplugin.cpp:281
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Extraction failed due to unsupported encryption method."
 msgid "Extraction failed due to an unknown error."
-msgstr "解開失敗，因為遇到了不支援的加密方法。"
+msgstr "解開失敗，因為未知的原因。"
 
 #: plugins/cli7zplugin/cliplugin.cpp:286 plugins/clizipplugin/cliplugin.cpp:209
 #, kde-format
 msgid ""
 "Extraction failed due to one or more corrupt files. Any extracted files may "
 "be damaged."
-msgstr ""
+msgstr "壓縮失敗，因為一個或多個有損壞的檔案。已壓縮完成的所有檔案也許已經損壞。"
 
 #: plugins/cli7zplugin/cliplugin.cpp:298
 #, kde-format
@@ -1964,10 +1963,10 @@ msgid "Failed to add entry: %1"
 msgstr "新增項目失敗：%1"
 
 #: plugins/libzipplugin/libzipplugin.cpp:278
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid "Failed to read metadata for entry: %1"
 msgid "Failed to set compression options for entry: %1"
-msgstr "讀取項目的後設資料時失敗：%1"
+msgstr "設定項目的壓縮選項時失敗：%1"
 
 #: plugins/libzipplugin/libzipplugin.cpp:372
 #: plugins/libzipplugin/libzipplugin.cpp:767
@@ -2024,10 +2023,10 @@ msgid "Failed to copy entry: %1"
 msgstr "複製項目失敗：%1"
 
 #: plugins/libzipplugin/libzipplugin.cpp:917
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid "Failed to read metadata for entry: %1"
 msgid "Failed to set metadata for entry: %1"
-msgstr "讀取項目的後設資料時失敗：%1"
+msgstr "設定項目的後設資料時失敗：%1"
 
 #~ msgid "&Rename"
 #~ msgstr "重新命名(&R)"

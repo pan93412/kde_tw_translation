@@ -9,19 +9,20 @@
 # Goodhorse <franklin@goodhorse.idv.tw>, 2008.
 # Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-01-19 03:23+0100\n"
-"PO-Revision-Date: 2015-06-09 22:38+0800\n"
-"Last-Translator: Franklin\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-03-24 15:11+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fastLearner)
@@ -971,8 +972,7 @@ msgstr "管理帳號"
 msgid ""
 "This widget shows your identities and accounts in a hierarchical view. Each "
 "configured identity shows its associated accounts."
-msgstr ""
-"此元件以階層檢視顯示您的身份與帳號。每一個設定好的身份都會顯示它相關的帳號。"
+msgstr "此元件以階層檢視顯示您的身份與帳號。每一個設定好的身份都會顯示它相關的帳號。"
 
 #. i18n: ectx: property (text), widget (AccountTreeWidget, mAccountList)
 #: kopete/config/accounts/kopeteaccountconfigbase.ui:63
@@ -1027,7 +1027,7 @@ msgstr "加入新的帳號"
 
 #. i18n: ectx: property (text), widget (QPushButton, mButtonAccountAdd)
 #: kopete/config/accounts/kopeteaccountconfigbase.ui:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Add Account\n"
 #| "KAction replaces\n"
@@ -1038,7 +1038,7 @@ msgid ""
 "these labels!"
 msgstr ""
 "新增帳號\n"
-"KAction 會取代\n"
+"QAction 會取代\n"
 "這些標籤！"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mButtonAccountRemove)
@@ -3340,8 +3340,7 @@ msgstr "通訊錄中沒有電子郵件地址"
 msgid ""
 "This contact was not found in the KDE address book. Check that a contact is "
 "selected in the properties dialog."
-msgstr ""
-"這個聯絡人在 KDE 通訊錄中找不到。請檢查是否已經在內容對話框中選取聯絡人。"
+msgstr "這個聯絡人在 KDE 通訊錄中找不到。請檢查是否已經在內容對話框中選取聯絡人。"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:550
 #, kde-format
@@ -3507,10 +3506,10 @@ msgid "No Change"
 msgstr "沒有改變"
 
 #: kopete/contactlist/kopetelviprops.cpp:604
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Account"
 msgid "Select Sound File"
-msgstr "選擇帳號"
+msgstr "選擇聲音檔案"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAddressbook)
 #: kopete/contactlist/kopetemetalvipropswidget.ui:47
@@ -3970,7 +3969,7 @@ msgid "Kopete, the KDE Instant Messenger"
 msgstr "Kopete，KDE 的即時通訊軟體"
 
 #: kopete/main.cpp:45
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "(c) 2001-2004, Duncan Mac-Vicar Prett\n"
 #| "(c) 2002-2008, Kopete Development Team"
@@ -3979,7 +3978,7 @@ msgid ""
 "(c) 2002-2017, Kopete Development Team"
 msgstr ""
 "(c) 2001-2004, Duncan Mac-Vicar Prett\n"
-"(c) 2002-2008, Kopete 開發團隊"
+"(c) 2002-2017, Kopete 開發團隊"
 
 #: kopete/main.cpp:46
 #, kde-format
@@ -3999,13 +3998,13 @@ msgstr "開發者和維護者"
 #: kopete/main.cpp:49
 #, kde-format
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
 #: kopete/main.cpp:49
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Nothing to Send"
 msgid "Porting to KF5"
-msgstr "無可傳送內容"
+msgstr "移植至 KF5"
 
 #: kopete/main.cpp:50
 #, kde-format
@@ -5160,8 +5159,7 @@ msgstr "選擇帳號"
 msgid ""
 "<qt>You do not have an account configured for <b>%1</b> yet.  Please create "
 "an account, connect it, and try again.</qt>"
-msgstr ""
-"<qt>您沒有建立帳號，無法設定 <b>%1</b>。請先建立帳號，連線後再嚐試。</qt>"
+msgstr "<qt>您沒有建立帳號，無法設定 <b>%1</b>。請先建立帳號，連線後再嚐試。</qt>"
 
 #: libkopete/kabcpersistence.cpp:409
 #, kde-format
@@ -6377,8 +6375,7 @@ msgctxt "@info %2 is message"
 msgid ""
 "A user is trying to send you a file <filename>%1</filename> with the message:"
 "<nl/>\"%2\""
-msgstr ""
-"有個使用者正試著傳送檔案 <filename>%1</filename> 給您，訊息為：<nl/> \"%2\""
+msgstr "有個使用者正試著傳送檔案 <filename>%1</filename> 給您，訊息為：<nl/> \"%2\""
 
 #: libkopete/private/kopeteviewmanager.cpp:361
 #, kde-format
@@ -6835,8 +6832,7 @@ msgid ""
 "This is the alias you are adding (what you will type after the command "
 "identifier, '/'). Do not include the '/' (it will be stripped off if you do "
 "anyway)."
-msgstr ""
-"這是您增加的別名（在 / 後面輸入的命令）。請不要有斜線 /，它們會被拿掉。"
+msgstr "這是您增加的別名（在 / 後面輸入的命令）。請不要有斜線 /，它們會被拿掉。"
 
 #. i18n: ectx: property (text), widget (KPushButton, addButton)
 #: plugins/alias/aliasdialog.ui:81
@@ -7040,10 +7036,10 @@ msgstr "文字(&T)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: plugins/autoreplace/autoreplaceprefs.ui:202
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Re&placement:"
 msgid "&Replacement:"
-msgstr "取代為(&P)"
+msgstr "取代為 (&R)："
 
 #. i18n: ectx: property (title), widget (QGroupBox, gb_options)
 #: plugins/autoreplace/autoreplaceprefs.ui:220
@@ -7699,10 +7695,10 @@ msgstr "選擇紀錄目錄"
 
 #: plugins/history/historyimport.cpp:277
 #: plugins/history2/history2import.cpp:346
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Parsing history from pidgin ..."
 msgid "Parsing history from pidgin ..."
-msgstr "正在解析 %1 的舊歷史記錄"
+msgstr "正在解析 Pidgin 的歷史紀錄…"
 
 #: plugins/history/historyimport.cpp:277
 #: plugins/history2/history2import.cpp:279
@@ -7880,8 +7876,7 @@ msgstr "在聊天視窗中保留多少訊息"
 msgid ""
 "When a new chat is opened, automatically add the last few messages between "
 "you and that contact."
-msgstr ""
-"當開啟新的聊天視窗時，會自動將過去您們之間聊天的最後幾筆訊息加入視窗中。"
+msgstr "當開啟新的聊天視窗時，會自動將過去您們之間聊天的最後幾筆訊息加入視窗中。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowPrevious)
 #: plugins/history/historyprefsui.ui:160 plugins/history2/history2prefsui.ui:68
@@ -8496,8 +8491,7 @@ msgstr "對 %1 的認證中止。為了確定您談話的對象，請再試一�
 msgid ""
 "Ask %1 a question, the answer to which is known only to you and them. If the "
 "answer does not match, you may be talking to an imposter."
-msgstr ""
-"請詢問 %1 一個只有您們知道答案的問題。如果答案不正確，您可能遇到詐騙集團..."
+msgstr "請詢問 %1 一個只有您們知道答案的問題。如果答案不正確，您可能遇到詐騙集團..."
 
 #: plugins/otr/authenticationwizard.cpp:381
 #, kde-format
@@ -9407,8 +9401,7 @@ msgstr "<b title=\"您上次與 %1 談話的時間\">最後談話：</b> %2 <br>
 #, kde-format
 msgid ""
 "<b title=\"The last time %1 was online or away\">Last time present :</b> %2"
-msgstr ""
-"<b title=\"我可以看到 %1 上次上線或離開的時間\">上次聯絡人出現時間：</b> %2"
+msgstr "<b title=\"我可以看到 %1 上次上線或離開的時間\">上次聯絡人出現時間：</b> %2"
 
 #. i18n("<b title=\"%1 uses to set his status online at these hours (EXPERIMENTAL)\">Main online events :</b><br>").arg(m_contact->metaContact()->displayName()));
 #. QValueList<QTime> mainEvents = m_contact->mainEvents(Kopete::OnlineStatus::Online);
@@ -10492,8 +10485,7 @@ msgstr "kde@example.com"
 msgid ""
 "The Bonjour protocol needs you to at least specify a name. The name can be "
 "of form 'Full Name@Hostname'"
-msgstr ""
-"Bonjour 協定需要您至少要指定名稱。名稱可以是這樣的格式：「全名@主機名稱」"
+msgstr "Bonjour 協定需要您至少要指定名稱。名稱可以是這樣的格式：「全名@主機名稱」"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: protocols/bonjour/bonjouraddui.ui:33
@@ -11660,8 +11652,7 @@ msgid ""
 "Whether or not you want to enable SSL encrypted communication with the "
 "server.  Note that this is not end-to-end encryption, but rather encrypted "
 "communication with the server."
-msgstr ""
-"您是否要開啟 SSL 加密通訊。注意這不是點對點的加密，而是與伺服器的通訊加密。"
+msgstr "您是否要開啟 SSL 加密通訊。注意這不是點對點的加密，而是與伺服器的通訊加密。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: protocols/gadu/ui/gadueditaccountui.ui:356
@@ -12702,8 +12693,7 @@ msgstr "使用者代號(&U)："
 msgid ""
 "Check to disable automatic connection.  If checked, you may connect to this "
 "account manually using the icon in the bottom of the main Kopete window"
-msgstr ""
-"勾選此選項關閉自動連線。您還是可以用 Kopete 主視窗底下的圖示按鈕來手動連線。"
+msgstr "勾選此選項關閉自動連線。您還是可以用 Kopete 主視窗底下的圖示按鈕來手動連線。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelServer)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mServer)
@@ -14983,8 +14973,7 @@ msgstr ""
 msgid ""
 "Your password could not be changed. Either your server does not support this "
 "feature or the administrator does not allow you to change your password."
-msgstr ""
-"您無法變更密碼。可能是您的伺服器不支援此功能，或是管理者不允許您變更密碼。"
+msgstr "您無法變更密碼。可能是您的伺服器不支援此功能，或是管理者不允許您變更密碼。"
 
 #: protocols/jabber/ui/dlgjabberchatjoin.cpp:34
 #, kde-format
@@ -15072,8 +15061,7 @@ msgstr ""
 msgid ""
 "Check to disable automatic connection.  If checked, you can connect manually "
 "to this account, using the icon at the bottom of the main Kopete window"
-msgstr ""
-"勾選此選項關閉自動連線。您還是可以用 Kopete 主視窗底下的圖示按鈕來手動連線。"
+msgstr "勾選此選項關閉自動連線。您還是可以用 Kopete 主視窗底下的圖示按鈕來手動連線。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblRegistration)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:182
@@ -15164,11 +15152,11 @@ msgstr "您要連線的伺服器的 IP 位址或主機名稱（例如：jabber.o
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseXOAuth2)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:467
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Manual Authentication"
 msgid "Use X-OAuth2 authentication"
-msgstr "手動認證"
+msgstr "使用 X-OAuth2 認證"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgXOAuth2)
 #. i18n: ectx: property (text), widget (QPushButton, btnXOAuth2)
@@ -15177,7 +15165,7 @@ msgstr "手動認證"
 #: protocols/jabber/ui/dlgxoauth2.ui:12
 #, kde-format
 msgid "Manage X-OAuth2 tokens"
-msgstr ""
+msgstr "管理 X-OAuth2 Token"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:502
@@ -15920,42 +15908,42 @@ msgstr "關於(&B)"
 #: protocols/jabber/ui/dlgxoauth2.ui:18
 #, kde-format
 msgid "Authenticate directly with Access Token"
-msgstr ""
+msgstr "透過存取 Token 直接認證"
 
 #. i18n: ectx: property (text), widget (QLabel, labelAccessToken)
 #: protocols/jabber/ui/dlgxoauth2.ui:28
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Access denied"
 msgid "Access Token"
-msgstr "存取被拒。"
+msgstr "存取 Token"
 
 #. i18n: ectx: property (text), widget (QLabel, labelRequetUrl)
 #: protocols/jabber/ui/dlgxoauth2.ui:45
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Request Reason:"
 msgid "Request URL"
-msgstr "請求理由："
+msgstr "請求 URL"
 
 #. i18n: ectx: property (text), widget (QLabel, labelClientId)
 #: protocols/jabber/ui/dlgxoauth2.ui:55
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Client"
 msgid "Client ID"
-msgstr "客戶端"
+msgstr "客戶端編號"
 
 #. i18n: ectx: property (text), widget (QLabel, labelClientSecretKey)
 #: protocols/jabber/ui/dlgxoauth2.ui:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Client Features"
 msgid "Client Secret Key"
-msgstr "客戶端功能"
+msgstr "客戶端私鑰"
 
 #. i18n: ectx: property (text), widget (QLabel, labelRefreshToken)
 #: protocols/jabber/ui/dlgxoauth2.ui:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Refresh"
 msgid "Refresh Token"
-msgstr "刷新"
+msgstr "重新整理 Token"
 
 #: protocols/jabber/ui/jabberaddcontactpage.cpp:57
 #, kde-format
@@ -19374,10 +19362,10 @@ msgid "Append to menu"
 msgstr "新增到選單"
 
 #: protocols/oscar/liboscar/client.h:406
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Join Chat..."
 msgid "Join me in this Chat."
-msgstr "加入聊天..."
+msgstr "加入我至這個聊天。"
 
 #: protocols/oscar/liboscar/tasks/filetransfertask.cpp:296
 #, kde-format
@@ -19965,8 +19953,7 @@ msgstr "下載並顯示自訂表情圖示(&D)"
 msgid ""
 "Export all the emoticon themes as custom emoticons (only works for emoticons "
 "in the PNG format)."
-msgstr ""
-"將全部的表情圖示主題匯出成自定的表情圖示。只對 PNG 格式的表情圖示有效。"
+msgstr "將全部的表情圖示主題匯出成自定的表情圖示。只對 PNG 格式的表情圖示有效。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, exportEmoticons)
 #: protocols/qq/ui/qqeditaccountui.ui:595
@@ -21821,8 +21808,7 @@ msgstr "安裝到 Samba(&N)"
 msgid ""
 "To receive WinPopup messages sent from other machines, the hostname above "
 "must be set to this machine's hostname."
-msgstr ""
-"要接收其他機器送來的 WinPopup 訊息，主機名稱必須設定為此機器的主機名稱。"
+msgstr "要接收其他機器送來的 WinPopup 訊息，主機名稱必須設定為此機器的主機名稱。"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: protocols/winpopup/ui/wpeditaccountbase.ui:162
@@ -22340,8 +22326,7 @@ msgstr "封鎖表情圖示(&B)"
 msgid ""
 "<qt>You need to go online to remove a contact from your contact list. This "
 "contact will appear again when you reconnect.</qt>"
-msgstr ""
-"<qt>要移除聯絡人，請先上線。此聯絡人在您下次重新連線時還是會出現。</qt>"
+msgstr "<qt>要移除聯絡人，請先上線。此聯絡人在您下次重新連線時還是會出現。</qt>"
 
 #: protocols/wlm/wlmcontact.cpp:427
 #, kde-format

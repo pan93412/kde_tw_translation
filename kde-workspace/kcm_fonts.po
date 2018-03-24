@@ -9,14 +9,15 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
 # Jeff Huang <s8321414@gmail.com>, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-10 03:27+0100\n"
-"PO-Revision-Date: 2017-03-27 09:14+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-24 18:40+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,20 +29,19 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Jeff Huang, pan93412"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "s8321314@gmail.com, pan93412@gmail.com"
 
 #: fonts.cpp:277
 #, kde-format
 msgid ""
 "<p>Some changes such as anti-aliasing or DPI will only affect newly started "
 "applications.</p>"
-msgstr ""
-"<p>有一些像是平滑字型或 DPI 設定上的變更，只會對於新啟動的程式有作用。</p>"
+msgstr "<p>有一些像是平滑字型或 DPI 設定上的變更，只會對於新啟動的程式有作用。</p>"
 
 #: fonts.cpp:278 fonts.cpp:288
 #, kde-format
@@ -55,21 +55,21 @@ msgid ""
 msgstr "<p>有一些像是 DPI 設定上的變更，只會對於新啟動的程式有作用。</p>"
 
 #: fonts.cpp:439
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Configure..."
 msgid "Configure Fonts"
-msgstr "設定..."
+msgstr "配置字體"
 
 #: fonts.cpp:441
 #, kde-format
 msgid "Antonis Tsiapaliokas"
-msgstr ""
+msgstr "Antonis Tsiapaliokas"
 
 #: kxftconfig.cpp:454
 #, kde-format
 msgctxt "use system subpixel setting"
 msgid "Vendor Default"
-msgstr ""
+msgstr "供應商預設值"
 
 #: kxftconfig.cpp:456
 #, kde-format
@@ -101,7 +101,7 @@ msgstr "垂直 BGR"
 #, kde-format
 msgctxt "use system hinting settings"
 msgid "Vendor Default"
-msgstr ""
+msgstr "供應商預設值"
 
 #: kxftconfig.cpp:494
 #, kde-format
@@ -130,101 +130,101 @@ msgstr "完整"
 #: package/contents/ui/FontWidget.qml:54
 #, kde-format
 msgid "Choose..."
-msgstr ""
+msgstr "選擇…"
 
 #: package/contents/ui/main.qml:30
 #, kde-format
 msgid "Fonts"
-msgstr ""
+msgstr "字體"
 
 #: package/contents/ui/main.qml:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ad&just All Fonts..."
 msgid "&Adjust All Fonts..."
-msgstr "調整所有字型...(&J)"
+msgstr "調整所有字型...(&A)"
 
 #: package/contents/ui/main.qml:46
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "font usage"
 #| msgid "General"
 msgid "General:"
-msgstr "一般"
+msgstr "一般："
 
 #: package/contents/ui/main.qml:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "font usage"
 #| msgid "Fixed width"
 msgid "Fixed width:"
-msgstr "固定寬度"
+msgstr "固定寬度："
 
 #: package/contents/ui/main.qml:56
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "font usage"
 #| msgid "Small"
 msgid "Small:"
-msgstr "小"
+msgstr "小："
 
 #: package/contents/ui/main.qml:61
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "font usage"
 #| msgid "Toolbar"
 msgid "Toolbar:"
-msgstr "工具列"
+msgstr "工具列："
 
 #: package/contents/ui/main.qml:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "font usage"
 #| msgid "Menu"
 msgid "Menu:"
-msgstr "選單"
+msgstr "選單："
 
 #: package/contents/ui/main.qml:71
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "font usage"
 #| msgid "Window title"
 msgid "Window title:"
-msgstr "視窗標題"
+msgstr "視窗標題："
 
 #: package/contents/ui/main.qml:83
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Use a&nti-aliasing:"
 msgid "Use anti-aliasing:"
-msgstr "使用平滑字型(&N)："
+msgstr "使用平滑字型："
 
 #: package/contents/ui/main.qml:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Use anti-aliasing"
 #| msgid "Enabled"
 msgid "Enabled"
-msgstr "開啟"
+msgstr "啟用"
 
 #: package/contents/ui/main.qml:85
 #, kde-format
 msgid "Vendor Default"
-msgstr ""
+msgstr "供應商預設值"
 
 #: package/contents/ui/main.qml:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Use anti-aliasing"
 #| msgid "Disabled"
 msgid "Disabled"
-msgstr "關閉"
+msgstr "停用"
 
 #: package/contents/ui/main.qml:95
 #, kde-format
 msgid "Exclude range from anti-aliasing"
-msgstr ""
+msgstr "不包含來自防鋸齒的範圍"
 
 #: package/contents/ui/main.qml:108 package/contents/ui/main.qml:122
 #, kde-format
 msgid "%1 pt"
-msgstr ""
+msgstr "%1 pt"
 
 #: package/contents/ui/main.qml:115
-#, fuzzy, kde-format
+#, kde-format
 #| msgid " to "
 msgid "to"
-msgstr " 至 "
+msgstr "至 "
 
 #: package/contents/ui/main.qml:135
 #, kde-format
@@ -237,7 +237,7 @@ msgid "Hinting style:"
 msgstr "提示風格:"
 
 #: package/contents/ui/main.qml:158
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Force fonts DPI:"
 msgid "Force Fonts DPI:"
 msgstr "強制指定字型 DPI："

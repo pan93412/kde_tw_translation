@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-23 03:17+0100\n"
-"PO-Revision-Date: 2017-11-11 19:13+0800\n"
+"PO-Revision-Date: 2018-03-24 00:18+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: English <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -133,12 +133,10 @@ msgid "Go forward"
 msgstr "向前"
 
 #: dolphinmainwindow.cpp:372
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Access denied. Could not write to <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info"
 msgid "Could not access <filename>%1</filename>."
-msgstr "拒絕存取。無法寫入至 <filename>%1</filename>"
+msgstr "無法存取檔案 <filename>%1</filename>。"
 
 #: dolphinmainwindow.cpp:402
 #, kde-format
@@ -181,17 +179,14 @@ msgid "Tools"
 msgstr "工具"
 
 #: dolphinmainwindow.cpp:1026
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Search"
+#, kde-format
 msgid "Search"
 msgstr "搜尋"
 
 #: dolphinmainwindow.cpp:1028
-#, fuzzy, kde-format
-#| msgid "Search for %1 in %2"
+#, kde-format
 msgid "Search for %1"
-msgstr "在 %2 中搜尋 %1"
+msgstr "搜尋 %1"
 
 #: dolphinmainwindow.cpp:1069
 #, kde-format
@@ -320,11 +315,10 @@ msgid "Activate Previous Tab"
 msgstr "跳到前一個分頁"
 
 #: dolphinmainwindow.cpp:1235
-#, fuzzy, kde-format
-#| msgid "Show tags"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Target"
-msgstr "顯示標籤"
+msgstr "顯示目標"
 
 #: dolphinmainwindow.cpp:1241
 #, kde-format
@@ -1001,7 +995,7 @@ msgstr "行數"
 #, kde-format
 msgctxt "@label"
 msgid "Date Photographed"
-msgstr ""
+msgstr "照片日期"
 
 #: kitemviews/kfileitemmodel.cpp:2307 kitemviews/kfileitemmodel.cpp:2308
 #: kitemviews/kfileitemmodel.cpp:2309
@@ -1600,7 +1594,7 @@ msgstr "大型 (%1x%2)"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
-msgstr ""
+msgstr "隱藏部份 %1"
 
 #: panels/places/placespanel.cpp:452
 #, kde-format
@@ -1620,11 +1614,12 @@ msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
 msgstr ""
+"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:154
 #, kde-format
 msgid "Install Konsole"
-msgstr ""
+msgstr "安裝 Konsole"
 
 #. i18n: ectx: label, entry (Location), group (Search)
 #: search/dolphin_searchsettings.kcfg:10
@@ -2357,9 +2352,7 @@ msgid "Moving files or folders to trash"
 msgstr "將檔案或資料夾移到資源回收桶時"
 
 #: settings/general/confirmationssettingspage.cpp:52
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Empty Trash"
+#, kde-format
 msgctxt "@option:check Ask for confirmation when"
 msgid "Emptying trash"
 msgstr "清空垃圾桶"

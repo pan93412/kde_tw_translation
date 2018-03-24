@@ -3,19 +3,20 @@
 #
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010, 2012.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010, 2011.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-10-04 05:59+0200\n"
-"PO-Revision-Date: 2012-06-23 17:39+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-03-24 14:47+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -78,7 +79,7 @@ msgid " MB"
 msgstr " MB"
 
 #: difficultydialog.cpp:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgid " move"
 #| msgid_plural " moves"
 msgctxt "Search depth suffix"
@@ -89,7 +90,7 @@ msgstr[0] " 步"
 #: difficultydialog.cpp:50
 #, kde-format
 msgid "Difficulty Level"
-msgstr ""
+msgstr "難度等級"
 
 #: enginesettings.cpp:119
 #, kde-format
@@ -163,10 +164,10 @@ msgid_plural " moves"
 msgstr[0] " 步"
 
 #: gamedialog.cpp:348
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Computer Engines"
 msgid "Chess Engines"
-msgstr "電腦使用的引擎"
+msgstr "西洋棋引擎"
 
 #. i18n: ectx: property (title), widget (QGroupBox, player1Box)
 #: gamedialog.ui:29
@@ -176,17 +177,17 @@ msgstr "玩家 1"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer1Human)
 #: gamedialog.ui:35
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Human (You)"
 msgid "Human (&You)"
-msgstr "人類（您）"
+msgstr "人類（您） (&Y)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer1Engine)
 #: gamedialog.ui:45
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Computer engine:"
 msgid "&Computer engine"
-msgstr "電腦使用的引擎："
+msgstr "電腦引擎 (&C)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, colorGroup)
 #: gamedialog.ui:78
@@ -196,17 +197,17 @@ msgstr "玩家 1 的顏色"
 
 #. i18n: ectx: property (text), widget (QRadioButton, colorBlack)
 #: gamedialog.ui:103
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Black"
 msgid "B&lack"
-msgstr "黑"
+msgstr "黑 (&B)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, colorRandom)
 #: gamedialog.ui:116
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Choose randomly"
 msgid "Choose r&andomly"
-msgstr "隨機選取"
+msgstr "隨機選取 (&A)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, player2Box)
 #: gamedialog.ui:129
@@ -216,17 +217,17 @@ msgstr "玩家 2"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Human)
 #: gamedialog.ui:135
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Human"
 msgid "H&uman"
-msgstr "人類"
+msgstr "人類 (&U)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Engine)
 #: gamedialog.ui:145
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Computer engine:"
 msgid "Co&mputer engine"
-msgstr "電腦使用的引擎："
+msgstr "電腦引擎 (&M)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Server)
 #: gamedialog.ui:175 proto/ficsprotocol.cpp:210
@@ -236,17 +237,17 @@ msgstr "下棋伺服器"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbTimeControl)
 #: gamedialog.ui:207
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Use Time Control"
 msgid "&Use Time Control"
-msgstr "使用時間控制"
+msgstr "使用時間控制 (&U)"
 
 #. i18n: ectx: property (text), widget (QLabel, lNumberOfMoves)
 #: gamedialog.ui:214
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Time control period"
 msgid "&Time control period"
-msgstr "時間控制期間"
+msgstr "時間控制期間 (&T)"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbNumberOfMoves)
 #: gamedialog.ui:230
@@ -257,17 +258,17 @@ msgstr "只用計時器"
 
 #. i18n: ectx: property (text), widget (QLabel, timeLimitLabel)
 #: gamedialog.ui:243
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Initial time limit"
 msgid "&Initial time limit"
-msgstr "初始時間限制"
+msgstr "初始時間限制 (&I)"
 
 #. i18n: ectx: property (text), widget (QLabel, timeIncrementLabel)
 #: gamedialog.ui:269
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Increment per move"
 msgid "I&ncrement per move"
-msgstr "每次移動遞增時間"
+msgstr "每次移動遞增時間 (&I)"
 
 #: gamemanager.cpp:401
 #, kde-format
@@ -333,13 +334,13 @@ msgid "Checkmate"
 msgstr "將軍，死棋"
 
 #: historywidget.cpp:43
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "White"
 msgid "white"
 msgstr "白"
 
 #: historywidget.cpp:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Black"
 msgid "black"
 msgstr "黑"
@@ -348,7 +349,7 @@ msgstr "黑"
 #: historywidget.ui:39 historywidget.ui:44
 #, kde-format
 msgid "New Column"
-msgstr ""
+msgstr "新的欄位"
 
 #. i18n: ectx: property (text), widget (QLabel, notationLabel)
 #: historywidget.ui:57
@@ -477,13 +478,13 @@ msgstr "顯示聊天"
 #: knights.cpp:268
 #, kde-format
 msgid "Open File"
-msgstr ""
+msgstr "開啟檔案"
 
 #: knights.cpp:269 knights.cpp:605 knights.cpp:628
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "*.pgn | Portable game notation"
 msgid "Portable game notation (*.pgn)"
-msgstr "*.pgn | 可移植的遊戲符號"
+msgstr "可移植的遊戲符號 (*.pgn)"
 
 #: knights.cpp:420
 #, kde-format
@@ -508,7 +509,7 @@ msgstr "主題"
 #: knights.cpp:439
 #, kde-format
 msgid "Do you really want to resign?"
-msgstr ""
+msgstr "你確定要放棄嗎？"
 
 #: knights.cpp:484
 #, kde-format
@@ -521,38 +522,38 @@ msgid "The game ended in a draw"
 msgstr "遊戲以平手結束"
 
 #: knights.cpp:514
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "White as in the player with white pieces"
 #| msgid "The game ended with a victory for <emphasis>White</emphasis>"
 msgctxt "White as in the player with white pieces"
 msgid "The game ended with a victory for <em>White</em>"
-msgstr "遊戲已結束，<emphasis>白方</emphasis>獲勝"
+msgstr "遊戲已結束，<em>白方</em>獲勝"
 
 #: knights.cpp:517
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Black as in the player with black pieces"
 #| msgid "The game ended with a victory for <emphasis>Black</emphasis>"
 msgctxt "Black as in the player with black pieces"
 msgid "The game ended with a victory for <em>Black</em>"
-msgstr "遊戲已結束，<emphasis>黑方</emphasis>獲勝"
+msgstr "遊戲已結束，<em>黑方</em>獲勝"
 
 #: knights.cpp:522
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Player name, then <White as in the player with white pieces"
 #| msgid ""
 #| "The game ended with a victory for <emphasis>%1</emphasis>, playing White"
 msgctxt "Player name, then <White as in the player with white pieces"
 msgid "The game ended with a victory for <em>%1</em>, playing White"
-msgstr "遊戲已結束，<emphasis>%1</emphasis> （白方）獲勝"
+msgstr "遊戲已結束，<em>%1</em> （白方）獲勝"
 
 #: knights.cpp:525
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Player name, then Black as in the player with black pieces"
 #| msgid ""
 #| "The game ended with a victory for <emphasis>%1</emphasis>, playing Black"
 msgctxt "Player name, then Black as in the player with black pieces"
 msgid "The game ended with a victory for <em>%1</em>, playing Black"
-msgstr "遊戲已結束，<emphasis>%1</emphasis> （黑方）獲勝"
+msgstr "遊戲已結束，<em>%1</em> （黑方）獲勝"
 
 #: knights.cpp:571
 #, kde-format
@@ -571,13 +572,13 @@ msgstr ""
 #: knights.cpp:604
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: knights.cpp:627
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Save History"
 msgid "Save As"
-msgstr "儲存歷史紀錄(&S)"
+msgstr "另存新檔..."
 
 #. i18n: ectx: label, entry (Theme), group (KGameTheme)
 #: knights.kcfg:9
@@ -830,18 +831,18 @@ msgstr "騎士"
 #: main.cpp:39
 #, kde-format
 msgid "KDE Chess Board"
-msgstr ""
+msgstr "KDE 西洋棋板"
 
 #: main.cpp:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(C) 2009-2011 Miha Čančula"
 msgid "(C) 2016-2017 Alexander Semke, 2009-2011 Miha Čančula"
-msgstr "(C) 2009-2011 Miha Čančula"
+msgstr "(C) 2016-2017 Alexander Semke, 2009-2011 Miha Čančula"
 
 #: main.cpp:49
 #, kde-format
 msgid "Alexander Semke"
-msgstr ""
+msgstr "Alexander Semke"
 
 #: main.cpp:50
 #, kde-format
@@ -1051,16 +1052,16 @@ msgstr "將士兵升級為："
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonQueen)
 #: promotiondialog.ui:47
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Queen"
 msgid "&Queen"
-msgstr "皇后"
+msgstr "皇后 (&Q)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonRook)
 #: promotiondialog.ui:60
 #, kde-format
 msgid "Roo&k"
-msgstr ""
+msgstr "欺騙（&K）"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonBishop)
 #: promotiondialog.ui:73
@@ -1070,10 +1071,10 @@ msgstr "主教"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonKnight)
 #: promotiondialog.ui:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Knight"
 msgid "&Knight"
-msgstr "騎士"
+msgstr "騎士 (&K)"
 
 #: proto/chatwidget.cpp:84
 #, kde-format

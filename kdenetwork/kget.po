@@ -8,19 +8,20 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-16 03:24+0100\n"
-"PO-Revision-Date: 2014-02-27 10:40+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-03-24 15:12+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: conf/autopastemodel.cpp:174
@@ -1507,13 +1508,13 @@ msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
 msgstr "KGet 網頁介面 | 合法的 XHTML 1.0 Strict &amp; CSS"
 
 #: main.cpp:103
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "An advanced download manager for KDE"
 msgid "An advanced download manager by KDE"
-msgstr "KDE 的進階下載管理員"
+msgstr "來自 KDE 的進階下載管理員"
 
 #: main.cpp:105
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "(C) 2005 - 2012, The KGet developers\n"
 #| "(C) 2001 - 2002, Patrick Charbonnier\n"
@@ -1525,7 +1526,7 @@ msgid ""
 "(C) 2002, Carsten Pfeiffer\n"
 "(C) 1998 - 2000, Matej Koss"
 msgstr ""
-"(C) 2005 - 2012, KGet 開發團隊\n"
+"(C) 2005 - 2014, KGet 開發團隊\n"
 "(C) 2001 - 2002, Patrick Charbonnier\n"
 "(C) 2002, Carsten Pfeiffer\n"
 "(C) 1998 - 2000, Matej Koss"
@@ -3401,10 +3402,10 @@ msgstr "群組設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/groupsettingsdialog.ui:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default &folder:"
 msgid "Defau&lt folder:"
-msgstr "預設資料夾(&F)："
+msgstr "預設資料夾(&L)："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #: ui/groupsettingsdialog.ui:61
@@ -3414,10 +3415,10 @@ msgstr "將符合此正規表示式的所有傳輸移到此群組"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/groupsettingsdialog.ui:64
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Regular &expression:"
 msgid "Re&gular expression:"
-msgstr "正規表示式(&E)："
+msgstr "正規表示式(&G)："
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, regExpEdit)
 #: ui/groupsettingsdialog.ui:74
@@ -3440,10 +3441,10 @@ msgstr "未設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/groupsettingsdialog.ui:119
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Maximum &download speed:"
 msgid "Ma&ximum download speed:"
-msgstr "最大下載速度(&D)："
+msgstr "最大下載速度(&X)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ui/groupsettingsdialog.ui:129
@@ -3681,10 +3682,10 @@ msgstr "主工具列"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/linkview/importlinkdialog.ui:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&File with links to import:"
 msgid "File with &links to import:"
-msgstr "要匯入連結的檔案(&F)："
+msgstr "要匯入連結的檔案(&L)："
 
 #. i18n: ectx: property (text), widget (QPushButton, importLinks)
 #: ui/linkview/importlinkdialog.ui:50
@@ -3935,7 +3936,7 @@ msgstr "匯入放下的檔案"
 
 #: ui/metalinkcreator/dragdlg.cpp:92 ui/metalinkcreator/filedlg.cpp:65
 #: ui/metalinkcreator/filedlg.cpp:173
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "comma, to seperate members of a list"
 #| msgid ","
 msgctxt "comma, to separate members of a list"
@@ -4327,7 +4328,7 @@ msgstr "變更使用的鏡射站台"
 #: ui/mirror/mirrorsettings.ui:36
 #, kde-format
 msgid "PushButton"
-msgstr ""
+msgstr "PushButton"
 
 #: ui/newtransferdialog.cpp:325
 #, kde-format
@@ -4651,17 +4652,17 @@ msgstr "上傳限制(&U)："
 
 #. i18n: ectx: property (text), widget (QLabel, labelDownload)
 #: ui/transfersettingsdialog.ui:100
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Download limit:"
 msgid "Download &limit:"
-msgstr "下載限制(&D)："
+msgstr "下載限制(&L)："
 
 #. i18n: ectx: property (text), widget (QLabel, labelShareRatio)
 #: ui/transfersettingsdialog.ui:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Maximum &share ratio:"
 msgid "Ma&ximum share ratio:"
-msgstr "最大分享比例(&S)："
+msgstr "最大分享比例(&X)："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mirrors)
 #: ui/transfersettingsdialog.ui:139
@@ -4760,7 +4761,7 @@ msgstr "檢查(&V)"
 #: ui/verificationdialog.ui:147
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #~ msgid "Nepomuk"
 #~ msgstr "Nepomuk"

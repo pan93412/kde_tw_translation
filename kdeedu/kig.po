@@ -14,14 +14,14 @@ msgstr ""
 "Project-Id-Version: kig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-07 03:24+0100\n"
-"PO-Revision-Date: 2016-11-16 21:32+0800\n"
+"PO-Revision-Date: 2018-03-24 13:19+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -165,10 +165,9 @@ msgid "&Asymptote..."
 msgstr "Asymptote(&A)..."
 
 #: filters/asyexporter.cc:58
-#, fuzzy, kde-format
-#| msgid "*.asy|Asymptote Documents (*.asy)"
+#, kde-format
 msgid "Asymptote Documents (*.asy)"
-msgstr "*.asy|Asymptote 文件 (*.asy)"
+msgstr "Asymptote 文件 (*.asy)"
 
 #: filters/asyexporter.cc:59
 #, kde-format
@@ -417,10 +416,9 @@ msgid "&Latex..."
 msgstr "Latex(&L)..."
 
 #: filters/latexexporter.cc:538
-#, fuzzy, kde-format
-#| msgid "*.tex|Latex Documents (*.tex)"
+#, kde-format
 msgid "Latex Documents (*.tex)"
-msgstr "*.tex|Latex 文件 (*.tex)"
+msgstr "Latex 文件 (*.tex)"
 
 #: filters/latexexporter.cc:539
 #, kde-format
@@ -535,10 +533,9 @@ msgid "&SVG..."
 msgstr "SVG(&S)..."
 
 #: filters/svgexporter.cc:59
-#, fuzzy, kde-format
-#| msgid "*.svg|Scalable Vector Graphics (*.svg)"
+#, kde-format
 msgid "Scalable Vector Graphics (*.svg)"
-msgstr "*.svg|可縮放向量圖形(*.svg)"
+msgstr "可縮放向量圖形(*.svg)"
 
 #: filters/svgexporter.cc:60
 #, kde-format
@@ -566,10 +563,9 @@ msgid "&XFig File..."
 msgstr "XFig 檔案(&X)..."
 
 #: filters/xfigexporter.cc:577
-#, fuzzy, kde-format
-#| msgid "*.fig|XFig Documents (*.fig)"
+#, kde-format
 msgid "XFig Documents (*.fig)"
-msgstr "*.fig|XFig 文件 (*.fig)"
+msgstr "XFig 文件 (*.fig)"
 
 #: filters/xfigexporter.cc:578
 #, kde-format
@@ -1005,14 +1001,9 @@ msgid "Save Kig Format"
 msgstr "儲存 Kig 格式"
 
 #: kig/kig_part.cpp:726
-#, fuzzy, kde-format
-#| msgid ""
-#| "*.kig|Kig Documents (*.kig)\n"
-#| "*.kigz|Compressed Kig Documents (*.kigz)"
+#, kde-format
 msgid "Kig Documents (*.kig);;Compressed Kig Documents (*.kigz)"
-msgstr ""
-"*.kig|Kig 文件(*.kig)\n"
-"*.kigz|壓縮的 Kig 文件(*.kigz)"
+msgstr "Kig 文件 (*.kig);;壓縮的 Kig 文件(*.kigz)"
 
 #: kig/kig_part.cpp:739 misc/kigfiledialog.cc:56 modes/typesdialog.cpp:471
 #, kde-format
@@ -3281,32 +3272,24 @@ msgid "Export Types"
 msgstr "匯出類型"
 
 #: modes/typesdialog.cpp:466
-#, fuzzy, kde-format
-#| msgid ""
-#| "*.kigt|Kig Types Files\n"
-#| "*|All Files"
+#, kde-format
 msgid "Kig Types Files (*.kigt);;All Files (*)"
-msgstr ""
-"*.kigt|Kig 類型檔案\n"
-"*|全部檔案"
+msgstr "Kig 格式檔案 (*.kigt);;全部檔案 (*)"
 
 #: modes/typesdialog.cpp:482
-#, fuzzy, kde-format
-#| msgid "*.kigt|Kig Types Files"
+#, kde-format
 msgid "Kig Types Files (*.kigt)"
-msgstr "*.kigt|Kig 類型檔案"
+msgstr "Kig 格式檔案 (*.kigt)"
 
 #: modes/typesdialog.cpp:484
-#, fuzzy, kde-format
-#| msgid "*.ggt|Geogebra Tool Files"
+#, kde-format
 msgid "Geogebra Tool Files (*.ggt)"
-msgstr "*.ggt | Geogebra 工具檔"
+msgstr "Geogebra 工具檔 (*.ggt)"
 
 #: modes/typesdialog.cpp:486
-#, fuzzy, kde-format
-#| msgid "*|All Files"
+#, kde-format
 msgid "All Files (*)"
-msgstr "*|所有檔案"
+msgstr "所有檔案 (*)"
 
 #: modes/typesdialog.cpp:487
 #, kde-format

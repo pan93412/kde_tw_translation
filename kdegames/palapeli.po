@@ -4,19 +4,20 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2013, 2014.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: palapeli\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-10-25 05:38+0200\n"
-"PO-Revision-Date: 2014-04-22 14:12+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-03-24 16:37+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -351,24 +352,24 @@ msgid "The following puzzles will be deleted. This action cannot be undone."
 msgstr "以下的謎題將被刪除。此動作無法回復。"
 
 #: src/engine/gameplay.cpp:326 src/engine/gameplay.cpp:352
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Filter for a file dialog"
 #| msgid "*.puzzle|Palapeli puzzles (*.puzzle)"
 msgctxt "Filter for a file dialog"
 msgid "Palapeli puzzles (*.puzzle)"
-msgstr "*.puzzle|Palapeli 謎題 (*.puzzle)"
+msgstr "Palapeli 謎題 (*.puzzle)"
 
 #: src/engine/gameplay.cpp:328
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Automatic builder for Palapeli puzzles"
 msgid "Import Palapeli puzzles"
-msgstr "自動建立 Palapeli 謎題"
+msgstr "匯入 Palapeli 謎題"
 
 #: src/engine/gameplay.cpp:354
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Automatic builder for Palapeli puzzles"
 msgid "Save Palapeli puzzles"
-msgstr "自動建立 Palapeli 謎題"
+msgstr "儲存 Palapeli 謎題"
 
 #: src/engine/gameplay.cpp:369
 #, kde-format
@@ -818,7 +819,7 @@ msgid "Path to puzzle file (will be opened if -i is not given)"
 msgstr "謎題檔的路徑（若未指定 -i 選項，則會被開啟）"
 
 #: src/main.cpp:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Import the given puzzle file into the local collection (does nothing if "
 #| "no puzzle file is given)"
@@ -826,7 +827,7 @@ msgid ""
 "Import the given puzzle file into the local collection (does nothing if no "
 "puzzle file is given). The main window will not be shown after importing the "
 "given puzzle."
-msgstr "匯入指定的謎題檔到本地端收藏（若沒有指定檔案，則不做任何事）"
+msgstr "匯入指定的謎題檔到本地端收藏（若沒有提供指定檔案，則不做任何事）。這個主視窗將不會在匯入指定的拼圖後顯示"
 
 #. i18n: ectx: label, entry (SnappingPrecision), group (Puzzling)
 #: src/palapeli.kcfg:6

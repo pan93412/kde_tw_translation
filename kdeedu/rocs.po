@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: rocs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-07-02 03:02+0200\n"
-"PO-Revision-Date: 2016-11-16 21:44+0800\n"
+"PO-Revision-Date: 2018-03-24 13:26+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -316,11 +316,13 @@ msgid ""
 "<p>Cannot resolve suffix of file <strong>'%1'</strong> to an available file "
 "backend. Aborting export.</p>"
 msgstr ""
+"<p>無法接收檔案的後置文字<strong>「%1」</strong>至支援檔案類型的後端。取消匯"
+"出。</p>"
 
 #: ui/fileformatdialog.cpp:102
 #, kde-format
 msgid "<p>Error occurred when writing file: <strong>'%1'</strong></p>"
-msgstr ""
+msgstr "<p>在寫入檔案時，有錯誤發生了：<strong>「%1」</strong></p>"
 
 #: ui/fileformatdialog.cpp:120
 #, kde-format
@@ -328,12 +330,10 @@ msgid "*|All files"
 msgstr "*|所有檔案"
 
 #: ui/fileformatdialog.cpp:123
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Import Script into Project"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Graph File into Project"
-msgstr "將文稿匯入專案"
+msgstr "匯入圖形檔案至專案"
 
 #: ui/grapheditorwidget.cpp:100
 #, kde-format

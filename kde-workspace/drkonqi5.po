@@ -10,14 +10,15 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-01 03:36+0100\n"
-"PO-Revision-Date: 2017-06-29 21:00+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-24 18:07+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -180,8 +181,7 @@ msgctxt "@info/rich"
 msgid ""
 "This page will generate a \"backtrace\" of the crash. This is information "
 "that tells the developers where the application crashed."
-msgstr ""
-"此頁會產生此錯誤的「回溯追蹤」。這些資訊會告訴開發者應用程式是哪裡出了問題。"
+msgstr "此頁會產生此錯誤的「回溯追蹤」。這些資訊會告訴開發者應用程式是哪裡出了問題。"
 
 #: aboutbugreportingdialog.cpp:98
 #, kde-kuit-format
@@ -211,8 +211,7 @@ msgctxt "@info/rich"
 msgid ""
 "Once you get a useful backtrace (or if you do not want to install the "
 "missing debugging packages) you can continue."
-msgstr ""
-"當您取得回溯資料後，（或是您不打算安裝除錯套件的話），您可以繼續下一步。"
+msgstr "當您取得回溯資料後，（或是您不打算安裝除錯套件的話），您可以繼續下一步。"
 
 #: aboutbugreportingdialog.cpp:109
 #, kde-format
@@ -227,8 +226,7 @@ msgid ""
 "Using the quality of the crash information gathered, and your answers on the "
 "previous page, the assistant will tell you if the crash is worth reporting "
 "or not."
-msgstr ""
-"根據收集的錯誤資訊，以及您回答問題的答案，小助手會告訴您是否值得回報此問題。"
+msgstr "根據收集的錯誤資訊，以及您回答問題的答案，小助手會告訴您是否值得回報此問題。"
 
 #: aboutbugreportingdialog.cpp:114
 #, kde-kuit-format
@@ -683,8 +681,7 @@ msgctxt "@info/rich"
 msgid ""
 "You could try to regenerate the backtrace by clicking the <interface>Reload</"
 "interface> button."
-msgstr ""
-"您可以點擊「<interface>重新載入</interface>」來試著重新產生回溯追蹤資料。"
+msgstr "您可以點擊「<interface>重新載入</interface>」來試著重新產生回溯追蹤資料。"
 
 #: backtracewidget.cpp:297
 #, kde-format
@@ -847,8 +844,7 @@ msgctxt "@info"
 msgid ""
 "This crash information is not useful enough, do you want to try to improve "
 "it? You will need to install some debugging packages."
-msgstr ""
-"此錯誤資訊不夠詳細，您要試著再提供更詳細的資料嗎？您需要安裝一些除錯套件。"
+msgstr "此錯誤資訊不夠詳細，您要試著再提供更詳細的資料嗎？您需要安裝一些除錯套件。"
 
 #: bugzillaintegration/reportassistantpages_base.cpp:117
 #, kde-format
@@ -1294,8 +1290,7 @@ msgctxt "@info"
 msgid ""
 "The amount of required information is proportional to the quality of the "
 "other information like the backtrace or the reproducibility rate.<br /><br />"
-msgstr ""
-"需要的資訊數量，與其它資訊的品質，如回溯追蹤或重現機率成比例。<br /><br />"
+msgstr "需要的資訊數量，與其它資訊的品質，如回溯追蹤或重現機率成比例。<br /><br />"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:568
 #, kde-format
@@ -1727,8 +1722,7 @@ msgctxt "@info/rich"
 msgid ""
 "Error fetching the bug report list<nl/><message>%1.</message><nl/>Please "
 "wait some time and try again."
-msgstr ""
-"取得錯誤報告清單時發生錯誤<nl/><message>%1</message>。<nl/>請稍後再試一次。"
+msgstr "取得錯誤報告清單時發生錯誤<nl/><message>%1</message>。<nl/>請稍後再試一次。"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:467
 #, kde-format
@@ -1748,8 +1742,7 @@ msgctxt "@label"
 msgid ""
 "The report is going to be <strong>attached</strong> to bug %1. <a href=\"#"
 "\">Cancel</a>"
-msgstr ""
-"此回報將會<strong>附加</strong>到錯誤回報編號第 %1 號。<a href=\"#\">取消</a>"
+msgstr "此回報將會<strong>附加</strong>到錯誤回報編號第 %1 號。<a href=\"#\">取消</a>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:568
 #, kde-format
@@ -1990,8 +1983,7 @@ msgctxt "@info/rich"
 msgid ""
 "Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
 "some time and try again."
-msgstr ""
-"取得錯誤報告清單時發生錯誤<nl/><message>%1</message>。<nl/>請稍後再試一次。"
+msgstr "取得錯誤報告清單時發生錯誤<nl/><message>%1</message>。<nl/>請稍後再試一次。"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:855
 #, kde-format
@@ -2357,7 +2349,7 @@ msgstr "KDE 平台是從源碼編譯的"
 
 #. i18n: ectx: property (text), widget (QLabel, m_crashInfoLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:97
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<i>Note</i>: The crash and system information will be automatically added "
@@ -2366,7 +2358,7 @@ msgctxt "@info"
 msgid ""
 "<i>Note:</i> The crash and system information will be automatically added to "
 "the bug report."
-msgstr "<i>注意</i>：此錯誤與系統的資訊將會自動加入錯誤報告中。"
+msgstr "<i>注意：</i>此錯誤與系統的資訊將會自動加入錯誤報告中。"
 
 #. i18n: ectx: property (text), widget (QLabel, m_userLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:38
@@ -2444,7 +2436,7 @@ msgstr "此小助手會分析錯誤資訊，並引導您回報錯誤。"
 
 #. i18n: ectx: property (text), widget (QLabel, m_warningLabel)
 #: bugzillaintegration/ui/assistantpage_introduction.ui:77
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info note before starting the bug reporting process"
 #| msgid ""
 #| "<p><i>Note</i>: Since communication between you and the developers is "
@@ -2459,8 +2451,8 @@ msgid ""
 "is required for you to agree that developers may contact you.</strong></"
 "p><p>Feel free to close this dialog if you do not accept this.</p>"
 msgstr ""
-"<p><i>注意</i>：為了除錯需要，開發者會需要與您聯繫。因此，要繼續回報此錯誤，"
-"<strong>您必須同意讓開發者與您聯繫。</strong></p> <p>若您不願意讓開發者與您聯"
+"<p><i>注意：</i>為了除錯需要，開發者會需要與您聯繫。因此，要繼續回報此錯誤，"
+"<strong>您必須同意讓開發者與您聯繫。</strong></p><p>若您不願意讓開發者與您聯"
 "繫，請關閉此對話框。</p>"
 
 #: debugpackageinstaller.cpp:64
@@ -2655,10 +2647,10 @@ msgid "The KDE Crash Handler"
 msgstr "KDE 錯誤控制程式"
 
 #: main.cpp:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(C) 2000-2009, The DrKonqi Authors"
 msgid "(C) 2000-2018, The DrKonqi Authors"
-msgstr "(C) 2000-2009，DrKonqi 作者群"
+msgstr "(C) 2000-2018, DrKonqi 作者群"
 
 #: main.cpp:76
 #, kde-format
