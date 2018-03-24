@@ -1,0 +1,420 @@
+# translation of kcm_phonon.po to Chinese Traditional
+# translation of kcm_phonon.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2007, 2008, 2010, 2012.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"PO-Revision-Date: 2012-03-03 10:19+0800\n"
+"Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: audiosetup.cpp:561
+#, kde-format
+msgid "Playback (%1)"
+msgstr "播放 (%1)"
+
+#: audiosetup.cpp:565
+#, kde-format
+msgid "Recording (%1)"
+msgstr "錄製 (%1)"
+
+#: audiosetup.cpp:623
+#, kde-format
+msgid "Independent Devices"
+msgstr "獨立裝置"
+
+#: audiosetup.cpp:652
+#, kde-format
+msgid "KDE Audio Hardware Setup"
+msgstr "KDE 音效硬體設定"
+
+#. i18n: ectx: property (title), widget (QGroupBox, hardwareGroupBox)
+#: audiosetup.ui:18
+#, kde-format
+msgid "Hardware"
+msgstr "硬體"
+
+#. i18n: ectx: property (text), widget (QLabel, profileLabel)
+#: audiosetup.ui:44
+#, kde-format
+msgid "Profile"
+msgstr "設定檔"
+
+#. i18n: ectx: property (text), widget (QLabel, cardLabel)
+#: audiosetup.ui:54
+#, kde-format
+msgid "Sound Card"
+msgstr "音效卡"
+
+#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
+#: audiosetup.ui:67
+#, kde-format
+msgid "Device Configuration"
+msgstr "裝置設定"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: audiosetup.ui:83
+#, kde-format
+msgid "Connector"
+msgstr "連接器"
+
+#. i18n: ectx: property (text), widget (QLabel, deviceLabel)
+#: audiosetup.ui:103
+#, kde-format
+msgid "Sound Device"
+msgstr "音效裝置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
+#: audiosetup.ui:144
+#, kde-format
+msgid "Speaker Placement and Testing"
+msgstr "喇叭放置與測試"
+
+#. i18n: ectx: property (title), widget (QGroupBox, inputGroupBox)
+#: audiosetup.ui:181
+#, kde-format
+msgid "Input Levels"
+msgstr "輸入等級"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr "要套用後端介面變更，您必須先登出再重新登入。"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr "在您的系統上找到了一份 Phonon 後端清單。清單中的順序會決定其使用順序。"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "預設"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "推遲"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "音效播放"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "音效錄製"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "影像錄製"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "不合法"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "測試選取的裝置"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr "定義預設的裝置順序。"
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "預設音效播放裝置喜好設定"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "預設音效錄製裝置喜好設定"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "預設影像錄製裝置喜好設定"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "%1 類別的音效播放裝置喜好設定"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "%1 類別的音效錄製裝置喜好設定"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "%1 類別的影像錄製裝置喜好設定"
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr "將目前顯示的裝置喜好設定清單套用到以下的音效播放類別："
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "預設/未指定類別"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "設定選取的音效輸出裝置失敗"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "您的後端介面可能不支援音效錄製"
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "您的後端介面可能不支援影像錄製"
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "測試 %1 中"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"各種類別的媒體使用案例。每個類別您可以選擇 Phonon 應用程式要使用哪個裝置。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "顯示進階的裝置"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "將目前顯示的裝置清單套用到更多類別。"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "套用裝置清單到..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"在您的系統上找到了裝置，可用於選取的類別。請選擇此應用程式要使用哪一個裝置。"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"此順序為您想要使用的裝置的順序。如果第一個裝置無法使用，Phonon 會試著使用第二"
+"個裝置，依此類推。"
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "測試"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "預設使用選取的裝置"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "此選擇的裝置沒有喜好設定"
+
+#: main.cpp:43
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "Phonon 設定模組"
+
+#: main.cpp:45
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:46
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:47
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:58
+#, kde-format
+msgid "Device Preference"
+msgstr "裝置喜好設定"
+
+#: main.cpp:60
+#, kde-format
+msgid "Backend"
+msgstr "後端"
+
+#: main.cpp:96
+#, kde-format
+msgid "Audio Hardware Setup"
+msgstr "音效硬體設定"
+
+#: testspeakerwidget.cpp:148
+#, kde-format
+msgid "Front Left"
+msgstr "前左"
+
+#: testspeakerwidget.cpp:150
+#, kde-format
+msgid "Front Left of Center"
+msgstr "前左中"
+
+#: testspeakerwidget.cpp:152
+#, kde-format
+msgid "Front Center"
+msgstr "前中"
+
+#: testspeakerwidget.cpp:154
+#, kde-format
+msgid "Mono"
+msgstr "單聲道"
+
+#: testspeakerwidget.cpp:156
+#, kde-format
+msgid "Front Right of Center"
+msgstr "前右中"
+
+#: testspeakerwidget.cpp:158
+#, kde-format
+msgid "Front Right"
+msgstr "前右"
+
+#: testspeakerwidget.cpp:160
+#, kde-format
+msgid "Side Left"
+msgstr "左側"
+
+#: testspeakerwidget.cpp:162
+#, kde-format
+msgid "Side Right"
+msgstr "右側"
+
+#: testspeakerwidget.cpp:164
+#, kde-format
+msgid "Rear Left"
+msgstr "後左"
+
+#: testspeakerwidget.cpp:166
+#, kde-format
+msgid "Rear Center"
+msgstr "後中"
+
+#: testspeakerwidget.cpp:168
+#, kde-format
+msgid "Rear Right"
+msgstr "後右"
+
+#: testspeakerwidget.cpp:170
+#, kde-format
+msgid "Subwoofer"
+msgstr "重低音"
+
+#: testspeakerwidget.cpp:174
+#, kde-format
+msgid "Unknown Channel"
+msgstr "未知的聲道"
+
+#~ msgid "Speaker Setup"
+#~ msgstr "喇叭設定"
+
+#~ msgid "Audio Output"
+#~ msgstr "聲音輸出"
+
+#~ msgid "Audio Capture"
+#~ msgstr "聲音擷取"
+
+#~ msgid "Video Capture"
+#~ msgstr "影像擷取"
+
+#~ msgid "Default Audio Output Device Preference"
+#~ msgstr "預設音效輸出裝置喜好設定"
+
+#~ msgid "Audio Output Device Preference for the '%1' Category"
+#~ msgstr "%1 類別的音效輸出裝置喜好設定"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Output"
+#~ msgstr "輸出"
+
+#~ msgid "Sound Output"
+#~ msgstr "聲音輸出"
+
+#~ msgid "Play a test sound on the selected device"
+#~ msgstr "在選取的裝置上播放測試音效"

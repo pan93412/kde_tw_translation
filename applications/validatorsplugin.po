@@ -1,0 +1,346 @@
+# translation of validatorsplugin.po to Chinese Traditional
+# Copyright (C) 2006, 2007 Free Software Foundation, Inc.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: validatorsplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:06+0100\n"
+"PO-Revision-Date: 2011-05-12 13:27+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: internalvalidator.ui:18
+#, kde-format
+msgid "Accessibility validation level:"
+msgstr "可存取度驗證等級："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:26
+#, kde-format
+msgid "0 (No check)"
+msgstr "0（不檢查）"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:31
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:36
+#, kde-format
+msgid "2"
+msgstr "2"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:41
+#, kde-format
+msgid "3"
+msgstr "3"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, runAfterLoading)
+#: internalvalidator.ui:49
+#, kde-format
+msgid ""
+"If this option is enabled, the internal HTML validator is executed after a "
+"webpage has been loaded."
+msgstr "若開啟此選項，內部的 HTML 驗證器會在網頁載入後執行。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, runAfterLoading)
+#: internalvalidator.ui:52
+#, kde-format
+msgid "Run after loading"
+msgstr "載入後執行"
+
+#: plugin_validators.cpp:126
+#, kde-format
+msgid "&Validate Web Page"
+msgstr "驗證網頁 (&V)"
+
+#: plugin_validators.cpp:132
+#, kde-format
+msgid "Validate HTML (by URI)"
+msgstr "驗證 HTML（依網址）"
+
+#: plugin_validators.cpp:136
+#, kde-format
+msgid "Validate HTML (by Upload)"
+msgstr "驗證 HTML（依上傳）"
+
+#: plugin_validators.cpp:140
+#, kde-format
+msgid "Validate CSS (by URI)"
+msgstr "驗證 CSS（依網址）"
+
+#: plugin_validators.cpp:144
+#, kde-format
+msgid "Validate CSS (by Upload)"
+msgstr "驗證 CSS（依上傳）"
+
+#: plugin_validators.cpp:149
+#, kde-format
+msgid "Validate &Links"
+msgstr "驗證連結 (&L)"
+
+#: plugin_validators.cpp:155
+#, kde-format
+msgid "Validate Page"
+msgstr "驗證頁面"
+
+#: plugin_validators.cpp:159
+#, kde-format
+msgid "View Validator Report"
+msgstr "檢視驗證報告"
+
+#: plugin_validators.cpp:166
+#, kde-format
+msgid "C&onfigure Validator..."
+msgstr "設定 Validator...(&O)"
+
+#: plugin_validators.cpp:314 validatorsdialog.cpp:49
+#, kde-format
+msgid "Remote Validation"
+msgstr "遠端驗證"
+
+#: plugin_validators.cpp:321
+#, kde-format
+msgid "Local Validation"
+msgstr "本地驗證"
+
+#: plugin_validators.cpp:358 plugin_validators.cpp:377
+#: plugin_validators.cpp:383 plugin_validators.cpp:393
+#: plugin_validators.cpp:401
+#, kde-format
+msgid "1 error"
+msgid_plural "%1 errors"
+msgstr[0] "%1 個錯誤"
+
+#: plugin_validators.cpp:359 plugin_validators.cpp:378
+#: plugin_validators.cpp:384 plugin_validators.cpp:394
+#: plugin_validators.cpp:402
+#, kde-format
+msgid "1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] "%1 個警告"
+
+#: plugin_validators.cpp:360 plugin_validators.cpp:379
+#: plugin_validators.cpp:395
+#, kde-format
+msgid "1 accessibility warning"
+msgid_plural "%1 accessibility warnings"
+msgstr[0] "%1 個可存取度警告"
+
+#: plugin_validators.cpp:362
+#, kde-format
+msgctxt "%1 is the error count string, %2 the warning count string"
+msgid "%1, %2"
+msgstr "%1，%2"
+
+#: plugin_validators.cpp:364
+#, kde-format
+msgid "HTML tidy results:"
+msgstr "HTML tidy 結果："
+
+#: plugin_validators.cpp:376
+#, kde-format
+msgctxt ""
+"%1 is the error count string, %2 the warning count string, %3 the "
+"accessibility warning string"
+msgid "Page: %1, %2, %3"
+msgstr "頁面：%1，%2，%3"
+
+#: plugin_validators.cpp:382
+#, kde-format
+msgctxt "%1 is the error count string, %2 the warning count string"
+msgid "Page: %1, %2"
+msgstr "頁面：%1，%2"
+
+#: plugin_validators.cpp:391
+#, kde-format
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string, %4 the accessibility warning string"
+msgid "Frame '%1': %2, %3, %4"
+msgstr "框架 %1：%2，%3，%4"
+
+#: plugin_validators.cpp:399
+#, kde-format
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string"
+msgid "Frame '%1': %2, %3"
+msgstr "框架 %1：%2，%3"
+
+#: plugin_validators.cpp:447
+#, kde-format
+msgid ""
+"<qt>The selected URL cannot be verified because it contains a password. "
+"Sending this URL to <b>%1</b> would put the security of <b>%2</b> at risk.</"
+"qt>"
+msgstr ""
+"<qt>所選取的網址無法檢查，因為包含密碼。將此網址所到 <b>%1</b> 會有 %2 安全上"
+"的風險。</qt>"
+
+#: plugin_validators.cpp:519
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot Validate Source"
+msgstr "無法驗證原始碼"
+
+#: plugin_validators.cpp:520
+#, kde-format
+msgid "You cannot validate anything except web pages with this plugin."
+msgstr "此外掛程式只能驗證網頁。"
+
+#: plugin_validators.cpp:530
+#, kde-format
+msgctxt "@title:window"
+msgid "Malformed URL"
+msgstr "錯誤的網址"
+
+#: plugin_validators.cpp:531
+#, kde-format
+msgid "The URL you entered is not valid, please correct it and try again."
+msgstr "您所輸入的網址不合法，請檢查並重新輸入。"
+
+#: plugin_validators.cpp:560
+#, kde-format
+msgid "Validation"
+msgstr "驗證"
+
+#. i18n: ectx: Menu (tools)
+#: plugin_validators.rc:4
+#, kde-format
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: plugin_validators.rc:8
+#, kde-format
+msgid "Extra Toolbar"
+msgstr "額外工具列"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: remotevalidators.ui:16
+#, kde-format
+msgid "HTML/XML Validator"
+msgstr "HTML/XML 驗證器"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: remotevalidators.ui:22 remotevalidators.ui:71 remotevalidators.ui:120
+#, kde-format
+msgid "URL:"
+msgstr "網址："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: remotevalidators.ui:42 remotevalidators.ui:91
+#, kde-format
+msgid "Upload:"
+msgstr "上傳："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: remotevalidators.ui:65
+#, kde-format
+msgid "CSS Validator"
+msgstr "CSS 驗證器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: remotevalidators.ui:114
+#, kde-format
+msgid "Link Validator"
+msgstr "連結驗證器"
+
+#: reportdialog.cpp:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Validation Report"
+msgstr "驗證報告"
+
+#: reportdialog.cpp:81
+#, kde-format
+msgctxt "Validation status"
+msgid "Error"
+msgstr "錯誤"
+
+#: reportdialog.cpp:88
+#, kde-format
+msgctxt "Validation status"
+msgid "Warning"
+msgstr "警告"
+
+#: reportdialog.cpp:95
+#, kde-format
+msgctxt "Validation status"
+msgid "Accessibility warning"
+msgstr "可存取度警告"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:34
+#, kde-format
+msgid "Frame"
+msgstr "框架"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:39
+#, kde-format
+msgid "Row"
+msgstr "列"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:44
+#, kde-format
+msgid "Column"
+msgstr "欄"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:49
+#, kde-format
+msgid "Message"
+msgstr "訊息"
+
+#: validatorsdialog.cpp:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Validator Plugin"
+msgstr "設定驗證器外掛程式"
+
+#: validatorsdialog.cpp:42
+#, kde-format
+msgid "Internal Validation"
+msgstr "內部驗證"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Validate Web Page"
+#~ msgstr "驗證網頁"
+
+#~ msgid "Configure Validating Servers"
+#~ msgstr "設定驗證伺服器"
+
+#~ msgid "Upload Not Possible"
+#~ msgstr "無法上傳"
+
+#~ msgid "Validating links is not possible for local files."
+#~ msgstr "無法驗證本地端檔案。"
+
+#~ msgid "Configure"
+#~ msgstr "設定"

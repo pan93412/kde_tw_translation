@@ -1,0 +1,232 @@
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-08 05:36+0000\n"
+"PO-Revision-Date: 2016-11-14 20:41+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: config/appearance/kcm_ktp_chat_appearance.desktop:14
+msgctxt "Name"
+msgid "Chat Window Appearance"
+msgstr "聊天視窗外觀"
+
+#: config/appearance/kcm_ktp_chat_appearance.desktop:61
+msgctxt "Comment"
+msgid "Choose a Style for your Chat Window and customize it"
+msgstr "選擇並調整您的聊天室視窗樣式。"
+
+#: config/behavior/kcm_ktp_chat_behavior.desktop:14
+msgctxt "Name"
+msgid "Chat Tab Behavior"
+msgstr "聊天分頁行為"
+
+#: config/messages/kcm_ktp_chat_messages.desktop:2
+msgctxt "Name"
+msgid "Plugins"
+msgstr "外掛程式"
+
+#: config/messages/kcm_ktp_chat_messages.desktop:53
+msgctxt "Comment"
+msgid "How to deal with extra information obtained from messages"
+msgstr "如何處理訊息中取得的額外資訊"
+
+#: config/otr/kcm_ktp_chat_otr.desktop:13
+msgctxt "Comment"
+msgid "Encrypt chat sessions with Off-The-Record encryption"
+msgstr "使用私下加密（Off-The-Record）來加密聊天階段"
+
+#: config/otr/kcm_ktp_chat_otr.desktop:51
+#: filters/otr/ktptextui_message_filter_otr.desktop.cmake:2
+msgctxt "Name"
+msgid "OTR"
+msgstr "OTR"
+
+#: filters/bugzilla/ktptextui_message_filter_bugzilla.desktop.cmake:3
+msgctxt "Name"
+msgid "Bugzilla Information"
+msgstr "Bugzilla 資訊"
+
+#: filters/bugzilla/ktptextui_message_filter_bugzilla.desktop.cmake:48
+msgctxt "Comment"
+msgid ""
+"When receiving a link to a bug on bugzilla show additional information such "
+"as the title and status"
+msgstr "接收到 bugzilla 上的連結時，顯示額外的資訊，如標題與狀態等"
+
+#: filters/emoticons/kcm_ktptextui_message_filter_emoticons.desktop:9
+#: filters/emoticons/ktptextui_message_filter_emoticons.desktop.cmake:2
+msgctxt "Name"
+msgid "Emoticons"
+msgstr "表情圖示"
+
+#: filters/emoticons/ktptextui_message_filter_emoticons.desktop.cmake:51
+msgctxt "Comment"
+msgid "Show emoticons (smiley faces) inside the chat"
+msgstr "在聊天內顯示表情圖示"
+
+#: filters/formatting/ktptextui_message_filter_formatting.desktop.cmake:3
+msgctxt "Name"
+msgid "Text Formatting"
+msgstr "文字格式"
+
+#: filters/formatting/ktptextui_message_filter_formatting.desktop.cmake:49
+msgctxt "Comment"
+msgid ""
+"Use /, _, * and - to make text italic, underlined, bold or strikeout "
+"respectively"
+msgstr "用 /, _, * 與 - 來顯示文字的斜體、底線、粗體與刪除線。"
+
+#: filters/geopoint/ktptextui_message_filter_geopoint.desktop.cmake:16
+msgctxt "Name"
+msgid "Geopoint Preview"
+msgstr "Geopoint 預覽"
+
+#: filters/geopoint/ktptextui_message_filter_geopoint.desktop.cmake:50
+msgctxt "Comment"
+msgid "Show geo URI on a map view."
+msgstr "顯示在地圖檢示上顯示 geo URI。"
+
+#: filters/highlight/ktptextui_message_filter_highlight.desktop.cmake:17
+msgctxt "Name"
+msgid "Highlight"
+msgstr "高亮度"
+
+#: filters/highlight/ktptextui_message_filter_highlight.desktop.cmake:63
+msgctxt "Comment"
+msgid ""
+"If any incoming messages contain your nickname, it will highlight them in red"
+msgstr "如果傳送進來的訊息包含您的暱稱，則會以紅色突顯"
+
+#: filters/images/ktptextui_message_filter_images.desktop.cmake:2
+msgctxt "Name"
+msgid "Image Preview"
+msgstr "影像預覽"
+
+#: filters/images/ktptextui_message_filter_images.desktop.cmake:50
+msgctxt "Comment"
+msgid "Embed a thumbnail of any image URL sent in a chat"
+msgstr "聊天內傳送影像網址時嵌入其縮圖"
+
+#: filters/latex/kcm_ktptextui_message_filter_latex.desktop:9
+msgctxt "Name"
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: filters/latex/ktptextui_message_filter_latex.desktop.cmake:17
+msgctxt "Name"
+msgid "LaTeX Renderer"
+msgstr "LaTeX 成像器"
+
+#: filters/latex/ktptextui_message_filter_latex.desktop.cmake:61
+msgctxt "Comment"
+msgid ""
+"If incoming messages contain LaTeX between $$, it will render it directly "
+"into the chat."
+msgstr "如果進來的訊息包含在 $$ 間的 LaTex 語法，它會直接在聊天視窗中成像。"
+
+#: filters/otr/ktptextui_message_filter_otr.desktop.cmake:41
+msgctxt "Comment"
+msgid "If a message is an OTR message, it will not be shown"
+msgstr "如果是私下加密（Off The Record）的訊息，則不會顯示"
+
+#: filters/searchexpansion/ktptextui_message_filter_searchexpansion.desktop.cmake:2
+msgctxt "Name"
+msgid "Web Shortcuts"
+msgstr "網頁捷徑"
+
+#: filters/searchexpansion/ktptextui_message_filter_searchexpansion.desktop.cmake:53
+msgctxt "Comment"
+msgid ""
+"Expand a KDE-shortened URI into a URL (i.e. typing wp:KDE will translate to "
+"http://en.wikipedia.org/wiki/KDE)"
+msgstr ""
+"展開 KDE 短網址變成實際網址（例：輸入 wp:KDE 會轉變成 http://en.wikipedia."
+"org/wiki/KDE）"
+
+#: filters/texttospeech/ktptextui_message_filter_tts.desktop.cmake:2
+msgctxt "Name"
+msgid "Text To Speech"
+msgstr "文字轉語音"
+
+#: filters/texttospeech/ktptextui_message_filter_tts.desktop.cmake:48
+msgctxt "Comment"
+msgid "Read out incoming messages using text-to-speech service"
+msgstr "將進來的訊息用文字轉語音的服務唸出來"
+
+#: filters/urlexpansion/ktptextui_message_filter_urlexpansion.desktop.cmake:3
+msgctxt "Name"
+msgid "Short URLs"
+msgstr "短網址"
+
+#: filters/urlexpansion/ktptextui_message_filter_urlexpansion.desktop.cmake:46
+msgctxt "Comment"
+msgid "Shows the actual URL to which a shortened URL is redirecting to"
+msgstr "顯示短網址將導向的實際網址"
+
+#: filters/youtube/ktptextui_message_filter_youtube.desktop.cmake:2
+msgctxt "Name"
+msgid "YouTube Preview"
+msgstr "YouTube 預覽"
+
+#: filters/youtube/ktptextui_message_filter_youtube.desktop.cmake:47
+msgctxt "Comment"
+msgid ""
+"If any messages contains a link to a YouTube video, it will embed a preview "
+"in the chat"
+msgstr "如果任何訊息包含到 YouTube 影像的連結，則會內嵌一個影像預覽"
+
+#: lib/ktptxtui_message_filter.desktop:4
+msgctxt "Comment"
+msgid "Telepathy Text-Ui Message Filter"
+msgstr "Telepathy 文字介面訊息過濾器"
+
+#: logviewer/config/kcm_ktp_logviewer_behavior.desktop:14
+msgctxt "Name"
+msgid "LogViewer Behavior"
+msgstr "紀錄檢視器行為"
+
+#: logviewer/org.kde.ktplogviewer.desktop:2
+msgctxt "Name"
+msgid "KDE IM Log Viewer"
+msgstr "KDE 即時訊息紀錄檢視器"
+
+#: logviewer/org.kde.ktplogviewer.desktop:50
+msgctxt "GenericName"
+msgid "KDE Instant Messenger Log Viewer"
+msgstr "KDE 的即時訊息紀錄檢視器"
+
+#: logviewer/org.kde.ktplogviewer.desktop:97
+msgctxt "Comment"
+msgid "Displays your KDE Instant Messenger logs"
+msgstr "顯示您 KDE 即時訊息紀錄"
+
+#~ msgctxt "Name"
+#~ msgid "Quick Chat"
+#~ msgstr "快速聊天"
+
+#~ msgctxt "Comment"
+#~ msgid "Simple chats from your workspace"
+#~ msgstr "從您的工作空間發起聊天"
+
+#~ msgctxt "Comment"
+#~ msgid "//TODO:."
+#~ msgstr "//TODO:."
+
+#~ msgctxt "Name"
+#~ msgid "Multi-Chat Widget"
+#~ msgstr "多重聊天元件"
+
+#~ msgctxt "Comment"
+#~ msgid "This is a plasmoid that behaves like facebook chat or google talk."
+#~ msgstr "這個元件提供類似 facebook 聊天或是 google talk 的功能。"

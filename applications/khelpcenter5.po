@@ -1,0 +1,749 @@
+# translation of khelpcenter.po to Chinese Traditional
+# Traditional Chinese Translation of khelpcenter
+# Jing-Jong Shyue <shyue@sonoma.com.tw>
+#
+# Chih-Wei Huang <cwhuang@linux.org.tw>, 2001.
+# Paladin Liu <paladin@ms1.hinet.net>, 2002.
+# Stanley Wong <stanley18fan0k@yahoo.com.hk>, 2005.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2009.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2012, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: khelpcenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-07-25 03:09+0200\n"
+"PO-Revision-Date: 2016-07-09 17:33+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Paladin Liu, Stanley Wong, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "paladin@ms1.hinet.net, stanley18fan0k@yahoo.com.hk, s8321414@gmail.com"
+
+#: application.cpp:41
+#, kde-format
+msgid "Documentation to open"
+msgstr "要開啟的文件"
+
+#: application.cpp:90 application.cpp:92
+#, kde-format
+msgid "Help Center"
+msgstr "輔助中心"
+
+#: application.cpp:94
+#, kde-format
+msgid "(c) 1999-2011, The KHelpCenter developers"
+msgstr "(c) 1999-2011, KHelpCenter 開發人員"
+
+#: application.cpp:100
+#, kde-format
+msgid "Original Author"
+msgstr "原始作者"
+
+#: application.cpp:101
+#, kde-format
+msgid "Info page support"
+msgstr "Info Page 支援"
+
+#: docmetainfo.cpp:50
+#, kde-format
+msgid "Top-Level Documentation"
+msgstr "頂級文件"
+
+#: docmetainfo.cpp:98
+#, kde-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: docmetainfo.cpp:134
+#, kde-format
+msgctxt "Describes documentation entries that are in English"
+msgid "English"
+msgstr "英語"
+
+#: fontdialog.cpp:51
+#, kde-format
+msgid "Font Configuration"
+msgstr "字型組態"
+
+#: fontdialog.cpp:78
+#, kde-format
+msgid "Sizes"
+msgstr "大小"
+
+#: fontdialog.cpp:85
+#, kde-format
+msgctxt "The smallest size a will have"
+msgid "M&inimum font size:"
+msgstr "最小字型大小(&I)："
+
+#: fontdialog.cpp:92
+#, kde-format
+msgctxt "The normal size a font will have"
+msgid "M&edium font size:"
+msgstr "適中字型大小(&I)："
+
+#: fontdialog.cpp:102
+#, kde-format
+msgid "Fonts"
+msgstr "字型"
+
+#: fontdialog.cpp:109
+#, kde-format
+msgid "S&tandard font:"
+msgstr "標準字型(&T)："
+
+#: fontdialog.cpp:115
+#, kde-format
+msgid "F&ixed font:"
+msgstr "固定字型(&I)："
+
+#: fontdialog.cpp:121
+#, kde-format
+msgid "S&erif font:"
+msgstr "襯線字型(&E)："
+
+#: fontdialog.cpp:127
+#, kde-format
+msgid "S&ans serif font:"
+msgstr "無襯線字型(&A)："
+
+#: fontdialog.cpp:133
+#, kde-format
+msgid "&Italic font:"
+msgstr "斜體字型(&I)："
+
+#: fontdialog.cpp:139
+#, kde-format
+msgid "&Fantasy font:"
+msgstr "&Fantasy 字型："
+
+#: fontdialog.cpp:148
+#, kde-format
+msgid "Encoding"
+msgstr "編碼"
+
+#: fontdialog.cpp:155
+#, kde-format
+msgid "&Default encoding:"
+msgstr "預設編碼(&D)："
+
+#: fontdialog.cpp:160 fontdialog.cpp:228
+#, kde-format
+msgid "Use Language Encoding"
+msgstr "使用語言編碼"
+
+#: fontdialog.cpp:164
+#, kde-format
+msgid "&Font size adjustment:"
+msgstr "字型大小調整(&F)："
+
+#: glossary.cpp:86
+#, kde-format
+msgid "By Topic"
+msgstr "以主題"
+
+#: glossary.cpp:90 infotree.cpp:88
+#, kde-format
+msgid "Alphabetically"
+msgstr "字母順序"
+
+#: glossary.cpp:146
+#, kde-format
+msgid "Rebuilding glossary cache..."
+msgstr "正在重建快取..."
+
+#: glossary.cpp:203
+#, kde-format
+msgid "Rebuilding cache... done."
+msgstr "正在重建快取...完成。"
+
+#: grantleeformatter.cpp:117
+#, kde-format
+msgctxt "%1 is a glossary term"
+msgid "KDE Glossary: %1"
+msgstr "KDE 辭典：%1"
+
+#: grantleeformatter.cpp:118
+#, kde-format
+msgid "KDE Glossary"
+msgstr "KDE 辭典"
+
+#: grantleeformatter.cpp:122
+#, kde-format
+msgid "See also: %1"
+msgstr "另見：%1"
+
+#: grantleeformatter.cpp:143
+#, kde-format
+msgid "Search Results"
+msgstr "搜尋結果"
+
+#: grantleeformatter.cpp:144 searchengine.cpp:257
+#, kde-format
+msgid "Search Results for '%1':"
+msgstr "'%1' 的搜尋結果："
+
+#: infotree.cpp:91
+#, kde-format
+msgid "By Category"
+msgstr "以範疇"
+
+#. i18n: ectx: label, entry, group (Search)
+#: khelpcenter.kcfg:31
+#, kde-format
+msgid "Path to index directory."
+msgstr "索引目錄的路徑："
+
+#. i18n: ectx: whatsthis, entry, group (Search)
+#: khelpcenter.kcfg:32
+#, kde-format
+msgid "Path to directory containing search indices."
+msgstr "包含搜尋索引的目錄的路徑。"
+
+#. i18n: ectx: label, entry, group (Layout)
+#: khelpcenter.kcfg:46
+#, kde-format
+msgid "Currently visible navigator tab"
+msgstr "目前可見的導航頁籤"
+
+#. i18n: ectx: Menu (edit)
+#: khelpcenterui.rc:5
+#, kde-format
+msgid "&Edit"
+msgstr "編輯(&E)"
+
+#. i18n: ectx: Menu (view)
+#: khelpcenterui.rc:13
+#, kde-format
+msgid "&View"
+msgstr "檢視(&V)"
+
+#. i18n: ectx: Menu (go)
+#: khelpcenterui.rc:18
+#, kde-format
+msgid "&Go"
+msgstr "到(&G)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: khelpcenterui.rc:35
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: mainwindow.cpp:74
+#, kde-format
+msgid "Search Error Log"
+msgstr "搜尋錯誤記錄"
+
+#: mainwindow.cpp:134
+#, kde-format
+msgid "Preparing Index"
+msgstr "準備索引中"
+
+#: mainwindow.cpp:184
+#, kde-format
+msgid "Ready"
+msgstr "備妥"
+
+#: mainwindow.cpp:235
+#, kde-format
+msgid "Previous Page"
+msgstr "上一頁"
+
+#: mainwindow.cpp:237
+#, kde-format
+msgid "Moves to the previous page of the document"
+msgstr "移至文件的上一頁"
+
+#: mainwindow.cpp:241
+#, kde-format
+msgid "Next Page"
+msgstr "下一頁"
+
+#: mainwindow.cpp:243
+#, kde-format
+msgid "Moves to the next page of the document"
+msgstr "移至文件的下一頁"
+
+#: mainwindow.cpp:248
+#, kde-format
+msgid "Table of &Contents"
+msgstr "主目錄(&C)"
+
+#: mainwindow.cpp:249
+#, kde-format
+msgid "Table of contents"
+msgstr "主目錄"
+
+#: mainwindow.cpp:250
+#, kde-format
+msgid "Go back to the table of contents"
+msgstr "返回主目錄"
+
+#: mainwindow.cpp:256
+#, kde-format
+msgid "&Last Search Result"
+msgstr "上一個搜尋結果 (&L)"
+
+#: mainwindow.cpp:274
+#, kde-format
+msgid "Configure Fonts..."
+msgstr "設定字型..."
+
+#: mainwindow.cpp:278
+#, kde-format
+msgid "Increase Font Sizes"
+msgstr "放大字型"
+
+#: mainwindow.cpp:283
+#, kde-format
+msgid "Decrease Font Sizes"
+msgstr "縮小字型"
+
+#: mainwindow.cpp:299
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Bookmarks"
+msgstr "書籤(&B)"
+
+#: navigator.cpp:91
+#, kde-format
+msgid "&Search"
+msgstr "搜尋(&S)"
+
+#: navigator.cpp:143
+#, kde-format
+msgid "&Contents"
+msgstr "內容(&C)"
+
+#: navigator.cpp:153
+#, kde-format
+msgid "Search Options"
+msgstr "搜尋設定"
+
+#: navigator.cpp:161
+#, kde-format
+msgid "G&lossary"
+msgstr "辭典(&L)"
+
+#: navigator.cpp:434
+#, kde-format
+msgid "Start Page"
+msgstr "開始頁"
+
+#: navigator.cpp:435
+#, kde-format
+msgid "KDE Help Center"
+msgstr "KDE 輔助中心"
+
+#: navigator.cpp:518
+#, kde-format
+msgid "Unable to run search program."
+msgstr "無法執行搜尋程式。"
+
+#: navigator.cpp:611
+#, kde-format
+msgid "Updating search index..."
+msgstr "正在更新搜尋索引..."
+
+#: navigator.cpp:622
+#, kde-format
+msgid "Updating search index... done."
+msgstr "正在更新搜尋索引.... 完成。"
+
+#: searchengine.cpp:52
+#, kde-format
+msgid "Error: No document type specified."
+msgstr "錯誤：無指定的文件類型。"
+
+#: searchengine.cpp:54
+#, kde-format
+msgid "Error: No search handler for document type '%1'."
+msgstr "錯誤：無文件類型 '%1' 的搜尋處理器。"
+
+#: searchengine.cpp:227
+#, kde-format
+msgid "No valid search handler found."
+msgstr "找不到有效的搜尋處理器。"
+
+#: searchhandler.cpp:52
+#, kde-format
+msgid "Error executing search command '%1'."
+msgstr "執行搜尋指令 '%1' 時發生錯誤。"
+
+#: searchhandler.cpp:95
+#, kde-format
+msgid "Error: %1"
+msgstr "錯誤：%1"
+
+#: searchhandler.cpp:164 searchhandler.cpp:169
+#, kde-format
+msgid "'%1' not found, check your installation"
+msgstr "找不到 %1。請檢查您的安裝"
+
+#: searchhandler.cpp:174
+#, kde-format
+msgid "'%1' not found, install the package containing it"
+msgstr "找不到 %1，請安裝相關套件"
+
+#: searchhandler.cpp:225
+#, kde-format
+msgid "No search command or URL specified."
+msgstr "沒有指定搜尋指令或 URL。"
+
+#: searchwidget.cpp:55
+#, kde-format
+msgid "and"
+msgstr "且"
+
+#: searchwidget.cpp:56
+#, kde-format
+msgid "or"
+msgstr "或"
+
+#: searchwidget.cpp:58
+#, kde-format
+msgid "&Method:"
+msgstr "方式 (&M)："
+
+#: searchwidget.cpp:74
+#, kde-format
+msgid "Max. &results:"
+msgstr "最大傳回筆數(&R)："
+
+#: searchwidget.cpp:90
+#, kde-format
+msgid "&Scope selection:"
+msgstr "選取範圍："
+
+#: searchwidget.cpp:98
+#, kde-format
+msgid "Scope"
+msgstr "範圍"
+
+#: searchwidget.cpp:341
+#, kde-format
+msgctxt "Label for searching documentation using custom (user defined) scope"
+msgid "Custom"
+msgstr "自訂"
+
+#: searchwidget.cpp:343
+#, kde-format
+msgctxt "Label for searching documentation using default search scope"
+msgid "Default"
+msgstr "預設"
+
+#: searchwidget.cpp:345
+#, kde-format
+msgctxt "Label for searching documentation in all subsections"
+msgid "All"
+msgstr "全部"
+
+#: searchwidget.cpp:347
+#, kde-format
+msgctxt "Label for scope that deselects all search subsections"
+msgid "None"
+msgstr "無"
+
+#: searchwidget.cpp:349
+#, kde-format
+msgctxt "Label for Unknown search scope, that should never appear"
+msgid "unknown"
+msgstr "未知"
+
+#: view.cpp:227
+#, kde-format
+msgid "Copy Link Address"
+msgstr "複製連結位址"
+
+#: view.cpp:311
+#, kde-format
+msgid ""
+"<p>Read the topic documentation in this window.<br /><br />Press <b>Space</"
+"b>/<b>Shift+Space</b> to scroll, <b>%1</b> to find something, <b>Tab</b>/"
+"<b>Shift+Tab</b> to jump, and <b>Enter</b> to follow.</p>"
+msgstr ""
+"<p>在此視窗中閱讀主題文件。<br /><br />按下 <b>Space</b>/<b>Shift+Space</b> "
+"來捲動，<b>%1</b> 來尋找東西，<b>Tab</b>/<b>Shift+Tab</b> 跳躍，以及 "
+"<b>Enter</b> 來跟隨。</p>"
+
+#~ msgid "Handler"
+#~ msgstr "處理器"
+
+#~ msgid "Unable to initialize SearchHandler from file '%1'."
+#~ msgstr "無法從檔案 '%1' 初始化搜尋處理器(SearchHandler)。"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid ""
+#~ "Unable to show selected glossary entry: unable to open file 'glossary."
+#~ "html.in'!"
+#~ msgstr "無法顯示選擇的辭典項目：無法開啟檔案 'glossary.html.in'！"
+
+#~ msgid "ht://dig"
+#~ msgstr "ht://dig"
+
+#~ msgid ""
+#~ "The fulltext search feature makes use of the ht://dig HTML search engine."
+#~ msgstr "全文搜尋的功能使用了 ht://dig HTML 搜尋引擎。"
+
+#~ msgid "Information about where to get the ht://dig package."
+#~ msgstr "關於如何取得 ht://dig 套件的訊息。"
+
+#~ msgid "You can get ht://dig at the ht://dig home page"
+#~ msgstr "您可以在 ht//dig 首頁取得 ht://dig。"
+
+#~ msgid "Program Locations"
+#~ msgstr "程式所在位置"
+
+#~ msgid "htsearch:"
+#~ msgstr "搜尋："
+
+#~ msgid "Enter the URL of the htsearch CGI program."
+#~ msgstr "輸入 htsearch CGI 程式的 URL。"
+
+#~ msgid "Indexer:"
+#~ msgstr "索引程式："
+
+#~ msgid "Enter the path to your htdig indexer program here."
+#~ msgstr "在這裡輸入您 htdig 索引程式的所在路徑。"
+
+#~ msgid "htdig database:"
+#~ msgstr "htdig 資料庫："
+
+#~ msgid "Enter the path to the htdig database folder."
+#~ msgstr "輸入 htdig 資料庫目錄的所在路徑。"
+
+#~ msgid "Change Index Folder"
+#~ msgstr "更改索引目錄："
+
+#~ msgid "Index folder:"
+#~ msgstr "索引目錄："
+
+#~ msgid "Build Search Indices"
+#~ msgstr "建立搜尋索引"
+
+#~ msgid "Index creation log:"
+#~ msgstr "索引建立記錄檔："
+
+#~ msgctxt ""
+#~ "Label for button to close search index progress dialog after successful "
+#~ "completion"
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Index creation finished."
+#~ msgstr "完成建立索引"
+
+#~ msgctxt "Label for stopping search index generation before completion"
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "Details <<"
+#~ msgstr "詳細資料 <<"
+
+#~ msgid "Details >>"
+#~ msgstr "詳細資料 >>"
+
+#~ msgid "Build Search Index"
+#~ msgstr "建立搜尋索引"
+
+#~ msgid "Build Index"
+#~ msgstr "建立索引"
+
+#~ msgid ""
+#~ "To be able to search a document, a search\n"
+#~ "index needs to exist. The status column of the list below shows whether "
+#~ "an index\n"
+#~ "for a document exists.\n"
+#~ msgstr ""
+#~ "要搜尋一份文件，就需一份存在的搜尋索引。\n"
+#~ "下面清單中的狀態欄會顯示該文件的索引是否存在。\n"
+
+#~ msgid ""
+#~ "To create an index, check the box in the list and press the\n"
+#~ "\"Build Index\" button.\n"
+#~ msgstr "要建立一份索引，請選取清單中的方格，然後按下\"建立索引\"。\n"
+
+#~ msgid "Search Scope"
+#~ msgstr "搜尋範圍"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Change..."
+#~ msgstr "更改..."
+
+#~ msgid ""
+#~ "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
+#~ msgstr "<qt>目錄 <b>%1</b> 不存在；無法建立索引。</qt>"
+
+#~ msgctxt "Describes the status of a documentation index that is present"
+#~ msgid "OK"
+#~ msgstr "確定"
+
+#~ msgctxt "Describes the status of a documentation index that is missing"
+#~ msgid "Missing"
+#~ msgstr "索引遺失"
+
+#~ msgctxt ""
+#~ " Generic prefix label for error messages when creating documentation "
+#~ "index, first arg is the document's identifier, second is the document's "
+#~ "name"
+#~ msgid "Document '%1' (%2):\n"
+#~ msgstr "文件 %1（%2）：\n"
+
+#~ msgid "No document type."
+#~ msgstr "無文件類型。"
+
+#~ msgid "No search handler available for document type '%1'."
+#~ msgstr "無對文件類型 '%1' 可用的搜尋處理器。"
+
+#~ msgid "No indexing command specified for document type '%1'."
+#~ msgstr "無對文件類型 '%1' 指定的索引指令。"
+
+#~ msgid "Failed to build index."
+#~ msgstr "建立索引失敗。"
+
+#~ msgid ""
+#~ "Error executing indexing build command:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "執行建立索引的指令時發生錯誤：\n"
+#~ "%1"
+
+#~ msgid "Unable to start command '%1'."
+#~ msgstr "無法啟動指令 '%1'。"
+
+#~ msgid "KHelpCenter Index Builder"
+#~ msgstr "KHelpCenter 索引建立器"
+
+#~ msgid "Cornelius Schumacher"
+#~ msgstr "Cornelius Schumacher"
+
+#~ msgid "Document to be indexed"
+#~ msgstr "要建立索引的文件"
+
+#~ msgid "Index directory"
+#~ msgstr "索引目錄："
+
+#~ msgid ""
+#~ "A search index does not yet exist. Do you want to create the index now?"
+#~ msgstr "搜尋索引並不存在。您要建立一個搜尋索引嗎？"
+
+#~ msgid "Create"
+#~ msgstr "建立"
+
+#~ msgid "Do Not Create"
+#~ msgstr "不建立"
+
+#~ msgid "Build Search &Index..."
+#~ msgstr "建立搜尋索引(&I)..."
+
+#~ msgid "The KDE Help Center"
+#~ msgstr "KDE 輔助中心"
+
+#~ msgid "(c) 2003, The KHelpCenter developers"
+#~ msgstr "(c) 2003, KHelpCenter 開發人員"
+
+#~ msgid "Details &gt;&gt;"
+#~ msgstr "詳細資料 &gt;&gt;"
+
+#~ msgid "Frerich Raabe"
+#~ msgstr "Frerich Raabe"
+
+#~ msgid "Matthias Elter"
+#~ msgstr "Matthias Elter"
+
+#~ msgid "Wojciech Smigaj"
+#~ msgstr "Wojciech Smigaj"
+
+#~ msgid "URL to display"
+#~ msgstr "欲顯示的 URL"
+
+#~ msgid "&File"
+#~ msgstr "檔案(&F)"
+
+#~ msgid "Show Search Error Log"
+#~ msgstr "顯示搜尋記錄"
+
+#~ msgid "ht://dig home page"
+#~ msgstr "ht://dig 主頁"
+
+#~ msgid "Conquer your Desktop!"
+#~ msgstr "征服您的桌面！"
+
+#~ msgid "Welcome to the K Desktop Environment"
+#~ msgstr "歡迎來到 KDE 桌面環境"
+
+#~ msgid "The KDE team welcomes you to user-friendly UNIX computing"
+#~ msgstr "KDE 團隊歡迎您進入友善的 UNIX 世界！"
+
+#~ msgid ""
+#~ "KDE is a powerful graphical desktop environment for UNIX workstations. A\n"
+#~ "KDE desktop combines ease of use, contemporary functionality and "
+#~ "outstanding\n"
+#~ "graphical design with the technological superiority of the UNIX "
+#~ "operating\n"
+#~ "system."
+#~ msgstr ""
+#~ "KDE 是 Unix 工作站上一個功能強大的圖形桌面環境。\n"
+#~ "KDE 桌面包含了便利的使用性、多工的能力、傑出的圖形\n"
+#~ "設計，以及 Unix 作業系統卓越的技術。"
+
+#~ msgid "What is the K Desktop Environment?"
+#~ msgstr "什麼是 KDE 桌面環境?"
+
+#~ msgid "Contacting the KDE Project"
+#~ msgstr "與 KDE 專案聯絡"
+
+#~ msgid "Supporting the KDE Project"
+#~ msgstr "支援 KDE 專案"
+
+#~ msgid "Useful links"
+#~ msgstr "有用的連結"
+
+#~ msgid "Getting the most out of KDE"
+#~ msgstr "取得最多的 KDE 資訊"
+
+#~ msgid "General Documentation"
+#~ msgstr "一般文件"
+
+#~ msgid "A Quick Start Guide to the Desktop"
+#~ msgstr "快速入門指引"
+
+#~ msgid "KDE Users' guide"
+#~ msgstr "KDE 使用者手冊"
+
+#~ msgid "Frequently asked questions"
+#~ msgstr "常見問題集"
+
+#~ msgid "Basic Applications"
+#~ msgstr "基本的應用程式"
+
+#~ msgid "The Kicker Desktop Panel"
+#~ msgstr "Kicker 面板"
+
+#~ msgid "The KDE Control Center"
+#~ msgstr "KDE 控制中心"
+
+#~ msgid "The Konqueror File manager and Web Browser"
+#~ msgstr "Konqueror 檔案管理員及網頁瀏覽器"

@@ -1,0 +1,1642 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2012, 2013, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-18 03:22+0100\n"
+"PO-Revision-Date: 2015-02-20 22:57+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: add-printer/AddPrinterAssistant.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "Add a New Printer"
+msgstr "新增印表機"
+
+#: add-printer/AddPrinterAssistant.cpp:83 add-printer/ChooseLpd.cpp:38
+#: add-printer/ChooseSamba.cpp:37 add-printer/ChooseSerial.cpp:36
+#: add-printer/ChooseSocket.cpp:36 add-printer/ChooseUri.cpp:39
+#: add-printer/PageAddPrinter.cpp:41 add-printer/PageChoosePPD.cpp:43
+#: add-printer/PageChoosePrinters.cpp:39 add-printer/PageDestinations.cpp:89
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a Printer to Add"
+msgstr "選擇要新增的印表機"
+
+#: add-printer/AddPrinterAssistant.cpp:87
+#: add-printer/AddPrinterAssistant.cpp:94
+#: add-printer/AddPrinterAssistant.cpp:138
+#, kde-format
+msgctxt "@title:window"
+msgid "Pick a Driver"
+msgstr "挑選驅動程式"
+
+#: add-printer/AddPrinterAssistant.cpp:99
+#: add-printer/AddPrinterAssistant.cpp:120
+#, kde-format
+msgctxt "@title:window"
+msgid "Please describe you printer"
+msgstr "請描述您的印表機"
+
+#: add-printer/AddPrinterAssistant.cpp:116
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure your connection"
+msgstr "設定您的連線"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: add-printer/ChooseLpd.ui:26
+#, kde-format
+msgid "Address:"
+msgstr "位址："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: add-printer/ChooseLpd.ui:36
+#, kde-format
+msgid "Queue:"
+msgstr "佇列："
+
+#. i18n: ectx: property (text), widget (QPushButton, detectPB)
+#: add-printer/ChooseLpd.ui:51
+#, kde-format
+msgid "Detect"
+msgstr "偵測"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: add-printer/ChooseSamba.ui:35
+#, kde-format
+msgctxt "@title:group"
+msgid "Windows Printer via SAMBA"
+msgstr "SAMBA 上的 Windows 印表機"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: add-printer/ChooseSamba.ui:41
+#, kde-format
+msgctxt ""
+"@label samba URL markup example, this is preceded by a label containing "
+"smb://"
+msgid "smb://[workgroup/]server[:port]/printer"
+msgstr "smb://[workgroup/]server[:port]/printer"
+
+#. i18n: ectx: property (text), widget (QPushButton, browsePB)
+#: add-printer/ChooseSamba.ui:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Browse"
+msgstr "瀏覽"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: add-printer/ChooseSamba.ui:64
+#, kde-format
+msgctxt "@title:group"
+msgid "Authentication"
+msgstr "認證"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: add-printer/ChooseSamba.ui:73
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "使用者名稱："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: add-printer/ChooseSamba.ui:86
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password"
+msgstr "密碼"
+
+#: add-printer/ChooseSerial.cpp:38 add-printer/ChooseSerial.cpp:42
+#, kde-format
+msgctxt "@label:listbox"
+msgid "None"
+msgstr "無"
+
+#: add-printer/ChooseSerial.cpp:39
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Even"
+msgstr "偶數頁"
+
+#: add-printer/ChooseSerial.cpp:40
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Odd"
+msgstr "奇數頁"
+
+#: add-printer/ChooseSerial.cpp:43
+#, kde-format
+msgctxt "@label:listbox"
+msgid "XON/XOFF (Software)"
+msgstr "XON/XOFF（軟體）"
+
+#: add-printer/ChooseSerial.cpp:44
+#, kde-format
+msgctxt "@label:listbox"
+msgid "RTS/CTS (Hardware)"
+msgstr "RTS/CTS（硬體）"
+
+#: add-printer/ChooseSerial.cpp:45
+#, kde-format
+msgctxt "@label:listbox"
+msgid "DTR/DSR (Hardware)"
+msgstr "DTR/DSR（硬體）"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: add-printer/ChooseSerial.ui:29
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Baud Rate:"
+msgstr "鮑率："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: add-printer/ChooseSerial.ui:42
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Parity:"
+msgstr "同位檢查："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: add-printer/ChooseSerial.ui:55
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Data Bits:"
+msgstr "資料位元："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: add-printer/ChooseSerial.ui:79
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Flow Control:"
+msgstr "流向控制："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: add-printer/ChooseSocket.ui:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Address:"
+msgstr "位址："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: add-printer/ChooseSocket.ui:42
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Port:"
+msgstr "連接埠："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: add-printer/ChooseUri.ui:41
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Connection:"
+msgstr "連線："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: add-printer/ChooseUri.ui:82
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<TABLE>\n"
+"<TR>\n"
+"<TD>Examples:\n"
+"<PRE>\n"
+"    http://hostname:631/ipp/\n"
+"    http://hostname:631/ipp/port1\n"
+"\n"
+"    ipp://hostname/ipp/\n"
+"    ipp://hostname/ipp/port1\n"
+"\n"
+"    lpd://hostname/queue\n"
+"\n"
+"    socket://hostname\n"
+"    socket://hostname:9100\n"
+"</PRE>\n"
+"\n"
+"<P>See <A HREF=\"http://localhost:631/help/network.html\" TARGET=\"_blank\">"
+"\"Network\n"
+"Printers\"</A> for the correct URI to use with your printer.</P>\n"
+"</TD>\n"
+"</TR>\n"
+"</TABLE>"
+msgstr ""
+"<TABLE>\n"
+"<TR>\n"
+"<TD>範例：\n"
+"<PRE>\n"
+"    http://hostname:631/ipp/\n"
+"    http://hostname:631/ipp/port1\n"
+"\n"
+"    ipp://hostname/ipp/\n"
+"    ipp://hostname/ipp/port1\n"
+"\n"
+"    lpd://hostname/queue\n"
+"\n"
+"    socket://hostname\n"
+"    socket://hostname:9100\n"
+"</PRE>\n"
+"\n"
+"<P>關於您的印表機的正確網址，請參考 <A HREF=\"http://localhost:631/help/"
+"network.html\" TARGET=\"_blank\">\"網路印表機\"</A> \n"
+"</P>\n"
+"</TD>\n"
+"</TR>\n"
+"</TABLE>"
+
+#: add-printer/DevicesModel.cpp:53
+#, kde-format
+msgctxt "@item"
+msgid "Manual URI"
+msgstr "手動輸入網址"
+
+#: add-printer/DevicesModel.cpp:129
+#, kde-format
+msgid "Failed to get a list of devices: '%1'"
+msgstr "取得裝置清單失敗：'%1'"
+
+#: add-printer/DevicesModel.cpp:252
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to the parallel port"
+msgstr "有印表機連接到並列埠"
+
+#: add-printer/DevicesModel.cpp:255
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to a USB port"
+msgstr "有印表機連接到 USB 埠"
+
+#: add-printer/DevicesModel.cpp:258
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected via Bluetooth"
+msgstr "有印表機連接到藍牙"
+
+#: add-printer/DevicesModel.cpp:261
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)"
+msgstr "由 HAL 偵測到的本地印表機"
+
+#: add-printer/DevicesModel.cpp:265
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device"
+msgstr "HPLIP 軟體驅動一印表機，或是多功能裝置中的印表機功能"
+
+#: add-printer/DevicesModel.cpp:269
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device"
+msgstr "HPLIP 軟體驅動一傳真機，或是多功能裝置中的傳真機功能"
+
+#: add-printer/DevicesModel.cpp:274
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remote CUPS printer via DNS-SD"
+msgstr "DNS-SD 上的遠端 CUPS 印表機"
+
+#: add-printer/DevicesModel.cpp:292
+#, kde-format
+msgctxt "@item"
+msgid "Discovered Network Printers"
+msgstr "發現網路印表機"
+
+#: add-printer/DevicesModel.cpp:296
+#, kde-format
+msgctxt "@item"
+msgid "Other Network Printers"
+msgstr "其他網路印表機"
+
+#: add-printer/DevicesModel.cpp:300
+#, kde-format
+msgctxt "@item"
+msgid "Local Printers"
+msgstr "本地印表機"
+
+#: add-printer/DevicesModel.cpp:342
+#, kde-format
+msgid "Failed to group devices: '%1'"
+msgstr "將裝置分組失敗：'%1'"
+
+#. i18n: ectx: property (text), widget (QToolButton, addTB)
+#: add-printer/main.cpp:41 printer-manager-kcm/PrintKCM.ui:19
+#, kde-format
+msgid "Add Printer"
+msgstr "新增印表機"
+
+#: add-printer/main.cpp:43
+#, kde-format
+msgid "Tool for adding new printers"
+msgstr "新增印表機工具"
+
+#: add-printer/main.cpp:45 configure-printer/main.cpp:43
+#: printer-manager-kcm/PrintKCM.cpp:54 printqueue/main.cpp:42
+#, fuzzy, kde-format
+#| msgid "(C) 2010-2013 Daniel Nicoletti"
+msgid "(C) 2010-2018 Daniel Nicoletti"
+msgstr "(C) 2010-2013 Daniel Nicoletti"
+
+#: add-printer/main.cpp:48 configure-printer/main.cpp:45
+#: printer-manager-kcm/PrintKCM.cpp:56 printqueue/main.cpp:45
+#, kde-format
+msgid "Port to Qt 5 / Plasma 5"
+msgstr "移植到 Plasma 5 / Qt 5"
+
+#: add-printer/main.cpp:56
+#, kde-format
+msgid "Parent Window ID"
+msgstr "父視窗代碼"
+
+#: add-printer/main.cpp:59
+#, kde-format
+msgid "Add a new printer"
+msgstr "新增印表機。"
+
+#: add-printer/main.cpp:62
+#, kde-format
+msgid "Add a new printer class"
+msgstr "新增印表機類別"
+
+#: add-printer/main.cpp:65
+#, kde-format
+msgid "Changes the PPD of a given printer"
+msgstr "變更指定印表機的 PPD"
+
+#: add-printer/main.cpp:68
+#, kde-format
+msgid "Changes the PPD of a given printer/deviceid"
+msgstr "變更指定印表機或裝置代碼的 PPD"
+
+#: add-printer/PageAddPrinter.cpp:143
+#, kde-format
+msgctxt "@info"
+msgid "Failed to add class: '%1'"
+msgstr "加入類別失敗：'%1'"
+
+#: add-printer/PageAddPrinter.cpp:145
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure printer: '%1'"
+msgstr "設定印表機失敗：'%1'"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: add-printer/PageAddPrinter.ui:31
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, nameLE)
+#: add-printer/PageAddPrinter.ui:38
+#, kde-format
+msgid "May contain any printable characters except \"/\", \"#\", and space"
+msgstr "可以包含所有可列印字元，除了 \"/\", \"#\" 與空白之外"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: add-printer/PageAddPrinter.ui:45
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: add-printer/PageAddPrinter.ui:55
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QCheckBox, sharedCB)
+#. i18n: ectx: property (text), widget (QCheckBox, shareCB)
+#: add-printer/PageAddPrinter.ui:65
+#: printer-manager-kcm/PrinterDescription.ui:119
+#, kde-format
+msgctxt "@option:check"
+msgid "Share this printer"
+msgstr "分享此印表機"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: add-printer/PageChoosePrinters.ui:96
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Members:"
+msgstr "成員："
+
+#: add-printer/PageDestinations.cpp:201
+#, kde-format
+msgid "A printer connected to the parallel port."
+msgstr "有印表機連接到並列埠。"
+
+#: add-printer/PageDestinations.cpp:204
+#, kde-format
+msgid "A printer connected to a USB port."
+msgstr "有印表機連接到 USB 埠。"
+
+#: add-printer/PageDestinations.cpp:207
+#, kde-format
+msgid "A printer connected via Bluetooth."
+msgstr "有印表機連接到藍牙。"
+
+#: add-printer/PageDestinations.cpp:210
+#, kde-format
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)."
+msgstr "由 HAL 偵測到的本地印表機。"
+
+#: add-printer/PageDestinations.cpp:214
+#, kde-format
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device."
+msgstr "HPLIP 軟體驅動一印表機，或是多功能裝置中的印表機功能。"
+
+#: add-printer/PageDestinations.cpp:218
+#, kde-format
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device."
+msgstr "HPLIP 軟體驅動一傳真機，或是多功能裝置中的傳真機功能。"
+
+#: add-printer/PageDestinations.cpp:226 add-printer/PageDestinations.cpp:385
+#, kde-format
+msgid "Remote CUPS printer via DNS-SD"
+msgstr "DNS-SD 上的遠端 CUPS 印表機"
+
+#: add-printer/PageDestinations.cpp:238 add-printer/PageDestinations.cpp:394
+#, kde-format
+msgid "Network printer via DNS-SD"
+msgstr "DNS-SD 上的網路印表機"
+
+#: add-printer/PageDestinations.cpp:240
+#, kde-format
+msgid "%1 network printer via DNS-SD"
+msgstr "DNS-SD 上的 %1 網路印表機"
+
+#: add-printer/PageDestinations.cpp:345
+#, kde-format
+msgid "Parallel Port"
+msgstr "平行埠"
+
+#: add-printer/PageDestinations.cpp:347
+#, kde-format
+msgid "Serial Port"
+msgstr "序列埠"
+
+#: add-printer/PageDestinations.cpp:349
+#, kde-format
+msgid "USB"
+msgstr "USB"
+
+#: add-printer/PageDestinations.cpp:351
+#, kde-format
+msgid "Bluetooth"
+msgstr "藍牙"
+
+#: add-printer/PageDestinations.cpp:353
+#, kde-format
+msgid "Fax - HP Linux Imaging and Printing (HPLIP)"
+msgstr "傳真 - HP Linux 影像與列印（HPLIP）"
+
+#: add-printer/PageDestinations.cpp:355
+#, kde-format
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr "HP Linux 影像與列印（HPLIP）"
+
+#: add-printer/PageDestinations.cpp:357
+#, kde-format
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr "硬體抽象層（HAL）"
+
+#: add-printer/PageDestinations.cpp:359
+#, kde-format
+msgid "AppSocket/HP JetDirect"
+msgstr "AppSocket/HP JetDirect"
+
+#: add-printer/PageDestinations.cpp:364
+#, kde-format
+msgid "LPD/LPR queue"
+msgstr "LPD/LPR 佇列"
+
+#: add-printer/PageDestinations.cpp:366
+#, kde-format
+msgid "LPD/LPR queue %1"
+msgstr "LPD/LPR 佇列 %1"
+
+#: add-printer/PageDestinations.cpp:369
+#, kde-format
+msgid "Windows Printer via SAMBA"
+msgstr "SAMBA 上的 Windows 印表機"
+
+#: add-printer/PageDestinations.cpp:374
+#, kde-format
+msgid "IPP"
+msgstr "IPP"
+
+#: add-printer/PageDestinations.cpp:376
+#, kde-format
+msgid "IPP %1"
+msgstr "IPP %1"
+
+#: add-printer/PageDestinations.cpp:379
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: add-printer/PageDestinations.cpp:388
+#, kde-format
+msgid "IPP network printer via DNS-SD"
+msgstr "DNS-SD 上的 IPP 網路印表機"
+
+#: add-printer/PageDestinations.cpp:390
+#, kde-format
+msgid "LPD network printer via DNS-SD"
+msgstr "DNS-SD 上的 LPD 網路印表機"
+
+#: add-printer/PageDestinations.cpp:392
+#, kde-format
+msgid "AppSocket/JetDirect network printer via DNS-SD"
+msgstr "DNS-SD 上的 AppSocket/JetDirect 網路印表機"
+
+#. i18n: ectx: property (title), widget (QGroupBox, connectionsGB)
+#: add-printer/PageDestinations.ui:62
+#, kde-format
+msgid "Connections"
+msgstr "連線"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: add-printer/PageDestinations.ui:97
+#, kde-format
+msgid "Please choose an item on the list"
+msgstr "請選擇清單上的項目"
+
+#: configure-printer/ConfigureDialog.cpp:102
+#, kde-format
+msgid "Modify Printer"
+msgstr "修改印表機"
+
+#. i18n: ectx: property (text), widget (QPushButton, configurePB)
+#. i18n: ectx: property (text), widget (QPushButton, configurePrinterPB)
+#: configure-printer/ConfigureDialog.cpp:103
+#: print-manager-kded/NewPrinterNotification.cpp:255
+#: print-manager-kded/NewPrinterNotification.cpp:271
+#: printer-manager-kcm/PrinterDescription.ui:198 printqueue/PrintQueueUi.ui:131
+#, kde-format
+msgid "Configure"
+msgstr "設定"
+
+#: configure-printer/ConfigureDialog.cpp:113
+#, kde-format
+msgid "Printer Options"
+msgstr "印表機選項"
+
+#: configure-printer/ConfigureDialog.cpp:114
+#, kde-format
+msgid "Set the Default Printer Options"
+msgstr "設定預設印表機選項"
+
+#: configure-printer/ConfigureDialog.cpp:124
+#: configure-printer/ConfigureDialog.cpp:125
+#, kde-format
+msgid "Banners, Policies and Allowed Users"
+msgstr "橫幅，政策與允許的使用者"
+
+#: configure-printer/ConfigureDialog.cpp:198
+#, kde-format
+msgid ""
+"The current page has changes.\n"
+"Do you want to save them?"
+msgstr ""
+"目前的頁面已變更。\n"
+"您要儲存嗎？"
+
+#: configure-printer/main.cpp:39
+#, kde-format
+msgid "Configure Printer"
+msgstr "設定印表機"
+
+#: configure-printer/main.cpp:41
+#, kde-format
+msgid "ConfigurePrinter"
+msgstr "設定印表機"
+
+#: configure-printer/main.cpp:54
+#, kde-format
+msgid "Printer to be configured"
+msgstr "要設定的印表機"
+
+#: configure-printer/ModifyPrinter.cpp:141
+#, kde-format
+msgid "Current - %1"
+msgstr "目前 - %1"
+
+#: configure-printer/ModifyPrinter.cpp:144
+#, kde-format
+msgid "Select a custom driver"
+msgstr "選擇自訂印表機"
+
+#: configure-printer/ModifyPrinter.cpp:243
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure class"
+msgstr "設定類別失敗"
+
+#: configure-printer/ModifyPrinter.cpp:244
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure printer"
+msgstr "設定印表機失敗"
+
+#: configure-printer/ModifyPrinter.cpp:246 printer-manager-kcm/PrintKCM.cpp:325
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed"
+msgstr "已失敗"
+
+#. i18n: ectx: property (text), widget (QLabel, nameL)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: configure-printer/ModifyPrinter.ui:25
+#: printer-manager-kcm/PrinterDescription.ui:234
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: configure-printer/ModifyPrinter.ui:32
+#, kde-format
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, descriptionLE)
+#: configure-printer/ModifyPrinter.ui:42
+#, kde-format
+msgid "Human-readable description such as \"HP LaserJet with Duplexer\""
+msgstr "易閱讀的描述，如 \"HP LaserJet 多功能印表機\""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: configure-printer/ModifyPrinter.ui:52
+#, kde-format
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, locationLE)
+#: configure-printer/ModifyPrinter.ui:62
+#, kde-format
+msgid "Human-readable location such as \"Lab 1\""
+msgstr "易閱讀的位置描述，如「實驗室」"
+
+#. i18n: ectx: property (text), widget (QLabel, connectionL)
+#: configure-printer/ModifyPrinter.ui:79
+#, kde-format
+msgid "Connection:"
+msgstr "連線："
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, connectionLE)
+#: configure-printer/ModifyPrinter.ui:103
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt;\">Examples:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">http://hostname:631/ipp/</"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">http://hostname:631/ipp/"
+"port1</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ipp://hostname/ipp/</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ipp://hostname/ipp/port1</"
+"p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">lpd://hostname/queue</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">socket://hostname</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">socket://hostname:9100</"
+"p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:10pt;\">範例：</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">http://hostname:631/ipp/</"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">http://hostname:631/ipp/"
+"port1</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ipp://hostname/ipp/</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ipp://hostname/ipp/port1</"
+"p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">lpd://hostname/queue</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">socket://hostname</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">socket://hostname:9100</"
+"p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, membersL)
+#: configure-printer/ModifyPrinter.ui:113
+#, kde-format
+msgid "Members"
+msgstr "成員"
+
+#. i18n: ectx: property (text), widget (QLabel, driverL)
+#: configure-printer/ModifyPrinter.ui:126
+#, kde-format
+msgid "Driver:"
+msgstr "驅動程式："
+
+#: configure-printer/PrinterBehavior.cpp:213
+#, kde-format
+msgid "Abort job"
+msgstr "中止工作"
+
+#: configure-printer/PrinterBehavior.cpp:215
+#, kde-format
+msgid "Retry current job"
+msgstr "重試目前的工作"
+
+#: configure-printer/PrinterBehavior.cpp:217
+#, kde-format
+msgid "Retry job"
+msgstr "重試工作"
+
+#: configure-printer/PrinterBehavior.cpp:219
+#, kde-format
+msgid "Stop printer"
+msgstr "停止印表機"
+
+#: configure-printer/PrinterBehavior.cpp:228
+#, kde-format
+msgid "Authenticated"
+msgstr "已認證"
+
+#: configure-printer/PrinterBehavior.cpp:230
+#, kde-format
+msgid "Default"
+msgstr "預設"
+
+#: configure-printer/PrinterBehavior.cpp:239
+#, kde-format
+msgid "None"
+msgstr "無"
+
+#: configure-printer/PrinterBehavior.cpp:241
+#, kde-format
+msgid "Classified"
+msgstr "已分類"
+
+#: configure-printer/PrinterBehavior.cpp:243
+#, kde-format
+msgid "Confidential"
+msgstr "機密"
+
+#: configure-printer/PrinterBehavior.cpp:245
+#, kde-format
+msgid "Secret"
+msgstr "極機密"
+
+#: configure-printer/PrinterBehavior.cpp:247
+#, kde-format
+msgid "Standard"
+msgstr "標準"
+
+#: configure-printer/PrinterBehavior.cpp:249
+#, kde-format
+msgid "Topsecret"
+msgstr "最高機密"
+
+#: configure-printer/PrinterBehavior.cpp:251
+#, kde-format
+msgid "Unclassified"
+msgstr "未分類"
+
+#. i18n: ectx: property (title), widget (QGroupBox, BanneryGB)
+#: configure-printer/PrinterBehavior.ui:29
+#, kde-format
+msgid "Banners"
+msgstr "旗幟"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: configure-printer/PrinterBehavior.ui:35
+#, kde-format
+msgid "Starting Banner:"
+msgstr "文件前橫幅"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: configure-printer/PrinterBehavior.ui:55
+#, kde-format
+msgid "Ending Banner:"
+msgstr "文件底橫幅"
+
+#. i18n: ectx: property (title), widget (QGroupBox, PoliciesGB)
+#: configure-printer/PrinterBehavior.ui:84
+#, kde-format
+msgid "Policies"
+msgstr "政策"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: configure-printer/PrinterBehavior.ui:90
+#, kde-format
+msgid "Operation Policy:"
+msgstr "操作政策："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: configure-printer/PrinterBehavior.ui:103
+#, kde-format
+msgid "Error Policy:"
+msgstr "錯誤政策："
+
+#. i18n: ectx: property (title), widget (QGroupBox, AllowGB)
+#: configure-printer/PrinterBehavior.ui:133
+#, kde-format
+msgid "Allowed Users"
+msgstr "允許的使用者"
+
+#. i18n: ectx: property (text), widget (QRadioButton, preventRB)
+#: configure-printer/PrinterBehavior.ui:139
+#, kde-format
+msgid "Pre&vent these users from printing "
+msgstr "避免這些使用者進行列印(&V)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allowRB)
+#: configure-printer/PrinterBehavior.ui:146
+#, kde-format
+msgid "A&llow these users to print"
+msgstr "允許這些使用者進行列印(&L)"
+
+#: configure-printer/PrinterOptions.cpp:69
+#, kde-format
+msgid "Set Default Options"
+msgstr "設定預設選項"
+
+#. i18n: ectx: property (text), widget (QPushButton, autoConfigurePB)
+#: configure-printer/PrinterOptions.ui:26
+#, kde-format
+msgid "Query Printer for Default Options"
+msgstr "查詢印表機的預設選項"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SelectMakeModel)
+#: configure-printer/SelectMakeModelDialog.cpp:37
+#: libkcups/SelectMakeModel.ui:14
+#, kde-format
+msgid "Select a Driver"
+msgstr "選擇驅動程式"
+
+#: libkcups/JobModel.cpp:38
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#: libkcups/JobModel.cpp:39
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: libkcups/JobModel.cpp:40
+#, kde-format
+msgid "User"
+msgstr "使用者"
+
+#: libkcups/JobModel.cpp:41
+#, kde-format
+msgid "Created"
+msgstr "已建立"
+
+#: libkcups/JobModel.cpp:42 libkcups/JobModel.cpp:584
+#, kde-format
+msgid "Completed"
+msgstr "已完成"
+
+#: libkcups/JobModel.cpp:43
+#, kde-format
+msgid "Pages"
+msgstr "頁面"
+
+#: libkcups/JobModel.cpp:44
+#, kde-format
+msgid "Processed"
+msgstr "已處理"
+
+#: libkcups/JobModel.cpp:45
+#, kde-format
+msgid "Size"
+msgstr "大小"
+
+#: libkcups/JobModel.cpp:46
+#, kde-format
+msgid "Status Message"
+msgstr "狀態訊息"
+
+#: libkcups/JobModel.cpp:47
+#, kde-format
+msgid "Printer"
+msgstr "印表機"
+
+#: libkcups/JobModel.cpp:48
+#, kde-format
+msgid "From Hostname"
+msgstr "從主機名稱"
+
+#: libkcups/JobModel.cpp:498 printqueue/PrintQueueUi.cpp:504
+#, kde-format
+msgid "Failed to move '%1' to '%2'"
+msgstr "將 '%1' 移動到 '%2' 失敗"
+
+#: libkcups/JobModel.cpp:501 printqueue/PrintQueueUi.cpp:510
+#, kde-format
+msgid "Failed"
+msgstr "失敗"
+
+#: libkcups/JobModel.cpp:578
+#, kde-format
+msgid "Pending"
+msgstr "暫停"
+
+#: libkcups/JobModel.cpp:579
+#, kde-format
+msgid "On hold"
+msgstr "保留中"
+
+#: libkcups/JobModel.cpp:581
+#, kde-format
+msgid "Stopped"
+msgstr "已停止"
+
+#: libkcups/JobModel.cpp:582
+#, kde-format
+msgid "Canceled"
+msgstr "已取消"
+
+#: libkcups/JobModel.cpp:583
+#, kde-format
+msgid "Aborted"
+msgstr "已中止"
+
+#: libkcups/KCupsPasswordDialog.cpp:46
+#, kde-format
+msgid "Enter an username and a password to complete the task"
+msgstr "輸入使用者名稱與密碼以完成此工作"
+
+#: libkcups/KCupsPasswordDialog.cpp:51
+#, kde-format
+msgid "Wrong username or password"
+msgstr "錯誤的使用者名稱或密碼"
+
+#: libkcups/KCupsRequest.cpp:49
+#, kde-format
+msgid "Print service is unavailable"
+msgstr "列印服務無法使用"
+
+#: libkcups/KCupsRequest.cpp:51
+#, kde-format
+msgid "Not found"
+msgstr "找不到"
+
+#: libkcups/KCupsRequest.cpp:418
+#, kde-format
+msgid "Test Page"
+msgstr "測試頁"
+
+#: libkcups/KCupsRequest.cpp:450
+#, kde-format
+msgid "Unable to send command to printer driver!"
+msgstr "無法傳送指令給印表機驅動程式。"
+
+#: libkcups/KCupsRequest.cpp:574
+#, kde-format
+msgid "Failed to invoke method: %1"
+msgstr "呼叫方法失敗：%1"
+
+#: libkcups/PPDModel.cpp:45
+#, kde-format
+msgid "Recommended Drivers"
+msgstr "建議的驅動程式"
+
+#: libkcups/PrinterModel.cpp:177
+#, kde-format
+msgid "Printers"
+msgstr "印表機"
+
+#: libkcups/PrinterModel.cpp:380
+#, kde-format
+msgid "Idle"
+msgstr "閒置"
+
+#: libkcups/PrinterModel.cpp:380
+#, kde-format
+msgid "Idle, rejecting jobs"
+msgstr "閒置，拒絕工作"
+
+#: libkcups/PrinterModel.cpp:382
+#, kde-format
+msgid "Idle - '%1'"
+msgstr "閒置 - '%1'"
+
+#: libkcups/PrinterModel.cpp:382
+#, kde-format
+msgid "Idle, rejecting jobs - '%1'"
+msgstr "閒置，拒絕工作 - '%1'"
+
+#: libkcups/PrinterModel.cpp:386
+#, kde-format
+msgid "In use"
+msgstr "使用中"
+
+#: libkcups/PrinterModel.cpp:388
+#, kde-format
+msgid "In use - '%1'"
+msgstr "使用中 - '%1'"
+
+#: libkcups/PrinterModel.cpp:392
+#, kde-format
+msgid "Paused"
+msgstr "已暫停"
+
+#: libkcups/PrinterModel.cpp:392
+#, kde-format
+msgid "Paused, rejecting jobs"
+msgstr "已暫停，拒絕工作"
+
+#: libkcups/PrinterModel.cpp:394
+#, kde-format
+msgid "Paused - '%1'"
+msgstr "已暫停 - '%1'"
+
+#: libkcups/PrinterModel.cpp:394
+#, kde-format
+msgid "Paused, rejecting jobs - '%1'"
+msgstr "已暫停，拒絕工作 - '%1'"
+
+#: libkcups/PrinterModel.cpp:398
+#, kde-format
+msgid "Unknown"
+msgstr "未知"
+
+#: libkcups/PrinterModel.cpp:400
+#, kde-format
+msgid "Unknown - '%1'"
+msgstr "未知 - '%1'"
+
+#: libkcups/SelectMakeModel.cpp:152
+#, kde-format
+msgid "Failed to get a list of drivers: '%1'"
+msgstr "取得驅動程式清單失敗：'%1'"
+
+#: libkcups/SelectMakeModel.cpp:242
+#, kde-format
+msgid "Failed to search for a recommended driver: '%1'"
+msgstr "搜尋建議的驅動程式失敗：'%1'"
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, ppdFilePathUrl)
+#: libkcups/SelectMakeModel.ui:44
+#, kde-format
+msgid "*.ppd *.ppd.gz|PostScript Printer Description files"
+msgstr "*.ppd *.ppd.gz|PostScript 印表機描述檔"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#: libkcups/SelectMakeModel.ui:82
+#, kde-format
+msgid "Choose &the driver from the list"
+msgstr "從清單中選擇驅動程式(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ppdFileRB)
+#: libkcups/SelectMakeModel.ui:94
+#, kde-format
+msgid "Ma&nually Provide a PPD File:"
+msgstr "手動提供 PPD 檔(&N)："
+
+#: print-manager-kded/NewPrinterNotification.cpp:73
+#, kde-format
+msgid "A New Printer was detected"
+msgstr "偵測到新印表機"
+
+#: print-manager-kded/NewPrinterNotification.cpp:74
+#, kde-format
+msgid "Configuring new printer..."
+msgstr "設定新印表機..."
+
+#: print-manager-kded/NewPrinterNotification.cpp:114
+#, kde-format
+msgid "The New Printer was Added"
+msgstr "新印表機已加入"
+
+#: print-manager-kded/NewPrinterNotification.cpp:116
+#, kde-format
+msgid "The New Printer is Missing Drivers"
+msgstr "新印表機缺少驅動程式"
+
+#: print-manager-kded/NewPrinterNotification.cpp:178
+#, kde-format
+msgid "Missing printer driver"
+msgstr "遺失印表機驅動程式"
+
+#: print-manager-kded/NewPrinterNotification.cpp:180
+#, kde-format
+msgid "No printer driver for %1 %2."
+msgstr "沒有 %1 %2 的印表機驅動程式。"
+
+#: print-manager-kded/NewPrinterNotification.cpp:182
+#, kde-format
+msgid "No printer driver for %1."
+msgstr "沒有 %1 的印表機驅動程式。"
+
+#: print-manager-kded/NewPrinterNotification.cpp:184
+#, kde-format
+msgid "No driver for this printer."
+msgstr "沒有此印表機的驅動程式。"
+
+#: print-manager-kded/NewPrinterNotification.cpp:187
+#, kde-format
+msgid "Search"
+msgstr "搜尋"
+
+#: print-manager-kded/NewPrinterNotification.cpp:254
+#, kde-format
+msgid "'%1' has been added, please check its driver."
+msgstr "'%1' 已新增，請檢查它的驅動程式。"
+
+#: print-manager-kded/NewPrinterNotification.cpp:258
+#, kde-format
+msgid "'%1' has been added, using the '%2' driver."
+msgstr "%1 已新增，使用驅動程式 %2。"
+
+#: print-manager-kded/NewPrinterNotification.cpp:259
+#: print-manager-kded/NewPrinterNotification.cpp:271
+#, kde-format
+msgid "Print test page"
+msgstr "列印測試頁"
+
+#: print-manager-kded/NewPrinterNotification.cpp:259
+#, kde-format
+msgid "Find driver"
+msgstr "尋找驅動程式"
+
+#: print-manager-kded/NewPrinterNotification.cpp:270
+#, kde-format
+msgid "'%1' is ready for printing."
+msgstr "%1 已就緒。"
+
+#: printer-manager-kcm/PrinterDescription.cpp:123
+#, kde-format
+msgid "Share this class"
+msgstr "分享此類別"
+
+#: printer-manager-kcm/PrinterDescription.cpp:123
+#, kde-format
+msgid "Share this printer"
+msgstr "分享此印表機"
+
+#. i18n: ectx: property (text), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.cpp:244
+#: printer-manager-kcm/PrinterDescription.ui:293
+#, kde-format
+msgid "Clean Print Heads"
+msgstr "清潔列印噴頭"
+
+#. i18n: ectx: property (toolTip), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.cpp:253
+#: printer-manager-kcm/PrinterDescription.ui:301
+#, kde-format
+msgid "Print Self-Test Page"
+msgstr "列印自我測試頁"
+
+#: printer-manager-kcm/PrinterDescription.cpp:259
+#, kde-format
+msgid "Failed to perform request: %1"
+msgstr "執行要求失敗：%1"
+
+#. i18n: ectx: property (text), widget (QLabel, printerNameL)
+#: printer-manager-kcm/PrinterDescription.ui:83
+#, kde-format
+msgctxt "@title"
+msgid "Printer name or description"
+msgstr "印表機名稱或描述"
+
+#. i18n: ectx: property (text), widget (QLabel, statusL)
+#: printer-manager-kcm/PrinterDescription.ui:102
+#, kde-format
+msgid "Current status"
+msgstr "目前狀態"
+
+#. i18n: ectx: property (text), widget (QCheckBox, defaultCB)
+#: printer-manager-kcm/PrinterDescription.ui:109
+#, kde-format
+msgctxt "@option:check"
+msgid "Default printer"
+msgstr "預設印表機"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rejectPrintJobsCB)
+#: printer-manager-kcm/PrinterDescription.ui:126
+#, kde-format
+msgid "Reject print jobs"
+msgstr "拒絕印表機工作"
+
+#. i18n: ectx: property (text), widget (QLabel, locationL)
+#: printer-manager-kcm/PrinterDescription.ui:135
+#, kde-format
+msgctxt "@label location of printer"
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QLabel, kindL)
+#: printer-manager-kcm/PrinterDescription.ui:164
+#, kde-format
+msgctxt "@label kind of printer, could be driver name or \"local raw socket\""
+msgid "Kind:"
+msgstr "種類："
+
+#. i18n: ectx: property (text), widget (QPushButton, maintenancePB)
+#: printer-manager-kcm/PrinterDescription.ui:205
+#, kde-format
+msgctxt "@action:button"
+msgid "Maintenance"
+msgstr "維護"
+
+#. i18n: ectx: property (text), widget (QPushButton, openQueuePB)
+#: printer-manager-kcm/PrinterDescription.ui:225
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Print Queue"
+msgstr "開啟列印佇列"
+
+#. i18n: ectx: property (text), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.ui:288
+#, kde-format
+msgid "Print Test Page"
+msgstr "列印測試頁"
+
+#. i18n: ectx: property (text), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.ui:298
+#, kde-format
+msgid "Print Self Test Page"
+msgstr "列印自我測試頁"
+
+#: printer-manager-kcm/PrintKCM.cpp:50 printer-manager-kcm/PrintKCM.cpp:52
+#, kde-format
+msgid "Print settings"
+msgstr "列印設定"
+
+#: printer-manager-kcm/PrintKCM.cpp:69
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Add a Printer Class"
+msgstr "新增印表機類別"
+
+#: printer-manager-kcm/PrintKCM.cpp:72
+#, kde-format
+msgid "Add a new printer or a printer class"
+msgstr "新增印表機或印表機類別"
+
+#. i18n: ectx: property (text), widget (QToolButton, removeTB)
+#: printer-manager-kcm/PrintKCM.cpp:76 printer-manager-kcm/PrintKCM.ui:32
+#, kde-format
+msgid "Remove Printer"
+msgstr "移除印表機"
+
+#: printer-manager-kcm/PrintKCM.cpp:82
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Show printers shared by other systems"
+msgstr "顯示其他系統共享的印表機"
+
+#: printer-manager-kcm/PrintKCM.cpp:86
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Share printers connected to this system"
+msgstr "分享連線到此系統的印表機"
+
+#: printer-manager-kcm/PrintKCM.cpp:88
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Allow printing from the Internet"
+msgstr "允許從網際網路上列印"
+
+#: printer-manager-kcm/PrintKCM.cpp:94
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Allow remote administration"
+msgstr "允許遠端管理"
+
+#: printer-manager-kcm/PrintKCM.cpp:96
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Allow users to cancel any job (not just their own)"
+msgstr "允許使用者取消任何工作（而不是只能取消他們自己的工作）"
+
+#: printer-manager-kcm/PrintKCM.cpp:100
+#, kde-format
+msgid "Configure the global preferences"
+msgstr "設定全域喜好設定"
+
+#: printer-manager-kcm/PrintKCM.cpp:145 printer-manager-kcm/PrintKCM.cpp:245
+#, kde-format
+msgid "No printers have been configured or discovered"
+msgstr "沒有設定或發現任何印表機"
+
+#: printer-manager-kcm/PrintKCM.cpp:276
+#, kde-format
+msgid "Remove class"
+msgstr "移除類別"
+
+#: printer-manager-kcm/PrintKCM.cpp:277
+#, kde-format
+msgid "Are you sure you want to remove the class '%1'?"
+msgstr "您確定要移除類別 '%1' 嗎？"
+
+#: printer-manager-kcm/PrintKCM.cpp:280
+#, kde-format
+msgid "Remove printer"
+msgstr "移除印表機"
+
+#: printer-manager-kcm/PrintKCM.cpp:281
+#, kde-format
+msgid "Are you sure you want to remove the printer '%1'?"
+msgstr "您確定要移除印表機 '%1' 嗎？"
+
+#: printer-manager-kcm/PrintKCM.cpp:323
+#, kde-format
+msgctxt "@info"
+msgid "Failed to get server settings"
+msgstr "取得伺服器設定失敗"
+
+#: printer-manager-kcm/PrintKCM.cpp:354
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure server settings"
+msgstr "設定伺服器失敗"
+
+#. i18n: ectx: property (text), widget (QToolButton, systemPreferencesTB)
+#: printer-manager-kcm/PrintKCM.ui:52
+#, kde-format
+msgid "System Preferences"
+msgstr "系統喜好設定"
+
+#. i18n: ectx: property (text), widget (QLabel, errorComment)
+#: printer-manager-kcm/PrintKCM.ui:196
+#, kde-format
+msgid "TextLabel"
+msgstr "文字標籤"
+
+#. i18n: ectx: property (text), widget (QLabel, errorText)
+#: printer-manager-kcm/PrintKCM.ui:206
+#, kde-format
+msgid "Error Title"
+msgstr "錯誤的標題"
+
+#. i18n: ectx: property (text), widget (QPushButton, addPrinterBtn)
+#: printer-manager-kcm/PrintKCM.ui:231
+#, kde-format
+msgid "Click here to add a new printer"
+msgstr "點擊這裡來新增印表機"
+
+#: printqueue/main.cpp:38 printqueue/main.cpp:40
+#, kde-format
+msgid "Print Queue"
+msgstr "列印佇列"
+
+#: printqueue/main.cpp:54
+#, kde-format
+msgid "Show printer queue(s)"
+msgstr "顯示列印佇列"
+
+#: printqueue/PrintQueueUi.cpp:218
+#, kde-format
+msgid "Printer ready"
+msgstr "印表機已就緒"
+
+#. i18n: ectx: property (text), widget (QPushButton, pausePrinterPB)
+#: printqueue/PrintQueueUi.cpp:219 printqueue/PrintQueueUi.cpp:230
+#: printqueue/PrintQueueUi.ui:118
+#, kde-format
+msgid "Pause Printer"
+msgstr "暫停印表機"
+
+#: printqueue/PrintQueueUi.cpp:226
+#, kde-format
+msgid "Printing..."
+msgstr "正在列印..."
+
+#: printqueue/PrintQueueUi.cpp:228
+#, kde-format
+msgid "Printing '%1'"
+msgstr "列印 '%1' 中"
+
+#: printqueue/PrintQueueUi.cpp:236
+#, kde-format
+msgid "Printer paused"
+msgstr "印表機已暫停"
+
+#: printqueue/PrintQueueUi.cpp:237
+#, kde-format
+msgid "Resume Printer"
+msgstr "回復印表機"
+
+#: printqueue/PrintQueueUi.cpp:252
+#, kde-format
+msgid "Printer state unknown"
+msgstr "印表機狀態未知"
+
+#: printqueue/PrintQueueUi.cpp:287
+#, kde-format
+msgid "Move to"
+msgstr "移動到"
+
+#: printqueue/PrintQueueUi.cpp:418
+#, kde-format
+msgid "All Printers (%1 Job)"
+msgid_plural "All Printers (%1 Jobs)"
+msgstr[0] "所有印表機（%1 個工作）"
+
+#: printqueue/PrintQueueUi.cpp:420
+#, kde-format
+msgid "%2 (%1 Job)"
+msgid_plural "%2 (%1 Jobs)"
+msgstr[0] "%2（%1 個工作）"
+
+#: printqueue/PrintQueueUi.cpp:423
+#, kde-format
+msgid "All Printers"
+msgstr "所有印表機"
+
+#: printqueue/PrintQueueUi.cpp:492
+#, kde-format
+msgid "Failed to cancel '%1'"
+msgstr "取消 '%1' 失敗"
+
+#: printqueue/PrintQueueUi.cpp:495
+#, kde-format
+msgid "Failed to hold '%1'"
+msgstr "保留 '%1' 失敗"
+
+#: printqueue/PrintQueueUi.cpp:498
+#, kde-format
+msgid "Failed to release '%1'"
+msgstr "釋出 '%1' 失敗"
+
+#: printqueue/PrintQueueUi.cpp:501
+#, kde-format
+msgid "Failed to reprint '%1'"
+msgstr "重新列印 '%1' 失敗"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PrintQueueUi)
+#: printqueue/PrintQueueUi.ui:20
+#, kde-format
+msgid "my printer (x jobs)"
+msgstr "我的印表機（x 個工作）"
+
+#. i18n: ectx: property (text), widget (QLabel, iconL)
+#: printqueue/PrintQueueUi.ui:49
+#, kde-format
+msgid "Printer Icon"
+msgstr "印表機圖示"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelJobPB)
+#: printqueue/PrintQueueUi.ui:233
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#. i18n: ectx: property (text), widget (QPushButton, holdJobPB)
+#: printqueue/PrintQueueUi.ui:253
+#, kde-format
+msgid "Hold"
+msgstr "保留"
+
+#. i18n: ectx: property (text), widget (QPushButton, resumeJobPB)
+#: printqueue/PrintQueueUi.ui:266
+#, kde-format
+msgid "Resume"
+msgstr "恢復"
+
+#. i18n: ectx: property (text), widget (QPushButton, reprintPB)
+#: printqueue/PrintQueueUi.ui:279
+#, kde-format
+msgid "Reprint"
+msgstr "重新列印"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, whichJobsCB)
+#: printqueue/PrintQueueUi.ui:312
+#, kde-format
+msgid "Active Jobs"
+msgstr "進行中的工作"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, whichJobsCB)
+#: printqueue/PrintQueueUi.ui:317
+#, kde-format
+msgid "Completed Jobs"
+msgstr "已完成的工作"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, whichJobsCB)
+#: printqueue/PrintQueueUi.ui:322
+#, kde-format
+msgid "All Jobs"
+msgstr "所有工作"
+
+#~ msgid "Daniel Nicoletti"
+#~ msgstr "Daniel Nicoletti"
+
+#~ msgid "AddPrinter"
+#~ msgstr "新增印表機"
+
+#~ msgid "Configure printer"
+#~ msgstr "設定印表機"
+
+#~ msgid "Only show jobs from the following printers:"
+#~ msgstr "只顯示以下印表機的工作："
+
+#~ msgid "All jobs"
+#~ msgstr "所有工作"
+
+#~ msgid "Completed jobs only"
+#~ msgstr "只顯示已完成的工作"
+
+#~ msgid "Active jobs only"
+#~ msgstr "只顯示進行中的工作"
+
+#~ msgid "A short binary option"
+#~ msgstr "簡短二元選項"
+
+#~ msgid "Show all jobs"
+#~ msgstr "顯示所有工作"
+
+#~ msgid "Show only active jobs"
+#~ msgstr "只顯示作用中的工作"
+
+#~ msgid "Show only completed jobs"
+#~ msgstr "只顯示已完成的工作"
+
+#~ msgid "Print queue is empty"
+#~ msgstr "列印佇列是空的"
+
+#~ msgid "There is one print job in the queue"
+#~ msgid_plural "There are %1 print jobs in the queue"
+#~ msgstr[0] "有 %1 個列印工作在佇列中"
+
+#~ msgid "Behavior"
+#~ msgstr "行為"
+
+#~ msgid "All printers"
+#~ msgstr "所有印表機"
+
+#~ msgid "Only Jobs from Printer:"
+#~ msgstr "只有從印表機來的工作："

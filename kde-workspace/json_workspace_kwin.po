@@ -1,0 +1,115 @@
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: json_workspace_kwin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-01 03:47+0000\n"
+"PO-Revision-Date: 2016-11-03 15:56+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: plugins/platforms/virtual/virtual.json
+msgctxt "Name"
+msgid "virtual"
+msgstr "虛擬"
+
+#: plugins/platforms/x11/windowed/x11.json
+msgctxt "Name"
+msgid "x11"
+msgstr "x11"
+
+#: plugins/platforms/x11/standalone/x11.json
+msgctxt "Name"
+msgid "x11-standalone"
+msgstr "x11-standalone"
+
+#: plugins/platforms/fbdev/fbdev.json
+msgctxt "Name"
+msgid "framebuffer"
+msgstr "framebuffer"
+
+#: plugins/platforms/drm/drm.json
+msgctxt "Name"
+msgid "drm"
+msgstr "drm"
+
+#: plugins/platforms/wayland/wayland.json
+msgctxt "Name"
+msgid "wayland"
+msgstr "wayland"
+
+#: plugins/platforms/hwcomposer/hwcomposer.json
+msgctxt "Name"
+msgid "hwcomposer"
+msgstr "hwcomposer"
+
+#: plugins/scenes/opengl/opengl.json
+msgctxt "Name"
+msgid "SceneOpenGL"
+msgstr ""
+
+#: plugins/scenes/xrender/xrender.json
+msgctxt "Name"
+msgid "SceneXRender"
+msgstr ""
+
+#: plugins/scenes/qpainter/qpainter.json
+msgctxt "Name"
+msgid "SceneQPainter"
+msgstr ""
+
+#: plugins/platforms/virtual/virtual.json
+msgctxt "Description"
+msgid "Render to a virtual framebuffer."
+msgstr "成像到虛擬影格緩衝區。"
+
+#: plugins/platforms/x11/windowed/x11.json
+msgctxt "Description"
+msgid "Render to a nested window on X11 windowing system."
+msgstr "成像到 X11 視窗系統的巢狀視窗。"
+
+#: plugins/platforms/x11/standalone/x11.json
+msgctxt "Description"
+msgid "Platform plugin for standalone x11 in kwin_x11."
+msgstr "在 kwin_x11 中供 standalone 的 x11 使用的平臺外掛程式。"
+
+#: plugins/platforms/fbdev/fbdev.json
+msgctxt "Description"
+msgid "Render to framebuffer."
+msgstr "成像至 framebuffer。"
+
+#: plugins/platforms/drm/drm.json
+msgctxt "Description"
+msgid "Render through drm node."
+msgstr "透過 drm 節點成像。"
+
+#: plugins/platforms/wayland/wayland.json
+msgctxt "Description"
+msgid "Render to a nested window on running Wayland compositor."
+msgstr "成像到執行中的 Wayland 的巢狀視窗。"
+
+#: plugins/platforms/hwcomposer/hwcomposer.json
+msgctxt "Description"
+msgid "Render through hwcomposer through libhybris."
+msgstr "透過 libhybris 成像到 hwcomposer。"
+
+#: plugins/scenes/opengl/opengl.json
+msgctxt "Description"
+msgid "KWin Compositor plugin rendering through OpenGL"
+msgstr ""
+
+#: plugins/scenes/xrender/xrender.json
+msgctxt "Description"
+msgid "KWin Compositor plugin rendering through XRender"
+msgstr ""
+
+#: plugins/scenes/qpainter/qpainter.json
+msgctxt "Description"
+msgid "KWin Compositor plugin rendering through QPainter"
+msgstr ""

@@ -1,0 +1,606 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:16+0100\n"
+"PO-Revision-Date: 2014-09-13 20:28+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: naturalfilequeryparser.cpp:49
+#, kde-format
+msgctxt "Numeric rating of a resource"
+msgid "rated as $1;rated $1;score is $1;score|scored $1;having $1 stars|star"
+msgstr ""
+"rated as $1;rated $1;score is $1;score|scored $1;having $1 stars|star;評分 "
+"$1;得分 $1;有 $1 顆星;"
+
+#: naturalfilequeryparser.cpp:50
+#, kde-format
+msgid "Rating (0 to 10)"
+msgstr "得分 (0 到 10)"
+
+#: naturalfilequeryparser.cpp:53
+#, kde-format
+msgctxt "Comment of a resource"
+msgid ""
+"described as $1;description|comment is $1;described|description|comment $1"
+msgstr ""
+"described as $1;description|comment is $1;described|description|comment $1;描"
+"述為|註解為|說明為 $1;"
+
+#: naturalfilequeryparser.cpp:54
+#, kde-format
+msgid "Comment or description"
+msgstr "描述或註解"
+
+#: naturalfilequeryparser.cpp:59
+#, kde-format
+msgctxt "Author of a document"
+msgid "written|created|composed by $1;author is $1;by $1"
+msgstr ""
+"written|created|composed by $1;author is $1;by $1;由 $1;作者 $1;作者為 $1"
+
+#: naturalfilequeryparser.cpp:60
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#: naturalfilequeryparser.cpp:63
+#, kde-format
+msgctxt "Size of a file"
+msgid "size is $1;size $1;being $1 large;$1 large"
+msgstr "size is $1;size $1;being $1 large;$1 large;大小 $1;大小為 $1"
+
+#: naturalfilequeryparser.cpp:64
+#, kde-format
+msgid "Size"
+msgstr "大小"
+
+#: naturalfilequeryparser.cpp:67
+#, kde-format
+msgctxt "Name of a file or contact"
+msgid "name is $1;name $1;named $1"
+msgstr ""
+"name is $1;name $1;named $1;名稱為 $1;名為 $1;名字為 $1;稱為 $1;叫做 $1"
+
+#: naturalfilequeryparser.cpp:68
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: naturalfilequeryparser.cpp:71
+#, kde-format
+msgctxt "Date of creation"
+msgid ""
+"created|dated at|on|in|of $1;created|dated $1;creation date|time|datetime is "
+"$1"
+msgstr ""
+"created|dated at|on|in|of $1;created|dated $1;creation date|time|datetime is "
+"$1;建立日期為 $1;建立於 $1;建立時間為 $1"
+
+#: naturalfilequeryparser.cpp:72
+#, kde-format
+msgid "Date of creation"
+msgstr "建立日期"
+
+#: naturalfilequeryparser.cpp:75
+#, kde-format
+msgctxt "Date of last modification"
+msgid ""
+"modified|edited at|on $1;modified|edited $1;modification|edition date|time|"
+"datetime is $1"
+msgstr ""
+"modified|edited at|on $1;modified|edited $1;modification|edition date|time|"
+"datetime is $1;變更於 $1;變更日期為 $1;變更時間為 $1"
+
+#: naturalfilequeryparser.cpp:76
+#, kde-format
+msgid "Date of last modification"
+msgstr "上次變更日期"
+
+#: naturalfilequeryparser.cpp:81
+#, kde-format
+msgctxt "A document is associated with a tag"
+msgid "tagged as $1;has tag $1;tag is $1;# $1"
+msgstr "tagged as $1;has tag $1;tag is $1;# $1;標記為 $1;標籤為 $1"
+
+#: naturalfilequeryparser.cpp:82
+#, kde-format
+msgid "Tag name"
+msgstr "標籤名稱"
+
+#: naturalfilequeryparser.cpp:86
+#, kde-format
+msgctxt ""
+"$1 is a property name (non-translatable unfortunately) and $2 is the value "
+"against which the property is matched. Note that the equal/greater/smaller "
+"sign has already been folded in $2"
+msgid "$1 is $2;$1 $2"
+msgstr "$1 是 $2;$1 $2;$1 為 $2;$1 is $2"
+
+#: naturalfilequeryparser.cpp:87
+#, kde-format
+msgid "File property"
+msgstr "檔案屬性"
+
+#: naturalqueryparser.cpp:82
+#, kde-format
+msgctxt ""
+"Characters that are kept in the query for further processing but are "
+"considered word boundaries"
+msgid ".,;:!?()[]{}<>=#+-"
+msgstr ".,;:!?()[]{}<>=#+-"
+
+#: naturalqueryparser.cpp:197
+#, kde-format
+msgctxt "Adding an offset to a period of time ($1=period, $2=offset)"
+msgid "in $2 $1"
+msgstr "在 $2 $1 內"
+
+#: naturalqueryparser.cpp:200
+#, kde-format
+msgctxt "Removing an offset from a period of time ($1=period, $2=offset)"
+msgid "$2 $1 ago"
+msgstr "$2 $1 之前"
+
+#: naturalqueryparser.cpp:204
+#, kde-format
+msgctxt "In one day"
+msgid "tomorrow"
+msgstr "明天"
+
+#: naturalqueryparser.cpp:205
+#, kde-format
+msgid "Tomorrow"
+msgstr "明天"
+
+#: naturalqueryparser.cpp:208
+#, kde-format
+msgctxt "One day ago"
+msgid "yesterday"
+msgstr "昨天"
+
+#: naturalqueryparser.cpp:209
+#, kde-format
+msgid "Yesterday"
+msgstr "昨天"
+
+#: naturalqueryparser.cpp:212
+#, kde-format
+msgctxt "The current day"
+msgid "today"
+msgstr "今天"
+
+#: naturalqueryparser.cpp:213
+#, kde-format
+msgid "Today"
+msgstr "今天"
+
+#: naturalqueryparser.cpp:217
+#, kde-format
+msgctxt "First period (first day, month, etc)"
+msgid "first $1"
+msgstr "第一$1"
+
+#: naturalqueryparser.cpp:218
+#, kde-format
+msgid "First week, month, day, ..."
+msgstr "第一週、第一個月、第一天..."
+
+#: naturalqueryparser.cpp:221
+#, kde-format
+msgctxt "Last period (last day, month, etc)"
+msgid "last $1 of"
+msgstr "前一$1"
+
+#: naturalqueryparser.cpp:222
+#, kde-format
+msgid "Last week, month, day, ..."
+msgstr "上週、上個月、前一天"
+
+#: naturalqueryparser.cpp:225
+#, kde-format
+msgctxt ""
+"Setting the value of a period, as in 'third week' ($1=period, $2=value)"
+msgid "$2 $1"
+msgstr "$2 $1"
+
+#: naturalqueryparser.cpp:229
+#, kde-format
+msgctxt "Adding 1 to a period of time"
+msgid "next $1"
+msgstr "下一|後一|明$1"
+
+#: naturalqueryparser.cpp:230
+#, kde-format
+msgid "Next week, month, day, ..."
+msgstr "下週、下個月、明天"
+
+#: naturalqueryparser.cpp:233
+#, kde-format
+msgctxt "Removing 1 to a period of time"
+msgid "last $1"
+msgstr "前一|上一|昨$1"
+
+#: naturalqueryparser.cpp:234
+#, kde-format
+msgid "Previous week, month, day, ..."
+msgstr "前一週、前一個月、昨天"
+
+#: naturalqueryparser.cpp:239
+#, kde-format
+msgctxt "An hour ($5) and an optional minute ($6), PM"
+msgid "at $5 :|\\. $6 pm;at $5 h pm;at $5 pm;$5 : $6 pm;$5 h pm;$5 pm"
+msgstr ""
+"at $5 :|\\. $6 pm;at $5 h pm;at $5 pm;$5 : $6 pm;$5 h pm;$5 pm;下午 $5 點;下"
+"午 $5 點 $6 分;下午 $5:$6;"
+
+#: naturalqueryparser.cpp:240
+#, kde-format
+msgid "A time after midday"
+msgstr "午後的時間"
+
+#: naturalqueryparser.cpp:243
+#, kde-format
+msgctxt "An hour ($5) and an optional minute ($6), AM"
+msgid ""
+"at $5 :|\\. $6 am;at $5 \\. $6;at $5 h am;at $5 am;at $5;$5 :|\\. $6 am;$5 : "
+"$6 : $7;$5 : $6;$5 h am;$5 h;$5 am"
+msgstr ""
+"at $5 :|\\. $6 am;at $5 \\. $6;at $5 h am;at $5 am;at $5;$5 :|\\. $6 am;$5 : "
+"$6 : $7;$5 : $6;$5 h am;$5 h;$5 am;早上 $5 點;早上 $5:$6;早上 $5 點 $6 分;上"
+"午 $5 點;上午 $5 點 $6 分;上午 $5:$6"
+
+#: naturalqueryparser.cpp:244
+#, kde-format
+msgid "A time"
+msgstr "時間"
+
+#: naturalqueryparser.cpp:249
+#, kde-format
+msgctxt ""
+"A year ($1), month ($2), day ($3), day of week ($4), hour ($5), minute ($6), "
+"second ($7), in every combination supported by your language"
+msgid ""
+"$3 of $2 $1;$3 st|nd|rd|th $2 $1;$3 st|nd|rd|th of $2 $1;$3 of $2;$3 st|nd|"
+"rd|th $2;$3 st|nd|rd|th of $2;$2 $3 st|nd|rd|th;$2 $3;$2 $1;$1 - $2 - $3;$1 "
+"- $2;$3 / $2 / $1;$3 / $2;in $2 $1; in $1;, $1"
+msgstr ""
+"$1 年;$1 年 $2 月;$1 年 $2 月 $3 日;$2 月 $3 日;$1 年 $2 月 $3 日星期 $4;$2 "
+"月 $3 日;$2 月 $3 日星期 $4;$2 月 $3 日 $5 點 $6 分;$2 月 $3 日 $5:$6;$2 月 "
+"$3 日星期 $4 $5 點 $6 分;$2 月 $3 日星期 $4 $5:$6;$1 年 $2 月 $3 日 $5 點 $6 "
+"分;$1 年 $2 月 $3 日 $5:$6;$1 年 $2 月 $3 日星期 $4 $5 點 $6 分;$1 年 $2 月 "
+"$3 日星期 $4 $5:$6;"
+
+#: naturalqueryparser.cpp:260
+#, kde-format
+msgctxt "Decimal values with an integer ($1) and decimal ($2) part"
+msgid "$1 \\. $2"
+msgstr "$1 \\. $2"
+
+#: naturalqueryparser.cpp:261
+#, kde-format
+msgid "A decimal value"
+msgstr "十進制數值"
+
+#: naturalqueryparser.cpp:267
+#, kde-format
+msgctxt "Equality"
+msgid "contains|containing $1"
+msgstr "包含|包括 $1;"
+
+#: naturalqueryparser.cpp:268
+#, kde-format
+msgid "Containing"
+msgstr "包含"
+
+#: naturalqueryparser.cpp:271
+#, kde-format
+msgctxt "Strictly greater"
+msgid "greater|bigger|more than $1;at least $1;> $1"
+msgstr "大於 $1;至少 $1;多於 $1;> $1"
+
+#: naturalqueryparser.cpp:272
+#, kde-format
+msgid "Greater than"
+msgstr "大於"
+
+#: naturalqueryparser.cpp:274
+#, kde-format
+msgctxt "After in time"
+msgid "after|since $1"
+msgstr "$1 之後;自從 $1;自從 $1 之後"
+
+#: naturalqueryparser.cpp:275
+#, kde-format
+msgid "After"
+msgstr "之後"
+
+#: naturalqueryparser.cpp:278
+#, kde-format
+msgctxt "Strictly smaller"
+msgid "smaller|less|lesser than $1;at most $1;< $1"
+msgstr "小於|少於|至多 $1;< $1"
+
+#: naturalqueryparser.cpp:279
+#, kde-format
+msgid "Smaller than"
+msgstr "小於"
+
+#: naturalqueryparser.cpp:281
+#, kde-format
+msgctxt "Before in time"
+msgid "before|until $1"
+msgstr "$1 之前"
+
+#: naturalqueryparser.cpp:282
+#, kde-format
+msgid "Before"
+msgstr "之前"
+
+#: naturalqueryparser.cpp:285
+#, kde-format
+msgctxt "Equality"
+msgid "equal|equals|= $1;equal to $1"
+msgstr "等於 $1"
+
+#: naturalqueryparser.cpp:286
+#, kde-format
+msgid "Equal to"
+msgstr "等於"
+
+#: pass_dateperiods.cpp:33
+#, kde-format
+msgctxt "Space-separated list of words representing a year"
+msgid "year years"
+msgstr "年 year years"
+
+#: pass_dateperiods.cpp:35
+#, kde-format
+msgctxt "Space-separated list of words representing a month"
+msgid "month months"
+msgstr "月 month months"
+
+#: pass_dateperiods.cpp:37
+#, kde-format
+msgctxt "Space-separated list of words representing a week"
+msgid "week weeks"
+msgstr "週 week weeks"
+
+#: pass_dateperiods.cpp:39
+#, kde-format
+msgctxt "Space-separated list of words representing a day"
+msgid "day days"
+msgstr "天 day days"
+
+#: pass_dateperiods.cpp:41
+#, kde-format
+msgctxt "Space-separated list of words representing an hour"
+msgid "hour hours"
+msgstr "小時 時 hour hours"
+
+#: pass_dateperiods.cpp:43
+#, kde-format
+msgctxt "Space-separated list of words representing a minute"
+msgid "minute minutes"
+msgstr "分 分鐘 minute minutes"
+
+#: pass_dateperiods.cpp:45
+#, kde-format
+msgctxt "Space-separated list of words representing a second"
+msgid "second seconds"
+msgstr "秒 second seconds"
+
+#: pass_filesize.cpp:30
+#, kde-format
+msgctxt "Lower-case units corresponding to a kilobyte"
+msgid "kb kilobyte kilobytes"
+msgstr "kb kilobyte kilobytes"
+
+#: pass_filesize.cpp:31
+#, kde-format
+msgctxt "Lower-case units corresponding to a megabyte"
+msgid "mb megabyte megabytes"
+msgstr "mb megabyte megabytes"
+
+#: pass_filesize.cpp:32
+#, kde-format
+msgctxt "Lower-case units corresponding to a gigabyte"
+msgid "gb gigabyte gigabytes"
+msgstr "gb gigabyte gigabytes"
+
+#: pass_filesize.cpp:33
+#, kde-format
+msgctxt "Lower-case units corresponding to a terabyte"
+msgid "tb terabyte terabytes"
+msgstr "tb terabyte terabytes"
+
+#: pass_filesize.cpp:35
+#, kde-format
+msgctxt "Lower-case units corresponding to a kibibyte"
+msgid "kib k kibibyte kibibytes"
+msgstr "kib k kibibyte kibibytes"
+
+#: pass_filesize.cpp:36
+#, kde-format
+msgctxt "Lower-case units corresponding to a mebibyte"
+msgid "mib m mebibyte mebibytes"
+msgstr "mib m mebibyte mebibytes"
+
+#: pass_filesize.cpp:37
+#, kde-format
+msgctxt "Lower-case units corresponding to a gibibyte"
+msgid "gib g gibibyte gibibytes"
+msgstr "gib g gibibyte gibibytes"
+
+#: pass_filesize.cpp:38
+#, kde-format
+msgctxt "Lower-case units corresponding to a tebibyte"
+msgid "tib t tebibyte tebibytes"
+msgstr "tib t tebibyte tebibytes"
+
+#: pass_numbers.cpp:29
+#, kde-format
+msgctxt "Space-separated list of words meaning 0"
+msgid "zero nought null"
+msgstr "zero 0 零 無"
+
+#: pass_numbers.cpp:30
+#, kde-format
+msgctxt "Space-separated list of words meaning 1"
+msgid "one a first"
+msgstr "one 1 一 壹"
+
+#: pass_numbers.cpp:31
+#, kde-format
+msgctxt "Space-separated list of words meaning 2"
+msgid "two second"
+msgstr "2 two 二 貳"
+
+#: pass_numbers.cpp:32
+#, kde-format
+msgctxt "Space-separated list of words meaning 3"
+msgid "three third"
+msgstr "三 3 參 three"
+
+#: pass_numbers.cpp:33
+#, kde-format
+msgctxt "Space-separated list of words meaning 4"
+msgid "four fourth"
+msgstr "4 four 四  肆"
+
+#: pass_numbers.cpp:34
+#, kde-format
+msgctxt "Space-separated list of words meaning 5"
+msgid "five fifth"
+msgstr "5 five 五 伍"
+
+#: pass_numbers.cpp:35
+#, kde-format
+msgctxt "Space-separated list of words meaning 6"
+msgid "six sixth"
+msgstr "6 six 六 陸"
+
+#: pass_numbers.cpp:36
+#, kde-format
+msgctxt "Space-separated list of words meaning 7"
+msgid "seven seventh"
+msgstr "7 seven 七 柒"
+
+#: pass_numbers.cpp:37
+#, kde-format
+msgctxt "Space-separated list of words meaning 8"
+msgid "eight eighth"
+msgstr "8 eight 八 捌"
+
+#: pass_numbers.cpp:38
+#, kde-format
+msgctxt "Space-separated list of words meaning 9"
+msgid "nine ninth"
+msgstr "9 nine 九 玖"
+
+#: pass_numbers.cpp:39
+#, kde-format
+msgctxt "Space-separated list of words meaning 10"
+msgid "ten tenth"
+msgstr "10 ten 十 拾"
+
+#: pass_splitunits.cpp:32
+#, kde-format
+msgctxt ""
+"List of lowercase prefixes or suffix that need to be split from values"
+msgid "k m g b kb mb gb tb kib mib gib tib h am pm th rd nd st"
+msgstr "k m g b kb mb gb tb kib mib gib tib h am pm th rd nd st"
+
+#: pass_typehints.cpp:30
+#, kde-format
+msgctxt "List of words representing a file"
+msgid "file files"
+msgstr "檔案 file files"
+
+#: pass_typehints.cpp:32
+#, kde-format
+msgctxt "List of words representing an image"
+msgid "image images picture pictures photo photos"
+msgstr "圖片 影像 相片 image images picture pictures photo photos"
+
+#: pass_typehints.cpp:34
+#, kde-format
+msgctxt "List of words representing a video"
+msgid "video videos movie movies film films"
+msgstr "影片 電影 video videos movie movies film films"
+
+#: pass_typehints.cpp:36
+#, kde-format
+msgctxt "List of words representing an audio file"
+msgid "music musics"
+msgstr "音樂 music musics"
+
+#: pass_typehints.cpp:38
+#, kde-format
+msgctxt "List of words representing a document"
+msgid "document documents"
+msgstr "文件 document documents"
+
+#: pass_typehints.cpp:40
+#, kde-format
+msgctxt "List of words representing an email"
+msgid "mail mails email emails e-mail e-mails message messages"
+msgstr ""
+"郵件 電子郵件 訊息 mail mails email emails e-mail e-mails message messages"
+
+#: pass_typehints.cpp:42
+#, kde-format
+msgctxt "List of words representing an archive"
+msgid "archive archives tarball tarballs zip"
+msgstr "歸檔 壓縮檔 archive archives tarball tarballs zip"
+
+#: pass_typehints.cpp:44
+#, kde-format
+msgctxt "List of words representing a folder"
+msgid "folder folders directory directories"
+msgstr "資料夾 目錄 folder folders directory directories"
+
+#: pass_typehints.cpp:46
+#, kde-format
+msgctxt "List of words representing a contact"
+msgid "contact contacts person people"
+msgstr "聯絡人 contact contacts person people"
+
+#: pass_typehints.cpp:48
+#, kde-format
+msgctxt "List of words representing a note"
+msgid "note notes"
+msgstr "備忘 便條 note notes"
+
+#: utils.cpp:27
+#, kde-format
+msgctxt "Are words of your language separated by spaces (Y/N) ?"
+msgid "Y"
+msgstr "N"
+
+#: utils.cpp:92
+#, kde-format
+msgid "and"
+msgstr "且 and"
+
+#: utils.cpp:93
+#, kde-format
+msgid "or"
+msgstr "或 or"
+
+#: utils.cpp:94
+#, kde-format
+msgid "not"
+msgstr "非 否 not"

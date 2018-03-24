@@ -1,0 +1,615 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: FormulaShape\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-23 03:17+0100\n"
+"PO-Revision-Date: 2016-12-08 08:32+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: FormulaCommand.cpp:72
+msgctxt "(qtundo-format)"
+msgid "Add text to formula"
+msgstr "將文字新增到公式"
+
+#: FormulaCommand.cpp:228
+msgctxt "(qtundo-format)"
+msgid "Change rows"
+msgstr "變更列"
+
+#: FormulaEditor.cpp:88
+msgctxt "(qtundo-format)"
+msgid "Add text"
+msgstr "新增文字"
+
+#: FormulaEditor.cpp:121
+msgctxt "(qtundo-format)"
+msgid "Insert row"
+msgstr "插入列"
+
+#: FormulaEditor.cpp:126
+msgctxt "(qtundo-format)"
+msgid "Remove row"
+msgstr "移除列"
+
+#: FormulaEditor.cpp:134
+msgctxt "(qtundo-format)"
+msgid "Insert column"
+msgstr "插入欄"
+
+#: FormulaEditor.cpp:139
+msgctxt "(qtundo-format)"
+msgid "Remove column"
+msgstr "移除欄"
+
+#: FormulaEditor.cpp:165
+msgctxt "(qtundo-format)"
+msgid "Insert formula elements."
+msgstr "插入公式元素。"
+
+#: FormulaEditor.cpp:198
+msgctxt "(qtundo-format)"
+msgid "Remove formula elements"
+msgstr "移除公式元素"
+
+#: FormulaToolWidget.cpp:85
+#, kde-format
+msgid "Arrows"
+msgstr "箭號"
+
+#: FormulaToolWidget.cpp:87
+#, kde-format
+msgid "Greek"
+msgstr "希臘"
+
+#: FormulaToolWidget.cpp:91
+#, kde-format
+msgid "Relations"
+msgstr "關係"
+
+#: FormulaToolWidget.cpp:94
+#, kde-format
+msgid "Operators"
+msgstr "運算子"
+
+#: FormulaToolWidget.cpp:98
+#, kde-format
+msgid "Miscellaneous"
+msgstr "雜項"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: FormulaToolWidget.ui:24
+#, kde-format
+msgid "Insert"
+msgstr "插入"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupElements)
+#: FormulaToolWidget.ui:36
+#, kde-format
+msgid "Elements"
+msgstr "元素"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupSymbols)
+#: FormulaToolWidget.ui:132
+#, kde-format
+msgid "Symbols"
+msgstr "符號"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupActions)
+#: FormulaToolWidget.ui:228
+#, kde-format
+msgid "Actions"
+msgstr "動作"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonLoad)
+#: FormulaToolWidget.ui:279
+#, kde-format
+msgctxt "This button opens a file dialog to load a MathML file"
+msgid "Load..."
+msgstr "載入..."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonSave)
+#: FormulaToolWidget.ui:286
+#, kde-format
+msgid "Save..."
+msgstr "儲存..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: FormulaToolWidget.ui:294
+#, kde-format
+msgid "Edit"
+msgstr "編輯"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupGeneralOptions)
+#: FormulaToolWidget.ui:300
+#, kde-format
+msgid "General options"
+msgstr "一般選項"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: FormulaToolWidget.ui:325
+#, kde-format
+msgid "Font:"
+msgstr "字型"
+
+#. i18n: ectx: property (text), widget (QLabel, labelColors)
+#: FormulaToolWidget.ui:341
+#, kde-format
+msgid "Colors:"
+msgstr "顏色:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupSpecificOptions)
+#: FormulaToolWidget.ui:349
+#, kde-format
+msgid "Specific options"
+msgstr "指定選項"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: FormulaToolWidget.ui:371
+#, kde-format
+msgid "Rows:"
+msgstr "列："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: FormulaToolWidget.ui:378
+#, kde-format
+msgid "Columns:"
+msgstr "欄："
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: FormulaToolWidget.ui:406
+#, kde-format
+msgid "View MathML"
+msgstr "檢視 MathML"
+
+#: KoFormulaShape.cpp:223
+#, kde-format
+msgid ""
+"This document contains an external link to a remote document\n"
+"%1"
+msgstr "此文件包含連接遠端文件 %1 的外部連結"
+
+#: KoFormulaShape.cpp:224
+#, kde-format
+msgid "Confirmation Required"
+msgstr "需要確認"
+
+#: KoFormulaShape.cpp:224
+#, kde-format
+msgid "Download"
+msgstr "下載"
+
+#: KoFormulaShape.cpp:224
+#, kde-format
+msgid "Skip"
+msgstr "略過"
+
+#: KoFormulaShapeFactory.cpp:34
+#, kde-format
+msgid "Formula"
+msgstr "公式"
+
+#: KoFormulaShapeFactory.cpp:36
+#, kde-format
+msgid "A formula"
+msgstr "一個公式"
+
+#: KoFormulaTool.cpp:412
+#, kde-format
+msgid "Insert fenced element"
+msgstr "插入隔離元素"
+
+#: KoFormulaTool.cpp:413
+#, kde-format
+msgid "Insert enclosed element"
+msgstr "插入封裝元素"
+
+#: KoFormulaTool.cpp:416
+#, kde-format
+msgid "Insert root"
+msgstr "插入根"
+
+#: KoFormulaTool.cpp:417
+#, kde-format
+msgid "Insert square root"
+msgstr "插入平方根"
+
+#: KoFormulaTool.cpp:419
+#, kde-format
+msgid "Insert fraction"
+msgstr "插入分數"
+
+#: KoFormulaTool.cpp:421
+#, kde-format
+msgid "Insert bevelled fraction"
+msgstr "插入斜角分數"
+
+#: KoFormulaTool.cpp:424
+#, kde-format
+msgid "Insert 3x3 table"
+msgstr "插入 3x3 表格"
+
+#: KoFormulaTool.cpp:428
+#, kde-format
+msgid "Insert 2 dimensional vector"
+msgstr "插入二維向量"
+
+#: KoFormulaTool.cpp:431
+#, kde-format
+msgid "Insert subscript"
+msgstr "插入下標"
+
+#: KoFormulaTool.cpp:433
+#, kde-format
+msgid "Insert superscript"
+msgstr "插入上標"
+
+#: KoFormulaTool.cpp:435
+#, kde-format
+msgid "Insert sub- and superscript"
+msgstr "插入上下標"
+
+#: KoFormulaTool.cpp:437
+#, kde-format
+msgid "Insert overscript"
+msgstr "插入上標"
+
+#: KoFormulaTool.cpp:439
+#, kde-format
+msgid "Insert underscript"
+msgstr "插入下標"
+
+#: KoFormulaTool.cpp:441
+#, kde-format
+msgid "Insert under- and overscript"
+msgstr "插入上下標"
+
+#: KoFormulaTool.cpp:450
+#, kde-format
+msgid "Insert row"
+msgstr "插入列"
+
+#: KoFormulaTool.cpp:457
+#, kde-format
+msgid "Insert column"
+msgstr "插入欄"
+
+#: KoFormulaTool.cpp:464
+#, kde-format
+msgid "Remove row"
+msgstr "移除列"
+
+#: KoFormulaTool.cpp:471
+#, kde-format
+msgid "Remove column"
+msgstr "移除欄"
+
+#: KoFormulaToolFactory.cpp:30
+#, kde-format
+msgid "Formula editing"
+msgstr "編輯公式"
+
+#: KoM2MMLForumulaTool.cpp:110
+#, kde-format
+msgid "Mode: "
+msgstr "模式： "
+
+#: KoM2MMLForumulaTool.cpp:113
+#, kde-format
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: KoM2MMLForumulaTool.cpp:115
+#, kde-format
+msgid "Matlab"
+msgstr "Matlab"
+
+#: KoM2MMLForumulaTool.cpp:184
+#, kde-format
+msgid "Parse error."
+msgstr "剖析錯誤。"
+
+#: KoM2MMLForumulaTool.cpp:214
+#, kde-format
+msgid "Edit formula with LaTeX/Matlab syntax"
+msgstr "以 LaTeX/Matlab 語法編輯公式"
+
+#: KoM2MMLForumulaTool.cpp:216
+#, kde-format
+msgid "Edit formula with LaTeX syntax"
+msgstr "以 LaTeX 語法編輯公式"
+
+#, fuzzy
+#~| msgid "Insert"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert"
+#~ msgstr "插入"
+
+#, fuzzy
+#~| msgid "Elements"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Elements"
+#~ msgstr "元素"
+
+#, fuzzy
+#~| msgid "Symbols"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Symbols"
+#~ msgstr "符號"
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Actions"
+#~ msgstr "動作"
+
+#, fuzzy
+#~| msgctxt "This button opens a file dialog to load a MathML file"
+#~| msgid "Load..."
+#~ msgctxt ""
+#~ "(qtundo-format) This button opens a file dialog to load a MathML file"
+#~ msgid "Load..."
+#~ msgstr "載入..."
+
+#, fuzzy
+#~| msgid "Save..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Save..."
+#~ msgstr "儲存..."
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#, fuzzy
+#~| msgid "General options"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "General options"
+#~ msgstr "一般選項"
+
+#, fuzzy
+#~| msgid "Font:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Font:"
+#~ msgstr "字型"
+
+#, fuzzy
+#~| msgid "Colors:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Colors:"
+#~ msgstr "顏色:"
+
+#, fuzzy
+#~| msgid "Specific options"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Specific options"
+#~ msgstr "指定選項"
+
+#, fuzzy
+#~| msgid "Rows:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rows:"
+#~ msgstr "列："
+
+#, fuzzy
+#~| msgid "Columns:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Columns:"
+#~ msgstr "欄："
+
+#, fuzzy
+#~| msgid "View MathML"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "View MathML"
+#~ msgstr "檢視 MathML"
+
+#, fuzzy
+#~| msgid "Arrows"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Arrows"
+#~ msgstr "箭號"
+
+#, fuzzy
+#~| msgid "Greek"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Greek"
+#~ msgstr "希臘"
+
+#, fuzzy
+#~| msgid "Relations"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Relations"
+#~ msgstr "關係"
+
+#, fuzzy
+#~| msgid "Operators"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Operators"
+#~ msgstr "運算子"
+
+#, fuzzy
+#~| msgid "Miscellaneous"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Miscellaneous"
+#~ msgstr "雜項"
+
+#, fuzzy
+#~| msgid ""
+#~| "This document contains an external link to a remote document\n"
+#~| "%1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "This document contains an external link to a remote document\n"
+#~ "%1"
+#~ msgstr "此文件包含連接遠端文件 %1 的外部連結"
+
+#, fuzzy
+#~| msgid "Confirmation Required"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Confirmation Required"
+#~ msgstr "需要確認"
+
+#, fuzzy
+#~| msgid "Download"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Download"
+#~ msgstr "下載"
+
+#, fuzzy
+#~| msgid "Skip"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Skip"
+#~ msgstr "略過"
+
+#, fuzzy
+#~| msgid "Formula"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Formula"
+#~ msgstr "公式"
+
+#, fuzzy
+#~| msgid "A formula"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A formula"
+#~ msgstr "一個公式"
+
+#, fuzzy
+#~| msgid "Insert fenced element"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert fenced element"
+#~ msgstr "插入隔離元素"
+
+#, fuzzy
+#~| msgid "Insert enclosed element"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert enclosed element"
+#~ msgstr "插入封裝元素"
+
+#, fuzzy
+#~| msgid "Insert root"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert root"
+#~ msgstr "插入根"
+
+#, fuzzy
+#~| msgid "Insert square root"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert square root"
+#~ msgstr "插入平方根"
+
+#, fuzzy
+#~| msgid "Insert fraction"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert fraction"
+#~ msgstr "插入分數"
+
+#, fuzzy
+#~| msgid "Insert bevelled fraction"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert bevelled fraction"
+#~ msgstr "插入斜角分數"
+
+#, fuzzy
+#~| msgid "Insert 3x3 table"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert 3x3 table"
+#~ msgstr "插入 3x3 表格"
+
+#, fuzzy
+#~| msgid "Insert 2 dimensional vector"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert 2 dimensional vector"
+#~ msgstr "插入二維向量"
+
+#, fuzzy
+#~| msgid "Insert subscript"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert subscript"
+#~ msgstr "插入下標"
+
+#, fuzzy
+#~| msgid "Insert superscript"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert superscript"
+#~ msgstr "插入上標"
+
+#, fuzzy
+#~| msgid "Insert sub- and superscript"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert sub- and superscript"
+#~ msgstr "插入上下標"
+
+#, fuzzy
+#~| msgid "Insert overscript"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert overscript"
+#~ msgstr "插入上標"
+
+#, fuzzy
+#~| msgid "Insert underscript"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert underscript"
+#~ msgstr "插入下標"
+
+#, fuzzy
+#~| msgid "Insert under- and overscript"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert under- and overscript"
+#~ msgstr "插入上下標"
+
+#, fuzzy
+#~| msgid "Formula editing tool"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Formula editing"
+#~ msgstr "公式編輯工具"
+
+#~ msgid "Formula tool"
+#~ msgstr "公式工具"
+
+#, fuzzy
+#~| msgid "Remove column"
+#~ msgid "Remove stuff"
+#~ msgstr "移除欄"
+
+#~ msgid "Insert fence"
+#~ msgstr "插入圍欄"
+
+#~ msgid "Insert 2x2 table"
+#~ msgstr "插入 2x2 表格"
+
+#~ msgid "Insert 3 dimensional vector"
+#~ msgstr "插入三維向量"
+
+#~ msgid "Insert table row"
+#~ msgstr "插入表格列"
+
+#~ msgid "Replace Element"
+#~ msgstr "取代元素"
+
+#~ msgid "Attribute Changed"
+#~ msgstr "屬性已變更"

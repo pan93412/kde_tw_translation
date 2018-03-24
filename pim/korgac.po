@@ -1,0 +1,361 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-12-11 03:04+0100\n"
+"PO-Revision-Date: 2013-11-01 10:56+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@nospam_goodhorse.idv.tw"
+
+#: alarmdialog.cpp:154
+#, kde-format
+msgctxt "@title:window"
+msgid "Reminders"
+msgstr "提醒"
+
+#: alarmdialog.cpp:171
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss Reminder"
+msgstr "解除提醒"
+
+#: alarmdialog.cpp:173
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for the selected incidences"
+msgstr "解除選取的事件的提醒"
+
+#: alarmdialog.cpp:174
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss All"
+msgstr "全部解除"
+
+#: alarmdialog.cpp:176
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for all listed incidences"
+msgstr "解除所有列出的事件的提醒"
+
+#: alarmdialog.cpp:177
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "編輯..."
+
+#: alarmdialog.cpp:179
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit the selected incidence"
+msgstr "編輯選取的提醒"
+
+#: alarmdialog.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Suspend"
+msgstr "暫停"
+
+#: alarmdialog.cpp:182
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Suspend the reminders for the selected incidences by the specified interval"
+msgstr "暫停所有選取的依固定時間間隔觸發事件的提醒"
+
+#: alarmdialog.cpp:194
+#, kde-format
+msgctxt "@label"
+msgid "Reminders: Click on a title to toggle the details viewer for that item"
+msgstr "提醒：點擊標題可以切換此項目的詳細檢視"
+
+#: alarmdialog.cpp:203
+#, kde-format
+msgctxt "@title:column reminder title"
+msgid "Title"
+msgstr "標題"
+
+#: alarmdialog.cpp:204
+#, kde-format
+msgctxt "@title:column happens at date/time"
+msgid "Date Time"
+msgstr "日期 時間"
+
+#: alarmdialog.cpp:205
+#, kde-format
+msgctxt "@title:column trigger date/time"
+msgid "Trigger Time"
+msgstr "觸發時間"
+
+#: alarmdialog.cpp:209
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The event or to-do title"
+msgstr "此事件或待辦事項的標題。"
+
+#: alarmdialog.cpp:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The reminder is set for this date/time"
+msgstr "已設定提醒於此日期/時間"
+
+#: alarmdialog.cpp:215
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The date/time the reminder was triggered"
+msgstr "提醒被觸發的日期與時間"
+
+#: alarmdialog.cpp:230
+#, kde-kuit-format
+msgctxt "@info default incidence details string"
+msgid ""
+"<emphasis>Select an event or to-do from the list above to view its details "
+"here.</emphasis>"
+msgstr "<emphasis>選取上面清單中的事件或待辦事項，可以檢視其詳情。</emphasis>"
+
+#: alarmdialog.cpp:242
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Suspend &duration:"
+msgstr "暫停期間(&D)："
+
+#: alarmdialog.cpp:251
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders by this amount of time"
+msgstr "暫停所有在這段期間內的事件的提醒"
+
+#: alarmdialog.cpp:254
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended by this number "
+"of time units. You can choose the time units (typically minutes) in the "
+"adjacent selector."
+msgstr "每個選取事件的提醒都會被推遲這麼久。您可以用旁邊的選擇器選擇時間單位。"
+
+#: alarmdialog.cpp:262
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of minutes"
+msgid "minute(s)"
+msgstr "分鐘"
+
+#: alarmdialog.cpp:263
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of hours"
+msgid "hour(s)"
+msgstr "小時"
+
+#: alarmdialog.cpp:264
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of days"
+msgid "day(s)"
+msgstr "天"
+
+#: alarmdialog.cpp:265
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of weeks"
+msgid "week(s)"
+msgstr "週"
+
+#: alarmdialog.cpp:268
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders using this time unit"
+msgstr "暫停所有在這段期間內的事件的提醒"
+
+#: alarmdialog.cpp:271
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended using this time "
+"unit. You can set the number of time units in the adjacent number entry "
+"input."
+msgstr "推遲提醒時間的單位。您可以用旁邊的選擇器選擇時間長度。"
+
+#: alarmdialog.cpp:310
+#, kde-format
+msgctxt "@label an elipsis"
+msgid "..."
+msgstr "..."
+
+#: alarmdialog.cpp:455
+#, kde-format
+msgctxt "@info"
+msgid "\"%1\" is a read-only item so modifications are not possible."
+msgstr "%1 是唯讀的項目，因此無法改變。"
+
+#: alarmdialog.cpp:668
+#, kde-format
+msgctxt "@title"
+msgid "Reminder"
+msgstr "提醒"
+
+#: alarmdialog.cpp:670 alarmdialog.cpp:673
+#, kde-format
+msgctxt "@title"
+msgid "Reminder: %1"
+msgstr "提醒：%1"
+
+#: alarmdialog.cpp:948
+#, kde-format
+msgctxt "@info"
+msgid "Could not start KOrganizer so editing is not possible."
+msgstr "無法啟動 KOrganizer，因此無法編輯。"
+
+#: alarmdialog.cpp:961
+#, kde-format
+msgctxt "@info"
+msgid "An internal KOrganizer error occurred attempting to modify \"%1\""
+msgstr "變更 %1 時，KOrganizer 發生內部錯誤"
+
+#: alarmdockwindow.cpp:49
+#, kde-format
+msgctxt "@title:window"
+msgid "KOrganizer Reminder Daemon"
+msgstr "KOrganizer 提醒守護程式"
+
+#: alarmdockwindow.cpp:60
+#, kde-format
+msgctxt "@info"
+msgid "Cannot load system tray icon."
+msgstr "無法載入系統匣圖示。"
+
+#: alarmdockwindow.cpp:73
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Suspend All Reminders"
+msgstr "暫停所有的提醒"
+
+#: alarmdockwindow.cpp:76
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Dismiss All Reminders"
+msgstr "解除所有的提醒"
+
+#: alarmdockwindow.cpp:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Reminders"
+msgstr "開啟提醒"
+
+#: alarmdockwindow.cpp:88
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start Reminder Daemon at Login"
+msgstr "登入時啟動提醒守護程式"
+
+#: alarmdockwindow.cpp:118
+#, kde-format
+msgctxt "@info:status"
+msgid "There is 1 active reminder."
+msgid_plural "There are %1 active reminders."
+msgstr[0] "目前有 %1 個已啟動的提醒。"
+
+#: alarmdockwindow.cpp:122
+#, kde-format
+msgctxt "@info:status"
+msgid "No active reminders."
+msgstr "沒有作用中的提醒"
+
+#: alarmdockwindow.cpp:171
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to quit the KOrganizer reminder daemon?<nl/><note> you will not "
+"get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"您確定要離開 KOrganizer 提醒守護程式嗎？<nl/><note>若守護程式未啟動，您就無法"
+"收到事前提醒通知。</note>"
+
+#: alarmdockwindow.cpp:173 alarmdockwindow.cpp:185
+#, kde-format
+msgctxt "@title:window"
+msgid "Close KOrganizer Reminder Daemon"
+msgstr "關閉 KOrganizer 提醒守護程式"
+
+#: alarmdockwindow.cpp:183
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to start the KOrganizer reminder daemon at login?<nl/><note> you "
+"will not get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"您要在登入時啟動 KOrganizer 提醒守護程式嗎？<nl/><note>若守護程式未啟動，您就"
+"無法收到事前提醒通知。</note>"
+
+#: alarmdockwindow.cpp:186
+#, kde-format
+msgctxt "@action:button start the reminder daemon"
+msgid "Start"
+msgstr "啟動"
+
+#: alarmdockwindow.cpp:187
+#, kde-format
+msgctxt "@action:button do not start the reminder daemon"
+msgid "Do Not Start"
+msgstr "不要啟動"
+
+#: korgacmain.cpp:46 korgacmain.cpp:47
+#, kde-format
+msgid "KOrganizer Reminder Daemon"
+msgstr "KOrganizer 提醒守護程式"
+
+#: korgacmain.cpp:49
+#, kde-format
+msgid "(c) 2003 Cornelius Schumacher"
+msgstr "(c) 2003 Cornelius Schumacher"
+
+#: korgacmain.cpp:51
+#, kde-format
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: korgacmain.cpp:51 korgacmain.cpp:53
+#, kde-format
+msgid "Former Maintainer"
+msgstr "前任維護者"
+
+#: korgacmain.cpp:53
+#, kde-format
+msgid "Reinhold Kainhofer"
+msgstr "Reinhold Kainhofer"
+
+#: korgacmain.cpp:55
+#, kde-format
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: korgacmain.cpp:55
+#, kde-format
+msgid "Janitorial Staff"
+msgstr "Janitorial Staff"
+
+#: mailclient.cpp:128
+#, kde-format
+msgid "Free Busy Object"
+msgstr "行程物件"
+
+#: mailclient.cpp:152 mailclient.cpp:172
+#, kde-format
+msgid "Free Busy Message"
+msgstr "行程訊息"

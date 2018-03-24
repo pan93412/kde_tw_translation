@@ -1,0 +1,314 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-13 03:31+0100\n"
+"PO-Revision-Date: 2016-12-04 16:27+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: contents/config/config.qml:27
+msgid "Information"
+msgstr "資訊"
+
+#: contents/ui/configNotifications.qml:44
+msgid "Show application and system notifications"
+msgstr "顯示應用程式與系統通知"
+
+#: contents/ui/configNotifications.qml:49
+#, fuzzy
+#| msgid "No active jobs or notifications"
+msgid "Show a history of notifications"
+msgstr "沒有作用中的工作與通知"
+
+#: contents/ui/configNotifications.qml:55
+msgid "Track file transfers and other jobs"
+msgstr "追蹤檔案傳輸與其他工作"
+
+#: contents/ui/configNotifications.qml:60
+msgid "Use custom position for the notification popup"
+msgstr "通知彈出式視窗使用自訂位置"
+
+#: contents/ui/JobDelegate.qml:57
+msgctxt "Placeholder is job name, eg. 'Copying'"
+msgid "%1 (Paused)"
+msgstr "%1【已暫停】"
+
+#: contents/ui/JobDelegate.qml:79
+msgctxt "A button tooltip; hides item details"
+msgid "Hide Details"
+msgstr "隱藏詳情"
+
+#: contents/ui/JobDelegate.qml:80
+msgctxt "A button tooltip; expands the item to show details"
+msgid "Show Details"
+msgstr "顯示詳情"
+
+#: contents/ui/JobDetailsItem.qml:53
+msgctxt ""
+"How much many bytes (or whether unit in the locale has been copied over total"
+msgid "%1 of %2"
+msgstr "第 %1 個，共 %2 個"
+
+#: contents/ui/JobDetailsItem.qml:61
+msgctxt "Either just 1 file or m of n files are being processed"
+msgid "1 file"
+msgid_plural "%2 of %1 files"
+msgstr[0] "%2 個檔案 / 共 %1 個"
+
+#: contents/ui/JobDetailsItem.qml:63
+msgctxt "Either just 1 dir or m of n dirs are being processed"
+msgid "1 dir"
+msgid_plural "%2 of %1 dirs"
+msgstr[0] "%2 個目錄 / 共 %1 個"
+
+#: contents/ui/JobDetailsItem.qml:66
+msgid "%1 of %2 %3"
+msgstr "第 %1 個，共 %2 個 %3"
+
+#: contents/ui/JobDetailsItem.qml:93
+msgctxt "placeholder is row description, such as Source or Destination"
+msgid "%1:"
+msgstr "%1："
+
+#: contents/ui/JobDetailsItem.qml:147
+msgctxt "Speed and estimated time to completion"
+msgid "%1 (%2 remaining)"
+msgstr "%1（還有 %2 個）"
+
+#: contents/ui/Jobs.qml:77
+msgctxt "the job, which can be anything, has finished"
+msgid "%1: Finished"
+msgstr "%1：已完成"
+
+#: contents/ui/Jobs.qml:77
+msgid "Job Finished"
+msgstr "工作已完成"
+
+#: contents/ui/Jobs.qml:80
+msgctxt "the job, which can be anything, failed to complete"
+msgid "%1: Failed"
+msgstr "%1：失敗"
+
+#: contents/ui/Jobs.qml:80
+msgid "Job Failed"
+msgstr "工作已失敗"
+
+#: contents/ui/Jobs.qml:101
+msgid "Open..."
+msgstr "開啟..."
+
+#: contents/ui/main.qml:64
+msgid "No notifications or jobs"
+msgstr "沒有通知也沒有工作"
+
+#: contents/ui/main.qml:66 contents/ui/main.qml:70
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 個執行中的工作"
+
+#: contents/ui/main.qml:68 contents/ui/main.qml:70
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] "%1 個通知"
+
+#: contents/ui/main.qml:89
+msgid "No new notifications."
+msgstr "沒有新通知。"
+
+#: contents/ui/main.qml:140
+msgid "Clear Notifications"
+msgstr "清除通知"
+
+#: contents/ui/main.qml:147
+msgid "&Configure Event Notifications and Actions..."
+msgstr "設定事件通知與動作(&C)..."
+
+#: contents/ui/NotificationItem.qml:111
+msgctxt "notification was just added, keep short"
+msgid "Just now"
+msgstr "剛才"
+
+#: contents/ui/NotificationItem.qml:113
+msgctxt "10 seconds ago, keep short"
+msgid "10 s ago"
+msgstr "10 秒前"
+
+#: contents/ui/NotificationItem.qml:115
+msgctxt "30 seconds ago, keep short"
+msgid "30 s ago"
+msgstr "30 秒前"
+
+#: contents/ui/NotificationItem.qml:117
+msgctxt "minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 分前"
+
+#: contents/ui/NotificationItem.qml:128
+msgctxt "notification was added yesterday, keep short"
+msgid "Yesterday"
+msgstr "昨天"
+
+#: contents/ui/NotificationItem.qml:131
+msgctxt "notification was added n days ago, keep short"
+msgid "%1 day ago"
+msgid_plural "%1 days ago"
+msgstr[0] "%1 天前"
+
+#: contents/ui/NotificationItem.qml:360
+#, fuzzy
+#| msgid "Copy"
+msgid "Copy Link Address"
+msgstr "複製"
+
+#: contents/ui/NotificationItem.qml:371
+msgid "Copy"
+msgstr "複製"
+
+#: contents/ui/NotificationItem.qml:378
+msgid "Select All"
+msgstr "全部選擇"
+
+#: contents/ui/Notifications.qml:279
+msgid "History"
+msgstr ""
+
+#: contents/ui/Notifications.qml:285
+msgid "Clear History"
+msgstr ""
+
+#: contents/ui/ThumbnailStrip.qml:98
+msgctxt ""
+"Indicator that there are more urls in the notification than previews shown"
+msgid "+%1"
+msgstr "+%1"
+
+#: contents/ui/ThumbnailStrip.qml:228
+msgid "More Options..."
+msgstr ""
+
+#~ msgid "Notifications and Jobs"
+#~ msgstr "通知與工作"
+
+#~ msgid "&Application notifications:"
+#~ msgstr "應用程式通知(&A)："
+
+#~ msgid "&File transfers and jobs:"
+#~ msgstr "檔案傳輸與工作(&F)："
+
+#~ msgid "Choose which information to show"
+#~ msgstr "選擇要顯示哪種資訊"
+
+#~ msgid "Transfers"
+#~ msgstr "傳輸"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "%1 TiB"
+#~ msgstr "%1 TiB"
+
+#~ msgid "%1 GiB"
+#~ msgstr "%1 GiB"
+
+#~ msgid "%1 MiB"
+#~ msgstr "%1 MiB"
+
+#~ msgid "%1 KiB"
+#~ msgstr "%1 KiB"
+
+#~ msgid "%1 B"
+#~ msgstr "%1 B"
+
+#~ msgid "0 B"
+#~ msgstr "0 B"
+
+#~ msgid "%1 min %2 sec"
+#~ msgstr "%1 分 %2 秒"
+
+#~ msgid "KiB/s"
+#~ msgstr "KB/秒"
+
+#~ msgid "%1 file, to: %2"
+#~ msgid_plural "%1 files, to: %2"
+#~ msgstr[0] "%1 個檔案，到：%2"
+
+#~ msgid "1 running job (%2 remaining)"
+#~ msgid_plural "%1 running jobs (%2 remaining)"
+#~ msgstr[0] "%1 個執行中工作（還有 %2）"
+
+#~ msgctxt "Number of jobs and the speed at which they are downloading"
+#~ msgid "%1 running job (%2/s)"
+#~ msgid_plural "%1 running jobs (%2/s)"
+#~ msgstr[0] "%1 個執行中的工作（%2/秒）"
+
+#~ msgid "%1 suspended job"
+#~ msgid_plural "%1 suspended jobs"
+#~ msgstr[0] "%1 個暫停的工作"
+
+#~ msgid "%1 completed job"
+#~ msgid_plural "%1 completed jobs"
+#~ msgstr[0] "%1 個已完成的工作"
+
+#~ msgctxt "Generic title for the job transfer popup"
+#~ msgid "Jobs"
+#~ msgstr "工作"
+
+#~ msgid "More"
+#~ msgstr "更多"
+
+#~ msgid "Pause job"
+#~ msgstr "暫停工作"
+
+#~ msgid "Resume job"
+#~ msgstr "回復工作"
+
+#~ msgid "Cancel job"
+#~ msgstr "取消工作"
+
+#~ msgid "Paused"
+#~ msgstr "已暫停"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "%1 [Finished]"
+#~ msgstr "%1【已完成】"
+
+#~ msgid "%2 / 1 folder"
+#~ msgid_plural "%2 / %1 folders"
+#~ msgstr[0] "%2 個資料夾 / 共 %1 個"
+
+#~ msgid "Less"
+#~ msgstr "較少"
+
+#~ msgid "Notification from %1"
+#~ msgstr "從 %1 收到的通知"
+
+#~ msgid "Pop Up Notices"
+#~ msgstr "彈出通知"
+
+#~ msgid "Popup"
+#~ msgstr "彈出式"
+
+#~ msgid "Automatically hide"
+#~ msgstr "自動隱藏"
+
+#~ msgid "Open destination"
+#~ msgstr "開啟目的地"
+
+#~ msgid "Show jobs"
+#~ msgstr "顯示工作"

@@ -1,0 +1,1367 @@
+# translation of libkdeedu.po to Chinese Traditional
+# translation of libkdeedu.po to
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2007, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkdeedu\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:14+0100\n"
+"PO-Revision-Date: 2016-11-16 21:39+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: keduvocdocument/keduvoccsvwriter.cpp:47
+#, kde-format
+msgctxt "@item:intable the title of the document will be written here"
+msgid "Title:"
+msgstr "標題："
+
+#: keduvocdocument/keduvoccsvwriter.cpp:48
+#, kde-format
+msgctxt "@item:intable the author will be written here"
+msgid "Author:"
+msgstr "作者："
+
+#: keduvocdocument/keduvocdocument.cpp:140
+#, kde-format
+msgctxt ""
+"The top level lesson which contains all other lessons of the document."
+msgid "Document Lesson"
+msgstr "文件課程"
+
+#: keduvocdocument/keduvocdocument.cpp:144
+#, kde-format
+msgid "Word types"
+msgstr "單字型態"
+
+#: keduvocdocument/keduvocdocument.cpp:147
+#, kde-format
+msgid "Leitner Box"
+msgstr "萊納盒"
+
+#: keduvocdocument/keduvocdocument.cpp:182
+#: keduvocdocument/keduvocdocument.cpp:189
+#, kde-format
+msgid "Cannot lock file %1"
+msgstr "無法鎖定檔案 %1"
+
+#: keduvocdocument/keduvocdocument.cpp:242
+#, kde-format
+msgid "<qt>Cannot open file<br /><b>%1</b></qt>"
+msgstr "<qt>無法開啟檔案<br /><b>%1</b></qt>"
+
+#: keduvocdocument/keduvocdocument.cpp:250
+#, kde-format
+msgid "Cannot open tempfile %1"
+msgstr "無法開啟暫存檔 %1"
+
+#: keduvocdocument/keduvocdocument.cpp:255
+#, kde-format
+msgid "Cannot download %1: %2"
+msgstr "無法下載 %1：%2"
+
+#: keduvocdocument/keduvocdocument.cpp:281
+#, kde-format
+msgid ""
+"Could not open or properly read \"%1\"\n"
+"(Error reported: %2)"
+msgstr ""
+"無法開啟或讀取 %1\n"
+"（回報的錯誤：%2）"
+
+#: keduvocdocument/keduvocdocument.cpp:325
+#: keduvocdocument/keduvocdocument.cpp:353
+#, kde-format
+msgid "Cannot write to file %1"
+msgstr "無法寫入檔案 %1"
+
+#: keduvocdocument/keduvocdocument.cpp:689
+#, kde-format
+msgctxt ""
+"The name of the first language/column of vocabulary, if we have to guess it."
+msgid "Original"
+msgstr "原始"
+
+#: keduvocdocument/keduvocdocument.cpp:691
+#, kde-format
+msgctxt ""
+"The name of the second, third ... language/column of vocabulary, if we have "
+"to guess it."
+msgid "Translation %1"
+msgstr "翻譯 %1"
+
+#: keduvocdocument/keduvocdocument.cpp:852
+#, kde-format
+msgid "KDE Vocabulary Document"
+msgstr "KDE 字彙文件"
+
+#: keduvocdocument/keduvocdocument.cpp:853
+#, kde-format
+msgid "KWordQuiz Document"
+msgstr "KWordQuiz 文件"
+
+#: keduvocdocument/keduvocdocument.cpp:854
+#, kde-format
+msgid "Pauker Lesson"
+msgstr "Pauker 課程"
+
+#: keduvocdocument/keduvocdocument.cpp:855
+#, kde-format
+msgid "Vokabeltrainer"
+msgstr "Vokabeltrainer"
+
+#: keduvocdocument/keduvocdocument.cpp:856
+#, kde-format
+msgid "XML Dictionary Exchange Format"
+msgstr "XML 字典交換格式"
+
+#: keduvocdocument/keduvocdocument.cpp:857
+#, kde-format
+msgid "Comma Separated Values (CSV)"
+msgstr "以逗號分隔的數值（CSV）"
+
+#: keduvocdocument/keduvocdocument.cpp:871
+#, kde-format
+msgid "All supported documents"
+msgstr "所有支援的文件"
+
+#: keduvocdocument/keduvocdocument.cpp:880
+#, kde-format
+msgid "No error found."
+msgstr "沒發現錯誤。"
+
+#: keduvocdocument/keduvocdocument.cpp:883
+#, kde-format
+msgid "Invalid XML in document."
+msgstr "文件中有不合法的 XML。"
+
+#: keduvocdocument/keduvocdocument.cpp:885
+#, kde-format
+msgid "Unknown file type."
+msgstr "未知的檔案型態。"
+
+#: keduvocdocument/keduvocdocument.cpp:887
+#, kde-format
+msgid "File is not writeable."
+msgstr "檔案無法寫入。"
+
+#: keduvocdocument/keduvocdocument.cpp:889
+#, kde-format
+msgid "File writer failed."
+msgstr "檔案寫入失敗。"
+
+#: keduvocdocument/keduvocdocument.cpp:891
+#, kde-format
+msgid "File is not readable."
+msgstr "檔案無法讀取。"
+
+#: keduvocdocument/keduvocdocument.cpp:893
+#, kde-format
+msgid "The file reader failed."
+msgstr "檔案讀取失敗。"
+
+#: keduvocdocument/keduvocdocument.cpp:895
+#, kde-format
+msgid "The file does not exist."
+msgstr "檔案不存在。"
+
+#: keduvocdocument/keduvocdocument.cpp:897
+#, kde-format
+msgid "The file is locked by another process."
+msgstr "檔案已被其他行程鎖定。"
+
+#: keduvocdocument/keduvocdocument.cpp:899
+#, kde-format
+msgid "The lock file can't be created."
+msgstr "無法建立鎖定檔。"
+
+#: keduvocdocument/keduvocdocument.cpp:902
+#, kde-format
+msgid "Unknown error."
+msgstr "未知的錯誤。"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:49
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Verb"
+msgstr "動詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:50
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Noun"
+msgstr "名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:51
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Name"
+msgstr "名稱"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:52
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Article"
+msgstr "冠詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:53
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Adjective"
+msgstr "形容詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:54
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Adverb"
+msgstr "副詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:55
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Pronoun"
+msgstr "代名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:56
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of an entry"
+msgid "Phrase"
+msgstr "片語"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:57
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Numeral"
+msgstr "數字"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:58
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Conjunction"
+msgstr "連接詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:59
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Preposition"
+msgstr "介系詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:60
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of an entry"
+msgid "Question"
+msgstr "詢問"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:64
+#: keduvocdocument/keduvockvtmlcompability.cpp:253
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Numeral Ordinal  "
+"(first, second, third, ...)"
+msgid "Ordinal"
+msgstr "序數"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:65
+#: keduvocdocument/keduvockvtmlcompability.cpp:257
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Numeral Cardinal "
+"(one, two, three, ...)"
+msgid "Cardinal"
+msgstr "基數"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:66
+#: keduvocdocument/keduvockvtmlcompability.cpp:263
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Article (the)"
+msgid "Definite"
+msgstr "定冠詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:67
+#: keduvocdocument/keduvockvtmlcompability.cpp:266
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Article (a)"
+msgid "Indefinite"
+msgstr "不定冠詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:68
+#: keduvocdocument/keduvockvtmlcompability.cpp:272
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Verb with regular "
+"conjugation"
+msgid "Regular"
+msgstr "正規動詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:69
+#: keduvocdocument/keduvockvtmlcompability.cpp:275
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Verb with irregular "
+"conjugation"
+msgid "Irregular"
+msgstr "非正規動詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:70
+#: keduvocdocument/keduvockvtmlcompability.cpp:293
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Pronoun (my, your, "
+"his, her...)"
+msgid "Possessive"
+msgstr "代名詞所有格"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:71
+#: keduvocdocument/keduvockvtmlcompability.cpp:296
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Pronoun (I, you, "
+"he...)"
+msgid "Personal"
+msgstr "人稱代名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:72
+#: keduvocdocument/keduvockvtmlcompability.cpp:281
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Male"
+msgstr "雄性名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:73
+#: keduvocdocument/keduvockvtmlcompability.cpp:284
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Female"
+msgstr "雌性名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:74
+#: keduvocdocument/keduvockvtmlcompability.cpp:287
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Neutral"
+msgstr "中性名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:178
+#, kde-format
+msgid "Simple Present"
+msgstr "現在式"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:179
+#, kde-format
+msgid "Present Progressive"
+msgstr "現在進行式"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:180
+#, kde-format
+msgid "Present Perfect"
+msgstr "現在完成式"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:181
+#, kde-format
+msgid "Simple Past"
+msgstr "過去式"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:182
+#, kde-format
+msgid "Past Progressive"
+msgstr "過去進行式"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:183
+#, kde-format
+msgid "Past Participle"
+msgstr "過去分詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:184
+#, kde-format
+msgid "Future"
+msgstr "未來式"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:230
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Verb"
+msgstr "動詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:231
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Noun"
+msgstr "名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:232
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Name"
+msgstr "名稱"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:233
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Article"
+msgstr "冠詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:234
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Adjective"
+msgstr "形容詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:235
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Adverb"
+msgstr "副詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:236
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Pronoun"
+msgstr "代名詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:237
+#, kde-format
+msgctxt "The grammatical type of an entry"
+msgid "Phrase"
+msgstr "片語"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:238
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Numeral"
+msgstr "數字"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:239
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Conjunction"
+msgstr "連接詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:240
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Preposition"
+msgstr "介系詞"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:241
+#, kde-format
+msgctxt "The grammatical type of an entry"
+msgid "Question"
+msgstr "詢問"
+
+#: keduvocdocument/keduvoctext.h:25
+#, kde-format
+msgid "Not Practiced Yet"
+msgstr "尚未練習"
+
+#: keduvocdocument/keduvoctext.h:28
+#, kde-format
+msgid "Level 1"
+msgstr "等級 1"
+
+#: keduvocdocument/keduvoctext.h:31
+#, kde-format
+msgid "Level 2"
+msgstr "等級 2"
+
+#: keduvocdocument/keduvoctext.h:34
+#, kde-format
+msgid "Level 3"
+msgstr "等級 3"
+
+#: keduvocdocument/keduvoctext.h:37
+#, kde-format
+msgid "Level 4"
+msgstr "等級 4"
+
+#: keduvocdocument/keduvoctext.h:40
+#, kde-format
+msgid "Level 5"
+msgstr "等級 5"
+
+#: keduvocdocument/keduvoctext.h:43
+#, kde-format
+msgid "Level 6"
+msgstr "等級 6"
+
+#: keduvocdocument/keduvoctext.h:46
+#, kde-format
+msgid "Level 7"
+msgstr "等級 7"
+
+#~ msgid "Untitled"
+#~ msgstr "未命名"
+
+#~ msgid "Vocabulary"
+#~ msgstr "字彙"
+
+#~ msgid ""
+#~ "Parse error at line %1, column %2:\n"
+#~ "%3"
+#~ msgstr ""
+#~ "在第 %1 行第 %2 欄發生剖析錯誤：\n"
+#~ "%3"
+
+#~ msgid "Error Opening File"
+#~ msgstr "開啟檔案時發生錯誤"
+
+#~ msgid "file must be opened first"
+#~ msgstr "檔案必須先開啟"
+
+#~ msgid "This is not a KDE Vocabulary document."
+#~ msgstr "這不是 KDE 字彙文件。"
+
+#~ msgid "missing identifier elements from identifiers tag"
+#~ msgstr "識別子標籤中沒有識別子元素"
+
+#~ msgid "Default Lesson"
+#~ msgstr "預設課程"
+
+#~ msgid "identifier missing id"
+#~ msgstr "識別子沒有代碼"
+
+#~ msgid "entry missing id"
+#~ msgstr "項目沒有代碼"
+
+#~ msgctxt "A generic name for a new lesson and its number."
+#~ msgid "Lesson %1"
+#~ msgstr "課程 %1"
+
+#~ msgid "Data for original language missing"
+#~ msgstr "原始語言資料遺失"
+
+#~ msgid "Ambiguous definition of language code"
+#~ msgstr "語言代碼有不明定義"
+
+#~ msgid "This is not a Pauker document"
+#~ msgstr "這不是 Pauker 文件"
+
+#~ msgid "Lesson %1"
+#~ msgstr "課程 %1"
+
+#~ msgid "This does not appear to be a (K)WordQuiz file"
+#~ msgstr "這不是 (K)WordQuiz 檔"
+
+#~ msgid "Only files created by WordQuiz 5.x or later can be opened"
+#~ msgstr "只有由 WordQuiz 5 或以後的版本建立的檔案才能開啟"
+
+#~ msgid "Error while reading file"
+#~ msgstr "讀取檔案時發生錯誤"
+
+#~ msgid "This is not a XDXF document"
+#~ msgstr "這不是 XDXF 文件"
+
+#~ msgid "Glossary"
+#~ msgstr "語彙"
+
+#~ msgid "&Search:"
+#~ msgstr "搜尋(&S)："
+
+#~ msgid "References"
+#~ msgstr "參考"
+
+#~ msgid "Go to '%1'"
+#~ msgstr "跳到 %1"
+
+#~ msgid "Classic Periodic Table"
+#~ msgstr "傳統週期表"
+
+#~ msgid "Long Periodic Table"
+#~ msgstr "長週期表"
+
+#~ msgid "Short Periodic Table"
+#~ msgstr "短週期表"
+
+#~ msgid "Transition Elements"
+#~ msgstr "過渡金屬"
+
+#~ msgid "DZ Periodic Table"
+#~ msgstr "DZ 週期表"
+
+#~ msgid "Dummy"
+#~ msgstr "虛擬"
+
+#~ msgid "Hydrogen"
+#~ msgstr "氫"
+
+#~ msgid "Helium"
+#~ msgstr "氦"
+
+#~ msgid "Lithium"
+#~ msgstr "鋰"
+
+#~ msgid "Beryllium"
+#~ msgstr "鈹"
+
+#~ msgid "Boron"
+#~ msgstr "硼"
+
+#~ msgid "Carbon"
+#~ msgstr "碳"
+
+#~ msgid "Nitrogen"
+#~ msgstr "氮"
+
+#~ msgid "Oxygen"
+#~ msgstr "氧"
+
+#~ msgid "Fluorine"
+#~ msgstr "氟"
+
+#~ msgid "Neon"
+#~ msgstr "氖"
+
+#~ msgid "Sodium"
+#~ msgstr "鈉"
+
+#~ msgid "Magnesium"
+#~ msgstr "鎂"
+
+#~ msgid "Aluminium"
+#~ msgstr "鋁"
+
+#~ msgid "Silicon"
+#~ msgstr "矽"
+
+#~ msgid "Phosphorus"
+#~ msgstr "磷"
+
+#~ msgid "Sulfur"
+#~ msgstr "硫"
+
+#~ msgid "Chlorine"
+#~ msgstr "氯"
+
+#~ msgid "Argon"
+#~ msgstr "氬"
+
+#~ msgid "Potassium"
+#~ msgstr "鉀"
+
+#~ msgid "Calcium"
+#~ msgstr "鈣"
+
+#~ msgid "Scandium"
+#~ msgstr "鈧"
+
+#~ msgid "Titanium"
+#~ msgstr "鈦"
+
+#~ msgid "Vanadium"
+#~ msgstr "釩"
+
+#~ msgid "Chromium"
+#~ msgstr "鉻"
+
+#~ msgid "Manganese"
+#~ msgstr "錳"
+
+#~ msgid "Iron"
+#~ msgstr "鐵"
+
+#~ msgid "Cobalt"
+#~ msgstr "鈷"
+
+#~ msgid "Nickel"
+#~ msgstr "鎳"
+
+#~ msgid "Copper"
+#~ msgstr "銅"
+
+#~ msgid "Zinc"
+#~ msgstr "鋅"
+
+#~ msgid "Gallium"
+#~ msgstr "鎵"
+
+#~ msgid "Germanium"
+#~ msgstr "鍺"
+
+#~ msgid "Arsenic"
+#~ msgstr "砷"
+
+#~ msgid "Selenium"
+#~ msgstr "硒"
+
+#~ msgid "Bromine"
+#~ msgstr "溴"
+
+#~ msgid "Krypton"
+#~ msgstr "氪"
+
+#~ msgid "Rubidium"
+#~ msgstr "銣"
+
+#~ msgid "Strontium"
+#~ msgstr "鍶"
+
+#~ msgid "Yttrium"
+#~ msgstr "釔"
+
+#~ msgid "Zirconium"
+#~ msgstr "鋯"
+
+#~ msgid "Niobium"
+#~ msgstr "鈮"
+
+#~ msgid "Molybdenum"
+#~ msgstr "鉬"
+
+#~ msgid "Technetium"
+#~ msgstr "鎝"
+
+#~ msgid "Ruthenium"
+#~ msgstr "釕"
+
+#~ msgid "Rhodium"
+#~ msgstr "銠"
+
+#~ msgid "Palladium"
+#~ msgstr "鈀"
+
+#~ msgid "Silver"
+#~ msgstr "銀"
+
+#~ msgid "Cadmium"
+#~ msgstr "鎘"
+
+#~ msgid "Indium"
+#~ msgstr "銦"
+
+#~ msgid "Tin"
+#~ msgstr "錫"
+
+#~ msgid "Antimony"
+#~ msgstr "銻"
+
+#~ msgid "Tellurium"
+#~ msgstr "碲"
+
+#~ msgid "Iodine"
+#~ msgstr "碘"
+
+#~ msgid "Xenon"
+#~ msgstr "氙"
+
+#~ msgid "Caesium"
+#~ msgstr "銫"
+
+#~ msgid "Barium"
+#~ msgstr "鋇"
+
+#~ msgid "Lanthanum"
+#~ msgstr "鑭"
+
+#~ msgid "Cerium"
+#~ msgstr "鈰"
+
+#~ msgid "Praseodymium"
+#~ msgstr "鐠"
+
+#~ msgid "Neodymium"
+#~ msgstr "釹"
+
+#~ msgid "Promethium"
+#~ msgstr "鉅"
+
+#~ msgid "Samarium"
+#~ msgstr "釤"
+
+#~ msgid "Europium"
+#~ msgstr "銪"
+
+#~ msgid "Gadolinium"
+#~ msgstr "釓"
+
+#~ msgid "Terbium"
+#~ msgstr "鋱"
+
+#~ msgid "Dysprosium"
+#~ msgstr "鏑"
+
+#~ msgid "Holmium"
+#~ msgstr "鈥"
+
+#~ msgid "Erbium"
+#~ msgstr "鉺"
+
+#~ msgid "Thulium"
+#~ msgstr "銩"
+
+#~ msgid "Ytterbium"
+#~ msgstr "鐿"
+
+#~ msgid "Lutetium"
+#~ msgstr "鎦"
+
+#~ msgid "Hafnium"
+#~ msgstr "鉿"
+
+#~ msgid "Tantalum"
+#~ msgstr "鉭"
+
+#~ msgid "Tungsten"
+#~ msgstr "鎢"
+
+#~ msgid "Rhenium"
+#~ msgstr "錸"
+
+#~ msgid "Osmium"
+#~ msgstr "鋨"
+
+#~ msgid "Iridium"
+#~ msgstr "銥"
+
+#~ msgid "Platinum"
+#~ msgstr "鉑"
+
+#~ msgid "Gold"
+#~ msgstr "金"
+
+#~ msgid "Mercury"
+#~ msgstr "汞"
+
+#~ msgid "Thallium"
+#~ msgstr "鉈"
+
+#~ msgid "Lead"
+#~ msgstr "鉛"
+
+#~ msgid "Bismuth"
+#~ msgstr "鉍"
+
+#~ msgid "Polonium"
+#~ msgstr "釙"
+
+#~ msgid "Astatine"
+#~ msgstr "砈"
+
+#~ msgid "Radon"
+#~ msgstr "氡"
+
+#~ msgid "Francium"
+#~ msgstr "鈁"
+
+#~ msgid "Radium"
+#~ msgstr "鐳"
+
+#~ msgid "Actinium"
+#~ msgstr "錒"
+
+#~ msgid "Thorium"
+#~ msgstr "釷"
+
+#~ msgid "Protactinium"
+#~ msgstr "鏷"
+
+#~ msgid "Uranium"
+#~ msgstr "鈾"
+
+#~ msgid "Neptunium"
+#~ msgstr "錼"
+
+#~ msgid "Plutonium"
+#~ msgstr "鈽"
+
+#~ msgid "Americium"
+#~ msgstr "鎇"
+
+#~ msgid "Curium"
+#~ msgstr "鋦"
+
+#~ msgid "Berkelium"
+#~ msgstr "錇"
+
+#~ msgid "Californium"
+#~ msgstr "鉲"
+
+#~ msgid "Einsteinium"
+#~ msgstr "鑀"
+
+#~ msgid "Fermium"
+#~ msgstr "鐨"
+
+#~ msgid "Mendelevium"
+#~ msgstr "鍆"
+
+#~ msgid "Nobelium"
+#~ msgstr "鍩"
+
+#~ msgid "Lawrencium"
+#~ msgstr "鐒"
+
+#~ msgid "Rutherfordium"
+#~ msgstr "鑪"
+
+#~ msgid "Dubnium"
+#~ msgstr "(金都)"
+
+#~ msgid "Seaborgium"
+#~ msgstr "(金席)"
+
+#~ msgid "Bohrium"
+#~ msgstr "(金波)"
+
+#~ msgid "Hassium"
+#~ msgstr "銫"
+
+#~ msgid "Meitnerium"
+#~ msgstr "(金麥)"
+
+#~ msgid "Darmstadtium"
+#~ msgstr "鐽"
+
+#~ msgid "Roentgenium"
+#~ msgstr "錀"
+
+#~ msgid "Copernicium"
+#~ msgstr "Copernicium"
+
+#~ msgid "Ununtrium"
+#~ msgstr "Ununtrium"
+
+#~ msgid "Ununquadium"
+#~ msgstr "Ununquadium"
+
+#~ msgid "Ununpentium"
+#~ msgstr "Ununpentium"
+
+#~ msgid "Ununhexium"
+#~ msgstr "Ununhexium"
+
+#~ msgid "Ununseptium"
+#~ msgstr "Ununseptium"
+
+#~ msgid "Ununoctium"
+#~ msgstr "Ununoctium"
+
+#~ msgid "Greek 'hydro' and 'gennao' for 'forms water'"
+#~ msgstr "希臘字 hydro 與 gennao 表示「組成水」"
+
+#~ msgid "The Greek word for the sun was 'helios'"
+#~ msgstr "希臘字 helios 表示「太陽」"
+
+#~ msgid "Greek 'lithos' means 'stone'"
+#~ msgstr "希臘字 lithos 表示「寶石」"
+
+#~ msgid "Greek 'beryllos' for 'light-green stone'"
+#~ msgstr "希臘字 beryllos 表示「綠寶石」"
+
+#~ msgid ""
+#~ "Boron means 'Bor(ax) + (carb)on'. It is found in borax and behaves a lot "
+#~ "like carbon"
+#~ msgstr ""
+#~ "「硼」（Boron）為 Bor(ax) 與 (carb)on 的合體字。它在硼酸（Borax）內發現，"
+#~ "而性質跟碳（Carbon）很相近"
+
+#~ msgid "Latin 'carboneum' for carbon"
+#~ msgstr "拉丁文 carboneum 表示「碳」（Carbon）"
+
+#~ msgid "Latin 'nitrogenium' ('forms saltpeter')"
+#~ msgstr "拉丁文 nitrogenium（組成「硝石」 saltpeter）"
+
+#~ msgid "Latin 'oxygenium' (forms acids)"
+#~ msgstr "拉丁文 oxygenium（組成「酸」）"
+
+#~ msgid "Latin 'fluere' ('floats')"
+#~ msgstr "拉丁文 fluere（「漂浮」）"
+
+#~ msgid "Greek 'neo'. meaning 'new'"
+#~ msgstr "希臘文的 neo 表示「新的」"
+
+#~ msgid "Arabic 'natrun' for 'soda'"
+#~ msgstr "阿拉伯文的 natrun 表示「蘇打」"
+
+#~ msgid "Named after the city of Magnesia"
+#~ msgstr "依 Magnesia 城市而命名"
+
+#~ msgid "Latin 'alumen'"
+#~ msgstr "拉丁文 alumen"
+
+#~ msgid "Latin 'silex'"
+#~ msgstr "拉丁文 silex"
+
+#~ msgid "Greek 'phosphoros' for 'carries light'"
+#~ msgstr "希臘文中的 phosphoros 表示「發光」"
+
+#~ msgid "In sanskrit 'sweb' means 'to sleep'"
+#~ msgstr "梵文中的 sweb 表示「去睡覺」"
+
+#~ msgid "Greek 'chloros' for 'yellow-green'"
+#~ msgstr "希臘文中的 chloros 表示「黃綠色」"
+
+#~ msgid "Greek 'aergon' for 'inactive'"
+#~ msgstr "希臘文中的 aergon 表示「不活躍的」"
+
+#~ msgid "Arabic 'al qaliy' for potash"
+#~ msgstr "阿拉伯文中的 al qaliy 表示「草鹼」（氫氧化鉀）"
+
+#~ msgid "Latin 'calx' for 'lime'"
+#~ msgstr "拉丁文中的 calx 表示「石灰」"
+
+#~ msgid "Named because it was found in Scandinavia"
+#~ msgstr "因為在斯堪那維亞半島（Scandinavia）發現而命名"
+
+#~ msgid "The Titans were giants in Greek mythology"
+#~ msgstr "泰坦（Titan）是希臘神話中的巨人"
+
+#~ msgid "'Vanadis' is another name for the Nordic goddess Freyja"
+#~ msgstr "Vanadis 是北歐女神 Freyja 的另一個名字"
+
+#~ msgid "Greek 'chroma' means 'color'"
+#~ msgstr "希臘文中的 chroma 表示「顏色」"
+
+#~ msgid ""
+#~ "It was discovered near a town named Magnesia in black earth. Thus, it was "
+#~ "named 'magnesia nigra', or for short, Manganese."
+#~ msgstr ""
+#~ "這是在一個叫做 Magnesia 附近的黑色土壤中發現的，因此被命名為 \"magnesia "
+#~ "nigra\"，簡稱 Manganese。"
+
+#~ msgid "Latin 'ferrum'"
+#~ msgstr "拉丁文 ferrum"
+
+#~ msgid "Named after the German word 'Kobold' for 'goblin'"
+#~ msgstr "依德文字 Kobold 命名，意思是「小妖精」（goblin）"
+
+#~ msgid "'Nickel' was the name of a mountain goblin"
+#~ msgstr "Nickel 是一個山裡的小妖精的名字"
+
+#~ msgid "Greek 'cuprum' for Cypres"
+#~ msgstr "希臘文中的 cuprum，是塞浦路斯城（Cypres，銅產地）的古稱"
+
+#~ msgid "German 'zinking' for 'rough', because zinc ore is very rough"
+#~ msgstr "德文中的 zinking 意思是「粗糙」，因為鋅的礦石很粗糙"
+
+#~ msgid "'Gallia' is an old name for France"
+#~ msgstr "Gallia 是法國的舊名稱"
+
+#~ msgid "Latin 'germania' is an old name for Germany"
+#~ msgstr "拉丁文中的 germania 是德國的舊名稱"
+
+#~ msgid "Greek 'arsenikos' for 'male' or 'bold'"
+#~ msgstr "希臘文中的 arsenikos 表示「男性」或「勇敢」"
+
+#~ msgid "Greek 'selena' for 'moon'"
+#~ msgstr "希臘文中的 selena 表示「月亮」"
+
+#~ msgid "Greek 'bromos' for 'smells badly'"
+#~ msgstr "希臘文中的 bromos 表示「很難聞」"
+
+#~ msgid "Greek 'kryptos' for 'hidden'"
+#~ msgstr "希臘文中的 kryptos 表示「隱藏」"
+
+#~ msgid "Latin 'rubidus' for 'dark red'"
+#~ msgstr "拉丁文中的 rubidus 表示「暗紅色」"
+
+#~ msgid "Named after the mineral Strontianit"
+#~ msgstr "依鍶礦石 Strontianit 命名"
+
+#~ msgid ""
+#~ "Named after the small town of Ytterby near Stockholm in Sweden. Terbium. "
+#~ "Ytterbium and Gadolinium are also named after this town."
+#~ msgstr ""
+#~ "依瑞典斯德哥爾摩附近的一個小城 Ytterby 命名。鋱（Terbium），鐿"
+#~ "（Ytterbium）與釓（Gadolinium）也是依這個城市而命名的。"
+
+#~ msgid "Named after the mineral zircon"
+#~ msgstr "依鋯礦石 zircon 命名"
+
+#~ msgid "Named after Niobe, the daughter of the Greek god Tantalus."
+#~ msgstr "依希臘王 Tantalus 的女兒 Niobe 命名。"
+
+#~ msgid ""
+#~ "This name has Greek roots. It means 'like Platinum' - it was difficult to "
+#~ "distinguish Molybdenum from Platinum."
+#~ msgstr "這個名稱根源於希臘，表示「像白金」─因為很難分辨鉬跟鉑。"
+
+#~ msgid "Greek 'technetos' for artificial"
+#~ msgstr "希臘文中的 technetos 表示「人造的」"
+
+#~ msgid "Ruthenia is the old name of Russia"
+#~ msgstr "Ruthenia 是俄羅斯的舊名稱"
+
+#~ msgid "Greek 'rhodeos' means 'red like a rose'"
+#~ msgstr "希臘文中的 rhodeos 表示「紅得像玫瑰」"
+
+#~ msgid "Named after the asteroid Pallas"
+#~ msgstr "依小行星 Pallas 命名"
+
+#~ msgid "Latin 'argentum' for silver"
+#~ msgstr "拉丁文中的 argentum 表示「銀」"
+
+#~ msgid "Greek 'kadmia' ('Galmei' = Zinc carbonate)"
+#~ msgstr "希臘文中的 kadmia 表示「碳酸鋅」"
+
+#~ msgid "Named after 'Indigo' because of its blue spectrum"
+#~ msgstr "依 Indigo （靛青色）命名，因為它是藍色的"
+
+#~ msgid "Latin 'stannum' for tin"
+#~ msgstr "拉丁文中的 stannum 表示「錫」"
+
+#~ msgid "Arabic 'anthos ammonos' for 'blossom of the god Ammon'"
+#~ msgstr "阿拉伯文中的 anthos ammonos 表示「阿蒙神（古埃及太陽神）之花」"
+
+#~ msgid "Latin 'tellus' or 'telluris' for 'Planet Earth'"
+#~ msgstr "拉丁文中的 tellus 或 telluris 表示「地球」"
+
+#~ msgid "Greek 'ioeides' for 'violet'."
+#~ msgstr "希臘文中的 ioeides 表示「紫羅蘭」。"
+
+#~ msgid "Greek 'xenos' for 'foreigner'"
+#~ msgstr "希臘文中的 xenos 表示「外國人」"
+
+#~ msgid "Latin 'caesius' for 'heaven blue'."
+#~ msgstr "拉丁文中的 caesius 表示「天藍色」"
+
+#~ msgid "Greek 'barys' for 'heavy'"
+#~ msgstr "希臘文中的 barys 表示「重的」"
+
+#~ msgid ""
+#~ "Greek 'lanthanein' for 'hidden'. The Lanthanoids are also called the "
+#~ "'rare earth' elements."
+#~ msgstr "希臘文中的 lanthanein 表示「隱藏」。鑭系元素又稱為「稀土元素」。"
+
+#~ msgid "Named after the planetoid Ceres"
+#~ msgstr "依小行星 Ceres 命名"
+
+#~ msgid "Greek 'prasinos didymos' for 'green twin'"
+#~ msgstr "希臘文中的 prasinos didymos 表示「綠色的雙胞胎」"
+
+#~ msgid "Greek 'neos didymos' for 'new twin'"
+#~ msgstr "希臘文中的 neos didymos 表示「新生雙胞胎」。"
+
+#~ msgid ""
+#~ "Named after the Greek Prometheus. Prometheus stole the fire from the gods "
+#~ "and gave it to mankind."
+#~ msgstr ""
+#~ "依希臘神話中的普羅米修斯（Prometheus）命名。普羅米修斯從神殿中偷取火送到人"
+#~ "間。"
+
+#~ msgid "Named after the mineral Samarskit"
+#~ msgstr "依 Samarskit 礦石命名"
+
+#~ msgid "Named after Europe"
+#~ msgstr "依歐洲（Europe）命名"
+
+#~ msgid "Named after the Finnish chemist Johan Gadolin"
+#~ msgstr "依芬蘭化學家 Johan Gadolin 命名"
+
+#~ msgid "Named after the Swedish town of Ytterby"
+#~ msgstr "依瑞典城市 Ytterby 命名。"
+
+#~ msgid "Greek 'dysprositor' for 'difficult to reach'"
+#~ msgstr "希臘文中的 dysprositor 表示「難以達成」。"
+
+#~ msgid "Latin 'holmia' for the old name of Stockholm"
+#~ msgstr "拉丁文中的 holmia 是斯德哥爾摩的舊名稱"
+
+#~ msgid ""
+#~ "Named ofter the Swedish town of Ytterby. Terbium and Ytterbium are also "
+#~ "named after this town."
+#~ msgstr ""
+#~ "依瑞典城市 Ytterby 命名。鋱（Terbium）跟鐿（Ytterbium）也是依這個城市而命"
+#~ "名的。"
+
+#~ msgid "Named after the old name of Scandinavia, 'Thule'."
+#~ msgstr "依斯堪那維亞半島（Scandinavia）的舊名稱 Thule 命名"
+
+#~ msgid ""
+#~ "Like Terbium and Gadolinium, this is named after the Swedish town of "
+#~ "Ytterby."
+#~ msgstr ""
+#~ "就像鋱（Terbium）與釓（Gadolinium），它也是依瑞典城市 Ytterby 而命名的。"
+
+#~ msgid "Named after the Roman name 'Lutetia' for Paris"
+#~ msgstr "依巴黎的羅馬名稱 Lutetia 命名"
+
+#~ msgid "'Hafnia' is the old name of Kopenhagen (Denmark)"
+#~ msgstr "Hafnia 是丹麥的首都哥本哈根的舊名稱。"
+
+#~ msgid "Named after the Greek myth of Tantalos"
+#~ msgstr "依希臘神話中的英雄 Tantalos 命名"
+
+#~ msgid ""
+#~ "'tung sten' means 'heavy stone' in Swedish. The old name (and thus the "
+#~ "symbol 'W') was Wolfram, named after a mineral."
+#~ msgstr ""
+#~ "tung sten 在瑞典語中表示「很重的石頭」。舊名稱是 Wolfram（因此符號為 W），"
+#~ "依礦石命名"
+
+#~ msgid "Named after the German river Rhine (latin 'Rhenium')."
+#~ msgstr "依德國的萊茵河（Rhine，拉丁文為 Rhenium）命名"
+
+#~ msgid "Greek for 'smell'. Its oxides smell strongly like radishes."
+#~ msgstr "希臘文中表示「味道」。它的氧化物聞起來很像蘿蔔"
+
+#~ msgid "Greek 'iris' for 'rainbow'"
+#~ msgstr "希臘文中的 iris 表示「彩虹」"
+
+#~ msgid "Spanish 'platina' means 'small silver'"
+#~ msgstr "西班牙文中的 platina 表示「小銀子」。"
+
+#~ msgid "Latin 'aurum'. Named after Aurora, the goddess of sunrise"
+#~ msgstr "拉丁文 aurum，依日出之神 Aurora 命名。"
+
+#~ msgid "Graeco-Latin 'hydrargyrum' for 'liquid silver'"
+#~ msgstr "希臘拉丁文中的 hydrargyrum 表示「液態的銀」"
+
+#~ msgid "Greek 'tallos' for 'young twig'"
+#~ msgstr "希臘文中的 tallos 表示「嫩枝」"
+
+#~ msgid "Latin 'plumbum' for Lead"
+#~ msgstr "拉丁文中的 plumbum 表示「鉛」"
+
+#~ msgid "The old name of Bismuth is 'Wismut', which stood for 'white mass'."
+#~ msgstr "鉍（Bismuth）的舊名稱為 Wismut，表示「白色物質」"
+
+#~ msgid "Named after Poland to honor Marie Curie"
+#~ msgstr "依波蘭（Poland）命名，以紀念居里夫人 Marie Curie"
+
+#~ msgid "Greek 'astator' for 'changing'"
+#~ msgstr "希臘文中的 astator 表示「改變」"
+
+#~ msgid ""
+#~ "Named after Radium. It ends with 'on' to make it clear that it is a noble "
+#~ "gas."
+#~ msgstr "以元素鐳（Radium）命名。結尾加上 on 表示它是惰性氣體。"
+
+#~ msgid "Named after France to honor Marguerite Perey"
+#~ msgstr "依法國（France）命名，以紀念 Marguerite Perey"
+
+#~ msgid "Latin 'radius' for 'beam', as it is radioactive"
+#~ msgstr "拉丁文中的 radius 表示「光束」，表示它是放射性的"
+
+#~ msgid "Greek 'aktis' for 'beam' - actinium is radioactive"
+#~ msgstr "希臘文中的 aktis 表示「光束」─因為錒是放射性元素"
+
+#~ msgid "Named after the German god of thunder: Thor"
+#~ msgstr "依德國的雷神 Thor 命名"
+
+#~ msgid ""
+#~ "Greek 'protos' for 'ancester'. Protactinium is before Actinium in the "
+#~ "periodic table."
+#~ msgstr "希臘文中的 protos 表示「祖先」。鏷在週期表中是在錒的前面"
+
+#~ msgid "Greek 'ouranos' for 'heaven'. Named after the planet Uranus."
+#~ msgstr "希臘文中的 ouranos 表示「天堂」。依天王星（Uranus）命名"
+
+#~ msgid "Named after the planet Neptune."
+#~ msgstr "依海王星（Neptune）命名"
+
+#~ msgid "Named after the planet Pluto."
+#~ msgstr "依冥王星（Pluto）命名"
+
+#~ msgid "Named after America."
+#~ msgstr "依美洲大陸（America）命名。"
+
+#~ msgid "Named after Marie Curie."
+#~ msgstr "依居里夫人 Marie Curie 命名"
+
+#~ msgid "Named after the town Berkeley where it was discovered."
+#~ msgstr "依它的發現地柏克萊（Berkeley）城命名。"
+
+#~ msgid "Named after the US-State of California."
+#~ msgstr "依美國的加州（California）命名"
+
+#~ msgid "Named after the scientist Albert Einstein."
+#~ msgstr "依科學家愛因斯坦（Albert Einstein）命名"
+
+#~ msgid "Named after the scientist Enrico Fermi."
+#~ msgstr "依科學家費米（Enrico Fermi）命名"
+
+#~ msgid "Named after the scientist D.I. Mendeleev."
+#~ msgstr "依科學家 D.I. Mendeleev 命名"
+
+#~ msgid "Named after the scientist Alfred Nobel."
+#~ msgstr "依科學家諾貝爾（Alfred Nobel）命名"
+
+#~ msgid "Named after the scientist Ernest Orlando Lawrence."
+#~ msgstr "依科學家 Ernest Orlando Lawrence 命名"
+
+#~ msgid "Named after the scientist Ernest Rutherford"
+#~ msgstr "依科學家 Ernest Rutherford 命名"
+
+#~ msgid "Named after the science-town Dubna in Russia"
+#~ msgstr "依俄羅斯的科學城 Dubna 命名"
+
+#~ msgid "Named after the scientist G. Theodore Seaborg."
+#~ msgstr "依科學家 G. Theodore Seaborg 命名"
+
+#~ msgid "Named after the scientist Niels Bohr."
+#~ msgstr "依科學家波爾（Niels Bohr）命名"
+
+#~ msgid ""
+#~ "Latin 'hassia' for the German county Hessen. In Hessen a lot elements "
+#~ "have been discovered."
+#~ msgstr "拉丁文中的 hassia 是指德國城市 Hessen。很多元素在這裡被發現。"
+
+#~ msgid "Named after the scientist Lise Meitner."
+#~ msgstr "依科學家 Lise Meitner 命名"
+
+#~ msgid ""
+#~ "Named after the German city Darmstadt where many elements have been "
+#~ "discovered."
+#~ msgstr "依德國城市 Darmstadt 命名，許多元素在這裡被發現"
+
+#~ msgid "Named after Wilhelm Conrad Röntgen."
+#~ msgstr "依德國物理學家侖琴（Wilhelm Conrad Röntgen）命名"
+
+#~ msgid ""
+#~ "Historically known as eka-mercury. Ununbium is a temporary IUPAC "
+#~ "systematic element name."
+#~ msgstr "過去稱為 eka-mercury。Ununbium 是個暫時性的 IUPAC 系統元素命名。"
+
+#~ msgid ""
+#~ "Historically known as eka-thallium. Ununtrium is a temporary IUPAC "
+#~ "systematic element name."
+#~ msgstr "過去稱為 eka-thallium。Ununtrium 是個暫時性的 IUPAC 系統元素命名。"
+
+#~ msgid ""
+#~ "Historically known as eka-lead. Ununquadium is a temporary IUPAC "
+#~ "systematic element name."
+#~ msgstr "過去稱為 eka-lead。Ununquadium 是個暫時性的 IUPAC 系統元素命名。"
+
+#~ msgid ""
+#~ "Historically known as eka-bismuth. Ununpentium is a temporary IUPAC "
+#~ "systematic element name."
+#~ msgstr "過去稱為 eka-bismuth。Ununpentium 是個暫時性的 IUPAC 系統元素命名。"
+
+#~ msgid ""
+#~ "Historically known as eka-polonium. Ununhexium is a temporary IUPAC "
+#~ "systematic element name."
+#~ msgstr "過去稱為 eka-polonium。Ununhexium 是個暫時性的 IUPAC 系統元素命名。"
+
+#~ msgid "Temporary symbol and name. Can also be referred to as eka-astatine."
+#~ msgstr "暫時性的符號與名稱。又稱為 eka-astatine。"
+
+#~ msgid ""
+#~ "Historically known as eka-radon, eka-emanation before 1960. Ununoctium is "
+#~ "a temporary IUPAC systematic element name."
+#~ msgstr ""
+#~ "過去稱為 eka-radon，在 1960 年前稱為 eka-emanation。Ununoctium 是個暫時性"
+#~ "的 IUPAC 系統元素命名。"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Ununbium"
+#~ msgstr "Ununbium"
+
+#~ msgid "no translations found"
+#~ msgstr "找不到翻譯"

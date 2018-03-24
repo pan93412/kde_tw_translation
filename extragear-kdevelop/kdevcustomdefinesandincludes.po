@@ -1,0 +1,485 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevcustomdefinesandincludes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-15 03:16+0100\n"
+"PO-Revision-Date: 2016-09-22 20:30+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: compilerprovider/compilerprovider.cpp:48
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: compilerprovider/widget/compilersmodel.cpp:134
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#: compilerprovider/widget/compilersmodel.cpp:134
+#, kde-format
+msgid "Type"
+msgstr ""
+
+#: compilerprovider/widget/compilersmodel.cpp:136
+#, kde-format
+msgid "Auto-detected"
+msgstr ""
+
+#: compilerprovider/widget/compilersmodel.cpp:137
+#, kde-format
+msgid "Manual"
+msgstr ""
+
+#: compilerprovider/widget/compilerswidget.cpp:74
+#, kde-format
+msgid "Delete compiler"
+msgstr ""
+
+#: compilerprovider/widget/compilerswidget.cpp:244
+#, kde-format
+msgid "C/C++ Compilers"
+msgstr ""
+
+#: compilerprovider/widget/compilerswidget.cpp:249
+#, kde-format
+msgid "Configure C/C++ Compilers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: compilerprovider/widget/compilerswidget.ui:25
+#, kde-format
+msgid "&Add"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: compilerprovider/widget/compilerswidget.ui:32
+#, kde-format
+msgid "&Remove"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: compilerprovider/widget/compilerswidget.ui:60
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: compilerprovider/widget/compilerswidget.ui:70
+#, kde-format
+msgid "Compiler executable:"
+msgstr ""
+
+#: kcm_widget/definesandincludesconfigpage.cpp:81
+#, kde-format
+msgid "Language Support"
+msgstr ""
+
+#: kcm_widget/definesandincludesconfigpage.cpp:86
+#, kde-format
+msgid "Configure Language Support"
+msgstr ""
+
+#: kcm_widget/definesmodel.cpp:43
+#, kde-format
+msgid "Double-click here to insert a new define to be used for the path"
+msgstr ""
+
+#: kcm_widget/definesmodel.cpp:79
+#, kde-format
+msgid "Define"
+msgstr ""
+
+#: kcm_widget/definesmodel.cpp:81
+#, kde-format
+msgid "Value"
+msgstr ""
+
+#: kcm_widget/defineswidget.cpp:41
+#, kde-format
+msgid "Delete Define"
+msgstr ""
+
+#: kcm_widget/includeswidget.cpp:66
+#, kde-format
+msgid "Delete Include Path"
+msgstr ""
+
+#: kcm_widget/includeswidget.cpp:155
+#, kde-format
+msgctxt "%1 is an include path"
+msgid "%1 does not exist"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, includePathRequester)
+#: kcm_widget/includeswidget.ui:31
+#, kde-format
+msgid ""
+"Add the currently displayed URL to the list of includes if it is not in the "
+"list yet."
+msgstr ""
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, includePathRequester)
+#: kcm_widget/includeswidget.ui:34
+#, kde-format
+msgid "A new include path/file to use for parsing files under given directory"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addIncludePath)
+#: kcm_widget/includeswidget.ui:44
+#, kde-format
+msgid "Create a new include path entry from this URL."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeIncludePath)
+#: kcm_widget/includeswidget.ui:62
+#, kde-format
+msgid "Delete current include path entry."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, parseHeadersInPlainC)
+#: kcm_widget/parserwidget.ui:20
+#, kde-format
+msgid ""
+"<html><head/><body><p>Check this if you want <code>*.h</code> headers to be "
+"parsed in plain C mode. By default they are parsed as C++ headers.</p></"
+"body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, parseHeadersInPlainC)
+#: kcm_widget/parserwidget.ui:23
+#, kde-format
+msgid "Parse *.h headers in plain C"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm_widget/parserwidget.ui:36
+#, kde-format
+msgid "C++ Profi&le:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsCpp)
+#. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsC)
+#. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (toolTip), widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:52 kcm_widget/parserwidget.ui:131
+#: kcm_widget/parserwidget.ui:215 kcm_widget/parserwidget.ui:284
+#, kde-format
+msgid ""
+"<html><head/><body><p>Choose language profile. </p><p>Use \"Custom\" profile "
+"to modify parser command-line arguments</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:56 kcm_widget/parserwidget.ui:135
+#: kcm_widget/parserwidget.ui:219 kcm_widget/parserwidget.ui:288
+#, kde-format
+msgid "Custom"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
+#: kcm_widget/parserwidget.ui:61
+#, kde-format
+msgid "c++98"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:66 kcm_widget/parserwidget.ui:293
+#, kde-format
+msgid "c++03"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:71 kcm_widget/parserwidget.ui:298
+#, kde-format
+msgid "c++11"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:76 kcm_widget/parserwidget.ui:303
+#, kde-format
+msgid "c++14"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCpp)
+#: kcm_widget/parserwidget.ui:81
+#, kde-format
+msgid "c++1z"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, argumentsLabel)
+#: kcm_widget/parserwidget.ui:89
+#, kde-format
+msgid "C++ co&mmand-line arguments:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcm_widget/parserwidget.ui:115
+#, kde-format
+msgid "C Profi&le:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
+#: kcm_widget/parserwidget.ui:140
+#, kde-format
+msgid "c89"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
+#: kcm_widget/parserwidget.ui:145
+#, kde-format
+msgid "gnu89"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsCuda)
+#: kcm_widget/parserwidget.ui:150 kcm_widget/parserwidget.ui:308
+#, kde-format
+msgid "c99"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
+#: kcm_widget/parserwidget.ui:155
+#, kde-format
+msgid "gnu99"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
+#: kcm_widget/parserwidget.ui:160
+#, kde-format
+msgid "c11"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsC)
+#: kcm_widget/parserwidget.ui:165
+#, kde-format
+msgid "gnu11"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, argumentsLabel_2)
+#: kcm_widget/parserwidget.ui:173
+#, kde-format
+msgid "C co&mmand-line arguments:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kcm_widget/parserwidget.ui:199
+#, kde-format
+msgid "OpenCL C &Profile:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#: kcm_widget/parserwidget.ui:224
+#, kde-format
+msgid "CL1.1"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#: kcm_widget/parserwidget.ui:229
+#, kde-format
+msgid "CL1.2"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, languageStandardsOpenCl)
+#: kcm_widget/parserwidget.ui:234
+#, kde-format
+msgid "CL2.0"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, argumentsLabel_3)
+#: kcm_widget/parserwidget.ui:242
+#, kde-format
+msgid "OpenCL C comma&nd-line arguments:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kcm_widget/parserwidget.ui:268
+#, kde-format
+msgid "CUDA C P&rofile:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, argumentsLabel_4)
+#: kcm_widget/parserwidget.ui:316
+#, kde-format
+msgid "CUDA C comman&d-line arguments:"
+msgstr ""
+
+#: kcm_widget/projectpathswidget.cpp:179
+#, kde-format
+msgid "Select Project Path"
+msgstr ""
+
+#: kcm_widget/projectpathswidget.cpp:193
+#, kde-format
+msgid "Are you sure you want to remove the configuration for the path '%1'?"
+msgstr ""
+
+#: kcm_widget/projectpathswidget.cpp:229
+#, kde-format
+msgid "Edit include directories/files"
+msgstr ""
+
+#: kcm_widget/projectpathswidget.cpp:237
+#, kde-format
+msgid "Edit defined macros"
+msgstr ""
+
+#: kcm_widget/projectpathswidget.cpp:293
+#, kde-format
+msgid "Configure C/C++ parser"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, configureLabel)
+#: kcm_widget/projectpathswidget.cpp:297 kcm_widget/projectpathswidget.ui:20
+#, kde-format
+msgid ""
+"Configure which macros and include directories/files will be added to the "
+"parser during project parsing:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_reparse)
+#: kcm_widget/projectpathswidget.ui:29
+#, kde-format
+msgid "Check this if you want the project to be reparsed to apply the changes."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_reparse)
+#: kcm_widget/projectpathswidget.ui:32
+#, kde-format
+msgid "Reparse the project"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QComboBox, compiler)
+#: kcm_widget/projectpathswidget.ui:70 kcm_widget/projectpathswidget.ui:80
+#, kde-format
+msgid ""
+"<html><head/><body><p>Select compiler that will be used to retrieve standard "
+"include directories and defined macros.</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcm_widget/projectpathswidget.ui:73
+#, kde-format
+msgid "Compiler for path:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, batchEdit)
+#: kcm_widget/projectpathswidget.ui:90
+#, kde-format
+msgid "Edit multiply includes/defines at the same time."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, batchEdit)
+#: kcm_widget/projectpathswidget.ui:93
+#, kde-format
+msgid "&Batch Edit..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addPath)
+#: kcm_widget/projectpathswidget.ui:116
+#, kde-format
+msgid "Add a new sub-project path entry."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removePath)
+#: kcm_widget/projectpathswidget.ui:133
+#, kde-format
+msgid "Delete current sub-project path entry."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, includePathsPage)
+#: kcm_widget/projectpathswidget.ui:164
+#, kde-format
+msgid "Includes/Imports"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, definesPage)
+#: kcm_widget/projectpathswidget.ui:181
+#, kde-format
+msgid "Defines"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, parserPage)
+#: kcm_widget/projectpathswidget.ui:198
+#, kde-format
+msgid "C/C++ Parser"
+msgstr ""
+
+#: noprojectincludesanddefines/noprojectcustomincludepaths.cpp:38
+#, kde-format
+msgid "Setup Custom Include Paths"
+msgstr ""
+
+#: noprojectincludesanddefines/noprojectcustomincludepaths.cpp:72
+#, kde-format
+msgid "Select directory to include"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: noprojectincludesanddefines/noprojectcustomincludepaths.ui:17
+#, kde-format
+msgid "Storage Directory:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, storageDirectory)
+#: noprojectincludesanddefines/noprojectcustomincludepaths.ui:25
+#, kde-format
+msgid ""
+"The custom include-path will be stored in a special file called \"."
+"kdev_include_paths\" stored within a source directory."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: noprojectincludesanddefines/noprojectcustomincludepaths.ui:37
+#, kde-format
+msgid "Custom include paths or #define's"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPlainTextEdit, customIncludePaths)
+#: noprojectincludesanddefines/noprojectcustomincludepaths.ui:45
+#, kde-format
+msgid ""
+"The plain list of include paths. You may also define custom macros here by "
+"adding \"#define NAME VALUE\" lines."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, directorySelector)
+#: noprojectincludesanddefines/noprojectcustomincludepaths.ui:66
+#, kde-format
+msgid "Select a directory to include."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, directorySelector)
+#: noprojectincludesanddefines/noprojectcustomincludepaths.ui:69
+#, kde-format
+msgid "..."
+msgstr ""
+
+#: noprojectincludesanddefines/noprojectincludepathsmanager.cpp:99
+#, kde-format
+msgid "Bad #define directive in %1: %2"
+msgstr ""
+
+#: noprojectincludesanddefines/noprojectincludepathsmanager.cpp:152
+#, kde-format
+msgid "Failed to save custom include paths in directory: %1"
+msgstr ""

@@ -1,0 +1,254 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-22 03:06+0200\n"
+"PO-Revision-Date: 2017-03-12 20:44+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: src/accountwidget.cpp:110
+#, kde-format
+msgid "Configure..."
+msgstr "設定..."
+
+#: src/create.cpp:71
+#, kde-kuit-format
+msgid ""
+"No account providers found.<nl/>Some providers can be found in packages "
+"<application>kaccounts-providers</application> and <application>ktp-accounts-"
+"kcm</application>."
+msgstr ""
+
+#: src/create.cpp:117
+#, kde-format
+msgid "Following missing providers are required by installed services: %1"
+msgstr ""
+
+#: src/create.cpp:155
+#, kde-format
+msgctxt "Messagebox title; meaning 'Unable to finish the action you started'"
+msgid "Unable to finish"
+msgstr "無法完成"
+
+#: src/jobs/createaccount.cpp:107
+#, kde-format
+msgctxt "The %1 is for plugin name, eg. Could not load UI plugin"
+msgid "Could not load %1 plugin, please check your installation"
+msgstr "無法載入 %1 外掛程式。請檢查您的安裝。"
+
+#: src/jobs/createaccount.cpp:228
+#, kde-format
+msgid "There was an error while trying to process the request: %1"
+msgstr "試著進行此要求時發生錯誤：%1"
+
+#: src/kaccounts.cpp:65
+#, kde-format
+msgid "Select an account from the left column to configure"
+msgstr "請從左方欄位選擇要設定的帳號"
+
+#: src/kaccounts.cpp:125
+#, kde-format
+msgid ""
+"Are you sure that you want to remove the account '%1'? This cannot be undone."
+msgstr "您確定要移除帳號 '%1' ？此動作無法復原。"
+
+#: src/kaccounts.cpp:125
+#, kde-format
+msgid "Account Removal"
+msgstr "帳號移除"
+
+#: src/models/accountsmodel.cpp:71
+#, kde-format
+msgid "Create"
+msgstr "建立"
+
+#: src/models/accountsmodel.cpp:136
+#, kde-format
+msgid "Accounts"
+msgstr "帳號"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/services.ui:25
+#, kde-format
+msgid "Select what services you want to activate"
+msgstr "選擇您要啟動的服務"
+
+#~ msgid "ownCloud"
+#~ msgstr "ownCloud"
+
+#~ msgid "Password:"
+#~ msgstr "密碼："
+
+#~ msgid "Username"
+#~ msgstr "使用者名稱"
+
+#, fuzzy
+#~| msgid "my.owncloudserver.org"
+#~ msgid "http://my.owncloudserver.org"
+#~ msgstr "my.owncloudserver.org"
+
+#~ msgid "Server"
+#~ msgstr "伺服器"
+
+#~ msgid "JohnDoe"
+#~ msgstr "JohnDoe"
+
+#~ msgid "Connecting to:"
+#~ msgstr "正在連線到："
+
+#~ msgid "Contacts"
+#~ msgstr "聯絡人"
+
+#~ msgid "ownCloud Server"
+#~ msgstr "ownCloud 伺服器"
+
+#~ msgid "Everything is Ok"
+#~ msgstr "全部都沒問題"
+
+#~ msgid "Information is invalid"
+#~ msgstr "資訊不正確"
+
+#~ msgid "owncloud.org"
+#~ msgstr "owncloud.org"
+
+#~ msgid "JohnDoe (username)"
+#~ msgstr "JohnDoe (使用者名稱)"
+
+#~ msgid "Username:"
+#~ msgstr "使用者名稱："
+
+#~ msgid "Password"
+#~ msgstr "密碼"
+
+#~ msgid "Host:"
+#~ msgstr "主機："
+
+#, fuzzy
+#~| msgid "ownCloud account Wizard"
+#~ msgid "Add ownCloud Account"
+#~ msgstr "ownCloud 帳號精靈"
+
+#~ msgctxt "Action to go to the next page on the wizard"
+#~ msgid "Next"
+#~ msgstr "下一個"
+
+#~ msgctxt "Action to finish the wizard"
+#~ msgid "Finish"
+#~ msgstr "完成"
+
+#~ msgid "Files"
+#~ msgstr "檔案"
+
+#~ msgid "Calendar"
+#~ msgstr "行事曆"
+
+#~ msgid "Facebook account Wizard"
+#~ msgstr "Facebook 帳號精靈"
+
+#~ msgid "Credentials"
+#~ msgstr "認證資訊"
+
+#~ msgid "The email and password are required"
+#~ msgstr "需要電子郵件信箱與密碼"
+
+#~ msgid "The email is required"
+#~ msgstr "需要電子郵件信箱"
+
+#~ msgid "This account is already configured as a Web Account"
+#~ msgstr "此帳號已設定為網頁帳號"
+
+#~ msgid "The password is required"
+#~ msgstr "需要密碼"
+
+#~ msgid "Facebook Authentication"
+#~ msgstr "Facebook 認證"
+
+#~ msgid ""
+#~ "Error authenticating with Facebook, please press back and check your "
+#~ "credentials"
+#~ msgstr "認證 Facebook 時發生錯誤，請按下返回鍵並檢查您的認證資訊"
+
+#~ msgid "Checking username..."
+#~ msgstr "檢查使用者名稱中..."
+
+#~ msgid "Waiting for authorization..."
+#~ msgstr "等待認證中..."
+
+#~ msgid "Try again"
+#~ msgstr "再試一次"
+
+#~ msgid "Chat"
+#~ msgstr "聊天"
+
+#~ msgid "Contacts and Events"
+#~ msgstr "聯絡人與事件"
+
+#~ msgid "Google account Wizard"
+#~ msgstr "Google 帳號精靈"
+
+#~ msgid "Calendar / Tasks"
+#~ msgstr "行事曆 / 工作"
+
+#~ msgid "The email seems to be wrong (Invalid format)"
+#~ msgstr "此電子郵件格式似乎不對"
+
+#~ msgid "Email address:"
+#~ msgstr "電子郵件地址："
+
+#~ msgid "Google Authentication"
+#~ msgstr "Google 認證"
+
+#~ msgid ""
+#~ "Error authenticating with Google, please press back and check your "
+#~ "credentials"
+#~ msgstr "認證 Google 時發生錯誤，請按下返回鍵並檢查您的認證資訊"
+
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgid "Select services"
+#~ msgstr "選擇服務"
+
+#~ msgid "EMail"
+#~ msgstr "電子郵件"
+
+#~ msgid "Tasks"
+#~ msgstr "工作"
+
+#~ msgid "WebAccounts requires to have access to"
+#~ msgstr "您要存取需要的網頁帳號"
+
+#~ msgid "Retry"
+#~ msgstr "重試"
+
+#~ msgid "Calendar and Contacts"
+#~ msgstr "行事曆與聯絡人"
+
+#~ msgid "User or password are incorrect"
+#~ msgstr "使用者名稱或密碼不正確"
+
+#~ msgid "The username and password are required"
+#~ msgstr "需要使用者名稱與密碼"
+
+#~ msgid "The username is required"
+#~ msgstr "需要使用者名稱"
+
+#~ msgid "Runner-id Wizard"
+#~ msgstr "Runner-id 精靈"
+
+#, fuzzy
+#~| msgid "This account is already configured as a Web Account"
+#~ msgid "This account is already configured in KAccounts"
+#~ msgstr "此帳號已設定為網頁帳號"

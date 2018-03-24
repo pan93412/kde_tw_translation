@@ -1,0 +1,1422 @@
+# translation of libkdegames.po to Chinese Traditional
+# Copyright (C) 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkdegames\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-08-16 06:59+0200\n"
+"PO-Revision-Date: 2012-09-19 08:17+0800\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: highscore/khighscore.cpp:158
+#, kde-format
+msgid "Retry"
+msgstr "重試"
+
+#: highscore/khighscore.cpp:159
+#, kde-format
+msgid ""
+"Cannot access the highscore file. Another user is probably currently writing "
+"to it."
+msgstr "無法存取高分榜的檔案。可能另一個玩家正在改寫它。"
+
+#: highscore/kscoredialog.cpp:50
+#, kde-format
+msgid "High Scores"
+msgstr "高分榜"
+
+#: highscore/kscoredialog.cpp:121 libkdegamesprivate/kgame/kplayer.cpp:94
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: highscore/kscoredialog.cpp:123
+#, kde-format
+msgid "Date"
+msgstr "日期"
+
+#: highscore/kscoredialog.cpp:125
+#, kde-format
+msgid "Level"
+msgstr "等級"
+
+#: highscore/kscoredialog.cpp:127
+#, kde-format
+msgid "Score"
+msgstr "分數"
+
+#: highscore/kscoredialog.cpp:129
+#, kde-format
+msgid "Time"
+msgstr "時間"
+
+#: highscore/kscoredialog.cpp:292
+#, kde-format
+msgid "Rank"
+msgstr "排名"
+
+#: highscore/kscoredialog.cpp:315
+#, kde-format
+msgctxt "Enumeration (#1, #2 ...) of the highscore entries"
+msgid "#%1"
+msgstr "#%1"
+
+#: highscore/kscoredialog.cpp:582
+#, kde-format
+msgid "&Remember"
+msgstr "記住(&R)"
+
+#: highscore/kscoredialog.cpp:583
+#, kde-format
+msgid "&Forget"
+msgstr "遺忘(&F)"
+
+#: highscore/kscoredialog.cpp:584
+#, kde-format
+msgid "Remember this high score"
+msgstr "記住高分紀錄"
+
+#: highscore/kscoredialog.cpp:585
+#, kde-format
+msgid "Forget this high score"
+msgstr "遺忘高分紀錄"
+
+#: highscore/kscoredialog.cpp:594
+#, kde-format
+msgid ""
+"Excellent!\n"
+"You have a new high score!"
+msgstr ""
+"太棒了！\n"
+"您刷新紀錄了！"
+
+#: highscore/kscoredialog.cpp:596
+#, kde-format
+msgid ""
+"Well done!\n"
+"You made it to the high score list!"
+msgstr ""
+"太棒了！\n"
+"您擠進高分榜中了！"
+
+#: kgdifficulty.cpp:86 libkdegamesprivate/kgamedifficulty.cpp:156
+#, kde-format
+msgctxt "Game difficulty level 1 out of 8"
+msgid "Ridiculously Easy"
+msgstr "一擊就倒"
+
+#: kgdifficulty.cpp:89 libkdegamesprivate/kgamedifficulty.cpp:158
+#, kde-format
+msgctxt "Game difficulty level 2 out of 8"
+msgid "Very Easy"
+msgstr "好對付"
+
+#: kgdifficulty.cpp:92 libkdegamesprivate/kgamedifficulty.cpp:160
+#, kde-format
+msgctxt "Game difficulty level 3 out of 8"
+msgid "Easy"
+msgstr "容易"
+
+#: kgdifficulty.cpp:95 libkdegamesprivate/kgamedifficulty.cpp:162
+#, kde-format
+msgctxt "Game difficulty level 4 out of 8"
+msgid "Medium"
+msgstr "中等"
+
+#: kgdifficulty.cpp:98 libkdegamesprivate/kgamedifficulty.cpp:164
+#, kde-format
+msgctxt "Game difficulty level 5 out of 8"
+msgid "Hard"
+msgstr "強"
+
+#: kgdifficulty.cpp:101 libkdegamesprivate/kgamedifficulty.cpp:166
+#, kde-format
+msgctxt "Game difficulty level 6 out of 8"
+msgid "Very Hard"
+msgstr "非常強"
+
+#: kgdifficulty.cpp:104 libkdegamesprivate/kgamedifficulty.cpp:168
+#, kde-format
+msgctxt "Game difficulty level 7 out of 8"
+msgid "Extremely Hard"
+msgstr "強到不行"
+
+#: kgdifficulty.cpp:107 libkdegamesprivate/kgamedifficulty.cpp:170
+#, kde-format
+msgctxt "Game difficulty level 8 out of 8"
+msgid "Impossible"
+msgstr "超級賽亞人"
+
+#: kgdifficulty.cpp:313 libkdegamesprivate/kgamedifficulty.cpp:140
+#, kde-format
+msgid "Changing the difficulty level will end the current game!"
+msgstr "改變遊戲的困難等級會中止目前的遊戲。"
+
+#: kgdifficulty.cpp:314 libkdegamesprivate/kgamedifficulty.cpp:140
+#, kde-format
+msgid "Change the difficulty level"
+msgstr "改變困難等級"
+
+#: kgdifficulty.cpp:384 kgdifficulty.cpp:393
+#: libkdegamesprivate/kgamedifficulty.cpp:116
+#, kde-format
+msgctxt "Game difficulty level"
+msgid "Difficulty"
+msgstr "困難度"
+
+#: kgdifficulty.cpp:394 libkdegamesprivate/kgamedifficulty.cpp:117
+#, kde-format
+msgid "Set the difficulty level"
+msgstr "設定困難等級"
+
+#: kgdifficulty.cpp:395 libkdegamesprivate/kgamedifficulty.cpp:118
+#, kde-format
+msgid "Set the difficulty level of the game."
+msgstr "設定遊戲的困難等級"
+
+#: kgthemeselector.cpp:92
+#, kde-format
+msgid "Get New Themes..."
+msgstr "取得新主題..."
+
+#: kgthemeselector.cpp:205
+#, kde-format
+msgctxt "@title:window config dialog"
+msgid "Select theme"
+msgstr "選取主題"
+
+#: kgthemeselector.cpp:276
+#, kde-format
+msgid "[No name]"
+msgstr "【未命名】"
+
+#: kgthemeselector.cpp:290
+#, kde-format
+msgctxt "Author attribution, e.g. \"by Jack\""
+msgid "by %1"
+msgstr "由：%1"
+
+#: kstandardgameaction.cpp:52
+#, kde-format
+msgctxt "new game"
+msgid "&New"
+msgstr "新遊戲(&N)"
+
+#: kstandardgameaction.cpp:52
+#, kde-format
+msgid "Start a new game."
+msgstr "開始新遊戲。"
+
+#: kstandardgameaction.cpp:52
+#, kde-format
+msgid "Start a new game"
+msgstr "開始新遊戲"
+
+#: kstandardgameaction.cpp:53
+#, kde-format
+msgid "&Load..."
+msgstr "載入(&L)"
+
+#: kstandardgameaction.cpp:53
+#, kde-format
+msgid "Open a saved game..."
+msgstr "開啟已儲存的遊戲..."
+
+#: kstandardgameaction.cpp:54
+#, kde-format
+msgid "Load &Recent"
+msgstr "載入最近的(&R)"
+
+#: kstandardgameaction.cpp:54
+#, kde-format
+msgid "Open a recently saved game..."
+msgstr "開啟最近儲存的遊戲..."
+
+#: kstandardgameaction.cpp:55
+#, kde-format
+msgid "Restart &Game"
+msgstr "重新開始遊戲(&G)"
+
+#: kstandardgameaction.cpp:55
+#, kde-format
+msgid "Restart the game"
+msgstr "重新開始遊戲"
+
+#: kstandardgameaction.cpp:56
+#, kde-format
+msgid "&Save"
+msgstr "儲存(&S)"
+
+#: kstandardgameaction.cpp:56
+#, kde-format
+msgid "Save the current game"
+msgstr "儲存目前的遊戲"
+
+#: kstandardgameaction.cpp:57
+#, kde-format
+msgid "Save &As..."
+msgstr "另存新檔...(&A)"
+
+#: kstandardgameaction.cpp:57
+#, kde-format
+msgid "Save the current game to another file"
+msgstr "儲存目前的遊戲到另一個檔案"
+
+#: kstandardgameaction.cpp:58
+#, kde-format
+msgid "&End Game"
+msgstr "遊戲結束(&E)"
+
+#: kstandardgameaction.cpp:58
+#, kde-format
+msgid "End the current game"
+msgstr "結束目前的遊戲"
+
+#: kstandardgameaction.cpp:59
+#, kde-format
+msgid "Pa&use"
+msgstr "暫停(&U)"
+
+#: kstandardgameaction.cpp:59
+#, kde-format
+msgid "Pause the game"
+msgstr "暫停遊戲"
+
+#: kstandardgameaction.cpp:60
+#, kde-format
+msgid "Show &High Scores"
+msgstr "顯示高分紀錄(&H)"
+
+#: kstandardgameaction.cpp:60
+#, kde-format
+msgid "Show high scores"
+msgstr "顯示高分紀錄"
+
+#: kstandardgameaction.cpp:61
+#, kde-format
+msgid "&Clear High Scores"
+msgstr "清除高分紀錄(&C)"
+
+#: kstandardgameaction.cpp:61
+#, kde-format
+msgid "Clear high scores"
+msgstr "清除高分紀錄"
+
+#: kstandardgameaction.cpp:62
+#, kde-format
+msgid "Show Statistics"
+msgstr "顯示統計"
+
+#: kstandardgameaction.cpp:62
+#, kde-format
+msgid "Show statistics"
+msgstr "顯示統計"
+
+#: kstandardgameaction.cpp:63
+#, kde-format
+msgid "&Clear Statistics"
+msgstr "清除統計(&C)"
+
+#: kstandardgameaction.cpp:63
+#, kde-format
+msgid "Delete all-time statistics."
+msgstr "刪除所有的統計紀錄。"
+
+#: kstandardgameaction.cpp:64
+#, kde-format
+msgid "&Print..."
+msgstr "列印(&P)..."
+
+#: kstandardgameaction.cpp:65
+#, kde-format
+msgid "&Quit"
+msgstr "離開(&Q)"
+
+#: kstandardgameaction.cpp:65
+#, kde-format
+msgid "Quit the program"
+msgstr "離開程式"
+
+#: kstandardgameaction.cpp:67
+#, kde-format
+msgid "Repeat"
+msgstr "重複"
+
+#: kstandardgameaction.cpp:67
+#, kde-format
+msgid "Repeat the last move"
+msgstr "重覆最後一步"
+
+#: kstandardgameaction.cpp:68
+#, kde-format
+msgid "Und&o"
+msgstr "復原(&O)"
+
+#: kstandardgameaction.cpp:68
+#, kde-format
+msgid "Undo the last move"
+msgstr "回手"
+
+#: kstandardgameaction.cpp:69
+#, kde-format
+msgid "Re&do"
+msgstr "重做(&D)"
+
+#: kstandardgameaction.cpp:69
+#, kde-format
+msgid "Redo the latest move"
+msgstr "重做最後一步"
+
+#: kstandardgameaction.cpp:70
+#, kde-format
+msgid "&Roll Dice"
+msgstr "擲骰子(&R)"
+
+#: kstandardgameaction.cpp:70
+#, kde-format
+msgid "Roll the dice"
+msgstr "擲骰子"
+
+#: kstandardgameaction.cpp:71
+#, kde-format
+msgid "End Turn"
+msgstr "回合結束"
+
+#: kstandardgameaction.cpp:72
+#, kde-format
+msgid "&Hint"
+msgstr "提示(&H)"
+
+#: kstandardgameaction.cpp:72
+#, kde-format
+msgid "Give a hint"
+msgstr "給個提示"
+
+#: kstandardgameaction.cpp:73
+#, kde-format
+msgid "&Demo"
+msgstr "示範(&D)"
+
+#: kstandardgameaction.cpp:73
+#, kde-format
+msgid "Play a demo"
+msgstr "示範玩遊戲"
+
+#: kstandardgameaction.cpp:74
+#, kde-format
+msgid "&Solve"
+msgstr "解答(&S)"
+
+#: kstandardgameaction.cpp:74
+#, kde-format
+msgid "Solve the game"
+msgstr "解決此遊戲"
+
+#: kstandardgameaction.cpp:76
+#, kde-format
+msgid "Choose Game &Type"
+msgstr "選擇遊戲類型(&T)"
+
+#: kstandardgameaction.cpp:77
+#, kde-format
+msgid "Configure &Carddecks..."
+msgstr "設定撲克牌圖案(&C)"
+
+#: kstandardgameaction.cpp:78
+#, kde-format
+msgid "Configure &High Scores..."
+msgstr "設定高分紀錄(&H)..."
+
+#: libkdegamesprivate/kchatbase.cpp:118
+#, kde-format
+msgid "Send to All Players"
+msgstr "發送至所有玩家"
+
+#: libkdegamesprivate/kchatbase.cpp:256
+#: libkdegamesprivate/kgame/kgamechat.cpp:169
+#, kde-format
+msgid "Send to %1"
+msgstr "發送至 %1"
+
+#: libkdegamesprivate/kchatbaseitemdelegate.cpp:54
+#: libkdegamesprivate/kchatbaseitemdelegate.cpp:56
+#: libkdegamesprivate/kchatbaseitemdelegate.cpp:76
+#, kde-format
+msgid "%1: "
+msgstr "%1："
+
+#: libkdegamesprivate/kgame/kgame.cpp:93
+#, kde-format
+msgid "MaxPlayers"
+msgstr "最大玩家數"
+
+#: libkdegamesprivate/kgame/kgame.cpp:95
+#, kde-format
+msgid "MinPlayers"
+msgstr "最小玩家數"
+
+#: libkdegamesprivate/kgame/kgame.cpp:97
+#, kde-format
+msgid "GameStatus"
+msgstr "遊戲狀態"
+
+#: libkdegamesprivate/kgame/kgamechat.cpp:96
+#, kde-format
+msgid "Player %1"
+msgstr "玩家 %1"
+
+#: libkdegamesprivate/kgame/kgamechat.cpp:104
+#, kde-format
+msgctxt "Unknown player"
+msgid "Unknown"
+msgstr "未知"
+
+#: libkdegamesprivate/kgame/kgamechat.cpp:215
+#, kde-format
+msgid "Send to My Group (\"%1\")"
+msgstr "發送至我的群組（%1）"
+
+#: libkdegamesprivate/kgame/kgameerror.cpp:60
+#, kde-format
+msgid ""
+"Cookie mismatch!\n"
+"Expected Cookie: %1\n"
+"Received Cookie: %2"
+msgstr ""
+"Cookie 不符合！\n"
+"Cookie 應為：%1\n"
+"接收到的 Cookie：%2"
+
+#: libkdegamesprivate/kgame/kgameerror.cpp:69
+#, kde-format
+msgid ""
+"KGame Version mismatch!\n"
+"Expected Version: %1\n"
+"Received Version: %2\n"
+msgstr ""
+"KGame 版本不合！\n"
+"版本應為：%1\n"
+"接收到的版本為：%2\n"
+
+#: libkdegamesprivate/kgame/kgameerror.cpp:73
+#, kde-format
+msgid "Unknown error code %1"
+msgstr "未知的錯誤代碼 %1"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:112
+#, kde-format
+msgid "Setup Game"
+msgstr "設定遊戲"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:114
+#, kde-format
+msgid "Setup Game Continue"
+msgstr "繼續遊戲設定"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:116
+#, kde-format
+msgid "Load Game"
+msgstr "載入遊戲"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:118
+#, kde-format
+msgid "Client game connected"
+msgstr "遊戲客戶端已連接"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:120
+#, kde-format
+msgid "Game setup done"
+msgstr "遊戲設定完成"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:122
+#, kde-format
+msgid "Synchronize Random"
+msgstr "亂數同步化"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:124
+#, kde-format
+msgid "Disconnect"
+msgstr "斷線"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:126
+#, kde-format
+msgid "Player Property"
+msgstr "玩家屬性"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:128
+#, kde-format
+msgid "Game Property"
+msgstr "遊戲屬性"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:130
+#, kde-format
+msgid "Add Player"
+msgstr "新增玩家"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:132
+#, kde-format
+msgid "Remove Player"
+msgstr "移除玩家"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:134
+#, kde-format
+msgid "Activate Player"
+msgstr "啟動玩家"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:136
+#, kde-format
+msgid "Inactivate Player"
+msgstr "關閉玩家"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:138
+#, kde-format
+msgid "Id Turn"
+msgstr "ID 回合"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:140
+#, kde-format
+msgid "Error Message"
+msgstr "錯誤訊息"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:142
+#, kde-format
+msgid "Player Input"
+msgstr "玩家輸入"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:144
+#, kde-format
+msgid "An IO was added"
+msgstr "加入一個 IO"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:146
+#, kde-format
+msgid "Process Query"
+msgstr "查詢行程"
+
+#: libkdegamesprivate/kgame/kgamemessage.cpp:148
+#, kde-format
+msgid "Player ID"
+msgstr "玩家 ID"
+
+#: libkdegamesprivate/kgame/kgamepropertyhandler.cpp:170
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1（%2）"
+
+#: libkdegamesprivate/kgame/kgamepropertyhandler.cpp:172
+#, kde-format
+msgid "Unnamed - ID: %1"
+msgstr "未命名 - ID：%1"
+
+#: libkdegamesprivate/kgame/kgamepropertyhandler.cpp:176
+#, kde-format
+msgid "%1 unregistered"
+msgid_plural "%1 unregistered"
+msgstr[0] "%1 未註冊"
+
+#: libkdegamesprivate/kgame/kgamepropertyhandler.cpp:356
+#, kde-format
+msgid "NULL pointer"
+msgstr "NULL pointer"
+
+#: libkdegamesprivate/kgame/kgamepropertyhandler.cpp:375
+#, kde-format
+msgid "True"
+msgstr "真"
+
+#: libkdegamesprivate/kgame/kgamepropertyhandler.cpp:375
+#, kde-format
+msgid "False"
+msgstr "假"
+
+#: libkdegamesprivate/kgame/kgamepropertyhandler.cpp:381
+#, kde-format
+msgid "Unknown"
+msgstr "未知"
+
+#: libkdegamesprivate/kgame/kplayer.cpp:90
+#, kde-format
+msgid "UserId"
+msgstr "使用者 ID"
+
+#: libkdegamesprivate/kgame/kplayer.cpp:92
+#, kde-format
+msgid "Group"
+msgstr "群組"
+
+#: libkdegamesprivate/kgame/kplayer.cpp:93
+#: libkdegamesprivate/kgame/kplayer.cpp:95
+#, kde-format
+msgid "default"
+msgstr "預設"
+
+#: libkdegamesprivate/kgame/kplayer.cpp:97
+#, kde-format
+msgid "AsyncInput"
+msgstr "非同步輸入"
+
+#: libkdegamesprivate/kgame/kplayer.cpp:99
+#, kde-format
+msgid "myTurn"
+msgstr "我的回合"
+
+#: libkdegamesprivate/kgamedifficulty.cpp:126
+#, kde-format
+msgid "Difficulty"
+msgstr "困難度"
+
+#: libkdegamesprivate/kgamedifficulty.cpp:205
+#, kde-format
+msgctxt ""
+"Name of the game difficulty level that is customized by the user by setting "
+"up different game parameters"
+msgid "Custom"
+msgstr "自訂"
+
+#: libkdegamesprivate/kgamedifficulty.cpp:304
+#, kde-format
+msgid ""
+"Select the <b>difficulty</b> of the game.<br />If you change the difficulty "
+"level while a game is running, you will have to cancel it and start a new "
+"one."
+msgstr ""
+"選擇遊戲的困難度。<br />如果您在遊戲中改變困難度等級，您必須要先取消現有的遊"
+"戲，重新開始新的遊戲。"
+
+#: libkdegamesprivate/kgamedifficulty.cpp:306
+#, kde-format
+msgid ""
+"Select the <b>difficulty</b> of the game.<br />You can change the difficulty "
+"level during a running game."
+msgstr "選擇遊戲的困難度。<br />您可以在遊戲中改變困難度等級。"
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: libkdegamesprivate/kgamethemeselector.ui:40
+#, kde-format
+msgid "&Get New Themes..."
+msgstr "取得新的主題(&G)..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: libkdegamesprivate/kgamethemeselector.ui:55
+#, kde-format
+msgid "Preview"
+msgstr "預覽"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: libkdegamesprivate/kgamethemeselector.ui:97
+#, kde-format
+msgid "Theme Details"
+msgstr "佈景主題詳細資料"
+
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: libkdegamesprivate/kgamethemeselector.ui:131
+#, kde-format
+msgid "Contact:"
+msgstr "聯絡人："
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: libkdegamesprivate/kgamethemeselector.ui:166
+#, kde-format
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: libkdegamesprivate/kgamethemeselector.ui:201
+#, kde-format
+msgid "Author:"
+msgstr "作者："
+
+#~ msgid "Mean Score"
+#~ msgstr "平均分數"
+
+#~ msgid "Best Score"
+#~ msgstr "最高分"
+
+#~ msgid "Elapsed Time"
+#~ msgstr "使用時間"
+
+#~ msgid "Best &Scores"
+#~ msgstr "最高分數(&S)"
+
+#~ msgid "&Players"
+#~ msgstr "玩家(&P)"
+
+#~ msgid "Statistics"
+#~ msgstr "統計"
+
+#~ msgid "Histogram"
+#~ msgstr "直方圖"
+
+#~ msgid "View world-wide highscores"
+#~ msgstr "顯示全世界高分榜"
+
+#~ msgid "View world-wide players"
+#~ msgstr "顯示全世界的玩家"
+
+#~ msgid "Highscores"
+#~ msgstr "高分榜"
+
+#~ msgid "Overwrite"
+#~ msgstr "覆寫"
+
+#~ msgid "The file already exists. Overwrite?"
+#~ msgstr "檔案已存在。要覆寫嗎？"
+
+#~ msgid "Export"
+#~ msgstr "匯出"
+
+#~ msgid "Winner"
+#~ msgstr "贏家"
+
+#~ msgid "Won Games"
+#~ msgstr "遊戲勝利次數"
+
+#~ msgid "Configure Highscores"
+#~ msgstr "設定高分榜"
+
+#~ msgid "Main"
+#~ msgstr "主要的"
+
+#~ msgid "Nickname:"
+#~ msgstr "暱稱："
+
+#~ msgid "Comment:"
+#~ msgstr "備註："
+
+#~ msgid "World-wide highscores enabled"
+#~ msgstr "開啟全世界高分榜"
+
+#~ msgid "Advanced"
+#~ msgstr "進階"
+
+#~ msgid "Registration Data"
+#~ msgstr "註冊資料"
+
+#~ msgid "Key:"
+#~ msgstr "金鑰："
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid ""
+#~ "This will permanently remove your registration key. You will not be able "
+#~ "to use the currently registered nickname anymore."
+#~ msgstr "這樣會永遠移除您的註冊金鑰。您將無法再使用目前註冊的暱稱。"
+
+#~ msgid "Please choose a non empty nickname."
+#~ msgstr "請選擇一個非空白的暱稱。"
+
+#~ msgid "Nickname already in use. Please choose another one"
+#~ msgstr "暱稱已在使用中。請選擇其他的暱稱。"
+
+#~ msgid "Enter Your Nickname"
+#~ msgstr "輸入您的暱稱"
+
+#~ msgid "Congratulations, you have won!"
+#~ msgstr "恭喜，您贏了！"
+
+#~ msgid "Enter your nickname:"
+#~ msgstr "輸入您的暱稱："
+
+#~ msgid "Do not ask again."
+#~ msgstr "不要再詢問我。"
+
+#~ msgid "anonymous"
+#~ msgstr "匿名"
+
+#~ msgid "Games Count"
+#~ msgstr "已玩遊戲次數"
+
+#~ msgid "Comment"
+#~ msgstr "備註"
+
+#~ msgid "Undefined error."
+#~ msgstr "未定義的錯誤。"
+
+#~ msgid "Missing argument(s)."
+#~ msgstr "遺失參數。"
+
+#~ msgid "Invalid argument(s)."
+#~ msgstr "不合法的參數。"
+
+#~ msgid "Unable to connect to MySQL server."
+#~ msgstr "無法連到 MySQL 伺服器。"
+
+#~ msgid "Unable to select database."
+#~ msgstr "無法選擇資料庫。"
+
+#~ msgid "Error on database query."
+#~ msgstr "查詢資料庫時發生錯誤。"
+
+#~ msgid "Error on database insert."
+#~ msgstr "插入資料庫時發生錯誤。"
+
+#~ msgid "Nickname already registered."
+#~ msgstr "此暱稱已註冊。"
+
+#~ msgid "Nickname not registered."
+#~ msgstr "暱稱尚未註冊。"
+
+#~ msgid "Invalid key."
+#~ msgstr "不合法的金鑰。"
+
+#~ msgid "Invalid submit key."
+#~ msgstr "提交的金鑰不合法。"
+
+#~ msgid "Invalid level."
+#~ msgstr "不合法的等級。"
+
+#~ msgid "Invalid score."
+#~ msgstr "不合法的分數。"
+
+#~ msgid "Unable to contact world-wide highscore server"
+#~ msgstr "無法連到世界高分榜伺服器"
+
+#~ msgid "Server URL: %1"
+#~ msgstr "伺服器 URL：%1"
+
+#~ msgid "Unable to open temporary file."
+#~ msgstr "無法開啟暫存檔。"
+
+#~ msgid "Message from world-wide highscores server"
+#~ msgstr "世界高分榜伺服器傳來的訊息"
+
+#~ msgid "Invalid answer from world-wide highscores server."
+#~ msgstr "世界高分榜伺服器傳來不合法的回應。"
+
+#~ msgid "Raw message: %1"
+#~ msgstr "原始訊息：%1"
+
+#~ msgid "Invalid answer from world-wide highscores server (missing item: %1)."
+#~ msgstr "世界高分榜伺服器傳來不合法的回應（遺失項目：%1）。"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Multiplayers Scores"
+#~ msgstr "多玩家分數"
+
+#~ msgid "No game played."
+#~ msgstr "還沒有玩過遊戲。"
+
+#~ msgid "Scores for last game:"
+#~ msgstr "上一次遊戲的分數："
+
+#~ msgid "Scores for the last %1 games:"
+#~ msgstr "上 %1 次遊戲的分數："
+
+#~ msgid "all"
+#~ msgstr "全部"
+
+#~ msgid "Select player:"
+#~ msgstr "選擇玩家："
+
+#~ msgid "Total:"
+#~ msgstr "總計："
+
+#~ msgid "Won:"
+#~ msgstr "勝："
+
+#~ msgid "Lost:"
+#~ msgstr "敗："
+
+#~ msgid "Draw:"
+#~ msgstr "平手："
+
+#~ msgid "Current:"
+#~ msgstr "目前的："
+
+#~ msgid "Max won:"
+#~ msgstr "最多勝："
+
+#~ msgid "Max lost:"
+#~ msgstr "最多敗："
+
+#~ msgid "Game Counts"
+#~ msgstr "遊戲次數"
+
+#~ msgid "Trends"
+#~ msgstr "趨勢"
+
+#~ msgid "From"
+#~ msgstr "由"
+
+#~ msgid "To"
+#~ msgstr "到"
+
+#~ msgid "Count"
+#~ msgstr "計數"
+
+#~ msgid "Percent"
+#~ msgstr "百分比"
+
+#~ msgid "Configure..."
+#~ msgstr "設定..."
+
+#~ msgid "Export..."
+#~ msgstr "匯出..."
+
+#~ msgid "Configure Chat"
+#~ msgstr "設定聊天"
+
+#~ msgid "Name Font..."
+#~ msgstr "名稱字型..."
+
+#~ msgid "Text Font..."
+#~ msgstr "文字字型..."
+
+#~ msgid "Player: "
+#~ msgstr "玩家："
+
+#~ msgid "This is a player message"
+#~ msgstr "這是來自玩家的訊息"
+
+#~ msgid "System Messages - Messages directly sent from the game"
+#~ msgstr "系統訊息：直接由遊戲送來的訊息"
+
+#~ msgid "--- Game: "
+#~ msgstr "--- 遊戲："
+
+#~ msgid "This is a system message"
+#~ msgstr "這是個系統訊息"
+
+#~ msgid "Maximum number of messages (-1 = unlimited):"
+#~ msgstr "訊息的最大數量（-1 表示不限制）："
+
+#~ msgid "Create a network game"
+#~ msgstr "建立網路遊戲"
+
+#~ msgid "Join a network game"
+#~ msgstr "加入網路遊戲"
+
+#~ msgid "Game name:"
+#~ msgstr "遊戲名稱："
+
+#~ msgid "Network games:"
+#~ msgstr "網路遊戲："
+
+#~ msgid "Port to connect to:"
+#~ msgstr "連接埠："
+
+#~ msgid "Host to connect to:"
+#~ msgstr "連接主機："
+
+#~ msgid "&Start Network"
+#~ msgstr "開始網路功能(&S)"
+
+#~ msgid "Network Game"
+#~ msgstr "網路遊戲"
+
+#~ msgid "KGame Debug Dialog"
+#~ msgstr "KGame Debug 視窗"
+
+#~ msgid "Debug &KGame"
+#~ msgstr "Debug KGame (&K)"
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid "KGame Pointer"
+#~ msgstr "KGame 指標"
+
+#~ msgid "Game ID"
+#~ msgstr "遊戲 ID"
+
+#~ msgid "Game Cookie"
+#~ msgstr "遊戲 Cookie"
+
+#~ msgid "Is Master"
+#~ msgstr "專家模式"
+
+#~ msgid "Is Admin"
+#~ msgstr "管理者模式"
+
+#~ msgid "Is Offering Connections"
+#~ msgstr "給予連線"
+
+#~ msgid "Game Status"
+#~ msgstr "遊戲狀態"
+
+#~ msgid "Game is Running"
+#~ msgstr "遊戲進行中"
+
+#~ msgid "Maximal Players"
+#~ msgstr "最大玩家數"
+
+#~ msgid "Minimal Players"
+#~ msgstr "最小玩家數"
+
+#~ msgid "Players"
+#~ msgstr "玩家數"
+
+#~ msgid "Debug &Players"
+#~ msgstr "Debug Players(&P)"
+
+#~ msgid "Available Players"
+#~ msgstr "目前玩家數"
+
+#~ msgid "Player Pointer"
+#~ msgstr "玩家指標"
+
+#~ msgid "Player Name"
+#~ msgstr "玩家名稱"
+
+#~ msgid "Player Group"
+#~ msgstr "玩家群組"
+
+#~ msgid "Player User ID"
+#~ msgstr "玩家使用者 ID"
+
+#~ msgid "My Turn"
+#~ msgstr "我的回合"
+
+#~ msgid "Async Input"
+#~ msgstr "非同步輸入"
+
+#~ msgid "KGame Address"
+#~ msgstr "KGame 位址"
+
+#~ msgid "Player is Virtual"
+#~ msgstr "玩家為虛擬玩家"
+
+#~ msgid "Player is Active"
+#~ msgstr "玩家進行中"
+
+#~ msgid "RTTI"
+#~ msgstr "RTTI"
+
+#~ msgid "Network Priority"
+#~ msgstr "網路優先權"
+
+#~ msgid "Debug &Messages"
+#~ msgstr "除錯訊息(&M)"
+
+#~ msgid "&>>"
+#~ msgstr "&>>"
+
+#~ msgid "&<<"
+#~ msgstr "&<<"
+
+#~ msgid "Do not show IDs:"
+#~ msgstr "不要顯示 ID："
+
+#~ msgid "Clean"
+#~ msgstr "清除"
+
+#~ msgid "Dirty"
+#~ msgstr "Dirty"
+
+#~ msgid "Local"
+#~ msgstr "本地端"
+
+#~ msgid "Undefined"
+#~ msgstr "未定義"
+
+#~ msgid "&Chat"
+#~ msgstr "聊天(&C)"
+
+#~ msgid "C&onnections"
+#~ msgstr "連線(&O)"
+
+#~ msgid "&Game"
+#~ msgstr "遊戲(&G)"
+
+#~ msgid "&Network"
+#~ msgstr "網路(&N)"
+
+#~ msgid "&Message Server"
+#~ msgstr "訊息伺服器(&M)"
+
+#~ msgid "Network Configuration"
+#~ msgstr "網路設定"
+
+#~ msgid "Cannot connect to the network"
+#~ msgstr "無法連接到網路"
+
+#~ msgid "Network status: No Network"
+#~ msgstr "網路狀態：沒有網路"
+
+#~ msgid "Network status: You are MASTER"
+#~ msgstr "網路狀態：Master"
+
+#~ msgid "Network status: You are connected"
+#~ msgstr "網路狀態：已連線"
+
+#~ msgid "Your name:"
+#~ msgstr "您的名稱："
+
+#~ msgid "Maximal Number of Clients"
+#~ msgstr "最大客戶端數量"
+
+#~ msgid "Maximal number of clients (-1 = infinite):"
+#~ msgstr "最大客戶端數量（-1 表示不設限）："
+
+#~ msgid "Change Maximal Number of Clients"
+#~ msgstr "更改最大客戶端數量"
+
+#~ msgid "Change Admin"
+#~ msgstr "更改管理者"
+
+#~ msgid "Remove Client with All Players"
+#~ msgstr "移除所有玩家的客戶端"
+
+#~ msgid "Only the admin can configure the message server!"
+#~ msgstr "只有管理者能設定訊息伺服器！"
+
+#~ msgid "You do not own the message server"
+#~ msgstr "您不是此訊息伺服器的擁有者"
+
+#~ msgid "Chat"
+#~ msgstr "聊天"
+
+#~ msgid "Connected Players"
+#~ msgstr "已連線玩家"
+
+#~ msgid "Do you want to ban player \"%1\" from the game?"
+#~ msgstr "您要將玩家 %1 逐出遊戲嗎？"
+
+#~ msgid "Ban Player"
+#~ msgstr "趕走他"
+
+#~ msgid "Do Not Ban"
+#~ msgstr "不要"
+
+#~ msgid "Connection to the server has been lost!"
+#~ msgstr "到伺服器的連線已遺失！"
+
+#~ msgid "Connection to client has been lost!"
+#~ msgstr "到客戶端的連線已遺失！"
+
+#~ msgid ""
+#~ "Received a network error!\n"
+#~ "Error number: %1\n"
+#~ "Error message: %2"
+#~ msgstr ""
+#~ "接收到網路錯誤！\n"
+#~ "錯誤代碼：%1\n"
+#~ "錯誤訊息：%2"
+
+#~ msgid "No connection could be created."
+#~ msgstr "無法建立連線。"
+
+#~ msgid ""
+#~ "No connection could be created.\n"
+#~ "The error message was:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "沒有建立連線。錯誤訊息為：\n"
+#~ "%1"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Card Deck Selection"
+#~ msgstr "選擇紙牌圖案"
+
+#~ msgid "unnamed"
+#~ msgstr "未命名"
+
+#~ msgctxt "Front side of a card"
+#~ msgid "Front"
+#~ msgstr "前端"
+
+#~ msgctxt "Back side of a card"
+#~ msgid "Back"
+#~ msgstr "後端"
+
+#~ msgid ""
+#~ "Frontside\n"
+#~ "Preview"
+#~ msgstr ""
+#~ "前面\n"
+#~ "預覽"
+
+#~ msgid "Deck Name"
+#~ msgstr "紙牌圖案名稱"
+
+#~ msgid ""
+#~ "Backside\n"
+#~ "Preview"
+#~ msgstr ""
+#~ "背面\n"
+#~ "預覽"
+
+#~ msgid "Deck description."
+#~ msgstr "牌面描述。"
+
+#~ msgid "Display:"
+#~ msgstr "顯示："
+
+#~ msgid "Involved players and bots"
+#~ msgstr "包含玩家與機器人"
+
+#~ msgid "Spectators"
+#~ msgstr "觀戰者"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Players, Bots and Spectators"
+#~ msgstr "玩家，機器人與觀戰者"
+
+#~ msgid "Action..."
+#~ msgstr "動作..."
+
+#~ msgid "Player"
+#~ msgstr "玩家"
+
+#~ msgid "Open"
+#~ msgstr "開啟"
+
+#~ msgid "Reserved"
+#~ msgstr "已保留"
+
+#~ msgid "AI bot"
+#~ msgstr "人工智慧機器人"
+
+#~ msgid "Abandoned"
+#~ msgstr "被禁止"
+
+#~ msgid "Type: %1"
+#~ msgstr "類型：%1"
+
+#~ msgid "(unnamed)"
+#~ msgstr "未命名"
+
+#~ msgid "Spectator"
+#~ msgstr "觀戰者"
+
+#~ msgid "Statistics..."
+#~ msgstr "統計..."
+
+#~ msgid "Sit down here"
+#~ msgstr "坐在這裡"
+
+#~ msgid "Add a bot here"
+#~ msgstr "在此新增機器人"
+
+#~ msgid "Boot bot and open seat"
+#~ msgstr "開啟機器人並開放座位"
+
+#~ msgid "Stand up"
+#~ msgstr "站起來"
+
+#~ msgid "Boot player and open seat"
+#~ msgstr "開放玩家並開放座位"
+
+#~ msgid "Host: %1"
+#~ msgstr "主機：%1"
+
+#~ msgid "Realname: %1"
+#~ msgstr "真實名稱：%1"
+
+#~ msgctxt ""
+#~ "A list of language typical names ( for games ), separated by spaces"
+#~ msgid ""
+#~ "Adam Alex Andreas Andrew Bart Ben Bernd Bill Chris Chuck Daniel Don "
+#~ "Duncan Ed Emily Eric Gary Greg Harry Ian Jean Jeff Jan Kai Keith Ken Kirk "
+#~ "Marc Mike Neil Paul Rik Robert Sam Sean Thomas Tim Walter"
+#~ msgstr ""
+#~ "Adam Alex Andreas Andrew Bart Ben Bernd Bill Chris Chuck Daniel Don "
+#~ "Duncan Ed Emily Eric Gary Greg Harry Ian Jean Jeff Jan Kai Keith Ken Kirk "
+#~ "Marc Mike Neil Paul Rik Robert Sam Sean Thomas Tim Walter"
+
+#~ msgid " millisecond"
+#~ msgid_plural " milliseconds"
+#~ msgstr[0] " 毫秒"
+
+#~ msgid "kgamepopupitemtest"
+#~ msgstr "kgamepopupitemtest"
+
+#~ msgid "Show rich text"
+#~ msgstr "顯示 Richtext"
+
+#~ msgid "Message timeout:"
+#~ msgstr "訊息逾時時間："
+
+#~ msgid "Opacity:"
+#~ msgstr "不透明度："
+
+#~ msgid "Change Icon..."
+#~ msgstr "變更圖示..."
+
+#~ msgid "Text color:"
+#~ msgstr "文字顏色："
+
+#~ msgid "Backgound color:"
+#~ msgstr "背景顏色："
+
+#~ msgid "Replace Mode"
+#~ msgstr "取代模式"
+
+#~ msgid "LeavePrevious"
+#~ msgstr "留下前一個"
+
+#~ msgid "ReplacePrevious"
+#~ msgstr "取代前一個"
+
+#~ msgid "Corners:"
+#~ msgstr "角落："
+
+#~ msgid "Square"
+#~ msgstr "方塊"
+
+#~ msgid "Sharp"
+#~ msgstr "尖銳"
+
+#~ msgid "Soft"
+#~ msgstr "柔和"
+
+#~ msgid "Softest"
+#~ msgstr "最柔和"
+
+#~ msgid "Popup Top-Left"
+#~ msgstr "彈出在左上角"
+
+#~ msgid "Popup Top-Right"
+#~ msgstr "彈出在右上角"
+
+#~ msgid "Popup Bottom-Left"
+#~ msgstr "彈出在左下角"
+
+#~ msgid "Popup Bottom-Right"
+#~ msgstr "彈出在右下角"
+
+#~ msgid "Popup Center"
+#~ msgstr "彈出在中央"
+
+#~ msgid "Force Instant Hide"
+#~ msgstr "強制立即隱藏"
+
+#~ msgid "Force Animated Hide"
+#~ msgstr "強制動畫隱藏"
+
+#~ msgid "msec"
+#~ msgstr " 毫秒"
+
+#~ msgid "KDE card deck"
+#~ msgstr "KDE 紙牌圖案"
+
+#~ msgid "Filter"
+#~ msgstr "過濾器"
+
+#~ msgctxt "back and front refer to the sides of a card"
+#~ msgid "Lock back to front"
+#~ msgstr "鎖定後端到前端"
+
+#~ msgid "Show old style decks"
+#~ msgstr "顯示舊樣式的牌"
+
+#~ msgid "Details"
+#~ msgstr "詳情"

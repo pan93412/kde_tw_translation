@@ -1,0 +1,129 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# liueigi <liueigi@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-core\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-06 03:17+0100\n"
+"PO-Revision-Date: 2016-10-14 23:44+0800\n"
+"Last-Translator: liueigi <liueigi@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: backends/bluetooth/bluetoothpairinghandler.cpp:70
+#: backends/lan/lanpairinghandler.cpp:66
+#, kde-format
+msgid "Canceled by other peer"
+msgstr "已被其他同等程式取消"
+
+#: backends/bluetooth/bluetoothpairinghandler.cpp:79
+#: backends/lan/lanpairinghandler.cpp:75
+#, kde-format
+msgid "%1: Already paired"
+msgstr "%1: 已配對"
+
+#: backends/bluetooth/bluetoothpairinghandler.cpp:82
+#, kde-format
+msgid "%1: Pairing already requested for this device"
+msgstr "%1: 這個裝置已經要求過配對"
+
+#: backends/bluetooth/bluetoothpairinghandler.cpp:138
+#: backends/lan/lanpairinghandler.cpp:119
+#, kde-format
+msgid "Timed out"
+msgstr "逾時"
+
+#: backends/lan/landevicelink.cpp:144 backends/lan/landevicelink.cpp:158
+#, kde-format
+msgid ""
+"This device cannot be paired because it is running an old version of KDE "
+"Connect."
+msgstr "這個裝置不能夠配對成功，因為KDE執行的是舊版的KDE連線程式。"
+
+#: backends/lan/uploadjob.cpp:50
+#, kde-format
+msgid "Couldn't find an available port"
+msgstr "找不到任何一個可用的port"
+
+#: device.cpp:156
+#, kde-format
+msgid "Already paired"
+msgstr "已經配對"
+
+#: device.cpp:161
+#, kde-format
+msgid "Device not reachable"
+msgstr "設備無法連接"
+
+#: device.cpp:473
+#, kde-format
+msgid "SHA1 fingerprint of your device certificate is: %1\n"
+msgstr "您設備上的SHA1指紋辨識認證是：%1\n"
+
+#: device.cpp:481
+#, kde-format
+msgid "SHA1 fingerprint of remote device certificate is: %1\n"
+msgstr "您遠端設備上的SHA1指紋辨識認證是：%1\n"
+
+#: filetransferjob.cpp:61 filetransferjob.cpp:84
+#, kde-format
+msgid "Receiving file over KDE Connect"
+msgstr "透過KDE連線來接收檔案"
+
+#: filetransferjob.cpp:62 filetransferjob.cpp:85
+#, kde-format
+msgctxt "File transfer origin"
+msgid "From"
+msgstr "來自"
+
+#: filetransferjob.cpp:67
+#, kde-format
+msgid "Filename already present"
+msgstr "檔案名稱已存在"
+
+#: filetransferjob.cpp:86
+#, kde-format
+msgctxt "File transfer destination"
+msgid "To"
+msgstr "給"
+
+#: filetransferjob.cpp:114
+#, kde-format
+msgid "Received incomplete file: %1"
+msgstr "接收到不完整的檔案：%1"
+
+#: kdeconnectconfig.cpp:69
+#, kde-format
+msgid "KDE Connect failed to start"
+msgstr "KDE連線啟動錯誤"
+
+#: kdeconnectconfig.cpp:70
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not find support for RSA in your QCA installation. If your "
+#| "distribution provides separate packages for QCA-ossl and QCA-gnupg, make "
+#| "sure you have them installed and try again."
+msgid ""
+"Could not find support for RSA in your QCA installation. If your "
+"distribution provides separate packets for QCA-ossl and QCA-gnupg, make sure "
+"you have them installed and try again."
+msgstr ""
+"在您的QCA安裝之中發現沒有支援RSA，假如您的發行版本有提供另外單獨的 QCA-ossl "
+"以及 QCA-gnupq，請確定你有安裝並且重新嘗試一次。"
+
+#: kdeconnectconfig.cpp:96
+#, kde-format
+msgid "Could not store private key file: %1"
+msgstr "無法儲存私鑰檔案：%1"
+
+#: kdeconnectconfig.cpp:136
+#, kde-format
+msgid "Could not store certificate file: %1"
+msgstr "無法儲存認證檔案：%1"

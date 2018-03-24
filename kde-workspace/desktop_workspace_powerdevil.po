@@ -1,0 +1,373 @@
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-07 02:37+0000\n"
+"PO-Revision-Date: 2017-02-15 10:51+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:6
+msgctxt "Name"
+msgid "Screen brightness"
+msgstr "螢幕亮度"
+
+#: daemon/actions/bundled/powerdevilbrightnesscontrolaction.desktop:52
+msgctxt "Comment"
+msgid "Basic Controls for brightness"
+msgstr "基本亮度控制"
+
+#: daemon/actions/bundled/powerdevildimdisplayaction.desktop:6
+msgctxt "Name"
+msgid "Dim screen"
+msgstr "將螢幕變暗"
+
+#: daemon/actions/bundled/powerdevildimdisplayaction.desktop:51
+msgctxt "Comment"
+msgid "Dims gradually the display on a time basis"
+msgstr "依時間逐漸讓顯示變暗"
+
+#: daemon/actions/bundled/powerdevilhandlebuttoneventsaction.desktop:7
+msgctxt "Name"
+msgid "Button events handling"
+msgstr "按鍵事件處理"
+
+#: daemon/actions/bundled/powerdevilhandlebuttoneventsaction.desktop:54
+msgctxt "Comment"
+msgid "Performs an action whenever a button is pressed"
+msgstr "按鍵被按下時執行動作"
+
+#: daemon/actions/bundled/powerdevilkeyboardbrightnesscontrolaction.desktop:6
+msgctxt "Name"
+msgid "Keyboard backlight"
+msgstr "鍵盤背光"
+
+#: daemon/actions/bundled/powerdevilkeyboardbrightnesscontrolaction.desktop:51
+msgctxt "Comment"
+msgid "Basic Controls for the keyboard backlight brightness"
+msgstr "鍵盤背光亮度的基本控制"
+
+#: daemon/actions/bundled/powerdevilrunscriptaction.desktop:6
+msgctxt "Name"
+msgid "Run script"
+msgstr "執行文稿"
+
+#: daemon/actions/bundled/powerdevilrunscriptaction.desktop:50
+msgctxt "Comment"
+msgid "Runs a custom script"
+msgstr "執行自訂文稿"
+
+#: daemon/actions/bundled/powerdevilsuspendsessionaction.desktop:6
+msgctxt "Name"
+msgid "Suspend session"
+msgstr "暫停工作階段"
+
+#: daemon/actions/bundled/powerdevilsuspendsessionaction.desktop:51
+msgctxt "Comment"
+msgid "Suspends the session"
+msgstr "暫停工作階段"
+
+#: daemon/actions/bundled/powerdevilwirelesspowersavingaction.desktop:6
+msgctxt "Name"
+msgid "Wireless"
+msgstr "無線"
+
+#: daemon/actions/bundled/powerdevilwirelesspowersavingaction.desktop:44
+msgctxt "Comment"
+msgid "Turns off signal-transmitting devices"
+msgstr "關閉訊號傳送裝置"
+
+#: daemon/actions/dpms/powerdevildpmsaction.desktop:6
+msgctxt "Name"
+msgid "Screen Energy Saving"
+msgstr "螢幕節能"
+
+#: daemon/actions/dpms/powerdevildpmsaction.desktop:52
+msgctxt "Comment"
+msgid "Controls DPMS settings"
+msgstr "控制 DPMS 設定"
+
+#: daemon/actions/powerdevilaction.desktop:5
+msgctxt "Comment"
+msgid "Power Management Action Extension"
+msgstr "電源管理動作延伸"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:2
+#: daemon/backends/upower/discretegpu_helper_actions.actions:2
+msgctxt "Name"
+msgid "KDE"
+msgstr "KDE"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:51
+msgctxt "Name"
+msgid "Get maximum brightness value"
+msgstr "取得最大亮度值"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:94
+#: daemon/backends/upower/backlight_helper_actions.actions:190
+msgctxt "Description"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "系統政策不允許您取得亮度設定。"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:144
+msgctxt "Name"
+msgid "Get brightness"
+msgstr "取得亮度"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:240
+msgctxt "Name"
+msgid "Set brightness"
+msgstr "設定亮度"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:286
+msgctxt "Description"
+msgid "System policies prevent you from setting the brightness level."
+msgstr "系統政策不允許您設定亮度。"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:335
+msgctxt "Name"
+msgid "Get syspath"
+msgstr "取得系統路徑"
+
+#: daemon/backends/upower/backlight_helper_actions.actions:379
+msgctxt "Description"
+msgid "System policies prevent you from getting the syspath"
+msgstr "系統政策不允許您取得系統路徑"
+
+#: daemon/backends/upower/discretegpu_helper_actions.actions:51
+msgctxt "Name"
+msgid "Check existence of discrete gpu"
+msgstr "檢查是否有獨立顯示卡"
+
+#: daemon/backends/upower/discretegpu_helper_actions.actions:87
+msgctxt "Description"
+msgid ""
+"System policies prevent you from checking the existence of discrete gpu."
+msgstr "系統政策不允許您檢查是否有獨立顯示卡。"
+
+#: daemon/backends/upower/powerdevilupowerbackend.desktop:7
+msgctxt "Name"
+msgid "UPower PowerDevil Backend"
+msgstr "UPower PowerDevil 後端介面"
+
+#: daemon/backends/upower/powerdevilupowerbackend.desktop:51
+msgctxt "Comment"
+msgid "Use KDE Power Management system through freedesktop.org upower daemon"
+msgstr "透過 freedesktop.org 的 upower 伺服程式使用 KDE 電源管理系統"
+
+#: daemon/powerdevil.desktop.cmake:5
+msgctxt "Name"
+msgid "Power Management"
+msgstr "電源管理"
+
+#: daemon/powerdevil.desktop.cmake:54
+msgctxt "Comment"
+msgid "Battery, Display and CPU power management and notification"
+msgstr "電池、顯示與 CPU 電力管理與通知"
+
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:14
+msgctxt "Name"
+msgid "Activity Settings"
+msgstr "活動設定"
+
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:61
+msgctxt "Comment"
+msgid "Per-Activity Power Management"
+msgstr "個別活動的電源管理"
+
+#: kcmodule/activities/powerdevilactivitiesconfig.desktop:106
+msgctxt "X-KDE-Keywords"
+msgid ""
+"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
+"hibernate,brightness,performance,lid,activity,activities"
+msgstr ""
+"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
+"hibernate,brightness,performance,lid,activity,activities"
+
+#: kcmodule/global/powerdevilglobalconfig.desktop:14
+msgctxt "Name"
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: kcmodule/global/powerdevilglobalconfig.desktop:61
+msgctxt "Comment"
+msgid "Advanced Power Management Settings"
+msgstr "進階電源管理設定"
+
+#: kcmodule/global/powerdevilglobalconfig.desktop:107
+#: kcmodule/profiles/powerdevilprofilesconfig.desktop:107
+msgctxt "X-KDE-Keywords"
+msgid ""
+"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
+"hibernate,brightness,performance,lid"
+msgstr ""
+"system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
+"hibernate,brightness,performance,lid"
+
+#: kcmodule/profiles/powerdevilprofilesconfig.desktop:14
+msgctxt "Name"
+msgid "Energy Saving"
+msgstr "省電模式"
+
+#: kcmodule/profiles/powerdevilprofilesconfig.desktop:61
+msgctxt "Comment"
+msgid "Energy Saving"
+msgstr "省電模式"
+
+#: powerdevil.notifyrc:2
+msgctxt "Name"
+msgid "KDE Power Management System"
+msgstr "KDE 電源管理系統"
+
+#: powerdevil.notifyrc:49
+msgctxt "Comment"
+msgid "Power Management System"
+msgstr "電源管理系統"
+
+#: powerdevil.notifyrc:98
+msgctxt "Name"
+msgid "Warning"
+msgstr "警告"
+
+#: powerdevil.notifyrc:144
+msgctxt "Comment"
+msgid "Used for warning notifications"
+msgstr "用於警告通知"
+
+#: powerdevil.notifyrc:192
+msgctxt "Name"
+msgid "Notification"
+msgstr "通知"
+
+#: powerdevil.notifyrc:239
+msgctxt "Comment"
+msgid "Used for standard notifications"
+msgstr "用於標準通知"
+
+#: powerdevil.notifyrc:287
+msgctxt "Name"
+msgid "Critical notification"
+msgstr "緊急通知"
+
+#: powerdevil.notifyrc:333
+msgctxt "Comment"
+msgid "Notifies a critical event"
+msgstr "通知緊急事件"
+
+#: powerdevil.notifyrc:381
+msgctxt "Name"
+msgid "Battery Low"
+msgstr "電池電力偏低"
+
+#: powerdevil.notifyrc:427
+msgctxt "Comment"
+msgid "Your battery has reached low level"
+msgstr "您的電池電力已達不足的程度"
+
+#: powerdevil.notifyrc:479
+msgctxt "Name"
+msgid "Battery Critical"
+msgstr "電池電力嚴重不足"
+
+#: powerdevil.notifyrc:525
+msgctxt "Comment"
+msgid ""
+"Your battery has reached critical level. This notification triggers a "
+"countdown before doing the configured action, hence it is strongly advised "
+"to leave that on."
+msgstr ""
+"您的電池電力已到嚴重警告區。這個通知發出後將會開始倒數計時，時間到後就會進行"
+"設定好的動作。建議您保持此項開啟。"
+
+#: powerdevil.notifyrc:577
+msgctxt "Name"
+msgid "Charge Complete"
+msgstr "充電完成"
+
+#: powerdevil.notifyrc:623
+msgctxt "Comment"
+msgid "The battery is fully charged"
+msgstr "電池已充飽"
+
+#: powerdevil.notifyrc:675
+msgctxt "Name"
+msgid "Peripheral Battery Low"
+msgstr "週邊裝置電池電力偏低"
+
+#: powerdevil.notifyrc:714
+msgctxt "Comment"
+msgid "The battery in a connected device, such as mouse or keyboard, is low"
+msgstr "在已連線裝置（如滑鼠或鍵盤等）中的電池電力偏低"
+
+#: powerdevil.notifyrc:759
+msgctxt "Name"
+msgid "AC adaptor plugged in"
+msgstr "AC 電源已插入"
+
+#: powerdevil.notifyrc:805
+msgctxt "Comment"
+msgid "The power adaptor has been plugged in"
+msgstr "市電電源已插上"
+
+#: powerdevil.notifyrc:857
+msgctxt "Name"
+msgid "AC adaptor unplugged"
+msgstr "AC 電源已拔除"
+
+#: powerdevil.notifyrc:903
+msgctxt "Comment"
+msgid "The power adaptor has been unplugged"
+msgstr "市電電源已拔除"
+
+#: powerdevil.notifyrc:955
+msgctxt "Name"
+msgid "Internal Error"
+msgstr "內部錯誤"
+
+#: powerdevil.notifyrc:1001
+msgctxt "Comment"
+msgid "The KDE Power Management System has triggered an internal error"
+msgstr "KDE 電源管理系統觸發了一個內部錯誤"
+
+#~ msgctxt "Name"
+#~ msgid "Wireless power saving"
+#~ msgstr "無線省電"
+
+#~ msgctxt "Name"
+#~ msgid "HAL PowerDevil Backend"
+#~ msgstr "HAL PowerDevil 後端介面"
+
+#~ msgctxt "Comment"
+#~ msgid "Use KDE Power Management system through freedesktop.org HAL daemon"
+#~ msgstr "透過 freedesktop.org 的 HAL 伺服程式使用 KDE 電源管理系統"
+
+#~ msgctxt "Name"
+#~ msgid "Broken battery notification"
+#~ msgstr "電池損壞通知"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE Power Management System has detected some troubles with one of your "
+#~ "batteries"
+#~ msgstr "KDE 電源管理系統發現您的電池有些問題"
+
+#~ msgctxt "Name"
+#~ msgid "Suspension inhibited"
+#~ msgstr "禁止暫停"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "The suspension has been inhibited because an application requested it"
+#~ msgstr "暫停功能已被禁止，因為有應用程式如此要求"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Energy Saving"
+#~ msgstr "設定省電模式"

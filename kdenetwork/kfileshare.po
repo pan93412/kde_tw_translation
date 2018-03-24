@@ -1,0 +1,2933 @@
+# translation of kfileshare.po to Chinese Traditional
+# Traditional Chinese Translation of kcm_sambaconf
+# Copyright (C) 2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# tonniewalker <tonniewalker@hotmail.com>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2009.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfileshare\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:16+0100\n"
+"PO-Revision-Date: 2016-11-14 20:52+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: samba/filepropertiesplugin/delegate.cpp:40
+#, kde-format
+msgid "---"
+msgstr "---"
+
+#: samba/filepropertiesplugin/delegate.cpp:41
+#, kde-format
+msgid "Full Control"
+msgstr "完全控制"
+
+#: samba/filepropertiesplugin/delegate.cpp:42
+#, kde-format
+msgid "Read Only"
+msgstr "唯讀"
+
+#: samba/filepropertiesplugin/delegate.cpp:43
+#, kde-format
+msgid "Deny"
+msgstr "拒絕"
+
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:73
+#, kde-format
+msgid "&Share"
+msgstr "分享(&S)"
+
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:82
+#, kde-format
+msgid "The Samba package failed to install."
+msgstr "Samba 套件安裝失敗。"
+
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:92
+#, kde-format
+msgid "Samba is not installed on your system."
+msgstr "此系統中沒有安裝 Samba。"
+
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:95
+#, kde-format
+msgid "Install Samba..."
+msgstr "安裝 Samba..."
+
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:257
+#, kde-format
+msgid ""
+"<qt>There is already a share with the name <strong>%1</strong>.<br /> Please "
+"choose another name.</qt>"
+msgstr ""
+"<qt>此分享名稱 <strong>%1</strong> 已被使用。<br /> 請輸入其他名稱。</qt>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, sambaChk)
+#: samba/filepropertiesplugin/sambausershareplugin.ui:19
+#, kde-format
+msgid "Share with S&amba (Microsoft Windows)"
+msgstr "以 Samba 分享（Microsoft Windows）(&A)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: samba/filepropertiesplugin/sambausershareplugin.ui:36
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (text), widget (QCheckBox, sambaAllowGuestChk)
+#: samba/filepropertiesplugin/sambausershareplugin.ui:56
+#, kde-format
+msgid "Allow Guests"
+msgstr "允許訪客"
+
+#~ msgid ""
+#~ "<qt><strong>Samba could not be installed.</strong><br />Please, check if "
+#~ "kpackagekit is properly installed</qt>"
+#~ msgstr ""
+#~ "<qt><strong>無法安裝 Samba。</strong><br />請檢查是否已安裝 kpackagekit。"
+#~ "</qt>"
+
+#~ msgid "Select Users"
+#~ msgstr "選擇使用者"
+
+#~ msgid "Select &Users"
+#~ msgstr "選擇使用者(&U)"
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "UID"
+#~ msgstr "UID"
+
+#~ msgid "GID"
+#~ msgstr "GID"
+
+#~ msgid "Acc&ess"
+#~ msgstr "存取(&E)"
+
+#~ msgid "&Default"
+#~ msgstr "預設(&D)"
+
+#~ msgid "&Read access"
+#~ msgstr "讀取(&R)"
+
+#~ msgid "&Write access"
+#~ msgstr "寫入(&W)"
+
+#~ msgid "&Admin access"
+#~ msgstr "管理(&A)"
+
+#~ msgid "&No access at all"
+#~ msgstr "不做存取(&N)"
+
+#~ msgid "&OK"
+#~ msgstr "確定(&O)"
+
+#~ msgid "&Cancel"
+#~ msgstr "取消(&C)"
+
+#~ msgid "Join Domain"
+#~ msgstr "加入網域"
+
+#~ msgid "&Verify:"
+#~ msgstr "確認(&V)："
+
+#~ msgid "&Password:"
+#~ msgstr "密碼(&P)："
+
+#~ msgid "&Username:"
+#~ msgstr "使用者名稱(&U)："
+
+#~ msgid "Domain co&ntroller:"
+#~ msgstr "網域控制者(&N)："
+
+#~ msgid "&Domain:"
+#~ msgstr "網域(&D)："
+
+#~ msgid "Select Groups"
+#~ msgstr "選擇群組"
+
+#~ msgid "Selec&t Groups"
+#~ msgstr "選擇群組(&T)"
+
+#~ msgid "&Kind of Group"
+#~ msgstr "群組種類(&K)"
+
+#~ msgid "&UNIX group"
+#~ msgstr "UNIX 群組(&U)"
+
+#~ msgid "NI&S group"
+#~ msgstr "NIS 群組(&S)"
+
+#~ msgid "UNIX and NIS gr&oup"
+#~ msgstr "UNIX 與 NIS 群組(&O)"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Here you can edit the Samba users, stored in the smbpasswd file.\n"
+#~ "<p>\n"
+#~ "Every Samba user must have a corresponding UNIX user.\n"
+#~ "On the right you can see all UNIX users, stored in the passwd file and "
+#~ "not configured as Samba users.\n"
+#~ "You can see the Samba users on the left-hand side.\n"
+#~ "<p>\n"
+#~ "To add new Samba users simply press the <em>&lt; add</em> button.\n"
+#~ "The selected UNIX users will then become Samba users and will be\n"
+#~ "removed from the UNIX users list (but they will remain UNIX users).\n"
+#~ "<p>\n"
+#~ "To remove Samba users click the <em>&gt; remove</em> button.\n"
+#~ "The selected Samba users will be removed from the smbpasswd file\n"
+#~ "and reappear on the right-hand side, as UNIX users which are not Samba "
+#~ "users.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>您可以在此編輯 Samba 使用者，並儲存在 smbpasswd 檔中。 <p> 每個 Samba "
+#~ "使用者都要有 UNIX 使用者帳號。在右方您可以看到所有尚未被設定為 Samba 使用"
+#~ "者的 UNIX 使用者帳號。左方則是已設定為 Samba 使用者的帳號。</p> <p>要新增 "
+#~ "Samba 使用者，只要選取 UNIX 使用者帳號，並按下「新增」按鈕即可。</p> <p>要"
+#~ "移除 Samba 使用者，則選取 Samba 使用者帳號，並按下「移除」按鈕。</p></qt>"
+
+#~ msgid "&Base Settings"
+#~ msgstr "基礎設定(&B)"
+
+#~ msgid "Samba config file:"
+#~ msgstr "Samba 設定檔："
+
+#~ msgid "&Load"
+#~ msgstr "載入(&L)"
+
+#~ msgid "Server Identification"
+#~ msgstr "伺服器識別"
+
+#~ msgid "Wor&kgroup:"
+#~ msgstr "工作群組(&K)："
+
+#~ msgid "Enter here the name of your workgroup/domain."
+#~ msgstr "在此輸入您的工作群組或網域的名稱。"
+
+#~ msgid "Server strin&g:"
+#~ msgstr "伺服器字串(&G)："
+
+#~ msgid "NetBIOS name:"
+#~ msgstr "NetBIOS 名稱："
+
+#~ msgid "Securit&y Level"
+#~ msgstr "安全性等級(&Y)"
+
+#~ msgid "Share"
+#~ msgstr "分享"
+
+#~ msgid "Alt+"
+#~ msgstr "Alt+"
+
+#~ msgid "User"
+#~ msgstr "使用者"
+
+#~ msgid "Server"
+#~ msgstr "伺服器"
+
+#~ msgid "Domai&n"
+#~ msgstr "網域(&N)"
+
+#~ msgid "ADS"
+#~ msgstr "ADS"
+
+#~ msgid ""
+#~ "Use the <i>share</i> security level if you have a home network or a small "
+#~ "office network.<br> It allows everyone to read all share names before a "
+#~ "login is required."
+#~ msgstr ""
+#~ "若您是在家用網路中，或是小型的辦公室網路之中，則請使用<i>分享</i>安全性等"
+#~ "級。<br> 這可以讓所有人不必登入就能讀到所有的分享資源名稱。"
+
+#~ msgid "Further Options"
+#~ msgstr "進階選項"
+
+#~ msgid "Password server address/name:"
+#~ msgstr "密碼伺服器位址/名稱："
+
+#~ msgid "Real&m:"
+#~ msgstr "Realm(&M)："
+
+#~ msgid "Guest acc&ount:"
+#~ msgstr "訪客帳號(&O)："
+
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgid "For detailed help about every option please look at:"
+#~ msgstr "每個選項的詳細說明請參考："
+
+#~ msgid "man:smb.conf"
+#~ msgstr "smb.conf 的 man page。"
+
+#~ msgid "&Shares"
+#~ msgstr "分享(&S)"
+
+#~ msgid "Path"
+#~ msgstr "路徑"
+
+#~ msgid "Comment"
+#~ msgstr "註解"
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "Edit Defau&lts..."
+#~ msgstr "編輯預設值...(&L)"
+
+#~ msgid "Add &New Share..."
+#~ msgstr "新增分享...(&N)"
+
+#~ msgid "Edit Share..."
+#~ msgstr "編輯分享..."
+
+#~ msgid "Re&move Share"
+#~ msgstr "移除分享(&M)"
+
+#~ msgid "Prin&ters"
+#~ msgstr "印表機(&T)"
+
+#~ msgid "Printer"
+#~ msgstr "印表機"
+
+#~ msgid "Edit Defau&lts"
+#~ msgstr "編輯預設值(&L)"
+
+#~ msgid "Add Ne&w Printer"
+#~ msgstr "新增印表機(&W)"
+
+#~ msgid "Edit Pri&nter"
+#~ msgstr "編輯印表機(&N)"
+
+#~ msgid "Re&move Printer"
+#~ msgstr "移除印表機(&M)"
+
+#~ msgid "&Users"
+#~ msgstr "使用者(&U)"
+
+#~ msgid "Sa&mba Users"
+#~ msgstr "Samba 使用者(&M)"
+
+#~ msgid "Disabled"
+#~ msgstr "關閉"
+
+#~ msgid "No Password"
+#~ msgstr "不使用密碼"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Rem&ove"
+#~ msgstr "移除(&O)"
+
+#~ msgid "UNI&X Users"
+#~ msgstr "UNIX 使用者(&X)"
+
+#~ msgid "Chan&ge Password..."
+#~ msgstr "更改密碼...(&G)"
+
+#~ msgid "&Join Domain"
+#~ msgstr "加入網域(&J)"
+
+#~ msgid "Advan&ced"
+#~ msgstr "進階(&C)"
+
+#~ msgid ""
+#~ "Here you can change advanced options of the SAMBA server.\n"
+#~ "Only change something if you know what you are doing."
+#~ msgstr ""
+#~ "在此您可以改變 Samba 伺服器的進階選項。\n"
+#~ "除非您知道您在做什麼，否則請不要任意修改。"
+
+#~ msgid "Advanced Dump"
+#~ msgstr "進階傾印"
+
+#~ msgid "Security"
+#~ msgstr "安全性"
+
+#~ msgid "&General"
+#~ msgstr "一般(&G)"
+
+#~ msgid "PAM"
+#~ msgstr "PAM"
+
+#~ msgid "Obey PAM restrictions"
+#~ msgstr "遵循 PAM 限制"
+
+#~ msgid "PAM password change"
+#~ msgstr "PAM 密碼變更"
+
+#~ msgid "Other Switches"
+#~ msgstr "其他開關"
+
+#~ msgid "A&llow trusted domains"
+#~ msgstr "允許信任的網域(&L)"
+
+#~ msgid "Paranoid server security"
+#~ msgstr "Paranoid 伺服器安全"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Auth methods:"
+#~ msgstr "認證方法："
+
+#~ msgid "Root director&y:"
+#~ msgstr "根目錄(&Y)："
+
+#~ msgid "I&nterfaces:"
+#~ msgstr "介面(&N)："
+
+#~ msgid "Map to guest:"
+#~ msgstr "映射到訪客帳號："
+
+#~ msgid "Bind interfaces only"
+#~ msgstr "只使用介面"
+
+#~ msgid "Never"
+#~ msgstr "永不"
+
+#~ msgid "Bad User"
+#~ msgstr "不良使用者"
+
+#~ msgid "Bad Password"
+#~ msgstr "不安全密碼"
+
+#~ msgid "Hosts e&quiv:"
+#~ msgstr "主機等同(&Q)："
+
+#~ msgid "Algorithmic rid base:"
+#~ msgstr "演算法基底："
+
+#~ msgid "Private dir:"
+#~ msgstr "私密目錄："
+
+#~ msgid "Pass&word"
+#~ msgstr "密碼(&W)"
+
+#~ msgid "Samba Passwords"
+#~ msgstr "Samba 密碼"
+
+#~ msgid "E&ncrypt passwords"
+#~ msgstr "加密密碼(&N)"
+
+#~ msgid "Smb passwd file:"
+#~ msgstr "Smb 密碼檔："
+
+#~ msgid "Passdb bac&kend:"
+#~ msgstr "密碼後端資料庫(&K)："
+
+#~ msgid "Passwd chat:"
+#~ msgstr "密碼 chat："
+
+#~ msgid "Passwd chat debug"
+#~ msgstr "密碼 chat 除錯資訊"
+
+#~ msgctxt "seconds"
+#~ msgid "Sec"
+#~ msgstr "秒"
+
+#~ msgid "Passwd chat timeout:"
+#~ msgstr "密碼 chat 逾時："
+
+#~ msgid "Password"
+#~ msgstr "密碼"
+
+#~ msgid "Nu&ll passwords"
+#~ msgstr "空白密碼(&L)"
+
+#~ msgid "Password level:"
+#~ msgstr "密碼等級："
+
+#~ msgid "Min password length:"
+#~ msgstr "最小密碼長度："
+
+#~ msgid "Machine password timeout:"
+#~ msgstr "機器密碼逾時："
+
+#~ msgid "Migration"
+#~ msgstr "移動"
+
+#~ msgid "Update encr&ypted"
+#~ msgstr "更新加密(&Y)"
+
+#~ msgid "UNIX Passwords"
+#~ msgstr "UNIX 密碼"
+
+#~ msgid "Passwd program:"
+#~ msgstr "密碼程式："
+
+#~ msgid "UNI&X password sync"
+#~ msgstr "UNIX 密碼同步(&X)"
+
+#~ msgid "Userna&me"
+#~ msgstr "使用者名稱(&M)"
+
+#~ msgid "User&name map:"
+#~ msgstr "使用者名稱映射(&N)："
+
+#~ msgid "Username &level:"
+#~ msgstr "使用者名稱等級(&L)："
+
+#~ msgid "Hide local users"
+#~ msgstr "隱藏本地使用者"
+
+#~ msgid "Restrict anon&ymous"
+#~ msgstr "限制匿名(&Y)"
+
+#~ msgid "Use rhosts"
+#~ msgstr "使用 rhosts"
+
+#~ msgid "Authenticati&on"
+#~ msgstr "認證(&O)"
+
+#~ msgid "Client"
+#~ msgstr "客戶端"
+
+#~ msgid "C&lient signing:"
+#~ msgstr "客戶端簽署(&L)："
+
+#~ msgid "Client plainte&xt authentication"
+#~ msgstr "客戶端純文字認證(&X)"
+
+#~ msgid "Client lanman authentication"
+#~ msgstr "客戶端 lanman 認證"
+
+#~ msgid "Auto"
+#~ msgstr "自動"
+
+#~ msgid "Mandatory"
+#~ msgstr "託管"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "Client channel:"
+#~ msgstr "客戶端頻道："
+
+#~ msgid "Client use spnego"
+#~ msgstr "客戶端使用 spnego"
+
+#~ msgid "Client NTLMv&2 authentication"
+#~ msgstr "客戶端 NTLMv2 認證(&2)"
+
+#~ msgid "Server signing:"
+#~ msgstr "伺服器簽署："
+
+#~ msgid "Lanman authentication"
+#~ msgstr "Lanman 認證"
+
+#~ msgid "Server channel:"
+#~ msgstr "伺服器頻道："
+
+#~ msgid "Use sp&nego"
+#~ msgstr "使用 spnego(&N)"
+
+#~ msgid "NTLM authentication"
+#~ msgstr "NTLM 認證"
+
+#~ msgid "Logging"
+#~ msgstr "紀錄"
+
+#~ msgid "L&og file:"
+#~ msgstr "紀錄檔(&O)："
+
+#~ msgid "kB"
+#~ msgstr "kB"
+
+#~ msgid "Ma&x log size:"
+#~ msgstr "紀錄檔大小限制(&X)"
+
+#~ msgid "S&yslog:"
+#~ msgstr "系統紀錄(&Y)："
+
+#~ msgid "Log &level:"
+#~ msgstr "紀錄等級(&L)："
+
+#~ msgid "S&witches"
+#~ msgstr "開關(&W)"
+
+#~ msgid "Syslog o&nly"
+#~ msgstr "只在系統紀錄(&N)"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Ti&mestamp"
+#~ msgstr "時間(&M)"
+
+#~ msgid "microseconds"
+#~ msgstr "微秒"
+
+#~ msgid "Debug pid"
+#~ msgstr "除錯行程代碼"
+
+#~ msgid "Debu&g uid"
+#~ msgstr "除錯使用者代碼(&G)"
+
+#~ msgid "Tuning"
+#~ msgstr "微調"
+
+#~ msgid "Modules"
+#~ msgstr "模組"
+
+#~ msgid "Pre&load modules:"
+#~ msgstr "預先載入模組(&L)："
+
+#~ msgid "Switches"
+#~ msgstr "開關"
+
+#~ msgid "&Getwd cache"
+#~ msgstr "Getwd 快取(&G)："
+
+#~ msgid "Use &mmap"
+#~ msgstr "使用 mmap(&M)"
+
+#~ msgid "Kernel change notif&y"
+#~ msgstr "核心變更通知(&Y)"
+
+#~ msgid "H&ostname lookups"
+#~ msgstr "尋找主機名稱(&O)"
+
+#~ msgid "Read ra&w"
+#~ msgstr "原始讀取(&W)"
+
+#~ msgid "Write raw"
+#~ msgstr "原始寫入"
+
+#~ msgid "Times"
+#~ msgstr "時間"
+
+#~ msgid "Change notify timeout:"
+#~ msgstr "變更通知逾時時間："
+
+#~ msgid "&Keepalive:"
+#~ msgstr "保持連線(&K)："
+
+#~ msgctxt "minutes"
+#~ msgid "Min"
+#~ msgstr "分"
+
+#~ msgid "Deadtime:"
+#~ msgstr "死亡時間(Deadtime)："
+
+#~ msgid "Lp&q cache time:"
+#~ msgstr "Lpq 快取時間："
+
+#~ msgid "&Name cache timeout:"
+#~ msgstr "快取逾時名稱(&N)："
+
+#~ msgid "Sizes"
+#~ msgstr "大小"
+
+#~ msgid "Max disk size:"
+#~ msgstr "最大磁碟大小："
+
+#~ msgctxt "mega byte"
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Read si&ze:"
+#~ msgstr "讀取大小(&Z)："
+
+#~ msgid "Stat cache size:"
+#~ msgstr "狀態快取大小："
+
+#~ msgid "Ma&x xmit:"
+#~ msgstr "最大傳輸(&X)："
+
+#~ msgid "Numbers"
+#~ msgstr "數目"
+
+#~ msgid "Max smbd processes:"
+#~ msgstr "最大 smbd 行程數："
+
+#~ msgid "Max open files:"
+#~ msgstr "最大開檔數："
+
+#~ msgid "Printing"
+#~ msgstr "列印"
+
+#~ msgid "Total print &jobs:"
+#~ msgstr "總共列印工作(&J)："
+
+#~ msgid "Drivers"
+#~ msgstr "驅動程式"
+
+#~ msgid "OS&2 driver map:"
+#~ msgstr "OS2 驅動程式映射(&2)："
+
+#~ msgid "Printcap na&me:"
+#~ msgstr "Printcap 名稱(&M)："
+
+#~ msgid "Pri&nter driver file: "
+#~ msgstr "印表機驅動程式檔案(&N)："
+
+#~ msgid "Commands"
+#~ msgstr "命令"
+
+#~ msgid "Enumports command:"
+#~ msgstr "Enumports 命令："
+
+#~ msgid "Addprinter command:"
+#~ msgstr "新增印表機命令："
+
+#~ msgid "Deleteprinter command:"
+#~ msgstr "刪除印表機命令："
+
+#~ msgid "L&oad printers"
+#~ msgstr "載入印表機(&O)"
+
+#~ msgid "Disab&le spools"
+#~ msgstr "關閉 spools (&L)"
+
+#~ msgid "Show add printer wi&zard"
+#~ msgstr "顯示新增印表機精靈(&Z)"
+
+#~ msgid "Domain"
+#~ msgstr "網域"
+
+#~ msgid "L&ocal master"
+#~ msgstr "本地主宰(&O)"
+
+#~ msgid "Domai&n master"
+#~ msgstr "網域主宰(&N)"
+
+#~ msgid "Domain lo&gons"
+#~ msgstr "網域登入(&G)"
+
+#~ msgid "Preferred &master"
+#~ msgstr "預設主宰(&M)"
+
+#~ msgid "OS &level:"
+#~ msgstr "OS 等級(&L)："
+
+#~ msgid "Domain admin group:"
+#~ msgstr "網域管理群組："
+
+#~ msgid "Domain guest group:"
+#~ msgstr "網域訪客群組："
+
+#~ msgid "WINS"
+#~ msgstr "WINS"
+
+#~ msgid "Deactivate &WINS"
+#~ msgstr "關閉 WINS(&W)"
+
+#~ msgid "Act as a WI&NS server"
+#~ msgstr "做為 WINS 伺服器(&N)"
+
+#~ msgid "Use an&other WINS server"
+#~ msgstr "使用另一台 WINS 伺服器"
+
+#~ msgid "WINS Server Settin&gs"
+#~ msgstr "WINS 伺服器設定(&G)"
+
+#~ msgid "DNS prox&y"
+#~ msgstr "DNS 代理伺服器(&Y)"
+
+#~ msgid "WINS hoo&k:"
+#~ msgstr "WINS hook(&K)："
+
+#~ msgid "Max WINS tt&l:"
+#~ msgstr "最大 WINS TTL(&L)："
+
+#~ msgid "&Min WINS ttl:"
+#~ msgstr "最小 WINS TTL(&M)："
+
+#~ msgid "WINS Server IP or DNS Name"
+#~ msgstr "WINS 伺服器 IP 或 DNS 名稱"
+
+#~ msgid "General Options"
+#~ msgstr "一般選項"
+
+#~ msgid "WINS partners:"
+#~ msgstr "WINS 同伴："
+
+#~ msgid "WINS pro&xy"
+#~ msgstr "WINS 代理伺服器(&X)"
+
+#~ msgid "Filenames"
+#~ msgstr "檔名"
+
+#~ msgid "Ge&neral"
+#~ msgstr "一般(&N)"
+
+#~ msgid "Strip d&ot"
+#~ msgstr "去除點(&O)"
+
+#~ msgid "&Mangling"
+#~ msgstr "修改封包屬性(Mangling)(&M)"
+
+#~ msgid "Mangled stac&k:"
+#~ msgstr "Mangle 堆疊(&K)："
+
+#~ msgid "Mangle prefi&x:"
+#~ msgstr "Mangle 前置(&X)："
+
+#~ msgid "Specia&l"
+#~ msgstr "特殊(&L)"
+
+#~ msgid "Stat cache"
+#~ msgstr "狀態快取"
+
+#~ msgid "Locking"
+#~ msgstr "鎖定"
+
+#~ msgid "Use ker&nel oplocks"
+#~ msgstr "使用核心 oplock (&N)"
+
+#~ msgid "Direct&ories"
+#~ msgstr "目錄(&O)"
+
+#~ msgid "Loc&k directory:"
+#~ msgstr "鎖定目錄(&K)："
+
+#~ msgid "Pid director&y:"
+#~ msgstr "行程代碼目錄(&Y)："
+
+#~ msgid "Lock Spin"
+#~ msgstr "Spin 鎖"
+
+#~ msgid "&Lock spin count:"
+#~ msgstr "Spin 鎖計數(&L)："
+
+#~ msgid "Lock spin ti&me:"
+#~ msgstr "Spin 鎖時間(&M)："
+
+#~ msgid "Very Advanced"
+#~ msgstr "非常進階"
+
+#~ msgid "Oplock break &wait time:"
+#~ msgstr "Oplock"
+
+#~ msgid "milliseconds"
+#~ msgstr "毫秒"
+
+#~ msgid "Charset"
+#~ msgstr "字元集"
+
+#~ msgid "Samba &3.x"
+#~ msgstr "Samba 3.x (&3)"
+
+#~ msgid "D&OS charset:"
+#~ msgstr "DOS 字元集(&O)："
+
+#~ msgid "UNI&X charset:"
+#~ msgstr "UNIX 字元集(&X)："
+
+#~ msgid "Displa&y charset:"
+#~ msgstr "顯示字元集(&Y)："
+
+#~ msgid "U&nicode"
+#~ msgstr "萬國碼(&N)"
+
+#~ msgid "Samba &2.x"
+#~ msgstr "Samba 2.x (&2)"
+
+#~ msgid "Character set:"
+#~ msgstr "字元集："
+
+#~ msgid "Va&lid chars:"
+#~ msgstr "合法字元(&L)："
+
+#~ msgid "Code page directory:"
+#~ msgstr "Codepage 目錄："
+
+#~ msgid "Codin&g system:"
+#~ msgstr "編碼系統(&G)："
+
+#~ msgid "Client code page:"
+#~ msgstr "客戶端 codepage："
+
+#~ msgid "Logon"
+#~ msgstr "登入"
+
+#~ msgid "Add Scripts"
+#~ msgstr "新增文稿"
+
+#~ msgid "Add user script:"
+#~ msgstr "新增使用者文稿："
+
+#~ msgid "Add user to group script:"
+#~ msgstr "新增使用者到群組文稿："
+
+#~ msgid "Add gr&oup script:"
+#~ msgstr "新增群組文稿(&O)："
+
+#~ msgid "Add machine script:"
+#~ msgstr "新增機器文稿："
+
+#~ msgid "Delete Scripts"
+#~ msgstr "刪除文稿"
+
+#~ msgid "Delete group script:"
+#~ msgstr "刪除群組文稿："
+
+#~ msgid "Delete user script:"
+#~ msgstr "刪除使用者文稿："
+
+#~ msgid "Delete user from group script:"
+#~ msgstr "由群組文稿中刪除使用者："
+
+#~ msgid "Primary Group Script"
+#~ msgstr "主要的群組文稿"
+
+#~ msgid "Set primar&y group script:"
+#~ msgstr "設定主要群組文稿(&Y)："
+
+#~ msgid "Shutdown"
+#~ msgstr "關機"
+
+#~ msgid "Shutdo&wn script:"
+#~ msgstr "關機文稿(&W)："
+
+#~ msgid "Abort shutdown script:"
+#~ msgstr "中斷關機文稿："
+
+#~ msgid "Logo&n path:"
+#~ msgstr "登入路徑(&N)："
+
+#~ msgid "Logon ho&me:"
+#~ msgstr "登入家目錄(&M)："
+
+#~ msgid "&Logon drive:"
+#~ msgstr "登入磁碟(&L)："
+
+#~ msgid "Lo&gon script:"
+#~ msgstr "登入文稿(&G)："
+
+#~ msgid "Socket"
+#~ msgstr "Socket"
+
+#~ msgid "Socket address:"
+#~ msgstr "Socket 位址："
+
+#~ msgid "Socket Options"
+#~ msgstr "Socket 選項"
+
+#~ msgid "TCP_NODELA&Y"
+#~ msgstr "TCP_NODELAY(&Y)"
+
+#~ msgid "SO_S&NDBUF:"
+#~ msgstr "SO_SNDBUF(&N)："
+
+#~ msgid "IPTOS_LOWDELAY"
+#~ msgstr "IPTOS_LOWDELAY"
+
+#~ msgid "SO_RCVBUF:"
+#~ msgstr "SO_RCVBUF："
+
+#~ msgid "IPTOS_THROU&GHPUT"
+#~ msgstr "IPTOS_THROUGHPUT(&G)"
+
+#~ msgid "SO_SNDLO&WAT:"
+#~ msgstr "SO_SNDLOWAT(&W)："
+
+#~ msgid "SO_&KEEPALIVE"
+#~ msgstr "SO_KEEPALIVE(&K)"
+
+#~ msgid "SO_RCV&LOWAT:"
+#~ msgstr "SO_RCVLOWAT(&L)"
+
+#~ msgid "S&O_REUSEADDR"
+#~ msgstr "SO_REUSEADDR(&O)"
+
+#~ msgid "SO_BROADCAST"
+#~ msgstr "SO_BROADCAST"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "Enables or disables the entire SSL mode"
+#~ msgstr "開啟或關閉整個 SSL 模式"
+
+#~ msgid ""
+#~ "This enables or disables the entire SSL mode. If it is set to no, the SSL-"
+#~ "enabled Samba behaves exactly like the non-SSL Samba. If set to yes, it "
+#~ "depends on the variables ssl hosts and ssl hosts resign whether an SSL "
+#~ "connection will be required.\n"
+#~ "\n"
+#~ "This is only available if the SSL libraries have been compiled on your "
+#~ "system and the configure option --with-ssl was given at configure time."
+#~ msgstr ""
+#~ "這個選項可以開啟或關閉整個 SSL 模式。如果選擇不開啟，則 Samba 會完全以沒"
+#~ "有 SSL 的模式運作。如果設定為開啟，則會依據 SSL 主機等的設定來決定是否需"
+#~ "要 SSL 連線。\n"
+#~ "\n"
+#~ "這只在您的系統上有 SSL 函式庫，以及 Samba 在設定時有加上 --with-ssl 選項時"
+#~ "才有作用。"
+
+#~ msgid "E&nable SSL"
+#~ msgstr "開啟 SSL(&N)"
+
+#~ msgid "SSL h&osts:"
+#~ msgstr "SSL 主機(&O)："
+
+#~ msgid "SSL entrop&y bytes:"
+#~ msgstr "SSL 熵位元組(&Y)："
+
+#~ msgid "SSL ciphers:"
+#~ msgstr "SSL 密碼："
+
+#~ msgid "SSL hosts resi&gn:"
+#~ msgstr "不需 SSL 主機(&G)："
+
+#~ msgid "ssl2"
+#~ msgstr "SSL2"
+
+#~ msgid "ssl3"
+#~ msgstr "SSL3"
+
+#~ msgid "ssl2or3"
+#~ msgstr "SSL2 或 3"
+
+#~ msgid "tls1"
+#~ msgstr "TLS1"
+
+#~ msgid "SSL co&mpatibility"
+#~ msgstr "SSL 相容性(&M)"
+
+#~ msgid "SSL CA certDir:"
+#~ msgstr "SSL CA 憑證目錄："
+
+#~ msgid "SSL entropy file:"
+#~ msgstr "SSL 熵檔案："
+
+#~ msgid "SSL egd socket:"
+#~ msgstr "SSL egd socket："
+
+#~ msgid "SSL version:"
+#~ msgstr "SSL 版本："
+
+#~ msgid "SSL CA certFile:"
+#~ msgstr "SSL CA 憑證檔："
+
+#~ msgid "SSL require clientcert"
+#~ msgstr "SSL 需要客戶端憑證"
+
+#~ msgid "SSL client key:"
+#~ msgstr "SSL 客戶端金鑰："
+
+#~ msgid "SSL re&quire servercert"
+#~ msgstr "SSL 需要伺服端憑證(&Q)"
+
+#~ msgid "SS&L server cert:"
+#~ msgstr "SSL 伺服端憑證 (&L)："
+
+#~ msgid "SSL client cert:"
+#~ msgstr "SSL 客戶端憑證："
+
+#~ msgid "SSL server &key:"
+#~ msgstr "SSL 伺服端金鑰(&K)："
+
+#~ msgid "Protocol"
+#~ msgstr "協定"
+
+#~ msgid "Ti&me server"
+#~ msgstr "時間伺服器(&M)"
+
+#~ msgid "Lar&ge readwrite"
+#~ msgstr "大讀寫(&G)"
+
+#~ msgid "UNIX extensions"
+#~ msgstr "UNIX 延伸"
+
+#~ msgid "Read bmpx"
+#~ msgstr "讀取 bmpx"
+
+#~ msgid "Protocol Versions"
+#~ msgstr "協定版本"
+
+#~ msgid "A&nnounce as:"
+#~ msgstr "宣告為(&N)："
+
+#~ msgid "NT"
+#~ msgstr "NT"
+
+#~ msgid "NT Workstation"
+#~ msgstr "NT 工作站"
+
+#~ msgid "win95"
+#~ msgstr "win95"
+
+#~ msgid "WfW"
+#~ msgstr "WfW"
+
+#~ msgid "Announce version:"
+#~ msgstr "宣告版本："
+
+#~ msgid "4.2"
+#~ msgstr "4.2"
+
+#~ msgid "Pr&otocol:"
+#~ msgstr "協定(&O)："
+
+#~ msgid "NT1"
+#~ msgstr "NT1"
+
+#~ msgid "LANMAN2"
+#~ msgstr "LANMAN2"
+
+#~ msgid "LANMAN1"
+#~ msgstr "LANMAN1"
+
+#~ msgid "CORE"
+#~ msgstr "CORE"
+
+#~ msgid "COREPLUS"
+#~ msgstr "COREPLUS"
+
+#~ msgid "Max protocol:"
+#~ msgstr "最大協定："
+
+#~ msgid "Min protocol:"
+#~ msgstr "最小協定："
+
+#~ msgid "Limits"
+#~ msgstr "限制"
+
+#~ msgid "Ma&x mux:"
+#~ msgstr "最大 mux(&X)："
+
+#~ msgid "Max tt&l:"
+#~ msgstr "最大 TTL(&L)："
+
+#~ msgid "Listening SMB Ports"
+#~ msgstr "監聽 SMB 連接埠"
+
+#~ msgid "SMB ports:"
+#~ msgstr "SMB 連接埠："
+
+#~ msgid "Browsing"
+#~ msgstr "瀏覽"
+
+#~ msgid "LM i&nterval:"
+#~ msgstr "LM 間隔(&N)："
+
+#~ msgid "L&M announce:"
+#~ msgstr "LM 宣告(&M)："
+
+#~ msgid "Sec"
+#~ msgstr "秒"
+
+#~ msgid "Remote browse s&ync:"
+#~ msgstr "遠端同步瀏覽(&Y)："
+
+#~ msgid "Bro&wse list"
+#~ msgstr "瀏覽清單(&W)"
+
+#~ msgid "Enhanced browsin&g"
+#~ msgstr "加強瀏覽(&G)"
+
+#~ msgid "Pre&load:"
+#~ msgstr "預先載入(&L)："
+
+#~ msgid "Winbind"
+#~ msgstr "Winbind"
+
+#~ msgid "&Winbind/Idmap UID:"
+#~ msgstr "Winbind/Idmap UID(&W)："
+
+#~ msgid "Winbind/Idmap &GID:"
+#~ msgstr "Winbind/Idmap GID(&G)："
+
+#~ msgid "Template h&omedir:"
+#~ msgstr "樣本目錄(&O)："
+
+#~ msgid "Temp&late shell:"
+#~ msgstr "樣本文稿(&L)："
+
+#~ msgid "Winbind separator:"
+#~ msgstr "Winbind 分隔器："
+
+#~ msgid "Template primary group:"
+#~ msgstr "樣本主要群組："
+
+#~ msgid "Winbind cache ti&me:"
+#~ msgstr "Winbind 快取時間(&M)："
+
+#~ msgid "Windows NT 4"
+#~ msgstr "Windows NT 4"
+
+#~ msgid "Windows 2000"
+#~ msgstr "Windows 2000"
+
+#~ msgid "Acl compatibilit&y:"
+#~ msgstr "ACL 相容性(&Y)："
+
+#~ msgid "Wi&nbind enum users"
+#~ msgstr "Winbind enum 使用者(&N)"
+
+#~ msgid "Winbind enum groups"
+#~ msgstr "Winbind enum 群組"
+
+#~ msgid "Winbind use default domain"
+#~ msgstr "Winbind 使用預設網域"
+
+#~ msgid "Winbind enable local accounts"
+#~ msgstr "Winbind 開啟本地端帳號"
+
+#~ msgid "Winbind trusted domains only"
+#~ msgstr "只對 Winbind 信任網域"
+
+#~ msgid "Winbind nested groups"
+#~ msgstr "Winbind 巢狀群組"
+
+#~ msgid "NetBIOS"
+#~ msgstr "NetBIOS"
+
+#~ msgid "NetBIOS sc&ope:"
+#~ msgstr "NetBIOS 範圍(&O)："
+
+#~ msgid "&NetBIOS aliases:"
+#~ msgstr "NetBIOS 別名(&N)："
+
+#~ msgid "Disab&le netbios"
+#~ msgstr "關閉 netbios(&L)"
+
+#~ msgid "Na&me resolve order:"
+#~ msgstr "名稱反解順序(&M)："
+
+#~ msgid "lmhosts host wins bcast"
+#~ msgstr "lmhosts host wins bcast"
+
+#~ msgid "VFS"
+#~ msgstr "VFS"
+
+#~ msgid "H&ost msdfs"
+#~ msgstr "主機 msdfs (&O)"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "LDAP suffi&x:"
+#~ msgstr "LDAP 後置(&X)："
+
+#~ msgid "LDAP machine suffix:"
+#~ msgstr "LDAP 機器後置："
+
+#~ msgid "LDAP user suffix:"
+#~ msgstr "LDAP 使用者後置："
+
+#~ msgid "LDAP &group suffix:"
+#~ msgstr "LDAP 群組後置(&G)："
+
+#~ msgid "LDAP idmap suffix:"
+#~ msgstr "LDAP idmap 後置："
+
+#~ msgid "LDAP filter:"
+#~ msgstr "LDAP 過濾器："
+
+#~ msgid "LDAP ad&min dn:"
+#~ msgstr "LDAP 管理 dn："
+
+#~ msgid "Idmap bac&kend:"
+#~ msgstr "Idmap 後端介面(&K)："
+
+#~ msgid "LDAP replication sleep:"
+#~ msgstr "LDAP 回應睡眠(replication sleep)："
+
+#~ msgid "&LDAP ssl:"
+#~ msgstr "LDAP SSL(&L)："
+
+#~ msgid "Off"
+#~ msgstr "關"
+
+#~ msgid "Start_tls"
+#~ msgstr "Start_tls"
+
+#~ msgid "On"
+#~ msgstr "開"
+
+#~ msgid "LDAP s&ync:"
+#~ msgstr "LDAP 同步(&Y)："
+
+#~ msgid "Only"
+#~ msgstr "只"
+
+#~ msgid "LDAP delete d&n"
+#~ msgstr "LDAP 刪除 dn(&N)"
+
+#~ msgid "Add share c&ommand:"
+#~ msgstr "新增分享命令(&O)："
+
+#~ msgid "Change share command:"
+#~ msgstr "變更分享命令："
+
+#~ msgid "De&lete share command:"
+#~ msgstr "刪除分享命令(&L)："
+
+#~ msgid "Messa&ge command:"
+#~ msgstr "訊息命令(&G)："
+
+#~ msgid "Dfree co&mmand:"
+#~ msgstr "Dfree 命令(&M)："
+
+#~ msgid "Set &quota command:"
+#~ msgstr "設定配額(quota)命令(&Q)："
+
+#~ msgid "Get quota command:"
+#~ msgstr "取得配額(quota)命令："
+
+#~ msgid "Pa&nic action:"
+#~ msgstr "Panic 動作(&N)："
+
+#~ msgid "Misc"
+#~ msgstr "其他"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "雜項"
+
+#~ msgid "Hide &local users"
+#~ msgstr "隱藏本地端使用者(&L)"
+
+#~ msgid "Default service:"
+#~ msgstr "預設服務："
+
+#~ msgid "Time &offset:"
+#~ msgstr "時間位移(&O)："
+
+#~ msgctxt "minurtes"
+#~ msgid "Min"
+#~ msgstr "分"
+
+#~ msgid "Remote a&nnounce:"
+#~ msgstr "遠端宣告(&N)："
+
+#~ msgid "Source environment:"
+#~ msgstr "來源環境："
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "NIS homedir"
+#~ msgstr "NIS 家目錄"
+
+#~ msgid "Homedir map:"
+#~ msgstr "家目錄映射："
+
+#~ msgid "UTMP"
+#~ msgstr "UTMP"
+
+#~ msgid "Utmp director&y:"
+#~ msgstr "UTMP 目錄(&Y)："
+
+#~ msgid "&Wtmp directory:"
+#~ msgstr "WTMP 目錄(&W)"
+
+#~ msgid "Ut&mp"
+#~ msgstr "UTMP(&M)"
+
+#~ msgid "Debug"
+#~ msgstr "除錯"
+
+#~ msgid "&NT status support"
+#~ msgstr "NT 狀態支援(&N)"
+
+#~ msgid "NT S&MB support"
+#~ msgstr "NT SMB 支援(&M)"
+
+#~ msgid "NT pipe supp&ort"
+#~ msgstr "NT 管道支援(&O)"
+
+#~ msgid "Add/Edit Share"
+#~ msgstr "新增/編輯分享"
+
+#~ msgid "Pixmap"
+#~ msgstr "圖案"
+
+#~ msgid "D&irectory"
+#~ msgstr "目錄(&I)"
+
+#~ msgid "&Path:"
+#~ msgstr "路徑(&P)："
+
+#~ msgid "Share all home &directories"
+#~ msgstr "分享所有的家目錄(&D)"
+
+#~ msgid "Iden&tifier"
+#~ msgstr "識別(&T)"
+
+#~ msgid "Na&me:"
+#~ msgstr "名稱(&M)："
+
+#~ msgid "Comme&nt:"
+#~ msgstr "註解(&N)："
+
+#~ msgid "Main P&roperties"
+#~ msgstr "主要內容(&R)"
+
+#~ msgid "Read onl&y"
+#~ msgstr "唯讀(&Y)"
+
+#~ msgid "Pub&lic"
+#~ msgstr "公開(&L)"
+
+#~ msgid "Bro&wseable"
+#~ msgstr "可瀏覽(&W)"
+
+#~ msgid "A&vailable"
+#~ msgstr "可使用(&V)"
+
+#~ msgid "&Security"
+#~ msgstr "安全性(&S)"
+
+#~ msgid "Gu&ests"
+#~ msgstr "訪客(&E)"
+
+#~ msgid ""
+#~ "This is a username which will be used for access to services which are "
+#~ "specified as guest ok. Whatever privileges this user has will be "
+#~ "available to any client connecting to the guest service. Typically this "
+#~ "user will exist in the password file, but will not have a valid login. "
+#~ "The user account \\\"ftp\\\" is often a good choice for this parameter. "
+#~ "If a username is specified in a given service, the specified username "
+#~ "overrides this one."
+#~ msgstr ""
+#~ "這個使用者名稱是用於允許讓訪客帳號存取的服務。通常這個使用者會存在於密碼檔"
+#~ "中，但是不能登入。例如 ftp 就是常用的訪客帳號。如果服務中有特別指定使用者"
+#~ "名稱，則會覆蓋此設定。"
+
+#~ msgid "&Guest account:"
+#~ msgstr "訪客帳號(&G)："
+
+#~ msgid ""
+#~ "If this is checked , then no password is required to connect to the "
+#~ "service. Privileges will be those of the guest account."
+#~ msgstr ""
+#~ "勾選此選項的話，則連接到此服務時不需要密碼，並使用訪客帳號的權限設定。"
+
+#~ msgid "Only allow guest connect&ions"
+#~ msgstr "只允許訪客連線(&I)"
+
+#~ msgid "Hos&ts"
+#~ msgstr "主機(&T)"
+
+#~ msgid ""
+#~ "The opposite of hosts allow - hosts listed here are NOT permitted access "
+#~ "to services unless the specific services have their own lists to override "
+#~ "this one. Where the lists conflict, the allow list takes precedence."
+#~ msgstr ""
+#~ "跟允許的主機相反─列在這裡的主機是不被允許存取此服務的，除非個別的服務有它"
+#~ "們自己的設定檔，會覆蓋此檔的設定。當允許與拒絕的主機清單設定中有相衝突時，"
+#~ "會優先以「允許的主機」為主。"
+
+#~ msgid ""
+#~ "This parameter is a comma, space, or tab delimited set of hosts which are "
+#~ "permitted to access a service."
+#~ msgstr ""
+#~ "這個參數是允許存取此服務的主機清單。多個主機之間由逗號、空白或 tab 隔開。"
+
+#~ msgid "Hosts allo&w:"
+#~ msgstr "允許的主機(&W)："
+
+#~ msgid "Hosts &deny:"
+#~ msgstr "拒絕的主機(&D)："
+
+#~ msgid "Sy&mbolic Links"
+#~ msgstr "符號連結(&M)"
+
+#~ msgid "Allow following of symbolic lin&ks"
+#~ msgstr "允許使用符號連結(&K)"
+
+#~ msgid ""
+#~ "Allow following of symbolic links that &point to areas outside the "
+#~ "directory tree"
+#~ msgstr "允許使用指到目錄以外的地點的符號連結(&P)"
+
+#~ msgid ""
+#~ "<qt>Validate password against the following usernames if the client "
+#~ "cannot supply a username:</qt>"
+#~ msgstr "<qt>若客戶端未提供使用者名稱，則驗證以下使用者的密碼：</qt>"
+
+#~ msgid ""
+#~ "Only allow connections with use&rnames specified in this username list"
+#~ msgstr "只允許在此使用者清單中的使用者連線(&R)"
+
+#~ msgid "Hidden &Files"
+#~ msgstr "隱藏檔案(&F)"
+
+#~ msgid "Hidden"
+#~ msgstr "隱藏"
+
+#~ msgid "Veto"
+#~ msgstr "Veto"
+
+#~ msgid "Veto Oplock"
+#~ msgstr "Veto Oplock"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Permissions"
+#~ msgstr "權限"
+
+#~ msgid "Owner"
+#~ msgstr "擁有者"
+
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgid "Se&lected Files"
+#~ msgstr "已選取檔案(&L)"
+
+#~ msgid "Hi&de"
+#~ msgstr "隱藏(&D)"
+
+#~ msgid "&Veto"
+#~ msgstr "Veto(&V)"
+
+#~ msgid "Veto oploc&k"
+#~ msgstr "Veto oplock(&K)"
+
+#~ msgid "&Manual Configuration"
+#~ msgstr "手動組態設定(&M)"
+
+#~ msgid "Ve&to files:"
+#~ msgstr "Veto 檔案(&T)："
+
+#~ msgid "Veto oplock f&iles:"
+#~ msgstr "Veto oplock 檔案(&I)："
+
+#~ msgid "Hidde&n files:"
+#~ msgstr "隱藏檔案(&N)："
+
+#~ msgid "Hide un&writable files"
+#~ msgstr "隱藏無法寫入的檔案(&W)"
+
+#~ msgid "Hide s&pecial files"
+#~ msgstr "隱藏指定的檔案(&P)"
+
+#~ msgid "Hide files startin&g with a dot "
+#~ msgstr "隱藏以點開頭的檔案(&G)"
+
+#~ msgid "Hide un&readable files"
+#~ msgstr "隱藏無法讀取的檔案(&R)"
+
+#~ msgid "&Advanced"
+#~ msgstr "進階(&A)"
+
+#~ msgid "Force Modes"
+#~ msgstr "強制模式"
+
+#~ msgid "Forc&e directory security mode:"
+#~ msgstr "強制目錄安全模式(&E)"
+
+#~ msgid "Fo&rce security mode:"
+#~ msgstr "強制安全模式(&R)："
+
+#~ msgid "Force director&y mode:"
+#~ msgstr "強制目錄模式(&Y)："
+
+#~ msgid "Force create mo&de:"
+#~ msgstr "強制建立模式(&D)："
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "01234567"
+#~ msgstr "01234567"
+
+#~ msgid "Masks"
+#~ msgstr "遮罩"
+
+#~ msgid "Directory security mask:"
+#~ msgstr "目錄安全性遮罩："
+
+#~ msgid "Security &mask:"
+#~ msgstr "安全性遮罩(&M)："
+
+#~ msgid "Direc&tory mask:"
+#~ msgstr "目錄遮罩(&T)："
+
+#~ msgid "Create mas&k:"
+#~ msgstr "建立遮罩(&K)："
+
+#~ msgid "ACL"
+#~ msgstr "存取控制清單"
+
+#~ msgid "&Profile acls"
+#~ msgstr "設定檔存取控制清單(&P)"
+
+#~ msgid "Inherit ac&ls"
+#~ msgstr "繼承存取控制清單(&L)"
+
+#~ msgid "&NT ACL support"
+#~ msgstr "NT 存取控制清單支援(&N)"
+
+#~ msgid "Force unkno&wn acl user:"
+#~ msgstr "強制未知的存取控制清單使用者(&W)："
+
+#~ msgid "Map acl &inherit"
+#~ msgstr "映射存取控制清單繼承(&I)："
+
+#~ msgid "Inherit permissions from parent directory"
+#~ msgstr "由父目錄繼承權限"
+
+#~ msgid "Allow deletion of readonly files"
+#~ msgstr "允許刪除唯讀檔案"
+
+#~ msgid "DOS Attribute Mapping"
+#~ msgstr "DOS 屬性映射"
+
+#~ msgid "Map DOS archi&ve to UNIX owner execute"
+#~ msgstr ""
+#~ "將 DOS 「收集」(Archive)檔案屬性映設到 UNIX 擁有者執行(execute)屬性(&V)"
+
+#~ msgid "Map DOS hidden to UNI&X world execute"
+#~ msgstr "將 DOS 「隱藏」檔案屬性映射到 UNIX 執行(world execute) 屬性"
+
+#~ msgid "Map DOS system to UNIX &group execute"
+#~ msgstr "將 DOS 「系統」檔案屬性映設到 UNIX 群組執行(group execute) 屬性"
+
+#~ msgid "Store DOS attributes onto extended attribute"
+#~ msgstr "儲存 DOS 檔案屬性為延伸屬性"
+
+#~ msgid "OS/2"
+#~ msgstr "OS/2"
+
+#~ msgid "OS/2 style extended attributes support"
+#~ msgstr "OS/2 風格延伸屬性支援"
+
+#~ msgid "Strict s&ync"
+#~ msgstr "嚴格同步(&Y)"
+
+#~ msgid "Sync al&ways"
+#~ msgstr "總是同步更新(&W)"
+
+#~ msgid "St&rict allocate"
+#~ msgstr "嚴格配置(&R)"
+
+#~ msgid "Use sen&dfile"
+#~ msgstr "使用 sendfile(&D)"
+
+#~ msgid "&Maximum number of simultaneous connections:"
+#~ msgstr "最大同時連線數(&M)："
+
+#~ msgid "Write cache si&ze:"
+#~ msgstr "寫入快取大小(&Z)："
+
+#~ msgid "bytes"
+#~ msgstr "位元組"
+
+#~ msgid "Bloc&k size:"
+#~ msgstr "區塊大小(&K)："
+
+#~ msgid "Client-side cachin&g policy:"
+#~ msgstr "客戶端快取政策(&G)："
+
+#~ msgid "manual"
+#~ msgstr "手冊"
+
+#~ msgid "documents"
+#~ msgstr "文件"
+
+#~ msgid "programs"
+#~ msgstr "程式"
+
+#~ msgid "disable"
+#~ msgstr "關閉"
+
+#~ msgid "Name Mangling"
+#~ msgstr "名稱拆解(Name Mangling)"
+
+#~ msgid "Enable na&me mangling"
+#~ msgstr "開啟名稱拆解(Name Mangling)(&M)"
+
+#~ msgid "Man&gle case"
+#~ msgstr "拆解大小寫(&G)"
+
+#~ msgid "Preser&ve case"
+#~ msgstr "保留大小寫(&V)"
+
+#~ msgid "Short pr&eserve case"
+#~ msgstr "短保留大小寫(&E)"
+
+#~ msgid "Case sensi&tive"
+#~ msgstr "區分大小寫(&T)"
+
+#~ msgid "Defau&lt case:"
+#~ msgstr "預設大小寫(&L)："
+
+#~ msgid "Lower"
+#~ msgstr "小寫"
+
+#~ msgid "Upper"
+#~ msgstr "大寫"
+
+#~ msgid "Mangling cha&r:"
+#~ msgstr "拆解字元(&R)："
+
+#~ msgid "Mangled ma&p:"
+#~ msgstr "拆解映射(&P)："
+
+#~ msgid "Mangling method:"
+#~ msgstr "拆解方法："
+
+#~ msgid "hash"
+#~ msgstr "雜湊(hash)"
+
+#~ msgid "hash2"
+#~ msgstr "雜湊(hash2)"
+
+#~ msgid "Other Options"
+#~ msgstr "其他選項"
+
+#~ msgid "Hide traili&ng dot"
+#~ msgstr "隱藏尾端的點(&N)"
+
+#~ msgid "DOS"
+#~ msgstr "DOS"
+
+#~ msgid "&DOS file mode"
+#~ msgstr "DOS 檔案模式(&D)"
+
+#~ msgid "DOS f&ile times"
+#~ msgstr "DOS 檔案時間(&I)"
+
+#~ msgid "DOS file time resolution"
+#~ msgstr "DOS 檔案時間反解"
+
+#~ msgid "Enable lock&ing"
+#~ msgstr "開啟鎖定(&I)"
+
+#~ msgid "Locki&ng"
+#~ msgstr "鎖定(&N)"
+
+#~ msgid "S&trict locking"
+#~ msgstr "嚴格鎖定(&T)"
+
+#~ msgid "Blockin&g locks"
+#~ msgstr "凍結(Blocking)鎖定(&G)"
+
+#~ msgid "Posi&x locking"
+#~ msgstr "Posix 鎖定(&X)"
+
+#~ msgid "Share mo&des"
+#~ msgstr "分享模式(&D)"
+
+#~ msgid "Issue oppo&rtunistic locks (oplocks) "
+#~ msgstr "產生 oplock(&R)"
+
+#~ msgid "O&plocks"
+#~ msgstr "Oplock(&P)"
+
+#~ msgid "Le&vel2 oplocks"
+#~ msgstr "等級 2 oplock(&V)"
+
+#~ msgid "Oplock contention li&mit:"
+#~ msgstr "Oplock 競爭限制(&M)："
+
+#~ msgid "Fak&e oplocks"
+#~ msgstr "假的 opclock(&E)"
+
+#~ msgid "Vfs ob&jects:"
+#~ msgstr "Vfs 物件(&J)："
+
+#~ msgid "Vfs o&ptions:"
+#~ msgstr "Vfs 選項(&P)："
+
+#~ msgid "Exec"
+#~ msgstr "執行"
+
+#~ msgid "P&reexec:"
+#~ msgstr "Preexec(&R)："
+
+#~ msgid "Root pr&eexec:"
+#~ msgstr "Root preexec(&E)："
+
+#~ msgid "Pos&texec:"
+#~ msgstr "Postexec(&T)："
+
+#~ msgid "Root &postexec:"
+#~ msgstr "Root postexec(&P)："
+
+#~ msgid "preexec c&lose"
+#~ msgstr "preexec close(&L)"
+
+#~ msgid "root pree&xec close"
+#~ msgstr "root preexec close(&X)"
+
+#~ msgid "&Volume:"
+#~ msgstr "容量(&V)："
+
+#~ msgid "Fst&ype:"
+#~ msgstr "Fstype(&Y)："
+
+#~ msgid "Ma&gic script:"
+#~ msgstr "魔術文稿(&G)："
+
+#~ msgid "Mag&ic output:"
+#~ msgstr "魔術輸出(&I)："
+
+#~ msgid "Do &not descend:"
+#~ msgstr "不要遞減(&N)："
+
+#~ msgid "Msdfs pro&xy"
+#~ msgstr "Msdfs 代理伺服器(&X)"
+
+#~ msgid "Setdir command allo&wed"
+#~ msgstr "允許 Setdir 命令(&W)"
+
+#~ msgid "Fa&ke directory create times"
+#~ msgstr "假目錄建立時間(&K)"
+
+#~ msgid "Ms&dfs root"
+#~ msgstr "Msdfs root(&D)"
+
+#~ msgid "&Help"
+#~ msgstr "說明(&H)"
+
+#~ msgid "F1"
+#~ msgstr "F1"
+
+#~ msgid "Users"
+#~ msgstr "使用者"
+
+#~ msgid "All U&nspecified Users"
+#~ msgstr "所有未指定的使用者(&N)"
+
+#~ msgid "Allow"
+#~ msgstr "允許"
+
+#~ msgid "Reject"
+#~ msgstr "拒絕"
+
+#~ msgid "Spec&ified Users"
+#~ msgstr "指定的使用者(&I)"
+
+#~ msgid "Access Rights"
+#~ msgstr "存取權限"
+
+#~ msgid "A&dd User..."
+#~ msgstr "新增使用者...(&D)"
+
+#~ msgid "E&xpert"
+#~ msgstr "專家(&X)"
+
+#~ msgid "Add &Group..."
+#~ msgstr "新增群組...(&G)"
+
+#~ msgid "Remo&ve Selected"
+#~ msgstr "移除已選取的(&V)"
+
+#~ msgid "All Users Should be Forced to the Follo&wing User/Group"
+#~ msgstr "所有的使用者都強制使用以下的使用者/群組(&W)"
+
+#~ msgid "Forc&e user:"
+#~ msgstr "強制使用者(&E)："
+
+#~ msgid "Fo&rce group:"
+#~ msgstr "強制群組(&R)："
+
+#~ msgid "Access Modifiers"
+#~ msgstr "存取旗標"
+
+#~ msgid "Access Permissions"
+#~ msgstr "存取權限"
+
+#~ msgid "Others"
+#~ msgstr "其他"
+
+#~ msgid "Read"
+#~ msgstr "讀取"
+
+#~ msgid "Write"
+#~ msgstr "寫入"
+
+#~ msgid "Sticky"
+#~ msgstr "黏附(Sticky)"
+
+#~ msgid "Set GID"
+#~ msgstr "SGID"
+
+#~ msgid "Set UID"
+#~ msgstr "SUID"
+
+#~ msgid "Special"
+#~ msgstr "特殊屬性"
+
+#~ msgid "SO_SNDLOWAT:"
+#~ msgstr "SO_SNDLOWAT："
+
+#~ msgid "IPTOS_THROUGHPUT"
+#~ msgstr "IPTOS_THROUGHPUT"
+
+#~ msgid "SO_SNDBUF:"
+#~ msgstr "SO_SNDBUF："
+
+#~ msgid "SO_KEEPALIVE"
+#~ msgstr "SO_KEEPALIVE"
+
+#~ msgid "TCP_NODELAY"
+#~ msgstr "TCP_NODELAY"
+
+#~ msgid "SO_RCVLOWAT:"
+#~ msgstr "SO_RCVLOWAT："
+
+#~ msgid "SO_REUSEADDR"
+#~ msgstr "SO_REUSEADDR"
+
+#~ msgid "User Settings"
+#~ msgstr "使用者設定"
+
+#~ msgid "&Valid users:"
+#~ msgstr "合法使用者(&V)："
+
+#~ msgid "&Admin users:"
+#~ msgstr "管理者(&A)："
+
+#~ msgid "&Invalid users:"
+#~ msgstr "不合法使用者(&I)："
+
+#~ msgid "&Write list:"
+#~ msgstr "寫入清單(&W)："
+
+#~ msgid "&Read list:"
+#~ msgstr "讀取清單(&R)："
+
+#~ msgid "Allowed &Hosts"
+#~ msgstr "允許主機(&H)"
+
+#~ msgid "A list of allowed hosts"
+#~ msgstr "允許主機清單"
+
+#~ msgid ""
+#~ "Here you can see a list of hosts which are allowed to access this "
+#~ "directory via NFS.\n"
+#~ "The first column shows the name or address of the host, the second column "
+#~ "shows the access parameters. The name '*' donates public access."
+#~ msgstr ""
+#~ "您可以看到允許透過 NFS 存取此目錄的主機清單。\n"
+#~ "第一個欄位顯示主機的名稱或位址，第二個欄位顯示存取的參數。名稱為 * 的表示"
+#~ "公開存取。"
+
+#~ msgid "&Add Host..."
+#~ msgstr "新增主機...(&A)"
+
+#~ msgid "Mo&dify Host..."
+#~ msgstr "修改主機...(&D)"
+
+#~ msgid "&Remove Host"
+#~ msgstr "移除主機(&R)"
+
+#~ msgid "Name/Address"
+#~ msgstr "名稱/位址"
+
+#~ msgid "Parameters"
+#~ msgstr "參數"
+
+#~ msgid "Host Properties"
+#~ msgstr "主機內容"
+
+#~ msgid "&Name/address:"
+#~ msgstr "名稱/位址(&N)："
+
+#~ msgid ""
+#~ "<b>Name / Address field</b>\n"
+#~ "<p>\n"
+#~ "Here you can enter the host name or address.<br>\n"
+#~ "The host may be specified in a number of ways:\n"
+#~ "<p>\n"
+#~ "<i>single host</i>\n"
+#~ "<p>\n"
+#~ " This is the most common format. You may specify a host either by an "
+#~ "abbreviated name recognized by the resolver, the fully qualified domain "
+#~ "name, or an IP address.\n"
+#~ "</p>\n"
+#~ "\n"
+#~ "<i>netgroups</i>\n"
+#~ "<p>\n"
+#~ " NIS netgroups may be given as @group. Only the host part of each "
+#~ "netgroup members is consider in checking for membership. Empty host parts "
+#~ "or those containing a single dash (-) are ignored.\n"
+#~ "</p>\n"
+#~ "\n"
+#~ "<i>wildcards</i>\n"
+#~ "<p>\n"
+#~ " Machine names may contain the wildcard characters * and ?. This can be "
+#~ "used to make the exports file more compact; for instance, *.cs.foo.edu "
+#~ "matches all hosts in the domain cs.foo.edu. However, these wildcard "
+#~ "characters do not match the dots in a domain name, so the above pattern "
+#~ "does not include hosts such as a.b.cs.foo.edu.\n"
+#~ "</p>\n"
+#~ "\n"
+#~ "<i>IP networks</i>\n"
+#~ "<p>\n"
+#~ " You can also export directories to all hosts on an IP (sub-) network "
+#~ "simultaneously. This is done by specifying an IP address and netmask pair "
+#~ "as address/netmask where the netmask can be specified in dotted-decimal "
+#~ "format, or as a contiguous mask length (for example, either "
+#~ "`/255.255.252.0' or `/22' appended to the network base address result in "
+#~ "identical subnetworks with 10 bits of host).\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>名稱/位址欄位</b>\n"
+#~ "<p>您可以在此輸入主機的名稱或位址。<br>\n"
+#~ "主機可以用下列的方式來指定：\n"
+#~ "<p>\n"
+#~ "<i>單一主機</i>\n"
+#~ "<p>\n"
+#~ "最常用的格式。您可以直接指定一台主機，輸入它可被辨識的名稱，完整的網址，或"
+#~ "是 IP 位址。</p>\n"
+#~ "\n"
+#~ "<i>網路群組</i>\n"
+#~ "<p>\n"
+#~ "您可以用 @group 的格式輸入 NIS 的網路群組。在檢查成員時只會考慮主機名稱的"
+#~ "部份。空的主機名稱或包含符號 - 的名稱會被忽略。</p>\n"
+#~ "\n"
+#~ "<i>萬用字元</i>\n"
+#~ "<p>\n"
+#~ "主機名稱可以使用萬用字元 * 與 ?。這可以讓 exports 檔更簡潔，例如，*.cs."
+#~ "foo.edu 代表所有網域為 cs.foo.edu 的主機。然而，萬用字元不會對應到網域名稱"
+#~ "中的點，因此 *.cs.foo.edu 不會對應到 a.b.cs.foo.edu。</p>\n"
+#~ "\n"
+#~ "<i>IP 網段</i>\n"
+#~ "<p>\n"
+#~ "您也可以將目錄分享給所有與自己 IP 位址同網段的主機。您可以用指定 IP 位址與"
+#~ "網路遮罩 (IP/Netmask) 的方式來指定網段。網路遮罩可以用像 /255.255.252.0 的"
+#~ "方式指定，或是直接指定遮罩位元 /22。</p>"
+
+#~ msgid "&Public access"
+#~ msgstr "公開存取(&P)"
+
+#~ msgid ""
+#~ "<b>Public access</b>\n"
+#~ "<p>\n"
+#~ "If you check this, the host address will be a single wildcard , which "
+#~ "means public access.\n"
+#~ "This is just the same as if you would enter a wildcard in the address "
+#~ "field.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>公開存取</b>\n"
+#~ "<p>勾選此選項，則主機位址欄位會輸入一個 *，表示開放所有人存取。\n"
+#~ "這跟您自己在主機欄位輸入一個 * 是一樣的。</p>"
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "&Writable"
+#~ msgstr "可寫入(&W)"
+
+#~ msgid ""
+#~ "<b>Writable</b>\n"
+#~ "<p>\n"
+#~ "Allow both read and write requests on this NFS volume.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "The default is to disallow any request which changes the filesystem\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>可寫入</b>\n"
+#~ "<p>允許對此 NFS 目錄讀取與寫入。</p>\n"
+#~ "<p>預設是禁止任何會改變檔案系統的要求。</p>"
+
+#~ msgid "&Insecure"
+#~ msgstr "不安全的(&I)"
+
+#~ msgid ""
+#~ "<b>Insecure</b>\n"
+#~ "<p>\n"
+#~ "If this option is checked, it is not required that requests originate on "
+#~ "an internet port less than IPPORT_RESERVED (1024).\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "If unsure leave it unchecked.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>不安全的</b>\n"
+#~ "<p>勾選此選項的話，就不需要要求在連接埠 1024 以內發出要求。</p>\n"
+#~ "<p>如果您不確定這是什麼，請不要勾選它。</p>"
+
+#~ msgid "&Sync"
+#~ msgstr "同步(&S)"
+
+#~ msgid ""
+#~ "<b>Sync</b>\n"
+#~ "<p>\n"
+#~ "This option requests that all file writes be committed to disk before the "
+#~ "write request completes. This is required for complete safety of data in "
+#~ "the face of a server crash, but incurs a performance hit.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "The default is to allow the server to write the data out whenever it is "
+#~ "ready.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>同步</b>\n"
+#~ "<p>這個選項會要求所有檔案在寫入動作完成之前確保資料已寫入磁碟中。這可以確"
+#~ "保資料不會因為當機而不完整或損毀，但是要犧牲效能。</p>\n"
+#~ "<p>預設為允許伺服器在就緒時才將資料寫入。</p>"
+
+#~ msgid "No w&delay"
+#~ msgstr "沒有寫入延遲 (wdelay)(&D)"
+
+#~ msgid ""
+#~ "<b>No wdelay</b>\n"
+#~ "<p>\n"
+#~ "This option only has effect if sync is also set. The NFS server will "
+#~ "normally delay committing a write request to disk slightly if it suspects "
+#~ "that another related write request may be in progress or may arrive soon. "
+#~ "This allows multiple write requests to be committed to disk with the one "
+#~ "operation which can improve performance. If an NFS server received mainly "
+#~ "small unrelated requests, this behavior could actually reduce "
+#~ "performance, so no wdelay is available to turn it off. </p>"
+#~ msgstr ""
+#~ "<b>沒有寫入延遲(wdelay)</b>\n"
+#~ "<p>這個選項只會在同步開啟時有作用。NFS 會自動在寫入磁碟時做一點延遲，以期"
+#~ "待很快地會有另一個寫入的要求。這可以讓多個寫入的要求併在一次寫入磁碟，以提"
+#~ "升效能。不過若是 NFS 伺服器主要會接受到多個不相關的要求，則此功能會造成效"
+#~ "能下降，此時就可以透過此選項將此延遲功能關閉。</p>"
+
+#~ msgid "No &hide"
+#~ msgstr "不隱藏(&H)"
+
+#~ msgid ""
+#~ "<b>No hide</b>\n"
+#~ "<p>\n"
+#~ "This option is based on the option of the same name provided in IRIX NFS. "
+#~ "Normally, if a server exports two filesystems one of which is mounted on "
+#~ "the other, then the client will have to mount both filesystems explicitly "
+#~ "to get access to them. If it just mounts the parent, it will see an empty "
+#~ "directory at the place where the other filesystem is mounted. That "
+#~ "filesystem is \"hidden\".\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "Setting the nohide option on a filesystem causes it not to be hidden, and "
+#~ "an appropriately authorized client will be able to move from the parent "
+#~ "to that filesystem without noticing the change.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "However, some NFS clients do not cope well with this situation as, for "
+#~ "instance, it is then possible for two files in the one apparent "
+#~ "filesystem to have the same inode number.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "The nohide option is currently only effective on single host exports. It "
+#~ "does not work reliably with netgroup, subnet, or wildcard exports.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "This option can be very useful in some situations, but it should be used "
+#~ "with due care, and only after confirming that the client system copes "
+#~ "with the situation effectively.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>不隱藏</b>\n"
+#~ "<p>\n"
+#~ "一般而言，如果一台伺服器分享了兩個檔案系統，其中一個掛載在另一個檔案系統之"
+#~ "下，則客戶端需要兩個作業系統都分別掛載，才能兩個作業系統都存取。如果它只掛"
+#~ "載父目錄的作業系統，則它在另一個作業系統應掛載的子目錄中只會看到一個空目"
+#~ "錄。此作業系統就是「被隱藏」了。</p>\n"
+#~ "<p> 設定此「不隱藏」選項能讓這種狀況下的子目錄不被隱藏，而客戶端可以很順利"
+#~ "地切換到子目錄的作業系統。</p>\n"
+#~ "<p> 然而，有些 NFS 客戶端程式在這方面做得不是很好，例如，有的時候有可能在"
+#~ "同一個系統下的兩個檔案會變成有相同的 inode 編號。</p>\n"
+#~ "<p> 此選項目前只對單一主機分享有作用。其他的如網路群組、網段、萬用字元等分"
+#~ "享都可能有問題。</p>\n"
+#~ "<p> 此選項在某些狀況下很有用，不過應該要小心使用，而且應該先確認客戶端系統"
+#~ "能好好處理這種狀況。</p>"
+
+#~ msgid "No su&btree check"
+#~ msgstr "不檢查子樹(&B)"
+
+#~ msgid ""
+#~ "<b>No subtree check</b>\n"
+#~ "<p>\n"
+#~ "This option disables subtree checking, which has mild security "
+#~ "implications, but can improve reliability is some circumstances.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "If a subdirectory of a filesystem is exported, but the whole filesystem "
+#~ "is not, then whenever a NFS request arrives, the server must check not "
+#~ "only that the accessed file is in the appropriate filesystem (which is "
+#~ "easy) but also that it is in the exported tree (which is harder). This "
+#~ "check is called the subtree_check.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "In order to perform this check, the server must include some information "
+#~ "about the location of the file in the \"filehandle\" that is given to the "
+#~ "client. This can cause problems with accessing files that are renamed "
+#~ "while a client has them open (though in many simple cases it will still "
+#~ "work).\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "subtree checking is also used to make sure that files inside directories "
+#~ "to which only root has access can only be accessed if the filesystem is "
+#~ "exported with no_root_squash (see below), even the file itself allows "
+#~ "more general access.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "As a general guide, a home directory filesystem, which is normally "
+#~ "exported at the root and may see lots of file renames, should be exported "
+#~ "with subtree checking disabled. A filesystem which is mostly read-only, "
+#~ "and at least does not see many file renames (e.g. /usr or /var) and for "
+#~ "which subdirectories may be exported, should probably be exported with "
+#~ "subtree checks enabled.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>不檢查子樹</b>\n"
+#~ "<p>此選項會關閉子樹檢查。這會有一點安全上的顧慮，不過在某些狀況下可以增加"
+#~ "穩定性。</p> <p>如果一個檔案系統的子目錄分享出來，但是整個作業系統並沒有，"
+#~ "則當 NFS 要求到達時，伺服器不只會檢查要存取的檔案是否在適當的作業系統中，"
+#~ "而且也會檢查它是否在分享出來的目錄樹中。這個檢查叫做子樹檢查"
+#~ "（subtree_check）。</p> <p>要做這樣的檢查，伺服器必須先引入一些關於此檔案"
+#~ "位址的資訊，這有可能在客戶端開了某個檔案，但伺服器上卻將此檔案重新命名時發"
+#~ "生問題。</p> <p>子樹檢查也用來確認只有 root 可存取目錄中的檔案，只在開啟 "
+#~ "no_root_squash 選項時才可以被存取，即使檔案本身有更寬鬆的權限設定。</p> "
+#~ "<p> 一般來說，像家目錄檔案系統，通常會在根目錄下分享，並且經常會出現檔案重"
+#~ "命名的動作，這時就應該關閉子樹檢查的選項。若是唯讀的檔案系統，或至少很少看"
+#~ "到有檔案重命名的動作，如 /usr 或 /var，則可以開啟此選項。</p>"
+
+#~ msgid "Insecure loc&ks"
+#~ msgstr "不安全鎖(&K)"
+
+#~ msgid ""
+#~ "<b>Insecure locks</b>\n"
+#~ "<p>\n"
+#~ "This option tells the NFS server not to require authentication of locking "
+#~ "requests (i.e. requests which use the NLM protocol). Normally the NFS "
+#~ "server will require a lock request to hold a credential for a user who "
+#~ "has read access to the file. With this flag no access checks will be "
+#~ "performed.\n"
+#~ "</p>\n"
+#~ "<p>\n"
+#~ "Early NFS client implementations did not send credentials with lock "
+#~ "requests, and many current NFS clients still exist which are based on the "
+#~ "old implementations. Use this flag if you find that you can only lock "
+#~ "files which are world readable.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>不安全鎖</b>\n"
+#~ "<p>這個選項告訴 NFS 伺服器在要求鎖定（使用 NLM 協定的要求）時不要認證。通"
+#~ "常 NFS 伺服器會要求鎖定時保存一個憑證以確認哪個使用者對該檔有讀取權限。設"
+#~ "定此選項則不會做這樣的檢查。</p>\n"
+#~ "<p>早期的 NFS 客戶端實作中，在要求鎖定時並不會送出憑證，而許多現在的 NFS "
+#~ "客戶端軟體仍然保存這樣的實作。若是您發現您只能鎖定所有人都可讀的檔案的話，"
+#~ "則請使用此選項。</p>"
+
+#~ msgid "User Mapping"
+#~ msgstr "使用者映射"
+
+#~ msgid "All s&quash"
+#~ msgstr "全部壓制(&Q)"
+
+#~ msgid ""
+#~ "<b>All squash</b>\n"
+#~ "<p>\n"
+#~ "Map all uids and gids to the anonymous user. Useful for NFS-exported "
+#~ "public FTP directories, news spool directories, etc. </p>"
+#~ msgstr ""
+#~ "<b>全部壓制</b>\n"
+#~ "<p>將所有的 uid 與 gid 壓制(squash) 成匿名使用者。通常對 NFS 分享的公開 "
+#~ "FTP 目錄等有用。</p>"
+
+#~ msgid "No &root squash"
+#~ msgstr "root 不壓制(&R)"
+
+#~ msgid ""
+#~ "<b>No root squash</b>\n"
+#~ "<p>\n"
+#~ "Turn of root squashing. This option is mainly useful for diskless "
+#~ "clients.\n"
+#~ "</p>\n"
+#~ "<i>root squashing</i>\n"
+#~ "<p>\n"
+#~ "Map requests from uid/gid 0 to the anonymous uid/gid. Note that this does "
+#~ "not apply to any other uids that might be equally sensitive, such as user "
+#~ "bin.\n"
+#~ "</p>"
+#~ msgstr ""
+#~ "<b>root 不壓制</b>\n"
+#~ "<p>將對 root 身份壓制功能 (root squashing) 關掉。通常對無磁碟的客戶端有"
+#~ "用。</p>\n"
+#~ "<i>壓制 root (root squashing)</i>\n"
+#~ "<p>將 uid/gid 0 的身份壓制成匿名使用者的 uid/gid。注意，這不會對其他任何"
+#~ "的 uid 發生作用，如 bin。</p>"
+
+#~ msgid "Anonym. &UID:"
+#~ msgstr "匿名使用者代號(&U)："
+
+#~ msgid ""
+#~ "<b>Anonym. UID/GID</b> <p> These options explicitly set the uid and gid "
+#~ "of the anonymous account. This option is primarily useful for PC/NFS "
+#~ "clients, where you might want all requests appear to be from one user. </"
+#~ "p>"
+#~ msgstr ""
+#~ "<b>匿名使用者代號/群組代號 (Anonymous UID/GID)</b> <p>這些選項額外設定匿名"
+#~ "使用者帳號的 UID 與 GID。通常對 PC/NFS 的客戶端軟體有用，因為您可能會讓所"
+#~ "有的要求都從同一個使用者發出。</p>"
+
+#~ msgid "FF"
+#~ msgstr "FF"
+
+#~ msgid "Anonym. &GID:"
+#~ msgstr "匿名使用者群組代號(&G)："
+
+#~ msgid "Folder:"
+#~ msgstr "資料夾："
+
+#~ msgid "S&hare this folder in the local network"
+#~ msgstr "在本地端網路分享此資料夾(&H)"
+
+#~ msgid "Share with &NFS (Linux/UNIX)"
+#~ msgstr "分享 NFS (Linux/UNIX) (&N)"
+
+#~ msgid "NFS Options"
+#~ msgstr "NFS 選項"
+
+#~ msgid "Pu&blic"
+#~ msgstr "公開(&B)"
+
+#~ msgid "W&ritable"
+#~ msgstr "可寫入(&R)"
+
+#~ msgid "More NFS Op&tions"
+#~ msgstr "更多 NFS 選項 (&T)"
+
+#~ msgid "Samba Options"
+#~ msgstr "Samba 選項"
+
+#~ msgid "P&ublic"
+#~ msgstr "公開(&U)"
+
+#~ msgid "Mor&e Samba Options"
+#~ msgstr "更多 Samba 選項(&E)"
+
+#~ msgid "Allow all users to share folders"
+#~ msgstr "允許所有使用者分享資料夾"
+
+#~ msgid "Only users of the '%1' group are allowed to share folders"
+#~ msgstr "只有群組為 %1 的使用者才能分享資料夾。"
+
+#~ msgid "Users of '%1' Group"
+#~ msgstr "群組為 %1 的使用者"
+
+#~ msgid "Remove User"
+#~ msgstr "移除使用者"
+
+#~ msgid "Add User"
+#~ msgstr "新增使用者"
+
+#~ msgid "Group members can share folders without root password"
+#~ msgstr "群組成員可以分享資料夾，不需要 root 密碼"
+
+#~ msgid "Change Group..."
+#~ msgstr "變更群組..."
+
+#~ msgid ""
+#~ "SMB and NFS servers are not installed on this machine, to enable this "
+#~ "module the servers must be installed."
+#~ msgstr ""
+#~ "SMB 與 NFS 伺服器未在此機器上安裝。要開啟此模組，必須先安裝該伺服器。"
+
+#~ msgid "Enable Local Networ&k File Sharing"
+#~ msgstr "開啟本地端網路檔案分享(&K)"
+
+#~ msgid "Si&mple sharing"
+#~ msgstr "簡單分享(&M)"
+
+#~ msgid ""
+#~ "Enable simple sharing to allow users to share folders from their HOME "
+#~ "folder, without knowing the root password."
+#~ msgstr "簡單分享能讓使用者分享他們的家目錄，不需要 root 密碼。"
+
+#~ msgid "Advanced sharin&g"
+#~ msgstr "進階分享(&G)"
+
+#~ msgid ""
+#~ "Enable advanced sharing to allow users to share any folders, as long as "
+#~ "they have write access to the needed configuration files, or they know "
+#~ "the root password."
+#~ msgstr ""
+#~ "進階分享能讓使用者分享任何資料夾，只要他們可以寫入相關的設定檔，或他們知"
+#~ "道 root 密碼。"
+
+#~ msgid "Use &NFS (Linux/UNIX)"
+#~ msgstr "使用 NFS (Linux/UNIX) (&N)"
+
+#~ msgid "Use Sam&ba (Microsoft(R) Windows(R))"
+#~ msgstr "使用 Samba (Microsoft(R) Windows(R)) (&B)"
+
+#~ msgid "Allo&wed Users"
+#~ msgstr "允許使用者(&W)"
+
+#~ msgid "Shared Folders"
+#~ msgstr "共享資料夾"
+
+#~ msgid "Samba"
+#~ msgstr "Samba"
+
+#~ msgid "NFS"
+#~ msgstr "NFS"
+
+#~ msgid "A&dd..."
+#~ msgstr "新增...(&D)"
+
+#~ msgid "Chang&e..."
+#~ msgstr "修改...(&E)"
+
+#~ msgid ""
+#~ "<p>The SAMBA configuration file <strong>'smb.conf'</strong> could not be "
+#~ "found;</p>make sure you have SAMBA installed.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "<p>找不到 Samba 設定檔 <strong>smb.conf</strong>。</p> <p>請確定您的 "
+#~ "Samba 有正確安裝。</p>\n"
+#~ "\n"
+
+#~ msgid "Specify Location"
+#~ msgstr "指定位置"
+
+#~ msgid ""
+#~ "smb.conf|Samba conf. File\n"
+#~ "*|All Files"
+#~ msgstr ""
+#~ "smb.conf|Samba 設定檔\n"
+#~ "*|所有檔案"
+
+#~ msgid "Get smb.conf Location"
+#~ msgstr "取的 smb.conf 位置"
+
+#~ msgid "<qt>The file <i>%1</i> could not be read.</qt>"
+#~ msgstr "<qt>無法讀取檔案 <i>%1</i>。</qt>"
+
+#~ msgid "Could Not Read File"
+#~ msgstr "無法讀取檔案"
+
+#~ msgid "Error while opening file"
+#~ msgstr "開啟檔案時發生錯誤"
+
+#~ msgid "Joining the domain %1 failed."
+#~ msgstr "加入網域 %1 時失敗。"
+
+#~ msgid "<qt>Please enter a password for the user <b>%1</b></qt>"
+#~ msgstr "<qt>請輸入使用者 <b>%1</b> 的密碼</qt>"
+
+#~ msgid ""
+#~ "<qt>Adding the user <b>%1</b> to the Samba user database failed.</qt>"
+#~ msgstr "<qt>新增使用者 <b>%1</b> 到 Samba 使用者資料庫時失敗。</qt>"
+
+#~ msgid "Removing the user %1 from the Samba user database failed."
+#~ msgstr "從 Samba 使用者資料庫中移除使用者 %1 時失敗。"
+
+#~ msgid "Please enter a password for the user %1"
+#~ msgstr "請輸入使用者 %1 的密碼"
+
+#~ msgid "Changing the password of the user %1 failed."
+#~ msgstr "改變使用者 %1 的密碼時失敗。"
+
+#~ msgid ""
+#~ "<h1>Samba Configuration</h1> here you can configure your SAMBA server."
+#~ msgstr "<h1>Samba 組態設定</h1>您可以在此設定您的 Samba 伺服器。"
+
+#~ msgid ""
+#~ "Use the <i>share</i> security level if you have a home network or a small "
+#~ "office network.<br /> It allows everyone to read the list of all your "
+#~ "shared directories and printers before a login is required."
+#~ msgstr ""
+#~ "若您是在家用網路中，或是小型的辦公室網路之中，則請使用<i>分享</i>安全性等"
+#~ "級。<br /> 這可以讓所有人不必登入就能讀到所有的分享資源名稱。"
+
+#~ msgid ""
+#~ "Use the <i>user</i> security level if you have a bigger network and you "
+#~ "do not want to allow everyone to read your list of shared directories and "
+#~ "printers without a login.<br /><br />If you want to run your Samba server "
+#~ "as a <b>Primary Domain controller</b> (PDC) you also have to set this "
+#~ "option."
+#~ msgstr ""
+#~ "若您在較大型網路中，或是不想讓所有人在未登入的情況下就能讀到您分享的目錄與"
+#~ "印表機，則請使用<i>使用者</i>安全性等級。<br /> <p>如果您要將您的 Samba 伺"
+#~ "服器設定為「主要網域控制者」(PDC)，您也必須選取此項。"
+
+#~ msgid ""
+#~ "Use the <i>server</i> security level if you have a big network and the "
+#~ "samba server should validate the username/password by passing it to "
+#~ "another SMB server, such as an NT box."
+#~ msgstr ""
+#~ "若您在大型網路中，Samba 伺服器要透過另一台 SMB 伺服器來驗證使用者與密碼，"
+#~ "則請使用<i>伺服器</i>安全性等級。"
+
+#~ msgid ""
+#~ "Use the <i>domain</i> security level if you have a big network and the "
+#~ "samba server should validate the username/password by passing it to a "
+#~ "Windows NT Primary or Backup Domain Controller."
+#~ msgstr ""
+#~ "若您在大型網路中，Samba 伺服器要透過一台 Windows NT 主要或備份網域控制者"
+#~ "(PDC 或 BDC)來驗證使用者與密碼，則請使用<i>網域</i>安全性等級。"
+
+#~ msgid ""
+#~ "Use the <i>ADS</i> security level if you have a big network and the samba "
+#~ "server should act as a domain member in an ADS realm."
+#~ msgstr ""
+#~ "若您在大型網路中，Samba 伺服器是做為 ADS realm 中的一個網域成員，則請使用"
+#~ "<i>ADS</i>安全性等級。"
+
+#~ msgid "Sorry"
+#~ msgstr "抱歉"
+
+#~ msgid "You entered two different passwords. Please try again."
+#~ msgstr "您輸入了兩個不同的密碼。請重新輸入。"
+
+#~ msgid "The option <em>%1</em> is not supported by your Samba version"
+#~ msgstr "您的 Samba 版本並未支援 <em>%1</em> 選項。"
+
+#~ msgid "Unnamed"
+#~ msgstr "未命名"
+
+#~ msgid "&Hide"
+#~ msgstr "隱藏(&H)"
+
+#~ msgid "&Veto Oplock"
+#~ msgstr "Veto Oplock(&V)"
+
+#~ msgid ""
+#~ "<qt>Some files you have selected are hidden because they start with a "
+#~ "dot; do you want to uncheck all files starting with a dot?</qt>"
+#~ msgstr ""
+#~ "<qt>您所選的一些檔案是隱藏檔，因為檔名以點開頭。您要取消選取這些檔案嗎？</"
+#~ "qt>"
+
+#~ msgid "Files Starting With Dot"
+#~ msgstr "檔名以點開頭"
+
+#~ msgid "Uncheck Hidden"
+#~ msgstr "取消選取隱藏檔"
+
+#~ msgid "Keep Hidden"
+#~ msgstr "保留隱藏檔"
+
+#~ msgid ""
+#~ "<b></b>Some files you have selected are matched by the wildcarded string "
+#~ "<b>'%1'</b>; do you want to uncheck all files matching <b>'%1'</b>?"
+#~ msgstr ""
+#~ "您所選的檔案有些符合外卡字串 %1。您要將所有符合 %1 的檔案取消選取嗎？"
+
+#~ msgid "Wildcarded String"
+#~ msgstr "外卡字串"
+
+#~ msgid "Uncheck Matches"
+#~ msgstr "取消選取"
+
+#~ msgid "Keep Selected"
+#~ msgstr "不要取消"
+
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgid "Writeable"
+#~ msgstr "可寫"
+
+#~ msgid "Admin"
+#~ msgstr "管理者"
+
+#~ msgid ""
+#~ "<qt>You have specified <b>public read access</b> for this directory, but "
+#~ "the guest account <b>%1</b> does not have the necessary read permissions;"
+#~ "<br />do you want to continue anyway?</qt>"
+#~ msgstr ""
+#~ "<qt>您已經指定此目錄<b>公開閱讀權限</b>，不過訪客帳號 <b>%1</b> 沒有需要的"
+#~ "閱讀權限。<br />您確定要繼續嗎？</qt>"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid ""
+#~ "<qt>You have specified <b>public write access</b> for this directory, but "
+#~ "the guest account <b>%1</b> does not have the necessary write permissions;"
+#~ "<br />do you want to continue anyway?</qt>"
+#~ msgstr ""
+#~ "<qt>您已經指定此目錄<b>公開寫入權限</b>，不過訪客帳號 <b>%1</b> 沒有需要的"
+#~ "寫入權限。<br />您確定要繼續嗎？</qt>"
+
+#~ msgid ""
+#~ "<qt>You have specified <b>write access</b> to the user <b>%1</b> for this "
+#~ "directory, but the user does not have the necessary write permissions;"
+#~ "<br />do you want to continue anyway?</qt>"
+#~ msgstr ""
+#~ "<qt>您已經指定此目錄的<b>寫入權限</b>給使用者 <b>%1</b>，不過他沒有需要的"
+#~ "寫入權限。<br />您確定要繼續嗎？</qt>"
+
+#~ msgid ""
+#~ "<qt>You have specified <b>read access</b> to the user <b>%1</b> for this "
+#~ "directory, but the user does not have the necessary read permissions;<br /"
+#~ ">do you want to continue anyway?</qt>"
+#~ msgstr ""
+#~ "<qt>您已經指定此目錄的<b>閱讀權限</b>給使用者 <b>%1</b>，不過他沒有需要的"
+#~ "閱讀權限。<br />您確定要繼續嗎？</qt>"
+
+#~ msgid "There already exists a public entry."
+#~ msgstr "已經有一個存在的項目了。"
+
+#~ msgid "Host Already Exists"
+#~ msgstr "主機已存在"
+
+#~ msgid "Please enter a hostname or an IP address."
+#~ msgstr "請輸入主機名稱或 IP 位址。"
+
+#~ msgid "No Hostname/IP-Address"
+#~ msgstr "沒有主機名稱或 IP 位址"
+
+#~ msgid "The host '%1' already exists."
+#~ msgstr "主機 %1 已存在。"
+
+#~ msgid "Reading Samba configuration file ..."
+#~ msgstr "讀取 Samba 設定檔..."
+
+#~ msgid "Reading NFS configuration file ..."
+#~ msgstr "讀取 NFS 設定檔..."
+
+#~ msgid "Please enter a valid path."
+#~ msgstr "請輸入合法路徑。"
+
+#~ msgid "Only local folders can be shared."
+#~ msgstr "只能分享本地端資料夾。"
+
+#~ msgid "The folder does not exists."
+#~ msgstr "資料夾不存在。"
+
+#~ msgid "Only folders can be shared."
+#~ msgstr "只能分享資料夾。"
+
+#~ msgid "The folder is already shared."
+#~ msgstr "資料夾已分享。"
+
+#~ msgid "The administrator does not allow sharing with NFS."
+#~ msgstr "系統管理員不允許 NFS 分享。"
+
+#~ msgid "Error: could not read NFS configuration file."
+#~ msgstr "錯誤：無法讀取 NFS 設定檔。"
+
+#~ msgid "The administrator does not allow sharing with Samba."
+#~ msgstr "系統管理員不允許 Samba 分享。"
+
+#~ msgid "Error: could not read Samba configuration file."
+#~ msgstr "錯誤：無法讀取 Samba 設定檔。"
+
+#~ msgid "You have to enter a name for the Samba share."
+#~ msgstr "您必須輸入 Samba 分享名稱。"
+
+#~ msgid "You need to be authorized to share directories."
+#~ msgstr "要分享目錄，您必須先認證。"
+
+#~ msgid "File sharing is disabled."
+#~ msgstr "檔案分享已停用。"
+
+#~ msgid "Configure File Sharing..."
+#~ msgstr "設定檔案分享..."
+
+#~ msgid "No NFS server installed on this system"
+#~ msgstr "此系統中沒有安裝 NFS 伺服器"
+
+#~ msgid "Could not save settings."
+#~ msgstr "無法儲存設定"
+
+#~ msgid "Could not open file '%1' for writing: %2"
+#~ msgstr "無法開啟檔案 %1 以寫入：%2"
+
+#~ msgid "Saving Failed"
+#~ msgstr "儲存失敗"
+
+#~ msgid ""
+#~ "<h1>File Sharing</h1><p>This module can be used to enable file sharing "
+#~ "over the network using the \"Network File System\" (NFS) or SMB in "
+#~ "Konqueror. The latter enables you to share your files with Windows(R) "
+#~ "computers on your network.</p>"
+#~ msgstr ""
+#~ "<h1>檔案分享</h1> <p>這個模組可以用來在 Konqueror 中開啟 NFS 或 SMB 檔案分"
+#~ "享。後者可以讓您在網路中與 Windows(R) 的電腦分享檔案。</p>"
+
+#~ msgid "Share Folder"
+#~ msgstr "分享資料夾"
+
+#~ msgid "Allowed Users"
+#~ msgstr "允許的使用者"
+
+#~ msgid "All users are in the %1 group already."
+#~ msgstr "所有使用者都已經在 %1 群組中了。"
+
+#~ msgid "Select User"
+#~ msgstr "選擇使用者"
+
+#~ msgid "Select a user:"
+#~ msgstr "選擇一個使用者："
+
+#~ msgid "Could not add user '%1' to group '%2'"
+#~ msgstr "無法將使用者 %1 加入群組 %2"
+
+#~ msgid "Could not remove user '%1' from group '%2'"
+#~ msgstr "無法從群組 %2 中移除使用者 %1"
+
+#~ msgid "You have to choose a valid group."
+#~ msgstr "您必須選擇一個合法的群組。"
+
+#~ msgid "New file share group:"
+#~ msgstr "新增檔案分享群組："
+
+#~ msgid "Add users from the old file share group to the new one"
+#~ msgstr "將舊的檔案分享群組中的使用者新增到新的群組"
+
+#~ msgid "Remove users from old file share group"
+#~ msgstr "將使用者從舊的檔案分享群組中移除"
+
+#~ msgid "Delete the old file share group"
+#~ msgstr "刪除舊的檔案分享群組"
+
+#~ msgid "Only users of a certain group are allowed to share folders"
+#~ msgstr "只有在特定群組中的使用者可以分享資料夾"
+
+#~ msgid "Choose Group..."
+#~ msgstr "選擇群組..."
+
+#~ msgid "Do you really want to remove all users from group '%1'?"
+#~ msgstr "您確定要將所有使用者從群組 %1 中移除？"
+
+#~ msgid "Do you really want to delete group '%1'?"
+#~ msgstr "您確定要刪除群組 %1 嗎？"
+
+#~ msgid "Deleting group '%1' failed."
+#~ msgstr "刪除群組 %1 時失敗。"
+
+#~ msgid "Please choose a valid group."
+#~ msgstr "請選擇一合法的群組。"
+
+#~ msgid "This group '%1' does not exist. Should it be created?"
+#~ msgstr "群組 %1 不存在。要建立嗎？"
+
+#~ msgid "Create"
+#~ msgstr "建立"
+
+#~ msgid "Do Not Create"
+#~ msgstr "不要建立"
+
+#~ msgid "Creation of group '%1' failed."
+#~ msgstr "建立群組 %1 失敗。"
+
+#~ msgid "Printer Settings"
+#~ msgstr "印表機設定"
+
+#~ msgid "Pr&inter"
+#~ msgstr "印表機(&I)"
+
+#~ msgid "Pa&th:"
+#~ msgstr "路徑(&T)："
+
+#~ msgid "&Queue:"
+#~ msgstr "佇列(&Q)："
+
+#~ msgid "Sha&re all printers"
+#~ msgstr "分享所有印表機(&R)"
+
+#~ msgid "I&dentifier"
+#~ msgstr "識別(&D)"
+
+#~ msgid "&Name:"
+#~ msgstr "名稱(&N)："
+
+#~ msgid "Comm&ent:"
+#~ msgstr "備註(&E)："
+
+#~ msgid "Main Properties"
+#~ msgstr "主要內容"
+
+#~ msgid "&Printing"
+#~ msgstr "列印(&P)"
+
+#~ msgid "Printer dri&ver:"
+#~ msgstr "印表機驅動程式(&V)："
+
+#~ msgid "Print&er driver location:"
+#~ msgstr "印表機驅動程式位置(&E)："
+
+#~ msgid "PostScr&ipt"
+#~ msgstr "PostScript(&I)"
+
+#~ msgid "Printin&g:"
+#~ msgstr "列印(&G)："
+
+#~ msgid "sysv"
+#~ msgstr "sysv"
+
+#~ msgid "aix"
+#~ msgstr "aix"
+
+#~ msgid "hpux"
+#~ msgstr "hpux"
+
+#~ msgid "bsd"
+#~ msgstr "bsd"
+
+#~ msgid "qnx"
+#~ msgstr "qnx"
+
+#~ msgid "plp"
+#~ msgstr "plp"
+
+#~ msgid "lprng"
+#~ msgstr "lprng"
+
+#~ msgid "softq"
+#~ msgstr "softq"
+
+#~ msgid "cups"
+#~ msgstr "cups"
+
+#~ msgid "nt"
+#~ msgstr "nt"
+
+#~ msgid "os2"
+#~ msgstr "os2"
+
+#~ msgid "Max reported print &jobs:"
+#~ msgstr "最大報告印表工作數(&J)："
+
+#~ msgid "Ma&x print jobs:"
+#~ msgstr "最大列印工作數(&X)："
+
+#~ msgid "Use c&lient driver"
+#~ msgstr "使用客戶端驅動程式(&L)"
+
+#~ msgid "De&fault devmode"
+#~ msgstr "預設 devmode (&F)"
+
+#~ msgid "Hosts a&llow:"
+#~ msgstr "允許的主機(&L)："
+
+#~ msgid "P&rinter admin:"
+#~ msgstr "印表機管理(&R)："
+
+#~ msgid "Co&mmands"
+#~ msgstr "命令(&M)"
+
+#~ msgid "Pr&int command:"
+#~ msgstr "列印命令(&I)："
+
+#~ msgid "lpq comma&nd:"
+#~ msgstr "lpq 命令(&N)："
+
+#~ msgid "lprm comman&d:"
+#~ msgstr "lprm 命令(&D)："
+
+#~ msgid "lp&resume:"
+#~ msgstr "lpresume(&R)："
+
+#~ msgid "&queuepause:"
+#~ msgstr "queuepause(&Q)："
+
+#~ msgid "&lppause:"
+#~ msgstr "lppause(&L)："
+
+#~ msgid "qu&eueresume:"
+#~ msgstr "queueresume(&E)："
+
+#~ msgid "Miscella&neous"
+#~ msgstr "其他(&N)"
+
+#~ msgid "p&reexec:"
+#~ msgstr "預先執行(&R)："
+
+#~ msgid "root pr&eexec:"
+#~ msgstr "root 預先執行(&E)："
+
+#~ msgid "root postexec:"
+#~ msgstr "root 後續執行："
+
+#~ msgid "poste&xec:"
+#~ msgstr "後續執行(&X)："
+
+#~ msgid "Tunin&g"
+#~ msgstr "調整(&G)"
+
+#~ msgid "M&in print space:"
+#~ msgstr "最小列印空間(&I)："
+
+#~ msgid "&Logging"
+#~ msgstr "紀錄(&L)"
+
+#~ msgid "S&tatus"
+#~ msgstr "狀態(&T)"
+
+#~ msgid "Not share&d"
+#~ msgstr "未分享的(&D)"
+
+#~ msgid "&Shared"
+#~ msgstr "共享的(&S)"
+
+#~ msgid "Bas&e Options"
+#~ msgstr "基礎選項(&E)"
+
+#~ msgid ""
+#~ "This is a text field that is seen next to a share when a client queries "
+#~ "the server, either via the network neighborhood or via net view, to list "
+#~ "what shares are available."
+#~ msgstr ""
+#~ "這個文字欄位會在使用者查詢網路分享資源時顯示在後方，列出哪些分享資源可用。"
+
+#~ msgid "Name of the share"
+#~ msgstr "分享名稱"
+
+#~ msgid "This is the name of the share"
+#~ msgstr "這是分享資源的名稱"
+
+#~ msgid "Commen&t:"
+#~ msgstr "註解(&T)："
+
+#~ msgid "Security Options"
+#~ msgstr "安全性選項"
+
+#~ msgid "Hosts den&y:"
+#~ msgstr "拒絕的主機(&Y)："
+
+#~ msgid "&Hosts allow:"
+#~ msgstr "允許的主機(&H)："
+
+#~ msgid "Guest &account:"
+#~ msgstr "訪客帳號(&A)："
+
+#~ msgid "&Read only"
+#~ msgstr "唯讀(&R)"
+
+#~ msgid ""
+#~ "If this is checked, then users of a service may not create or modify "
+#~ "files in the service's directory."
+#~ msgstr "勾選此選項的話，該服務的使用者不能在服務的目錄中建立或修改檔案。"
+
+#~ msgid "G&uests allowed"
+#~ msgstr "允許訪客(&U)"
+
+#~ msgid ""
+#~ "This is a username which will be used for access this directory if guests "
+#~ "are allowed"
+#~ msgstr ""
+#~ "如果允許訪客帳號使用此服務的話，這裡可以設定能夠存取此目錄的使用者名稱。"
+
+#~ msgid ""
+#~ "This controls whether this share is seen in the list of available shares "
+#~ "in a net view and in the browse list."
+#~ msgstr "這裡決定此分享資源是否列在可使用的資源清單中，讓使用者瀏覽得到。"
+
+#~ msgid ""
+#~ "Checkbox lets you \\\"turn off\\\" a service. If not checked, then ALL "
+#~ "attempts to connect to the service will fail. Such failures are logged."
+#~ msgstr ""
+#~ "這裡讓您可以「關閉」服務。如果不勾選，則所有試圖與該服務的連線要求都會失"
+#~ "敗，並且會紀錄下來。"
+
+#~ msgid "More Opt&ions"
+#~ msgstr "更多選項(&I)"

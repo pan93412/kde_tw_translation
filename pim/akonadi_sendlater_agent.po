@@ -1,0 +1,261 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-01-02 03:15+0100\n"
+"PO-Revision-Date: 2015-02-16 22:34+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: sendlaterconfiguredialog.cpp:37
+#, kde-format
+msgid "Configure"
+msgstr "設定"
+
+#: sendlaterconfiguredialog.cpp:57
+#, kde-format
+msgid "Send Later Agent"
+msgstr "稍後傳送代理程式"
+
+#: sendlaterconfiguredialog.cpp:59
+#, kde-format
+msgid "Send emails later agent."
+msgstr "讓您可以稍後傳送電子郵件。"
+
+#: sendlaterconfiguredialog.cpp:61
+#, fuzzy, kde-format
+#| msgid "Copyright (C) 2013-2015 Laurent Montel"
+msgid "Copyright (C) 2013-2018 Laurent Montel"
+msgstr "Copyright (C) 2013-2015 Laurent Montel"
+
+#: sendlaterconfiguredialog.cpp:63
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: sendlaterconfiguredialog.cpp:64
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: sendlaterconfiguredialog.cpp:67
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#: sendlaterconfiguredialog.cpp:68
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: sendlaterconfigurewidget.cpp:69
+#, kde-format
+msgid "To"
+msgstr "收件者"
+
+#: sendlaterconfigurewidget.cpp:70
+#, kde-format
+msgid "Subject"
+msgstr "主題"
+
+#: sendlaterconfigurewidget.cpp:71
+#, kde-format
+msgid "Send around"
+msgstr "傳送於"
+
+#: sendlaterconfigurewidget.cpp:72
+#, kde-format
+msgid "Recurrent"
+msgstr "循環"
+
+#: sendlaterconfigurewidget.cpp:74
+#, kde-format
+msgid "Message Id"
+msgstr "信件代碼"
+
+#: sendlaterconfigurewidget.cpp:85
+#, kde-format
+msgid "No messages waiting..."
+msgstr "沒有等待中的信件..."
+
+#: sendlaterconfigurewidget.cpp:108
+#, kde-format
+msgid "Send now"
+msgstr "立即傳送"
+
+#: sendlaterconfigurewidget.cpp:111
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: sendlaterconfigurewidget.cpp:172
+#, kde-format
+msgid "Yes"
+msgstr "是"
+
+#: sendlaterconfigurewidget.cpp:172
+#, kde-format
+msgid "No"
+msgstr "否"
+
+#: sendlaterconfigurewidget.cpp:217
+#, fuzzy, kde-format
+#| msgid "Do you want to delete selected items? Do you want to continue?"
+msgid "Do you want to delete the selected item?"
+msgid_plural "Do you want to delete the selected items?"
+msgstr[0] "您確定要刪除選取的項目嗎？"
+
+#: sendlaterconfigurewidget.cpp:217
+#, kde-format
+msgid "Remove items"
+msgstr "移除項目"
+
+#: sendlaterconfigurewidget.cpp:222
+#, fuzzy, kde-format
+#| msgid "Do you want to remove messages as well?"
+msgid "Do you want to remove the messages as well?"
+msgstr "您要順便移除信件嗎？"
+
+#: sendlaterconfigurewidget.cpp:222
+#, kde-format
+msgid "Remove messages"
+msgstr "移除信件"
+
+#: sendlaterjob.cpp:70 sendlaterjob.cpp:73
+#, kde-format
+msgid "Not message found."
+msgstr "找不到信件。"
+
+#: sendlaterjob.cpp:81
+#, kde-format
+msgid "No message found."
+msgstr "找不到信件。"
+
+#: sendlaterjob.cpp:90
+#, kde-format
+msgid "Error during fetching message."
+msgstr "抓取信件時發生錯誤。"
+
+#: sendlaterjob.cpp:96
+#, kde-format
+msgid "Cannot fetch message. %1"
+msgstr "無法抓取信件。%1"
+
+#: sendlaterjob.cpp:101
+#, kde-format
+msgid "We can't create transport"
+msgstr "無法建立傳送"
+
+#: sendlaterjob.cpp:108
+#, kde-format
+msgid "Message is not a real message"
+msgstr "信件不是真的信件"
+
+#: sendlaterjob.cpp:115
+#, kde-format
+msgid "Cannot send message."
+msgstr "無法傳送信件。"
+
+#: sendlaterjob.cpp:147
+#, kde-format
+msgid "Message sent"
+msgstr "信件已送出"
+
+#: sendlatermanager.cpp:196
+#, kde-format
+msgid "An error was found. Do you want to resend it?"
+msgstr "發現了一個錯誤。您要重新傳送嗎？"
+
+#: sendlatermanager.cpp:196
+#, kde-format
+msgid "Error found"
+msgstr "發現錯誤"
+
+#. i18n: ectx: property (text), widget (QPushButton, modifyItem)
+#: ui/sendlaterconfigurewidget.ui:31
+#, kde-format
+msgid "Modify..."
+msgstr "變更..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeItem)
+#: ui/sendlaterconfigurewidget.ui:38
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#~ msgctxt "@title:window"
+#~ msgid "Send Later"
+#~ msgstr "稍後傳送"
+
+#~ msgid "Send Later"
+#~ msgstr "稍後傳送"
+
+#~ msgid "Delay"
+#~ msgstr "延遲"
+
+#~ msgid "Days"
+#~ msgstr "天"
+
+#~ msgid "Weeks"
+#~ msgstr "週"
+
+#~ msgid "Months"
+#~ msgstr "月"
+
+#~ msgid "Years"
+#~ msgstr "年"
+
+#~ msgid "You cannot select a date prior to the current date."
+#~ msgstr "您不能選擇目前日期之前的日期。"
+
+#~ msgid "Send at:"
+#~ msgstr "傳送時間："
+
+#~ msgid "Repeat every:"
+#~ msgstr "重覆間隔："
+
+#, fuzzy
+#~| msgid "Send Later"
+#~ msgid "SendLater"
+#~ msgstr "稍後傳送"
+
+#~ msgid "Recurrence"
+#~ msgstr "循環"
+
+#~ msgid "Each:"
+#~ msgstr "每："
+
+#~ msgid "30 minutes later"
+#~ msgstr "30 分鐘後"
+
+#~ msgid "1 hour later"
+#~ msgstr "一小時後"
+
+#, fuzzy
+#~| msgid "2 hour later"
+#~ msgid "2 hours later"
+#~ msgstr "兩小時後"
+
+#~ msgid "Send around %1"
+#~ msgstr "約於 %1 傳送"
+
+#~ msgid "Send Now"
+#~ msgstr "立即傳送"
+
+#~ msgid "Recursive"
+#~ msgstr "遞迴"
+
+#~ msgid "Date"
+#~ msgstr "日期"

@@ -1,0 +1,881 @@
+# translation of kompare.po to Chinese Traditional
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kompare\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-17 03:39+0200\n"
+"PO-Revision-Date: 2013-02-23 13:04+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: komparemodellist.cpp:68
+#, kde-format
+msgid "&Apply Difference"
+msgstr "套用差異處(&A)"
+
+#: komparemodellist.cpp:72
+#, kde-format
+msgid "Un&apply Difference"
+msgstr "取消套用差異處(&A)"
+
+#: komparemodellist.cpp:76
+#, kde-format
+msgid "App&ly All"
+msgstr "全部套用(&L)"
+
+#: komparemodellist.cpp:80
+#, kde-format
+msgid "&Unapply All"
+msgstr "全部取消套用(&U)"
+
+#: komparemodellist.cpp:90
+#, kde-format
+msgid "P&revious File"
+msgstr "上一個檔案(&R)"
+
+#: komparemodellist.cpp:94
+#, kde-format
+msgid "N&ext File"
+msgstr "下一個檔案(&E)"
+
+#: komparemodellist.cpp:98
+#, kde-format
+msgid "&Previous Difference"
+msgstr "上一個差異(&P)"
+
+#: komparemodellist.cpp:102
+#, kde-format
+msgid "&Next Difference"
+msgstr "下一個差異(&N)"
+
+#: komparemodellist.cpp:266 komparemodellist.cpp:291
+#, kde-format
+msgid ""
+"<qt>No models or no differences, this file: <b>%1</b>, is not a valid diff "
+"file.</qt>"
+msgstr "<qt>檔案 <b>%1</b> 不是合法的 diff 檔，沒有任何模式或差異處。</qt>"
+
+#: komparemodellist.cpp:275
+#, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the file <b>%2</b>.</"
+"qt>"
+msgstr "<qt>套用 <b>%1</b>到檔案 <b>%2</b> 時發生問題。</qt>"
+
+#: komparemodellist.cpp:302
+#, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the folder <b>%2</b>."
+"</qt>"
+msgstr "<qt>套用 <b>%1</b>到資料夾 <b>%2</b> 時發生問題。</qt>"
+
+#: komparemodellist.cpp:334 komparemodellist.cpp:684
+#, kde-format
+msgid "Could not open a temporary file."
+msgstr "無法開啟暫存檔。"
+
+#: komparemodellist.cpp:382 komparemodellist.cpp:389
+#, kde-format
+msgid "<qt>Could not write to the temporary file <b>%1</b>, deleting it.</qt>"
+msgstr "<qt>無法寫入暫存檔 <b>%1</b>，暫存檔將被刪除。</qt>"
+
+#: komparemodellist.cpp:420
+#, kde-format
+msgid ""
+"<qt>Could not create destination directory <b>%1</b>.\n"
+"The file has not been saved.</qt>"
+msgstr "<qt>無法建立目標資料夾 <b>%1</b>。檔案尚未儲存。</qt>"
+
+#: komparemodellist.cpp:439
+#, kde-format
+msgid ""
+"<qt>Could not upload the temporary file to the destination location <b>%1</"
+"b>. The temporary file is still available under: <b>%2</b>. You can manually "
+"copy it to the right place.</qt>"
+msgstr ""
+"<qt>無法將暫存檔上傳到目標位置 <b>%1</b>。暫存檔仍然在 <b>%2</b>。您可以手動"
+"複製到正確的地方。</qt>"
+
+#: komparemodellist.cpp:518 komparemodellist.cpp:631 komparemodellist.cpp:651
+#, kde-format
+msgid "Could not parse diff output."
+msgstr "無法分析 diff 輸出。"
+
+#: komparemodellist.cpp:534
+#, kde-format
+msgid "The files are identical."
+msgstr "檔案完全相同。"
+
+#: komparemodellist.cpp:716
+#, kde-format
+msgid "Could not write to the temporary file."
+msgstr "無法寫入暫存檔。"
+
+#: komparemodellist.cpp:990
+#, kde-format
+msgid ""
+"The diff is malformed. Some lines could not be parsed and will not be "
+"displayed in the diff view."
+msgstr "此 diff 不正確。有些內容無法被解析，因此不會被顯示在檢視中。"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Could not load our KompareViewPart."
+#~ msgstr "無法載入 KompareViewPart。"
+
+#~ msgid "Navigation"
+#~ msgstr "導覽"
+
+#~ msgid "Could not load our KompareNavigationPart."
+#~ msgstr "無法載入 KompareNavigationPart。"
+
+#~ msgid "&Open Diff..."
+#~ msgstr "開啟 Diff(&O)..."
+
+#~ msgid "&Compare Files..."
+#~ msgstr "比較檔案(&C)..."
+
+#~ msgid "&Blend URL with Diff..."
+#~ msgstr "將差異處套用到 URL(&B)..."
+
+#~ msgid "Show T&ext View"
+#~ msgstr "顯示文字檢視(&E)"
+
+#~ msgid " 0 of 0 differences "
+#~ msgstr "沒有差異處"
+
+#~ msgid " 0 of 0 files "
+#~ msgstr "沒有檔案"
+
+#~ msgid " %2 of %1 file "
+#~ msgid_plural " %2 of %1 files "
+#~ msgstr[0] "%1 個檔案，第 %2 個"
+
+#~ msgid " %1 file "
+#~ msgid_plural " %1 files "
+#~ msgstr[0] "%1 個檔案"
+
+#~ msgid " %2 of %1 difference, %3 applied "
+#~ msgid_plural " %2 of %1 differences, %3 applied "
+#~ msgstr[0] "%1 個差異處，第 %2 個，%3 個已套用。"
+
+#~ msgid " %1 difference "
+#~ msgid_plural " %1 differences "
+#~ msgstr[0] "%1 個差異處"
+
+#~ msgid "Blend File/Folder with diff Output"
+#~ msgstr "套用 diff 輸出到檔案/資料夾"
+
+#~ msgid "File/Folder"
+#~ msgstr "檔案/資料夾"
+
+#~ msgid "Diff Output"
+#~ msgstr "Diff 輸出"
+
+#~ msgid "Blend"
+#~ msgstr "套用"
+
+#~ msgid "Blend this file or folder with the diff output"
+#~ msgstr "對此檔案或資料夾套用 diff 輸出"
+
+#~ msgid ""
+#~ "If you have entered a file or folder name and a file that contains diff "
+#~ "output in the fields in this dialog then this button will be enabled and "
+#~ "pressing it will open kompare's main view where the output of the entered "
+#~ "file or files from the folder are mixed with the diff output so you can "
+#~ "then apply the difference(s) to a file or to the files. "
+#~ msgstr ""
+#~ "如果您在此對話框中輸入一個檔案或資料夾名稱，以及包含 diff 輸出的檔案，按下"
+#~ "此鍵會開啟 Kompare 的主檢視視窗，讓您檢視此 diff 輸出套用到指定的檔案或資"
+#~ "料夾後的結果。"
+
+#~ msgid "Compare Files or Folders"
+#~ msgstr "比較檔案或資料夾"
+
+#~ msgid "Source"
+#~ msgstr "來源"
+
+#~ msgid "Destination"
+#~ msgstr "目的地"
+
+#~ msgid "Compare"
+#~ msgstr "比較"
+
+#~ msgid "Compare these files or folders"
+#~ msgstr "比較這些檔案或資料夾"
+
+#~ msgid ""
+#~ "If you have entered 2 filenames or 2 folders in the fields in this dialog "
+#~ "then this button will be enabled and pressing it will start a comparison "
+#~ "of the entered files or folders. "
+#~ msgstr ""
+#~ "如果您在此對話框的欄位中輸入了兩個檔名或兩個資料夾，按下這個按鈕就會開始比"
+#~ "較。"
+
+#~ msgid "Text View"
+#~ msgstr "文字檢視"
+
+#~ msgid "Source Folder"
+#~ msgstr "來源資料夾"
+
+#~ msgid "Destination Folder"
+#~ msgstr "目的資料夾"
+
+#~ msgid "Source File"
+#~ msgstr "來源檔案"
+
+#~ msgid "Destination File"
+#~ msgstr "目的檔案"
+
+#~ msgid "Source Line"
+#~ msgstr "來源行"
+
+#~ msgid "Destination Line"
+#~ msgstr "目的行"
+
+#~ msgid "Difference"
+#~ msgstr "差異處"
+
+#~ msgid "Applied: Changes made to %1 line undone"
+#~ msgid_plural "Applied: Changes made to %1 lines undone"
+#~ msgstr[0] "套用：對 %1 行改變的動作未完成"
+
+#~ msgid "Changed %1 line"
+#~ msgid_plural "Changed %1 lines"
+#~ msgstr[0] "改變 %1 行"
+
+#~ msgid "Applied: Insertion of %1 line undone"
+#~ msgid_plural "Applied: Insertion of %1 lines undone"
+#~ msgstr[0] "套用：插入 %1 行的動作未完成"
+
+#~ msgid "Inserted %1 line"
+#~ msgid_plural "Inserted %1 lines"
+#~ msgstr[0] "插入 %1 行"
+
+#~ msgid "Applied: Deletion of %1 line undone"
+#~ msgid_plural "Applied: Deletion of %1 lines undone"
+#~ msgstr[0] "套用：刪除 %1 行的動作未完成。"
+
+#~ msgid "Deleted %1 line"
+#~ msgid_plural "Deleted %1 lines"
+#~ msgstr[0] "已刪除 %1行"
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid "KompareNavTreePart"
+#~ msgstr "KompareNavTreePart"
+
+#~ msgid "John Firebaugh"
+#~ msgstr "John Firebaugh"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Otto Bruggeman"
+#~ msgstr "Otto Bruggeman"
+
+#~ msgid "Save &All"
+#~ msgstr "全部儲存(&A)"
+
+#~ msgid "Save &Diff..."
+#~ msgstr "儲存 Diff(&D)..."
+
+#~ msgid "Swap Source with Destination"
+#~ msgstr "將來源與目的地交換"
+
+#~ msgid "Show Statistics"
+#~ msgstr "顯示統計"
+
+#~ msgid "Refresh Diff"
+#~ msgstr "刷新 Diff"
+
+#~ msgid "<qt>The URL <b>%1</b> cannot be downloaded.</qt>"
+#~ msgstr "<qt>無法下載 URL <b>%1</b>。</qt>"
+
+#~ msgid "<qt>The URL <b>%1</b> does not exist on your system.</qt>"
+#~ msgstr "<qt>URL <b>%1</b> 不存在於您的系統中。</qt>"
+
+#~ msgid "Diff Options"
+#~ msgstr "Diff 選項"
+
+#~ msgid "*.diff *.dif *.patch|Patch Files"
+#~ msgstr "*.diff *.dif *.patch|修補檔案"
+
+#~ msgid "Save .diff"
+#~ msgstr "儲存 .diff"
+
+#~ msgid "The file exists or is write-protected; do you want to overwrite it?"
+#~ msgstr "檔案已存在，或是有寫入保護。您確定要覆寫它嗎？"
+
+#~ msgid "File Exists"
+#~ msgstr "檔案已存在"
+
+#~ msgid "Overwrite"
+#~ msgstr "覆寫"
+
+#~ msgid "Do Not Overwrite"
+#~ msgstr "不要覆寫"
+
+#~ msgid "KomparePart"
+#~ msgstr "KomparePart"
+
+#~ msgid "Kevin Kofler"
+#~ msgstr "Kevin Kofler"
+
+#~ msgid "Running diff..."
+#~ msgstr "執行 diff..."
+
+#~ msgid "Parsing diff output..."
+#~ msgstr "分析 diff 輸出..."
+
+#~ msgid "Comparing file %1 with file %2"
+#~ msgstr "比較檔案 %1 與檔案 %2"
+
+#~ msgid "Comparing files in %1 with files in %2"
+#~ msgstr "比較在 %1 中的檔案與在 %2 中的檔案"
+
+#~ msgid "Viewing diff output from %1"
+#~ msgstr "檢視從 %1 的 diff 的輸出"
+
+#~ msgid "Blending diff output from %1 into file %2"
+#~ msgstr "將從 %1 出來的 diff 輸出套入檔案 %2"
+
+#~ msgid "Blending diff output from %1 into folder %2"
+#~ msgstr "將從 %1 出來的 diff 輸出套入資料夾 %2"
+
+#~ msgid ""
+#~ "You have made changes to the destination file(s).\n"
+#~ "Would you like to save them?"
+#~ msgstr ""
+#~ "您已修改目的檔。\n"
+#~ "要儲存嗎？"
+
+#~ msgid "Save Changes?"
+#~ msgstr "儲存修改？"
+
+#~ msgid "Unified"
+#~ msgstr "統一"
+
+#~ msgid "Context"
+#~ msgstr "內容"
+
+#~ msgid "RCS"
+#~ msgstr "RCS"
+
+#~ msgid "Ed"
+#~ msgstr "Ed"
+
+#~ msgid "Normal"
+#~ msgstr "正常"
+
+#~ msgid ""
+#~ "No diff file, or no 2 files have been diffed. Therefore no stats are "
+#~ "available."
+#~ msgstr "沒有 diff 檔，或沒有兩個檔案可比較。因此無法統計。"
+
+#~ msgid "Diff Statistics"
+#~ msgstr "Diff 統計"
+
+#~ msgid ""
+#~ "Statistics:\n"
+#~ "\n"
+#~ "Old file: %1\n"
+#~ "New file: %2\n"
+#~ "\n"
+#~ "Format: %3\n"
+#~ "Number of hunks: %4\n"
+#~ "Number of differences: %5"
+#~ msgstr ""
+#~ "統計：\n"
+#~ "\n"
+#~ "舊檔：%1\n"
+#~ "相檔：%2\n"
+#~ "\n"
+#~ "格式：%3\n"
+#~ "區塊數量：%4\n"
+#~ "差異數量：%5"
+
+#~ msgid ""
+#~ "Statistics:\n"
+#~ "\n"
+#~ "Number of files in diff file: %1\n"
+#~ "Format: %2\n"
+#~ "\n"
+#~ "Current old file: %3\n"
+#~ "Current new file: %4\n"
+#~ "\n"
+#~ "Number of hunks: %5\n"
+#~ "Number of differences: %6"
+#~ msgstr ""
+#~ "統計：\n"
+#~ "\n"
+#~ "diff 檔中的檔案數量：%1\n"
+#~ "格式：%2\n"
+#~ "\n"
+#~ "目前的舊檔：%3\n"
+#~ "目前的新檔：%4\n"
+#~ "\n"
+#~ "區塊數量：%5\n"
+#~ "差異數量：%6"
+
+#~ msgid "&File"
+#~ msgstr "檔案(&F)"
+
+#~ msgid "&Difference"
+#~ msgstr "差異(&D)"
+
+#~ msgid "&Settings"
+#~ msgstr "設定(&S)"
+
+#~ msgid "Preferences"
+#~ msgstr "喜好設定"
+
+#~ msgid "View"
+#~ msgstr "檢視"
+
+#~ msgid "View Settings"
+#~ msgstr "顯示設定"
+
+#~ msgid "Diff"
+#~ msgstr "Diff"
+
+#~ msgid "Diff Settings"
+#~ msgstr "Diff 設定"
+
+#~ msgid "Run Diff In"
+#~ msgstr "執行 Diff 於"
+
+#~ msgid "Command Line"
+#~ msgstr "指令行"
+
+#~ msgid "cd dir && diff -udHprNa -- source destination"
+#~ msgstr "cd dir && diff -udHprNa -- source destination"
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "Look for smaller changes"
+#~ msgstr "尋找小改變"
+
+#~ msgid "Optimize for large files"
+#~ msgstr "對大檔案最佳化"
+
+#~ msgid "Ignore changes in case"
+#~ msgstr "忽略大小寫的改變"
+
+#~ msgid "Expand tabs to spaces"
+#~ msgstr "將 tab 展開為空白"
+
+#~ msgid "Ignore added or removed empty lines"
+#~ msgstr "忽略新增或移除的空行"
+
+#~ msgid "Ignore changes in whitespace"
+#~ msgstr "忽略空白的改變"
+
+#~ msgid "Show function names"
+#~ msgstr "顯示函數名稱"
+
+#~ msgid "Compare folders recursively"
+#~ msgstr "遞迴比較資料夾"
+
+#~ msgid "Treat new files as empty"
+#~ msgstr "將新檔案視為空檔案"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "Side-by-side"
+#~ msgstr "並排比較"
+
+#~ msgid "Number of context lines:"
+#~ msgstr "內容的行數："
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具列"
+
+#~ msgid "Files"
+#~ msgstr "檔案"
+
+#~ msgid "Here you can enter the files you want to compare."
+#~ msgstr "您可以在此輸入您要比較的檔案。"
+
+#~ msgid "Here you can change the options for comparing the files."
+#~ msgstr "您可以在此變更比較檔案的選項。"
+
+#~ msgid "Appearance"
+#~ msgstr "外觀"
+
+#~ msgid "Here you can change the options for the view."
+#~ msgstr "您可以在此變更外觀的選項。"
+
+#~ msgid ""
+#~ "File used for excluding files cannot be found, please specify another "
+#~ "file."
+#~ msgstr "找不到存放排除檔案的檔案。請選擇現有的檔案。"
+
+#~ msgid "Diff Program"
+#~ msgstr "Diff 程式"
+
+#~ msgid ""
+#~ "You can select a different diff program here. On Solaris the standard "
+#~ "diff program does not support all the options that the GNU version does. "
+#~ "This way you can select that version."
+#~ msgstr ""
+#~ "您可以選擇不同的 diff 程式。在 Solaris 上標準的 diff 程式，支援選項沒有像 "
+#~ "GNU 版本那麼多。您可以在此選擇其他的版本。"
+
+#~ msgid ""
+#~ "Select the format of the output generated by diff. Unified is the one "
+#~ "that is used most frequently because it is very readable. The KDE "
+#~ "developers like this format the best so use it for sending patches."
+#~ msgstr ""
+#~ "選擇 diff 輸出的格式。「統一」（Unified）是最常用的，因為可讀性很高。KDE "
+#~ "開發團隊最喜歡用這個格式，所以要傳送修補檔用這個格式最好。"
+
+#~ msgid "Output Format"
+#~ msgstr "輸出格式"
+
+#~ msgid "Lines of Context"
+#~ msgstr "內容行數"
+
+#~ msgid ""
+#~ "The number of context lines is normally 2 or 3. This makes the diff "
+#~ "readable and applicable in most cases. More than 3 lines will only bloat "
+#~ "the diff unnecessarily."
+#~ msgstr ""
+#~ "內容行數通常是 2 或 3。這會提高 diff 輸出的可讀性，並且在大部份狀況都可使"
+#~ "用。三行以上只會讓 diff 輸出產生不必要的膨脹。"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "&Treat new files as empty"
+#~ msgstr "將新檔案視為空檔案(&T)"
+
+#~ msgid "This option corresponds to the -N diff option."
+#~ msgstr "此選項對應到 diff 的 -N 項選。"
+
+#~ msgid ""
+#~ "With this option enabled diff will treat a file that only exists in one "
+#~ "of the directories as empty in the other directory. This means that the "
+#~ "file is compared with an empty file and because of this will appear as "
+#~ "one big insertion or deletion."
+#~ msgstr ""
+#~ "開啟此選項的話，若某檔案只存在於其中一個目錄，則會視為另一個目錄也有相同的"
+#~ "檔案，只是是空檔案。這表示會將該檔案與一個空檔案比對，結果就是一個大區塊的"
+#~ "插入或刪除。"
+
+#~ msgid "&Look for smaller changes"
+#~ msgstr "尋找小改變(&L)"
+
+#~ msgid "This corresponds to the -d diff option."
+#~ msgstr "對應到 diff 的 -d 選項。"
+
+#~ msgid ""
+#~ "With this option enabled diff will try a little harder (at the cost of "
+#~ "more memory) to find fewer changes."
+#~ msgstr "開啟此選項的話，diff 會盡量找少一點變更（不過會花多一點記憶體）"
+
+#~ msgid "O&ptimize for large files"
+#~ msgstr "對大檔案最佳化(&P)"
+
+#~ msgid "This corresponds to the -H diff option."
+#~ msgstr "對應到 diff 的 -H 選項。"
+
+#~ msgid ""
+#~ "This option lets diff makes better diffs when using large files. The "
+#~ "definition of large is nowhere to be found though."
+#~ msgstr ""
+#~ "這個選項在對付大檔案時，會用較好的方式。不過什麼叫「大檔案」好像沒有明確定"
+#~ "義..."
+
+#~ msgid "&Ignore changes in case"
+#~ msgstr "忽略大小寫改變(&I)"
+
+#~ msgid "This corresponds to the -i diff option."
+#~ msgstr "對應到 diff 的 -i 選項。"
+
+#~ msgid ""
+#~ "With this option to ignore changes in case enabled, diff will not "
+#~ "indicate a difference when something in one file is changed into "
+#~ "SoMEthing in the other file."
+#~ msgstr "此選項會在比對時忽略大小寫。"
+
+#~ msgid "Ignore regexp:"
+#~ msgstr "忽略正規表示式："
+
+#~ msgid "This option corresponds to the -I diff option."
+#~ msgstr "對應到 diff 的 -I 選項。"
+
+#~ msgid ""
+#~ "When this checkbox is enabled, an option to diff is given that will make "
+#~ "diff ignore lines that match the regular expression."
+#~ msgstr "勾選此選項的話，在做 diff 時會忽略符合此正規表示式的行。"
+
+#~ msgid ""
+#~ "Add the regular expression here that you want to use\n"
+#~ "to ignore lines that match it."
+#~ msgstr "在此新增正規表示式，若符合此式則忽略之。"
+
+#~ msgid "&Edit..."
+#~ msgstr "編輯(&E)..."
+
+#~ msgid ""
+#~ "Clicking this will open a regular expression dialog where\n"
+#~ "you can graphically create regular expressions."
+#~ msgstr "點選以開啟正規表示式編輯視窗。"
+
+#~ msgid "Whitespace"
+#~ msgstr "空白"
+
+#~ msgid "E&xpand tabs to spaces in output"
+#~ msgstr "輸出時將 tab 字元展開為空白"
+
+#~ msgid "This option corresponds to the -t diff option."
+#~ msgstr "對應到 diff 的 -t 選項。"
+
+#~ msgid ""
+#~ "This option does not always produce the right result. Due to this "
+#~ "expansion Kompare may have problems applying the change to the "
+#~ "destination file."
+#~ msgstr ""
+#~ "此選項並不會每次都產生正確的結果，因此 Kompare 可能會在套用變更到目的檔時"
+#~ "會發生問題。"
+
+#~ msgid "I&gnore added or removed empty lines"
+#~ msgstr "忽略新增或移除的空行(&G)"
+
+#~ msgid "This option corresponds to the -B diff option."
+#~ msgstr "對應到 diff 的 -B 選項。"
+
+#~ msgid ""
+#~ "This can be very useful in situations where code has been reorganized and "
+#~ "empty lines have been added or removed to improve legibility."
+#~ msgstr "若是程式碼被重新編排過，加上或刪掉一堆空白時，可以用此選項。"
+
+#~ msgid "Ig&nore changes in the amount of whitespace"
+#~ msgstr "忽略只有空白的改變(&N)"
+
+#~ msgid "This option corresponds to the -b diff option."
+#~ msgstr "對應到 diff 的 -b 選項。"
+
+#~ msgid ""
+#~ "If you are uninterested in differences arising due to, for example, "
+#~ "changes in indentation, then use this option."
+#~ msgstr "若您希望略過，比方說，縮排造成的變更時，可以使用此選項。"
+
+#~ msgid "Ign&ore all whitespace"
+#~ msgstr "忽略所有的空白(&O)"
+
+#~ msgid "This option corresponds to the -w diff option."
+#~ msgstr "對應到 diff 的 -w 選項。"
+
+#~ msgid ""
+#~ "This is useful for seeing the significant changes without being "
+#~ "overwhelmed by all the white space changes."
+#~ msgstr ""
+#~ "若您希望看到真正的變更，而不要被一堆空白造成的變更打擾時，可以使用此選項。"
+
+#~ msgid "Igno&re changes due to tab expansion"
+#~ msgstr "忽略將 tab 展開的改變(&R)"
+
+#~ msgid "This option corresponds to the -E diff option."
+#~ msgstr "對應到 diff 的 -E 選項。"
+
+#~ msgid ""
+#~ "If there is a change because tabs have been expanded into spaces in the "
+#~ "other file, then this option will make sure that these do not show up. "
+#~ "Kompare currently has some problems applying such changes so be careful "
+#~ "when you use this option."
+#~ msgstr ""
+#~ "若有因為 tab 被展開成幾個空白這類的的變更，此選項可以避開這種變更。不過要"
+#~ "注意，目前使用此變更的話，Kompare 在套用變更時會有些問題。"
+
+#~ msgid "File Pattern to Exclude"
+#~ msgstr "要排除的檔案樣式"
+
+#~ msgid ""
+#~ "If this is checked you can enter a shell pattern in the text box on the "
+#~ "right or select entries from the list."
+#~ msgstr ""
+#~ "勾選此選項的話，您可以在右方文字欄內輸入一個文稿樣式，或是從清單中選擇。"
+
+#~ msgid ""
+#~ "Here you can enter or remove a shell pattern or select one or more "
+#~ "entries from the list."
+#~ msgstr "您可以在此輸入或移除文稿樣式，或是從清單中選擇樣式。"
+
+#~ msgid "File with Filenames to Exclude"
+#~ msgstr "要排除的檔名樣式"
+
+#~ msgid "If this is checked you can enter a filename in the combo box below."
+#~ msgstr "勾選此選項的話，您可以在下方的選單中輸入檔名。"
+
+#~ msgid ""
+#~ "Here you can enter the URL of a file with shell patterns to ignore during "
+#~ "the comparison of the folders."
+#~ msgstr "您可以在此輸入檔案路徑，檔案中含有在比較資料夾時要忽略的文稿樣式。"
+
+#~ msgid ""
+#~ "Any file you select in the dialog that pops up when you click it will be "
+#~ "put in the dialog to the left of this button."
+#~ msgstr "您在此對話框中所選擇的任何檔案將會被放到左方的對話框中。"
+
+#~ msgid "Exclude"
+#~ msgstr "排除"
+
+#~ msgid "Encoding"
+#~ msgstr "編碼"
+
+#~ msgid "Colors"
+#~ msgstr "顏色"
+
+#~ msgid "Removed color:"
+#~ msgstr "已移除的顏色："
+
+#~ msgid "Changed color:"
+#~ msgstr "已改變的顏色："
+
+#~ msgid "Added color:"
+#~ msgstr "已新增的顏色："
+
+#~ msgid "Applied color:"
+#~ msgstr "已套用的顏色："
+
+#~ msgid "Mouse Wheel"
+#~ msgstr "滑鼠滾輪"
+
+#~ msgid "Number of lines:"
+#~ msgstr "行數："
+
+#~ msgid "Tabs to Spaces"
+#~ msgstr "Tab 字元轉換成空白"
+
+#~ msgid "Number of spaces to convert a tab character to:"
+#~ msgstr "多少個空白要轉換成一個 tab 字元："
+
+#~ msgid "Text Font"
+#~ msgstr "文字字型"
+
+#~ msgid "Font:"
+#~ msgstr "字型："
+
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgid "Fonts"
+#~ msgstr "字型"
+
+#~ msgid ""
+#~ "A program to view the differences between files and optionally generate a "
+#~ "diff"
+#~ msgstr "檢視檔案間的不同，還有產生修補檔的程式。"
+
+#~ msgid "Kompare"
+#~ msgstr "Kompare"
+
+#~ msgid ""
+#~ "(c) 2001-2004 John Firebaugh, (c) 2001-2005,2009 Otto Bruggeman, (c) "
+#~ "2004-2005 Jeff Snyder, (c) 2007-2012 Kevin Kofler"
+#~ msgstr ""
+#~ "(c) 2001-2004 John Firebaugh, (c) 2001-2005,2009 Otto Bruggeman, (c) "
+#~ "2004-2005 Jeff Snyder, (c) 2007-2012 Kevin Kofler"
+
+#~ msgid "Jeff Snyder"
+#~ msgstr "Jeff Snyder"
+
+#~ msgid "Developer"
+#~ msgstr "開發者"
+
+#~ msgid "Maintainer"
+#~ msgstr "維護者"
+
+#~ msgid "Chris Luetchford"
+#~ msgstr "Chris Luetchford"
+
+#~ msgid "Kompare icon artist"
+#~ msgstr "Kompare 圖示製作"
+
+#~ msgid "Malte Starostik"
+#~ msgstr "Malte Starostik"
+
+#~ msgid "A lot of good advice"
+#~ msgstr "許多好點子"
+
+#~ msgid "Bernd Gehrmann"
+#~ msgstr "Bernd Gehrmann"
+
+#~ msgid "Cervisia diff viewer"
+#~ msgstr "Cervisia diff 檢視器"
+
+#~ msgid "This will compare URL1 with URL2"
+#~ msgstr "這會比較 URL1 與 URL2"
+
+#~ msgid ""
+#~ "This will open URL1 and expect it to be diff output. URL1 can also be a "
+#~ "'-' and then it will read from standard input. Can be used for instance "
+#~ "for cvs diff | kompare -o -. Kompare will do a check to see if it can "
+#~ "find the original file(s) and then blend the original file(s) into the "
+#~ "diffoutput and show that in the viewer. -n disables the check."
+#~ msgstr ""
+#~ "這會開啟 URL1，它應該是 diff 的輸出。URL1 也可以是 '-'，這種狀況下它會從標"
+#~ "準輸入讀取。它可以這樣用：cvs diff | compare -o -。Kompare 會檢查是否可以"
+#~ "找到原始檔，並套用 diff 輸出，再顯示在檢視器內。 -n 關閉此檢查。"
+
+#~ msgid ""
+#~ "This will blend URL2 into URL1, URL2 is expected to be diff output and "
+#~ "URL1 the file or folder that the diffoutput needs to be blended into. "
+#~ msgstr ""
+#~ "這會將 URL2 套用到 URL1。URL2 應該是 diff 的輸出，URL1 則是要套用的檔案或"
+#~ "資料夾。"
+
+#~ msgid ""
+#~ "Disables the check for automatically finding the original file(s) when "
+#~ "using '-' as URL with the -o option."
+#~ msgstr ""
+#~ "在使用 '-' 為讀取的 URL，並與 -o 一起使用時，關閉自動尋找原始檔案的檢查。"
+
+#~ msgid ""
+#~ "Use this to specify the encoding when calling it from the command line. "
+#~ "It will default to the local encoding if not specified."
+#~ msgstr "用這個指定從命令列呼叫時的編碼。預設為本地端的編碼系統。"
+
+#~ msgid "Compare these files or folder"
+#~ msgstr "比較這些檔案或資料夾"
+
+#~ msgid "Could not find our KompareViewPart."
+#~ msgstr "找不到 KompareViewPart。"
+
+#~ msgid "Could not find our KompareNavigationPart."
+#~ msgstr "找不到 KompareNavigationPart。"
+
+#~ msgid "A&ppearance"
+#~ msgstr "外觀(&P)"
+
+#~ msgid "&Diff"
+#~ msgstr "Diff(&D)"
+
+#~ msgid "&Format"
+#~ msgstr "格式(&F)"
+
+#~ msgid "O&ptions"
+#~ msgstr "選項(&P)"

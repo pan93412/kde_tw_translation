@@ -1,0 +1,4607 @@
+# translation of dolphin.po to Chinese Traditional
+# translation of dolphin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2010, 2011.
+# Goodhorse <franklin@goodhorse.idv.tw>, 2008.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2011, 2012, 2013, 2014, 2015, 2017.
+# Tsung-en Hsiao <joshua841025@gmail.com>, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: dolphin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-23 03:17+0100\n"
+"PO-Revision-Date: 2017-11-11 19:13+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: English <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: dolphincontextmenu.cpp:142 panels/places/placespanel.cpp:198
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "清空垃圾桶"
+
+#: dolphincontextmenu.cpp:163
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "還原"
+
+#: dolphincontextmenu.cpp:212 dolphinmainwindow.cpp:1061
+#, kde-format
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "建立新的"
+
+#: dolphincontextmenu.cpp:225
+#, kde-format
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "新增到書籤"
+
+#: dolphincontextmenu.cpp:232
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Path"
+msgstr "開啟路徑"
+
+#: dolphincontextmenu.cpp:238
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "在新視窗開啟路徑"
+
+#: dolphincontextmenu.cpp:244
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "在新分頁開啟路徑"
+
+#: dolphincontextmenu.cpp:336
+#, kde-format
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "新增到書籤"
+
+#: dolphinmainwindow.cpp:203
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully copied."
+msgstr "已成功複製。"
+
+#: dolphinmainwindow.cpp:206
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully moved."
+msgstr "已成功移動。"
+
+#: dolphinmainwindow.cpp:209
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully linked."
+msgstr "已成功連結。"
+
+#: dolphinmainwindow.cpp:212
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully moved to trash."
+msgstr "已成功移到資源回收筒。"
+
+#: dolphinmainwindow.cpp:215
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully renamed."
+msgstr "已成功重新命名。"
+
+#: dolphinmainwindow.cpp:219
+#, kde-format
+msgctxt "@info:status"
+msgid "Created folder."
+msgstr "資料夾已建立。"
+
+#: dolphinmainwindow.cpp:292
+#, kde-format
+msgctxt "@info"
+msgid "Go back"
+msgstr "返回"
+
+#: dolphinmainwindow.cpp:298
+#, kde-format
+msgctxt "@info"
+msgid "Go forward"
+msgstr "向前"
+
+#: dolphinmainwindow.cpp:372
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Access denied. Could not write to <filename>%1</filename>"
+msgctxt "@info"
+msgid "Could not access <filename>%1</filename>."
+msgstr "拒絕存取。無法寫入至 <filename>%1</filename>"
+
+#: dolphinmainwindow.cpp:402
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "確認"
+
+#: dolphinmainwindow.cpp:406
+#, kde-format
+msgid "C&lose Current Tab"
+msgstr "關閉目前的分頁(&L)"
+
+#: dolphinmainwindow.cpp:415
+#, kde-format
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr "您在此視窗中開啟了多個分頁。您確定要離開嗎？"
+
+#: dolphinmainwindow.cpp:417
+#, kde-format
+msgid "Do not ask again"
+msgstr "不要再詢問"
+
+#: dolphinmainwindow.cpp:890
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Location Bar"
+msgstr "位置列"
+
+#: dolphinmainwindow.cpp:898
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go"
+msgstr "前往"
+
+#: dolphinmainwindow.cpp:907
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Tools"
+msgstr "工具"
+
+#: dolphinmainwindow.cpp:1026
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Search"
+msgid "Search"
+msgstr "搜尋"
+
+#: dolphinmainwindow.cpp:1028
+#, fuzzy, kde-format
+#| msgid "Search for %1 in %2"
+msgid "Search for %1"
+msgstr "在 %2 中搜尋 %1"
+
+#: dolphinmainwindow.cpp:1069
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "New &Window"
+msgstr "新視窗(&W)"
+
+#: dolphinmainwindow.cpp:1075
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr "新增分頁"
+
+#: dolphinmainwindow.cpp:1081
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr "關閉分頁"
+
+#: dolphinmainwindow.cpp:1100
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "貼上"
+
+#: dolphinmainwindow.cpp:1105
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Select All"
+msgstr "全選"
+
+#: dolphinmainwindow.cpp:1111 dolphinpart.cpp:190
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "反向選擇"
+
+#: dolphinmainwindow.cpp:1125
+#, kde-format
+msgctxt "@action:intoolbar Stash"
+msgid "Stash"
+msgstr "暫存"
+
+#: dolphinmainwindow.cpp:1126
+#, kde-format
+msgctxt "@info"
+msgid "Opens the stash virtual directory in a split window"
+msgstr "在分割視窗中開啟暫存的虛擬目錄"
+
+#: dolphinmainwindow.cpp:1133
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Reload"
+msgstr "重新載入"
+
+#: dolphinmainwindow.cpp:1139
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "停止"
+
+#: dolphinmainwindow.cpp:1140
+#, kde-format
+msgctxt "@info"
+msgid "Stop loading"
+msgstr "停止載入"
+
+#: dolphinmainwindow.cpp:1145
+#, kde-format
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "可編輯位置"
+
+#: dolphinmainwindow.cpp:1150
+#, kde-format
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "取代位置"
+
+#: dolphinmainwindow.cpp:1170
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Undo close tab"
+msgstr "復原關閉分頁"
+
+#: dolphinmainwindow.cpp:1185
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Show Filter Bar"
+msgstr "顯示過濾器列"
+
+#: dolphinmainwindow.cpp:1191
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Compare Files"
+msgstr "比較檔案"
+
+#: dolphinmainwindow.cpp:1199
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr "開啟終端機"
+
+#: dolphinmainwindow.cpp:1220
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next Tab"
+msgstr "下一分頁"
+
+#: dolphinmainwindow.cpp:1221
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr "跳到下一個分頁"
+
+#: dolphinmainwindow.cpp:1227
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous Tab"
+msgstr "前一分頁"
+
+#: dolphinmainwindow.cpp:1228
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr "跳到前一個分頁"
+
+#: dolphinmainwindow.cpp:1235
+#, fuzzy, kde-format
+#| msgid "Show tags"
+msgctxt "@action:inmenu"
+msgid "Show Target"
+msgstr "顯示標籤"
+
+#: dolphinmainwindow.cpp:1241
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "在新分頁開啟"
+
+#: dolphinmainwindow.cpp:1246
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in New Tabs"
+msgstr "在新分頁開啟"
+
+#: dolphinmainwindow.cpp:1251
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "在新視窗開啟"
+
+#: dolphinmainwindow.cpp:1261
+#, kde-format
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "解除鎖定面板"
+
+#: dolphinmainwindow.cpp:1263
+#, kde-format
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "鎖定面板"
+
+#: dolphinmainwindow.cpp:1269
+#, kde-format
+msgctxt "@title:window"
+msgid "Information"
+msgstr "資訊"
+
+#: dolphinmainwindow.cpp:1290
+#, kde-format
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "資料夾"
+
+#: dolphinmainwindow.cpp:1314
+#, kde-format
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "終端機"
+
+#: dolphinmainwindow.cpp:1347
+#, kde-format
+msgctxt "@title:window"
+msgid "Places"
+msgstr "書籤"
+
+#: dolphinmainwindow.cpp:1379
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Panels"
+msgstr "面板"
+
+#: dolphinmainwindow.cpp:1449
+#, kde-format
+msgctxt "@action"
+msgid "Control"
+msgstr "控制"
+
+#: dolphinmainwindow.cpp:1565
+#, kde-format
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "關閉"
+
+#: dolphinmainwindow.cpp:1566
+#, kde-format
+msgctxt "@info"
+msgid "Close left view"
+msgstr "關閉左方檢視"
+
+#: dolphinmainwindow.cpp:1569
+#, kde-format
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "關閉"
+
+#: dolphinmainwindow.cpp:1570
+#, kde-format
+msgctxt "@info"
+msgid "Close right view"
+msgstr "關閉右方檢視"
+
+#: dolphinmainwindow.cpp:1574
+#, kde-format
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr "分割"
+
+#: dolphinmainwindow.cpp:1575
+#, kde-format
+msgctxt "@info"
+msgid "Split view"
+msgstr "分割檢視"
+
+#: dolphinpart.cpp:171
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "編輯檔案型態(&E)"
+
+#: dolphinpart.cpp:175
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "選取符合項目..."
+
+#: dolphinpart.cpp:180
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr "取消選取符合項目..."
+
+#: dolphinpart.cpp:186
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "全部取消選取"
+
+#: dolphinpart.cpp:203
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "應用程式(&L)"
+
+#: dolphinpart.cpp:206
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "網路資料夾(&N)"
+
+#: dolphinpart.cpp:209
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "設定(&I)"
+
+#: dolphinpart.cpp:212
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "資源回收桶"
+
+#: dolphinpart.cpp:215
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "自動啟動"
+
+#: dolphinpart.cpp:220
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "尋找檔案..."
+
+#: dolphinpart.cpp:229
+#, kde-format
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "開啟終端機(&T)"
+
+#: dolphinpart.cpp:299
+#, kde-format
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "Dolphin 部件"
+
+#: dolphinpart.cpp:493
+#, kde-format
+msgctxt "@title:window"
+msgid "Select"
+msgstr "選取"
+
+#: dolphinpart.cpp:494
+#, kde-format
+msgid "Select all items matching this pattern:"
+msgstr "選取符合此樣式的所有項目："
+
+#: dolphinpart.cpp:500
+#, kde-format
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr "取消選取"
+
+#: dolphinpart.cpp:501
+#, kde-format
+msgid "Unselect all items matching this pattern:"
+msgstr "取消選取符合此樣式的所有項目："
+
+#. i18n: ectx: Menu (edit)
+#: dolphinpart.rc:4
+#, kde-format
+msgid "&Edit"
+msgstr "編輯(&E)"
+
+#. i18n: ectx: Menu (selection)
+#: dolphinpart.rc:14
+#, kde-format
+msgctxt "@title:menu"
+msgid "Selection"
+msgstr "選擇區"
+
+#. i18n: ectx: Menu (view)
+#: dolphinpart.rc:23
+#, kde-format
+msgid "&View"
+msgstr "檢視(&V)"
+
+#. i18n: ectx: Menu (go)
+#: dolphinpart.rc:32
+#, kde-format
+msgid "&Go"
+msgstr "走(&G)"
+
+#. i18n: ectx: Menu (tools)
+#: dolphinpart.rc:40
+#, kde-format
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "工具"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinpart.rc:48
+#, kde-format
+msgctxt "@title:menu"
+msgid "Dolphin Toolbar"
+msgstr "Dolphin 工具列"
+
+#: dolphinrecenttabsmenu.cpp:29
+#, kde-format
+msgid "Recently Closed Tabs"
+msgstr "最近關閉的分頁"
+
+#: dolphinrecenttabsmenu.cpp:34
+#, kde-format
+msgid "Empty Recently Closed Tabs"
+msgstr "清空最近關閉的分頁"
+
+#: dolphintabbar.cpp:141
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "新增分頁"
+
+#: dolphintabbar.cpp:142
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr "分離分頁"
+
+#: dolphintabbar.cpp:143
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr "關閉其他分頁"
+
+#: dolphintabbar.cpp:144
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "關閉分頁"
+
+#. i18n: ectx: Menu (location_bar)
+#: dolphinui.rc:38
+#, kde-format
+msgctxt "@title:menu"
+msgid "Location Bar"
+msgstr "位置工具列"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinui.rc:92
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: dolphinviewcontainer.cpp:389 search/dolphinsearchbox.cpp:307
+#, kde-format
+msgid "Search for %1 in %2"
+msgstr "在 %2 中搜尋 %1"
+
+#: dolphinviewcontainer.cpp:459
+#, kde-format
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "載入資料夾中..."
+
+#: dolphinviewcontainer.cpp:467
+#, kde-format
+msgctxt "@info:progress"
+msgid "Sorting..."
+msgstr "排序中..."
+
+#: dolphinviewcontainer.cpp:478
+#, kde-format
+msgctxt "@info"
+msgid "Searching..."
+msgstr "搜尋中..."
+
+#: dolphinviewcontainer.cpp:498
+#, kde-format
+msgctxt "@info:status"
+msgid "No items found."
+msgstr "找不到任何項目。"
+
+#: dolphinviewcontainer.cpp:605
+#, kde-format
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin 不支援網頁，已啟動瀏覽器"
+
+#: dolphinviewcontainer.cpp:619
+#, kde-format
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "此協定未被 Dolphin 支援，已啟動 Konqueror"
+
+#: dolphinviewcontainer.cpp:627
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "不合法的協定"
+
+#: filterbar/filterbar.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Hide Filter Bar"
+msgstr "隱藏過濾器列"
+
+#: filterbar/filterbar.cpp:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep Filter When Changing Folders"
+msgstr "變更資料夾後仍保留過濾器"
+
+#: filterbar/filterbar.cpp:51
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Filter:"
+msgstr "過濾器："
+
+#: kitemviews/kfileitemlistwidget.cpp:72
+#, kde-format
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "未知"
+
+#: kitemviews/kfileitemlistwidget.cpp:74
+#, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 個項目"
+
+#: kitemviews/kfileitemmodel.cpp:1967
+#, kde-format
+msgctxt "@title:group Groups that start with a digit"
+msgid "0 - 9"
+msgstr "0 - 9"
+
+#: kitemviews/kfileitemmodel.cpp:1969
+#, kde-format
+msgctxt "@title:group"
+msgid "Others"
+msgstr "其他"
+
+#: kitemviews/kfileitemmodel.cpp:2000
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Folders"
+msgstr "資料夾"
+
+#: kitemviews/kfileitemmodel.cpp:2002
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Small"
+msgstr "小"
+
+#: kitemviews/kfileitemmodel.cpp:2004
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Medium"
+msgstr "中"
+
+#: kitemviews/kfileitemmodel.cpp:2006
+#, kde-format
+msgctxt "@title:group Size"
+msgid "Big"
+msgstr "大"
+
+#: kitemviews/kfileitemmodel.cpp:2051
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Today"
+msgstr "今天"
+
+#: kitemviews/kfileitemmodel.cpp:2052
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Yesterday"
+msgstr "昨天"
+
+#: kitemviews/kfileitemmodel.cpp:2055
+#, kde-format
+msgctxt "@title:group Date: The week day name: dddd"
+msgid "dddd"
+msgstr "dddd"
+
+#: kitemviews/kfileitemmodel.cpp:2057
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"dddd\"with context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2061
+#, kde-format
+msgctxt "@title:group Date"
+msgid "One Week Ago"
+msgstr "一週前"
+
+#: kitemviews/kfileitemmodel.cpp:2064
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Two Weeks Ago"
+msgstr "兩週前"
+
+#: kitemviews/kfileitemmodel.cpp:2067
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Three Weeks Ago"
+msgstr "三週前"
+
+#: kitemviews/kfileitemmodel.cpp:2071
+#, kde-format
+msgctxt "@title:group Date"
+msgid "Earlier this Month"
+msgstr "這個月之前"
+
+#: kitemviews/kfileitemmodel.cpp:2084
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number"
+msgid "'Yesterday' (MMMM, yyyy)"
+msgstr "昨天（yyyy 年 MMMM）"
+
+#: kitemviews/kfileitemmodel.cpp:2087
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Yesterday' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2092
+#, kde-format
+msgctxt ""
+"@title:group Date: The week day name: dddd, MMMM is full month name in "
+"current locale, and yyyy is full year number"
+msgid "dddd (MMMM, yyyy)"
+msgstr "dddd（yyyy 年 MMMM）"
+
+#: kitemviews/kfileitemmodel.cpp:2095
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"dddd (MMMM, yyyy)\" with context "
+"@title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2099
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number"
+msgid "'One Week Ago' (MMMM, yyyy)"
+msgstr "一週前（yyyy 年 MMMM）"
+
+#: kitemviews/kfileitemmodel.cpp:2102
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'One Week Ago' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2106
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number"
+msgid "'Two Weeks Ago' (MMMM, yyyy)"
+msgstr "兩週前（yyyy 年 MMMM）"
+
+#: kitemviews/kfileitemmodel.cpp:2109
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Two Weeks Ago' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2113
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number"
+msgid "'Three Weeks Ago' (MMMM, yyyy)"
+msgstr "三週前（yyyy 年 MMMM）"
+
+#: kitemviews/kfileitemmodel.cpp:2116
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Three Weeks Ago' (MMMM, yyyy)\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2120
+#, kde-format
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is "
+"full year number"
+msgid "'Earlier on' MMMM, yyyy"
+msgstr "比 yyyy 年 MMMM 更早"
+
+#: kitemviews/kfileitemmodel.cpp:2123
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"'Earlier on' MMMM, yyyy\" with "
+"context @title:group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2128
+#, kde-format
+msgctxt ""
+"@title:group The month and year: MMMM is full month name in current locale, "
+"and yyyy is full year number"
+msgid "MMMM, yyyy"
+msgstr "yyyy 年 MMMM"
+
+#: kitemviews/kfileitemmodel.cpp:2131
+#, kde-format
+msgctxt ""
+"Can be used to script translation of \"MMMM, yyyy\" with context @title:"
+"group Date"
+msgid "%1"
+msgstr "%1"
+
+#: kitemviews/kfileitemmodel.cpp:2170 kitemviews/kfileitemmodel.cpp:2183
+#: kitemviews/kfileitemmodel.cpp:2196
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Read, "
+msgstr "讀取，"
+
+#: kitemviews/kfileitemmodel.cpp:2173 kitemviews/kfileitemmodel.cpp:2186
+#: kitemviews/kfileitemmodel.cpp:2199
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Write, "
+msgstr "寫入，"
+
+#: kitemviews/kfileitemmodel.cpp:2176 kitemviews/kfileitemmodel.cpp:2189
+#: kitemviews/kfileitemmodel.cpp:2202
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Execute, "
+msgstr "執行，"
+
+#: kitemviews/kfileitemmodel.cpp:2178 kitemviews/kfileitemmodel.cpp:2191
+#: kitemviews/kfileitemmodel.cpp:2204
+#, kde-format
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Forbidden"
+msgstr "拒絕"
+
+#: kitemviews/kfileitemmodel.cpp:2206
+#, kde-format
+msgctxt "@title:group Files and folders by permissions"
+msgid "User: %1 | Group: %2 | Others: %3"
+msgstr "使用者：%1 | 群組：%2 | 其它：%3"
+
+#: kitemviews/kfileitemmodel.cpp:2295
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "名稱"
+
+#: kitemviews/kfileitemmodel.cpp:2296
+#, kde-format
+msgctxt "@label"
+msgid "Size"
+msgstr "大小"
+
+#: kitemviews/kfileitemmodel.cpp:2297
+#, kde-format
+msgctxt "@label"
+msgid "Modified"
+msgstr "已變更"
+
+#: kitemviews/kfileitemmodel.cpp:2298
+#, kde-format
+msgctxt "@label"
+msgid "Created"
+msgstr "已建立"
+
+#: kitemviews/kfileitemmodel.cpp:2299
+#, kde-format
+msgctxt "@label"
+msgid "Accessed"
+msgstr "已存取"
+
+#: kitemviews/kfileitemmodel.cpp:2300
+#, kde-format
+msgctxt "@label"
+msgid "Type"
+msgstr "類型"
+
+#: kitemviews/kfileitemmodel.cpp:2301
+#, kde-format
+msgctxt "@label"
+msgid "Rating"
+msgstr "評分"
+
+#: kitemviews/kfileitemmodel.cpp:2302
+#, kde-format
+msgctxt "@label"
+msgid "Tags"
+msgstr "標籤"
+
+#: kitemviews/kfileitemmodel.cpp:2303
+#, kde-format
+msgctxt "@label"
+msgid "Comment"
+msgstr "註解"
+
+#: kitemviews/kfileitemmodel.cpp:2304
+#, kde-format
+msgctxt "@label"
+msgid "Title"
+msgstr "標題"
+
+#: kitemviews/kfileitemmodel.cpp:2304 kitemviews/kfileitemmodel.cpp:2305
+#: kitemviews/kfileitemmodel.cpp:2306
+#, kde-format
+msgctxt "@label"
+msgid "Document"
+msgstr "文件"
+
+#: kitemviews/kfileitemmodel.cpp:2305
+#, kde-format
+msgctxt "@label"
+msgid "Word Count"
+msgstr "字數"
+
+#: kitemviews/kfileitemmodel.cpp:2306
+#, kde-format
+msgctxt "@label"
+msgid "Line Count"
+msgstr "行數"
+
+#: kitemviews/kfileitemmodel.cpp:2307
+#, kde-format
+msgctxt "@label"
+msgid "Date Photographed"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:2307 kitemviews/kfileitemmodel.cpp:2308
+#: kitemviews/kfileitemmodel.cpp:2309
+#, kde-format
+msgctxt "@label"
+msgid "Image"
+msgstr "影像"
+
+#: kitemviews/kfileitemmodel.cpp:2308
+#, kde-format
+msgctxt "@label"
+msgid "Image Size"
+msgstr "影像大小"
+
+#: kitemviews/kfileitemmodel.cpp:2309
+#, kde-format
+msgctxt "@label"
+msgid "Orientation"
+msgstr "方向"
+
+#: kitemviews/kfileitemmodel.cpp:2310
+#, kde-format
+msgctxt "@label"
+msgid "Artist"
+msgstr "演出者"
+
+#: kitemviews/kfileitemmodel.cpp:2310 kitemviews/kfileitemmodel.cpp:2311
+#: kitemviews/kfileitemmodel.cpp:2312 kitemviews/kfileitemmodel.cpp:2313
+#: kitemviews/kfileitemmodel.cpp:2314 kitemviews/kfileitemmodel.cpp:2315
+#: kitemviews/kfileitemmodel.cpp:2316
+#, kde-format
+msgctxt "@label"
+msgid "Audio"
+msgstr "音效"
+
+#: kitemviews/kfileitemmodel.cpp:2311
+#, kde-format
+msgctxt "@label"
+msgid "Genre"
+msgstr "風格"
+
+#: kitemviews/kfileitemmodel.cpp:2312
+#, kde-format
+msgctxt "@label"
+msgid "Album"
+msgstr "專輯"
+
+#: kitemviews/kfileitemmodel.cpp:2313
+#, kde-format
+msgctxt "@label"
+msgid "Duration"
+msgstr "期間"
+
+#: kitemviews/kfileitemmodel.cpp:2314
+#, kde-format
+msgctxt "@label"
+msgid "Bitrate"
+msgstr "位元率"
+
+#: kitemviews/kfileitemmodel.cpp:2315
+#, kde-format
+msgctxt "@label"
+msgid "Track"
+msgstr "音軌"
+
+#: kitemviews/kfileitemmodel.cpp:2316
+#, kde-format
+msgctxt "@label"
+msgid "Release Year"
+msgstr "發行年份"
+
+#: kitemviews/kfileitemmodel.cpp:2317
+#, kde-format
+msgctxt "@label"
+msgid "Path"
+msgstr "路徑"
+
+#: kitemviews/kfileitemmodel.cpp:2317 kitemviews/kfileitemmodel.cpp:2318
+#: kitemviews/kfileitemmodel.cpp:2319 kitemviews/kfileitemmodel.cpp:2320
+#: kitemviews/kfileitemmodel.cpp:2321 kitemviews/kfileitemmodel.cpp:2322
+#: kitemviews/kfileitemmodel.cpp:2323
+#, kde-format
+msgctxt "@label"
+msgid "Other"
+msgstr "其他"
+
+#: kitemviews/kfileitemmodel.cpp:2318
+#, kde-format
+msgctxt "@label"
+msgid "Deletion Time"
+msgstr "刪除時間"
+
+#: kitemviews/kfileitemmodel.cpp:2319
+#, kde-format
+msgctxt "@label"
+msgid "Link Destination"
+msgstr "連結目的"
+
+#: kitemviews/kfileitemmodel.cpp:2320
+#, kde-format
+msgctxt "@label"
+msgid "Downloaded From"
+msgstr "已下載從"
+
+#: kitemviews/kfileitemmodel.cpp:2321
+#, kde-format
+msgctxt "@label"
+msgid "Permissions"
+msgstr "權限"
+
+#: kitemviews/kfileitemmodel.cpp:2322
+#, kde-format
+msgctxt "@label"
+msgid "Owner"
+msgstr "擁有者"
+
+#: kitemviews/kfileitemmodel.cpp:2323
+#, kde-format
+msgctxt "@label"
+msgid "User Group"
+msgstr "使用者群組"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:180
+#, kde-format
+msgctxt "@item:intable Image orientation"
+msgid "Unchanged"
+msgstr "未改變"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:181
+#, kde-format
+msgctxt "@item:intable Image orientation"
+msgid "Horizontally flipped"
+msgstr "水平翻轉"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:182
+#, kde-format
+msgctxt "@item:intable image orientation"
+msgid "180° rotated"
+msgstr "旋轉 180°"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:183
+#, kde-format
+msgctxt "@item:intable image orientation"
+msgid "Vertically flipped"
+msgstr "垂直翻轉"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:184
+#, kde-format
+msgctxt "@item:intable image orientation"
+msgid "Transposed"
+msgstr "移位"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:185
+#, kde-format
+msgctxt "@item:intable image orientation"
+msgid "90° rotated"
+msgstr "旋轉 90°"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:186
+#, kde-format
+msgctxt "@item:intable image orientation"
+msgid "Transversed"
+msgstr "橫切"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:187
+#, kde-format
+msgctxt "@item:intable image orientation"
+msgid "270° rotated"
+msgstr "旋轉 270°"
+
+#: kitemviews/private/kbaloorolesprovider.cpp:205
+#, kde-format
+msgctxt "@label bitrate (per second)"
+msgid "%1/s"
+msgstr "%1/每秒"
+
+#: kitemviews/private/kfileitemmodeldirlister.cpp:42
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "未知的錯誤。"
+
+#: main.cpp:66
+#, kde-format
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#: main.cpp:67
+#, kde-format
+msgctxt "@title"
+msgid "File Manager"
+msgstr "檔案管理者"
+
+#: main.cpp:69
+#, kde-format
+msgctxt "@info:credit"
+msgid "(C) 2006-2016 Peter Penz, Frank Reininghaus, and Emmanuel Pescosta"
+msgstr "(C) 2006-2016 Peter Penz, Frank Reininghaus, and Emmanuel Pescosta"
+
+#: main.cpp:71
+#, kde-format
+msgctxt "@info:credit"
+msgid "Emmanuel Pescosta"
+msgstr "Emmanuel Pescosta"
+
+#: main.cpp:72
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (since 2014) and developer"
+msgstr "維護者 (2014 年起) 和發展者"
+
+#: main.cpp:74
+#, kde-format
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr "Frank Reininghaus"
+
+#: main.cpp:75
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (2012-2014) and developer"
+msgstr "維護者 (2012-2014) 和開發者"
+
+#: main.cpp:77
+#, kde-format
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "Peter Penz"
+
+#: main.cpp:78
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and developer (2006-2012)"
+msgstr "維護者和發展者 (2006-2012)"
+
+#: main.cpp:80
+#, kde-format
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: main.cpp:81 main.cpp:84 main.cpp:87 main.cpp:90 main.cpp:93 main.cpp:96
+#: main.cpp:99
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "開發者"
+
+#: main.cpp:83
+#, kde-format
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:86
+#, kde-format
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:89
+#, kde-format
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "Rafael Fernández López"
+
+#: main.cpp:92
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "Kevin Ottens"
+
+#: main.cpp:95
+#, kde-format
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "Holger Freyther"
+
+#: main.cpp:98
+#, kde-format
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "Max Blazejak"
+
+#: main.cpp:101
+#, kde-format
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "Michael Austin"
+
+#: main.cpp:102
+#, kde-format
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "文件"
+
+#: main.cpp:116
+#, kde-format
+msgctxt "@info:shell"
+msgid "The files and folders passed as arguments will be selected."
+msgstr "做為參數傳遞的檔案與目錄將被選取。"
+
+#: main.cpp:118
+#, kde-format
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr "Dolphin 會以分割檢視模式啟動。"
+
+#: main.cpp:119
+#, kde-format
+msgctxt "@info:shell"
+msgid "Start Dolphin Daemon (only required for DBus Interface)"
+msgstr "以伺服模式啟動 Dolphin (只有 DBus 介面需要)"
+
+#: main.cpp:120
+#, kde-format
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "要開啟的文件"
+
+#. i18n: ectx: label, entry (HiddenFilesShown), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:10
+#, kde-format
+msgid "Hidden files shown"
+msgstr "已顯示隱藏檔案"
+
+#. i18n: ectx: label, entry (LimitFoldersPanelToHome), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:14
+#, kde-format
+msgid "Limit folders panel to home directory if inside home"
+msgstr "若位於家目錄內，則資料夾面板只顯示到家目錄"
+
+#. i18n: ectx: label, entry (AutoScrolling), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:18
+#, kde-format
+msgid "Automatic scrolling"
+msgstr "自動捲軸"
+
+#: panels/folders/treeviewcontextmenu.cpp:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "剪下"
+
+#: panels/folders/treeviewcontextmenu.cpp:70
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "複製"
+
+#: panels/folders/treeviewcontextmenu.cpp:86
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename..."
+msgstr "重新命名..."
+
+#: panels/folders/treeviewcontextmenu.cpp:100
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "移到資源回收桶"
+
+#: panels/folders/treeviewcontextmenu.cpp:110
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "刪除"
+
+#: panels/folders/treeviewcontextmenu.cpp:120
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Hidden Files"
+msgstr "顯示隱藏檔案"
+
+#: panels/folders/treeviewcontextmenu.cpp:129
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Limit to Home Directory"
+msgstr "限制於家目錄"
+
+#: panels/folders/treeviewcontextmenu.cpp:137
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Automatic Scrolling"
+msgstr "自動捲軸"
+
+#: panels/folders/treeviewcontextmenu.cpp:147
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "屬性"
+
+#. i18n: ectx: label, entry (previewsShown), group (InformationPanel)
+#: panels/information/dolphin_informationpanelsettings.kcfg:10
+#, kde-format
+msgid "Previews shown"
+msgstr "已顯示預覽"
+
+#: panels/information/filemetadataconfigurationdialog.cpp:43
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Shown Data"
+msgstr "設定顯示資料"
+
+#: panels/information/filemetadataconfigurationdialog.cpp:55
+#, kde-format
+msgctxt "@label::textbox"
+msgid "Select which data should be shown:"
+msgstr "選擇哪些資料要被顯示出來："
+
+#: panels/information/informationpanelcontent.cpp:233
+#, kde-format
+msgctxt "@label"
+msgid "%1 item selected"
+msgid_plural "%1 items selected"
+msgstr[0] "已選擇 %1 個項目"
+
+#: panels/information/informationpanelcontent.cpp:278
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Preview"
+msgstr "預覽"
+
+#: panels/information/informationpanelcontent.cpp:283
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "設定..."
+
+#: panels/information/informationpanelcontent.cpp:305
+#, kde-format
+msgctxt "@label::textbox"
+msgid "Select which data should be shown in the information panel:"
+msgstr "選擇哪些資料要在資訊面板中被顯示出來："
+
+#: panels/information/phononwidget.cpp:126
+#, kde-format
+msgid "play"
+msgstr "播放"
+
+#: panels/information/phononwidget.cpp:132
+#, kde-format
+msgid "stop"
+msgstr "停止"
+
+#. i18n: ectx: label, entry (IconSize), group (PlacesPanel)
+#: panels/places/dolphin_placespanelsettings.kcfg:10
+#, kde-format
+msgid ""
+"Size of icons in the Places Panel (-1 means \"use the style's small size\")"
+msgstr "書籤面板裡的圖示大小（-1 表示「使用此樣式的小尺寸」）"
+
+#: panels/places/placesitemeditdialog.cpp:136
+#, kde-format
+msgctxt "@label"
+msgid "Label:"
+msgstr "標籤："
+
+#: panels/places/placesitemeditdialog.cpp:138
+#, kde-format
+msgid "Enter descriptive label here"
+msgstr "請輸入描述標籤"
+
+#: panels/places/placesitemeditdialog.cpp:142
+#, kde-format
+msgctxt "@label"
+msgid "Location:"
+msgstr "位置："
+
+#: panels/places/placesitemeditdialog.cpp:148
+#, kde-format
+msgctxt "@label"
+msgid "Choose an icon:"
+msgstr "選擇圖示："
+
+#: panels/places/placesitemeditdialog.cpp:160
+#, kde-format
+msgid "&Only show when using this application (%1)"
+msgstr "只在使用這個應用程式 (%1) 時顯示(&O)"
+
+#: panels/places/placesitemmodel.cpp:212
+#, kde-format
+msgctxt "@item"
+msgid "Eject"
+msgstr "退出"
+
+#: panels/places/placesitemmodel.cpp:247
+#, kde-format
+msgctxt "@item"
+msgid "Release"
+msgstr "放開"
+
+#: panels/places/placesitemmodel.cpp:249
+#, kde-format
+msgctxt "@item"
+msgid "Safely Remove"
+msgstr "安全地移除"
+
+#: panels/places/placesitemmodel.cpp:252
+#, kde-format
+msgctxt "@item"
+msgid "Unmount"
+msgstr "卸載"
+
+#: panels/places/placesitemmodel.cpp:274
+#, kde-format
+msgctxt "@info"
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr "裝置 %1 不是光碟機，無法跳出。"
+
+#: panels/places/placesitemmodel.cpp:508
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr "存取 %1 時發生錯誤，系統訊息：%2"
+
+#: panels/places/placesitemmodel.cpp:512
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while accessing '%1'"
+msgstr "存取 %1 時發生錯誤"
+
+#: panels/places/placespanel.cpp:204
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Open in New Window"
+msgstr "在新視窗開啟"
+
+#: panels/places/placespanel.cpp:205
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Open in New Tab"
+msgstr "在新分頁開啟"
+
+#: panels/places/placespanel.cpp:211
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Edit..."
+msgstr "編輯..."
+
+#: panels/places/placespanel.cpp:216
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Remove"
+msgstr "移除"
+
+#: panels/places/placespanel.cpp:219
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide"
+msgstr "隱藏"
+
+#: panels/places/placespanel.cpp:266
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Add Entry..."
+msgstr "新增項目..."
+
+#: panels/places/placespanel.cpp:270
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Show All Entries"
+msgstr "顯示所有項目"
+
+#: panels/places/placespanel.cpp:277
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Icon Size"
+msgstr "圖示大小"
+
+#: panels/places/placespanel.cpp:288
+#, kde-format
+msgctxt "Small icon size"
+msgid "Small (%1x%2)"
+msgstr "小型 (%1x%2)"
+
+#: panels/places/placespanel.cpp:289
+#, kde-format
+msgctxt "Medium icon size"
+msgid "Medium (%1x%2)"
+msgstr "中型 (%1x%2)"
+
+#: panels/places/placespanel.cpp:290
+#, kde-format
+msgctxt "Large icon size"
+msgid "Large (%1x%2)"
+msgstr "大型 (%1x%2)"
+
+#: panels/places/placespanel.cpp:291
+#, kde-format
+msgctxt "Huge icon size"
+msgid "Huge (%1x%2)"
+msgstr "大型 (%1x%2)"
+
+#: panels/places/placespanel.cpp:337
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide Section '%1'"
+msgstr ""
+
+#: panels/places/placespanel.cpp:452
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Places Entry"
+msgstr "新增快速存取清單項目"
+
+#: panels/places/placespanel.cpp:467
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Places Entry"
+msgstr "編輯快速存取清單項目"
+
+#: panels/terminal/terminalpanel.cpp:148
+#, kde-format
+msgid ""
+"Terminal cannot be shown because Konsole is not installed. Please install it "
+"and then reopen the panel."
+msgstr ""
+
+#: panels/terminal/terminalpanel.cpp:154
+#, kde-format
+msgid "Install Konsole"
+msgstr ""
+
+#. i18n: ectx: label, entry (Location), group (Search)
+#: search/dolphin_searchsettings.kcfg:10
+#, kde-format
+msgid "Location"
+msgstr "位置"
+
+#. i18n: ectx: label, entry (What), group (Search)
+#: search/dolphin_searchsettings.kcfg:14
+#, kde-format
+msgid "What"
+msgstr "什麼"
+
+#. i18n: ectx: label, entry (ShowFacetsWidget), group (Search)
+#: search/dolphin_searchsettings.kcfg:18
+#, kde-format
+msgid "Show facets widget"
+msgstr "顯示多面體元件"
+
+#: search/dolphinfacetswidget.cpp:51
+#, kde-format
+msgctxt "@option:check"
+msgid "Any"
+msgstr "任何"
+
+#: search/dolphinfacetswidget.cpp:52
+#, kde-format
+msgctxt "@option:check"
+msgid "Folders"
+msgstr "資料夾"
+
+#: search/dolphinfacetswidget.cpp:53
+#, kde-format
+msgctxt "@option:check"
+msgid "Documents"
+msgstr "文件"
+
+#: search/dolphinfacetswidget.cpp:54
+#, kde-format
+msgctxt "@option:check"
+msgid "Images"
+msgstr "影像"
+
+#: search/dolphinfacetswidget.cpp:55
+#, kde-format
+msgctxt "@option:check"
+msgid "Audio Files"
+msgstr "音效檔"
+
+#: search/dolphinfacetswidget.cpp:56
+#, kde-format
+msgctxt "@option:check"
+msgid "Videos"
+msgstr "影片"
+
+#: search/dolphinfacetswidget.cpp:69
+#, kde-format
+msgctxt "@option:option"
+msgid "Anytime"
+msgstr "任何時間"
+
+#: search/dolphinfacetswidget.cpp:70
+#, kde-format
+msgctxt "@option:option"
+msgid "Today"
+msgstr "今天"
+
+#: search/dolphinfacetswidget.cpp:71
+#, kde-format
+msgctxt "@option:option"
+msgid "Yesterday"
+msgstr "昨天"
+
+#: search/dolphinfacetswidget.cpp:72
+#, kde-format
+msgctxt "@option:option"
+msgid "This Week"
+msgstr "本週"
+
+#: search/dolphinfacetswidget.cpp:73
+#, kde-format
+msgctxt "@option:option"
+msgid "This Month"
+msgstr "這個月"
+
+#: search/dolphinfacetswidget.cpp:74
+#, kde-format
+msgctxt "@option:option"
+msgid "This Year"
+msgstr "今年"
+
+#: search/dolphinfacetswidget.cpp:87
+#, kde-format
+msgctxt "@option:option"
+msgid "Any Rating"
+msgstr "任何評分"
+
+#: search/dolphinfacetswidget.cpp:88
+#, kde-format
+msgctxt "@option:option"
+msgid "1 or more"
+msgstr "一個以上"
+
+#: search/dolphinfacetswidget.cpp:89
+#, kde-format
+msgctxt "@option:option"
+msgid "2 or more"
+msgstr "兩個以上"
+
+#: search/dolphinfacetswidget.cpp:90
+#, kde-format
+msgctxt "@option:option"
+msgid "3 or more"
+msgstr "三個以上"
+
+#: search/dolphinfacetswidget.cpp:91
+#, kde-format
+msgctxt "@option:option"
+msgid "4 or more"
+msgstr "四個以上"
+
+#: search/dolphinfacetswidget.cpp:92
+#, kde-format
+msgctxt "@option:option"
+msgid "Highest Rating"
+msgstr "最高分"
+
+#: search/dolphinsearchbox.cpp:100
+#, kde-format
+msgctxt "action:button"
+msgid "From Here (%1)"
+msgstr "從這裡（%1）"
+
+#: search/dolphinsearchbox.cpp:354
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Quit searching"
+msgstr "離開搜尋"
+
+#: search/dolphinsearchbox.cpp:374
+#, kde-format
+msgctxt "action:button"
+msgid "Save this search to quickly access it again in the future"
+msgstr "儲存此搜尋條件以供將來快速尋找"
+
+#: search/dolphinsearchbox.cpp:388
+#, kde-format
+msgctxt "action:button"
+msgid "Filename"
+msgstr "檔案名稱"
+
+#: search/dolphinsearchbox.cpp:392
+#, kde-format
+msgctxt "action:button"
+msgid "Content"
+msgstr "內容"
+
+#: search/dolphinsearchbox.cpp:403
+#, kde-format
+msgctxt "action:button"
+msgid "From Here"
+msgstr "從這裡"
+
+#: search/dolphinsearchbox.cpp:407
+#, kde-format
+msgctxt "action:button"
+msgid "Everywhere"
+msgstr "到處"
+
+#: search/dolphinsearchbox.cpp:419
+#, kde-format
+msgid "More Search Tools"
+msgstr "更多搜尋工具"
+
+#: search/dolphinsearchbox.cpp:511
+#, kde-format
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr "從 %1 得到的查詢結果"
+
+#: search/dolphinsearchbox.cpp:562
+#, kde-format
+msgctxt "action:button"
+msgid "Fewer Options"
+msgstr "較少選項"
+
+#: search/dolphinsearchbox.cpp:562
+#, kde-format
+msgctxt "action:button"
+msgid "More Options"
+msgstr "更多選項"
+
+#: settings/additionalinfodialog.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Additional Information"
+msgstr "額外資訊"
+
+#: settings/additionalinfodialog.cpp:54
+#, kde-format
+msgctxt "@label"
+msgid "Select which additional information should be shown:"
+msgstr "選擇哪些額外資訊要被顯示出來："
+
+#. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
+#: settings/dolphin_compactmodesettings.kcfg:12
+#: settings/dolphin_detailsmodesettings.kcfg:16
+#: settings/dolphin_iconsmodesettings.kcfg:12
+#, kde-format
+msgid "Use system font"
+msgstr "使用系統字型"
+
+#. i18n: ectx: label, entry (FontFamily), group (CompactMode)
+#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
+#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
+#: settings/dolphin_compactmodesettings.kcfg:16
+#: settings/dolphin_detailsmodesettings.kcfg:12
+#: settings/dolphin_iconsmodesettings.kcfg:16
+#, kde-format
+msgid "Font family"
+msgstr "字型家族"
+
+#. i18n: ectx: label, entry (FontSize), group (CompactMode)
+#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
+#. i18n: ectx: label, entry (FontSize), group (IconsMode)
+#: settings/dolphin_compactmodesettings.kcfg:20
+#: settings/dolphin_detailsmodesettings.kcfg:20
+#: settings/dolphin_iconsmodesettings.kcfg:20
+#, kde-format
+msgid "Font size"
+msgstr "字型大小"
+
+#. i18n: ectx: label, entry (ItalicFont), group (CompactMode)
+#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
+#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
+#: settings/dolphin_compactmodesettings.kcfg:24
+#: settings/dolphin_detailsmodesettings.kcfg:24
+#: settings/dolphin_iconsmodesettings.kcfg:24
+#, kde-format
+msgid "Italic"
+msgstr "斜體"
+
+#. i18n: ectx: label, entry (FontWeight), group (CompactMode)
+#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
+#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
+#: settings/dolphin_compactmodesettings.kcfg:28
+#: settings/dolphin_detailsmodesettings.kcfg:28
+#: settings/dolphin_iconsmodesettings.kcfg:28
+#, kde-format
+msgid "Font weight"
+msgstr "字型比重"
+
+#. i18n: ectx: label, entry (IconSize), group (CompactMode)
+#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
+#. i18n: ectx: label, entry (IconSize), group (IconsMode)
+#: settings/dolphin_compactmodesettings.kcfg:32
+#: settings/dolphin_detailsmodesettings.kcfg:32
+#: settings/dolphin_iconsmodesettings.kcfg:32
+#, kde-format
+msgid "Icon size"
+msgstr "圖示大小"
+
+#. i18n: ectx: label, entry (PreviewSize), group (CompactMode)
+#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
+#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
+#: settings/dolphin_compactmodesettings.kcfg:36
+#: settings/dolphin_detailsmodesettings.kcfg:36
+#: settings/dolphin_iconsmodesettings.kcfg:36
+#, kde-format
+msgid "Preview size"
+msgstr "預覽大小"
+
+#. i18n: ectx: label, entry (MaximumTextWidthIndex), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:40
+#, kde-format
+msgid "Maximum text width index (0 means unlimited)"
+msgstr "最大文字寬度索引（0 表示不限制）"
+
+#. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:40
+#, kde-format
+msgid "Position of columns"
+msgstr "欄位位置"
+
+#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:44
+#, kde-format
+msgid "Expandable folders"
+msgstr "可擴展資料夾"
+
+#. i18n: ectx: label, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:11
+#, kde-format
+msgctxt "@label"
+msgid "Hidden files shown"
+msgstr "已顯示隱藏檔案"
+
+#. i18n: ectx: whatsthis, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:12
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled hidden files, such as those starting with a '.', "
+"will be shown in the file view."
+msgstr "開啟此選項的話，檔案檢視中會顯示出隱藏檔案（檔名以 . 開頭的檔案）"
+
+#. i18n: ectx: label, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:19
+#, kde-format
+msgctxt "@label"
+msgid "Version"
+msgstr "版本"
+
+#. i18n: ectx: whatsthis, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:20
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This option defines the used version of the view properties."
+msgstr "此選項定義檢視屬性使用的版本。"
+
+#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:25
+#, kde-format
+msgctxt "@label"
+msgid "View Mode"
+msgstr "檢視模式"
+
+#. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:26
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This option controls the style of the view. Currently supported values "
+"include icons (0), details (1) and column (2) views."
+msgstr ""
+"此選項控制檢視的樣式。目前支援的樣式有圖示（0）、詳細資料（1）與欄位檢視"
+"（2）。"
+
+#. i18n: ectx: label, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:31
+#, kde-format
+msgctxt "@label"
+msgid "Previews shown"
+msgstr "已顯示預覽"
+
+#. i18n: ectx: whatsthis, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:32
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, a preview of the file content is shown as an "
+"icon."
+msgstr "此選項開啟的話，檔案內容會以圖示方式預覽出來。"
+
+#. i18n: ectx: label, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:37
+#, kde-format
+msgctxt "@label"
+msgid "Grouped Sorting"
+msgstr "將排序結果分組"
+
+#. i18n: ectx: whatsthis, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:38
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, the sorted items are categorized into groups."
+msgstr "開啟此選項的話，排序的項目會依類別做整理。"
+
+#. i18n: ectx: label, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:43
+#, kde-format
+msgctxt "@label"
+msgid "Sort files by"
+msgstr "排序檔案依據"
+
+#. i18n: ectx: whatsthis, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:44
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This option defines which attribute (text, size, date, etc.) sorting is "
+"performed on."
+msgstr "此選項定義排序檔案時要依據哪個屬性（如文字、大小、日期等）。"
+
+#. i18n: ectx: label, entry (SortOrder), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:49
+#, kde-format
+msgctxt "@label"
+msgid "Order in which to sort files"
+msgstr "排序檔案於"
+
+#. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:56
+#, kde-format
+msgctxt "@label"
+msgid "Show folders first when sorting files and folders"
+msgstr "排序檔案與資料夾時，先顯示資料夾"
+
+#. i18n: ectx: label, entry (VisibleRoles), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:61
+#, kde-format
+msgctxt "@label"
+msgid "Visible roles"
+msgstr "可見角色"
+
+#. i18n: ectx: label, entry (HeaderColumnWidths), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:66
+#, kde-format
+msgctxt "@label"
+msgid "Header column widths"
+msgstr "標頭欄位寬度"
+
+#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:71
+#, kde-format
+msgctxt "@label"
+msgid "Properties last changed"
+msgstr "最後變更屬性時間"
+
+#. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:72
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The last time these properties were changed by the user."
+msgstr "使用者最後變更這些屬性的時間"
+
+#. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:77
+#, kde-format
+msgctxt "@label"
+msgid "Additional Information"
+msgstr "額外資訊"
+
+#. i18n: ectx: label, entry (EditableUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:14
+#, kde-format
+msgid "Should the URL be editable for the user"
+msgstr "使用者是否可編輯此網址"
+
+#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
+#: settings/dolphin_generalsettings.kcfg:18
+#, kde-format
+msgid "Text completion mode of the URL Navigator"
+msgstr "網址導覽的文字補完模式"
+
+#. i18n: ectx: label, entry (ShowFullPath), group (General)
+#: settings/dolphin_generalsettings.kcfg:22
+#, kde-format
+msgid "Should the full path be shown inside the location bar"
+msgstr "是否要在位置列內顯示完整位置"
+
+#. i18n: ectx: label, entry (ShowFullPathInTitlebar), group (General)
+#: settings/dolphin_generalsettings.kcfg:26
+#, kde-format
+msgid "Should the full path be shown in the title bar"
+msgstr "是否要在標題列內顯示完整位置"
+
+#. i18n: ectx: label, entry (Version), group (General)
+#: settings/dolphin_generalsettings.kcfg:30
+#, kde-format
+msgid ""
+"Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
+msgstr "Dolphin 內部版本，包含三位數：主版號，次版號與修正編號"
+
+#. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
+#: settings/dolphin_generalsettings.kcfg:34
+#, kde-format
+msgid ""
+"Have the startup settings been modified (internal setting not shown in the "
+"UI)"
+msgstr "啟動設定是否已被更改（未在介面上顯示的內部設定）"
+
+#. i18n: ectx: label, entry (HomeUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:38
+#, kde-format
+msgid "Home URL"
+msgstr "家目錄網址"
+
+#. i18n: ectx: label, entry (SplitView), group (General)
+#: settings/dolphin_generalsettings.kcfg:42
+#, kde-format
+msgid "Split the view into two panes"
+msgstr "將檢視分割成兩個面板"
+
+#. i18n: ectx: label, entry (FilterBar), group (General)
+#: settings/dolphin_generalsettings.kcfg:46
+#, kde-format
+msgid "Should the filter bar be shown"
+msgstr "是否顯示過濾器列"
+
+#. i18n: ectx: label, entry (GlobalViewProps), group (General)
+#: settings/dolphin_generalsettings.kcfg:50
+#, kde-format
+msgid "Should the view properties be used for all folders"
+msgstr "此檢視屬性是否要套用到所有目錄"
+
+#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
+#: settings/dolphin_generalsettings.kcfg:54
+#, kde-format
+msgid "Browse through archives"
+msgstr "透過歸檔瀏覽"
+
+#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
+#: settings/dolphin_generalsettings.kcfg:58
+#, kde-format
+msgid "Ask for confirmation when closing windows with multiple tabs."
+msgstr "關閉包含多個分頁的視窗時先詢問確認"
+
+#. i18n: ectx: label, entry (RenameInline), group (General)
+#: settings/dolphin_generalsettings.kcfg:62
+#, kde-format
+msgid "Rename inline"
+msgstr "重新命名內含項目"
+
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: settings/dolphin_generalsettings.kcfg:66
+#, kde-format
+msgid "Show selection toggle"
+msgstr "顯示選取切換"
+
+#. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
+#: settings/dolphin_generalsettings.kcfg:70
+#, kde-format
+msgid "Use tab for switching between right and left split"
+msgstr "使用分頁在右邊與左邊的分割中切換"
+
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: settings/dolphin_generalsettings.kcfg:74
+#, kde-format
+msgid "Show tooltips"
+msgstr "顯示工具提示"
+
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
+#: settings/dolphin_generalsettings.kcfg:78
+#, kde-format
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "在選單中顯示「複製到」與「移動到」命令"
+
+#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
+#: settings/dolphin_generalsettings.kcfg:82
+#, kde-format
+msgid "Timestamp since when the view properties are valid"
+msgstr "此檢視屬性啟用的時間"
+
+#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
+#: settings/dolphin_generalsettings.kcfg:85
+#, kde-format
+msgid "Use auto-expanding folders for all view types"
+msgstr "對所有檢視模式都使用自動展開資料夾"
+
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: settings/dolphin_generalsettings.kcfg:89
+#, kde-format
+msgid "Show zoom slider in the statusbar"
+msgstr "在狀態列顯示縮放滑動器"
+
+#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
+#: settings/dolphin_generalsettings.kcfg:93
+#, kde-format
+msgid "Show the space information in the statusbar"
+msgstr "在狀態列顯示空間資訊"
+
+#. i18n: ectx: label, entry (LockPanels), group (General)
+#: settings/dolphin_generalsettings.kcfg:97
+#, kde-format
+msgid "Lock the layout of the panels"
+msgstr "鎖定面板的佈局"
+
+#. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
+#: settings/dolphin_generalsettings.kcfg:101
+#, kde-format
+msgid "Enlarge Small Previews"
+msgstr "將小的預覽放大"
+
+#. i18n: ectx: label, entry (SortingChoice), group (General)
+#: settings/dolphin_generalsettings.kcfg:110
+#, kde-format
+msgid ""
+"Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
+"items"
+msgstr "選擇自然、區分大小寫或是不區分大小寫的項目 排序法"
+
+#. i18n: ectx: label, entry (TextWidthIndex), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:40
+#, kde-format
+msgid "Text width index"
+msgstr "文字寬度索引"
+
+#. i18n: ectx: label, entry (MaximumTextLines), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:44
+#, kde-format
+msgid "Maximum textlines (0 means unlimited)"
+msgstr "最大文字行（0 表示不限制）"
+
+#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
+#: settings/dolphin_versioncontrolsettings.kcfg:10
+#, kde-format
+msgid "Enabled plugins"
+msgstr "已開啟的外掛程式"
+
+#: settings/dolphinsettingsdialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Dolphin Preferences"
+msgstr "Dolphin 喜好設定"
+
+#: settings/dolphinsettingsdialog.cpp:61
+#, kde-format
+msgctxt "@title:group"
+msgid "Startup"
+msgstr "啟動"
+
+#: settings/dolphinsettingsdialog.cpp:68
+#, kde-format
+msgctxt "@title:group"
+msgid "View Modes"
+msgstr "檢視模式"
+
+#: settings/dolphinsettingsdialog.cpp:75
+#, kde-format
+msgctxt "@title:group"
+msgid "Navigation"
+msgstr "導覽"
+
+#: settings/dolphinsettingsdialog.cpp:82
+#, kde-format
+msgctxt "@title:group"
+msgid "Services"
+msgstr "服務"
+
+#: settings/dolphinsettingsdialog.cpp:90
+#, kde-format
+msgctxt "@title:group"
+msgid "Trash"
+msgstr "資源回收桶"
+
+#: settings/dolphinsettingsdialog.cpp:98
+#, kde-format
+msgctxt "@title:group General settings"
+msgid "General"
+msgstr "一般"
+
+#: settings/general/behaviorsettingspage.cpp:48
+#, kde-format
+msgctxt "@title:group"
+msgid "View"
+msgstr "檢視"
+
+#: settings/general/behaviorsettingspage.cpp:51
+#, kde-format
+msgctxt "@option:radio"
+msgid "Remember properties for each folder"
+msgstr "記住每個資料夾的屬性"
+
+#: settings/general/behaviorsettingspage.cpp:52
+#, kde-format
+msgctxt "@option:radio"
+msgid "Use common properties for all folders"
+msgstr "對每個資料夾都使用共用的屬性"
+
+#: settings/general/behaviorsettingspage.cpp:59
+#, kde-format
+msgctxt "@title:group"
+msgid "Sorting Mode"
+msgstr "排序模式"
+
+#: settings/general/behaviorsettingspage.cpp:62
+#, kde-format
+msgctxt "option:radio"
+msgid "Natural sorting"
+msgstr "自然排序"
+
+#: settings/general/behaviorsettingspage.cpp:63
+#, kde-format
+msgctxt "option:radio"
+msgid "Alphabetical sorting, case insensitive"
+msgstr "字母排序，不區分大小寫"
+
+#: settings/general/behaviorsettingspage.cpp:64
+#, kde-format
+msgctxt "option:radio"
+msgid "Alphabetical sorting, case sensitive"
+msgstr "字母排序，區分大小寫"
+
+#: settings/general/behaviorsettingspage.cpp:72
+#, kde-format
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "顯示工具提示"
+
+#: settings/general/behaviorsettingspage.cpp:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "顯示選取標記"
+
+#: settings/general/behaviorsettingspage.cpp:78
+#, kde-format
+msgctxt "option:check"
+msgid "Rename inline"
+msgstr "重新命名內含項目"
+
+#: settings/general/behaviorsettingspage.cpp:81
+#, kde-format
+msgctxt "option:check"
+msgid "Use tab for switching between right and left split view"
+msgstr "使用分頁在右邊與左邊的分割檢視中切換"
+
+#: settings/general/configurepreviewplugindialog.cpp:49
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Preview for %1"
+msgstr "%1 的設定預覽"
+
+#: settings/general/confirmationssettingspage.cpp:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Ask for confirmation in all KDE applications when:"
+msgstr "在所有 KDE 應用程式中確認詢問的時機："
+
+#: settings/general/confirmationssettingspage.cpp:50
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Moving files or folders to trash"
+msgstr "將檔案或資料夾移到資源回收桶時"
+
+#: settings/general/confirmationssettingspage.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Empty Trash"
+msgctxt "@option:check Ask for confirmation when"
+msgid "Emptying trash"
+msgstr "清空垃圾桶"
+
+#: settings/general/confirmationssettingspage.cpp:54
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Deleting files or folders"
+msgstr "刪除檔案或資料夾時"
+
+#: settings/general/confirmationssettingspage.cpp:56
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Executing scripts or desktop files"
+msgstr "執行文稿或桌面檔案時"
+
+#: settings/general/confirmationssettingspage.cpp:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Ask for confirmation when:"
+msgstr "確認詢問："
+
+#: settings/general/confirmationssettingspage.cpp:62
+#, kde-format
+msgctxt "@option:check Ask for confirmation when"
+msgid "Closing Dolphin windows with multiple tabs"
+msgstr "關閉包含多個分頁的 Dolphin 視窗"
+
+#: settings/general/generalsettingspage.cpp:44
+#: settings/kcm/kcmdolphingeneral.cpp:50
+#, kde-format
+msgctxt "@title:tab Behavior settings"
+msgid "Behavior"
+msgstr "行為"
+
+#: settings/general/generalsettingspage.cpp:49
+#: settings/kcm/kcmdolphingeneral.cpp:55
+#, kde-format
+msgctxt "@title:tab Previews settings"
+msgid "Previews"
+msgstr "預覽"
+
+#: settings/general/generalsettingspage.cpp:54
+#: settings/kcm/kcmdolphingeneral.cpp:60
+#, kde-format
+msgctxt "@title:tab Confirmations settings"
+msgid "Confirmations"
+msgstr "確認"
+
+#: settings/general/generalsettingspage.cpp:59
+#, kde-format
+msgctxt "@title:tab Status Bar settings"
+msgid "Status Bar"
+msgstr "狀態列"
+
+#: settings/general/previewssettingspage.cpp:52
+#, kde-format
+msgctxt "@title:group"
+msgid "Show previews for:"
+msgstr "哪些要顯示預覽："
+
+#: settings/general/previewssettingspage.cpp:69
+#, kde-format
+msgctxt "@label"
+msgid "Skip previews for remote files above:"
+msgstr "遠端檔案超過此大小則不預覽："
+
+#: settings/general/statusbarsettingspage.cpp:34
+#, kde-format
+msgctxt "@option:check"
+msgid "Show zoom slider"
+msgstr "顯示縮放滑動器"
+
+#: settings/general/statusbarsettingspage.cpp:35
+#, kde-format
+msgctxt "@option:check"
+msgid "Show space information"
+msgstr "顯示空間資訊"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:51
+#: settings/viewmodes/viewsettingspage.cpp:42
+#, kde-format
+msgctxt "@title:tab"
+msgid "Icons"
+msgstr "圖示"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:56
+#: settings/viewmodes/viewsettingspage.cpp:47
+#, kde-format
+msgctxt "@title:tab"
+msgid "Compact"
+msgstr "簡潔模式"
+
+#: settings/kcm/kcmdolphinviewmodes.cpp:61
+#: settings/viewmodes/viewsettingspage.cpp:52
+#, kde-format
+msgctxt "@title:tab"
+msgid "Details"
+msgstr "詳細資料"
+
+#: settings/navigation/navigationsettingspage.cpp:40
+#, kde-format
+msgctxt "@option:check"
+msgid "Open archives as folder"
+msgstr "以資料夾開啟歸檔"
+
+#: settings/navigation/navigationsettingspage.cpp:43
+#, kde-format
+msgctxt "option:check"
+msgid "Open folders during drag operations"
+msgstr "在拖曳操作中開啟資料夾"
+
+#: settings/services/servicessettingspage.cpp:60
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select which services should be shown in the context menu:"
+msgstr "選擇內文選單中要顯示哪些服務："
+
+#: settings/services/servicessettingspage.cpp:75
+#, kde-format
+msgctxt "@action:button"
+msgid "Download New Services..."
+msgstr "下載新的服務..."
+
+#: settings/services/servicessettingspage.cpp:133
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Dolphin must be restarted to apply the updated version control systems "
+"settings."
+msgstr "Dolphin 必須重新啟動，以便套用更改過的版本控制系統設定。"
+
+#: settings/services/servicessettingspage.cpp:165
+#, kde-format
+msgctxt "@option:check"
+msgid "Delete"
+msgstr "刪除"
+
+#: settings/services/servicessettingspage.cpp:171
+#, kde-format
+msgctxt "@option:check"
+msgid "'Copy To' and 'Move To' commands"
+msgstr "「複製到」與「移動到」命令"
+
+#: settings/services/servicessettingspage.cpp:206
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: settings/startup/startupsettingspage.cpp:55
+#, kde-format
+msgctxt "@title:group"
+msgid "Home Folder"
+msgstr "家目錄"
+
+#: settings/startup/startupsettingspage.cpp:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "位置："
+
+#: settings/startup/startupsettingspage.cpp:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Home Location"
+msgstr "選擇家目錄位置"
+
+#: settings/startup/startupsettingspage.cpp:82
+#, kde-format
+msgctxt "@action:button"
+msgid "Use Current Location"
+msgstr "使用目前的位置"
+
+#: settings/startup/startupsettingspage.cpp:86
+#, kde-format
+msgctxt "@action:button"
+msgid "Use Default Location"
+msgstr "使用預設位置"
+
+#: settings/startup/startupsettingspage.cpp:96
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Split view mode"
+msgstr "分割檢視模式"
+
+#: settings/startup/startupsettingspage.cpp:98
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Editable location bar"
+msgstr "可編輯位置列"
+
+#: settings/startup/startupsettingspage.cpp:100
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Show full path inside location bar"
+msgstr "在位置列內顯示完整位置"
+
+#: settings/startup/startupsettingspage.cpp:102
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Show filter bar"
+msgstr "顯示過濾器列"
+
+#: settings/startup/startupsettingspage.cpp:104
+#, kde-format
+msgctxt "@option:check Startup Settings"
+msgid "Show full path in title bar"
+msgstr "在標題列內顯示完整位置"
+
+#: settings/startup/startupsettingspage.cpp:137
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The location for the home folder is invalid or does not exist, it will not "
+"be applied."
+msgstr "家目錄的位置不合法或不存在，將不會套用。"
+
+#: settings/viewmodes/dolphinfontrequester.cpp:41
+#, kde-format
+msgctxt "@item:inlistbox Font"
+msgid "System Font"
+msgstr "系統字型"
+
+#: settings/viewmodes/dolphinfontrequester.cpp:42
+#, kde-format
+msgctxt "@item:inlistbox Font"
+msgid "Custom Font"
+msgstr "自訂字型"
+
+#: settings/viewmodes/dolphinfontrequester.cpp:46
+#, kde-format
+msgctxt "@action:button Choose font"
+msgid "Choose..."
+msgstr "選擇..."
+
+#: settings/viewmodes/viewsettingstab.cpp:52
+#, kde-format
+msgctxt "@title:group"
+msgid "Icon Size"
+msgstr "圖示大小"
+
+#: settings/viewmodes/viewsettingstab.cpp:57
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Default:"
+msgstr "預設："
+
+#: settings/viewmodes/viewsettingstab.cpp:65
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Preview:"
+msgstr "預覽："
+
+#: settings/viewmodes/viewsettingstab.cpp:80
+#, kde-format
+msgctxt "@title:group"
+msgid "Text"
+msgstr "文字"
+
+#: settings/viewmodes/viewsettingstab.cpp:82
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Font:"
+msgstr "字型："
+
+#: settings/viewmodes/viewsettingstab.cpp:91
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Width:"
+msgstr "寬度："
+
+#: settings/viewmodes/viewsettingstab.cpp:93
+#, kde-format
+msgctxt "@item:inlistbox Text width"
+msgid "Small"
+msgstr "小"
+
+#: settings/viewmodes/viewsettingstab.cpp:94
+#, kde-format
+msgctxt "@item:inlistbox Text width"
+msgid "Medium"
+msgstr "中"
+
+#: settings/viewmodes/viewsettingstab.cpp:95
+#, kde-format
+msgctxt "@item:inlistbox Text width"
+msgid "Large"
+msgstr "大"
+
+#: settings/viewmodes/viewsettingstab.cpp:96
+#, kde-format
+msgctxt "@item:inlistbox Text width"
+msgid "Huge"
+msgstr "巨大"
+
+#: settings/viewmodes/viewsettingstab.cpp:98
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum lines:"
+msgstr "最大行數："
+
+#: settings/viewmodes/viewsettingstab.cpp:100
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "Unlimited"
+msgstr "不限制"
+
+#: settings/viewmodes/viewsettingstab.cpp:101
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "1"
+msgstr "1"
+
+#: settings/viewmodes/viewsettingstab.cpp:102
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "2"
+msgstr "2"
+
+#: settings/viewmodes/viewsettingstab.cpp:103
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "3"
+msgstr "3"
+
+#: settings/viewmodes/viewsettingstab.cpp:104
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "4"
+msgstr "4"
+
+#: settings/viewmodes/viewsettingstab.cpp:105
+#, kde-format
+msgctxt "@item:inlistbox Maximum lines"
+msgid "5"
+msgstr "5"
+
+#: settings/viewmodes/viewsettingstab.cpp:114
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum width:"
+msgstr "最大寬度："
+
+#: settings/viewmodes/viewsettingstab.cpp:116
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Unlimited"
+msgstr "不限制"
+
+#: settings/viewmodes/viewsettingstab.cpp:117
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Small"
+msgstr "小"
+
+#: settings/viewmodes/viewsettingstab.cpp:118
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Medium"
+msgstr "中"
+
+#: settings/viewmodes/viewsettingstab.cpp:119
+#, kde-format
+msgctxt "@item:inlistbox Maximum width"
+msgid "Large"
+msgstr "大"
+
+#: settings/viewmodes/viewsettingstab.cpp:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Expandable folders"
+msgstr "可展開資料夾"
+
+#: settings/viewmodes/viewsettingstab.cpp:282
+#: statusbar/dolphinstatusbar.cpp:323
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "大小：%1 像素"
+
+#: settings/viewpropertiesdialog.cpp:66
+#, kde-format
+msgctxt "@title:window"
+msgid "View Properties"
+msgstr "檢視屬性"
+
+#: settings/viewpropertiesdialog.cpp:82
+#, kde-format
+msgctxt "@title:group"
+msgid "Properties"
+msgstr "屬性"
+
+#: settings/viewpropertiesdialog.cpp:86
+#, kde-format
+msgctxt "@label:listbox"
+msgid "View mode:"
+msgstr "檢視模式："
+
+#: settings/viewpropertiesdialog.cpp:88
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Icons"
+msgstr "圖示"
+
+#: settings/viewpropertiesdialog.cpp:89
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Compact"
+msgstr "簡潔模式"
+
+#: settings/viewpropertiesdialog.cpp:90
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Details"
+msgstr "詳細模式"
+
+#: settings/viewpropertiesdialog.cpp:92
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sorting:"
+msgstr "排序："
+
+#: settings/viewpropertiesdialog.cpp:96
+#, kde-format
+msgctxt "@item:inlistbox Sort"
+msgid "Ascending"
+msgstr "遞增"
+
+#: settings/viewpropertiesdialog.cpp:97
+#, kde-format
+msgctxt "@item:inlistbox Sort"
+msgid "Descending"
+msgstr "遞減"
+
+#: settings/viewpropertiesdialog.cpp:105
+#, kde-format
+msgctxt "@option:check"
+msgid "Show folders first"
+msgstr "先顯示資料夾"
+
+#: settings/viewpropertiesdialog.cpp:106
+#, kde-format
+msgctxt "@option:check"
+msgid "Show preview"
+msgstr "顯示預覽"
+
+#: settings/viewpropertiesdialog.cpp:107
+#, kde-format
+msgctxt "@option:check"
+msgid "Show in groups"
+msgstr "以群組顯示"
+
+#: settings/viewpropertiesdialog.cpp:108
+#, kde-format
+msgctxt "@option:check"
+msgid "Show hidden files"
+msgstr "顯示隱藏檔案"
+
+#: settings/viewpropertiesdialog.cpp:110
+#, kde-format
+msgctxt "@action:button"
+msgid "Additional Information"
+msgstr "額外資訊"
+
+#: settings/viewpropertiesdialog.cpp:153
+#, kde-format
+msgctxt "@title:group"
+msgid "Apply View Properties To"
+msgstr "套用檢視屬性到"
+
+#: settings/viewpropertiesdialog.cpp:157
+#, kde-format
+msgctxt "@option:radio Apply View Properties To"
+msgid "Current folder"
+msgstr "目前資料夾"
+
+#: settings/viewpropertiesdialog.cpp:160
+#, kde-format
+msgctxt "@option:radio Apply View Properties To"
+msgid "Current folder including all sub-folders"
+msgstr "目前資料夾與所有的子資料夾"
+
+#: settings/viewpropertiesdialog.cpp:162
+#, kde-format
+msgctxt "@option:radio Apply View Properties To"
+msgid "All folders"
+msgstr "所有資料夾"
+
+#: settings/viewpropertiesdialog.cpp:174
+#, kde-format
+msgctxt "@option:check"
+msgid "Use these view properties as default"
+msgstr "將此檢視屬性設為預設值"
+
+#: settings/viewpropertiesdialog.cpp:321
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The view properties of all sub-folders will be changed. Do you want to "
+"continue?"
+msgstr "所有子資料夾的檢視屬性都將被改變。您確定要繼續嗎？"
+
+#: settings/viewpropertiesdialog.cpp:353
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The view properties of all folders will be changed. Do you want to continue?"
+msgstr "所有資料夾的檢視屬性都將被改變。您確定要繼續嗎？"
+
+#: settings/viewpropsprogressinfo.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Applying View Properties"
+msgstr "套用檢視屬性"
+
+#: settings/viewpropsprogressinfo.cpp:63 settings/viewpropsprogressinfo.cpp:127
+#, kde-format
+msgctxt "@info:progress"
+msgid "Counting folders: %1"
+msgstr "計算資料夾：%1"
+
+#: settings/viewpropsprogressinfo.cpp:143
+#, kde-format
+msgctxt "@info:progress"
+msgid "Folders: %1"
+msgstr "資料夾：%1 "
+
+#: statusbar/dolphinstatusbar.cpp:66
+#, kde-format
+msgid "Zoom"
+msgstr "縮放"
+
+#: statusbar/dolphinstatusbar.cpp:67
+#, kde-format
+msgctxt "Description for zoom-slider (accessibility)"
+msgid "Sets the size of the file icons."
+msgstr "設定檔案圖示的大小。"
+
+#: statusbar/dolphinstatusbar.cpp:81
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: statusbar/dolphinstatusbar.cpp:83
+#, kde-format
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr "停止載入"
+
+#: statusbar/dolphinstatusbar.cpp:261
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "顯示縮放滑動器"
+
+#: statusbar/dolphinstatusbar.cpp:265
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "顯示空間資訊"
+
+#: statusbar/statusbarspaceinfo.cpp:95
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown size"
+msgstr "未知的大小"
+
+#: statusbar/statusbarspaceinfo.cpp:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "剩餘 %1"
+
+#: views/dolphinremoteencoding.cpp:51
+#, kde-format
+msgid "Select Remote Charset"
+msgstr "選擇遠端字元集"
+
+#: views/dolphinremoteencoding.cpp:115
+#, kde-format
+msgid "Reload"
+msgstr "重新載入"
+
+#: views/dolphinremoteencoding.cpp:116
+#, kde-format
+msgid "Default"
+msgstr "預設"
+
+#: views/dolphinview.cpp:534
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "已選取 %1 個資料夾"
+
+#: views/dolphinview.cpp:535
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] "已選取 %1 個檔案"
+
+#: views/dolphinview.cpp:539
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "%1 個資料夾"
+
+#: views/dolphinview.cpp:540
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] "%1 個檔案"
+
+#: views/dolphinview.cpp:544
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1，%2（%3）"
+
+#: views/dolphinview.cpp:548
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1（%2）"
+
+#: views/dolphinview.cpp:554
+#, kde-format
+msgctxt "@info:status"
+msgid "0 Folders, 0 Files"
+msgstr "0 個資料夾，0 個檔案"
+
+#: views/dolphinview.cpp:836
+#, kde-format
+msgid "Are you sure you want to open 1 item?"
+msgid_plural "Are you sure you want to open %1 items?"
+msgstr[0] "您確定要開啟這 %1 個項目嗎？"
+
+#: views/dolphinview.cpp:946
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Automatic Column Widths"
+msgstr "自動調整欄位寬度"
+
+#: views/dolphinview.cpp:951
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Custom Column Widths"
+msgstr "自訂欄位寬度"
+
+#: views/dolphinview.cpp:1452
+#, kde-format
+msgctxt "@info:status"
+msgid "Trash operation completed."
+msgstr "移動到資源回收桶已完成。"
+
+#: views/dolphinview.cpp:1461
+#, kde-format
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "刪除已完成。"
+
+#: views/dolphinview.cpp:1606
+#, kde-format
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "此位置是空的。"
+
+#: views/dolphinview.cpp:1608
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "此位置 %1 是不合法的。"
+
+#: views/dolphinviewactionhandler.cpp:94
+#, kde-format
+msgctxt "@action"
+msgid "Create Folder..."
+msgstr "建立資料夾..."
+
+#: views/dolphinviewactionhandler.cpp:124
+#, kde-format
+msgctxt "@action \"Move to Trash\" for non-local files, etc."
+msgid "Delete (using shortcut for Trash)"
+msgstr "刪除（使用資源回收桶的捷徑）"
+
+#: views/dolphinviewactionhandler.cpp:131
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "屬性"
+
+#: views/dolphinviewactionhandler.cpp:142
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "View Mode"
+msgstr "檢視模式"
+
+#: views/dolphinviewactionhandler.cpp:158
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Preview"
+msgstr "預覽"
+
+#: views/dolphinviewactionhandler.cpp:159
+#, kde-format
+msgctxt "@info"
+msgid "Show preview of files and folders"
+msgstr "顯示檔案與資料夾的預覽"
+
+#: views/dolphinviewactionhandler.cpp:164
+#, kde-format
+msgctxt "@action:inmenu Sort"
+msgid "Descending"
+msgstr "遞減"
+
+#: views/dolphinviewactionhandler.cpp:168
+#, kde-format
+msgctxt "@action:inmenu Sort"
+msgid "Folders First"
+msgstr "資料夾優先"
+
+#: views/dolphinviewactionhandler.cpp:175
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Sort By"
+msgstr "排序依據"
+
+#: views/dolphinviewactionhandler.cpp:189
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Additional Information"
+msgstr "額外資訊"
+
+#: views/dolphinviewactionhandler.cpp:198
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Show in Groups"
+msgstr "以群組顯示"
+
+#: views/dolphinviewactionhandler.cpp:202
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Hidden Files"
+msgstr "隱藏檔案"
+
+#: views/dolphinviewactionhandler.cpp:203
+#, kde-format
+msgctxt "@info"
+msgid "Visibility of hidden files and folders"
+msgstr "隱藏檔案與資料夾的可見度"
+
+#: views/dolphinviewactionhandler.cpp:208
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Adjust View Properties..."
+msgstr "調整檢視屬性..."
+
+#: views/dolphinviewactionhandler.cpp:492
+#, kde-format
+msgctxt "@action:inmenu View Mode"
+msgid "Icons"
+msgstr "圖示"
+
+#: views/dolphinviewactionhandler.cpp:493
+#, kde-format
+msgctxt "@info"
+msgid "Icons view mode"
+msgstr "圖示檢視模式"
+
+#: views/dolphinviewactionhandler.cpp:503
+#, kde-format
+msgctxt "@action:inmenu View Mode"
+msgid "Compact"
+msgstr "簡潔模式"
+
+#: views/dolphinviewactionhandler.cpp:504
+#, kde-format
+msgctxt "@info"
+msgid "Compact view mode"
+msgstr "簡潔檢視模式"
+
+#: views/dolphinviewactionhandler.cpp:514
+#, kde-format
+msgctxt "@action:inmenu View Mode"
+msgid "Details"
+msgstr "詳細模式"
+
+#: views/dolphinviewactionhandler.cpp:515
+#, kde-format
+msgctxt "@info"
+msgid "Details view mode"
+msgstr "詳細檢視模式"
+
+#: views/renamedialog.cpp:55
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "重新命名項目"
+
+#: views/renamedialog.cpp:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "重新命名項目"
+
+#: views/renamedialog.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "重新命名(&R)"
+
+#: views/renamedialog.cpp:78
+#, kde-kuit-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "將項目 %1 重新命名為："
+
+#: views/renamedialog.cpp:82
+#, kde-format
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "新名稱 #"
+
+#: views/renamedialog.cpp:84
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "將 %1 個選取的項目重新命名為："
+
+#: views/renamedialog.cpp:129
+#, kde-format
+msgctxt "@info"
+msgid "# will be replaced by ascending numbers starting with:"
+msgstr "# 會取代為遞增的數字，由此數字開始："
+
+#: views/versioncontrol/versioncontrolobserver.cpp:212
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating version information..."
+msgstr "更新版本資訊中..."
+
+#~ msgctxt "@item"
+#~ msgid "Places"
+#~ msgstr "書籤"
+
+#~ msgctxt "@item"
+#~ msgid "Recently Saved"
+#~ msgstr "最近儲存的"
+
+#~ msgctxt "@item"
+#~ msgid "Search For"
+#~ msgstr "搜尋"
+
+#~ msgctxt "@item"
+#~ msgid "Devices"
+#~ msgstr "裝置"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Home"
+#~ msgstr "家目錄"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Network"
+#~ msgstr "網路"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Root"
+#~ msgstr "根目錄"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Trash"
+#~ msgstr "資源回收桶"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Yesterday"
+#~ msgstr "昨天"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "This Month"
+#~ msgstr "這個月"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Last Month"
+#~ msgstr "上個月"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Documents"
+#~ msgstr "文件"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Images"
+#~ msgstr "影像"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Audio Files"
+#~ msgstr "音效檔"
+
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Videos"
+#~ msgstr "影片"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Empty Trash"
+#~ msgid "Empty Search"
+#~ msgstr "清空垃圾桶"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Move to Trash"
+#~ msgstr "移到資源回收筒(&M)"
+
+#~ msgctxt "@action:inmenu File"
+#~ msgid "Rename..."
+#~ msgstr "重新命名..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgctxt "@action:inmenu File"
+#~ msgid "Move to Trash"
+#~ msgstr "移到資源回收桶"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Open '%1' in New Tab"
+#~ msgstr "在新分頁開啟 '%1'"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Remove '%1'"
+#~ msgstr "移除 '%1'"
+
+#~ msgctxt "@action:inmenu File"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgctxt "@label"
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgctxt "option:check"
+#~ msgid "Natural sorting of items"
+#~ msgstr "項目的自然排序"
+
+#, fuzzy
+#~| msgctxt "@option:radio Apply View Properties To"
+#~| msgid "Current folder"
+#~ msgctxt "@action:inmenu %1 service name"
+#~ msgid "%1 - current folder"
+#~ msgstr "目前資料夾"
+
+#, fuzzy
+#~| msgctxt "@option:radio Apply View Properties To"
+#~| msgid "Current folder"
+#~ msgctxt "@action:inmenu %1 service name"
+#~ msgid "%1 - current device"
+#~ msgstr "目前資料夾"
+
+#, fuzzy
+#~| msgctxt "@item"
+#~| msgid "Devices"
+#~ msgctxt "@action:inmenu %1 service name"
+#~ msgid "%1 - all devices"
+#~ msgstr "裝置"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Into Folder"
+#~ msgstr "貼到資料夾內"
+
+#~ msgctxt "@title:group The week day name: %A"
+#~ msgid "%A"
+#~ msgstr "%A"
+
+#~ msgctxt ""
+#~ "@title:group The week day name: %A, %B is full month name in current "
+#~ "locale, and %Y is full year number"
+#~ msgid "%A (%B, %Y)"
+#~ msgstr "%A（%Y 年 %B）"
+
+#~ msgctxt ""
+#~ "@title:group The month and year: %B is full month name in current locale, "
+#~ "and %Y is full year number"
+#~ msgid "%B, %Y"
+#~ msgstr "%Y 年 %B"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to empty the Trash? All items will be deleted."
+#~ msgstr "您確定要清空資源回收桶嗎？所有的項目都將被刪除。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Empty Trash"
+#~ msgstr "清空資源回收桶"
+
+#~ msgctxt "@title:group"
+#~ msgid "Mouse"
+#~ msgstr "滑鼠"
+
+#~ msgctxt "@option:check Mouse Settings"
+#~ msgid "Double-click to open files and folders"
+#~ msgstr "雙擊以開啟檔案與資料夾"
+
+#~ msgctxt "@info:status"
+#~ msgid "A folder cannot be dropped into itself"
+#~ msgstr "資料夾無法放到它自己裡面"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "貼上"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Find:"
+#~ msgstr "尋找："
+
+#~ msgctxt "@info:status"
+#~ msgid "Update of version information failed."
+#~ msgstr "更新版本資訊失敗。"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Text"
+#~ msgstr "複製文字"
+
+#~ msgctxt "@info:status"
+#~ msgid "<filename>%1</filename> selected"
+#~ msgstr "已選取 <filename>%1</filename>"
+
+#~ msgctxt "@title:group Date"
+#~ msgid "Last Week"
+#~ msgstr "上週"
+
+#~ msgctxt ""
+#~ "@title:group Date: %B is full month name in current locale, and %Y is "
+#~ "full year number"
+#~ msgid "Last Week (%B, %Y)"
+#~ msgstr "上週（%Y 年 %B）"
+
+#~ msgid "Zoom slider"
+#~ msgstr "縮放滑動器"
+
+#~ msgctxt "@item Recently Accessed"
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgctxt "@item Recently Accessed"
+#~ msgid "Yesterday"
+#~ msgstr "昨天"
+
+#~ msgctxt "@label"
+#~ msgid "Trash"
+#~ msgstr "資源回收桶"
+
+#~ msgctxt "@option:option"
+#~ msgid "Maximum Rating"
+#~ msgstr "最高評分"
+
+#~ msgctxt "@label"
+#~ msgid "Music"
+#~ msgstr "音樂"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Music"
+#~ msgctxt "@item Commonly Accessed"
+#~ msgid "Music"
+#~ msgstr "音樂"
+
+#~ msgctxt "option:check Refers to a filter on image size"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "option:check Refers to a filter on image size"
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgctxt "option:check Refers to a filter on image size"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "View Properties"
+#~ msgctxt "@label"
+#~ msgid "View properties:"
+#~ msgstr "檢視屬性"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Information Message"
+#~ msgstr "複製資訊訊息"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Error Message"
+#~ msgstr "複製錯誤訊息"
+
+#~ msgctxt "@item:intable"
+#~ msgid "No destination"
+#~ msgstr "沒有目的"
+
+#~ msgctxt "@title:tab Context Menu settings"
+#~ msgid "Context Menu"
+#~ msgstr "內文選單"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show 'Delete' command"
+#~ msgstr "在選單中顯示「刪除」命令"
+
+#~ msgctxt "@title:group"
+#~ msgid "Do not create previews for"
+#~ msgstr "哪些不要建立預覽："
+
+#~ msgctxt "@label Don't create previews for: <Local files above:> XX MByte"
+#~ msgid "Local files above:"
+#~ msgstr "上方的本地檔案："
+
+#~ msgctxt "@title:group"
+#~ msgid "Version Control Systems"
+#~ msgstr "版本控制系統"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Configure and control Dolphin"
+#~ msgstr "設定與控制 Dolphin"
+
+#~ msgctxt "@item:intable"
+#~ msgid "items"
+#~ msgstr "項目"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Permissions"
+#~ msgstr "權限"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Owner"
+#~ msgstr "擁有者"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Destination"
+#~ msgstr "目的地"
+
+#~ msgctxt "@item:intable"
+#~ msgid "Path"
+#~ msgstr "路徑"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Name"
+#~ msgstr "依名稱"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Size"
+#~ msgstr "依大小"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Date"
+#~ msgstr "依日期"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Permissions"
+#~ msgstr "依權限"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Owner"
+#~ msgstr "依擁有者"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Group"
+#~ msgstr "依群組"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Type"
+#~ msgstr "依類型"
+
+#~ msgctxt "@item:inlistbox Sort"
+#~ msgid "By Link Destination"
+#~ msgstr "依連結目的"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "@label"
+#~ msgid "Additional information"
+#~ msgstr "額外資訊"
+
+#~ msgctxt "@info:status filename (type)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgctxt "@option:check"
+#~ msgid "Rename inline"
+#~ msgstr "重新命名內含項目"
+
+#~ msgctxt "@info:status"
+#~ msgid "<filename>%1</filename> selected (%2)"
+#~ msgstr "已選取 <filename>%1</filename>（%2）"
+
+#~ msgid ""
+#~ "Is the application started the first time (internal setting not shown in "
+#~ "the UI)"
+#~ msgstr "此應用程式是否第一次啟動（未在介面上顯示的內部設定）"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Column"
+#~ msgstr "欄"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Number of lines:"
+#~ msgstr "行數："
+
+#~ msgctxt "@title:group"
+#~ msgid "Grid"
+#~ msgstr "格線"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Arrangement:"
+#~ msgstr "安排"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Columns"
+#~ msgstr "欄"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Rows"
+#~ msgstr "列"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Grid spacing:"
+#~ msgstr "格線空間"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgctxt "@item:inlistbox Grid spacing"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Column"
+#~ msgstr "欄"
+
+#~ msgctxt "@option:check"
+#~ msgid "Expandable Folders"
+#~ msgstr "可擴展資料夾"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Columns"
+#~ msgstr "欄"
+
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "Columns"
+#~ msgstr "欄"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Resize column"
+#~ msgstr "重設欄的大小"
+
+#~ msgctxt "@title::column"
+#~ msgid "Link Destination"
+#~ msgstr "連結目的"
+
+#~ msgctxt "@title::column"
+#~ msgid "Path"
+#~ msgstr "路徑"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Deselect Item"
+#~ msgstr "反選取項目"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select Item"
+#~ msgstr "選取項目"
+
+#~ msgid "Show preview"
+#~ msgstr "顯示預覽"
+
+#~ msgctxt "@label"
+#~ msgid "Show hidden files"
+#~ msgstr "顯示隱藏檔案"
+
+#~ msgctxt "@label"
+#~ msgid "Show preview"
+#~ msgstr "顯示預覽"
+
+#~ msgctxt "@label"
+#~ msgid "Additional information (deprecated, use AdditionInfoV2 instead)"
+#~ msgstr "額外資訊（已廢棄，請改用 AdditionInfoV2）"
+
+#~ msgid "Arrangement"
+#~ msgstr "安排"
+
+#~ msgid "Item height"
+#~ msgstr "項目突顯"
+
+#~ msgid "Item width"
+#~ msgstr "項目寬度"
+
+#~ msgid "Grid spacing"
+#~ msgstr "格線空間"
+
+#~ msgid "Number of textlines"
+#~ msgstr "文字行數"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu Go"
+#~| msgid "Sett&ings"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Settings"
+#~ msgstr "設定(&I)"
+
+#~ msgctxt "@title:window"
+#~ msgid "Filter"
+#~ msgstr "過濾器"
+
+#~ msgctxt "@action:button"
+#~ msgid "Configure..."
+#~ msgstr "設定..."
+
+#~ msgctxt "@label::textbox"
+#~ msgid "Select which data should be shown in the tooltip:"
+#~ msgstr "選擇哪些資料要在工具提示中被顯示出來："
+
+#~ msgid "Remove folder restriction"
+#~ msgstr "移除資料夾限制"
+
+#~ msgctxt "@title:group"
+#~ msgid "Tag"
+#~ msgstr "標籤"
+
+#~ msgctxt "@action:button"
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgctxt "@action:button"
+#~ msgid "Yesterday"
+#~ msgstr "昨天"
+
+#~ msgctxt "@title:group"
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Open Parent Folder in New Window"
+#~ msgstr "在新視窗開啟父資料夾"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Open Parent Folder in New Tab"
+#~ msgstr "在新分頁開啟父資料夾"
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "The new name is empty. A name with at least one character must be entered."
+#~ msgstr "新名稱是空白的。您必須至少輸入一個字元。"
+
+#~ msgctxt "@info:status"
+#~ msgid "The name must contain at least one # character."
+#~ msgstr "名稱必須包含一個 # 字元。"
+
+#~ msgctxt "@info"
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgctxt "@title:menu"
+#~ msgid "View Mode"
+#~ msgstr "檢視模式"
+
+#~ msgctxt "@label"
+#~ msgid "No Tags Available"
+#~ msgstr "沒有可用的標籤"
+
+#~ msgctxt "@label"
+#~ msgid "Byte"
+#~ msgstr "位元組"
+
+#~ msgctxt "@label"
+#~ msgid "KByte"
+#~ msgstr "KB"
+
+#~ msgctxt "@label"
+#~ msgid "MByte"
+#~ msgstr "MB"
+
+#~ msgctxt "@label"
+#~ msgid "GByte"
+#~ msgstr "GB"
+
+#~ msgctxt "@label"
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgctxt "@label"
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgctxt "@label"
+#~ msgid "Filenames"
+#~ msgstr "檔名"
+
+#~ msgctxt "@label"
+#~ msgid "Search:"
+#~ msgstr "搜尋："
+
+#~ msgctxt "@label"
+#~ msgid "What:"
+#~ msgstr "什麼："
+
+#~ msgctxt "@info"
+#~ msgid "Add search option"
+#~ msgstr "新增搜尋選項"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "儲存"
+
+#~ msgctxt "@info"
+#~ msgid "Save search options"
+#~ msgstr "儲存搜尋選項"
+
+#~ msgctxt "@action:button"
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgctxt "@info"
+#~ msgid "Close search options"
+#~ msgstr "關閉搜尋選項"
+
+#~ msgctxt "@label"
+#~ msgid "Greater Than"
+#~ msgstr "大於"
+
+#~ msgctxt "@label"
+#~ msgid "Greater Than or Equal to"
+#~ msgstr "大於或等於"
+
+#~ msgctxt "@label"
+#~ msgid "Less Than"
+#~ msgstr "小於"
+
+#~ msgctxt "@label"
+#~ msgid "Less Than or Equal to"
+#~ msgstr "小於或等於"
+
+#~ msgctxt "@label"
+#~ msgid "Date:"
+#~ msgstr "日期："
+
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgctxt "@label All (tags)"
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgctxt "@label"
+#~ msgid "Equal to"
+#~ msgstr "等於"
+
+#~ msgctxt "@label"
+#~ msgid "Not Equal to"
+#~ msgstr "不等於"
+
+#~ msgctxt "@label"
+#~ msgid "Tag:"
+#~ msgstr "標籤："
+
+#~ msgctxt "@label Any (rating)"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgctxt "@label"
+#~ msgid "Rating:"
+#~ msgstr "評分："
+
+#~ msgctxt "@label"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgctxt "@title:window"
+#~ msgid "Save Search Options"
+#~ msgstr "儲存搜尋選項"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Search..."
+#~ msgstr "搜尋..."
+
+#~ msgctxt "@action:inmenu Tools"
+#~ msgid "Show Search Bar"
+#~ msgstr "顯示搜尋列"
+
+#~ msgid "Criteria"
+#~ msgstr "標準"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Permissions"
+#~ msgstr "權限"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Owner"
+#~ msgstr "擁有者"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgctxt "@option:check Additional Information"
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Normal"
+#~ msgstr "一般"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Update required"
+#~ msgstr "需要更新"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Locally modified"
+#~ msgstr "本地端已修改"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Added"
+#~ msgstr "已新增"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Conflicting"
+#~ msgstr "衝突"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Permissions"
+#~ msgstr "權限"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Owner"
+#~ msgstr "擁有者"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Permissions"
+#~ msgstr "權限"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Owner"
+#~ msgstr "擁有者"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Additional Information"
+#~ msgstr "額外資訊"
+
+#~ msgctxt "@option:check"
+#~ msgid "Use thumbnails embedded in files"
+#~ msgstr "使用嵌在檔案中的縮圖"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Update"
+#~ msgstr "SVN 更新"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Show Local SVN Changes"
+#~ msgstr "顯示本地端的 SVN 變更"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Commit..."
+#~ msgstr "SVN 提交..."
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Add"
+#~ msgstr "SVN 新增"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "SVN Delete"
+#~ msgstr "SVN 刪除"
+
+#~ msgctxt "@info:status"
+#~ msgid "Updating SVN repository..."
+#~ msgstr "更新 SVN 主目錄..."
+
+#~ msgctxt "@info:status"
+#~ msgid "Update of SVN repository failed."
+#~ msgstr "更新 SVN 主目錄失敗"
+
+#~ msgctxt "@info:status"
+#~ msgid "Updated SVN repository."
+#~ msgstr "已更新 SVN 主目錄。"
+
+#~ msgctxt "@title:window"
+#~ msgid "SVN Commit"
+#~ msgstr "SVN 提交"
+
+#~ msgctxt "@action:button"
+#~ msgid "Commit"
+#~ msgstr "提交"
+
+#~ msgctxt "@info:status"
+#~ msgid "Commit of SVN changes failed."
+#~ msgstr "提交 SVN 的變更失敗"
+
+#~ msgctxt "@info:status"
+#~ msgid "Committing SVN changes..."
+#~ msgstr "提交 SVN 的變更..."
+
+#~ msgctxt "@info:status"
+#~ msgid "Committed SVN changes."
+#~ msgstr "已提交 SVN 的變更。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Adding files to SVN repository..."
+#~ msgstr "新增檔案到 SVN 主目錄..."
+
+#~ msgctxt "@info:status"
+#~ msgid "Adding of files to SVN repository failed."
+#~ msgstr "新增檔案到 SVN 主目錄失敗。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Added files to SVN repository."
+#~ msgstr "已新增檔案到 SVN 主目錄。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Removing files from SVN repository..."
+#~ msgstr "從 SVN 主目錄移除檔案..."
+
+#~ msgctxt "@info:status"
+#~ msgid "Removing of files from SVN repository failed."
+#~ msgstr "從 SVN 主目錄移除檔案失敗。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Removed files from SVN repository."
+#~ msgstr "已從 SVN 主目錄移除檔案。"
+
+#~ msgctxt "@label"
+#~ msgid "Folder"
+#~ msgstr "資料夾"
+
+#~ msgctxt "@label"
+#~ msgid "Total Size:"
+#~ msgstr "總計大小："
+
+#, fuzzy
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Type"
+#~ msgctxt "@label file type"
+#~ msgid "Type"
+#~ msgstr "型態"
+
+#~ msgctxt "@title:window"
+#~ msgid "Change Tags"
+#~ msgstr "變更標籤"
+
+#~ msgctxt "@title:window"
+#~ msgid "Add Tags"
+#~ msgstr "新增標籤"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Configure which tags should be applied."
+#~ msgstr "設定哪些標籤要被套用。"
+
+#~ msgctxt "@label"
+#~ msgid "Create new tag:"
+#~ msgstr "建立新標籤："
+
+#~ msgctxt "@info"
+#~ msgid "Delete tag"
+#~ msgstr "刪除標籤"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Should the tag <resource>%1</resource> really be deleted for all files?"
+#~ msgstr "所有檔案中的標籤 <resource>%1</resource> 真的都要刪除嗎？"
+
+#~ msgctxt "@title"
+#~ msgid "Delete tag"
+#~ msgstr "刪除標籤"
+
+#~ msgctxt "@action:button"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgctxt "@label"
+#~ msgid "Add Tags..."
+#~ msgstr "新增標籤..."
+
+#~ msgctxt "@label"
+#~ msgid "Change..."
+#~ msgstr "變更..."
+
+#~ msgctxt "@info:progress"
+#~ msgid "Changing annotations"
+#~ msgstr "變更文件註記"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "型態"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Modified"
+#~ msgstr "修改時間"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Owner"
+#~ msgstr "擁有者"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Permissions"
+#~ msgstr "權限"
+
+#~ msgctxt "@title:window"
+#~ msgid "Change Comment"
+#~ msgstr "變更註解"
+
+#~ msgctxt "@title:window"
+#~ msgid "Add Comment"
+#~ msgstr "新增註解"
+
+#, fuzzy
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Size"
+#~ msgctxt "@label file content size"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#, fuzzy
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Modified"
+#~ msgctxt "@label modified date of file"
+#~ msgid "Modified"
+#~ msgstr "修改時間"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Sort"
+#~| msgid "By Type"
+#~ msgctxt "@label"
+#~ msgid "MIME Type"
+#~ msgstr "依類型"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgctxt "@label file URL"
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#, fuzzy
+#~| msgctxt "@info:status"
+#~| msgid "Created folder."
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "資料夾已建立。"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Cancel"
+#~ msgctxt "@label"
+#~ msgid "Channels"
+#~ msgstr "取消"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Lines:"
+#~ msgctxt "@label number of lines"
+#~ msgid "Lines"
+#~ msgstr "行數："
+
+#, fuzzy
+#~| msgctxt "@item::inlistbox"
+#~| msgid "Modified"
+#~ msgctxt "@label EXIF"
+#~ msgid "Model"
+#~ msgstr "修改時間"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Width x Height:"
+#~ msgctxt "@label image width and height"
+#~ msgid "Width x Height"
+#~ msgstr "寬 x 高："
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Rating"
+#~ msgstr "評分"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Tags"
+#~ msgstr "標籤"
+
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Comment"
+#~ msgstr "註解"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Filenames"
+#~ msgctxt "@label"
+#~ msgid "File Name"
+#~ msgstr "檔名"
+
+#~ msgctxt "@label"
+#~ msgid "Type:"
+#~ msgstr "型態："
+
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "修改時間："
+
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "擁有者："
+
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "權限："
+
+#~ msgctxt "@label"
+#~ msgid "Tags:"
+#~ msgstr "標籤："
+
+#~ msgctxt "@label"
+#~ msgid "Comment:"
+#~ msgstr "註解："
+
+#~ msgctxt "@option:check"
+#~ msgid "Use as default for new folders"
+#~ msgstr "設為新資料夾的預設值"
+
+#~ msgctxt "@action:inmenu Settings"
+#~ msgid "Get Service Menu..."
+#~ msgstr "取得服務選單..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Navigation Bar"
+#~ msgstr "導覽列"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Click to begin the search"
+#~ msgstr "點擊以開始搜尋"
+
+#~ msgctxt "@label"
+#~ msgid "Date Modified"
+#~ msgstr "修改日期"
+
+#~ msgctxt "@info:status"
+#~ msgid "Copy operation completed."
+#~ msgstr "複製已完成。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Move operation completed."
+#~ msgstr "移動已完成。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Link operation completed."
+#~ msgstr "連結已完成。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Renaming operation completed."
+#~ msgstr "改名已完成。"
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "Text"
+#~ msgctxt "label"
+#~ msgid "Texts"
+#~ msgstr "文字"
+
+#~ msgid "Show comment"
+#~ msgstr "顯示註解"
+
+#~ msgctxt "@title:window subtitle to previous message"
+#~ msgid "with optional icon and description"
+#~ msgstr "使用選擇性的圖示與描述"
+
+#~ msgctxt "@label Indicator when no tags defined"
+#~ msgid "No Tags"
+#~ msgstr "沒有標籤"
+
+#~ msgid "Do you really want to delete tag '%1'?"
+#~ msgstr "您確定要刪除標籤 '%1' 嗎？"
+
+#~ msgctxt "@label"
+#~ msgid "Detailed description (optional):"
+#~ msgstr "詳情（選擇性的）："
+
+#~ msgctxt "and ss in a logic operator to connect search terms"
+#~ msgid "and"
+#~ msgstr "且"
+
+#~ msgctxt "or as in a logic operator to connect search terms"
+#~ msgid "or"
+#~ msgstr "或"
+
+#~ msgctxt "not as in a logic operator to connect search terms"
+#~ msgid "not"
+#~ msgstr "否"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Latest"
+#~ msgstr "最新"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Editing"
+#~ msgstr "編輯中"
+
+#~ msgctxt "@item::intable"
+#~ msgid "Local"
+#~ msgstr "本地端"
+
+#~ msgctxt "@title:group Tags"
+#~ msgid "Not yet tagged"
+#~ msgstr "尚未標示"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Move To Trash"
+#~ msgstr "移到資源回收桶"
+
+#~| msgctxt "@action:inmenu File"
+#~| msgid "Rename..."
+#~ msgctxt "@action:inmenu File"
+#~ msgid "&Rename..."
+#~ msgstr "重新命名(&R)..."
+
+#~| msgctxt "@action:inmenu File"
+#~| msgid "Properties"
+#~ msgctxt "@action:inmenu File"
+#~ msgid "&Properties"
+#~ msgstr "屬性(&P)"
+
+#~| msgctxt "@action:intoolbar"
+#~| msgid "Preview"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "P&review"
+#~ msgstr "預覽(&R)"
+
+#~| msgctxt "@action:inmenu Sort"
+#~| msgid "Descending"
+#~ msgctxt "@action:inmenu Sort"
+#~ msgid "Des&cending"
+#~ msgstr "遞減(&C)"
+
+#~| msgctxt "@action:inmenu View"
+#~| msgid "Show Hidden Files"
+#~ msgctxt "@action:inmenu View"
+#~ msgid "Show &Hidden Files"
+#~ msgstr "顯示隱藏檔案(&H)"
+
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Size"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "&Size"
+#~ msgstr "大小(&S)"
+
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Date"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "D&ate"
+#~ msgstr "日期(&A)"
+
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Permissions"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Pe&rmissions"
+#~ msgstr "權限(&R)"
+
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Owner"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "&Owner"
+#~ msgstr "擁有者(&O)"
+
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Group"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "Gro&up"
+#~ msgstr "群組(&U)"
+
+#~| msgctxt "@action:inmenu Additional information"
+#~| msgid "Type"
+#~ msgctxt "@action:inmenu Additional information"
+#~ msgid "&Type"
+#~ msgstr "類型(&T)"
+
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Size"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Size"
+#~ msgstr "大小(&S)"
+
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Date"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Date"
+#~ msgstr "日期(&D)"
+
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Permissions"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "Pe&rmissions"
+#~ msgstr "權限(&R)"
+
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Owner"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Owner"
+#~ msgstr "擁有者(&O)"
+
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Group"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Group"
+#~ msgstr "群組(&G)"
+
+#~| msgctxt "@action:inmenu Sort By"
+#~| msgid "Type"
+#~ msgctxt "@action:inmenu Sort By"
+#~ msgid "&Type"
+#~ msgstr "類型(&T)"
+
+#~| msgctxt "@action:inmenu View Mode"
+#~| msgid "Icons"
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "&Icons"
+#~ msgstr "圖示(&I)"
+
+#~| msgctxt "@action:inmenu View Mode"
+#~| msgid "Details"
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "Det&ails"
+#~ msgstr "詳細資料(&A)"
+
+#~| msgctxt "@action:inmenu View Mode"
+#~| msgid "Columns"
+#~ msgctxt "@action:inmenu View Mode"
+#~ msgid "Col&umns"
+#~ msgstr "欄(&U)"
+
+#~ msgctxt "@action:inmenu Tools"
+#~ msgid "Quick View"
+#~ msgstr "快速檢視"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "貼上 1 個資料夾"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "貼上 1 個檔案"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Item"
+#~ msgid_plural "Paste %1 Items"
+#~ msgstr[0] "貼上 %1 個項目"
+
+#~ msgctxt "@option:check"
+#~ msgid "Browse through archives"
+#~ msgstr "透過歸檔瀏覽"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "All settings will be reset to default values. Do you want to continue?"
+#~ msgstr "所有設定都將還原回預設值。您確定要繼續嗎？"
+
+#~ msgctxt "@title:tab General settings"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "The dropped item <filename>%1</filename> is already inside the folder "
+#~ "<filename>%2</filename>"
+#~ msgstr ""
+#~ "放下的項目 <filename>%1</filename> 已經在資料夾 <filename>%2</filename> 內"
+
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "The dropped items are already inside the folder <filename>%1</filename>"
+#~ msgstr "放下的項目已經在資料夾 <filename>%1</filename> 內"
+
+#~ msgctxt "@info:status"
+#~ msgid "Protocol not supported"
+#~ msgstr "不支援此協定"
+
+#~ msgctxt "@info:status separator between 2 status infos"
+#~ msgid ", "
+#~ msgstr "，"
+
+#~ msgctxt "@action:inmenu Navigation Bar"
+#~ msgid "Show Full Location"
+#~ msgstr "顯示完整位置"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Move Here\t<shortcut>%1</shortcut>"
+#~ msgstr "移到這裡(&M)\t<shortcut>%1</shortcut>"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Copy Here\t<shortcut>%1</shortcut>"
+#~ msgstr "複製到這裡(&C)\t<shortcut>%1</shortcut>"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Link Here\t<shortcut>%1</shortcut>"
+#~ msgstr "連結到這裡(&L)\t<shortcut>%1</shortcut>"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Left to Right"
+#~ msgstr "左到右"
+
+#~ msgctxt "@item:inlistbox Arrangement"
+#~ msgid "Top to Bottom"
+#~ msgstr "上到下"
+
+#~ msgctxt "@item:inrange Column Width"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "@item:inrange Column Width"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "@option:radio Icon Size"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "@option:radio Icon Size"
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgctxt "@option:radio Icon Size"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "@action:button"
+#~ msgid "Change Icon && Preview Size..."
+#~ msgstr "變更圖示和預覽大小"
+
+#~ msgctxt "@title:window"
+#~ msgid "Change Icon & Preview Size"
+#~ msgstr "變更圖示和預覽大小"
+
+#~ msgctxt "@item:inrange Icon Size"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "@item:inrange Icon Size"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "@item:inrange Preview Size"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "@item:inrange Preview Size"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "@info:status"
+#~ msgid "Getting size..."
+#~ msgstr "取得大小..."
+
+#~ msgctxt "@action:inmenu Edit"
+#~ msgid "Properties"
+#~ msgstr "屬性"

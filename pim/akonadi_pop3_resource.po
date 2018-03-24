@@ -1,0 +1,863 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2011.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-08 03:34+0100\n"
+"PO-Revision-Date: 2016-11-14 21:27+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: accountdialog.cpp:84
+#, kde-format
+msgid "POP3 Account Settings"
+msgstr "POP3 帳號設定"
+
+#: accountdialog.cpp:118
+#, kde-format
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分鐘"
+
+#: accountdialog.cpp:163
+#, kde-format
+msgid "POP3 Account"
+msgstr "POP3 帳號"
+
+#: accountdialog.cpp:234
+#, kde-format
+msgid "Wallet disabled in system settings"
+msgstr "系統設定中已關閉錢包功能"
+
+#: accountdialog.cpp:262
+#, kde-format
+msgid "Unable to open wallet"
+msgstr "無法開啟錢包"
+
+#: accountdialog.cpp:322
+#, kde-format
+msgid ""
+"The server does not seem to support unique message numbers, but this is a "
+"requirement for leaving messages on the server.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn leaving fetched messages on the server on."
+msgstr ""
+"這個伺服器似乎不支援單一的信件編號，但是如果您要將信件留在伺服器上的話，這個"
+"功能是必要的。\n"
+"不過有些伺服器可能也搞不清楚它們到底有沒有支援這個功能，您還是可以試試將這個"
+"功能打開。"
+
+#: accountdialog.cpp:338
+#, kde-format
+msgid ""
+"The server does not seem to support fetching message headers, but this is a "
+"requirement for filtering messages on the server.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn filtering messages on the server on."
+msgstr ""
+"這個伺服器不提供信件的標頭，但是如果您要過濾信件的話，這個功能是必要的。\n"
+"不過有些伺服器可能也搞不清楚它們到底有沒有支援這個功能，您還是可以試試將這個"
+"功能打開。"
+
+#: accountdialog.cpp:353
+#, kde-format
+msgid ""
+"Please note that this feature can cause some POP3 servers that do not "
+"support pipelining to send corrupted mail;\n"
+"this is configurable, though, because some servers support pipelining but do "
+"not announce their capabilities. To check whether your POP3 server announces "
+"pipelining support use the \"Auto Detect\" button at the bottom of the "
+"dialog;\n"
+"if your server does not announce it, but you want more speed, then you "
+"should do some testing first by sending yourself a batch of mail and "
+"downloading it."
+msgstr ""
+"請注意，這個功能可能會導致一些不支援此功能的 POP3 伺服器送信時送出損毀的郵"
+"件；\n"
+"這是可設定的，因為有些伺服器支援管線但並未公告其能力。要檢查您的 POP3 伺服器"
+"是否支援管線，您可以用對話框底部的「自動偵測」按鈕來檢查；\n"
+"若您的伺服器沒有公告它，但您想要更多速度，您應該先寄送一批郵件並下載它來測"
+"試。"
+
+#: accountdialog.cpp:381
+#, kde-format
+msgid "Please specify a server and port on the General tab first."
+msgstr "請先在「一般」頁中指定伺服器與連接埠號。"
+
+#: accountdialog.cpp:414
+#, kde-format
+msgid "Unable to connect to the server, please verify the server address."
+msgstr "無法連線到伺服器，請檢查伺服器位址。"
+
+#: accountdialog.cpp:459
+#, kde-format
+msgid ""
+"The server does not seem to support pipelining; therefore, this option has "
+"been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn pipelining on. But please note that this "
+"feature can cause some POP servers that do not support pipelining to send "
+"corrupt messages. So before using this feature with important mail you "
+"should first test it by sending yourself a larger number of test messages "
+"which you all download in one go from the POP server."
+msgstr ""
+"這個伺服器似乎不支援管線下載功能，所以此功能已被關閉。\n"
+"不過有些伺服器可能也搞不清楚它們到底有沒有支援這個功能，您還是可以試試將這個"
+"功能打開。只是建議您先送一些測試信件來確保不會發生問題。"
+
+#: accountdialog.cpp:480
+#, kde-format
+msgid ""
+"The server does not seem to support unique message numbers, but this is a "
+"requirement for leaving messages on the server; therefore, this option has "
+"been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn leaving fetched messages on the server on."
+msgstr ""
+"這個伺服器似乎不支援單一的信件編號，但是如果您要將信件留在伺服器上的話，這個"
+"功能是必要的。\n"
+"不過有些伺服器可能也搞不清楚它們到底有沒有支援這個功能，您還是可以試試將這個"
+"功能打開。"
+
+#: accountdialog.cpp:495
+#, kde-format
+msgid ""
+"The server does not seem to support fetching message headers, but this is a "
+"requirement for filtering messages on the server; therefore, this option has "
+"been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn filtering messages on the server on."
+msgstr ""
+"這個伺服器不提供信件的標頭，但是如果您要過濾信件的話，這個功能是必要的。\n"
+"不過有些伺服器可能也搞不清楚它們到底有沒有支援這個功能，您還是可以試試將這個"
+"功能打開。"
+
+#: accountdialog.cpp:528
+#, kde-format
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: accountdialog.cpp:533
+#, kde-format
+msgid " message"
+msgid_plural " messages"
+msgstr[0] " 封信件"
+
+#: accountdialog.cpp:538
+#, kde-format
+msgid " byte"
+msgid_plural " bytes"
+msgstr[0] " 位元組"
+
+#: jobs.cpp:282
+#, kde-format
+msgid "Unable to create POP3 slave, aborting mail check."
+msgstr "無法建立 POP3 slave，中止檢查郵件。"
+
+#: pop3resource.cpp:109
+#, kde-format
+msgid "Mail check aborted."
+msgstr "郵件檢查已中止。"
+
+#: pop3resource.cpp:116
+#, kde-format
+msgid "Mail check was canceled manually."
+msgstr "郵件檢查已手動取消。"
+
+#: pop3resource.cpp:149
+#, kde-format
+msgid "Please enter the username and password for account '%1'."
+msgstr "請輸入帳號 %1 的使用者名稱與密碼。"
+
+#: pop3resource.cpp:174
+#, kde-format
+msgid ""
+"You are asked here because the password could not be loaded from the wallet."
+msgstr "您被詢問的原因是因為無法從錢包中取得密碼。"
+
+#: pop3resource.cpp:211
+#, kde-format
+msgid "Account:"
+msgstr "帳號："
+
+#: pop3resource.cpp:228
+#, kde-format
+msgid "No username and password supplied."
+msgstr "沒有提供使用者名稱與密碼。"
+
+#: pop3resource.cpp:248
+#, kde-format
+msgid "Preparing transmission from \"%1\"."
+msgstr "準備從 %1 傳輸。"
+
+#: pop3resource.cpp:270
+#, kde-format
+msgid "Executing precommand."
+msgstr "執行前置命令。"
+
+#: pop3resource.cpp:298
+#, kde-format
+msgid "You are asked here because the previous login was not successful."
+msgstr "您被詢問的原因是因為前一次登入未成功。"
+
+#: pop3resource.cpp:300
+#, kde-format
+msgid "You are asked here because the username you supplied is empty."
+msgstr "您被詢問的原因是因為您提供的使用者名稱是空的。"
+
+#: pop3resource.cpp:302
+#, kde-format
+msgid "You are asked here because the wallet password storage is disabled."
+msgstr "您被詢問的原因是因為密碼儲存在錢包中的功能已關閉。"
+
+#: pop3resource.cpp:332
+#, kde-format
+msgid "Fetching mail listing."
+msgstr "取得郵件清單。"
+
+#: pop3resource.cpp:392
+#, kde-format
+msgid "Saving downloaded messages."
+msgstr "儲存已下載的信件。"
+
+#: pop3resource.cpp:411
+#, kde-format
+msgid "Saving password to the wallet."
+msgstr "在錢包內儲存密碼。"
+
+#: pop3resource.cpp:450
+#, kde-format
+msgid "Error while trying to get the local inbox folder, aborting mail check."
+msgstr "取得本地端信箱資料夾時發生錯誤，中止郵件檢查。"
+
+#: pop3resource.cpp:456
+#, kde-format
+msgid ""
+"<qt>The folder you deleted was associated with the account <b>%1</b> which "
+"delivered mail into it. The folder the account delivers new mail into was "
+"reset to the main Inbox folder.</qt>"
+msgstr ""
+"<qt>您刪除的資料夾是帳號 <b>%1</b> 所設定的收件匣。刪除後這個帳號將會改用預設"
+"的收件匣。</qt>"
+
+#: pop3resource.cpp:476
+#, kde-format
+msgid ""
+"Error while trying to get the folder for incoming mail, aborting mail check."
+msgstr "取得收信資料夾時發生錯誤，中止郵件檢查。"
+
+#: pop3resource.cpp:489
+#, kde-format
+msgid "Could not find folder for incoming mail, aborting mail check."
+msgstr "找不到收信資料夾。中止郵件檢查。"
+
+#: pop3resource.cpp:500
+#, kde-format
+msgid "Error while executing precommand."
+msgstr "執行前置命令時發生錯誤。"
+
+#: pop3resource.cpp:515
+#, kde-format
+msgid "Unable to login to the server %1."
+msgstr "無法登入伺服器 %1。"
+
+#: pop3resource.cpp:525
+#, kde-format
+msgid "Error while getting the list of messages on the server."
+msgstr "從伺服器上取得信件清單時發生錯誤。"
+
+#: pop3resource.cpp:540
+#, kde-format
+msgid "Error while getting list of unique mail identifiers from the server."
+msgstr "從伺服器上取得信件的識別碼清單時發生錯誤。"
+
+#: pop3resource.cpp:554
+#, kde-format
+msgid ""
+"Your POP3 server (Account: %1) does not support the UIDL command: this "
+"command is required to determine, in a reliable way, which of the mails on "
+"the server KMail has already seen before;\n"
+"the feature to leave the mails on the server will therefore not work "
+"properly."
+msgstr ""
+"您的 POP3 伺服器（帳號：%1）不支援 UIDL 命令：這個命令用於決定 KMail 已經檢查"
+"過伺服器上哪些信件。\n"
+"因此「將信件保留在伺服器上」的功能有可能無法正常運作。"
+
+#: pop3resource.cpp:568
+#, kde-format
+msgid "Error while fetching mails from the server."
+msgstr "從伺服器上取得郵件時發生錯誤。"
+
+#: pop3resource.cpp:626
+#, kde-format
+msgid ""
+"Fetching message %1 of %2 (%3 of %4 KB) for %5 (%6 KB remain on the server)."
+msgstr ""
+"取得 %5 的信件中... 已取得 %1 封，共 %2 封（%3 KB，共有 %4 KB，ˇ還有 %6 KB 在"
+"伺服器上）。"
+
+#: pop3resource.cpp:633
+#, kde-format
+msgid "Fetching message %1 of %2 (%3 of %4 KB) for %5"
+msgstr "取得 %5 的信件中... 已傳送 %1 封，共 %2 封（%3 KB，共 %4 KB）。"
+
+#: pop3resource.cpp:654
+#, kde-format
+msgid "Unable to store downloaded mails."
+msgstr "無法儲存下載的郵件。"
+
+#: pop3resource.cpp:798
+#, kde-format
+msgid "Failed to delete the messages from the server."
+msgstr "從伺服器上刪除信件失敗。"
+
+#: pop3resource.cpp:854
+#, kde-format
+msgid "Finished mail check, no message downloaded."
+msgstr "已完成信件檢查，沒有下載任何信件。"
+
+#: pop3resource.cpp:856
+#, kde-format
+msgid "Finished mail check, 1 message downloaded."
+msgid_plural "Finished mail check, %1 messages downloaded."
+msgstr[0] "已完成信件檢查，下載了 %1 封信件。"
+
+#: pop3resource.cpp:872
+#, kde-format
+msgid "Unable to complete the mail fetch."
+msgstr "無法完成郵件抓取。"
+
+#: pop3resource.cpp:1014
+#, kde-format
+msgid "Mail check already in progress, unable to start a second check."
+msgstr "郵件檢查已在進行中，無法再次進行檢查。"
+
+#: pop3resource.cpp:1038
+#, kde-format
+msgid "Ready"
+msgstr "已就緒"
+
+#: pop3resource.cpp:1041
+#, kde-format
+msgid "Mail check aborted after going offline."
+msgstr "郵件檢查因離線而中止。"
+
+#: pop3resource.cpp:1043
+#, kde-format
+msgid "Offline"
+msgstr "離線"
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: popsettings.ui:35
+#, kde-format
+msgid "Account Type: POP Account"
+msgstr "帳號類型: POP 帳號"
+
+#. i18n: ectx: attribute (title), widget (QWidget, page1)
+#: popsettings.ui:58
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: popsettings.ui:77
+#, kde-format
+msgid "Mail Checking Options"
+msgstr "郵件檢查選項"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, intervalCheck)
+#: popsettings.ui:83
+#, kde-format
+msgid ""
+"If active, the POP3 account will be checked for new mail every x minutes"
+msgstr "若啟動此選項，POP3 帳號會每 x 分鐘檢查一次。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, intervalCheck)
+#: popsettings.ui:86
+#, kde-format
+msgid "Enable &interval mail checking"
+msgstr "啟動間隔信件檢查(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, intervalLabel)
+#: popsettings.ui:95
+#, kde-format
+msgid "Check mail interval:"
+msgstr "郵件檢查間隔："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: popsettings.ui:120
+#, kde-format
+msgid "Account Information"
+msgstr "帳號資訊"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, loginEdit)
+#: popsettings.ui:129 popsettings.ui:191
+#, kde-format
+msgid ""
+"Your Internet Service Provider gave you a <em>user name</em> which is used "
+"to authenticate you with their servers. It usually is the first part of your "
+"email address (the part before <em>@</em>)."
+msgstr ""
+"帳號名稱是您的網路服務提供者（ISP）所提供您用來認證的<em>使用者名稱</em>，通"
+"常是您的電子郵件地址中前面的那一部份（也就是在 <em>@</em> 前面的那一部份）。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: popsettings.ui:132
+#, kde-format
+msgid "Account &name:"
+msgstr "帳號名稱(&N)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, nameEdit)
+#: popsettings.ui:142
+#, kde-format
+msgid "Name displayed in the list of accounts"
+msgstr "帳號清單中顯示的名稱"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameEdit)
+#: popsettings.ui:145
+#, kde-format
+msgid "Account name: This defines the name displayed in the account list."
+msgstr "帳號名稱：在帳號列表中顯示的名稱。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: popsettings.ui:155
+#, kde-format
+msgid "Incoming &mail server:"
+msgstr "內送信件伺服器(&M)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, hostEdit)
+#: popsettings.ui:165
+#, kde-format
+msgid "Address of the mail POP3 server"
+msgstr "POP3 信件伺服器的位址"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, hostEdit)
+#: popsettings.ui:168
+#, kde-format
+msgid ""
+"The address of the POP3 server, e.g. pop3.yourprovider.org. You should get "
+"this address from your mail provider."
+msgstr ""
+"POP3 信件伺服器的位址，例如 pop3.yourprovider.org。相關資訊請詢問題的郵件服務"
+"提供者。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: popsettings.ui:178
+#, kde-format
+msgid "Use&rname:"
+msgstr "使用者名稱(&R)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, loginEdit)
+#: popsettings.ui:188
+#, kde-format
+msgid "The username that identifies you against the mail server"
+msgstr "郵件伺服器上的登入帳號"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: popsettings.ui:201
+#, kde-format
+msgid "P&assword:"
+msgstr "密碼(&A)："
+
+#. i18n: ectx: property (toolTip), widget (KPasswordLineEdit, passwordEdit)
+#: popsettings.ui:211
+#, kde-format
+msgid "Password for access to the mail server"
+msgstr "郵件伺服器上的登入密碼"
+
+#. i18n: ectx: property (whatsThis), widget (KPasswordLineEdit, passwordEdit)
+#: popsettings.ui:214
+#, kde-format
+msgid "Password: The password given to you by your mail provider."
+msgstr "密碼：您的密碼。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, page2)
+#: popsettings.ui:225
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: popsettings.ui:231
+#, kde-format
+msgid "POP Settings"
+msgstr "POP 設定"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:237
+#, kde-format
+msgid "If checked the message is not deleted from the mail server"
+msgstr "若勾選此選項，則郵件不會從伺服器上刪除"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:240
+#, kde-format
+msgid ""
+"Check this option if you want to fetch only copies of the mails and leave "
+"the original mails on the server."
+msgstr "勾選此選項的話，您只會抓取郵件的複本，原本則留在伺服器上。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:243
+#, kde-format
+msgid "Lea&ve fetched messages on the server"
+msgstr "將信件保留在伺服器中(&V)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerDaysCheck)
+#: popsettings.ui:256
+#, kde-format
+msgid "The original message is deleted from the server after x days"
+msgstr "經過幾天後將信件從伺服器上刪除"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerDaysCheck)
+#: popsettings.ui:259
+#, kde-format
+msgid "Days to leave messages on the server:"
+msgstr "伺服器上的信件保留天數："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:282
+#, kde-format
+msgid "Only the x most recent messages are kept on the server"
+msgstr "只保留最近的幾封信在伺服器中"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:285
+#, kde-format
+msgid ""
+"Check this option if you want to only keep the x most recent messages on the "
+"server and delete all older."
+msgstr "勾選此選項的話，在伺服器上只會留最新的 x 封信，並刪除舊的信件。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:288
+#, kde-format
+msgid "Number of messages to keep:"
+msgstr "保存的信件數："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:311
+#, kde-format
+msgid "Keep most recent messages within the quota and delete oldest"
+msgstr "若信件總量超過大小限制，則清掉最舊的信件"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:314
+#, kde-format
+msgid ""
+"If active, most recent messages are kept until the quota is reached and "
+"oldest messages are deleted."
+msgstr ""
+"若開啟此選項，則信件會保留，直到總量超過大小限制時才會將最舊的信件刪除。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:317
+#, kde-format
+msgid "Maximum megabytes to keep:"
+msgstr "保存的最大大小（MB）："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, leaveOnServerSizeSpin)
+#: popsettings.ui:327
+#, kde-format
+msgid " MB"
+msgstr " MB"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, filterOnServerCheck)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, filterOnServerSizeSpin)
+#: popsettings.ui:343 popsettings.ui:356
+#, kde-format
+msgid ""
+"If you select this option, POP Filters will be used to decide what to do "
+"with messages. You can then select to download, delete or keep them on the "
+"server."
+msgstr ""
+"選擇這個選項表示使用 POP 過濾器來過濾信件。您可以選擇要下載、刪除還是保留在伺"
+"服器上。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, filterOnServerCheck)
+#: popsettings.ui:346
+#, kde-format
+msgid "&Filter messages larger than:"
+msgstr "篩選信件，假如信件大於(&F)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, usePipeliningCheck)
+#: popsettings.ui:372
+#, kde-format
+msgid "&Use pipelining for faster mail download"
+msgstr "使用管線加速信件下載(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: popsettings.ui:387
+#, kde-format
+msgid "Destination folder:"
+msgstr "目的地資料夾："
+
+#. i18n: ectx: property (text), widget (QLabel, preCommandLabel)
+#: popsettings.ui:394
+#, kde-format
+msgid "Pre-com&mand:"
+msgstr "前置命令(&M)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, precommand)
+#: popsettings.ui:410
+#, kde-format
+msgid "Command that is executed before checking mail"
+msgstr "檢查郵件前執行的指令。"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, safeImap)
+#: popsettings.ui:437
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'HandelGotDLig'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-"
+"family:'Sans Serif';\"> is safe IMAP over port 993;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-"
+"family:'Sans Serif';\"> will operate on port 143 and switch to a secure "
+"connection directly after connecting;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">None</span><span style=\" font-"
+"family:'Sans Serif';\"> will connect to port 143 but not switch to a secure "
+"connection. This setting is not recommended.</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'HandelGotDLig'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-"
+"family:'Sans Serif';\">：直接使用連接埠 993；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-"
+"family:'Sans Serif';\">：會先連線到 143，並且連線後切換到一個安全連線中；</"
+"span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">None</span><span style=\" font-"
+"family:'Sans Serif';\">：會連線到 143，但不會切換到安全頻道。不建議使用。</"
+"span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, safeImap)
+#: popsettings.ui:440
+#, kde-format
+msgid "Connection Settings"
+msgstr "連線設定"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkCapabilities)
+#: popsettings.ui:453
+#, kde-format
+msgid "Auto Detect"
+msgstr "自動偵測"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: popsettings.ui:480
+#, kde-format
+msgid "Encryption:"
+msgstr "加密："
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
+#: popsettings.ui:489
+#, kde-format
+msgid "None"
+msgstr "無"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionSSL)
+#: popsettings.ui:499
+#, kde-format
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionTLS)
+#: popsettings.ui:506
+#, kde-format
+msgid "STA&RTTLS"
+msgstr "STARTTLS(&R)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: popsettings.ui:515
+#, kde-format
+msgid "Authentication:"
+msgstr "認證："
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: popsettings.ui:525
+#, kde-format
+msgid "Port:"
+msgstr "連接埠："
+
+#. i18n: ectx: property (text), widget (QCheckBox, proxyCheck)
+#: popsettings.ui:545
+#, fuzzy, kde-format
+#| msgid "Wallet disabled in system settings"
+msgid "Connect using the system proxy settings"
+msgstr "系統設定中已關閉錢包功能"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, proxyCheck)
+#: popsettings.ui:548
+#, fuzzy, kde-format
+#| msgid "If checked the message is not deleted from the mail server"
+msgid ""
+"If checked, the system proxy settings will be used to connect to the mail "
+"server."
+msgstr "若勾選此選項，則郵件不會從伺服器上刪除"
+
+#. i18n: ectx: label, entry (authenticationMethod), group (General)
+#: settings.kcfg:26
+#, kde-format
+msgid "Defines the authentication type to use"
+msgstr "定義要使用的認證型態"
+
+#~ msgid "Deleting messages from the server."
+#~ msgstr "從伺服器上刪除信件。"
+
+#~ msgctxt "Number of days that the message will be left on the server."
+#~ msgid " days"
+#~ msgstr " 天"
+
+#~ msgid " messages"
+#~ msgstr " 封信件"
+
+#~ msgid " bytes"
+#~ msgstr " 位元組"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid ""
+#~ "You are asked here because you choose to not store the password in the "
+#~ "wallet."
+#~ msgstr "您被詢問的原因是因為您選擇不要將密碼存在錢包中。"
+
+#~ msgid ""
+#~ "The server refused the supplied username and password. Do you want to go "
+#~ "to the settings, have another attempt at logging in, or do nothing?\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "伺服器拒絕提供使用者名稱與密碼。您要去設定，重新登入，還是什麼都不做？\n"
+#~ "\n"
+#~ "%1"
+
+#~ msgid "Could Not Authenticate"
+#~ msgstr "無法認證"
+
+#~ msgctxt "Input username/password manually and not store them"
+#~ msgid "Try Again"
+#~ msgstr "再試一次"
+
+#~ msgid "Settings"
+#~ msgstr "設定"
+
+#~ msgctxt "Input username/password manually and not store them"
+#~ msgid "Single Input"
+#~ msgstr "單一輸入"
+
+#~ msgid "Include this account when clicking on the toolbar button"
+#~ msgstr "點擊工具列按鈕時引入此帳號"
+
+#~ msgid "Include in man&ual mail check"
+#~ msgstr "手動檢查時檢查此帳號 (&U)"
+
+#, fuzzy
+#~| msgid "Please specify a server and port on the General tab first."
+#~ msgid "Please verify server address, we can not connect to it."
+#~ msgstr "請先在「一般」頁中指定伺服器與連接埠號。"
+
+#~ msgid "Communication port with the mail server"
+#~ msgstr "郵件伺服器的連接埠"
+
+#~ msgid ""
+#~ "Port: Defines the communication port with the mail server. You do not "
+#~ "need to change this unless your mail provider uses some non-standard port."
+#~ msgstr ""
+#~ "連接埠：郵件伺服器的連接埠。您通常不需要變更此設定，除非您的郵件服務提供者"
+#~ "使用非標準的連接埠。"
+
+#~ msgid "&Login:"
+#~ msgstr "登入(&L)："
+
+#~ msgid ""
+#~ "Whether to store the password or ask for it when checking for new mail"
+#~ msgstr "是否要將密碼存起來，或是每次檢查郵件時都詢問密碼"
+
+#~ msgid ""
+#~ "Check this option to store the password in KWallet. If this option is "
+#~ "disabled, you will be asked for the password on every mail check."
+#~ msgstr ""
+#~ "勾選此選項可將密碼儲存在 KWallet 錢包中。若未勾選，則每次檢查信件時都會詢"
+#~ "問您密碼。"
+
+#~ msgid "Sto&re POP password"
+#~ msgstr "儲存 POP 密碼(&R)"
+
+#~ msgid "Keep onl&y the last"
+#~ msgstr "只保留最後的(&Y)"
+
+#~ msgid "Keep only the last"
+#~ msgstr "只保留最後的"
+
+#~ msgid "Security"
+#~ msgstr "安全性"
+
+#~ msgid "Use &SSL for secure mail download"
+#~ msgstr "使用 SSL(&S) 下載信件"
+
+#~ msgid "Use &TLS for secure mail download"
+#~ msgstr "使用 TLS(&T) 下載信件"
+
+#~ msgid "Clear te&xt"
+#~ msgstr "明碼(&X)"
+
+#~ msgid "&LOGIN"
+#~ msgstr "LOGIN(&L)"
+
+#~ msgid "&PLAIN"
+#~ msgstr "PLAIN(&P)"
+
+#~ msgid "NTL&M"
+#~ msgstr "NTLM(&M)"
+
+#~ msgid "&DIGEST-MD5"
+#~ msgstr "DIGEST-MD5(&D)"
+
+#~ msgid "CRAM-MD&5"
+#~ msgstr "CRAM-MD5(&5)"
+
+#~ msgid "&GSSAPI"
+#~ msgstr "GSSAPI(&G)"
+
+#~ msgid "&APOP"
+#~ msgstr "APOP(&A)"
+
+#~ msgid "Check &What the Server Supports"
+#~ msgstr "檢查伺服器支援的協定(&W)"

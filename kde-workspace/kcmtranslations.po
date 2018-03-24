@@ -1,0 +1,161 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"PO-Revision-Date: 2016-11-03 16:29+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: kcmtranslations.cpp:45
+#, kde-format
+msgid "Translations"
+msgstr "翻譯"
+
+#: kcmtranslations.cpp:47
+#, kde-format
+msgid "Configure Plasma translations"
+msgstr "設定 Plasma 翻譯"
+
+#: kcmtranslations.cpp:49
+#, kde-format
+msgid "John Layt"
+msgstr "John Layt"
+
+#: kcmtranslations.cpp:49
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: kcmtranslations.cpp:112
+#, kde-format
+msgctxt "%1 is the language code"
+msgid ""
+"The translation files for the language with the code '%2' could not be "
+"found. The language has been removed from your configuration. If you want to "
+"add it back, please install the localization files for it and add the "
+"language again."
+msgid_plural ""
+"The translation files for the languages with the codes '%2' could not be "
+"found. These languages have been removed from your configuration. If you "
+"want to add them back, please install the localization files for it and the "
+"languages again."
+msgstr[0] ""
+"找不到代碼為 '%2' 的語言的翻譯檔案。此語言已經從您的設定中移除。若您要把它加"
+"回來，請先安裝該語言的本地化檔案再把它加回來。"
+
+#: kcmtranslations.cpp:142
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "您的變更會在下次登入時生效。"
+
+#: kcmtranslations.cpp:143
+#, kde-format
+msgid "Applying Language Settings"
+msgstr "套用語系設定"
+
+#: kcmtranslations.cpp:183
+#, kde-format
+msgid ""
+"<h1>Translations</h1>\n"
+"<p>Here you can set your preferred language for translating the user "
+"interface of your applications. You can choose a single language, or a list "
+"of languages to be applied in sequence. Only language translations that are "
+"installed on your system will be listed as available. If your language is "
+"not listed then you will need to install it first.</p>"
+msgstr ""
+"<h1>翻譯</h1>\n"
+"<p>您可以在此設定應用程式預設要使用的語言。您可以選擇單一語言，或是套用語言的"
+"順序。只有安裝在您的系統中的翻譯才會列在上面。若您的語言未被列入，您必須先安"
+"裝。</p>"
+
+#: kcmtranslations.cpp:204
+#, kde-format
+msgid "Available Languages:"
+msgstr "可用的語言："
+
+#: kcmtranslations.cpp:205
+#, kde-format
+msgid ""
+"This is the list of installed KDE Plasma language translations not currently "
+"being used. <br />To use a language translation move it to the 'Preferred "
+"Languages' list in the order of preference.  <br />If no suitable languages "
+"are listed, then you may need to install more language packages using your "
+"usual installation method."
+msgstr ""
+"這份清單是 KDE Plasma 已安裝但未使用的語言翻譯檔。<br />要使用某種語言，請將"
+"它移到「預設使用語言」清單中，並依自己喜好排序。<br />若沒有您覺得適合的語"
+"言，您可能需要在系統安裝更多語言翻譯套件。"
+
+#: kcmtranslations.cpp:214
+#, kde-format
+msgid "Preferred Languages:"
+msgstr "預設使用語言："
+
+#: kcmtranslations.cpp:215
+#, kde-format
+msgid ""
+"This is the list of installed KDE Plasma language translations currently "
+"being used, listed in order of preference.  <br />If a translation is not "
+"available for the first language in the list, the next language will be "
+"used. <br /> If no other translations are available then US English will be "
+"used."
+msgstr ""
+"這份清單是 KDE Plasma 已安裝並使用中的語言翻譯檔，依喜好順序排列。<br />若是"
+"某個程式沒有第一順位語言的翻譯，則會尋找下一個順位的語言。<br />若是完全找不"
+"到可用的語言翻譯，則會使用美式英文。"
+
+#: kcmtranslations.cpp:250 kcmtranslations.cpp:259
+#, kde-format
+msgctxt "%1 is language name, %2 is language code name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmtranslations.cpp:316
+#, kde-format
+msgid "Install more languages"
+msgstr "安裝更多語言"
+
+#: kcmtranslations.cpp:317
+#, kde-format
+msgid "<p>Click here to install more languages</p>"
+msgstr "<p>點擊此處以安裝更多語言</p>"
+
+#. i18n: ectx: property (availableLabel), widget (KActionSelector, m_selectTranslations)
+#: kcmtranslationswidget.ui:31
+#, kde-format
+msgid "Available &Translations:"
+msgstr "可用的翻譯(&T)："
+
+#. i18n: ectx: property (selectedLabel), widget (KActionSelector, m_selectTranslations)
+#: kcmtranslationswidget.ui:34
+#, kde-format
+msgid "Preferred Trans&lations:"
+msgstr "預設的翻譯(&L)："
+
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonTranslationsInstall)
+#: kcmtranslationswidget.ui:44
+#, kde-format
+msgid "Install more translations"
+msgstr "安裝更多翻譯"

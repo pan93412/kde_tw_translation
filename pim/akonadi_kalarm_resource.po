@@ -1,0 +1,649 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-13 03:27+0100\n"
+"PO-Revision-Date: 2017-03-25 17:48+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  akonadi_kalarm_resource.po  #-#-#-#-#\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  akonadi_kalarm_resource_common.po  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  akonadi_kalarm_dir_resource.po  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kalarm/kalarmresource.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Active Alarm Calendar"
+msgstr "選擇作用的鬧鐘行事曆"
+
+#: kalarm/kalarmresource.cpp:89
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Archived Alarm Calendar"
+msgstr "選擇已歸檔鬧鐘行事曆"
+
+#: kalarm/kalarmresource.cpp:92
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Alarm Template Calendar"
+msgstr "選擇鬧鐘樣本行事曆"
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: kalarm/kalarmresource.kcfg:10
+#, kde-format
+msgid "Path to KAlarm calendar file."
+msgstr "請輸入 KAlarm 行事曆檔案的路徑。"
+
+#. i18n: ectx: label, entry (DisplayName), group (General)
+#: kalarm/kalarmresource.kcfg:14 kalarmdir/kalarmdirresource.kcfg:13
+#, kde-format
+msgid "Display name."
+msgstr "顯示名稱。"
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: kalarm/kalarmresource.kcfg:18 kalarmdir/kalarmdirresource.kcfg:17
+#, kde-format
+msgid "Do not change the actual backend data."
+msgstr "不要變更實際的後端資料。"
+
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: kalarm/kalarmresource.kcfg:22
+#, kde-format
+msgid "Monitor file for changes."
+msgstr "監控檔案變更。"
+
+#. i18n: ectx: label, entry (AlarmTypes), group (General)
+#: kalarm/kalarmresource.kcfg:26 kalarmdir/kalarmdirresource.kcfg:25
+#, kde-format
+msgid "Alarm types."
+msgstr "鬧鐘型態。"
+
+#. i18n: ectx: label, entry (UpdateStorageFormat), group (General)
+#: kalarm/kalarmresource.kcfg:29 kalarmdir/kalarmdirresource.kcfg:28
+#, kde-format
+msgid "Update backend storage format."
+msgstr "更新後端儲存格式。"
+
+#: kalarmdir/kalarmdirresource.cpp:673
+#, kde-format
+msgctxt "@info"
+msgid "Trying to write to a read-only calendar: '%1'"
+msgstr "試著寫入唯讀行事曆：%1"
+
+#: kalarmdir/kalarmdirresource.cpp:702
+#, kde-format
+msgctxt "@info"
+msgid "Failed to save event file: %1"
+msgstr "儲存事件檔失敗：%1"
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: kalarmdir/kalarmdirresource.kcfg:9
+#, kde-format
+msgid "Path to KAlarm directory."
+msgstr "KAlarm 目錄的路徑。"
+
+#. i18n: ectx: label, entry (MonitorFiles), group (General)
+#: kalarmdir/kalarmdirresource.kcfg:21
+#, kde-format
+msgid "Monitor directory for changes."
+msgstr "監控目錄變更。"
+
+#: kalarmdir/settingsdialog.cpp:54
+#, kde-format
+msgctxt "@title"
+msgid "Configure Calendar"
+msgstr "設定行事曆"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kalarmdir/settingsdialog.ui:50
+#, kde-format
+msgid "Directory Name"
+msgstr "目錄名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kalarmdir/settingsdialog.ui:58
+#, fuzzy, kde-format
+#| msgid "Directory:"
+msgid "&Directory:"
+msgstr "目錄："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kalarmdir/settingsdialog.ui:73
+#, kde-format
+msgid ""
+"Select the directory whose contents should be represented by this resource. "
+"If the directory does not exist, it will be created."
+msgstr "選取此資源要顯示內容的目錄。若目錄不存在，則會新建一個目錄。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: kalarmdir/settingsdialog.ui:86
+#, kde-format
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: kalarmdir/settingsdialog.ui:94
+#, fuzzy, kde-format
+#| msgid "Name:"
+msgid "&Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kalarmdir/settingsdialog.ui:109
+#, kde-format
+msgid ""
+"Enter the name used to identify this resource in displays. If not specified, "
+"the directory name will be used."
+msgstr "輸入用於在顯示中辨識此資源的名稱。若未指定，將會使用目錄名稱。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kalarmdir/settingsdialog.ui:122
+#, kde-format
+msgid "Access Rights"
+msgstr "存取權限"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#: kalarmdir/settingsdialog.ui:128
+#, kde-format
+msgid "Read only"
+msgstr "唯讀"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kalarmdir/settingsdialog.ui:135
+#, kde-format
+msgid ""
+"If read-only mode is enabled, no changes will be written to the directory "
+"selected above. Read-only mode will be automatically enabled if you do not "
+"have write access to the directory."
+msgstr ""
+"若開啟唯讀模式，則變更不會被寫入檔案。唯讀模式在您沒有寫入目錄的權限時會自動"
+"被開啟。"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: shared/alarmtyperadiowidget.ui:29
+#, kde-format
+msgid "Select which alarm type this resource should contain."
+msgstr "選擇此資源要包含哪些鬧鐘型態。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shared/alarmtyperadiowidget.ui:32 shared/alarmtypewidget.ui:32
+#, kde-format
+msgid "Alarm Types"
+msgstr "鬧鐘型態"
+
+#. i18n: ectx: property (text), widget (QRadioButton, activeRadio)
+#: shared/alarmtyperadiowidget.ui:38
+#, kde-format
+msgid "Acti&ve Alarms"
+msgstr "作用中的鬧鐘(&V)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, archivedCheckBox)
+#. i18n: ectx: property (text), widget (QRadioButton, archivedRadio)
+#: shared/alarmtyperadiowidget.ui:48 shared/alarmtypewidget.ui:48
+#, kde-format
+msgid "Archived Alarms"
+msgstr "已歸檔的鬧鐘"
+
+#. i18n: ectx: property (text), widget (QRadioButton, templateRadio)
+#: shared/alarmtyperadiowidget.ui:58
+#, kde-format
+msgid "Alarm &Templates"
+msgstr "鬧鐘樣本(&T)"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: shared/alarmtypewidget.ui:29
+#, kde-format
+msgid "Select which alarm type(s) this resource should contain."
+msgstr "選擇此資源要包含哪些鬧鐘型態。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, activeCheckBox)
+#: shared/alarmtypewidget.ui:38
+#, kde-format
+msgid "Active Alarms"
+msgstr "作用中的鬧鐘"
+
+#. i18n: ectx: property (text), widget (QCheckBox, templateCheckBox)
+#: shared/alarmtypewidget.ui:58
+#, kde-format
+msgid "Alarm Templates"
+msgstr "鬧鐘樣本"
+
+#: shared/kalarmresourcecommon.cpp:127
+#, kde-format
+msgctxt "@info"
+msgid "Item ID %1 differs from payload ID %2."
+msgstr "項目代碼 %1 與資料代碼 %2 不同。"
+
+#: shared/kalarmresourcecommon.cpp:171
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' not found."
+msgstr "找不到代碼為 %1 的事件。"
+
+#: shared/kalarmresourcecommon.cpp:173
+#, kde-format
+msgctxt "@info"
+msgid "Calendar is not in current KAlarm format."
+msgstr "目前 KAlarm 格式不是行事曆。"
+
+#: shared/kalarmresourcecommon.cpp:175
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' is not in current KAlarm format."
+msgstr "代碼為 %1 的事件不是最新的 KAlarm 格式。"
+
+#: shared/kalarmresourcecommon.cpp:177
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' contains no usable alarms."
+msgstr "代碼為 %1 的事件裡並沒有可用的鬧鐘。"
+
+#: shared/kalarmresourcecommon.cpp:179
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' is read only"
+msgstr "代碼為 %1 的事件是唯讀的"
+
+#: shared/kalarmresourcecommon.cpp:181
+#, kde-format
+msgctxt "@info"
+msgid "Failed to add event with uid '%1' to calendar"
+msgstr "無法將代碼為 %1 的事件新增到行事曆。"
+
+#~ msgid "Directory"
+#~ msgstr "目錄"
+
+#~ msgctxt "@title:column"
+#~ msgid "Changed Alarm"
+#~ msgstr "已變更鬧鐘"
+
+#~ msgctxt "@title:column"
+#~ msgid "Conflicting Alarm"
+#~ msgstr "衝突的鬧鐘"
+
+#~ msgctxt "@label"
+#~ msgid "Item revision"
+#~ msgstr "項物版本"
+
+#~ msgctxt "@label Unique identifier"
+#~ msgid "UID"
+#~ msgstr "UID"
+
+#~ msgctxt "@label"
+#~ msgid "Alarm type"
+#~ msgstr "鬧鐘型態"
+
+#~ msgctxt "@label"
+#~ msgid "Alarm status"
+#~ msgstr "鬧鐘狀態"
+
+#~ msgctxt "@label"
+#~ msgid "Template name"
+#~ msgstr "樣本名稱"
+
+#~ msgctxt "@label"
+#~ msgid "Creation time"
+#~ msgstr "建立時間"
+
+#~ msgctxt "@label"
+#~ msgid "Start time"
+#~ msgstr "開始時間"
+
+#~ msgctxt "@label Start delay configured in an alarm template"
+#~ msgid "Template after time"
+#~ msgstr "過時樣本"
+
+#~ msgctxt "@label"
+#~ msgid "Recurs"
+#~ msgstr "循環"
+
+#~ msgctxt "@label"
+#~ msgid "Recurrence"
+#~ msgstr "循環"
+
+#~ msgctxt "@label"
+#~ msgid "Sub-repetition"
+#~ msgstr "子重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Sub-repetition interval"
+#~ msgstr "子重覆間隔"
+
+#~ msgctxt "@label"
+#~ msgid "Sub-repetition count"
+#~ msgstr "子重覆計數"
+
+#~ msgctxt "@label"
+#~ msgid "Next sub-repetition"
+#~ msgstr "下次子重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Work time only"
+#~ msgstr "只在工作時間內"
+
+#~ msgctxt "@label"
+#~ msgid "Holidays excluded"
+#~ msgstr "排除假日"
+
+#~ msgctxt "@label"
+#~ msgid "Next recurrence"
+#~ msgstr "下次循環"
+
+#~ msgctxt "@label"
+#~ msgid "Late cancel"
+#~ msgstr "延遲取消"
+
+#~ msgctxt "@label Automatically close window"
+#~ msgid "Auto close"
+#~ msgstr "自動關閉"
+
+#~ msgctxt "@label"
+#~ msgid "Copy to KOrganizer"
+#~ msgstr "複製到 KOrganizer"
+
+#~ msgctxt "@label"
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgctxt "@label"
+#~ msgid "Read-only"
+#~ msgstr "唯讀"
+
+#~ msgctxt "@label Whether alarm should be archived"
+#~ msgid "Archive"
+#~ msgstr "歸檔"
+
+#~ msgctxt "@label"
+#~ msgid "Revision"
+#~ msgstr "版本"
+
+#~ msgctxt "@label"
+#~ msgid "Custom properties"
+#~ msgstr "自訂屬性"
+
+#~ msgctxt "@label"
+#~ msgid "Message text"
+#~ msgstr "訊息文字"
+
+#~ msgctxt "@label File to provide text for message"
+#~ msgid "Message file"
+#~ msgstr "訊息檔案"
+
+#~ msgctxt "@label"
+#~ msgid "Foreground color"
+#~ msgstr "前景顏色"
+
+#~ msgctxt "@label"
+#~ msgid "Background color"
+#~ msgstr "背景顏色"
+
+#~ msgctxt "@label"
+#~ msgid "Font"
+#~ msgstr "字型"
+
+#~ msgctxt "@label Shell command to execute before alarm"
+#~ msgid "Pre-alarm action"
+#~ msgstr "鬧鐘響鈴前動作"
+
+#~ msgctxt "@label"
+#~ msgid "Pre-alarm action cancel"
+#~ msgstr "鬧鐘響鈴前動作取消"
+
+#~ msgctxt "@label"
+#~ msgid "Pre-alarm action no error"
+#~ msgstr "鬧鐘響鈴前動作沒有錯誤"
+
+#~ msgctxt "@label Shell command to execute after alarm"
+#~ msgid "Post-alarm action"
+#~ msgstr "鬧鐘響鈴後動作"
+
+#~ msgctxt "@label"
+#~ msgid "Confirm acknowledgement"
+#~ msgstr "回覆確認"
+
+#~ msgctxt "@label"
+#~ msgid "KMail serial number"
+#~ msgstr "KMail 序號"
+
+#~ msgctxt "@label Audio method"
+#~ msgid "Sound"
+#~ msgstr "音效"
+
+#~ msgctxt "@label Whether audio should repeat"
+#~ msgid "Sound repeat"
+#~ msgstr "音效重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Sound volume"
+#~ msgstr "音量"
+
+#~ msgctxt "@label"
+#~ msgid "Sound fade volume"
+#~ msgstr "音效淡出音量"
+
+#~ msgctxt "@label"
+#~ msgid "Sound fade time"
+#~ msgstr "音效淡出時間"
+
+#~ msgctxt "@label Whether the alarm has a reminder"
+#~ msgid "Reminder"
+#~ msgstr "提醒"
+
+#~ msgctxt "@label Whether reminder is on first recurrence only"
+#~ msgid "Reminder once only"
+#~ msgstr "只提醒一次"
+
+#~ msgctxt "@label Deferral type"
+#~ msgid "Deferral"
+#~ msgstr "延遲"
+
+#~ msgctxt "@label"
+#~ msgid "Deferral time"
+#~ msgstr "延遲時間"
+
+#~ msgctxt "@label Default deferral delay"
+#~ msgid "Deferral default"
+#~ msgstr "延遲預設"
+
+#~ msgctxt "@label Whether deferral time is date-only by default"
+#~ msgid "Deferral default date only"
+#~ msgstr "只延遲預設日期"
+
+#~ msgctxt "@label A shell command"
+#~ msgid "Command"
+#~ msgstr "指令"
+
+#~ msgctxt "@label"
+#~ msgid "Log file"
+#~ msgstr "紀錄檔"
+
+#~ msgctxt "@label Execute in terminal window"
+#~ msgid "Execute in terminal"
+#~ msgstr "於終端機中執行"
+
+#~ msgctxt "@label"
+#~ msgid "Email subject"
+#~ msgstr "信件主旨"
+
+#~ msgctxt "@label Email address"
+#~ msgid "Email sender ID"
+#~ msgstr "信件寄件者代碼"
+
+#~ msgctxt "@label Email address"
+#~ msgid "Email to"
+#~ msgstr "傳送電子郵件給"
+
+#~ msgctxt "@label true/false"
+#~ msgid "Email bcc"
+#~ msgstr "電子郵件密件副本"
+
+#~ msgctxt "@label"
+#~ msgid "Email body"
+#~ msgstr "電子郵件主體"
+
+#~ msgctxt "@label"
+#~ msgid "Email attachments"
+#~ msgstr "電子郵件附加檔"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (text)"
+#~ msgstr "顯示（文字）"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (file)"
+#~ msgstr "顯示（檔案）"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (command)"
+#~ msgstr "顯示（指令）"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Command"
+#~ msgstr "指令"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Audio"
+#~ msgstr "音效"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Active"
+#~ msgstr "啟動"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Archived"
+#~ msgstr "已歸檔"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Template"
+#~ msgstr "樣本"
+
+#~ msgctxt "@info/plain Repeat at login"
+#~ msgid "At login until %1"
+#~ msgstr "於登入時重覆，直到 %1"
+
+#~ msgctxt "@info/plain"
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgctxt "@info/plain Using default font"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Reminder"
+#~ msgstr "提醒"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Speak"
+#~ msgstr "語音"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Beep"
+#~ msgstr "嗶聲"
+
+#~ msgctxt "@info/plain Percentage"
+#~ msgid "%1%%"
+#~ msgstr "%1%%"
+
+#~ msgctxt "@info/plain"
+#~ msgid "1 Second"
+#~ msgid_plural "%s Seconds"
+#~ msgstr[0] "%s 秒"
+
+#~ msgctxt "@info/plain Error indication"
+#~ msgid "error!"
+#~ msgstr "發生錯誤！"
+
+#~ msgctxt "@info/plain General purpose status indication: yes or no"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "@info/plain General purpose status indication: yes or no"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgctxt "@info/plain"
+#~ msgid "1 Minute"
+#~ msgid_plural "%1 Minutes"
+#~ msgstr[0] "%1 分鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "1 Hour"
+#~ msgid_plural "%1 Hours"
+#~ msgstr[0] "%1 小時"
+
+#~ msgctxt "@info/plain"
+#~ msgid "1 Day"
+#~ msgid_plural "%1 Days"
+#~ msgstr[0] "%1 天"
+
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#~ msgid "Filename"
+#~ msgstr "檔案名稱"
+
+#~ msgid "&Filename:"
+#~ msgstr "檔名(&F):"
+
+#~ msgid "Status:"
+#~ msgstr "狀態："
+
+#~ msgid ""
+#~ "Select the file whose contents should be represented by this resource. If "
+#~ "the file does not exist, it will be created. A URL of a remote file can "
+#~ "also be specified, but note that monitoring for file changes will not "
+#~ "work in this case."
+#~ msgstr ""
+#~ "選取此資源要展示內容的檔案。如果檔案不存在，則會建新的檔案。您也可以指定遠"
+#~ "端檔案的網址，但是要注意，無法監測遠端檔案是否有變動。"
+
+#~ msgid ""
+#~ "Enter the name used to identify this resource in displays. If not "
+#~ "specified, the filename will be used."
+#~ msgstr "輸入用於在顯示中辨識此資源的名稱。若未指定，將會使用檔名。"
+
+#~ msgid ""
+#~ "If read-only mode is enabled, no changes will be written to the file "
+#~ "selected above. Read-only mode will be automatically enabled if you do "
+#~ "not have write access to the file or the file is on a remote server that "
+#~ "does not support write access."
+#~ msgstr ""
+#~ "如果開啟唯讀模式，則不會將變更寫入檔案。唯讀模式在您沒有寫入權限時，或是檔"
+#~ "案在遠端，而不支援寫入時會自動開啟。"
+
+#~ msgid "Monitoring"
+#~ msgstr "監控"
+
+#~ msgid ""
+#~ "If file monitoring is enabled the resource will reload the file when "
+#~ "changes are made by other programs. It also tries to create a backup in "
+#~ "case of conflicts whenever possible."
+#~ msgstr ""
+#~ "若開啟檔案監控，當檔案被其它程式變更時，資源會重新載入檔案。它也會試著建立"
+#~ "備份以避免發生衝突。"
+
+#~ msgid "Enable file &monitoring"
+#~ msgstr "開啟檔案監控(&M)"
+
+#~ msgid "&Display name:"
+#~ msgstr "顯示名稱(&D)："

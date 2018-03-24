@@ -1,0 +1,282 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-13 03:39+0100\n"
+"PO-Revision-Date: 2011-10-04 08:04+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: KPlatoRCPSPlugin.cpp:59
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "<title>RCPS Scheduler</title><para>The Resource Constrained Project "
+#| "Scheduler (RCPS) focuses on scheduling the project to avoid overbooking "
+#| "resources. It still respects task dependencies and also tries to fullfill "
+#| "time constraints. However, time constraints can make it very difficult to "
+#| "find a good solution, so it may be preferable to use a different "
+#| "scheduler in these cases.</para>"
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>RCPS Scheduler</title><para>The Resource Constrained Project "
+"Scheduler (RCPS) focuses on scheduling the project to avoid overbooking "
+"resources. It still respects task dependencies and also tries to fulfill "
+"time constraints. However, time constraints can make it very difficult to "
+"find a good solution, so it may be preferable to use a different scheduler "
+"in these cases.</para>"
+msgstr ""
+"<title>RCPS 排程器</title> <para>資源限制專案排程器（Resource Constrained "
+"Project Scheduler，RCPS）排程專案的重點在避免過度配置（overbook）資源。它還是"
+"會遵循工作相依性，並試著滿足時間限制。不過，時間限制可能會造成無法找到一個好"
+"的排程，這種狀況下還是使用別的排程器較好。</para>"
+
+#: KPlatoRCPSScheduler.cpp:116
+#, kde-format
+msgid "Scheduling halted after %1 generations"
+msgstr "在 %1 代之後排程已中止"
+
+#: KPlatoRCPSScheduler.cpp:435
+#, kde-format
+msgid "Init"
+msgstr "初始化"
+
+#: KPlatoRCPSScheduler.cpp:440
+#, kde-format
+msgid "Re-calculate project from start time: %1"
+msgstr "從起始時間重新排程專案：%1"
+
+#: KPlatoRCPSScheduler.cpp:442
+#, kde-format
+msgid "Schedule project from start time: %1"
+msgstr "排程專案起始時間：%1"
+
+#: KPlatoRCPSScheduler.cpp:446
+#, kde-format
+msgid "Schedule project from end time: %1"
+msgstr "從結束時間重新排程專案：%1"
+
+#: KPlatoRCPSScheduler.cpp:457
+#, kde-format
+msgid "Failed to build a valid RCPS project"
+msgstr "編譯合法的 RCPS 專案失敗"
+
+#: KPlatoRCPSScheduler.cpp:461
+#, kde-format
+msgid "Schedule"
+msgstr "排程"
+
+#: KPlatoRCPSScheduler.cpp:470
+#, kde-format
+msgid "Invalid scheduling solution. Result: %1"
+msgstr "不合法的排程解決方式。結果：%1"
+
+#: KPlatoRCPSScheduler.cpp:555 KPlatoRCPSScheduler.cpp:696
+#, kde-format
+msgid "No resource request is registered"
+msgstr "沒有註冊任何資源要求"
+
+#: KPlatoRCPSScheduler.cpp:585 KPlatoRCPSScheduler.cpp:726
+#, kde-format
+msgid "No resource has been allocated"
+msgstr "尚未配置任何資源"
+
+#: KPlatoRCPSScheduler.cpp:598 KPlatoRCPSScheduler.cpp:739
+#, kde-format
+msgid "Scheduled task to start at %1 and finish at %2"
+msgstr "排程工作於 %1 開始，%2 結束"
+
+#: KPlatoRCPSScheduler.cpp:646 KPlatoRCPSScheduler.cpp:771
+#, kde-format
+msgid "Project scheduled to start at %1 and finish at %2"
+msgstr "專案排程於 %1 開始 %2 結束"
+
+#: KPlatoRCPSScheduler.cpp:774
+#, kde-format
+msgid "Must start project early in order to finish in time: %1"
+msgstr "專案必須提早開始，以準時完成：%1"
+
+#: KPlatoRCPSScheduler.cpp:809
+#, kde-format
+msgctxt "Project Evaluation and Review Technique"
+msgid "PERT"
+msgstr "PERT"
+
+#: KPlatoRCPSScheduler.cpp:849
+#, kde-format
+msgctxt "1=type of constraint"
+msgid "%1: Failed to meet constraint. Negative float=%2"
+msgstr "%1：無法符合限制。負浮動=%2"
+
+#, fuzzy
+#~| msgctxt "@info:whatsthis"
+#~| msgid ""
+#~| "<title>RCPS Scheduler</title><para>The Resource Constrained Project "
+#~| "Scheduler (RCPS) focuses on scheduling the project to avoid overbooking "
+#~| "resources. It still respects task dependencies and also tries to "
+#~| "fullfill time constraints. However, time constraints can make it very "
+#~| "difficult to find a good solution, so it may be preferable to use a "
+#~| "different scheduler in these cases.</para>"
+#~ msgctxt "(qtundo-format) @info:whatsthis"
+#~ msgid ""
+#~ "<title>RCPS Scheduler</title><para>The Resource Constrained Project "
+#~ "Scheduler (RCPS) focuses on scheduling the project to avoid overbooking "
+#~ "resources. It still respects task dependencies and also tries to fullfill "
+#~ "time constraints. However, time constraints can make it very difficult to "
+#~ "find a good solution, so it may be preferable to use a different "
+#~ "scheduler in these cases.</para>"
+#~ msgstr ""
+#~ "<title>RCPS 排程器</title> <para>資源限制專案排程器（Resource Constrained "
+#~ "Project Scheduler，RCPS）排程專案的重點在避免過度配置（overbook）資源。它"
+#~ "還是會遵循工作相依性，並試著滿足時間限制。不過，時間限制可能會造成無法找到"
+#~ "一個好的排程，這種狀況下還是使用別的排程器較好。</para>"
+
+#, fuzzy
+#~| msgid "Scheduling halted after %1 generations"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Scheduling halted after %1 generations"
+#~ msgstr "在 %1 代之後排程已中止"
+
+#, fuzzy
+#~| msgid "Init"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Init"
+#~ msgstr "初始化"
+
+#, fuzzy
+#~| msgid "Re-calculate project from start time: %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Re-calculate project from start time: %1"
+#~ msgstr "從起始時間重新排程專案：%1"
+
+#, fuzzy
+#~| msgid "Schedule project from start time: %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Schedule project from start time: %1"
+#~ msgstr "排程專案起始時間：%1"
+
+#, fuzzy
+#~| msgid "Schedule project from end time: %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Schedule project from end time: %1"
+#~ msgstr "從結束時間重新排程專案：%1"
+
+#, fuzzy
+#~| msgid "Failed to build a valid RCPS project"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Failed to build a valid RCPS project"
+#~ msgstr "編譯合法的 RCPS 專案失敗"
+
+#, fuzzy
+#~| msgid "Schedule"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Schedule"
+#~ msgstr "排程"
+
+#, fuzzy
+#~| msgid "Invalid scheduling solution. Result: %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Invalid scheduling solution. Result: %1"
+#~ msgstr "不合法的排程解決方式。結果：%1"
+
+#, fuzzy
+#~| msgid "No resource request is registered"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "No resource request is registered"
+#~ msgstr "沒有註冊任何資源要求"
+
+#, fuzzy
+#~| msgid "No resource has been allocated"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "No resource has been allocated"
+#~ msgstr "尚未配置任何資源"
+
+#, fuzzy
+#~| msgid "Scheduled task to start at %1 and finish at %2"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Scheduled task to start at %1 and finish at %2"
+#~ msgstr "排程工作於 %1 開始，%2 結束"
+
+#, fuzzy
+#~| msgid "Project scheduled to start at %1 and finish at %2"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Project scheduled to start at %1 and finish at %2"
+#~ msgstr "專案排程於 %1 開始 %2 結束"
+
+#, fuzzy
+#~| msgid "Must start project early in order to finish in time: %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Must start project early in order to finish in time: %1"
+#~ msgstr "專案必須提早開始，以準時完成：%1"
+
+#, fuzzy
+#~| msgctxt "Project Evaluation and Review Technique"
+#~| msgid "PERT"
+#~ msgctxt "(qtundo-format) Project Evaluation and Review Technique"
+#~ msgid "PERT"
+#~ msgstr "PERT"
+
+#, fuzzy
+#~| msgctxt "1=type of constraint"
+#~| msgid "%1: Failed to meet constraint. Negative float=%2"
+#~ msgctxt "(qtundo-format) 1=type of constraint"
+#~ msgid "%1: Failed to meet constraint. Negative float=%2"
+#~ msgstr "%1：無法符合限制。負浮動=%2"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Scheduling backwards from target end time is not supported."
+#~ msgstr "不支援從目標結束時間往前排程的功能。"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "The project will be scheduled forward from target start time."
+#~ msgstr "此專案將由目標起始時間往後排程。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<b>This scheduler does not support all the requested scheduling "
+#~ "functionality.</b>"
+#~ msgstr "<b>此排程器未支援所有要求的排程功能。</b>"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Scheduling tasks with time constraints is not supported."
+#~ msgstr "不支援有時間限制的排程工作。"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Tasks will be scheduled As Soon As Possible (ASAP)."
+#~ msgstr "工作將被排定為「越快越好」（ASAP）。"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Scheduling tasks As Late As Possible (ALAP) is not supported."
+#~ msgstr "不支援將工作排程為「越晚越好」（ALAP）的功能。"
+
+#~ msgid "Task '%1' estimate: %2"
+#~ msgstr "工作 '%1' 估計： %2"
+
+#~ msgid "Task '%1' duration called %2 times, cached values: %3"
+#~ msgstr "工作 %1 期間呼叫 %2 次，快取值：%3"
+
+#~ msgid "Task '%1' start: %2, duration: %3 (%4, %5 hours)"
+#~ msgstr "工作 %1 起始：%2 期間：%3 （%4，%5 小時）"
+
+#~ msgid "Task '%1' start=%2, duration=%3: %4 - %5"
+#~ msgstr "工作 '%1'，起始=%2，期間=%3：%4 - %5"
+
+#~ msgid "Job %1: resource %2 is %3 available"
+#~ msgstr "工作 %1：資源 %2 為 %3 可用"
+
+#~ msgid "Project scheduling finished at %1"
+#~ msgstr "專案排程完成於 %1"
+
+#~ msgid "Schedule project using RCPS Scheduler, starting at %1"
+#~ msgstr "使用 RCPS 排程器安排專案，於 %1 開始"

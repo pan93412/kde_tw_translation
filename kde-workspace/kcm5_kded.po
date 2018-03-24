@@ -1,0 +1,168 @@
+# translation of kcmkded.po to Chinese Traditional
+# Traditional Chinese Translation of kcmkded
+# Copyright (C) 2002, 2007, 2008 Free Software Foundation, Inc.
+#
+# Yuan-Chen Cheng <ycheng@slat.org>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkded\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2017-03-27 09:15+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Yuan-Chen Cheng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ycheng@slat.org, s8321414@gmail.com"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "kcmkded"
+msgstr "kcmkded"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "KDE Service Manager"
+msgstr "KDE 服務管理員"
+
+#: kcmkded.cpp:81
+#, kde-format
+msgid "(c) 2002 Daniel Molkentin"
+msgstr "(c) 2002 Daniel Molkentin"
+
+#: kcmkded.cpp:82
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmkded.cpp:85
+#, kde-format
+msgid ""
+"<h1>Service Manager</h1><p>This module allows you to have an overview of all "
+"plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
+"there are two types of service:</p><ul><li>Services invoked at startup</"
+"li><li>Services called on demand</li></ul><p>The latter are only listed for "
+"convenience. The startup services can be started and stopped. In "
+"Administrator mode, you can also define whether services should be loaded at "
+"startup.</p><p><b> Use this with care: some services are vital for Plasma; "
+"do not deactivate services if you do not know what you are doing.</b></p>"
+msgstr ""
+"<h1>服務管理程式</h1><p>這模組讓您能夠概覽 KDE 伺服程式的所有外掛程式，也就是"
+"所謂 KDE 服務。一般來說，有兩種類型的服務：</p><ul><li>在啟動時呼叫服務</"
+"li><li>依需求呼叫服務</li></ul><p>這些順序只是方便列舉而已。在啟動時呼叫的服"
+"務可以啟動也可以停止。在管理員模式，您也可以定義何種服務要在啟動時載入。</"
+"p><p><b> 請小心使用這個功能：某些服務對於 Plasma 來說是必要的：如果您不知道您"
+"在做什麼，請不要停止服務。</b></p>"
+
+#: kcmkded.cpp:93
+#, kde-format
+msgid "Running"
+msgstr "執行中"
+
+#: kcmkded.cpp:94
+#, kde-format
+msgid "Not running"
+msgstr "並非執行中"
+
+#: kcmkded.cpp:99
+#, kde-format
+msgid "Load-on-Demand Services"
+msgstr "需要時載入的服務"
+
+#: kcmkded.cpp:100
+#, kde-format
+msgid ""
+"This is a list of available KDE services which will be started on demand. "
+"They are only listed for convenience, as you cannot manipulate these "
+"services."
+msgstr ""
+"這是在 KDE 中在你需要時會自動載入的服務。在此列出僅供參考，你並不能調整這些服"
+"務。"
+
+#: kcmkded.cpp:109 kcmkded.cpp:131
+#, kde-format
+msgid "Service"
+msgstr "服務"
+
+#: kcmkded.cpp:110 kcmkded.cpp:132
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#: kcmkded.cpp:111 kcmkded.cpp:133
+#, kde-format
+msgid "Description"
+msgstr "敘述"
+
+#: kcmkded.cpp:120
+#, kde-format
+msgid "Startup Services"
+msgstr "啟動服務"
+
+#: kcmkded.cpp:121
+#, kde-format
+msgid ""
+"This shows all KDE services that can be loaded on Plasma startup. Checked "
+"services will be invoked on next startup. Be careful with deactivation of "
+"unknown services."
+msgstr ""
+"此表為 Plasma 啟動時會載入的所有 KDE 服務。被選取的服務將會在下次啟動時被載"
+"入。請不要隨意關閉那些您不清楚功能的服務"
+
+#: kcmkded.cpp:130
+#, kde-format
+msgid "Use"
+msgstr "使用"
+
+#: kcmkded.cpp:143
+#, kde-format
+msgid "Start"
+msgstr "啟動"
+
+#: kcmkded.cpp:144
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: kcmkded.cpp:333
+#, kde-format
+msgid "Unable to contact KDED."
+msgstr "無法與 KDED 連線。"
+
+#: kcmkded.cpp:477
+#, kde-format
+msgid "Unable to start server <em>%1</em>."
+msgstr "無法啟動伺服器 <em>%1</em>。"
+
+#: kcmkded.cpp:480
+#, kde-format
+msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "無法啟動服務。<em>%1</em>。<br /><br /><i>錯誤：%2</i>"
+
+#: kcmkded.cpp:497
+#, kde-format
+msgid "Unable to stop service <em>%1</em>."
+msgstr "無法停止服務 <em>%1</em>。"
+
+#: kcmkded.cpp:500
+#, kde-format
+msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "無法停止服務 <em>%1</em>。<br /><br /><i>錯誤：%2</i>"

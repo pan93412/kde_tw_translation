@@ -1,0 +1,730 @@
+# translation of kfindpart.po to Chinese Traditional
+# Traditional Chinese Translatio nof kfindpart
+#
+# Kenduest Lee <kenduest@cynix.com.tw>, 2001.
+# Paladin Liu <paladin@ms1.hinet.net>, 2002.
+# Hydonsingore Sie <hydonsingore@mail.educities.edu.tw>, 2004.
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfindpart\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-01-16 03:04+0100\n"
+"PO-Revision-Date: 2017-06-27 21:26+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kfinddlg.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Find Files/Folders"
+msgstr "尋找檔案/資料夾"
+
+#: kfinddlg.cpp:69 kfinddlg.cpp:197
+#, kde-format
+msgctxt "the application is currently idle, there is no active search"
+msgid "Idle."
+msgstr "閒置。"
+
+#. i18n as below
+#: kfinddlg.cpp:133 kfinddlg.cpp:228 kfinddlg.cpp:252
+#, fuzzy, kde-format
+#| msgid "one file found"
+#| msgid_plural "%1 files found"
+msgid "one item found"
+msgid_plural "%1 items found"
+msgstr[0] "找到 %1 個檔案"
+
+#: kfinddlg.cpp:172
+#, kde-format
+msgid "Searching..."
+msgstr "正在搜尋..."
+
+#: kfinddlg.cpp:199
+#, kde-format
+msgid "Canceled."
+msgstr "已取消。"
+
+#: kfinddlg.cpp:201 kfinddlg.cpp:204 kfinddlg.cpp:207
+#, kde-format
+msgid "Error."
+msgstr "錯誤。"
+
+#: kfinddlg.cpp:202
+#, kde-format
+msgid "Please specify an absolute path in the \"Look in\" box."
+msgstr "請在\"查詢\"欄中指定絕對路徑。"
+
+#: kfinddlg.cpp:205
+#, kde-format
+msgid "Could not find the specified folder."
+msgstr "無法找到指定的目錄。"
+
+#: kfindtreeview.cpp:54
+#, kde-format
+msgid "Read-write"
+msgstr "可讀寫"
+
+#: kfindtreeview.cpp:55
+#, kde-format
+msgid "Read-only"
+msgstr "唯讀"
+
+#: kfindtreeview.cpp:56
+#, kde-format
+msgid "Write-only"
+msgstr "唯寫"
+
+#: kfindtreeview.cpp:57
+#, kde-format
+msgid "Inaccessible"
+msgstr "無法存取"
+
+#: kfindtreeview.cpp:77
+#, kde-format
+msgctxt "file name column"
+msgid "Name"
+msgstr "名稱"
+
+#: kfindtreeview.cpp:79
+#, kde-format
+msgctxt "name of the containing folder"
+msgid "In Subfolder"
+msgstr "於子目錄"
+
+#: kfindtreeview.cpp:81
+#, kde-format
+msgctxt "file size column"
+msgid "Size"
+msgstr "大小"
+
+#: kfindtreeview.cpp:83
+#, kde-format
+msgctxt "modified date column"
+msgid "Modified"
+msgstr "已修改"
+
+#: kfindtreeview.cpp:85
+#, kde-format
+msgctxt "file permissions column"
+msgid "Permissions"
+msgstr "權限"
+
+#: kfindtreeview.cpp:87
+#, kde-format
+msgctxt "first matching line of the query string in this file"
+msgid "First Matching Line"
+msgstr "符合的第一行"
+
+#: kfindtreeview.cpp:350
+#, kde-format
+msgid "&Open containing folder(s)"
+msgstr "開啟包含資料夾(&O)"
+
+#: kfindtreeview.cpp:354
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#: kfindtreeview.cpp:358
+#, kde-format
+msgid "&Move to Trash"
+msgstr "移到資源回收筒(&M)"
+
+#: kfindtreeview.cpp:435
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Results As"
+msgstr "儲存結果為..."
+
+#: kfindtreeview.cpp:460
+#, kde-format
+msgid "Unable to save results."
+msgstr "無法儲存結果。"
+
+#: kfindtreeview.cpp:475
+#, kde-format
+msgid "KFind Results File"
+msgstr "KFind 結果檔案"
+
+#: kfindtreeview.cpp:490
+#, kde-format
+msgctxt "%1=filename"
+msgid "Results were saved to: %1"
+msgstr "結果被存到：%1"
+
+#: kfindtreeview.cpp:578 kftabdlg.cpp:445
+#, kde-format
+msgid "&Properties"
+msgstr "選項 (&P)"
+
+#: kftabdlg.cpp:84
+#, kde-format
+msgctxt "this is the label for the name textfield"
+msgid "&Named:"
+msgstr "已命名(&N)："
+
+#: kftabdlg.cpp:87
+#, kde-format
+msgid "You can use wildcard matching and \";\" for separating multiple names"
+msgstr "你可以使用萬用字元來進行配對，也可以使用 \";\" 來分隔不同的名稱"
+
+#: kftabdlg.cpp:93
+#, kde-format
+msgid "Look &in:"
+msgstr "快速概覽(&I):"
+
+#: kftabdlg.cpp:96
+#, kde-format
+msgid "Include &subfolders"
+msgstr "一併尋找子資料夾(&S)"
+
+#: kftabdlg.cpp:97
+#, kde-format
+msgid "Case s&ensitive search"
+msgstr "搜尋區分大小寫(&C)"
+
+#: kftabdlg.cpp:98
+#, kde-format
+msgid "&Browse..."
+msgstr "瀏覽(&B)..."
+
+#: kftabdlg.cpp:99
+#, kde-format
+msgid "&Use files index"
+msgstr "使用檔案索引(&U)"
+
+#: kftabdlg.cpp:100
+#, kde-format
+msgid "Show &hidden files"
+msgstr "顯示隱藏檔(&H)"
+
+#: kftabdlg.cpp:119
+#, kde-format
+msgid ""
+"<qt>Enter the filename you are looking for. <br />Alternatives may be "
+"separated by a semicolon \";\".<br /><br />The filename may contain the "
+"following special characters:<ul><li><b>?</b> matches any single character</"
+"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
+"matches any of the characters between the braces</li></ul><br />Example "
+"searches:<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or ."
+"txt</li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all "
+"files that start with \"Hel\" and end with \"o\", having one character in "
+"between</li><li><b>My Document.kwd</b> finds a file of exactly that name</"
+"li></ul></qt>"
+msgstr ""
+"<qt>輸入你所要找的檔案名稱。<br />多個名稱可以使用分號「;」隔開。<br /><br />"
+"檔案名稱中可以包含下列特殊字元：<ul><li><b>?</b> 比對任何單一字元</"
+"li><li><b>*</b> 比對零個或多個任意字元</li><li><b>[...]</b> 比對任何在中括號"
+"中的字元</li></ul><br />搜尋範例:<ul><li><b>*.kwd;*.txt</b> 找尋所有檔名結尾"
+"為 .kwd 或是 .txt 的檔案。</li><li><b>go[dt]</b> 找到檔案 god 與 got</"
+"li><li><b>Hel?o</b> 找出所有以「Hel」起頭且以「o」結尾，且其中只有一個字元的"
+"所有檔案</li><li><b>My Document.kwd</b> 找到一個檔名完全相符的檔案</li></"
+"ul></qt>"
+
+#: kftabdlg.cpp:140
+#, kde-format
+msgid ""
+"<qt>This lets you use the files' index created by the <i>slocate</i> package "
+"to speed-up the search; remember to update the index from time to time "
+"(using <i>updatedb</i>).</qt>"
+msgstr ""
+"<qt>這讓您使用<i>slocate</i>所建立的檔案索引包來加速搜尋。 別忘了要不時更新檔"
+"案索引(使用<i>updatedb</i>)。</qt>"
+
+#: kftabdlg.cpp:186
+#, kde-format
+msgid "Find all files created or &modified:"
+msgstr "搜尋所有建立或修改的檔案(&M):"
+
+#: kftabdlg.cpp:188
+#, kde-format
+msgid "&between"
+msgstr "期間(&B): "
+
+#: kftabdlg.cpp:190
+#, kde-format
+msgid "and"
+msgstr "且"
+
+#: kftabdlg.cpp:212
+#, kde-format
+msgid "File &size is:"
+msgstr "檔案大小(&S)："
+
+#: kftabdlg.cpp:225
+#, kde-format
+msgid "Files owned by &user:"
+msgstr "使用者所擁有的檔案(&U)："
+
+#: kftabdlg.cpp:230
+#, kde-format
+msgid "Owned by &group:"
+msgstr "群組所擁有的檔案(&G)："
+
+#: kftabdlg.cpp:233
+#, kde-format
+msgctxt "file size isn't considered in the search"
+msgid "(none)"
+msgstr "（無）"
+
+#: kftabdlg.cpp:234
+#, kde-format
+msgid "At Least"
+msgstr "最少"
+
+#: kftabdlg.cpp:235
+#, kde-format
+msgid "At Most"
+msgstr "最多"
+
+#: kftabdlg.cpp:236
+#, kde-format
+msgid "Equal To"
+msgstr "等於"
+
+#: kftabdlg.cpp:238 kftabdlg.cpp:897
+#, kde-format
+msgid "Byte"
+msgid_plural "Bytes"
+msgstr[0] "位元組"
+
+#: kftabdlg.cpp:239
+#, kde-format
+msgid "KiB"
+msgstr "KB"
+
+#: kftabdlg.cpp:240
+#, kde-format
+msgid "MiB"
+msgstr "MB"
+
+#: kftabdlg.cpp:241
+#, kde-format
+msgid "GiB"
+msgstr "GB"
+
+#: kftabdlg.cpp:307
+#, kde-format
+msgctxt "label for the file type combobox"
+msgid "File &type:"
+msgstr "檔案型態(&T)："
+
+#: kftabdlg.cpp:312
+#, kde-format
+msgid "C&ontaining text:"
+msgstr "包含內文(&O)："
+
+#: kftabdlg.cpp:318
+#, kde-format
+msgid ""
+"<qt>If specified, only files that contain this text are found. Note that not "
+"all file types from the list above are supported. Please refer to the "
+"documentation for a list of supported file types.</qt>"
+msgstr ""
+"<qt>如果選擇此項，只會找到包含這些文字的檔案。請注意並非所有 上列的檔案格式都"
+"有支援。請參考文件，以得知所支援的檔案格 式。</qt>"
+
+#: kftabdlg.cpp:326
+#, kde-format
+msgid "Case s&ensitive"
+msgstr "尋找區分大小寫(&E)"
+
+#: kftabdlg.cpp:327
+#, kde-format
+msgid "Include &binary files"
+msgstr "包含二進位檔案(&S)"
+
+#: kftabdlg.cpp:328
+#, kde-format
+msgid "Regular e&xpression"
+msgstr "正規表示法(&X)"
+
+#: kftabdlg.cpp:331
+#, kde-format
+msgid ""
+"<qt>This lets you search in any type of file, even those that usually do not "
+"contain text (for example program files and images).</qt>"
+msgstr ""
+"<qt>這讓您在檔任何格式的檔案中搜尋，儘管這些檔案常常不包含文字(例如程式檔或圖"
+"像檔) </qt>"
+
+#: kftabdlg.cpp:339
+#, kde-format
+msgid "&Edit..."
+msgstr "編輯 (&E)"
+
+#: kftabdlg.cpp:345
+#, kde-format
+msgctxt "as in search for"
+msgid "fo&r:"
+msgstr "於(&R)："
+
+#: kftabdlg.cpp:347
+#, kde-format
+msgid "Search &metainfo sections:"
+msgstr "搜尋檔案的格式資訊 (&M)："
+
+#: kftabdlg.cpp:351
+#, kde-format
+msgid "All Files & Folders"
+msgstr "所有檔案與資料夾"
+
+#: kftabdlg.cpp:352
+#, kde-format
+msgid "Files"
+msgstr "檔案"
+
+#: kftabdlg.cpp:353
+#, kde-format
+msgid "Folders"
+msgstr "資料夾"
+
+#: kftabdlg.cpp:354
+#, kde-format
+msgid "Symbolic Links"
+msgstr "符號連結"
+
+#: kftabdlg.cpp:355
+#, kde-format
+msgid "Special Files (Sockets, Device Files, ...)"
+msgstr "特別檔案 (Sockets, 設備檔案, ...)"
+
+#: kftabdlg.cpp:356
+#, kde-format
+msgid "Executable Files"
+msgstr "執行檔"
+
+#: kftabdlg.cpp:357
+#, kde-format
+msgid "SUID Executable Files"
+msgstr "SUID 屬性執行檔"
+
+#: kftabdlg.cpp:358
+#, kde-format
+msgid "All Images"
+msgstr "所有圖片"
+
+#: kftabdlg.cpp:359
+#, kde-format
+msgid "All Video"
+msgstr "所有視訊"
+
+#: kftabdlg.cpp:360
+#, kde-format
+msgid "All Sounds"
+msgstr "所有聲音"
+
+#: kftabdlg.cpp:443
+#, kde-format
+msgid "Name/&Location"
+msgstr "名稱/位置 (&L)"
+
+#: kftabdlg.cpp:444
+#, kde-format
+msgctxt "tab name: search by contents"
+msgid "C&ontents"
+msgstr "內容 (&O)"
+
+#: kftabdlg.cpp:449
+#, kde-format
+msgid ""
+"<qt>Search within files' specific comments/metainfo<br />These are some "
+"examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
+"title, an album</li><li><b>Images (png...)</b> Search images with a special "
+"resolution, comment...</li></ul></qt>"
+msgstr ""
+"<qt>搜尋檔案的備註或格式資訊<br />這裡有一些範例：<br /><ul><li><b>音訊檔案 "
+"(mp3...)</b>搜尋 mp3 檔案內的 id3 標籤資訊， 例如歌名、專輯名稱...</"
+"li><li><b>影像檔案 (png...)</b>依照所定義的解析度、 備註等來搜尋影像檔案</"
+"li></ul></qt>"
+
+#: kftabdlg.cpp:457
+#, kde-format
+msgid ""
+"<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
+"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
+"Search only in Resolution, Bitdepth...</li></ul></qt>"
+msgstr ""
+"<qt>如果這個選項被設定了，那麼只會搜尋這個欄位內的內容。<br /><ul><li><b>音訊"
+"檔案(mp3...)</b>這可以是歌名、 專輯、...</li><li><b>影像檔案 (png...)</b>只會"
+"依照解析度、 色階、...搜尋</li></ul></qt>"
+
+#: kftabdlg.cpp:615
+#, kde-format
+msgid "Unable to search within a period which is less than a minute."
+msgstr "無法找尋少於一天之期間中的檔案."
+
+#: kftabdlg.cpp:626
+#, kde-format
+msgid "The date is not valid."
+msgstr "無效的日期。"
+
+#: kftabdlg.cpp:628
+#, kde-format
+msgid "Invalid date range."
+msgstr "無效的日期範圍。"
+
+#: kftabdlg.cpp:630
+#, kde-format
+msgid "Unable to search dates in the future."
+msgstr "無法找尋未來的檔案"
+
+#: kftabdlg.cpp:702
+#, kde-format
+msgid "Size is too big. Set maximum size value?"
+msgstr "尺寸太大了。您要設定最大值嗎？"
+
+#: kftabdlg.cpp:702
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#: kftabdlg.cpp:702
+#, kde-format
+msgid "Set"
+msgstr "設定"
+
+#: kftabdlg.cpp:702
+#, kde-format
+msgid "Do Not Set"
+msgstr "不要設定"
+
+#: kftabdlg.cpp:887
+#, kde-format
+msgctxt ""
+"during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' "
+"minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
+msgid "&during the previous"
+msgid_plural "&during the previous"
+msgstr[0] "之前(&D)"
+
+#: kftabdlg.cpp:888
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "分鐘"
+
+#: kftabdlg.cpp:889
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "小時"
+
+#: kftabdlg.cpp:890
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "天"
+
+#: kftabdlg.cpp:891
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "月"
+
+#: kftabdlg.cpp:892
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "年"
+
+#: kquery.cpp:589
+#, kde-format
+msgctxt "@title:window"
+msgid "Error while using locate"
+msgstr "定位(locate)時發生錯誤"
+
+#: main.cpp:41
+#, kde-format
+msgid "KFind"
+msgstr "KFind"
+
+#: main.cpp:42
+#, kde-format
+msgid "KDE file find utility"
+msgstr "KDE 檔案搜尋工具"
+
+#: main.cpp:43
+#, kde-format
+msgid "(c) 1998-2017, The KDE Developers"
+msgstr "(c) 1998-2017, KDE 開發團隊"
+
+#: main.cpp:45
+#, kde-format
+msgid "Kai-Uwe Broulik"
+msgstr "Kai-Uwe Broulik"
+
+#: main.cpp:45
+#, kde-format
+msgid "Current Maintainer"
+msgstr "目前維護者"
+
+#: main.cpp:46
+#, kde-format
+msgid "Eric Coquelle"
+msgstr "Eric Coquelle"
+
+#: main.cpp:46
+#, kde-format
+msgid "Former Maintainer"
+msgstr "前任維護者"
+
+#: main.cpp:47
+#, kde-format
+msgid "Mark W. Webb"
+msgstr "Mark W. Webb"
+
+#: main.cpp:47
+#, kde-format
+msgid "Developer"
+msgstr "開發者"
+
+#: main.cpp:48
+#, kde-format
+msgid "Beppe Grimaldi"
+msgstr "Beppe Grimaldi"
+
+#: main.cpp:48
+#, kde-format
+msgid "UI Design & more search options"
+msgstr "使用者介面設計及更多的搜尋選項"
+
+#: main.cpp:49
+#, kde-format
+msgid "Martin Hartig"
+msgstr "Martin Hartig"
+
+#: main.cpp:50
+#, kde-format
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:51
+#, kde-format
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:52
+#, kde-format
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#: main.cpp:53
+#, kde-format
+msgid "Miroslav Flídr"
+msgstr "Miroslav Flídr"
+
+#: main.cpp:54
+#, kde-format
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#: main.cpp:55
+#, kde-format
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#: main.cpp:56
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:57
+#, kde-format
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:58
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:58
+#, kde-format
+msgid "UI Design"
+msgstr "使用者介面設計"
+
+#: main.cpp:59
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: main.cpp:60
+#, kde-format
+msgid "Clarence Dang"
+msgstr "Clarence Dang"
+
+#: main.cpp:61
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Paladin Liu,Hydonsingore Sie"
+
+#: main.cpp:61
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "paladin@ms1.hinet.net,hydonsingore@mail.educities.edu.tw"
+
+#: main.cpp:69
+#, kde-format
+msgid "Path(s) to search"
+msgstr "搜尋路徑"
+
+#~ msgid "HTML page"
+#~ msgstr "HTML 頁面"
+
+#~ msgid "Text file"
+#~ msgstr "文字檔"
+
+#~ msgctxt "Name of the component that finds things"
+#~ msgid "Find Component"
+#~ msgstr "尋找元件"
+
+#~ msgid "Aborted."
+#~ msgstr "中止。"
+
+#~ msgid "Ready."
+#~ msgstr "就緒"
+
+#~ msgid "Do you really want to delete the selected file?"
+#~ msgid_plural "Do you really want to delete the %1 selected files?"
+#~ msgstr[0] "您確定要刪除所選擇的 %1 個檔案？"
+
+#~ msgctxt "Menu item"
+#~ msgid "Open"
+#~ msgstr "開啟"
+
+#~ msgid "Open Folder"
+#~ msgstr "開啟資料夾"
+
+#~ msgid "Copy"
+#~ msgstr "複製"
+
+#~ msgid "Open With..."
+#~ msgstr "用...開啟"
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "Selected Files"
+#~ msgstr "所選擇的檔案"
+
+#~ msgid "AMiddleLengthText..."
+#~ msgstr "AMiddleLengthText..."

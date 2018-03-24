@@ -1,0 +1,369 @@
+# translation of sweeper.po to Chinese Traditional
+# Copyright (C) 2003, 2007, 2008 Free Software Foundation, Inc.
+#
+# Keng-Tso Ou <jupiter@ocool.org>, 2003.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: sweeper\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-12 03:24+0200\n"
+"PO-Revision-Date: 2010-05-30 14:11+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Keng-Tso Ou,Woodman Tuen, Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jupiter@ocool.org,wmtuen@gmail.com, franklin@goodhorse.idv.tw"
+
+#: main.cpp:43
+#, kde-format
+msgid "Sweeper"
+msgstr "Sweeper"
+
+#: main.cpp:45
+#, kde-format
+msgid "Helps clean unwanted traces the user leaves on the system."
+msgstr "協助您清除使用者在系統中留下的不需要的東西。"
+
+#: main.cpp:47
+#, kde-format
+msgid "(c) 2003-2005, Ralf Hoelzer"
+msgstr "(c) 2003-2005, Ralf Hoelzer"
+
+#: main.cpp:51
+#, kde-format
+msgid "Ralf Hoelzer"
+msgstr "Ralf Hoelzer"
+
+#: main.cpp:51
+#, kde-format
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:52
+#, kde-format
+msgid "Brian S. Stephan"
+msgstr "Brian S. Stephan"
+
+#: main.cpp:52
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: main.cpp:53
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:53 privacyfunctions.h:68
+#, kde-format
+msgid "Thumbnail Cache"
+msgstr "縮圖快取"
+
+#: main.cpp:61
+#, kde-format
+msgid "Sweeps without user interaction"
+msgstr "清除時不與使用者互動"
+
+#: privacyfunctions.cpp:61 privacyfunctions.cpp:70 privacyfunctions.cpp:79
+#, kde-format
+msgid "A thumbnail could not be removed."
+msgstr "無法移除縮圖。"
+
+#: privacyfunctions.cpp:150
+#, kde-format
+msgid "The file exists but could not be removed."
+msgstr "檔案存在，但無法被移除。"
+
+#: privacyfunctions.cpp:236
+#, kde-format
+msgid "A favicon could not be removed."
+msgstr "無法移除圖示。"
+
+#: privacyfunctions.h:37
+#, kde-format
+msgid "Cookies"
+msgstr "Cookies"
+
+#: privacyfunctions.h:38
+#, kde-format
+msgid "Clears all stored cookies set by websites"
+msgstr "重所有已儲存的網站設定的 cookies"
+
+#: privacyfunctions.h:48
+#, kde-format
+msgid "Cookie Policies"
+msgstr "Cookie 政策"
+
+#: privacyfunctions.h:49
+#, kde-format
+msgid "Clears the cookie policies for all visited websites"
+msgstr "清除所有已參訪過網站的 cookie 政策"
+
+#: privacyfunctions.h:58
+#, kde-format
+msgid "Saved Clipboard Contents"
+msgstr "儲存的剪貼簿內容"
+
+#: privacyfunctions.h:59
+#, kde-format
+msgid "Clears the clipboard contents stored by Klipper"
+msgstr "清除 Klipper 儲存的剪貼簿內容"
+
+#: privacyfunctions.h:69
+#, kde-format
+msgid "Clears all cached thumbnails"
+msgstr "清除所有已快取的縮圖"
+
+#: privacyfunctions.h:78
+#, kde-format
+msgid "Run Command History"
+msgstr "執行命令歷史"
+
+#: privacyfunctions.h:79
+#, kde-format
+msgid ""
+"Clears the history of commands run through the Run Command tool on the "
+"desktop"
+msgstr "清除透過桌面上「執行指令」工具執行過的命令的歷史"
+
+#: privacyfunctions.h:88
+#, kde-format
+msgid "Form Completion Entries"
+msgstr "表單補完項目"
+
+#: privacyfunctions.h:89
+#, kde-format
+msgid "Clears values which were entered into forms on websites"
+msgstr "清除網站上輸入表單的儲存值"
+
+#: privacyfunctions.h:98
+#, kde-format
+msgid "Web History"
+msgstr "網站歷史"
+
+#: privacyfunctions.h:99
+#, kde-format
+msgid "Clears the history of visited websites"
+msgstr "清除已參訪過的網站的歷史"
+
+#: privacyfunctions.h:108
+#, kde-format
+msgid "Web Cache"
+msgstr "網頁快取"
+
+#: privacyfunctions.h:109
+#, kde-format
+msgid "Clears the temporary cache of websites visited"
+msgstr "清除已參訪過的網站的暫存快取"
+
+#: privacyfunctions.h:118
+#, kde-format
+msgid "Recent Documents"
+msgstr "最近使用的文件"
+
+#: privacyfunctions.h:119
+#, kde-format
+msgid ""
+"Clears the list of recently used documents from the KDE applications menu"
+msgstr "清除 KDE 應用程式選單中列出的最近使用的文件"
+
+#: privacyfunctions.h:128
+#, kde-format
+msgid "Favorite Icons"
+msgstr "我的最愛圖示"
+
+#: privacyfunctions.h:129
+#, kde-format
+msgid "Clears the FavIcons cached from visited websites"
+msgstr "清除已參訪過的網站快取的我的最愛圖示"
+
+#: privacyfunctions.h:138
+#, kde-format
+msgid "Recent Applications"
+msgstr "最近使用的應用程式"
+
+#: privacyfunctions.h:139
+#, kde-format
+msgid "Clears the list of recently used applications from KDE menu"
+msgstr "清除 KDE 應用程式選單中列出的最近使用的文件"
+
+#: sweeper.cpp:49
+#, kde-format
+msgctxt "General system content"
+msgid "General"
+msgstr "一般"
+
+#: sweeper.cpp:51
+#, kde-format
+msgctxt "Web browsing content"
+msgid "Web Browsing"
+msgstr "網頁瀏覽"
+
+#: sweeper.cpp:126
+#, kde-format
+msgid ""
+"You are deleting data that is potentially valuable to you. Are you sure?"
+msgstr "您現在清除的是可能對您有價值的資料。確定要這樣做？"
+
+#: sweeper.cpp:132
+#, kde-format
+msgid "Starting cleanup..."
+msgstr "開始清除..."
+
+#: sweeper.cpp:138
+#, kde-format
+msgid "Clearing %1..."
+msgstr "正在清除 %1..."
+
+#: sweeper.cpp:143
+#, kde-format
+msgid "Clearing of %1 failed: %2"
+msgstr "清除 %1 失敗：%2"
+
+#: sweeper.cpp:149
+#, kde-format
+msgid "Clean up finished."
+msgstr "已完成清除。"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:27
+#, kde-format
+msgid ""
+"Check all cleanup actions you would like to perform. These will be executed "
+"by pressing the button below."
+msgstr "選取所有要清除動作。按下下面的按鈕就可執行選取的動作。"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:37
+#, kde-format
+msgid "Privacy Settings"
+msgstr "隱私設定"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:42
+#, kde-format
+msgid "Description"
+msgstr "性質"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAllButton)
+#: sweeperdialog.ui:58
+#, kde-format
+msgid "Select &All"
+msgstr "全部選取(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectNoneButton)
+#: sweeperdialog.ui:65
+#, kde-format
+msgid "Select &None"
+msgstr "全部不選取(&N)"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, cleanupButton)
+#: sweeperdialog.ui:88
+#, kde-format
+msgid "Immediately performs the cleanup actions selected above"
+msgstr "馬上執行上方選取的清除動作。"
+
+#. i18n: ectx: property (text), widget (QPushButton, cleanupButton)
+#: sweeperdialog.ui:91
+#, kde-format
+msgid "&Clean Up"
+msgstr "清除(&C)"
+
+#~ msgid "Network privacy level:"
+#~ msgstr "網路隱私等級:"
+
+#~ msgid "Low"
+#~ msgstr "低"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "High"
+#~ msgstr "高"
+
+#~ msgid "Custom"
+#~ msgstr "使用者自訂"
+
+#~ msgid "Financial Information"
+#~ msgstr "財務資訊"
+
+#~ msgid ""
+#~ "Warn me when I visit a site that uses my financial or purchase "
+#~ "information:"
+#~ msgstr "當我瀏覽使用我的財務或購物資訊的網站時對我發出警告："
+
+#~ msgid "For marketing or advertising purposes"
+#~ msgstr "因行銷或廣告目的"
+
+#~ msgid "To share with other companies"
+#~ msgstr "與其他公司分享"
+
+#~ msgid "Health Information"
+#~ msgstr "健康資訊"
+
+#~ msgid ""
+#~ "Warn me when I visit a site that uses my health or medical information: "
+#~ msgstr "當我瀏覽使用我的健康或醫療資訊的網站時對我發出警告："
+
+#~ msgid "Demographics"
+#~ msgstr "人口統計資料"
+
+#~ msgid ""
+#~ "Warn me when I visit a site that uses my non-personally identifiable "
+#~ "information:"
+#~ msgstr "當我瀏覽使用我非個人可識別資訊的網站對我發出警告："
+
+#~ msgid "To determine my interests, habits or general behavior"
+#~ msgstr "來偵查我的興趣，習慣或者一般行為"
+
+#~ msgid ""
+#~ "Warn me when I visit a site that shares my personal information with "
+#~ "other companies"
+#~ msgstr "當我瀏覽將與其他公司分享我個人資訊的網站對我發出警告"
+
+#~ msgid ""
+#~ "Warn me when I visit a site that does not let me know what information "
+#~ "they have about me"
+#~ msgstr "當我瀏覽一個不告知我其所掌握關於我之資訊的網站對我發出警告"
+
+#~ msgid "Personal Information"
+#~ msgstr "個人資訊"
+
+#~ msgid ""
+#~ "Warn me when I visit a site that may contact me about other products or "
+#~ "services:"
+#~ msgstr "當我瀏覽將因其他產品或服務聯繫我的網站對我發出警告"
+
+#~ msgid "Warn me when I visit a site that may use my personal information to:"
+#~ msgstr "當我瀏覽將把我的個人資訊作為其他用途的網站對我發出警告："
+
+#~ msgid "Determine my habits, interests or general behavior"
+#~ msgstr "來偵查我的興趣，習慣或者一般行為"
+
+#~ msgid "Via telephone"
+#~ msgstr "透過電話"
+
+#~ msgid "Via mail"
+#~ msgstr "透過郵件"
+
+#~ msgid "Via email"
+#~ msgstr "透過電子郵件"
+
+#~ msgid "And do not allow me to remove my contact information"
+#~ msgstr "以及不讓我移除我的聯絡資訊"

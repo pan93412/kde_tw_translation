@@ -1,0 +1,5275 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-10 03:19+0100\n"
+"PO-Revision-Date: 2015-06-14 13:37+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: alarmdialog.cpp:40
+#, kde-format
+msgid "Create a new reminder"
+msgstr "建立新提醒器"
+
+#: alarmdialog.cpp:84
+#, kde-format
+msgid "Edit existing reminder"
+msgstr "編輯現有的提醒器"
+
+#: alarmdialog.cpp:242
+#, kde-format
+msgid "Before the to-do starts"
+msgstr "待辦事項開始前"
+
+#: alarmdialog.cpp:242
+#, kde-format
+msgid "After the to-do starts"
+msgstr "待辦事項開始後"
+
+#: alarmdialog.cpp:246
+#, kde-format
+msgid "Before the to-do is due"
+msgstr "待辦事項到期前"
+
+#: alarmdialog.cpp:246
+#, kde-format
+msgid "After the to-do is due"
+msgstr "待辦事項到期後"
+
+#: alarmdialog.cpp:250
+#, kde-format
+msgid "Before the event starts"
+msgstr "事件開始前"
+
+#: alarmdialog.cpp:250
+#, kde-format
+msgid "After the event starts"
+msgstr "事件開始後"
+
+#: alarmdialog.cpp:253
+#, kde-format
+msgid "Before the event ends"
+msgstr "事件結束前"
+
+#: alarmdialog.cpp:253
+#, kde-format
+msgid "After the event ends"
+msgstr "事件結束後"
+
+#: alarmpresets.cpp:103
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "At start"
+msgstr "開始時"
+
+#: alarmpresets.cpp:106
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 minute before start"
+msgid_plural "%1 minutes before start"
+msgstr[0] "開始前 %1 分鐘"
+
+#: alarmpresets.cpp:110
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 hour before start"
+msgid_plural "%1 hours before start"
+msgstr[0] "開始前 %1 小時"
+
+#: alarmpresets.cpp:114
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 day before start"
+msgid_plural "%1 days before start"
+msgstr[0] "開始前 %1 天"
+
+#: alarmpresets.cpp:130
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "When due"
+msgstr "到期時"
+
+#: alarmpresets.cpp:133
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 minute before due"
+msgid_plural "%1 minutes before due"
+msgstr[0] "到期前 %1 分鐘"
+
+#: alarmpresets.cpp:137
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 hour before due"
+msgid_plural "%1 hours before due"
+msgstr[0] "到期前 %1 小時"
+
+#: alarmpresets.cpp:141
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 day before due"
+msgid_plural "%1 days before due"
+msgstr[0] "到期前 %1 天"
+
+#: attachmenteditdialog.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Add Attachment"
+msgid "Edit Attachment"
+msgstr "新增附件"
+
+#: attachmenteditdialog.cpp:74
+#, kde-format
+msgctxt "@label unknown mimetype"
+msgid "Unknown"
+msgstr "未知"
+
+#: attachmenteditdialog.cpp:126
+#, kde-format
+msgctxt "@label"
+msgid "New attachment"
+msgstr "新增附件"
+
+#: attendeeline.cpp:171 incidenceattendee.cpp:81
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Request Response"
+msgstr "要求回覆"
+
+#: attendeeline.cpp:173 incidenceattendee.cpp:83
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Request No Response"
+msgstr "要求別回覆"
+
+#: attendeeline.cpp:176 attendeelineeditdelegate.cpp:40
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enter the name or email address of the attendee."
+msgstr "輸入參加者的名稱或電子郵件地址。"
+
+#: attendeeline.cpp:180 incidenceattendee.cpp:86
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Edits the current attendance status of the attendee."
+msgstr "編輯參加者目前的參加狀態。"
+
+#: attendeeline.cpp:183 incidenceattendee.cpp:89 schedulingdialog.cpp:125
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Edits the role of the attendee."
+msgstr "編輯參加者的角色。"
+
+#: attendeeline.cpp:186 attendeelineeditdelegate.cpp:42
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The email address or name of the attendee. An invitation can be sent to the "
+"user if an email address is provided."
+msgstr "參加者的電子郵件地址或姓名。若有電子郵件地址則會發送邀請函過去。"
+
+#: attendeeline.cpp:191 incidenceattendee.cpp:91
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Request a response from the attendee"
+msgstr "要求參加者回覆"
+
+#: attendeeline.cpp:193 incidenceattendee.cpp:93
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Edits whether to send an email to the attendee to request a response "
+"concerning attendance."
+msgstr "編輯是否要發送電子郵件給參加者，請求對方回覆是否參加。"
+
+#: attendeetablemodel.cpp:82
+#, kde-format
+msgid "Free"
+msgstr "空閒"
+
+#: attendeetablemodel.cpp:84
+#, kde-format
+msgid "Busy"
+msgstr "忙碌"
+
+#: attendeetablemodel.cpp:86
+#, kde-format
+msgid "Accepted"
+msgstr "已接受"
+
+#: attendeetablemodel.cpp:88 attendeetablemodel.cpp:90
+#, kde-format
+msgid "Unknown"
+msgstr "未知"
+
+#: attendeetablemodel.cpp:168
+#, fuzzy, kde-format
+#| msgctxt "vcard attendee role"
+#| msgid "Role"
+msgctxt "vCard attendee role"
+msgid "Role"
+msgstr "角色"
+
+#: attendeetablemodel.cpp:170
+#, fuzzy, kde-format
+#| msgctxt "@title:column attendee name"
+#| msgid "Name"
+msgctxt "Attendees  (name+emailaddress)"
+msgid "Name"
+msgstr "名稱"
+
+#: attendeetablemodel.cpp:172
+#, fuzzy, kde-format
+#| msgctxt "is attendee available for incidence"
+#| msgid "Available"
+msgctxt "Is attendee available for incidence"
+msgid "Available"
+msgstr "可否參加"
+
+#: attendeetablemodel.cpp:175
+#, kde-format
+msgctxt ""
+"Status of attendee in an incidence (accepted, declined, delegated, ...)"
+msgid "Status"
+msgstr "狀態"
+
+#: attendeetablemodel.cpp:177
+#, fuzzy, kde-format
+#| msgid "Type"
+msgctxt "Type of calendar user (vCard attribute)"
+msgid "User Type"
+msgstr "類型"
+
+#: attendeetablemodel.cpp:179
+#, fuzzy, kde-format
+#| msgctxt "has attendee to respond to the invitation"
+#| msgid "Response"
+msgctxt "Has attendee to respond to the invitation"
+msgid "Response"
+msgstr "回應"
+
+#: attendeetablemodel.cpp:181
+#, fuzzy, kde-format
+#| msgctxt "@title:column attendee name"
+#| msgid "Name"
+msgctxt "Attendee name"
+msgid "Name"
+msgstr "名稱"
+
+#: attendeetablemodel.cpp:183
+#, fuzzy, kde-format
+#| msgctxt "ldap attribute mail"
+#| msgid "Email"
+msgctxt "Attendee email"
+msgid "Email"
+msgstr "電子郵件"
+
+#: categorydialog.cpp:59
+#, kde-format
+msgid "Click to add a new category"
+msgstr "點選以加入新類別"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryDialog_base)
+#: categorydialog.cpp:235 categoryselectdialog.cpp:169
+#: ui/categorydialog_base.ui:14 ui/categoryselectdialog_base.ui:13
+#, kde-format
+msgid "Select Categories"
+msgstr "選擇分類"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryEditDialog_base)
+#: categoryeditdialog.cpp:47 ui/categoryeditdialog_base.ui:13
+#, kde-format
+msgid "Edit Categories"
+msgstr "編輯分類"
+
+#: categoryeditdialog.cpp:74
+#, kde-format
+msgid "Apply changes and close"
+msgstr "套用變更並關閉"
+
+#: categoryeditdialog.cpp:75
+#, kde-format
+msgid ""
+"When clicking <b>Ok</b>, the settings will be handed over to the program and "
+"the dialog will be closed."
+msgstr "點擊「確定」時，會送出此設定給程式，並關閉對話框。"
+
+#: categoryeditdialog.cpp:78
+#, kde-format
+msgid "Cancel changes and close"
+msgstr "取消變更並關閉"
+
+#: categoryeditdialog.cpp:79
+#, kde-format
+msgid ""
+"When clicking <b>Cancel</b>, the settings will be discarded and the dialog "
+"will be closed."
+msgstr "點擊「取消」時，此設定會被丟棄，並關閉對話框。"
+
+#: categoryeditdialog.cpp:83
+#, kde-format
+msgid ""
+"When clicking <b>Help</b>, a separate KHelpCenter window will open providing "
+"more information about the settings."
+msgstr ""
+"點擊「說明」時，會另外開啟一個 KDE 說明中心的視窗，提供關於這些設定的資訊。"
+
+#: categoryeditdialog.cpp:141
+#, kde-format
+msgid "New category"
+msgstr "新增類別"
+
+#: categoryeditdialog.cpp:157
+#, kde-format
+msgid "New subcategory"
+msgstr "新增子分類"
+
+#: editoritemmanager.cpp:251
+#, kde-format
+msgid ""
+"The item has been changed by another application.\n"
+"What should be done?"
+msgstr ""
+"此項目已被其它應用程式變更。\n"
+"現在打算怎麼辦？"
+
+#: editoritemmanager.cpp:253
+#, kde-format
+msgid "Take over changes"
+msgstr "接收變更"
+
+#: editoritemmanager.cpp:254
+#, kde-format
+msgid "Ignore and Overwrite changes"
+msgstr "忽略並覆寫變更"
+
+#: freebusyganttproxymodel.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Free/Busy Period"
+msgstr "行程期間"
+
+#: freebusyganttproxymodel.cpp:87
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Summary:"
+msgstr "摘要："
+
+#: freebusyganttproxymodel.cpp:93
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Location:"
+msgstr "位置："
+
+#: freebusyganttproxymodel.cpp:100
+#, kde-format
+msgctxt "@info:tooltip period start time"
+msgid "Start:"
+msgstr "開始："
+
+#: freebusyganttproxymodel.cpp:106
+#, kde-format
+msgctxt "@info:tooltip period end time"
+msgid "End:"
+msgstr "結束："
+
+#: freebusyurldialog.cpp:45
+#, kde-format
+msgid "Edit Free/Busy Location"
+msgstr "編輯行程資訊（Free/Busy）位置"
+
+#: freebusyurldialog.cpp:81
+#, kde-kuit-format
+msgid "Location of Free/Busy information for %1 <placeholder>%2</placeholder>:"
+msgstr "%1 <placeholder>%2</placeholder> 的行程資訊位置："
+
+#: incidencealarm.cpp:273
+#, kde-format
+msgctxt "Disable currently selected reminder"
+msgid "Disable"
+msgstr "關閉"
+
+#: incidencealarm.cpp:275
+#, kde-format
+msgctxt "Enable currently selected reminder"
+msgid "Enable"
+msgstr "開啟"
+
+#: incidencealarm.cpp:291
+#, fuzzy, kde-format
+#| msgid "Display a dialog"
+msgctxt "Alarm action"
+msgid "Display a dialog"
+msgstr "顯示對話框"
+
+#: incidencealarm.cpp:294
+#, fuzzy, kde-format
+#| msgid "Execute a script"
+msgctxt "Alarm action"
+msgid "Execute a script"
+msgstr "執行文稿"
+
+#: incidencealarm.cpp:297
+#, fuzzy, kde-format
+#| msgid "Send an email"
+msgctxt "Alarm action"
+msgid "Send an email"
+msgstr "傳送電子郵件"
+
+#: incidencealarm.cpp:300
+#, fuzzy, kde-format
+#| msgid "Play an audio file"
+msgctxt "Alarm action"
+msgid "Play an audio file"
+msgstr "播放音效檔"
+
+#: incidencealarm.cpp:303
+#, fuzzy, kde-format
+#| msgid "Invalid Reminder."
+msgctxt "Alarm action"
+msgid "Invalid Reminder."
+msgstr "不合法的提醒器。"
+
+#: incidencealarm.cpp:312
+#, fuzzy, kde-format
+#| msgctxt "@item@intable alarm offset specified in minutes"
+#| msgid "1 minute"
+#| msgid_plural "%1 minutes"
+msgctxt "The reminder is set to X minutes before/after the event"
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分鐘"
+
+#: incidencealarm.cpp:318
+#, fuzzy, kde-format
+#| msgctxt "@item@intable alarm offset specified in days"
+#| msgid "1 day"
+#| msgid_plural "%1 days"
+msgctxt "The reminder is set to X days before/after the event"
+msgid "1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 天"
+
+#: incidencealarm.cpp:322
+#, fuzzy, kde-format
+#| msgctxt "@item@intable alarm offset specified in hours"
+#| msgid "1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "The reminder is set to X hours before/after the event"
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 小時"
+
+#: incidencealarm.cpp:327
+#, kde-format
+msgctxt "The reminder is configured to repeat after snooze"
+msgid "(Repeats)"
+msgstr "（重複）"
+
+#. i18n: These series of strings are used to show the user a describtion of
+#. the alarm. %1 is replaced by one of the actions above, %2 is replaced by
+#. one of the time units above, %3 is the (Repeats) part that will be used
+#. in case of repetition of the alarm.
+#: incidencealarm.cpp:337
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the to-do started %4"
+msgid "%1 %2 after the to-do started %3"
+msgstr "%1 %2 %3 於待辦事項開始後 %4"
+
+#: incidencealarm.cpp:340
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the event started %4"
+msgid "%1 %2 after the event started %3"
+msgstr "%1 %2 %3 於事件開始後 %4"
+
+#: incidencealarm.cpp:345
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the to-do starts %4"
+msgid "%1 %2 before the to-do starts %3"
+msgstr "%1 %2 %3 於待辦事項開始前 %4"
+
+#: incidencealarm.cpp:348
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the event starts %4"
+msgid "%1 %2 before the event starts %3"
+msgstr "%1 %2 %3 於事件開始前 %4"
+
+#: incidencealarm.cpp:353
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the to-do is due %4"
+msgid "%1 %2 after the to-do is due %3"
+msgstr "%1 %2 %3 於待辦事項到期後 %4"
+
+#: incidencealarm.cpp:356
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the event ends %4"
+msgid "%1 %2 after the event ends %3"
+msgstr "%1 %2 %3 於事件結束後 %4"
+
+#: incidencealarm.cpp:361
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the to-do is due %4"
+msgid "%1 %2 before the to-do is due %3"
+msgstr "%1 %2 %3 於待辦事項到期前 %4"
+
+#: incidencealarm.cpp:364
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the event ends %4"
+msgid "%1 %2 before the event ends %3"
+msgstr "%1 %2 %3 於事件結束前 %4"
+
+#: incidencealarm.cpp:371
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the to-do started %4 (Disabled)"
+msgid "%1 %2 after the to-do started %3 (Disabled)"
+msgstr "%1 %2 %3 於待辦事項開始後 %4 (已關閉)"
+
+#: incidencealarm.cpp:374
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the event started %4 (Disabled)"
+msgid "%1 %2 after the event started %3 (Disabled)"
+msgstr "%1 %2 %3 於事件開始後 %4 (已關閉)"
+
+#: incidencealarm.cpp:379
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the to-do starts %4 (Disabled)"
+msgid "%1 %2 before the to-do starts %3 (Disabled)"
+msgstr "%1 %2 %3 於待辦事項開始前 %4 (已關閉)"
+
+#: incidencealarm.cpp:382
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the event starts %4 (Disabled)"
+msgid "%1 %2 before the event starts %3 (Disabled)"
+msgstr "%1 %2 %3 於事件開始前 %4 (已關閉)"
+
+#: incidencealarm.cpp:387
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the to-do is due %4 (Disabled)"
+msgid "%1 %2 after the to-do is due %3 (Disabled)"
+msgstr "%1 %2 %3 於待辦事項到期後 %4 (已關閉)"
+
+#: incidencealarm.cpp:390
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 after the event ends %4 (Disabled)"
+msgid "%1 %2 after the event ends %3 (Disabled)"
+msgstr "%1 %2 %3 於事件結束後 %4 (已關閉)"
+
+#: incidencealarm.cpp:395
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the to-do is due %4 (Disabled)"
+msgid "%1 %2 before the to-do is due %3 (Disabled)"
+msgstr "%1 %2 %3 於待辦事項到期前 %4 (已關閉)"
+
+#: incidencealarm.cpp:398
+#, fuzzy, kde-format
+#| msgid "%1 %2 %3 before the event ends %4 (Disabled)"
+msgid "%1 %2 before the event ends %3 (Disabled)"
+msgstr "%1 %2 %3 於事件結束前 %4 (已關閉)"
+
+#: incidencealarm.cpp:407
+#, kde-format
+msgid "%1 when the to-do starts"
+msgstr "%1 工作開始時"
+
+#: incidencealarm.cpp:409
+#, kde-format
+msgid "%1 when the event starts"
+msgstr "%1 事件開始時"
+
+#: incidencealarm.cpp:411
+#, kde-format
+msgid "%1 when the to-do is due"
+msgstr "%1 待辦事項到期時"
+
+#: incidencealarm.cpp:413
+#, kde-format
+msgid "%1 when the event ends"
+msgstr "%1 事件結束時"
+
+#: incidencealarm.cpp:417
+#, kde-format
+msgid "%1 when the to-do starts (Disabled)"
+msgstr "%1 待辦事項開始時 (已關閉)"
+
+#: incidencealarm.cpp:419
+#, kde-format
+msgid "%1 when the event starts (Disabled)"
+msgstr "%1 事件開始時 (已關閉)"
+
+#: incidencealarm.cpp:421
+#, kde-format
+msgid "%1 when the to-do is due (Disabled)"
+msgstr "%1 待辦事項到期時 (已關閉)"
+
+#: incidencealarm.cpp:423
+#, kde-format
+msgid "%1 when the event ends (Disabled)"
+msgstr "%1 事件結束時 (已關閉)"
+
+#: incidenceattachment.cpp:146
+#, kde-format
+msgctxt "@title"
+msgid "Add Attachment"
+msgstr "新增附件"
+
+#: incidenceattachment.cpp:208
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Do you really want to remove these attachments?<nl/>%1"
+msgstr "您確定要移除這些附件嗎？<nl/>%1"
+
+#: incidenceattachment.cpp:209
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Attachments?"
+msgstr "要移除附件嗎？"
+
+#: incidenceattachment.cpp:246
+#, kde-format
+msgctxt "@title"
+msgid "Save Attachment"
+msgstr "儲存附件"
+
+#: incidenceattachment.cpp:429
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Link here"
+msgstr "連結於此(&L)"
+
+#: incidenceattachment.cpp:440 incidenceattachment.cpp:444
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Copy here"
+msgstr "複製於此(&C)"
+
+#: incidenceattachment.cpp:450
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "C&ancel"
+msgstr "取消(&A)"
+
+#: incidenceattachment.cpp:501
+#, kde-format
+msgctxt "@action:inmenu open the attachment in a viewer"
+msgid "&Open"
+msgstr "開啟(&O)"
+
+#: incidenceattachment.cpp:507
+#, kde-format
+msgctxt "@action:inmenu save the attachment to a file"
+msgid "Save As..."
+msgstr "另存為..."
+
+#: incidenceattachment.cpp:526
+#, kde-format
+msgctxt "@action:inmenu remove the attachment"
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#: incidenceattachment.cpp:535
+#, kde-format
+msgctxt "@action:inmenu show a dialog used to edit the attachment"
+msgid "&Properties..."
+msgstr "屬性(&P)..."
+
+#: incidenceattachment.cpp:545
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Displays items (files, mail, etc.) that have been associated with this event "
+"or to-do."
+msgstr "顯示與目前事件或待辦事項相關的項目（檔案、郵件等等）。"
+
+#: incidenceattendee.cpp:258
+#, kde-format
+msgctxt "@info"
+msgid ""
+"%1 does not look like a valid email address. Are you sure you want to invite "
+"this participant?"
+msgstr "%1 看起來不像合法的電子郵件地址。您確定您要邀請這個參加者嗎？"
+
+#: incidenceattendee.cpp:261
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid Email Address"
+msgstr "不合法的電子郵件地址"
+
+#: incidenceattendee.cpp:480
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Select Attendees..."
+msgid "Select Attendees"
+msgstr "選擇參加者..."
+
+#: incidenceattendee.cpp:699
+#, kde-format
+msgctxt "@label Shows the number of scheduling conflicts"
+msgid "%1 conflict"
+msgid_plural "%1 conflicts"
+msgstr[0] "%1 個衝突"
+
+#: incidenceattendee.cpp:887
+#, kde-format
+msgctxt "@option"
+msgid ""
+"You are changing the organizer of this event. Since the organizer is also "
+"attending this event, would you like to change the corresponding attendee as "
+"well?"
+msgstr ""
+"您改變了此事件的發起者。既然他也是此事件的參加者，您也要順便變更相關的參加者"
+"嗎？"
+
+#: incidencedatetime.cpp:241
+#, kde-format
+msgctxt "@action show or hide the time zone widgets"
+msgid "Time zones"
+msgstr "時區"
+
+#: incidencedatetime.cpp:663
+#, kde-format
+msgctxt "@label The due date/time of a to-do"
+msgid "Due:"
+msgstr "到期日："
+
+#: incidencedatetime.cpp:831 incidencedatetime.cpp:832
+#, kde-format
+msgid "Starts: %1"
+msgstr "開始於：%1"
+
+#: incidencedatetime.cpp:834
+#, kde-format
+msgid "Starting Date"
+msgstr "開始日期"
+
+#: incidencedatetime.cpp:835
+#, kde-format
+msgid "Starting Time"
+msgstr "開始時間"
+
+#: incidencedatetime.cpp:848 incidencedatetime.cpp:849
+#, kde-format
+msgid "Due on: %1"
+msgstr "到期於：%1"
+
+#: incidencedatetime.cpp:851 incidencedatetime.cpp:852
+#, kde-format
+msgid "Ends: %1"
+msgstr "結束於：%1"
+
+#: incidencedatetime.cpp:856
+#, kde-format
+msgid "Due Date"
+msgstr "到期日期"
+
+#: incidencedatetime.cpp:857
+#, kde-format
+msgid "Due Time"
+msgstr "到期時間"
+
+#: incidencedatetime.cpp:859
+#, kde-format
+msgid "Ending Date"
+msgstr "結束日期"
+
+#: incidencedatetime.cpp:860
+#, kde-format
+msgid "Ending Time"
+msgstr "結束時間"
+
+#: incidencedatetime.cpp:921
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The event ends before it starts.\n"
+"Please correct dates and times."
+msgstr "這個事件在開始前結束。請更正日期和時間。"
+
+#: incidencedatetime.cpp:925
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The to-do is due before it starts.\n"
+"Please correct dates and times."
+msgstr "這個待辦事項在開始前就到期了。請更正日期和時間。"
+
+#: incidencedefaults.cpp:83
+#, kde-format
+msgctxt "@label"
+msgid "no (valid) identities found"
+msgstr "找不到（合法的）身份"
+
+#: incidencedefaults.cpp:301
+#, kde-format
+msgctxt "@label attachment contains binary data"
+msgid "[Binary data]"
+msgstr "【二進位資料】"
+
+#: incidencedefaults.cpp:438
+#, kde-format
+msgctxt "@label invalid email address marker"
+msgid "invalid@email.address"
+msgstr "invalid@email.address"
+
+#: incidencedescription.cpp:125
+#, kde-format
+msgctxt "@action Enable or disable rich text editting"
+msgid "Enable rich text"
+msgstr "啟用 RichText"
+
+#: incidencedescription.cpp:129
+#, kde-format
+msgctxt "@action Enable or disable rich text editting"
+msgid "Disable rich text"
+msgstr "關閉 Rich Text"
+
+#: incidencedialog.cpp:215
+#, kde-format
+msgid "Select a valid collection first."
+msgstr "請先選擇一個合法的收藏。"
+
+#: incidencedialog.cpp:231
+#, kde-format
+msgctxt "@title:tab Tab to configure the reminders of an event or todo"
+msgid "Reminder (%1)"
+msgstr "提醒（%1）"
+
+#: incidencedialog.cpp:235
+#, kde-format
+msgctxt "@title:tab Tab to configure the reminders of an event or todo"
+msgid "Reminder"
+msgstr "提醒"
+
+#: incidencedialog.cpp:245
+#, kde-format
+msgctxt "@title:tab Tab to configure the recurrence of an event or todo"
+msgid "Rec&urrence"
+msgstr "循環(&U)"
+
+#: incidencedialog.cpp:255
+#, kde-format
+msgctxt "@title:tab Daily recurring event, capital first letter only"
+msgid " (D)"
+msgstr "(天)"
+
+#: incidencedialog.cpp:258
+#, kde-format
+msgctxt "@title:tab Weekly recurring event, capital first letter only"
+msgid " (W)"
+msgstr "(週)"
+
+#: incidencedialog.cpp:261
+#, kde-format
+msgctxt "@title:tab Monthly recurring event, capital first letter only"
+msgid " (M)"
+msgstr "(月)"
+
+#: incidencedialog.cpp:264
+#, kde-format
+msgctxt "@title:tab Yearly recurring event, capital first letter only"
+msgid " (Y)"
+msgstr "(年)"
+
+#: incidencedialog.cpp:268
+#, kde-format
+msgctxt "@title:tab Exception to a recurring event, capital first letter only"
+msgid " (E)"
+msgstr " (例外)"
+
+#: incidencedialog.cpp:307
+#, kde-format
+msgctxt "@info"
+msgid "Unable to find template '%1'."
+msgstr "找不到樣本 %1。"
+
+#: incidencedialog.cpp:315
+#, kde-format
+msgctxt "@info"
+msgid "Error loading template file '%1'."
+msgstr "載入樣本檔案 %1 時發生錯誤。"
+
+#: incidencedialog.cpp:323
+#, kde-format
+msgctxt "@info"
+msgid "Template does not contain a valid incidence."
+msgstr "樣本未包含合法的事件。"
+
+#: incidencedialog.cpp:431
+#, kde-format
+msgctxt "@title:tab Tab to modify attachments of an event or todo"
+msgid "Attac&hments (%1)"
+msgstr "附加檔(%1)(&H)"
+
+#: incidencedialog.cpp:436
+#, kde-format
+msgctxt "@title:tab Tab to modify attachments of an event or todo"
+msgid "Attac&hments"
+msgstr "附加檔(&H)"
+
+#: incidencedialog.cpp:446
+#, kde-format
+msgctxt "@title:tab Tab to modify attendees of an event or todo"
+msgid "&Attendees (%1)"
+msgstr "參加者(%1)(&A)"
+
+#: incidencedialog.cpp:451
+#, kde-format
+msgctxt "@title:tab Tab to modify attendees of an event or todo"
+msgid "&Attendees"
+msgstr "參加者(&A)"
+
+#: incidencedialog.cpp:461
+#, kde-format
+msgctxt "@title:tab Tab to modify attendees of an event or todo"
+msgid "&Resources (%1)"
+msgstr "資源 (%1) (&R)"
+
+#: incidencedialog.cpp:466
+#, kde-format
+msgctxt "@title:tab Tab to modify attendees of an event or todo"
+msgid "&Resources"
+msgstr "資源(&R)"
+
+#: incidencedialog.cpp:490
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Unable to store the incidence in the calendar. Try again?\n"
+"\n"
+" Reason: %1"
+msgstr ""
+"無法在行事曆裡儲存事件。要再試一次嗎？\n"
+"\n"
+"理由：%1"
+
+#: incidencedialog.cpp:692
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Save current changes"
+msgstr "儲存目前的變更"
+
+#: incidencedialog.cpp:694
+#, kde-format
+msgctxt "@action:button"
+msgid "Save changes and close dialog"
+msgstr "儲存變更並關閉對話框"
+
+#: incidencedialog.cpp:696
+#, kde-format
+msgctxt "@action:button"
+msgid "Discard changes and close dialog"
+msgstr "丟棄變更並關閉對話框"
+
+#: incidencedialog.cpp:700
+#, kde-format
+msgctxt "@action:button"
+msgid "&Templates..."
+msgstr "樣本(&T)..."
+
+#: incidencedialog.cpp:702
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Manage templates for this item"
+msgstr "管理此項目的樣本"
+
+#: incidencedialog.cpp:705
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Push this button to show a dialog that helps you manage a set of templates. "
+"Templates can make creating new items easier and faster by putting your "
+"favorite default values into the editor automatically."
+msgstr ""
+"按下此鍵會顯示一個對話框，讓您管理樣本集。樣本可以自動將您常用的預設值放入編"
+"輯器內，讓您更快更容易建立新的項目。"
+
+#: incidencedialog.cpp:824 incidencedialog.cpp:843
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to cancel?"
+msgstr "您確定要取消嗎？"
+
+#: incidencedialog.cpp:825 incidencedialog.cpp:844
+#, kde-format
+msgctxt "@title:window"
+msgid "KOrganizer Confirmation"
+msgstr "KOrganizer 確認"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (AttachmentHandling)
+#: incidenceeditor.kcfg:12
+#, kde-format
+msgid "Default Email Attachment Method"
+msgstr "預設電子郵件附加方法"
+
+#. i18n: ectx: whatsthis, entry (DefaultEmailAttachMethod), group (AttachmentHandling)
+#: incidenceeditor.kcfg:13
+#, kde-format
+msgid "The default way of attaching dropped emails to an event"
+msgstr "將電子郵件附加到事件的預設方法"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (AttachmentHandling)
+#: incidenceeditor.kcfg:16
+#, kde-format
+msgid "Always ask"
+msgstr "總是詢問"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (AttachmentHandling)
+#: incidenceeditor.kcfg:19
+#, kde-format
+msgid "Only attach link to message"
+msgstr "只附加連結"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (AttachmentHandling)
+#: incidenceeditor.kcfg:22
+#, kde-format
+msgid "Attach complete message"
+msgstr "附加完整的信件"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (AttachmentHandling)
+#: incidenceeditor.kcfg:25
+#, kde-format
+msgid "Attach message without attachments"
+msgstr "附加信件但不含信件的附加檔"
+
+#: incidencerecurrence.cpp:138
+#, kde-format
+msgctxt ""
+"In several of the messages below, an ordinal number is substituted into the "
+"message. Translate this as \"0\" if English ordinal suffixes should be added "
+"(1st, 22nd, 123rd); translate this as \"1\" if just the number itself should "
+"be substituted (1, 22, 123)."
+msgid "0"
+msgstr "0"
+
+#: incidencerecurrence.cpp:439
+#, kde-format
+msgid ""
+"A recurring event or to-do must occur at least once. Adjust the recurring "
+"parameters."
+msgstr "循環的事件或待辦事項必須至少一次。將調整循環參數。"
+
+#: incidencerecurrence.cpp:445
+#, kde-format
+msgid "The incidence's start date is invalid."
+msgstr "事件的開始日期不合法。"
+
+#: incidencerecurrence.cpp:495
+#, kde-format
+msgctxt "example: the 30th"
+msgid "the %1"
+msgstr " %1 天"
+
+#: incidencerecurrence.cpp:499
+#, kde-format
+msgctxt "example: the 4th to last day"
+msgid "the %1 to last day"
+msgstr "倒數 %1 天"
+
+#: incidencerecurrence.cpp:503
+#, kde-format
+msgctxt "example: the 5th Wednesday"
+msgid "the %1 %2"
+msgstr "%1 個 %2"
+
+#: incidencerecurrence.cpp:509
+#, kde-format
+msgctxt "example: the last Wednesday"
+msgid "the last %1"
+msgstr "上個 %1"
+
+#: incidencerecurrence.cpp:513
+#, kde-format
+msgctxt "example: the 5th to last Wednesday"
+msgid "the %1 to last %2"
+msgstr "上個 %2 前 %1 天"
+
+#: incidencerecurrence.cpp:528
+#, kde-format
+msgctxt "example: the 5th of June"
+msgid "the %1 of %2"
+msgstr "%2 的 %1 天"
+
+#: incidencerecurrence.cpp:533
+#, kde-format
+msgctxt "example: the 3rd to last day of June"
+msgid "the %1 to last day of %2"
+msgstr "%2 的倒數 %1 天"
+
+#: incidencerecurrence.cpp:538
+#, kde-format
+msgctxt "example: the 4th Wednesday of June"
+msgid "the %1 %2 of %3"
+msgstr "%3 的倒數 %1 個 %2"
+
+#: incidencerecurrence.cpp:544
+#, kde-format
+msgctxt "example: the last Wednesday of June"
+msgid "the last %1 of %2"
+msgstr "%2 的最後一個 %1"
+
+#: incidencerecurrence.cpp:549
+#, kde-format
+msgctxt "example: the 4th to last Wednesday of June"
+msgid "the %1 to last %2 of %3 "
+msgstr "%3 的最後一個 %2 前 %1 天"
+
+#: incidencerecurrence.cpp:557
+#, kde-format
+msgctxt "example: the 15th day of the year"
+msgid "the %1 day of the year"
+msgstr "此年度的 %1 天"
+
+#: incidencerecurrence.cpp:574
+#, kde-format
+msgctxt "Recurrence ends after n occurrences"
+msgid "occurrence"
+msgid_plural "occurrences"
+msgstr[0] "次事件發生"
+
+#: incidencerecurrence.cpp:600
+#, kde-format
+msgctxt "repeat every N >weeks<"
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "週"
+
+#: incidencerecurrence.cpp:604
+#, kde-format
+msgctxt "repeat every N >months<"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "月"
+
+#: incidencerecurrence.cpp:608
+#, kde-format
+msgctxt "repeat every N >years<"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "年"
+
+#: incidencerecurrence.cpp:612
+#, kde-format
+msgctxt "repeat every N >days<"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "天"
+
+#: incidencerecurrence.cpp:619
+#, kde-format
+msgctxt ""
+"repeat >every< N years/months/...; dynamic context 'type': 'd' days, 'w' "
+"weeks, 'm' months, 'y' years"
+msgid "every"
+msgid_plural "every"
+msgstr[0] "每"
+
+#: incidencewhatwhere.cpp:82
+#, kde-format
+msgctxt "@info"
+msgid "Please specify a title."
+msgstr "請指定標題。"
+
+#: individualmailcomponentfactory.h:70 individualmailcomponentfactory.h:78
+#: individualmailcomponentfactory.h:85
+#, kde-format
+msgctxt "@action:button dialog positive answer"
+msgid "Send Email"
+msgstr "傳送電子郵件"
+
+#: individualmailcomponentfactory.h:71 individualmailcomponentfactory.h:79
+#: individualmailcomponentfactory.h:86
+#, kde-format
+msgctxt "@action:button dialog negative answer"
+msgid "Do Not Send"
+msgstr "不要傳送"
+
+#: individualmaildialog.cpp:42
+#, kde-format
+msgctxt "@title:window"
+msgid "Group Scheduling Email"
+msgstr "群組排程電子郵件"
+
+#: individualmaildialog.cpp:49
+#, kde-format
+msgctxt "@item:inlistbox ITIP Messages for one attendee"
+msgid "Send update"
+msgstr "傳送更新"
+
+#: individualmaildialog.cpp:51
+#, kde-format
+msgctxt "@item:inlistbox ITIP Messages for one attendee"
+msgid "Send no update"
+msgstr "傳送不更新"
+
+#: individualmaildialog.cpp:53
+#, kde-format
+msgctxt "@item:inlistbox ITIP Messages for one attendee"
+msgid "Edit mail"
+msgstr "編輯電子郵件"
+
+#: individualmaildialog.cpp:130
+#, fuzzy, kde-format
+#| msgctxt "@action:button show list of attendees"
+#| msgid "Individual mailsettings"
+msgctxt "@action:button show list of attendees"
+msgid "Individual mailsettings <<"
+msgstr "個人郵件設定"
+
+#: individualmaildialog.cpp:133
+#, fuzzy, kde-format
+#| msgctxt "@action:button show list of attendees"
+#| msgid "Individual mailsettings"
+msgctxt "@action:button show list of attendees"
+msgid "Individual mailsettings >>"
+msgstr "個人郵件設定"
+
+#: ldaputils.cpp:29
+#, kde-format
+msgctxt "ldap attribute cn"
+msgid "Common name"
+msgstr "通用名稱"
+
+#: ldaputils.cpp:31
+#, kde-format
+msgctxt "ldap attribute mail"
+msgid "Email"
+msgstr "電子郵件"
+
+#: ldaputils.cpp:33
+#, kde-format
+msgctxt "ldap attribute givenname"
+msgid "Given name"
+msgstr "指定名稱"
+
+#: ldaputils.cpp:35
+#, kde-format
+msgctxt "ldap attribute sn"
+msgid "Surname"
+msgstr "姓氏"
+
+#: ldaputils.cpp:37
+#, kde-format
+msgctxt "ldap attribute ou"
+msgid "Organization"
+msgstr "組織"
+
+#: ldaputils.cpp:39
+#, kde-format
+msgctxt "ldap attribute objectClass"
+msgid "Object class"
+msgstr "物件類別"
+
+#: ldaputils.cpp:41
+#, kde-format
+msgctxt "ldap attribute description"
+msgid "Description"
+msgstr "描述"
+
+#: ldaputils.cpp:43
+#, kde-format
+msgctxt "ldap attribute telephoneNumber"
+msgid "Telephone"
+msgstr "電話"
+
+#: ldaputils.cpp:45
+#, kde-format
+msgctxt "ldap attribute mobile"
+msgid "Mobile"
+msgstr "行動電話"
+
+#: opencomposerjob.cpp:77
+#, kde-format
+msgctxt "errormessage: can't create a kontact process"
+msgid "Can't create composer: Failed to start kontact."
+msgstr "無法發信：無法啟動 kontact。"
+
+#: opencomposerjob.cpp:93
+#, kde-format
+msgctxt ""
+"errormessage: No connection via dbus nor starting kontact process worked."
+msgid "Can't create composer: Neither dbus nor kontact responded in time."
+msgstr "無法發信：dbus 或是 kontact 未在時限內回應。"
+
+#: opencomposerjob.cpp:156
+#, kde-format
+msgctxt "errormessage: dbus is running but still no connection kmail"
+msgid "Cannot connect to email service"
+msgstr "無法連接到電子郵件服務"
+
+#: resourcemanagement.cpp:119
+#, fuzzy, kde-format
+#| msgid "resourcemanagement_Gui"
+msgid "Resource Management"
+msgstr "resourcemanagement_Gui"
+
+#: resourcemanagement.cpp:125
+#, kde-format
+msgctxt "@action:button add resource to attendeelist"
+msgid "Book resource"
+msgstr "書籍資源"
+
+#: schedulingdialog.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Schedule..."
+msgid "Scheduling"
+msgstr "排程..."
+
+#: schedulingdialog.cpp:196
+#, kde-format
+msgctxt ""
+"@label Day of week followed by day of the month, then the month. Example: "
+"Monday, 12 June"
+msgid "%1, %2 %3"
+msgstr "%3 %2 日，%1"
+
+#: schedulingdialog.cpp:217
+#, kde-format
+msgctxt ""
+"@label This is a suffix following a time selecting widget. Example: "
+"[timeedit] to 10:00am"
+msgid "to %1"
+msgstr "到 %1"
+
+#: templatemanagementdialog.cpp:64
+#, kde-format
+msgid "Manage %1 Templates"
+msgstr "管理 %1 個樣本"
+
+#: templatemanagementdialog.cpp:128
+#, kde-format
+msgid "Template Name"
+msgstr "樣本名稱"
+
+#: templatemanagementdialog.cpp:130
+#, kde-format
+msgid "Please enter a name for the new template:"
+msgstr "請輸入新樣本名稱："
+
+#: templatemanagementdialog.cpp:131
+#, kde-format
+msgid "New %1 Template"
+msgstr "新增 %1 樣本"
+
+#: templatemanagementdialog.cpp:140
+#, kde-format
+msgid "A template with that name already exists, do you want to overwrite it?"
+msgstr "此樣本名稱已存在。要覆寫它嗎？"
+
+#: templatemanagementdialog.cpp:141
+#, kde-format
+msgid "Duplicate Template Name"
+msgstr "重覆的樣本名稱"
+
+#: templatemanagementdialog.cpp:175
+#, kde-format
+msgid "Are you sure that you want to remove the template <b>%1</b>?"
+msgstr "<qt>您確定要移除樣本<b>%1</b> 嗎？</qt>"
+
+#: templatemanagementdialog.cpp:176
+#, kde-format
+msgid "Remove Template"
+msgstr "移除樣本"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AlarmDialog)
+#: ui/alarmdialog.ui:14
+#, kde-format
+msgid "Alarms"
+msgstr "鬧鐘"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/alarmdialog.ui:32
+#, kde-format
+msgid "When:"
+msgstr "何時："
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mAlarmOffset)
+#: ui/alarmdialog.ui:47
+#, kde-format
+msgid "Set the reminder trigger time"
+msgstr "設定提醒器觸發時間"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mAlarmOffset)
+#: ui/alarmdialog.ui:50
+#, kde-format
+msgid ""
+"This spinbox allows you to set the reminder trigger time. The time unit is "
+"set in the combobox immediately adjacent."
+msgstr "這個數字盒讓您設定提醒的觸發時間。時間單位可以在旁邊設定。"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, mOffsetUnit)
+#: ui/alarmdialog.ui:72
+#, kde-format
+msgid "Select the reminder trigger time unit"
+msgstr "選擇提醒器觸發時間的單位"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, mOffsetUnit)
+#: ui/alarmdialog.ui:75
+#, kde-format
+msgid ""
+"This combobox allows you to set the units for the reminder trigger time. The "
+"trigger time value is set in the spinbox immediately adjacent."
+msgstr ""
+"此下拉式選單讓您設定提醒器觸發時間的單位。觸發時間的值在旁邊的數字盒內設定。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mOffsetUnit)
+#: ui/alarmdialog.ui:82
+#, kde-format
+msgctxt "@item:inlistbox alarm offset expressed in minutes"
+msgid "minute(s)"
+msgstr "分鐘"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mOffsetUnit)
+#: ui/alarmdialog.ui:87
+#, kde-format
+msgctxt "@item:inlistbox alarm offset expressed in hours"
+msgid "hour(s)"
+msgstr "小時"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mOffsetUnit)
+#: ui/alarmdialog.ui:92
+#, kde-format
+msgctxt "@item:inlistbox alarm offset expressed in days"
+msgid "day(s)"
+msgstr "天"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, mBeforeAfter)
+#: ui/alarmdialog.ui:100
+#, kde-format
+msgid "Select the reminder trigger relative to the start or end time"
+msgstr "選擇提醒觸發時間，相對於開始或到期時間"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, mBeforeAfter)
+#: ui/alarmdialog.ui:103
+#, kde-format
+msgid ""
+"Use this combobox to specify if you want the reminder to trigger before or "
+"after the start or end time."
+msgstr "用此下拉式選單指定您要在開始或到期前後多久觸發提醒。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mBeforeAfter)
+#: ui/alarmdialog.ui:107
+#, kde-format
+msgid "before the event starts"
+msgstr "事件開始前"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mBeforeAfter)
+#: ui/alarmdialog.ui:112
+#, kde-format
+msgid "after the event starts"
+msgstr "事件開始後"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mBeforeAfter)
+#: ui/alarmdialog.ui:117
+#, kde-format
+msgid "before the event ends"
+msgstr "事件結束前"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mBeforeAfter)
+#: ui/alarmdialog.ui:122
+#, kde-format
+msgid "after the event ends"
+msgstr "事件結束後"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/alarmdialog.ui:132
+#, kde-format
+msgid "Repeat:"
+msgstr "重覆："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mRepeats)
+#: ui/alarmdialog.ui:147
+#, kde-format
+msgid "Set the reminder to repeat"
+msgstr "設定讓提醒器重覆"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mRepeats)
+#: ui/alarmdialog.ui:150
+#, kde-format
+msgid "Check this if you want to the reminder to recur on a periodic interval."
+msgstr "勾選此選項，,讓提醒器在一定時間間隔重覆提醒。"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mRepeatCount)
+#: ui/alarmdialog.ui:163
+#, kde-format
+msgid "Select how often the reminder should repeat"
+msgstr "選擇提醒器要多常重覆"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mRepeatCount)
+#: ui/alarmdialog.ui:166
+#, kde-format
+msgid ""
+"Use this selector to choose how many times you want the recurring reminder "
+"to repeat."
+msgstr "用此選擇器來選擇您要循環的提醒器重覆多少次。"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mRepeatCount)
+#: ui/alarmdialog.ui:169
+#, kde-format
+msgid " time(s)"
+msgstr " 次"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mRepeatInterval)
+#: ui/alarmdialog.ui:185
+#, kde-format
+msgid "Select the time between reminder repeats"
+msgstr "選擇提醒器重覆的間隔時間"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mRepeatInterval)
+#: ui/alarmdialog.ui:188
+#, kde-format
+msgid "Use this selector to choose the time between repeating reminders."
+msgstr "使用此選擇器選擇提醒器重覆的時間間隔。"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mRepeatInterval)
+#: ui/alarmdialog.ui:191
+#, kde-format
+msgctxt "@label:spinbox repeat interval expressed in minutes"
+msgid " Minute(s)"
+msgstr " 分鐘"
+
+#. i18n: ectx: property (prefix), widget (QSpinBox, mRepeatInterval)
+#: ui/alarmdialog.ui:194
+#, kde-format
+msgctxt "repeat every X minutes"
+msgid "every "
+msgstr "每"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/alarmdialog.ui:215
+#, kde-format
+msgid "What:"
+msgstr "什麼："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mTypeCombo)
+#: ui/alarmdialog.ui:232
+#, kde-format
+msgid "Display text"
+msgstr "顯示文字"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mTypeCombo)
+#: ui/alarmdialog.ui:237
+#, kde-format
+msgid "Play sound file"
+msgstr "播放音效檔"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mTypeCombo)
+#: ui/alarmdialog.ui:242
+#, kde-format
+msgid "Run application / script"
+msgstr "執行應用程式/文稿"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mTypeCombo)
+#: ui/alarmdialog.ui:247
+#, kde-format
+msgid "Send email"
+msgstr "傳送電子郵件"
+
+#. i18n: ectx: property (whatsThis), widget (KTextEdit, mDisplayText)
+#: ui/alarmdialog.ui:280
+#, kde-format
+msgid ""
+"Specify any text you desire to display in the popup notice when the reminder "
+"triggers."
+msgstr "指定您在提醒器觸發時的彈出式視窗中要顯示的文字。"
+
+#. i18n: ectx: property (text), widget (QLabel, mSoundFileLabel)
+#: ui/alarmdialog.ui:303
+#, kde-format
+msgid "Audio File:"
+msgstr "音效檔："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, mSoundFile)
+#: ui/alarmdialog.ui:316
+#, kde-format
+msgid "Specify a file containing a sound to play when the reminder triggers"
+msgstr "指定一個包含觸發提醒時要播放的音效檔案。"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, mSoundFile)
+#: ui/alarmdialog.ui:319
+#, kde-format
+msgid ""
+"Use the adjacent file browser to help you find the file you want to use when "
+"playing a sound when the reminder triggers."
+msgstr "使用旁邊的檔案瀏覽器來尋找您在提醒器觸發時要播放的音效檔。"
+
+#. i18n: ectx: property (text), widget (QLabel, mApplicationLabel)
+#: ui/alarmdialog.ui:358
+#, kde-format
+msgid "&Application / Script:"
+msgstr "應用程式/文稿(&A)"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, mApplication)
+#: ui/alarmdialog.ui:368
+#, kde-format
+msgid ""
+"Specify a file containing the application to run when the reminder triggers"
+msgstr "指定一個包含觸發提醒時要執行的應用程式的檔案。"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, mApplication)
+#: ui/alarmdialog.ui:371
+#, kde-format
+msgid ""
+"Use the adjacent file browser to help you find the file you want to use when "
+"running an application when the reminder triggers."
+msgstr "使用旁邊的檔案瀏覽器來尋找您在提醒器觸發時要執行的應用程式。"
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, mApplication)
+#: ui/alarmdialog.ui:374
+#, kde-format
+msgid "*|All files"
+msgstr "*|所有檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, mAppArgumentsLabel)
+#: ui/alarmdialog.ui:381
+#, kde-format
+msgid "Ar&guments:"
+msgstr "程式參數(&G)："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, mAppArguments)
+#: ui/alarmdialog.ui:391
+#, kde-format
+msgid "Specify arguments to pass to the application when the reminder triggers"
+msgstr "指定一個包含觸發提醒時要傳送給應用程式的參數。"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, mAppArguments)
+#: ui/alarmdialog.ui:394
+#, kde-format
+msgid ""
+"Enter the application arguments to use when running an application when the "
+"reminder triggers."
+msgstr "輸入觸發提醒時要傳送給應用程式的參數。."
+
+#. i18n: ectx: property (text), widget (QLabel, mEmailToLabel)
+#: ui/alarmdialog.ui:433
+#, kde-format
+msgid "&To:"
+msgstr "到(&T)："
+
+#. i18n: ectx: property (toolTip), widget (KPIM::AddresseeLineEdit, mEmailAddress)
+#: ui/alarmdialog.ui:445
+#, kde-format
+msgid ""
+"Specify a list of addresses to send email when the reminder triggers.\n"
+"If the 'To:' field stays empty the email reminder will be sent to the\n"
+"default email configured in Kmail (Settings menu/Configure Kmail/Identities)."
+msgstr ""
+"指定在提醒觸發時，要傳送到哪些電子郵件地址。\n"
+"若是「收件者」欄位留白，則提醒會寄到 KMail 中設定的預設身份電子郵件地址。（在"
+"選單「設定 KMail」─「身份」中）。"
+
+#. i18n: ectx: property (whatsThis), widget (KPIM::AddresseeLineEdit, mEmailAddress)
+#: ui/alarmdialog.ui:448
+#, kde-format
+msgid ""
+"Enter a list comma-separated addresses to which an email will be sent when "
+"the reminder triggers"
+msgstr "指定提醒器觸發時，要傳送電子郵件給哪些電子郵件地址，用逗號分隔。"
+
+#. i18n: ectx: property (text), widget (QLabel, mEmailTextLabel)
+#: ui/alarmdialog.ui:455
+#, kde-format
+msgid "&Message:"
+msgstr "訊息(&M)："
+
+#. i18n: ectx: property (toolTip), widget (KTextEdit, mEmailText)
+#: ui/alarmdialog.ui:468
+#, kde-format
+msgid "Specify text of an email message to send when the reminder triggers"
+msgstr "指定提醒器觸發時，在送出的電子郵件中的文字"
+
+#. i18n: ectx: property (whatsThis), widget (KTextEdit, mEmailText)
+#: ui/alarmdialog.ui:471
+#, kde-format
+msgid ""
+"Enter any text you desire for the email message that will be sent when the "
+"alarm triggers."
+msgstr "輸入您要在鬧鐘觸發時，放在電子郵件中的文字。"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, mLabelEdit)
+#: ui/attachmenteditdialog.ui:38
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Give the attachment a name"
+msgstr "指定附加檔名稱"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mLabelEdit)
+#: ui/attachmenteditdialog.ui:41
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Type any string you desire here for the name of the attachment"
+msgstr "請輸入附加檔的名稱"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, mLabelEdit)
+#: ui/attachmenteditdialog.ui:44
+#, kde-format
+msgctxt "@label"
+msgid "Attachment name"
+msgstr "附加檔名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, mTypeLabel)
+#: ui/attachmenteditdialog.ui:62
+#, kde-format
+msgctxt "@label File type of attachment is unknown"
+msgid "Unknown"
+msgstr "未知"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mInlineCheck)
+#: ui/attachmenteditdialog.ui:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Store the attachment file inside the calendar"
+msgstr "將附檔存於行事曆內"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mInlineCheck)
+#: ui/attachmenteditdialog.ui:72
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Checking this option will cause the attachment to be stored inside your "
+"calendar, which can take a lot of space depending on the size of the "
+"attachment. If this option is not checked, then only a link pointing to the "
+"attachment will be stored.  Do not use a link for attachments that change "
+"often or may be moved (or removed) from their current location."
+msgstr ""
+"勾選此選項會將附檔存在您的行事曆中，它可能會佔掉很多空間（看附檔大小而定）。"
+"若未勾選此選項，則只會保留指向附檔的連結。若是附檔經常被變更或移動（或移"
+"除），請盡量不要使用連結。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mInlineCheck)
+#: ui/attachmenteditdialog.ui:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Store attachment inline"
+msgstr "以內含方式儲存附件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/attachmenteditdialog.ui:120
+#, kde-format
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, mURLRequester)
+#: ui/attachmenteditdialog.ui:130
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Provide a location for the attachment file"
+msgstr "請提供附檔所在位置"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, mURLRequester)
+#: ui/attachmenteditdialog.ui:133
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the path to the attachment file or use the file browser by pressing "
+"the adjacent button"
+msgstr "輸入附檔的路徑，或使用按鍵來瀏覽"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/attachmenteditdialog.ui:156
+#, kde-format
+msgctxt "@label"
+msgid "Size:"
+msgstr "大小："
+
+#. i18n: ectx: property (text), widget (QLabel, mSizeLabel)
+#: ui/attachmenteditdialog.ui:163
+#, kde-format
+msgid "0 KB"
+msgstr "0 KB"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/attachmenteditdialog.ui:180
+#, kde-format
+msgid "Type:"
+msgstr "類型："
+
+#. i18n: ectx: property (text), widget (IncidenceEditorNG::AutoCheckTreeWidget, mCategories)
+#: ui/categorydialog_base.ui:24 ui/categoryselectdialog_base.ui:29
+#, kde-format
+msgid "Category"
+msgstr "類別"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, mEdit)
+#: ui/categoryeditdialog_base.ui:28
+#, kde-format
+msgid "New category entry"
+msgstr "新類別項目"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, mEdit)
+#: ui/categoryeditdialog_base.ui:31
+#, kde-format
+msgid "Type in any text you want to use as a new category or sub-category."
+msgstr "輸入您要做為新類別或新子類別名稱的文字。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mButtonAdd)
+#: ui/categoryeditdialog_base.ui:46
+#, kde-format
+msgid "Add the entry to the category list"
+msgstr "新增項目到類別清單中"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mButtonAdd)
+#: ui/categoryeditdialog_base.ui:49
+#, kde-format
+msgid "Click this button to insert the entry into the category list."
+msgstr "點擊此按鍵來將此項目插入類別清單中。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
+#: ui/categoryeditdialog_base.ui:52
+#, kde-format
+msgid "A&dd"
+msgstr "新增(&D)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mButtonAddSubcategory)
+#: ui/categoryeditdialog_base.ui:59
+#, kde-format
+msgid "Add the entry as a subcategory of the selected category"
+msgstr "將此項目新增為選取類別的子類別"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mButtonAddSubcategory)
+#: ui/categoryeditdialog_base.ui:62
+#, kde-format
+msgid ""
+"Click this button to insert the entry as a subcategory of the currently "
+"selected category."
+msgstr "點擊此按鍵來將此項目插入到目前選取的類別中做為子類別。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mButtonAddSubcategory)
+#: ui/categoryeditdialog_base.ui:65
+#, kde-format
+msgid "Add &Subcategory"
+msgstr "新增子分類(&S)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mButtonRemove)
+#: ui/categoryeditdialog_base.ui:72
+#, kde-format
+msgid "Remove the selected category"
+msgstr "移除選取的類別"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mButtonRemove)
+#: ui/categoryeditdialog_base.ui:75
+#, kde-format
+msgid ""
+"Click this button to remove the selected category from the category list."
+msgstr "點擊此按鍵來從清單中移除選取的類別。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mButtonRemove)
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonRemove)
+#: ui/categoryeditdialog_base.ui:78 ui/template_management_dialog_base.ui:78
+#, kde-format
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#. i18n: ectx: property (toolTip), widget (IncidenceEditorNG::AutoCheckTreeWidget, mCategories)
+#: ui/categoryeditdialog_base.ui:103
+#, kde-format
+msgid "Category list"
+msgstr "類別清單"
+
+#. i18n: ectx: property (whatsThis), widget (IncidenceEditorNG::AutoCheckTreeWidget, mCategories)
+#: ui/categoryeditdialog_base.ui:106
+#, kde-format
+msgid ""
+"This is a list of all the categories available. You can create as many sub-"
+"categories as you want here."
+msgstr "這是所有可用類別的清單。您可以在此建立子類別。"
+
+#. i18n: ectx: property (text), widget (IncidenceEditorNG::AutoCheckTreeWidget, mCategories)
+#: ui/categoryeditdialog_base.ui:122
+#, kde-format
+msgid "Default Category"
+msgstr "預設類別"
+
+#. i18n: ectx: property (text), widget (QPushButton, mButtonClear)
+#: ui/categoryselectdialog_base.ui:61
+#, kde-format
+msgid "&Clear Selection"
+msgstr "清除選擇(&C)"
+
+#. i18n: ectx: property (text), widget (QPushButton, mButtonEdit)
+#: ui/categoryselectdialog_base.ui:68
+#, kde-format
+msgid "&Edit Categories..."
+msgstr "編輯分類 (&E)..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/dialogdesktop.ui:47
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@label:listbox The calendar to which the todo or event must be added"
+#| msgid "Calendar:"
+msgctxt "@label:listbox The calendar to which the todo or event must be added"
+msgid "Calen&dar:"
+msgstr "行事曆："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ui/dialogdesktop.ui:81
+#, kde-format
+msgctxt "@info"
+msgid "You are Invited, what do you want to do?"
+msgstr "您已被邀請，您打算怎麼做？"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mAcceptInvitationButton)
+#: ui/dialogdesktop.ui:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Accept the invitation"
+msgstr "接受邀請"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mAcceptInvitationButton)
+#: ui/dialogdesktop.ui:91
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Click this button to accept the invitation."
+msgstr "點擊此按鍵以接受邀請。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mAcceptInvitationButton)
+#: ui/dialogdesktop.ui:94
+#, kde-format
+msgctxt "@action:button Accept an invitation"
+msgid "Accept"
+msgstr "接受"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDeclineInvitationButton)
+#: ui/dialogdesktop.ui:101
+#, kde-format
+msgctxt "@action:button decline an invitation"
+msgid "Decline"
+msgstr "婉拒"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, mSummaryEdit)
+#: ui/dialogdesktop.ui:136 ui/dialogdesktop.ui:164
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the title"
+msgstr "設定標題"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, mSummaryEdit)
+#: ui/dialogdesktop.ui:139 ui/dialogdesktop.ui:167
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the Title of this event or to-do."
+msgstr "設定此事件或待辦事項的標題。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/dialogdesktop.ui:145
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "T&itle:"
+msgctxt "@label"
+msgid "&Title:"
+msgstr "標題(&I)："
+
+#. i18n: ectx: property (text), widget (QLabel, mLocationLabel)
+#: ui/dialogdesktop.ui:183
+#, kde-format
+msgctxt "@label"
+msgid "&Location:"
+msgstr "位置(&L)："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, mLocationEdit)
+#: ui/dialogdesktop.ui:202
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the location"
+msgstr "設定位置"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, mLocationEdit)
+#: ui/dialogdesktop.ui:205
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets where the event or to-do will take place."
+msgstr "設定此事件或待辦事項發生的地點。"
+
+#. i18n: ectx: property (text), widget (QLabel, mTaskLabel)
+#: ui/dialogdesktop.ui:219
+#, kde-format
+msgctxt "@label line containing to-do specific ui controls"
+msgid "Completion:"
+msgstr "完成度："
+
+#. i18n: ectx: property (text), widget (QLabel, mCompletedLabel)
+#: ui/dialogdesktop.ui:272
+#, kde-format
+msgctxt "@label:slider Showed after the to-do percentage completed slider"
+msgid "completed"
+msgstr "已完成"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ui/dialogdesktop.ui:279
+#, kde-format
+msgctxt "@label:listbox priority of a to-do"
+msgid "Priority:"
+msgstr "優先權："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:290
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "unspecified"
+msgstr "未指定"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:295
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "1 (highest)"
+msgstr "1 (最高)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:300
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "2"
+msgstr "2"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:305
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "3"
+msgstr "3"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:310
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "4"
+msgstr "4"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:315
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "5 (medium)"
+msgstr "5 (中等)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:320
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "6"
+msgstr "6"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:325
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "7"
+msgstr "7"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:330
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "8"
+msgstr "8"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mPriorityCombo)
+#: ui/dialogdesktop.ui:335
+#, kde-format
+msgctxt "@item:inlistbox Priority of a to-do"
+msgid "9 (lowest)"
+msgstr "9 (最低)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mWholeDayCheck)
+#: ui/dialogdesktop.ui:354
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Set if this to-do's start and due dates have times associated with them."
+msgstr "設定此待辦事項的啟始與到期日期與時間是否有關聯。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mWholeDayCheck)
+#: ui/dialogdesktop.ui:357
+#, kde-format
+msgctxt "@option:check"
+msgid "All Day"
+msgstr "整天"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mFreeBusyCheck)
+#: ui/dialogdesktop.ui:383
+#, kde-format
+msgctxt "@option:check"
+msgid "Blocks me for other events"
+msgstr "會讓我無法參與其它事件"
+
+#. i18n: ectx: property (text), widget (QLabel, mStartLabel)
+#: ui/dialogdesktop.ui:414
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip period start time"
+#| msgid "Start:"
+msgctxt "@label Start date/time of the event or todo"
+msgid "S&tart:"
+msgstr "開始："
+
+#. i18n: ectx: property (toolTip), widget (KDateComboBox, mStartDateEdit)
+#: ui/dialogdesktop.ui:442
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the start date"
+msgstr "設定開始日期"
+
+#. i18n: ectx: property (whatsThis), widget (KDateComboBox, mStartDateEdit)
+#: ui/dialogdesktop.ui:445
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the start date for this to-do"
+msgstr "設定此待辦事項的啟始日期。"
+
+#. i18n: ectx: property (whatsThis), widget (KTimeComboBox, mStartTimeEdit)
+#: ui/dialogdesktop.ui:461
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the start time for this to-do."
+msgstr "設定此待辦事項的啟始時間。"
+
+#. i18n: ectx: property (whatsThis), widget (IncidenceEditorNG::KTimeZoneComboBox, mTimeZoneComboStart)
+#. i18n: ectx: property (whatsThis), widget (IncidenceEditorNG::KTimeZoneComboBox, mTimeZoneComboEnd)
+#: ui/dialogdesktop.ui:477 ui/dialogdesktop.ui:592
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select the timezone for this event. It will also affect recurrences"
+msgstr "選擇此事件的時區，它也會影響循環設定"
+
+#. i18n: ectx: property (text), widget (QLabel, mTimeZoneLabel)
+#: ui/dialogdesktop.ui:495
+#, kde-format
+msgctxt "@action"
+msgid "<a href=\"hide\"><font color='blue'>&lt;&lt; Time zones</font></a>"
+msgstr "<a href=\"hide\"><font color='blue'>&lt;&lt; 時區</font></a>"
+
+#. i18n: ectx: property (text), widget (QLabel, mEndLabel)
+#: ui/dialogdesktop.ui:532
+#, kde-format
+msgctxt "@label end date/time for an event or to-do"
+msgid "E&nd:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KDateComboBox, mEndDateEdit)
+#: ui/dialogdesktop.ui:560
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the due date for this to-do."
+msgstr "設定此待辦事項的到期日。"
+
+#. i18n: ectx: property (whatsThis), widget (KTimeComboBox, mEndTimeEdit)
+#: ui/dialogdesktop.ui:576
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the due time for this to-do."
+msgstr "設定此待辦事項的到期時間。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mGeneralTab)
+#: ui/dialogdesktop.ui:625
+#, kde-format
+msgctxt "@title:tab General settings for an event or to-do"
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, mSecrecyLabel)
+#. i18n: ectx: property (toolTip), widget (KComboBox, mSecrecyCombo)
+#: ui/dialogdesktop.ui:640 ui/dialogdesktop.ui:705
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the secrecy level"
+msgstr "設定機密等級"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mSecrecyLabel)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, mSecrecyCombo)
+#: ui/dialogdesktop.ui:643 ui/dialogdesktop.ui:708
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Sets whether the access to this event or to-do is restricted. Please note "
+"that KOrganizer currently does not use this setting, so the implementation "
+"of the restrictions will depend on the groupware server. This means that "
+"events or to-dos marked as private or confidential may be visible to others."
+msgstr ""
+"設定是否要限制此事件或待辦事項的存取權限。請注意，KOrganizer 目前不使用此設"
+"定，而是依靠群組伺服器的設定。這表示您在此設定為機密的事件或待辦事項還是有可"
+"能被其他人看到。"
+
+#. i18n: ectx: property (text), widget (QLabel, mSecrecyLabel)
+#: ui/dialogdesktop.ui:646
+#, kde-format
+msgctxt "@label:listbox sets the privacy option of the event or to-do"
+msgid "Access:"
+msgstr "存取："
+
+#. i18n: ectx: property (text), widget (QLabel, mRichTextLabel)
+#: ui/dialogdesktop.ui:667
+#, kde-format
+msgctxt "@label"
+msgid "<a href=\\\"hide\\\"><font color='blue'>Rich text &gt;&gt;</font></a>"
+msgstr "<a href=\\\"hide\\\"><font color='blue'>Rich text &gt;&gt;</font></a>"
+
+#. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
+#: ui/dialogdesktop.ui:698
+#, kde-format
+msgctxt "@label"
+msgid "Categories:"
+msgstr "類別："
+
+#. i18n: ectx: attribute (title), widget (QWidget, mAttendeesTab)
+#: ui/dialogdesktop.ui:719
+#, kde-format
+msgctxt "@title:tab attendees of this event or to-do"
+msgid "Attendees"
+msgstr "參加者"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/dialogdesktop.ui:735
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Meeting organizer:"
+msgstr "會議發起者："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/dialogdesktop.ui:745
+#, kde-format
+msgctxt "@label participants of this event or to-do"
+msgid "Participants:"
+msgstr "參加者："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mSolveButton)
+#: ui/dialogdesktop.ui:764
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Schedule the meeting with your attendees."
+msgstr "與您的參加者協調會議時間。"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mSolveButton)
+#: ui/dialogdesktop.ui:767
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Opens the scheduling dialog, which will assist in picking a time slot that "
+"works for all attendees."
+msgstr "開啟排程對話框，協助您挑選一個所有參加者都能接受的時間。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mSolveButton)
+#: ui/dialogdesktop.ui:770
+#, kde-format
+msgctxt "@action:button"
+msgid "Schedule..."
+msgstr "排程..."
+
+#. i18n: ectx: property (text), widget (QPushButton, mGroupSubstitution)
+#: ui/dialogdesktop.ui:793
+#, kde-format
+msgid "Substitute with group members"
+msgstr "替換群組成員"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mSelectButton)
+#: ui/dialogdesktop.ui:800
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select attendees from your address book."
+msgstr "從您的通訊錄中選擇參加者。"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mSelectButton)
+#: ui/dialogdesktop.ui:803
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Opens your address book, allowing you to select new attendees from it."
+msgstr "開啟您的通訊錄，讓您從中選取參加者。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mSelectButton)
+#: ui/dialogdesktop.ui:806
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Attendees..."
+msgstr "選擇參加者..."
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, mOrganizerCombo)
+#: ui/dialogdesktop.ui:846
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the organizer identity"
+msgstr "設定發起者身份"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, mOrganizerCombo)
+#: ui/dialogdesktop.ui:849
+#, fuzzy, kde-format
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "Sets the identity corresponding to the organizer of this to-do or event. "
+#| "Identities can be set in the 'Personal' section of the KOrganizer "
+#| "configuration, or in the Personal'->'About Me'->'Password & User Account' "
+#| "section of the System Settings. In addition, identities are gathered from "
+#| "your KMail settings and from your address book. If you choose to set it "
+#| "globally for KDE in the System Settings, be sure to check 'Use email "
+#| "settings from System Settings' in the 'Personal' section of the "
+#| "KOrganizer configuration."
+msgctxt "@info:whatsthis"
+msgid ""
+"Sets the identity corresponding to the organizer of this to-do or event. "
+"Identities can be set in the 'Personal' section of the KOrganizer "
+"configuration. In addition, identities are gathered from your KMail settings "
+"and from your address book."
+msgstr ""
+"將身份設定為此待辦事件或事件的發起者。身份可以在 KOrganizer 設定中的「個人」"
+"區設定，或是在系統設定裡，「個人」─「關於我」─「密碼與帳號資訊」中設定。此"
+"外，也可以由您的 KMail 設定及您的通訊錄中收集身份。如果您決定要在系統設定中設"
+"定一個 KDE 通用的身份，請在 KOrganizer 設定中的「個人」區選擇「使用系統設定的"
+"電子郵件設定」。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mResourceTab)
+#: ui/dialogdesktop.ui:890
+#, kde-format
+msgid "Resources"
+msgstr "資源"
+
+#. i18n: ectx: property (text), widget (QPushButton, mBookResourceButton)
+#: ui/dialogdesktop.ui:930
+#, kde-format
+msgid "Book resource"
+msgstr "書籍資源"
+
+#. i18n: ectx: property (text), widget (QPushButton, mFindResourcesButton)
+#: ui/dialogdesktop.ui:959
+#, kde-format
+msgid "Find Resources..."
+msgstr "尋找資源..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, mReminderTab)
+#: ui/dialogdesktop.ui:969
+#, kde-format
+msgctxt "@title:tab Tab to configure reminders for events or to-do"
+msgid "Reminder"
+msgstr "提醒"
+
+#. i18n: ectx: property (text), widget (QLabel, mQuickAddReminderLabel)
+#: ui/dialogdesktop.ui:981
+#, kde-format
+msgctxt "@label"
+msgid "Add default reminder:"
+msgstr "新增預設提醒："
+
+#. i18n: ectx: property (text), widget (QPushButton, mAlarmAddPresetButton)
+#: ui/dialogdesktop.ui:1004
+#, kde-format
+msgctxt "@action:button Adds an reminder"
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, mAlarmNewButton)
+#: ui/dialogdesktop.ui:1031
+#, fuzzy, kde-format
+#| msgctxt "@action:button Create a new reminder"
+#| msgid "New"
+msgctxt "@action:button create a new reminder"
+msgid "New"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, mAlarmConfigureButton)
+#: ui/dialogdesktop.ui:1038
+#, kde-format
+msgctxt "@action:button modify the selected reminder"
+msgid "Modify"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mAlarmToggleButton)
+#: ui/dialogdesktop.ui:1045
+#, kde-format
+msgctxt "@action:button disables selected reminder"
+msgid "Disable"
+msgstr "關閉"
+
+#. i18n: ectx: property (text), widget (QPushButton, mAlarmRemoveButton)
+#: ui/dialogdesktop.ui:1052
+#, kde-format
+msgctxt "@action:button removes selected reminders"
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mRecurrenceTab)
+#: ui/dialogdesktop.ui:1073
+#, kde-format
+msgctxt "@title:tab"
+msgid "Recurrence"
+msgstr "循環"
+
+#. i18n: ectx: property (text), widget (QLabel, mRepeatLabel)
+#: ui/dialogdesktop.ui:1085
+#, kde-format
+msgctxt "@label whether or not this event or to-do repeats"
+msgid "Repeats:"
+msgstr "重複："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceTypeCombo)
+#: ui/dialogdesktop.ui:1104
+#, kde-format
+msgctxt "@item:inlistbox Lets the user chose how often an event recurs"
+msgid "Never"
+msgstr "永不"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceTypeCombo)
+#: ui/dialogdesktop.ui:1109
+#, kde-format
+msgctxt "@item:inlistbox Lets the user chose how often an event recurs"
+msgid "Daily"
+msgstr "每天"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceTypeCombo)
+#: ui/dialogdesktop.ui:1114
+#, kde-format
+msgctxt "@item:inlistbox Lets the user chose how often an event recurs"
+msgid "Weekly"
+msgstr "每週"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceTypeCombo)
+#: ui/dialogdesktop.ui:1119
+#, kde-format
+msgctxt "@item:inlistbox Lets the user chose how often an event recurs"
+msgid "Monthly"
+msgstr "每月"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceTypeCombo)
+#: ui/dialogdesktop.ui:1124
+#, kde-format
+msgctxt "@item:inlistbox Lets the user chose how often an event recurs"
+msgid "Yearly"
+msgstr "每年"
+
+#. i18n: ectx: property (text), widget (QLabel, mFrequencyLabel)
+#: ui/dialogdesktop.ui:1138
+#, kde-format
+msgctxt "@label repeats every [various options]"
+msgid "every"
+msgstr "每"
+
+#. i18n: ectx: property (text), widget (QLabel, mRecurrenceRuleLabel)
+#: ui/dialogdesktop.ui:1170
+#, kde-format
+msgctxt "@label Event or todo recurs every n day(s)"
+msgid "day(s)"
+msgstr "天"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mThisAndFutureCheck)
+#: ui/dialogdesktop.ui:1177
+#, kde-format
+msgid "This and future occurrences."
+msgstr "這一個與未來的事件。"
+
+#. i18n: ectx: property (text), widget (QLabel, mRecurrenceEndLabel)
+#: ui/dialogdesktop.ui:1348
+#, kde-format
+msgctxt "@label recurrence ends on|after"
+msgid "Ends:"
+msgstr "結束："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceEndCombo)
+#: ui/dialogdesktop.ui:1370
+#, kde-format
+msgctxt "@item:inlistbox Speficies when a recurring events end"
+msgid "never"
+msgstr "絕不"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceEndCombo)
+#: ui/dialogdesktop.ui:1375
+#, kde-format
+msgctxt "@item:inlistbox Speficies when a recurring events end"
+msgid "on"
+msgstr "於："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mRecurrenceEndCombo)
+#: ui/dialogdesktop.ui:1380
+#, kde-format
+msgctxt "@item:inlistbox Speficies when a recurring events end"
+msgid "after"
+msgstr "在此之後："
+
+#. i18n: ectx: property (whatsThis), widget (KDateComboBox, mRecurrenceEndDate)
+#: ui/dialogdesktop.ui:1435
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Date after which the event or to-do should stop recurring"
+msgstr "此事件或待辦事項結束日期。"
+
+#. i18n: ectx: property (text), widget (QLabel, mRecurrenceOccurrencesLabel)
+#: ui/dialogdesktop.ui:1490
+#, kde-format
+msgctxt "@label"
+msgid "occurrence(s)"
+msgstr "次發生"
+
+#. i18n: ectx: property (text), widget (QLabel, mExceptionsLabel)
+#: ui/dialogdesktop.ui:1509
+#, kde-format
+msgctxt "@label exceptions for the recurrence"
+msgid "Exceptions:"
+msgstr "例外："
+
+#. i18n: ectx: property (text), widget (QPushButton, mExceptionAddButton)
+#: ui/dialogdesktop.ui:1534
+#, kde-format
+msgctxt "@action:button adds an exception on the recurrence"
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QLabel, mOnLabel)
+#: ui/dialogdesktop.ui:1569
+#, kde-format
+msgctxt "@label The event ends on [different options]"
+msgid "on:"
+msgstr "於："
+
+#. i18n: ectx: property (text), widget (QPushButton, mExceptionRemoveButton)
+#: ui/dialogdesktop.ui:1584
+#, kde-format
+msgctxt "@action:button removes an exception"
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mAttachmentsTab)
+#: ui/dialogdesktop.ui:1607
+#, kde-format
+msgctxt "@title:tab configure attachments of an event or todo"
+msgid "Attachments"
+msgstr "附加檔"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mAddButton)
+#: ui/dialogdesktop.ui:1629
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add an attachment"
+msgstr "新增附件"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mAddButton)
+#: ui/dialogdesktop.ui:1632
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Shows a dialog used to select an attachment to add to this event or to-do as "
+"link or as inline data."
+msgstr "顯示對話框以選擇加入到此事件或待辦事項的附件或內含資料。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#: ui/dialogdesktop.ui:1635
+#, kde-format
+msgctxt "@action:button adds an attachment"
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mRemoveButton)
+#: ui/dialogdesktop.ui:1651
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove the selected attachment"
+msgstr "移除選取的附加檔"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mRemoveButton)
+#: ui/dialogdesktop.ui:1654
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Removes the attachment selected in the list above from this event or to-do."
+msgstr "從此事件或待辦事項移除上方清單所選取的附件。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mRemoveButton)
+#: ui/dialogdesktop.ui:1657
+#, kde-format
+msgctxt "@action:button remove an attachment"
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupDetails)
+#: ui/resourcemanagement.ui:70
+#, kde-format
+msgid "Details"
+msgstr "詳細資料"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupOwner)
+#: ui/resourcemanagement.ui:88
+#, kde-format
+msgid "Owner"
+msgstr "擁有者"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Dialog)
+#: ui/schedulingdialog.ui:14
+#, kde-format
+msgid "Schedule a time"
+msgstr "排程時間"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/schedulingdialog.ui:39
+#, kde-format
+msgid "Earliest time to start:"
+msgstr "最早開始時間："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/schedulingdialog.ui:59
+#, kde-format
+msgid "Latest time to end:"
+msgstr "最晚結束時間："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (KPIM::KWeekdayCheckCombo, mWeekdayCombo)
+#: ui/schedulingdialog.ui:83 ui/schedulingdialog.ui:108
+#, kde-format
+msgid "Check the weekdays to include in the search."
+msgstr "勾選搜尋時要包含星期幾。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
+#. i18n: ectx: property (whatsThis), widget (KPIM::KWeekdayCheckCombo, mWeekdayCombo)
+#: ui/schedulingdialog.ui:89 ui/schedulingdialog.ui:111
+#, kde-format
+msgid ""
+"Only the checked weekdays will be included in the free time slot search."
+msgstr "您只需要勾選搜尋有空時間時，要搜尋星期幾即可。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/schedulingdialog.ui:92
+#, kde-format
+msgid "Allowed weekdays:"
+msgstr "可能的工作天："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#. i18n: ectx: property (toolTip), widget (KPIM::KCheckComboBox, mRolesCombo)
+#: ui/schedulingdialog.ui:118 ui/schedulingdialog.ui:140
+#, kde-format
+msgid "Check the roles to include in the search."
+msgstr "勾選搜尋時要包含哪些角色。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_5)
+#. i18n: ectx: property (whatsThis), widget (KPIM::KCheckComboBox, mRolesCombo)
+#: ui/schedulingdialog.ui:121 ui/schedulingdialog.ui:143
+#, kde-format
+msgid ""
+"Only the participants with the checked roles will be considered in the free "
+"time slot search."
+msgstr "在搜尋有空時間時，只會考慮特定角色的參加者。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/schedulingdialog.ui:124
+#, kde-format
+msgid "Mandatory roles:"
+msgstr "必要角色："
+
+#. i18n: ectx: attribute (title), widget (QWidget, mTextTab)
+#: ui/schedulingdialog.ui:158
+#, kde-format
+msgid "Automatic Search"
+msgstr "自動搜尋"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mGanttTab)
+#: ui/schedulingdialog.ui:193
+#, kde-format
+msgid "Visual Search"
+msgstr "視覺搜尋"
+
+#. i18n: ectx: property (title), widget (QGroupBox, mMoveApptGroupBox)
+#: ui/schedulingdialog.ui:201
+#, kde-format
+msgid "Move your appointment to:"
+msgstr "移動您的約會到："
+
+#. i18n: ectx: property (text), widget (QLabel, mMoveDayLabel)
+#: ui/schedulingdialog.ui:222
+#, kde-format
+msgid "Monday, 12th June"
+msgstr "6 月 12 日，星期一"
+
+#. i18n: ectx: property (text), widget (QLabel, mMoveEndTimeLabel)
+#: ui/schedulingdialog.ui:235
+#, kde-format
+msgid "to 10:00am"
+msgstr "到早上 10 點"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TemplateManagementDialog_base)
+#: ui/template_management_dialog_base.ui:14
+#, kde-format
+msgid "Template Management"
+msgstr "樣本管理"
+
+#. i18n: ectx: property (text), widget (QLabel, m_introLabel)
+#: ui/template_management_dialog_base.ui:26
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Select a template and click <i>Apply</i> to apply it to this item. Click "
+"<i>New</i> to create a new template based on the current item settings."
+msgstr ""
+"選擇一個樣本，並點擊「<i>套用</i>」來套用到此項目。點擊「<i>新增</i>」來根據"
+"目前的項目設定建立新樣本。"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_listBox)
+#: ui/template_management_dialog_base.ui:42
+#, kde-format
+msgid "The list of managed templates"
+msgstr "可用樣本列表"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_listBox)
+#: ui/template_management_dialog_base.ui:45
+#, kde-format
+msgid ""
+"This is a list of all the templates you have currently accessible for "
+"creating new calendar items."
+msgstr "這是您目前可用於建立新的行事曆項目的樣本清單。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_buttonAdd)
+#: ui/template_management_dialog_base.ui:56
+#, kde-format
+msgid "Create a new template from the current settings"
+msgstr "使用目前設定建立新樣本"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonAdd)
+#: ui/template_management_dialog_base.ui:59
+#, kde-format
+msgid ""
+"Click on this button to create a new template based on the current settings "
+"in the editor. You can use this template to quickly add new items in the "
+"future."
+msgstr ""
+"點擊此按鍵，可以用編輯器目前的設定建立新樣本。您可以利用此樣本快速建立新項"
+"目。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdd)
+#: ui/template_management_dialog_base.ui:62
+#, kde-format
+msgid "&New..."
+msgstr "新增(&N)..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_buttonRemove)
+#: ui/template_management_dialog_base.ui:72
+#, kde-format
+msgid "Remove the currently selected template"
+msgstr "移除目前選取的樣本"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonRemove)
+#: ui/template_management_dialog_base.ui:75
+#, kde-format
+msgid ""
+"Clicking this button will permanently remove the selected template from your "
+"list of managed templates."
+msgstr "點擊此按鍵會遺移除選取的樣本。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_buttonApply)
+#: ui/template_management_dialog_base.ui:85
+#, kde-format
+msgid "Apply the selected template settings"
+msgstr "套用選取的樣本設定"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_buttonApply)
+#: ui/template_management_dialog_base.ui:88
+#, kde-format
+msgid ""
+"Clicking this button will apply the settings from the selected template to "
+"the item you are currently editing."
+msgstr "點擊此按鍵可以將選取樣本的設定套用到您目前編輯中的項目。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonApply)
+#: ui/template_management_dialog_base.ui:91
+#, kde-format
+msgid "Apply"
+msgstr "套用"
+
+#: visualfreebusywidget.cpp:153
+#, kde-format
+msgctxt "@label"
+msgid "Scale: "
+msgstr "調整大小："
+
+#: visualfreebusywidget.cpp:158
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the Gantt chart zoom level"
+msgstr "設定甘特圖縮放等級"
+
+#: visualfreebusywidget.cpp:161
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select the Gantt chart zoom level from one of the following:<nl/>'Hour' "
+"shows a range of several hours,<nl/>'Day' shows a range of a few days,<nl/"
+">'Week' shows a range of a few months,<nl/>and 'Month' shows a range of a "
+"few years,<nl/>while 'Automatic' selects the range most appropriate for the "
+"current event or to-do."
+msgstr ""
+"設定此甘特圖的放大等級。有以下的選擇：<nl/> 「時」以數小時為範圍，<nl/> "
+"「日」以數日為範圍，<nl/> 「週」以數個月為範圍，<nl/> 「月」以數年為範圍，"
+"<nl/> 「自動」則會自動選取目前事件或待辦事項最適合的時間範圍。"
+
+#: visualfreebusywidget.cpp:168
+#, kde-format
+msgctxt "@item:inlistbox range in hours"
+msgid "Hour"
+msgstr "小時"
+
+#: visualfreebusywidget.cpp:170
+#, kde-format
+msgctxt "@item:inlistbox range in days"
+msgid "Day"
+msgstr "日"
+
+#: visualfreebusywidget.cpp:172
+#, kde-format
+msgctxt "@item:inlistbox range in weeks"
+msgid "Week"
+msgstr "週"
+
+#: visualfreebusywidget.cpp:174
+#, kde-format
+msgctxt "@item:inlistbox range in months"
+msgid "Month"
+msgstr "月"
+
+#: visualfreebusywidget.cpp:176
+#, kde-format
+msgctxt "@item:inlistbox range is computed automatically"
+msgid "Automatic"
+msgstr "自動"
+
+#: visualfreebusywidget.cpp:182
+#, kde-format
+msgctxt "@action:button"
+msgid "Center on Start"
+msgstr "將開始時間放在中間"
+
+#: visualfreebusywidget.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Center the Gantt chart on the event start date and time"
+msgstr "將此事件的開始時間與日期放在甘特圖的中央。"
+
+#: visualfreebusywidget.cpp:188
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to center the Gantt chart on the start time and day of "
+"this event."
+msgstr "點擊此按鍵可將此事件的開始時間與日期放在甘特圖的中央。"
+
+#: visualfreebusywidget.cpp:195
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Date"
+msgstr "選擇日期"
+
+#: visualfreebusywidget.cpp:198
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move the event to a date and time when all attendees are available"
+msgstr "將此事件移動到所有參加者都有空的日期與時間。"
+
+#: visualfreebusywidget.cpp:202
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to move the event to a date and time when all the "
+"attendees have time available in their Free/Busy lists."
+msgstr "點擊此按鍵可以將此事件移動到所有參加者都有空的日期與時間。"
+
+#: visualfreebusywidget.cpp:211
+#, kde-format
+msgctxt "@action:button reload freebusy data"
+msgid "Reload"
+msgstr "重新載入"
+
+#: visualfreebusywidget.cpp:214
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reload Free/Busy data for all attendees"
+msgstr "重新載入所有參加者的行程（Free/Busy）資料。"
+
+#: visualfreebusywidget.cpp:217
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Pressing this button will cause the Free/Busy data for all attendees to be "
+"reloaded from their corresponding servers."
+msgstr "點擊此按鍵可以重新載入所有參加者的行程（Free/Busy）資料。"
+
+#: visualfreebusywidget.cpp:235
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Shows the Free/Busy status of all attendees"
+msgstr "顯示所有參加者的行程（Free/Busy）資料。"
+
+#: visualfreebusywidget.cpp:238
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Shows the Free/Busy status of all attendees. Double-clicking on an "
+"attendee's entry in the list will allow you to enter the location of their "
+"Free/Busy Information."
+msgstr "顯示所有參加者的行程狀態。雙擊該參加者可以進入他們的行程資訊的位置。"
+
+#~ msgctxt "The reminder is set to X minutes before/after the event"
+#~ msgid "minutes"
+#~ msgstr "分鐘"
+
+#~ msgctxt "The reminder is set to X days before/after the event"
+#~ msgid "days"
+#~ msgstr "天"
+
+#~ msgctxt "The reminder is set to X hours before/after the event"
+#~ msgid "hours"
+#~ msgstr "小時"
+
+#~ msgctxt "@action:button Configures selected reminder"
+#~ msgid "Configure"
+#~ msgstr "設定"
+
+#~ msgctxt "@info"
+#~ msgid "%1 already exists. Do you want to overwrite it?"
+#~ msgstr "%1 已存在。您要覆寫它嗎？"
+
+#~ msgid "audio/x-wav audio/x-mp3 application/ogg"
+#~ msgstr "audio/x-wav audio/x-mp3 application/ogg"
+
+#~ msgctxt "@label Start date/time of the event or todo"
+#~ msgid "&Start:"
+#~ msgstr "開始(&S)："
+
+#~ msgid "Overwrite"
+#~ msgstr "覆寫"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Creates a new event"
+#~ msgstr "建立新事件"
+
+#~ msgid "Creates a new todo"
+#~ msgstr "建立新待辦事項"
+
+#~ msgid "Creates a new journal"
+#~ msgstr "建立新日誌"
+
+#~ msgid ""
+#~ "Loads an existing item, or returns without doing anything when the item "
+#~ "is not an event or todo."
+#~ msgstr "載入現有的項目，若此項目不是事件或待辦事項時則不做任何事即返回。"
+
+#~ msgctxt "@label end date/time for an event or to-do"
+#~ msgid "&End:"
+#~ msgstr "結束(&E)："
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the description in plain text or rich text."
+#~ msgstr "設定描述中用純文字還是用 rich text。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the description for this event, to-do or journal. This will be "
+#~ "displayed in a reminder if one is set, as well as in a tooltip when you "
+#~ "hover over the event."
+#~ msgstr "設定此事件或待辦事項的說明。這會顯示在提醒中，還有事件發生期間。"
+
+#~ msgid "KOrganizer"
+#~ msgstr "KOrganizer"
+
+#~ msgid "KDE application to run the KOrganizer incidenceeditor."
+#~ msgstr "執行 KOrganizer 事件編輯器的 KDE 應用程式。"
+
+#~ msgid "(C) 2010 Bertjan Broeksema"
+#~ msgstr "(C) 2010 Bertjan Broeksema"
+
+#~ msgid "Run the KOrganizer incidenceeditor ng."
+#~ msgstr "執行 KOrganizer 事件編輯器。"
+
+#~ msgid "Bertjan Broeksema"
+#~ msgstr "Bertjan Broeksema"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Test for resourceManagement"
+#~ msgstr "資源管理測試"
+
+#~ msgctxt "kolabldap"
+#~ msgid "Number of seats"
+#~ msgstr "座位數"
+
+#~ msgctxt "kolabldap"
+#~ msgid "Beamer"
+#~ msgstr "Beamer"
+
+#~ msgctxt "kolabldap"
+#~ msgid "Conference phone"
+#~ msgstr "會議電話"
+
+#~ msgctxt "@label Start date/time of the event or task"
+#~ msgid "Start:"
+#~ msgstr "開始："
+
+#~ msgctxt "@label End date/time of the task or event"
+#~ msgid "End:"
+#~ msgstr "結束："
+
+#~ msgctxt "@option:check The event or task takes the whole day"
+#~ msgid "All Day"
+#~ msgstr "整天"
+
+#~ msgctxt "@label:slider completed percentage of a task"
+#~ msgid "completed"
+#~ msgstr "已完成"
+
+#~ msgctxt "@label:listbox Priority of the task"
+#~ msgid "Priority:"
+#~ msgstr "優先權："
+
+#~ msgctxt "@item:inlistbox No priority specified for a task"
+#~ msgid "unspecified"
+#~ msgstr "未指定"
+
+#~ msgctxt "@item:inlistbox highest priority for a task"
+#~ msgid "1 (highest)"
+#~ msgstr "1 (最高)"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "@item:inlistbox medium priority for a task"
+#~ msgid "5 (medium)"
+#~ msgstr "5 (中等)"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "@item:inlistbox lowest priority for a task"
+#~ msgid "9 (lowest)"
+#~ msgstr "9 (最低)"
+
+#~ msgctxt ""
+#~ "@label Task specific line in the dialog containing progress and priority"
+#~ msgid "Progress:"
+#~ msgstr "進度："
+
+#~ msgid ""
+#~ "<a href=\\\"hide\\\"><font color='blue'>Rich text &gt;&gt;</font></a>"
+#~ msgstr ""
+#~ "<a href=\\\"hide\\\"><font color='blue'>Rich text &gt;&gt;</font></a>"
+
+#~ msgctxt ""
+#~ "Opens a selection dialog for selecting categories of an event or task"
+#~ msgid "Select"
+#~ msgstr "選擇"
+
+#~ msgid "Access:"
+#~ msgstr "存取："
+
+#~ msgid "Organizer:"
+#~ msgstr "發起人："
+
+#~ msgid "Participants:"
+#~ msgstr "參加者："
+
+#~ msgid "X time conflicts"
+#~ msgstr "X 時間衝突"
+
+#~ msgid "Solve..."
+#~ msgstr "解決..."
+
+#~ msgctxt "Select attendees from addressbook"
+#~ msgid "Select..."
+#~ msgstr "選擇..."
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Configure"
+#~ msgstr "設定"
+
+#~ msgid "Disable"
+#~ msgstr "關閉"
+
+#~ msgid "Repeat never"
+#~ msgstr "永不重覆"
+
+#~ msgid "Repeat daily"
+#~ msgstr "每天重覆"
+
+#~ msgid "Repeat weekly"
+#~ msgstr "每週重覆"
+
+#~ msgid "Repeat monthly"
+#~ msgstr "每月重覆"
+
+#~ msgid "Repeat yearly"
+#~ msgstr "每年重覆"
+
+#~ msgctxt "@label Frequency of recurrence: every x [days|weeks|months|years]"
+#~ msgid "every"
+#~ msgstr "每"
+
+#~ msgid "Ends never"
+#~ msgstr "永不結束"
+
+#~ msgid "Ends on"
+#~ msgstr "結束於"
+
+#~ msgid "Ends after"
+#~ msgstr "多久後結束："
+
+#~ msgid "MM.dd.yyyy"
+#~ msgstr "MM.dd.yyyy"
+
+#~ msgid "Exceptions:"
+#~ msgstr "例外："
+
+#~ msgid "dd.MM.yyyy"
+#~ msgstr "dd.MM.yyyy"
+
+#~ msgid "Time"
+#~ msgstr "時間"
+
+#~ msgid "&How often:"
+#~ msgstr "頻率(&H)："
+
+#~ msgid "&Interval:"
+#~ msgstr "間隔(&I)："
+
+#~ msgid "&Repeating:"
+#~ msgstr "重複(&R)"
+
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgid "Display optional text when the reminder is triggered"
+#~ msgstr "提醒器觸發時顯示文字"
+
+#~ msgid ""
+#~ "Check this option if you want to display optional text in a popup notice "
+#~ "when the reminder triggers."
+#~ msgstr "勾選此選項，在提醒器觸發時會跳出一個視窗顯示文字。"
+
+#~ msgid "&Display"
+#~ msgstr "顯示(&D)"
+
+#~ msgid "Play a sound when the reminder is triggered"
+#~ msgstr "提醒器觸發時播放音效"
+
+#~ msgid ""
+#~ "Check this option if you want to play a sound when the reminder triggers."
+#~ msgstr "勾選此選項，在提醒器觸發時會播放音效。"
+
+#~ msgid "&Sound"
+#~ msgstr "音效(&S)"
+
+#~ msgid "Run an application or script when the reminder is triggered"
+#~ msgstr "提醒器觸發時執行應用程式或文稿"
+
+#~ msgid ""
+#~ "Check this option if you want to run an application (or script) when the "
+#~ "reminder triggers."
+#~ msgstr "勾選此選項，在提醒器觸發時會執行應用程式會文稿。"
+
+#~ msgid "Application / script"
+#~ msgstr "應用程式/文稿"
+
+#~ msgid "Send email when the reminder is triggered"
+#~ msgstr "提醒器觸發時傳送電子郵件"
+
+#~ msgid ""
+#~ "Check this option if you want to send an email message when the reminder "
+#~ "triggers."
+#~ msgstr "勾選此選項，在提醒器觸發時會傳送電子郵件。"
+
+#~ msgid "Display &text:"
+#~ msgstr "顯示文字(&T)："
+
+#~ msgid "Sound &file:"
+#~ msgstr "音效檔案(&F)："
+
+#~ msgid "&Text of the message:"
+#~ msgstr "訊息文字(&T)："
+
+#~ msgid "Remove the currently selected reminder"
+#~ msgstr "移除目前選取的提醒器"
+
+#~ msgid ""
+#~ "Click this button if you want to remove the currently selected reminder. "
+#~ "Be careful with this option as there is no way to undo this operation."
+#~ msgstr "點擊此按鍵，您可以移除選取的提醒器。請小心使用，因為無法復原。"
+
+#~ msgid "Create a new reminder using the settings specified below"
+#~ msgstr "使用以下的設定建立新的提醒器"
+
+#~ msgid ""
+#~ "Click this button if you want to create a new reminder using the settings "
+#~ "specified below. You can continue to change the settings as needed."
+#~ msgstr ""
+#~ "點擊此按鍵，可以用以下指定的設定建立新的提醒器。您可以依需要繼續變更這些設"
+#~ "定。"
+
+#~ msgctxt "Add a new alarm to the alarm list"
+#~ msgid "&Add"
+#~ msgstr "新增(&A)"
+
+#~ msgid "Create a new reminder from the currently selected reminder"
+#~ msgstr "從目前選取的提醒器建立新的提醒器"
+
+#~ msgid ""
+#~ "Click this button if you want to create a new reminder using the settings "
+#~ "stored in the currently selected reminder. You can continue to change the "
+#~ "settings as needed."
+#~ msgstr ""
+#~ "點擊此按鍵，可以用儲存在目前選取的提醒器內的設定建立新的提醒器。您可以依需"
+#~ "要繼續變更這些設定。"
+
+#~ msgid "D&uplicate"
+#~ msgstr "複製(&U)"
+
+#~ msgid "The list of reminders for this event or to-do"
+#~ msgstr "此事件或待辦事項的提醒器清單。"
+
+#~ msgid ""
+#~ "This area displays a list of all the reminders you have specified for "
+#~ "this event or to-do."
+#~ msgstr "這個區域顯示此事件或待辦事項的所有提醒器。"
+
+#~ msgid "Offset"
+#~ msgstr "位移"
+
+#~ msgid "Repeat"
+#~ msgstr "重覆"
+
+#~ msgctxt "attendees  (name+emailaddress)"
+#~ msgid "Fullname"
+#~ msgstr "全名"
+
+#~ msgctxt "Type of resource (vCard attribute)"
+#~ msgid "cuType"
+#~ msgstr "資源型態"
+
+#~ msgctxt "attendee name"
+#~ msgid "name"
+#~ msgstr "姓名"
+
+#~ msgctxt "attendee email"
+#~ msgid "email"
+#~ msgstr "電子郵件"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Attendee"
+#~ msgstr "參加者"
+
+#~ msgctxt "@label Day of the week name, example: Monday,"
+#~ msgid "%1,"
+#~ msgstr "%1，"
+
+#~ msgctxt ""
+#~ "@label A time period duration. It is preceded/followed (based on the "
+#~ "orientation) by the name of the week, see the message above. example: 12 "
+#~ "June, 8:00am to 9:30am"
+#~ msgid "%1 %2, %3 to %4"
+#~ msgstr "%2 %1 日，%3 到 %4"
+
+#~ msgctxt ""
+#~ "@label A time period duration. KLocale is used to format the components. "
+#~ "example: Monday, 12 June, 8:00am to 9:30am"
+#~ msgid "%1, %2 %3, %4 to %5"
+#~ msgstr "%3 %2 日，%1，%4 到 %5"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Free Period"
+#~ msgstr "有空期間"
+
+#~ msgctxt "@info:tooltip period duration"
+#~ msgid "Duration:"
+#~ msgstr "期間："
+
+#~ msgctxt "errormessage: can't get connection via dbus"
+#~ msgid "Don't get kmail started"
+#~ msgstr "不要啟動 kmail"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Select Categories"
+#~ msgstr "選擇分類"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Select a template and "
+#~ "click <span style=\" font-weight:600;\">Apply</span> to apply it to this "
+#~ "item. Click <span style=\" font-weight:600;\">New</span> to create a new "
+#~ "template based on the current item settings.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">請選擇一個樣本，並點擊"
+#~ "「<span style=\" font-weight:600;\">套用</span>」來套用到此項目。點擊"
+#~ "「<span style=\" font-weight:600;\">新增</span>」可以基於目前的項目設定來"
+#~ "建立新的樣本。</p></body></html>"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Categories..."
+#~ msgstr "分類 (&C)..."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Manage categories for this item"
+#~ msgstr "管理此項目的分類"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Push this button to show a dialog that helps you manage your categories."
+#~ msgstr "按下此鍵會顯示一個對話框，讓您可以管理您的分類。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Takes the whole day"
+#~ msgstr "花掉一整天"
+
+#~ msgctxt "@option:check The event or task takes the whole day"
+#~ msgid "Whole day"
+#~ msgstr "整天"
+
+#~ msgctxt "@label There are no scheduling conflicts."
+#~ msgid "No conflicts"
+#~ msgstr "沒有衝突"
+
+#~ msgctxt "Disable currently selected alarm"
+#~ msgid "Disable"
+#~ msgstr "關閉"
+
+#~ msgid "StackedWidget"
+#~ msgstr "StackedWidget"
+
+#~ msgctxt "@label"
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgctxt "@label Shows the number of scheduling conflicts"
+#~ msgid "%1 scheduling conflict"
+#~ msgid_plural "%1 scheduling conflicts"
+#~ msgstr[0] "%1 個排程衝突"
+
+#~ msgctxt "@label There are no scheduling conflicts."
+#~ msgid "No scheduling conflicts"
+#~ msgstr "沒有排程衝突"
+
+#~ msgctxt "incidence category: appointment"
+#~ msgid "Appointment"
+#~ msgstr "約會"
+
+#~ msgctxt "incidence category"
+#~ msgid "Business"
+#~ msgstr "商務"
+
+#~ msgctxt "incidence category"
+#~ msgid "Meeting"
+#~ msgstr "會議"
+
+#~ msgctxt "incidence category: phone call"
+#~ msgid "Phone Call"
+#~ msgstr "打電話"
+
+#~ msgctxt "incidence category"
+#~ msgid "Education"
+#~ msgstr "教育"
+
+#~ msgctxt ""
+#~ "incidence category: official or unofficial observance of religious/"
+#~ "national/cultural/other significance, often accompanied by celebrations "
+#~ "or festivities"
+#~ msgid "Holiday"
+#~ msgstr "假日"
+
+#~ msgctxt ""
+#~ "incidence category: a lengthy time away from work or school, a trip "
+#~ "abroad, or simply a pleasure trip away from home"
+#~ msgid "Vacation"
+#~ msgstr "休假"
+
+#~ msgctxt ""
+#~ "incidence category: examples: anniversary of historical or personal "
+#~ "event; big date; remembrance, etc"
+#~ msgid "Special Occasion"
+#~ msgstr "特殊場合"
+
+#~ msgctxt "incidence category"
+#~ msgid "Personal"
+#~ msgstr "私人"
+
+#~ msgctxt ""
+#~ "incidence category: typically associated with leaving home for business, "
+#~ "and not pleasure"
+#~ msgid "Travel"
+#~ msgstr "旅行"
+
+#~ msgctxt "incidence category"
+#~ msgid "Miscellaneous"
+#~ msgstr "雜項"
+
+#~ msgctxt "incidence category"
+#~ msgid "Birthday"
+#~ msgstr "生日"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5 minutes before start"
+#~ msgstr "開始前 5 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "15 minutes before start"
+#~ msgstr "開始前 15 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "30 minutes before start"
+#~ msgstr "開始前 30 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "45 minutes before start"
+#~ msgstr "開始前 45 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2 hours before start"
+#~ msgstr "開始前 2 小時"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2 days before start"
+#~ msgstr "開始前 2 天"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5 days before start"
+#~ msgstr "開始前 5 天"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5 minutes before due"
+#~ msgstr "到期前 5 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "15 minutes before due"
+#~ msgstr "到期前 15 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "30 minutes before due"
+#~ msgstr "到期前 30 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "45 minutes before due"
+#~ msgstr "到期前 45 分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2 hours before due"
+#~ msgstr "到期前 2 小時"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2 days before due"
+#~ msgstr "到期前 2 天"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5 days before due"
+#~ msgstr "到期前 5 天"
+
+#~ msgctxt ""
+#~ "@label Task specific line in the dialog containing completed and priority"
+#~ msgid "Task:"
+#~ msgstr "工作："
+
+#~ msgctxt "@label Start date/time of the event or task"
+#~ msgid "&Start:"
+#~ msgstr "開始(&S)："
+
+#~ msgctxt "@label End date/time of the task or event"
+#~ msgid "&End:"
+#~ msgstr "結束(&E)："
+
+#~ msgctxt "@label date display format"
+#~ msgid "MM.dd.yyyy"
+#~ msgstr "MM.dd.yyyy"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to remove these attachments?<nl>%1</nl>"
+#~ msgstr "您確定要移除這些附件嗎？<nl>%1</nl>"
+
+#~ msgctxt "@label:listbox A list showing attendees"
+#~ msgid "Attendee"
+#~ msgstr "參加者"
+
+#~ msgctxt "@info"
+#~ msgid "The meeting already has suitable start/end times."
+#~ msgstr "此會議已經有適當的開始與結束時間。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The next available time slot for the meeting is:<nl/>Start: %1<nl/>End: "
+#~ "%2<nl/>Would you like to move the meeting to this time slot?"
+#~ msgstr ""
+#~ "下一個此會議可用的時間為：<nl/>開始：%1<nl/>結束：%2<nl/> 您要將會議移到此"
+#~ "時間嗎？"
+
+#~ msgctxt "@info"
+#~ msgid "No suitable date found."
+#~ msgstr "找不到適當的日期。"
+
+#~ msgctxt "@label"
+#~ msgid ""
+#~ "Of the %1 participants, %2 have accepted, %3 have tentatively accepted, "
+#~ "and %4 have declined."
+#~ msgstr "在 %1 個參加者中，%2 個已接受，%3 個暫時接受，%4 個已拒絕。"
+
+#~ msgctxt "@title:column attendee name"
+#~ msgid "Attendee"
+#~ msgstr "參加者"
+
+#~ msgid "Sets the title of this journal."
+#~ msgstr "設定此日誌的標題"
+
+#~ msgctxt "journal title"
+#~ msgid "T&itle:"
+#~ msgstr "標題(&I)："
+
+#~ msgid "&Date:"
+#~ msgstr "日期(&D)："
+
+#~ msgid "&Time: "
+#~ msgstr "時間(&T)："
+
+#~ msgid "Allows you to select the categories that this journal belongs to."
+#~ msgstr "允許您選擇此日誌所屬的類別。"
+
+#~ msgid "Select Cate&gories..."
+#~ msgstr "選擇類別...(&G)"
+
+#~ msgid "Please specify a valid date, for example '%1'."
+#~ msgstr "請指定一個合法的日期，如 %1。"
+
+#~ msgctxt "@info"
+#~ msgid "Please specify a journal title."
+#~ msgstr "請指定日誌標題。"
+
+#~ msgctxt "@title general journal settings"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Journal"
+#~ msgstr "新增日誌"
+
+#~ msgctxt "@title"
+#~ msgid "Properties for %1"
+#~ msgstr "%1 的屬性"
+
+#~ msgctxt "@label"
+#~ msgid "Type:"
+#~ msgstr "類型："
+
+#~ msgctxt "@label"
+#~ msgid "Location:"
+#~ msgstr "位置："
+
+#~ msgctxt "@label"
+#~ msgid "Attachments:"
+#~ msgstr "附加檔："
+
+#~ msgid "Calendar:"
+#~ msgstr "行事曆："
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit %1: %2"
+#~ msgstr "編輯 %1：%2"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Atte&ndees"
+#~ msgstr "參加者(&N)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The Attendees tab allows you to Add or Remove Attendees to/from this "
+#~ "event or to-do."
+#~ msgstr "「參加者」讓您新增或移除此事件或待辦事項的參加者。"
+
+#~ msgctxt "@info"
+#~ msgid "The incidence got changed. Reloading editor now."
+#~ msgstr "事件已變更。現在將重新載入編輯器。"
+
+#~ msgctxt "@info"
+#~ msgid "The incidence got removed. Closing editor now."
+#~ msgstr "事件已移除。現在將關閉編輯器。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Create to-do"
+#~ msgstr "新增待辦事項"
+
+#~ msgctxt "@action:button"
+#~ msgid "Create to-do"
+#~ msgstr "新增待辦事項"
+
+#~ msgctxt "@title:window"
+#~ msgid "Counter proposal"
+#~ msgstr "反提案"
+
+#~ msgctxt "@action:button"
+#~ msgid "Counter proposal"
+#~ msgstr "反提案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Displays information about current attendees. To edit an attendee, select "
+#~ "it in this list and modify the values in the area below. Clicking on a "
+#~ "column title will sort the list according to that column. The RSVP column "
+#~ "indicates whether or not a response is requested from the attendee."
+#~ msgstr ""
+#~ "顯示目前參加者的資訊。要編輯參加者，請在此清單中選擇，並在底下修改數值。點"
+#~ "選欄位標題可以根據該欄位排序。「敬請回覆」欄位是指是否要求參加者回覆。"
+
+#~ msgctxt "@title:column attendee has RSVPed?"
+#~ msgid "RSVP"
+#~ msgstr "敬請回覆"
+
+#~ msgctxt "@title:column attendee delegated to"
+#~ msgid "Delegated To"
+#~ msgstr "已授權給"
+
+#~ msgctxt "@title:column attendee delegated from"
+#~ msgid "Delegated From"
+#~ msgstr "授權者"
+
+#~ msgctxt "@title"
+#~ msgid "Invalid Email Address"
+#~ msgstr "不合法的電子郵件地址"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the identity corresponding to the organizer of this to-do or event. "
+#~ "Identities can be set in the 'Personal' section of the KOrganizer "
+#~ "configuration, or in the 'Personal'->'About Me'->'Password & User "
+#~ "Account' section of the System Settings. In addition, identities are "
+#~ "gathered from your KMail settings and from your address book. If you "
+#~ "choose to set it globally for KDE in the System Settings, be sure to "
+#~ "check 'Use email settings from System Settings' in the 'Personal' section "
+#~ "of the KOrganizer configuration."
+#~ msgstr ""
+#~ "將身份設定為此待辦事件或事件的發起者。身份可以在 KOrganizer 設定中的「個"
+#~ "人」區設定，或是在系統設定裡，「個人」─「關於我」─「密碼與帳號資訊」中設"
+#~ "定。此外，也可以由您的 KMail 設定及您的通訊錄中收集身份。如果您決定要在系"
+#~ "統設定中設定一個 KDE 通用的身份，請在 KOrganizer 設定中的「個人」區選擇"
+#~ "「使用系統設定的電子郵件設定」。"
+
+#~ msgctxt "@label"
+#~ msgid "Identity as organizer:"
+#~ msgstr "發起者的身份："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Edits the name of the attendee selected in the list above, or adds a new "
+#~ "attendee if there are no attendees in the list."
+#~ msgstr "編輯您在上方清單中所選的參加者名稱，或是新增一個參加者。"
+
+#~ msgctxt "@label attendee's name"
+#~ msgid "Na&me:"
+#~ msgstr "名稱(&M)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Edits the role of the attendee selected in the list above."
+#~ msgstr "編輯上方清單中選取的參加者角色。"
+
+#~ msgctxt "@label"
+#~ msgid "Ro&le:"
+#~ msgstr "角色(&L)："
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select the attendee participation role"
+#~ msgstr "在此選擇參加者的角色"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Edits the current attendance status of the attendee selected in the list "
+#~ "above."
+#~ msgstr "編輯上方清單中所選取的參加狀態。"
+
+#~ msgctxt "@label"
+#~ msgid "Stat&us:"
+#~ msgstr "狀態(&U)："
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select the attendee participation status"
+#~ msgstr "選擇參加者的狀態"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Edits whether to send an email to the attendee selected in the list above "
+#~ "to request a response concerning attendance."
+#~ msgstr "編輯是否要發送電子郵件給所選擇的參加者，請求對方回覆是否參加。"
+
+#~ msgctxt "@action:button new attendee"
+#~ msgid "&New"
+#~ msgstr "新增(&N)"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add an attendee"
+#~ msgstr "新增參加者"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Adds a new attendee to the list. Once the attendee is added, you will be "
+#~ "able to edit the attendee's name, role, attendance status, and whether or "
+#~ "not the attendee is required to respond to the invitation. To select an "
+#~ "attendee from your address book, click the 'Select Addressee' button "
+#~ "instead."
+#~ msgstr ""
+#~ "在清單中增加一個新的參加者。增加之後，您可以編輯該名參加者的名稱、角色、參"
+#~ "與狀態以及是否要求對方回覆此邀請。要從您的通訊錄中選取參加者，請點選「選擇"
+#~ "收件者」。"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Remove"
+#~ msgstr "移除(&R)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Removes the attendee selected in the list above."
+#~ msgstr "移除清單中所選取的參加者。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Select Addressee..."
+#~ msgstr "選擇收件者..."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Open your address book"
+#~ msgstr "開啟您的通訊錄"
+
+#~ msgctxt "@info"
+#~ msgid "Please edit the example attendee, before adding more."
+#~ msgstr "在新增前請編輯參加者範例。"
+
+#~ msgctxt "@item:intext sample attendee name"
+#~ msgid "Firstname Lastname"
+#~ msgstr "名 姓"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select the organizer"
+#~ msgstr "選擇發起者身份"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the identity to use as the organizer for this incidence."
+#~ msgstr "選擇做為此事件發起者的身份。"
+
+#~ msgctxt "@label"
+#~ msgid "Organizer: %1"
+#~ msgstr "發起人：%1"
+
+#~ msgctxt "@label"
+#~ msgid "Delegated to %1"
+#~ msgstr "授權給 %1"
+
+#~ msgctxt "@label"
+#~ msgid "Delegated from %1"
+#~ msgstr "由 %1 授權"
+
+#~ msgctxt "@label"
+#~ msgid "Not delegated"
+#~ msgstr "未授權"
+
+#~ msgid "Showing URL %1"
+#~ msgstr "顯示網址 %1"
+
+#~ msgid "No attendees"
+#~ msgstr "無參加者"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Allows you to select the categories that this event or to-do belongs to."
+#~ msgstr "允許您選擇此事件或待辦事項所屬的類別。"
+
+#~ msgid "&Select..."
+#~ msgstr "選擇(&S)..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets options related to the date and time of the event or to-do."
+#~ msgstr "設定與此事件或待辦事項相關的日期與時間選項。"
+
+#~ msgid "&Start:"
+#~ msgstr "開始(&S)："
+
+#~ msgid "Sets the start date for this to-do"
+#~ msgstr "設定此待辦事項的啟始日期。"
+
+#~ msgctxt "@option:check to-do start datetime"
+#~ msgid "Sta&rt:"
+#~ msgstr "開始(&R)"
+
+#~ msgid "Sets the start time for this to-do."
+#~ msgstr "設定此待辦事項的啟始時間。"
+
+#~ msgid "&End:"
+#~ msgstr "結束(&E)："
+
+#~ msgid "Sets the due date for this to-do."
+#~ msgstr "設定此待辦事項的到期日。"
+
+#~ msgctxt "to-do due datetime"
+#~ msgid "&Due:"
+#~ msgstr "期限(&D)："
+
+#~ msgid "Sets the due time for this to-do."
+#~ msgstr "設定此待辦事項的到期時間。"
+
+#~ msgid ""
+#~ "Set if this to-do's start and due dates have times associated with them."
+#~ msgstr "設定此待辦事項的啟始與到期日期與時間是否有關聯。"
+
+#~ msgid "Ti&me associated"
+#~ msgstr "時間關聯(&M)"
+
+#~ msgid "0 hours"
+#~ msgstr "0 小時"
+
+#~ msgid "Show time as:"
+#~ msgstr "將時間顯示為："
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set this event as Busy or Free time"
+#~ msgstr "設定此事件為忙祿或空閒時間"
+
+#~ msgid "Recurrence:"
+#~ msgstr "循環："
+
+#~ msgctxt "@label"
+#~ msgid "Acc&ess:"
+#~ msgstr "存取(&E)："
+
+#~ msgid "alarmBellImage"
+#~ msgstr "alarmBellImage"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set a reminder"
+#~ msgstr "設定提醒"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Activates a reminder for this event or to-do."
+#~ msgstr "啟動此事件或待辦事項的提醒。"
+
+#~ msgctxt "@option:check"
+#~ msgid "&Reminder"
+#~ msgstr "提醒(&R)"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set an alarm"
+#~ msgstr "設定鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets how long before the event occurs the reminder will be triggered."
+#~ msgstr "設定此事件發生多久之前要顯示提醒。"
+
+#~ msgctxt "@item:inlistbox alarm expressed in minutes"
+#~ msgid "minute(s)"
+#~ msgstr "分鐘"
+
+#~ msgctxt "@item:inlistbox alarm expressed in hours"
+#~ msgid "hour(s)"
+#~ msgstr "小時"
+
+#~ msgctxt "@item:inlistbox alarm expressed in days"
+#~ msgid "day(s)"
+#~ msgstr "天"
+
+#~ msgid "XXX reminders configured"
+#~ msgstr "已設定 XXX 個提醒"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set an advanced alarm"
+#~ msgstr "設定進階鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Push this button to create an advanced alarm for this event or to-do"
+#~ msgstr "按下此鍵可對此事件或待辦事項建立進階鬧鐘"
+
+#~ msgctxt "@action:button advanced alarm settings"
+#~ msgid "Ad&vanced..."
+#~ msgstr "進階(&V)..."
+
+#~ msgctxt "percent completed"
+#~ msgid "co&mpleted"
+#~ msgstr "已完成(&M)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets the current completion status of this to-do as a percentage."
+#~ msgstr "以百分比來設定此待辦事項的完成狀態。"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "0 %"
+#~ msgstr "0 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "10 %"
+#~ msgstr "10 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "20 %"
+#~ msgstr "20 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "30 %"
+#~ msgstr "30 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "40 %"
+#~ msgstr "40 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "50 %"
+#~ msgstr "50 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "60 %"
+#~ msgstr "60 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "70 %"
+#~ msgstr "70 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "80 %"
+#~ msgstr "80 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "90 %"
+#~ msgstr "90 %"
+
+#~ msgctxt "@item:inlistbox Percent complete"
+#~ msgid "100 %"
+#~ msgstr "100 %"
+
+#~ msgctxt "@label"
+#~ msgid ""
+#~ "Sets the priority of this to-do on a scale from one to nine, with one "
+#~ "being the highest priority, five being a medium priority, and nine being "
+#~ "the lowest. In programs that have a different scale, the numbers will be "
+#~ "adjusted to match the appropriate scale."
+#~ msgstr ""
+#~ "設定此待辦事項的優先等級，從一到九。一為高優先，五為中度優先，九為最低優"
+#~ "先。不過對於有其他量度法的程式，此數值將會調整為適當的區間。"
+
+#~ msgid "&Priority:"
+#~ msgstr "優先等級(&P)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the priority of this to-do on a scale from one to nine, with one "
+#~ "being the highest priority, five being a medium priority, and nine being "
+#~ "the lowest. In programs that have a different scale, the numbers will be "
+#~ "adjusted to match the appropriate scale."
+#~ msgstr ""
+#~ "設定此待辦事項的優先等級，從一到九。一為高優先，五為中度優先，九為最低優"
+#~ "先。不過對於有其他量度法的程式，此數值將會調整為適當的區間。"
+
+#~ msgctxt "unspecified priority"
+#~ msgid "unspecified"
+#~ msgstr "未指定"
+
+#~ msgctxt "highest priority"
+#~ msgid "1 (highest)"
+#~ msgstr "1 (最高)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "medium priority"
+#~ msgid "5 (medium)"
+#~ msgstr "5 (中等)"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgctxt "lowest priority"
+#~ msgid "9 (lowest)"
+#~ msgstr "9 (最低)"
+
+#~ msgctxt "@label event or to-do title"
+#~ msgid "T&itle:"
+#~ msgstr "標題(&I)："
+
+#~ msgctxt "@action:button select a category"
+#~ msgid "&Select..."
+#~ msgstr "選擇(&S)..."
+
+#~ msgctxt "@option:check"
+#~ msgid "Rich text"
+#~ msgstr "Rich Text"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Select this option if you would like to enter rich text into the "
+#~ "description field of this event or to-do."
+#~ msgstr "若您要在此事件或待辦事項的描述中使用 rich text，請選擇此選項。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Toggle Rich Text"
+#~ msgstr "切換 Rich Text"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the description in plain text or rich text"
+#~ msgstr "設定描述中用純文字還是用 rich text。"
+
+#~ msgctxt "@option:check"
+#~ msgid "&Reminder:"
+#~ msgstr "提醒(&R)："
+
+#~ msgctxt "@action:button advanced alarm settings"
+#~ msgid "Advanced..."
+#~ msgstr "進階..."
+
+#~ msgctxt "@label"
+#~ msgid "1 reminder configured"
+#~ msgid_plural "%1 reminders configured"
+#~ msgstr[0] "已設定 %1 個提醒"
+
+#~ msgctxt "@label"
+#~ msgid "1 advanced reminder configured"
+#~ msgstr "已設定 1 個進階提醒"
+
+#~ msgctxt "@label"
+#~ msgid "No attendees"
+#~ msgstr "無參加者"
+
+#~ msgctxt "@label"
+#~ msgid "One attendee"
+#~ msgid_plural "%1 attendees"
+#~ msgstr[0] "%1 個參加者"
+
+#~ msgctxt "@option unknown alarm type"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "@option popup reminder dialog"
+#~ msgid "Reminder Dialog"
+#~ msgstr "提醒對話框"
+
+#~ msgctxt "@option run application or script"
+#~ msgid "Application/Script"
+#~ msgstr "應用程式/文稿"
+
+#~ msgctxt "@option play a sound"
+#~ msgid "Audio"
+#~ msgstr "音效"
+
+#~ msgctxt "@item@intable N days/hours/minutes before/after the start/end"
+#~ msgid "%1 before the start"
+#~ msgstr "開始前 %1"
+
+#~ msgctxt "@item@intable N days/hours/minutes before/after the start/end"
+#~ msgid "%1 after the start"
+#~ msgstr "開始後 %1"
+
+#~ msgctxt "@item@intable N days/hours/minutes before/after the start/end"
+#~ msgid "%1 before the end"
+#~ msgstr "結束前 %1"
+
+#~ msgctxt "@item@intable N days/hours/minutes before/after the start/end"
+#~ msgid "%1 after the end"
+#~ msgstr "結束後 %1"
+
+#~ msgctxt "@item@intable yes, the alarm repeats"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "@title"
+#~ msgid "Edit Reminders"
+#~ msgstr "編輯提醒"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "before the to-do starts"
+#~ msgstr "待辦事項開始前"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "after the to-do starts"
+#~ msgstr "待辦事項開始後"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "before the to-do is due"
+#~ msgstr "在待辦事項到期前"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "after the to-do is due"
+#~ msgstr "在待辦事項到期後"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select the reminder trigger relative to the start or due time"
+#~ msgstr "選擇提醒觸發時間，相對於開始或結束時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Use this combobox to specify if you want the reminder to trigger before "
+#~ "or after the start or due time."
+#~ msgstr "用此下拉式選單指定您要在開始或結束前後多久觸發提醒。"
+
+#~ msgctxt "@label"
+#~ msgid "Duration: "
+#~ msgstr "期間："
+
+#~ msgctxt "@label"
+#~ msgid "1 hour"
+#~ msgid_plural "%1 hours"
+#~ msgstr[0] "%1 小時"
+
+#~ msgctxt "@label"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@label"
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 分鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Shows the duration of the event or to-do with the current start and end "
+#~ "dates and times."
+#~ msgstr "依目前的開始及結束時間來顯示此事件或待辦事項的時間範圍。"
+
+#~ msgctxt "@label"
+#~ msgid "From: %1   To: %2   %3"
+#~ msgstr "從： %1 到： %2   %3"
+
+#~ msgctxt "to-do completed on datetime"
+#~ msgid "co&mpleted on"
+#~ msgstr "完成於(&M)"
+
+#~ msgctxt "to-do completed"
+#~ msgid "co&mpleted"
+#~ msgstr "已完成(&M)"
+
+#~ msgid "Editor content is not valid."
+#~ msgstr "編輯器內容不合法。"
+
+#, fuzzy
+#~| msgid "unspecified"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "unspecified"
+#~ msgstr "未指定"
+
+#, fuzzy
+#~| msgid "1 (highest)"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "1 (highest)"
+#~ msgstr "1 (最高)"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "2"
+#~ msgstr "2"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "4"
+#~ msgstr "4"
+
+#, fuzzy
+#~| msgid "5 (medium)"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "5 (medium)"
+#~ msgstr "5 (中等)"
+
+#, fuzzy
+#~| msgid "6"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "6"
+#~ msgstr "6"
+
+#, fuzzy
+#~| msgid "7"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "7"
+#~ msgstr "7"
+
+#, fuzzy
+#~| msgid "8"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "8"
+#~ msgstr "8"
+
+#, fuzzy
+#~| msgid "9 (lowest)"
+#~ msgctxt "@item:inlistbox Priority of a task"
+#~ msgid "9 (lowest)"
+#~ msgstr "9 (最低)"
+
+#, fuzzy
+#~| msgid "&End:"
+#~ msgctxt "@label end date/time for an event or task"
+#~ msgid "&End:"
+#~ msgstr "結束(&E)："
+
+#, fuzzy
+#~| msgid "Access:"
+#~ msgctxt "@label:listbox sets the privacy option of hte event or task"
+#~ msgid "Access:"
+#~ msgstr "存取："
+
+#, fuzzy
+#~| msgid "Participants:"
+#~ msgctxt "@label participants of this event or task"
+#~ msgid "Participants:"
+#~ msgstr "參加者："
+
+#, fuzzy
+#~| msgid "Repeat:"
+#~ msgctxt "@label whether or not this event or task repeats"
+#~ msgid "Repeat:"
+#~ msgstr "重覆："
+
+#~ msgid "Before the task starts"
+#~ msgstr "工作開始前"
+
+#~ msgid "After the task starts"
+#~ msgstr "工作開始後"
+
+#~ msgid "Before the task is due"
+#~ msgstr "工作到期前"
+
+#~ msgid "After the task is due"
+#~ msgstr "工作到期後"
+
+#~ msgctxt "@title:tab general event settings"
+#~ msgid "&General"
+#~ msgstr "一般(&G)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The General tab allows you to set the most common options for the event."
+#~ msgstr "「一般」頁讓您設定事件的共同選項。"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Attendees"
+#~ msgstr "參加者(&A)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The Free/Busy tab allows you to see whether other attendees are free or "
+#~ "busy during your event."
+#~ msgstr "「行程資訊」（Free/Busy）讓您檢視參加者是否有空參與您的事件。"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Event"
+#~ msgstr "新事件"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "You did not modify the event so no counter proposal has been sent to the "
+#~ "organizer."
+#~ msgstr "您沒有變更事件，所以並未送出任何反提案給發起人。"
+
+#~ msgctxt "@title:window"
+#~ msgid "No Changes"
+#~ msgstr "沒有變更"
+
+#~ msgctxt "@item"
+#~ msgid "My counter proposal for: %1"
+#~ msgstr "我對 %1 的反提案"
+
+#~ msgctxt "@title:tab general to-do settings"
+#~ msgid "&General"
+#~ msgstr "一般(&G)"
+
+#~ msgctxt "@title:window"
+#~ msgid "New To-do"
+#~ msgstr "新增待辦事項"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The number of the week from the beginning of the month on which this "
+#~ "event or to-do should recur."
+#~ msgstr "此事件或待辦事項要於一個月的第幾週循環。"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "1st"
+#~ msgstr "第一"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2nd"
+#~ msgstr "第二"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "3rd"
+#~ msgstr "第三"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "4th"
+#~ msgstr "第四"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5th"
+#~ msgstr "第五"
+
+#~ msgctxt "@item:inlistbox last week of the month"
+#~ msgid "Last"
+#~ msgstr "最後"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2nd Last"
+#~ msgstr "倒數第二"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "3rd Last"
+#~ msgstr "倒數第三"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "4th Last"
+#~ msgstr "倒數第四"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5th Last"
+#~ msgstr "倒數第五"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The weekday on which this event or to-do should recur."
+#~ msgstr "此事件或待辦事項要於星期幾循環。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The month during which this event or to-do should recur."
+#~ msgstr "此事件或待辦事項要於幾月循環。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets how often this event or to-do should recur."
+#~ msgstr "設定此事件或待辦事項要多久循環一次。"
+
+#~ msgctxt "@label"
+#~ msgid "&Recur every"
+#~ msgstr "循環週期(&R)："
+
+#~ msgctxt "@label recurrence expressed in days"
+#~ msgid "day(s)"
+#~ msgstr "天"
+
+#~ msgctxt "@label"
+#~ msgid "week(s) on:"
+#~ msgstr "每週的"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Set %1 as the day when this event or to-do should recur."
+#~ msgstr "將 %1 設定為此事件或待辦事項要循環的日期。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Recur on %1"
+#~ msgstr "循環於每月的 %1"
+
+#~ msgctxt "@label"
+#~ msgid "month(s)"
+#~ msgstr "個月"
+
+#~ msgctxt "@option:radio"
+#~ msgid "&Recur on the"
+#~ msgstr "循環於每月的(&R)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets a specific day of the month on which this event or to-do should "
+#~ "recur."
+#~ msgstr "此事件或待辦事項要於每個月的哪幾天循環。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The day of the month on which this event or to-do should recur."
+#~ msgstr "此事件或待辦事項要於每個月的哪一天循環。"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "6th"
+#~ msgstr "第六"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "7th"
+#~ msgstr "第七"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "8th"
+#~ msgstr "第八"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "9th"
+#~ msgstr "第九"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "10th"
+#~ msgstr "第十"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "11th"
+#~ msgstr "第十一"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "12th"
+#~ msgstr "第十二"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "13th"
+#~ msgstr "第十三"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "14th"
+#~ msgstr "第十四"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "15th"
+#~ msgstr "第十五"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "16th"
+#~ msgstr "第十六"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "17th"
+#~ msgstr "第十七"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "18th"
+#~ msgstr "第十八"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "19th"
+#~ msgstr "第十九"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "20th"
+#~ msgstr "第二十"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "21st"
+#~ msgstr "第二十一"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "22nd"
+#~ msgstr "第二十二"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "23rd"
+#~ msgstr "第二十三"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "24th"
+#~ msgstr "第二十四"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "25th"
+#~ msgstr "第二十五"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "26th"
+#~ msgstr "第二十六"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "27th"
+#~ msgstr "第二十七"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "28th"
+#~ msgstr "第二十八"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "29th"
+#~ msgstr "第二十九"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "30th"
+#~ msgstr "第三十"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "31st"
+#~ msgstr "第三十一"
+
+#~ msgctxt "@item:inlistbox last day of the month"
+#~ msgid "Last"
+#~ msgstr "最後"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "6th Last"
+#~ msgstr "倒數第六"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "7th Last"
+#~ msgstr "倒數第七"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "8th Last"
+#~ msgstr "倒數第八"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "9th Last"
+#~ msgstr "倒數第九"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "10th Last"
+#~ msgstr "倒數第十"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "11th Last"
+#~ msgstr "倒數第十一"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "12th Last"
+#~ msgstr "倒數第十二"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "13th Last"
+#~ msgstr "倒數第十三"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "14th Last"
+#~ msgstr "倒數第十四"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "15th Last"
+#~ msgstr "倒數第十五"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "16th Last"
+#~ msgstr "倒數第十六"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "17th Last"
+#~ msgstr "倒數第十七"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "18th Last"
+#~ msgstr "倒數第十八"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "19th Last"
+#~ msgstr "倒數第十九"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "20th Last"
+#~ msgstr "倒數第廿"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "21st Last"
+#~ msgstr "倒數第廿一"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "22nd Last"
+#~ msgstr "倒數第廿二"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "23rd Last"
+#~ msgstr "倒數第廿三"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "24th Last"
+#~ msgstr "倒數第廿四"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "25th Last"
+#~ msgstr "倒數第廿五"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "26th Last"
+#~ msgstr "倒數第廿六"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "27th Last"
+#~ msgstr "倒數第廿七"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "28th Last"
+#~ msgstr "倒數第廿八"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "29th Last"
+#~ msgstr "倒數第廿九"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "30th Last"
+#~ msgstr "倒數第卅"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "31st Last"
+#~ msgstr "倒數第卅一"
+
+#~ msgctxt "@label"
+#~ msgid "day"
+#~ msgstr "天"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets a weekday and specific week in the month on which this event or to-"
+#~ "do should recur"
+#~ msgstr "此事件或待辦事項要於每個月的第幾週的星期幾循環。"
+
+#~ msgctxt "@label"
+#~ msgid "year(s)"
+#~ msgstr "年"
+
+#~ msgctxt "@option:radio part before XXX of 'Recur on day XXX of month YYY'"
+#~ msgid "&Recur on day "
+#~ msgstr "循環(&R)於："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets a specific day in a specific month on which this event or to-do "
+#~ "should recur."
+#~ msgstr "此事件或待辦事項要於幾月的第幾天循環。"
+
+#~ msgctxt "@label part between XXX and YYY of 'Recur on day XXX of month YYY'"
+#~ msgid " &of "
+#~ msgstr " ，"
+
+#~ msgctxt "@option:radio Part before XXX in 'Recur on NNN. WEEKDAY of MONTH'"
+#~ msgid "&On the"
+#~ msgstr "循環於第幾週(&O)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets a specific day in a specific week of a specific month on which this "
+#~ "event or to-do should recur."
+#~ msgstr "此事件或待辦事項要於哪個月的第幾週的第幾天循環。"
+
+#~ msgctxt ""
+#~ "@label part between WEEKDAY and MONTH in 'Recur on NNN. WEEKDAY of MONTH'"
+#~ msgid " o&f "
+#~ msgstr " ，"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Recur on &day #"
+#~ msgstr "循環於每年第(&D)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets a specific day within the year on which this event or to-do should "
+#~ "recur."
+#~ msgstr "此事件或待辦事項要於一年中的哪一天循環。"
+
+#~ msgctxt "@label part after NNN of 'Recur on day #NNN of the year'"
+#~ msgid " of the &year"
+#~ msgstr "日(&Y)。"
+
+#~ msgctxt "@title:group"
+#~ msgid "E&xceptions"
+#~ msgstr "例外(&X)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "A date that should be considered an exception to the recurrence rules for "
+#~ "this event or to-do."
+#~ msgstr "此事件或待辦事項循環的例外日期。"
+
+#~ msgctxt "@action:button Add a new recurrence to the recurrence list"
+#~ msgid "&Add"
+#~ msgstr "新增(&A)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Add this date as an exception to the recurrence rules for this event or "
+#~ "to-do."
+#~ msgstr "將此日期加到此事件或待辦事項循環規則的例外清單中。"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Change"
+#~ msgstr "變更(&C)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Replace the currently selected date with this date."
+#~ msgstr "以此日期取代目前所選取的日期。"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Delete the currently selected date from the list of dates that should be "
+#~ "considered exceptions to the recurrence rules for this event or to-do."
+#~ msgstr "將目前所選取的日期從例外清單中刪除。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Displays current dates that are being considered exceptions to the "
+#~ "recurrence rules for this event or to-do."
+#~ msgstr "顯示此事件或待辦事項例外清單中的日期。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Exceptions"
+#~ msgstr "編輯例外清單"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recurrence Range"
+#~ msgstr "循環範圍"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets a range for which these recurrence rules will apply to this event or "
+#~ "to-do."
+#~ msgstr "設定此事件或待辦事項的循環規則所涵蓋的時間範圍。"
+
+#~ msgctxt "@label"
+#~ msgid "Begin on:"
+#~ msgstr "開始於："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The date on which the recurrences for this event or to-do should begin."
+#~ msgstr "此事件或待辦事項的循環規則開始的日期。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets the event or to-do to recur forever."
+#~ msgstr "讓此事件或待辦事項永遠循環。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the event or to-do to stop recurring after a certain number of "
+#~ "occurrences."
+#~ msgstr "設定此事件或待辦事項的循環規則在循環幾次以後結束。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "End &after"
+#~ msgstr "結束於(&A)"
+
+#~ msgctxt "@label"
+#~ msgid "&occurrence(s)"
+#~ msgstr "次循環之後。(&O)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets the event or to-do to stop recurring on a certain date."
+#~ msgstr "設定此事件或待辦事項的循環規則結束於特定的日期。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "End &on:"
+#~ msgstr "結束於(&O)："
+
+#~ msgctxt "@label"
+#~ msgid "Begins on: %1"
+#~ msgstr "開始於：%1"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Recurrence Range"
+#~ msgstr "編輯循環範圍"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recurrence Types"
+#~ msgstr "循環型態"
+
+#~ msgctxt "@option:radio recur daily"
+#~ msgid "&Daily"
+#~ msgstr "每天(&D)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the event or to-do to recur daily according to the specified rules."
+#~ msgstr "讓此事件或待辦事項根據設定的規則每天循環發生。"
+
+#~ msgctxt "@option:radio recur weekly"
+#~ msgid "&Weekly"
+#~ msgstr "每週 (&W)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the event or to-do to recur weekly according to the specified rules."
+#~ msgstr "讓此事件或待辦事項根據設定的規則每週循環發生。"
+
+#~ msgctxt "@option:radio recur monthly"
+#~ msgid "&Monthly"
+#~ msgstr "每月(&M)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the event or to-do to recur monthly according to the specified rules."
+#~ msgstr "讓此事件或待辦事項根據設定的規則每月循環發生。"
+
+#~ msgctxt "@option:radio recur yearly"
+#~ msgid "&Yearly"
+#~ msgstr "每年(&Y)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Sets the event or to-do to recur yearly according to the specified rules."
+#~ msgstr "讓此事件或待辦事項根據設定的規則每年循環發生。"
+
+#~ msgctxt "@option:check"
+#~ msgid "&Enable recurrence"
+#~ msgstr "開啟循環(&E)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enables recurrence for this event or to-do according to the specified "
+#~ "rules."
+#~ msgstr "讓此事件或待辦事項根據設定的規則開始循環。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Appointment Time "
+#~ msgstr "約會時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Displays appointment time information."
+#~ msgstr "顯示約會時間資訊。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recurrence Rule"
+#~ msgstr "循環規則"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Options concerning the type of recurrence this event or to-do should have."
+#~ msgstr "此事件或待辦事項的循環型態選項。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Options concerning the time range during which this event or to-do should "
+#~ "recur."
+#~ msgstr "此事件或待辦事項的循環時間範圍選項。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The end date '%1' of the recurrence must be after the start date '%2' of "
+#~ "the event."
+#~ msgstr "此事件的循環規則的結束日期 %1 必須在開始日期 %2 之後。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "A weekly recurring event or task has to have at least one weekday "
+#~ "associated with it."
+#~ msgstr "設定循環規則為每週時，至少要設定星期幾。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Recurrence"
+#~ msgstr "循環"
+
+#~ msgid "Sets options for due and start dates and times for this to-do."
+#~ msgstr "設定此待辦事項的啟始日期與時間，以及期限等選項。"
+
+#~ msgid "Select the timezone for this event. It will also affect recurrences"
+#~ msgstr "選擇此事件的時區，它也會影響循環設定"
+
+#~ msgctxt "@label"
+#~ msgid "Recurrence:"
+#~ msgstr "循環："
+
+#~ msgid "Sets the current completion status of this to-do as a percentage."
+#~ msgstr "以百分比來設定此待辦事項的完成狀態。"
+
+#~ msgctxt "Percent complete"
+#~ msgid "%1 %"
+#~ msgstr "%1 %"
+
+#~ msgid ""
+#~ "Sets the priority of this to-do on a scale from one to nine, with one "
+#~ "being the highest priority, five being a medium priority, and nine being "
+#~ "the lowest. In programs that have a different scale, the numbers will be "
+#~ "adjusted to match the appropriate scale."
+#~ msgstr ""
+#~ "設定此待辦事項的優先等級，從一到九。一為高優先，五為中度優先，九為最低優"
+#~ "先。不過對於有其他量度法的程式，此數值將會調整為適當的區間。"
+
+#~ msgid "Please specify a valid due date."
+#~ msgstr "請指定正確的到期日。"
+
+#~ msgid "Please specify a valid due time."
+#~ msgstr "請指定正確的到期時間。"
+
+#~ msgid "Please specify a valid start date."
+#~ msgstr "請指定正確的開始日期。"
+
+#~ msgid "Please specify a valid start time."
+#~ msgstr "請指定正確的開始時間。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Date && Time"
+#~ msgstr "日期與時間"
+
+#~ msgctxt "@label event start time"
+#~ msgid "&Start:"
+#~ msgstr "開始(&S)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the starting date for this event."
+#~ msgstr "設定此事件的開始日期。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the start time"
+#~ msgstr "設定開始時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the starting time for this event."
+#~ msgstr "設定此事件的開始時間。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select the timezone for the start date/time"
+#~ msgstr "選擇此開始日期/時間的時區"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select the timezone for the end date/time"
+#~ msgstr "選擇此結束日期/時間的時區"
+
+#~ msgctxt "@label"
+#~ msgid "&End:"
+#~ msgstr "結束(&E)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the ending date for this event."
+#~ msgstr "設定此事件的結束日期。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the end time"
+#~ msgstr "設定結束時間"
+
+#~ msgctxt "@option:check"
+#~ msgid "T&ime associated"
+#~ msgstr "相關時間(&I)"
+
+#~ msgctxt "@label"
+#~ msgid "S&how time as:"
+#~ msgstr "將時間標記為(&H)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets how this time will appear on your Free/Busy information."
+#~ msgstr "在您的行程資訊中設定此時間為空閒或忙碌。"
+
+#~ msgctxt "@info"
+#~ msgid "You have not yet definitely responded to this invitation."
+#~ msgstr "您尚未明確回覆此邀請。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Accept"
+#~ msgstr "接受"
+
+#~ msgctxt "@action:button"
+#~ msgid "Decline"
+#~ msgstr "婉拒"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Decline the invitation"
+#~ msgstr "拒絕邀請"
+
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid start time, for example '%1'."
+#~ msgstr "請指定一個合法的開始時間，如 %1。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Event Entry Validation"
+#~ msgstr "事件項目確認"
+
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid end time, for example '%1'."
+#~ msgstr "請指定一個合法的結束時間，如 %1。"
+
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid start date, for example '%1'."
+#~ msgstr "請指定一個合法的開始日期，如 %1。"
+
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid end date, for example '%1'."
+#~ msgstr "請指定一個合法的結束日期，如 %1。"
+
+#~ msgctxt "@info"
+#~ msgid "You specified a starting date/time in the past '%1'"
+#~ msgstr "您指定的開始日期與時間已過：%1"
+
+#~ msgctxt "@info"
+#~ msgid "You specified an ending date/time in the past '%1'"
+#~ msgstr "您指定的結束日期與時間已過：%1"
+
+#, fuzzy
+#~| msgid "%1% completed"
+#~ msgctxt "@label:slider Sets the current completion percentage of a task"
+#~ msgid "%1% completed"
+#~ msgstr "已完成 %1%"
+
+#, fuzzy
+#~| msgid "Task:"
+#~ msgctxt "@label line containing task specific ui controls"
+#~ msgid "Task:"
+#~ msgstr "工作："
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgctxt "@label:listbox priority of a task"
+#~ msgid "Priority"
+#~ msgstr "優先權"
+
+#, fuzzy
+#~| msgid "MM.dd.yyyy"
+#~ msgctxt "@info date formatting string"
+#~ msgid "MM.dd.yyyy"
+#~ msgstr "MM.dd.yyyy"
+
+#~ msgid "IncidenceEditorApp"
+#~ msgstr "IncidenceEditorApp"
+
+#~ msgid "(C) 2009 Sebastian Sauer"
+#~ msgstr "(C) 2009 Sebastian Sauer"
+
+#~ msgid "Run the KOrganizer incidenceeditor."
+#~ msgstr "執行 KOrganizer 事件編輯器。"
+
+#~ msgid "Sebastian Sauer"
+#~ msgstr "Sebastian Sauer"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Save"
+#~ msgstr "儲存(&S)"
+
+#~ msgid "Roles Needed:"
+#~ msgstr "需要的角色："
+
+#~ msgid ""
+#~ "Opens your address book, allowing you to select new attendees from it."
+#~ msgstr "開啟您的通訊錄，讓您從中選取參加者。"
+
+#~ msgid "Event:"
+#~ msgstr "事件："
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Dialog"
+#~ msgstr "關閉"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "0 %"
+#~ msgid "0 %"
+#~ msgstr "0 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "10 %"
+#~ msgid "10 %"
+#~ msgstr "10 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "20 %"
+#~ msgid "20 %"
+#~ msgstr "20 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "30 %"
+#~ msgid "30 %"
+#~ msgstr "30 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "40 %"
+#~ msgid "40 %"
+#~ msgstr "40 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "50 %"
+#~ msgid "50 %"
+#~ msgstr "50 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "60 %"
+#~ msgid "60 %"
+#~ msgstr "60 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "70 %"
+#~ msgid "70 %"
+#~ msgstr "70 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "80 %"
+#~ msgid "80 %"
+#~ msgstr "80 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "90 %"
+#~ msgid "90 %"
+#~ msgstr "90 %"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox Percent complete"
+#~| msgid "100 %"
+#~ msgid "100 %"
+#~ msgstr "100 %"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "1 minute"
+#~| msgid_plural "%1 minutes"
+#~ msgid "10 minutes before"
+#~ msgstr "%1 分鐘"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "1 minute"
+#~| msgid_plural "%1 minutes"
+#~ msgid "15 minutes before"
+#~ msgstr "%1 分鐘"
+
+#~ msgid "Clean"
+#~ msgstr "乾淨"
+
+#~ msgid "Dirty"
+#~ msgstr "髒"
+
+#, fuzzy
+#~| msgctxt "@option:check"
+#~| msgid "Rich text"
+#~ msgctxt "@option:check"
+#~ msgid "Ric&h text"
+#~ msgstr "Rich Text"
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "Appointment Time "
+#~ msgctxt "@title:group"
+#~ msgid "Appointment Time"
+#~ msgstr "約會時間"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "&Recur every"
+#~ msgid "&Recur every"
+#~ msgstr "循環週期(&R)："
+
+#, fuzzy
+#~| msgctxt "to-do due datetime"
+#~| msgid "&Due:"
+#~ msgid "&Tue"
+#~ msgstr "期限(&D)："
+
+#, fuzzy
+#~| msgid "&Sound"
+#~ msgid "S&un"
+#~ msgstr "音效(&S)"
+
+#, fuzzy
+#~| msgctxt "@option:radio"
+#~| msgid "&Recur on the"
+#~ msgid "Recur on the"
+#~ msgstr "循環於每月的(&R)"
+
+#, fuzzy
+#~| msgctxt "@option:radio part before XXX of 'Recur on day XXX of month YYY'"
+#~| msgid "&Recur on day "
+#~ msgid "Recu&r on day"
+#~ msgstr "循環(&R)於："
+
+#, fuzzy
+#~| msgctxt "@option:radio Part before XXX in 'Recur on NNN. WEEKDAY of MONTH'"
+#~| msgid "&On the"
+#~ msgid "On &the"
+#~ msgstr "循環於第幾週(&O)："
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox"
+#~| msgid "10th Last"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "31th Last"
+#~ msgstr "倒數第十"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "@label part between WEEKDAY and MONTH in 'Recur on NNN. WEEKDAY of MONTH'"
+#~| msgid " o&f "
+#~ msgctxt ""
+#~ "@label part between WEEKDAY and MONTH in 'Recur on NNN. WEEKDAY of MONTH'"
+#~ msgid "o&f"
+#~ msgstr " ，"
+
+#, fuzzy
+#~| msgctxt "@option:radio"
+#~| msgid "Recur on &day #"
+#~ msgid "Recur on &day #"
+#~ msgstr "循環於每年第(&D)："
+
+#, fuzzy
+#~| msgctxt "@label part after NNN of 'Recur on day #NNN of the year'"
+#~| msgid " of the &year"
+#~ msgctxt "@label part after NNN of 'Recur on day #NNN of the year'"
+#~ msgid "of &the year"
+#~ msgstr "日(&Y)。"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Begin on:"
+#~ msgctxt "@label"
+#~ msgid "Begins on:"
+#~ msgstr "開始於："
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "&occurrence(s)"
+#~ msgctxt "@label"
+#~ msgid "occurrence(&s)"
+#~ msgstr "次循環之後。(&O)"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "&Change"
+#~ msgid "Chan&ge"
+#~ msgstr "變更(&C)"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "&Delete"
+#~ msgid "De&lete"
+#~ msgstr "刪除(&D)"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Add"
+#~ msgstr "新增(&A)"

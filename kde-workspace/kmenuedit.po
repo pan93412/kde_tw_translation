@@ -1,0 +1,381 @@
+# translation of kmenuedit.po to Chinese Traditional
+# Copyright (C) 2007, 2008 Free Software Foundation, Inc.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2013.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmenuedit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2013-09-14 15:56+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eric Cheng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ericc@shinewave.com.tw"
+
+#: basictab.cpp:72
+#, kde-format
+msgid "&Name:"
+msgstr "名稱(&N):"
+
+#: basictab.cpp:80
+#, kde-format
+msgid "&Description:"
+msgstr "描述(&D):"
+
+#: basictab.cpp:88
+#, kde-format
+msgid "&Comment:"
+msgstr "註解(&C):"
+
+#: basictab.cpp:96
+#, kde-format
+msgid "Co&mmand:"
+msgstr "指令(&M):"
+
+#: basictab.cpp:101
+#, kde-format
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the folder of the file to open\n"
+"%D - a list of folders\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the caption"
+msgstr ""
+"下列指令中，您可以使用許多在程式實際執行時會被置換為真實數值的佔位符：\n"
+"%f - 單一的檔案名稱\n"
+"%F - 一組檔案清單；用於能一次開啟多個本地端檔案的應用程式\n"
+"%u - 單一的 URL\n"
+"%U - 一組 URL 清單\n"
+"%d - 要開啟檔案的資料夾\n"
+"%D - 一組資料夾清單\n"
+"%i - 圖示\n"
+"%m - 迷你圖示\n"
+"%c - 說明"
+
+#: basictab.cpp:116
+#, kde-format
+msgid "Enable &launch feedback"
+msgstr "啟用執行回饋(&L)"
+
+#: basictab.cpp:120
+#, kde-format
+msgid "Only show in KDE"
+msgstr "只在 KDE 顯示"
+
+#: basictab.cpp:124
+#, kde-format
+msgid "Hidden entry"
+msgstr "隱藏的項目"
+
+#: basictab.cpp:136 preferencesdlg.cpp:75
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: basictab.cpp:150
+#, kde-format
+msgid "&Work path:"
+msgstr "工作路徑(&W):"
+
+#: basictab.cpp:164
+#, kde-format
+msgid "Run in term&inal"
+msgstr "在終端機視窗執行(&T)"
+
+#: basictab.cpp:170
+#, kde-format
+msgid "Terminal &options:"
+msgstr "終端機選項(&O):"
+
+#: basictab.cpp:185
+#, kde-format
+msgid "&Run as a different user"
+msgstr "用不同使用者身分來執行(&R)"
+
+#: basictab.cpp:191
+#, kde-format
+msgid "&Username:"
+msgstr "使用者名稱(&U):"
+
+#: basictab.cpp:206
+#, kde-format
+msgid "Current shortcut &key:"
+msgstr "目前的捷徑鍵(&K):"
+
+#: basictab.cpp:217
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#: khotkeys.cpp:54
+#, kde-format
+msgid ""
+"Unable to contact khotkeys. Your changes are saved, but they could not be "
+"activated."
+msgstr "無法聯繫 khotkeys。您的變更已儲存，但無法啟動。"
+
+#: kmenuedit.cpp:71
+#, kde-format
+msgid "&New Submenu..."
+msgstr "新增子選單(&N)..."
+
+#: kmenuedit.cpp:75
+#, kde-format
+msgid "New &Item..."
+msgstr "新增項目(&I)..."
+
+#: kmenuedit.cpp:79
+#, kde-format
+msgid "New S&eparator"
+msgstr "新增分隔(&E)"
+
+#: kmenuedit.cpp:83
+#, kde-format
+msgid "&Sort"
+msgstr "排序(&S)"
+
+#: kmenuedit.cpp:87
+#, kde-format
+msgid "&Sort selection by Name"
+msgstr "依名稱排序選取項目(&S)"
+
+#: kmenuedit.cpp:90
+#, kde-format
+msgid "&Sort selection by Description"
+msgstr "依描述排序選取項目(&S)"
+
+#: kmenuedit.cpp:94
+#, kde-format
+msgid "&Sort all by Name"
+msgstr "依名稱排序(&S)"
+
+#: kmenuedit.cpp:97
+#, kde-format
+msgid "&Sort all by Description"
+msgstr "依描述排序(&D)"
+
+#: kmenuedit.cpp:103
+#, kde-format
+msgid "Move &Up"
+msgstr "上移(&U)"
+
+#: kmenuedit.cpp:106
+#, kde-format
+msgid "Move &Down"
+msgstr "下移(&D)"
+
+#: kmenuedit.cpp:114
+#, kde-format
+msgid "Restore to System Menu"
+msgstr "回復為系統選單"
+
+#: kmenuedit.cpp:190
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#: kmenuedit.cpp:214
+#, kde-format
+msgid ""
+"You have made changes to the menu.\n"
+"Do you want to save the changes or discard them?"
+msgstr ""
+"您已經對選單做了變更。\n"
+"您想要儲存變更或是放棄它們？"
+
+#: kmenuedit.cpp:216
+#, kde-format
+msgid "Save Menu Changes?"
+msgstr "是否儲存選單變更？"
+
+#. i18n: ectx: Menu (file)
+#: kmenueditui.rc:6
+#, kde-format
+msgid "&File"
+msgstr "檔案(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: kmenueditui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "編輯(&E)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kmenueditui.rc:33
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: main.cpp:34
+#, kde-format
+msgid "KDE menu editor"
+msgstr "KDE 選單編輯器"
+
+#: main.cpp:47 main.cpp:64 main.cpp:78
+#, kde-format
+msgid "KDE Menu Editor"
+msgstr "KDE 選單編輯器"
+
+#: main.cpp:66
+#, kde-format
+msgid "(C) 2000-2003, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
+msgstr "(C) 2000-2003, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
+
+#: main.cpp:67
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:67
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: main.cpp:68
+#, kde-format
+msgid "Raffaele Sandrini"
+msgstr "Raffaele Sandrini"
+
+#: main.cpp:68
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "之前的維護者"
+
+#: main.cpp:69
+#, kde-format
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: main.cpp:69
+#, kde-format
+msgid "Original Author"
+msgstr "原始作者"
+
+#: main.cpp:70
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: main.cpp:82
+#, kde-format
+msgid "Sub menu to pre-select"
+msgstr "預先選擇的子選單"
+
+#: main.cpp:85
+#, kde-format
+msgid "Menu entry to pre-select"
+msgstr "預先選擇的選單項目"
+
+#: menufile.cpp:101 menufile.cpp:114
+#, kde-format
+msgid "Could not write to %1"
+msgstr "無法寫入至 %1"
+
+#: preferencesdlg.cpp:38
+#, kde-format
+msgid "General options"
+msgstr "一般選項"
+
+#: preferencesdlg.cpp:43
+#, kde-format
+msgid "Spell Checking"
+msgstr "拼字檢查"
+
+#: preferencesdlg.cpp:44
+#, kde-format
+msgid "Spell checking Options"
+msgstr "拼字檢查選項"
+
+#: preferencesdlg.cpp:77
+#, kde-format
+msgid "Show hidden entries"
+msgstr "顯示隱藏的項目"
+
+#: treeview.cpp:193
+#, kde-format
+msgid " [Hidden]"
+msgstr " [隱藏]"
+
+#: treeview.cpp:1127
+#, kde-format
+msgid "New Submenu"
+msgstr "新增子選單"
+
+#: treeview.cpp:1128
+#, kde-format
+msgid "Submenu name:"
+msgstr "子選單名稱:"
+
+#: treeview.cpp:1197
+#, kde-format
+msgid "New Item"
+msgstr "新增項目"
+
+#: treeview.cpp:1198
+#, kde-format
+msgid "Item name:"
+msgstr "項目名稱:"
+
+#: treeview.cpp:1689
+#, kde-format
+msgid "All submenus of '%1' will be removed. Do you want to continue?"
+msgstr "%1 的所有子選單都將被移除。您要繼續嗎？"
+
+#: treeview.cpp:1855
+#, kde-format
+msgid "Menu changes could not be saved because of the following problem:"
+msgstr "選單的變更由於下列問題無法儲存："
+
+#: treeview.cpp:1900
+#, kde-format
+msgid ""
+"Do you want to restore the system menu? Warning: This will remove all custom "
+"menus."
+msgstr "您要回復系統選單嗎？警告：您將會移除所有的自定選單。"
+
+#~ msgid "&Place in system tray"
+#~ msgstr "置於系統匣(&P)"
+
+#~ msgid "&Name"
+#~ msgstr "名稱(&N)"
+
+#~ msgid "&Sort By ..."
+#~ msgstr "排序依據(&S)..."
+
+#~ msgid "Misc"
+#~ msgstr "雜項"
+
+#~ msgid ""
+#~ "<qt>The key <b>%1</b> can not be used here because it is already used to "
+#~ "activate <b>%2</b>.</qt>"
+#~ msgstr ""
+#~ "<qt>鍵值 <b>%1</b> 無法在這裡使用，因為它已經被用在 <b>%2</b>。</qt>"
+
+#~ msgid ""
+#~ "<qt>The key <b>%1</b> can not be used here because it is already in use.</"
+#~ "qt>"
+#~ msgstr "<qt>鍵值 <b>%1</b> 無法在這裡使用，因為它已經在使用中。</qt>"

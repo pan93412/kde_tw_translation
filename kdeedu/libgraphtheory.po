@@ -1,0 +1,2884 @@
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: rocs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:14+0100\n"
+"PO-Revision-Date: 2017-11-11 21:06+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: dialogs/edgeproperties.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "Edge Properties"
+msgstr "邊緣屬性"
+
+#: dialogs/edgeproperties.cpp:94 dialogs/edgetypeproperties.cpp:62
+#: dialogs/nodeproperties.cpp:104 dialogs/nodetypeproperties.cpp:61
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: dialogs/edgeproperties.cpp:95 dialogs/nodeproperties.cpp:105
+#, kde-format
+msgid "Value"
+msgstr "數值"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EdgeProperties)
+#: dialogs/edgeproperties.ui:26
+#, kde-format
+msgid "Edge Properties"
+msgstr "邊緣屬性"
+
+#. i18n: ectx: property (text), widget (QLabel, labelType)
+#: dialogs/edgeproperties.ui:52 dialogs/nodeproperties.ui:52
+#, kde-format
+msgid "Type:"
+msgstr "型態："
+
+#. i18n: ectx: property (title), widget (QGroupBox, DynamicProperties)
+#: dialogs/edgeproperties.ui:98 dialogs/nodeproperties.ui:138
+#, kde-format
+msgid "Dynamic Properties"
+msgstr "動態屬性"
+
+#. i18n: ectx: property (text), widget (QLabel, labelConnection)
+#: dialogs/edgetypeproperties.cpp:51
+#: editorplugins/assignvalues/assignvalueswidget.ui:460
+#, kde-format
+msgid "Edges"
+msgstr "邊"
+
+#: dialogs/edgetypeproperties.cpp:52 dialogs/nodetypeproperties.cpp:50
+#, kde-format
+msgid "Property Names"
+msgstr "屬性名稱"
+
+#: dialogs/edgetypeproperties.cpp:57
+#, kde-format
+msgctxt "@title:window"
+msgid "Edge Type Properties"
+msgstr "邊緣型態屬性"
+
+#. i18n: ectx: property (text), widget (QLabel, labelIdentifier)
+#: dialogs/edgetypeproperties.cpp:63 dialogs/nodetypeproperties.cpp:63
+#: editorplugins/generategraph/generategraphwidget.ui:113
+#, kde-format
+msgid "Identifier"
+msgstr "識別子"
+
+#: dialogs/edgetypeproperties.cpp:65 dialogs/nodetypeproperties.cpp:66
+#, kde-format
+msgid "Color"
+msgstr "顏色"
+
+#: dialogs/edgetypeproperties.cpp:66
+#, kde-format
+msgid "Unidirectional"
+msgstr "單向"
+
+#: dialogs/edgetypeproperties.cpp:67
+#, kde-format
+msgid "Bidirectional"
+msgstr "雙向"
+
+#: dialogs/edgetypeproperties.cpp:68
+#, kde-format
+msgid "Direction"
+msgstr "方向"
+
+#: dialogs/edgetypeproperties.cpp:75 dialogs/nodetypeproperties.cpp:73
+#, kde-format
+msgid "Visibility"
+msgstr "可見度"
+
+#: dialogs/edgetypeproperties.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The selected ID for this edge type."
+msgstr "此邊緣型態選取的代碼："
+
+#: dialogs/edgetypeproperties.cpp:158
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The selected ID is already used for another edge type, please select a "
+"different one."
+msgstr "選取的代碼已用於其他的邊緣型態，請選擇另一個。"
+
+#: dialogs/nodeproperties.cpp:40
+#, kde-format
+msgctxt "@title:window"
+msgid "Node Properties"
+msgstr "節點屬性"
+
+#: dialogs/nodeproperties.cpp:150
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The selected ID for this node."
+msgstr "此節點的選取代碼。"
+
+#: dialogs/nodeproperties.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The selected ID is already used for another node, please select a different "
+"one."
+msgstr "選取的代碼已用於其他的節點，請選擇另一個。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, NodeProperties)
+#: dialogs/nodeproperties.ui:26
+#, kde-format
+msgid "Node Properties"
+msgstr "節點屬性"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelColor)
+#. i18n: ectx: property (toolTip), widget (KColorCombo, color)
+#: dialogs/nodeproperties.ui:99 dialogs/nodeproperties.ui:112
+#, kde-format
+msgid "Node color"
+msgstr "節點顏色"
+
+#. i18n: ectx: property (text), widget (QLabel, labelColor)
+#: dialogs/nodeproperties.ui:102
+#, kde-format
+msgid "Color:"
+msgstr "顏色："
+
+#. i18n: ectx: property (text), widget (QLabel, labelId)
+#: dialogs/nodeproperties.ui:119
+#, kde-format
+msgid "Identifier:"
+msgstr "識別子："
+
+#. i18n: ectx: property (text), widget (QLabel, labelData)
+#: dialogs/nodetypeproperties.cpp:49
+#: editorplugins/assignvalues/assignvalueswidget.ui:434
+#, kde-format
+msgid "Nodes"
+msgstr "節點"
+
+#: dialogs/nodetypeproperties.cpp:55
+#, kde-format
+msgctxt "@title:window"
+msgid "Node Type Properties"
+msgstr "節點型態屬性"
+
+#: dialogs/nodetypeproperties.cpp:150
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The selected ID for this node type."
+msgstr "此節點型態選取的代碼。"
+
+#: dialogs/nodetypeproperties.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The selected ID is already used for another node type, please select a "
+"different one."
+msgstr "選取的代碼已用於其他的節點型態，請選擇另一個。"
+
+#: dialogs/propertieswidget.cpp:48
+#, kde-format
+msgid "Add Property"
+msgstr "新增屬性"
+
+#: dialogs/propertydelegate.cpp:65
+#, kde-format
+msgid "Delete this property."
+msgstr "刪除此屬性。"
+
+#: editorplugins/assignvalues/assignvalueswidget.cpp:48
+#, kde-format
+msgctxt "@title:window"
+msgid "Assign Values"
+msgstr "指定值"
+
+#: editorplugins/assignvalues/assignvalueswidget.cpp:67
+#, kde-format
+msgid "All Data Types"
+msgstr "所有資料型態"
+
+#: editorplugins/assignvalues/assignvalueswidget.cpp:71
+#, kde-format
+msgid "All Edge Types"
+msgstr "所有邊緣型態"
+
+#: editorplugins/assignvalues/assignvalueswidget.cpp:94
+#, kde-format
+msgid "Enter Property Name"
+msgstr "輸入指標名稱"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AssignValuesWidget)
+#: editorplugins/assignvalues/assignvalueswidget.ui:32
+#, kde-format
+msgid "Assign Values"
+msgstr "指定值"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editorplugins/assignvalues/assignvalueswidget.ui:40
+#, kde-format
+msgid "Choose Properties"
+msgstr "選擇屬性"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonShowAdvanced)
+#: editorplugins/assignvalues/assignvalueswidget.ui:59
+#, kde-format
+msgid "Show advanced options."
+msgstr "顯示進階選項。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: editorplugins/assignvalues/assignvalueswidget.ui:74
+#, kde-format
+msgid "Assignment Method"
+msgstr "指定方式"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMethod)
+#: editorplugins/assignvalues/assignvalueswidget.ui:81
+#, kde-format
+msgid "Enumerate Items"
+msgstr "列舉項目"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMethod)
+#: editorplugins/assignvalues/assignvalueswidget.ui:86
+#, kde-format
+msgid "Enumerate Alpha"
+msgstr "列舉英文字母"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMethod)
+#: editorplugins/assignvalues/assignvalueswidget.ui:91
+#, kde-format
+msgid "Enumerate Alpha-Numeric"
+msgstr "列舉英文與數字"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMethod)
+#: editorplugins/assignvalues/assignvalueswidget.ui:96
+#, kde-format
+msgid "Assign Random Integers"
+msgstr "指定隨機整數"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMethod)
+#: editorplugins/assignvalues/assignvalueswidget.ui:101
+#, kde-format
+msgid "Assign Random Reals"
+msgstr "指定隨機實數"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMethod)
+#: editorplugins/assignvalues/assignvalueswidget.ui:106
+#, kde-format
+msgid "Assign Constant Value"
+msgstr "指定常數值"
+
+#. i18n: ectx: property (text), widget (QLabel, IDlabelStartValue)
+#. i18n: ectx: property (text), widget (QLabel, LabelAlphaNumericID)
+#: editorplugins/assignvalues/assignvalueswidget.ui:132
+#: editorplugins/assignvalues/assignvalueswidget.ui:192
+#, kde-format
+msgid "Start ID"
+msgstr "開始代碼"
+
+#. i18n: ectx: property (text), widget (QLabel, LabelInitialString)
+#: editorplugins/assignvalues/assignvalueswidget.ui:167
+#, kde-format
+msgid "Initial string"
+msgstr "初始字串"
+
+#. i18n: ectx: property (text), widget (QLineEdit, LineEditInitialString)
+#: editorplugins/assignvalues/assignvalueswidget.ui:174
+#, kde-format
+msgid "a"
+msgstr "a"
+
+#. i18n: ectx: property (text), widget (QLabel, LabelAlphaNumericPrefix)
+#: editorplugins/assignvalues/assignvalueswidget.ui:209
+#, kde-format
+msgid "Prefix"
+msgstr "前置字串"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: editorplugins/assignvalues/assignvalueswidget.ui:230
+#: editorplugins/assignvalues/assignvalueswidget.ui:298
+#, kde-format
+msgid "Lower Limit"
+msgstr "下限"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: editorplugins/assignvalues/assignvalueswidget.ui:250
+#: editorplugins/assignvalues/assignvalueswidget.ui:305
+#, kde-format
+msgid "Upper Limit"
+msgstr "上限"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: editorplugins/assignvalues/assignvalueswidget.ui:257
+#: editorplugins/assignvalues/assignvalueswidget.ui:312
+#, kde-format
+msgid "Generator Seed"
+msgstr "產生器種子"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editorplugins/assignvalues/assignvalueswidget.ui:372
+#, kde-format
+msgid "Constant"
+msgstr "常數"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editorplugins/assignvalues/assignvalueswidget.ui:400
+#, kde-format
+msgid "Overwrite existing values"
+msgstr "覆寫現有的值"
+
+#. i18n: ectx: property (text), widget (QLabel, labelProperty)
+#: editorplugins/assignvalues/assignvalueswidget.ui:447
+#, kde-format
+msgid "Property Name"
+msgstr "屬性名稱"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, applyToEdges)
+#: editorplugins/assignvalues/assignvalueswidget.ui:482
+#, kde-format
+msgid "Assign values to selected edges."
+msgstr "指定數值給選取的邊緣。"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, applyToNodes)
+#: editorplugins/assignvalues/assignvalueswidget.ui:509
+#, kde-format
+msgid "Assign values to selected nodes."
+msgstr "指定數值給選取的節點。"
+
+#: editorplugins/generategraph/generategraphwidget.cpp:89
+#, kde-format
+msgctxt "@title:window"
+msgid "Generate Graph"
+msgstr "產生圖形"
+
+#: editorplugins/generategraph/generategraphwidget.cpp:129
+#: editorplugins/generategraph/generategraphwidget.cpp:140
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 (ID %2)"
+msgstr "%1 (代碼 %2)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GenerateGraphWidget)
+#: editorplugins/generategraph/generategraphwidget.ui:14
+#, kde-format
+msgid "Generate Graph"
+msgstr "產生圖形"
+
+#. i18n: ectx: property (text), widget (QLabel, labelGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:20
+#, kde-format
+msgid "Graph Generator"
+msgstr "圖形產生器"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelNodeType)
+#: editorplugins/generategraph/generategraphwidget.ui:27
+#, kde-format
+msgid "The node type to create the nodes of the graph with"
+msgstr "用來建立圖形節點的節點型態"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNodeType)
+#: editorplugins/generategraph/generategraphwidget.ui:30
+#, kde-format
+msgid "Node type"
+msgstr "節點型態"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboGraphGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:46
+#, kde-format
+msgid "Select the graph generator."
+msgstr "選擇圖形產生器。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:50
+#, kde-format
+msgid "Mesh Graph"
+msgstr "網狀圖形"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:55
+#, kde-format
+msgid "Star Graph"
+msgstr "星形圖形"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:60
+#, kde-format
+msgid "Circle Graph"
+msgstr "圓圈圖形"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:65
+#, kde-format
+msgid "Random Graph"
+msgstr "隨機圖形"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:70
+#, kde-format
+msgid "Erdös-Renyi Graph"
+msgstr "Erdös-Renyi 圖形"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: editorplugins/generategraph/generategraphwidget.ui:75
+#, kde-format
+msgid "Random Tree Graph"
+msgstr "隨機樹狀圖"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonShowAdvanced)
+#: editorplugins/generategraph/generategraphwidget.ui:95
+#, kde-format
+msgid "Show advanced settings."
+msgstr "顯示進階設定。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelIdentifier)
+#: editorplugins/generategraph/generategraphwidget.ui:110
+#, kde-format
+msgid "The identifier of the created graph (used for scripting)"
+msgstr "已建立圖形的識別子（用於文稿）。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_columns)
+#: editorplugins/generategraph/generategraphwidget.ui:132
+#, kde-format
+msgid "Number of Columns:"
+msgstr "欄數："
+
+#. i18n: ectx: property (text), widget (QLabel, label_rows)
+#: editorplugins/generategraph/generategraphwidget.ui:152
+#, kde-format
+msgid "Number of Rows:"
+msgstr "列數："
+
+#. i18n: ectx: property (text), widget (QLabel, label_numberSatellite)
+#: editorplugins/generategraph/generategraphwidget.ui:180
+#, kde-format
+msgid "Satellite Nodes:"
+msgstr "衛星點節："
+
+#. i18n: ectx: property (text), widget (QLabel, label_numberCircle)
+#: editorplugins/generategraph/generategraphwidget.ui:208
+#, kde-format
+msgid "Number of Nodes:"
+msgstr "節點數："
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomNodes)
+#. i18n: ectx: property (text), widget (QLabel, label_randomTreeNodes)
+#: editorplugins/generategraph/generategraphwidget.ui:236
+#: editorplugins/generategraph/generategraphwidget.ui:388
+#, kde-format
+msgid "Nodes:"
+msgstr "節點："
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomEdges)
+#: editorplugins/generategraph/generategraphwidget.ui:256
+#, kde-format
+msgid "Edges:"
+msgstr "邊："
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomSelfEdges)
+#. i18n: ectx: property (text), widget (QLabel, label_GNPSelfEdges)
+#: editorplugins/generategraph/generategraphwidget.ui:270
+#: editorplugins/generategraph/generategraphwidget.ui:316
+#, kde-format
+msgid "Allow self-edges:"
+msgstr "允許自我邊緣："
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomGeneratorSeed)
+#. i18n: ectx: property (text), widget (QLabel, label_GNPGeneratorSeed)
+#. i18n: ectx: property (text), widget (QLabel, label_randomTreeGeneratorSeed)
+#: editorplugins/generategraph/generategraphwidget.ui:277
+#: editorplugins/generategraph/generategraphwidget.ui:340
+#: editorplugins/generategraph/generategraphwidget.ui:405
+#, kde-format
+msgid "Generator Seed:"
+msgstr "產生種子："
+
+#. i18n: ectx: property (text), widget (QLabel, label_GNPNodes)
+#: editorplugins/generategraph/generategraphwidget.ui:309
+#, kde-format
+msgid "Nodes (n):"
+msgstr "節點 (n)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_GNPEdgeProbability)
+#: editorplugins/generategraph/generategraphwidget.ui:333
+#, kde-format
+msgid "Edge Probability (p):"
+msgstr "邊緣機率 (p)："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelEdgeType)
+#: editorplugins/generategraph/generategraphwidget.ui:428
+#, kde-format
+msgid "The edge type to create the edges of the graph with"
+msgstr "用來建立圖形邊緣的邊緣型態"
+
+#. i18n: ectx: property (text), widget (QLabel, labelEdgeType)
+#: editorplugins/generategraph/generategraphwidget.ui:431
+#, kde-format
+msgid "Edge type"
+msgstr "邊緣型態"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, nodeTypeSelector)
+#: editorplugins/generategraph/generategraphwidget.ui:438
+#, kde-format
+msgid "Select the node type for node elements of the generated graph."
+msgstr "選擇產生圖形的節點元素的節點型態。"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, edgeTypeSelector)
+#: editorplugins/generategraph/generategraphwidget.ui:445
+#, kde-format
+msgid "Select the edge type for connections of the generated graph."
+msgstr "選擇產生圖形的連線的邊緣型態。"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, identifier)
+#: editorplugins/generategraph/generategraphwidget.ui:452
+#, kde-format
+msgid "Set the unique identifier of the generated graph."
+msgstr "設定此產生圖形的唯一識別子。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, identifier)
+#: editorplugins/generategraph/generategraphwidget.ui:455
+#, kde-format
+msgid "Graph"
+msgstr "圖形"
+
+#: editorplugins/transformedges/transformedgeswidget.cpp:38
+#, kde-format
+msgctxt "@title:window"
+msgid "Transform Edges"
+msgstr "轉換邊緣"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TransformEdgesWidget)
+#: editorplugins/transformedges/transformedgeswidget.ui:14
+#, kde-format
+msgid "Transform Edges"
+msgstr "轉換邊緣"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonMakeComplete)
+#: editorplugins/transformedges/transformedgeswidget.ui:22
+#, kde-format
+msgid ""
+"This option connects all nodes of the given graph. The new edges do not have "
+"any preset weights."
+msgstr "此選項會將給定圖形的所有結點連接起來。新的邊緣不會有任何預設的權重。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeComplete)
+#: editorplugins/transformedges/transformedgeswidget.ui:25
+#, kde-format
+msgid "Complete Graph"
+msgstr "完全圖形"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonEraseEdges)
+#: editorplugins/transformedges/transformedgeswidget.ui:35
+#, kde-format
+msgid "This option removes all edges from the given graph."
+msgstr "此選項移除給定圖形的所有邊緣。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEraseEdges)
+#: editorplugins/transformedges/transformedgeswidget.ui:38
+#, kde-format
+msgid "Remove all Edges"
+msgstr "移除所有邊緣"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonReverseEdges)
+#: editorplugins/transformedges/transformedgeswidget.ui:45
+#, kde-format
+msgid ""
+"This option reverses all edges of a directed graph. Note that this does not "
+"apply to undirected graphs."
+msgstr "此選項將一個有向圖的所有邊緣反向。注意它不會套用在無向圖上。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonReverseEdges)
+#: editorplugins/transformedges/transformedgeswidget.ui:48
+#, kde-format
+msgid "Reverse all Edges"
+msgstr "反向所有邊緣"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonMakeSpanningtree)
+#: editorplugins/transformedges/transformedgeswidget.ui:59
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This option executes <span "
+"style=\" font-style:italic;\">Prim's Minimal Spanning Tree Algorithm</span> "
+"at the graph. All edges without given weights are assumed to have weights "
+"equals 1. Directed and undirected graphs are processed accordingly.</p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">這個選項會對圖形執行<span "
+"style=\" font-style:italic;\">Prim 最小生成樹演算法</span>。所有沒有指定權重"
+"的邊緣，預設權重都為 1。有向圖與無向圖會分別處理。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeSpanningtree)
+#: editorplugins/transformedges/transformedgeswidget.ui:62
+#, kde-format
+msgid "Spanning Tree Transformation"
+msgstr "生成樹轉換"
+
+#: fileformats/dot/dotfileformat.cpp:57
+#, kde-format
+msgid "Graphviz Format (%1)"
+msgstr "Graphviz 格式 (%1)"
+
+#: fileformats/dot/dotfileformat.cpp:68 fileformats/gml/gmlfileformat.cpp:67
+#: fileformats/rocs1/rocs1fileformat.cpp:74
+#: fileformats/rocs2/rocs2fileformat.cpp:63
+#: fileformats/tgf/tgffileformat.cpp:68
+#, kde-format
+msgid "Could not open file \"%1\" in read mode: %2"
+msgstr "無法以讀取模式開啟檔案 %1：%2"
+
+#: fileformats/dot/dotfileformat.cpp:73 fileformats/gml/gmlfileformat.cpp:73
+#, kde-format
+msgid "Could not parse file \"%1\"."
+msgstr "無法剖析檔案 %1。"
+
+#: fileformats/dot/dotfileformat.cpp:87 fileformats/gml/gmlfileformat.cpp:88
+#, kde-format
+msgid "Cannot open file %1 to write document. Error: %2"
+msgstr "無法開啟檔案 %1 以寫入文件。錯誤：%2"
+
+#: fileformats/gml/gmlfileformat.cpp:56
+#, kde-format
+msgid "Graph Markup Language Format (%1)"
+msgstr "Graph Markup Language 格式 (%1)"
+
+#: fileformats/rocs1/rocs1fileformat.cpp:64
+#, kde-format
+msgid "Rocs 1 Graph File Format (%1)"
+msgstr "Rocs 1 圖形檔案格式（%1）"
+
+#: fileformats/rocs1/rocs1fileformat.cpp:264
+#: fileformats/rocs2/rocs2fileformat.cpp:212
+#: fileformats/tgf/tgffileformat.cpp:119 fileformats/tikz/tikzfileformat.cpp:71
+#, kde-format
+msgid "Could not open file \"%1\" in write mode: %2"
+msgstr "無法以寫入模式開啟檔案 %1：%2"
+
+#: fileformats/rocs1/rocs1fileformat.cpp:275
+#, kde-format
+msgid "Could not write data, aborting. Error: %1."
+msgstr "無法寫入資料。操作中止。錯誤：%1。"
+
+#: fileformats/rocs2/rocs2fileformat.cpp:56
+#, kde-format
+msgid "Rocs Graph Format (%1)"
+msgstr "Rocs 圖形檔案格式（%1）"
+
+#: fileformats/rocs2/rocs2fileformat.cpp:305
+#, kde-format
+msgid "Error on serializing file format to file."
+msgstr "將檔案格式序列成檔案時發生錯誤。"
+
+#: fileformats/tgf/tgffileformat.cpp:53
+#, kde-format
+msgid "Trivial Graph Format (%1)"
+msgstr "Trivial Graph 格式 (%1)"
+
+#: fileformats/tgf/tgffileformat.cpp:89
+#, kde-format
+msgid "Could not parse file. Identifier \"%1\" is used more than once."
+msgstr "無法剖析檔案 。辨識子 %1 使用了一次以上。"
+
+#: fileformats/tgf/tgffileformat.cpp:101
+#, kde-format
+msgid "Could not parse file. Edge from \"%1\" to \"%2\" uses undefined nodes."
+msgstr "無法剖析檔案 。從 %1 到 %2 的邊緣使用了未定義的節點。"
+
+#: fileformats/tikz/tikzfileformat.cpp:52
+#, kde-format
+msgid "TikZ (PGF) Format (%1)"
+msgstr "TikZ (PGF) 格式 (%1)"
+
+#: graphdocument.cpp:131 graphdocument.cpp:132
+#, kde-format
+msgid "default"
+msgstr "預設"
+
+#: graphdocument.cpp:316
+#, kde-format
+msgctxt "@title:tab initial title for graph document"
+msgid "New Graph"
+msgstr "新增圖形"
+
+#: kernel/documentwrapper.cpp:104
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: no node with ID %2 registered"
+msgstr "%1：沒有任何代碼為 %2 的節點註冊"
+
+#: kernel/documentwrapper.cpp:132 kernel/nodewrapper.cpp:126
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: node type ID %2 not registered"
+msgstr "%1：節點型態代碼 %2 未註冊"
+
+#: kernel/documentwrapper.cpp:170 kernel/edgewrapper.cpp:75
+#: kernel/nodewrapper.cpp:153 kernel/nodewrapper.cpp:183
+#: kernel/nodewrapper.cpp:213 kernel/nodewrapper.cpp:247
+#: kernel/nodewrapper.cpp:290 kernel/nodewrapper.cpp:338
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: edge type ID %2 not registered"
+msgstr "%1：邊緣型態代碼 %2 未註冊"
+
+#: kernel/documentwrapper.cpp:198
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: \"from\" is not a valid node object"
+msgstr "%1：\"from\" 不是合法的節點物件"
+
+#: kernel/documentwrapper.cpp:203
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: \"to\" is not a valid node object"
+msgstr "%1：\"to\" 不是合法的節點物件"
+
+#: kernel/documentwrapper.cpp:216
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: \"node\" is not a valid node object"
+msgstr "%1：\"node\" 不是合法的節點物件"
+
+#: kernel/documentwrapper.cpp:230
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: \"edge\" is not a valid edge object"
+msgstr "%1：\"edge\" 不是合法的節點物件"
+
+#: kernel/kernel.cpp:111
+#, kde-format
+msgctxt "@info status message after successful script execution"
+msgid "<i>Execution Finished</i>"
+msgstr "<i>執行已完成</i>"
+
+#: kernel/modules/console/console.xml:7
+#, kde-format
+msgctxt "Scripting API"
+msgid ""
+"The global Console object allows you to print messages of different "
+"importance to a log."
+msgstr "全域 Console 物件讓您列印不同重要等級的訊息到紀錄中。"
+
+#: kernel/modules/console/console.xml:17
+#, kde-format
+msgctxt "Scripting API"
+msgid "Print the given message of normal severity."
+msgstr "用一般嚴重等級列印指定的訊息。"
+
+#: kernel/modules/console/console.xml:31
+#, kde-format
+msgctxt "Scripting API"
+msgid "Print the given debug message."
+msgstr "列印指定的除錯訊息。"
+
+#: kernel/modules/console/console.xml:45
+#, kde-format
+msgctxt "Scripting API"
+msgid "Print the given error message of high severity."
+msgstr "用高嚴重等級列印錯誤訊息。"
+
+#: kernel/modules/document/document.xml:9
+#, kde-format
+msgctxt "Scripting API"
+msgid ""
+"\n"
+"The document object provides access to all elements.\n"
+msgstr ""
+"\n"
+"文件物件提供所有元素均可存取。\n"
+
+#: kernel/modules/document/document.xml:19
+#, kde-format
+msgctxt "Scripting API"
+msgid "Return the node with specified ID."
+msgstr "傳回指定 ID 的節點。"
+
+#: kernel/modules/document/document.xml:26
+#, kde-format
+msgctxt "Scripting API"
+msgid "Identifier of a node."
+msgstr "節點識別子。"
+
+#: kernel/modules/document/document.xml:33
+#, kde-format
+msgctxt "Scripting API"
+msgid "Return a list of all nodes."
+msgstr "傳回所有節點清單。"
+
+#: kernel/modules/document/document.xml:42
+#, kde-format
+msgctxt "Scripting API"
+msgid "Return a list all nodes of specified type."
+msgstr "傳回指定型態的所有節點的清單。"
+
+#: kernel/modules/document/document.xml:49
+#, kde-format
+msgctxt "Scripting API"
+msgid "Identifier of a node type."
+msgstr "節點型態的辨識子"
+
+#: kernel/modules/document/document.xml:56
+#, kde-format
+msgctxt "Scripting API"
+msgid "Return a list of all edges."
+msgstr "傳回所有邊緣的清單。"
+
+#: kernel/modules/document/document.xml:65
+#, kde-format
+msgctxt "Scripting API"
+msgid "Return a list all edges of specified type."
+msgstr "傳回指定型態的所有邊緣的清單。"
+
+#: kernel/modules/document/document.xml:72 kernel/modules/document/node.xml:72
+#: kernel/modules/document/node.xml:95 kernel/modules/document/node.xml:118
+#: kernel/modules/document/node.xml:141 kernel/modules/document/node.xml:164
+#: kernel/modules/document/node.xml:187
+#, kde-format
+msgctxt "Scripting API"
+msgid "Identifier of an edge type."
+msgstr "邊緣型態的辨識子"
+
+#: kernel/modules/document/document.xml:79
+#, kde-format
+msgctxt "Scripting API"
+msgid "Create node at position (x,y)."
+msgstr "在位置 (x,y) 建立新的節點。"
+
+#: kernel/modules/document/document.xml:86
+#, kde-format
+msgctxt "Scripting API"
+msgid "X-coordinate of the node."
+msgstr "節點的 X 座標。"
+
+#: kernel/modules/document/document.xml:91
+#, kde-format
+msgctxt "Scripting API"
+msgid "Y-coordinate of the node."
+msgstr "節點的 Y 座標。"
+
+#: kernel/modules/document/document.xml:98
+#, kde-format
+msgctxt "Scripting API"
+msgid "Create edge between the given nodes of default edge type."
+msgstr "在兩個節點間以預設邊緣型態建立新邊緣。"
+
+#: kernel/modules/document/document.xml:105
+#, kde-format
+msgctxt "Scripting API"
+msgid "Start node of the edge."
+msgstr "新增節點到此邊緣。"
+
+#: kernel/modules/document/document.xml:110
+#, kde-format
+msgctxt "Scripting API"
+msgid "Target node of the edge."
+msgstr "邊緣的目標節點。"
+
+#: kernel/modules/document/document.xml:117
+#, kde-format
+msgctxt "Scripting API"
+msgid "Delete the given node."
+msgstr "刪除指定的節點。"
+
+#: kernel/modules/document/document.xml:124
+#, kde-format
+msgctxt "Scripting API"
+msgid "The node to be deleted."
+msgstr "要刪除的節點。"
+
+#: kernel/modules/document/document.xml:131
+#, kde-format
+msgctxt "Scripting API"
+msgid "Delete the given edge."
+msgstr "刪除指定的邊緣。"
+
+#: kernel/modules/document/document.xml:138
+#, kde-format
+msgctxt "Scripting API"
+msgid "The edge to be deleted."
+msgstr "要刪除的邊緣。"
+
+#: kernel/modules/document/edge.xml:9
+#, kde-format
+msgctxt "Scripting API"
+msgid ""
+"\n"
+"An edge is the connection of two nodes. Edges can be either directed or "
+"undirected, depending on their type.\n"
+msgstr ""
+"\n"
+"邊緣（Edge）是兩個節點間的連線。邊緣依其型態不同，可以是有向或無向的。\n"
+
+#: kernel/modules/document/edge.xml:17
+#, kde-format
+msgctxt "Scripting API"
+msgid ""
+"Read and set the identifier of the edge's type. If setting, the edge type "
+"identifier must exist."
+msgstr "讀取並設定邊緣型態的識別子。設定了之後則此識別子必須存在。"
+
+#: kernel/modules/document/edge.xml:26
+#, kde-format
+msgctxt "Scripting API"
+msgid "Return the origin node of the edge."
+msgstr "傳回邊緣的原始節點。"
+
+#: kernel/modules/document/edge.xml:35
+#, kde-format
+msgctxt "Scripting API"
+msgid "Return the target node of the edge."
+msgstr "傳回邊緣的目標節點。"
+
+#: kernel/modules/document/edge.xml:44
+#, kde-format
+msgctxt "Scripting API"
+msgid "Returns true if the edge's type is directed, otherwise false."
+msgstr "若邊緣型態為有向，則傳回真（true），否則傳回假（false）。"
+
+#: kernel/modules/document/node.xml:11
+#, kde-format
+msgctxt "Scripting API"
+msgid ""
+"\n"
+"A node is the data element of a graph.\n"
+"It can have arbitrary dynamic properties that are either set in the editor "
+"or simply assigned on run-time.\n"
+"Note that dynamic properties are only available after script execution, if "
+"they are registered for the node's type.\n"
+msgstr ""
+
+#: kernel/modules/document/node.xml:19
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid "The unique identifier of this data element."
+msgctxt "Scripting API"
+msgid "Read and set the unique identifier of this node."
+msgstr "此資料元素的唯一識別子。"
+
+#: kernel/modules/document/node.xml:26
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid "The x-coordinate of this data element."
+msgctxt "Scripting API"
+msgid "Read and set the x-coordinate of the node."
+msgstr "此資料元素的 X 座標。"
+
+#: kernel/modules/document/node.xml:33
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid "The y-coordinate of this data element."
+msgctxt "Scripting API"
+msgid "Read and set the y-coordinate of the node."
+msgstr "此資料元素的 Y 座標。"
+
+#: kernel/modules/document/node.xml:40
+#, kde-format
+msgctxt "Scripting API"
+msgid ""
+"Read and set the color string of this node in hex values (e.g., \"#ff0000\" "
+"for red)."
+msgstr ""
+
+#: kernel/modules/document/node.xml:47
+#, kde-format
+msgctxt "Scripting API"
+msgid ""
+"Read and set the identifier of the node's type. If setting, the node type "
+"identifier must exist."
+msgstr ""
+
+#: kernel/modules/document/node.xml:56
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid "Return a list of all edges (incoming and outgoing) of this node."
+msgctxt "Scripting API"
+msgid "Return a list of all edges (incoming and outgoing) of this node."
+msgstr "傳回此節點所有邊緣的清單（來向或去向）。"
+
+#: kernel/modules/document/node.xml:65
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return a list of all edges (incoming and outgoing) of this node of a "
+#| "specified type."
+msgctxt "Scripting API"
+msgid ""
+"Return a list of all edges (incoming and outgoing) of this node of a "
+"specified type."
+msgstr "傳回此節點所有特定型態邊緣的清單（來向或去向）。"
+
+#: kernel/modules/document/node.xml:79
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid "Return a list of incoming edges of this node."
+msgctxt "Scripting API"
+msgid "Return a list of incoming edges of this node."
+msgstr "傳回此節點所有來向邊緣的清單。"
+
+#: kernel/modules/document/node.xml:88
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return a list of all incoming edges of this node of a specified type."
+msgctxt "Scripting API"
+msgid "Return a list of all incoming edges of this node of a specified type."
+msgstr "傳回此節點所有來向並且是特定型態邊緣的清單。"
+
+#: kernel/modules/document/node.xml:102
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid "Return a list of all outgoing edges of this node."
+msgctxt "Scripting API"
+msgid "Return a list of all outgoing edges of this node."
+msgstr "傳回此節點所有去向邊緣的清單。"
+
+#: kernel/modules/document/node.xml:111
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return a list of all outgoing edges of this node of a specified type."
+msgctxt "Scripting API"
+msgid "Return a list of all outgoing edges of this node of a specified type."
+msgstr "傳回此節點所有去向並且是特定型態邊緣的清單。"
+
+#: kernel/modules/document/node.xml:125
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return list all nodes connected to this node. This method respects if "
+#| "edges are directed."
+msgctxt "Scripting API"
+msgid ""
+"Return list all nodes connected to this node. This method respects if edges "
+"are directed."
+msgstr "傳回所有連結到此節點的所有節點清單。此方法會遵循邊緣的方向。"
+
+#: kernel/modules/document/node.xml:134
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return list all nodes connected to this node. This method respects if "
+#| "edges are directed."
+msgctxt "Scripting API"
+msgid ""
+"Return list all nodes connected to this node via an edge of specified type. "
+"This method respects if edges are directed."
+msgstr "傳回所有連結到此節點的所有節點清單。此方法會遵循邊緣的方向。"
+
+#: kernel/modules/document/node.xml:148
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return list all nodes connected to this node. This method respects if "
+#| "edges are directed."
+msgctxt "Scripting API"
+msgid "Return a list all nodes connected to this node by an incoming edge."
+msgstr "傳回所有連結到此節點的所有節點清單。此方法會遵循邊緣的方向。"
+
+#: kernel/modules/document/node.xml:157
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return a list of all incoming edges of this node of a specified type."
+msgctxt "Scripting API"
+msgid ""
+"Return a list all nodes connected to this node by an incoming edge of "
+"specified type."
+msgstr "傳回此節點所有來向並且是特定型態邊緣的清單。"
+
+#: kernel/modules/document/node.xml:171
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return list all nodes connected to this node. This method respects if "
+#| "edges are directed."
+msgctxt "Scripting API"
+msgid "Return list all nodes connected to this node by an outgoing edge."
+msgstr "傳回所有連結到此節點的所有節點清單。此方法會遵循邊緣的方向。"
+
+#: kernel/modules/document/node.xml:180
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid ""
+#| "Return list all nodes connected to this node. This method respects if "
+#| "edges are directed."
+msgctxt "Scripting API"
+msgid ""
+"Return list all nodes connected to this node by an outgoing edge of "
+"specified type."
+msgstr "傳回所有連結到此節點的所有節點清單。此方法會遵循邊緣的方向。"
+
+#: kernel/modules/document/node.xml:194
+#, fuzzy, kde-format
+#| msgctxt "Scripting API Description"
+#| msgid "Return a list of all edges of this node to the specified node."
+msgctxt "Scripting API"
+msgid "Return list of distances to specified targets in same order."
+msgstr "傳回此節點所有指向特定節點的邊緣清單。"
+
+#: kernel/modules/document/node.xml:201
+#, kde-format
+msgctxt "Scripting API"
+msgid "Name of edge property that holds the edge length."
+msgstr ""
+
+#: kernel/modules/document/node.xml:206
+#, kde-format
+msgctxt "Scripting API"
+msgid "List of nodes to that the distances shall be computed."
+msgstr ""
+
+#: models/edgemodel.cpp:173
+#, kde-format
+msgctxt "@title:column"
+msgid "Edge"
+msgstr "邊緣"
+
+#: models/edgepropertymodel.cpp:177
+#, kde-format
+msgctxt "@title:column"
+msgid "EdgeProperty"
+msgstr "邊緣屬性"
+
+#: models/edgetypemodel.cpp:226
+#, kde-format
+msgctxt "@title:column"
+msgid "Edge Type"
+msgstr "邊緣型態"
+
+#: models/edgetypepropertymodel.cpp:163
+#, kde-format
+msgctxt "@title:column"
+msgid "EdgeTypeProperty"
+msgstr "邊緣型態屬性"
+
+#: models/nodemodel.cpp:168
+#, kde-format
+msgctxt "@title:column"
+msgid "Node"
+msgstr "節點"
+
+#: models/nodepropertymodel.cpp:177
+#, kde-format
+msgctxt "@title:column"
+msgid "NodeProperty"
+msgstr "節點屬性"
+
+#: models/nodetypemodel.cpp:224
+#, kde-format
+msgctxt "@title:column"
+msgid "Node Type"
+msgstr "節點型態"
+
+#: models/nodetypepropertymodel.cpp:163
+#, kde-format
+msgctxt "@title:column"
+msgid "NodeTypeProperty"
+msgstr "節點型態屬性"
+
+#: qml/AddEdgeAction.qml:42
+#, kde-format
+msgid "Create Edge"
+msgstr "建立邊緣"
+
+#: qml/AddEdgeAction.qml:45
+#, kde-format
+msgid "Create an edge between two nodes"
+msgstr "在兩個節點間建立新邊緣"
+
+#: qml/AddNodeAction.qml:27
+#, kde-format
+msgid "Create Node"
+msgstr "建立節點"
+
+#: qml/AddNodeAction.qml:30
+#, kde-format
+msgid "Add a node to the scene"
+msgstr "新增節點到此場景"
+
+#: qml/DeleteAction.qml:27
+#, kde-format
+msgid "Delete Element"
+msgstr "刪除元素"
+
+#: qml/DeleteAction.qml:30
+#, kde-format
+msgid "Delete element from scene"
+msgstr "從場景刪除元素"
+
+#: qml/SelectMoveAction.qml:28
+#, kde-format
+msgid "Select & Move"
+msgstr "選擇並移動"
+
+#: qml/SelectMoveAction.qml:31
+#, kde-format
+msgid "Select and move elements on the scene"
+msgstr "在場景選擇與移動項目"
+
+#~ msgid "All Connection Types"
+#~ msgstr "所有連線型態"
+
+#~ msgid "Could not set data type for node %1: data type does not exist."
+#~ msgstr "無法設定節點 %1 的資料型態：資料型態不存在。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "\n"
+#~ "An abstract data element is a unit of information that belongs to an "
+#~ "abstract data structure and possibly is connected to other data elements "
+#~ "by pointers.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "抽象資料元素是屬於某個抽象資料結構的資訊單元，並且可能以指標的型式連結到其"
+#~ "他的資料元素。\n"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "\n"
+#~ msgstr "\n"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "The size of this data element."
+#~ msgstr "此資料元素的大小。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "The color of this data element stated as hexadecimal value."
+#~ msgstr "此資料元素十六進制值的顏色。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "\n"
+#~ "An abstract data structure defines a set of data elements and possible "
+#~ "connections between them.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "抽象資料結構定義一群資料元素的集合，以及彼此間可能的連結。\n"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "The unique name of this data structure."
+#~ msgstr "此資料結構的唯一名稱。"
+
+#~ msgid "The method \"%1\" is deprecated, please use \"%2\" instead."
+#~ msgstr "方法 \"%1\" 已廢棄。請改用 \"%2\"。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "\n"
+#~ "A node is the data element of a graph.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "節點是圖形的資料元素。\n"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Graph Structure"
+#~ msgstr "圖形結構"
+
+#~ msgctxt "coordinate axis"
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgctxt "coordinate axis"
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Graph Type:"
+#~ msgstr "圖形型態："
+
+#~ msgctxt ""
+#~ "@label:inlistbox graph for which several edges between same nodes may "
+#~ "exist"
+#~ msgid "Multigraph"
+#~ msgstr "多重圖形"
+
+#~ msgid "Cannot create edge: nodes are not defined."
+#~ msgstr "無法建立邊緣：未定義節點。"
+
+#~ msgid "Cannot create edge: pointer type %1 not defined"
+#~ msgstr "無法建立邊緣：指標型態 %1 未定義"
+
+#~ msgid "The global method \"%1\" is deprecated, please use \"%2\" instead."
+#~ msgstr "全域方法 \"%1\" 已廢棄，請改用 \"%2\"。"
+
+#~ msgid ""
+#~ "This action will probably remove some edges. Do you want to continue?"
+#~ msgstr "這個動作會移除一些邊緣。您要繼續嗎？"
+
+#~ msgid "Could not add back-edge (%1->%2) to undirected graph."
+#~ msgstr "無法在無向圖形中新增背邊 (%1 -> %2)。"
+
+#~ msgid "Could not add existing edge (%1->%2): this graph is no multigraph."
+#~ msgstr "無法新增現有的邊緣 (%1 -> %2)：這個圖形不是多重圖形。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "\n"
+#~ "A graph objects holds the information of a data structure of type \"Graph"
+#~ "\".\n"
+#~ msgstr ""
+#~ "\n"
+#~ "圖形物件保存「圖形」型態資料結構的資訊。\n"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "Create a new node of the specified type and return the created node. If "
+#~ "the type is not registered, no node is created."
+#~ msgstr ""
+#~ "建立新的指定型態的節點，並傳回建立好的節點。如果該型態未註冊，則不建立節"
+#~ "點。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "Create a new node of default type and return the created node."
+#~ msgstr "建立並傳回新的預設型態的節點。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "Create an edge from node \"from\" to node \"to\" of the specified type "
+#~ "and return the created edge. If the type is not registered, no edge is "
+#~ "created."
+#~ msgstr ""
+#~ "建立並傳回一個從指定的來源到目標節點的指定型態邊緣。如果指定型態未註冊，則"
+#~ "不建立邊緣。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "Create an edge from node \"from\" to node \"to\" of default type and "
+#~ "return the created edge."
+#~ msgstr "建立並傳回從指定的來源到目標節點的預設型態邊緣。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "Returns an array of shortest path lengths from this node to every other "
+#~ "node in the graph."
+#~ msgstr "傳回圖形中，此節點到其他任一節點的最短路徑長度。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "\n"
+#~ "A node is the data element of a linked list.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "節點是一個鍊結串列的資料元素。\n"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "Set pointer of this list node to the target node."
+#~ msgstr "設定從此串列節點到目標節點的指標。"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Linked List Structure"
+#~ msgstr "鍊結串列結構"
+
+#~ msgid "Front value"
+#~ msgstr "前值"
+
+#~ msgid "Data '%1' has more than one out pointer."
+#~ msgstr "資料 %1 有一個以上的外點。"
+
+#~ msgid "Cannot convert document '%1'"
+#~ msgstr "無法轉換文件 %1"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "\n"
+#~ "A list objects holds the information of a data structure of type \"Linked "
+#~ "List\".\n"
+#~ msgstr ""
+#~ "\n"
+#~ "串列物件保存「鍊結串列」型態資料結構的資訊。\n"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "Set the head of the list."
+#~ msgstr "設定串列的起始節點。"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "RootedTree Structure"
+#~ msgstr "有根樹狀結構"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show all pointers"
+#~ msgstr "顯示所有指標"
+
+#~ msgid "There are cycles at node %1. Data will be lost by conversion."
+#~ msgstr "節點 %1 有循環。轉換時有些資料會遺失。"
+
+#~ msgctxt ""
+#~ "document that contains graphs or data structures as a visual "
+#~ "representation"
+#~ msgid "Document"
+#~ msgstr "文件"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "Console is not a constructor. All properties and methods of Console can "
+#~ "be called by using Console as an object, without creating it."
+#~ msgstr ""
+#~ "Console 不是建構子。所有 Console 的屬性與方法可以在不額外建立物件的情況"
+#~ "下，直接使用 Console 當成物件來呼叫。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "Console.log(\"This is a program message.\"); // print a program message\n"
+#~ "Console.debug(\"A debug message.\"); // print a debug message"
+#~ msgstr ""
+#~ "Console.log(\"This is a program message.\"); // print a program message\n"
+#~ "Console.debug(\"A debug message.\"); // print a debug message"
+
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgid "Cannot open file %1."
+#~ msgstr "無法開啟檔案 %1。"
+
+#~ msgid "Invalid include directive: %1. Cannot find file in directive."
+#~ msgstr "不合法的引入項目：%1。找不到檔案。"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Graphviz Graph File Backend"
+#~ msgstr "Graphviz 圖型檔後端介面"
+
+#~ msgid "Read and write Graphviz graph files."
+#~ msgstr "讀寫 Graphviz 圖型檔。"
+
+#~ msgid "Import"
+#~ msgstr "匯入"
+
+#~ msgid "No active graph in this document."
+#~ msgstr "此文件中沒有作用中的圖形。"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "GML File Backend"
+#~ msgstr "GML 檔案後端介面"
+
+#~ msgid "Read and write Graph Markup Language (GML) files."
+#~ msgstr "讀寫 Graph Markup Language (GML) 檔。"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "KML File Backend"
+#~ msgstr "KML 檔案後端介面"
+
+#~ msgid "Read and write Keyhole Markup Language (KML) files."
+#~ msgstr "讀寫 Keyhole Markup Language (KML) 檔。"
+
+#~ msgid "*.kml|Keyhole Markup Language Format"
+#~ msgstr "*.kml|Keyhole Markup Language 格式"
+
+#~ msgid "Cannot open file %1: %2"
+#~ msgstr "無法開啟檔案 %1：%2"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "TGF File Backend"
+#~ msgstr "TGF 檔案後端介面"
+
+#~ msgid "Read and write Trivial Graph Format (TGF) files."
+#~ msgstr "讀寫 Trivial Graph Format (TGF) 檔。"
+
+#~ msgid "No data structure specified for output in this document."
+#~ msgstr "此文件中沒有指定輸出的資料結構。"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "PGF/TikZ Export File Backend"
+#~ msgstr "PGF/TikZ 匯出檔後端介面"
+
+#~ msgid "Export graph documents in PGF/TikZ format."
+#~ msgstr "將圖形文件以 PGF/TikZ 格式匯出。"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Rocs Graph File Backend"
+#~ msgstr "Rocs 圖形檔後端介面"
+
+#~ msgid "Read and write Rocs Graph Files"
+#~ msgstr "讀寫 Rocs 圖形檔"
+
+#~ msgid "Could not set pointer type: pointer type does not exist."
+#~ msgstr "無法設定指標型態：指標型態不存在。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "A pointer connects two data elements and can itself hold information by "
+#~ "its properties."
+#~ msgstr "指標連結兩個資料元素，並且本身可以保存自身的屬性資訊。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "Start of the connection."
+#~ msgstr "連線起始處。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "End of the connection"
+#~ msgstr "連線結束處"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid ""
+#~ "If true, the connection is directed. Otherwise is connection is "
+#~ "undirected."
+#~ msgstr "若為真，則此連線為有向，否則為無向。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "ID of the connection type."
+#~ msgstr "連線型態代碼。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "The width of the connection."
+#~ msgstr "連線寬度。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "Remove this connection."
+#~ msgstr "移除此連線。"
+
+#~ msgctxt "Scripting API Description"
+#~ msgid "Remove an existing property from the connection."
+#~ msgstr "從此連線移除現有的屬性。"
+
+#~ msgid "Connection"
+#~ msgstr "連線"
+
+#~ msgid "Rocs Console script"
+#~ msgstr "Rocs 主控台文稿"
+
+#~ msgid "Script Error: %1"
+#~ msgstr "文稿錯誤：%1"
+
+#~ msgid "Script error in included file %1"
+#~ msgstr "引入檔 %1 裡發生文稿錯誤"
+
+#~ msgctxt "dynamic property that is present exactly once"
+#~ msgid "Unique"
+#~ msgstr "唯一"
+
+#~ msgctxt "dynamic property that is present multiple times"
+#~ msgid "Multiple"
+#~ msgstr "多重"
+
+#~ msgctxt "dynamic property that is present at all elements"
+#~ msgid "Global"
+#~ msgstr "全域"
+
+#~ msgctxt "type of dynamic property"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Edge"
+#~ msgstr "新增邊緣"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add %1"
+#~ msgstr "新增 %1"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Data"
+#~ msgstr "新增資料"
+
+#~ msgid "untitled"
+#~ msgstr "未命名"
+
+#~ msgid "Add %1"
+#~ msgstr "新增 %1"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Delete items by clicking on them."
+#~ msgstr "點擊以刪除項目。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Data Type Properties"
+#~ msgstr "資料型態屬性"
+
+#~ msgctxt "@title:window"
+#~ msgid "Pointer Type Properties"
+#~ msgstr "指標型態屬性"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Move"
+#~ msgstr "移動"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Zoom"
+#~ msgstr "縮放"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Zoom the canvas by the wheel, or by dragging."
+#~ msgstr "用拖曳或滑鼠滾輪來縮放畫布。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Graph Document:"
+#~ msgstr "圖形文件："
+
+#~ msgid "Data Structure:"
+#~ msgstr "資料結構："
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add a new data structure."
+#~ msgstr "新增資料結構。"
+
+#, fuzzy
+#~| msgid "Select Data Type:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Remove selected data structure."
+#~ msgstr "選擇資料型態："
+
+#~ msgctxt "@info:tooltip current zoom factor for graph editor"
+#~ msgid "Zoom: %1\\%"
+#~ msgstr "縮放：%1\\%"
+
+#~ msgid "Edit Data Types"
+#~ msgstr "編輯資料型態"
+
+#, fuzzy
+#~| msgid "Data Element Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Data Element Properties"
+#~ msgstr "資料元素屬性"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Data Type Properties"
+#~ msgid "Data Properties"
+#~ msgstr "資料型態屬性"
+
+#, fuzzy
+#~| msgid "Dynamic Properties"
+#~ msgid "Static Properties"
+#~ msgstr "動態屬性"
+
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgid "Data Structure Plugin:"
+#~ msgstr "資料結構外掛程式："
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Data Structure Properties"
+#~ msgid "Data Structure Plugin Properties"
+#~ msgstr "資料結構屬性"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Data Structure"
+#~ msgstr "資料結構"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Pointer Types"
+#~ msgstr "指標型態"
+
+#~ msgctxt "@title:window"
+#~ msgid "Data Structure Properties"
+#~ msgstr "資料結構屬性"
+
+#, fuzzy
+#~| msgid "Display Options:"
+#~ msgid "Display"
+#~ msgstr "顯示選項："
+
+#, fuzzy
+#~| msgid "Property"
+#~ msgctxt "Property identifier, only a-Z and no spaces"
+#~ msgid "property%1"
+#~ msgstr "屬性"
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "Data Types"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Data Type"
+#~ msgstr "資料型態"
+
+#~ msgid "Select Data Type:"
+#~ msgstr "選擇資料型態："
+
+#, fuzzy
+#~| msgid "Select Data Type:"
+#~ msgid "Remove selected data type."
+#~ msgstr "選擇資料型態："
+
+#, fuzzy
+#~| msgctxt "@info:tooltip"
+#~| msgid "Add a new data structure."
+#~ msgid "Add new data type."
+#~ msgstr "新增資料結構。"
+
+#~ msgid "Insert a name for this type"
+#~ msgstr "請輸入此型態的名稱"
+
+#~ msgid "Default Color:"
+#~ msgstr "預設顏色："
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Data Type Properties"
+#~ msgid "Data Type Properties"
+#~ msgstr "資料型態屬性"
+
+#~ msgctxt "@title:window"
+#~ msgid "Document Properties"
+#~ msgstr "文件屬性"
+
+#, fuzzy
+#~| msgctxt "@title:tab"
+#~| msgid "Pointer Types"
+#~ msgid "Edit Pointer Types"
+#~ msgstr "指標型態"
+
+#, fuzzy
+#~| msgid "Pointer Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Pointer Properties"
+#~ msgstr "指標屬性"
+
+#~ msgid "Width:"
+#~ msgstr "寬度："
+
+#, fuzzy
+#~| msgid "solid"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "solid line"
+#~ msgstr "實心"
+
+#, fuzzy
+#~| msgid "dash"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "dash line"
+#~ msgstr "線"
+
+#, fuzzy
+#~| msgid "dash dot"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "dash dot line"
+#~ msgstr "線點交錯"
+
+#, fuzzy
+#~| msgid "Connection"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Connection"
+#~ msgstr "連線"
+
+#, fuzzy
+#~| msgid "Create new Pointer Type"
+#~ msgid "Add new pointer type."
+#~ msgstr "建立新的指標型態"
+
+#~ msgid "Select Pointer Type:"
+#~ msgstr "選取指標型態："
+
+#~ msgid "Style:"
+#~ msgstr "樣式："
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Pointer Type Properties"
+#~ msgid "Pointer Type Properties"
+#~ msgstr "指標型態屬性"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Data Structure"
+#~ msgstr "資料結構"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Zoom"
+#~ msgstr "縮放"
+
+#~ msgctxt "@action:inmenu Zoom"
+#~ msgid "In"
+#~ msgstr "內"
+
+#~ msgctxt "@action:inmenu Zoom"
+#~ msgid "Out"
+#~ msgstr "外"
+
+#~ msgctxt "@action:inmenu Zoom"
+#~ msgid "Reset"
+#~ msgstr "重置"
+
+#~ msgid "Align"
+#~ msgstr "對齊"
+
+#~ msgctxt "@action:inmenu align elements at bottom"
+#~ msgid "Bottom"
+#~ msgstr "底端"
+
+#~ msgctxt "@action:inmenu align elements at center"
+#~ msgid "Center"
+#~ msgstr "置中"
+
+#~ msgctxt "@action:inmenu align elements at top"
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgctxt "@action:inmenu align elements left"
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgctxt "@action:inmenu align elements right"
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgctxt "@action:inmenu align elements as a circle"
+#~ msgid "Circle"
+#~ msgstr "圓形"
+
+#~ msgctxt ""
+#~ "@action:inmenu align elements such that crossing edges are minimized"
+#~ msgid "Minimize Crossing Edges"
+#~ msgstr "最小化交叉邊緣"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgctxt "@title:menu Assign values"
+#~ msgid "Values"
+#~ msgstr "數值"
+
+#~ msgctxt "@action:inmenu Value"
+#~ msgid "Random Integers"
+#~ msgstr "隨機整數"
+
+#~ msgctxt "@action:inmenu Value"
+#~ msgid "Random Reals"
+#~ msgstr "隨機實數"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Assign Values"
+#~ msgstr "指定值"
+
+#~ msgid "Data Structure"
+#~ msgstr "資料結構"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">List of all data "
+#~ "structures that are of type <span style=\" font-style:italic;\">Graph</"
+#~ "span>.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">列出所有型態為<span "
+#~ "style=\" font-style:italic;\">圖形</span>的資料結構。</p></body></html>"
+
+#~ msgctxt "@Title Displayed plugin name"
+#~ msgid "Generate Graph"
+#~ msgstr "產生圖形"
+
+#~ msgid "RandomGraph"
+#~ msgstr "隨機圖形"
+
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Transform Edges"
+#~ msgstr "轉換邊緣"
+
+#~ msgid ""
+#~ "A KDE Text Editor could not be found, \n"
+#~ " please, check your installation"
+#~ msgstr ""
+#~ "找不到 KDE 的文字編輯器，\n"
+#~ "請檢查您的安裝。"
+
+#~ msgid "Default Information Display"
+#~ msgstr "預設資訊顯示"
+
+#~ msgid "Node Information"
+#~ msgstr "節點資訊"
+
+#~ msgid "centered"
+#~ msgstr "置中"
+
+#~ msgid "below"
+#~ msgstr "下方"
+
+#~ msgid "above"
+#~ msgstr "上方"
+
+#~ msgid "Edge Information"
+#~ msgstr "邊緣資訊"
+
+#~ msgid "Show Debug Execution"
+#~ msgstr "顯示除錯執行"
+
+#~ msgid "Show One Step Execution"
+#~ msgstr "顯示單步執行"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set visibility of pointers"
+#~ msgstr "顯示指標可見度"
+
+#, fuzzy
+#~| msgid "Element"
+#~ msgid "Element Types"
+#~ msgstr "元素"
+
+#~ msgid "*|All files"
+#~ msgstr "*|所有檔案"
+
+#~ msgctxt "@action:button"
+#~ msgid "Export"
+#~ msgstr "匯出"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Export graphs to file"
+#~ msgstr "將圖形匯出到檔案"
+
+#~ msgid ""
+#~ "<p>The file <br /><strong>'%1'</strong><br /> already exists; if you do "
+#~ "not want to overwrite it, change the file name to something else.</p>"
+#~ msgstr ""
+#~ "<p>檔案 <strong>%1</strong> 已存在。<br />如果您不想覆寫它，請修改檔案名"
+#~ "稱。</p>"
+
+#~ msgid "File Exists"
+#~ msgstr "檔案已存在"
+
+#~ msgid "Overwrite"
+#~ msgstr "覆寫"
+
+#~ msgctxt "@title:window"
+#~ msgid "Import Graph File into Project"
+#~ msgstr "將圖形檔匯入專案"
+
+#~ msgid "Loaded Plugins"
+#~ msgstr "已載入的外掛程式"
+
+#~ msgid "Graph File Plugins loaded for %1"
+#~ msgstr "%1 的圖形檔外掛程式已載入"
+
+#~ msgid "*.js|Script files"
+#~ msgstr "*.js|文稿檔"
+
+#~ msgid "Rocs Script Files"
+#~ msgstr "Rocs 文稿檔"
+
+#~ msgid "Add your description here."
+#~ msgstr "請在此新增您的描述。"
+
+#~ msgctxt "@item:inlistbox Select output"
+#~ msgid "Program Messages"
+#~ msgstr "程式訊息"
+
+#~ msgctxt "@item:inlistbox Select output"
+#~ msgid "Debug Messages"
+#~ msgstr "除錯訊息"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Select output:"
+#~ msgstr "選取輸出："
+
+#~ msgctxt "@action:intoolbar Script Execution"
+#~ msgid "Run"
+#~ msgstr "執行"
+
+#~ msgctxt "@action:intoolbar Script Execution"
+#~ msgid "One Step"
+#~ msgstr "一步"
+
+#~ msgctxt "@action:intoolbar Script Execution"
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgctxt "@title:menu Debug execution"
+#~ msgid "Debug"
+#~ msgstr "除錯"
+
+#~ msgctxt "@action:inmenu Debug execution"
+#~ msgid "Debug run"
+#~ msgstr "除錯執行"
+
+#~ msgctxt "@action:inmenu Debug execution"
+#~ msgid "Interrupt at first line"
+#~ msgstr "在第一行中斷"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Add Data"
+#~ msgstr "新增資料"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add new data element"
+#~ msgstr "新增資料元素"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add a new connection between two data elements of selected type"
+#~ msgstr "在兩個已選取型態的資料元素間建立新的連線"
+
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Base"
+#~ msgstr "基底"
+
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Center"
+#~ msgstr "置中"
+
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Circle"
+#~ msgstr "圓形"
+
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Minimize Crossing Edges"
+#~ msgstr "最小化交叉邊緣"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Project"
+#~ msgstr "新增專案"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Project"
+#~ msgstr "儲存專案"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Open Project"
+#~ msgstr "開啟專案"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Open Project"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Recent Projects"
+#~ msgstr "開啟專案"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Save Project"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Project as"
+#~ msgstr "儲存專案"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Graph Document"
+#~ msgstr "新增圖形文件"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Script File"
+#~ msgstr "新增文稿檔"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Graph"
+#~ msgstr "匯入圖形"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Export Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Graph as"
+#~ msgstr "匯出圖形"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Download Examples"
+#~ msgstr "下載範例"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Upload script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Upload project"
+#~ msgstr "上傳文稿"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Possible Includes"
+#~ msgstr "可能的引入"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Script"
+#~ msgstr "匯入文稿"
+
+#, fuzzy
+#~| msgctxt "@action:inmenu"
+#~| msgid "Import Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Script as"
+#~ msgstr "匯入文稿"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Loaded Plugins"
+#~ msgstr "已載入的外掛程式"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Include Manager"
+#~ msgstr "引入檔管理員"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Default Settings"
+#~ msgstr "預設設定"
+
+#~ msgctxt "@title:window"
+#~ msgid "Add Existing Script File to Project"
+#~ msgstr "新增已存在的文稿檔到專案"
+
+#~ msgctxt "@info"
+#~ msgid "This does not seem to be a graph file."
+#~ msgstr "這似乎不是圖形檔。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Invalid File"
+#~ msgstr "不合法的檔案"
+
+#, fuzzy
+#~| msgid ""
+#~| "*.rocs|Rocs project files\n"
+#~| "*|All files"
+#~ msgid ""
+#~ "*.rocs|Rocs project files\n"
+#~ "*.rocsz|Compressed Rocs project files\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.rocs| Rocs 專案檔\n"
+#~ "*|所有檔案"
+
+#~ msgctxt "@title:window"
+#~ msgid "Save Project"
+#~ msgstr "儲存專案"
+
+#~ msgctxt "@title:window"
+#~ msgid "Open Project Files"
+#~ msgstr "開啟專案檔"
+
+#~ msgctxt "caption text for temporary project"
+#~ msgid "[ untitled ]"
+#~ msgstr "[未命名]"
+
+#, fuzzy
+#~| msgid "Script"
+#~ msgid "ScriptName"
+#~ msgstr "文稿"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Enter Filename for the New Script File"
+#~ msgid "Enter the name of your new script"
+#~ msgstr "輸入新文稿檔的檔名"
+
+#~ msgid ""
+#~ "*.graph|Rocs graph documents\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|Rocs 圖形文件\n"
+#~ "*|所有檔案"
+
+#~ msgctxt "@title:window"
+#~ msgid "Save Graph Document"
+#~ msgstr "儲存圖形文件"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Enter Filename for the New Graph Document"
+#~ msgid "Enter the name of the Graph"
+#~ msgstr "輸入新圖形文件檔的檔名"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Changes on your project are unsaved. Do you want to save your changes?"
+#~ msgstr "您專案的變更尚未儲存。您要現在儲存變更嗎？"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Changes on your graph document are unsaved. Do you want to save your "
+#~ "changes?"
+#~ msgstr "您圖形文件的變更尚未儲存。您要現在儲存變更嗎？"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Changes on your script files are unsaved. Do you want to save all unsaved "
+#~ "scripts?"
+#~ msgstr "您文稿檔案的變更尚未儲存。您要現在儲存嗎？"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Changes on your script files and on your graph document are unsaved. Do "
+#~ "you want to save your graph document and all unsaved scripts?"
+#~ msgstr "您圖形文件與文稿檔案的變更尚未儲存。您要現在儲存變更嗎？"
+
+#~ msgid "Possible Includes for Script Engine"
+#~ msgstr "文稿引擎可能的引入"
+
+#~ msgctxt "@title Displayed program name"
+#~ msgid "Rocs"
+#~ msgstr "繪圖_Rocs"
+
+#~ msgctxt "@title KAboutData: short program description"
+#~ msgid "Graph Theory Tool"
+#~ msgstr "圖形理論工具"
+
+#~ msgctxt "@info:credit"
+#~ msgid "(c) 2009-2012 Rocs Developers"
+#~ msgstr "(c) 2009-2012 Rocs 開發團隊"
+
+#~ msgctxt "@title Short program description"
+#~ msgid "Rocs - Data Structure Analysis"
+#~ msgstr "Rocs - 資料結構分析"
+
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Tomaz Canabrava"
+#~ msgstr "Tomaz Canabrava"
+
+#~ msgctxt "@info:credit Role"
+#~ msgid "Developer"
+#~ msgstr "開發者"
+
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Wagner Reck"
+#~ msgstr "Wagner Reck"
+
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Andreas Cord-Landwehr"
+#~ msgstr "Andreas Cord-Landwehr"
+
+#~ msgid "No Data Structure plugins found on your system. Exiting."
+#~ msgstr "在系統中找不到資料結構外掛程式。將離開。"
+
+#~ msgid ""
+#~ "Rocs needs at least one data structure plugin to continue.\n"
+#~ "Try running kbuildsycoca4 from a console and after execute Rocs again."
+#~ msgstr ""
+#~ "Rocs 需要至少一個資料結構外掛程式才能繼續。\n"
+#~ "請試著到 console 執行 kbuildsycoca4，然後再試著執行 Rocs。"
+
+#~ msgid "Show text beside icon"
+#~ msgstr "圖示旁顯示文字"
+
+#~ msgid "Path where include manager seek for includes."
+#~ msgstr "引入管理員搜尋引入檔的路徑。"
+
+#~ msgid "Position where name and value of a node shall be shown."
+#~ msgstr "節點的名稱與數字要被顯示的位置。"
+
+#~ msgid "Position where name and value of an edge shall be shown."
+#~ msgstr "邊緣的名稱與數字要被顯示的位置。"
+
+#~ msgid ""
+#~ "Specifies whether execution button for debug execution shall be shown."
+#~ msgstr "指定是否要顯示除錯執行時的執行按鈕"
+
+#~ msgid ""
+#~ "Specifies whether execution button for stepped execution shall be shown."
+#~ msgstr "指定是否要顯示單步執行時的執行按鈕"
+
+#~ msgid "Project"
+#~ msgstr "專案"
+
+#~ msgid "Script Document"
+#~ msgstr "文稿文件"
+
+#~ msgid "Script File"
+#~ msgstr "文稿檔案"
+
+#~ msgid "Graph Document"
+#~ msgstr "圖形文件"
+
+#~ msgid "Graph File"
+#~ msgstr "圖形檔"
+
+#~ msgid "Convert To"
+#~ msgstr "轉換為"
+
+#~ msgid "Edit Selected Data"
+#~ msgstr "編輯選取的資料"
+
+#~ msgid "Layout"
+#~ msgstr "佈局"
+
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具列"
+
+#~ msgid "Layout Toolbar"
+#~ msgstr "佈局工具列"
+
+#~ msgid "Untitled"
+#~ msgstr "未命名"
+
+#~ msgid "New File"
+#~ msgstr "新增檔案"
+
+#~ msgid "Untitled%1"
+#~ msgstr "未命名%1"
+
+#~ msgid "Data structure name"
+#~ msgstr "資料結構名稱"
+
+#~ msgid ""
+#~ "Delete the current data structure: delete all data elements and all "
+#~ "pointers"
+#~ msgstr "刪除目前作用中的資料結構：刪除所有元素與指標"
+
+#~ msgid "rocsdeletegrey"
+#~ msgstr "rocsdeletegrey"
+
+#~ msgid "Display Options:"
+#~ msgstr "顯示選項："
+
+#~ msgctxt "@action:button"
+#~ msgid "Add Data Structure"
+#~ msgstr "新增資料結構"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Project"
+#~ msgstr "匯出專案"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Project"
+#~ msgstr "匯入專案"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Set Name"
+#~ msgstr "設定名稱"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Graph"
+#~ msgstr "儲存圖形"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Script"
+#~ msgstr "儲存文稿"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Script as"
+#~ msgstr "儲存文稿為"
+
+#~ msgctxt "@title:window"
+#~ msgid "Set Project Name"
+#~ msgstr "設定專案名稱"
+
+#~ msgctxt "@label:textbox name of the project"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgid ""
+#~ "*.js|Rocs script documents\n"
+#~ "*|All files"
+#~ msgstr "*.js | Rocs 文稿文件 *|所有檔案"
+
+#~ msgctxt "@title:window"
+#~ msgid "Save Script Document"
+#~ msgstr "儲存文稿文件"
+
+#~ msgid "*.tar.gz|Import from tar.gz Archive"
+#~ msgstr "*.tar.gz|匯出為 tar.gz"
+
+#~ msgctxt "@title:window"
+#~ msgid "Project Archive to Import"
+#~ msgstr "要匯入的專案歸檔"
+
+#~ msgctxt "@title:window"
+#~ msgid "Select Project Directory for Import"
+#~ msgstr "選擇要匯入的專案目錄"
+
+#~ msgid "*.tar.gz|Export as tar.gz Archive"
+#~ msgstr "*.tar.gz|匯出為 tar.gz"
+
+#~ msgctxt "@title:window"
+#~ msgid "Export Project"
+#~ msgstr "匯出專案"
+
+#~ msgid "Edge name"
+#~ msgstr "邊緣名稱"
+
+#~ msgid "Edge color"
+#~ msgstr "邊緣顏色"
+
+#~ msgid "Value:"
+#~ msgstr "數值："
+
+#~ msgid "Edge value"
+#~ msgstr "邊緣數值"
+
+#~ msgid "Edge width"
+#~ msgstr "邊緣寬度"
+
+#~ msgid "Show"
+#~ msgstr "顯示"
+
+#~ msgid "Show/hide edge name"
+#~ msgstr "顯示/隱藏邊緣名稱"
+
+#~ msgid "Show/add edge value"
+#~ msgstr "顯示/新增邊緣數值"
+
+#~ msgid "Global"
+#~ msgstr "全域"
+
+#~ msgid "add"
+#~ msgstr "新增"
+
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "v=%1"
+#~ msgstr "v=%1"
+
+#, fuzzy
+#~| msgid "untitled %1"
+#~ msgctxt "Property keyword only caracters from a to z (no spaces)"
+#~ msgid "untitled%1"
+#~ msgstr "未命名 %1"
+
+#~ msgid "Main Definitions"
+#~ msgstr "主要定義"
+
+#~ msgid "Set the name visible"
+#~ msgstr "設定可見名稱"
+
+#~ msgid "Set the value visible"
+#~ msgstr "設定可見數值"
+
+#~ msgid "Appearance"
+#~ msgstr "外觀"
+
+#~ msgid "Enable Color"
+#~ msgstr "開啟顏色"
+
+#~ msgid "Data Structure Specific Properties"
+#~ msgstr "資料結構指定屬性"
+
+#~ msgid ""
+#~ "<html><head/><body><p>Add new dynamic property to data element.</p></"
+#~ "body></html>"
+#~ msgstr "<html><head/><body><p>新增動態屬性到資料元素。</p></body></html>"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show values of data elements"
+#~ msgstr "顯示資料元素的數值"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show names of pointers"
+#~ msgstr "顯示指標名稱"
+
+#~ msgid "Icon:"
+#~ msgstr "圖示："
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Create new Data Type"
+#~ msgstr "建立新資料型態"
+
+#~ msgid "Type"
+#~ msgstr "型態"
+
+#~ msgid "dot"
+#~ msgstr "點"
+
+#~ msgctxt "@label:inlistbox"
+#~ msgid "Undirected Graph"
+#~ msgstr "無向圖形"
+
+#~ msgctxt "@label:inlistbox"
+#~ msgid "Directed Graph"
+#~ msgstr "有向圖形"
+
+#~ msgctxt ""
+#~ "@label:inlistbox Undirected graph for which several edges between same "
+#~ "nodes may exist"
+#~ msgid "Undirected Multigraph"
+#~ msgstr "無向多重圖形"
+
+#~ msgctxt ""
+#~ "@label:inlistbox Directed graph for which several same orientated edges "
+#~ "between same nodes may exist"
+#~ msgid "Directed Multigraph"
+#~ msgstr "有向多重圖形"
+
+#, fuzzy
+#~| msgid "Open and Save GML files"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Open and Save GML files"
+#~ msgstr "開啟與儲存 GML 檔"
+
+#~ msgid ""
+#~ "*.graph|Graph files\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|圖形檔\n"
+#~ "*|所有檔案"
+
+#, fuzzy
+#~| msgid "Add Existing Graph File to Project"
+#~ msgctxt "@title:window"
+#~ msgid "Add Existing Graph File to Project"
+#~ msgstr "新增已存在的圖形檔到專案"
+
+#, fuzzy
+#~| msgid "Import Rocs Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Rocs Graph"
+#~ msgstr "匯入 Rocs 圖形"
+
+#, fuzzy
+#~| msgid "Save Graph as"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Graph as"
+#~ msgstr "另存圖形為"
+
+#~ msgid "Cannot open the file: %1. Error %2"
+#~ msgstr "無法開啟檔案 %1。錯誤：%2"
+
+#~ msgid "Could not parse Graphviz file due to syntax errors."
+#~ msgstr "無法剖析 Graphviz 檔，因為有語法錯誤。"
+
+#~ msgid "Graphviz parser returned unsuccessfully for file."
+#~ msgstr "Graphviz 剖析器傳回失敗。"
+
+#, fuzzy
+#~| msgid "Open and Save Plain TXT files"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Open and Save Plain TXT files"
+#~ msgstr "開啟與儲存 TXT 檔"
+
+#~ msgid "*.txt|Plain TXT Files"
+#~ msgstr "*.txt|純文字檔"
+
+#, fuzzy
+#~| msgid "Add"
+#~ msgctxt "@action:button"
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Add Node"
+#~ msgstr "新增節點"
+
+#~ msgctxt "name of the project"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgctxt "align elements at center"
+#~ msgid "Center"
+#~ msgstr "置中"
+
+#~ msgctxt "align elements at top"
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgctxt "align elements left"
+#~ msgid "Left"
+#~ msgstr "置左"
+
+#~ msgctxt "align elements right"
+#~ msgid "Right"
+#~ msgstr "置右"
+
+#~ msgctxt "align elements as a circle"
+#~ msgid "Circle"
+#~ msgstr "圓形"
+
+#~ msgctxt "align elements such that crossing edges are minimized"
+#~ msgid "Minimize Crossing Edges"
+#~ msgstr "最小化交叉邊緣"
+
+#~ msgid ""
+#~ "*.js|Rocs script document\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.js | Rocs 文稿文件\n"
+#~ "*|所有檔案"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgid "Type Icon:"
+#~ msgstr "型態："
+
+#, fuzzy
+#~| msgid "Export graphs to file"
+#~ msgid "Export as new Type"
+#~ msgstr "將圖形匯出到檔案"
+
+#~ msgid "Open Script"
+#~ msgstr "開啟文稿"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "Pointer"
+#~ msgstr "指標"
+
+#~ msgctxt "@action:button"
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "type"
+#~ msgstr "型態"
+
+#~ msgid "Set default color for pointers"
+#~ msgstr "設定指標的預設顏色"
+
+#~ msgid "Apply to all nodes"
+#~ msgstr "套用到所有的節點"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Set default color for data elements"
+#~ msgstr "設定資料元素的預設顏色"
+
+#~ msgid "Image"
+#~ msgstr "影像"
+
+#~ msgid "Untitled0"
+#~ msgstr "未命名0"
+
+#~ msgid "Open Graph"
+#~ msgstr "開啟圖形"
+
+#~ msgid "Save All"
+#~ msgstr "全部儲存"
+
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgid "Color for new nodes"
+#~ msgstr "新節點顏色"
+
+#~ msgid "Pointer Color:"
+#~ msgstr "指標顏色："
+
+#~ msgid "Color for new edges"
+#~ msgstr "新邊緣的顏色"
+
+#~ msgid "Apply the current color to all nodes"
+#~ msgstr "套用目前的顏色到所有的節點"
+
+#~ msgid "Apply the current color to all nodes on the drawing area"
+#~ msgstr "套用目前的顏色到所有的繪圖區的節點"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "Apply the current color to all edges"
+#~ msgstr "套用目前的顏色到所有的邊緣"
+
+#~ msgid "Apply the current color to all edges on the drawing area"
+#~ msgstr "套用目前的顏色到所有的繪圖區的邊緣"
+
+#~ msgid "Align on the base"
+#~ msgstr "對齊基準"
+
+#~ msgid "Align on the center"
+#~ msgstr "對齊中央"
+
+#~ msgid "Align on the top"
+#~ msgstr "對齊頂端"
+
+#~ msgid "Align on the left"
+#~ msgstr "對齊左端"
+
+#~ msgid "Align on the right"
+#~ msgstr "對齊右端"
+
+#~ msgid "Align on a circle"
+#~ msgstr "對齊圓"
+
+#~ msgid "Tree"
+#~ msgstr "樹狀"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Ignoring line: %1"
+#~ msgstr "忽略此行：%1"
+
+#~ msgid "debug(\"Cannot open file %1.\")"
+#~ msgstr "debug(\"無法開啟檔案 %1。\")"
+
+#~ msgid "debug(\"Cannot open file %1.\")\n"
+#~ msgstr "debug(\"無法開啟檔案 %1。\")\n"
+
+#~ msgid "Add Random Integer Values"
+#~ msgstr "新增亂數整數值"
+
+#~ msgid "Add Random Float Values"
+#~ msgstr "新增亂數浮點數值"
+
+#~ msgid "(c) 2009"
+#~ msgstr "(c) 2009"
+
+#~ msgid "Do you want to save your unsaved document?"
+#~ msgstr "您要刪除您未儲存的文件嗎？"
+
+#~ msgid "Select Items by clicking on them."
+#~ msgstr "點擊以選取項目。"
+
+#~ msgid "Moves a node around the drawing area."
+#~ msgstr "將節點在繪圖區內移動。"
+
+#~ msgid "Make Complete"
+#~ msgstr "Make Complete"
+
+#~ msgid "cancel"
+#~ msgstr "取消"
+
+#~ msgid "assign values"
+#~ msgstr "指定值"
+
+#~ msgid "start transform"
+#~ msgstr "開始轉換"
+
+#~ msgid "Dialog"
+#~ msgstr "對話框"
+
+#~ msgid "Radius:"
+#~ msgstr "半徑:"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Complete"
+#~ msgstr "完成"
+
+#~ msgctxt "Do not translate, X is for delete"
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Graph is oriented"
+#~ msgstr "圖形為方向圖形"
+
+#~ msgid "Name: %1"
+#~ msgstr "名稱：%1"
+
+#~ msgid "Value: %1"
+#~ msgstr "數值：%1"
+
+#~ msgid "Save Graph As..."
+#~ msgstr "另存圖形為..."
+
+#~ msgid "Save Script As..."
+#~ msgstr "儲存文稿為..."
+
+#~ msgid "cola@uni-paderborn.de"
+#~ msgstr "cola@uni-paderborn.de"
+
+#~ msgid "Ring Graph"
+#~ msgstr "環狀圖形"
+
+#~ msgid "UntitledDoc"
+#~ msgstr "未命名文件"
+
+#~ msgid "Thanks to Ugo Sangiori"
+#~ msgstr "感謝 Ugo Sangiori"
+
+#~ msgid "Edge Color:"
+#~ msgstr "邊緣顏色："
+
+#~ msgid "Begin"
+#~ msgstr "開始"
+
+#~ msgid "End"
+#~ msgstr "結束"
+
+#~ msgid "Graph is Automate"
+#~ msgstr "圖形為自動化"
+
+#~ msgid " Is begin"
+#~ msgstr "為開始"
+
+#~ msgid "Oriented graph"
+#~ msgstr "方向圖形"
+
+#~ msgid "Enabling this button will make the graph oriented."
+#~ msgstr "開啟此按鍵會讓圖形有方向"
+
+#~ msgid "Automaton Graph"
+#~ msgstr "自動圖形"
+
+#~ msgid "Enabling this button will make the graph an automaton graph."
+#~ msgstr "開啟此按鍵會讓圖形成為自動圖形。"
+
+#~ msgid "Enabling this button will show the names of all nodes."
+#~ msgstr "開啟此按鍵會顯示所有節點的名稱。"
+
+#~ msgid "Show all edges' names"
+#~ msgstr "顯示所有邊緣的名稱"
+
+#~ msgid "Enabling this button will show the names of all edges."
+#~ msgstr "開啟此按鍵會顯示所有邊緣的名稱。"
+
+#~ msgid "Show all nodes' values"
+#~ msgstr "顯示所有節點的值"
+
+#~ msgid "Enabling this button will show the values of all nodes."
+#~ msgstr "開啟此按鍵會顯示所有節點的值。"
+
+#~ msgid "Show all edges' values"
+#~ msgstr "顯示所有邊緣的值"
+
+#~ msgid "Enabling this button will show the values of edges."
+#~ msgstr "開啟此按鍵會顯示所有邊緣的值。"
+
+#~ msgid "Double Linked List"
+#~ msgstr "雙向鍊結"
+
+#~ msgid "Binary Tree"
+#~ msgstr "二元樹"

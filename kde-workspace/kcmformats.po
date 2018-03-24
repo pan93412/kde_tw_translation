@@ -1,0 +1,1312 @@
+# translation of kcmlocale.po to Chinese Traditional
+# traditional Chinese translation of kcmlocale
+# Copyright (C) 2001-2002, 2007, 2008 Free Software Foundation, Inc.
+#             Hydonsingore Sie <hydonsingore@mail.educities.edu.tw>
+# Translator: Kenduest Lee <kenduest@cynix.com.tw>, 2001.
+#             Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-11 03:20+0100\n"
+"PO-Revision-Date: 2016-11-03 16:18+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr "<h1>格式</h1>您可以在此設定時間、日期、貨幣與其他數值的格式。"
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr "沒有變更"
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:141
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "您的變更會在下次登入時生效。"
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "格式設定已變更"
+
+#: kcmformats.cpp:331
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (長格式)"
+
+#: kcmformats.cpp:332
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (短格式)"
+
+#: kcmformats.cpp:337
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "英制系統"
+
+#: kcmformats.cpp:339
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "美式系統"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "公制"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "區域(&G)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "詳細設定(&T)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "數字(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "時間(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "貨幣(&Y)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "度量衡系統(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "整理與排序(&L)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "數字："
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "時間："
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "貨幣："
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "度量衡系統："
+
+#~ msgid "<b>Examples</b>"
+#~ msgstr "<b>範例</b>"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Kenduest Lee,ChaoHsiung Liao,Hydonsingore Sie"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr ""
+#~ "kenduest@cynix.com.tw,pesder@seed.net.tw,hydonsingore@mail.educities.edu."
+#~ "tw"
+
+#~ msgid "Country Selector"
+#~ msgstr "國家選擇器"
+
+#~ msgid "without name"
+#~ msgstr "沒有名稱"
+
+#~ msgctxt "@item:inlistbox Country"
+#~ msgid "Not set (Generic English)"
+#~ msgstr "未設定（一般英語）"
+
+#~ msgid "kcmlocale"
+#~ msgstr "kcmlocale"
+
+#~ msgid "Localization options for KDE applications"
+#~ msgstr "KDE 應用程式的區域化選項"
+
+#~ msgid "Copyright 2010 John Layt"
+#~ msgstr "Copyright 2010 John Layt"
+
+#~ msgid "John Layt"
+#~ msgstr "John Layt"
+
+#~ msgid "Maintainer"
+#~ msgstr "維護者"
+
+#~ msgid ""
+#~ "You have the language with code '%1' in your list of languages to use for "
+#~ "translation but the localization files for it could not be found. The "
+#~ "language has been removed from your configuration. If you want to add it "
+#~ "again please install the localization files for it and add the language "
+#~ "again."
+#~ msgstr ""
+#~ "您用於翻譯的語言清單中有代碼為 '%1' 的語言，但是找不到它的本地化檔案。此語"
+#~ "言已經從您的設定中移除。若您要把它加回來，請先安裝該語言的本地化檔案再把它"
+#~ "加回來。"
+
+#~ msgid ""
+#~ "Changed language settings apply only to newly started applications.\n"
+#~ "To change the language of all programs, you will have to logout first."
+#~ msgstr ""
+#~ "改變語系設定只會影響到新開啟的應用程式。\n"
+#~ "要改變所有程式的語系，必須先登出。"
+
+#~ msgid "Applying Language Settings"
+#~ msgstr "套用語系設定"
+
+#~ msgid ""
+#~ "<h1>Country/Region & Language</h1>\n"
+#~ "<p>Here you can set your localization settings such as language, numeric "
+#~ "formats, date and time formats, etc.  Choosing a country will load a set "
+#~ "of default formats which you can then change to your personal "
+#~ "preferences.  These personal preferences will remain set even if you "
+#~ "change the country.  The reset buttons allow you to easily see where you "
+#~ "have personal settings and to restore those items to the country's "
+#~ "default value.</p>"
+#~ msgstr ""
+#~ "<h1>國家、區域與語言</h1>\n"
+#~ "<p>您可以在這裡調整您的區域化設定，如語言、數字格式、日期與時間格式等等。"
+#~ "選擇國家之後就會載入該國家的預設值，然後您可以依您的喜好做調整。您調整過的"
+#~ "個人設定即使在您變更國家之後仍會保留。「重置」鍵則可以讓您輕易查看您的個人"
+#~ "設定有哪些，並回復到國家的預設值。</p>"
+
+#~ msgid "Reset item to its default value"
+#~ msgstr "重設項目回預設值"
+
+#~ msgctxt "No separator symbol"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "Space separator symbol"
+#~ msgid "Single Space"
+#~ msgstr "單一空白"
+
+#~ msgid "Country"
+#~ msgstr "國家"
+
+#~ msgid "Languages"
+#~ msgstr "語言"
+
+#~ msgid "Numbers"
+#~ msgstr "數字"
+
+#~ msgid "Money"
+#~ msgstr "金錢"
+
+#~ msgid "Calendar"
+#~ msgstr "行事曆"
+
+#~ msgid "Date && Time"
+#~ msgstr "日期與時間"
+
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#~ msgid "This is how positive numbers will be displayed."
+#~ msgstr "這是正數被顯示的方式。"
+
+#~ msgid "This is how negative numbers will be displayed."
+#~ msgstr "這是負數被顯示的方式。"
+
+#~ msgid "Money:"
+#~ msgstr "金錢："
+
+#~ msgid "This is how positive monetary values will be displayed."
+#~ msgstr "這是貨幣值正數顯示的方式。"
+
+#~ msgid "This is how negative monetary values will be displayed."
+#~ msgstr "這是貨幣值負數顯示的方式。"
+
+#~ msgid "Date:"
+#~ msgstr "日期："
+
+#~ msgid "This is how long dates will be displayed."
+#~ msgstr "這是日期長格式顯示的方式。"
+
+#~ msgid "Short date:"
+#~ msgstr "短日期："
+
+#~ msgid "This is how short dates will be displayed."
+#~ msgstr "這是日期短格式顯示的方式。"
+
+#~ msgid "This is how time will be displayed."
+#~ msgstr "這是時間顯示的方式。"
+
+#~ msgid "Country:"
+#~ msgstr "國家："
+
+#~ msgid ""
+#~ "<p>This is the country where you live.  The KDE Workspace will use the "
+#~ "settings for this country or region.</p>"
+#~ msgstr "這是您居住的國家。 KDE 工作空間將會使用這個國家或地區的設定。"
+
+#~ msgctxt "%1 is the system country name"
+#~ msgid "System Country (%1)"
+#~ msgstr "系統國家（%1）"
+
+#~ msgid "No Country (Default Settings)"
+#~ msgstr "沒有國家（預設）"
+
+#~ msgid "Subdivision:"
+#~ msgstr "行政區："
+
+#~ msgid ""
+#~ "<p>This is the country subdivision where you live, e.g. your state or "
+#~ "province.  The KDE Workspace will use this setting for local information "
+#~ "services such as holidays.</p>"
+#~ msgstr ""
+#~ "<p>您所居住的國家行政區，也就是州或省等等。KDE 工作空間將會使用此設定來做"
+#~ "本地資訊服務，如假日設定等等。</p>"
+
+#~ msgid "Available Languages:"
+#~ msgstr "可用的語言："
+
+#~ msgid ""
+#~ "<p>This is the list of installed KDE Workspace language translations not "
+#~ "currently being used.  To use a language translation move it to the "
+#~ "'Preferred Languages' list in the order of preference.  If no suitable "
+#~ "languages are listed, then you may need to install more language packages "
+#~ "using your usual installation method.</p>"
+#~ msgstr ""
+#~ "<p>這份清單是 KDE 工作空間已安裝但未使用的語言翻譯檔。要使用某種語言，請將"
+#~ "它移到「預設使用語言」清單中，並依自己喜好排序。若沒有您覺得適合的語言，您"
+#~ "可能需要在系統安裝更多語言翻譯套件。</p>"
+
+#~ msgid "Preferred Languages:"
+#~ msgstr "預設使用語言："
+
+#~ msgid ""
+#~ "<p>This is the list of installed KDE Workspace language translations "
+#~ "currently being used, listed in order of preference.  If a translation is "
+#~ "not available for the first language in the list, the next language will "
+#~ "be used.  If no other translations are available then US English will be "
+#~ "used.</p>"
+#~ msgstr ""
+#~ "<p>這份清單是 KDE 工作空間已安裝並使用中的語言翻譯檔，依喜好順序排列。若是"
+#~ "某個程式沒有第一順位語言的翻譯，則會尋找下一個順位的語言。若是完全找不到可"
+#~ "用的語言翻譯，則會使用美式英文。</p>"
+
+#~ msgctxt "%1 = default language name"
+#~ msgid "%1 (Default)"
+#~ msgstr "%1（預設）"
+
+#~ msgid "Install more languages"
+#~ msgstr "安裝更多語言"
+
+#~ msgid "<p>Click here to install more languages</p>"
+#~ msgstr "<p>點擊此處以安裝更多語言</p>"
+
+#~ msgid "Digit grouping:"
+#~ msgstr "數字分組："
+
+#~ msgid ""
+#~ "<p>Here you can define the digit grouping used to display numbers.</"
+#~ "p><p>Note that the digit grouping used to display monetary values has to "
+#~ "be set separately (see the 'Money' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示數字時怎麼分組。</p> <p>注意，用來顯示金錢數值的數"
+#~ "字分組必須另外設定 (請參照「金錢」頁)。</p>"
+
+#~ msgid "Group separator:"
+#~ msgstr "千位點："
+
+#~ msgid ""
+#~ "<p>Here you can define the digit group separator used to display numbers."
+#~ "</p><p>Note that the digit group separator used to display monetary "
+#~ "values has to be set separately (see the 'Money' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示數字時所使用的千位點符號。</p> <p>注意，用來顯示金"
+#~ "錢數值的千位點符號必須另外設定 (請參照「金錢」頁)。</p>"
+
+#~ msgid "Decimal separator:"
+#~ msgstr "小數點："
+
+#~ msgid ""
+#~ "<p>Here you can define the decimal separator used to display numbers (i."
+#~ "e. a dot or a comma in most countries).</p><p>Note that the decimal "
+#~ "separator used to display monetary values has to be set separately (see "
+#~ "the 'Money' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示數字時所使用的小數點分隔符號 (一般為點號)。</p> <p>"
+#~ "注意，用來顯示金錢數值的小數點分隔符號必須另外設定 (請參照「金錢」頁)。</"
+#~ "p>"
+
+#~ msgid "Decimal places:"
+#~ msgstr "小數位數:"
+
+#~ msgid ""
+#~ "<p>Here you can set the number of decimal places displayed for numeric "
+#~ "values, i.e. the number of digits <em>after</em> the decimal separator.</"
+#~ "p><p>Note that the decimal places used to display monetary values has to "
+#~ "be set separately (see the 'Money' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示數字數值時的小數點符號。</p><p>注意，用於顯示金錢的"
+#~ "小數點符號必須另外定義 (請參照「金錢」頁)。</p>"
+
+#~ msgid "Positive sign:"
+#~ msgstr "正數符號："
+
+#~ msgid ""
+#~ "<p>Here you can specify text used to prefix positive numbers. Most "
+#~ "locales leave this blank.</p><p>Note that the positive sign used to "
+#~ "display monetary values has to be set separately (see the 'Money' tab).</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示正數時所使用的文字與符號。大部份的語系的正數都會留"
+#~ "空白，也就是不使用任何文字與符號。</p> <p>注意，用來顯示金錢正數的符號必須"
+#~ "另外設定 (請參照「金錢」頁)。</p>"
+
+#~ msgctxt "No positive symbol"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "Negative sign:"
+#~ msgstr "負數符號："
+
+#~ msgid ""
+#~ "<p>Here you can specify text used to prefix negative numbers. This should "
+#~ "not be empty, so you can distinguish positive and negative numbers. It is "
+#~ "normally set to minus (-).</p><p>Note that the negative sign used to "
+#~ "display monetary values has to be set separately (see the 'Money' tab).</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示負數時所使用的文字與符號。通常這個設定都不會留空"
+#~ "白，才能讓您區別正數與負數。通常使用 - 這個符號。</p> <p>注意，用來顯示金"
+#~ "錢負數的符號必須另外設定 (請參照「金錢」頁)。</p>"
+
+#~ msgctxt "No negative symbol"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "Digit set:"
+#~ msgstr "數字集："
+
+#~ msgid ""
+#~ "<p>Here you can define the set of digits used to display numbers. If "
+#~ "digits other than Arabic are selected, they will appear only if used in "
+#~ "the language of the application or the piece of text where the number is "
+#~ "shown.</p> <p>Note that the set of digits used to display monetary values "
+#~ "has to be set separately (see the 'Money' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示數字時所使用的數字集。若是選擇非阿拉伯數字的字元，"
+#~ "則只有在該應用程式的語言，或是數字顯示的地方使用。</p> <p>注意，用來顯示金"
+#~ "錢數值的數字集必須另外設定 (請參照「金錢」頁)。</p>"
+
+#~ msgid ""
+#~ "<p>Here you can choose the currency to be used when displaying monetary "
+#~ "values, e.g. United States Dollar or Pound Sterling.</p>"
+#~ msgstr "<p>您可以在此選擇顯示金錢時要顯示的貨幣，例如新臺幣、美元等。</p>"
+
+#~ msgid "Currency symbol:"
+#~ msgstr "貨幣符號："
+
+#~ msgid ""
+#~ "<p>Here you can choose the symbol to be used when displaying monetary "
+#~ "values, e.g. $, US$ or USD.</p>"
+#~ msgstr ""
+#~ "<p>您可以在此選擇顯示金錢時要顯示的符號，例如 $，NT$，NTD，US$ 等等。</p>"
+
+#~ msgid ""
+#~ "<p>Here you can define the digit grouping used to display monetary values."
+#~ "</p><p>Note that the digit grouping used to display other numbers has to "
+#~ "be defined separately (see the 'Numbers' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示金錢數值時的數字分組。</p><p>注意，用於顯示其他數字"
+#~ "的數字分組必須另外定義 (請參照「數字」頁)。</p>"
+
+#~ msgid ""
+#~ "<p>Here you can define the group separator used to display monetary "
+#~ "values.</p><p>Note that the thousands separator used to display other "
+#~ "numbers has to be defined separately (see the 'Numbers' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示金錢數值時的千位點符號。</p> <p>注意，用於顯示其他"
+#~ "數字的千位點符號必須另外設定定義 (請參照「數字」頁)。</p>"
+
+#~ msgid ""
+#~ "<p>Here you can define the decimal separator used to display monetary "
+#~ "values.</p><p>Note that the decimal separator used to display other "
+#~ "numbers has to be defined separately (see the 'Numbers' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示金錢數值時的小數點符號。</p><p>注意，用於顯示其他數"
+#~ "字的小數點符號必須另外定義 (請參照「數字」頁)。</p>"
+
+#~ msgid ""
+#~ "<p>Here you can set the number of decimal places displayed for monetary "
+#~ "values, i.e. the number of digits <em>after</em> the decimal separator.</"
+#~ "p><p>Note that the decimal places used to display other numbers has to be "
+#~ "defined separately (see the 'Numbers' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示金錢數值時的小數點符號。</p><p>注意，用於顯示其他數"
+#~ "字的小數點符號必須另外定義 (請參照「數字」頁)。</p>"
+
+#~ msgid "Positive format:"
+#~ msgstr "正數格式："
+
+#~ msgid ""
+#~ "<p>Here you can set the format of positive monetary values.</p><p>Note "
+#~ "that the positive sign used to display other numbers has to be defined "
+#~ "separately (see the 'Numbers' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示金錢正數時的千位點符號。</p> <p>注意，用於顯示其他"
+#~ "數字的千位點符號必須另外設定定義 (請參照「數字」頁)。</p>"
+
+#~ msgid "Sign position:"
+#~ msgstr "符號位置："
+
+#~ msgid "Parentheses Around"
+#~ msgstr "加上括號"
+
+#~ msgid "Before Quantity Money"
+#~ msgstr "在金錢數量前"
+
+#~ msgid "After Quantity Money"
+#~ msgstr "在金錢數量後"
+
+#~ msgid "Before Money"
+#~ msgstr "在金錢前"
+
+#~ msgid "After Money"
+#~ msgstr "在金錢後"
+
+#~ msgid ""
+#~ "Here you can select how a positive sign will be positioned. This only "
+#~ "affects monetary values."
+#~ msgstr "您可以在這邊選擇正號要放在哪邊。這只會影響對金錢的顯示。"
+
+#~ msgid "Prefix currency symbol"
+#~ msgstr "貨幣前置符號"
+
+#~ msgid ""
+#~ "If this option is checked, the currency sign will be prefixed (i.e. to "
+#~ "the left of the value) for all positive monetary values. If not, it will "
+#~ "be postfixed (i.e. to the right)."
+#~ msgstr ""
+#~ "如果選擇這個選項，對所有為正數的金錢數值，貨幣符號將會被放在前面 (左邊)。"
+#~ "否則便會被放在後面 (右邊)。"
+
+#~ msgid "Negative format:"
+#~ msgstr "負數格式："
+
+#~ msgid ""
+#~ "<p>Here you can set the format of negative monetary values.</p><p>Note "
+#~ "that the negative sign used to display other numbers has to be defined "
+#~ "separately (see the 'Numbers' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示金錢負數時的千位點符號。</p> <p>注意，用於顯示其他"
+#~ "數字的千位點符號必須另外設定定義 (請參照「數字」頁)。</p>"
+
+#~ msgid ""
+#~ "Here you can select how a negative sign will be positioned. This only "
+#~ "affects monetary values."
+#~ msgstr "您可以在這邊選擇負號要放在哪邊。這只會影響對金錢的顯示。"
+
+#~ msgid ""
+#~ "If this option is checked, the currency sign will be prefixed (i.e. to "
+#~ "the left of the value) for all negative monetary values. If not, it will "
+#~ "be postfixed (i.e. to the right)."
+#~ msgstr ""
+#~ "如果選擇這個選項，對所有為負數的金錢數值，貨幣符號將會被放在前面 (左邊)。"
+#~ "否則便會被放在後面 (右邊)。"
+
+#~ msgid ""
+#~ "<p>Here you can define the set of digits used to display monetary values. "
+#~ "If digits other than Arabic are selected, they will appear only if used "
+#~ "in the language of the application or the piece of text where the number "
+#~ "is shown.</p><p>Note that the set of digits used to display other numbers "
+#~ "has to be defined separately (see the 'Numbers' tab).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示金錢數值時的數字集。若是選擇非阿拉伯數字的字元，則"
+#~ "只有在該應用程式的語言，或是數字顯示的地方使用。</p> <p>注意，用於顯示其他"
+#~ "數字的數字集必須另外定義 (請參照「數字」頁)。</p>"
+
+#~ msgid "Calendar system:"
+#~ msgstr "曆法系統："
+
+#~ msgid "<p>Here you can set the Calendar System to use to display dates.</p>"
+#~ msgstr "<p>您可以在這裡設定用於顯示日期的曆法系統。</p>"
+
+#~ msgid "Use Common Era"
+#~ msgstr "使用公元紀年"
+
+#~ msgid ""
+#~ "<p>This option determines if the Common Era (CE/BCE) should be used "
+#~ "instead of the Christian Era (AD/BC).</p>"
+#~ msgstr ""
+#~ "<p>這個選項決定是否使用公元（(Before) Common Era，CE/BCE）而不是用基督紀元"
+#~ "（Christian Era，AD/BC）。</p>"
+
+#~ msgid "Short year window:"
+#~ msgstr "短格式年份範圍："
+
+#~ msgctxt "label between two year inputs, i.e. 1930 to 2029"
+#~ msgid "to"
+#~ msgstr "到"
+
+#~ msgid ""
+#~ "<p>This option determines what year range a two digit date is interpreted "
+#~ "as, for example with a range of 1950 to 2049 the value 10 is interpreted "
+#~ "as 2010.  This range is only applied when reading the Short Year (YY) "
+#~ "date format.</p>"
+#~ msgstr ""
+#~ "<p>此選項決定使用兩位數表示年份時所表示的範圍。例如，若範圍設定為 1950 到 "
+#~ "2049 年，則 10 表示 2010 年。此範圍只套用在短格式年份（YY）。</p>"
+
+#~ msgid "Week number system:"
+#~ msgstr "週數系統："
+
+#~ msgid ""
+#~ "<p>This option determines how the Week Number will be calculated. There "
+#~ "are four options available:</p> <ul><li><b>ISO Week</b> Use the ISO "
+#~ "standard Week Number. This will always use Monday as the first day of the "
+#~ "ISO week. This is the most commonly used system.</li><li><b>Full First "
+#~ "Week</b> The first week of the year starts on the first occurrence of the "
+#~ "<i>First day of the week</i>, and lasts for seven days.  Any days before "
+#~ "Week 1 are considered part of the last week of the previous year. This "
+#~ "system is most commonly used in the USA.</li><li><b>Partial First Week</"
+#~ "b> The first week starts on the first day of the year. The second week of "
+#~ "the year starts on the first occurrence of the <i>First day of the week</"
+#~ "i>, and lasts for seven days. The first week may not contain seven days.</"
+#~ "li><li><b>Simple Week</b> The first week starts on the first day of the "
+#~ "year and lasts seven days, with all new weeks starting on the same "
+#~ "weekday as the first day of the year.</li></ul>"
+#~ msgstr ""
+#~ "<p>此選項決定要怎麼計算週數。有四個選項可以選擇：</p> <ul><li><b>ISO 週數"
+#~ "</b>：使用 ISO 標準定義的週數。星期一會是一週的第一天。這是最常用的系統。"
+#~ "</li> <li><b>完整的一週為第一週</b>：一年的第一週是從第一次碰上<i>「一週的"
+#~ "第一天」</i>才開始算，必須是完整的一週。在第一週之前的日子算做是前一年的最"
+#~ "後一週。這個系統常用在美國。</li> <li><b>第一週可以不完整</b>：一年的第一"
+#~ "週從一年的第一天起算。接下來的「一週的第一天」開始為第二週。第一週可能不完"
+#~ "整。</li> <li><b>簡單週數</b>：一年的第一週從一年的第一天起算，並算七天。"
+#~ "此後每一週的開始都由一年的第一天所在的星期幾開始算。</li></ul>"
+
+#~ msgid "ISO Week"
+#~ msgstr "ISO 週數"
+
+#~ msgid "Full First Week"
+#~ msgstr "完整的一週為第一週"
+
+#~ msgid "Partial First Week"
+#~ msgstr "第一週可以不完整"
+
+#~ msgid "Simple Week"
+#~ msgstr "簡單週數"
+
+#~ msgid "First day of week:"
+#~ msgstr "一週的第一天："
+
+#~ msgid ""
+#~ "<p>This option determines which day will be considered as the first one "
+#~ "of the week.  This value may affect the Week Number System.</p> "
+#~ msgstr ""
+#~ "<p>這個選擇決定了那一天會被認為是一週的第一天。此數值可能會影響週數系統。"
+#~ "</p> "
+
+#~ msgid "First working day of week:"
+#~ msgstr "一週的第一個工作天："
+
+#~ msgid ""
+#~ "<p>This option determines which day will be considered as the first "
+#~ "working day of the week.</p>"
+#~ msgstr "<p>這個選擇決定了那一天會被認為是一週的第一個工作天。</p>"
+
+#~ msgid "Last working day of week:"
+#~ msgstr "一週的最後一個工作天："
+
+#~ msgid ""
+#~ "<p>This option determines which day will be considered as the last "
+#~ "working day of the week.</p>"
+#~ msgstr "<p>這個選項決定了那一天會被認為是一週的最後一個工作天。</p>"
+
+#~ msgid "Week day for special religious observance:"
+#~ msgstr "一週中的哪一天是給宗教儀式："
+
+#~ msgid ""
+#~ "<p>This option determines which day if any will be considered as the day "
+#~ "of the week for special religious observance.</p>"
+#~ msgstr "<p>這個選擇決定了那一天會被保留給宗教儀式。</p>"
+
+#~ msgctxt "Day name list, option for no special day of religious observance"
+#~ msgid "None / None in particular"
+#~ msgstr "無/沒有特別的"
+
+#~ msgid "Time format:"
+#~ msgstr "時間格式："
+
+#~ msgid ""
+#~ "<p>The text in this textbox will be used to format time strings. The "
+#~ "sequences below will be replaced:</p><table><tr><td><b>HH</b></td><td>The "
+#~ "hour as a decimal number using a 24-hour clock (00-23).</td></"
+#~ "tr><tr><td><b>hH</b></td><td>The hour (24-hour clock) as a decimal number "
+#~ "(0-23).</td></tr><tr><td><b>PH</b></td><td>The hour as a decimal number "
+#~ "using a 12-hour clock (01-12).</td></tr><tr><td><b>pH</b></td><td>The "
+#~ "hour (12-hour clock) as a decimal number (1-12).</td></tr><tr><td><b>MM</"
+#~ "b></td><td>The minutes as a decimal number (00-59).</td></"
+#~ "tr><tr><td><b>SS</b></td><td>The seconds as a decimal number (00-59).</"
+#~ "td></tr><tr><td><b>AMPM</b></td><td>Either 'AM' or 'PM' according to the "
+#~ "given time value. Noon is treated as 'PM' and midnight as 'AM'.</td></"
+#~ "tr></table>"
+#~ msgstr ""
+#~ "<p>這個文字方塊中的文字是用於指定時間字串的。下面的串列將會被置換：</p> "
+#~ "<table><tr><td><b>HH</b></td><td>使用二位數的24小時制顯示 (00-23)。</td></"
+#~ "tr><tr><td><b>hH</b></td><td>使用24小時制顯示 (0-23)。</td></"
+#~ "tr><tr><td><b>PH</b></td><td>使用二位數的12小時制顯示 (01-12)。</td></"
+#~ "tr><tr><td><b>pH</b></td><td>使用12小時制顯示 (1-12)。</td></"
+#~ "tr><tr><td><b>MM</b></td><td>使用二位數顯示分 (00-59)。</td></"
+#~ "tr><tr><td><b>SS</b></td><td>使用二位數顯示秒 (00-59)。</td></"
+#~ "tr><tr><td><b>AMPM</b></td><td>給定「上午」或「下午」。中午被當作「下"
+#~ "午」，而午夜當作「早上」處理。</td></tr></table>"
+
+#~ msgid "HH"
+#~ msgstr "HH"
+
+#~ msgid "hH"
+#~ msgstr "hH"
+
+#~ msgid "PH"
+#~ msgstr "PH"
+
+#~ msgid "pH"
+#~ msgstr "pH"
+
+#~ msgctxt "Minute"
+#~ msgid "MM"
+#~ msgstr "MM"
+
+#~ msgid "SS"
+#~ msgstr "SS"
+
+#~ msgid "AMPM"
+#~ msgstr "AMPM"
+
+#~ msgctxt "some reasonable time formats for the language"
+#~ msgid ""
+#~ "HH:MM:SS\n"
+#~ "pH:MM:SS AMPM"
+#~ msgstr ""
+#~ "HH:MM:SS\n"
+#~ "AMPM pH:MM:SS"
+
+#~ msgid "AM symbol:"
+#~ msgstr "早上符號："
+
+#~ msgid "<p>Here you can set the text to be displayed for AM.</p>"
+#~ msgstr "<p>您可以在這裡設定早上(AM)要怎麼顯示。</p>"
+
+#~ msgid "PM symbol:"
+#~ msgstr "下午符號："
+
+#~ msgid "<p>Here you can set the text to be displayed for PM.</p>"
+#~ msgstr "<p>您可以在這裡設定下午(PM)要怎麼顯示。</p>"
+
+#~ msgid ""
+#~ "<p>The text in this textbox will be used to format long dates. The "
+#~ "sequences below will be replaced:</p><table><tr><td><b>YYYY</b></"
+#~ "td><td>The year with century as a decimal number.</td></tr><tr><td><b>YY</"
+#~ "b></td><td>The year without century as a decimal number (00-99).</td></"
+#~ "tr><tr><td><b>MM</b></td><td>The month as a decimal number (01-12).</td></"
+#~ "tr><tr><td><b>mM</b></td><td>The month as a decimal number (1-12).</td></"
+#~ "tr><tr><td><b>SHORTMONTH</b></td><td>The first three characters of the "
+#~ "month name.</td></tr><tr><td><b>MONTH</b></td><td>The full month name.</"
+#~ "td></tr><tr><td><b>DD</b></td><td>The day of month as a decimal number "
+#~ "(01-31).</td></tr><tr><td><b>dD</b></td><td>The day of month as a decimal "
+#~ "number (1-31).</td></tr><tr><td><b>SHORTWEEKDAY</b></td><td>The first "
+#~ "three characters of the weekday name.</td></tr><tr><td><b>WEEKDAY</b></"
+#~ "td><td>The full weekday name.</td></tr><tr><td><b>ERAYEAR</b></td><td>The "
+#~ "Era Year in local format (e.g. 2000 AD).</td></"
+#~ "tr><tr><td><b>SHORTERANAME</b></td><td>The short Era Name.</td></"
+#~ "tr><tr><td><b>YEARINERA</b></td><td>The Year in Era as a decimal number.</"
+#~ "td></tr><tr><td><b>DAYOFYEAR</b></td><td>The Day of Year as a decimal "
+#~ "number.</td></tr><tr><td><b>ISOWEEK</b></td><td>The ISO Week as a decimal "
+#~ "number.</td></tr><tr><td><b>DAYOFISOWEEK</b></td><td>The Day of the ISO "
+#~ "Week as a decimal number.</td></tr></table>"
+#~ msgstr ""
+#~ "<p>這裡設定的文字會被用於長日期格式。可以使用以下的符號：</"
+#~ "p><table><tr><td><b>YYYY</b></td><td>含世紀數值的年份。</td></tr> "
+#~ "<tr><td><b>YY</b></td><td>不含世紀數值的年份 (00-99)。</td></tr> "
+#~ "<tr><td><b>MM</b></td><td>使用二位數顯示月份 (01-12)。</td></tr> "
+#~ "<tr><td><b>mM</b></td><td>使用數字顯示月份 (1-12)。</td></tr> "
+#~ "<tr><td><b>SHORTMONTH</b></td><td>使用月份名稱的前三個字元顯示月份。</"
+#~ "td></tr> <tr><td><b>MONTH</b></td><td>使用完整月份名稱顯示月份。</td></"
+#~ "tr> <tr><td><b>DD</b></td><td>使用二位數字顯示每月日數 (01-31)。</td></"
+#~ "tr> <tr><td><b>dD</b></td><td>使用數字顯示每月日數 (1-31)。</td></tr> "
+#~ "<tr><td><b>SHORTWEEKDAY</b></td><td>使用星期名稱的前三個字元顯示星期。</"
+#~ "td></tr> <tr><td><b>WEEKDAY</b></td><td>使用完整星期名稱顯示星期。</td></"
+#~ "tr> <tr><td><b>ERAYEAR</b></td><td>本地格式表示紀元年（如：西元 2000 "
+#~ "年）。</td></tr> <tr><td><b>SHORTERANAME</b></td><td>紀元年的短格式。</"
+#~ "td></tr> <tr><td><b>YEARINERA</b></td><td>以數字表示紀元年。</td></tr> "
+#~ "<tr><td><b>DAYOFYEAR</b></td><td>年度的第幾天，以數字表示。</td></tr> "
+#~ "<tr><td><b>ISOWEEK</b></td><td>ISO 週數，以數字表示。</td></tr> "
+#~ "<tr><td><b>DAYOFISOWEEK</b></td><td>一週裡的第幾天，以數字表示。</td></"
+#~ "tr></table>"
+
+#~ msgid "YYYY"
+#~ msgstr "YYYY"
+
+#~ msgid "YY"
+#~ msgstr "YY"
+
+#~ msgid "mM"
+#~ msgstr "mM"
+
+#~ msgctxt "Month"
+#~ msgid "MM"
+#~ msgstr "MM"
+
+#~ msgid "SHORTMONTH"
+#~ msgstr "SHORTMONTH"
+
+#~ msgid "MONTH"
+#~ msgstr "MONTH"
+
+#~ msgid "dD"
+#~ msgstr "dD"
+
+#~ msgid "DD"
+#~ msgstr "DD"
+
+#~ msgid "SHORTWEEKDAY"
+#~ msgstr "SHORTWEEKDAY"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "WEEKDAY"
+
+#~ msgid "ERAYEAR"
+#~ msgstr "ERAYEAR"
+
+#~ msgid "YEARINERA"
+#~ msgstr "YEARINERA"
+
+#~ msgid "SHORTERANAME"
+#~ msgstr "SHORTERANAME"
+
+#~ msgid "DAYOFYEAR"
+#~ msgstr "DAYOFYEAR"
+
+#~ msgid "ISOWEEK"
+#~ msgstr "ISOWEEK"
+
+#~ msgid "DAYOFISOWEEK"
+#~ msgstr "DAYOFISOWEEK"
+
+#~ msgctxt "some reasonable date formats for the language"
+#~ msgid ""
+#~ "WEEKDAY MONTH dD YYYY\n"
+#~ "SHORTWEEKDAY MONTH dD YYYY"
+#~ msgstr "YYYY年 mM月 dD日 WEEKDAY"
+
+#~ msgid ""
+#~ "<p>The text in this textbox will be used to format short dates. For "
+#~ "instance, this is used when listing files. The sequences below will be "
+#~ "replaced:</p><table><tr><td><b>YYYY</b></td><td>The year with century as "
+#~ "a decimal number.</td></tr><tr><td><b>YY</b></td><td>The year without "
+#~ "century as a decimal number (00-99).</td></tr><tr><td><b>MM</b></"
+#~ "td><td>The month as a decimal number (01-12).</td></tr><tr><td><b>mM</b></"
+#~ "td><td>The month as a decimal number (1-12).</td></"
+#~ "tr><tr><td><b>SHORTMONTH</b></td><td>The first three characters of the "
+#~ "month name.</td></tr><tr><td><b>MONTH</b></td><td>The full month name.</"
+#~ "td></tr><tr><td><b>DD</b></td><td>The day of month as a decimal number "
+#~ "(01-31).</td></tr><tr><td><b>dD</b></td><td>The day of month as a decimal "
+#~ "number (1-31).</td></tr><tr><td><b>SHORTWEEKDAY</b></td><td>The first "
+#~ "three characters of the weekday name.</td></tr><tr><td><b>WEEKDAY</b></"
+#~ "td><td>The full weekday name.</td></tr><tr><td><b>ERAYEAR</b></td><td>The "
+#~ "Era Year in local format (e.g. 2000 AD).</td></"
+#~ "tr><tr><td><b>SHORTERANAME</b></td><td>The short Era Name.</td></"
+#~ "tr><tr><td><b>YEARINERA</b></td><td>The Year in Era as a decimal number.</"
+#~ "td></tr><tr><td><b>DAYOFYEAR</b></td><td>The Day of Year as a decimal "
+#~ "number.</td></tr><tr><td><b>ISOWEEK</b></td><td>The ISO Week as a decimal "
+#~ "number.</td></tr><tr><td><b>DAYOFISOWEEK</b></td><td>The Day of the ISO "
+#~ "Week as a decimal number.</td></tr></table>"
+#~ msgstr ""
+#~ "<p>這裡設定的文字會被用於短日期格式。可以使用以下的符號：</"
+#~ "p><table><tr><td><b>YYYY</b></td><td>含世紀數值的年份。</td></tr> "
+#~ "<tr><td><b>YY</b></td><td>不含世紀數值的年份 (00-99)。</td></tr> "
+#~ "<tr><td><b>MM</b></td><td>使用二位數顯示月份 (01-12)。</td></tr> "
+#~ "<tr><td><b>mM</b></td><td>使用數字顯示月份 (1-12)。</td></tr> "
+#~ "<tr><td><b>SHORTMONTH</b></td><td>使用月份名稱的前三個字元顯示月份。</"
+#~ "td></tr> <tr><td><b>MONTH</b></td><td>使用完整月份名稱顯示月份。</td></"
+#~ "tr> <tr><td><b>DD</b></td><td>使用二位數字顯示每月日數 (01-31)。</td></"
+#~ "tr> <tr><td><b>dD</b></td><td>使用數字顯示每月日數 (1-31)。</td></tr> "
+#~ "<tr><td><b>SHORTWEEKDAY</b></td><td>使用星期名稱的前三個字元顯示星期。</"
+#~ "td></tr> <tr><td><b>WEEKDAY</b></td><td>使用完整星期名稱顯示星期。</td></"
+#~ "tr> <tr><td><b>ERAYEAR</b></td><td>本地格式表示紀元年（如：西元 2000 "
+#~ "年）。</td></tr> <tr><td><b>SHORTERANAME</b></td><td>紀元年的短格式。</"
+#~ "td></tr> <tr><td><b>YEARINERA</b></td><td>以數字表示紀元年。</td></tr> "
+#~ "<tr><td><b>DAYOFYEAR</b></td><td>年度的第幾天，以數字表示。</td></tr> "
+#~ "<tr><td><b>ISOWEEK</b></td><td>ISO 週數，以數字表示。</td></tr> "
+#~ "<tr><td><b>DAYOFISOWEEK</b></td><td>一週裡的第幾天，以數字表示。</td></"
+#~ "tr></table>"
+
+#~ msgctxt "some reasonable short date formats for the language"
+#~ msgid ""
+#~ "YYYY-MM-DD\n"
+#~ "dD.mM.YYYY\n"
+#~ "DD.MM.YYYY"
+#~ msgstr ""
+#~ "YYYY/MM/DD\n"
+#~ "YYYY/mM/dD\n"
+#~ "YY/MM/DD\n"
+#~ "YY.MM.DD"
+
+#~ msgid "Possessive month names:"
+#~ msgstr "月份名稱所有格："
+
+#~ msgid ""
+#~ "<p>This option determines whether possessive form of month names should "
+#~ "be used in dates.</p>"
+#~ msgstr "<p>這個選擇決定了在日期中是否使用月名稱的所有格。</p>"
+
+#~ msgid ""
+#~ "<p>Here you can define the set of digits used to display dates and "
+#~ "times.  If digits other than Arabic are selected, they will appear only "
+#~ "if used in the language of the application or the piece of text where the "
+#~ "date or time is shown.</p><p>Note that the set of digits used to display "
+#~ "numeric and monetary values have to be set separately (see the 'Numbers' "
+#~ "or 'Money' tabs).</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示日期與時間時所使用的數字集。若是選擇非阿拉伯數字的"
+#~ "字元，則只有在該應用程式的語言，或是顯示日期與時間的地方使用。</p> <p>注"
+#~ "意，用來顯示數字與金錢數值的數字集必須另外設定 (請參照「數字」與「金錢」"
+#~ "頁)。</p>"
+
+#~ msgid "Page size:"
+#~ msgstr "頁面大小："
+
+#~ msgid ""
+#~ "<p>Here you can define the default page size to be used in new documents."
+#~ "</p><p>Note that this setting has no effect on printer paper size.</p>"
+#~ msgstr ""
+#~ "<p>您可以在這裡定義新文件預設使用的頁面大小。</p> <p>注意，這個設定不會影"
+#~ "響印表機的紙張大小設定。</p>"
+
+#~ msgctxt "Page size"
+#~ msgid "A4"
+#~ msgstr "A4"
+
+#~ msgctxt "Page size"
+#~ msgid "US Letter"
+#~ msgstr "US Letter"
+
+#~ msgctxt "Page size"
+#~ msgid "A0"
+#~ msgstr "A0"
+
+#~ msgctxt "Page size"
+#~ msgid "A1"
+#~ msgstr "A1"
+
+#~ msgctxt "Page size"
+#~ msgid "A2"
+#~ msgstr "A2"
+
+#~ msgctxt "Page size"
+#~ msgid "A3"
+#~ msgstr "A3"
+
+#~ msgctxt "Page size"
+#~ msgid "A5"
+#~ msgstr "A5"
+
+#~ msgctxt "Page size"
+#~ msgid "A6"
+#~ msgstr "A6"
+
+#~ msgctxt "Page size"
+#~ msgid "A7"
+#~ msgstr "A7"
+
+#~ msgctxt "Page size"
+#~ msgid "A8"
+#~ msgstr "A8"
+
+#~ msgctxt "Page size"
+#~ msgid "A9"
+#~ msgstr "A9"
+
+#~ msgctxt "Page size"
+#~ msgid "B0"
+#~ msgstr "B0"
+
+#~ msgctxt "Page size"
+#~ msgid "B1"
+#~ msgstr "B1"
+
+#~ msgctxt "Page size"
+#~ msgid "B2"
+#~ msgstr "B2"
+
+#~ msgctxt "Page size"
+#~ msgid "B3"
+#~ msgstr "B3"
+
+#~ msgctxt "Page size"
+#~ msgid "B4"
+#~ msgstr "B4"
+
+#~ msgctxt "Page size"
+#~ msgid "B5"
+#~ msgstr "B5"
+
+#~ msgctxt "Page size"
+#~ msgid "B6"
+#~ msgstr "B6"
+
+#~ msgctxt "Page size"
+#~ msgid "B7"
+#~ msgstr "B7"
+
+#~ msgctxt "Page size"
+#~ msgid "B8"
+#~ msgstr "B8"
+
+#~ msgctxt "Page size"
+#~ msgid "B9"
+#~ msgstr "B9"
+
+#~ msgctxt "Page size"
+#~ msgid "B10"
+#~ msgstr "B10"
+
+#~ msgctxt "Page size"
+#~ msgid "C5 Envelope"
+#~ msgstr "C5 Envelope"
+
+#~ msgctxt "Page size"
+#~ msgid "US Common 10 Envelope"
+#~ msgstr "US Common 10 Envelope"
+
+#~ msgctxt "Page size"
+#~ msgid "DLE Envelope"
+#~ msgstr "DLE Envelope"
+
+#~ msgctxt "Page size"
+#~ msgid "Executive"
+#~ msgstr "Executive"
+
+#~ msgctxt "Page size"
+#~ msgid "Folio"
+#~ msgstr "對開"
+
+#~ msgctxt "Page size"
+#~ msgid "Ledger"
+#~ msgstr "Ledger"
+
+#~ msgctxt "Page size"
+#~ msgid "US Legal"
+#~ msgstr "US Legal"
+
+#~ msgctxt "Page size"
+#~ msgid "Tabloid"
+#~ msgstr "Tabloid"
+
+#~ msgctxt "Page size"
+#~ msgid "Custom"
+#~ msgstr "自訂"
+
+#~ msgid "<p>Here you can define the measurement system to use.</p>"
+#~ msgstr "<p>您可以在這裡定義使用的度量衡系統。</p>"
+
+#~ msgid "Metric System"
+#~ msgstr "公制系統"
+
+#~ msgid "Byte size units:"
+#~ msgstr "位元組大小單位："
+
+#~ msgid ""
+#~ "<p>This changes the units used by most KDE programs to display numbers "
+#~ "counted in bytes. Traditionally \"kilobytes\" meant units of 1024, "
+#~ "instead of the metric 1000, for most (but not all) byte sizes.<ul><li>To "
+#~ "reduce confusion you can use the recently standardized IEC units which "
+#~ "are always in multiples of 1024.</li><li>You can also select metric, "
+#~ "which is always in units of 1000.</li><li>Selecting JEDEC restores the "
+#~ "older-style units used in KDE 3.5 and some other operating systems.</li></"
+#~ "ul></p>"
+#~ msgstr ""
+#~ "<p>這個選項改變了大部份 KDE 程式顯示檔案大小時的單位。習慣上 \"KB\" 指的"
+#~ "是 1024 位元組，而不是 1000。 <ul> <li>若要避免混淆，您可以用最新的 IEC 標"
+#~ "準中訂定的單位，都是 1024 的倍數。</li> <li>您也可以選擇公制，也就是 1000 "
+#~ "的倍數。</li> <li>JEDEC 則是 KDE 3.5 與其它作業系統中所使用的舊式的單位。"
+#~ "</li></ul></p>"
+
+#~ msgctxt "Unit of binary measurement"
+#~ msgid "IEC Units (KiB, MiB, etc)"
+#~ msgstr "IEC 單位（KiB，MiB 等等）"
+
+#~ msgctxt "Unit of binary measurement"
+#~ msgid "JEDEC Units (KB, MB, etc)"
+#~ msgstr "JEDEC 單位（KB，MB 等）"
+
+#~ msgctxt "Unit of binary measurement"
+#~ msgid "Metric Units (kB, MB, etc)"
+#~ msgstr "公制單位（kB，mB 等）"
+
+#~ msgctxt "Example test for binary unit dialect"
+#~ msgid "Example: 2000 bytes equals %1"
+#~ msgstr "例如：2000 位元組等於 %1"
+
+#~ msgid "Page size"
+#~ msgstr "頁面大小"
+
+#~ msgid "Measurement system"
+#~ msgstr "度量衡系統"
+
+#~ msgid "Byte size units"
+#~ msgstr "位元組大小單位"
+
+#~ msgid "to"
+#~ msgstr "到"
+
+#~ msgid "Subdivison:"
+#~ msgstr "行政區："
+
+#~ msgid "&Available Languages:"
+#~ msgstr "可用的語言(&A)："
+
+#~ msgid "&Preferred Languages:"
+#~ msgstr "預設使用語言(&P)："
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgctxt "@item:intext Country"
+#~ msgid "Not set (Generic English)"
+#~ msgstr "未設定（一般英語）"
+
+#~ msgctxt "@info %1 is country name"
+#~ msgid "<html>%1 (<a href=\"changeCountry\">change...</a>)</html>"
+#~ msgstr "<html>%1 (<a href=\"changeCountry\">變更...</a>)</html>"
+
+#~ msgid "Add Language"
+#~ msgstr "新增語言"
+
+#~ msgid ""
+#~ "This will add a language to the list. If the language is already in the "
+#~ "list, the old one will be moved instead."
+#~ msgstr ""
+#~ "這會新增一個語系至列表。如果列表上已經有這個語系，舊的語系將會被新的取代。"
+
+#~ msgid "This will remove the highlighted language from the list."
+#~ msgstr "這將會移除列表上突顯的語系。"
+
+#~ msgid ""
+#~ "KDE programs will be displayed in the first available language in this "
+#~ "list.\n"
+#~ "If none of the languages are available, US English will be used."
+#~ msgstr ""
+#~ "KDE 應用程式將會以列表中第一個可用的語系顯示。\n"
+#~ "如果沒有可用的語系，則會使用美式英語代替。"
+
+#~ msgid ""
+#~ "Here you can choose your country or region. The settings for languages, "
+#~ "numbers etc. will automatically switch to the corresponding values."
+#~ msgstr ""
+#~ "您可以在這邊選擇您的國家或地區。語言、數字等等的設定將會自動切換成對應的數"
+#~ "值。"
+
+#~ msgid ""
+#~ "<p>Here you can choose the languages that will be used by KDE. If the "
+#~ "first language in the list is not available, the second will be used, "
+#~ "etc. If only US English is available, no translations have been "
+#~ "installed. You can get translation packages for many languages from the "
+#~ "place you got KDE from.</p><p>Note that some applications may not be "
+#~ "translated to your languages; in this case, they will automatically fall "
+#~ "back to US English.</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊選擇 KDE 所使用的語言。如果列表中的第一個語系無法使用，會使"
+#~ "用第二個語系代替，並以此類推。如果只有美式英語可用，可能是沒有安裝其他翻譯"
+#~ "檔。您可以從您取得 KDE 的地方找到很多種語言的翻譯檔套件。</p> <p>注意有些"
+#~ "應用程式可能沒有翻譯成您的語言；在這種情形下它們會自動回復為美式英語。</p>"
+
+#~ msgid "This is how date values will be displayed using a short notation."
+#~ msgstr "這是使用短模式時日期的顯示方式。"
+
+#~ msgid "Positive"
+#~ msgstr "正數"
+
+#~ msgid "Negative"
+#~ msgstr "負數"
+
+#~ msgid ""
+#~ "Here you can choose the currency symbol to be displayed for your chosen "
+#~ "currency, e.g. $, US$, or USD."
+#~ msgstr "您可以在此選擇顯示貨幣使用的符號，如 $，US$，NT$ 等。"
+
+#~ msgid "&Decimal symbol:"
+#~ msgstr "小數點符號(&D):"
+
+#~ msgid "Tho&usands separator:"
+#~ msgstr "千位分隔符號(&U):"
+
+#~ msgid "Decimal &places:"
+#~ msgstr "小數位數(&P)："
+
+#~ msgid "Di&git set:"
+#~ msgstr "數字集(&G)："
+
+#~ msgid ""
+#~ "Here you can specify text used to prefix positive numbers. Most people "
+#~ "leave this blank."
+#~ msgstr "您可以在這邊指定正數值的前置文字。一般均不使用。"
+
+#~ msgid ""
+#~ "Here you can set the number of decimal places displayed for numeric "
+#~ "values, i.e. the number of digits <em>after</em> the decimal separator. "
+#~ msgstr ""
+#~ "這裡您可以設定數值中顯示的小數位數，也就是您可以在小數點<em>後面</em>看到"
+#~ "的位數。"
+
+#~ msgid "Paper format:"
+#~ msgstr "紙張格式:"
+
+#~ msgid "Units for byte sizes:"
+#~ msgstr "位元組大小單位："
+
+#~ msgid "Use declined form of month name"
+#~ msgstr "使用月份名稱的 declined 形式"
+
+#~ msgid ""
+#~ "<p>The text in this textbox will be used to format long dates. The "
+#~ "sequences below will be replaced:</p>"
+#~ msgstr ""
+#~ "<p>這個文字方塊中的文字用以顯示長格式的日期。下面的串列將會被取代：</p>"
+
+#~ msgid ""
+#~ "<p>The text in this textbox will be used to format short dates. For "
+#~ "instance, this is used when listing files. The sequences below will be "
+#~ "replaced:</p>"
+#~ msgstr ""
+#~ "<p>這個文字方塊中的文字用以顯示短格式的日期。一般在列出檔案時使用。下面的"
+#~ "串列將會被取代：</p>"
+
+#~ msgid ""
+#~ "<p>Here you can define the set of digits used to display time and dates. "
+#~ "If digits other than Arabic are selected, they will appear only if used "
+#~ "in the language of the application or the piece of text where the number "
+#~ "is shown.</p>"
+#~ msgstr ""
+#~ "<p>您可以在這邊定義顯示日期與時間時所使用的數字集。若是選擇非阿拉伯數字的"
+#~ "字元，則只有在該應用程式的語言，或是數字顯示的地方使用。</p>"
+
+#~ msgid "None selected (<a href=\"/change\">change...</a>)"
+#~ msgstr "沒有選取（<a href=\"change\">變更...</a>）"
+
+#~ msgid "KCMLocale"
+#~ msgstr "KCM地區"
+
+#~ msgid "(C) 1998 Matthias Hoelzer, (C) 1999-2003 Hans Petter Bieker"
+#~ msgstr "(C) 1998 Matthias Hoelzer, (C) 1999-2003 Hans Petter Bieker"
+
+#~ msgid ""
+#~ "<h1>Country/Region & Language</h1>\n"
+#~ "<p>From here you can configure language, numeric, and time \n"
+#~ "settings for your particular region. In most cases it will be \n"
+#~ "sufficient to choose the country you live in. For instance KDE \n"
+#~ "will automatically choose \"German\" as language if you choose \n"
+#~ "\"Germany\" from the list. It will also change the time format \n"
+#~ "to use 24 hours and and use comma as decimal separator.</p>\n"
+#~ msgstr ""
+#~ "<h1>國家/地區 & 語言</h1>\n"
+#~ "<p>您可以在這邊設定您所在區域的\n"
+#~ "語言、數字和時刻。在大多數的狀況下\n"
+#~ "您只要選擇您所居住的國家就夠了。\n"
+#~ "舉例而言，當您從列表中選擇「德國」時，\n"
+#~ "KDE 會自動選擇「德文」為您的語言。同時\n"
+#~ "也會使用24小時制並且以逗點為小數點。</p>\n"
+
+#~ msgid "&Numbers"
+#~ msgstr "數字(&N)"
+
+#~ msgid "&Money"
+#~ msgstr "金錢(&M)"
+
+#~ msgid "&Time && Dates"
+#~ msgstr "時間與日期(&T)"
+
+#~ msgid "Fract digits:"
+#~ msgstr "小數位數:"
+
+#~ msgid "Here you can enter your usual currency symbol, e.g. $ or €."
+#~ msgstr "您可以在此輸入您使用的貨幣符號，例如 $ 或是 €。"
+
+#~ msgid "Fractional digits:"
+#~ msgstr "小數位數:"
+
+#~ msgctxt "Calendar System Gregorian"
+#~ msgid "Gregorian"
+#~ msgstr "陽曆"
+
+#~ msgctxt "Calendar System Hijri"
+#~ msgid "Hijri"
+#~ msgstr "伊斯蘭曆"
+
+#~ msgctxt "Calendar System Hebrew"
+#~ msgid "Hebrew"
+#~ msgstr "希伯來曆"
+
+#~ msgctxt "Calendar System Jalali"
+#~ msgid "Jalali"
+#~ msgstr "Jalali"
+
+#~ msgid "Form"
+#~ msgstr "表單"

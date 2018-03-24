@@ -1,0 +1,1037 @@
+# translation of desktop_kdesdk.po to Chinese Traditional
+# traditional Chinese translation for KDE desktop.
+# Copyright (C) 2001-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# AceLan <acelan@kde.linux.org.tw>, 2001.
+# Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001.
+# Calvin Lin <armin.lin@msa.hinet.net>, 2002.
+# Yuan-Chen Cheng <ycheng@slat.org>, 2002.
+# Calvin Lin <calvin@domex.com.tw>, 2002.
+# Zhu Dingjie <alastor@alastor.ath.cx>, 2002.
+# Abel Cheung <maddog@linux.org.hk>, 2002.
+# Anthony Fok <anthony@thizlinux.com>, 2002.
+# ChaoHsiung Liao <pesder@seed.net.tw>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006 - 2009, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_kdesdk\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-18 01:59+0000\n"
+"PO-Revision-Date: 2014-02-19 13:09+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: bazaar/fileviewbazaarplugin.desktop:3
+msgctxt "Name"
+msgid "Bazaar"
+msgstr "Bazaar"
+
+#: dropbox/fileviewdropboxplugin.desktop:3
+msgctxt "Name"
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: git/fileviewgitplugin.desktop:3
+msgctxt "Name"
+msgid "Git"
+msgstr "Git"
+
+#: hg/fileviewhgplugin.desktop:3
+msgctxt "Name"
+msgid "Mercurial"
+msgstr "Mercurial"
+
+#: svn/fileviewsvnplugin.desktop:3
+msgctxt "Name"
+msgid "Subversion"
+msgstr "Subversion"
+
+#~ msgctxt "GenericName"
+#~ msgid "CVS Frontend"
+#~ msgstr "CVS 前端"
+
+#~ msgctxt "Name"
+#~ msgid "Cervisia"
+#~ msgstr "Cervisia"
+
+#~ msgctxt "Comment"
+#~ msgid "Cervisia CVS Client"
+#~ msgstr "Cervisia CVS 客戶端程式"
+
+#~ msgctxt "Name"
+#~ msgid "CVS commit job done"
+#~ msgstr "CVS 提交完成"
+
+#~ msgctxt "Comment"
+#~ msgid "A CVS commit job is done"
+#~ msgstr "CVS 提交完成"
+
+#~ msgctxt "Name"
+#~ msgid "CvsService"
+#~ msgstr "CVS 服務"
+
+#~ msgctxt "Comment"
+#~ msgid "A D-Bus service that provides an interface to cvs"
+#~ msgstr "提供 cvs 介面的 D-Bus 服務"
+
+#~ msgctxt "GenericName"
+#~ msgid "KDE Template Generator"
+#~ msgstr "KDE 樣本產生器"
+
+#~ msgctxt "Name"
+#~ msgid "KAppTemplate"
+#~ msgstr "KAppTemplate"
+
+#~ msgctxt "Name"
+#~ msgid "C++"
+#~ msgstr "C++"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Akonadi Resource Template. A template for an Akonadi PIM data resource"
+#~ msgstr "Akonadi 資源樣本。Akonadi PIM 資料資源的樣本。"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME} Serializer"
+#~ msgstr "%{APPNAME} 序列器"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for %{APPNAMELC}"
+#~ msgstr "%{APPNAMELC} 的 Akonadi 序列器外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Akonadi Serializer Template. A template for an Akonadi data serializer "
+#~ "plugin"
+#~ msgstr "Akonadi 序列器樣本。Akonadi 資料序列器外掛程式樣本"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME} Shape"
+#~ msgstr "%{APPNAME} 元件"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME} Flake Shape"
+#~ msgstr "%{APPNAME} Flake 元件"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KOffice Shape Template (Flake). A KOffice plugin template with a shape, a "
+#~ "tool and a docker (please use ThisFormat for the project name)"
+#~ msgstr ""
+#~ "KOffice 元件樣本（Flake）。是一套 KOffice 樣本，包含元件、工具與嵌入器（專"
+#~ "案名稱請使用此格式）"
+
+#~ msgctxt "Name"
+#~ msgid "C++ KDE"
+#~ msgstr "C++ KDE"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE 4 GUI Application. KDE4 simple template based on CMake, inherits from "
+#~ "XMLGuiWindow and demonstrates how to use KConfig XT"
+#~ msgstr ""
+#~ "KDE4 使用者介面的應用程式。基於 CMake 的 KDE4 簡單應用程式樣本，從 "
+#~ "XMLGuiWindow 繼承而來，用於展示如何使用 KConfig XT"
+
+#~ msgctxt "Name"
+#~ msgid "QML Application"
+#~ msgstr "QML 應用程式"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE4 simple template based on CMake, inherits from XMLGuiWindow and "
+#~ "demonstrates how to use KConfig XT and QML"
+#~ msgstr ""
+#~ "KDE4 使用者介面的應用程式。基於 CMake 的 KDE4 簡單應用程式樣本，從 "
+#~ "XMLGuiWindow 繼承而來，用於展示如何使用 KConfig XT 與 QML"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "GenericName"
+#~ msgid "A KDE4 Application"
+#~ msgstr "KDE4 應用程式"
+
+#~ msgctxt "Name"
+#~ msgid "Minimal C++ KDE"
+#~ msgstr "Minimal C++ KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "A very basic KDE GUI Application in C++"
+#~ msgstr "最基本的 C++ KDE 圖形介面應用程式"
+
+#~ msgctxt "GenericName"
+#~ msgid "A Simple KDE Application"
+#~ msgstr "簡單的 KDE 應用程式"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KOffice Text-Plugin Template. A KOffice plugin template to add new "
+#~ "features for modifying text (use ThisFormat for the project name)"
+#~ msgstr ""
+#~ "KOffice 文字外掛程式樣本。是一套 KOffice 外掛程式樣本，用於新增變更文字的"
+#~ "功能（專案名稱請使用此格式）"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME} plugin"
+#~ msgstr "%{APPNAME} 外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE 4 Konqueror plugin. KDE4 simple template based on CMake, inherits "
+#~ "from KParts::Plugin and demonstrates how to write a konqueror plugin"
+#~ msgstr ""
+#~ "KDE 4 Konqueror 外掛程式。是一套基於 CMake 的 KDE4 簡單樣本，從 KParts::"
+#~ "Plugin 繼承而來，用於展示如何撰寫 konqueror 外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Extended UrlBar Options"
+#~ msgstr "延伸的網址列選項"
+
+#~ msgctxt "GenericName"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE 4 KPart Application. KDE4 simple template based on CMake, inherits "
+#~ "from XMLGuiWindow and demonstrates how to use KPart"
+#~ msgstr ""
+#~ "KDE4 KPart 應用程式，是一套基於 CMake 的 KDE4 簡單應用程式樣本，從 "
+#~ "XMLGuiWindow 繼承而來，用於展示如何使用 KPart"
+
+#~ msgctxt "GenericName"
+#~ msgid "A KDE KPart Application"
+#~ msgstr "KDE KPart 應用程式"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME}Part"
+#~ msgstr "%{APPNAME}Part"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KTextEditor Plugin Template. A KTextEditor plugin template to perform "
+#~ "special operations on text in KWrite, Kate, KDevelop etc.  (use "
+#~ "ThisFormat for the project name)"
+#~ msgstr ""
+#~ "KTextEditor 外掛程式樣本，用於 KWrite、Kate、KDevelop 等對文字的特殊操作。"
+#~ "（專案名稱請使用此格式）"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma %{APPNAME}"
+#~ msgstr "Plasma %{APPNAME}"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Plasma Applet Template. A plasma applet template displaying an icon and a "
+#~ "text"
+#~ msgstr "Plasma 小程式樣本，用於顯示圖示與文字"
+
+#~ msgctxt "Name"
+#~ msgid "Qt - QMake C++"
+#~ msgstr "Qt - QMake C++"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Qt4 GUI Application. Generate a QMake/Qt4 based application with "
+#~ "graphical user interface (crossplatform compatible)"
+#~ msgstr ""
+#~ "Qt4 使用者介面應用程式。產生以 QMake/Qt4 為基礎的應用程式，含圖形介面，並"
+#~ "且跨平台"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME} runner"
+#~ msgstr "%{APPNAME} 執行器"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma Runner Template. A plasma runner template"
+#~ msgstr "Plasma 執行器樣本。"
+
+#~ msgctxt "Name"
+#~ msgid "Python"
+#~ msgstr "Python"
+
+#~ msgctxt "Comment"
+#~ msgid "PyKDE4 GUI Application. PyKDE4 template - needs PyKDE4"
+#~ msgstr "PyKDE4 使用者介面應用程式。PyKDE4 樣本─需要 PyKDE4"
+
+#~ msgctxt "Name"
+#~ msgid "Python Qt-only"
+#~ msgstr "Python Qt-only"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "PyQt4 GUI Application. PyQt template using a Designer file - needs PyQt4"
+#~ msgstr "PyQt4 使用者介面應用程式。使用設計家檔案的 PyQt 樣本─需要 PyQt4"
+
+#~ msgctxt "Name"
+#~ msgid "Ruby"
+#~ msgstr "Ruby"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE 4 Ruby GUI Application. KDE4 simple ruby template, inherits from "
+#~ "XMLGuiWindow - needs korundum4"
+#~ msgstr ""
+#~ "KDE4 Ruby 使用者介面應用程式。KDE4 的簡單 ruby 樣本，從 XMLGuiWindow 繼承"
+#~ "而來─需要 korundum4"
+
+#~ msgctxt "GenericName"
+#~ msgid "A KDE4 Ruby Application"
+#~ msgstr "KDE4 Ruby 應用程式"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE 4 Ruby Konqueror plugin. KDE4 simple template based on CMake, "
+#~ "inherits from KParts::Plugin and demonstrates how to write a konqueror "
+#~ "plugin in Ruby"
+#~ msgstr ""
+#~ "KDE4 Ruby Konqueror 外掛程式。基於 CMake 的 KDE4 簡單樣本，從 KParts::"
+#~ "Plugin 繼承而來，用於展示如何以 Ruby 撰寫 konqueror 外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME} - You can write Konqueror-Plugins in Ruby"
+#~ msgstr "%{APPNAME} - 您可以用 Ruby 撰寫 Konqueror 外掛程式"
+
+#~ msgctxt "Name"
+#~ msgid "KCachegrind"
+#~ msgstr "KCachegrind"
+
+#~ msgctxt "GenericName"
+#~ msgid "Profiler Frontend"
+#~ msgstr "分析器前端"
+
+#~ msgctxt "Comment"
+#~ msgid "Visualization of Performance Profiling Data"
+#~ msgstr "效能分析資料視覺化"
+
+#~ msgctxt "Name"
+#~ msgid "QCachegrind"
+#~ msgstr "QCachegrind"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Subversion Module"
+#~ msgstr "KDED Subversion 模組"
+
+#~ msgctxt "Description"
+#~ msgid "Subversion ioslave"
+#~ msgstr "Subversion ioslave"
+
+#~ msgctxt "Name"
+#~ msgid "Apply Patch..."
+#~ msgstr "套用修補..."
+
+#~ msgctxt "Comment"
+#~ msgid "Apply the patch to another folder/file"
+#~ msgstr "套用修補到另一個資料夾/檔案"
+
+#~ msgctxt "X-KDE-Submenu"
+#~ msgid "Subversion"
+#~ msgstr "Subversion"
+
+#~ msgctxt "Name"
+#~ msgid "Add to Repository"
+#~ msgstr "新增到主目錄"
+
+#~ msgctxt "Name"
+#~ msgid "Delete From Repository"
+#~ msgstr "從主目錄刪除"
+
+#~ msgctxt "Name"
+#~ msgid "Revert Local Changes"
+#~ msgstr "回復本地端變更"
+
+#~ msgctxt "Comment"
+#~ msgid "Remove any changes made locally. Warning - this cannot be undone."
+#~ msgstr "移除任何已做的變更。警告：無法再復原。"
+
+#~ msgctxt "Name"
+#~ msgid "Rename..."
+#~ msgstr "重新命名..."
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Rename a file locally and in the repository.  Use this rather than adding "
+#~ "and deleting to rename a file."
+#~ msgstr "在本地端與主目錄中重新命名檔案。不必先新增再刪除檔案。"
+
+#~ msgctxt "Name"
+#~ msgid "Import Repository"
+#~ msgstr "匯入主目錄"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Put folder into an existing repository to put it under revision control."
+#~ msgstr "將資料夾放進現存的主目錄，並開始做版本控制。"
+
+#~ msgctxt "Name"
+#~ msgid "Checkout From Repository..."
+#~ msgstr "從主目錄取出..."
+
+#~ msgctxt "Comment"
+#~ msgid "Checkout out files from an existing repository into this folder."
+#~ msgstr "從現存的主目錄取出檔案到此資料夾。"
+
+#~ msgctxt "Name"
+#~ msgid "Switch..."
+#~ msgstr "切換..."
+
+#~ msgctxt "Comment"
+#~ msgid "Switch given working copy to another branch"
+#~ msgstr "將指定的工作複本切換到另一個分支"
+
+#~ msgctxt "Name"
+#~ msgid "Merge..."
+#~ msgstr "合併..."
+
+#~ msgctxt "Comment"
+#~ msgid "Merge changes between this and another branch"
+#~ msgstr "將這個與另一個分支合併"
+
+#~ msgctxt "Name"
+#~ msgid "Blame..."
+#~ msgstr "最後狀態註記..."
+
+#~ msgctxt "Comment"
+#~ msgid "See who wrote each line of the file and in what revision"
+#~ msgstr "看檔案中的每一行是誰寫的，其版本為何"
+
+#~ msgctxt "Name"
+#~ msgid "Create Patch..."
+#~ msgstr "建立修補檔..."
+
+#~ msgctxt "Name"
+#~ msgid "Export..."
+#~ msgstr "匯出..."
+
+#~ msgctxt "Comment"
+#~ msgid "Checkout out an unversioned copy of a tree from a repository"
+#~ msgstr "從主目錄中取出不含版本資訊的工作複本"
+
+#~ msgctxt "Name"
+#~ msgid "Diff (local)"
+#~ msgstr "比較（本地端）"
+
+#~ msgctxt "Comment"
+#~ msgid "Show local changes since last update"
+#~ msgstr "顯示最後一次更新之後於本地端所做的改變"
+
+#~ msgctxt "Name"
+#~ msgid "SVN Update"
+#~ msgstr "SVN 更新"
+
+#~ msgctxt "Name"
+#~ msgid "SVN Commit"
+#~ msgstr "SVN 提交"
+
+#~ msgctxt "Name"
+#~ msgid "Kompare"
+#~ msgstr "Kompare"
+
+#~ msgctxt "GenericName"
+#~ msgid "Diff/Patch Frontend"
+#~ msgstr "Diff/Patch 前端"
+
+#~ msgctxt "Name"
+#~ msgid "KompareNavTreePart"
+#~ msgstr "KompareNavTreePart"
+
+#~ msgctxt "Name"
+#~ msgid "KomparePart"
+#~ msgstr "KomparePart"
+
+#~ msgctxt "Name"
+#~ msgid "Qt Designer Files"
+#~ msgstr "Qt Designer 檔案"
+
+#~ msgctxt "Name"
+#~ msgid "KUIViewer"
+#~ msgstr "KUIViewer"
+
+#~ msgctxt "GenericName"
+#~ msgid "Qt Designer UI File Viewer"
+#~ msgstr "Qt Designer UI 檔案檢視器"
+
+#~ msgctxt "Name"
+#~ msgid "KUIViewerPart"
+#~ msgstr "KUIViewerPart"
+
+#~ msgctxt "Name"
+#~ msgid "Lokalize"
+#~ msgstr "Lokalize"
+
+#~ msgctxt "GenericName"
+#~ msgid "Computer-Aided Translation System"
+#~ msgstr "電腦協助翻譯系統"
+
+#~ msgctxt "Comment"
+#~ msgid "Computer-aided translation system"
+#~ msgstr "電腦協助翻譯系統"
+
+#~ msgctxt "Name"
+#~ msgid "Error opening files"
+#~ msgstr "開啟檔案時發生錯誤"
+
+#~ msgctxt "Name"
+#~ msgid "Error opening files for synchronization"
+#~ msgstr "開啟檔案以同步時發生錯誤"
+
+#~ msgctxt "Name"
+#~ msgid "No Qt Sql modules were found"
+#~ msgstr "找不到 Qt Sql 模組"
+
+#~ msgctxt "Name"
+#~ msgid "Bitfields test"
+#~ msgstr "Bitfields 測試"
+
+#~ msgctxt "Name"
+#~ msgid ""
+#~ "Testing dynamic length arrays (JS). Do not translate, it's a waste of time"
+#~ msgstr ""
+#~ "Testing dynamic length arrays (JS). Do not translate, it's a waste of time"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "A test structure for dynamic arrays (JS). Do not translate, it's a waste "
+#~ "of time"
+#~ msgstr ""
+#~ "A test structure for dynamic arrays (JS). Do not translate, it's a waste "
+#~ "of time"
+
+#~ msgctxt "Name"
+#~ msgid "Testing dynamic length arrays"
+#~ msgstr "測試動態長度陣列"
+
+#~ msgctxt "Comment"
+#~ msgid "A test structure for dynamic arrays"
+#~ msgstr "測試動態陣列的測試結構"
+
+#~ msgctxt "Name"
+#~ msgid "ELF structure"
+#~ msgstr "ELF 結構"
+
+#~ msgctxt "Comment"
+#~ msgid "Structure for Executable and Linkable Format (ELF)"
+#~ msgstr "ELF （執行檔連結格式，Executable and Linkable Format）的結構"
+
+#~ msgctxt "Name"
+#~ msgid "Testing enums"
+#~ msgstr "測試列舉"
+
+#~ msgctxt "Comment"
+#~ msgid "A test structure for enums"
+#~ msgstr "列舉的測試結構"
+
+#~ msgctxt "Name"
+#~ msgid "Testing bitflags"
+#~ msgstr "測試位元旗標"
+
+#~ msgctxt "Comment"
+#~ msgid "A test for bitflags"
+#~ msgstr "位元旗標測試"
+
+#~ msgctxt "Name"
+#~ msgid "PNG file header"
+#~ msgstr "PNG 檔案標頭"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "A test structure containing the PNG file header (file must be set to big-"
+#~ "endian)"
+#~ msgstr "包含 PNG 檔頭的測試結構（檔案必須設定為高位元優先）"
+
+#~ msgctxt "Name"
+#~ msgid "JavaScript test"
+#~ msgstr "JavaScript 測試"
+
+#~ msgctxt "Comment"
+#~ msgid "Just testing structures defined in JS"
+#~ msgstr "測試定義於 JS 中的結構"
+
+#~ msgctxt "Name"
+#~ msgid "Another simple test"
+#~ msgstr "另一個簡單測試"
+
+#~ msgctxt "Comment"
+#~ msgid "A few more test structures"
+#~ msgstr "更多測試結構"
+
+#~ msgctxt "Name"
+#~ msgid "Simple test"
+#~ msgstr "簡單測試"
+
+#~ msgctxt "Comment"
+#~ msgid "A few test structures"
+#~ msgstr "一些測試結構"
+
+#~ msgctxt "Name"
+#~ msgid "Okteta Mobile"
+#~ msgstr "Okteta 行動版"
+
+#~ msgctxt "Name"
+#~ msgid "BytesEdit Widget"
+#~ msgstr "位元編輯器元件"
+
+#~ msgctxt "Name"
+#~ msgid "Okteta Hex Viewer"
+#~ msgstr "Okteta 十六進位碼檢視器"
+
+#~ msgctxt "Name"
+#~ msgid "Okteta"
+#~ msgstr "Okteta"
+
+#~ msgctxt "GenericName"
+#~ msgid "Hex Editor"
+#~ msgstr "十六進位資料編輯器"
+
+#~ msgctxt "Name"
+#~ msgid "Gettext Translation"
+#~ msgstr "Gettext 翻譯"
+
+#~ msgctxt "Name"
+#~ msgid "Export Layout"
+#~ msgstr "匯出佈局"
+
+#~ msgctxt "Comment"
+#~ msgid "Export Layout for Activity Diagrams"
+#~ msgstr "活動圖片的匯出佈局"
+
+#~ msgctxt "Comment"
+#~ msgid "Export Layout for Class Diagrams"
+#~ msgstr "類別圖片的匯出佈局"
+
+#~ msgctxt "Name"
+#~ msgid "Horizontal Layout"
+#~ msgstr "水平佈局"
+
+#~ msgctxt "Comment"
+#~ msgid "Layout which renders Horizontal"
+#~ msgstr "水平繪製的佈局"
+
+#~ msgctxt "Name"
+#~ msgid "Vertical Layout"
+#~ msgstr "垂直佈局"
+
+#~ msgctxt "Comment"
+#~ msgid "Layout which renders vertical"
+#~ msgstr "垂直繪製的佈局"
+
+#~ msgctxt "Comment"
+#~ msgid "Export Layout for State Diagrams"
+#~ msgstr "狀態圖片的匯出佈局"
+
+#~ msgctxt "Name"
+#~ msgid "UseCase Default Layout"
+#~ msgstr "UseCase 預設佈局"
+
+#~ msgctxt "Comment"
+#~ msgid "Usecase Default Layout"
+#~ msgstr "Usecase 預設佈局"
+
+#~ msgctxt "Name"
+#~ msgid "Umbrello"
+#~ msgstr "Umbrello"
+
+#~ msgctxt "GenericName"
+#~ msgid "UML Modeller"
+#~ msgstr "UML Modeller"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Repository Accounts"
+#~ msgstr "KDE 主目錄帳號"
+
+#~ msgctxt "Name"
+#~ msgid "Scheck"
+#~ msgstr "Scheck"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Development style for searching accelerator and style guide conflicts"
+#~ msgstr ""
+#~ "Development style for searching accelerator and style guide conflicts"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Resource Template"
+#~ msgstr "Aknoadi 資源樣本"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Serializer Template"
+#~ msgstr "Aknoadi 序列器樣本"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Shape Template (Flake)"
+#~ msgstr "KOffice 元件樣本（Flake）"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Text-Plugin Template"
+#~ msgstr "KOffice 文字外掛程式樣本"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 Konqueror plugin"
+#~ msgstr "KDE4 Konqueror 外掛程式"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 KPart Application"
+#~ msgstr "KDE 4 KPart 應用程式"
+
+#~ msgctxt "Name"
+#~ msgid "KTextEditor Plugin Template"
+#~ msgstr "KTextEditor 外掛程式樣本"
+
+#~ msgctxt "Name"
+#~ msgid "Plasma Applet Template"
+#~ msgstr "Plasma 小程式樣本"
+
+#~ msgctxt "Name"
+#~ msgid "Qt4 GUI Application"
+#~ msgstr "Qt4 圖形介面應用程式"
+
+#~ msgctxt "Name"
+#~ msgid "Plasma Runner Template"
+#~ msgstr "Plasma 執行器樣本"
+
+#~ msgctxt "Name"
+#~ msgid "PyQt4 GUI Application"
+#~ msgstr "PyQt4 圖形介面應用程式"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 Ruby GUI Application"
+#~ msgstr "KDE4 Ruby 圖形介面應用程式"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 Ruby Konqueror plugin"
+#~ msgstr "KDE 4 Ruby Konqueror 外掛程式"
+
+#~ msgctxt "GenericName"
+#~ msgid "Advanced Text Editor"
+#~ msgstr "進階文字編輯器"
+
+#~ msgctxt "Name"
+#~ msgid "Kate"
+#~ msgstr "Kate"
+
+#~ msgctxt "Comment"
+#~ msgid "Kate Plugin"
+#~ msgstr "Kate 外掛程式"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Session Applet"
+#~ msgstr "Kate 工作階段小程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Kate Session Launcher"
+#~ msgstr "Kate 工作階段啟動器"
+
+#~ msgctxt "Name"
+#~ msgid "Backtrace Browser"
+#~ msgstr "回溯追蹤瀏覽器"
+
+#~ msgctxt "Comment"
+#~ msgid "Backtrace navigation tool view"
+#~ msgstr "回溯追蹤導覽工具檢視"
+
+#~ msgctxt "Name"
+#~ msgid "External Tools"
+#~ msgstr "外部工具"
+
+#~ msgctxt "Comment"
+#~ msgid "External Tools"
+#~ msgstr "外部工具"
+
+#~ msgctxt "Name"
+#~ msgid "File system browser"
+#~ msgstr "檔案系統瀏覽器"
+
+#~ msgctxt "Comment"
+#~ msgid "File system browser tool view"
+#~ msgstr "「檔案系統瀏覽器」工具檢視"
+
+#~ msgctxt "Name"
+#~ msgid "File Templates"
+#~ msgstr "檔案樣本"
+
+#~ msgctxt "Comment"
+#~ msgid "Create new files from templates"
+#~ msgstr "以樣本來建立新檔案"
+
+#~ msgctxt "Name"
+#~ msgid "File Tree"
+#~ msgstr "檔案樹狀圖"
+
+#~ msgctxt "Comment"
+#~ msgid "Displays the open documents in a tree"
+#~ msgstr "以樹狀圖顯示開啟的文件"
+
+#~ msgctxt "Name"
+#~ msgid "Find in files tool view"
+#~ msgstr "「在檔案中尋找」工具檢視"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Toolview allowing to search in all open files or files in the filesystem"
+#~ msgstr "可以在所有已開啟的檔案，或在整個檔案系統裡的檔案中尋找的工具檢視"
+
+#~ msgctxt "Name"
+#~ msgid "GDB"
+#~ msgstr "GDB"
+
+#~ msgctxt "Comment"
+#~ msgid "Provides a simple GDB frontend"
+#~ msgstr "提供簡單 GDB 前端介面"
+
+#~ msgctxt "Name"
+#~ msgid "Hello World Plugin"
+#~ msgstr "Hello World 外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Your short description about the plugin goes here"
+#~ msgstr "在這裡描述您的外掛程式"
+
+#~ msgctxt "Name"
+#~ msgid "Insert Command"
+#~ msgstr "插入指令"
+
+#~ msgctxt "Comment"
+#~ msgid "Insert shell command output into a document"
+#~ msgstr "將指令的輸出插入文件中"
+
+#~ msgctxt "Name"
+#~ msgid "Build Plugin"
+#~ msgstr "編譯外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Compile or Make and parse error messages"
+#~ msgstr "編譯或執行 make 並分析錯誤訊息"
+
+#~ msgctxt "Name"
+#~ msgid "CTags"
+#~ msgstr "CTags"
+
+#~ msgctxt "Comment"
+#~ msgid "Look up definitions/declarations with CTags"
+#~ msgstr "使用 CTags 尋找定義與宣告"
+
+#~ msgctxt "Name"
+#~ msgid "SQL Plugin"
+#~ msgstr "SQL 外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Execute query on SQL databases"
+#~ msgstr "在 SQL 資料庫內執行查詢"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Javascript Console Window"
+#~ msgstr "Kate Javascript 主控台視窗"
+
+#~ msgctxt "Name"
+#~ msgid "Select Smallest Enclosing Block"
+#~ msgstr "選擇最小的封閉區塊"
+
+#~ msgctxt "Name"
+#~ msgid "Kate KJS Test 1"
+#~ msgstr "Kate KJS 測試 1"
+
+#~ msgctxt "Comment"
+#~ msgid "Test  for the KJS Wrapper"
+#~ msgstr "測試 KJS 包裝"
+
+#~ msgctxt "Name"
+#~ msgid "Terminal tool view"
+#~ msgstr "終端機工具檢視"
+
+#~ msgctxt "Comment"
+#~ msgid "Toolview embedding a terminal widget"
+#~ msgstr "嵌入終端機元件的工具檢視"
+
+#~ msgctxt "Name"
+#~ msgid "Jovie Text-to-Speech"
+#~ msgstr "Jovie 文字轉語音"
+
+#~ msgctxt "Comment"
+#~ msgid "Adds a menu entry for speaking the text"
+#~ msgstr "新增選單項目以唸出文字"
+
+#~ msgctxt "Name"
+#~ msgid "Mail files"
+#~ msgstr "郵件檔案"
+
+#~ msgctxt "Comment"
+#~ msgid "Send files via email"
+#~ msgstr "透過電子郵件傳送檔案"
+
+#~ msgctxt "Name"
+#~ msgid "Open Header"
+#~ msgstr "開啟標頭"
+
+#~ msgctxt "Comment"
+#~ msgid "Opens the corresponding .h/[.cpp|.c] file"
+#~ msgstr "開啟相關的 .h/.cpp/.c 檔"
+
+#~ msgctxt "Name"
+#~ msgid "Quick Document switcher"
+#~ msgstr "快速文件切換器"
+
+#~ msgctxt "Comment"
+#~ msgid "Quickly switch to another already opened document"
+#~ msgstr "快速在已開啟文件中切換"
+
+#~ msgctxt "GenericName"
+#~ msgid "Snippets datafile editor"
+#~ msgstr "片段資料檔編輯器"
+
+#~ msgctxt "Name"
+#~ msgid "Snippets datafile editor"
+#~ msgstr "片段資料檔編輯器"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Snippets"
+#~ msgstr "Kate 片段"
+
+#~ msgctxt "Comment"
+#~ msgid "Snippets plugin with code completion support"
+#~ msgstr "包含源碼補完支援的片段外掛程式"
+
+#~ msgctxt "Name"
+#~ msgid "Symbol Viewer"
+#~ msgstr "符號檢視器"
+
+#~ msgctxt "Comment"
+#~ msgid "Extract and show reference symbols from source"
+#~ msgstr "展開並顯示程式源碼中的參考符號"
+
+#~ msgctxt "Name"
+#~ msgid "Tab Bar"
+#~ msgstr "分頁列"
+
+#~ msgctxt "Comment"
+#~ msgid "Adds a tab bar to Kate's main window"
+#~ msgstr "在 Kate 主視窗中加入分頁列"
+
+#~ msgctxt "Name"
+#~ msgid "Tabify"
+#~ msgstr "Tabify"
+
+#~ msgctxt "Name"
+#~ msgid "Text Filter"
+#~ msgstr "文字過濾器"
+
+#~ msgctxt "Comment"
+#~ msgid "Easy text filtering"
+#~ msgstr "簡易文字過濾器"
+
+#~ msgctxt "Name"
+#~ msgid "XML Validation"
+#~ msgstr "XML 檢查器"
+
+#~ msgctxt "Comment"
+#~ msgid "Validates XML files using xmllint"
+#~ msgstr "用 xmllint 來確認 XML 檔"
+
+#~ msgctxt "Name"
+#~ msgid "XML Completion"
+#~ msgstr "XML 補完"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Lists XML elements, attributes, attribute values and entities allowed by "
+#~ "DTD"
+#~ msgstr "列出通過 DTD 的 XML 元素、屬性、屬性值與實體"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Source Builder"
+#~ msgstr "KDE Source Builder"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Builds the KDE Platform and associated software from its source code. A "
+#~ "command-line only program."
+#~ msgstr "從源碼建立 KDE 平台與相關軟體。是一個只有命令列的程式。"
+
+#~ msgctxt "GenericName"
+#~ msgid "KDE Bug Management"
+#~ msgstr "KDE 臭蟲管理"
+
+#~ msgctxt "Name"
+#~ msgid "KBugBuster"
+#~ msgstr "KBugBuster"
+
+#~ msgctxt "Name"
+#~ msgid "Bugzilla To-do List"
+#~ msgstr "Bugzilla 待辦清單"
+
+#~ msgctxt "Name"
+#~ msgid "GDB Plugin"
+#~ msgstr "GDB 外掛程式"
+
+#~ msgctxt "Name"
+#~ msgid "CTags Plugin"
+#~ msgstr "CTags 外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Cervisia"
+#~ msgstr "Cervisia"
+
+#~ msgctxt "Name"
+#~ msgid "HTML Tools"
+#~ msgstr "HTML 工具"
+
+#~ msgctxt "Comment"
+#~ msgid "Facilitated insertion of HTML tags"
+#~ msgstr "協助插入 HTML 標籤"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Python Browser Plugin"
+#~ msgstr "Kate Python 瀏覽器外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "A Python browser plugin for Kate"
+#~ msgstr "Kate 的 Python 瀏覽器外掛程式"
+
+#~ msgctxt "Name"
+#~ msgid "KPyBrowser"
+#~ msgstr "KPyBrowser"
+
+#~ msgctxt "Comment"
+#~ msgid "KPyBrowser"
+#~ msgstr "KPyBrowser"
+
+#~ msgctxt "Name"
+#~ msgid "Text Snippets"
+#~ msgstr "文字片段"
+
+#~ msgctxt "Comment"
+#~ msgid "Configurable Text Snippets"
+#~ msgstr "可設定文字片段"
+
+#~ msgctxt "Name"
+#~ msgid "JOWENN's Kate snippets"
+#~ msgstr "JOWENN 的 Kate 片段"
+
+#~ msgctxt "Name"
+#~ msgid "My First Kate Plugin"
+#~ msgstr "我的第一個 Kate 外掛程式"
+
+#~ msgctxt "Comment"
+#~ msgid "Mail files"
+#~ msgstr "郵件檔案"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Tab Bar Extension"
+#~ msgstr "Kate 分頁列延伸"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Make Plugin"
+#~ msgstr "Kate make 外掛程式"

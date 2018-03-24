@@ -1,0 +1,186 @@
+# translation of plasmoidviewer.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2012.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmoidviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-02 03:34+0100\n"
+"PO-Revision-Date: 2017-01-24 17:12+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin), Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: main.cpp:51
+#, fuzzy, kde-format
+#| msgid "Plasma Widget Viewer"
+msgid "Plasmoidviewer"
+msgstr "Plasma 元件檢視器"
+
+#: main.cpp:58
+#, kde-format
+msgid "Run Plasma widgets in their own window"
+msgstr "在它們自己的視窗中執行 Plasma 元件"
+
+#: main.cpp:63
+#, kde-format
+msgid "The name of the containment plugin"
+msgstr "容器外掛程式的名稱"
+
+#: main.cpp:65
+#, kde-format
+msgid "The name of the applet plugin"
+msgstr "小程式外掛程式的名稱"
+
+#: main.cpp:67
+#, kde-format
+msgid ""
+"The formfactor to use (horizontal, vertical, mediacenter, planar or "
+"application)"
+msgstr "使用的參數（水平、垂直、平面、媒體中心或應用程式）"
+
+#: main.cpp:69
+#, kde-format
+msgid ""
+"The location constraint to start the Containment with (floating, desktop, "
+"fullscreen, topedge, bottomedge, leftedge, rightedge)"
+msgstr "啟動容器的強制擺放位置（浮動、桌面、全螢幕、頂端、底端、左緣、右緣）"
+
+#: main.cpp:73
+#, kde-format
+msgid "Set the x position of the plasmoidviewer on the Plasma desktop"
+msgstr "設定 Plasma 元件檢視器在 Plasma 桌面上的 x 座標"
+
+#: main.cpp:76
+#, kde-format
+msgid "Set the y position of the plasmoidviewer on the Plasma desktop"
+msgstr "設定 Plasma 元件檢視器在 Plasma 桌面上的 y 座標"
+
+#: main.cpp:79
+#, kde-format
+msgid "Set the window size of the plasmoidview"
+msgstr "設定元件檢視器的視窗大小"
+
+#: main.cpp:82
+#, kde-format
+msgid "The size in kB to set the pixmap cache to"
+msgstr "像素圖快取大小（KB）"
+
+#: main.cpp:85
+#, kde-format
+msgid "The name of the theme which the shell will use"
+msgstr "shell 要使用的主題名稱"
+
+#: main.cpp:88
+#, kde-format
+msgid "Data that should be passed to the applet as 'externalData' event"
+msgstr "需要以 'externalData' 事件被傳遞給小程式的資料"
+
+#: view.cpp:120
+#, no-c-format, kde-format
+msgid "Applet %1 does not exist."
+msgstr "小程式 %1 不存在。"
+
+#: view.cpp:137
+#, no-c-format, kde-format
+msgid "Containment %1 does not exist."
+msgstr "容器 %1 不存在。"
+
+#: view.cpp:317
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Screenshot"
+msgstr "儲存快照"
+
+#~ msgid "No description available"
+#~ msgstr "沒有可用的描述"
+
+#~ msgid "2007-2008, Frerich Raabe"
+#~ msgstr "2007-2008, Frerich Raabe"
+
+#~ msgid "Frerich Raabe"
+#~ msgstr "Frerich Raabe"
+
+#~ msgid "Original author"
+#~ msgstr "原始作者"
+
+#~ msgid "Displays a list of known applets"
+#~ msgstr "顯示已知小程式的清單"
+
+#~ msgid "Displays a list of known wallpapers"
+#~ msgstr "顯示已知桌布的清單"
+
+#~ msgid "Displays a list of known containments"
+#~ msgstr "顯示已知內容物的清單"
+
+#~ msgid "Displays a list of known themes"
+#~ msgstr "顯示已知主題的清單"
+
+#~ msgid "Disables save and restore of the config between runs"
+#~ msgstr "關閉在兩次執行間儲存並回復設定的功能"
+
+#~ msgid ""
+#~ "Takes a screenshot of the widget and saves it the working directory as "
+#~ "<pluginname>.png"
+#~ msgstr "取得元件的快照並以 <外掛程式名稱>.png 的檔名存於工作目錄"
+
+#~ msgid ""
+#~ "Takes a screenshot of each widget and saves it the working directory as "
+#~ "<pluginname>.png"
+#~ msgstr "取得每個元件的快照並以 <外掛程式名稱>.png 的檔名存於工作目錄"
+
+#~ msgid "Desktop SVG theme to use"
+#~ msgstr "要使用的桌面 SVG 主題"
+
+#~ msgid "Initial size"
+#~ msgstr "初始大小"
+
+#~ msgid ""
+#~ "Name of the wallpaper plugin. Requires a containment plugin to be "
+#~ "specified."
+#~ msgstr "桌布外掛程式的名稱。需要指定一個內容物外掛程式。"
+
+#~ msgid ""
+#~ "Name of applet to view; may refer to the plugin name or be a path "
+#~ "(absolute or relative) to a package. If not provided, then an attempt is "
+#~ "made to load a package from the current directory."
+#~ msgstr ""
+#~ "要檢視的小程式名稱：可能是外掛程式名稱或套件的（絕對或相對）路徑。若未提"
+#~ "供，則會試著從目前的目錄中載入套件。"
+
+#~ msgid "Optional arguments of the applet to add"
+#~ msgstr "小程式的參數（可有可無）"
+
+#~ msgid "List zeroconf announced remote widgets"
+#~ msgstr "列出 zeroconf 宣告的遠端元件"
+
+#~ msgid "Name of applet to add (required)"
+#~ msgstr "要加入的小程式名稱（必要）"
+
+#~ msgid "No applet name specified"
+#~ msgstr "找不到此小程式"
+
+#~ msgid "(C) 2007, The KDE Team"
+#~ msgstr "(c) 2007，KDE 開發團隊"

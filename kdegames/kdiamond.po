@@ -1,0 +1,245 @@
+# translation of kdiamond.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdiamond\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:14+0100\n"
+"PO-Revision-Date: 2010-07-15 07:58+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: game-state.cpp:115
+#, kde-format
+msgid "Click the pause button again to resume the game."
+msgstr "再次點擊暫停鍵可以繼續遊戲。"
+
+#: game-state.cpp:122
+#, kde-format
+msgctxt "Not meant like 'You have lost', more like 'Time is up'."
+msgid "Game over."
+msgstr "遊戲結束。"
+
+#: infobar.cpp:30 infobar.cpp:62
+#, kde-format
+msgid "Possible moves: %1"
+msgstr "可移動處：%1"
+
+#: infobar.cpp:31 infobar.cpp:54
+#, kde-format
+msgid "Points: %1"
+msgstr "分數：%1"
+
+#: infobar.cpp:34 infobar.cpp:47 mainwindow.cpp:73
+#, kde-format
+msgid "Untimed game"
+msgstr "不限時的遊戲"
+
+#: infobar.cpp:36 infobar.cpp:80
+#, kde-format
+msgid "Time left: %1"
+msgstr "剩餘時間：%1"
+
+#: infobar.cpp:60
+#, kde-format
+msgctxt "Shown when the board is in motion."
+msgid "Possible moves: ..."
+msgstr "可移動處：..."
+
+#. i18n: ectx: label, entry (Untimed), group (Preferences)
+#: kdiamond.kcfg:9
+#, kde-format
+msgid "Play an untimed game."
+msgstr "開始不限時的遊戲。"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kdiamondui.rc:11
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: main.cpp:36
+#, kde-format
+msgid "KDiamond, a three-in-a-row game."
+msgstr "KDiamond，寶石方塊。"
+
+#: main.cpp:49 mainwindow.cpp:100
+#, kde-format
+msgctxt "The application's name"
+msgid "KDiamond"
+msgstr "KDiamond 寶石方塊"
+
+#: main.cpp:50
+#, kde-format
+msgid "(C) 2008-2010 Stefan Majewsky and others"
+msgstr "(C) 2008-2010 Stefan Majewsky 以及同伴們"
+
+#: main.cpp:51
+#, kde-format
+msgid "Stefan Majewsky"
+msgstr "Stefan Majewsky"
+
+#: main.cpp:51
+#, kde-format
+msgid "Original author and current maintainer"
+msgstr "原始作者，目前維護者"
+
+#: main.cpp:52
+#, kde-format
+msgid "Paul Bunbury"
+msgstr "Paul Bunbury"
+
+#: main.cpp:52
+#, kde-format
+msgid "Gameplay refinement"
+msgstr "遊戲微調"
+
+#: main.cpp:53
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: main.cpp:53
+#, kde-format
+msgid "Default theme"
+msgstr "預設主題"
+
+#: main.cpp:54
+#, kde-format
+msgid "Felix Lemke"
+msgstr "Felix Lemke"
+
+#: main.cpp:54
+#, kde-format
+msgid "Classic theme"
+msgstr "傳統主題"
+
+#: main.cpp:55
+#, kde-format
+msgid "Jeffrey Kelling"
+msgstr "Jeffrey Kelling"
+
+#: main.cpp:55
+#, kde-format
+msgid "Technical consultant"
+msgstr "技術顧問"
+
+#: mainwindow.cpp:71
+#, kde-format
+msgctxt "new game"
+msgid "&New"
+msgstr "新增(&N)"
+
+#: mainwindow.cpp:72
+#, kde-format
+msgid "Timed game"
+msgstr "限時遊戲"
+
+#: mainwindow.cpp:79
+#, kde-format
+msgid "Start a new game"
+msgstr "開始新遊戲"
+
+#: mainwindow.cpp:80
+#, kde-format
+msgid "Start a new game."
+msgstr "開始新遊戲。"
+
+#: mainwindow.cpp:164
+#, kde-format
+msgid "Untimed"
+msgstr "不限時"
+
+#: mainwindow.cpp:164
+#, kde-format
+msgid "Timed"
+msgstr "限時"
+
+#: mainwindow.cpp:167 mainwindow.cpp:183
+#, kde-format
+msgid "Mode"
+msgstr "模式"
+
+#: view.cpp:33
+#, kde-format
+msgid ""
+"<h3>Rules of Game</h3><p>Your goal is to assemble lines of at least three "
+"similar diamonds. Click on two adjacent diamonds to swap them.</p><p>Earn "
+"extra points by building cascades, and extra seconds by assembling big lines "
+"or multiple lines at one time.</p>"
+msgstr ""
+"<h3>遊戲規則</h3><p>您的目的是將至少三個相似的寶石組合成線。點擊兩個相鄰的寶"
+"石可以交換位置。</p> <p>如果連續組合成功數次，可以獲得額外的分數。若是一次組"
+"合四顆以上，或是一次組合成多條線，則可以獲得額外的時間。</p>"
+
+#~ msgid "Theme"
+#~ msgstr "主題"
+
+#~ msgid "The graphical theme to be used."
+#~ msgstr "要使用的圖形主題。"
+
+#~ msgid "Start with Very Easy difficulty level"
+#~ msgstr "從「非常容易」等級開始"
+
+#~ msgid "Start with Easy difficulty level"
+#~ msgstr "從「容易」等級開始"
+
+#~ msgid "Start with Medium difficulty level"
+#~ msgstr "從「中等」等級開始"
+
+#~ msgid "Start with Hard difficulty level"
+#~ msgstr "從「困難」等級開始"
+
+#~ msgid "Start with Very Hard difficulty level"
+#~ msgstr "從「非常困難」等級開始"
+
+#~ msgid "The difficulty level."
+#~ msgstr "困難度等級。"
+
+#~ msgid "Failed to load \"%1\" theme. Please check your installation."
+#~ msgstr "無法載入主題 %1。請檢查您的安裝。"
+
+#~ msgid "Time left: 1 second"
+#~ msgid_plural "Time left: %1 seconds"
+#~ msgstr[0] "剩餘時間：%1 秒"
+
+#~ msgid "1 second"
+#~ msgid_plural "%1 seconds"
+#~ msgstr[0] "%1 秒"
+
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 分"
+
+#~ msgctxt "The two parameters are strings like '2 minutes' or '1 second'."
+#~ msgid "Time left: %1, %2"
+#~ msgstr "剩餘時間：%1 %2"
+
+#~ msgid "Show minutes on timer"
+#~ msgstr "在計時器中顯示分鐘"
+
+#~ msgid "Show minutes separately on the timer."
+#~ msgstr "在計時器中分開顯示分鐘。"
+
+#~ msgid "Untimed Game"
+#~ msgstr "不限時的遊戲"

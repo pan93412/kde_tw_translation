@@ -1,0 +1,821 @@
+# translation of kinfocenter.po to Chinese Traditional
+# Traditional Chinese Translation of kcontrol
+# Copyright (C) 2002, 2007, 2008 Free Software Foundation, Inc.
+#
+# Revised by Kenduest Lee <kenduest@i18n.linux.org.tw> , 2001.
+# Paladin Liu <paladin@ms1.hinet.net>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-08 03:33+0100\n"
+"PO-Revision-Date: 2016-11-03 16:35+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Paladin Liu, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "paladin@ms1.hinet.net, s8321414@gmail.com"
+
+#: infocenter.cpp:52
+#, kde-format
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "KInfocenter"
+
+#: infocenter.cpp:127
+#, kde-format
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "關於目前的資訊模組"
+
+#: infocenter.cpp:132
+#, kde-format
+msgctxt "Module help button label"
+msgid "Module Help"
+msgstr "模組說明"
+
+#: infocenter.cpp:135
+#, kde-format
+msgctxt "Help button label"
+msgid "Help"
+msgstr "說明"
+
+#: infocenter.cpp:175
+#, kde-format
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr "搜尋"
+
+#: infocenter.cpp:180
+#, kde-format
+msgctxt "Kaction search label"
+msgid "Search Modules"
+msgstr "搜尋模組"
+
+#: infokcmmodel.cpp:34
+#, kde-format
+msgid "Information Modules"
+msgstr "資訊模組"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kinfocenterui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: main.cpp:42
+#, kde-format
+msgid "Info Center"
+msgstr "資訊中心"
+
+#: main.cpp:45
+#, fuzzy, kde-format
+#| msgid "Copyright 2009-2016 KDE"
+msgid "Copyright 2009-2018 KDE"
+msgstr "Copyright 2009-2016 KDE"
+
+#: main.cpp:47
+#, kde-format
+msgid "David Hubner"
+msgstr "David Hubner"
+
+#: main.cpp:47
+#, kde-format
+msgid "Current Maintainer"
+msgstr "目前維護者"
+
+#: main.cpp:48
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: main.cpp:48
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "前任維護者"
+
+#: main.cpp:49
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:50
+#, kde-format
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: main.cpp:51
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:52
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:53
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: sidepanel.cpp:106
+#, kde-format
+msgid "Clear Search"
+msgstr "清除搜尋"
+
+#: sidepanel.cpp:109
+#, kde-format
+msgid "Expand All Categories"
+msgstr "展開所有類別"
+
+#: sidepanel.cpp:112
+#, kde-format
+msgid "Collapse All Categories"
+msgstr "折起所有類別"
+
+#~ msgid "The KDE Info Center"
+#~ msgstr "KDE 資訊中心"
+
+#~ msgid "(c) 2009-2010, The KDE SC KInfocenter Development Team"
+#~ msgstr "(c) 2009-2010, The KDE SC KInfocenter 開發團隊"
+
+#~ msgid "%1  ( %2 )"
+#~ msgstr "%1  ( %2 )"
+
+#~ msgctxt "Export button label"
+#~ msgid "Export"
+#~ msgstr "匯出"
+
+#~ msgid "Export of the module has produced no output."
+#~ msgstr "此模組匯出時沒有產生任何輸出。"
+
+#~ msgid "Unable to open file to write export information"
+#~ msgstr "無法開啟檔案以寫入匯出資訊"
+
+#~ msgid "Export information for %1"
+#~ msgstr "%1 的匯出資訊"
+
+#~ msgid "Information exported"
+#~ msgstr "資訊已匯出"
+
+#~ msgctxt "Help Button ToolTip"
+#~ msgid "Opens help browser for selected module"
+#~ msgstr "開啟選取模組的說明瀏覽器"
+
+#~ msgctxt "Export Button ToolTip"
+#~ msgid "Exports information for selected module"
+#~ msgstr "匯出選取模組的資訊"
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Information"
+#~ msgstr "資訊"
+
+#~ msgid "Value"
+#~ msgstr "數值"
+
+#~ msgctxt "Mebibyte"
+#~ msgid "MiB "
+#~ msgstr "MB"
+
+#~ msgid "Device"
+#~ msgstr "裝置"
+
+#~ msgid "Mount Point"
+#~ msgstr "掛載點"
+
+#~ msgid "FS Type"
+#~ msgstr "檔案系統型態"
+
+#~ msgid "Total Size"
+#~ msgstr "總共大小"
+
+#~ msgid "Free Size"
+#~ msgstr "剩餘大小"
+
+#~ msgid "n/a"
+#~ msgstr "無"
+
+#~ msgid "CPU %1: %2, %3 MHz"
+#~ msgstr "CPU %1：%2，%3 MHz"
+
+#~ msgid "CPU %1: %2, unknown speed"
+#~ msgstr "CPU %1：%2，速度未知"
+
+#~ msgid ""
+#~ "Your sound system could not be queried.  /dev/sndstat does not exist or "
+#~ "is not readable."
+#~ msgstr "無法查詢您的音效系統。/dev/sndstat 不存在，或無法讀取。"
+
+#~ msgid ""
+#~ "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+#~ msgstr "無法查詢 SCSI 子系統：找不到 /sbin/camcontrol。"
+
+#~ msgid ""
+#~ "SCSI subsystem could not be queried: /sbin/camcontrol could not be "
+#~ "executed"
+#~ msgstr "無法查詢 SCSI 子系統：無法執行 /sbin/camcontrol。"
+
+#~ msgid ""
+#~ "Could not find any programs with which to query your system's PCI "
+#~ "information"
+#~ msgstr "找不到程式可以查詢您系統中的 PCI 資訊"
+
+#~ msgid "PCI subsystem could not be queried: %1 could not be executed"
+#~ msgstr "無法查詢 PCI 子系統：%1 無法執行"
+
+#~ msgid ""
+#~ "The PCI subsystem could not be queried, this may need root privileges."
+#~ msgstr "無法查詢 PCI 子系統，可能需要 root 權限。"
+
+#~ msgid "Could not check file system info: "
+#~ msgstr "無法檢查檔案系統資訊："
+
+#~ msgid "Mount Options"
+#~ msgstr "掛載選項"
+
+#~ msgid "PA-RISC Processor"
+#~ msgstr "PA-RISC 處理器"
+
+#~ msgid "PA-RISC Revision"
+#~ msgstr "PA-RISC 版本"
+
+#~ msgid "Machine"
+#~ msgstr "機器"
+
+#~ msgid "Machine Identification Number"
+#~ msgstr "機器辨識編號"
+
+#~ msgid "(none)"
+#~ msgstr "（無）"
+
+#~ msgid "Number of Active Processors"
+#~ msgstr "使用中處理器數量"
+
+#~ msgid "CPU Clock"
+#~ msgstr "CPU 頻率"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "(unknown)"
+#~ msgstr "（未知）"
+
+#~ msgid "CPU Architecture"
+#~ msgstr "CPU 架構"
+
+#~ msgid "enabled"
+#~ msgstr "已開啟"
+
+#~ msgid "disabled"
+#~ msgstr "已關閉"
+
+#~ msgid "Numerical Coprocessor (FPU)"
+#~ msgstr "浮點運算器（FPU）"
+
+#~ msgctxt "Mebibyte"
+#~ msgid "MiB"
+#~ msgstr "MB"
+
+#~ msgid "Total Physical Memory"
+#~ msgstr "總實體記憶體"
+
+#~ msgid " Bytes"
+#~ msgstr " 位元組"
+
+#~ msgid "Size of One Page"
+#~ msgstr "一個記憶頁大小"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Audio Name"
+#~ msgstr "音效名稱"
+
+#~ msgid "Vendor"
+#~ msgstr "製造商"
+
+#~ msgid "Alib Version"
+#~ msgstr "Alib 版本"
+
+#~ msgid "Protocol Revision"
+#~ msgstr "協定版本"
+
+#~ msgid "Vendor Number"
+#~ msgstr "製造商編號"
+
+#~ msgid "Release"
+#~ msgstr "版次"
+
+#~ msgid "Byte Order"
+#~ msgstr "位元組順序"
+
+#~ msgid "ALSBFirst (LSB)"
+#~ msgstr "低位元組優先"
+
+#~ msgid "AMSBFirst (MSB)"
+#~ msgstr "高位元組優先"
+
+#~ msgid "Invalid Byteorder."
+#~ msgstr "不合法的位元組順序"
+
+#~ msgid "Bit Order"
+#~ msgstr "位元順序"
+
+#~ msgid "ALeastSignificant (LSB)"
+#~ msgstr "低位元優先"
+
+#~ msgid "AMostSignificant (MSB)"
+#~ msgstr "高位元優先"
+
+#~ msgid "Invalid Bitorder."
+#~ msgstr "不合法的位元順序。"
+
+#~ msgid "Data Formats"
+#~ msgstr "資料格式"
+
+#~ msgid "Sampling Rates"
+#~ msgstr "取樣頻率"
+
+#~ msgid "Input Sources"
+#~ msgstr "輸入來源"
+
+#~ msgid "Mono-Microphone"
+#~ msgstr "單音麥克風"
+
+#~ msgid "Mono-Auxiliary"
+#~ msgstr "單音輔助裝置"
+
+#~ msgid "Left-Microphone"
+#~ msgstr "左方麥克風"
+
+#~ msgid "Right-Microphone"
+#~ msgstr "右方麥克風"
+
+#~ msgid "Left-Auxiliary"
+#~ msgstr "左方輔助裝置"
+
+#~ msgid "Right-Auxiliary"
+#~ msgstr "右方輔助裝置"
+
+#~ msgid "Input Channels"
+#~ msgstr "輸入聲道"
+
+#~ msgid "Mono-Channel"
+#~ msgstr "單聲道"
+
+#~ msgid "Left-Channel"
+#~ msgstr "左聲道"
+
+#~ msgid "Right-Channel"
+#~ msgstr "右聲道"
+
+#~ msgid "Output Destinations"
+#~ msgstr "輸出目標"
+
+#~ msgid "Mono-InternalSpeaker"
+#~ msgstr "單音內建揚聲器"
+
+#~ msgid "Mono-Jack"
+#~ msgstr "單音 Jack"
+
+#~ msgid "Left-InternalSpeaker"
+#~ msgstr "左方內建揚聲器"
+
+#~ msgid "Right-InternalSpeaker"
+#~ msgstr "右方內建揚聲器"
+
+#~ msgid "Left-Jack"
+#~ msgstr "左方 Jack"
+
+#~ msgid "Right-Jack"
+#~ msgstr "右方 Jack"
+
+#~ msgid "Output Channels"
+#~ msgstr "輸出聲道"
+
+#~ msgid "Gain"
+#~ msgstr "增益"
+
+#~ msgid "Input Gain Limits"
+#~ msgstr "輸入增益限制"
+
+#~ msgid "Output Gain Limits"
+#~ msgstr "輸出增益限制"
+
+#~ msgid "Monitor Gain Limits"
+#~ msgstr "監視增益限制"
+
+#~ msgid "Gain Restricted"
+#~ msgstr "增益限制"
+
+#~ msgid "Lock"
+#~ msgstr "鎖定"
+
+#~ msgid "Queue Length"
+#~ msgstr "佇列長度"
+
+#~ msgid "Block Size"
+#~ msgstr "區塊大小"
+
+#~ msgid "Stream Port (decimal)"
+#~ msgstr "串流埠（十進位）"
+
+#~ msgid "DMA-Channel"
+#~ msgstr "DMA 頻道"
+
+#~ msgid "Used By"
+#~ msgstr "使用者"
+
+#~ msgid "I/O-Range"
+#~ msgstr "輸出入範圍"
+
+#~ msgid "Devices"
+#~ msgstr "裝置"
+
+#~ msgid "Major Number"
+#~ msgstr "主編號"
+
+#~ msgid "Minor Number"
+#~ msgstr "次編號"
+
+#~ msgid "Character Devices"
+#~ msgstr "字元裝置"
+
+#~ msgid "Block Devices"
+#~ msgstr "區塊裝置"
+
+#~ msgid "Miscellaneous Devices"
+#~ msgstr "雜項裝置"
+
+#~ msgid "IRQ"
+#~ msgstr "IRQ"
+
+#~ msgid "No PCI devices found."
+#~ msgstr "沒有找到 PCI 裝置。"
+
+#~ msgid "No I/O port devices found."
+#~ msgstr "沒有找到輸出入埠裝置。"
+
+#~ msgid "No audio devices found."
+#~ msgstr "沒有找到音效裝置。"
+
+#~ msgid "No SCSI devices found."
+#~ msgstr "沒有找到 SCSI 裝置。"
+
+#~ msgid "Total Nodes"
+#~ msgstr "總節點"
+
+#~ msgid "Free Nodes"
+#~ msgstr "剩餘節點"
+
+#~ msgid "Flags"
+#~ msgstr "旗標"
+
+#~ msgid "Unable to run /sbin/mount."
+#~ msgstr "無法執行 /sbin/mount。"
+
+#~ msgid "Device Name"
+#~ msgstr "裝置名稱"
+
+#~ msgid "Manufacturer"
+#~ msgstr "製造商"
+
+#~ msgid "Instance"
+#~ msgstr "實體"
+
+#~ msgid "CPU Type"
+#~ msgstr "CPU 型態"
+
+#~ msgid "FPU Type"
+#~ msgstr "浮點運算器型態"
+
+#~ msgid "State"
+#~ msgstr "狀態"
+
+#~ msgid "Mount Time"
+#~ msgstr "掛載時間"
+
+#~ msgid "character special"
+#~ msgstr "字元特殊"
+
+#~ msgid "block special"
+#~ msgstr "區塊特殊"
+
+#~ msgctxt "Can be either character special or block special"
+#~ msgid "Special type:"
+#~ msgstr "指定型態："
+
+#~ msgid "Nodetype:"
+#~ msgstr "節點型態："
+
+#~ msgid "Major/Minor:"
+#~ msgstr "主/次編號："
+
+#~ msgid "(no value)"
+#~ msgstr "（沒有值）"
+
+#~ msgid "Driver Name:"
+#~ msgstr "驅動程式名稱："
+
+#~ msgid "(driver not attached)"
+#~ msgstr "（未掛上驅動程式）"
+
+#~ msgid "Binding Name:"
+#~ msgstr "結合名稱："
+
+#~ msgid "Compatible Names:"
+#~ msgstr "相容名稱："
+
+#~ msgid "Physical Path:"
+#~ msgstr "實體路徑："
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "Type:"
+#~ msgstr "型態："
+
+#~ msgid "Value:"
+#~ msgstr "數值："
+
+#~ msgid "Minor Nodes"
+#~ msgstr "次節點"
+
+#~ msgid "Device Information"
+#~ msgstr "裝置資訊"
+
+#~ msgid "LSBFirst"
+#~ msgstr "低位元組優先"
+
+#~ msgid "MSBFirst"
+#~ msgstr "高位元組優先"
+
+#~ msgid "Unknown Order %1"
+#~ msgstr "未知的順序 %1"
+
+#~ msgid "1 Bit"
+#~ msgid_plural "%1 Bits"
+#~ msgstr[0] "%1 位元"
+
+#~ msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
+#~ msgid "1 Byte"
+#~ msgstr "1 位元組"
+
+#~ msgctxt "plural form: '%1 Bytes'"
+#~ msgid "%1 Bytes"
+#~ msgstr "%1 位元組"
+
+#~ msgid "Screen # %1"
+#~ msgstr "螢幕 #%1"
+
+#~ msgid "(Default Screen)"
+#~ msgstr "（預設螢幕）"
+
+#~ msgid "Dimensions"
+#~ msgstr "尺寸"
+
+#~ msgid "%1 x %2 Pixels (%3 x %4 mm)"
+#~ msgstr "%1 x %2 像素（%3 x %4 釐米）"
+
+#~ msgid "Resolution"
+#~ msgstr "解析度"
+
+#~ msgid "Depths (%1)"
+#~ msgstr "深度（%1）"
+
+#~ msgid "Root Window ID"
+#~ msgstr "根視窗代碼"
+
+#~ msgid "Depth of Root Window"
+#~ msgstr "根視窗深度"
+
+#~ msgid "%1 plane"
+#~ msgid_plural "%1 planes"
+#~ msgstr[0] "%1 個平面"
+
+#~ msgid "Number of Colormaps"
+#~ msgstr "色彩圖的數量"
+
+#~ msgid "minimum %1, maximum %2"
+#~ msgstr "最小 %1，最大 %2"
+
+#~ msgid "Default Colormap"
+#~ msgstr "預設色彩圖"
+
+#~ msgid "Default Number of Colormap Cells"
+#~ msgstr "預設色彩圖格的數量"
+
+#~ msgid "Preallocated Pixels"
+#~ msgstr "預先配置的像素"
+
+#~ msgid "Black %1, White %2"
+#~ msgstr "黑 %1，白 %2"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "When mapped"
+#~ msgstr "映射時"
+
+#~ msgid "backing-store: %1, save-unders: %2"
+#~ msgstr "backing-store: %1, save-unders: %2"
+
+#~ msgid "Largest Cursor"
+#~ msgstr "最大的游標"
+
+#~ msgid "unlimited"
+#~ msgstr "不限制"
+
+#~ msgid "Current Input Event Mask"
+#~ msgstr "目前輸入事件遮罩"
+
+#~ msgid "Event = %1"
+#~ msgstr "事件 = %1"
+
+#~ msgid "Server Information"
+#~ msgstr "伺服器資訊"
+
+#~ msgid "Name of the Display"
+#~ msgstr "顯示數量"
+
+#~ msgid "Vendor String"
+#~ msgstr "製造商字串"
+
+#~ msgid "Vendor Release Number"
+#~ msgstr "製造商釋出編號"
+
+#~ msgid "Version Number"
+#~ msgstr "版號"
+
+#~ msgid "Available Screens"
+#~ msgstr "可用的螢幕"
+
+#~ msgid "Supported Extensions"
+#~ msgstr "支援的延伸"
+
+#~ msgid "Supported Pixmap Formats"
+#~ msgstr "支援的像素圖格式"
+
+#~ msgid "Pixmap Format #%1"
+#~ msgstr "像素圖格式 #%1"
+
+#~ msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+#~ msgstr "%1 BPP，深度：%2，掃描線補齊：%3"
+
+#~ msgid "Maximum Request Size"
+#~ msgstr "最大要求大小"
+
+#~ msgid "Motion Buffer Size"
+#~ msgstr "移動緩衝器大小"
+
+#~ msgid "Bitmap"
+#~ msgstr "點陣圖"
+
+#~ msgid "Unit"
+#~ msgstr "單位"
+
+#~ msgid "Order"
+#~ msgstr "排序"
+
+#~ msgid "Padding"
+#~ msgstr "補齊"
+
+#~ msgid "Image Byte Order"
+#~ msgstr "影像位元組順序"
+
+#~ msgid "This system may not be completely supported yet."
+#~ msgstr "此系統可能尚未完全支援。"
+
+#~ msgid "Get system and desktop environment information"
+#~ msgstr "取得系統與桌面環境資訊"
+
+#~ msgid ""
+#~ "Welcome to the \"KDE Info Center\", a central place to find information "
+#~ "about your computer system."
+#~ msgstr "歡迎使用「KDE 資訙中心」，您可以在這裡找到關於您電腦系統上的資訊。"
+
+#~ msgid ""
+#~ "Click on the \"Help\" tab on the left to view help for the active control "
+#~ "module. Use the \"Search\" tab if you are unsure where to look for a "
+#~ "particular configuration option."
+#~ msgstr ""
+#~ "點選左方的「說明」鍵來查看目前作用的控制模組的說明。如果不確定要如何尋找特"
+#~ "定的設定選項，請使用「搜尋」頁。"
+
+#~ msgid "KDE version:"
+#~ msgstr "KDE 版本:"
+
+#~ msgid "User:"
+#~ msgstr "使用者:"
+
+#~ msgid "Hostname:"
+#~ msgstr "主機名稱:"
+
+#~ msgid "System:"
+#~ msgstr "系統:"
+
+#~ msgid "Release:"
+#~ msgstr "版次:"
+
+#~ msgid "Machine:"
+#~ msgstr "機器:"
+
+#~ msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
+#~ msgstr "<p>點選這裡可以參考完整的<a href=\"%1\">手冊</a>。</p>"
+
+#~ msgid ""
+#~ "<h1>KDE Info Center</h1>There is no quick help available for the active "
+#~ "info module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</"
+#~ "a> to read the general Info Center manual."
+#~ msgstr ""
+#~ "<h1>KDE 資訊中心</h1>抱歉，作用中的資訊模組並無快速說明。<br /><br />請按 "
+#~ "<a href = \"kinfocenter/index.html\">這裡</a> 以讀取一般資訊中心手冊。"
+
+#~ msgid "<big><b>Loading...</b></big>"
+#~ msgstr "<big><b>載入中...</b></big>"
+
+#~ msgid ""
+#~ "There are unsaved changes in the active module.\n"
+#~ "Do you want to apply the changes before running the new module or discard "
+#~ "the changes?"
+#~ msgstr ""
+#~ "作用中的模組留有未儲存的變更。\n"
+#~ "執行新模組前是否要套用變更，或者忽略變更?"
+
+#~ msgid ""
+#~ "There are unsaved changes in the active module.\n"
+#~ "Do you want to apply the changes before exiting the System Settings or "
+#~ "discard the changes?"
+#~ msgstr ""
+#~ "作用中的模組留有未儲存的變更。\n"
+#~ "在離開系統設定前是否要套用變更，或者忽略變更?"
+
+#~ msgid "Unsaved Changes"
+#~ msgstr "未儲存變更"
+
+#~ msgid "Filter:"
+#~ msgstr "過濾器："
+
+#~ msgid "General Information"
+#~ msgstr "一般資訊"
+
+#~ msgid "The currently loaded configuration module."
+#~ msgstr "目前載入的設定模組。"
+
+#~ msgid "&Report Bug..."
+#~ msgstr "回報問題(&R)..."
+
+#~ msgctxt "Help menu->about <modulename>"
+#~ msgid "About %1"
+#~ msgstr "關於 %1"
+
+#~ msgid "Report Bug on Module %1..."
+#~ msgstr "回報模組 %1 的問題..."
+
+#~ msgid " MB"
+#~ msgstr " MB"
+
+#~ msgid "Kernel is configured for %1 CPUs"
+#~ msgstr "核心設定為 %1 個處理器"
+
+#~ msgid "CPU %1: %2"
+#~ msgstr "CPU %1：%2"
+
+#~ msgid "Ext Number"
+#~ msgstr "延伸編號"

@@ -1,0 +1,2660 @@
+# translation of gwenview.po to Chinese Traditional
+# translation of gwenview.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2007, 2010, 2012.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Goodhorse <franklin@goodhorse.idv.tw>, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: gwenview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-23 03:27+0100\n"
+"PO-Revision-Date: 2017-09-27 08:39+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/advancedconfigpage.ui:17
+#, kde-format
+msgid "Cache:"
+msgstr "快取："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DeleteThumbnailCacheOnExit)
+#: app/advancedconfigpage.ui:29
+#, kde-format
+msgid "Delete thumbnail cache folder on exit"
+msgstr "離開時刪除縮圖的快取資料夾"
+
+#. i18n: ectx: property (text), widget (QLabel, cacheHelpLabel)
+#: app/advancedconfigpage.ui:51
+#, kde-format
+msgid ""
+"Enable this option if you do not have a lot of disk space.<br/><br/><em>Be "
+"careful:</em> this will delete the folder named <filename>.thumbnails</"
+"filename> in your home folder, deleting all thumbnails previously generated "
+"by Gwenview and other applications."
+msgstr ""
+"若您的磁碟空間有限，建議開啟此選項。<br/><br/>不過請小心：它會刪除您的家目錄"
+"中名為 <filename>.thumbnails</filename> 的資料夾，有可能會刪掉其它應用程式建"
+"立在這裡的縮圖。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/advancedconfigpage.ui:77
+#, kde-format
+msgid "History:"
+msgstr "歷史紀錄："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HistoryEnabled)
+#: app/advancedconfigpage.ui:89
+#, kde-format
+msgid "Remember folders and URLs"
+msgstr "記住資料夾與網址"
+
+#. i18n: ectx: property (text), widget (QLabel, colorRenderingLabel)
+#: app/advancedconfigpage.ui:127
+#, kde-format
+msgid "Rendering intent:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, perceptualRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:142
+#, kde-format
+msgctxt "@option:Perceptual rendering intent"
+msgid "Perceptual"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, perceptualHelpLabel)
+#: app/advancedconfigpage.ui:154
+#, kde-format
+msgid ""
+"Scale all colors equally to fit them within the active color profile's color "
+"gamut"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, relativeRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:182
+#, kde-format
+msgctxt "@option:Relative Colorimetric rendering intent"
+msgid "Relative Colorimetric"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, relativeHelpLabel)
+#: app/advancedconfigpage.ui:194
+#, kde-format
+msgid ""
+"Squash colors that don't fit within the active color profile's color gamut, "
+"leaving other colors untouched"
+msgstr ""
+
+#: app/browsemainpage.cpp:134 app/mainwindow.cpp:363 app/viewmainpage.cpp:404
+#: lib/documentview/documentviewcontroller.cpp:90
+#, kde-format
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "View"
+msgstr "檢視"
+
+#: app/browsemainpage.cpp:136
+#, kde-format
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Edit Location"
+msgstr "編輯位置"
+
+#: app/browsemainpage.cpp:140
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Sort By"
+msgstr "排序依據"
+
+#: app/browsemainpage.cpp:141
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Name"
+msgstr "名稱"
+
+#: app/browsemainpage.cpp:143
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Date"
+msgstr "日期"
+
+#: app/browsemainpage.cpp:145
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Size"
+msgstr "大小"
+
+#: app/browsemainpage.cpp:153
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Thumbnail Details"
+msgstr "縮圖詳情"
+
+#: app/browsemainpage.cpp:154
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filename"
+msgstr "檔案名稱"
+
+#: app/browsemainpage.cpp:155
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Date"
+msgstr "日期"
+
+#: app/browsemainpage.cpp:156
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Image Size"
+msgstr "影像大小"
+
+#: app/browsemainpage.cpp:157
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File Size"
+msgstr "檔案大小"
+
+#: app/browsemainpage.cpp:159
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rating"
+msgstr "比率"
+
+#: app/browsemainpage.cpp:162 app/fileopscontextmanageritem.cpp:133
+#: app/mainwindow.cpp:362
+#, kde-format
+msgctxt "@title actions category"
+msgid "File"
+msgstr "檔案"
+
+#: app/browsemainpage.cpp:164
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add Folder to Places"
+msgstr "新增要擺放的資料夾"
+
+#: app/browsemainpage.cpp:191
+#, kde-format
+msgctxt "@label"
+msgid "%1 document"
+msgid_plural "%1 documents"
+msgstr[0] "%1 份文件"
+
+#. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
+#: app/browsemainpage.ui:88
+#, kde-format
+msgid "Add Filter"
+msgstr "新增過濾器"
+
+#: app/configdialog.cpp:62
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: app/configdialog.cpp:96
+#, kde-format
+msgid "Image View"
+msgstr "影像檢視"
+
+#: app/configdialog.cpp:107
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#: app/fileoperations.cpp:65
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Copy"
+msgctxt "@title:window %1 file name"
+msgid "Copy %1"
+msgstr "複製"
+
+#: app/fileoperations.cpp:67
+#, fuzzy, kde-format
+#| msgid "Loop on images"
+msgctxt "@title:window %1 number of images"
+msgid "Copy %1 image"
+msgid_plural "Copy %1 images"
+msgstr[0] "循環播放影像"
+
+#: app/fileoperations.cpp:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "複製"
+
+#: app/fileoperations.cpp:73
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Move"
+msgctxt "@title:window %1 file name"
+msgid "Move %1"
+msgstr "移動"
+
+#: app/fileoperations.cpp:75
+#, fuzzy, kde-format
+#| msgctxt "%1 is collection name, %2 is image count in collection"
+#| msgid "%1 (%2 image)"
+#| msgid_plural "%1 (%2 images)"
+msgctxt "@title:window %1 number of images"
+msgid "Move %1 image"
+msgid_plural "Move %1 images"
+msgstr[0] "%1（%2 張影像）"
+
+#: app/fileoperations.cpp:77
+#, kde-format
+msgctxt "@action:button"
+msgid "Move"
+msgstr "移動"
+
+#: app/fileoperations.cpp:81
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Link"
+msgctxt "@title:window %1 file name"
+msgid "Link %1"
+msgstr "連結"
+
+#: app/fileoperations.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "%1 is collection name, %2 is image count in collection"
+#| msgid "%1 (%2 image)"
+#| msgid_plural "%1 (%2 images)"
+msgctxt "@title:window %1 number of images"
+msgid "Link %1 image"
+msgid_plural "Link %1 images"
+msgstr[0] "%1（%2 張影像）"
+
+#: app/fileoperations.cpp:85
+#, kde-format
+msgctxt "@action:button"
+msgid "Link"
+msgstr "連結"
+
+#: app/fileoperations.cpp:202
+#, kde-format
+msgid "Move Here"
+msgstr "移動到這裡"
+
+#: app/fileoperations.cpp:205
+#, kde-format
+msgid "Copy Here"
+msgstr "複製到這裡"
+
+#: app/fileoperations.cpp:208
+#, kde-format
+msgid "Link Here"
+msgstr "鏈結到這裡"
+
+#: app/fileoperations.cpp:212
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: app/fileopscontextmanageritem.cpp:121
+#, kde-format
+msgid "File Operations"
+msgstr "檔案"
+
+#: app/fileopscontextmanageritem.cpp:134
+#: app/semanticinfocontextmanageritem.cpp:200
+#, kde-format
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "編輯"
+
+#: app/fileopscontextmanageritem.cpp:141
+#, kde-format
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "複製到..."
+
+#: app/fileopscontextmanageritem.cpp:146
+#, kde-format
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "移動到..."
+
+#: app/fileopscontextmanageritem.cpp:151
+#, kde-format
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "鏈結到..."
+
+#: app/fileopscontextmanageritem.cpp:156
+#, kde-format
+msgctxt "Verb"
+msgid "Rename..."
+msgstr "重新命名..."
+
+#: app/fileopscontextmanageritem.cpp:161
+#, kde-format
+msgctxt "Verb"
+msgid "Trash"
+msgstr "資源回收桶"
+
+#: app/fileopscontextmanageritem.cpp:171
+#, kde-format
+msgid "Restore"
+msgstr "回復"
+
+#: app/fileopscontextmanageritem.cpp:175
+#, kde-format
+msgid "Properties"
+msgstr "屬性"
+
+#: app/fileopscontextmanageritem.cpp:179
+#, kde-format
+msgid "Create Folder..."
+msgstr "建立資料夾..."
+
+#: app/fileopscontextmanageritem.cpp:183
+#, kde-format
+msgid "Open With"
+msgstr "開啟方式..."
+
+#: app/fileopscontextmanageritem.cpp:190
+#, kde-format
+msgid "Open Containing Folder"
+msgstr ""
+
+#: app/fileopscontextmanageritem.cpp:386
+#, kde-format
+msgid "Other Application..."
+msgstr "其它應用程式..."
+
+#: app/filtercontroller.cpp:65
+#, kde-format
+msgid "Name contains"
+msgstr "名稱內含"
+
+#: app/filtercontroller.cpp:66
+#, kde-format
+msgid "Name does not contain"
+msgstr "名稱內不含"
+
+#: app/filtercontroller.cpp:107
+#, kde-format
+msgid "Date >="
+msgstr "日期 >="
+
+#: app/filtercontroller.cpp:108
+#, kde-format
+msgid "Date ="
+msgstr "日期 ="
+
+#: app/filtercontroller.cpp:109
+#, kde-format
+msgid "Date <="
+msgstr "日期 <="
+
+#: app/filtercontroller.cpp:142
+#, kde-format
+msgid "Rating >="
+msgstr "比率 >="
+
+#: app/filtercontroller.cpp:143
+#, kde-format
+msgid "Rating ="
+msgstr "比率 ="
+
+#: app/filtercontroller.cpp:144
+#, kde-format
+msgid "Rating <="
+msgstr "比率 <="
+
+#: app/filtercontroller.cpp:188
+#, kde-format
+msgid "Tagged"
+msgstr "已標示"
+
+#: app/filtercontroller.cpp:189
+#, kde-format
+msgid "Not Tagged"
+msgstr "未標示"
+
+#: app/filtercontroller.cpp:294
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Name"
+msgstr "以名稱過濾："
+
+#: app/filtercontroller.cpp:295
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Date"
+msgstr "以名稱日期"
+
+#: app/filtercontroller.cpp:297
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Rating"
+msgstr "以評等過濾："
+
+#: app/filtercontroller.cpp:298
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Tag"
+msgstr "以標籤過濾："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: app/fullscreenconfigwidget.ui:20
+#, kde-format
+msgid "Slideshow"
+msgstr "投影秀"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/fullscreenconfigwidget.ui:29
+#, kde-format
+msgid "Interval:"
+msgstr "間隔："
+
+#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowLoopCheckBox)
+#: app/fullscreenconfigwidget.ui:75
+#, kde-format
+msgid "Loop"
+msgstr "迴圈"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowRandomCheckBox)
+#: app/fullscreenconfigwidget.ui:82
+#, kde-format
+msgid "Random"
+msgstr "隨機"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: app/fullscreenconfigwidget.ui:92
+#, kde-format
+msgid "Image Information"
+msgstr "影像資訊"
+
+#. i18n: ectx: property (text), widget (QPushButton, mConfigureDisplayedInformationButton)
+#: app/fullscreenconfigwidget.ui:101
+#, kde-format
+msgid "Select Image Information to Display..."
+msgstr "選擇要顯示的影像資訊..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, mThumbnailGroupBox)
+#: app/fullscreenconfigwidget.ui:111
+#, kde-format
+msgid "Thumbnails"
+msgstr "縮圖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowThumbnailsCheckBox)
+#: app/fullscreenconfigwidget.ui:120
+#, kde-format
+msgid "Show thumbnails"
+msgstr "顯示縮圖"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: app/fullscreenconfigwidget.ui:130
+#, kde-format
+msgid "Height:"
+msgstr "高度："
+
+#: app/fullscreencontent.cpp:217
+#, kde-format
+msgctxt "@item:intext fullscreen meta info separator"
+msgid ", "
+msgstr ", "
+
+#: app/fullscreencontent.cpp:266
+#, kde-format
+msgctxt "Slideshow interval in seconds"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] "%1 秒"
+
+#: app/fullscreencontent.cpp:370
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure full screen mode"
+msgstr "設定全螢幕模式"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/generalconfigpage.ui:17
+#, kde-format
+msgid "Videos:"
+msgstr "影片："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
+#: app/generalconfigpage.ui:24
+#, kde-format
+msgid "Show videos"
+msgstr "顯示影片"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/generalconfigpage.ui:47
+#, kde-format
+msgid "Background color:"
+msgstr "背景顏色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/generalconfigpage.ui:128
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Thumbnail Details"
+msgid "Thumbnail actions:"
+msgstr "縮圖詳情"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allButtonsThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:135
+#, kde-format
+msgid "All buttons"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectionOnlyThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:142
+#, kde-format
+msgid "Show selection button only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, noneThumbnailActionsRadioButton)
+#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
+#: app/generalconfigpage.ui:149 app/imageviewconfigpage.ui:409
+#, kde-format
+msgid "None"
+msgstr "無"
+
+#: app/gvcore.cpp:74
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Image"
+msgstr "儲存影像"
+
+#: app/gvcore.cpp:106
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot save images as %1."
+msgstr "Gwenview 無法以 %1 格式儲存影像。"
+
+#: app/gvcore.cpp:341
+#, kde-format
+msgid "Save using another format"
+msgstr "用另一格式儲存"
+
+#: app/gvcore.cpp:344
+#, kde-format
+msgid "Gwenview cannot save images in '%1' format."
+msgstr "Gwenview 無法以 %1 格式儲存影像。"
+
+#: app/gvcore.cpp:369
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A file named <filename>%1</filename> already exists.\n"
+"Are you sure you want to overwrite it?"
+msgstr "名為 <filename>%1</filename> 的檔案已存在。您要覆寫它嗎？"
+
+#: app/gvcore.cpp:384 app/gvcore.cpp:407
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<b>Saving <filename>%1</filename> failed:</b><br />%2"
+msgstr "<b>儲存 <filename>%1</filename> 失敗：</b><br />%2"
+
+#: app/gvcore.cpp:427
+#, kde-format
+msgid "You are now viewing the new document."
+msgstr "您正在檢視新文件。"
+
+#: app/gvcore.cpp:429
+#, kde-format
+msgid "Go back to the original"
+msgstr "回到最原始的"
+
+#. i18n: ectx: Menu (rating)
+#: app/gwenviewui.rc:47
+#, kde-format
+msgid "&Rating"
+msgstr "比率(&R)："
+
+#. i18n: ectx: Menu (plugins)
+#: app/gwenviewui.rc:76
+#, kde-format
+msgid "&Plugins"
+msgstr "外掛程式(&P)"
+
+#. i18n: ectx: Menu (settings)
+#: app/gwenviewui.rc:79
+#, kde-format
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: app/gwenviewui.rc:94 part/gvpart.rc:15
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: app/imagemetainfodialog.cpp:130
+#, kde-format
+msgctxt "@title:window"
+msgid "Image Information"
+msgstr "影像資訊"
+
+#: app/imageopscontextmanageritem.cpp:82
+#, kde-format
+msgctxt "@title actions category - means actions changing image"
+msgid "Edit"
+msgstr "編輯"
+
+#: app/imageopscontextmanageritem.cpp:85
+#, kde-format
+msgid "Rotate Left"
+msgstr "向左旋轉"
+
+#: app/imageopscontextmanageritem.cpp:86
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rotate image to the left"
+msgstr "向左旋轉"
+
+#: app/imageopscontextmanageritem.cpp:91
+#, kde-format
+msgid "Rotate Right"
+msgstr "向右旋轉"
+
+#: app/imageopscontextmanageritem.cpp:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rotate image to the right"
+msgstr "向右旋轉"
+
+#: app/imageopscontextmanageritem.cpp:97
+#, kde-format
+msgid "Mirror"
+msgstr "鏡面"
+
+#: app/imageopscontextmanageritem.cpp:101
+#, kde-format
+msgid "Flip"
+msgstr "反轉"
+
+#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:64
+#, kde-format
+msgid "Resize"
+msgstr "改變大小"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
+#: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
+#: lib/crop/cropwidget.cpp:246 lib/crop/cropwidget.ui:20
+#, kde-format
+msgid "Crop"
+msgstr "切割"
+
+#: app/imageopscontextmanageritem.cpp:115
+#, kde-format
+msgid "Red Eye Reduction"
+msgstr "紅眼修正"
+
+#: app/imageopscontextmanageritem.cpp:141 lib/document/documentjob.cpp:79
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot edit this kind of image."
+msgstr "Gwenview 無法儲存這種影像。"
+
+#: app/imageopscontextmanageritem.cpp:153
+#, kde-format
+msgid "Image Operations"
+msgstr "影像操作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: app/imageviewconfigpage.ui:17
+#, kde-format
+msgid "Transparent background:"
+msgstr "透明背景："
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkBoardRadioButton)
+#: app/imageviewconfigpage.ui:38
+#, kde-format
+msgid "&Check board"
+msgstr "檢查盤面(&C)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, solidColorRadioButton)
+#: app/imageviewconfigpage.ui:71
+#, kde-format
+msgid "&Solid color:"
+msgstr "立體顏色(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/imageviewconfigpage.ui:119
+#, kde-format
+msgid "Mouse wheel behavior:"
+msgstr "滑鼠滾輪行為："
+
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelScrollRadioButton)
+#: app/imageviewconfigpage.ui:134
+#, kde-format
+msgctxt "@option:radio action on mouse wheel"
+msgid "Scroll"
+msgstr "捲軸"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelBrowseRadioButton)
+#: app/imageviewconfigpage.ui:161
+#, kde-format
+msgctxt "@option:radio action on mouse wheel"
+msgid "Browse"
+msgstr "瀏覽"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/imageviewconfigpage.ui:199
+#, kde-format
+msgid "Zoom mode:"
+msgstr "縮放模式："
+
+#. i18n: ectx: property (text), widget (QRadioButton, autofitZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:214
+#, kde-format
+msgid "Autofit each image"
+msgstr "自動調適每一張影像"
+
+#. i18n: ectx: property (text), widget (QRadioButton, keepSameZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:241
+#, kde-format
+msgid "Keep same zoom and position"
+msgstr "保持相同的縮放與位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, individualZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:265
+#, kde-format
+msgid "Per image zoom and position"
+msgstr "每張都縮放與調整位置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
+#: app/imageviewconfigpage.ui:305 lib/print/printoptionspage.ui:98
+#, kde-format
+msgid "Enlarge smaller images"
+msgstr "將較小的影像放大"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: app/imageviewconfigpage.ui:343
+#, kde-format
+msgid "Animations:"
+msgstr "動畫："
+
+#. i18n: ectx: property (text), widget (QRadioButton, glAnimationRadioButton)
+#: app/imageviewconfigpage.ui:358
+#, kde-format
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, softwareAnimationRadioButton)
+#: app/imageviewconfigpage.ui:385
+#, kde-format
+msgid "Software"
+msgstr "軟體"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: app/imageviewconfigpage.ui:447
+#, kde-format
+msgid "<b>Thumbnail Bar</b>"
+msgstr "<b>縮圖列</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: app/imageviewconfigpage.ui:470
+#, kde-format
+msgid "Orientation:"
+msgstr "方向："
+
+#. i18n: ectx: property (text), widget (QRadioButton, horizontalRadioButton)
+#: app/imageviewconfigpage.ui:485
+#, kde-format
+msgid "Horizontal"
+msgstr "水平"
+
+#. i18n: ectx: property (text), widget (QRadioButton, verticalRadioButton)
+#: app/imageviewconfigpage.ui:509
+#, kde-format
+msgid "Vertical"
+msgstr "垂直"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: app/imageviewconfigpage.ui:531
+#, kde-format
+msgid "Row count:"
+msgstr "列數："
+
+#: app/infocontextmanageritem.cpp:149
+#, kde-format
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgid "%1:"
+msgstr "%1："
+
+#: app/infocontextmanageritem.cpp:227
+#, kde-format
+msgctxt "@action show more image meta info"
+msgid "More..."
+msgstr "更多..."
+
+#: app/infocontextmanageritem.cpp:241
+#, kde-format
+msgctxt "@title:group"
+msgid "Meta Information"
+msgstr "中繼資訊"
+
+#: app/infocontextmanageritem.cpp:333
+#, kde-format
+msgctxt "@label"
+msgid "%1 file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "已選擇 %1 個檔案"
+
+#: app/infocontextmanageritem.cpp:335
+#, kde-format
+msgctxt "@label"
+msgid "%1 folder selected"
+msgid_plural "%1 folders selected"
+msgstr[0] "已選擇 %1 個資料夾"
+
+#: app/infocontextmanageritem.cpp:338
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 個資料夾"
+
+#: app/infocontextmanageritem.cpp:338
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 個檔案"
+
+#: app/infocontextmanageritem.cpp:338
+#, kde-format
+msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
+msgid "%1 and %2 selected"
+msgstr "已選擇 %1 與 %2"
+
+#: app/kipiexportaction.cpp:50
+#, kde-format
+msgid "Last Used Plugin"
+msgstr "上次使用的外掛程式"
+
+#: app/kipiexportaction.cpp:52
+#, kde-format
+msgid "Other Plugins"
+msgstr "其他外掛程式"
+
+#: app/kipiexportaction.cpp:62 app/kipiinterface.cpp:240
+#, kde-format
+msgid "No Plugin Found"
+msgstr "找不到外掛程式"
+
+#: app/kipiexportaction.cpp:70
+#, kde-format
+msgctxt "@action"
+msgid "Share"
+msgstr "分享"
+
+#: app/kipiexportaction.cpp:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Share images using various services"
+msgstr "用不同的服務分享影像"
+
+#: app/kipiimagecollectionselector.cpp:55
+#, kde-format
+msgctxt "%1 is collection name, %2 is image count in collection"
+msgid "%1 (%2 image)"
+msgid_plural "%1 (%2 images)"
+msgstr[0] "%1（%2 張影像）"
+
+#: app/kipiinterface.cpp:239
+#, kde-format
+msgid "Loading..."
+msgstr "載入中..."
+
+#: app/kipiinterface.cpp:241
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Install Plugins"
+msgstr "安裝外掛程式"
+
+#: app/kipiinterface.cpp:275
+#, kde-format
+msgctxt "@title:menu"
+msgid "Images"
+msgstr "影像"
+
+#: app/kipiinterface.cpp:276
+#, kde-format
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "工具"
+
+#: app/kipiinterface.cpp:277
+#, kde-format
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "匯入"
+
+#: app/kipiinterface.cpp:278
+#, kde-format
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "匯出"
+
+#: app/kipiinterface.cpp:279
+#, kde-format
+msgctxt "@title:menu"
+msgid "Batch Processing"
+msgstr "批次處理"
+
+#: app/kipiinterface.cpp:280
+#, kde-format
+msgctxt "@title:menu"
+msgid "Collections"
+msgstr "收集"
+
+#: app/kipiuploadwidget.cpp:43
+#, kde-format
+msgid ""
+"Images will be uploaded here:\n"
+"%1"
+msgstr ""
+"影像會上傳到這裡：\n"
+"%1"
+
+#: app/main.cpp:128
+#, kde-format
+msgid "Gwenview"
+msgstr "Gwenview"
+
+#: app/main.cpp:130 part/gvpart.cpp:126
+#, kde-format
+msgid "An Image Viewer"
+msgstr "影像檢視器"
+
+#: app/main.cpp:140
+#, kde-format
+msgid "Start in fullscreen mode"
+msgstr "以全螢幕模式開始"
+
+#: app/main.cpp:142
+#, kde-format
+msgid "Start in slideshow mode"
+msgstr "以投影秀模式開始"
+
+#: app/main.cpp:143
+#, kde-format
+msgid "A starting file or folders"
+msgstr "開始檔案或資料夾"
+
+#: app/mainwindow.cpp:373
+#, fuzzy, kde-format
+#| msgid "Forget this Folder"
+msgctxt "@action Open Recent menu"
+msgid "Forget All Files && Folders"
+msgstr "遺忘此資料夾"
+
+#: app/mainwindow.cpp:380
+#, kde-format
+msgctxt "@action reload the currently viewed image"
+msgid "Reload"
+msgstr "重新載入"
+
+#: app/mainwindow.cpp:385
+#, kde-format
+msgctxt "@action:intoolbar Switch to file list"
+msgid "Browse"
+msgstr "瀏覽"
+
+#: app/mainwindow.cpp:386
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Browse folders for images"
+msgstr "瀏覽影像資料夾"
+
+#: app/mainwindow.cpp:394
+#, kde-format
+msgctxt "@action:intoolbar Switch to image view"
+msgid "View"
+msgstr "檢視"
+
+#: app/mainwindow.cpp:395
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "View selected images"
+msgstr "檢視選取的影像"
+
+#: app/mainwindow.cpp:417
+#, kde-format
+msgctxt "@action"
+msgid "Leave Fullscreen Mode"
+msgstr "離開全螢幕模式"
+
+#: app/mainwindow.cpp:422
+#, kde-format
+msgctxt "@action Go to previous image"
+msgid "Previous"
+msgstr "前一個"
+
+#: app/mainwindow.cpp:423
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to previous image"
+msgstr "跳到前一個影像"
+
+#: app/mainwindow.cpp:430
+#, kde-format
+msgctxt "@action Go to next image"
+msgid "Next"
+msgstr "下一個"
+
+#: app/mainwindow.cpp:431
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to next image"
+msgstr "跳到下一個影像"
+
+#: app/mainwindow.cpp:438
+#, kde-format
+msgctxt "@action Go to first image"
+msgid "First"
+msgstr "第一張"
+
+#: app/mainwindow.cpp:439
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to first image"
+msgstr "跳到第一張影像"
+
+#: app/mainwindow.cpp:445
+#, kde-format
+msgctxt "@action Go to last image"
+msgid "Last"
+msgstr "最後一張"
+
+#: app/mainwindow.cpp:446
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to last image"
+msgstr "跳到最後一張影像"
+
+#: app/mainwindow.cpp:456
+#, kde-format
+msgctxt "@action"
+msgid "Start Page"
+msgstr "開始頁面"
+
+#: app/mainwindow.cpp:457
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open the start page"
+msgstr "開啟首頁"
+
+#: app/mainwindow.cpp:463
+#, kde-format
+msgctxt "@action"
+msgid "Sidebar"
+msgstr "邊列"
+
+#: app/mainwindow.cpp:503
+#, kde-format
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "Edit"
+msgstr "編輯"
+
+#: app/mainwindow.cpp:508
+#, kde-format
+msgid "Redo"
+msgstr "重做"
+
+#: app/mainwindow.cpp:516
+#, kde-format
+msgid "Undo"
+msgstr "復原"
+
+#: app/mainwindow.cpp:545
+#, kde-format
+msgid "Folders"
+msgstr "資料夾"
+
+#: app/mainwindow.cpp:551
+#, kde-format
+msgid "Information"
+msgstr "資訊"
+
+#: app/mainwindow.cpp:561
+#, kde-format
+msgid "Operations"
+msgstr "操作"
+
+#: app/mainwindow.cpp:1121
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Hide sidebar"
+msgstr "隱藏邊列"
+
+#: app/mainwindow.cpp:1122
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show sidebar"
+msgstr "顯示邊列"
+
+#: app/mainwindow.cpp:1375
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "開啟影像"
+
+#: app/mainwindow.cpp:1436
+#, fuzzy, kde-format
+#| msgid "Slideshow"
+msgid "Pause Slideshow"
+msgstr "投影秀"
+
+#: app/mainwindow.cpp:1439
+#, fuzzy, kde-format
+#| msgid "Slideshow"
+msgid "Resume Slideshow"
+msgstr "投影秀"
+
+#: app/mainwindow.cpp:1440
+#, kde-format
+msgid "Start Slideshow"
+msgstr "開始投影播放"
+
+#: app/mainwindow.cpp:1453
+#, kde-format
+msgid "Save All Changes"
+msgstr "儲存所有的變更"
+
+#: app/mainwindow.cpp:1454
+#, kde-format
+msgid "Discard Changes"
+msgstr "放棄修改"
+
+#: app/mainwindow.cpp:1455
+#, kde-format
+msgid "One image has been modified."
+msgid_plural "%1 images have been modified."
+msgstr[0] "%1 張影像已修改。"
+
+#: app/mainwindow.cpp:1457
+#, kde-format
+msgid "If you quit now, your changes will be lost."
+msgstr "如果您現在離開，您會失去所有的修改。"
+
+#: app/mainwindow.cpp:1661
+#, kde-format
+msgid "You reached the first document, what do you want to do?"
+msgstr "您到了第一份文件。您想要做什麼？"
+
+#: app/mainwindow.cpp:1662 app/mainwindow.cpp:1676
+#, kde-format
+msgid "Stay There"
+msgstr "留在那裡"
+
+#: app/mainwindow.cpp:1663
+#, kde-format
+msgid "Go to the Last Document"
+msgstr "跳到最後一份文件"
+
+#: app/mainwindow.cpp:1664 app/mainwindow.cpp:1678
+#, kde-format
+msgid "Go Back to the Document List"
+msgstr "回到文件清單"
+
+#: app/mainwindow.cpp:1675
+#, kde-format
+msgid "You reached the last document, what do you want to do?"
+msgstr "您到了最後一份文件。您想要做什麼？"
+
+#: app/mainwindow.cpp:1677
+#, kde-format
+msgid "Go to the First Document"
+msgstr "跳到第一份文件"
+
+#: app/renamedialog.cpp:50
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Rename"
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "重新命名"
+
+#: app/renamedialog.cpp:63
+#, kde-kuit-format
+msgid "Rename <filename>%1</filename> to:"
+msgstr "將 <filename>%1</filename> 重新命名為："
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameDialog)
+#: app/renamedialog.ui:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "重新命名"
+
+#: app/saveallhelper.cpp:58
+#, kde-format
+msgctxt "@info:progress saving all image changes"
+msgid "Saving..."
+msgstr "儲存中..."
+
+#: app/saveallhelper.cpp:59
+#, kde-format
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#: app/saveallhelper.cpp:84
+#, kde-format
+msgctxt "@info"
+msgid "One document could not be saved:"
+msgid_plural "%1 documents could not be saved:"
+msgstr[0] "無法儲存 %1 份文件："
+
+#: app/saveallhelper.cpp:108
+#, kde-kuit-format
+msgctxt ""
+"@info %1 is the name of the document which failed to save, %2 is the reason "
+"for the failure"
+msgid "<filename>%1</filename>: %2"
+msgstr "<filename>%1</filename>：%2"
+
+#: app/savebar.cpp:86
+#, kde-format
+msgid ""
+"You have modified many images. To avoid memory problems, you should save "
+"your changes."
+msgstr "您已變更了許多影像。為了避免記憶體發生問題，請您儲存您的變更。"
+
+#: app/savebar.cpp:175
+#, kde-format
+msgid "Current image modified"
+msgstr "目前影像已修改"
+
+#: app/savebar.cpp:181
+#, kde-format
+msgid "Previous modified image"
+msgstr "前一個已修改影像"
+
+#: app/savebar.cpp:182
+#, kde-format
+msgid "Next modified image"
+msgstr "下一個已修改影像"
+
+#: app/savebar.cpp:198
+#, kde-format
+msgid "One image modified"
+msgid_plural "%1 images modified"
+msgstr[0] "已修改 %1 個影像"
+
+#: app/savebar.cpp:200
+#, kde-format
+msgid "Go to first modified image"
+msgstr "移到第一個已修改影像"
+
+#: app/savebar.cpp:202
+#, kde-format
+msgid "Go to it"
+msgstr "移動"
+
+#: app/savebar.cpp:299 app/savebar.cpp:303
+#, kde-format
+msgid "Save All"
+msgstr "全部儲存"
+
+#: app/semanticinfocontextmanageritem.cpp:176
+#, kde-format
+msgid "Semantic Information"
+msgstr "語意資訊"
+
+#: app/semanticinfocontextmanageritem.cpp:203
+#, kde-format
+msgctxt "@action"
+msgid "Edit Tags"
+msgstr "編輯標籤"
+
+#: app/semanticinfocontextmanageritem.cpp:214
+#, kde-format
+msgctxt "@action Rating value of zero"
+msgid "Zero"
+msgstr "歸零"
+
+#: app/semanticinfocontextmanageritem.cpp:250
+#, kde-format
+msgid "Edit"
+msgstr "編輯"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
+#: app/semanticinfodialog.ui:13
+#, kde-format
+msgid "Tag Editor"
+msgstr "標籤編輯器"
+
+#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
+#: app/semanticinfodialog.ui:31
+#, kde-format
+msgid "Previous"
+msgstr "前一個"
+
+#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
+#: app/semanticinfodialog.ui:38
+#, kde-format
+msgid "Next"
+msgstr "下一個"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/semanticinfosidebaritem.ui:22
+#, kde-format
+msgid "Rating:"
+msgstr "比率："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/semanticinfosidebaritem.ui:45
+#, kde-format
+msgid "Tags:"
+msgstr "標籤："
+
+#. i18n: ectx: property (placeholderText), widget (QTextEdit, mDescriptionTextEdit)
+#: app/semanticinfosidebaritem.ui:76
+#, kde-format
+msgid "Description"
+msgstr "描述"
+
+#: app/startmainpage.cpp:278
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Add Folder to Places"
+msgctxt "@action Recent Folders view"
+msgid "Add Folder to Places"
+msgstr "新增要擺放的資料夾"
+
+#: app/startmainpage.cpp:279
+#, fuzzy, kde-format
+#| msgid "Forget this Folder"
+msgctxt "@action Recent Folders view"
+msgid "Forget This Folder"
+msgstr "遺忘此資料夾"
+
+#: app/startmainpage.cpp:280
+#, fuzzy, kde-format
+#| msgid "Forget this Folder"
+msgctxt "@action Recent Folders view"
+msgid "Forget All Folders"
+msgstr "遺忘此資料夾"
+
+#: app/startmainpage.cpp:282
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Add Folder to Places"
+msgctxt "@action Recent Files view"
+msgid "Add Containing Folder to Places"
+msgstr "新增要擺放的資料夾"
+
+#: app/startmainpage.cpp:283
+#, fuzzy, kde-format
+#| msgid "Forget this Folder"
+msgctxt "@action Recent Files view"
+msgid "Forget This File"
+msgstr "遺忘此資料夾"
+
+#: app/startmainpage.cpp:284
+#, fuzzy, kde-format
+#| msgid "Forget All"
+msgctxt "@action Recent Files view"
+msgid "Forget All Files"
+msgstr "全部遺忘"
+
+#. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
+#: app/startmainpage.ui:34
+#, kde-format
+msgid "History has been disabled."
+msgstr "已關閉歷史紀錄"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mRecentFoldersTab)
+#: app/startmainpage.ui:51
+#, kde-format
+msgid "Recent Folders"
+msgstr "最近使用的資料夾"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mRecentFilesTab)
+#: app/startmainpage.ui:65
+#, kde-format
+msgid "Recent Files"
+msgstr "最近使用的檔案"
+
+#. i18n: ectx: attribute (title), widget (QWidget, placesTab)
+#: app/startmainpage.ui:97
+#, kde-format
+msgid "Places"
+msgstr "書籤"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
+#: app/startmainpage.ui:120
+#, kde-format
+msgid "Tags"
+msgstr "標籤"
+
+#. i18n: ectx: property (text), widget (QLabel, mTagLabel)
+#: app/startmainpage.ui:126
+#, kde-format
+msgid ""
+"Browsing by tags is not available. Make sure Nepomuk is properly installed "
+"on your computer."
+msgstr "無法使用依標籤瀏覽的功能。請確定 Nepomuk 已正確地安裝在您的電腦上。"
+
+#: app/viewmainpage.cpp:283 app/viewmainpage.cpp:414
+#, kde-format
+msgid "Synchronize"
+msgstr "同步"
+
+#: app/viewmainpage.cpp:407
+#, kde-format
+msgid "Thumbnail Bar"
+msgstr "縮圖列"
+
+#: app/viewmainpage.cpp:707
+#, kde-format
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "放棄修改並重新載入"
+
+#: app/viewmainpage.cpp:709
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr "此影像已被修改。重新載入影像的話會將所做的修改全部丟棄。"
+
+#: importer/filenameformater.cpp:104
+#, kde-format
+msgid "Shooting date"
+msgstr "拍照日期"
+
+#: importer/filenameformater.cpp:105
+#, kde-format
+msgid "Shooting time"
+msgstr "拍照時間"
+
+#: importer/filenameformater.cpp:106
+#, kde-format
+msgid "Original extension"
+msgstr "原始副檔名"
+
+#: importer/filenameformater.cpp:107
+#, kde-format
+msgid "Original extension, in lower case"
+msgstr "原始副檔名，用小寫"
+
+#: importer/filenameformater.cpp:108
+#, kde-format
+msgid "Original filename"
+msgstr "原始檔名"
+
+#: importer/filenameformater.cpp:109
+#, kde-format
+msgid "Original filename, in lower case"
+msgstr "原始檔名，用小寫"
+
+#: importer/importdialog.cpp:74
+#, kde-format
+msgid "One document has been imported."
+msgid_plural "%1 documents have been imported."
+msgstr[0] "已匯入 %1 個文件。"
+
+#: importer/importdialog.cpp:79
+#, kde-format
+msgid "One document has been skipped because it had already been imported."
+msgid_plural ""
+"%1 documents have been skipped because they had already been imported."
+msgstr[0] "已忽略 %1 個文件，因為它們已匯入。"
+
+#: importer/importdialog.cpp:87
+#, kde-format
+msgid ""
+"One of them has been renamed because another document with the same name had "
+"already been imported."
+msgid_plural ""
+"%1 of them have been renamed because other documents with the same name had "
+"already been imported."
+msgstr[0] "這些文件中的 %1 個已經重新命名，因為有同名的文件已被匯入。"
+
+#: importer/importdialog.cpp:96
+#, kde-format
+msgid "Delete the imported document from the device?"
+msgid_plural "Delete the %1 imported documents from the device?"
+msgstr[0] "要從裝置上刪除 %1 個已匯入的文件嗎？"
+
+#: importer/importdialog.cpp:101
+#, kde-format
+msgid "Delete the skipped document from the device?"
+msgid_plural "Delete the %1 skipped documents from the device?"
+msgstr[0] "要從裝置上刪除 %1 個已忽略的文件嗎？"
+
+#: importer/importdialog.cpp:107
+#, kde-format
+msgctxt "Singular sentence is actually never used."
+msgid "Delete the imported or skipped document from the device?"
+msgid_plural "Delete the %1 imported and skipped documents from the device?"
+msgstr[0] "要從裝置上刪除 %1 個已匯入與已忽略的文件嗎？"
+
+#: importer/importdialog.cpp:114
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Finished"
+msgstr "匯入已完成"
+
+#: importer/importdialog.cpp:116
+#, kde-format
+msgid "Keep"
+msgstr "保留"
+
+#: importer/importdialog.cpp:129
+#, kde-format
+msgid ""
+"Failed to delete the document:\n"
+"%2"
+msgid_plural ""
+"Failed to delete documents:\n"
+"%2"
+msgstr[0] ""
+"刪除文件失敗：\n"
+"%2"
+
+#: importer/importdialog.cpp:133
+#, kde-format
+msgid "Retry"
+msgstr "重試"
+
+#: importer/importdialog.cpp:134
+#, kde-format
+msgid "Ignore"
+msgstr "忽略"
+
+#: importer/importdialog.cpp:156
+#, kde-format
+msgid "What do you want to do now?"
+msgstr "您打算怎麼辦？"
+
+#: importer/importdialog.cpp:158
+#, kde-format
+msgid "View Imported Documents with Gwenview"
+msgstr "用 Gwenview 檢視已匯入的文件"
+
+#: importer/importdialog.cpp:159
+#, kde-format
+msgid "Import more Documents"
+msgstr "匯入更多文件"
+
+#: importer/importdialog.cpp:160
+#, kde-format
+msgid "Quit"
+msgstr "離開"
+
+#: importer/importer.cpp:80
+#, kde-format
+msgid "Could not create destination folder."
+msgstr "無法建立目標資料夾。"
+
+#: importer/importer.cpp:87
+#, kde-format
+msgid ""
+"Could not create temporary upload folder:\n"
+"%1"
+msgstr ""
+"無法建立暫時的上傳資料夾：\n"
+"%1"
+
+#: importer/importerconfigdialog.cpp:56
+#, kde-format
+msgctxt "%1 is the importer keyword, %2 is keyword explanation"
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoRename)
+#: importer/importerconfigdialog.ui:17
+#, kde-format
+msgid "Rename documents automatically"
+msgstr "自動重新命名文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: importer/importerconfigdialog.ui:39
+#, kde-format
+msgid "Rename Format:"
+msgstr "重新命名格式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: importer/importerconfigdialog.ui:59
+#, kde-format
+msgid "Preview:"
+msgstr "預覽："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: importer/importerconfigdialog.ui:83
+#, kde-format
+msgid "<i>Type text or click the items below to customize the format</i>"
+msgstr "<i>輸入文字，或點擊以下的項目來調整格式</i>"
+
+#: importer/main.cpp:48
+#, kde-format
+msgid "Gwenview Importer"
+msgstr "Gwenview 匯入器"
+
+#: importer/main.cpp:50
+#, kde-format
+msgid "Photo Importer"
+msgstr "相片匯入器"
+
+#: importer/main.cpp:56
+#, kde-format
+msgid ""
+"The device UDI, used to retrieve information about the device (name, icon...)"
+msgstr "裝置的 UDI，用於擷取關於裝置的資訊（名稱、圖示...)）"
+
+#: importer/main.cpp:56
+#, kde-format
+msgid "Device UDI"
+msgstr "裝置 UDI"
+
+#: importer/main.cpp:59
+#, kde-format
+msgid "Source folder"
+msgstr "來源資料夾"
+
+#: importer/main.cpp:64
+#, kde-format
+msgid "Missing required source folder argument."
+msgstr "遺失必要的來源資料夾參數。"
+
+#: importer/main.cpp:68
+#, kde-format
+msgid "Too many arguments."
+msgstr "太多參數。"
+
+#: importer/main.cpp:74
+#, kde-format
+msgid "Invalid source folder."
+msgstr "無效的來源資料夾。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: importer/progresspage.ui:30
+#, kde-format
+msgid "Importing documents..."
+msgstr "匯入文件中..."
+
+#: importer/thumbnailpage.cpp:211
+#, kde-format
+msgid "Import Selected"
+msgstr "匯入選取的項目"
+
+#: importer/thumbnailpage.cpp:214
+#, kde-format
+msgid "Import All"
+msgstr "全部匯入"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: importer/thumbnailpage.ui:173
+#, kde-format
+msgid "Select the documents to import"
+msgstr "選擇要匯入的文件"
+
+#. i18n: ectx: property (text), widget (QPushButton, mConfigureButton)
+#: importer/thumbnailpage.ui:185
+#, kde-format
+msgid "Settings..."
+msgstr "設定..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: importer/thumbnailpage.ui:201
+#, kde-format
+msgid "Enter the import destination"
+msgstr "請輸入匯入目標"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: importer/thumbnailpage.ui:220
+#, kde-format
+msgid "Listing content of:"
+msgstr "列出內容："
+
+#: lib/about.cpp:39
+#, kde-format
+msgid "Copyright 2000-2014 Gwenview authors"
+msgstr "Copyright 2000-2014 Gwenview 作者群"
+
+#: lib/about.cpp:43
+#, kde-format
+msgid "Current Maintainer"
+msgstr "目前維護者"
+
+#: lib/about.cpp:47 lib/about.cpp:51
+#, kde-format
+msgid "Developer"
+msgstr "開發者"
+
+#: lib/crop/cropwidget.cpp:183
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Current Image"
+msgstr "列印影像"
+
+#: lib/crop/cropwidget.cpp:186
+#, kde-format
+msgid "Square"
+msgstr "方塊"
+
+#: lib/crop/cropwidget.cpp:187
+#, kde-format
+msgid "This Screen"
+msgstr "此螢幕"
+
+#: lib/crop/cropwidget.cpp:188
+#, kde-format
+msgid "Landscape"
+msgstr "橫向"
+
+#: lib/crop/cropwidget.cpp:193 lib/crop/cropwidget.cpp:200
+#, fuzzy, kde-format
+#| msgid "ISO Size (A4, A3...)"
+msgid "ISO (A4, A3...)"
+msgstr "ISO 大小 (A4, A3...)"
+
+#: lib/crop/cropwidget.cpp:194 lib/crop/cropwidget.cpp:201
+#, kde-format
+msgid "US Letter"
+msgstr "US Letter"
+
+#: lib/crop/cropwidget.cpp:195
+#, kde-format
+msgid "Portrait"
+msgstr "直向"
+
+#. i18n("%1:%2") because ':' should not be translated, it is
+#. used to parse the ratio string.
+#: lib/crop/cropwidget.cpp:210
+#, kde-format
+msgid "Width"
+msgstr "寬度"
+
+#: lib/crop/cropwidget.cpp:210
+#, kde-format
+msgid "Height"
+msgstr "高度"
+
+#. i18n: ectx: property (text), widget (QCheckBox, advancedCheckBox)
+#: lib/crop/cropwidget.ui:29
+#, kde-format
+msgid "Advanced settings"
+msgstr "進階設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: lib/crop/cropwidget.ui:55
+#, fuzzy, kde-format
+#| msgid "Keep aspect ratio"
+msgid "Aspect ratio:"
+msgstr "保持比例"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lib/crop/cropwidget.ui:84
+#, kde-format
+msgid "Size:"
+msgstr "大小："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: lib/crop/cropwidget.ui:117
+#, kde-format
+msgid "Position:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QCheckBox, preserveAspectRatioCheckBox)
+#: lib/crop/cropwidget.ui:166
+#, fuzzy, kde-format
+#| msgid "Keep aspect ratio"
+msgid "Preserve aspect ratio"
+msgstr "保持比例"
+
+#: lib/document/document.cpp:305
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot save this kind of documents."
+msgstr "Gwenview 無法儲存這種文件。"
+
+#: lib/document/loadingdocumentimpl.cpp:139
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot display documents of type %1."
+msgstr "Gwenview 無法顯示類型為 %1 的文件。"
+
+#: lib/document/loadingdocumentimpl.cpp:394
+#, kde-format
+msgctxt "@info"
+msgid "Could not open file %1"
+msgstr "無法開啟檔案 %1"
+
+#: lib/document/loadingdocumentimpl.cpp:482
+#, kde-format
+msgctxt "@info"
+msgid "Loading meta information failed."
+msgstr "載入中繼資訊失敗。"
+
+#: lib/document/loadingdocumentimpl.cpp:510
+#, kde-format
+msgctxt "@info"
+msgid "Loading image failed."
+msgstr "載入影像失敗。"
+
+#: lib/document/loadingjob.cpp:58
+#, kde-format
+msgid "Could not load document %1"
+msgstr "無法載入文件 %1"
+
+#: lib/document/savejob.cpp:107
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not open file for writing, check that you have the necessary rights in "
+"<filename>%1</filename>."
+msgstr ""
+"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+
+#: lib/document/savejob.cpp:132
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not overwrite file, check that you have the necessary rights to write "
+"in <filename>%1</filename>."
+msgstr "無法覆寫檔案。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+
+#: lib/documentview/documentview.cpp:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Trash"
+msgstr "資源回收桶"
+
+#: lib/documentview/documentview.cpp:190
+#, kde-format
+msgctxt "@action:button"
+msgid "Deselect"
+msgstr "取消選擇"
+
+#: lib/documentview/documentview.cpp:388
+#, kde-format
+msgid "Gwenview does not know how to display this kind of document"
+msgstr "Gwenview 不知道要怎麼顯示這種文件"
+
+#: lib/documentview/documentview.cpp:487
+#, kde-kuit-format
+msgid "Loading <filename>%1</filename> failed"
+msgstr "載入 <filename>%1</filename> 失敗"
+
+#: lib/documentview/documentviewcontroller.cpp:96
+#, fuzzy, kde-format
+#| msgid "Zoom to Fit"
+msgid "Zoom to fit"
+msgstr "縮放為適中"
+
+#: lib/documentview/documentviewcontroller.cpp:98
+#, kde-format
+msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
+msgid "Fit"
+msgstr "適中"
+
+#: lib/documentview/documentviewcontroller.cpp:104
+#, kde-format
+msgid "Zoom to fill window by fitting to width or height"
+msgstr ""
+
+#: lib/documentview/documentviewcontroller.cpp:106
+#, kde-format
+msgctxt ""
+"@action:button Zoom to fill (fit width or height), shown in status bar, keep "
+"it short please"
+msgid "Fill"
+msgstr ""
+
+#: lib/documentview/documentviewcontroller.cpp:112
+#, kde-format
+msgctxt ""
+"@action:button Zoom to original size, shown in status bar, keep it short "
+"please"
+msgid "100%"
+msgstr "100%"
+
+#: lib/documentview/messageviewadapter.cpp:52
+#, kde-format
+msgid "No document selected"
+msgstr "沒有選取文件"
+
+#: lib/fullscreenbar.cpp:262 lib/statusbartoolbutton.cpp:107
+#, kde-format
+msgctxt "@info:tooltip of custom toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
+#: lib/gwenviewconfig.kcfg:44
+#, kde-format
+msgid ""
+"The percentage of memory used by Gwenview before it\n"
+"            warns the user and suggest saving changes."
+msgstr ""
+"Gwenview 記憶體使用到多少百分比以後\n"
+"             要警告使用者，並建議儲存。"
+
+#. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
+#: lib/gwenviewconfig.kcfg:51
+#, kde-format
+msgid ""
+"A list of filename extensions Gwenview should not try to\n"
+"            load. We exclude *.new as well because this is the extension\n"
+"            used for temporary files by KSaveFile."
+msgstr ""
+"Gwenview 不應嘗試載入的副檔名清單。我們將 *.new 排除在外，\n"
+"            因為這個副檔名會用於 KSaveFile 的暫存檔。"
+
+#. i18n: ectx: whatsthis, entry (ZoomMode), group (ImageView)
+#: lib/gwenviewconfig.kcfg:177
+#, kde-format
+msgid ""
+"Defines what happens when going to image B after\n"
+"            having zoomed in on an area of image A.  If set to Autofit,\n"
+"            image B is zoomed out to fit the screen.  If set to KeepSame,\n"
+"            all images share the same zoom and position: image B is set\n"
+"            to the same zoom parameters as image A (and if these are\n"
+"            changed, image A will then be displayed with the updated zoom\n"
+"            and position).  If set to Individual, all images remember\n"
+"            their own zoom and position: image B is initially set to the\n"
+"            same zoom parameters as image A, but will then remember its\n"
+"            own zoom and position (if these are changed, image A will NOT\n"
+"            be displayed with the updated zoom and position)."
+msgstr ""
+"定義在縮放影像 A 中某個區域時，影像 B 要怎麼互動。如果設定為自動調適，則影像 "
+"B 也會自動調適縮放以適合螢幕。如果設定為保持相同，則所有影像都會使用相同的縮"
+"放與位置設定：因此影像 B 也會設成跟影像 A 一樣的縮放比例（影像 A 也會以更新後"
+"的縮放比例顯示）。如果設定為個別，則所有影像會記住自己的縮放與位置設定：影像 "
+"B 一開始會跟影像 A 設成相同的縮放參數，但接著則不會與影像 A 互動。"
+
+#. i18n: ectx: whatsthis, entry (RenderingIntent), group (ImageView)
+#: lib/gwenviewconfig.kcfg:191
+#, kde-format
+msgid ""
+"Defines how colors are rendered when your display\n"
+"            uses an ICC color profile and an image has colors that do not\n"
+"            fit within the profile's color gamut. \"Perceptual\" will scale\n"
+"            the colors of the entire image so that they all fit within the\n"
+"            display's capabilities. \"Relative\" will squash only the "
+"colors\n"
+"            that cannot be displayed, and leave the other colors alone."
+msgstr ""
+
+#. i18n: ectx: label, entry (random), group (slide show)
+#: lib/gwenviewconfig.kcfg:272
+#, kde-format
+msgid "Display slide show images in random order"
+msgstr "以隨機順序顯示影像。"
+
+#. i18n: ectx: label, entry (fullscreen), group (slide show)
+#: lib/gwenviewconfig.kcfg:276
+#, kde-format
+msgid "Show slideshow in fullscreen mode"
+msgstr "以全螢幕模式顯示影像"
+
+#. i18n: ectx: label, entry (loop), group (slide show)
+#: lib/gwenviewconfig.kcfg:280
+#, kde-format
+msgid "Loop on images"
+msgstr "循環播放影像"
+
+#. i18n: ectx: label, entry (stopAtEnd), group (slide show)
+#: lib/gwenviewconfig.kcfg:284
+#, kde-format
+msgid "Stop at last image of folder"
+msgstr "停止於最後一個檔案或資料夾"
+
+#. i18n: ectx: label, entry (interval), group (slide show)
+#: lib/gwenviewconfig.kcfg:288
+#, kde-format
+msgid "Interval between images (in seconds)"
+msgstr "影像間的播放間隔（以秒為單位）"
+
+#. i18n: ectx: label, entry (CropPreserveAspectRatio), group (Crop)
+#: lib/gwenviewconfig.kcfg:304
+#, kde-format
+msgid "Restrict crop to image ratio when Advanced Settings disabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (CropRatioIndex), group (Crop)
+#: lib/gwenviewconfig.kcfg:308
+#, kde-format
+msgid "Index representing selected ratio in the Advanced settings combobox"
+msgstr ""
+
+#. i18n: ectx: label, entry (CropRatioWidth), group (Crop)
+#: lib/gwenviewconfig.kcfg:312
+#, kde-format
+msgid "Last used crop ratio width when Advanced Settings enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (CropRatioHeight), group (Crop)
+#: lib/gwenviewconfig.kcfg:316
+#, kde-format
+msgid "Last used crop ratio height when Advanced Settings enabled"
+msgstr ""
+
+#: lib/historymodel.cpp:148
+#, kde-format
+msgid "Last visited: %1"
+msgstr "上次參訪：%1"
+
+#: lib/hud/hudwidget.cpp:106
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "關閉"
+
+#: lib/imagemetainfomodel.cpp:254
+#, kde-format
+msgctxt "@item:intable Image file name"
+msgid "Name"
+msgstr "名稱"
+
+#: lib/imagemetainfomodel.cpp:255
+#, kde-format
+msgctxt "@item:intable"
+msgid "File Size"
+msgstr "檔案大小"
+
+#: lib/imagemetainfomodel.cpp:256
+#, kde-format
+msgctxt "@item:intable"
+msgid "File Time"
+msgstr "檔案時間"
+
+#: lib/imagemetainfomodel.cpp:257
+#, kde-format
+msgctxt "@item:intable"
+msgid "Image Size"
+msgstr "影像大小"
+
+#: lib/imagemetainfomodel.cpp:258
+#, kde-format
+msgctxt "@item:intable"
+msgid "Comment"
+msgstr "註解"
+
+#: lib/imagemetainfomodel.cpp:318
+#, kde-format
+msgctxt "@title:group General info about the image"
+msgid "General"
+msgstr "一般"
+
+#: lib/imagemetainfomodel.cpp:408
+#, kde-format
+msgctxt "@item:intable %1 is image width, %2 is image height"
+msgid "%1x%2"
+msgstr "%1 x %2"
+
+#: lib/imagemetainfomodel.cpp:416
+#, kde-format
+msgctxt "@item:intable %1 is number of millions of pixels in image"
+msgid "(%1MP)"
+msgstr "（%1 MP）"
+
+#: lib/imagemetainfomodel.cpp:567
+#, kde-format
+msgctxt "@title:column"
+msgid "Property"
+msgstr "屬性"
+
+#: lib/imagemetainfomodel.cpp:569
+#, kde-format
+msgctxt "@title:column"
+msgid "Value"
+msgstr "數值"
+
+#: lib/jpegcontent.cpp:581
+#, kde-format
+msgctxt "@info"
+msgid "Could not open file for writing."
+msgstr "無法開啟檔案以寫入。"
+
+#: lib/jpegcontent.cpp:597
+#, kde-format
+msgctxt "@info"
+msgid "No data to store."
+msgstr "沒有資料可儲存。"
+
+#: lib/print/printhelper.cpp:133
+#, kde-format
+msgid "Print Image"
+msgstr "列印影像"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptionsPage)
+#: lib/print/printoptionspage.ui:14
+#, kde-format
+msgid "Image Settings"
+msgstr "影像設定"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: lib/print/printoptionspage.ui:20
+#, kde-format
+msgid "Image Position"
+msgstr "影像位置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: lib/print/printoptionspage.ui:45
+#, kde-format
+msgid "Scaling"
+msgstr "調整比例"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mNoScale)
+#: lib/print/printoptionspage.ui:51
+#, kde-format
+msgid "&No scaling"
+msgstr "不調整比例(&N)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mScaleToPage)
+#: lib/print/printoptionspage.ui:61
+#, kde-format
+msgid "&Fit image to page"
+msgstr "將影像調到頁面大小(&F)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mScaleTo)
+#: lib/print/printoptionspage.ui:123
+#, kde-format
+msgid "&Scale to:"
+msgstr "調整為(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: lib/print/printoptionspage.ui:158
+#, kde-format
+msgctxt "Dimension separator, as in: '15 x 10 centimeters'"
+msgid "x"
+msgstr "x"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintUnit)
+#: lib/print/printoptionspage.ui:185
+#, kde-format
+msgid "Millimeters"
+msgstr "公厘"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintUnit)
+#: lib/print/printoptionspage.ui:190
+#, kde-format
+msgid "Centimeters"
+msgstr "公分"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintUnit)
+#: lib/print/printoptionspage.ui:195
+#, kde-format
+msgid "Inches"
+msgstr "英吋"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintKeepRatio)
+#: lib/print/printoptionspage.ui:224
+#, kde-format
+msgid "Keep ratio"
+msgstr "保持比例"
+
+#: lib/redeyereduction/redeyereductionimageoperation.cpp:77
+#, kde-format
+msgid "RedEyeReduction"
+msgstr "紅眼修正"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lib/redeyereduction/redeyereductionwidget.ui:24
+#, kde-format
+msgid "Size"
+msgstr "大小"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: lib/redeyereduction/redeyereductionwidget.ui:61
+#, kde-format
+msgid "Click on the red eye you want to fix"
+msgstr "點擊您要修正的紅眼"
+
+#: lib/resize/resizeimageoperation.cpp:71
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "改變大小"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
+#: lib/resize/resizeimagewidget.ui:14
+#, kde-format
+msgid "Image Resizing"
+msgstr "影像調整大小"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: lib/resize/resizeimagewidget.ui:20
+#, kde-format
+msgid "Enter the new size for this image."
+msgstr "輸入影像的新大小。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lib/resize/resizeimagewidget.ui:32
+#, kde-format
+msgid "Current size:"
+msgstr "目前的大小："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: lib/resize/resizeimagewidget.ui:88
+#, fuzzy, kde-format
+#| msgid "New Si&ze:"
+msgid "New Size:"
+msgstr "新的大小(&Z)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
+#: lib/resize/resizeimagewidget.ui:129
+#, kde-format
+msgid "Keep aspect ratio"
+msgstr "保持比例"
+
+#: lib/semanticinfo/tagitemdelegate.cpp:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Assign this tag to all selected images"
+msgstr "將此標記指定給所有選取的影像"
+
+#: lib/semanticinfo/tagwidget.cpp:152
+#, kde-format
+msgid "Add tag"
+msgstr "新增標籤"
+
+#: lib/slideshow.cpp:186
+#, kde-format
+msgctxt "@item:inmenu toggle loop in slideshow"
+msgid "Loop"
+msgstr "迴圈"
+
+#: lib/slideshow.cpp:191
+#, kde-format
+msgctxt "@item:inmenu toggle random order in slideshow"
+msgid "Random"
+msgstr "隨機"
+
+#: lib/transformimageoperation.cpp:61
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Rotate Right"
+msgstr "向右旋轉"
+
+#: lib/transformimageoperation.cpp:64
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Rotate Left"
+msgstr "向左旋轉"
+
+#: lib/transformimageoperation.cpp:67
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Mirror"
+msgstr "鏡面"
+
+#: lib/transformimageoperation.cpp:70
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Flip"
+msgstr "翻轉"
+
+#: lib/transformimageoperation.cpp:75
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "轉換"
+
+#: part/gvpart.cpp:81
+#, kde-format
+msgctxt "@action"
+msgid "Properties"
+msgstr "屬性"
+
+#: part/gvpart.cpp:124
+#, kde-format
+msgid "Gwenview KPart"
+msgstr "Gwenview 部件"
+
+#. i18n: ectx: Menu (file)
+#: part/gvpart.rc:4
+#, kde-format
+msgid "&File"
+msgstr "檔案(&F)"
+
+#. i18n: ectx: Menu (view)
+#: part/gvpart.rc:8
+#, kde-format
+msgid "&View"
+msgstr "檢視(&V)"
+
+#~ msgid "Ratio:"
+#~ msgstr "比例："
+
+#~ msgid "Stop Slideshow"
+#~ msgstr "停止投影播放"
+
+#~ msgid "Add to Places"
+#~ msgstr "新增到書籤"
+
+#~ msgid "Zoom to Fit Width"
+#~ msgstr "縮放為適合的寬度"
+
+#~ msgctxt ""
+#~ "@action:button Zoom to fit width, shown in status bar, keep it short "
+#~ "please"
+#~ msgid "Fit Width"
+#~ msgstr "適合寬度"
+
+#~ msgid "Si&ze:"
+#~ msgstr "大小(&Z):"
+
+#~ msgid "Si&ze"
+#~ msgstr "大小(&Z)"
+
+#~ msgctxt "@title:window"
+#~ msgid "Copy To"
+#~ msgstr "複製到"
+
+#~ msgctxt "@title:window"
+#~ msgid "Move To"
+#~ msgstr "移動到"
+
+#~ msgctxt "@title:window"
+#~ msgid "Link To"
+#~ msgstr "鏈結到"
+
+#~ msgctxt "@info"
+#~ msgid "No image format selected."
+#~ msgstr "沒有選取影像格式"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Forget this URL"
+#~ msgstr "遺忘此網址"
+
+#~ msgid "Recent URLs"
+#~ msgstr "最近使用的網址"
+
+#~ msgid "Aurélien Gâteau"
+#~ msgstr "Aurélien Gâteau"
+
+#~ msgid "Main developer"
+#~ msgstr "主要開發者"
+
+#~ msgid "Benjamin Löwe"
+#~ msgstr "Benjamin Löwe"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Folder"
+#~ msgstr "貼上 1 個資料夾"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One File"
+#~ msgstr "貼上 1 個檔案"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste One Item"
+#~ msgid_plural "Paste %1 Items"
+#~ msgstr[0] "貼上 %1 個項目"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste Clipboard Contents..."
+#~ msgstr "貼上剪貼簿內容..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "貼上"
+
+#~ msgid ""
+#~ "Defines what happens when going to image B after having zoomed an area of "
+#~ "image A.\n"
+#~ "                When true: zoom and position is kept. When false: image B "
+#~ "is zoomed out to fit the screen."
+#~ msgstr ""
+#~ "定義當對影像 A 做縮放後，再放影像 B 時的行為。\n"
+#~ "            設為真時，則影像 B 也會保持跟影像 A 一樣的縮放比例與位置。反"
+#~ "之，則影像 B 會回到原螢幕的大小。"
+
+#~ msgid "Last document reached, continuing on first document."
+#~ msgstr "已到達最後一份文件。繼續由第一份文件開始。"
+
+#~ msgid "First document reached, continuing on last document."
+#~ msgstr "已到達第一份文件。繼續由最後一份文件開始。"
+
+#~ msgid "Copyright 2009-2010 Aurélien Gâteau"
+#~ msgstr "Copyright 2009-2010 Aurélien Gâteau"
+
+#, fuzzy
+#~| msgid "Thumbnails"
+#~ msgid "thumbnailgen"
+#~ msgstr "縮圖"
+
+#, fuzzy
+#~| msgid "Image Position"
+#~ msgid "Image dir to open"
+#~ msgstr "影像位置"
+
+#, fuzzy
+#~| msgid "Trash"
+#~ msgctxt "@action:button"
+#~ msgid "Trash"
+#~ msgstr "資源回收筒"
+
+#~ msgctxt ""
+#~ "@action Go back to a more general page (start page <- list <- image)"
+#~ msgid "Back"
+#~ msgstr "返回"
+
+#~ msgid "Metadata"
+#~ msgstr "中繼資料"
+
+#~ msgid "Configure Displayed Metadata..."
+#~ msgstr "設定顯示的中繼資料..."
+
+#~ msgid "Appearance"
+#~ msgstr "外觀"
+
+#~ msgid "Theme:"
+#~ msgstr "主題："
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgctxt "@action Switch to image view"
+#~ msgid "View"
+#~ msgstr "檢視"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Effects"
+#~ msgstr "效果"
+
+#~ msgid "Apply"
+#~ msgstr "套用"
+
+#~ msgctxt "@title:window"
+#~ msgid "Create Folder"
+#~ msgstr "建立資料夾"
+
+#~ msgid "Enter the name of the folder to create:"
+#~ msgstr "輸入要建立的資料夾名稱："
+
+#~ msgid "No Plugin"
+#~ msgstr "沒有外掛程式"
+
+#~ msgid "Copyright 2009 Aurélien Gâteau"
+#~ msgstr "Copyright 2009 Aurélien Gâteau"
+
+#~ msgid "Copyright 2000-2008 Aurélien Gâteau"
+#~ msgstr "Copyright 2000-2008 Aurélien Gâteau"
+
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgid ""
+#~ "One document has been successfully imported.\n"
+#~ "Delete it from the device?"
+#~ msgid_plural ""
+#~ "%1 documents have been successfully imported.\n"
+#~ "Delete them from the device?"
+#~ msgstr[0] ""
+#~ "已成功匯入 %1 個文件。\n"
+#~ "要從裝置上刪除嗎？"
+
+#~ msgid "History"
+#~ msgstr "歷史紀錄"
+
+#~ msgid "Event:"
+#~ msgstr "事件:"
+
+#~ msgid ""
+#~ "Pictures will be imported in /tmp/photo/(year)/event <a href=\"#"
+#~ "\">Customize</a>"
+#~ msgstr "圖片將匯入：/tmp/photo/（年份）/event <a href=\"#\">自訂</a>"
+
+#~ msgid "<a href=\"#\">Edit</a>"
+#~ msgstr "<a href=\"#\">編輯</a>"
+
+#~ msgid "<font color='red'>Enter an event name</font>"
+#~ msgstr "<font color='red'>輸入事件名稱</font>"
+
+#~ msgid "Pictures will be imported in: <filename>%1</filename>"
+#~ msgstr "圖片將匯入：<filename>%1</filename>"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Description:"
+#~ msgstr "描述："
+
+#~ msgctxt "@title:group"
+#~ msgid "Exif"
+#~ msgstr "Exif"
+
+#~ msgctxt "@title:group"
+#~ msgid "Iptc"
+#~ msgstr "Iptc"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Thumbnail bar orientation:"
+#~ msgstr "縮圖列方向："
+
+#~ msgid "Performance"
+#~ msgstr "效能"
+
+#~ msgid "URL Bag"
+#~ msgstr "網址袋"
+
+#~ msgid "Ops"
+#~ msgstr "操作"
+
+#~ msgid "&Crop"
+#~ msgstr "切割(&C)"
+
+#, fuzzy
+#~| msgid "Height:"
+#~ msgid "Width:Height"
+#~ msgstr "高度："
+
+#~ msgctxt "Crop tool won't apply any ratio constraint"
+#~ msgid "No Constraint"
+#~ msgstr "不強制"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "&X:"
+#~ msgstr "&X："
+
+#~ msgid "&Y:"
+#~ msgstr "&Y："
+
+#~ msgid "&Height:"
+#~ msgstr "高度(&H)："
+
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>一般</b>"
+
+#~ msgid "<b>Image View</b>"
+#~ msgstr "<b>影像檢視</b>"
+
+#~ msgid "Do you really want to delete this item?"
+#~ msgid_plural "Do you really want to delete these %1 items?"
+#~ msgstr[0] "您確定要刪除這 %1 個項目？"
+
+#~ msgid "Delete Files"
+#~ msgstr "刪除檔案"
+
+#~ msgid "Do you really want to move this item to the trash?"
+#~ msgid_plural "Do you really want to move these %1 items to the trash?"
+#~ msgstr[0] "您確定要移動這 %1 個項目到資源回收桶？"
+
+#~ msgid "Move to Trash"
+#~ msgstr "移至資源回收桶"
+
+#~ msgctxt "Verb"
+#~ msgid "&Trash"
+#~ msgstr "資源回收桶(&T)"
+
+#~ msgid "&Radius:"
+#~ msgstr "半徑(&R)："
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">General</span></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">一般</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Image View</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">影像檢視</span></p></body></html>"

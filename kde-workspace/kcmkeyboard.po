@@ -1,0 +1,626 @@
+# translation of kcmkeyboard.po to Chinese Traditional
+# translation of kcmkeyboard.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2011.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeyboard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2016-11-14 19:36+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: bindings.cpp:33
+#, kde-format
+msgid "Switch to Next Keyboard Layout"
+msgstr "切換到下一個鍵盤佈局"
+
+#: bindings.cpp:34
+#, kde-format
+msgid "KDE Keyboard Layout Switcher"
+msgstr "鍵盤佈局切換器"
+
+#: bindings.cpp:67
+#, kde-format
+msgid "Switch keyboard layout to %1"
+msgstr "切換鍵盤佈局為 %1"
+
+#: flags.cpp:169
+#, kde-format
+msgctxt "short layout label - full layout name"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: flags.cpp:177
+#, kde-format
+msgctxt "layout - variant"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: kcm_add_layout_dialog.cpp:58
+#, kde-format
+msgid "Any language"
+msgstr "任何語言"
+
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#, kde-format
+msgctxt "variant"
+msgid "Default"
+msgstr "預設"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
+#: kcm_add_layout_dialog.ui:14
+#, kde-format
+msgid "Add Layout"
+msgstr "新增佈局"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm_add_layout_dialog.ui:30
+#, kde-format
+msgid "Layout:"
+msgstr "佈局："
+
+#. i18n: ectx: property (text), widget (QLabel, labelLabel_2)
+#: kcm_add_layout_dialog.ui:47
+#, kde-format
+msgid "Shortcut:"
+msgstr "捷徑："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcm_add_layout_dialog.ui:54
+#, kde-format
+msgid "Variant:"
+msgstr "變異："
+
+#. i18n: ectx: property (text), widget (QLabel, labelLabel)
+#: kcm_add_layout_dialog.ui:64
+#, kde-format
+msgid "Label:"
+msgstr "標籤："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcm_add_layout_dialog.ui:71
+#, kde-format
+msgid "Limit selection by language:"
+msgstr "依語言過濾："
+
+#. i18n: ectx: property (text), widget (QPushButton, prevbutton)
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:352
+#, kde-format
+msgid "Preview"
+msgstr "預覽"
+
+#: kcm_keyboard.cpp:48
+#, kde-format
+msgid "KDE Keyboard Control Module"
+msgstr "KDE 鍵盤控制模組"
+
+#: kcm_keyboard.cpp:50
+#, kde-format
+msgid "(c) 2010 Andriy Rysin"
+msgstr "(c) 2010 Andriy Rysin"
+
+#: kcm_keyboard.cpp:53
+#, kde-format
+msgid ""
+"<h1>Keyboard</h1> This control module can be used to configure keyboard "
+"parameters and layouts."
+msgstr "<h1>鍵盤</h1>此控制模組可用於控制鍵盤參數與佈局。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabHardware)
+#: kcm_keyboard.ui:18
+#, kde-format
+msgid "Hardware"
+msgstr "硬體"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kcm_keyboard.ui:33
+#, kde-format
+msgid "Keyboard &model:"
+msgstr "鍵盤型號(&M)："
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, keyboardModelComboBox)
+#: kcm_keyboard.ui:53
+#, kde-format
+msgid ""
+"Here you can choose a keyboard model. This setting is independent of your "
+"keyboard layout and refers to the \"hardware\" model, i.e. the way your "
+"keyboard is manufactured. Modern keyboards that come with your computer "
+"usually have two extra keys and are referred to as \"104-key\" models, which "
+"is probably what you want if you do not know what kind of keyboard you "
+"have.\n"
+msgstr ""
+"您可以在此選擇鍵盤的型號。這個設定與您的佈局無關，指的是硬體的型號，也就是您"
+"鍵盤製造的方法。現代的鍵盤通常會有兩個額外的鍵，所以稱為「104 鍵」型，如果您"
+"不知道您的鍵盤是哪種型號，通常選這種就對了。\n"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
+#: kcm_keyboard.ui:94
+#, kde-format
+msgid "Layouts"
+msgstr "佈局"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup)
+#: kcm_keyboard.ui:102
+#, kde-format
+msgid "Layout Indicator"
+msgstr "佈局指示器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showIndicatorChk)
+#: kcm_keyboard.ui:108
+#, kde-format
+msgid "Show layout indicator"
+msgstr "顯示佈局指示器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
+#: kcm_keyboard.ui:115
+#, kde-format
+msgid "Show for single layout"
+msgstr "顯示單一佈局"
+
+#. i18n: ectx: property (text), widget (QRadioButton, showFlagRadioBtn)
+#: kcm_keyboard.ui:122
+#, kde-format
+msgid "Show flag"
+msgstr "顯示旗標"
+
+#. i18n: ectx: property (text), widget (QRadioButton, showLabelRadioBtn)
+#: kcm_keyboard.ui:129
+#, kde-format
+msgid "Show label"
+msgstr "顯示標籤"
+
+#. i18n: ectx: property (text), widget (QRadioButton, showLabelOnFlagRadioBtn)
+#: kcm_keyboard.ui:136
+#, kde-format
+msgid "Show label on flag"
+msgstr "旗標上顯示標籤"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, switchingPolicyGroupBox)
+#: kcm_keyboard.ui:146
+#, kde-format
+msgid ""
+"If you select \"Application\" or \"Window\" switching policy, changing the "
+"keyboard layout will only affect the current application or window."
+msgstr ""
+"如果您選擇「應用程式」或「視窗」切換政策，改變鍵盤佈局就只會影響目前的應用程"
+"式或視窗。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, switchingPolicyGroupBox)
+#: kcm_keyboard.ui:149
+#, kde-format
+msgid "Switching Policy"
+msgstr "切換政策"
+
+#. i18n: ectx: property (text), widget (QRadioButton, switchByGlobalRadioBtn)
+#: kcm_keyboard.ui:155
+#, kde-format
+msgid "&Global"
+msgstr "全域(&G)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, switchByDesktopRadioBtn)
+#: kcm_keyboard.ui:168
+#, kde-format
+msgid "&Desktop"
+msgstr "桌面(&D)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, switchByApplicationRadioBtn)
+#: kcm_keyboard.ui:178
+#, kde-format
+msgid "&Application"
+msgstr "應用程式(&A)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, switchByWindowRadioBtn)
+#: kcm_keyboard.ui:188
+#, kde-format
+msgid "&Window"
+msgstr "視窗(&W)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
+#: kcm_keyboard.ui:201
+#, kde-format
+msgid "Shortcuts for Switching Layout"
+msgstr "切換佈局捷徑"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcm_keyboard.ui:207
+#, kde-format
+msgid "Main shortcuts:"
+msgstr "主捷徑："
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, xkbGrpShortcutBtn)
+#: kcm_keyboard.ui:220
+#, kde-format
+msgid ""
+"This is a shortcut for switching layouts which is handled by X.org. It "
+"allows modifier-only shortcuts."
+msgstr "這是切換由 X.org 處理的佈局的捷徑。它允許 modifier-only 的捷徑。"
+
+#. i18n: ectx: property (text), widget (QPushButton, xkbGrpShortcutBtn)
+#. i18n: ectx: property (text), widget (QPushButton, xkb3rdLevelShortcutBtn)
+#: kcm_keyboard.ui:223 kcm_keyboard.ui:253
+#, kde-format
+msgctxt "no shortcut defined"
+msgid "None"
+msgstr "無"
+
+#. i18n: ectx: property (text), widget (QToolButton, xkbGrpClearBtn)
+#. i18n: ectx: property (text), widget (QToolButton, xkb3rdLevelClearBtn)
+#: kcm_keyboard.ui:230 kcm_keyboard.ui:260
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcm_keyboard.ui:237
+#, kde-format
+msgid "3rd level shortcuts:"
+msgstr "第三等級捷徑："
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, xkb3rdLevelShortcutBtn)
+#: kcm_keyboard.ui:250
+#, kde-format
+msgid ""
+"This is a shortcut for switching to a third level of the active layout (if "
+"it has one) which is handled by X.org. It allows modifier-only shortcuts."
+msgstr ""
+"這是切換由 X.org 處理的佈局的第三等級捷徑（如果有的話）。它允許 modifier-"
+"only 的捷徑。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm_keyboard.ui:267
+#, kde-format
+msgid "Alternative shortcut:"
+msgstr "替代捷徑："
+
+#. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, kdeKeySequence)
+#: kcm_keyboard.ui:280
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is a shortcut for switching layouts which is handled by KDE. It does "
+#| "not support modifier-only shortcuts and also may not work in some "
+#| "situations (e.g. if popup is active or from screensaver)."
+msgid ""
+"This is a shortcut for switching layouts. It does not support modifier-only "
+"shortcuts and also may not work in some situations (e.g. if popup is active "
+"or from screensaver)."
+msgstr ""
+"這是切換由 KDE 處理的佈局的捷徑。它不支援 modifier-only 的捷徑，有些狀況下也"
+"許無法使用（例如有彈出式視窗，或是在螢幕保護程式中）。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
+#: kcm_keyboard.ui:298
+#, kde-format
+msgid "Configure layouts"
+msgstr "設定佈局"
+
+#. i18n: ectx: property (text), widget (QPushButton, addLayoutBtn)
+#: kcm_keyboard.ui:312
+#, kde-format
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeLayoutBtn)
+#: kcm_keyboard.ui:322
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveUpBtn)
+#: kcm_keyboard.ui:332
+#, kde-format
+msgid "Move Up"
+msgstr "上移"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveDownBtn)
+#: kcm_keyboard.ui:342
+#, kde-format
+msgid "Move Down"
+msgstr "下移"
+
+#. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
+#: kcm_keyboard.ui:387
+#, kde-format
+msgid "Spare layouts"
+msgstr "外加佈局"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kcm_keyboard.ui:419
+#, kde-format
+msgid "Main layout count:"
+msgstr "主佈局計數："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabAdvanced)
+#: kcm_keyboard.ui:449
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
+#: kcm_keyboard.ui:455
+#, kde-format
+msgid "&Configure keyboard options"
+msgstr "開啟鍵盤選項(&C)"
+
+#: kcm_keyboard_widget.cpp:216
+#, kde-format
+msgctxt "unknown keyboard model vendor"
+msgid "Unknown"
+msgstr "未知"
+
+#: kcm_keyboard_widget.cpp:218
+#, kde-format
+msgctxt "vendor | keyboard model"
+msgid "%1 | %2"
+msgstr "%1 | %2"
+
+#: kcm_keyboard_widget.cpp:228
+#, kde-format
+msgid "Only up to %1 keyboard layout is supported"
+msgid_plural "Only up to %1 keyboard layouts are supported"
+msgstr[0] "最多支援 %1 個鍵盤佈局"
+
+#: kcm_keyboard_widget.cpp:611
+#, kde-format
+msgctxt "no shortcuts defined"
+msgid "None"
+msgstr "無"
+
+#: kcm_keyboard_widget.cpp:627
+#, kde-format
+msgid "%1 shortcut"
+msgid_plural "%1 shortcuts"
+msgstr[0] "%1 捷徑："
+
+#: kcm_view_models.cpp:226
+#, kde-format
+msgctxt "layout map name"
+msgid "Map"
+msgstr "映射"
+
+#: kcm_view_models.cpp:226
+#, kde-format
+msgid "Layout"
+msgstr "佈局"
+
+#: kcm_view_models.cpp:226
+#, kde-format
+msgid "Variant"
+msgstr "變異"
+
+#: kcm_view_models.cpp:226
+#, kde-format
+msgid "Label"
+msgstr "標籤"
+
+#: kcm_view_models.cpp:226
+#, kde-format
+msgid "Shortcut"
+msgstr "捷徑"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
+#: kcmmiscwidget.ui:17
+#, kde-format
+msgid ""
+"If supported, this option allows you to setup the state of NumLock after "
+"Plasma startup.<p>You can configure NumLock to be turned on or off, or "
+"configure Plasma not to set NumLock state."
+msgstr ""
+"如果支援的話，此選項讓您可以設定 NumLock 在 Plasma 啟動後的狀態。<p>您可以設"
+"定要開或關，或是讓 Plasma 不要變更它的狀態。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
+#: kcmmiscwidget.ui:20
+#, kde-format
+msgid "NumLock on Plasma Startup"
+msgstr "Plasma 啟動時的 NumLock 狀態"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
+#: kcmmiscwidget.ui:32 kcmmiscwidget.ui:71
+#, kde-format
+msgid "T&urn on"
+msgstr "開啟(&U)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
+#: kcmmiscwidget.ui:39
+#, kde-format
+msgid "&Turn off"
+msgstr "關閉(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton3)
+#: kcmmiscwidget.ui:46
+#, kde-format
+msgid "Leave unchan&ged"
+msgstr "保持不變(&G)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, keyboardRepeatGroupBox)
+#: kcmmiscwidget.ui:59
+#, kde-format
+msgid "Keyboard Repeat"
+msgstr "鍵盤重覆"
+
+#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
+#: kcmmiscwidget.ui:78
+#, kde-format
+msgid "Turn o&ff"
+msgstr "關閉(&F)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
+#: kcmmiscwidget.ui:85
+#, kde-format
+msgid "&Leave unchanged"
+msgstr "保持不變(&L)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: kcmmiscwidget.ui:123
+#, kde-format
+msgid "&Delay:"
+msgstr "延遲(&D)："
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
+#: kcmmiscwidget.ui:133 kcmmiscwidget.ui:161
+#, kde-format
+msgid ""
+"If supported, this option allows you to set the delay after which a pressed "
+"key will start generating keycodes. The 'Repeat rate' option controls the "
+"frequency of these keycodes."
+msgstr ""
+"若有支援的話，此選項可以調整按住某一鍵多久之後開始送出重覆的字元。「重覆頻"
+"率」則控制產生字元的頻率。"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, delay)
+#: kcmmiscwidget.ui:164
+#, kde-format
+msgid " ms"
+msgstr " 毫秒"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRate)
+#: kcmmiscwidget.ui:177
+#, kde-format
+msgid "&Rate:"
+msgstr "頻率(&R)："
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
+#: kcmmiscwidget.ui:187 kcmmiscwidget.ui:215
+#, kde-format
+msgid ""
+"If supported, this option allows you to set the rate at which keycodes are "
+"generated while a key is pressed."
+msgstr "如果支援的話，此選項讓您可以設定重覆字元產生的頻率。"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
+#: kcmmiscwidget.ui:218
+#, kde-format
+msgid " repeats/s"
+msgstr " 次/秒"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcmmiscwidget.ui:236
+#, kde-format
+msgid "Test area:"
+msgstr "測試區："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit)
+#: kcmmiscwidget.ui:243
+#, kde-format
+msgid ""
+"Allows to test keyboard repeat and click volume (just don't forget to apply "
+"the changes)."
+msgstr "允許測試鍵盤重覆鍵與點擊音量（只是不要忘了套用變更）"
+
+#: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
+#, kde-format
+msgctxt "tooltip title"
+msgid "Keyboard Layout"
+msgstr "鍵盤佈局"
+
+#: layouts_menu.cpp:135
+#, kde-format
+msgid "Configure Layouts..."
+msgstr "設定佈局..."
+
+#~ msgid "Configure..."
+#~ msgstr "設定..."
+
+#~ msgid "Key Click"
+#~ msgstr "敲擊按鍵"
+
+#~ msgid ""
+#~ "If supported, this option allows you to hear audible clicks from your "
+#~ "computer's speakers when you press the keys on your keyboard. This might "
+#~ "be useful if your keyboard does not have mechanical keys, or if the sound "
+#~ "that the keys make is very soft.<p>You can change the loudness of the key "
+#~ "click feedback by dragging the slider button or by clicking the up/down "
+#~ "arrows on the spin box. Setting the volume to 0% turns off the key click."
+#~ msgstr ""
+#~ "若是支援的話，此選項讓您在按下按鍵時，從電腦中發出敲擊的聲音。若是您的鍵盤"
+#~ "非機械式的鍵盤，或是聲音很小時可以考慮使用。您也可以改變發出的敲擊音的大"
+#~ "小，只要調整滑動器，或是用數字盒旁邊的上下鍵按鈕來調整。設為 0 則不發出聲"
+#~ "音。"
+
+#~ msgid "&Key click volume:"
+#~ msgstr "敲擊鍵音量(&K)："
+
+#~ msgid "No layout selected "
+#~ msgstr "沒有選擇佈局"
+
+#~ msgid "XKB extension failed to initialize"
+#~ msgstr "XKB 延伸初始化失敗"
+
+#~ msgid "Backspace"
+#~ msgstr "Backspace"
+
+#~ msgctxt "Tab key"
+#~ msgid "Tab"
+#~ msgstr "Tab"
+
+#~ msgid "Caps Lock"
+#~ msgstr "大寫鎖定"
+
+#~ msgid "Enter"
+#~ msgstr "Enter"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "AltGr"
+#~ msgstr "AltGr"
+
+#~ msgid "Esc"
+#~ msgstr "Esc"
+
+#~ msgctxt "Function key"
+#~ msgid "F%1"
+#~ msgstr "F%1"
+
+#~ msgid "Shift"
+#~ msgstr "Shift"
+
+#~ msgid "No preview found"
+#~ msgstr "找不到預覽"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid ""
+#~ "If you check this option, pressing and holding down a key emits the same "
+#~ "character over and over again. For example, pressing and holding down the "
+#~ "Tab key will have the same effect as that of pressing that key several "
+#~ "times in succession: Tab characters continue to be emitted until you "
+#~ "release the key."
+#~ msgstr ""
+#~ "勾選此選項的話，按住某一鍵不放會重覆送出同一個字元。例如，按住 Tab 不放，"
+#~ "就會產生很多定位點，直到放開按鍵為止，跟按好幾次一樣的結果。"
+
+#~ msgid "&Enable keyboard repeat"
+#~ msgstr "開啟鍵盤重覆(&E)"

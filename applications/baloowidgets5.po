@@ -1,0 +1,1076 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2012, 2014, 2015, 2017.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-19 03:13+0100\n"
+"PO-Revision-Date: 2017-11-11 19:10+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: src/filemetadataprovider.cpp:169
+#, kde-format
+msgctxt "unknown file size"
+msgid "Unknown"
+msgstr "未知"
+
+#: src/filemetadataprovider.cpp:171 src/filemetadataprovider.cpp:208
+#, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 個項目"
+
+#: src/filemetadataprovider.cpp:386 src/filemetadataprovider.cpp:397
+#, kde-format
+msgctxt "@label"
+msgid "Comment"
+msgstr "註解"
+
+#: src/filemetadataprovider.cpp:387
+#, kde-format
+msgctxt "@label"
+msgid "Modified"
+msgstr "已變更"
+
+#: src/filemetadataprovider.cpp:388
+#, kde-format
+msgctxt "@label"
+msgid "Owner"
+msgstr "擁有者"
+
+#: src/filemetadataprovider.cpp:389
+#, kde-format
+msgctxt "@label"
+msgid "Permissions"
+msgstr "權限"
+
+#: src/filemetadataprovider.cpp:390 src/filemetadataprovider.cpp:396
+#, kde-format
+msgctxt "@label"
+msgid "Rating"
+msgstr "評分"
+
+#: src/filemetadataprovider.cpp:391
+#, kde-format
+msgctxt "@label"
+msgid "Size"
+msgstr "大小"
+
+#: src/filemetadataprovider.cpp:392 src/filemetadataprovider.cpp:395
+#, kde-format
+msgctxt "@label"
+msgid "Tags"
+msgstr "標籤"
+
+#: src/filemetadataprovider.cpp:393
+#, kde-format
+msgctxt "@label"
+msgid "Total Size"
+msgstr "總共大小"
+
+#: src/filemetadataprovider.cpp:394
+#, kde-format
+msgctxt "@label"
+msgid "Type"
+msgstr "類型"
+
+#: src/filemetadataprovider.cpp:398
+#, kde-format
+msgctxt "@label"
+msgid "Downloaded From"
+msgstr "已下載從"
+
+#: src/filepropertiesplugin/baloofilepropertiesplugin.cpp:65
+#, kde-format
+msgctxt "Tab page with file meta data"
+msgid "&Details"
+msgstr ""
+
+#: src/kcommentwidget.cpp:67 src/tagwidget.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "Add..."
+msgstr "新增..."
+
+#: src/kcommentwidget.cpp:73 src/tagwidget.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "Change..."
+msgstr "變更..."
+
+#: src/kcommentwidget.cpp:119
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Comment"
+msgstr "變更註解"
+
+#: src/kcommentwidget.cpp:120
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Comment"
+msgstr "新增註解"
+
+#: src/keditcommentdialog.cpp:45 src/kedittagsdialog.cpp:52
+#, kde-format
+msgid "Save"
+msgstr "儲存"
+
+#: src/kedittagsdialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "變更標籤"
+
+#: src/kedittagsdialog.cpp:48
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "新增標籤"
+
+#: src/kedittagsdialog.cpp:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr "設定要套用哪個標籤。"
+
+#: src/kedittagsdialog.cpp:70
+#, kde-format
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "建立新標籤："
+
+#: src/querybuilder.cpp:164
+#, kde-format
+msgctxt ""
+"This is added to the query builder widget when a proposal containing a "
+"placeholder is selected"
+msgid "[something]"
+msgstr "[某事]"
+
+#: src/querybuildercompleter.cpp:91
+#, kde-format
+msgctxt "Pattern placeholder having no specific type"
+msgid "[something]"
+msgstr "[某事]"
+
+#: src/querybuildercompleter.cpp:95
+#, kde-format
+msgctxt "Pattern placeholder of date-time type"
+msgid "[date and time]"
+msgstr "[日期與時間]"
+
+#: src/querybuildercompleter.cpp:99
+#, kde-format
+msgctxt "Pattern placeholder for a tag name"
+msgid "[tag name]"
+msgstr "[標籤名稱]"
+
+#: src/querybuildercompleter.cpp:103
+#, kde-format
+msgctxt "Pattern placeholder for a contact identifier"
+msgid "[contact]"
+msgstr "[聯絡人]"
+
+#: src/querybuildercompleter.cpp:107
+#, kde-format
+msgctxt "Pattern placeholder for an e-mail address"
+msgid "[email address]"
+msgstr "[電子郵件地址]"
+
+#: src/querybuildercompleter.cpp:111
+#, kde-format
+msgctxt "Pattern placeholder for a standard property name"
+msgid "[property]"
+msgstr "[內容]"
+
+#: src/widgetfactory.cpp:125
+#, kde-format
+msgctxt "@label bitrate (per second)"
+msgid "%1/s"
+msgstr "%1/秒"
+
+#: src/widgetfactory.cpp:127
+#, kde-format
+msgctxt "@label samplerate in kilohertz"
+msgid "%1 kHz"
+msgstr ""
+
+#~ msgctxt "@label"
+#~ msgid "Add Comment..."
+#~ msgstr "新增註解..."
+
+#~ msgctxt "@label"
+#~ msgid "Add Tags..."
+#~ msgstr "新增標籤..."
+
+#~ msgctxt "Numeric rating of a resource"
+#~ msgid ""
+#~ "rated as $1;rated $1;score is $1;score|scored $1;having $1 stars|star"
+#~ msgstr ""
+#~ "rated as $1;rated $1;score is $1;score|scored $1;having $1 stars|star;評"
+#~ "分 $1;得分 $1;有 $1 顆星;"
+
+#~ msgid "Rating (0 to 10)"
+#~ msgstr "得分 (0 到 10)"
+
+#~ msgctxt "Comment of a resource"
+#~ msgid ""
+#~ "described as $1;description|comment is $1;described|description|comment $1"
+#~ msgstr ""
+#~ "described as $1;description|comment is $1;described|description|comment "
+#~ "$1;描述為|註解為|說明為 $1;"
+
+#~ msgid "Comment or description"
+#~ msgstr "描述或註解"
+
+#~ msgctxt "Author of a document"
+#~ msgid "written|created|composed by $1;author is $1;by $1"
+#~ msgstr ""
+#~ "written|created|composed by $1;author is $1;by $1;由 $1;作者 $1;作者為 $1"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgctxt "Size of a file"
+#~ msgid "size is $1;size $1;being $1 large;$1 large"
+#~ msgstr "size is $1;size $1;being $1 large;$1 large;大小 $1;大小為 $1"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "Name of a file or contact"
+#~ msgid "name is $1;name $1;named $1"
+#~ msgstr ""
+#~ "name is $1;name $1;named $1;名稱為 $1;名為 $1;名字為 $1;稱為 $1;叫做 $1"
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "Date of creation"
+#~ msgid ""
+#~ "created|dated at|on|in|of $1;created|dated $1;creation date|time|datetime "
+#~ "is $1"
+#~ msgstr ""
+#~ "created|dated at|on|in|of $1;created|dated $1;creation date|time|datetime "
+#~ "is $1;建立日期為 $1;建立於 $1;建立時間為 $1"
+
+#~ msgid "Date of creation"
+#~ msgstr "建立日期"
+
+#~ msgctxt "Date of last modification"
+#~ msgid ""
+#~ "modified|edited at|on $1;modified|edited $1;modification|edition date|"
+#~ "time|datetime is $1"
+#~ msgstr ""
+#~ "modified|edited at|on $1;modified|edited $1;modification|edition date|"
+#~ "time|datetime is $1;變更於 $1;變更日期為 $1;變更時間為 $1"
+
+#~ msgid "Date of last modification"
+#~ msgstr "上次變更日期"
+
+#~ msgctxt "A document is associated with a tag"
+#~ msgid "tagged as $1;has tag $1;tag is $1;# $1"
+#~ msgstr "tagged as $1;has tag $1;tag is $1;# $1;標記為 $1;標籤為 $1"
+
+#~ msgid "Tag name"
+#~ msgstr "標籤名稱"
+
+#~ msgctxt ""
+#~ "$1 is a property name (non-translatable unfortunately) and $2 is the "
+#~ "value against which the property is matched. Note that the equal/greater/"
+#~ "smaller sign has already been folded in $2"
+#~ msgid "$1 is $2;$1 $2"
+#~ msgstr "$1 是 $2;$1 $2;$1 為 $2;$1 is $2"
+
+#~ msgid "File property"
+#~ msgstr "檔案屬性"
+
+#~ msgctxt ""
+#~ "Characters that are kept in the query for further processing but are "
+#~ "considered word boundaries"
+#~ msgid ".,;:!?()[]{}<>=#+-"
+#~ msgstr ".,;:!?()[]{}<>=#+-"
+
+#~ msgctxt "Adding an offset to a period of time ($1=period, $2=offset)"
+#~ msgid "in $2 $1"
+#~ msgstr "在 $2 $1 內"
+
+#~ msgctxt "Removing an offset from a period of time ($1=period, $2=offset)"
+#~ msgid "$2 $1 ago"
+#~ msgstr "$2 $1 之前"
+
+#~ msgctxt "In one day"
+#~ msgid "tomorrow"
+#~ msgstr "明天"
+
+#~ msgid "Tomorrow"
+#~ msgstr "明天"
+
+#~ msgctxt "One day ago"
+#~ msgid "yesterday"
+#~ msgstr "昨天"
+
+#~ msgid "Yesterday"
+#~ msgstr "昨天"
+
+#~ msgctxt "The current day"
+#~ msgid "today"
+#~ msgstr "今天"
+
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgctxt "First period (first day, month, etc)"
+#~ msgid "first $1"
+#~ msgstr "第一$1"
+
+#~ msgid "First week, month, day, ..."
+#~ msgstr "第一週、第一個月、第一天..."
+
+#~ msgctxt "Last period (last day, month, etc)"
+#~ msgid "last $1 of"
+#~ msgstr "前一 $1"
+
+#~ msgid "Last week, month, day, ..."
+#~ msgstr "上週、上個月、前一天"
+
+#~ msgctxt ""
+#~ "Setting the value of a period, as in 'third week' ($1=period, $2=value)"
+#~ msgid "$2 $1"
+#~ msgstr "$2 $1"
+
+#~ msgctxt "Adding 1 to a period of time"
+#~ msgid "next $1"
+#~ msgstr "下一|後一|明$1"
+
+#~ msgid "Next week, month, day, ..."
+#~ msgstr "下週、下個月、明天"
+
+#~ msgctxt "Removing 1 to a period of time"
+#~ msgid "last $1"
+#~ msgstr "前一|上一|昨$1"
+
+#~ msgid "Previous week, month, day, ..."
+#~ msgstr "前一週、前一個月、昨天"
+
+#~ msgctxt "An hour ($5) and an optional minute ($6), PM"
+#~ msgid "at $5 :|\\. $6 pm;at $5 h pm;at $5 pm;$5 : $6 pm;$5 h pm;$5 pm"
+#~ msgstr ""
+#~ "於下午 $5 :|\\. $6;於下午 $5 點;於下午 $5 點;下午 $5 : $6;下午 $5 點;$5 : "
+#~ "$6 pm;$5 h pm;$5 pm"
+
+#~ msgid "A time after midday"
+#~ msgstr "午後的時間"
+
+#~ msgctxt "An hour ($5) and an optional minute ($6), AM"
+#~ msgid ""
+#~ "at $5 :|\\. $6 am;at $5 \\. $6;at $5 h am;at $5 am;at $5;$5 :|\\. $6 am;"
+#~ "$5 : $6 : $7;$5 : $6;$5 h am;$5 h;$5 am"
+#~ msgstr ""
+#~ "於上午 $5 :|\\. $6;於上午 $5 點;上午 $5 : $6;上午 $5 點;$5 : $6 : $7;$5 : "
+#~ "$6;$5 h am;$5 am"
+
+#~ msgid "A time"
+#~ msgstr "時間"
+
+#~ msgctxt ""
+#~ "A year ($1), month ($2), day ($3), day of week ($4), hour ($5), minute "
+#~ "($6), second ($7), in every combination supported by your language"
+#~ msgid ""
+#~ "$3 of $2 $1;$3 st|nd|rd|th $2 $1;$3 st|nd|rd|th of $2 $1;$3 of $2;$3 st|"
+#~ "nd|rd|th $2;$3 st|nd|rd|th of $2;$2 $3 st|nd|rd|th;$2 $3;$2 $1;$1 - $2 - "
+#~ "$3;$1 - $2;$3 / $2 / $1;$3 / $2;in $2 $1; in $1;, $1"
+#~ msgstr "$1 年 $2 月 $3 日;$1 / $2 / $3;$1 年;$1 年 $2 月;$2 月 $3 日;$2 月"
+
+#~ msgctxt "Decimal values with an integer ($1) and decimal ($2) part"
+#~ msgid "$1 \\. $2"
+#~ msgstr "$1 \\. $2"
+
+#~ msgid "A decimal value"
+#~ msgstr "十進制數值"
+
+#~ msgctxt "Equality"
+#~ msgid "contains|containing $1"
+#~ msgstr "包含|包括 $1;"
+
+#~ msgid "Containing"
+#~ msgstr "包含"
+
+#~ msgctxt "Strictly greater"
+#~ msgid "greater|bigger|more than $1;at least $1;> $1"
+#~ msgstr "大於 $1;至少 $1;多於 $1;> $1"
+
+#~ msgid "Greater than"
+#~ msgstr "大於"
+
+#~ msgctxt "After in time"
+#~ msgid "after|since $1"
+#~ msgstr "$1 之後;自從 $1;自從 $1 之後"
+
+#~ msgid "After"
+#~ msgstr "之後"
+
+#~ msgctxt "Strictly smaller"
+#~ msgid "smaller|less|lesser than $1;at most $1;< $1"
+#~ msgstr "小於|少於|至多 $1;< $1"
+
+#~ msgid "Smaller than"
+#~ msgstr "小於"
+
+#~ msgctxt "Before in time"
+#~ msgid "before|until $1"
+#~ msgstr "$1 之前"
+
+#~ msgid "Before"
+#~ msgstr "之前"
+
+#~ msgctxt "Equality"
+#~ msgid "equal|equals|= $1;equal to $1"
+#~ msgstr "等於 $1"
+
+#~ msgid "Equal to"
+#~ msgstr "等於"
+
+#~ msgctxt "Space-separated list of words representing a year"
+#~ msgid "year years"
+#~ msgstr "年 year years"
+
+#~ msgctxt "Space-separated list of words representing a month"
+#~ msgid "month months"
+#~ msgstr "月 month months"
+
+#~ msgctxt "Space-separated list of words representing a week"
+#~ msgid "week weeks"
+#~ msgstr "週 week weeks"
+
+#~ msgctxt "Space-separated list of words representing a day"
+#~ msgid "day days"
+#~ msgstr "天 day days"
+
+#~ msgctxt "Space-separated list of words representing an hour"
+#~ msgid "hour hours"
+#~ msgstr "小時 時 hour hours"
+
+#~ msgctxt "Space-separated list of words representing a minute"
+#~ msgid "minute minutes"
+#~ msgstr "分 分鐘 minute minutes"
+
+#~ msgctxt "Space-separated list of words representing a second"
+#~ msgid "second seconds"
+#~ msgstr "秒 second seconds"
+
+#~ msgctxt "Lower-case units corresponding to a kilobyte"
+#~ msgid "kb kilobyte kilobytes"
+#~ msgstr "kb kilobyte kilobytes"
+
+#~ msgctxt "Lower-case units corresponding to a megabyte"
+#~ msgid "mb megabyte megabytes"
+#~ msgstr "mb megabyte megabytes"
+
+#~ msgctxt "Lower-case units corresponding to a gigabyte"
+#~ msgid "gb gigabyte gigabytes"
+#~ msgstr "gb gigabyte gigabytes"
+
+#~ msgctxt "Lower-case units corresponding to a terabyte"
+#~ msgid "tb terabyte terabytes"
+#~ msgstr "tb terabyte terabytes"
+
+#~ msgctxt "Lower-case units corresponding to a kibibyte"
+#~ msgid "kib k kibibyte kibibytes"
+#~ msgstr "kib k kibibyte kibibytes"
+
+#~ msgctxt "Lower-case units corresponding to a mebibyte"
+#~ msgid "mib m mebibyte mebibytes"
+#~ msgstr "mib m mebibyte mebibytes"
+
+#~ msgctxt "Lower-case units corresponding to a gibibyte"
+#~ msgid "gib g gibibyte gibibytes"
+#~ msgstr "gib g gibibyte gibibytes"
+
+#~ msgctxt "Lower-case units corresponding to a tebibyte"
+#~ msgid "tib t tebibyte tebibytes"
+#~ msgstr "tib t tebibyte tebibytes"
+
+#~ msgctxt "Space-separated list of words meaning 0"
+#~ msgid "zero nought null"
+#~ msgstr "zero 0 零 無"
+
+#~ msgctxt "Space-separated list of words meaning 1"
+#~ msgid "one a first"
+#~ msgstr "one 1 一 壹"
+
+#~ msgctxt "Space-separated list of words meaning 2"
+#~ msgid "two second"
+#~ msgstr "2 two 二 貳"
+
+#~ msgctxt "Space-separated list of words meaning 3"
+#~ msgid "three third"
+#~ msgstr "三 3 參 three"
+
+#~ msgctxt "Space-separated list of words meaning 4"
+#~ msgid "four fourth"
+#~ msgstr "4 four 四  肆"
+
+#~ msgctxt "Space-separated list of words meaning 5"
+#~ msgid "five fifth"
+#~ msgstr "5 five 五 伍"
+
+#~ msgctxt "Space-separated list of words meaning 6"
+#~ msgid "six sixth"
+#~ msgstr "6 six 六 陸"
+
+#~ msgctxt "Space-separated list of words meaning 7"
+#~ msgid "seven seventh"
+#~ msgstr "7 seven 七 柒"
+
+#~ msgctxt "Space-separated list of words meaning 8"
+#~ msgid "eight eighth"
+#~ msgstr "8 eight 八 捌"
+
+#~ msgctxt "Space-separated list of words meaning 9"
+#~ msgid "nine ninth"
+#~ msgstr "9 nine 九 玖"
+
+#~ msgctxt "Space-separated list of words meaning 10"
+#~ msgid "ten tenth"
+#~ msgstr "10 ten 十 拾"
+
+#~ msgctxt ""
+#~ "List of lowercase prefixes or suffix that need to be split from values"
+#~ msgid "k m g b kb mb gb tb kib mib gib tib h am pm th rd nd st"
+#~ msgstr "k m g b kb mb gb tb kib mib gib tib h am pm th rd nd st"
+
+#~ msgctxt "List of words representing a file"
+#~ msgid "file files"
+#~ msgstr "檔案 file files"
+
+#~ msgctxt "List of words representing an image"
+#~ msgid "image images picture pictures photo photos"
+#~ msgstr "圖片 影像 相片 image images picture pictures photo photos"
+
+#~ msgctxt "List of words representing a video"
+#~ msgid "video videos movie movies film films"
+#~ msgstr "影片 電影 video videos movie movies film films"
+
+#~ msgctxt "List of words representing an audio file"
+#~ msgid "music musics"
+#~ msgstr "音樂 music musics"
+
+#~ msgctxt "List of words representing a document"
+#~ msgid "document documents"
+#~ msgstr "文件 document documents"
+
+#~ msgctxt "List of words representing an email"
+#~ msgid "mail mails email emails e-mail e-mails message messages"
+#~ msgstr ""
+#~ "郵件 電子郵件 訊息 mail mails email emails e-mail e-mails message messages"
+
+#~ msgctxt "List of words representing an archive"
+#~ msgid "archive archives tarball tarballs zip"
+#~ msgstr "歸檔 壓縮檔 archive archives tarball tarballs zip"
+
+#~ msgctxt "List of words representing a folder"
+#~ msgid "folder folders directory directories"
+#~ msgstr "資料夾 目錄 folder folders directory directories"
+
+#~ msgctxt "List of words representing a contact"
+#~ msgid "contact contacts person people"
+#~ msgstr "聯絡人 contact contacts person people"
+
+#~ msgctxt "List of words representing a note"
+#~ msgid "note notes"
+#~ msgstr "備忘 便條 note notes"
+
+#~ msgctxt "Are words of your language separated by spaces (Y/N) ?"
+#~ msgid "Y"
+#~ msgstr "N"
+
+#~ msgid "and"
+#~ msgstr "且 and"
+
+#~ msgid "or"
+#~ msgstr "或 or"
+
+#~ msgid "not"
+#~ msgstr "非 否 not"
+
+#~ msgctxt "@label creation date"
+#~ msgid "Created"
+#~ msgstr "建立時間"
+
+#~ msgctxt "@label file content size"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "@label file depends from"
+#~ msgid "Depends"
+#~ msgstr "依附"
+
+#~ msgctxt "@label Software used to generate content"
+#~ msgid "Generator"
+#~ msgstr "產生器"
+
+#~ msgctxt ""
+#~ "@label see http://www.semanticdesktop.org/ontologies/2007/01/19/"
+#~ "nie#hasPart"
+#~ msgid "Has Part"
+#~ msgstr "有部件"
+
+#~ msgctxt ""
+#~ "@label see http://www.semanticdesktop.org/ontologies/2007/01/19/"
+#~ "nie#hasLogicalPart"
+#~ msgid "Has Logical Part"
+#~ msgstr "有邏輯部份"
+
+#~ msgctxt "@label parent directory"
+#~ msgid "Part of"
+#~ msgstr "誰的一部份："
+
+#~ msgctxt "@label"
+#~ msgid "Keyword"
+#~ msgstr "關鍵字"
+
+#~ msgctxt "@label modified date of file"
+#~ msgid "Modified"
+#~ msgstr "已變更"
+
+#~ msgctxt "@label"
+#~ msgid "MIME Type"
+#~ msgstr "MIME 類型"
+
+#~ msgctxt "@label"
+#~ msgid "Related To"
+#~ msgstr "相關於"
+
+#~ msgctxt "@label"
+#~ msgid "Subject"
+#~ msgstr "主題"
+
+#~ msgctxt "@label music title"
+#~ msgid "Title"
+#~ msgstr "標題"
+
+#~ msgctxt "@label file URL"
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "建立者"
+
+#~ msgctxt "@label"
+#~ msgid "Average Bitrate"
+#~ msgstr "平均位元率"
+
+#~ msgctxt "@label"
+#~ msgid "Channels"
+#~ msgstr "頻道"
+
+#~ msgctxt "@label number of characters"
+#~ msgid "Characters"
+#~ msgstr "字元數"
+
+#~ msgctxt "@label"
+#~ msgid "Codec"
+#~ msgstr "編解碼器"
+
+#~ msgctxt "@label"
+#~ msgid "Color Depth"
+#~ msgstr "顏色深度"
+
+#~ msgctxt "@label"
+#~ msgid "Duration"
+#~ msgstr "期間"
+
+#~ msgctxt "@label"
+#~ msgid "Filename"
+#~ msgstr "檔案名稱"
+
+#~ msgctxt "@label"
+#~ msgid "Hash"
+#~ msgstr "雜湊值"
+
+#~ msgctxt "@label"
+#~ msgid "Height"
+#~ msgstr "高度"
+
+#~ msgctxt "@label"
+#~ msgid "Interlace Mode"
+#~ msgstr "交錯模式"
+
+#~ msgctxt "@label number of lines"
+#~ msgid "Lines"
+#~ msgstr "行數"
+
+#~ msgctxt "@label"
+#~ msgid "Programming Language"
+#~ msgstr "程式語言"
+
+#~ msgctxt "@label"
+#~ msgid "Sample Rate"
+#~ msgstr "取樣頻率"
+
+#~ msgctxt "@label"
+#~ msgid "Width"
+#~ msgstr "寬度"
+
+#~ msgctxt "@label number of words"
+#~ msgid "Words"
+#~ msgstr "單字"
+
+#~ msgctxt "@label EXIF aperture value"
+#~ msgid "Aperture"
+#~ msgstr "光圈"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Exposure Bias Value"
+#~ msgstr "曝光偏差值"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Exposure Time"
+#~ msgstr "曝光時間"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Flash"
+#~ msgstr "閃光"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Focal Length"
+#~ msgstr "焦距"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Focal Length 35 mm"
+#~ msgstr "焦距 35 mm"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "ISO Speed Ratings"
+#~ msgstr "ISO 速度評比"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Make"
+#~ msgstr "製造商"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Metering Mode"
+#~ msgstr "量尺模式"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Model"
+#~ msgstr "型號"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Orientation"
+#~ msgstr "方向"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "White Balance"
+#~ msgstr "白平衡"
+
+#~ msgctxt "@label video director"
+#~ msgid "Director"
+#~ msgstr "導演"
+
+#~ msgctxt "@label music genre"
+#~ msgid "Genre"
+#~ msgstr "風格"
+
+#~ msgctxt "@label music album"
+#~ msgid "Album"
+#~ msgstr "專輯"
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Sample Rate"
+#~ msgctxt "@label"
+#~ msgid "Frame Rate"
+#~ msgstr "取樣頻率"
+
+#~ msgctxt "@label"
+#~ msgid "Release Date"
+#~ msgstr "發布日期"
+
+#~ msgctxt "@label music track number"
+#~ msgid "Track"
+#~ msgstr "音軌"
+
+#~ msgctxt "@label resource created time"
+#~ msgid "Resource Created"
+#~ msgstr "資源已建立"
+
+#~ msgctxt "@label"
+#~ msgid "Sub Resource"
+#~ msgstr "子資源"
+
+#~ msgctxt "@label resource last modified"
+#~ msgid "Resource Modified"
+#~ msgstr "資源已變更"
+
+#~ msgctxt "@label"
+#~ msgid "Numeric Rating"
+#~ msgstr "評分"
+
+#~ msgctxt "@label"
+#~ msgid "First Usage"
+#~ msgstr "第一次使用"
+
+#~ msgctxt "@label"
+#~ msgid "Last Usage"
+#~ msgstr "上次使用"
+
+#~ msgctxt "@label"
+#~ msgid "Usage Count"
+#~ msgstr "使用次數"
+
+#~ msgctxt "@label"
+#~ msgid "Unix File Group"
+#~ msgstr "Unix 檔案群組"
+
+#~ msgctxt "@label"
+#~ msgid "Unix File Mode"
+#~ msgstr "Unix 檔案權限"
+
+#~ msgctxt "@label"
+#~ msgid "Unix File Owner"
+#~ msgstr "Unix 檔案擁有者"
+
+#~ msgctxt "@label file type"
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgctxt "@label Number of fuzzy translations"
+#~ msgid "Fuzzy Translations"
+#~ msgstr "模糊翻譯"
+
+#~ msgctxt "@label Name of last translator"
+#~ msgid "Last Translator"
+#~ msgstr "最新翻譯者"
+
+#~ msgctxt "@label Number of obsolete translations"
+#~ msgid "Obsolete Translations"
+#~ msgstr "已廢棄翻譯"
+
+#~ msgctxt "@label"
+#~ msgid "Translation Source Date"
+#~ msgstr "翻譯來源日期"
+
+#~ msgctxt "@label Number of total translations"
+#~ msgid "Total Translations"
+#~ msgstr "總翻譯數"
+
+#~ msgctxt "@label Number of translated strings"
+#~ msgid "Translated"
+#~ msgstr "已翻譯"
+
+#~ msgctxt "@label"
+#~ msgid "Translation Date"
+#~ msgstr "翻譯日期"
+
+#~ msgctxt "@label Number of untranslated strings"
+#~ msgid "Untranslated"
+#~ msgstr "未翻譯"
+
+#~ msgctxt "@info"
+#~ msgid "Delete tag"
+#~ msgstr "刪除標籤"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Should the tag <resource>%1</resource> really be deleted for all files?"
+#~ msgstr "確定要從所有的檔案中刪除標籤 <resource>%1</resource> 嗎？"
+
+#~ msgctxt "@title"
+#~ msgid "Delete tag"
+#~ msgstr "刪除標籤"
+
+#~ msgctxt "@action:button"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgctxt "@label"
+#~ msgid "Performer"
+#~ msgstr "演出者"
+
+#~ msgctxt "@label"
+#~ msgid "Show all tags..."
+#~ msgstr "顯示所有標籤..."
+
+#~ msgctxt ""
+#~ "@title KCategorizedSortFilterProxyModel grouping for all Nepomukj "
+#~ "resources that are of type rdfs:Resource"
+#~ msgid "Miscellaneous"
+#~ msgstr "雜項"
+
+#~ msgctxt "@title:column The Nepomuk resource label and icon"
+#~ msgid "Resource"
+#~ msgstr "資源"
+
+#~ msgctxt "@title:column The Nepomuk resource's RDF type"
+#~ msgid "Resource Type"
+#~ msgstr "資源型態"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "Anytime"
+#~ msgstr "任何時間"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "This Week"
+#~ msgstr "本週"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "Last Week"
+#~ msgstr "上週"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "This Month"
+#~ msgstr "本月"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "Last Month"
+#~ msgstr "上月"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "This Year"
+#~ msgstr "今年"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources"
+#~ msgid "Last Year"
+#~ msgstr "去年"
+
+#~ msgctxt ""
+#~ "referring to a filter on the modification and usage date of files/"
+#~ "resources that will open a dialog to choose a date range"
+#~ msgid "Custom..."
+#~ msgstr "自訂..."
+
+#~ msgid "This Week"
+#~ msgstr "本週"
+
+#~ msgid "This Month"
+#~ msgstr "本月"
+
+#~ msgctxt ""
+#~ "@option:check An item in a list of resources that allows to query for "
+#~ "more resources to put in the list"
+#~ msgid "More..."
+#~ msgstr "更多..."
+
+#~ msgctxt "@option:check A filter on file type"
+#~ msgid "Documents"
+#~ msgstr "文件"
+
+#~ msgctxt "@option:check A filter on file type - audio files"
+#~ msgid "Audio"
+#~ msgstr "音效"
+
+#~ msgctxt "@option:check A filter on file type - media video"
+#~ msgid "Video"
+#~ msgstr "影片"
+
+#~ msgctxt "@option:check A filter on file type"
+#~ msgid "Images"
+#~ msgstr "影像"
+
+#~ msgctxt ""
+#~ "@option:radio A filter on prioritizing/sorting a selection of resources"
+#~ msgid "No priority"
+#~ msgstr "沒有優先權"
+
+#~ msgctxt ""
+#~ "@option:radio A filter on prioritizing/sorting a selection of resources"
+#~ msgid "Last modified"
+#~ msgstr "上次變更"
+
+#~ msgctxt ""
+#~ "@option:radio A filter on prioritizing/sorting a selection of resources"
+#~ msgid "Most important"
+#~ msgstr "最重要"
+
+#~ msgctxt ""
+#~ "@option:radio A filter on prioritizing/sorting a selection of resources"
+#~ msgid "Never opened"
+#~ msgstr "從未開啟"
+
+#~ msgctxt "@option:radio A filter on the rating of a resource"
+#~ msgid "Any Rating"
+#~ msgstr "任何評分"
+
+#~ msgctxt "@option:radio A filter on the rating of a resource"
+#~ msgid "1 or more"
+#~ msgstr "1 以上"
+
+#~ msgctxt "@option:radio A filter on the rating of a resource"
+#~ msgid "2 or more"
+#~ msgstr "2 以上"
+
+#~ msgctxt "@option:radio A filter on the rating of a resource"
+#~ msgid "3 or more"
+#~ msgstr "3 以上"
+
+#~ msgctxt "@option:radio A filter on the rating of a resource"
+#~ msgid "4 or more"
+#~ msgstr "4 以上"
+
+#~ msgctxt "@option:radio A filter on the rating of a resource"
+#~ msgid "Max Rating"
+#~ msgstr "最高評分"
+
+#~ msgid "Enter Search Terms..."
+#~ msgstr "輸入搜尋字串..."
+
+#~ msgid "Search"
+#~ msgstr "搜尋"
+
+#~ msgctxt "@option:check A filter on resource type"
+#~ msgid "Emails"
+#~ msgstr "電子郵件"
+
+#~ msgctxt "@option:check A filter on resource type"
+#~ msgid "Tasks"
+#~ msgstr "工作"
+
+#~ msgctxt "@option:check A filter on resource type"
+#~ msgid "Tags"
+#~ msgstr "標籤"
+
+#~ msgctxt "@option:check Do filter on type - show only files"
+#~ msgid "Files"
+#~ msgstr "檔案"
+
+#~ msgctxt "@option:check Do filter on type - show everything but files"
+#~ msgid "Other"
+#~ msgstr "其他"

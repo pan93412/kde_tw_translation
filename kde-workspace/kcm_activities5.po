@@ -1,0 +1,250 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_activities5\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"PO-Revision-Date: 2016-11-03 16:03+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: ExtraActivitiesInterface.cpp:46 MainConfigurationWidget.cpp:46
+#, kde-format
+msgid "Activities"
+msgstr "活動"
+
+#: imports/activitysettings.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Activity"
+msgstr "刪除活動"
+
+#: imports/activitysettings.cpp:64
+#, kde-format
+msgid "Are you sure you want to delete '%1'?"
+msgstr "您確定要刪除「%1」嗎？"
+
+#: imports/dialog.cpp:94
+#, kde-format
+msgid ""
+"Error loading the QML files. Check your installation.\n"
+"Missing %1"
+msgstr ""
+"載入 QML 檔時發生錯誤。請檢查您的安裝。\n"
+"缺少了 %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: imports/dialog.cpp:158 ui/SwitchingTabBase.ui:17
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: imports/dialog.cpp:159
+#, kde-format
+msgid "Other"
+msgstr "其他"
+
+#: imports/dialog.cpp:176
+#, kde-format
+msgctxt "@title:window"
+msgid "Create a New Activity"
+msgstr "建立新活動"
+
+#: imports/dialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Activity Settings"
+msgstr "活動設定"
+
+#: imports/dialog.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "建立"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "套用"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "取消"
+
+#: imports/qml/activityDialog/components/ShortcutChooser.qml:36
+#, kde-format
+msgid "Shortcut for switching to this activity:"
+msgstr "切換到此活動的快捷鍵："
+
+#: imports/qml/activityDialog/GeneralTab.qml:58
+#, kde-format
+msgid "Activity information"
+msgstr "活動資訊"
+
+#: imports/qml/activityDialog/GeneralTab.qml:66
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#: imports/qml/activityDialog/GeneralTab.qml:73
+#, kde-format
+msgid "Description:"
+msgstr "描述："
+
+#: imports/qml/activityDialog/GeneralTab.qml:99
+#, kde-format
+msgid "Wallpaper"
+msgstr "桌布"
+
+#: imports/qml/activityDialog/GeneralTab.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Change..."
+msgstr "改變..."
+
+#: imports/qml/activityDialog/GeneralTab.qml:138
+#, kde-format
+msgid "Icon"
+msgstr "圖示"
+
+#: imports/qml/activityDialog/OtherTab.qml:44
+#, kde-format
+msgid "Private - do not track usage for this activity"
+msgstr "私人活動 - 不要追蹤此活動"
+
+#: MainConfigurationWidget.cpp:47
+#, kde-format
+msgid "Switching"
+msgstr "切換"
+
+#: MainConfigurationWidget.cpp:48
+#, kde-format
+msgid "Privacy"
+msgstr "隱私"
+
+#: PrivacyTab.cpp:74
+#, kde-format
+msgctxt "unlimited number of months"
+msgid "forever"
+msgstr "不斷地"
+
+#: PrivacyTab.cpp:84
+#, kde-format
+msgid "Forget the last hour"
+msgstr "忘記最後一小時的"
+
+#: PrivacyTab.cpp:86
+#, kde-format
+msgid "Forget the last two hours"
+msgstr "忘記最後兩小時的"
+
+#: PrivacyTab.cpp:88
+#, kde-format
+msgid "Forget a day"
+msgstr "忘記今天的"
+
+#: PrivacyTab.cpp:90
+#, kde-format
+msgid "Forget everything"
+msgstr "全部忘記"
+
+#: PrivacyTab.cpp:218
+#, kde-format
+msgctxt "unit of time. months to keep the history"
+msgid " month"
+msgid_plural " months"
+msgstr[0] "月"
+
+#: PrivacyTab.cpp:222
+#, kde-format
+msgctxt "for in 'keep history for 5 months'"
+msgid "for "
+msgstr "持續"
+
+#: qml/activitiesTab/ActivitiesView.qml:37
+#, kde-format
+msgid "Create activity..."
+msgstr "建立活動..."
+
+#: SwitchingTab.cpp:65
+#, kde-format
+msgid "Activity switching"
+msgstr "活動切換"
+
+#: SwitchingTab.cpp:69
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities"
+msgstr "瀏覽活動"
+
+#: SwitchingTab.cpp:72
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities (Reverse)"
+msgstr "瀏覽活動（反向）"
+
+#. i18n: ectx: property (text), widget (QLabel, labelRememberDocuments)
+#: ui/PrivacyTabBase.ui:17
+#, kde-format
+msgid "Remember opened documents:"
+msgstr "記住已開啟的文件："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberAllApplications)
+#: ui/PrivacyTabBase.ui:28
+#, kde-format
+msgid "For a&ll applications"
+msgstr "所有應用程式(&L)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioDontRememberApplications)
+#: ui/PrivacyTabBase.ui:38
+#, kde-format
+msgid "&Do not remember"
+msgstr "不要保留(&D)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberSpecificApplications)
+#: ui/PrivacyTabBase.ui:45
+#, kde-format
+msgid "O&nly for specific applications"
+msgstr "僅指定的應用程式(&N)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelKeepHistory)
+#: ui/PrivacyTabBase.ui:67
+#, kde-format
+msgid "Keep history"
+msgstr "保留歷史"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonClearRecentHistory)
+#: ui/PrivacyTabBase.ui:93
+#, kde-format
+msgid "Clear recent history"
+msgstr "清除最近的歷史"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBlacklistAllNotOnList)
+#: ui/PrivacyTabBase.ui:112
+#, kde-format
+msgid "Blacklist all applications not on this list"
+msgstr "將所有不在這份清單上的應用程式列入黑名單"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkRememberVirtualDesktop)
+#: ui/SwitchingTabBase.ui:23
+#, kde-format
+msgid "Remember the current virtual desktop for each activity (needs restart)"
+msgstr "記住每個活動目前的虛擬桌面（需要重新啟動）"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/SwitchingTabBase.ui:33
+#, kde-format
+msgid "Shortcuts"
+msgstr "捷徑"

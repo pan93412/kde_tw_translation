@@ -1,0 +1,265 @@
+# translation of ksmserver.po to Chinese Traditional
+#
+# Traditional Chinese Translation of ksmserver
+# Copyright (C) 2001, 2002, 2007, 2008 Free Software Foundation, Inc.
+#
+# Jing-Jong Shyue <shyue@sonoma.com.tw>, 2001.
+# Yuan-Chen Cheng <ycheng@slat.org>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2012, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmserver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2016-11-03 18:28+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: main.cpp:52
+#, kde-format
+msgid ""
+"The reliable KDE session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"可信賴的 KDE 工作階段管理者應該使用標準的\n"
+"X11R6 工作階段管理協定 (XSMP)。"
+
+#: main.cpp:140
+#, kde-format
+msgid "$HOME not set!"
+msgstr "未設定 $HOME。"
+
+#: main.cpp:145 main.cpp:152
+#, kde-format
+msgid "$HOME directory (%1) does not exist."
+msgstr "$HOME 目錄（%1）不存在。"
+
+#: main.cpp:147
+#, kde-format
+msgid "No write access to $HOME directory (%1)."
+msgstr "沒有寫入 $HOME 目錄（%1）的權限。"
+
+#: main.cpp:154
+#, kde-format
+msgid "No read access to $HOME directory (%1)."
+msgstr "沒有讀取 $HOME 目錄（%1）的權限。"
+
+#: main.cpp:159
+#, kde-format
+msgid "$HOME directory (%1) is out of disk space."
+msgstr "$HOME 目錄（%1）磁碟空間已用盡。"
+
+#: main.cpp:161
+#, kde-format
+msgid "Writing to the $HOME directory (%2) failed with the error '%1'"
+msgstr "寫入 $HOME 目錄（%2）時發生錯誤 '%1'"
+
+#: main.cpp:174 main.cpp:208
+#, kde-format
+msgid "No write access to '%1'."
+msgstr "沒有寫入 '%1' 的權限。"
+
+#: main.cpp:176 main.cpp:210
+#, kde-format
+msgid "No read access to '%1'."
+msgstr "沒有讀取 '%1' 的權限。"
+
+#: main.cpp:186 main.cpp:198
+#, kde-format
+msgid "Temp directory (%1) is out of disk space."
+msgstr "暫存目錄（%1）磁碟空間已用盡。"
+
+#: main.cpp:188 main.cpp:200
+#, kde-format
+msgid ""
+"Writing to the temp directory (%2) failed with\n"
+"    the error '%1'"
+msgstr "寫入暫存目錄（%2）時發生錯誤 '%1'"
+
+#: main.cpp:215
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start KDE:"
+msgstr "啟動 KDE 時偵測到以下的安裝問題："
+
+#: main.cpp:218
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"KDE is unable to start.\n"
+msgstr ""
+"\n"
+"\n"
+"無法啟動 KDE。\n"
+
+#: main.cpp:225
+#, kde-format
+msgid "Plasma Workspace installation problem!"
+msgstr "Plasma 工作空間安裝發生問題。"
+
+#: main.cpp:266
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "如果可以，回復之前的工作階段"
+
+#: main.cpp:270
+#, kde-format
+msgid ""
+"Starts <wm> in case no other window manager is \n"
+"participating in the session. Default is 'kwin'"
+msgstr ""
+"當沒有視窗管理員時，使用 <wm> 做為視窗管理員。\n"
+"預設為 'kwin'。"
+
+#: main.cpp:271
+#, kde-format
+msgid "wm"
+msgstr "wm"
+
+#: main.cpp:275
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "也允許遠端連接"
+
+#: main.cpp:279
+#, kde-format
+msgid "Starts the session in locked mode"
+msgstr "以鎖定模式啟動工作階段"
+
+#: main.cpp:283
+#, kde-format
+msgid ""
+"Starts without lock screen support. Only needed if other component provides "
+"the lock screen."
+msgstr "以不支援鎖定螢幕的方式啟動。只在有其他組件提供鎖定螢幕時才需要。"
+
+#: server.cpp:1046
+#, kde-format
+msgid "Log Out"
+msgstr "登出"
+
+#: server.cpp:1051
+#, kde-format
+msgid "Log Out Without Confirmation"
+msgstr "不需確認直接登出"
+
+#: server.cpp:1056
+#, kde-format
+msgid "Halt Without Confirmation"
+msgstr "不顯示關閉電腦的詢問訊息"
+
+#: server.cpp:1061
+#, kde-format
+msgid "Reboot Without Confirmation"
+msgstr "不顯示重新啟動的詢問訊息"
+
+#: shutdown.cpp:484
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "登出已由 %1 取消"
+
+#~ msgid "Sleeping in 1 second"
+#~ msgid_plural "Sleeping in %1 seconds"
+#~ msgstr[0] "在 %1 秒內休眠"
+
+#~ msgid "Lock"
+#~ msgstr "鎖定"
+
+#~ msgid "ksmserver"
+#~ msgstr "ksmserver"
+
+#~ msgid "Turn off"
+#~ msgstr "關閉"
+
+#~ msgid "Sleep"
+#~ msgstr "休眠"
+
+#~ msgid "Logging out in 1 second."
+#~ msgid_plural "Logging out in %1 seconds."
+#~ msgstr[0] "在 %1 秒內登出。"
+
+#~ msgid "Turning off computer in 1 second."
+#~ msgid_plural "Turning off computer in %1 seconds."
+#~ msgstr[0] "在 %1 秒內關閉電腦。"
+
+#~ msgid "Restarting computer in 1 second."
+#~ msgid_plural "Restarting computer in %1 seconds."
+#~ msgstr[0] "在 %1 秒內重新開機。"
+
+#~ msgid "Logout"
+#~ msgstr "登出"
+
+#~ msgid "Turn Off Computer"
+#~ msgstr "關閉電腦"
+
+#~ msgid "Restart Computer"
+#~ msgstr "重新啟動電腦"
+
+#~ msgctxt "default option in boot loader"
+#~ msgid " (default)"
+#~ msgstr "（預設）"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "&Standby"
+#~ msgstr "待命(&S)"
+
+#~ msgid "Suspend to &RAM"
+#~ msgstr "暫停並儲存到記憶體(&R)"
+
+#~ msgid "Suspend to &Disk"
+#~ msgstr "暫停並儲存到磁碟(&D)"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "薛景中"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "shyue@sonoma.com.tw"
+
+#~ msgid "The KDE Session Manager"
+#~ msgstr "KDE 工作階段管理員"
+
+#~ msgid "(C) 2000, The KDE Developers"
+#~ msgstr "(C) 2000, KDE 開發團隊"
+
+#~ msgid "Matthias Ettrich"
+#~ msgstr "Matthias Ettrich"
+
+#~ msgid "Luboš Luňák"
+#~ msgstr "Luboš Luňák"
+
+#~ msgid "Maintainer"
+#~ msgstr "維護者"
+
+#~ msgctxt "current option in boot loader"
+#~ msgid " (current)"
+#~ msgstr " (current)"
+
+#~ msgctxt "@label In corner of the logout dialog"
+#~ msgid "KDE <numid>%1.%2.%3</numid>"
+#~ msgstr "KDE <numid>%1.%2.%3</numid>"
+
+#~ msgctxt "@label In corner of the logout dialog"
+#~ msgid "KDE <numid>%1.%2</numid>"
+#~ msgstr "KDE <numid>%1.%2</numid>"
+
+#~ msgid "End Session for %1"
+#~ msgstr "結束 %1 之工作階段"
+
+#~ msgid "End Session for %1 (%2)"
+#~ msgstr "結束 %1 （%2）之工作階段"

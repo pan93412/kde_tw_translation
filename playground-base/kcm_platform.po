@@ -1,0 +1,370 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_platform\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:19+0100\n"
+"PO-Revision-Date: 2011-05-18 17:33+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: platform.cpp:39
+#, kde-format
+msgid "Platform"
+msgstr "平台"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlatformThing)
+#: platform.ui:20
+#, kde-format
+msgid "Platform Specific Configuration Module"
+msgstr "平台設定模組"
+
+#. i18n: ectx: property (title), widget (QGroupBox, shellChooser)
+#: platform.ui:35
+#, kde-format
+msgctxt "'Windows' means the OS"
+msgid "Windows Desktop Shell"
+msgstr "Windows 桌面 Shell"
+
+#. i18n: tooltip for option in switching Windows Desktop shells
+#. i18n: ectx: property (toolTip), widget (QRadioButton, optNative)
+#: platform.ui:41
+#, kde-format
+msgid "Native Windows Explorer shell"
+msgstr "原始 Windows Explorer shell"
+
+#. i18n: whatsThis for option in switching Windows Desktop shells
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, optNative)
+#: platform.ui:44
+#, kde-format
+msgid ""
+"This is the standard Windows Desktop shell. Choose this if you want to "
+"return your system to the default desktop."
+msgstr "標準的 Windows 桌面 shell。若您要返回原來的預設桌面，請將它關閉。"
+
+#. i18n: radio button to choose Windows Desktop shell
+#. i18n: ectx: property (text), widget (QRadioButton, optNative)
+#: platform.ui:47
+#, kde-format
+msgid "Native desktop shell"
+msgstr "原始桌面 shell"
+
+#. i18n: ectx: property (text), widget (QLabel, descrNative)
+#: platform.ui:54
+#, kde-format
+msgid "System's default desktop shell"
+msgstr "系統預設桌面 shell"
+
+#. i18n: tooltip for option in switching Windows Desktop shells
+#. i18n: ectx: property (toolTip), widget (QRadioButton, optPlasma)
+#: platform.ui:61
+#, kde-format
+msgid "Use the KDE desktop shell, as it is seen on Linux."
+msgstr "若有在 Linux 上 KDE 桌面 shell 就使用它"
+
+#. i18n: whatsThis for option in switching Windows Desktop shells
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, optPlasma)
+#: platform.ui:64
+#, kde-format
+msgid ""
+"Choose this option if you would like to use the Plasma desktop shell for "
+"your Windows system."
+msgstr "若您要在您的 Windows 系統上使用 Plasma 桌面 shell，請關閉此項。"
+
+#. i18n: radio button to choose Windows Desktop shell
+#. i18n: ectx: property (text), widget (QRadioButton, optPlasma)
+#: platform.ui:67
+#, kde-format
+msgid "Plasma desktop shell"
+msgstr "Plasma 桌面 shell"
+
+#. i18n: ectx: property (text), widget (QLabel, descrPlasma)
+#: platform.ui:74
+#, kde-format
+msgid "KDE4 Plasma desktop shell"
+msgstr "KDE4 Plasma 桌面 shell"
+
+#. i18n: tooltip for option in switching Windows Desktop shells
+#. i18n: ectx: property (toolTip), widget (QRadioButton, optCustom)
+#: platform.ui:81
+#, kde-format
+msgid "Your custom desktop shell"
+msgstr "自訂桌面 shell"
+
+#. i18n: whatsThis for option in switching Windows Desktop shells
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, optCustom)
+#: platform.ui:84
+#, kde-format
+msgid ""
+"Choose this and press the <i>\"Setup...\"</i> button to configure you custom "
+"desktop shell. Not recommended for the average user."
+msgstr ""
+"選擇此選項，並按下「設定...」鍵可以自訂桌面 shell。一般使用者不建議使用。"
+
+#. i18n: radio button to chose Windows Desktop shell
+#. i18n: ectx: property (text), widget (QRadioButton, optCustom)
+#: platform.ui:87 shellEdit.cpp:24
+#, kde-format
+msgid "Custom desktop shell"
+msgstr "自訂桌面 shell"
+
+#. i18n: ectx: property (text), widget (QLabel, descrCustom)
+#: platform.ui:94
+#, kde-format
+msgid ""
+"This shell is reserved for the user's custom shell. Press the \"Setup\" "
+"button to setup your favorite shell."
+msgstr "此 shell 是保留給使用者自訂的。請按下「設定」鍵設定您最愛的 shell。"
+
+#. i18n: tooltip for button to setup custom Desktop shell
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnShellSetup)
+#: platform.ui:109
+#, kde-format
+msgid "Press to setup your custom desktop shell"
+msgstr "按下以自訂您的桌面 shell"
+
+#. i18n: whatsThis for button to setup custom Desktop shells
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnShellSetup)
+#: platform.ui:112
+#, kde-format
+msgid ""
+"Press this and a configuration dialog will appear to allow you to configure "
+"your custom desktop shell."
+msgstr "按下此按鍵會出現一個設定對話框，讓您設定您自己的桌面 shell。"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnShellSetup)
+#: platform.ui:115
+#, kde-format
+msgid "Setup..."
+msgstr "設定..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, systemIntegration)
+#: platform.ui:146
+#, kde-format
+msgid "System Integration"
+msgstr "系統整合"
+
+#. i18n: tooltip for checkbox
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkDisableMenuGen)
+#: platform.ui:161
+#, kde-format
+msgid ""
+"This will enable automatic regeneration of Windows' Start menu entries for "
+"KDE applications"
+msgstr "這會開啟自動產生 Windows 開始選單項目，內含 KDE 應用程式"
+
+#. i18n: whatsThis tooltip
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkDisableMenuGen)
+#: platform.ui:167
+#, kde-format
+msgid ""
+"This option defines if Windows' Start menu entries should be regenerated or "
+"not. By default start menu entries are regenerated automatically, but you "
+"may wish to disable it if you have issues with that."
+msgstr ""
+"此選項定義是否要重新產生 Windows 的開始選單項目。預設是會自動重新產生，但您可"
+"以選擇將它關閉。"
+
+#. i18n: checkbox caption in System Integration options
+#. i18n: ectx: property (text), widget (QCheckBox, chkDisableMenuGen)
+#: platform.ui:170
+#, kde-format
+msgid "Enable automatic regeneration of start menu entries"
+msgstr "開啟自動產生選單目錄項目"
+
+#. i18n: tooltip for checkbox
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseNativeDialogs)
+#: platform.ui:177
+#, kde-format
+msgid "Use native Windows file dialogs instead of KDE ones"
+msgstr "使用原始 Windows 檔案對話框而不是用 KDE 的"
+
+#. i18n: whatsThis tooltip
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkUseNativeDialogs)
+#: platform.ui:183
+#, kde-format
+msgid ""
+"Choose this option to make KDE applications use the standard Windows Open/"
+"Save file dialogs, instead of those normally used in KDE."
+msgstr "此選項會讓 KDE 應用程式使用標準的 Windows 開啟/儲存檔案對話框。"
+
+#. i18n: checkbox caption in System Integration options
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseNativeDialogs)
+#: platform.ui:186
+#, kde-format
+msgid "Use native system file dialogs"
+msgstr "使用原始系統檔案對話框"
+
+#. i18n: tooltip for checkbox
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkInstallCPl)
+#: platform.ui:199
+#, kde-format
+msgid "Install System Settings into the Windows Control Panel."
+msgstr "安裝「系統設定」到 Windows 的控制面板"
+
+#. i18n: whatsThis tooltip
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkInstallCPl)
+#: platform.ui:202
+#, kde-format
+msgid ""
+"This will install the KDE 'System Settings' as an element in the Windows "
+"Control Panel.<br><b>Caution: This option tweaks your Windows registry.</b>"
+msgstr ""
+"這會將 KDE 的「系統設定」安裝到 Windows 控制面板。<br> <b>注意：此選項會改變"
+"您的 Windows 的 registry 內容！</b>"
+
+#. i18n: checkbox caption in System Integration options
+#. i18n: ectx: property (text), widget (QCheckBox, chkInstallCPl)
+#: platform.ui:205
+#, kde-format
+msgid "Install as control panel element"
+msgstr "安裝為控制面板元素"
+
+#. i18n: tooltip for checkbox
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkInstallCursors)
+#: platform.ui:212
+#, kde-format
+msgid "Install Oxygen cursors as Windows cursor schemes"
+msgstr "安裝 Oxygen 游標為 Windows 游標機制"
+
+#. i18n: whatsThis tooltip
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkInstallCursors)
+#: platform.ui:215
+#, kde-format
+msgid ""
+"This will install the Oxygen cursors into your system and combine them as a "
+"cursor theme.<br><b>Caution: This option tweaks your Windows registry.</b>"
+msgstr ""
+"這會將 Oxygen 游標安裝到您的系統，並結合到游標主題中。<br> <b>注意：此選項會"
+"改變您的 Windows 的 registry 內容！</b>"
+
+#. i18n: checkbox caption in System Integration options
+#. i18n: ectx: property (text), widget (QCheckBox, chkInstallCursors)
+#: platform.ui:218
+#, kde-format
+msgid "Install Oxygen cursor schemes"
+msgstr "安裝 Oxygen 游標機制"
+
+#. i18n: tooltip for checkbox
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkInstallWallpapers)
+#: platform.ui:225
+#, kde-format
+msgid "This option installs KDE wallpapers into your \"My Pictures\" directory"
+msgstr "此選項會安裝 KDE 桌面到您的「我的圖片」目錄中。"
+
+#. i18n: whatsThis tooltip
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkInstallWallpapers)
+#: platform.ui:228
+#, kde-format
+msgid ""
+"This will install KDE wallpapers into the <i>\"My Pictures\"</i> directory "
+"so they can be used as your Windows wallpaper. If the checkbox is set to "
+"half-checked then it means that there are new wallpapers available to update."
+"<br> The wallpaper aspect ratio will be selected according to your current "
+"screen resolution."
+msgstr ""
+"此選項會安裝 KDE 桌面到您的「我的圖片」目錄中，您就可以將它當成 Windows 桌"
+"面。若是只勾選一半，則表示有新的桌布可以更新。<br> 桌布的比例會根據您目前的螢"
+"幕的解析度而選擇。"
+
+#. i18n: checkbox caption in System Integration options
+#. i18n: ectx: property (text), widget (QCheckBox, chkInstallWallpapers)
+#: platform.ui:231
+#, kde-format
+msgid "Install Oxygen wallpapers"
+msgstr "安裝 Oxygen 桌布"
+
+#. i18n: tooltip for checkbox
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkStartAtLogin)
+#: platform.ui:238
+#, kde-format
+msgid "This will make essential KDE processes run at user login"
+msgstr "這會讓您在使用者登入時執行基本的 KDE 行程"
+
+#. i18n: whatsThis tooltip
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkStartAtLogin)
+#: platform.ui:241
+#, kde-format
+msgid ""
+"Enabling this option will start essential KDE processes at user login. "
+"Normally these processes are started when you first start a KDE application, "
+"thereby delaying the actual application launch.<br>It is recommended to "
+"enable this option to make your applications launch faster for the first "
+"time.<br><b>Caution: This option tweaks your Windows registry.</b>"
+msgstr ""
+"開啟此選項，則會在使用者登入時執行必要的 KDE 行程。通常這些行程在您啟動第一"
+"個 KDE 應用程式前必須被啟動，所以若未勾選，在啟動應用程式時會變慢。<br> 建議"
+"您勾選此選項，這樣在您第一次啟動應用程式時會變快。<br> <b>注意：此選項會改變"
+"您的 Windows 的 registry 內容！</b>"
+
+#. i18n: checkbox caption in System Integration options
+#. i18n: ectx: property (text), widget (QCheckBox, chkStartAtLogin)
+#: platform.ui:244
+#, kde-format
+msgid "Load KDE at user login"
+msgstr "使用者登入時載入 KDE"
+
+#: registryManager.cpp:189
+#, kde-format
+msgid "KDE System Settings"
+msgstr "KDE 系統設定"
+
+#: registryManager.cpp:190
+#, kde-format
+msgid "All KDE settings in one place"
+msgstr "將所有 KDE 設定放在一起"
+
+#: shellEdit.cpp:24
+#, kde-format
+msgid ""
+"This shell is reserved for user's custom shell. Press \"Setup\" button to "
+"setup your favourite shell."
+msgstr "此 shell 是保留給使用者自訂的。請按下「設定」鍵設定您最愛的 shell。"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ShellEditDlg)
+#: shellEdit.ui:19
+#, kde-format
+msgid "Setup Custom Shell"
+msgstr "設定自訂 Shell"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shellEdit.ui:28
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shellEdit.ui:48
+#, kde-format
+msgid "Command:"
+msgstr "指令："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: shellEdit.ui:61
+#, kde-format
+msgid "Description:"
+msgstr "描述："
+
+#~ msgctxt "radio button to chose Windows Desktop shell"
+#~ msgid "Custom desktop shell"
+#~ msgstr "自訂桌面 shell"

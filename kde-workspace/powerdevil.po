@@ -1,0 +1,1510 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevil\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-12-03 03:17+0100\n"
+"PO-Revision-Date: 2017-03-27 09:37+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: actions/bundled/brightnesscontrol.cpp:52
+#: actions/bundled/handlebuttonevents.cpp:57
+#: actions/bundled/keyboardbrightnesscontrol.cpp:57
+#, kde-format
+msgctxt "Name for powerdevil shortcuts category"
+msgid "Power Management"
+msgstr "電源管理"
+
+#: actions/bundled/brightnesscontrol.cpp:55
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness"
+msgstr "遞增螢幕亮度"
+
+#: actions/bundled/brightnesscontrol.cpp:60
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness"
+msgstr "遞減螢幕亮度"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr "等級"
+
+#: actions/bundled/dimdisplayconfig.cpp:64
+#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/suspendsessionconfig.cpp:79
+#: actions/dpms/powerdevildpmsactionconfig.cpp:60
+#, kde-format
+msgid " min"
+msgstr " 分鐘"
+
+#: actions/bundled/dimdisplayconfig.cpp:74
+#: actions/bundled/runscriptconfig.cpp:86
+#: actions/bundled/runscriptconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:102
+#, kde-format
+msgid "After"
+msgstr "多久之後："
+
+#: actions/bundled/handlebuttonevents.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Suspend"
+msgstr "暫停"
+
+#: actions/bundled/handlebuttonevents.cpp:67
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Hibernate"
+msgstr "休眠"
+
+#: actions/bundled/handlebuttonevents.cpp:72
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Power Off"
+msgstr "關閉電源"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:88
+#, kde-format
+msgctxt "Execute action on lid close even when external monitor is connected"
+msgid "Even when an external monitor is connected"
+msgstr "即使連接到外接螢幕"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:100
+#, kde-format
+msgid "Do nothing"
+msgstr "不做任何事"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:102
+#: actions/bundled/suspendsessionconfig.cpp:84
+#, kde-format
+msgid "Suspend"
+msgstr "暫停"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:105
+#: actions/bundled/suspendsessionconfig.cpp:87
+#, kde-format
+msgid "Hibernate"
+msgstr "冬眠"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:108
+#: actions/bundled/suspendsessionconfig.cpp:90
+#, kde-format
+msgid "Hybrid suspend"
+msgstr "混合式暫停"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:110
+#: actions/bundled/suspendsessionconfig.cpp:92
+#, kde-format
+msgid "Shut down"
+msgstr "關機"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:111
+#: actions/bundled/suspendsessionconfig.cpp:93
+#, kde-format
+msgid "Lock screen"
+msgstr "鎖定螢幕"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:113
+#, kde-format
+msgid "Prompt log out dialog"
+msgstr "顯示登出對話框"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:115
+#, kde-format
+msgid "Turn off screen"
+msgstr "關閉螢幕"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:141
+#, kde-format
+msgid "When laptop lid closed"
+msgstr "當上蓋關閉時"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:152
+#, kde-format
+msgid "When power button pressed"
+msgstr "當按下電源按鍵時"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Keyboard Brightness"
+msgstr "遞增鍵盤亮度"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:66
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Keyboard Brightness"
+msgstr "遞減鍵盤亮度"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:71
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Toggle Keyboard Backlight"
+msgstr "切換鍵盤背光"
+
+#: actions/bundled/keyboardbrightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "@label:slider Brightness level"
+msgid "Level"
+msgstr "等級"
+
+#: actions/bundled/runscriptconfig.cpp:72
+#, kde-format
+msgid "Script"
+msgstr "文稿"
+
+#: actions/bundled/runscriptconfig.cpp:84
+#, kde-format
+msgid "On Profile Load"
+msgstr "設定檔載入時"
+
+#: actions/bundled/runscriptconfig.cpp:85
+#, kde-format
+msgid "On Profile Unload"
+msgstr "設定檔卸載時"
+
+#: actions/bundled/runscriptconfig.cpp:96
+#, kde-format
+msgid "Run script"
+msgstr "執行文稿"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:75
+#: actions/bundled/wirelesspowersavingconfig.cpp:80
+#: actions/bundled/wirelesspowersavingconfig.cpp:85
+#, kde-format
+msgid "Leave unchanged"
+msgstr "保持不變"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:76
+#: actions/bundled/wirelesspowersavingconfig.cpp:81
+#: actions/bundled/wirelesspowersavingconfig.cpp:86
+#, kde-format
+msgid "Turn off"
+msgstr "關閉"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:77
+#: actions/bundled/wirelesspowersavingconfig.cpp:82
+#: actions/bundled/wirelesspowersavingconfig.cpp:87
+#, kde-format
+msgid "Turn on"
+msgstr "開啟"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:110
+#, kde-format
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:111
+#, kde-format
+msgid "Mobile broadband"
+msgstr "行動寬頻"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:112
+#, kde-format
+msgid "Bluetooth"
+msgstr "藍牙"
+
+#: actions/dpms/powerdevildpmsactionconfig.cpp:61
+#, kde-format
+msgid "Switch off after"
+msgstr "多久後關閉電源："
+
+#: backends/upower/backlighthelper.cpp:204
+#, kde-format
+msgid "Can't open file"
+msgstr "無法開啟檔案"
+
+#: backends/upower/login1suspendjob.cpp:76
+#: backends/upower/upowersuspendjob.cpp:69
+#, kde-format
+msgid "Unsupported suspend method"
+msgstr "未支援中止方法"
+
+#: powerdevilcore.cpp:91
+#, kde-format
+msgid ""
+"No valid Power Management backend plugins are available. A new installation "
+"might solve this problem."
+msgstr "沒有合法的電源管理後端介面外掛程式可用。新的安裝可能可以解決這個問題。"
+
+#: powerdevilcore.cpp:323
+#, kde-format
+msgid ""
+"The profile \"%1\" has been selected, but it does not exist.\n"
+"Please check your PowerDevil configuration."
+msgstr ""
+"已選取設定檔 %1，但現在它不見了。 \n"
+"請檢查您的 PowerDevil 設定。"
+
+#: powerdevilcore.cpp:387 powerdevilcore.cpp:399
+#, kde-format
+msgid "Activity Manager"
+msgstr "活動管理員"
+
+#: powerdevilcore.cpp:388
+#, kde-format
+msgid "This activity's policies prevent the system from suspending"
+msgstr "此活動的政策是避免系統進入暫停（suspending）狀態"
+
+#: powerdevilcore.cpp:400
+#, kde-format
+msgid "This activity's policies prevent screen power management"
+msgstr "此活動的政策是避免使用螢幕電源管理"
+
+#: powerdevilcore.cpp:432
+#, kde-format
+msgid ""
+"Could not connect to battery interface.\n"
+"Please check your system configuration"
+msgstr ""
+"無法連線到電池介面。\n"
+"請檢查您的系統設定"
+
+#: powerdevilcore.cpp:460
+#, kde-format
+msgid "Extra Battery Added"
+msgstr "新增額外電池"
+
+#: powerdevilcore.cpp:461 powerdevilcore.cpp:637
+#, kde-format
+msgid "All pending suspend actions have been canceled."
+msgstr "任何暫停的動作都已被取消。"
+
+#: powerdevilcore.cpp:526
+#, kde-format
+msgctxt "%1 is vendor name, %2 is product name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: powerdevilcore.cpp:535
+#, kde-format
+msgid "Mouse Battery Low (%1% Remaining)"
+msgstr "滑鼠電池電力偏低（剩 %1%）"
+
+#: powerdevilcore.cpp:537
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your mouse (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"在您的滑鼠中的電池 (\"%1\") 電力偏低，裝置隨時可能關閉。請盡快更換電池或充"
+"電。"
+
+#: powerdevilcore.cpp:542
+#, kde-format
+msgid "Keyboard Battery Low (%1% Remaining)"
+msgstr "鍵盤電池電力偏低（剩 %1%）"
+
+#: powerdevilcore.cpp:544
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your keyboard (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"在您的鍵盤中的電池 (\"%1\") 電力偏低，該裝置可能會在任何時候關閉它自己。請盡"
+"快換新電池或是對其充電。"
+
+#: powerdevilcore.cpp:549
+#, kde-format
+msgctxt "The battery in an external device"
+msgid "Device Battery Low (%1% Remaining)"
+msgstr "裝置電池電力偏低（剩 %1%）"
+
+#: powerdevilcore.cpp:551
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in a connected device (\"%1\") is low, and the device may turn "
+"itself off at any time. Please replace or charge the battery as soon as "
+"possible."
+msgstr ""
+"在您的裝置中的電池 (\"%1\") 電力偏低，該裝置可能會在任何時候關閉它自己。請盡"
+"快換新電池或是對其充電。"
+
+#: powerdevilcore.cpp:575
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr "電池電力偏低（剩 %1%）"
+
+#: powerdevilcore.cpp:576
+#, kde-format
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+"您的電池電力偏低。若您要繼續使用您的電腦，請插入市電，或是關閉然後更換電池。"
+
+#: powerdevilcore.cpp:587
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr "電池電力嚴重不足（剩 %1%）"
+
+#: powerdevilcore.cpp:589
+#, kde-format
+msgctxt ""
+"Cancel timeout that will automatically suspend system because of low battery"
+msgid "Cancel"
+msgstr "取消"
+
+#: powerdevilcore.cpp:598
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be halted in 60 seconds."
+msgstr "您的電池電力已達嚴重不足的程度，將在 60 秒內關機。"
+
+#: powerdevilcore.cpp:603
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be hibernated in 60 "
+"seconds."
+msgstr "您的電池電力已達嚴重不足的程度，將在 60 秒內進入冬眠模式。"
+
+#: powerdevilcore.cpp:608
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be suspended in 60 seconds."
+msgstr "您的電池電力已達嚴重不足的程度，將在 60 秒內暫停。"
+
+#: powerdevilcore.cpp:613
+#, kde-format
+msgid "Your battery level is critical, save your work as soon as possible."
+msgstr "您的電池電力已達嚴重不足的程度，請盡快儲存您的工作！"
+
+#: powerdevilcore.cpp:636
+#, kde-format
+msgid "AC Adapter Plugged In"
+msgstr "當市電電源已插上時"
+
+#: powerdevilcore.cpp:639
+#, kde-format
+msgid "Running on AC power"
+msgstr "接市電電源"
+
+#: powerdevilcore.cpp:639
+#, kde-format
+msgid "The power adaptor has been plugged in."
+msgstr "市電電源已插上。"
+
+#: powerdevilcore.cpp:642
+#, kde-format
+msgid "Running on Battery Power"
+msgstr "使用電池電力"
+
+#: powerdevilcore.cpp:642
+#, kde-format
+msgid "The power adaptor has been unplugged."
+msgstr "市電電源已拔除。"
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+"KDE 電源管理系統無法初始化。後端介面回報錯誤：%1\n"
+"請檢查您的系統設定"
+
+#: powerdevilcore.cpp:709
+#, kde-format
+msgid "Charge Complete"
+msgstr "充電完成"
+
+#: powerdevilcore.cpp:709
+#, kde-format
+msgid "Your battery is now fully charged."
+msgstr "您的電池已充飽。"
+
+#~ msgctxt "@action:inmenu Global shortcut"
+#~ msgid "Sleep"
+#~ msgstr "睡眠"
+
+#~ msgid "Sleep"
+#~ msgstr "睡眠"
+
+#~ msgid ""
+#~ "Your battery capacity is %1%. This means your battery is broken and needs "
+#~ "a replacement. Please contact your hardware vendor for more details."
+#~ msgstr ""
+#~ "您的電池容量為 %1%。這表示電池已損壞，需要更換。請聯繫您的硬體廠商詢問更多"
+#~ "詳情。"
+
+#~ msgid ""
+#~ "One of your batteries (ID %2) has a capacity of %1%. This means it is "
+#~ "broken and needs a replacement. Please contact your hardware vendor for "
+#~ "more details."
+#~ msgstr ""
+#~ "您的其中一個電池（代碼 %2）的容量為 %1%。這表示電池已損壞，需要更換。請聯"
+#~ "繫您的硬體廠商詢問更多詳情。"
+
+#~ msgid "Broken Battery"
+#~ msgstr "已損壞的電池"
+
+#~ msgid ""
+#~ "Your battery might have been recalled by %1. Usually, when vendors recall "
+#~ "the hardware, it is because of factory defects which are usually eligible "
+#~ "for a free repair or substitution. Please check <a href=\"%2\">%1's "
+#~ "website</a> to verify if your battery is faulted."
+#~ msgstr ""
+#~ "您的電池可能被 %1 宣布召回。通常，硬體廠商宣布召回硬體，表示原廠發現了問"
+#~ "題，因此召回免費替換。若您的電池有問題，請查看 <a href=\"%2\">%1 的網站</"
+#~ "a>。"
+
+#~ msgid ""
+#~ "One of your batteries (ID %3) might have been recalled by %1. Usually, "
+#~ "when vendors recall the hardware, it is because of factory defects which "
+#~ "are usually eligible for a free repair or substitution. Please check <a "
+#~ "href=\"%2\">%1's website</a> to verify if your battery is faulted."
+#~ msgstr ""
+#~ "您的其中一個電池（代碼 %3）可能被 %1 宣布召回。通常，硬體廠商宣布召回硬"
+#~ "體，表示原廠發現了問題，因此召回免費替換。若您的電池有問題，請查看 <a "
+#~ "href=\"%2\">%1 的網站</a>。"
+
+#~ msgid "Check Your Battery"
+#~ msgstr "檢查您的電池"
+
+#~ msgid ""
+#~ "Your Power Profiles have been updated to be used with the new KDE Power "
+#~ "Management System. You can tweak them or generate a new set of defaults "
+#~ "from System Settings."
+#~ msgstr ""
+#~ "您的電源設定檔已被更新，以便與新的 KDE 電源管理系統一起使用。您可以調整"
+#~ "它，或是從系統設定中產生新的預設值。"
+
+#~ msgid "KDE Power Management System"
+#~ msgstr "KDE 電源管理系統"
+
+#~ msgid ""
+#~ "KDE Power Management System is PowerDevil, an advanced, modular and "
+#~ "lightweight Power Management daemon"
+#~ msgstr ""
+#~ "KDE 電源管理系統為 PowerDevil，這是一套進階的、模組化的輕量級電源管理伺服"
+#~ "程式"
+
+#~ msgid "(c) 2010 MetalWorkers Co."
+#~ msgstr "(c) 2010 MetalWorkers Co."
+
+#~ msgid "Dario Freddi"
+#~ msgstr "Dario Freddi"
+
+#~ msgid "Maintainer"
+#~ msgstr "維護者"
+
+#~ msgid ""
+#~ "The profile \"%1\" tried to activate %2, a non existent action. This is "
+#~ "usually due to an installation problem or to a configuration problem."
+#~ msgstr ""
+#~ "設定檔 %1 試著啟動 %2，但該動作不存在。這通常是安裝或是設定問題所造成。"
+
+#~ msgctxt "Global shortcut"
+#~ msgid "Sleep"
+#~ msgstr "睡眠"
+
+#~ msgctxt "Global shortcut"
+#~ msgid "Hibernate"
+#~ msgstr "冬眠"
+
+#, fuzzy
+#~| msgid "Lock screen"
+#~ msgid "Locking Screen"
+#~ msgstr "鎖定螢幕"
+
+#~ msgid "The screen is being locked"
+#~ msgstr "螢幕鎖定中"
+
+#~ msgid ""
+#~ "The power adaptor has been plugged in – all pending suspend actions have "
+#~ "been canceled."
+#~ msgstr "市電電源已插上 -- 所有暫停的動作都已被取消。"
+
+#~ msgid "Your battery has reached a low level."
+#~ msgstr "您的電池電力已達不足的程度"
+
+#~ msgctxt "Name of a power profile"
+#~ msgid "Performance"
+#~ msgstr "效能"
+
+#~ msgctxt "Name of a power profile"
+#~ msgid "Powersave"
+#~ msgstr "省電"
+
+#~ msgctxt "Name of a power profile"
+#~ msgid "Aggressive powersave"
+#~ msgstr "積極省電"
+
+#~ msgid "Your battery has reached the warning level."
+#~ msgstr "您的電池電力已達警告的程度"
+
+#~ msgid "Disable effects"
+#~ msgstr "關閉效果"
+
+#~ msgid "When sleep button pressed"
+#~ msgstr "當按下睡眠按鍵時"
+
+#~ msgid "Developer"
+#~ msgstr "開發者"
+
+#~ msgid ""
+#~ "The application %1 is inhibiting suspension for the following reason:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "應用程式 %1 要求禁止暫停，理由為：\n"
+#~ "%2"
+
+#~ msgid "PowerDevil"
+#~ msgstr "PowerDevil"
+
+#~ msgid "A Power Management tool for KDE4"
+#~ msgstr "KDE4 的電源管理工具"
+
+#~ msgid "(c) 2008 Dario Freddi"
+#~ msgstr "(c) 2008 Dario Freddi"
+
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be halted in 1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be halted in %1 seconds."
+#~ msgstr[0] "您的電池電力已達嚴重不足的程度，將在 %1 秒內關機。"
+
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be suspended to disk in "
+#~ "1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be suspended to disk in "
+#~ "%1 seconds."
+#~ msgstr[0] "您的電池電力已達嚴重不足的程度，將在 %1 秒內暫停並儲存到磁碟。"
+
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be suspended to RAM in "
+#~ "1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be suspended to RAM in "
+#~ "%1 seconds."
+#~ msgstr[0] ""
+#~ "您的電池電力已達嚴重不足的程度，將在 %1 秒內暫停並儲存到至記憶體。"
+
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be put into standby in "
+#~ "1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be put into standby in "
+#~ "%1 seconds."
+#~ msgstr[0] "您的電池電力已達嚴重不足的程度，將在 %1 秒內切到待機模式。"
+
+#~ msgid "The computer will be halted in 1 second."
+#~ msgid_plural "The computer will be halted in %1 seconds."
+#~ msgstr[0] "電腦將在 %1 秒內關機。"
+
+#~ msgid "The computer will be suspended to disk in 1 second."
+#~ msgid_plural "The computer will be suspended to disk in %1 seconds."
+#~ msgstr[0] "電腦將在 %1 秒內暫停並儲存到磁碟。"
+
+#~ msgid "The computer will be suspended to RAM in 1 second."
+#~ msgid_plural "The computer will be suspended to RAM in %1 seconds."
+#~ msgstr[0] "電腦將在 %1 秒內暫停並儲存到記憶體。"
+
+#~ msgid "The computer will be put into standby in 1 second."
+#~ msgid_plural "The computer will be put into standby in %1 seconds."
+#~ msgstr[0] "電腦將在 %1 秒內切到待機模式。"
+
+#~ msgid "There was an error while suspending:"
+#~ msgstr "休眠時發生錯誤："
+
+#~ msgid "Profile changed to \"%1\""
+#~ msgstr "設定檔變更為 %1"
+
+#~ msgid "Suspend to Disk"
+#~ msgstr "暫停並儲存到磁碟"
+
+#~ msgid "Standby"
+#~ msgstr "待機"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "編輯設定檔"
+
+#~ msgid "Capabilities"
+#~ msgstr "性能"
+
+#~ msgid "PowerDevil Configuration"
+#~ msgstr "PowerDevil 設定"
+
+#~ msgid "A configurator for PowerDevil"
+#~ msgstr "PowerDevil 設定器"
+
+#~ msgid "(c), 2008 Dario Freddi"
+#~ msgstr "(c), 2008 Dario Freddi"
+
+#~ msgid ""
+#~ "From this module, you can configure the Daemon, create and edit "
+#~ "powersaving profiles, and see your system's capabilities."
+#~ msgstr ""
+#~ "您可以在此模組設定守護程式，建立並編輯省電設定檔，以及查看您的系統的容量。"
+
+#~ msgid ""
+#~ "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
+#~ "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
+#~ "started upon KDE startup.</p> <p>PowerDevil has 2 levels of "
+#~ "configuration: a general one, that is always applied, and a profile-based "
+#~ "one, that lets you configure a specific behavior in every situation. You "
+#~ "can also have a look at your system capabilities in the last tab. To get "
+#~ "you started, first configure the options in the first 2 tabs. Then switch "
+#~ "to the fourth one, and create/edit your profiles. Last but not least, "
+#~ "assign your profiles in the third Tab. You do not have to restart "
+#~ "PowerDevil, just click \"Apply\", and you are done.</p>"
+#~ msgstr ""
+#~ "<h1>PowerDevil 設定</h1> <p>此模組讓您設定 PowerDevil。PowerDevil 是一個守"
+#~ "護程式（所以是在背景執行），在 KDE 啟動時執行。</p> <p>PowerDevil 有兩種等"
+#~ "級的設定：一種是一般設定，另一種是根據設定檔，讓您在不同的情況下指定不同的"
+#~ "設定。您也可以在最後一個分頁中看到目前系統的容量。要開始設定，首先設定前兩"
+#~ "個分頁，然後切到第四個，建立或編輯您的設定檔。最後，在第三個分頁中指定您的"
+#~ "設定檔。您不需要重新啟動 PowerDevil，只要按下「套用」即可。</p>"
+
+#~ msgid ""
+#~ "Another power manager has been detected. PowerDevil will not start if "
+#~ "other power managers are active. If you want to use PowerDevil as your "
+#~ "primary power manager, please remove the existing one and restart the "
+#~ "PowerDevil service."
+#~ msgstr ""
+#~ "偵測到另一個電源管理程式。這樣 PowerDevil 將無法啟動。若您要使用 "
+#~ "PowerDevil 做為主要的電源管理程式，請將現有的移除，並重新啟動 PowerDevil "
+#~ "服務。"
+
+#~ msgid ""
+#~ "It seems powersaved is running on this system. PowerDevil will not start "
+#~ "if other power managers are active. If you want to use PowerDevil as your "
+#~ "primary power manager, please stop powersaved and restart the PowerDevil "
+#~ "service."
+#~ msgstr ""
+#~ "看起來系統已經在執行 powersaved 了。若是有其它的電源管理程式，PowerDevil "
+#~ "將不會啟動，所以請停止 powersaved 並重新啟動 PowerDevil 服務。"
+
+#~ msgid ""
+#~ "PowerDevil seems not to be started. Either you have its service turned "
+#~ "off, or there is a problem in D-Bus."
+#~ msgstr "PowerDevil 似乎尚未啟動。您可能已將其服務關閉，或是 D-Bus 有問題。"
+
+#~ msgid "Power Profiles Configuration"
+#~ msgstr "電源設定檔設定"
+
+#~ msgid "A profile configurator for KDE Power Management System"
+#~ msgstr "KDE 電源管理系統的設定工具"
+
+#~ msgid "(c), 2010 Dario Freddi"
+#~ msgstr "(c), 2010 Dario Freddi"
+
+#~ msgid "Please enter a name for the new profile:"
+#~ msgstr "請輸入新設定檔的名稱："
+
+#~ msgid "The name for the new profile"
+#~ msgstr "新設定檔的名稱"
+
+#~ msgid "Enter here the name for the profile you are creating"
+#~ msgstr "請在此輸入您建立的設定檔的名稱"
+
+#~ msgid "Please enter a name for this profile:"
+#~ msgstr "請輸入新設定檔的名稱："
+
+#~ msgid "Import PowerDevil Profiles"
+#~ msgstr "匯入 PowerDevil 設定檔"
+
+#~ msgid "Export PowerDevil Profiles"
+#~ msgstr "匯出 PowerDevil 設定檔"
+
+#~ msgid ""
+#~ "The current profile has not been saved.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "目前設定檔尚未儲存。\n"
+#~ "您要儲存嗎﹖"
+
+#~ msgid "Save Profile"
+#~ msgstr "儲存設定檔"
+
+#~ msgctxt "None"
+#~ msgid "No methods found"
+#~ msgstr "找不到方法"
+
+#~ msgid ""
+#~ "ConsoleKit was not found active on your PC, or PowerDevil cannot contact "
+#~ "it. ConsoleKit lets PowerDevil detect whether the current session is "
+#~ "active, which is useful if you have more than one user logged into your "
+#~ "system at any one time."
+#~ msgstr ""
+#~ "在您的 PC 上找不到 ConsoleKit，或是 PowerDevil 無法與 ConsoleKit 聯繫。"
+#~ "ConsoleKit 可以讓 PowerDevil 偵測目前的工作階段是否已閒置，因此同時有幾個"
+#~ "使用者登入您的系統時會很有用處。"
+
+#~ msgid "No issues found with your configuration."
+#~ msgstr "您的設定檔沒有問題。"
+
+#~ msgid "New Profile"
+#~ msgstr "新增設定檔"
+
+#~ msgid "Delete Profile"
+#~ msgstr "刪除設定檔"
+
+#~ msgid "Import Profiles"
+#~ msgstr "匯入設定檔"
+
+#~ msgid "Export Profiles"
+#~ msgstr "匯出設定檔"
+
+#~ msgid "Settings and Profile"
+#~ msgstr "設定與設定檔"
+
+#~ msgid "<b>Events</b>"
+#~ msgstr "<b>事件</b>"
+
+#~ msgid "Lock screen on resume"
+#~ msgstr "回復時鎖定螢幕"
+
+#~ msgid "Locks screen when waking up from suspension"
+#~ msgstr "從暫停醒來時鎖定螢幕"
+
+#~ msgid "You will be asked for a password when resuming from sleep state"
+#~ msgstr "從休眠狀態回復時會詢問密碼"
+
+#~ msgid "Configure Notifications..."
+#~ msgstr "設定通知..."
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Profile Assignment</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">設定檔指定</span></p></body></html>"
+
+#~ msgid "When AC Adaptor is unplugged"
+#~ msgstr "當市電電源被拔除時"
+
+#~ msgid "When battery is at low level"
+#~ msgstr "當電池電力已達不足時"
+
+#~ msgid "When battery is at warning level"
+#~ msgstr "當電池電力已達警告時"
+
+#~ msgid "Advanced Battery Settings"
+#~ msgstr "進階電池選項"
+
+#~ msgid "When battery remaining is critical"
+#~ msgstr "當剩餘電力嚴重不足時"
+
+#~ msgid "Battery Levels"
+#~ msgstr "電池電力"
+
+#~ msgid "Battery is at low level at"
+#~ msgstr "電池電力偏低，目前容量"
+
+#~ msgid "Low battery level"
+#~ msgstr "電池電量偏低等級"
+
+#~ msgid "Battery will be considered low when it reaches this level"
+#~ msgstr "當電池電力低於此等級時會視為低電量"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Battery is at warning level at"
+#~ msgstr "電池電力已達警告等級，目前容量"
+
+#~ msgid "Warning battery level"
+#~ msgstr "電池電量警告等級"
+
+#~ msgid ""
+#~ "Battery will be considered at warning level when it reaches this level"
+#~ msgstr "電池電力低於此等級的話，將視為警告等級"
+
+#~ msgid "Battery is at critical level at"
+#~ msgstr "電池電力已嚴重不足，目前容量"
+
+#~ msgid "Battery will be considered critical when it reaches this level"
+#~ msgstr "電池電力低於此等級的話，將視為嚴重不足"
+
+#~ msgid "System Capabilities"
+#~ msgstr "系統性能："
+
+#~ msgid "Number of CPUs"
+#~ msgstr "CPU 數量"
+
+#~ msgid "Number of Batteries"
+#~ msgstr "電池數量"
+
+#~ msgid "Supported suspend methods"
+#~ msgstr "支援的暫停方法"
+
+#~ msgid "Support for DPMS"
+#~ msgstr "支援 DPMS"
+
+#~ msgid ""
+#~ "If this is enabled, PowerDevil will be able to configure power management "
+#~ "for your monitor"
+#~ msgstr "開啟此選項的話，PowerDevil 將可以設定您的螢幕的電源管理"
+
+#~ msgid "DPMS Support"
+#~ msgstr "DPMS 支援"
+
+#~ msgid "Checks if ConsoleKit is active on your system"
+#~ msgstr "檢查您的系統上是否有 ConsoleKit"
+
+#~ msgid ""
+#~ "ConsoleKit lets PowerDevil detect whether the current session is active, "
+#~ "which is useful if you have more than one user logged into your system at "
+#~ "any one time."
+#~ msgstr ""
+#~ "ConsoleKit 可以讓 PowerDevil 偵測目前的工作階段是否已閒置，因此同時有幾個"
+#~ "使用者登入您的系統時會很有用處。"
+
+#~ msgid "ConsoleKit Runtime Support"
+#~ msgstr "ConsoleKit 執行期支援"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "PowerDevil error"
+#~ msgstr "PowerDevil 錯誤"
+
+#~ msgid ""
+#~ "The configuration module can not be started, since there seems to be a "
+#~ "problem with the PowerDevil Daemon. Read below for more details"
+#~ msgstr ""
+#~ "無法啟動設定模組，因為 PowerDevil 守護程式似乎有問題。請詳閱以下的詳情說"
+#~ "明。"
+
+#~ msgid "Editing Profile"
+#~ msgstr "編輯設定檔"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Rename"
+#~ msgstr "重新命名"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Profile Assignment"
+#~ msgstr "指定設定檔："
+
+#~ msgid ""
+#~ "<b>There are some issues in your configuration. Please check the "
+#~ "Capabilities page for more details.</b>"
+#~ msgstr "<b>在您的設定檔中有一些問題。請檢查「性能」分頁中的詳情說明。</b>"
+
+#~ msgid "Let PowerDevil manage screen powersaving"
+#~ msgstr "讓 PowerDevil 管理螢幕省電模式"
+
+#~ msgid "Before doing a suspend action, wait"
+#~ msgstr "在執行暫停動作前，等待"
+
+#~ msgid " sec"
+#~ msgstr " 秒"
+
+#~ msgid "Do not wait"
+#~ msgstr "不要等待"
+
+#~ msgid "Do Nothing"
+#~ msgstr "不做任何事"
+
+#~ msgid "Learn more about the Energy Star program"
+#~ msgstr "學習更多有關能源之星"
+
+#~ msgid "Actions"
+#~ msgstr "動作"
+
+#~ msgid ""
+#~ "To prevent data loss or other damage, you can have the system suspend or "
+#~ "hibernate, so you do not run accidentally out of battery power. Configure "
+#~ "the number of minutes below which the machine will run the configured "
+#~ "action."
+#~ msgstr ""
+#~ "為了避免資料流失或其它的損害，您可以讓系統暫停或進入睡眠模式，這樣您就不會"
+#~ "不小心把電池電力用盡。您可以在底下設定機器在多久以後要執行哪些動作。"
+
+#~ msgid "When the system is idle for more than"
+#~ msgstr "系統閒置時間超過"
+
+#~ msgid "This action will be performed when the laptop lid gets closed"
+#~ msgstr "這個動作會在上蓋關閉時執行"
+
+#~ msgid "Screen"
+#~ msgstr "螢幕"
+
+#~ msgid ""
+#~ "With this slider you can set the brightness when the system is plugged "
+#~ "into the socket outlet"
+#~ msgstr "這個滑動器可以讓您設定市電插入時的亮度"
+
+#~ msgid "Brightness:"
+#~ msgstr "亮度："
+
+#~ msgid "Activate automatic dimming"
+#~ msgstr "啟動時自動變暗"
+
+#~ msgid "Automatically dims the display when the system is idle."
+#~ msgstr "系統閒置時自動將亮度降低。"
+
+#~ msgid "Dim display when idle for more than"
+#~ msgstr "閒置時間超過多久時降低亮度："
+
+#~ msgctxt "Minutes"
+#~ msgid " min"
+#~ msgstr " 分鐘"
+
+#~ msgid "&Enable display power management"
+#~ msgstr "開啟顯示能量管理(&E)"
+
+#~ msgid ""
+#~ "Choose the period of inactivity after which the display should enter "
+#~ "\"standby\" mode. This is the first level of power saving."
+#~ msgstr "選擇顯示器進入 \"待命\" 模式前的時間.  這是第一階段的省電."
+
+#~ msgid "&Standby after"
+#~ msgstr "多久後待機(&S)："
+
+#~ msgid "S&uspend after"
+#~ msgstr "多久後暫停(&U)："
+
+#~ msgid "CPU and System"
+#~ msgstr "CPU 與系統"
+
+#~ msgid "Enable system power saving"
+#~ msgstr "開啟系統省電模式"
+
+#~ msgid "When loading profile execute:"
+#~ msgstr "載入設定檔後就執行："
+
+#, fuzzy
+#~| msgid "(c) 2008 Dario Freddi"
+#~ msgid "Copyright © 2008–2011 Dario Freddi"
+#~ msgstr "(c) 2008 Dario Freddi"
+
+#~ msgid "System powersaving scheme:"
+#~ msgstr "系統省電機制："
+
+#~ msgid "Scheme support"
+#~ msgstr "機制支援"
+
+#~ msgid "Supported schemes"
+#~ msgstr "支援的機制"
+
+#~ msgid "Dynamic (ondemand)"
+#~ msgstr "動態（要求）"
+
+#~ msgid "Dynamic (conservative)"
+#~ msgstr "動態（保守）"
+
+#~ msgid "Userspace"
+#~ msgstr "使用者空間"
+
+#~ msgid "CPU <numid>%1</numid>"
+#~ msgstr "CPU <numid>%1</numid>"
+
+#~ msgid "Disable CPU <numid>%1</numid>"
+#~ msgstr "關閉 CPU <numid>%1</numid>"
+
+#~ msgid "If this box is checked, the CPU <numid>%1</numid> will be disabled"
+#~ msgstr "勾選此選項的話，CPU <numid>%1</numid> 將被關閉"
+
+#~ msgid ""
+#~ "No scaling methods were found. If your CPU is reasonably recent, this is "
+#~ "probably because you have not loaded some kernel modules. Usually scaling "
+#~ "modules have names similar to cpufreq_ondemand. Scaling is useful and can "
+#~ "save a lot of battery. Click on \"Attempt Loading Modules\" to let "
+#~ "PowerDevil try to load the required modules. If you are sure your PC does "
+#~ "not support scaling, you can also disable this warning by clicking \"Do "
+#~ "not display this warning again\"."
+#~ msgstr ""
+#~ "找不到調整的方法。如果您的 CPU 是最近的，這有可能是您尚未載入核心的模組。"
+#~ "通常調整模組的名稱會是像 cpufreq_ondemand。調整功能有助於節省電池的電力。"
+#~ "您可以點擊「嘗試載入模組」按鍵來試著載入需要的模組。如果您確定您的 PC 不支"
+#~ "援調整，您可以點擊下方的按鍵，以後將不會再顯示此警告。"
+
+#~ msgid "Attempt to load modules"
+#~ msgstr "嘗試載入模組"
+
+#~ msgid "Do not display this warning again"
+#~ msgstr "不要再顯示此警告訊息"
+
+#~ msgid ""
+#~ "No kernel modules for CPU scaling were found. Either you do not have them "
+#~ "installed, or PowerDevil could not detect them."
+#~ msgstr ""
+#~ "找不到 CPU 調整的核心模組。也許您並未安裝，或是 PowerDevil 偵測不到它們。"
+
+#~ msgid "Modules not found"
+#~ msgstr "找不到模組"
+
+#~ msgid "Turn off the following CPU(s)"
+#~ msgstr "關閉以下的 CPU"
+
+#~ msgid ""
+#~ "CPU Behaviour strongly impacts on your system performance and on your "
+#~ "battery's life. Here you can choose the policy best suitable for this "
+#~ "profile"
+#~ msgstr ""
+#~ "CPU 行為會強烈地衝擊到您的系統的效能，以及您的電池的壽命。您可以在此選擇最"
+#~ "適合於此設定檔的政策"
+
+#~ msgid "CPU frequency scaling policy:"
+#~ msgstr "CPU 頻率調整政策："
+
+#~ msgid "CPU can be turned Off"
+#~ msgstr "CPU 可關閉"
+
+#~ msgid "Scaling capability"
+#~ msgstr "調整性能"
+
+#~ msgid "Supported CPU Policies"
+#~ msgstr "支援的 CPU 政策"
+
+#~ msgid "Configure actions"
+#~ msgstr "設定動作"
+
+#~ msgid "Configure preferences for Screen Powersaving"
+#~ msgstr "設定螢幕省電模式的喜好設定"
+
+#~ msgid "Configure System and CPU preferences"
+#~ msgstr "設定系統與 CPU 喜好設定"
+
+#~ msgid "Battery Actions"
+#~ msgstr "電池動作"
+
+#~ msgid ""
+#~ "PowerDevil was compiled without Xss and Xext support, or the XSync "
+#~ "extension is not available. Determining idle time will not be possible. "
+#~ "Please consider recompiling PowerDevil with at least one of these two "
+#~ "libraries."
+#~ msgstr ""
+#~ "PowerDevil 編譯時並未加入 Xss 與 Xext 支援，或是找不到 XSync 延伸。這樣會"
+#~ "無法決定閒置時間。請考慮重新編譯 PowerDevil，加入以上兩者支援中的至少一"
+#~ "種。"
+
+#~ msgid ""
+#~ "PowerDevil was compiled without Xext support, or the XSync extension is "
+#~ "not available. XSync grants extra efficiency and performance, saving your "
+#~ "battery and CPU. It is advised to use PowerDevil with XSync enabled."
+#~ msgstr ""
+#~ "PowerDevil 編譯時並未加入 Xext 支援，或是找不到 XSync 延伸。XSync 提供較好"
+#~ "的效能，保護您的電池與 CPU。所以建議在 PowerDevil 中使用 XSync。"
+
+#~ msgid ""
+#~ "XSync does not seem to be your preferred query backend, though it is "
+#~ "available on your system. Using it largely improves performance and "
+#~ "efficiency, and is strongly advised. Click on the button below to enable "
+#~ "it now."
+#~ msgstr ""
+#~ "XSync 目前似乎不是您預設的查詢後端。既然您的系統中有安裝，強烈建議使用它來"
+#~ "提供效能。點擊以下的按鍵可以開始使用 XSync。"
+
+#~ msgid "Enable XSync Backend"
+#~ msgstr "開啟 XSync 後端介面"
+
+#~ msgid "Support for the XSync extension"
+#~ msgstr "支援 XSync 延伸"
+
+#~ msgid ""
+#~ "XSync is an extension that allows high efficiency query of the system. If "
+#~ "it is available, PowerDevil will be much more reliable and efficient"
+#~ msgstr ""
+#~ "XSync 可以做高效能的系統查詢。若是 XSync 可以運作，PowerDevil 將會更有效率"
+#~ "並且更穩定。"
+
+#~ msgid "XSync Support"
+#~ msgstr "XSync 支援"
+
+#~ msgid "Support for XScreensaver"
+#~ msgstr "支援 XScreensaver"
+
+#~ msgid ""
+#~ "Through XScreensaver, PowerDevil may query the system if XSync is not "
+#~ "available. It is necessary only if your system does not support XSync. If "
+#~ "both of them are unavailable, PowerDevil will not be able to query idle "
+#~ "time of the system"
+#~ msgstr ""
+#~ "透過 XScreensaver，PowerDevil 可以知道是否可使用 XSync。只有在您的系統不支"
+#~ "援 XSync 時才需要這樣做。如果兩者都不支援，PowerDevil 將無法偵測系統閒置時"
+#~ "間。"
+
+#~ msgid "XScreenSaver Support"
+#~ msgstr "XScreenSaver 支援"
+
+#~ msgid "Support for XTest extension"
+#~ msgstr "支援 XTest 延伸"
+
+#~ msgid ""
+#~ "Through XTest, PowerDevil is able to fake user activity, preventing "
+#~ "suspension loops. If it is not available, loops might occur"
+#~ msgstr "透過 XTest，PowerDevil 可以模擬使用者動作，來避免進入暫停迴圈。"
+
+#~ msgid "XTest Support"
+#~ msgstr "XTest 支援"
+
+#~ msgid "Main Developer"
+#~ msgstr "主要開發者"
+
+#~ msgid "XSync Based (recommended)"
+#~ msgstr "基於 XSync【推薦使用】"
+
+#~ msgid "Timer Based"
+#~ msgstr "基於計時器"
+
+#~ msgid "Grabber Widget Based"
+#~ msgstr "基於 Grabber 元件"
+
+#~ msgid "Enables standard notifications"
+#~ msgstr "開啟標準通知"
+
+#~ msgid ""
+#~ "Notifications such as standard events or profile change will be shown"
+#~ msgstr "顯示標準事件或設定檔變更的通知"
+
+#~ msgid "Enable notifications"
+#~ msgstr "開啟通知"
+
+#~ msgid "Enables warning notifications"
+#~ msgstr "開啟警告通知"
+
+#~ msgid ""
+#~ "Notifications such as warnings or important events will be shown. It is "
+#~ "recommended to leave this enabled."
+#~ msgstr "顯示警告或重要事件的通知。建議開啟此選項。"
+
+#~ msgid "Enable warning notifications"
+#~ msgstr "開啟警告通知"
+
+#~ msgid "Interval for interactive confirm notifications"
+#~ msgstr "互動式確認通知的間隔"
+
+#~ msgid ""
+#~ "If selected, before doing an automatic suspension PowerDevil will show an "
+#~ "interactive notification for the specified time. If that notification is "
+#~ "then clicked, the queued action will not be run."
+#~ msgstr ""
+#~ "勾選此項目的話，在自動暫停之前，PowerDevil 會顯示一個互動式的通知。若是點"
+#~ "擊該通知，則不會執行此動作。"
+
+#~ msgctxt "Interrupts the suspension/shutdown process"
+#~ msgid "Abort Action"
+#~ msgstr "中止動作"
+
+#~ msgid "Suspend to Ram"
+#~ msgstr "暫停並儲存到記憶體"
+
+#~ msgctxt "Minutes"
+#~ msgid "min"
+#~ msgstr "分"
+
+#~ msgid "min"
+#~ msgstr "分"
+
+#~ msgid ""
+#~ "The computer will be suspended to disk in %1 seconds. Click here to block "
+#~ "the process."
+#~ msgstr "電腦將在 %1 秒內暫停並儲存到磁碟。點擊此處可以暫停倒數。"
+
+#~ msgid ""
+#~ "The computer will be suspended to RAM in %1 seconds. Click here to block "
+#~ "the process."
+#~ msgstr "電腦將在 %1 秒內暫停並儲存到記憶體。點擊此處可以暫停倒數。"
+
+#~ msgid ""
+#~ "The computer will be put into standby in %1 seconds. Click here to block "
+#~ "the process."
+#~ msgstr "電腦將在 %1 秒內切入待機模式。點擊此處可以暫停倒數。"
+
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgid "Profiles"
+#~ msgstr "設定檔"
+
+#~ msgid "Screen and Actions"
+#~ msgstr "螢幕與動作"
+
+#~ msgid "Screen Energy"
+#~ msgstr "螢幕能量"
+
+#~ msgid "Configure screen energy management"
+#~ msgstr "設定螢幕能量管理"
+
+#~ msgctxt "A DPMS status will be disabled"
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgid "Undo all the changes to this profile since last saving"
+#~ msgstr "復原此設定檔所有未儲存的變更"
+
+#~ msgid "Undo Changes"
+#~ msgstr "復原改變"
+
+#~ msgid "Save changes to this profile"
+#~ msgstr "儲存此設定檔的變更"
+
+#~ msgid "Save Current Profile"
+#~ msgstr "儲存目前的設定檔"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgctxt "Creates a new profile"
+#~ msgid "New"
+#~ msgstr "新建"
+
+#~ msgid "Clone"
+#~ msgstr "複製"
+
+#~ msgid "Import profiles from a file"
+#~ msgstr "從檔案匯入設定檔"
+
+#~ msgid "Export your profiles to a file"
+#~ msgstr "將您的設定檔匯出到檔案"
+
+#~ msgid "(c) 2008 PowerDevil Development Team"
+#~ msgstr "(c) 2008 PowerDevil 開發團隊"
+
+#~ msgid "The computer is being halted"
+#~ msgstr "電腦將被關機"
+
+#~ msgid ""
+#~ "Automatically turn off the display if idle for more than the set value."
+#~ msgstr "如果閒置時間超過設定值時自動關閉顯示。"
+
+#~ msgid "Turn off display if idle for more than"
+#~ msgstr "閒置時間超過多久時關閉顯示："
+
+#~ msgid "Idle time after which the monitor should turn off"
+#~ msgstr "如果閒置時間超過設定值時自動關閉螢幕。"
+
+#~ msgid "Polling started, idle time is %1 seconds"
+#~ msgstr "輪詢開始，閒置時間為 %1 秒"
+
+#~ msgid "Stopping timer"
+#~ msgstr "停止計時器"
+
+#~ msgid "Minimum time is %1 seconds"
+#~ msgstr "最小時間為 %1 秒"
+
+#~ msgid "Nothing to do, next event in %1 seconds"
+#~ msgstr "沒事可做，下次事件在 %1 秒內發生"
+
+#~ msgid "Next timeout in %1 seconds"
+#~ msgstr "下次逾時在 %1 秒內"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Idle detection method"
+#~ msgstr "閒置偵測方法"
+
+#~ msgid ""
+#~ "This is the method PowerDevil will use to query the system. XSync is the "
+#~ "best choice for performance and reliability, if you are unsure on what to "
+#~ "choose, go for XSync"
+#~ msgstr ""
+#~ "這是 PowerDevil 用於查詢系統的方法。以效能與穩定度來說，XSync 是最佳選擇。"
+#~ "所以若您不知道要用哪一種，建議使用 XSync。"
+
+#~ msgid "Preferred Polling System:"
+#~ msgstr "預設輪詢系統："
+
+#~ msgid ""
+#~ "Another copy of PowerDevil has been detected. Probably another user is "
+#~ "using it. This might lead to conflicts, so just a single copy is allowed "
+#~ "to run."
+#~ msgstr ""
+#~ "偵測到另一個 PowerDevil 已啟動。也許另一個使用者正在使用它。這樣有可能導致"
+#~ "衝突，所以只能允許執行一個實體。"
+
+#~ msgid ""
+#~ "Another power manager has been detected. Do you want to start PowerDevil "
+#~ "anyway? Please note this may lead to conflicts and undefined behaviour."
+#~ msgstr ""
+#~ "偵測到另一個電源管理程式。您還是要啟動 PowerDevil 嗎﹖要注意這可能會導致衝"
+#~ "突，而出現無法預期的行為。"
+
+#~ msgid "PowerDevil Startup"
+#~ msgstr "PowerDevil 啟動"
+
+#~ msgid ""
+#~ "If you do not wish to use PowerDevil as your main power manager, please "
+#~ "consider disabling its service in systemsettings. This message will not "
+#~ "be shown again once PowerDevil has been disabled."
+#~ msgstr ""
+#~ "如果您不願意使用 PowerDevil 做為主要的電源管理程式，請考慮在系統設定中的服"
+#~ "務選項將它關閉。關閉後這個訊息將不會再顯示。"
+
+#~ msgid ""
+#~ "If you wish to use PowerDevil as your main power manager, please consider "
+#~ "disabling other power managers you have enabled on this system. This "
+#~ "message will not be shown again once all other power managers have been "
+#~ "disabled."
+#~ msgstr ""
+#~ "如果您打算使用 PowerDevil 做為主要的電源管理程式，請考慮在系統設定中的服務"
+#~ "選項將其它的電源管理程式關閉。關閉後這個訊息將不會再顯示。"
+
+#~ msgctxt "Note this is a KRunner keyword"
+#~ msgid "power profile"
+#~ msgstr "電源設定檔"
+
+#~ msgctxt "Note this is a KRunner keyword"
+#~ msgid "power governor"
+#~ msgstr "電源管轄者"
+
+#~ msgctxt "Note this is a KRunner keyword"
+#~ msgid "power scheme"
+#~ msgstr "電源機制"
+
+#~ msgid "Set Profile to '%1'"
+#~ msgstr "將設定檔設為 %1"
+
+#~ msgid "Set CPU Governor to '%1'"
+#~ msgstr "將 CPU 管轄者設為 %1"
+
+#~ msgid "Set Powersaving Scheme to '%1'"
+#~ msgstr "設定省電機制為 %1"
+
+#~ msgid "Set Brightness to %1"
+#~ msgstr "設定亮度為 %1"
+
+#~ msgid "Dim screen totally"
+#~ msgstr "將螢幕整個變暗"
+
+#~ msgid "Dim screen by half"
+#~ msgstr "將螢幕變暗一半"
+
+#~ msgid "Detected Activity"
+#~ msgstr "偵測到活動"
+
+#~ msgid "Battery Management Settings"
+#~ msgstr "電池管理設定"
+
+#~ msgid "Is PowerDevil Daemon up and running?"
+#~ msgstr "PowerDevil 守護程式是否已啟動﹖"
+
+#~ msgid "sources"
+#~ msgstr "來源"
+
+#~ msgid "AC Adapter"
+#~ msgstr "AC 插座"
+
+#~ msgid "Plugged in"
+#~ msgstr "已插入"
+
+#~ msgid "n/a"
+#~ msgstr "無"
+
+#~ msgid "Percent"
+#~ msgstr "百分比"
+
+#~ msgid "Configure Battery Monitor"
+#~ msgstr "設定電池監視器"
+
+#~ msgid "Show the percentage of &charge on the battery"
+#~ msgstr "顯示電池充電百分比(&C)"
+
+#~ msgid "Show the state for &each battery present"
+#~ msgstr "顯示現有的每個電池的狀態(&E)"
+
+#~ msgid "Oxygen theme"
+#~ msgstr "Oxygen 主題"
+
+#~ msgid "Classic theme"
+#~ msgstr "傳統主題"
+
+#~ msgid "Configure PowerDevil"
+#~ msgstr "設定 PowerDevil"
+
+#~ msgid "availableProfiles"
+#~ msgstr "可用設定檔"
+
+#~ msgid "currentProfile"
+#~ msgstr "目前設定檔"
+
+#~ msgid "Current Profile name is %1"
+#~ msgstr "目前設定檔為 %1"
+
+#~ msgid "Invalid group!!"
+#~ msgstr "不合法的群組！"
+
+#~ msgid "Basic options"
+#~ msgstr "基本選項"
+
+#~ msgid "set-profile"
+#~ msgstr "編輯設定檔"
+
+#~ msgid "change-profile"
+#~ msgstr "變更設定檔"
+
+#~ msgid "switch-profile"
+#~ msgstr "切換設定檔"
+
+#~ msgid "change-governor"
+#~ msgstr "變更管轄者"
+
+#~ msgid "switch-governor"
+#~ msgstr "切換管轄者"
+
+#~ msgid "set-scheme"
+#~ msgstr "設定機制"
+
+#~ msgid "change-scheme"
+#~ msgstr "變更機制"
+
+#~ msgid "switch-scheme"
+#~ msgstr "切換機制"
+
+#~ msgid "change-brightness"
+#~ msgstr "變更亮度"

@@ -1,0 +1,1106 @@
+# translation of kstyle_config.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstyle_config\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-24 03:18+0200\n"
+"PO-Revision-Date: 2015-02-15 19:51+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: main.cpp:40 main.cpp:44
+#, kde-format
+msgid "Oxygen Settings"
+msgstr "Oxygen 設定"
+
+#: oxygenanimationconfigwidget.cpp:49
+#, kde-format
+msgid "Focus, mouseover and widget state transition"
+msgstr "焦點、滑鼠覆蓋與元件狀態轉變"
+
+#: oxygenanimationconfigwidget.cpp:50
+#, kde-format
+msgid ""
+"Configure widgets' focus and mouseover highlight animation, as well as "
+"widget enabled/disabled state transition"
+msgstr "設定元件的焦點、滑鼠覆蓋突顯動畫，以及元件開啟/關閉狀態的轉變"
+
+#: oxygenanimationconfigwidget.cpp:53
+#, kde-format
+msgid "Toolbar highlight"
+msgstr "工具列突顯"
+
+#: oxygenanimationconfigwidget.cpp:54
+#, kde-format
+msgid "Configure toolbars' mouseover highlight animation"
+msgstr "設定工具列的滑鼠覆蓋突顯動畫"
+
+#: oxygenanimationconfigwidget.cpp:58
+#, kde-format
+msgid "Menu bar highlight"
+msgstr "選單列突顯"
+
+#: oxygenanimationconfigwidget.cpp:59
+#, kde-format
+msgid "Configure menu bars' mouseover highlight animation"
+msgstr "設定選單列的滑鼠覆蓋突顯動畫"
+
+#: oxygenanimationconfigwidget.cpp:62
+#, kde-format
+msgid "Menu highlight"
+msgstr "選單突顯"
+
+#: oxygenanimationconfigwidget.cpp:63
+#, kde-format
+msgid "Configure menus' mouseover highlight animation"
+msgstr "設定選單的滑鼠覆蓋突顯動畫"
+
+#: oxygenanimationconfigwidget.cpp:66
+#, kde-format
+msgid "Progress bar animation"
+msgstr "進度列動畫"
+
+#: oxygenanimationconfigwidget.cpp:67
+#, kde-format
+msgid "Configure progress bars' steps animation"
+msgstr "設定進度列的動畫"
+
+#: oxygenanimationconfigwidget.cpp:70
+#, kde-format
+msgid "Tab transitions"
+msgstr "分頁轉變"
+
+#: oxygenanimationconfigwidget.cpp:70
+#, kde-format
+msgid "Configure fading transition between tabs"
+msgstr "設定分頁間的淡入淡出轉變"
+
+#: oxygenanimationconfigwidget.cpp:73
+#, kde-format
+msgid "Label transitions"
+msgstr "標籤轉變"
+
+#: oxygenanimationconfigwidget.cpp:73
+#, kde-format
+msgid "Configure fading transition when a label's text is changed"
+msgstr "設定標籤文字變更時的淡入淡出轉變"
+
+#: oxygenanimationconfigwidget.cpp:76
+#, kde-format
+msgid "Text editor transitions"
+msgstr "文字編輯器轉變"
+
+#: oxygenanimationconfigwidget.cpp:76
+#, kde-format
+msgid "Configure fading transition when an editor's text is changed"
+msgstr "設定編輯器文字變更時的淡入淡出轉變"
+
+#: oxygenanimationconfigwidget.cpp:79
+#, kde-format
+msgid "Combo box transitions"
+msgstr "下拉式選單轉變"
+
+#: oxygenanimationconfigwidget.cpp:79
+#, kde-format
+msgid ""
+"Configure fading transition when a combo box's selected choice is changed"
+msgstr "設定下拉式選單選取變更時的淡入淡出轉變"
+
+#: oxygenanimationconfigwidget.cpp:89
+#, kde-format
+msgid "Progress bar busy indicator"
+msgstr "進度列忙碌指示器"
+
+#: oxygenanimationconfigwidget.cpp:90
+#, kde-format
+msgid "Configure progress bars' busy indicator animation"
+msgstr "設定進度列的忙碌指示器動畫"
+
+#. i18n: ectx: property (windowTitle), widget (QFrame, FollowMouseAnimationConfigBox)
+#: ui/oxygenfollowmouseanimationconfigbox.ui:20
+#, kde-format
+msgid "Frame"
+msgstr "框架"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/oxygenfollowmouseanimationconfigbox.ui:32
+#, kde-format
+msgid "Animation type:"
+msgstr "動畫型態："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, typeComboBox)
+#: ui/oxygenfollowmouseanimationconfigbox.ui:46
+#, kde-format
+msgid "Fade"
+msgstr "淡出"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, typeComboBox)
+#: ui/oxygenfollowmouseanimationconfigbox.ui:51
+#, kde-format
+msgid "Follow Mouse"
+msgstr "跟隨滑鼠"
+
+#. i18n: ectx: property (text), widget (QLabel, durationLabel)
+#: ui/oxygenfollowmouseanimationconfigbox.ui:59
+#, kde-format
+msgid "Fade duration:"
+msgstr "淡出期間："
+
+#. i18n: ectx: property (text), widget (QLabel, followMouseDurationLabel)
+#: ui/oxygenfollowmouseanimationconfigbox.ui:72
+#, kde-format
+msgid "Follow mouse duration:"
+msgstr "跟隨滑鼠期間："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, durationSpinBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, followMouseDurationSpinBox)
+#: ui/oxygenfollowmouseanimationconfigbox.ui:98
+#: ui/oxygenfollowmouseanimationconfigbox.ui:114
+#, fuzzy, kde-format
+#| msgid "ms"
+msgid " ms"
+msgstr "毫秒"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, OxygenStyleConfig)
+#: ui/oxygenstyleconfig.ui:26
+#, kde-format
+msgid "Dialog"
+msgstr "對話框"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: ui/oxygenstyleconfig.ui:45
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _windowDragMode)
+#: ui/oxygenstyleconfig.ui:52
+#, kde-format
+msgid "Drag windows from titlebar only"
+msgstr "只從標題列拖曳視窗"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _windowDragMode)
+#: ui/oxygenstyleconfig.ui:57
+#, kde-format
+msgid "Drag windows from titlebar, menubar and toolbars"
+msgstr "可從標題列、選單列與工具列拖曳視窗"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _windowDragMode)
+#: ui/oxygenstyleconfig.ui:62
+#, kde-format
+msgid "Drag windows from all empty areas"
+msgstr "可從所有空白區域拖曳視窗"
+
+#. i18n: ectx: property (text), widget (QLabel, _mnemonicsLabel)
+#: ui/oxygenstyleconfig.ui:70
+#, kde-format
+msgid "Keyboard accelerators visibility:"
+msgstr "鍵盤加速器可見度："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
+#: ui/oxygenstyleconfig.ui:84
+#, kde-format
+msgid "Always Hide Keyboard Accelerators"
+msgstr "總是隱藏鍵盤加速器"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
+#: ui/oxygenstyleconfig.ui:89
+#, kde-format
+msgid "Show Keyboard Accelerators When Needed"
+msgstr "需要時顯示鍵盤加速器"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _mnemonicsMode)
+#: ui/oxygenstyleconfig.ui:94
+#, kde-format
+msgid "Always Show Keyboard Accelerators"
+msgstr "總是顯示鍵盤加速器"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/oxygenstyleconfig.ui:108
+#, kde-format
+msgid "Windows' &drag mode:"
+msgstr "視窗的拖曳模式(&D)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, _toolBarDrawItemSeparator)
+#: ui/oxygenstyleconfig.ui:134
+#, kde-format
+msgid "Draw toolbar item separators"
+msgstr "畫工具列元件分隔線"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _splitterProxyEnabled)
+#: ui/oxygenstyleconfig.ui:141
+#, kde-format
+msgid "Enable extended resize handles"
+msgstr "開啟延伸的調整大小元件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _useBackgroundGradient)
+#: ui/oxygenstyleconfig.ui:148
+#, kde-format
+msgid "Draw window background gradient"
+msgstr "繪製視窗背景漸層"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/oxygenstyleconfig.ui:169
+#, kde-format
+msgid "Animations"
+msgstr "動畫"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: ui/oxygenstyleconfig.ui:179
+#, kde-format
+msgid "Views"
+msgstr "檢視"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _viewDrawTreeBranchLines)
+#: ui/oxygenstyleconfig.ui:185
+#, kde-format
+msgid "Draw tree branch lines"
+msgstr "繪製樹狀分支線"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/oxygenstyleconfig.ui:198
+#, fuzzy, kde-format
+#| msgid "&Tree expander size"
+msgid "&Tree expander size:"
+msgstr "樹狀圖展開大小(&T)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _viewTriangularExpanderSize)
+#: ui/oxygenstyleconfig.ui:209
+#, kde-format
+msgctxt "triangle size"
+msgid "Tiny"
+msgstr "極小"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _viewTriangularExpanderSize)
+#: ui/oxygenstyleconfig.ui:214
+#, kde-format
+msgctxt "triangle size"
+msgid "Small"
+msgstr "小"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _viewTriangularExpanderSize)
+#: ui/oxygenstyleconfig.ui:219
+#, kde-format
+msgctxt "triangle size"
+msgid "Normal"
+msgstr "一般"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _viewDrawFocusIndicator)
+#: ui/oxygenstyleconfig.ui:256
+#, kde-format
+msgid "Draw focus indicator in lists"
+msgstr "在清單中繪製焦點指示器"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: ui/oxygenstyleconfig.ui:264
+#, kde-format
+msgid "Scrollbars"
+msgstr "捲軸列"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/oxygenstyleconfig.ui:272
+#, kde-format
+msgid "Scrollbar wi&dth:"
+msgstr "捲軸列寬度(&D)："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, _scrollBarWidth)
+#: ui/oxygenstyleconfig.ui:310
+#, kde-format
+msgid "px"
+msgstr "像素"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/oxygenstyleconfig.ui:340
+#, kde-format
+msgid "Top arrow button type:"
+msgstr "頂端箭頭按鍵型態："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/oxygenstyleconfig.ui:350
+#, kde-format
+msgid "Bottom arrow button type:"
+msgstr "底端箭頭按鍵型態："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _scrollBarSubLineButtons)
+#: ui/oxygenstyleconfig.ui:361
+#, kde-format
+msgid "No buttons"
+msgstr "沒有按鍵"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _scrollBarSubLineButtons)
+#. i18n: ectx: property (text), item, widget (KComboBox, _scrollBarAddLineButtons)
+#: ui/oxygenstyleconfig.ui:366 ui/oxygenstyleconfig.ui:398
+#, kde-format
+msgid "One button"
+msgstr "一個按鍵"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _scrollBarSubLineButtons)
+#. i18n: ectx: property (text), item, widget (KComboBox, _scrollBarAddLineButtons)
+#: ui/oxygenstyleconfig.ui:371 ui/oxygenstyleconfig.ui:403
+#, kde-format
+msgid "Two buttons"
+msgstr "兩個按鍵"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, _scrollBarAddLineButtons)
+#: ui/oxygenstyleconfig.ui:393
+#, kde-format
+msgid "No button"
+msgstr "沒有按鍵"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: ui/oxygenstyleconfig.ui:427
+#, kde-format
+msgid "Menu Highlight"
+msgstr "選單突顯"
+
+#. i18n: ectx: property (text), widget (QRadioButton, _menuHighlightDark)
+#: ui/oxygenstyleconfig.ui:433
+#, kde-format
+msgid "Use dar&k color"
+msgstr "使用深色(&K)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, _menuHighlightStrong)
+#: ui/oxygenstyleconfig.ui:440
+#, kde-format
+msgid "&Use selection color (plain)"
+msgstr "使用選取區顏色（樸素）(&U)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, _menuHighlightSubtle)
+#: ui/oxygenstyleconfig.ui:447
+#, kde-format
+msgid "Use selec&tion color (subtle)"
+msgstr "使用選取區顏色（精確）(&T)"
+
+#~ msgid "Widget Style"
+#~ msgstr "元件樣式："
+
+#~ msgid "Modify the appearance of widgets"
+#~ msgstr "變更元件外觀"
+
+#~ msgid "Window Decorations"
+#~ msgstr "視窗裝飾"
+
+#~ msgid "Modify the appearance of window decorations"
+#~ msgstr "變更視窗裝飾外觀"
+
+#~ msgid "Unable to find oxygen style configuration plugin"
+#~ msgstr "找不到 oxygen 樣式設定外掛程式"
+
+#~ msgid "Unable to find oxygen decoration configuration plugin"
+#~ msgstr "找不到 oxygen 裝飾設定外掛程式"
+
+#~ msgid "Hide Advanced Configuration Options"
+#~ msgstr "隱藏進階設定選項"
+
+#~ msgid "Show Advanced Configuration Options"
+#~ msgstr "顯示進階設定選項"
+
+#~ msgid "Enable animations"
+#~ msgstr "開啟動畫"
+
+#~ msgid "Enable pixmap cache"
+#~ msgstr "開啟像素快取"
+
+#~ msgid "Busy indicator steps"
+#~ msgstr "忙碌指示器動畫"
+
+#~ msgid "Use 'X' in checkboxes instead of check"
+#~ msgstr "勾選盒使用 x 而不是打勾"
+
+#~ msgid "Use window manager to perform windows' drag"
+#~ msgstr "使用視窗管理員來執行視窗的拖曳"
+
+#~ msgid "Use triangle tree expander instead of +/-"
+#~ msgstr "使用三角形的樹狀指示圖示，而不是用 +/-"
+
+#, fuzzy
+#~| msgid "Triangle size:"
+#~ msgid "Triangle si&ze:"
+#~ msgstr "三角形大小："
+
+#~ msgid "Tabs"
+#~ msgstr "分頁"
+
+#~ msgctxt "Renders each inactive tab in a tabbar as separate darker slab"
+#~ msgid "Single"
+#~ msgstr "單一"
+
+#~ msgctxt "Renders inactive tabs in a tabbar as a unique darker slab"
+#~ msgid "Plain"
+#~ msgstr "平面"
+
+#~ msgid "Inactive tabs style:"
+#~ msgstr "非使用中分頁樣式："
+
+#~ msgid "Oxygen Demo"
+#~ msgstr "Oxygen 範例"
+
+#~ msgid "Normal"
+#~ msgstr "一般"
+
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgid "Open"
+#~ msgstr "開啟"
+
+#~ msgid "Save"
+#~ msgstr "儲存"
+
+#~ msgid "Toggle authentication"
+#~ msgstr "切換認證"
+
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgid "Right to left layout"
+#~ msgstr "右到左布局"
+
+#~ msgid "Input Widgets"
+#~ msgstr "輸入元件"
+
+#~ msgid "Shows the appearance of text input widgets"
+#~ msgstr "顯示文字輸入元件的外觀"
+
+#~ msgid "Tab Widgets"
+#~ msgstr "分頁元件"
+
+#~ msgid "Shows the appearance of tab widgets"
+#~ msgstr "顯示分頁輸入元件的外觀"
+
+#~ msgid "Buttons"
+#~ msgstr "按鈕"
+
+#~ msgid "Shows the appearance of buttons"
+#~ msgstr "顯示按鈕的外觀"
+
+#~ msgid "Lists"
+#~ msgstr "列表"
+
+#~ msgid "Shows the appearance of lists, trees and tables"
+#~ msgstr "顯示列表、樹狀圖與表格的外觀"
+
+#~ msgid "Frames"
+#~ msgstr "外框"
+
+#~ msgid "Shows the appearance of various framed widgets"
+#~ msgstr "顯示不同框架元件的外觀"
+
+#~ msgid "MDI Windows"
+#~ msgstr "MDI 視窗"
+
+#~ msgid "Shows the appearance of MDI windows"
+#~ msgstr "顯示 MDI 視窗的外觀"
+
+#~ msgid "Sliders"
+#~ msgstr "滑動器"
+
+#~ msgid "Shows the appearance of sliders, progress bars and scrollbars"
+#~ msgstr "顯示滑動器、進度列與捲軸列的外觀"
+
+#~ msgid "Benchmark"
+#~ msgstr "基準"
+
+#~ msgid "Emulates user interaction with widgets for benchmarking"
+#~ msgstr "模擬使用者與元件的互動做為基準"
+
+#~ msgid "Example text"
+#~ msgstr "範例文字"
+
+#~ msgid "password"
+#~ msgstr "密碼"
+
+#~ msgid "Layout"
+#~ msgstr "佈局"
+
+#~ msgid "Tile"
+#~ msgstr "鋪排"
+
+#~ msgid "Cascade"
+#~ msgstr "層疊"
+
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#~ msgid "Select Next Window"
+#~ msgstr "選擇下一個視窗"
+
+#~ msgid "Select Previous Window"
+#~ msgstr "選擇前一個視窗"
+
+#~ msgid "This is a sample text"
+#~ msgstr "範例文字"
+
+#~ msgid "Modules"
+#~ msgstr "模組"
+
+#~ msgid "Select below the modules for which you want to run the simulation:"
+#~ msgstr "請在下方選擇您要用於模擬的模組："
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "Grab mouse"
+#~ msgstr "擷取滑鼠"
+
+#~ msgid "Run Simulation"
+#~ msgstr "執行模擬"
+
+#~ msgid "Checkboxes"
+#~ msgstr "勾選方塊"
+
+#~ msgid "Off"
+#~ msgstr "關"
+
+#~ msgid "Partial"
+#~ msgstr "部份"
+
+#~ msgid "On"
+#~ msgstr "開"
+
+#~ msgid "Radiobuttons"
+#~ msgstr "圓鈕"
+
+#~ msgid "First Choice"
+#~ msgstr "第一選擇"
+
+#~ msgid "Second Choice"
+#~ msgstr "第二選擇"
+
+#~ msgid "Third Choice"
+#~ msgstr "第三選擇"
+
+#~ msgid "Pushbuttons"
+#~ msgstr "按鍵"
+
+#~ msgid "Text only:"
+#~ msgstr "只有文字："
+
+#~ msgid "This is a normal, text only combo box"
+#~ msgstr "這是一般，只有文字的下拉式選單"
+
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Text and icon:"
+#~ msgstr "文字與圖示："
+
+#~ msgid "Use flat buttons"
+#~ msgstr "使用平面按鍵"
+
+#~ msgid "This is a normal, text and icon combo box"
+#~ msgstr "這是一般，有文字與圖示的下拉式選單"
+
+#~ msgid "This is a normal, text only tool button"
+#~ msgstr "這是一般，只有文字的工具按鍵"
+
+#~ msgid "This is a normal, text and icon tool button"
+#~ msgstr "這是一般，有文字與圖示的工具按鍵"
+
+#~ msgid "This is a normal, text only button"
+#~ msgstr "這是一般，只有文字的按鍵"
+
+#~ msgid "This is a normal, text only button with menu"
+#~ msgstr "這是一般，有選單但只有文字的按鍵"
+
+#~ msgid "This is a normal, text and icon button"
+#~ msgstr "這是一般，有文字與圖示的按鍵"
+
+#~ msgid "This is a normal, text and icon button with menu"
+#~ msgstr "這是一般，有選單且有文字與圖示的按鍵"
+
+#~ msgid "Toolbuttons"
+#~ msgstr "工具按鍵"
+
+#~ msgid "Flat"
+#~ msgstr "平面"
+
+#~ msgid "Up Arrow"
+#~ msgstr "上箭頭"
+
+#~ msgid "Down Arrow"
+#~ msgstr "下箭頭"
+
+#~ msgid "Left Arrow"
+#~ msgstr "左箭頭"
+
+#~ msgid "Right Arrow"
+#~ msgstr "右箭頭"
+
+#~ msgid "Text position:"
+#~ msgstr "文字位置："
+
+#~ msgid "Icons Only"
+#~ msgstr "只有圖示"
+
+#~ msgid "Text Only"
+#~ msgstr "只有文字"
+
+#~ msgid "Text Alongside Icons"
+#~ msgstr "文字在圖示旁"
+
+#~ msgid "Text Under Icons"
+#~ msgstr "文字在圖示下"
+
+#~ msgid "Icon size:"
+#~ msgstr "圖示大小："
+
+#~ msgid "Small (16x16)"
+#~ msgstr "小型 (16x16)"
+
+#~ msgid "Medium (22x22)"
+#~ msgstr "中型 (22x22)"
+
+#~ msgid "Large (32x32)"
+#~ msgstr "大型 (32x32)"
+
+#~ msgid "Huge (48x48)"
+#~ msgstr "大型 (48x48)"
+
+#~ msgid "Layout direction:"
+#~ msgstr "佈局方向："
+
+#~ msgid "Left to Right"
+#~ msgstr "左到右"
+
+#~ msgid "Right to Left"
+#~ msgstr "右到左"
+
+#~ msgid "Top to Bottom"
+#~ msgstr "上到下"
+
+#~ msgid "Bottom to Top"
+#~ msgstr "下到上"
+
+#~ msgid "GroupBox"
+#~ msgstr "群組盒"
+
+#~ msgctxt "Flat group box. No frame is actually drawn"
+#~ msgid "Flat"
+#~ msgstr "平面"
+
+#~ msgid "Raised"
+#~ msgstr "抬升"
+
+#~ msgctxt "Flat frame. No frame is actually drawn."
+#~ msgid "Flat"
+#~ msgstr "平面"
+
+#~ msgid "Sunken"
+#~ msgstr "下凹式"
+
+#~ msgid "Tab Widget"
+#~ msgstr "分頁元件"
+
+#~ msgid "Single line text editor:"
+#~ msgstr "單行文字編輯器："
+
+#~ msgid "Password editor:"
+#~ msgstr "密碼編輯器："
+
+#~ msgid "Editable combobox"
+#~ msgstr "可編輯下拉式選單"
+
+#~ msgid "First item"
+#~ msgstr "第一項目"
+
+#~ msgid "Second item"
+#~ msgstr "第二項目"
+
+#~ msgid "Third item"
+#~ msgstr "第三項目"
+
+#~ msgid "Spinbox:"
+#~ msgstr "數字盒："
+
+#~ msgid "Multi-line text editor:"
+#~ msgstr "多行文字編輯器："
+
+#~ msgid "Wrap words"
+#~ msgstr "文字折行"
+
+#~ msgid "Use flat widgets"
+#~ msgstr "使用平面元件"
+
+#~ msgid "First Item"
+#~ msgstr "第一項目"
+
+#~ msgid "Second Item"
+#~ msgstr "第二項目"
+
+#~ msgid "Third Item"
+#~ msgstr "第三項目"
+
+#~ msgid "Title"
+#~ msgstr "標題"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Third Description"
+#~ msgstr "第三描述"
+
+#~ msgid "Third Subitem"
+#~ msgstr "第三子項目"
+
+#~ msgid "Third Subitem Description"
+#~ msgstr "第三子項目描述"
+
+#~ msgid "Second Description"
+#~ msgstr "第二描述"
+
+#~ msgid "Second Subitem"
+#~ msgstr "第二子項目"
+
+#~ msgid "Second Subitem Description"
+#~ msgstr "第二子項目描述"
+
+#~ msgid "First Subitem"
+#~ msgstr "第一子項目"
+
+#~ msgid "First Subitem Description"
+#~ msgstr "第一子項目描述"
+
+#~ msgid "First Description"
+#~ msgstr "第一描述"
+
+#~ msgid "New Row"
+#~ msgstr "新列"
+
+#~ msgid "First Row"
+#~ msgstr "第一列"
+
+#~ msgid "Third Row"
+#~ msgstr "第三列"
+
+#~ msgid "First Column"
+#~ msgstr "第一欄"
+
+#~ msgid "Second Column"
+#~ msgstr "第二欄"
+
+#~ msgid "Third Column"
+#~ msgstr "第三欄"
+
+#~ msgid "Top-left"
+#~ msgstr "左上"
+
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgid "Top-right"
+#~ msgstr "右上"
+
+#~ msgid "Left "
+#~ msgstr "左"
+
+#~ msgid "Center"
+#~ msgstr "置中"
+
+#~ msgid "Right"
+#~ msgstr "置右"
+
+#~ msgid "Bottom-left"
+#~ msgstr "左下方"
+
+#~ msgid "Bottom"
+#~ msgstr "底端"
+
+#~ msgid "Bottom-right"
+#~ msgstr "右下"
+
+#~ msgid "Editors"
+#~ msgstr "編輯器"
+
+#~ msgid "Title:"
+#~ msgstr "標題："
+
+#~ msgid "Toolbox"
+#~ msgstr "工具盒"
+
+#~ msgid "First Page"
+#~ msgstr "第一頁"
+
+#~ msgid "Second Page"
+#~ msgstr "第二頁"
+
+#~ msgid "First Label"
+#~ msgstr "第一標籤"
+
+#~ msgid "Second Label"
+#~ msgstr "第二標籤"
+
+#~ msgid "Third Page"
+#~ msgstr "第三頁"
+
+#~ msgid "Horizontal"
+#~ msgstr "水平"
+
+#~ msgid "Busy"
+#~ msgstr "忙碌"
+
+#~ msgid "Vertical"
+#~ msgstr "垂直"
+
+#~ msgid "Tab position:"
+#~ msgstr "分頁列位置："
+
+#~ msgid "North"
+#~ msgstr "北"
+
+#~ msgid "South"
+#~ msgstr "南"
+
+#~ msgid "West"
+#~ msgstr "西"
+
+#~ msgid "East"
+#~ msgstr "東"
+
+#~ msgid "Document mode"
+#~ msgstr "文件模式"
+
+#~ msgid "Show Corner Buttons"
+#~ msgstr "顯示角按鍵"
+
+#~ msgid "Hide tabbar"
+#~ msgstr "隱藏分頁列"
+
+#~ msgid "Preview"
+#~ msgstr "預覽"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Oxygen expert configuration tool"
+#~ msgstr "Oxygen 專家設定工具"
+
+#~ msgid "(c) 2010, Hugo Pereira Da Costa"
+#~ msgstr "(c) 2010, Hugo Pereira Da Costa"
+
+#~ msgid "Hugo Pereira Da Costa"
+#~ msgstr "Hugo Pereira Da Costa"
+
+#~ msgid "Oxygen style demonstration"
+#~ msgstr "Oxygen 樣式示範"
+
+#~ msgid "Draw keyboard accelerators"
+#~ msgstr "繪製鍵盤加速器"
+
+#~ msgid "Use wider lines"
+#~ msgstr "使用較寬行"
+
+#~ msgid "Highlight scroll bar handles"
+#~ msgstr "突顯捲軸列握把"
+
+#~ msgid "Animate progress bars"
+#~ msgstr "進度列使用動畫效果"
+
+#~ msgid "Web style plugin"
+#~ msgstr "KDE 網頁風格外掛模組"
+
+#~ msgid "modified"
+#~ msgstr "已修改"
+
+#~ msgid "oxygen-settings - information"
+#~ msgstr "oxygen-settings - 資訊"
+
+#~ msgid "CheckBox"
+#~ msgstr "勾選方塊"
+
+#~ msgid "Duration (ms):"
+#~ msgstr "期間（毫秒）："
+
+#~ msgid "Animate tab transitions"
+#~ msgstr "動畫化分頁轉變"
+
+#~ msgid "Draw scrollbar bevel"
+#~ msgstr "繪製捲軸列"
+
+#~ msgid "Colorful hovered scrollbars"
+#~ msgstr "游標移到捲軸列上時變色"
+
+#~ msgid "Plain"
+#~ msgstr "平面"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Third Tab"
+#~ msgstr "第三分頁"
+
+#~ msgid "Fourth Tab"
+#~ msgstr "第四分頁"
+
+#~ msgid "Width:"
+#~ msgstr "寬度："
+
+#~ msgid ""
+#~ "Note: changes to the scrollbar width will only apply to newly launched "
+#~ "applications"
+#~ msgstr "注意：變更捲軸列寬度只會套用到新開啟的應用程式"
+
+#~ msgid "Border size:"
+#~ msgstr "邊框大小："
+
+#~ msgid "No Border"
+#~ msgstr "沒有邊框"
+
+#~ msgid "No Side Border"
+#~ msgstr "沒有側邊框"
+
+#~ msgid "Very Large"
+#~ msgstr "非常大"
+
+#~ msgid "Huge"
+#~ msgstr "巨大"
+
+#~ msgid "Very Huge"
+#~ msgstr "非常巨大"
+
+#~ msgid "Oversized"
+#~ msgstr "超過大小"
+
+#~ msgid "Title Alignment:"
+#~ msgstr "標題對齊："
+
+#~ msgid "Left"
+#~ msgstr "置左"
+
+#~ msgid "Button Size:"
+#~ msgstr "按鍵大小："
+
+#~ msgid "Enable window grouping"
+#~ msgstr "開啟視窗群組"
+
+#~ msgid "Enable title transition animations"
+#~ msgstr "開啟標題轉變動畫"
+
+#~ msgid "Fine Tuning"
+#~ msgstr "微調"
+
+#~ msgid "Background style: "
+#~ msgstr "背景樣式："
+
+#~ msgid "Solid Color"
+#~ msgstr "實心顏色"
+
+#~ msgid "Radial Gradient"
+#~ msgstr "輻射狀漸層"
+
+#~ msgid "Extra size grip display: "
+#~ msgstr "額外大小格線顯示："
+
+#~ msgid "Always Hide Extra Size Grip"
+#~ msgstr "總是隱藏額外大小格線"
+
+#~ msgid "Show Extra Size Grip When Needed"
+#~ msgstr "需要時顯示額外大小格線"
+
+#~ msgid "Outline active window title"
+#~ msgstr "標記作用中視窗標題"
+
+#~ msgid "Draw separator between title bar and active window content"
+#~ msgstr "在標題列與作用中視窗內容中加上分隔器"
+
+#~ msgid "Use narrow space between decoration buttons"
+#~ msgstr "在裝飾按鍵間使用窄空間"
+
+#~ msgid "Shadows"
+#~ msgstr "陰影"
+
+#~ msgid "Shadow caching: "
+#~ msgstr "陰影快取："
+
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgid "Full"
+#~ msgstr "完全"
+
+#~ msgid "Shadow style:"
+#~ msgstr "陰影樣式："
+
+#~ msgid "Use Oxygen Shadows"
+#~ msgstr "使用 Oxygen 陰影"
+
+#~ msgid "Use Desktop Effects Shadows"
+#~ msgstr "使用桌面效果陰影"
+
+#~ msgid "Do Not Draw Shadows"
+#~ msgstr "不要繪製陰影"
+
+#~ msgid "Window Drop Down Shadow "
+#~ msgstr "視窗下拉時的陰影 "
+
+#~ msgid "Active Window Glow"
+#~ msgstr "作用中視窗發光"
+
+#~ msgid "Inner Color:"
+#~ msgstr "內顏色："
+
+#~ msgid "Outer Color:"
+#~ msgstr "外顏色："
+
+#~ msgid "Vertical Offset:"
+#~ msgstr "垂直位移："
+
+#~ msgid "Size: "
+#~ msgstr "大小："
+
+#~ msgid "Read-only combobox:"
+#~ msgstr "唯讀下拉式選單："
+
+#~ msgid "Dark"
+#~ msgstr "暗的"
+
+#~ msgid "Subtle"
+#~ msgstr "不明顯的"
+
+#~ msgid "Animate glow on widget hover"
+#~ msgstr "游標移到元件上時動畫顯示光芒"
+
+#~ msgid "Animate toolbar hover"
+#~ msgstr "游標移到工具列上時顯示動畫"
+
+#~ msgid "Animate menubar hover"
+#~ msgstr "游標移到選單列上時顯示動畫"
+
+#~ msgid "Animate menu hover"
+#~ msgstr "游標移到選單上時顯示動畫"
+
+#~ msgid "Draw toolbar separator"
+#~ msgstr "畫工具列分隔線"
+
+#~ msgid "Highlight focused text input fields"
+#~ msgstr "將焦點的文字輸入欄位標示"
+
+#~ msgid "Custom text input highlight color:"
+#~ msgstr "調整文字輸入標示顏色："
+
+#~ msgid "Custom checkmark color:"
+#~ msgstr "調整 checkmark 顏色："

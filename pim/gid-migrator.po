@@ -1,0 +1,174 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-05 03:11+0100\n"
+"PO-Revision-Date: 2016-11-14 21:34+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@nospam_goodhorse.idv.tw"
+
+#: ../kmigratorbase.cpp:127
+#, kde-format
+msgid "Creating instance of type %1"
+msgstr "建立型態 %1 的實體中"
+
+#: ../migratorbase.cpp:146
+#, kde-format
+msgid "Missing Identifier"
+msgstr "遺失識別子"
+
+#: ../migratorbase.cpp:159
+#, kde-format
+msgid "Failed to start migration because migrator is not ready"
+msgstr "啟動移植失敗，因為尚未就緒"
+
+#: ../migratorbase.cpp:165
+#, kde-format
+msgid "Starting migration..."
+msgstr "開始移植..."
+
+#: ../migratorbase.cpp:206
+#, kde-format
+msgid "Migration complete"
+msgstr "移植完成"
+
+#: ../migratorbase.cpp:210
+#, kde-format
+msgid "Migration aborted"
+msgstr "移植中止"
+
+#: ../migratorbase.cpp:216
+#, kde-format
+msgid "Migration failed"
+msgstr "移植失敗"
+
+#: ../migratorbase.cpp:220
+#, kde-format
+msgid "Migration paused"
+msgstr "移植暫停"
+
+#: ../migratorbase.cpp:250
+#, kde-format
+msgid "This migration has already been started once but was aborted"
+msgstr "移植已啟動，但是被中止"
+
+#: ../migratorbase.cpp:287
+#, kde-format
+msgctxt "@info:status"
+msgid "Not started"
+msgstr "未開始"
+
+#: ../migratorbase.cpp:289
+#, kde-format
+msgctxt "@info:status"
+msgid "Running..."
+msgstr "執行中..."
+
+#: ../migratorbase.cpp:291
+#, kde-format
+msgctxt "@info:status"
+msgid "Complete"
+msgstr "完成"
+
+#: ../migratorbase.cpp:293
+#, kde-format
+msgctxt "@info:status"
+msgid "Aborted"
+msgstr "已中止"
+
+#: ../migratorbase.cpp:295
+#, kde-format
+msgctxt "@info:status"
+msgid "Paused"
+msgstr "已暫停"
+
+#: ../migratorbase.cpp:297
+#, kde-format
+msgctxt "@info:status"
+msgid "Needs Update"
+msgstr "需要更新"
+
+#: ../migratorbase.cpp:299
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed"
+msgstr "已失敗"
+
+#: gidmigrator.cpp:37
+#, kde-format
+msgctxt "Name of the GID Migrator (intended for advanced users)."
+msgid "GID Migrator: %1"
+msgstr "GID 移植器：%1"
+
+#: gidmigrator.cpp:42
+#, kde-format
+msgid ""
+"Ensures that all items with the mimetype %1 have a GID if a GID extractor is "
+"available."
+msgstr "確保在 GID 展開啟可使用時，所有 MIME 型態為 %1 的項目有 GID。"
+
+#: gidmigrator.cpp:64
+#, kde-format
+msgid "Migration failed: %1"
+msgstr "移動失敗：%1"
+
+#: main.cpp:41
+#, kde-format
+msgid "GID Migration Tool"
+msgstr "GID 移植工具"
+
+#: main.cpp:43
+#, kde-format
+msgid "Migration of Akonadi Items to support GID"
+msgstr "將 Akonadi 項目移植到支援 GID"
+
+#: main.cpp:45
+#, kde-format
+msgid "(c) 2013-2016 the Akonadi developers"
+msgstr "(c) 2013-2016 Akonadi 開發團隊"
+
+#: main.cpp:47
+#, kde-format
+msgid "Christian Mollekopf"
+msgstr "Christian Mollekopf"
+
+#: main.cpp:47
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#: main.cpp:50
+#, kde-format
+msgid "Show reporting dialog"
+msgstr "顯示報告對話框"
+
+#: main.cpp:51
+#, kde-format
+msgid "Show report only if changes were made"
+msgstr "只在有變更時顯示報告"
+
+#: main.cpp:52
+#, kde-format
+msgid "MIME type to migrate"
+msgstr "要移植的 MIME 型態"

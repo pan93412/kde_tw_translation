@@ -1,0 +1,184 @@
+# translation of webarchiver.po to Chinese Traditional
+# Traditional Chinese Translation of webarchiver
+# Copyright (C) 2001, 2006, 2007 Free Software Foundation, Inc.
+# Shell Hung <shell@shellhung.org>
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: webarchiver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-07-15 03:03+0200\n"
+"PO-Revision-Date: 2012-09-19 08:40+0800\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: archivedialog.cpp:164
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Archiver"
+msgstr "網頁歸檔器"
+
+#: archivedialog.cpp:174
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#: archivedialog.cpp:175
+#, kde-format
+msgid "Url"
+msgstr "網址"
+
+#: archivedialog.cpp:244
+#, kde-format
+msgctxt "@title:window"
+msgid "Unable to Open Web-Archive"
+msgstr "不能開啟網頁歸檔"
+
+#: archivedialog.cpp:245
+#, kde-format
+msgid ""
+"Unable to open \n"
+" %1 \n"
+" for writing."
+msgstr "無法開啟 %1。"
+
+#: archivedialog.cpp:376
+#, kde-format
+msgid "Downloading"
+msgstr "下載中"
+
+#: archivedialog.cpp:398
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#: archivedialog.cpp:398
+#, kde-format
+msgid "OK"
+msgstr "確定"
+
+#: archivedialog.cpp:421
+#, kde-format
+msgid "I/O error occurred while writing to web archive file %1."
+msgstr "寫入網頁歸檔 %1 時發生輸出入錯誤"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ArchiveViewBase)
+#: archiveviewbase.ui:13
+#, kde-format
+msgid "Web Archiver"
+msgstr "網頁存檔"
+
+#. i18n: ectx: property (text), widget (QLabel, targetLabel)
+#: archiveviewbase.ui:39
+#, kde-format
+msgid "Local File"
+msgstr "本地端檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: archiveviewbase.ui:55
+#, kde-format
+msgid "To:"
+msgstr "到："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: archiveviewbase.ui:65
+#, kde-format
+msgid "Archiving:"
+msgstr "存檔："
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: archiveviewbase.ui:81
+#, kde-format
+msgid "Original URL"
+msgstr "原始網址"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, progressView)
+#: archiveviewbase.ui:109
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, progressView)
+#: archiveviewbase.ui:114
+#, kde-format
+msgid "2"
+msgstr "2"
+
+#: plugin_webarchiver.cpp:60
+#, kde-format
+msgid "Archive &Web Page..."
+msgstr "網頁存檔...(&W)"
+
+#: plugin_webarchiver.cpp:80
+#, kde-format
+msgid "Untitled"
+msgstr "未命名"
+
+#: plugin_webarchiver.cpp:98
+#, kde-format
+msgid "*.war *.tgz|Web Archives"
+msgstr "*.war *.tgz|Web 套件包"
+
+#: plugin_webarchiver.cpp:99
+#, kde-format
+msgid "Save Page as Web-Archive"
+msgstr "將網頁儲存為網頁文件檔"
+
+#: plugin_webarchiver.cpp:106
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid URL"
+msgstr "不合法的網址"
+
+#: plugin_webarchiver.cpp:107
+#, kde-format
+msgid ""
+"The URL\n"
+"%1\n"
+"is not valid."
+msgstr "網址 %1 不合法。"
+
+#: plugin_webarchiver.cpp:120
+#, kde-format
+msgctxt "@title:window"
+msgid "File Exists"
+msgstr "檔案已存在"
+
+#: plugin_webarchiver.cpp:121
+#, kde-format
+msgid ""
+"Do you really want to overwrite:\n"
+"%1?"
+msgstr "您確定要覆寫 %1 嗎？"
+
+#. i18n: ectx: Menu (tools)
+#: plugin_webarchiver.rc:4
+#, kde-format
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: plugin_webarchiver.rc:8
+#, kde-format
+msgid "Extra Toolbar"
+msgstr "額外工具列"
+
+#~ msgid "Overwrite"
+#~ msgstr "覆寫"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Archiving webpage completed."
+#~ msgstr "網頁存檔完成。"
+
+#~ msgid "URL"
+#~ msgstr "網址"

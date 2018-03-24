@@ -1,0 +1,311 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-11 03:21+0100\n"
+"PO-Revision-Date: 2016-09-21 21:39+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, username)
+#: src/account.ui:78
+#, kde-format
+msgid "John"
+msgstr "John"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/account.ui:95
+#, kde-format
+msgid "Real Name:"
+msgstr "真實姓名："
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, realName)
+#: src/account.ui:129
+#, kde-format
+msgid "John Doe"
+msgstr "John Doe"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/account.ui:146
+#, kde-format
+msgid "Email Address:"
+msgstr "電子郵件地址："
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, email)
+#: src/account.ui:177
+#, kde-format
+msgid "john.doe@example.com"
+msgstr "john.doe@example.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/account.ui:194 src/password.ui:33
+#, kde-format
+msgid "Password:"
+msgstr "密碼："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/account.ui:208
+#, kde-format
+msgid "Enable administrator privileges for this user"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, automaticLoginLabel)
+#: src/account.ui:222
+#, kde-format
+msgid "Log in automatically"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, passwordEdit)
+#: src/account.ui:235
+#, kde-format
+msgid "MyPassword"
+msgstr "我的密碼"
+
+#: src/accountinfo.cpp:66
+#, kde-format
+msgid "Choose from Gallery..."
+msgstr "從清單中選取..."
+
+#: src/accountinfo.cpp:70
+#, kde-format
+msgid "Load from file..."
+msgstr "從檔案載入..."
+
+#: src/accountinfo.cpp:74
+#, kde-format
+msgid "Clear Avatar"
+msgstr "清除頭像"
+
+#: src/accountinfo.cpp:301
+#, kde-format
+msgid "This username is already used"
+msgstr "這個名稱已經被使用"
+
+#: src/accountinfo.cpp:311
+#, kde-format
+msgid "The username must start with a letter"
+msgstr "使用者名稱必須以字母開頭"
+
+#: src/accountinfo.cpp:329
+#, kde-format
+msgid ""
+"The username can contain only letters, numbers, score, underscore and dot"
+msgstr "使用者名稱只能包含字母、數字、線、底線與點"
+
+#: src/accountinfo.cpp:343
+#, kde-format
+msgid "The username is too long"
+msgstr "使用者名稱太長"
+
+#: src/accountinfo.cpp:381
+#, kde-format
+msgid "This e-mail address is incorrect"
+msgstr "電子郵件地址不正確"
+
+#: src/accountinfo.cpp:426
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Image"
+msgstr "選擇影像"
+
+#: src/avatargallery.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Change your Face"
+msgstr "改變您的頭像"
+
+#. i18n: ectx: property (text), widget (QLabel, header)
+#: src/avatargallery.ui:25
+#, kde-format
+msgid "Select a new face:"
+msgstr "選擇一個新的圖像："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addBtn)
+#: src/kcm.ui:69
+#, kde-format
+msgid "Add user account"
+msgstr "新增使用者帳號"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeBtn)
+#: src/kcm.ui:86
+#, kde-format
+msgid "Remove user account"
+msgstr "移除使用者帳號"
+
+#: src/lib/accountmodel.cpp:298
+#, kde-format
+msgid "New User"
+msgstr "新使用者"
+
+#: src/lib/accountmodel.cpp:415
+#, kde-format
+msgid "Users"
+msgstr "使用者"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/password.ui:54
+#, kde-format
+msgid "Verify:"
+msgstr "驗證："
+
+#: src/passworddialog.cpp:36
+#, kde-format
+msgctxt "Title for change password dialog"
+msgid "New Password"
+msgstr "新密碼"
+
+#: src/passworddialog.cpp:103
+#, kde-format
+msgid "Passwords do not match"
+msgstr "密碼不符"
+
+#: src/passworddialog.cpp:127
+#, kde-format
+msgid "This password is weak"
+msgstr "密碼強度太弱"
+
+#: src/passworddialog.cpp:130
+#, kde-format
+msgid "This password is good"
+msgstr "密碼強度不錯"
+
+#: src/passworddialog.cpp:133
+#, kde-format
+msgid "This password is very good"
+msgstr "密碼強度極好"
+
+#: src/passworddialog.cpp:136
+#, kde-format
+msgid "This password is excellent"
+msgstr "密碼強度很給力"
+
+#: src/passworddialog.cpp:152
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "The password should be at least %1 character"
+msgid_plural "The password should be at least %1 characters"
+msgstr[0] "密碼至少要 %1 個字元"
+
+#: src/passworddialog.cpp:160
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "The password should contain at least %1 uppercase letter"
+msgid_plural "The password should contain at least %1 uppercase letters"
+msgstr[0] "密碼至少要 %1 個大寫字元"
+
+#: src/passworddialog.cpp:168
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "The password should contain at least %1 lowercase letter"
+msgid_plural "The password should contain at least %1 lowercase letters"
+msgstr[0] "密碼至少要 %1 個小寫字元"
+
+#: src/passworddialog.cpp:172
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "Your username should not be part of your password"
+msgstr "密碼中不能有部份使用者名稱"
+
+#: src/passworddialog.cpp:174
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "Your name should not be part of your password"
+msgstr "密碼中不能有部份您的姓名"
+
+#: src/passworddialog.cpp:180
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "The password should contain at least %1 number"
+msgid_plural "The password should contain at least %1 numbers"
+msgstr[0] "密碼至少要 %1 個數字"
+
+#: src/passworddialog.cpp:188
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid ""
+"The password should contain at least %1 special character (like punctuation)"
+msgid_plural ""
+"The password should contain at least %1 special characters (like punctuation)"
+msgstr[0] "密碼至少要 %1 個特殊字元（如標點）"
+
+#: src/passworddialog.cpp:192
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid ""
+"The password should contain a mixture of letters, numbers, spaces and "
+"punctuation"
+msgstr "密碼必須混合字母、數字、空白與標點"
+
+#: src/passworddialog.cpp:194
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "The password should not contain too many repeated characters"
+msgstr "密碼不應該包含太多重複的字元"
+
+#: src/passworddialog.cpp:196
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "The password should be more varied in letters, numbers and punctuation"
+msgstr "密碼應該要在字母、數字與標點間變化"
+
+#: src/passworddialog.cpp:198
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "The password should not contain sequences like 1234 or abcd"
+msgstr "密碼不應包含像是 1234 或 abcd 這樣的序列"
+
+#: src/passworddialog.cpp:200
+#, kde-format
+msgctxt "Error returned when the password is invalid"
+msgid "This password can't be used, it is too simple"
+msgstr "不能用這密碼。太弱了啦"
+
+#: src/passworddialog.cpp:204
+#, kde-format
+msgctxt "Returned when a more specific error message has not been found"
+msgid "Please choose another password"
+msgstr "請選擇其他密碼"
+
+#: src/usermanager.cpp:121
+#, kde-format
+msgid "Keep files"
+msgstr "保存檔案"
+
+#: src/usermanager.cpp:123
+#, kde-format
+msgid "Delete files"
+msgstr "刪除檔案"
+
+#: src/usermanager.cpp:125
+#, kde-format
+msgid "What do you want to do after deleting %1 ?"
+msgstr "刪除 %1 後要做什麼？"
+
+#: src/usermanager.cpp:128
+#, kde-format
+msgid ""
+"This user is using the system right now, removing it will cause problems"
+msgstr "此使用者正在使用系統。移除它會造成問題"
+
+#: src/usermanager.cpp:131
+#, kde-format
+msgid "Delete User"
+msgstr "刪除使用者"
+
+#~ msgid "Administrator:"
+#~ msgstr "管理員："
+
+#~ msgid "Automatic Login:"
+#~ msgstr "自動登入："

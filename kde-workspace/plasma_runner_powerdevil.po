@@ -1,0 +1,746 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevil\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-26 03:33+0200\n"
+"PO-Revision-Date: 2010-01-13 08:03+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: PowerDevilRunner.cpp:55 PowerDevilRunner.cpp:73 PowerDevilRunner.cpp:184
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "suspend"
+msgstr "暫停"
+
+#: PowerDevilRunner.cpp:56 PowerDevilRunner.cpp:80 PowerDevilRunner.cpp:194
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "sleep"
+msgstr "睡眠"
+
+#: PowerDevilRunner.cpp:57 PowerDevilRunner.cpp:87 PowerDevilRunner.cpp:197
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "hibernate"
+msgstr "冬眠"
+
+#: PowerDevilRunner.cpp:58 PowerDevilRunner.cpp:89 PowerDevilRunner.cpp:198
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "to disk"
+msgstr "儲存到磁碟"
+
+#: PowerDevilRunner.cpp:59 PowerDevilRunner.cpp:82 PowerDevilRunner.cpp:195
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "to ram"
+msgstr "儲存到記憶體"
+
+#: PowerDevilRunner.cpp:60 PowerDevilRunner.cpp:93 PowerDevilRunner.cpp:149
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "screen brightness"
+msgstr "螢幕亮度"
+
+#: PowerDevilRunner.cpp:61 PowerDevilRunner.cpp:97 PowerDevilRunner.cpp:151
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "dim screen"
+msgstr "將螢幕變暗"
+
+#: PowerDevilRunner.cpp:74
+#, kde-format
+msgid ""
+"Lists system suspend (e.g. sleep, hibernate) options and allows them to be "
+"activated"
+msgstr "列出系統暫停（例如睡眠模式或冬眠模式）選項，並允許它們被啟動"
+
+#: PowerDevilRunner.cpp:81
+#, kde-format
+msgid "Suspends the system to RAM"
+msgstr "暫停並儲存到記憶體"
+
+#: PowerDevilRunner.cpp:88
+#, kde-format
+msgid "Suspends the system to disk"
+msgstr "暫停並儲存到磁碟"
+
+#: PowerDevilRunner.cpp:95
+#, no-c-format, kde-format
+msgid ""
+"Lists screen brightness options or sets it to the brightness defined by :q:; "
+"e.g. screen brightness 50 would dim the screen to 50% maximum brightness"
+msgstr ""
+"列出螢幕亮度選項，或設定為 :q: 所定義的亮度，例如螢幕亮度 50 會將螢幕變暗 50%"
+
+#: PowerDevilRunner.cpp:148
+#, kde-format
+msgctxt "Note this is a KRunner keyword; %1 is a parameter"
+msgid "screen brightness %1"
+msgstr "螢幕亮度 %1"
+
+#: PowerDevilRunner.cpp:150
+#, kde-format
+msgctxt "Note this is a KRunner keyword; %1 is a parameter"
+msgid "dim screen %1"
+msgstr "將螢幕變暗 %1"
+
+#: PowerDevilRunner.cpp:161
+#, kde-format
+msgid "Set Brightness to %1"
+msgstr "設定亮度為 %1"
+
+#: PowerDevilRunner.cpp:171
+#, kde-format
+msgid "Dim screen totally"
+msgstr "將螢幕整個變暗"
+
+#: PowerDevilRunner.cpp:179
+#, kde-format
+msgid "Dim screen by half"
+msgstr "將螢幕變暗一半"
+
+#: PowerDevilRunner.cpp:216
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "暫停並儲存到記憶體"
+
+#: PowerDevilRunner.cpp:221
+#, kde-format
+msgid "Suspend to Disk"
+msgstr "暫停並儲存到磁碟"
+
+#~ msgctxt "Note this is a KRunner keyword"
+#~ msgid "power profile"
+#~ msgstr "電源設定檔"
+
+#~ msgid "Lists all power profiles and allows them to be activated"
+#~ msgstr "列出所有電源設定檔，並允許它們被啟動"
+
+#~ msgctxt "Note this is a KRunner keyword; %1 is a parameter"
+#~ msgid "power profile %1"
+#~ msgstr "電源設定檔 %1"
+
+#~ msgid "Set Profile to '%1'"
+#~ msgstr "將設定檔設為 %1"
+
+#~ msgid "Turn off screen"
+#~ msgstr "關閉螢幕"
+
+#~ msgctxt "Note this is a KRunner keyword"
+#~ msgid "cpu policy"
+#~ msgstr "CPU 政策"
+
+#~ msgctxt "Note this is a KRunner keyword"
+#~ msgid "power governor"
+#~ msgstr "電源管轄者"
+
+#~ msgid "Lists all power saving schemes and allows them to be activated"
+#~ msgstr "列出所有省電機制，並允許它們被啟動"
+
+#~ msgid ""
+#~ "Lists all CPU frequency scaling policies and allows them to be activated"
+#~ msgstr "列出所有 CPU 頻率調整政策，並允許它們被啟動"
+
+#~ msgctxt "Note this is a KRunner keyword; %1 is a parameter"
+#~ msgid "cpu policy %1"
+#~ msgstr "CPU 政策 %1"
+
+#~ msgctxt "Note this is a KRunner keyword; %1 is a parameter"
+#~ msgid "power governor %1"
+#~ msgstr "電源管轄者 %1"
+
+#~ msgid "Set CPU frequency scaling policy to '%1'"
+#~ msgstr "將 CPU 頻率調整政策設定為 %1"
+
+#~ msgctxt "Note this is a KRunner keyword; %1 is a parameter"
+#~ msgid "power scheme %1"
+#~ msgstr "電源機制 %1"
+
+#~ msgctxt "Note this is a KRunner keyword"
+#~ msgid "power scheme"
+#~ msgstr "電源機制"
+
+#~ msgid "Set Powersaving Scheme to '%1'"
+#~ msgstr "設定省電機制為 %1"
+
+#~ msgid "Set CPU Governor to '%1'"
+#~ msgstr "將 CPU 管轄者設為 %1"
+
+#~ msgid "PowerDevil"
+#~ msgstr "PowerDevil"
+
+#~ msgid "A Power Management tool for KDE4"
+#~ msgstr "KDE4 的電源管理工具"
+
+#~ msgid "(c) 2008 PowerDevil Development Team"
+#~ msgstr "(c) 2008 PowerDevil 開發團隊"
+
+#~ msgid "Dario Freddi"
+#~ msgstr "Dario Freddi"
+
+#~ msgid "Developer"
+#~ msgstr "開發者"
+
+#~ msgid ""
+#~ "Another power manager has been detected. Do you want to start PowerDevil "
+#~ "anyway? Please note this may lead to conflicts and undefined behaviour."
+#~ msgstr ""
+#~ "偵測到另一個電源管理程式。您還是要啟動 PowerDevil 嗎﹖要注意這可能會導致衝"
+#~ "突，而出現無法預期的行為。"
+
+#~ msgid "PowerDevil Startup"
+#~ msgstr "PowerDevil 啟動"
+
+#~ msgid ""
+#~ "If you do not wish to use PowerDevil as your main power manager, please "
+#~ "consider disabling its service in systemsettings. This message will not "
+#~ "be shown again once PowerDevil has been disabled."
+#~ msgstr ""
+#~ "如果您不願意使用 PowerDevil 做為主要的電源管理程式，請考慮在系統設定中的服"
+#~ "務選項將它關閉。關閉後這個訊息將不會再顯示。"
+
+#~ msgid ""
+#~ "If you wish to use PowerDevil as your main power manager, please consider "
+#~ "disabling other power managers you have enabled on this system. This "
+#~ "message will not be shown again once all other power managers have been "
+#~ "disabled."
+#~ msgstr ""
+#~ "如果您打算使用 PowerDevil 做為主要的電源管理程式，請考慮在系統設定中的服務"
+#~ "選項將其它的電源管理程式關閉。關閉後這個訊息將不會再顯示。"
+
+#~ msgid ""
+#~ "Could not connect to battery interface!\n"
+#~ "Please check your system configuration"
+#~ msgstr ""
+#~ "無法連線到電池介面！\n"
+#~ "請檢查您的系統設定"
+
+#~ msgid "The power adaptor has been plugged in"
+#~ msgstr "市電電源已插上"
+
+#~ msgid "The power adaptor has been unplugged"
+#~ msgstr "市電電源已拔除"
+
+#~ msgid ""
+#~ "Your battery has reached critical level, the PC will now be halted..."
+#~ msgstr "您的電池電力已達嚴重不足的程度，將要關機..."
+
+#~ msgid ""
+#~ "Your battery has reached critical level, the PC will now be suspended to "
+#~ "disk..."
+#~ msgstr "您的電池電力已達嚴重不足的程度，將要暫停並儲存到磁碟..."
+
+#~ msgid ""
+#~ "Your battery has reached critical level, the PC will now be suspended to "
+#~ "RAM..."
+#~ msgstr "您的電池電力已達嚴重不足的程度，將要暫停並儲存到至記憶體..."
+
+#~ msgid ""
+#~ "Your battery has reached critical level, the PC is now going Standby..."
+#~ msgstr "您的電池電力已達嚴重不足的程度，將切到待機模式..."
+
+#~ msgid ""
+#~ "Your battery has reached critical level, save your work as soon as "
+#~ "possible!"
+#~ msgstr "您的電池電力已達嚴重不足的程度，請盡快儲存您的工作！"
+
+#~ msgid "Your battery has reached warning level"
+#~ msgstr "您的電池電力已達警告的程度"
+
+#~ msgid "Your battery has reached low level"
+#~ msgstr "您的電池電力已達不足的程度"
+
+#~ msgid "The computer is being halted"
+#~ msgstr "電腦將被關機"
+
+#~ msgid "The computer will now be suspended to disk"
+#~ msgstr "電腦將暫停並儲存到磁碟"
+
+#~ msgid "The computer will now be suspended to RAM"
+#~ msgstr "電腦將暫停並儲存到記憶體"
+
+#~ msgid "The computer will now be put into standby"
+#~ msgstr "電腦將切到待機模式"
+
+#~ msgid "There was an error while suspending:"
+#~ msgstr "休眠時發生錯誤："
+
+#~ msgid "Polling started, idle time is %1 seconds"
+#~ msgstr "輪詢開始，閒置時間為 %1 秒"
+
+#~ msgid "Stopping timer"
+#~ msgstr "停止計時器"
+
+#~ msgid "Minimum time is %1 seconds"
+#~ msgstr "最小時間為 %1 秒"
+
+#~ msgid "Nothing to do, next event in %1 seconds"
+#~ msgstr "沒事可做，下次事件在 %1 秒內發生"
+
+#~ msgid "Next timeout in %1 seconds"
+#~ msgstr "下次逾時在 %1 秒內"
+
+#~ msgid "The screen is being locked"
+#~ msgstr "螢幕鎖定中"
+
+#~ msgid ""
+#~ "The profile \"%1\" has been selected, but it does not exist!\n"
+#~ "Please check your PowerDevil configuration."
+#~ msgstr ""
+#~ "已選取設定檔 %1，但現在它不見了。 \n"
+#~ "請檢查您的 PowerDevil 設定。"
+
+#~ msgid "Profile changed to \"%1\""
+#~ msgstr "設定檔變更為 %1"
+
+#~ msgid "Performance"
+#~ msgstr "效能"
+
+#~ msgid "Dynamic (ondemand)"
+#~ msgstr "動態（要求）"
+
+#~ msgid "Dynamic (conservative)"
+#~ msgstr "動態（保守）"
+
+#~ msgid "Powersave"
+#~ msgstr "省電"
+
+#~ msgid "Userspace"
+#~ msgstr "使用者空間"
+
+#~ msgid "Do nothing"
+#~ msgstr "不做任何事"
+
+#~ msgid "Shutdown"
+#~ msgstr "關機"
+
+#~ msgid "Lock Screen"
+#~ msgstr "鎖定螢幕"
+
+#~ msgid "Suspend to Ram"
+#~ msgstr "暫停並儲存到記憶體"
+
+#~ msgid "Standby"
+#~ msgstr "待機"
+
+#~ msgid "CPU <numid>%1</numid>"
+#~ msgstr "CPU <numid>%1</numid>"
+
+#~ msgid "Disable CPU <numid>%1</numid>"
+#~ msgstr "關閉 CPU <numid>%1</numid>"
+
+#~ msgid "If this box is checked, the CPU <numid>%1</numid> will be disabled"
+#~ msgstr "勾選此選項的話，CPU <numid>%1</numid> 將被關閉"
+
+#~ msgid "Please enter a name for the new profile"
+#~ msgstr "請輸入新設定檔的名稱"
+
+#~ msgid "The name for the new profile"
+#~ msgstr "新設定檔的名稱"
+
+#~ msgid "Enter here the name for the profile you are creating"
+#~ msgstr "請在此輸入您建立的設定檔的名稱"
+
+#, fuzzy
+#~| msgid "Please enter a name for the new profile"
+#~ msgid "Please enter a name for this profile"
+#~ msgstr "請輸入新設定檔的名稱"
+
+#~ msgctxt "None"
+#~ msgid "No methods found"
+#~ msgstr "找不到方法"
+
+#~ msgid "Import PowerDevil profiles"
+#~ msgstr "匯入 PowerDevil 設定檔"
+
+#~ msgid "Export PowerDevil profiles"
+#~ msgstr "匯出 PowerDevil 設定檔"
+
+#~ msgid ""
+#~ "The current profile has not been saved.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "目前設定檔尚未儲存。\n"
+#~ "您要儲存嗎﹖"
+
+#~ msgid "Save Profile"
+#~ msgstr "儲存設定檔"
+
+#~ msgid "PowerDevil Configuration"
+#~ msgstr "PowerDevil 設定"
+
+#~ msgid "A configurator for PowerDevil"
+#~ msgstr "PowerDevil 設定器"
+
+#~ msgid "(c), 2008 Dario Freddi"
+#~ msgstr "(c), 2008 Dario Freddi"
+
+#~ msgid ""
+#~ "From this module, you can configure the Daemon, create and edit "
+#~ "powersaving profiles, and see your system's capabilities."
+#~ msgstr ""
+#~ "您可以在此模組設定守護程式，建立並編輯省電設定檔，以及查看您的系統的容量。"
+
+#~ msgid "Main Developer"
+#~ msgstr "主要開發者"
+
+#~ msgid ""
+#~ "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
+#~ "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
+#~ "started upon KDE startup.</p> <p>PowerDevil has 2 levels of "
+#~ "configuration: a general one, that is always applied, and a profile-based "
+#~ "one, that lets you configure a specific behavior in every situation. You "
+#~ "can also have a look at your system capabilities in the last tab. To get "
+#~ "you started, first configure the options in the first 2 tabs. Then switch "
+#~ "to the fourth one, and create/edit your profiles. Last but not least, "
+#~ "assign your profiles in the third Tab. You do not have to restart "
+#~ "PowerDevil, just click \"Apply\", and you are done.</p>"
+#~ msgstr ""
+#~ "<h1>PowerDevil 設定</h1> <p>此模組讓您設定 PowerDevil。PowerDevil 是一個守"
+#~ "護程式（所以是在背景執行），在 KDE 啟動時執行。</p> <p>PowerDevil 有兩種等"
+#~ "級的設定：一種是一般設定，另一種是根據設定檔，讓您在不同的情況下指定不同的"
+#~ "設定。您也可以在最後一個分頁中看到目前系統的容量。要開始設定，首先設定前兩"
+#~ "個分頁，然後切到第四個，建立或編輯您的設定檔。最後，在第三個分頁中指定您的"
+#~ "設定檔。您不需要重新啟動 PowerDevil，只要按下「套用」即可。</p>"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid "Locks screen when waking up from suspension"
+#~ msgstr "從暫停醒來時鎖定螢幕"
+
+#~ msgid "You will be asked for password when resuming from sleep state"
+#~ msgstr "從休眠狀態回復時會詢問密碼"
+
+#~ msgid "Lock screen on resume"
+#~ msgstr "回復時鎖定螢幕"
+
+#~ msgid "Activate automatic dimming"
+#~ msgstr "啟動時自動變暗"
+
+#~ msgid "Automatically dims the display when the system is idle."
+#~ msgstr "系統閒置時自動將亮度降低。"
+
+#~ msgid "Dim display when idle for more than"
+#~ msgstr "閒置時間超過多久時降低亮度："
+
+#~ msgid "Enables standard notifications"
+#~ msgstr "開啟標準通知"
+
+#~ msgid ""
+#~ "Notifications such as standard events or profile change will be shown"
+#~ msgstr "顯示標準事件或設定檔變更的通知"
+
+#~ msgid "Enable notifications"
+#~ msgstr "開啟通知"
+
+#~ msgid "Enables warning notifications"
+#~ msgstr "開啟警告通知"
+
+#~ msgid ""
+#~ "Notifications such as warnings or important events will be shown. It is "
+#~ "recommended to leave this enabled."
+#~ msgstr "顯示警告或重要事件的通知。建議開啟此選項。"
+
+#~ msgid "Enable warning notifications"
+#~ msgstr "開啟警告通知"
+
+#~ msgctxt "Minutes"
+#~ msgid "min"
+#~ msgstr "分"
+
+#~ msgid "Battery Levels"
+#~ msgstr "電池電力"
+
+#~ msgid "Battery is at low level at"
+#~ msgstr "電池電力偏低，目前容量"
+
+#~ msgid "Low battery level"
+#~ msgstr "電池電量偏低等級"
+
+#~ msgid "Battery will be considered low when it reaches this level"
+#~ msgstr "當電池電力低於此等級時會視為低電量"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Battery is at warning level at"
+#~ msgstr "電池電力已達警告等級，目前容量"
+
+#~ msgid "Warning battery level"
+#~ msgstr "電池電量警告等級"
+
+#~ msgid ""
+#~ "Battery will be considered at warning level when it reaches this level"
+#~ msgstr "電池電力低於此等級的話，將視為警告等級"
+
+#~ msgid "Battery is at critical level at"
+#~ msgstr "電池電力已嚴重不足，目前容量"
+
+#~ msgid "Critical battery level"
+#~ msgstr "電池電力嚴重不足"
+
+#~ msgid "Battery will be considered critical when it reaches this level"
+#~ msgstr "電池電力低於此等級的話，將視為嚴重不足"
+
+#~ msgid "Battery Actions"
+#~ msgstr "電池動作"
+
+#~ msgid "When battery remaining is critical"
+#~ msgstr "當剩餘電力嚴重不足時"
+
+#~ msgid "Profiles Assignment"
+#~ msgstr "指定設定檔"
+
+#~ msgid "Profiles"
+#~ msgstr "設定檔"
+
+#~ msgid "When AC Adaptor is plugged in"
+#~ msgstr "當市電電源已插上時"
+
+#~ msgid "When on battery Power"
+#~ msgstr "當使用電池電力時"
+
+#~ msgid "When battery is at low level"
+#~ msgstr "當電池電力已達不足時"
+
+#~ msgid "When battery is at warning level"
+#~ msgstr "當電池電力已達警告時"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "編輯設定檔"
+
+#~ msgid "Profile Management"
+#~ msgstr "設定檔管理員"
+
+#~ msgid "Screen and Actions"
+#~ msgstr "螢幕與動作"
+
+#~ msgid ""
+#~ "With this slider you can set the brightness when the system is plugged "
+#~ "into the socket outlet"
+#~ msgstr "這個滑動器可以讓您設定市電插入時的亮度"
+
+#~ msgid "Brightness"
+#~ msgstr "亮度"
+
+#~ msgid ""
+#~ "Automatically turn off the display if idle for more than the set value."
+#~ msgstr "如果閒置時間超過設定值時自動關閉顯示。"
+
+#~ msgid "Turn off display if idle for more than"
+#~ msgstr "閒置時間超過多久時關閉顯示："
+
+#~ msgid "Idle time after which the monitor should turn off"
+#~ msgstr "如果閒置時間超過設定值時自動關閉螢幕。"
+
+#~ msgid " min"
+#~ msgstr " 分鐘"
+
+#~ msgid ""
+#~ "To prevent data loss or other damage, you can have the system suspend or "
+#~ "hibernate, so you do not run accidentally out of battery power. Configure "
+#~ "the number of minutes below which the machine will run the configured "
+#~ "action."
+#~ msgstr ""
+#~ "為了避免資料流失或其它的損害，您可以讓系統暫停或進入睡眠模式，這樣您就不會"
+#~ "不小心把電池電力用盡。您可以在底下設定機器在多久以後要執行哪些動作。"
+
+#~ msgid "When the system is idle for more than"
+#~ msgstr "系統閒置時間超過"
+
+#~ msgid "When Laptop Lid Closed"
+#~ msgstr "當上蓋關閉時"
+
+#~ msgid "This action will be performed when the laptop lid gets closed"
+#~ msgstr "這個動作會在上蓋關閉時執行"
+
+#~ msgid "CPU and System"
+#~ msgstr "CPU 與系統"
+
+#~ msgid "Turn off the following CPU(s)"
+#~ msgstr "關閉以下的 CPU"
+
+#~ msgid ""
+#~ "CPU Behaviour strongly impacts on your system performance and on your "
+#~ "battery's life. Here you can choose the policy best suitable for this "
+#~ "profile"
+#~ msgstr ""
+#~ "CPU 行為會強烈地衝擊到您的系統的效能，以及您的電池的壽命。您可以在此選擇最"
+#~ "適合於此設定檔的政策"
+
+#~ msgid "System powersaving scheme"
+#~ msgstr "系統省電機制"
+
+#~ msgid "Undo all the changes to this profile since last saving"
+#~ msgstr "復原此設定檔所有未儲存的變更"
+
+#~ msgid "Undo Changes"
+#~ msgstr "復原改變"
+
+#~ msgid "Save changes to this profile"
+#~ msgstr "儲存此設定檔的變更"
+
+#~ msgid "Save Current Profile"
+#~ msgstr "儲存目前的設定檔"
+
+#, fuzzy
+#~| msgid "Delete Profile"
+#~ msgid "Delete"
+#~ msgstr "刪除設定檔"
+
+#~ msgid "Import profiles from a file"
+#~ msgstr "從檔案匯入設定檔"
+
+#~ msgid "Import Profiles"
+#~ msgstr "匯入設定檔"
+
+#~ msgid "Export your profiles to a file"
+#~ msgstr "將您的設定檔匯出到檔案"
+
+#~ msgid "Export Profiles"
+#~ msgstr "匯出設定檔"
+
+#~ msgid "Capabilities"
+#~ msgstr "性能"
+
+#~ msgid "System Capabilities"
+#~ msgstr "系統性能："
+
+#~ msgid "Number of CPU"
+#~ msgstr "CPU 數量"
+
+#~ msgid "Number of Batteries"
+#~ msgstr "電池數量"
+
+#~ msgid "CPU can be turned Off"
+#~ msgstr "CPU 可關閉"
+
+#~ msgid "Scheme support"
+#~ msgstr "機制支援"
+
+#~ msgid "Scaling capability"
+#~ msgstr "調整性能"
+
+#~ msgid "Supported CPU Policies"
+#~ msgstr "支援的 CPU 政策"
+
+#~ msgid "Supported suspend methods"
+#~ msgstr "支援的暫停方法"
+
+#~ msgid "Supported schemes"
+#~ msgstr "支援的機制"
+
+#~ msgid "Detected Activity"
+#~ msgstr "偵測到活動"
+
+#~ msgid "Battery Management Settings"
+#~ msgstr "電池管理設定"
+
+#~ msgid "Is PowerDevil Daemon up and running?"
+#~ msgstr "PowerDevil 守護程式是否已啟動﹖"
+
+#~ msgid "Battery"
+#~ msgstr "電池"
+
+#~ msgid "sources"
+#~ msgstr "來源"
+
+#~ msgid "AC Adapter"
+#~ msgstr "AC 插座"
+
+#~ msgid "Plugged in"
+#~ msgstr "已插入"
+
+#~ msgid "n/a"
+#~ msgstr "無"
+
+#~ msgid "Percent"
+#~ msgstr "百分比"
+
+#~ msgid "Configure Battery Monitor"
+#~ msgstr "設定電池監視器"
+
+#~ msgid "Show the percentage of &charge on the battery"
+#~ msgstr "顯示電池充電百分比(&C)"
+
+#~ msgid "Show the state for &each battery present"
+#~ msgstr "顯示現有的每個電池的狀態(&E)"
+
+#~ msgid "Oxygen theme"
+#~ msgstr "Oxygen 主題"
+
+#~ msgid "Classic theme"
+#~ msgstr "傳統主題"
+
+#~ msgid "Configure PowerDevil"
+#~ msgstr "設定 PowerDevil"
+
+#~ msgid "availableProfiles"
+#~ msgstr "可用設定檔"
+
+#~ msgid "currentProfile"
+#~ msgstr "目前設定檔"
+
+#~ msgid "New Profile"
+#~ msgstr "新增設定檔"
+
+#~ msgid "Current Profile name is %1"
+#~ msgstr "目前設定檔為 %1"
+
+#~ msgid "Invalid group!!"
+#~ msgstr "不合法的群組！"
+
+#~ msgid "Basic options"
+#~ msgstr "基本選項"
+
+#~ msgid "Advanced Options"
+#~ msgstr "進階選項"
+
+#~ msgid "set-profile"
+#~ msgstr "編輯設定檔"
+
+#~ msgid "change-profile"
+#~ msgstr "變更設定檔"
+
+#~ msgid "switch-profile"
+#~ msgstr "切換設定檔"
+
+#~ msgid "change-governor"
+#~ msgstr "變更管轄者"
+
+#~ msgid "switch-governor"
+#~ msgstr "切換管轄者"
+
+#~ msgid "set-scheme"
+#~ msgstr "設定機制"
+
+#~ msgid "change-scheme"
+#~ msgstr "變更機制"
+
+#~ msgid "switch-scheme"
+#~ msgstr "切換機制"
+
+#~ msgid "change-brightness"
+#~ msgstr "變更亮度"

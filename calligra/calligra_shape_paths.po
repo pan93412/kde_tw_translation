@@ -1,0 +1,688 @@
+# translation of PathShapes.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: PathShapes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
+"PO-Revision-Date: 2016-12-08 08:35+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ellipse/EllipseShapeConfigCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Change ellipse"
+msgstr "變更橢圓"
+
+#: ellipse/EllipseShapeConfigWidget.cpp:29
+#, kde-format
+msgid "Arc"
+msgstr "弧形"
+
+#: ellipse/EllipseShapeConfigWidget.cpp:30
+#, kde-format
+msgid "Pie"
+msgstr "圓餅形"
+
+#: ellipse/EllipseShapeConfigWidget.cpp:31
+#, kde-format
+msgid "Chord"
+msgstr "弦"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EllipseShapeConfigWidget)
+#: ellipse/EllipseShapeConfigWidget.ui:13
+#, kde-format
+msgid "Ellipse Shape"
+msgstr "橢圓形"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ellipse/EllipseShapeConfigWidget.ui:19 spiral/SpiralShapeConfigWidget.ui:19
+#, kde-format
+msgid "Type:"
+msgstr "型態："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ellipse/EllipseShapeConfigWidget.ui:29
+#, kde-format
+msgid "Start angle:"
+msgstr "開始角度："
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, startAngle)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, endAngle)
+#: ellipse/EllipseShapeConfigWidget.ui:39
+#: ellipse/EllipseShapeConfigWidget.ui:56
+#, kde-format
+msgid "°"
+msgstr "°"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ellipse/EllipseShapeConfigWidget.ui:46
+#, kde-format
+msgid "End angle:"
+msgstr "結束角度："
+
+#. i18n: ectx: property (text), widget (QPushButton, closeEllipse)
+#: ellipse/EllipseShapeConfigWidget.ui:63
+#, kde-format
+msgid "Close ellipse"
+msgstr "關閉橢圓"
+
+#: ellipse/EllipseShapeFactory.cpp:34
+#, kde-format
+msgid "Ellipse"
+msgstr "橢圓"
+
+#: ellipse/EllipseShapeFactory.cpp:36
+#, kde-format
+msgid "An ellipse"
+msgstr "橢圓形"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:39
+#, kde-format
+msgid "An enhanced path shape"
+msgstr "加強版路徑物件"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:41
+#, kde-format
+msgid "An enhanced path"
+msgstr "加強版路徑物件"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:159
+#, kde-format
+msgid "Cross"
+msgstr "十字"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:161
+#, kde-format
+msgid "A cross"
+msgstr "十字"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:194
+#: enhancedpath/EnhancedPathShapeFactory.cpp:227
+#: enhancedpath/EnhancedPathShapeFactory.cpp:260
+#: enhancedpath/EnhancedPathShapeFactory.cpp:293
+#, kde-format
+msgid "Arrow"
+msgstr "箭號"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:196
+#: enhancedpath/EnhancedPathShapeFactory.cpp:229
+#: enhancedpath/EnhancedPathShapeFactory.cpp:262
+#: enhancedpath/EnhancedPathShapeFactory.cpp:295
+#, kde-format
+msgid "An arrow"
+msgstr "箭號"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:372
+#, kde-format
+msgid "Callout"
+msgstr "對話氣泡"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:374
+#, kde-format
+msgid "A callout"
+msgstr "對話氣泡"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:418
+#: enhancedpath/EnhancedPathShapeFactory.cpp:420
+#, kde-format
+msgid "Smiley"
+msgstr "笑臉"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:498
+#, kde-format
+msgid "Circular Arrow"
+msgstr "圓箭號"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:500
+#, kde-format
+msgid "A circular-arrow"
+msgstr "圓箭號"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:543
+#, kde-format
+msgid "Gearhead"
+msgstr "齒輪"
+
+#: enhancedpath/EnhancedPathShapeFactory.cpp:545
+#, kde-format
+msgid "A gearhead"
+msgstr "齒輪"
+
+#: rectangle/RectangleShapeConfigCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Change rectangle"
+msgstr "變更矩形"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, RectangleShapeConfigWidget)
+#: rectangle/RectangleShapeConfigWidget.ui:13
+#, kde-format
+msgid "Rectangle Shape"
+msgstr "矩形"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rectangle/RectangleShapeConfigWidget.ui:19
+#, kde-format
+msgid "Corner radius x:"
+msgstr "角半徑 x："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rectangle/RectangleShapeConfigWidget.ui:29
+#, kde-format
+msgid "Corner radius y:"
+msgstr "角半徑 y："
+
+#: rectangle/RectangleShapeFactory.cpp:33
+#, kde-format
+msgid "Rectangle"
+msgstr "矩形"
+
+#: rectangle/RectangleShapeFactory.cpp:35
+#, kde-format
+msgid "A rectangle"
+msgstr "矩形"
+
+#: spiral/SpiralShapeConfigCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Change spiral"
+msgstr "變更螺旋"
+
+#: spiral/SpiralShapeConfigWidget.cpp:29
+#, kde-format
+msgid "Curve"
+msgstr "曲線"
+
+#: spiral/SpiralShapeConfigWidget.cpp:30
+#, kde-format
+msgid "Line"
+msgstr "線條"
+
+#: spiral/SpiralShapeConfigWidget.cpp:36
+#, kde-format
+msgid "Clockwise"
+msgstr "順時針 "
+
+#: spiral/SpiralShapeConfigWidget.cpp:37
+#, kde-format
+msgid "Anticlockwise"
+msgstr "逆時針"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SpiralShapeConfigWidget)
+#: spiral/SpiralShapeConfigWidget.ui:13
+#, kde-format
+msgid "Spiral Shape"
+msgstr "螺旋形"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: spiral/SpiralShapeConfigWidget.ui:29
+#, kde-format
+msgid "Fade:"
+msgstr "淡出："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: spiral/SpiralShapeConfigWidget.ui:55
+#, kde-format
+msgid "Direction:"
+msgstr "方向："
+
+#: spiral/SpiralShapeFactory.cpp:31
+#, kde-format
+msgid "Spiral"
+msgstr "螺旋狀"
+
+#: spiral/SpiralShapeFactory.cpp:33
+#, kde-format
+msgid "A spiral shape"
+msgstr "螺旋形"
+
+#: star/StarShapeConfigCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Change star"
+msgstr "變更星星"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, StarShapeConfigWidget)
+#: star/StarShapeConfigWidget.ui:13
+#, kde-format
+msgid "Star shape"
+msgstr "星形"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: star/StarShapeConfigWidget.ui:19
+#, kde-format
+msgid "Polygon:"
+msgstr "多邊形："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: star/StarShapeConfigWidget.ui:36
+#, kde-format
+msgid "Corners:"
+msgstr "角落："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: star/StarShapeConfigWidget.ui:46
+#, kde-format
+msgid "Inner radius:"
+msgstr "內徑："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: star/StarShapeConfigWidget.ui:60
+#, kde-format
+msgid "Outer radius:"
+msgstr "外徑："
+
+#: star/StarShapeFactory.cpp:37
+#, kde-format
+msgid "A star shape"
+msgstr "星形"
+
+#: star/StarShapeFactory.cpp:39 star/StarShapeFactory.cpp:51
+#, kde-format
+msgid "A star"
+msgstr "星星"
+
+#: star/StarShapeFactory.cpp:49
+#, kde-format
+msgid "Star"
+msgstr "星星"
+
+#: star/StarShapeFactory.cpp:63
+#, kde-format
+msgid "Flower"
+msgstr "花朵"
+
+#: star/StarShapeFactory.cpp:65
+#, kde-format
+msgid "A flower"
+msgstr "花朵"
+
+#: star/StarShapeFactory.cpp:80
+#, kde-format
+msgid "Pentagon"
+msgstr "五角形"
+
+#: star/StarShapeFactory.cpp:82
+#, kde-format
+msgid "A pentagon"
+msgstr "五角形"
+
+#: star/StarShapeFactory.cpp:96
+#, kde-format
+msgid "Hexagon"
+msgstr "六角形"
+
+#: star/StarShapeFactory.cpp:98
+#, kde-format
+msgid "A hexagon"
+msgstr "六角形"
+
+#, fuzzy
+#~| msgid "Ellipse Shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Ellipse Shape"
+#~ msgstr "橢圓形"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Type:"
+#~ msgstr "型態："
+
+#, fuzzy
+#~| msgid "Start angle:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Start angle:"
+#~ msgstr "開始角度："
+
+#, fuzzy
+#~| msgid "°"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "°"
+#~ msgstr "°"
+
+#, fuzzy
+#~| msgid "End angle:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "End angle:"
+#~ msgstr "結束角度："
+
+#, fuzzy
+#~| msgid "Close ellipse"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Close ellipse"
+#~ msgstr "關閉橢圓"
+
+#, fuzzy
+#~| msgid "Rectangle Shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rectangle Shape"
+#~ msgstr "矩形"
+
+#, fuzzy
+#~| msgid "Corner radius x:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Corner radius x:"
+#~ msgstr "角半徑 x："
+
+#, fuzzy
+#~| msgid "Corner radius y:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Corner radius y:"
+#~ msgstr "角半徑 y："
+
+#, fuzzy
+#~| msgid "Star shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Star shape"
+#~ msgstr "星形"
+
+#, fuzzy
+#~| msgid "Polygon:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Polygon:"
+#~ msgstr "多邊形："
+
+#, fuzzy
+#~| msgid "Corners:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Corners:"
+#~ msgstr "角落："
+
+#, fuzzy
+#~| msgid "Inner radius:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Inner radius:"
+#~ msgstr "內徑："
+
+#, fuzzy
+#~| msgid "Outer radius:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Outer radius:"
+#~ msgstr "外徑："
+
+#, fuzzy
+#~| msgid "Spiral Shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Spiral Shape"
+#~ msgstr "螺旋形"
+
+#, fuzzy
+#~| msgid "Fade:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Fade:"
+#~ msgstr "淡出："
+
+#, fuzzy
+#~| msgid "Direction:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Direction:"
+#~ msgstr "方向："
+
+#, fuzzy
+#~| msgid "Arc"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Arc"
+#~ msgstr "弧形"
+
+#, fuzzy
+#~| msgid "Pie"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pie"
+#~ msgstr "圓餅形"
+
+#, fuzzy
+#~| msgid "Chord"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Chord"
+#~ msgstr "弦"
+
+#, fuzzy
+#~| msgid "Ellipse"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Ellipse"
+#~ msgstr "橢圓"
+
+#, fuzzy
+#~| msgid "An ellipse"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "An ellipse"
+#~ msgstr "橢圓形"
+
+#, fuzzy
+#~| msgid "An enhanced path shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "An enhanced path shape"
+#~ msgstr "加強版路徑物件"
+
+#, fuzzy
+#~| msgid "An enhanced path"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "An enhanced path"
+#~ msgstr "加強版路徑物件"
+
+#, fuzzy
+#~| msgid "Cross"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Cross"
+#~ msgstr "十字"
+
+#, fuzzy
+#~| msgid "A cross"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A cross"
+#~ msgstr "十字"
+
+#, fuzzy
+#~| msgid "Arrow"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Arrow"
+#~ msgstr "箭號"
+
+#, fuzzy
+#~| msgid "An arrow"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "An arrow"
+#~ msgstr "箭號"
+
+#, fuzzy
+#~| msgid "Callout"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Callout"
+#~ msgstr "對話氣泡"
+
+#, fuzzy
+#~| msgid "A callout"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A callout"
+#~ msgstr "對話氣泡"
+
+#, fuzzy
+#~| msgid "Smiley"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Smiley"
+#~ msgstr "笑臉"
+
+#, fuzzy
+#~| msgid "Circular Arrow"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Circular Arrow"
+#~ msgstr "圓箭號"
+
+#, fuzzy
+#~| msgid "A circular-arrow"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A circular-arrow"
+#~ msgstr "圓箭號"
+
+#, fuzzy
+#~| msgid "Gearhead"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Gearhead"
+#~ msgstr "齒輪"
+
+#, fuzzy
+#~| msgid "A gearhead"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A gearhead"
+#~ msgstr "齒輪"
+
+#, fuzzy
+#~| msgid "Rectangle"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rectangle"
+#~ msgstr "矩形"
+
+#, fuzzy
+#~| msgid "A rectangle"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A rectangle"
+#~ msgstr "矩形"
+
+#, fuzzy
+#~| msgid "Curve"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Curve"
+#~ msgstr "曲線"
+
+#, fuzzy
+#~| msgid "Line"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Line"
+#~ msgstr "線條"
+
+#, fuzzy
+#~| msgid "Spiral"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Spiral"
+#~ msgstr "螺旋狀"
+
+#, fuzzy
+#~| msgid "A spiral shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A spiral shape"
+#~ msgstr "螺旋形"
+
+#, fuzzy
+#~| msgid "A star shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A star shape"
+#~ msgstr "星形"
+
+#, fuzzy
+#~| msgid "A star"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A star"
+#~ msgstr "星星"
+
+#, fuzzy
+#~| msgid "Star"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Star"
+#~ msgstr "星星"
+
+#, fuzzy
+#~| msgid "Flower"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Flower"
+#~ msgstr "花朵"
+
+#, fuzzy
+#~| msgid "A flower"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A flower"
+#~ msgstr "花朵"
+
+#, fuzzy
+#~| msgid "Pentagon"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pentagon"
+#~ msgstr "五角形"
+
+#, fuzzy
+#~| msgid "A pentagon"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A pentagon"
+#~ msgstr "五角形"
+
+#, fuzzy
+#~| msgid "Hexagon"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Hexagon"
+#~ msgstr "六角形"
+
+#, fuzzy
+#~| msgid "A hexagon"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A hexagon"
+#~ msgstr "六角形"
+
+#~ msgid "A arrow shape"
+#~ msgstr "箭號形狀"
+
+#~ msgid "A arrow"
+#~ msgstr "箭號"
+
+#~ msgid "Right Arrow"
+#~ msgstr "右箭號"
+
+#~ msgid "A right arrow"
+#~ msgstr "右箭號"
+
+#~ msgid "Left Arrow"
+#~ msgstr "左箭號"
+
+#~ msgid "A left arrow"
+#~ msgstr "左箭號"
+
+#~ msgid "Top Arrow"
+#~ msgstr "上箭號"
+
+#~ msgid "A top arrow"
+#~ msgstr "上箭號"
+
+#~ msgid "Bottom Arrow"
+#~ msgstr "下箭號"
+
+#~ msgid "A bottom arrow"
+#~ msgstr "下箭號"
+
+#~ msgid "Left Down Arrow"
+#~ msgstr "左下箭號"
+
+#~ msgid "A left down arrow"
+#~ msgstr "左下箭號"
+
+#~ msgid "Left Top Arrow"
+#~ msgstr "左上箭號"
+
+#~ msgid "A left top arrow"
+#~ msgstr "左上箭號"
+
+#~ msgid "Right Down Arrow"
+#~ msgstr "右下箭號"
+
+#~ msgid "A right down arrow"
+#~ msgstr "右下箭號"
+
+#~ msgid "Right Top Arrow"
+#~ msgstr "右上箭號"
+
+#~ msgid "A right top arrow"
+#~ msgstr "右上箭號"
+
+#~ msgid "A rectangle shape"
+#~ msgstr "矩形"
+
+#~ msgid "Enhanced Path"
+#~ msgstr "加強版路徑元件"

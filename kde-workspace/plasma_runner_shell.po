@@ -1,0 +1,156 @@
+# translation of krunner_shellrunner.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner_shellrunner\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-12-17 03:48+0100\n"
+"PO-Revision-Date: 2016-11-03 19:54+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbUsername)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
+#: shellOptions.ui:61 shellOptions.ui:134
+#, kde-format
+msgid "Enter the user you want to run the application as here."
+msgstr "請在此輸入您要執行的應用程式名稱。"
+
+#. i18n: ectx: property (text), widget (QLabel, lbUsername)
+#: shellOptions.ui:64
+#, kde-format
+msgid "User&name:"
+msgstr "使用者名稱(&N)："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
+#: shellOptions.ui:83 shellOptions.ui:102
+#, kde-format
+msgid "Enter the password here for the user you specified above."
+msgstr "請在此輸入您指定的使用者的密碼。"
+
+#. i18n: ectx: property (text), widget (QLabel, lbPassword)
+#: shellOptions.ui:105
+#, kde-format
+msgid "Pass&word:"
+msgstr "密碼(&W)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunInTerminal)
+#: shellOptions.ui:115
+#, kde-format
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application. The application will then be run in a terminal emulator window."
+msgstr ""
+"勾選此選項的話，表示您要執行的應用程式是文字模式的應用程式，會放在終端視窗中"
+"執行。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunInTerminal)
+#: shellOptions.ui:118
+#, kde-format
+msgid "Run in &terminal window"
+msgstr "在終端機執行(&T)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunAsOther)
+#: shellOptions.ui:141
+#, kde-format
+msgid ""
+"Check this option if you want to run the application with a different user "
+"id. Every process has a user id associated with it. This id code determines "
+"file access and other permissions. The password of the user is required to "
+"do this."
+msgstr ""
+"勾選此選項的話，表示您要用不同的使用者代碼來執行此應用程式。每個行程都會有執"
+"行者的使用者代碼，它決定存取檔案的權限等等。若您改變此代碼，您需要輸入該使用"
+"者的密碼。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunAsOther)
+#: shellOptions.ui:144
+#, kde-format
+msgid "Run as a different &user"
+msgstr "用不同的使用者執行(&U)"
+
+#: shellrunner.cpp:49
+#, kde-format
+msgid "Finds commands that match :q:, using common shell syntax"
+msgstr "用一般 shell 語法尋找符合 :q: 的指令"
+
+#: shellrunner.cpp:50
+#, kde-format
+msgid "Run in Terminal Window"
+msgstr "在終端機視窗中執行"
+
+#: shellrunner.cpp:70
+#, kde-format
+msgid "Run %1"
+msgstr "執行 %1"
+
+#~ msgid ""
+#~ "<qt>Select whether realtime scheduling should be enabled for the "
+#~ "application. The scheduler governs which process will run and which will "
+#~ "have to wait. Two schedulers are available:\n"
+#~ "<ul>\n"
+#~ "<li><em>Normal:</em> This is the standard, timesharing scheduler. It will "
+#~ "divide fairly the available processing time between all processes.</li>\n"
+#~ "<li><em>Realtime:</em>This scheduler will run your application "
+#~ "uninterrupted until it gives up the processor. This can be dangerous. An "
+#~ "application that does not give up the processor might hang the system. "
+#~ "You need root's password to use the scheduler.</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>選擇是否要對此應用程式開啟即時排程（realtime schedule）。排程器決定哪"
+#~ "個行程要執行，哪個要等待。有兩種排程器：\n"
+#~ "<ul>\n"
+#~ "<li><em>一般：</em>標準分時（time-sharing）排程器。它會對所有行程公平地提"
+#~ "供相同的時間。</li>\n"
+#~ "<li><em>即時：</em>排程器會讓您的應用程式一直執行，直到應用程式自己放棄使"
+#~ "用。不過這有其危險性，如果應用程式一直佔用處理器而不肯放手，則整個系統可能"
+#~ "就會陷於停頓。您要使用此種排程器，需要 root 密碼。</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+
+#~ msgid "Run with realtime &scheduling"
+#~ msgstr "以即時排程執行(&S)"
+
+#~ msgid ""
+#~ "The priority that the command will be run with can be set here. From left "
+#~ "to right, it goes from low to high. The center position is the default "
+#~ "value. For priorities higher than the default, you will need to provide "
+#~ "the root password."
+#~ msgstr ""
+#~ "此指令執行的優先權。左邊表示較低，右邊表示較高。中間為預設值。如果要設成比"
+#~ "預設值高的優先權，您需要提供 root 密碼。"
+
+#~ msgid "&Priority:"
+#~ msgstr "優先權(&P)："
+
+#~ msgid ""
+#~ "Check this option if you want to run the application with a different "
+#~ "priority. A higher priority tells the operating system to give more "
+#~ "processing time to your application."
+#~ msgstr ""
+#~ "勾選此選項的話，表示您要調整該應用程式的優先權。優先權高，作業系統會讓您的"
+#~ "應用程式有更多時間來執行。"
+
+#~ msgid "Run with a &different priority"
+#~ msgstr "用不同的優先權執行(&D)"
+
+#~ msgid "Low"
+#~ msgstr "低"
+
+#~ msgid "High"
+#~ msgstr "高"
+
+#~ msgid "Command"
+#~ msgstr "指令"

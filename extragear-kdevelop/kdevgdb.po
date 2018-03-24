@@ -1,0 +1,2656 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevcppdebugger\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-21 02:54+0100\n"
+"PO-Revision-Date: 2014-02-27 11:05+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: debuggerplugin.cpp:56 debuggerplugin.cpp:130 gdbconfigpage.cpp:131
+#, kde-format
+msgid "GDB"
+msgstr "GDB"
+
+#: debuggerplugin.cpp:126
+#, kde-format
+msgid "Disassemble/Registers"
+msgstr "反組譯/暫存器"
+
+#: debuggerplugin.cpp:139
+#, kde-format
+msgid "Memory"
+msgstr "記憶體"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DebuggerTracingDialog)
+#: debuggertracingdialog.ui:14
+#, kde-format
+msgid "Tracing Configuration"
+msgstr "追蹤設定"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, customFormat)
+#: debuggertracingdialog.ui:26
+#, no-c-format, kde-format
+msgid ""
+"<b>Custom format string</b>\n"
+"<p>Specify a C-style format string that will be used when printing the "
+"chosen expression. For example:\n"
+"<p align=\"center\"> <tt>Tracepoint 1: g = %d</tt></p>\n"
+"If custom format string is not enabled, names and values of all expressions "
+"will be printed, using \"%d\" as format specifier for all expressions."
+msgstr ""
+"<b>自訂格式字串</b>\n"
+"<p>指定 C 樣式的格式字串，它會用於印出選定的表示式計算出來的值。例如：\n"
+"<p align=\"center\"><tt>Tracepoint 1： g = %d </tt></p>\n"
+"如果沒有開啟自訂格式字串的功能，則會印出名稱與數值，所有的數值都預設使用 \"%d"
+"\"。"
+
+#. i18n: ectx: property (text), widget (QLabel, expressionsLabel)
+#: debuggertracingdialog.ui:36
+#, kde-format
+msgid "Expressions to print:"
+msgstr "要列印的表示式："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, enable)
+#: debuggertracingdialog.ui:47
+#, kde-format
+msgid ""
+"<b>Enable tracing</b>\n"
+"<p>Tracing is a mechanism to automatically print values of the chosen "
+"expressions and continue execution when breakpoint is hit. You can think of "
+"it as printf debugging that does not require modifying the source.</p>"
+msgstr ""
+"<b>開啟追蹤</b> <p>所謂的追蹤是一個在遇到中斷點時，會自動印出選定的表示式計算"
+"出來的值，並繼續執行的機制。您可以把它當成用 printf 來除錯，只不過不需要變更"
+"源碼。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enable)
+#: debuggertracingdialog.ui:50
+#, kde-format
+msgid "Enable tracing"
+msgstr "開啟追蹤"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableCustomFormat)
+#: debuggertracingdialog.ui:60
+#, kde-format
+msgid "Custom format string"
+msgstr "自訂格式字串"
+
+#: debugsession.cpp:184
+#, fuzzy, kde-format
+#| msgid ""
+#| "No environment group specified, looks like a broken configuration, please "
+#| "check run configuration '%1'. Using default environment group."
+msgid ""
+"No environment profile specified, looks like a broken configuration, please "
+"check run configuration '%1'. Using default environment profile."
+msgstr ""
+"沒有指定環境群組，似乎是設定有問題。請檢查執行設定 %1。將改用預設的環境群組。"
+
+#: debugsession.cpp:294
+#, kde-format
+msgid "<b>You need gdb 7.0.0 or higher.</b><br />You are using: %1"
+msgstr "<b>您需要 gdb 7.0.0 版以上。</b><br />您目前的版本是：%1"
+
+#: debugsession.cpp:296
+#, kde-format
+msgid "gdb error"
+msgstr "gdb 錯誤"
+
+#: debugsession.cpp:306
+#, kde-format
+msgid "<b>Could not start debugger:</b><br />"
+msgstr "<b>無法啟動除錯器：</b><br />"
+
+#: debugsession.cpp:308 debugsession.cpp:324
+#, kde-format
+msgid "Startup error"
+msgstr "啟動錯誤"
+
+#: debugsession.cpp:320
+#, fuzzy, kde-format
+#| msgid ""
+#| "<b>Debugger error</b><p>Debugger reported the following error:<p><tt>%1"
+msgid ""
+"<b>Failed to load core file</b><p>Debugger reported the following error:"
+"<p><tt>%1"
+msgstr "<b>除錯器錯誤</b><p>除錯器回報了以下的錯誤：<p><tt>%1"
+
+#: gdb.cpp:78
+#, kde-format
+msgid "Could not locate the debugging shell '%1'."
+msgstr "無法找到除錯 shell %1。"
+
+#: gdb.cpp:79
+#, kde-format
+msgid "Debugging Shell Not Found"
+msgstr "找不到除錯 Shell"
+
+#: gdbconfigpage.cpp:108
+#, kde-format
+msgid "GDB Configuration"
+msgstr "除錯器設定"
+
+#: gdbconfigpage.cpp:149
+#, kde-format
+msgid ""
+"A program is already being debugged. Do you want to abort the currently "
+"running debug session and continue with the launch?"
+msgstr ""
+
+#: gdbconfigpage.cpp:175
+#, fuzzy, kde-format
+#| msgid "Executes a Native application in GDB"
+msgid "Executes a native application in GDB"
+msgstr "在 GDB 中執行原始應用程式"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GdbConfigPage)
+#: gdbconfigpage.ui:14
+#, kde-format
+msgid "Debugger Configuration"
+msgstr "除錯器設定"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: gdbconfigpage.ui:26
+#, kde-format
+msgid "Debugger"
+msgstr "除錯器"
+
+#. i18n: ectx: property (text), widget (QLabel, gdbPath_label)
+#: gdbconfigpage.ui:32
+#, fuzzy, kde-format
+#| msgid "Debugger executable:"
+msgid "Debugger e&xecutable:"
+msgstr "除錯器執行檔："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_gdbPath)
+#: gdbconfigpage.ui:45
+#, kde-format
+msgid "Gdb executable"
+msgstr "Gdb 執行檔"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_gdbPath)
+#: gdbconfigpage.ui:48
+#, fuzzy, kde-format
+#| msgid ""
+#| "To run \"gdb\" binary from $PATH, leave this field empty. To run custom "
+#| "gdb, for example, for a different architecture, enter the executable name "
+#| "here. You can either run gdb from $PATH, but with a different name (say, "
+#| "\"arm-gdb\"), by typing the name here, or specify full path to the gdb "
+#| "executable."
+msgid ""
+"To run \"gdb\" executable from $PATH, leave this field empty. To run custom "
+"gdb, for example, for a different architecture, enter the executable name "
+"here. You can either run gdb from $PATH, but with a different name (say, "
+"\"arm-gdb\"), by typing the name here, or specify full path to the gdb "
+"executable."
+msgstr ""
+"若這個欄位留白，則會從 $PATH 中尋找 gdb。要跑自訂的 gdb 程式，比方說其它平台"
+"上的 gdb，則可以在這裡直接指定執行檔路徑。"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, kcfg_gdbPath)
+#: gdbconfigpage.ui:51
+#, kde-format
+msgid "Override path to gdb executable"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, debuggingShell_label)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_debuggingShell)
+#: gdbconfigpage.ui:58 gdbconfigpage.ui:77
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body><p>If you want gdb to be executed by a special shell "
+#| "script, which for example properly sets the library path, insert it here "
+#| "e.g.: /path/to/script.sh --scriptArguments</p><p>Note: your script'll be "
+#| "invoked like this: /path/to/script.sh --scriptArguments debbuger --"
+#| "debuggerArguments. So script.sh <span style=\" font-weight:600;\">must</"
+#| "span> invoke \"debugger\" executable manually.</p></body></html>"
+msgid ""
+"<html><head/><body><p>If you want gdb to be executed by a special shell "
+"script, which for example properly sets the library path, insert it here e."
+"g.: /path/to/script.sh --scriptArguments</p><p>Note: your script'll be "
+"invoked like this: /path/to/script.sh --scriptArguments debugger --"
+"debuggerArguments. So script.sh <span style=\" font-weight:600;\">must</"
+"span> invoke \"debugger\" executable manually.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>若您要 gdb 用一個特殊的 shell 文稿來執行，比方說可能要"
+"設定額外的函式庫路徑等等，請設定在此處。例如：/path/to/script.sh --"
+"scriptArguments</p><p>注意：您的文稿將會以這種方式啟動：/path/to/script.sh --"
+"scriptArguments debugger --debuggerArguments。因此 script.sh 裡必須手動啟動除"
+"錯器。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, debuggingShell_label)
+#: gdbconfigpage.ui:64
+#, fuzzy, kde-format
+#| msgid "&Shell script:"
+msgid "She&ll script:"
+msgstr "&Shell 文稿："
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_debuggingShell)
+#: gdbconfigpage.ui:80
+#, kde-format
+msgid "<html><head/><body><p><br/></p></body></html>"
+msgstr "<html><head/><body><p><br/></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: gdbconfigpage.ui:90
+#, kde-format
+msgid "Options"
+msgstr "選項"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: gdbconfigpage.ui:99
+#, kde-format
+msgid "Display static &members:"
+msgstr "顯示靜態成員(&M)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_displayStaticMembers)
+#: gdbconfigpage.ui:114
+#, kde-format
+msgid ""
+"Displaying static members makes GDB slower in\n"
+"producing data within KDE and Qt.\n"
+"It may change the \"signature\" of the data\n"
+"which QString and friends rely on,\n"
+"but if you need to debug into these values then\n"
+"check this option."
+msgstr ""
+"若要顯示靜態成員，在 KDE 與 Qt 中因為要產生資料，所以會讓 GDB 變慢。它也可能"
+"改變資料的「簽章」，通常 QString 與其朋友成員會需要檢視。不過如果您真的需要對"
+"靜態成員的值做除錯，則需要勾選此選項。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: gdbconfigpage.ui:124
+#, kde-format
+msgid "Display &demangled names:"
+msgstr "顯示未被改變過的名稱(&D)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_asmDemangle)
+#: gdbconfigpage.ui:136
+#, kde-format
+msgid ""
+"When displaying the disassembled code you\n"
+"can select to see the methods' mangled names.\n"
+"However, non-mangled names are easier to read."
+msgstr ""
+"顯示反組譯程式碼時，您可以選擇要查看改變過後的方法名稱。\n"
+"通常沒改變過的名稱會比較好閱讀。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gdbconfigpage.ui:146
+#, fuzzy, kde-format
+#| msgid "Start Debugger with:"
+msgid "S&tart debugger with:"
+msgstr "啟動除錯器方式："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
+#: gdbconfigpage.ui:157
+#, kde-format
+msgid "Application Output"
+msgstr "應用程式輸出"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
+#: gdbconfigpage.ui:162
+#, kde-format
+msgid "GDB Console"
+msgstr "GDB 主控台"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
+#: gdbconfigpage.ui:167
+#, kde-format
+msgid "Frame Stack"
+msgstr "框架堆疊"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: gdbconfigpage.ui:181
+#, kde-format
+msgid ""
+"This script is intended for the actual commands needed to connect to a "
+"remotely running executable.\n"
+"\tshell sleep 5\twait for remote program to start\n"
+"\ttarget remote ...\tconnect to the remote debugger\n"
+"\tcontinue\t[optional] run debugging to the first breakpoint"
+msgstr ""
+"此文稿是用於需要連接到遠端執行的程式時使用的實際指令。\n"
+"\tshell sleep 5\t等待遠端的程式啟動\n"
+"\ttarget remote ...\t連線到遠端的除錯器\n"
+"\tcontinue\t【可選擇的】執行除錯器，直到第一個中斷點"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: gdbconfigpage.ui:184
+#, kde-format
+msgid "Remote Debugging"
+msgstr "遠端除錯"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, runShellScript_label)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_runShellScript)
+#: gdbconfigpage.ui:190 gdbconfigpage.ui:206
+#, kde-format
+msgid ""
+"<html><head/><body><p>Script to start remote application</p><p></p><p>This "
+"shell script is run after the Gdb Config script has been sourced by gdb.</"
+"p><p>It's purpose is to actually start the remote process.</p><p>1) Find a "
+"way to execute a command remotely - rsh, ssh, telnet, ...</p><p>2a) Execute "
+"\"gdbserver ... application\" on target.</p><p>or if your executable "
+"contains the gdb stub:</p><p>2b) Execute \"application\" on target.</p></"
+"body></html>"
+msgstr ""
+"<html><head/><body><p>啟動遠端應用程式</p><p>此 shell 文稿會在 gdb 執行完設定"
+"文稿之後執行。當需要遠端除錯時這個文稿會啟動遠端的程式。</p><p>1) 尋找一個方"
+"法可以遠端執行指令─例如 rsh，ssh，telnet 等等。</p><p>2a) 在目標平台上執行 "
+"\"gdserver ... app\"。</p><p>若是您的執行檔中有包含 gdb 需要的東西，也可以。"
+"</p><p>2b) 直接在目標平台上執行 \"app\"。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, runShellScript_label)
+#: gdbconfigpage.ui:193
+#, kde-format
+msgctxt "Shell script to be executed at run time"
+msgid "R&un shell script:"
+msgstr "執行 shell 文稿(&U)："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, configGdbScript_label)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_configGdbScript)
+#: gdbconfigpage.ui:216 gdbconfigpage.ui:258
+#, kde-format
+msgid ""
+"<html><head/><body><p>This script is sourced by gdb when the debugging "
+"starts.</p></body></html>"
+msgstr "<html><head/><body><p>gdb 會在啟動時讀取此文稿。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, configGdbScript_label)
+#: gdbconfigpage.ui:219
+#, kde-format
+msgid "Gdb &config script:"
+msgstr "GDB 設定文稿(&C)："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_runGdbScript)
+#. i18n: ectx: property (toolTip), widget (QLabel, runGdbScript_label)
+#: gdbconfigpage.ui:232 gdbconfigpage.ui:242
+#, kde-format
+msgid ""
+"<html><head/><body><p>Script to connect with remote application</p><p>For "
+"example:</p><p>\tshell sleep 5\t #wait for remote program to start</p><p>"
+"\ttarget remote ...\t#connect to the remote debugger</p><p>\tcontinue"
+"\t#[optional] run debugging to the first breakpoint.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>此文稿是用於需要連接到遠端執行的程式</p><p>例如：</"
+"p><p>\tshell sleep 5\t#等待遠端的程式啟動</p><p>\ttarget remote ...\t#連線到"
+"遠端的除錯器</p><p>\tcontinue\t#【可選擇的】執行除錯器，直到第一個中斷點。</"
+"p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, runGdbScript_label)
+#: gdbconfigpage.ui:245
+#, kde-format
+msgctxt "Gdb script to be executed at run time."
+msgid "Run &gdb script:"
+msgstr "執行 gdb 文稿(&G)："
+
+#: gdboutputwidget.cpp:62
+#, kde-format
+msgid "GDB Output"
+msgstr "GDB 輸出"
+
+#: gdboutputwidget.cpp:63
+#, kde-format
+msgid ""
+"<b>GDB output</b><p>Shows all gdb commands being executed. You can also "
+"issue any other gdb command while debugging.</p>"
+msgstr ""
+"<b>GDB 輸出</b><p>顯示所有執行中的 gdb 指令。您也可以在除錯時產生其它的 gdb "
+"指令。</p>"
+
+#: gdboutputwidget.cpp:72
+#, kde-format
+msgid "&GDB cmd:"
+msgstr "GDB 指令(&G)："
+
+#: gdboutputwidget.cpp:77
+#, kde-format
+msgid "Pause execution of the app to enter gdb commands"
+msgstr "暫停執行應用程式，以輸入 gdb 指令"
+
+#: gdboutputwidget.cpp:390 gdboutputwidget.cpp:440
+#, kde-format
+msgid "Show Internal Commands"
+msgstr "顯示內部指令"
+
+#: gdboutputwidget.cpp:397 gdboutputwidget.cpp:447
+#, kde-format
+msgid ""
+"Controls if commands issued internally by KDevelop will be shown or not."
+"<br>This option will affect only future commands, it will not add or remove "
+"already issued commands from the view."
+msgstr ""
+"控制 KDevelop 內部產生的指令是否要顯示。<br> 這個選項只會影響以後的指令，而不"
+"會新增或移除任何已產生的指令。"
+
+#: gdboutputwidget.cpp:402
+#, kde-format
+msgid "Copy All"
+msgstr "全部複製"
+
+#. i18n: ectx: ToolBar (debugToolBar)
+#: kdevgdbui.rc:19
+#, kde-format
+msgid "Debugger Toolbar"
+msgstr "除錯器工具列"
+
+#: memviewdlg.cpp:73
+#, fuzzy, kde-format
+#| msgid "Start"
+msgid "Start:"
+msgstr "開始"
+
+#: memviewdlg.cpp:76
+#, fuzzy, kde-format
+#| msgid "Amount"
+msgid "Amount:"
+msgstr "數量"
+
+#: memviewdlg.cpp:103
+#, kde-format
+msgid "Memory view"
+msgstr "記憶體檢視"
+
+#: memviewdlg.cpp:230
+#, kde-format
+msgid "%2 (1 byte)"
+msgid_plural "%2 (%1 bytes)"
+msgstr[0] "%2 (%1 位元組)"
+
+#: memviewdlg.cpp:269
+#, kde-format
+msgid "&Reload"
+msgstr "重新載入(&R)"
+
+#: memviewdlg.cpp:278
+#, kde-format
+msgid "&Format"
+msgstr "格式化(&F)"
+
+#: memviewdlg.cpp:281
+#, kde-format
+msgid "&Binary"
+msgstr "二進制(&B)"
+
+#: memviewdlg.cpp:286
+#, kde-format
+msgid "&Octal"
+msgstr "八進制(&O)"
+
+#: memviewdlg.cpp:291
+#, kde-format
+msgid "&Decimal"
+msgstr "十進制(&D)"
+
+#: memviewdlg.cpp:296
+#, kde-format
+msgid "&Hexadecimal"
+msgstr "十六進制(&H)"
+
+#: memviewdlg.cpp:310
+#, kde-format
+msgid "&Grouping"
+msgstr "群組(&G)"
+
+#: memviewdlg.cpp:313
+#, kde-format
+msgid "&0"
+msgstr "&0"
+
+#: memviewdlg.cpp:318
+#, kde-format
+msgid "&1"
+msgstr "&1"
+
+#: memviewdlg.cpp:323
+#, kde-format
+msgid "&2"
+msgstr "&2"
+
+#: memviewdlg.cpp:328
+#, kde-format
+msgid "&4"
+msgstr "&4"
+
+#: memviewdlg.cpp:333
+#, kde-format
+msgid "&8"
+msgstr "&8"
+
+#: memviewdlg.cpp:338
+#, kde-format
+msgid "1&6"
+msgstr "1&6"
+
+#: memviewdlg.cpp:351
+#, kde-format
+msgid "Write changes"
+msgstr "寫入變更"
+
+#: memviewdlg.cpp:355
+#, kde-format
+msgid "Change memory range"
+msgstr "改變記憶體範圍"
+
+#: memviewdlg.cpp:359
+#, kde-format
+msgid "Close this view"
+msgstr "關閉此檢視"
+
+#: memviewdlg.cpp:426
+#, kde-format
+msgid "Memory viewer"
+msgstr "記憶體檢視器"
+
+#: memviewdlg.cpp:430
+#, kde-format
+msgid "New memory viewer"
+msgstr "新增記憶體檢視器"
+
+#: memviewdlg.cpp:431
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a new memory viewer."
+msgstr "開啟新的記憶體檢視器。"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Run"
+#~ msgstr "執行"
+
+#~ msgid "OK"
+#~ msgstr "確定"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Address Selector"
+#~ msgstr "位址選擇器"
+
+#~ msgid "Change &address"
+#~ msgstr "變更位址(&A)"
+
+#~ msgid "&Jump to Cursor"
+#~ msgstr "跳到游標處(&J)"
+
+#~ msgid "Sets the execution pointer to the current cursor position."
+#~ msgstr "設定執行點到目前游標位置。"
+
+#~ msgid "&Run to Cursor"
+#~ msgstr "執行到游標處(&R)"
+
+#~ msgid "Continues execution until the cursor position is reached."
+#~ msgstr "繼續執行到游標位置所在。"
+
+#, fuzzy
+#~| msgid "Disassemble"
+#~ msgid "Disassembly flavor"
+#~ msgstr "反組譯"
+
+#~ msgid ""
+#~ "<b>Machine code display</b><p>A machine code view into your running "
+#~ "executable with the current instruction highlighted. You can step "
+#~ "instruction by instruction using the debuggers toolbar buttons of \"step "
+#~ "over\" instruction and \"step into\" instruction."
+#~ msgstr ""
+#~ "<b>機器碼顯示</b><p>檢視您執行檔的機器碼，並將目前執行的組譯指令突顯出來。"
+#~ "您可以用除錯器工具列上的「單步執行指令」或「單步跳入」來一個指令一個指令執"
+#~ "行。"
+
+#~ msgid "Address"
+#~ msgstr "地址"
+
+#~ msgid "Function"
+#~ msgstr "函式"
+
+#~ msgid "Instruction"
+#~ msgstr "指令"
+
+#~ msgid "Disassemble/Registers View"
+#~ msgstr "反組譯/暫存器檢視"
+
+#~ msgid "Binary"
+#~ msgstr "二進位"
+
+#~ msgid "Octal"
+#~ msgstr "八進位"
+
+#~ msgid "Decimal"
+#~ msgstr "十進位"
+
+#~ msgid "Hexadecimal"
+#~ msgstr "十六進位"
+
+#~ msgid "Raw"
+#~ msgstr "原始"
+
+#~ msgid "Unsigned"
+#~ msgstr "無號"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Flags"
+#~ msgstr "旗標"
+
+#~ msgid "VFP single-word"
+#~ msgstr "VFP single-word"
+
+#~ msgid "VFP double-word"
+#~ msgstr "VFP double-word"
+
+#~ msgid "VFP quad-word"
+#~ msgstr "VFP quad-word"
+
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "XMM"
+#~ msgstr "XMM"
+
+#~ msgid "Segment"
+#~ msgstr "區段"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "Mode"
+#~ msgstr "模式"
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid "Address selector"
+#~ msgstr "位址選擇器"
+
+#~ msgid "Select the address to disassemble around"
+#~ msgstr "選擇位址來反組譯"
+
+#~ msgid "Select address to disassemble around"
+#~ msgstr "選擇位址來反組譯"
+
+#~ msgid "Examine Core File..."
+#~ msgstr "檢視 Core 檔..."
+
+#~ msgid "Examine core file"
+#~ msgstr "檢視 Core 檔"
+
+#~ msgid ""
+#~ "<b>Examine core file</b><p>This loads a core file, which is typically "
+#~ "created after the application has crashed, e.g. with a segmentation "
+#~ "fault. The core file contains an image of the program memory at the time "
+#~ "it crashed, allowing you to do a post-mortem analysis.</p>"
+#~ msgstr ""
+#~ "<b>檢視 core 檔</b><p>它會載入 core 檔。通常 core 檔是在應用程式當掉時產"
+#~ "生，裡面包含了程式當掉時記憶體的狀態，讓您可以做分析。</p>"
+
+#~ msgid "Attach to Process"
+#~ msgstr "附加以處理"
+
+#~ msgid "Attach to process..."
+#~ msgstr "附加到行程..."
+
+#~ msgid ""
+#~ "<b>Attach to process</b><p>Attaches the debugger to a running process.</p>"
+#~ msgstr "<b>附加到行程</b><p>附加除錯器到執行中的行程。</p>"
+
+#~ msgid "KDevelop"
+#~ msgstr "KDevelop"
+
+#~ msgid "Evaluate: %1"
+#~ msgstr "計算：%1"
+
+#~ msgid ""
+#~ "<b>Evaluate expression</b><p>Shows the value of the expression under the "
+#~ "cursor.</p>"
+#~ msgstr "<b>計算表示式</b><p>顯示游標底下的表示式的值。</p>"
+
+#~ msgid "Watch: %1"
+#~ msgstr "監看：%1"
+
+#~ msgid ""
+#~ "<b>Watch expression</b><p>Adds an expression under the cursor to the "
+#~ "Variables/Watch list.</p>"
+#~ msgstr "<b>監看表示式</b><p>將游標下的表示式新增到變數監看清單中。</p>"
+
+#~ msgid "Choose a core file to examine..."
+#~ msgstr "請選擇要檢視的 core 檔案..."
+
+#~ msgid "Examining core file %1"
+#~ msgstr "檢視 core 檔 %1 中"
+
+#~ msgid "Debug core file"
+#~ msgstr "除錯 Core 檔"
+
+#~ msgid "Choose a process to attach to..."
+#~ msgstr "選擇要附加的行程..."
+
+#~ msgid "Not attaching to process %1: cannot attach the debugger to itself."
+#~ msgstr "未附加到行程 %1：不能將除錯器本身附加到自己身上。"
+
+#~ msgid "Attaching to process %1"
+#~ msgstr "附加到行程 %1 中"
+
+#~ msgid "Debug process %1"
+#~ msgstr "除錯行程 %1"
+
+#, fuzzy
+#~| msgid "%1 (uid: %2)"
+#~ msgctxt "ProjectName: run configuration name"
+#~ msgid "%1: %2"
+#~ msgstr "%1（使用者代碼：%2）"
+
+#~ msgid "Attach to a process"
+#~ msgstr "附加到行程"
+
+#~ msgid "Select Core File"
+#~ msgstr "選擇 Core 檔"
+
+#~ msgid "Executable:"
+#~ msgstr "執行檔："
+
+#~ msgid "Core File:"
+#~ msgstr "Core 檔："
+
+#~ msgid "<br>Old value: %1"
+#~ msgstr "<br>舊值：%1"
+
+#~ msgid "<br>New value: %1"
+#~ msgstr "<br>新值：%1"
+
+#~ msgid "Debugger stopped"
+#~ msgstr "除錯器已停止"
+
+#~ msgid "Process exited"
+#~ msgstr "行程已離開"
+
+#~ msgid "Application is running"
+#~ msgstr "應用程式執行中"
+
+#~ msgid "Application is paused"
+#~ msgstr "應用程式已暫停"
+
+#~ msgid "Debugger error"
+#~ msgstr "除錯器錯誤"
+
+#~ msgid ""
+#~ "<b>GDB exited abnormally</b><p>This is likely a bug in GDB. Examine the "
+#~ "gdb output window and then stop the debugger"
+#~ msgstr ""
+#~ "<b>GDB 不正常離開</b><p>可能是 GDB 的問題。請檢視 GDB 的輸入視窗，並題止除"
+#~ "錯器。"
+
+#~ msgid "GDB exited abnormally"
+#~ msgstr "GDB 不正常離開"
+
+#~ msgid ""
+#~ "<b>Gdb command sent when debugger is not running</b><br>The command was:"
+#~ "<br> %1"
+#~ msgstr "<b>在除錯器未執行時送出了 GDB 指令</b><br>指令為<br> %1"
+
+#~ msgid "Internal error"
+#~ msgstr "內部錯誤"
+
+#~ msgid "<b>Invalid debugger command</b><br>%1"
+#~ msgstr "<b>不合法的除錯器指令</b><br>%1"
+
+#~ msgid "Invalid debugger command"
+#~ msgstr "不合法的除錯器指令"
+
+#~ msgid "Exited with return code: %1"
+#~ msgstr "不正常結束，離開狀態為：%1"
+
+#~ msgid "Exited normally"
+#~ msgstr "正常離開"
+
+#~ msgid "Exited on signal %1"
+#~ msgstr "因遇到信號 %1 而離開"
+
+#~ msgid "Program received signal %1 (%2)"
+#~ msgstr "程式接收到信號 %1（%2）"
+
+#~ msgid "Running program"
+#~ msgstr "執行程式中"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid ""
+#~ "<b>Debugger error</b><p>Debugger reported the following error:<p><tt>%1"
+#~ msgstr "<b>除錯器錯誤</b><p>除錯器回報了以下的錯誤：<p><tt>%1"
+
+#~ msgid "1 command in queue\n"
+#~ msgid_plural "%1 commands in queue\n"
+#~ msgstr[0] "佇列中有 %1 個指令\n"
+
+#~ msgctxt "Only the 0 and 1 cases need to be translated"
+#~ msgid "1 command being processed by gdb\n"
+#~ msgid_plural "%1 commands being processed by gdb\n"
+#~ msgstr[0] "gdb 已處理 %1 個指令\n"
+
+#~ msgid "Debugger state: %1\n"
+#~ msgstr "除錯器狀態：%1\n"
+
+#~ msgid ""
+#~ "Current command class: '%1'\n"
+#~ "Current command text: '%2'\n"
+#~ "Current command original text: '%3'\n"
+#~ msgstr ""
+#~ "目前的指令類別：%1\n"
+#~ "目前的指令文字：%2\n"
+#~ "目前的指令原始文字：%3\n"
+
+#~ msgid "Debugger status"
+#~ msgstr "除錯器狀態"
+
+#~ msgid "<b>Could not attach debugger:</b><br />"
+#~ msgstr "<b>無法附加除錯器：</b><br />"
+
+#~ msgctxt "<b>Internal debugger error</b>"
+#~ msgid ""
+#~ "<p>The debugger component encountered internal error while processing "
+#~ "reply from gdb. Please submit a bug report."
+#~ msgstr "<p>除錯器組件處理 gdb 的回覆時遇到內部錯誤。請回報此問題。"
+
+#~ msgid ""
+#~ "The exception is: %1\n"
+#~ "The MI response is: %2"
+#~ msgstr ""
+#~ "例外：%1\n"
+#~ "MI 回覆：%2"
+
+#~ msgid "Internal debugger error"
+#~ msgstr "內部除錯器錯誤"
+
+#~ msgid ""
+#~ "<b>Could not start debugger.</b><p>Could not run '%1'. Make sure that the "
+#~ "path name is specified correctly."
+#~ msgstr "<b>無法啟動除錯器：</b><p>無法執行 %1。請確定指定的路徑是否正確。"
+
+#~ msgid "Could not start debugger"
+#~ msgstr "無法啟動除錯器"
+
+#~ msgid ""
+#~ "<b>Gdb crashed.</b><p>Because of that the debug session has to be ended."
+#~ "<br>Try to reproduce the crash with plain gdb and report a bug.<br>"
+#~ msgstr ""
+#~ "<b>Gdb 已崩潰。</b> <p>因此，此除錯階段已被中止。<br> 請試著用命令列執行 "
+#~ "gdb 再試著重現此問題，並回報錯誤。<br>"
+
+#~ msgid "Gdb crashed"
+#~ msgstr "Gdb 已崩潰"
+
+#, fuzzy
+#~| msgctxt "process status"
+#~| msgid "running"
+#~ msgid "(running)"
+#~ msgstr "執行中"
+
+#~ msgid ""
+#~ "Cannot use the tty* or pty* devices.\n"
+#~ "Check the settings on /dev/tty* and /dev/pty*\n"
+#~ "As root you may need to \"chmod ug+rw\" tty* and pty* devices and/or add "
+#~ "the user to the tty group using \"usermod -aG tty username\"."
+#~ msgstr ""
+#~ "無法使用 tty* 或 pty* 裝置。\n"
+#~ "請檢查 /dev/tty* 與 /dev/pty* 的設定。\n"
+#~ "您可能需要用 root 身份來對 tty* 與 pty* 裝置執行 chmod ug+rw 指令，或是用 "
+#~ "usermod -aG tty user 將使用者加入 tty 的群組。"
+
+#~ msgid "%1 is incorrect terminal name"
+#~ msgstr "%1 為不正確的終端機名稱"
+
+#~ msgid "Can't create a temporary file"
+#~ msgstr "無法建立暫存檔"
+
+#~ msgid ""
+#~ "Can't receive %1 tty/pty. Check that %1 is actually a terminal and that "
+#~ "it accepts these arguments: -e sh -c \"tty> %2 ;exec<&-;exec>&-;while :;"
+#~ "do sleep 3600;done\""
+#~ msgstr ""
+#~ "無法接收 %1 tty/pty。請檢查 %1 確實是個終端機，並且接受這些參數：-e sh -c "
+#~ "\"tty> %2 ;exec<&-;exec>&-;while :;do sleep 3600;done\""
+
+#~ msgid "Application interrupted"
+#~ msgstr "應用程式已中斷"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "GDB Support"
+#~ msgstr "GDB 支援"
+
+#~ msgid ""
+#~ "This plugin provides a frontend for GDB, a source-level debugger for C, C+"
+#~ "+ and more."
+#~ msgstr "這個外掛程式提供 GDB 的前端介面。"
+
+#~ msgid "Run gdb in a special shell (mainly for automake projects)"
+#~ msgstr "在特殊的 shell 中執行 gdb（主要是給 automake 專案使用）"
+
+#~ msgid ""
+#~ "If you want gdb to be executed by a special shell or tool insert it here. "
+#~ "The main use-case is for Automake based projects where the application is "
+#~ "actually only a script and <b>libtool</b> is needed to get it to run "
+#~ "inside gdb."
+#~ msgstr ""
+#~ "如果您要讓 gdb 在特殊的 shell 或工具中執行，則在此指定。主要是給 Automake "
+#~ "專案來使用，其應用程式通常只是文稿，需要 libtool 來在 gdb 中執行。"
+
+#~ msgid ""
+#~ "If you want gdb to be executed by a special shell or tool insert it here. "
+#~ "The main use-case is for Automake based projects where the application is "
+#~ "actually only a script and libtool is needed to get it to run inside gdb."
+#~ msgstr ""
+#~ "如果您要讓 gdb 在特殊的 shell 或工具中執行，則在此指定。主要是給 Automake "
+#~ "專案來使用，其應用程式通常只是文稿，需要 libtool 來在 gdb 中執行。"
+
+#~ msgid "Debugging &shell:"
+#~ msgstr "除錯 shell(&S)："
+
+#~ msgid "Script to start remote application"
+#~ msgstr "啟動遠端應用程式使用的文稿"
+
+#~ msgid "&Config gdb script:"
+#~ msgstr "設定 gdb 文稿(&C)："
+
+#~ msgid "Script to connect with remote application"
+#~ msgstr "要與遠端應用程式連線的文稿"
+
+#~ msgid ""
+#~ "This script is sourced by gdb after the two preceding scripts have been "
+#~ "executed.\n"
+#~ "This script is intended for the actual commands needed to connect to a "
+#~ "remotely running executable.\n"
+#~ "\tshell sleep 5\twait for remote program to start\n"
+#~ "\ttarget remote ...\tconnect to the remote debugger\n"
+#~ "\tcontinue\t[optional] run debugging to the first breakpoint."
+#~ msgstr ""
+#~ "此文稿在 gdb 執行先前兩個文稿之後執行。\n"
+#~ "它是實際要連線到遠端執行檔使用的指令。\n"
+#~ "\tshell sleep 5\t等待遠端程式啟動\n"
+#~ "\ttarget remote ...\t連到遠端的除錯器\n"
+#~ "\tcontinue\t【選擇性的】開始除錯到第一個中斷點。"
+
+#~ msgid "kdevelop: Debug application console"
+#~ msgstr "kdevelop：除錯器應用程式主控台"
+
+#~ msgid "Support for running apps in GDB"
+#~ msgstr "支援在 GDB 中執行程式"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Start address:"
+#~ msgstr "啟始位址："
+
+#~ msgid "End Address:"
+#~ msgstr "結束位址："
+
+#~ msgctxt "@action:button"
+#~ msgid "Display"
+#~ msgstr "顯示"
+
+#~ msgid "Offset"
+#~ msgstr "位移"
+
+#~ msgid "Special debugger views"
+#~ msgstr "特殊除錯器檢視"
+
+#~ msgid "Watches"
+#~ msgstr "監看"
+
+#~ msgid "Recent"
+#~ msgstr "最近的"
+
+#~ msgid ""
+#~ "This allows you to enter terminal input when your\n"
+#~ "application contains terminal input code (e.g. cin, fgets, etc.).\n"
+#~ "If you use terminal input in your application then check this option.\n"
+#~ "Otherwise leave it unchecked."
+#~ msgstr ""
+#~ "這個功能讓您可以在您的應用程式包含終端輸入（如 cin，\n"
+#~ "fgets 等等）時做輸入的動作。如果您需要在您的應用程式\n"
+#~ "中做終端輸入的話，請勾選此選項。"
+
+#~ msgid "Enable separate terminal for application &IO"
+#~ msgstr "開啟終端給應用程式輸出入(&I)"
+
+#~ msgid ""
+#~ "If GDB has not seen a library that will be loaded via\n"
+#~ "\"dlopen\" then it will refuse to set a breakpoint in that code.\n"
+#~ "With this option, GDB will stop on a library load and hence\n"
+#~ "try to set the pending breakpoints. See the documentation\n"
+#~ "for more details relating to this behavior.\n"
+#~ "\n"
+#~ "If you are not \"dlopen\"ing libs then leave this unchecked."
+#~ msgstr ""
+#~ "若是 GDB 沒看到函式庫，它會用 dlopen 載入，此時它會拒絕在該處設立中斷"
+#~ "點。\n"
+#~ "我們可以用讓 GDB 在載入函式庫時停止，並試著設定中斷典。關於此行為詳情請參"
+#~ "考文件的說明。\n"
+#~ "\n"
+#~ "如果您沒有用 dlopen 來載入資料庫，則請不要勾選此選項。"
+
+#~ msgid "Try setting &breakpoints on library loading"
+#~ msgstr "試著在載入函式庫時設定中斷點(&B)"
+
+#~ msgid ""
+#~ "Use the floating toolbar. This toolbar always stays\n"
+#~ "on top of all windows so that if the app covers KDevelop\n"
+#~ "you have control of the app through the small toolbar. It\n"
+#~ "can also be docked into the panel.\n"
+#~ "\n"
+#~ "This toolbar is in addition to the toolbar in KDevelop."
+#~ msgstr ""
+#~ "使用浮動工具列。此工具列會停在所有視窗的最上方，若是有\n"
+#~ "其它應用程式蓋到了 KDevelop 您可以用此小工具列來控制。\n"
+#~ "它也可以嵌入面板之中。\n"
+#~ "\n"
+#~ "此工具列是附加在 KDevelop 工具列中。"
+
+#~ msgid "E&nable floating toolbar"
+#~ msgstr "開啟浮動工具列(&N)"
+
+#~ msgid "Debug views"
+#~ msgstr "除錯檢視"
+
+#~ msgid "Viewers"
+#~ msgstr "檢視器"
+
+#~ msgid "Debugger viewers"
+#~ msgstr "除錯檢視器"
+
+#~ msgid ""
+#~ "<b>Debugger viewers</b><p>Various information about application being "
+#~ "executed. There are 4 views available:<br><b>Memory</"
+#~ "b><br><b>Disassemble</b><br><b>Registers</b><br><b>Libraries</b>"
+#~ msgstr ""
+#~ "<b>除錯檢視器</b><p>關於執行的應用程式的多樣資訊。有四種檢視：<br><b>記憶"
+#~ "體</b><br><b>反組譯</b><br><b>暫存器</b><br><b>函式庫</b>"
+
+#~ msgid ""
+#~ "<b>Application does not exist</b><p>The application you are trying to "
+#~ "debug,<br>    %1\n"
+#~ "<br>does not exist. Check that you have specified the right application "
+#~ "in the debugger configuration."
+#~ msgstr ""
+#~ "<b>應用程式不存在</b><p>您試著除錯的應用程式<br>     %1<br> 不存在。請檢查"
+#~ "是否在除錯器設定中指定了正確的應用程式。"
+
+#~ msgid "Application does not exist"
+#~ msgstr "應用程式不存在"
+
+#~ msgid ""
+#~ "<b>Could not run application '%1'.</b><p>The application does not have "
+#~ "the executable bit set. Try rebuilding the project, or change permissions "
+#~ "manually."
+#~ msgstr ""
+#~ "<b>無法執行應用程式 %1。</b><p>此應用程式沒有開啟執行權限。請重新編譯專"
+#~ "案，或是手動變更權限。"
+
+#~ msgid "Could not run application"
+#~ msgstr "無法執行應用程式"
+
+#~ msgid "Received signal"
+#~ msgstr "接收到信號"
+
+#~ msgid ""
+#~ "gdb message:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "gdb 訊息：\n"
+#~ "%1"
+
+#~ msgid "<%1 items>"
+#~ msgstr "<%1 個項目>"
+
+#~ msgid "<a href=add_watch>Watch this</a>"
+#~ msgstr "<a href=add_watch>監控此項</a>"
+
+#~ msgid "<a href=watchpoint>Stop on change</a>"
+#~ msgstr "<a href=watchpoint>變更時停止</a>"
+
+#~ msgid "Debugger Variables"
+#~ msgstr "除錯器變數"
+
+#~ msgid ""
+#~ "<b>Variable tree</b><p>The variable tree allows you to see the values of "
+#~ "local variables and arbitrary expressions.</p><p>Local variables are "
+#~ "displayed automatically and are updated as you step through your program. "
+#~ "For each expression you enter, you can either evaluate it once, or \"watch"
+#~ "\" it (make it auto-updated). Expressions that are not auto-updated can "
+#~ "be updated manually from the context menu. Expressions can be renamed to "
+#~ "more descriptive names by clicking on the name column.</p><p>To change "
+#~ "the value of a variable or an expression, click on the value.</p>"
+#~ msgstr ""
+#~ "<b>變數樹</b><p>變數樹讓您可以看到本地變數與任意表示式的值。</p> <p>本地變"
+#~ "數會自動顯示，並且在執行時更新其值。對您輸入的表示式，您也可以去計算它一"
+#~ "次，或是監看它（讓它自動更新計算結果）。沒有自動更新的表示式也可以在選單中"
+#~ "手動更新。另外表示式也可以重新命名為較好辨識的名稱。</p> <p>要改變變數或是"
+#~ "表示式的值，直接在值上面點擊即可。</p>"
+
+#~ msgid "<b>Expression entry</b><p>Type in expression to watch.</p>"
+#~ msgstr "<b>表示式項目<b><p>輸入要計算的表示式。</p>"
+
+#~ msgid "Recent Expressions"
+#~ msgstr "最近的表示式"
+
+#~ msgid "Remove All"
+#~ msgstr "全部移除"
+
+#~ msgid "Re-evaluate All"
+#~ msgstr "全部重新計算"
+
+#~ msgid "Natural"
+#~ msgstr "自然"
+
+#~ msgid "Character"
+#~ msgstr "字元"
+
+#~ msgid "Remember Value"
+#~ msgstr "記住數值"
+
+#~ msgid "Remove Watch Variable"
+#~ msgstr "移除監看的變數"
+
+#~ msgid "Watch Variable"
+#~ msgstr "監看變數"
+
+#~ msgid "Reevaluate Expression"
+#~ msgstr "重新計算表示式"
+
+#~ msgid "Remove Expression"
+#~ msgstr "移除表示式"
+
+#~ msgid "Data write breakpoint"
+#~ msgstr "資料寫入中斷點"
+
+#~ msgid "Copy Value"
+#~ msgstr "複製數值"
+
+#~ msgid "Variables"
+#~ msgstr "變數"
+
+#~ msgid "Variable"
+#~ msgstr "變數"
+
+#~ msgid "Value"
+#~ msgstr "值"
+
+#~ msgid "Type"
+#~ msgstr "型態"
+
+#~ msgid "Installing via sudo is not yet implemented"
+#~ msgstr "透過 sudo 安裝的功能尚未實作"
+
+#~ msgid "Not implemented"
+#~ msgstr "尚未實作"
+
+#~ msgid "No executable specified"
+#~ msgstr "未指定執行檔"
+
+#~ msgid ""
+#~ "There is a quoting error in the executable for the launch configuration "
+#~ "'%1'. Aborting start."
+#~ msgstr "在啟動設定 %1 的執行檔中有一個引號錯誤。啟動中止。"
+
+#~ msgid ""
+#~ "A shell meta character was included in the executable for the launch "
+#~ "configuration '%1', this is not supported currently. Aborting start."
+#~ msgstr ""
+#~ "在啟動設定 %1 的執行檔中有一個 shell 中繼字元。目前尚未支援這種用法。啟動"
+#~ "中止。"
+
+#~ msgid ""
+#~ "There is a quoting error in the arguments for the launch configuration "
+#~ "'%1'. Aborting start."
+#~ msgstr "在啟動設定 %1 的參數中有一個引號錯誤。啟動中止。"
+
+#~ msgid ""
+#~ "A shell meta character was included in the arguments for the launch "
+#~ "configuration '%1', this is not supported currently. Aborting start."
+#~ msgstr ""
+#~ "在啟動設定 %1 的參數中有一個 shell 中繼字元。目前尚未支援這種用法。啟動中"
+#~ "止。"
+
+#~ msgid "Framestack"
+#~ msgstr "框架堆疊"
+
+#~ msgid "Pid"
+#~ msgstr "行程代碼"
+
+#~ msgid "TTY"
+#~ msgstr "TTY"
+
+#~ msgid "Stat"
+#~ msgstr "狀態"
+
+#~ msgid "Time"
+#~ msgstr "所需時間"
+
+#~ msgid "Command"
+#~ msgstr "指令"
+
+#~ msgid ""
+#~ "Debug arguments can be set on the Run Options page\n"
+#~ " or directly in the project manager"
+#~ msgstr "您可以在「執行選項」頁面中，或是直接在專案管理員中設定除錯參數。"
+
+#~ msgid ""
+#~ "<b>Invalid gdb reply</b><p>The 'stopped' packet does not include the "
+#~ "'reason' field."
+#~ msgstr ""
+#~ "<b>不合法的 gdb 回覆</b><p>「停止」（stopped）的封包並未包含「理由」"
+#~ "（reason）欄位"
+
+#~ msgid "The gdb reply is: invalid"
+#~ msgstr "gdb 回覆為：不合法"
+
+#~ msgid "Invalid gdb reply"
+#~ msgstr "不合法的 gdb 回覆"
+
+#~ msgid ""
+#~ "You were about to attach me! This will not proceed because KDevelop would "
+#~ "die otherwise."
+#~ msgstr "您打算要將我附加上去！您不能這樣做，不然 KDevelop 會死掉。救命啊！"
+
+#~| msgid "Format"
+#~ msgctxt "Process Niceness"
+#~ msgid "Normal"
+#~ msgstr "正常"
+
+#~ msgctxt "Process Niceness"
+#~ msgid "Very low priority"
+#~ msgstr "非常低優先權"
+
+#~ msgctxt "Process Niceness"
+#~ msgid "Low priority"
+#~ msgstr "低優先權"
+
+#~ msgctxt "Process Niceness"
+#~ msgid "Very high priority"
+#~ msgstr "非常高優先"
+
+#~ msgctxt "Process Niceness"
+#~ msgid "High priority"
+#~ msgstr "高優先權"
+
+#~ msgctxt "Priority Class"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~| msgid "Time"
+#~ msgctxt "Priority Class"
+#~ msgid "Real Time"
+#~ msgstr "即時"
+
+#~ msgctxt "Priority Class"
+#~ msgid "Best Effort"
+#~ msgstr "最佳效果"
+
+#~ msgctxt "Priority Class"
+#~ msgid "Idle"
+#~ msgstr "閒置"
+
+#~ msgctxt "Priority Class"
+#~ msgid "Unknown"
+#~ msgstr "未知的"
+
+#~ msgctxt "process status"
+#~ msgid "sleeping"
+#~ msgstr "睡覺中"
+
+#~ msgctxt "process status"
+#~ msgid "disk sleep"
+#~ msgstr "磁碟睡眠"
+
+#~ msgctxt "process status"
+#~ msgid "zombie"
+#~ msgstr "僵屍行程"
+
+#~| msgid "Debugger stopped"
+#~ msgctxt "process status"
+#~ msgid "stopped"
+#~ msgstr "已停止"
+
+#~| msgid "Warning"
+#~ msgctxt "process status"
+#~ msgid "paging"
+#~ msgstr "警告"
+
+#~ msgctxt "process status"
+#~ msgid "unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "Scheduler"
+#~ msgid "FIFO"
+#~ msgstr "FIFO"
+
+#~ msgctxt "Scheduler"
+#~ msgid "Round Robin"
+#~ msgstr "Round Robin"
+
+#~| msgid "Watches"
+#~ msgctxt "Scheduler"
+#~ msgid "Batch"
+#~ msgstr "批次"
+
+#~ msgid ""
+#~ "<br/><i><font color=\"gray\">Failed to attach to process %1</font></i><br/"
+#~ ">"
+#~ msgstr "<br/><i><font color=\"gray\">附加到行程 %1 失敗</font></i><br/>"
+
+#~ msgid "Monitoring I/O for %1 (%2)"
+#~ msgstr "監視 %1 的輸出入（%2）"
+
+#~ msgid ""
+#~ "The program '%1' (PID: %2) is being monitored for input and output "
+#~ "through any file descriptor (stdin, stdout, stderr, open files, network "
+#~ "connections, etc.).  Data being written by the process is shown in red "
+#~ "and data being read by the process is shown in blue."
+#~ msgstr ""
+#~ "程式 %1（行程代碼 %2）的輸出入已經由某些管道（如標準輸出入、開啟檔案、網路"
+#~ "連線等）被監控。此行程寫的資料以紅色顯示，讀取的資料以藍色顯示。"
+
+#~ msgid "&Attach"
+#~ msgstr "附加(&A)"
+
+#~ msgid "&Pause"
+#~ msgstr "暫停(&P)"
+
+#~ msgid "&Resume"
+#~ msgstr "回復(&R)"
+
+#~ msgid "&Detach"
+#~ msgstr "分離(&D)"
+
+#~ msgid "Renice Process..."
+#~ msgid_plural "Renice Processes..."
+#~ msgstr[0] "重新調整行程優先權..."
+
+#~ msgid "Jump to Parent Process"
+#~ msgstr "跳到父行程"
+
+#~ msgid "Jump to Process Debugging This One"
+#~ msgstr "跳到對此行程除錯的行程"
+
+#~| msgid "Application interrupted"
+#~ msgid "Show Application Window"
+#~ msgstr "顯示應用程式視窗"
+
+#~ msgid "Monitor Input && Output"
+#~ msgstr "監視輸入與輸出"
+
+#~ msgid "Resume Stopped Process"
+#~ msgstr "回復停止的行程"
+
+#~ msgid "Kill Process"
+#~ msgid_plural "Kill Processes"
+#~ msgstr[0] "結束行程"
+
+#~ msgid "Suspend (STOP)"
+#~ msgstr "暫停（STOP）"
+
+#~| msgid "&Continue"
+#~ msgid "Continue (CONT)"
+#~ msgstr "繼續（CONT）"
+
+#~ msgid "Hangup (HUP)"
+#~ msgstr "掛斷（HUP）"
+
+#~| msgid "Interrupt"
+#~ msgid "Interrupt (INT)"
+#~ msgstr "中斷（INT）"
+
+#~ msgid "Terminate (TERM)"
+#~ msgstr "終結（TERM）"
+
+#~ msgid "Kill (KILL)"
+#~ msgstr "Kill（KILL）"
+
+#~ msgid "User 1 (USR1)"
+#~ msgstr "使用者定義1（USR1）"
+
+#~ msgid "User 2 (USR2)"
+#~ msgstr "使用者定義2（USR2）"
+
+#~| msgid "Received signal"
+#~ msgid "Send Signal"
+#~ msgstr "送出信號"
+
+#~ msgid "Jump to Parent Process (%1)"
+#~ msgstr "跳到父行程（%1）"
+
+#~ msgid "Hide Column '%1'"
+#~ msgstr "隱藏欄位 %1"
+
+#~ msgid "Show Column '%1'"
+#~ msgstr "顯示欄位 %1"
+
+#~ msgid "Kilobytes"
+#~ msgstr "KBytes"
+
+#~ msgid "Megabytes"
+#~ msgstr "MBytes"
+
+#~ msgid "Gigabytes"
+#~ msgstr "GBytes"
+
+#~| msgid "Recent"
+#~ msgid "Percentage"
+#~ msgstr "百分比"
+
+#~| msgid "Display &demangled names"
+#~ msgid "Display command line options"
+#~ msgstr "顯示命令列選項"
+
+#~ msgid "Divide CPU usage by number of CPUs"
+#~ msgstr "將 CPU 用量除以 CPU 個數"
+
+#~ msgid "Show Tooltips"
+#~ msgstr "顯示工具提示"
+
+#~ msgid "You must select a process first."
+#~ msgstr "您需要先選取一個行程。"
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to change the CPU scheduler. "
+#~ "Aborting."
+#~ msgstr "您沒有足夠的權限變更 CPU 排程器。動作中止。"
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to change the CPU priority. Aborting"
+#~ msgstr "您沒有足夠的權限變更 CPU 優先權。動作中止。"
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to change the IO scheduler and "
+#~ "priority. Aborting"
+#~ msgstr "您沒有足夠的權限變更 I/O 排程器與優先權。動作中止。"
+
+#~ msgid "No."
+#~ msgstr "編號"
+
+#~ msgid "Could not find kdesu executable"
+#~ msgstr "找不到 kdesu 執行檔"
+
+#~ msgid ""
+#~ "Could not find setscheduler executable.  This should have been installed "
+#~ "alongside system monitor."
+#~ msgstr "找不到 setscheduler 執行檔。它應該與系統監視器一起安裝。"
+
+#~ msgid "Are you sure you want to kill this process?"
+#~ msgid_plural "Are you sure you want to kill these %1 processes?"
+#~ msgstr[0] "您確定要砍掉這 %1 個行程嗎？"
+
+#~ msgid "Kill process"
+#~ msgid_plural "Kill %1 processes"
+#~ msgstr[0] "砍掉 %1 個行程"
+
+#~ msgid "Kill"
+#~ msgstr "終止"
+
+#~ msgid ""
+#~ "You do not have the permission to renice the process and there was a "
+#~ "problem trying to run as root"
+#~ msgstr "您沒有重新調整此行程優先權的權限，並且試著用 root 執行時發生問題"
+
+#~ msgid ""
+#~ "You do not have the permission to kill the process and there was a "
+#~ "problem trying to run as root"
+#~ msgstr "您沒有結束此行程的權限，並且試著用 root 執行時發生問題"
+
+#~ msgid ""
+#~ "You do not have the permission to set the I/O priority and there was a "
+#~ "problem trying to run as root"
+#~ msgstr "您沒有設定 I/O 優先權的權限，並且試著用 root 執行時發生問題"
+
+#~ msgid "- Process is doing some work"
+#~ msgstr "- 行程正在執行工作"
+
+#~ msgid "- Process is waiting for something to happen"
+#~ msgstr "- 行程正在等待某事件發生"
+
+#~ msgid ""
+#~ "- Process has been stopped. It will not respond to user input at the "
+#~ "moment"
+#~ msgstr "- 行程已被停止。目前不會接受使用者輸入"
+
+#~ msgid ""
+#~ "- Process has finished and is now dead, but the parent process has not "
+#~ "cleaned up"
+#~ msgstr "- 行程已完成並已結束，但父行程尚未將它收回"
+
+#~ msgid "The user that owns this process"
+#~ msgstr "擁有此行程的使用者"
+
+#~ msgid "The controlling terminal that this process is running on."
+#~ msgstr "此行程執行中的控制終端機。"
+
+#~ msgid ""
+#~ "The priority that this process is being run with. Ranges from 19 (very "
+#~ "nice, least priority) to -19 (top priority)"
+#~ msgstr "此行程執行的優先權。從 19 （最低）到 -19 （最高）"
+
+#~ msgid "The current CPU usage of the process."
+#~ msgstr "目前行程的 CPU 使用量"
+
+#~ msgid ""
+#~ "The current total CPU usage of the process, divided by the %1 processor "
+#~ "core in the machine."
+#~ msgid_plural ""
+#~ "The current total CPU usage of the process, divided by the %1 processor "
+#~ "cores in the machine."
+#~ msgstr[0] "此行程對目前 CPU 的用量，除以機器中的 %1 個處理器核心。"
+
+#~ msgid "The current total CPU usage of the process."
+#~ msgstr "目前行程的 CPU 總使用量"
+
+#~ msgid ""
+#~ "<qt>This is the amount of virtual memory space that the process is using, "
+#~ "included shared libraries, graphics memory, files on disk, and so on. "
+#~ "This number is almost meaningless.</qt>"
+#~ msgstr ""
+#~ "<qt>這是行程目前使用的虛擬記憶體的用量，包括分享函式庫，圖形記憶體，磁碟上"
+#~ "的檔案等等。這個數字基本上沒什麼意義。</qt>"
+
+#~ msgid ""
+#~ "<qt>This is the amount of real physical memory that this process is using "
+#~ "by itself.<br>It does not include any swapped out memory, nor the code "
+#~ "size of its shared libraries.<br>This is often the most useful figure to "
+#~ "judge the memory use of a program.</qt>"
+#~ msgstr ""
+#~ "<qt>這是行程自己使用的實體記憶體的用量。<br> 不包括交換出去的記憶體，或是"
+#~ "分享函式庫程式碼佔用的大小。<br> 通常可以用於判斷程式自己使用的記憶體。</"
+#~ "qt>"
+
+#~ msgid ""
+#~ "<qt>This is the amount of real physical memory that this process's shared "
+#~ "libraries are using.<br>This memory is shared among all processes that "
+#~ "use this library</qt>"
+#~ msgstr ""
+#~ "<qt>這是行程連結的分享函式庫使用的實體記憶體的用量。<br> 這個記憶體是所有"
+#~ "使用此函式庫的行程一起分享</qt>"
+
+#~ msgid "<qt>The command with which this process was launched</qt>"
+#~ msgstr "<qt>啟動此行程的指令</qt>"
+
+#~ msgid "<qt>The title of any windows that this process is showing</qt>"
+#~ msgstr "<qt>此行程顯示的任何視窗的標題</qt>"
+
+#~ msgid "The unique Process ID that identifies this process"
+#~ msgstr "辨認此行程用的唯一代碼"
+
+#~ msgid "Login Name: %1<br/>"
+#~ msgstr "登入名稱：%1<br />"
+
+#~ msgid "This user is not recognized for some reason."
+#~ msgstr "因某些原因無法辨識此使用者"
+
+#~ msgid "<b>%1</b><br/>"
+#~ msgstr "<b>%1</b><br/>"
+
+#~ msgid "Login Name: %1 (uid: %2)<br/>"
+#~ msgstr "登入名稱：%1（使用者代碼：%2）<br/>"
+
+#~ msgid "  Room Number: %1<br/>"
+#~ msgstr "  房間號碼：%1<br />"
+
+#~ msgid "  Work Phone: %1<br/>"
+#~ msgstr "  工作電話：%1<br/>"
+
+#~ msgid "Effective User: %1<br/>"
+#~ msgstr "有效使用者：%1<br/>"
+
+#~ msgid "Setuid User: %1<br/>"
+#~ msgstr "Setuid 使用者：%1<br/>"
+
+#~ msgid "File System User: %1<br/>"
+#~ msgstr "檔案系統使用者：%1<br/>"
+
+#~ msgid "Group: %1"
+#~ msgstr "群組：%1"
+
+#~ msgid "<br/>Effective Group: %1"
+#~ msgstr "<br/>有效群組：%1"
+
+#~ msgid "<br/>Setuid Group: %1"
+#~ msgstr "<br/>Setuid 群組：%1"
+
+#~ msgid "<br/>File System Group: %1"
+#~ msgstr "<br/>檔案系統群組：%1"
+
+#~ msgctxt "Short description of a process. PID, name, user"
+#~ msgid "<numid>%1</numid>: %2, owned by user %3"
+#~ msgstr "<numid>%1</numid>：%2，由使用者 %3 擁有"
+
+#~ msgid "%1 (gid: <numid>%2</numid>)"
+#~ msgstr "%1（群組代碼：<numid>%2</numid>）"
+
+#~ msgctxt "tooltip. name,pid "
+#~ msgid "This process is being debugged by %1 (<numid>%2</numid>)"
+#~ msgstr "此行程正由 %1（<numid>%2</numid>）除錯中"
+
+#~ msgid ""
+#~ "<b>Init</b> is the parent of all other processes and cannot be killed.<br/"
+#~ ">"
+#~ msgstr "<b>Init</b>為所有其他行程之父，無法被殺掉。<br />"
+
+#~ msgid ""
+#~ "<b>KThreadd</b> manages kernel threads. The children processes run in the "
+#~ "kernel, controlling hard disk access, etc.<br/>"
+#~ msgstr ""
+#~ "<b>KThreadd</b> 處理核心的執行緒。其子行程都在核心中執行，用於控制硬碟存取"
+#~ "等工作。<br />"
+
+#~ msgctxt "name column tooltip. first item is the name"
+#~ msgid "<b>%1</b><br />Process ID: <numid>%2</numid>"
+#~ msgstr "<b>%1</b><br />行程代碼：<numid>%2</numid>"
+
+#~ msgctxt "name column tooltip. first item is the name"
+#~ msgid ""
+#~ "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent: %3<br /"
+#~ ">Parent's ID: <numid>%4</numid>"
+#~ msgstr ""
+#~ "<b>%1</b><br/>行程代碼：<numid>%2</numid><br/>父行程：%3<br/>父行程代碼："
+#~ "<numid>%4</numid>"
+
+#~ msgctxt "name column tooltip. first item is the name"
+#~ msgid ""
+#~ "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent's ID: <numid>%3</"
+#~ "numid>"
+#~ msgstr ""
+#~ "<b>%1</b><br/>行程代碼：<numid>%2</numid><br/>父行程代碼：<numid>%3</"
+#~ "numid>"
+
+#~| msgid "Command"
+#~ msgid "<br/>Command: %1"
+#~ msgstr "指令：%1"
+
+#~ msgid "<br />Running on: %1"
+#~ msgstr "<br />執行於：%1"
+
+#~ msgid "<qt>This process was run with the following command:<br />%1"
+#~ msgstr "<qt>此行程是由以下指令執行：<br />%1"
+
+#~ msgid "<br /><br />Running on: %1"
+#~ msgstr "<br /><br />執行於：%1"
+
+#~ msgid "Nice level: %1 (%2)"
+#~ msgstr "優先權等級：%1（%2）"
+
+#~ msgid "Scheduler priority: %1"
+#~ msgstr "排程優先權：%1"
+
+#~ msgid "<br/>I/O Nice level: %1 (%2)"
+#~ msgstr "<br />I/O 優先權等級：%1（%2）"
+
+#~ msgid "<br/>I/O Class: %1"
+#~ msgstr "<br />I/O 類別：%1"
+
+#~ msgid ""
+#~ "<qt><p style='white-space:pre'>Process status: %1 %2<br />User CPU "
+#~ "usage : %3%<br />System CPU usage: %4%</qt>"
+#~ msgstr ""
+#~ "<qt><p style='white-space:pre'>行程狀態：%1 %2<br />使用者 CPU 使用量："
+#~ "%3%<br />系統 CPU 使用量：%4%</qt>"
+
+#~ msgid ""
+#~ "<br />Number of children: %1<br />Total User CPU usage: %2%<br />Total "
+#~ "System CPU usage: %3%<br />Total CPU usage: %4%"
+#~ msgstr ""
+#~ "<br />子行程數量：%1<br />所有使用者 CPU 用量：%2%<br />所有系統 CPU 使用"
+#~ "量：%3<br />總計 CPU 使用量：%4%"
+
+#~ msgid "<br /><br />CPU time spent running as user: %1 seconds"
+#~ msgstr "<br /><br />CPU 花費於使用者的時間：%1 秒"
+
+#~ msgid "<br />CPU time spent running in kernel: %1 seconds"
+#~ msgstr "<br />CPU 花費於核心的時間：%1 秒"
+
+#~ msgid "<br />Nice level: %1 (%2)"
+#~ msgstr "<br />優先權等級：%1（%2）"
+
+#~ msgid "Memory usage: %1 out of %2  (%3 %)<br />"
+#~ msgstr "記憶體使用量：%1，共 %2 （%3%）<br />"
+
+#~ msgid "Memory usage: %1<br />"
+#~ msgstr "記憶體使用量：%1<br />"
+
+#~ msgid "RSS Memory usage: %1 out of %2  (%3 %)"
+#~ msgstr "RSS 記憶體使用量：%1，共 %2（%3%）"
+
+#~ msgid "RSS Memory usage: %1"
+#~ msgstr "RSS 記憶體使用量：%1"
+
+#~ msgid ""
+#~ "<qt>Your system does not seem to have this information available to be "
+#~ "read.</qt>"
+#~ msgstr "<qt>您的系統似乎沒有提供此資訊。</qt>"
+
+#~ msgid "Shared library memory usage: %1 out of %2  (%3 %)"
+#~ msgstr "分享函式庫記憶體用量：%1，共 %2（%3%）"
+
+#~ msgid "Shared library memory usage: %1"
+#~ msgstr "分享函式庫記憶體用量：%1"
+
+#~| msgid "Frame"
+#~ msgctxt "process heading"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "process heading"
+#~ msgid "User Name"
+#~ msgstr "使用者名稱"
+
+#~ msgctxt "process heading"
+#~ msgid "PID"
+#~ msgstr "行程代碼"
+
+#~| msgid "TTY"
+#~ msgctxt "process heading"
+#~ msgid "TTY"
+#~ msgstr "TTY"
+
+#~ msgctxt "process heading"
+#~ msgid "Niceness"
+#~ msgstr "優先權"
+
+#~ msgctxt "process heading"
+#~ msgid "CPU %"
+#~ msgstr "CPU %"
+
+#~ msgctxt "process heading"
+#~ msgid "Virtual Size"
+#~ msgstr "虛擬大小"
+
+#~ msgctxt "process heading"
+#~ msgid "Shared Mem"
+#~ msgstr "共享記憶體"
+
+#~| msgid "Command"
+#~ msgctxt "process heading"
+#~ msgid "Command"
+#~ msgstr "指令"
+
+#~ msgctxt "process heading"
+#~ msgid "Window Title"
+#~ msgstr "視窗標題"
+
+#~ msgid "%1 K"
+#~ msgstr "%1 K"
+
+#~ msgid "%1 M"
+#~ msgstr "%1 M"
+
+#~ msgid "%1 G"
+#~ msgstr "%1 G"
+
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid "Renice Process"
+#~ msgstr "重新調整行程優先權"
+
+#~ msgid "&Kill Process"
+#~ msgstr "殺掉行程(&K)"
+
+#~ msgid "Quick search"
+#~ msgstr "快速搜尋"
+
+#~| msgid "Attach to Process"
+#~ msgid "All Processes"
+#~ msgstr "所有行程"
+
+#~| msgid "Process exited"
+#~ msgid "All Processes, Tree"
+#~ msgstr "所有行程，樹狀圖"
+
+#~ msgid "System Processes"
+#~ msgstr "系統行程"
+
+#~ msgid "User Processes"
+#~ msgstr "使用者行程"
+
+#~ msgid "Own Processes"
+#~ msgstr "擁有的行程"
+
+#~ msgid "Programs Only"
+#~ msgstr "只程式"
+
+#~ msgid "Change scheduling priority for:"
+#~ msgstr "要變更排程優先權的行程："
+
+#~ msgid "CPU Scheduler"
+#~ msgstr "CPU 排程器"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">The standard time-"
+#~ "sharing scheduler for processes without special requirements.</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">標準的行程分時排程器，沒"
+#~ "有特殊需求。</p></body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Normal Scheduling: Default Linux time-sharing  (Other)</"
+#~ "span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;"
+#~ "\">Normal<span style=\" font-weight:400;\"> is the standard Linux time-"
+#~ "sharing scheduler that is intended for all processes that do not  require "
+#~ "special static priority real-time mechanisms. The process to run is "
+#~ "chosen from the list of other</span> Normal<span style=\" font-weight:400;"
+#~ "\"> or </span>Batch<span style=\" font-weight:400;\"> processes based on "
+#~ "a dynamic priority that is determined only inside this list. The dynamic "
+#~ "priority is based on the priority level given and increased for each time-"
+#~ "quantum the process is ready to run, but denied to run by the scheduler. "
+#~ "This ensures fair progress among all Normal processes.</span></p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">一般排程：預設的 Linux 分時排程法  （其他）</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\">「一"
+#~ "般」是使用標準的 Linux 分時排程法，讓所有沒有特殊設定即時機制優先權的行程"
+#~ "使用。下一個要執行的行程是從其它的「一般」行程與「批次」行程中，依一種動態"
+#~ "優先權判定的方式來挑選。此動態優先權判定是基於每個要執行的給定的優先權等"
+#~ "級，以及該行程等待的時間而決定，而非排程器決定。這是為了確保所有「一般」的"
+#~ "行程都可以有公平的機會被執行。</p></body></html>"
+
+#~| msgid "Format"
+#~ msgid "Normal"
+#~ msgstr "正常"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">For CPU-intensive non-"
+#~ "interactive processes.  Process is mildly disfavored in scheduling "
+#~ "decisions.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">對密集使用 CPU，並且非互"
+#~ "動的行程，在排程時減少其取得 CPU 時間的機會。</p></body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Batch Scheduling</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\"><span "
+#~ "style=\" font-weight:400; font-style:italic;\">(Since Linux 2.6.16.)</"
+#~ "span><span style=\" font-weight:400;\"> This policy is similar to </"
+#~ "span>Normal<span style=\" font-weight:400;\">, except that this policy "
+#~ "will cause the scheduler to always assume that the process is CPU-"
+#~ "intensive.  Consequently, the scheduler will apply a small scheduling "
+#~ "penalty so that this process is mildly disfavored in scheduling "
+#~ "decisions. This policy is useful for workloads that are non-interactive, "
+#~ "but do not want to lower their nice value, and for workloads that want a "
+#~ "deterministic scheduling policy without interactivity causing extra "
+#~ "preemptions (between the workload's tasks).</span></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">批次排程</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\"><span "
+#~ "style=\" font-weight:400; font-style:italic;\">（從 Linux 2.6.16 開始）</"
+#~ "span><span style=\" font-weight:400;\">這種政策類似「一般」，但是排程器會"
+#~ "假設行程會密集使用 CPU 時間。所以排程器會在做決定時對此行程加一點小小的排"
+#~ "程懲罰（scheduling penalty）。這種排程政策在行程屬於非互動行程，但不想降低"
+#~ "它們的優先權的工作，以及需要一個明確的排程政策，排除因互動而導致多餘其它工"
+#~ "作前來搶時的工作很有用。</span></p></body></html>"
+
+#~| msgid "Watches"
+#~ msgid "Batch"
+#~ msgstr "批次"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Process will run "
+#~ "whenever runnable.  Higher priority than Normal or Batch.  Has "
+#~ "Timeslicing.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">行程在可執行時就會執行，"
+#~ "其優先權比「一般」與「批次」要高。會做切時（Timeslicing）動作。</p></"
+#~ "body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Round Robin Scheduling</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Round Robin</span> is a simple enhancement of <span style="
+#~ "\" font-weight:600;\">FIFO</span>.  Everything described below for <span "
+#~ "style=\" font-weight:600;\">FIFO</span> also applies to <span style=\" "
+#~ "font-weight:600;\">Round Robin</span>, except that each process is only "
+#~ "allowed to run for a maximum time quantum.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Round Robin 排程</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">所謂的 Round Robin 是"
+#~ "「先進先出」（FIFO）的簡易加強版。底下關於 FIFO 的描述也適用於 Round "
+#~ "Robin。差別在於 Round Robin 每個行程只能執行特定的時間。</p></body></html>"
+
+#~ msgid "Round robin"
+#~ msgstr "Round Robin"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Process will run "
+#~ "whenever runnable.  Higher priority than Normal or Batch.  No timeslicing."
+#~ "</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">行程在可執行時就會執行，"
+#~ "其優先權比「一般」與「批次」要高。不會做切時（Timeslicing）動作。</p></"
+#~ "body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">First In-First Out Scheduling</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">When  a  <span style=\" "
+#~ "font-weight:600;\">FIFO</span> process  becomes  runnable,  it  will "
+#~ "always immediately preempt any currently running <span style=\" font-"
+#~ "weight:600;\">Normal</span> or <span style=\" font-weight:600;\">Batch</"
+#~ "span> process.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">先進先出（FIFO）排程</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">當行程可執行時，它會取代"
+#~ "任何執行中的「一般」或「批次」行程。</p></body></html>"
+
+#~ msgid "FIFO"
+#~ msgstr "FIFO"
+
+#~ msgid "I/O Scheduler"
+#~ msgstr "I/O 排程"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Process's priority is "
+#~ "based on the CPU priority</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">行程優先權是基於 CPU 的"
+#~ "優先權</p></body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Normal Scheduling</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">This is the same as "
+#~ "<span style=\" font-weight:600;\">Best Effort</span> scheduling, except "
+#~ "that the priority is calculated automatically based on the CPU priority.  "
+#~ "Processes with a higher priority will take priority for access to the "
+#~ "hard disk.  Programs running at the same <span style=\" font-weight:600;"
+#~ "\">Best Effort/Normal</span> priority are served in a <span style=\" font-"
+#~ "weight:600;\">Round Robin</span> fashion.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">一般排程</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">這跟「最佳效果」的排程法"
+#~ "很類似，差別只在優先權是以 CPU 的優先權為基準來自動計算。有較高的優先權的"
+#~ "行程可以取得硬碟的存取優先權。相同「最佳效果/一般」優先權的程式會以 Round "
+#~ "Robin 的方式來輪流。</p></body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Process can only use "
+#~ "the hard disk when no other process has used it very recently.</p></"
+#~ "body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">行程只有在沒有其它行程在"
+#~ "最近使用硬碟的情況下才能使用硬碟。</p></body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Idle Scheduling</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">A  program running with "
+#~ "<span style=\" font-weight:600;\">Idle</span> I/O priority will only get "
+#~ "disk time when no other program has asked for disk I/O for a defined "
+#~ "grace period. The impact of <span style=\" font-weight:600;\">Idle</span> "
+#~ "I/O processes on normal system activity should be zero. Priority is not "
+#~ "applicable to this scheduling class.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">閒置排程</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">程式以「閒置」（Idle）I/"
+#~ "O 優先權執行時，它只會在沒有任何其他程式要求做磁碟的 I/O 時才能取得存取磁"
+#~ "碟的優先權。這種排程對一般系統活動的行程幾乎沒有影響。</p></body></html>"
+
+#~ msgid "Idle"
+#~ msgstr "閒置"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Process is given higher "
+#~ "priority to access the hard disk than Normal.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">行程在存取硬碟時會被給予"
+#~ "較「一般」高的優先權。</p></body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Best Effort Scheduling</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Processes with a higher "
+#~ "priority will take priority for access to the hard disk.  Programs "
+#~ "running at the same <span style=\" font-weight:600;\">Best Effort/Normal</"
+#~ "span> priority are served in a <span style=\" font-weight:600;\">Round "
+#~ "Robin</span> fashion.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">最佳效果排程</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">有較高優先權的行程會取得"
+#~ "硬碟的讀寫權。相同「最佳效果/一般」優先權的程式會以 Round Robin 的方式來輪"
+#~ "流。</p></body></html>"
+
+#~ msgid "Best effort"
+#~ msgstr "最佳效果"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Process gets immediate "
+#~ "access to the hard disk whenever needed, regardless of what else is going "
+#~ "on.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">行程在需要時立刻就可以存"
+#~ "取硬碟，不管正在執行什麼。</p></body></html>"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Real Time Scheduling</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">The <span style=\" font-"
+#~ "weight:600;\">Real Time</span> scheduling class is given first access to "
+#~ "the disk, regardless of what else is going on in the system. Thus the "
+#~ "<span style=\" font-weight:600;\">Real Time</span> class needs to be used "
+#~ "with some care,  as  it  can  starve other processes. As with the <span "
+#~ "style=\" font-weight:600;\">Best Effort</span> class, 8 priority levels "
+#~ "are defined denoting how big a time slice a given process will receive on "
+#~ "each scheduling window</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">即時排程</span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">「即時」（real-time）排"
+#~ "程類別就是不管系統目前在做什麼，都先給予磁碟的讀寫權。因此使用這種排程要很"
+#~ "小心，因為可能會造成其它行程完全無法取得執行的機會。與「最佳效果」類別一起"
+#~ "用時，會定義八種優先權等級。</p></body></html>"
+
+#~ msgid "Real time"
+#~ msgstr "即時"
+
+#~ msgid "Low Priority"
+#~ msgstr "低優先權"
+
+#~ msgid "High Priority"
+#~ msgstr "高優先權"
+
+#~ msgid ""
+#~ "Interpret output as containing VT100 commands. For console-based programs."
+#~ msgstr "直譯輸出時包含 VT100 的指令。用於基本的主控台程式。"
+
+#~ msgid ""
+#~ "If this is checked then ANSI escape sequences will be interpreted and not "
+#~ "displayed.  Useful for when monitoring bash."
+#~ msgstr ""
+#~ "勾選此項目的話，ANSI 的脫逸字元序（escape sequences）會被直譯，而不會顯"
+#~ "示。用於監控 bash 時有用。"
+
+#~ msgid "Interpret ANSI escape sequences"
+#~ msgstr "直譯 ANSI 脫逸字元序"
+
+#~ msgid "Show the output from processes launched by this process."
+#~ msgstr "顯示此行程啟動的子行程的輸出"
+
+#~ msgid "Follow fork and clone commands to monitor child processes"
+#~ msgstr "跟隨 fork 與 clone 指令來監控子行程"
+
+#~ msgid "Monitor child processes"
+#~ msgstr "監控子行程"
+
+#~ msgid "Pause the process and its output"
+#~ msgstr "暫停行程與其輸出"
+
+#~ msgid ""
+#~ "Stop reading the output from the process. This will cause the process to "
+#~ "be blocked, effectively pausing it. The process can be resumed by "
+#~ "resuming, detaching or closing the dialog."
+#~ msgstr ""
+#~ "停止從此行程讀取輸出。這會造成行程被阻擋，也就是被暫停。暫停後可以回復行"
+#~ "程，只要選擇分離或關閉此對話框。"
+
+#~| msgid "Attaching to process %1"
+#~ msgid "Stop monitoring the process"
+#~ msgstr "停止監控行程"
+
+#~ msgid "Stop monitoring the process and allow the process to resume running."
+#~ msgstr "停止監控行程，讓行程可以繼續執行。"
+
+#~ msgid "&Start with GDB"
+#~ msgstr "以 GDB 啟動(&S)"
+
+#~ msgid "Start in debugger"
+#~ msgstr "在除錯器中開始"
+
+#~ msgid ""
+#~ "<b>Start in debugger</b><p>Starts the debugger with the project's main "
+#~ "executable. You may set some breakpoints before this, or you can "
+#~ "interrupt the program while it is running, in order to get information "
+#~ "about variables, frame stack, and so on."
+#~ msgstr ""
+#~ "<b>在除錯器中開始</b><p>在除錯器裡啟動專案的主執行檔。您可以在此之前先設定"
+#~ "中斷點，或是在執行時將它中斷以取得關於變數或堆疊等資訊。"
+
+#~ msgid "Breakpoints"
+#~ msgstr "中斷點"
+
+#~ msgid ""
+#~ "<b>Frame stack</b><p>Often referred to as the \"call stack\", this is a "
+#~ "list showing which function is currently active, and what called each "
+#~ "function to get to this point in your program. By clicking on an item you "
+#~ "can see the values in any of the previous calling functions."
+#~ msgstr ""
+#~ "<b>框架堆疊</b><p>通常又稱為「呼叫堆疊」。這是一份清單，指出目前執行的函"
+#~ "式，以及由誰呼叫。點選其中的項目您可以看到在之前呼叫的函式裡的數值。"
+
+#~ msgid "Double-click to create new code breakpoint"
+#~ msgstr "雙擊以建立新的中斷點"
+
+#~ msgid "Breakpoint is active"
+#~ msgstr "中斷點已啟動"
+
+#~ msgid "Not hit yet"
+#~ msgstr "尚未遇到"
+
+#~ msgid "Ignore"
+#~ msgstr "忽略"
+
+#~ msgid "next hits"
+#~ msgstr "下次遇到"
+
+#~ msgid "Breakpoint is %1"
+#~ msgstr "中斷點為 %1"
+
+#~ msgid "Hit %1 time"
+#~ msgid_plural "Hit %1 times"
+#~ msgstr[0] "經過 %1 次"
+
+#~ msgid ""
+#~ "<b>Breakpoint is pending</b><p>Pending breakpoints are those that are "
+#~ "communucated to GDB, but which are not yet installed in the target, "
+#~ "because GDB cannot find the function or the file the breakpoint refers "
+#~ "to. The most common case is a breakpoint in a shared library: GDB will "
+#~ "insert this breakpoint only when the library is loaded."
+#~ msgstr ""
+#~ "<b>中斷點暫停中</b> <p>暫停的中斷點為已連接到 GDB，但尚未安裝在目標區，因"
+#~ "為 GDB 找不到該中斷點指向的檔案與函式。大部份的原因是因為該中斷點是未在分"
+#~ "享函式庫中。GDB 只會在該函式庫載入時插入此中斷點。"
+
+#~ msgid ""
+#~ "<b>Breakpoint is dirty</b><p>The breakpoint is not yet communicated to "
+#~ "GDB."
+#~ msgstr "<b>中斷點未連繫</b><p>此中斷點尚未連接到 GDB。"
+
+#~ msgid "Debugger Breakpoints"
+#~ msgstr "除錯器中斷點"
+
+#~ msgid ""
+#~ "<b>Breakpoint list</b><p>Displays a list of breakpoints with their "
+#~ "current status. Clicking on a breakpoint item allows you to change the "
+#~ "breakpoint and will take you to the source in the editor window."
+#~ msgstr ""
+#~ "<b>中斷點列表</b><p>顯示中斷點的列表，以及它們目前的狀態。點選任一個中斷點"
+#~ "您可以變更它的設定，並會將您帶到該處的程式源碼。"
+
+#~ msgctxt "New breakpoint"
+#~ msgid "New"
+#~ msgstr "新信"
+
+#~ msgctxt "Code breakpoint"
+#~ msgid "Code"
+#~ msgstr "程式碼"
+
+#~ msgctxt "Data breakpoint"
+#~ msgid "Data write"
+#~ msgstr "資料寫入"
+
+#~ msgctxt "Data read breakpoint"
+#~ msgid "Data read"
+#~ msgstr "資料讀取"
+
+#~ msgid "Show text"
+#~ msgstr "顯示文字"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "Disable"
+#~ msgstr "停用"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Disable all"
+#~ msgstr "全部關閉"
+
+#~ msgid "Enable all"
+#~ msgstr "全部開啟"
+
+#~ msgid "Delete all"
+#~ msgstr "全部刪除"
+
+#~ msgid "Enable"
+#~ msgstr "開啟"
+
+#~ msgid "&Start"
+#~ msgstr "開始(&S)"
+
+#~ msgid "&Restart"
+#~ msgstr "重新開始(&R)"
+
+#~ msgid "Restart program"
+#~ msgstr "重新開始執行程式"
+
+#~ msgid ""
+#~ "<b>Restarts application</b><p>Restarts applications from the beginning."
+#~ msgstr "<b>重新開始應用程式</b><p>重新開始執行應用程式。"
+
+#~ msgid "Sto&p"
+#~ msgstr "停止(&P)"
+
+#~ msgid "Stop debugger"
+#~ msgstr "停止除錯器"
+
+#~ msgid "<b>Stop debugger</b><p>Kills the executable and exits the debugger."
+#~ msgstr "<b>停止除錯器</b><p>停止執行並離開除錯器。"
+
+#~ msgid "Interrupt application"
+#~ msgstr "中斷應用程式"
+
+#~ msgid ""
+#~ "<b>Interrupt application</b><p>Interrupts the debugged process or current "
+#~ "GDB command."
+#~ msgstr "<b>中斷應用程式</b><p>中斷已除錯的行程或目前執行的 GDB 指令。"
+
+#~ msgid "Run to cursor"
+#~ msgstr "執行到游標處"
+
+#~ msgid "Set E&xecution Position to Cursor"
+#~ msgstr "將執行位置設到游標處(&X)"
+
+#~ msgid "Step &Over"
+#~ msgstr "單步執行(&O)"
+
+#~ msgid "Step over the next line"
+#~ msgstr "單步執行到下一行"
+
+#~ msgid ""
+#~ "<b>Step over</b><p>Executes one line of source in the current source "
+#~ "file. If the source line is a call to a function the whole function is "
+#~ "executed and the app will stop at the line following the function call."
+#~ msgstr ""
+#~ "<b>單步執行</b><p>執行一行源碼。如果該行源碼是呼叫函式，則會把整個函式執行"
+#~ "完畢後停在下一行。"
+
+#~ msgid "Step over Ins&truction"
+#~ msgstr "單步執行指令(&T)"
+
+#~ msgid "Step over instruction"
+#~ msgstr "單步執行指令"
+
+#~ msgid ""
+#~ "<b>Step over instruction</b><p>Steps over the next assembly instruction."
+#~ msgstr "<b>單步執行指令</b><p>單步執行到下一個組譯指令。"
+
+#~ msgid "Step &Into"
+#~ msgstr "單步跳入(&I)"
+
+#~ msgid "Step into the next statement"
+#~ msgstr "單步跳入下一個敘述"
+
+#~ msgid ""
+#~ "<b>Step into</b><p>Executes exactly one line of source. If the source "
+#~ "line is a call to a function then execution will stop after the function "
+#~ "has been entered."
+#~ msgstr ""
+#~ "<b>單步跳入</b><p>執行源碼中一行敘述。如果程式碼是呼叫某個函式，則會停在進"
+#~ "入函式的點。"
+
+#~ msgid "Step into I&nstruction"
+#~ msgstr "單步跳入指令(&N)"
+
+#~ msgid "Step into instruction"
+#~ msgstr "單步跳入指令"
+
+#~ msgid ""
+#~ "<b>Step into instruction</b><p>Steps into the next assembly instruction."
+#~ msgstr "<b>單步跳入指令</b><p>單步跳入下一個組譯指令。"
+
+#~ msgid "Step O&ut"
+#~ msgstr "單步跳出(&U)"
+
+#~ msgid "Steps out of the current function"
+#~ msgstr "單步跳出目前的函式"
+
+#~ msgid ""
+#~ "<b>Step out</b><p>Executes the application until the currently executing "
+#~ "function is completed. The debugger will then display the line after the "
+#~ "original call to that function. If program execution is in the outermost "
+#~ "frame (i.e. in main()) then this operation has no effect."
+#~ msgstr ""
+#~ "<b>單步跳出</b><p>執行應用程式，直到目前的函式執行完畢。除錯器會顯示呼叫該"
+#~ "函式的地方。如果是在最外層的框架（也就是 main()），則這個操作不會發生作"
+#~ "用。"
+
+#~ msgid "Toggle Breakpoint"
+#~ msgstr "切換中斷點"
+
+#~ msgid "Toggle breakpoint"
+#~ msgstr "切換中斷點"
+
+#~ msgid ""
+#~ "<b>Toggle breakpoint</b><p>Toggles the breakpoint at the current line in "
+#~ "editor."
+#~ msgstr "<b>切換中斷點</b><p>對編輯器中目前的行切換中斷點。"
+
+#~ msgid "Runs the program in the debugger"
+#~ msgstr "在除錯器中執行程式"
+
+#~ msgid ""
+#~ "Start in debugger\n"
+#~ "\n"
+#~ "Starts the debugger with the project's main executable. You may set some "
+#~ "breakpoints before this, or you can interrupt the program while it is "
+#~ "running, in order to get information about variables, frame stack, and so "
+#~ "on."
+#~ msgstr ""
+#~ "在除錯器中啟動\n"
+#~ "\n"
+#~ "在除錯器中啟動專案的主執行檔。您也可以在此之前先設定好中斷點，或是在執行時"
+#~ "中斷程式以取得變數、框架堆疊等的資訓。"
+
+#~ msgid "Continues the application execution"
+#~ msgstr "繼續執行應用程式"
+
+#~ msgid ""
+#~ "Continue application execution\n"
+#~ "\n"
+#~ "Continues the execution of your application in the debugger. This only "
+#~ "takes effect when the application has been halted by the debugger (i.e. a "
+#~ "breakpoint has been activated or the interrupt was pressed)."
+#~ msgstr ""
+#~ "繼續執行應用程式\n"
+#~ "\n"
+#~ "繼續在除錯器中執行您的應用程式。這只在應用程式被除錯器暫停時才有作用（也就"
+#~ "是被中斷點中斷，或是使用者按下中斷時）。"
+
+#~ msgid "Breakpoint"
+#~ msgstr "中斷點"
+
+#~ msgid " temporary"
+#~ msgstr " 暫時"
+
+#~ msgid " hw"
+#~ msgstr " hw"
+
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Condition"
+#~ msgstr "條件"
+
+#~ msgid "Ignore Count"
+#~ msgstr "忽略計數器"
+
+#~ msgid "Hits"
+#~ msgstr "遇到"
+
+#~ msgid "Tracing"
+#~ msgstr "追蹤中"
+
+#~ msgid "Pending (add)"
+#~ msgstr "暫停（新增）"
+
+#~ msgid "Pending (clear)"
+#~ msgstr "暫停（清除）"
+
+#~ msgid "Pending (modify)"
+#~ msgstr "暫停（變更）"
+
+#~ msgid "Active"
+#~ msgstr "啟動"
+
+#~ msgid ""
+#~ "<b>Data write breakpoint</b><br>Expression: %1<br>Address: 0x%2<br>Old "
+#~ "value: %3<br>New value: %4"
+#~ msgstr ""
+#~ "<b>資料寫入中斷點</b><br>表示式：%1<br>位址：0x%2<br>舊值：%3<br>新值：%4"
+
+#~ msgid "Invalid"
+#~ msgstr "不合法"
+
+#~ msgid "Watchpoint"
+#~ msgstr "監看點"
+
+#~ msgid "Read Watchpoint"
+#~ msgstr "讀取監看點"
+
+#~ msgid "C++ Debugger"
+#~ msgstr "C++ 除錯器"

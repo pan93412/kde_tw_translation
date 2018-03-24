@@ -1,0 +1,652 @@
+# translation of kcminput.po to Chinese Traditional
+# traditional Chinese translation for kcminput
+# Copyright (C) 2002, 2003, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Jouston Huang (Huang, Jiun-Jeng) <jouston@housediy.com>, 2001.
+# Paladin Liu <paladin@ms1.hinet.net>, 2002.
+# 林耕宇 <s9321028@ncnu.edu.tw>, 2003.
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminput\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-12-05 03:17+0100\n"
+"PO-Revision-Date: 2016-11-03 16:22+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jouston Huang,Paladin Liu,林耕宇, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"jouston@housediy.com,paladin@ms1.hinet.net,s9321028@ncnu.edu.tw, "
+"s8321414@gmail.com"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, KCMMouse)
+#: kcmmouse.ui:14
+#, kde-format
+msgid ""
+"<h1>Mouse</h1> This module allows you to choose various options for the way "
+"in which your pointing device works. Your pointing device may be a mouse, "
+"trackball, or some other hardware that performs a similar function."
+msgstr ""
+"<h1>滑鼠</h1>這個模組可以讓您選擇您指標設備工作的方式。 您的指標設備可能是滑"
+"鼠，軌跡球或其他有類似功能的硬體。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#: kcmmouse.ui:36
+#, kde-format
+msgid "&General"
+msgstr "一般(&G)"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, handedBox)
+#: kcmmouse.ui:52
+#, kde-format
+msgid ""
+"If you are left-handed, you may prefer to swap the functions of the left and "
+"right buttons on your pointing device by choosing the 'left-handed' option. "
+"If your pointing device has more than two buttons, only those that function "
+"as the left and right buttons are affected. For example, if you have a three-"
+"button mouse, the middle button is unaffected."
+msgstr ""
+"如果您使用左手，您可能希望透過「使用左手」的選項，來交換指標設備左右鍵的功"
+"能。 如果您的指標設備有多於二個按鈕，只有左右的二個會交換。例如您有一個三鍵滑"
+"鼠，則滑鼠的中間鍵將不受影響。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, handedBox)
+#: kcmmouse.ui:55
+#, kde-format
+msgid "Button Order"
+msgstr "按鍵順序"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rightHanded)
+#: kcmmouse.ui:64
+#, kde-format
+msgid "Righ&t handed"
+msgstr "使用右手(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, leftHanded)
+#: kcmmouse.ui:77
+#, kde-format
+msgid "Le&ft handed"
+msgstr "使用左手(&F)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbScrollPolarity)
+#: kcmmouse.ui:106
+#, kde-format
+msgid ""
+"Change the direction of scrolling for the mouse wheel or the 4th and 5th "
+"mouse buttons."
+msgstr "改變滑鼠滾輪捲動的方向或是第四鍵和第五鍵。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbScrollPolarity)
+#: kcmmouse.ui:109
+#, kde-format
+msgid "Re&verse scroll direction"
+msgstr "反相捲動(&V)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: kcmmouse.ui:139
+#, kde-format
+msgid "Icons"
+msgstr "圖示"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, doubleClick)
+#: kcmmouse.ui:148
+#, kde-format
+msgid ""
+"The default behavior in KDE is to select and activate icons with a single "
+"click of the left button on your pointing device. This behavior is "
+"consistent with what you would expect when you click links in most web "
+"browsers. If you would prefer to select with a single click, and activate "
+"with a double click, check this option."
+msgstr ""
+"KDE 點選並啟動圖示的預設動作，是使用指標的設備左鍵，並以單擊圖示的方式來進"
+"行。這個動作就如同您在瀏覽器中，點選超連結的方式是相同的。如果您希望在單擊的"
+"時候進行選取，而雙擊的時候進行啟動，那麼請選取這個選項。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, doubleClick)
+#: kcmmouse.ui:151
+#, kde-format
+msgid "Dou&ble-click to open files and folders (select icons on first click)"
+msgstr "點兩下開啟檔案或目錄（按第一下為選取）"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, singleClick)
+#: kcmmouse.ui:164
+#, kde-format
+msgid "Activates and opens a file or folder with a single click."
+msgstr "單擊滑鼠來開啟檔案或目錄。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, singleClick)
+#: kcmmouse.ui:167
+#, kde-format
+msgid "&Single-click to open files and folders"
+msgstr "使用單擊來開啟檔案或目錄(&S)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: kcmmouse.ui:200
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcmmouse.ui:208
+#, kde-format
+msgid "Pointer acceleration:"
+msgstr "指標加速："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcmmouse.ui:218
+#, kde-format
+msgid "Pointer threshold:"
+msgstr "指標界限："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcmmouse.ui:228
+#, kde-format
+msgid "Double click interval:"
+msgstr "雙敲擊間隔："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kcmmouse.ui:238
+#, kde-format
+msgid "Drag start time:"
+msgstr "拖曳開始時間："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kcmmouse.ui:248
+#, kde-format
+msgid "Drag start distance:"
+msgstr "拖曳開始距離："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: kcmmouse.ui:258
+#, kde-format
+msgid "Mouse wheel scrolls by:"
+msgstr "滑鼠滾輪滾動由："
+
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, accel)
+#: kcmmouse.ui:274
+#, kde-format
+msgid ""
+"<p>This option allows you to change the relationship between the distance "
+"that the mouse pointer moves on the screen and the relative movement of the "
+"physical device itself (which may be a mouse, trackball, or some other "
+"pointing device.)</p><p> A high value for the acceleration will lead to "
+"large movements of the mouse pointer on the screen even when you only make a "
+"small movement with the physical device. Selecting very high values may "
+"result in the mouse pointer flying across the screen, making it hard to "
+"control.</p>"
+msgstr ""
+"<p>這個選項可以讓您改變滑鼠指標在螢幕上移動與設備本身移動間的相對關係 (移動設"
+"備可能是滑鼠，軌跡球或其他指標設備)。</p> <p>即使是您只是稍微的移動，在較高的"
+"加速值下，仍將使滑鼠在畫面上有較大的移動。選擇一個很高的加速值可能會讓您的指"
+"標飛快的在畫面上移動，並且難以控制。</p>"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, accel)
+#: kcmmouse.ui:277
+#, kde-format
+msgid " x"
+msgstr " x"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, thresh)
+#: kcmmouse.ui:305
+#, kde-format
+msgid ""
+"<p>The threshold is the smallest distance that the mouse pointer must move "
+"on the screen before acceleration has any effect. If the movement is smaller "
+"than the threshold, the mouse pointer moves as if the acceleration was set "
+"to 1X;</p><p> thus, when you make small movements with the physical device, "
+"there is no acceleration at all, giving you a greater degree of control over "
+"the mouse pointer. With larger movements of the physical device, you can "
+"move the mouse pointer rapidly to different areas on the screen.</p>"
+msgstr ""
+"<p>這個界限是游標開始加速前必須移動的距離。 如果移動小於這個界限，游標將用正"
+"常速度移動 (1X)；</p> <p>也就是說，當您只有移動設備一小段距離，則不會加速，讓"
+"您更容易控制游標。而移動較大距離，則會加速，讓您可以在畫面上快速移動。</p>"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, doubleClickInterval)
+#: kcmmouse.ui:324
+#, kde-format
+msgid ""
+"The double click interval is the maximal time (in milliseconds) between two "
+"mouse clicks which turns them into a double click. If the second click "
+"happens later than this time interval after the first click, they are "
+"recognized as two separate clicks."
+msgstr ""
+"雙敲擊的間隔，是兩次滑鼠按鍵敲擊的最大間隔時間 (以微秒為單位)。如果第二次在經"
+"過這段時間之後才發生，就會被視為二次獨立的敲擊。"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, doubleClickInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, dragStartTime)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
+#: kcmmouse.ui:327 kcmmouse.ui:355 kcmmouse.ui:472 kcmmouse.ui:514
+#: kcmmouse.ui:546
+#, kde-format
+msgid " msec"
+msgstr " 微秒"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, dragStartTime)
+#: kcmmouse.ui:352
+#, kde-format
+msgid ""
+"If you click with the mouse (e.g. in a multi-line editor) and begin to move "
+"the mouse within the drag start time, a drag operation will be initiated."
+msgstr "如果您按下滑鼠並開始拖曳 (例如在文字編輯器中)，拖曳的動作將會被啟動。"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, dragStartDist)
+#: kcmmouse.ui:377
+#, kde-format
+msgid ""
+"If you click with the mouse and begin to move the mouse at least the drag "
+"start distance, a drag operation will be initiated."
+msgstr "如果您按下滑鼠並移動超過拖曳開始距離，拖曳的動作將被啟動。"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, wheelScrollLines)
+#: kcmmouse.ui:399
+#, kde-format
+msgid ""
+"If you use the wheel of a mouse, this value determines the number of lines "
+"to scroll for each wheel movement. Note that if this number exceeds the "
+"number of visible lines, it will be ignored and the wheel movement will be "
+"handled as a page up/down movement."
+msgstr ""
+"如果你使用滑鼠滾輪，這個數值就是你每次滾動滾輪將移動的行距。注意若是這個數值"
+"超過了可以顯示的行數，那麼這項設定將會被忽略，並改為切換上／下頁的功能。"
+
+#. i18n: ectx: property (text), widget (QLabel, accelerationProfileLabel)
+#: kcmmouse.ui:415
+#, fuzzy, kde-format
+#| msgid "Acceleration &profile:"
+msgid "Acceleration Profile:"
+msgstr "加速度設定(&p)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, MouseNavigation)
+#: kcmmouse.ui:451
+#, kde-format
+msgid "Keyboard Navigation"
+msgstr "鍵盤瀏覽"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: kcmmouse.ui:459
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "使用鍵盤移動滑鼠游標（使用數字鍵）(&M)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: kcmmouse.ui:488
+#, kde-format
+msgid "&Acceleration delay:"
+msgstr "加速延遲(&A):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: kcmmouse.ui:498
+#, kde-format
+msgid "R&epeat interval:"
+msgstr "重複間隔(&E):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: kcmmouse.ui:530
+#, kde-format
+msgid "Acceleration &time:"
+msgstr "指標加速(&T):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmmouse.ui:562
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr "最快速度(&X):"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: kcmmouse.ui:578
+#, kde-format
+msgid " pixel/sec"
+msgstr " 像素/秒"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: kcmmouse.ui:594
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr "加速度設定(&p)"
+
+#: mouse.cpp:128
+#, kde-format
+msgid "Mouse"
+msgstr "滑鼠"
+
+#: mouse.cpp:131
+#, kde-format
+msgid "(c) 1997 - 2005 Mouse developers"
+msgstr "(c) 1997 - 2005 滑鼠開發者"
+
+#: mouse.cpp:132
+#, kde-format
+msgid "Patrick Dowler"
+msgstr "Patrick Dowler"
+
+#: mouse.cpp:133
+#, kde-format
+msgid "Dirk A. Mueller"
+msgstr "Dirk A. Mueller"
+
+#: mouse.cpp:134
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: mouse.cpp:135
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: mouse.cpp:136
+#, kde-format
+msgid "Rik Hemsley"
+msgstr "Rik Hemsley"
+
+#: mouse.cpp:137
+#, kde-format
+msgid "Brad Hughes"
+msgstr "Brad Hughes"
+
+#: mouse.cpp:138
+#, kde-format
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"
+
+#: mouse.cpp:139
+#, kde-format
+msgid "Brad Hards"
+msgstr "Brad Hards"
+
+#: mouse.cpp:362 mouse.cpp:367
+#, kde-format
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] " 像素"
+
+#: mouse.cpp:372
+#, kde-format
+msgid " line"
+msgid_plural " lines"
+msgstr[0] " 行"
+
+#~ msgid "Select the cursor theme you want to use:"
+#~ msgstr "請選取你想使用的滑鼠游標佈景主題:"
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Description"
+#~ msgstr "解釋"
+
+#~ msgid "You have to restart KDE for these changes to take effect."
+#~ msgstr "要使改變發生作用，KDE 必須重新啟動"
+
+#~ msgid "Cursor Settings Changed"
+#~ msgstr "游標設定已變更"
+
+#~ msgid "Small black"
+#~ msgstr "細黑"
+
+#~ msgid "Small black cursors"
+#~ msgstr "細黑的游標"
+
+#~ msgid "Large black"
+#~ msgstr "粗黑"
+
+#~ msgid "Large black cursors"
+#~ msgstr "粗黑游標(&L)"
+
+#~ msgid "Small white"
+#~ msgstr "細白"
+
+#~ msgid "Small white cursors"
+#~ msgstr "細白游標(&W)"
+
+#~ msgid "Large white"
+#~ msgstr "粗白"
+
+#~ msgid "Large white cursors"
+#~ msgstr "粗白游標(&L)"
+
+#~ msgid "Cha&nge pointer shape over icons"
+#~ msgstr "遊標停在圖示上時改變游標形狀(&N)"
+
+#~ msgid "A&utomatically select icons"
+#~ msgstr "自動選取圖示(&U)"
+
+#~ msgctxt "label. delay (on milliseconds) to automatically select icons"
+#~ msgid "Delay"
+#~ msgstr "延遲"
+
+#~ msgctxt "milliseconds. time to automatically select the items"
+#~ msgid " ms"
+#~ msgstr " 毫秒"
+
+#~ msgid ""
+#~ "If you check this option, pausing the mouse pointer over an icon on the "
+#~ "screen will automatically select that icon. This may be useful when "
+#~ "single clicks activate icons, and you want only to select the icon "
+#~ "without activating it."
+#~ msgstr ""
+#~ "如果您選擇了這個選項，那麼當滑鼠指標停在螢幕上的某個圖示上面時，這個圖示將"
+#~ "會自動的被選取。這對於當您使用單擊來啟動圖示，而您卻只想選取那個圖示的時"
+#~ "候，會非常的有用。"
+
+#~ msgid ""
+#~ "If you have checked the option to automatically select icons, this slider "
+#~ "allows you to select how long the mouse pointer must be paused over the "
+#~ "icon before it is selected."
+#~ msgstr ""
+#~ "如果您選擇了自動選取圖示的功能，這個滾軸可以讓您設定，滑鼠指標應該停留在圖"
+#~ "示上多久的時間，才會選取這個圖示。"
+
+#~ msgid "Mouse type: %1"
+#~ msgstr "滑鼠類型：%1"
+
+#~ msgid ""
+#~ "RF channel 1 has been set. Please press Connect button on mouse to re-"
+#~ "establish link"
+#~ msgstr "RF 頻道 1 已經被設定了。請按滑鼠的連線按鈕來重新建立連結"
+
+#~ msgid "Press Connect Button"
+#~ msgstr "請按連線按鈕"
+
+#~ msgid ""
+#~ "RF channel 2 has been set. Please press Connect button on mouse to re-"
+#~ "establish link"
+#~ msgstr "RF 頻道 2 已經被設定了。請按滑鼠的連線按鈕來重新建立連結"
+
+#~ msgctxt "no cordless mouse"
+#~ msgid "none"
+#~ msgstr "無"
+
+#~ msgid "Cordless Mouse"
+#~ msgstr "無線滑鼠"
+
+#~ msgid "Cordless Wheel Mouse"
+#~ msgstr "無線滾輪滑鼠"
+
+#~ msgid "Cordless MouseMan Wheel"
+#~ msgstr "無線 MouseMan 滾輪"
+
+#~ msgid "Cordless TrackMan Wheel"
+#~ msgstr "無線 TrackMan 滾輪"
+
+#~ msgid "TrackMan Live"
+#~ msgstr "TrackMan Live"
+
+#~ msgid "Cordless TrackMan FX"
+#~ msgstr "無線 TrackMan FX"
+
+#~ msgid "Cordless MouseMan Optical"
+#~ msgstr "無線 MouseMan 光學"
+
+#~ msgid "Cordless Optical Mouse"
+#~ msgstr "無線光學滑鼠"
+
+#~ msgid "Cordless MouseMan Optical (2ch)"
+#~ msgstr "無線 MouseMan 光學 (2ch)"
+
+#~ msgid "Cordless Optical Mouse (2ch)"
+#~ msgstr "無線光學滑鼠 (2ch)"
+
+#~ msgid "Cordless Mouse (2ch)"
+#~ msgstr "無線滑鼠 (2ch)"
+
+#~ msgid "Cordless Optical TrackMan"
+#~ msgstr "無線光學 TrackMan"
+
+#~ msgid "MX700 Cordless Optical Mouse"
+#~ msgstr "MX700 無線光學滑鼠"
+
+#~ msgid "MX700 Cordless Optical Mouse (2ch)"
+#~ msgstr "MX700 無線光學滑鼠 (2ch)"
+
+#~ msgid "Unknown mouse"
+#~ msgstr "不明的滑鼠"
+
+#~ msgid "Cordless Name"
+#~ msgstr "無線名稱"
+
+#~ msgid "Sensor Resolution"
+#~ msgstr "偵測器解析度"
+
+#~ msgid "400 counts per inch"
+#~ msgstr "每英吋 400 次"
+
+#~ msgid "800 counts per inch"
+#~ msgstr "每英吋 800 次"
+
+#~ msgid "Battery Level"
+#~ msgstr "電池電量"
+
+#~ msgid "RF Channel"
+#~ msgstr "RF 頻道"
+
+#~ msgid "Channel 1"
+#~ msgstr "頻道 1"
+
+#~ msgid "Channel 2"
+#~ msgstr "頻道 2"
+
+#~ msgid ""
+#~ "You have a Logitech Mouse connected, and libusb was found at compile "
+#~ "time, but it was not possible to access this mouse. This is probably "
+#~ "caused by a permissions problem - you should consult the manual on how to "
+#~ "fix this."
+#~ msgstr ""
+#~ "您連接了羅技滑鼠，而且也在編譯時找到 libusb，但是仍無法使用這個滑鼠。這可"
+#~ "能是權限的問題 - 您應該參考手冊以了解如何修正它。"
+
+#~ msgid "Cursor Theme"
+#~ msgstr "游標主題"
+
+#~ msgid "(c) 2003-2007 Fredrik Höglund"
+#~ msgstr "(c) 2003-2007 Fredrik Höglund"
+
+#~ msgid "Fredrik Höglund"
+#~ msgstr "Fredrik Höglund"
+
+#~ msgctxt "@item:inlistbox size"
+#~ msgid "Resolution dependent"
+#~ msgstr "相依於解析度"
+
+#~ msgid "Drag or Type Theme URL"
+#~ msgstr "把佈景主題的網址拖拉到此，或是手動輸入"
+
+#~ msgid "Unable to find the cursor theme archive %1."
+#~ msgstr "無法找到這個游標佈景主題的檔案庫 %1。"
+
+#~ msgid ""
+#~ "Unable to download the cursor theme archive; please check that the "
+#~ "address %1 is correct."
+#~ msgstr "無法下載游標佈景主題的檔案庫；請確定網址 %1 是否正確。"
+
+#~ msgid "The file %1 does not appear to be a valid cursor theme archive."
+#~ msgstr "檔案 %1 並不是一個游標佈景主題"
+
+#~ msgid ""
+#~ "<qt>You cannot delete the theme you are currently using.<br />You have to "
+#~ "switch to another theme first.</qt>"
+#~ msgstr ""
+#~ "<qt>您無法刪除您目前使用中的主題。<br />您必須先切換到其他主題才能刪除。</"
+#~ "qt>"
+
+#~ msgid ""
+#~ "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+#~ "will delete all the files installed by this theme.</qt>"
+#~ msgstr ""
+#~ "<qt>你確定要移除 <i>%1</i> 游標主題嗎？<br />這個動作會刪除所有和這個主題"
+#~ "相關的檔案。</qt>"
+
+#~ msgid "Confirmation"
+#~ msgstr "確認"
+
+#~ msgid ""
+#~ "A theme named %1 already exists in your icon theme folder. Do you want "
+#~ "replace it with this one?"
+#~ msgstr "一個叫做 %1 的佈景主題已經存在於系統中。請問您要取代它嗎？"
+
+#~ msgid "Overwrite Theme?"
+#~ msgstr "覆蓋這個佈景主題？"
+
+#~ msgid ""
+#~ "Select the cursor theme you want to use (hover preview to test cursor):"
+#~ msgstr "請選取你想使用的滑鼠游標佈景主題（游標置其上可測試）:"
+
+#~ msgid "Get new color schemes from the Internet"
+#~ msgstr "從網路取得顏色機制"
+
+#~ msgid "Get New Theme..."
+#~ msgstr "取得新主題..."
+
+#~ msgid "Install From File..."
+#~ msgstr "從檔案安裝..."
+
+#~ msgid "Remove Theme"
+#~ msgstr "移除主題"
+
+#~ msgctxt "@label:listbox cursor size"
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgctxt ""
+#~ "@info The argument is the list of available sizes (in pixel). Example: "
+#~ "'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+#~ msgid "(Available sizes: %1)"
+#~ msgstr "（可用的大小：%1）"
+
+#~ msgid "KDE Classic"
+#~ msgstr "KDE 傳統"
+
+#~ msgid "The default cursor theme in KDE 2 and 3"
+#~ msgstr "預設在 KDE 2 與 3 裡的游標主題"
+
+#~ msgid "No description available"
+#~ msgstr "無相關說明"
+
+#~ msgid "Short"
+#~ msgstr "短"
+
+#~ msgid "Long"
+#~ msgstr "長"

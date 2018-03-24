@@ -1,0 +1,5555 @@
+# translation of kalarm.po to Chinese Traditional
+# Traditional Chinese Translation of kalarmd
+# Copyright (C) 2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Keanu <keanu@ms50.url.com.tw>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kalarm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-14 03:26+0200\n"
+"PO-Revision-Date: 2015-02-20 22:58+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: alarmtext.cpp:519
+#, kde-format
+msgctxt "@info 'From' email address"
+msgid "From:"
+msgstr "寄件者："
+
+#: alarmtext.cpp:520
+#, kde-format
+msgctxt "@info Email addressee"
+msgid "To:"
+msgstr "收件者："
+
+#: alarmtext.cpp:521
+#, kde-format
+msgctxt "@info Copy-to in email headers"
+msgid "Cc:"
+msgstr "副本："
+
+#: alarmtext.cpp:522
+#, kde-format
+msgctxt "@info"
+msgid "Date:"
+msgstr "日期："
+
+#: alarmtext.cpp:523
+#, kde-format
+msgctxt "@info Email subject"
+msgid "Subject:"
+msgstr "主旨："
+
+#: alarmtext.cpp:525
+#, kde-format
+msgctxt "@info Todo calendar item's title field"
+msgid "To-do:"
+msgstr "待辦事項："
+
+#: alarmtext.cpp:526
+#, kde-format
+msgctxt "@info Todo calendar item's location field"
+msgid "Location:"
+msgstr "位置："
+
+#: alarmtext.cpp:527
+#, kde-format
+msgctxt "@info Todo calendar item's due date/time"
+msgid "Due:"
+msgstr "到期時間："
+
+#: kacalendar.cpp:166
+#, kde-format
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#: kaevent.cpp:3015
+#, kde-format
+msgctxt "@info Brief form of 'At Login'"
+msgid "Login"
+msgstr "登入"
+
+#: kaevent.cpp:3015
+#, kde-format
+msgctxt "@info"
+msgid "At login"
+msgstr "登入時"
+
+#: kaevent.cpp:3022 kaevent.cpp:3103
+#, kde-format
+msgctxt "@info"
+msgid "1 Minute"
+msgid_plural "%1 Minutes"
+msgstr[0] "%1 分鐘"
+
+#: kaevent.cpp:3024 kaevent.cpp:3106
+#, kde-format
+msgctxt "@info"
+msgid "1 Hour"
+msgid_plural "%1 Hours"
+msgstr[0] "%1 小時"
+
+#: kaevent.cpp:3027 kaevent.cpp:3109
+#, kde-format
+msgctxt "@info Hours and minutes"
+msgid "%1h %2m"
+msgstr "%1：%2"
+
+#: kaevent.cpp:3030 kaevent.cpp:3113
+#, kde-format
+msgctxt "@info"
+msgid "1 Day"
+msgid_plural "%1 Days"
+msgstr[0] "%1 天"
+
+#: kaevent.cpp:3032 kaevent.cpp:3115
+#, kde-format
+msgctxt "@info"
+msgid "1 Week"
+msgid_plural "%1 Weeks"
+msgstr[0] "%1 星期"
+
+#: kaevent.cpp:3034
+#, kde-format
+msgctxt "@info"
+msgid "1 Month"
+msgid_plural "%1 Months"
+msgstr[0] "%1 個月"
+
+#: kaevent.cpp:3036
+#, kde-format
+msgctxt "@info"
+msgid "1 Year"
+msgid_plural "%1 Years"
+msgstr[0] "%1 年"
+
+#: kaevent.cpp:3042
+#, kde-format
+msgctxt "@info No recurrence"
+msgid "None"
+msgstr "無"
+
+#: kaevent.cpp:3117
+#, kde-format
+msgctxt "@info No repetition"
+msgid "None"
+msgstr "無"
+
+#~ msgctxt "@info/plain Email addressee"
+#~ msgid "To:"
+#~ msgstr "收件人："
+
+#~ msgctxt "@info/plain Email subject"
+#~ msgid "Subject:"
+#~ msgstr "主旨："
+
+#~ msgctxt "@info/plain No repetition"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Calendar <resource>%1</resource> is in an old format "
+#~ "(<application>KAlarm</application> version %2), and will be read-only "
+#~ "unless you choose to update it to the current format."
+#~ msgstr ""
+#~ "行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</"
+#~ "application> 版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Some or all of the alarms in calendar <resource>%1</resource> are in an "
+#~ "old <application>KAlarm</application> format, and will be read-only "
+#~ "unless you choose to update them to the current format."
+#~ msgstr ""
+#~ "行事曆 <resource>%1</resource> 中部份或所有的鬧鐘使用舊的 "
+#~ "<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，"
+#~ "否則將會設為唯讀。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>%1</para><para><warning>Do not update the calendar if it is also "
+#~ "used with an older version of <application>KAlarm</application> (e.g. on "
+#~ "another computer). If you do so, the calendar may become unusable there.</"
+#~ "warning></para><para>Do you wish to update the calendar?</para>"
+#~ msgstr ""
+#~ "<para>%1</para><para><warning>如果此行事曆正與其它使用舊版 "
+#~ "<application>KAlarm</application> 使用者共享，不要更新此資源，這樣可能會變"
+#~ "成無法使用。</warning></para><para>您要更新此行事曆嗎？</para>"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Command execution failed"
+#~ msgstr "指令執行失敗"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Pre-alarm action execution failed"
+#~ msgstr "鬧鐘響鈴前動作失敗"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Post-alarm action execution failed"
+#~ msgstr "鬧鐘響鈴後動作失敗"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Pre- and post-alarm action execution failed"
+#~ msgstr "鬧鐘響鈴前與響鈴後動作失敗"
+
+#~ msgctxt "@title:column"
+#~ msgid "Calendars"
+#~ msgstr "行事曆"
+
+#~ msgctxt "@title:column"
+#~ msgid "Time"
+#~ msgstr "時間"
+
+#~ msgctxt "@title:column"
+#~ msgid "Time To"
+#~ msgstr "剩餘時間"
+
+#~ msgctxt "@title:column"
+#~ msgid "Repeat"
+#~ msgstr "重覆"
+
+#~ msgctxt "@title:column"
+#~ msgid "Message, File or Command"
+#~ msgstr "訊息，檔案或指令"
+
+#~ msgctxt "@title:column Template name"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "@info/plain Alarm never occurs"
+#~ msgid "Never"
+#~ msgstr "從不"
+
+#~ msgctxt "@info/plain n days"
+#~ msgid "%1d"
+#~ msgstr " %1 天"
+
+#~ msgctxt "@info/plain hours:minutes"
+#~ msgid "%1:%2"
+#~ msgstr "%1：%2"
+
+#~ msgctxt "@info/plain days hours:minutes"
+#~ msgid "%1d %2:%3"
+#~ msgstr "%1 天 %2：%3"
+
+#~ msgctxt "@info/plain"
+#~ msgid "URL"
+#~ msgstr "網址"
+
+#~ msgctxt "@info/plain Directory in filesystem"
+#~ msgid "Directory"
+#~ msgstr "目錄"
+
+#~ msgctxt "@info/plain"
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4, %5"
+#~ msgstr "%1<nl/>%2：<filename>%3</filename><nl/>%4，%5"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4"
+#~ msgstr "%1<nl/>%2：<filename>%3</filename><nl/>%4"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "%1<nl/>%2: <filename>%3</filename>"
+#~ msgstr "%1<nl/>%2：<filename>%3</filename>"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Read-only (old format)"
+#~ msgstr "唯讀（舊格式）"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Read-only"
+#~ msgstr "唯讀"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Read-only (other format)"
+#~ msgstr "唯讀（其他格式）"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Next scheduled date and time of the alarm"
+#~ msgstr "鬧鐘下一次響鈴日期與時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "How long until the next scheduled trigger of the alarm"
+#~ msgstr "到下一次鬧鐘響鈴有多久"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "How often the alarm recurs"
+#~ msgstr "鬧鐘多久重覆響一次"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Background color of alarm message"
+#~ msgstr "鬧鐘訊息的背景顏色"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Alarm type (message, file, command or email)"
+#~ msgstr "鬧鐘型態（訊息，檔案，命令或電子郵件）"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Alarm message text, URL of text file to display, command to execute, or "
+#~ "email subject line"
+#~ msgstr ""
+#~ "鬧鐘訊息文字，或要顯示的網址，或要執行的指令，或要送出電子郵件的標題。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Name of the alarm template"
+#~ msgstr "鬧鐘樣本的名稱"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to remove calendar <resource>%1</resource>."
+#~ msgstr "無法移除行事曆 <resource>%1</resource>。"
+
+#~ msgctxt "@info"
+#~ msgid "%1<nl/>(%2)"
+#~ msgstr "%1<nl/>(%2)"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to update calendar <resource>%1</resource>."
+#~ msgstr "無法更新行事曆 <resource>%1</resource>。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Failed to create alarm."
+#~ msgstr "建立鬧鐘失敗。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Failed to update alarm."
+#~ msgstr "更新鬧鐘失敗。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Failed to delete alarm."
+#~ msgstr "刪除鬧鐘失敗。"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot download calendar: <filename>%1</filename>"
+#~ msgstr ""
+#~ "無法下載行事曆：\n"
+#~ "<filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>Error loading calendar:</para><para><filename>%1</filename></"
+#~ "para><para>Please fix or delete the file.</para>"
+#~ msgstr ""
+#~ "<para>載入行事曆錯誤：</para><para><filename>%1</filename></para><para>請"
+#~ "修復或刪除此檔案。</para>"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to save calendar to <filename>%1</filename>"
+#~ msgstr "無法儲存行事曆到 <filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot upload calendar to <filename>%1</filename>"
+#~ msgstr "無法上傳行事曆到 <filename>%1</filename>"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Calendar Files"
+#~ msgstr "行事曆檔案"
+
+#~ msgctxt "@info"
+#~ msgid "Could not load calendar <filename>%1</filename>."
+#~ msgstr "無法載入行事曆檔 <filename>%1</filename>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose Export Calendar"
+#~ msgstr "選擇要匯出的行事曆"
+
+#~ msgctxt "@info"
+#~ msgid "Error loading calendar to append to:<nl/><filename>%1</filename>"
+#~ msgstr "無法載褥行事曆並附加到：<nl/><filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to save new calendar to:<nl/><filename>%1</filename>"
+#~ msgstr "無法儲存行事曆到：<nl/><filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot upload new calendar to:<nl/><filename>%1</filename>"
+#~ msgstr "無法上傳行事曆到：<nl/> <filename>%1</filename>"
+
+#~ msgctxt "@info/plain"
+#~ msgid ""
+#~ "Enter the length of time (in hours and minutes) after the current time to "
+#~ "schedule the alarm."
+#~ msgstr "請輸入從目前算起到下次鬧鐘響的時間（幾小時幾分）以便排程。"
+
+#~ msgctxt "@info/plain"
+#~ msgid ""
+#~ "If a recurrence is configured, the start date/time will be adjusted to "
+#~ "the first recurrence on or after the entered date/time."
+#~ msgstr ""
+#~ "如果有設定循環，啟始日期與時間會被調整到第一次循環（或之後）的日期與時間。"
+
+#~ msgctxt "@info/plain"
+#~ msgid ""
+#~ "This uses KAlarm's default time zone, set in the Configuration dialog."
+#~ msgstr "這會用到 KAlarm 的預設時區，請在設定對話框中設定。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Defer to date/time:"
+#~ msgstr "延遲日期/時間："
+
+#~ msgctxt "@option:radio"
+#~ msgid "At date/time:"
+#~ msgstr "於日期/時間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Reschedule the alarm to the specified date and time."
+#~ msgstr "重新安排鬧鐘於指定的日期與時間。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Specify the date, or date and time, to schedule the alarm."
+#~ msgstr "指定日期與時間以安排鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<para>Enter the date to schedule the alarm.</para><para>%1</para>"
+#~ msgstr "<para>請輸入日期。</para><para>%1</para>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Enter the time to schedule the alarm.</para><para>%1</para><para>"
+#~ "%2</para>"
+#~ msgstr "<para>請輸入時間以排程鬧鐘。</para> <para>%1</para> <para>%2</para>"
+
+#~ msgctxt "@option:check"
+#~ msgid "Any time"
+#~ msgstr "任何時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to specify only a date (without a time) for the alarm. The alarm "
+#~ "will trigger at the first opportunity on the selected date."
+#~ msgstr ""
+#~ "勾選此項以對鬧鐘指定日期（不指定時間）。鬧鐘會在該日期的第一個可顯示的機會"
+#~ "中顯示。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Defer for time interval:"
+#~ msgstr "延遲的時間間隔："
+
+#~ msgctxt "@option:radio"
+#~ msgid "Time from now:"
+#~ msgstr "距離現在時間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Reschedule the alarm for the specified time interval after now."
+#~ msgstr "重新安排鬧鐘於多久以後響鈴。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Schedule the alarm after the specified time interval from now."
+#~ msgstr "安排鬧鐘於多久以後響鈴。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<para>%1</para><para>%2</para>"
+#~ msgstr "<para>%1</para> <para>%2</para>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<para>%1</para><para>%2</para><para>%3</para>"
+#~ msgstr "<para>%1</para> <para>%2</para> <para>%3</para>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Time Zone..."
+#~ msgstr "時區..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Choose a time zone for this alarm which is different from the default "
+#~ "time zone set in KAlarm's configuration dialog."
+#~ msgstr ""
+#~ "若是此鬧鐘使用的時區與設定對話框中的預設時區不同，可以在這裡選取使用的時"
+#~ "區。"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Time zone:"
+#~ msgstr "時區："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the time zone to use for this alarm."
+#~ msgstr "請輸入時區。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Ignore time zone"
+#~ msgstr "忽略時區"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Check to use the local computer time, ignoring time zones.</"
+#~ "para><para>You are recommended not to use this option if the alarm has a "
+#~ "recurrence specified in hours/minutes. If you do, the alarm may occur at "
+#~ "unexpected times after daylight saving time shifts.</para>"
+#~ msgstr ""
+#~ "<para>如果鬧鐘會在指定的時間循環使用，那麼不建議您使用此選項。</para> "
+#~ "<para>因為這樣有可能會造成鬧鐘因為日光節約時間等造成的時間偏差而跑到非預期"
+#~ "的時間去。</para>"
+
+#~ msgctxt "@info"
+#~ msgid "Invalid time"
+#~ msgstr "無效的時間"
+
+#~ msgctxt "@info"
+#~ msgid "Invalid date"
+#~ msgstr "無效的日期"
+
+#~ msgctxt "@info"
+#~ msgid "Alarm date has already expired"
+#~ msgstr "鬧鐘日期已過"
+
+#~ msgctxt "@info"
+#~ msgid "Alarm time has already expired"
+#~ msgstr "鬧鐘時間已過"
+
+#~ msgid "KAlarm Autostart"
+#~ msgstr "KAlarm 自動啟動"
+
+#~ msgid "KAlarm autostart at login"
+#~ msgstr "在登入時自動啟動 KAlarm"
+
+#~ msgid "Copyright 2001,2008 David Jarvie"
+#~ msgstr "Copyright 2001,2008 David Jarvie"
+
+#~ msgid "David Jarvie"
+#~ msgstr "David Jarvie"
+
+#~ msgid "Maintainer"
+#~ msgstr "維護者"
+
+#~ msgid "Application to autostart"
+#~ msgstr "要自動啟動的應用程式"
+
+#~ msgid "Command line arguments"
+#~ msgstr "命令列參數"
+
+#~ msgctxt "@title:window"
+#~ msgid "Import Birthdays From KAddressBook"
+#~ msgstr "從 KAddressBook 匯入生日設定"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Birthday: "
+#~ msgstr "生日："
+
+#~ msgctxt "@title:group"
+#~ msgid "Alarm Text"
+#~ msgstr "鬧鐘文字"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Prefix:"
+#~ msgstr "前置字串："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter text to appear before the person's name in the alarm message, "
+#~ "including any necessary trailing spaces."
+#~ msgstr "輸入在鬧鐘訊息中，要顯示人名之前的字串，包含需要的空格。"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Suffix:"
+#~ msgstr "後置字串："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter text to appear after the person's name in the alarm message, "
+#~ "including any necessary leading spaces."
+#~ msgstr "輸入在鬧鐘訊息中，要顯示人名之後的字串，包含需要的空格。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Select Birthdays"
+#~ msgstr "選擇生日"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Select birthdays to set alarms for.<nl/>This list shows all "
+#~ "birthdays in <application>KAddressBook</application> except those for "
+#~ "which alarms already exist.</para><para>You can select multiple birthdays "
+#~ "at one time by dragging the mouse over the list, or by clicking the mouse "
+#~ "while pressing Ctrl or Shift.</para>"
+#~ msgstr ""
+#~ "<para>選擇要設定鬧鐘的生日。<nl/>這份清單顯示所有在 "
+#~ "<application>KAddressBook</application> 中設定的生日，除了已經設定好鬧鐘的"
+#~ "之外。</para><para>您可以拖曳的方式，或是用 Ctrl 或 Shift 鍵來一次選擇多個"
+#~ "生日。</para>"
+
+#~ msgctxt "@title:group"
+#~ msgid "Alarm Configuration"
+#~ msgstr "鬧鐘設定"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to display a reminder in advance of or after the birthday."
+#~ msgstr "開啟選項以便在生日之前或之後提醒。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the number of days before or after each birthday to display a "
+#~ "reminder. This is in addition to the alarm which is displayed on the "
+#~ "birthday."
+#~ msgstr "輸入您希望在生日之前或之後多久顯示提醒訊息。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Select whether the reminder should be triggered before or after the "
+#~ "birthday."
+#~ msgstr "選擇是否在生日前後觸發提醒。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Sub-Repetition"
+#~ msgstr "子重覆"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Set up an additional alarm repetition"
+#~ msgstr "設定額外的鬧鐘重覆間隔"
+
+#~ msgctxt "@info"
+#~ msgid "You cannot disable your default active alarm calendar."
+#~ msgstr "您無法關閉作用中的預設鬧鐘行事曆。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "You cannot disable your default archived alarm calendar while expired "
+#~ "alarms are configured to be kept."
+#~ msgstr "您無法關閉您預設的歸檔鬧鐘行事曆，因為您設定將逾時的鬧鐘保留住。"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to disable your default calendar?"
+#~ msgstr "您真的要關閉您的預設行事曆嗎？"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The calendar <resource>%1</resource> has been made read-only. This was "
+#~ "the default calendar for active alarms."
+#~ msgstr ""
+#~ "行事曆 <resource>%1</resource> 已變成唯讀。這是作用中鬧鐘的預設行事曆。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The calendar <resource>%1</resource> has been made read-only. This was "
+#~ "the default calendar for archived alarms."
+#~ msgstr ""
+#~ "行事曆 <resource>%1</resource> 已變成唯讀。這是歸檔鬧鐘的預設行事曆。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The calendar <resource>%1</resource> has been made read-only. This was "
+#~ "the default calendar for alarm templates."
+#~ msgstr ""
+#~ "行事曆 <resource>%1</resource> 已變成唯讀。這是鬧鐘樣本的預設行事曆。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>The calendar <resource>%1</resource> has been made read-only. This "
+#~ "was the default calendar for:%2</para><para>Please select new default "
+#~ "calendars.</para>"
+#~ msgstr ""
+#~ "<para>行事曆 <resource>%1</resource> 已變成唯讀。這是 %2 的預設行事曆。</"
+#~ "para> <para>請選擇新的預設行事曆。</para>"
+
+#~ msgctxt "@info"
+#~ msgid "<para>%1</para><para>Please select a new default calendar.</para>"
+#~ msgstr "<para>%1</para> <para>請選擇新的預設行事曆。</para>"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Active Alarms"
+#~ msgstr "作用中的鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Archived Alarms"
+#~ msgstr "已歸檔的鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Alarm Templates"
+#~ msgstr "鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose Calendar"
+#~ msgstr "選擇行事曆"
+
+#~ msgctxt "@info:shell"
+#~ msgid "<icode>%1</icode>: invalid email address"
+#~ msgstr "<icode>%1</icode>：不正確的電子郵件地址"
+
+#~ msgctxt "@info:shell"
+#~ msgid "Invalid <icode>%1</icode> parameter for date-only alarm"
+#~ msgstr "日期鬧鐘裡無效的 <icode>%1</icode> 參數"
+
+#~ msgctxt "@info:shell"
+#~ msgid "<icode>%1</icode> earlier than <icode>%2</icode>"
+#~ msgstr "<icode>%1</icode> 比 <icode>%2</icode> 早"
+
+#~ msgctxt "@info:shell"
+#~ msgid ""
+#~ "Invalid <icode>%1</icode> and <icode>%2</icode> parameters: repetition is "
+#~ "longer than <icode>%3</icode> interval"
+#~ msgstr ""
+#~ "不合理的 <icode>%1</icode> 與 <icode>%2</icode> 參數：重覆比 <icode>%3</"
+#~ "icode> 間隔還長"
+
+#~ msgctxt "@info:shell"
+#~ msgid ""
+#~ "<icode>%1</icode> requires speech synthesis to be configured using Jovie"
+#~ msgstr "<icode>%1</icode> 需要設定使用 Jovie 的語音合成系統"
+
+#~ msgctxt "@info:shell"
+#~ msgid ": option(s) only valid with an appropriate action option or message"
+#~ msgstr "：選項只在有合適的動作選項或訊息時合法"
+
+#~ msgctxt "@info:shell"
+#~ msgid ""
+#~ "\n"
+#~ "Use --help to get a list of available command line options.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "使用 --help 以取得可用的命令列選項列表。\n"
+
+#~ msgctxt "@info:shell"
+#~ msgid "<icode>%1</icode> requires <icode>%2</icode>"
+#~ msgstr "<icode>%1</icode> 不相容於 <icode>%2</icode>"
+
+#~ msgctxt "@info:shell"
+#~ msgid "<icode>%1</icode> requires <icode>%2</icode> or <icode>%3</icode>"
+#~ msgstr "<icode>%1</icode> 需要 <icode>%2</icode> 或 <icode>%3</icode>"
+
+#~ msgctxt "@info:shell"
+#~ msgid "Invalid <icode>%1</icode> parameter"
+#~ msgstr "無效的 <icode>%1</icode> 參數"
+
+#~ msgctxt "@info:shell"
+#~ msgid "<icode>%1</icode> incompatible with <icode>%2</icode>"
+#~ msgstr "<icode>%1</icode> 不相容於 <icode>%2</icode>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Defer Alarm"
+#~ msgstr "延遲鬧鐘"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel Deferral"
+#~ msgstr "取消延遲"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Defer the alarm until the specified time."
+#~ msgstr "將鬧鐘延遲到指定的時間。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Cancel the deferred alarm. This does not affect future recurrences."
+#~ msgstr "取消延遲鬧鐘。這不會影響到將來的循環。"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot defer past the alarm's next sub-repetition (currently %1)"
+#~ msgstr "您不能將鬧鐘延遲設定到超過鬧鐘下一次子重覆的時間（目前：%1）"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot defer past the alarm's next recurrence (currently %1)"
+#~ msgstr "您不能將鬧鐘延遲設定到超過鬧鐘下一次循環的時間（目前：%1）"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot defer past the alarm's next reminder (currently %1)"
+#~ msgstr "您不能將鬧鐘延遲設定到超過鬧鐘下一次提醒訊息的時間（目前：%1）"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot defer reminder past the main alarm time (%1)"
+#~ msgstr "您不能將鬧鐘延遲設定到超過下一次主要鬧鐘時間（%1）"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Recurrence - [%1]"
+#~ msgstr "循環─【%1】"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show in KOrganizer"
+#~ msgstr "在 KOrganizer 中顯示"
+
+#~ msgctxt "@title:window"
+#~ msgid "Alarm Template [read-only]"
+#~ msgstr "鬧鐘樣本【唯讀】"
+
+#~ msgctxt "@title:window"
+#~ msgid "Archived Alarm [read-only]"
+#~ msgstr "已歸檔的鬧鐘【唯讀】"
+
+#~ msgctxt "@title:window"
+#~ msgid "Alarm [read-only]"
+#~ msgstr "鬧鐘【唯讀】"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load Template..."
+#~ msgstr "載入樣本..."
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Template name:"
+#~ msgstr "樣本名稱："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the name of the alarm template"
+#~ msgstr "請輸入鬧鐘樣本的名稱。"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Alarm"
+#~ msgstr "鬧鐘"
+
+#~ msgctxt "@title:group"
+#~ msgid "Action"
+#~ msgstr "動作"
+
+#~ msgctxt "@title:group"
+#~ msgid "Deferred Alarm"
+#~ msgstr "延遲鬧鐘"
+
+#~ msgctxt "@label"
+#~ msgid "Deferred to:"
+#~ msgstr "延遲到："
+
+#~ msgctxt "@action:button"
+#~ msgid "Change..."
+#~ msgstr "改變..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Change the alarm's deferred time, or cancel the deferral"
+#~ msgstr "改變鬧鐘延遲時間，或取消延遲"
+
+#~ msgctxt "@title:group"
+#~ msgid "Time"
+#~ msgstr "時間"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Default time"
+#~ msgstr "延遲時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Do not specify a start time for alarms based on this template. The normal "
+#~ "default start time will be used."
+#~ msgstr "不要依據此樣本來指定鬧鐘的啟始時間。將使用正常預設啟始時間。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Time:"
+#~ msgstr "時間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Specify a start time for alarms based on this template."
+#~ msgstr "依據此樣本指定鬧鐘的啟始時間。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Enter the start time for alarms based on this template.</para><para>"
+#~ "%1</para>"
+#~ msgstr "<para>依據此樣本輸入鬧鐘的啟始時間。</para> <para>%1</para>"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Date only"
+#~ msgstr "只有日期"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Set the <interface>Any time</interface> option for alarms based on this "
+#~ "template."
+#~ msgstr "依據此樣本設定鬧鐘的<interface>任何時間</interface>選項。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Set alarms based on this template to start after the specified time "
+#~ "interval from when the alarm is created."
+#~ msgstr "依據此樣本設定鬧鐘啟始時間為自產生鬧鐘時間算起特定時間之後。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to copy the alarm into KOrganizer's calendar"
+#~ msgstr "開啟此選項以便檢查 KOrganizer 行事曆中的鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Schedule the alarm at the specified time."
+#~ msgstr "在指定的時間安排鬧鐘響鈴。"
+
+#~ msgctxt "@info"
+#~ msgid "You must enter a name for the alarm template"
+#~ msgstr "您必須輸入鬧鐘樣本的名稱。"
+
+#~ msgctxt "@info"
+#~ msgid "Template name is already in use"
+#~ msgstr "樣本名稱已存在。"
+
+#~ msgctxt "@info The parameter is a date value"
+#~ msgid ""
+#~ "The start date does not match the alarm's recurrence pattern, so it will "
+#~ "be adjusted to the date of the next recurrence (%1)."
+#~ msgstr ""
+#~ "開始日期與鬧鐘的循環樣式不符，因此會被調整到下一次循環的日期（%1）。"
+
+#~ msgctxt "@info The parameter is a date/time value"
+#~ msgid ""
+#~ "The start date/time does not match the alarm's recurrence pattern, so it "
+#~ "will be adjusted to the date/time of the next recurrence (%1)."
+#~ msgstr ""
+#~ "開始日期時間與鬧鐘的循環樣式不符，因此會被調整到下一次循環的日期與時間"
+#~ "（%1）。"
+
+#~ msgctxt "@info"
+#~ msgid "Recurrence has already expired"
+#~ msgstr "循環時間已過。"
+
+#~ msgctxt "@info"
+#~ msgid "The alarm will never occur during working hours"
+#~ msgstr "此鬧鐘將不會在工作時間內響鈴"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Reminder period must be less than the recurrence interval, unless "
+#~ "<interface>%1</interface> is checked."
+#~ msgstr ""
+#~ "設定提醒的時間必須少於所設定的循環時間，除非選取 <interface>%1</"
+#~ "interface> 選項。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The duration of a repetition within the recurrence must be less than the "
+#~ "recurrence interval minus any reminder period"
+#~ msgstr "在循環內重覆的間隔必須比循環間隔減去提醒時間間隔還要小。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "For a repetition within the recurrence, its period must be in units of "
+#~ "days or weeks for a date-only alarm"
+#~ msgstr "只設定日期的鬧鐘，其循環內的重覆時間必須以天或周為單位。"
+
+#~ msgctxt "@info"
+#~ msgid "You must select a calendar to save the alarm in"
+#~ msgstr "選擇行事曆以儲存鬧鐘。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Less Options <<"
+#~ msgstr "減少選項<<"
+
+#~ msgctxt "@action:button"
+#~ msgid "More Options >>"
+#~ msgstr "增加選項>>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose Log File"
+#~ msgstr "選擇一個紀錄檔"
+
+#~ msgctxt "@option:check"
+#~ msgid "Confirm acknowledgment"
+#~ msgstr "回覆確認"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Display Alarm Template"
+#~ msgstr "新的鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Display Alarm Template"
+#~ msgstr "編輯鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Display Alarm"
+#~ msgstr "顯示鬧鐘"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Display Alarm"
+#~ msgstr "顯示鬧鐘"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Display type:"
+#~ msgstr "顯示鬧鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Text message"
+#~ msgstr "鬧鐘訊息"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "File contents"
+#~ msgstr "檔案內容"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Command output"
+#~ msgstr "指令輸出"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Select what the alarm should display:<list><item><interface>%1</"
+#~ "interface>: the alarm will display the text message you type in.</"
+#~ "item><item><interface>%2</interface>: the alarm will display the contents "
+#~ "of a text or image file.</item><item><interface>%3</interface>: the alarm "
+#~ "will display the output from a command.</item></list></para>"
+#~ msgstr ""
+#~ "<para>選擇鬧鐘要顯示什麼 <list><item><interface>%1</interface>：鬧鐘會顯示"
+#~ "您輸入的訊息。</item> <item><interface>%2</interface>：鬧鐘會顯示文字檔或"
+#~ "圖片檔的內容。</item> <item><interface>%3</interface>：鬧鐘會顯示某個指令"
+#~ "的輸出。</item></list></para>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the text of the alarm message. It may be multi-line."
+#~ msgstr "輸入鬧鐘訊息的文字。允許多行。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the name or URL of a text or image file to display."
+#~ msgstr "輸入要顯示的文字或圖片的檔名或網址。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Choose a file"
+#~ msgstr "選擇一個檔案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select a text or image file to display."
+#~ msgstr "選擇要顯示的文字或圖片檔。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter how long in advance of or after the main alarm to display a "
+#~ "reminder alarm."
+#~ msgstr "輸入在主要鬧鐘響鈴時間之前或之後多久要顯示提醒。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to additionally display a reminder in advance of or after the main "
+#~ "alarm time(s)."
+#~ msgstr "勾選此選項以便在主要鬧鐘響鈴時間之前或之後顯示提醒。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Enter how long in advance of or after the main alarm to display a "
+#~ "reminder alarm.</para><para>%1</para>"
+#~ msgstr ""
+#~ "<para>輸入在主要鬧鐘響鈴時間之前或之後多久要顯示提醒。</para> <para>%1</"
+#~ "para>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Select whether the reminder should be triggered before or after the main "
+#~ "alarm"
+#~ msgstr "選擇是否在主要鬧鐘前後觸發提醒。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to be prompted for confirmation when you acknowledge the alarm."
+#~ msgstr "當確認鬧鐘時提醒確認。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Display the alarm message now"
+#~ msgstr "立即顯示鬧鐘訊息"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Display the file now"
+#~ msgstr "立即顯示檔案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Display the command output now"
+#~ msgstr "馬上顯示命令的輸出"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose Text or Image File to Display"
+#~ msgstr "選擇要顯示的文字或圖片檔案"
+
+#~ msgctxt "@option:check"
+#~ msgid "Enter a script"
+#~ msgstr "輸入一個文稿"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Execute in terminal window"
+#~ msgstr "於終端視窗中執行"
+
+#~ msgctxt "@option:check"
+#~ msgid "Execute in terminal window"
+#~ msgstr "於終端視窗中執行"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Command Alarm Template"
+#~ msgstr "新的鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Command Alarm Template"
+#~ msgstr "編輯鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Command Alarm"
+#~ msgstr "新增指令型鬧鐘"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Command Alarm"
+#~ msgstr "編輯指令型鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Execute the specified command now"
+#~ msgstr "立即執行指定的指令。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Command Output"
+#~ msgstr "指令輸出"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to execute the command in a terminal window"
+#~ msgstr "勾選此選項以在終端視窗中執行指令。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the name or path of the log file."
+#~ msgstr "輸入紀錄檔的名稱或路徑。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select a log file."
+#~ msgstr "選擇紀錄檔。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Log to file"
+#~ msgstr "紀錄到檔案中(&G)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to log the command output to a local file. The output will be "
+#~ "appended to any existing contents of the file."
+#~ msgstr ""
+#~ "勾選此選項以便將指令輸出紀錄到檔案中。如果檔案已存在則輸出會被附加到檔案的"
+#~ "最尾端。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Discard"
+#~ msgstr "丟棄"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to discard command output."
+#~ msgstr "勾選此選項以捨棄指令輸出。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Log file must be the name or path of a local file, with write permission."
+#~ msgstr "紀錄檔必須是本地端的檔案，並且具有寫入權限。"
+
+#~ msgctxt "@info"
+#~ msgid "Command executed: <icode>%1</icode>"
+#~ msgstr "指令執行：<icode>%1</icode>"
+
+#~ msgctxt "@option:check"
+#~ msgid "Copy email to self"
+#~ msgstr "複製信件給自己"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Email Alarm Template"
+#~ msgstr "新增電子郵件型鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Email Alarm Template"
+#~ msgstr "編輯電子郵件型鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Email Alarm"
+#~ msgstr "新增電子郵件型鬧鐘"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Email Alarm"
+#~ msgstr "編輯電子郵件型鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Send the email to the specified addressees now"
+#~ msgstr "立即寄出信件給指定的地址"
+
+#~ msgctxt "@label:listbox 'From' email address"
+#~ msgid "From:"
+#~ msgstr "寄件者："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Your email identity, used to identify you as the sender when sending "
+#~ "email alarms."
+#~ msgstr "電子郵件的寄件者身份，用於送出的電子郵件中。"
+
+#~ msgctxt "@label:textbox Email addressee"
+#~ msgid "To:"
+#~ msgstr "收件人："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the addresses of the email recipients. Separate multiple addresses "
+#~ "by commas or semicolons."
+#~ msgstr "輸入收件人的電子郵件地址。如果有多個收件人，請用分號隔開。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Open address book"
+#~ msgstr "開啟通訊錄"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select email addresses from your address book."
+#~ msgstr "從通訊錄中選擇電子郵件地址。"
+
+#~ msgctxt "@label:textbox Email subject"
+#~ msgid "Subject:"
+#~ msgstr "主旨："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the email subject."
+#~ msgstr "輸入電子郵件的主旨。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the email message."
+#~ msgstr "輸入電子郵件的內文訊息。"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Attachments:"
+#~ msgstr "附加檔案："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Files to send as attachments to the email."
+#~ msgstr "附加在電子郵件中寄出的檔案。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add..."
+#~ msgstr "增加..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Add an attachment to the email."
+#~ msgstr "增加附檔於電子郵件中。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Remove the highlighted attachment from the email."
+#~ msgstr "從電子郵件中移除所選取的附加檔。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "If checked, the email will be blind copied to you."
+#~ msgstr "勾選此選項的話，寄出信件時會送一份密件副本給您。"
+
+#~ msgctxt "@info"
+#~ msgid "Invalid email address: <email>%1</email>"
+#~ msgstr "不正確的電子郵件地址：<email>%1</email>"
+
+#~ msgctxt "@info"
+#~ msgid "No email address specified"
+#~ msgstr "沒有指定電子郵件地址"
+
+#~ msgctxt "@info"
+#~ msgid "Invalid email attachment: <filename>%1</filename>"
+#~ msgstr "不正確的email附加檔： <filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Do you really want to send the email now to the specified recipient(s)?"
+#~ msgstr "您現在要寄出信件給指定的收件人嗎？ "
+
+#~ msgctxt "@action:button"
+#~ msgid "Confirm Email"
+#~ msgstr "確認信件"
+
+#~ msgctxt "@action:button"
+#~ msgid "Send"
+#~ msgstr "寄出"
+
+#~ msgctxt "@info"
+#~ msgid "Email sent to:<nl/>%1<nl/>Bcc: <email>%2</email>"
+#~ msgstr "電子郵件收件人：<nl/>%1<nl/>密件附本：<email>%2</email>"
+
+#~ msgctxt "@info"
+#~ msgid "Email sent to:<nl/>%1"
+#~ msgstr "信件寄到：<nl/>%1"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose File to Attach"
+#~ msgstr "選擇要附加的檔案"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Audio Alarm Template"
+#~ msgstr "新增音效型鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Audio Alarm Template"
+#~ msgstr "編輯音效型鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "New Audio Alarm"
+#~ msgstr "新增音效型鬧鐘"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Audio Alarm"
+#~ msgstr "編輯音效型鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to enter the contents of a script instead of a shell command line"
+#~ msgstr "勾選此選項以使用文稿而非指令。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter a shell command to execute."
+#~ msgstr "輸入要執行的指令。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the contents of a script to execute"
+#~ msgstr "輸入要執行的文稿內容。"
+
+#~ msgctxt "@info"
+#~ msgid "Please enter a command or script to execute"
+#~ msgstr "輸入要執行的文稿或指令"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "List of scheduled alarms"
+#~ msgstr "已排程鬧鐘列表"
+
+#~ msgctxt "@title:group"
+#~ msgid "Alarm Type"
+#~ msgstr "鬧鐘型態"
+
+#~ msgctxt "@option:check Alarm type"
+#~ msgid "Active"
+#~ msgstr "已啟動"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to include active alarms in the search."
+#~ msgstr "勾選此項以搜尋已啟動的鬧鐘。"
+
+#~ msgctxt "@option:check Alarm type"
+#~ msgid "Archived"
+#~ msgstr "已歸檔"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to include archived alarms in the search. This option is only "
+#~ "available if archived alarms are currently being displayed."
+#~ msgstr "勾選此項以搜尋已歸檔的鬧鐘。只有在顯示中有已歸檔的鬧鐘時才能選擇。"
+
+#~ msgctxt "@option:check Alarm action = text display"
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to include text message alarms in the search."
+#~ msgstr "勾選此項以搜尋文字訊息型鬧鐘。"
+
+#~ msgctxt "@option:check Alarm action = file display"
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to include file alarms in the search."
+#~ msgstr "勾選此項以搜尋檔案型鬧鐘。"
+
+#~ msgctxt "@option:check Alarm action"
+#~ msgid "Command"
+#~ msgstr "指令"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to include command alarms in the search."
+#~ msgstr "勾選此項以搜尋指令型鬧鐘。"
+
+#~ msgctxt "@option:check Alarm action"
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to include email alarms in the search."
+#~ msgstr "勾選此項以搜尋電子郵件型鬧鐘。"
+
+#~ msgctxt "@option:check Alarm action"
+#~ msgid "Audio"
+#~ msgstr "音效"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to include audio alarms in the search."
+#~ msgstr "勾選此項以搜尋音效型鬧鐘。"
+
+#~ msgctxt "@info"
+#~ msgid "No alarm types are selected to search"
+#~ msgstr "沒有選擇要搜尋的鬧鐘型態"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>End of alarm list reached.</para><para>Continue from the beginning?"
+#~ "</para>"
+#~ msgstr "<para>已到達鬧鐘清單的尾端。</para><para>您要從開頭繼續嗎？</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>Beginning of alarm list reached.</para><para>Continue from the end?"
+#~ "</para>"
+#~ msgstr "<para>已到達鬧鐘清單的開頭。</para><para>您要從尾端繼續嗎？</para>"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Foreground color:"
+#~ msgstr "前景顏色："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the alarm message foreground color"
+#~ msgstr "選擇鬧鐘訊息的前景顏色"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Background color:"
+#~ msgstr "背景顏色："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the alarm message background color"
+#~ msgstr "選擇鬧鐘訊息的背景顏色"
+
+#~ msgctxt "@option:check"
+#~ msgid "Use default font"
+#~ msgstr "使用預設字型"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to use the default font current at the time the alarm is displayed."
+#~ msgstr "勾選此選項以便在鬧鐘顯示時使用預設字型。"
+
+#~ msgid "Requested font"
+#~ msgstr "需要的字型"
+
+#~ msgctxt "@action:button"
+#~ msgid "Font && Color..."
+#~ msgstr "字型與顏色..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Choose the font, and foreground and background color, for the alarm "
+#~ "message."
+#~ msgstr "選擇鬧鐘訊息的字型與顏色。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose Alarm Font & Color"
+#~ msgstr "選擇鬧鐘字型與顏色"
+
+#~ msgctxt "@action"
+#~ msgid "Enable &Alarms"
+#~ msgstr "開啟鬧鐘(&A)"
+
+#~ msgctxt "@action"
+#~ msgid "Stop Play"
+#~ msgstr "停止播放"
+
+#~ msgctxt "@action"
+#~ msgid "Spread Windows"
+#~ msgstr "散布視窗"
+
+#~ msgctxt "@info"
+#~ msgid "Error saving alarms"
+#~ msgstr "儲存鬧鐘時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error saving alarm"
+#~ msgstr "儲存鬧鐘時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error deleting alarms"
+#~ msgstr "刪除鬧鐘時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error deleting alarm"
+#~ msgstr "刪除鬧鐘時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error saving reactivated alarms"
+#~ msgstr "儲存重新啟動的鬧鐘時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error saving reactivated alarm"
+#~ msgstr "儲存重新啟動的鬧鐘時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error saving alarm templates"
+#~ msgstr "儲存鬧鐘樣本時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error saving alarm template"
+#~ msgstr "儲存鬧鐘樣本時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to show alarms in KOrganizer"
+#~ msgstr "無法顯示 KOrganizer 中的鬧鐘"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to show alarm in KOrganizer"
+#~ msgstr "無法顯示 KOrganizer 中的鬧鐘"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to update alarm in KOrganizer"
+#~ msgstr "無法更新 KOrganizer 中的鬧鐘"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to delete alarms from KOrganizer"
+#~ msgstr "無法刪除 KOrganizer 中的鬧鐘"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to delete alarm from KOrganizer"
+#~ msgstr "無法刪除 KOrganizer 中的鬧鐘"
+
+#~ msgctxt "@info"
+#~ msgid "<para>%1</para><para>(KOrganizer not fully started)</para>"
+#~ msgstr "<para>%1</para> <para>（KOrganizer 未完整啟動）</para>"
+
+#~ msgctxt "@info"
+#~ msgid "<para>%1</para><para>(Error communicating with KOrganizer)</para>"
+#~ msgstr "<para>%1</para> <para>（與 KOrganizer 通訊時發生錯誤）</para>"
+
+#~ msgctxt "info"
+#~ msgid "The scheduled Wake from Suspend has been cancelled."
+#~ msgstr "已排程的「從休眠中喚醒」已被取消。"
+
+#~ msgctxt "@info"
+#~ msgid "Error obtaining authorization (%1)"
+#~ msgstr "取得授權時發生錯誤（%1）"
+
+#~ msgctxt "@info"
+#~ msgid "You must enable a template calendar to save the template in"
+#~ msgstr "您必須開啟樣本行事曆才能儲存樣本"
+
+#~ msgctxt "@info Please set the 'From' email address..."
+#~ msgid ""
+#~ "<para>%1</para><para>Please set it in the Configuration dialog.</para>"
+#~ msgstr "<para>%1</para> <para>請在設定對話框中設定。</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>Alarms are currently disabled.</para><para>Do you want to enable "
+#~ "alarms now?</para>"
+#~ msgstr "<para>鬧鐘目前關閉中。</para><para>您要打開它嗎？</para>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Enable"
+#~ msgstr "開啟鬧鐘"
+
+#~ msgctxt "@action:button"
+#~ msgid "Keep Disabled"
+#~ msgstr "保持關閉"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Unable to start <application>KMail</application><nl/>(<message>%1</"
+#~ "message>)"
+#~ msgstr ""
+#~ "無法啟動 <application>KMail</application><nl/>（訊息為 <message>%1</"
+#~ "message>）"
+
+#~ msgctxt "@info"
+#~ msgid "Please select a file to display"
+#~ msgstr "請選擇要顯示的檔案。"
+
+#~ msgctxt "@info"
+#~ msgid "Please select a file to play"
+#~ msgstr "請選擇要播放的檔案。"
+
+#~ msgctxt "@info"
+#~ msgid "<filename>%1</filename> is a folder"
+#~ msgstr "<filename>%1</filename> 是個資料夾"
+
+#~ msgctxt "@info"
+#~ msgid "<filename>%1</filename> not found"
+#~ msgstr "找不到 <filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid "<filename>%1</filename> is not readable"
+#~ msgstr "<filename>%1</filename> 無法讀取"
+
+#~ msgctxt "@info"
+#~ msgid "<filename>%1</filename> appears not to be a text or image file"
+#~ msgstr "<filename>%1</filename> 似乎不是個文字或圖片檔"
+
+#~ msgctxt "@info:shell"
+#~ msgid ""
+#~ "<icode>%1</icode>: Event <resource>%2</resource> not found, or not "
+#~ "editable"
+#~ msgstr "<icode>%1</icode>：找不到事件 <resource>%2</resource>，或者無法編輯"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Time zones are not accessible:<nl/>KAlarm will use the UTC time zone.<nl/"
+#~ "><nl/>(The KDE time zone service is not available:<nl/>check that "
+#~ "<application>ktimezoned</application> is installed.)"
+#~ msgstr ""
+#~ "無法存取時區：<nl/>KAlarm 將使用 UTC 時區。<nl/><nl/> （無法使用 KDE 時區"
+#~ "服務：<nl/>請檢查 <application>ktimezoned</application> 是否已安裝。）"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Quitting will disable alarms (once any alarm message windows are closed)."
+#~ msgstr "離開會將所有的鬧鐘關閉。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Do you want to start KAlarm at login?<nl/>(Note that alarms will be "
+#~ "disabled if KAlarm is not started.)"
+#~ msgstr ""
+#~ "您要在登入時啟動 KAlarm 嗎？<nl/>（注意，若 KAlarm 未啟動，鬧鐘都將被關"
+#~ "閉）"
+
+#~ msgctxt "@info"
+#~ msgid "Error creating temporary script file"
+#~ msgstr "產生暫時文稿檔案時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Pre-alarm action:"
+#~ msgstr "鬧鐘響鈴前動作："
+
+#~ msgctxt "@info"
+#~ msgid "Post-alarm action:"
+#~ msgstr "鬧鐘響鈴後動作："
+
+#~ msgctxt "@info/plain"
+#~ msgid ""
+#~ "A 'From' email address must be configured in order to execute email "
+#~ "alarms."
+#~ msgstr "要執行電子郵件型鬧鐘，必須先設定寄件者的電子郵件地址。"
+
+#~ msgctxt ""
+#~ "@info/plain KMail folder name: this should be translated the same as in "
+#~ "kmail"
+#~ msgid "sent-mail"
+#~ msgstr "寄件備份"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Invalid 'From' email address.<nl/>Email identity <resource>%1</resource> "
+#~ "not found"
+#~ msgstr "寄件者電子郵件地址不合法。<nl/>找不到身份 <resource>%1</resource>。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Invalid 'From' email address.<nl/>Email identity <resource>%1</resource> "
+#~ "has no email address"
+#~ msgstr ""
+#~ "寄件者電子郵件地址不合法。<nl/>身份 <resource>%1</resource> 沒有電子郵件地"
+#~ "址。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>No 'From' email address is configured (no default email identity "
+#~ "found)</para><para>Please set it in <application>KMail</application> or "
+#~ "in the <application>KAlarm</application> Configuration dialog.</para>"
+#~ msgstr ""
+#~ "<para>寄件者尚未設定（找不到預設寄件身份）。</para> <para>請在 "
+#~ "<application>KMail</application> 中，或是在 <application>KAlarm</"
+#~ "application> 設定對話框中設定。</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>No 'From' email address is configured.</para><para>Please set it in "
+#~ "the KDE System Settings or in the <application>KAlarm</application> "
+#~ "Configuration dialog.</para>"
+#~ msgstr ""
+#~ "<para>寄件者尚未設定。</para><para>請在 KDE 系統設定，或是在 "
+#~ "<application>KAlarm</application> 設定對話框中設定。</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>No 'From' email address is configured.</para><para>Please set it in "
+#~ "the <application>KAlarm</application> Configuration dialog.</para>"
+#~ msgstr ""
+#~ "<para>寄件者尚未設定。</para><para>請在 <application>KAlarm</application> "
+#~ "設定對話框中設定。</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "No mail transport configured for email identity <resource>%1</resource>"
+#~ msgstr "身份 <resource>%1</resource> 沒有設定郵件傳送。"
+
+#~ msgctxt "@info"
+#~ msgid "Emails may not have been sent"
+#~ msgstr "電子郵件尚未送出"
+
+#~ msgctxt "@info"
+#~ msgid "Program error"
+#~ msgstr "程式錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Error attaching file: <filename>%1</filename>"
+#~ msgstr "附加檔案 <filename>%1</filename> 時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Attachment not found: <filename>%1</filename>"
+#~ msgstr "找不到附加檔：<filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid "An email has been queued to be sent"
+#~ msgstr "電子郵件已準備發送。"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to send email"
+#~ msgstr "無法寄出信件"
+
+#~ msgctxt "@info"
+#~ msgid "Error sending email"
+#~ msgstr "傳送郵件時發生錯誤"
+
+#~ msgctxt "@option:check"
+#~ msgid "Cancel if late"
+#~ msgstr "如果逾時就取消"
+
+#~ msgctxt "@option:check"
+#~ msgid "Auto-close window after this time"
+#~ msgstr "過了這個時間後自動關閉視窗"
+
+#~ msgctxt "@option:check"
+#~ msgid "Auto-close window after late-cancellation time"
+#~ msgstr "過了取消延遲的時間後自動關閉視窗"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>If checked, the alarm will be canceled if it cannot be triggered "
+#~ "within the specified period after its scheduled time. Possible reasons "
+#~ "for not triggering include your being logged off, X not running, or "
+#~ "<application>KAlarm</application> not running.</para><para>If unchecked, "
+#~ "the alarm will be triggered at the first opportunity after its scheduled "
+#~ "time, regardless of how late it is.</para>"
+#~ msgstr ""
+#~ "<para>如果開啟此選項，若鬧鐘在排程時間之後的一段指定時間之內尚未被觸發，則"
+#~ "此次排程會被取消。有可能是觸發時間使用者並未登入，或是 X 未執行，或是 "
+#~ "<application>KAlarm</application> 未執行。</para><para>如果關閉此選項，則"
+#~ "不管鬧鐘逾時多久，都會在第一個可以響鈴的機會響鈴。</para>"
+
+#~ msgctxt "@option:check Cancel if late by 10 minutes"
+#~ msgid "Cancel if late by"
+#~ msgstr "取消觸發之延遲時間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter how late will cause the alarm to be canceled"
+#~ msgstr "輸入鬧鐘排程被延遲多久之後會被取消。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Automatically close the alarm window after the expiry of the late-"
+#~ "cancellation period"
+#~ msgstr "在過了延遲取消時間後，自動將鬧鐘的視窗關閉。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Append to existing file"
+#~ msgstr "附加到現有檔案"
+
+#~ msgctxt "@option Name of the weekday"
+#~ msgid "Monday"
+#~ msgstr "週一"
+
+#~ msgctxt "@option Name of the weekday"
+#~ msgid "Tuesday"
+#~ msgstr "週二"
+
+#~ msgctxt "@option Name of the weekday"
+#~ msgid "Wednesday"
+#~ msgstr "週三"
+
+#~ msgctxt "@option Name of the weekday"
+#~ msgid "Thursday"
+#~ msgstr "週四"
+
+#~ msgctxt "@option Name of the weekday"
+#~ msgid "Friday"
+#~ msgstr "週五"
+
+#~ msgctxt "@option Name of the weekday"
+#~ msgid "Saturday"
+#~ msgstr "週六"
+
+#~ msgctxt "@option Name of the weekday"
+#~ msgid "Sunday"
+#~ msgstr "週日"
+
+#~ msgctxt "@item:inlistbox Morning, as in 2am"
+#~ msgid "am"
+#~ msgstr "am"
+
+#~ msgctxt "@item:inlistbox Afternoon, as in 2pm"
+#~ msgid "pm"
+#~ msgstr "pm"
+
+#~ msgctxt "@item:inlistbox Time units"
+#~ msgid "minutes"
+#~ msgstr "分鐘"
+
+#~ msgctxt "@item:inlistbox Time units"
+#~ msgid "hours/minutes"
+#~ msgstr "小時/分鐘"
+
+#~ msgctxt "@item:inlistbox Time units"
+#~ msgid "days"
+#~ msgstr "天"
+
+#~ msgctxt "@item:inlistbox Time units"
+#~ msgid "weeks"
+#~ msgstr "週"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Press the Shift key while clicking the spin buttons to adjust the time by "
+#~ "a larger step (6 hours / 5 minutes)."
+#~ msgstr "調整時間時同時按下 Shift 鍵可以讓時間間隔跳快一點（六小時/五分鐘）"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to execute command (shell access not authorized)"
+#~ msgstr "執行指令失敗（無法存取 shell）："
+
+#~ msgctxt "@info"
+#~ msgid "Failed to execute command"
+#~ msgstr "執行指令失敗"
+
+#~ msgctxt "@info"
+#~ msgid "Command execution error"
+#~ msgstr "指令執行錯誤"
+
+#~ msgctxt "@info"
+#~ msgid "Command exit code: %1"
+#~ msgstr "指令結束碼：%1"
+
+#~ msgid "Personal alarm message, command and email scheduler for KDE"
+#~ msgstr "KDE 之個人鬧鐘"
+
+#~ msgid "Copyright 2001-2011, David Jarvie"
+#~ msgstr "Copyright 2001-2011, David Jarvie"
+
+#~ msgid "Prompt for confirmation when alarm is acknowledged"
+#~ msgstr "當鬧鐘已確認時提醒確認"
+
+#~ msgid "Attach file to email (repeat as needed)"
+#~ msgstr "附加檔案到電子郵件中(需要時重覆)"
+
+#~ msgid "Auto-close alarm window after --late-cancel period"
+#~ msgstr "延遲取消時間後自動關閉視窗"
+
+#~ msgid "Blind copy email to self"
+#~ msgstr "將自己列入電子郵件的密件副本中"
+
+#~ msgid "Beep when message is displayed"
+#~ msgstr "當訊息顯示時發出嗶聲"
+
+#~ msgid "Message background color (name or hex 0xRRGGBB)"
+#~ msgstr "訊息背景顏色(名稱或十六進位值 0xRRGGBB)"
+
+#~ msgid "Message foreground color (name or hex 0xRRGGBB)"
+#~ msgstr "訊息前景顏色(名稱或十六進位值 0xRRGGBB)"
+
+#~ msgid "Cancel alarm with the specified event ID"
+#~ msgstr "取消含有指定的事件 ID 的鬧鐘"
+
+#~ msgid "Disable the alarm"
+#~ msgstr "關閉鬧鐘"
+
+#~ msgid "Disable monitoring of all alarms"
+#~ msgstr "關閉監視所有鬧鐘"
+
+#~ msgid "Execute a shell command line"
+#~ msgstr "執行指令"
+
+#~ msgid "Command line to generate alarm message text"
+#~ msgstr "產生鬧鐘訊息文字的指令"
+
+#~ msgid "Display the alarm edit dialog to edit the specified alarm"
+#~ msgstr "顯示鬧鐘編輯對話框以編輯指定的鬧鐘"
+
+#~ msgid "Display the alarm edit dialog to edit a new display alarm"
+#~ msgstr "顯示鬧鐘編輯對話框以編輯新的顯示型鬧鐘"
+
+#~ msgid "Display the alarm edit dialog to edit a new command alarm"
+#~ msgstr "顯示鬧鐘編輯對話框以編輯新的指令型鬧鐘"
+
+#~ msgid "Display the alarm edit dialog to edit a new email alarm"
+#~ msgstr "顯示鬧鐘編輯對話框以編輯新的電子郵件型鬧鐘"
+
+#~ msgid "Display the alarm edit dialog to edit a new audio alarm"
+#~ msgstr "顯示鬧鐘編輯對話框以編輯新的音效型鬧鐘"
+
+#~ msgid "Display the alarm edit dialog, preset with a template"
+#~ msgstr "顯示鬧鐘編輯對話框，並套用樣本"
+
+#~ msgid "File to display"
+#~ msgstr "要顯示的檔案"
+
+#~ msgid "KMail identity to use as sender of email"
+#~ msgstr "作為寄件者的 KMail 身份"
+
+#~ msgid "Interval between alarm repetitions"
+#~ msgstr "鬧鐘重覆間隔"
+
+#~ msgid "Show alarm as an event in KOrganizer"
+#~ msgstr "將鬧鐘顯示為 KOrganizer 的事件"
+
+#~ msgid "Cancel alarm if more than 'period' late when triggered"
+#~ msgstr "啟動時如果已經延遲一段時間則取消鬧鐘。"
+
+#~ msgid "Repeat alarm at every login"
+#~ msgstr "每次登入時重覆鬧鐘"
+
+#~ msgid "Send an email to the given address (repeat as needed)"
+#~ msgstr "寄出信件給所指定的位址(需要時重覆)"
+
+#~ msgid "Audio file to play once"
+#~ msgstr "要播放的音效檔案"
+
+#~ msgid "Audio file to play repeatedly"
+#~ msgstr "要重覆播放的音效檔案"
+
+#~ msgid "Specify alarm recurrence using iCalendar syntax"
+#~ msgstr "使用 iCalendar 語法指定鬧鐘循環"
+
+#~ msgid "Display reminder before or after alarm"
+#~ msgstr "在鬧鐘響鈴前後顯示提醒"
+
+#~ msgid "Display reminder once, before or after first alarm recurrence"
+#~ msgstr "在第一次鬧鐘循環之前或之後顯示一次提醒"
+
+#~ msgid "Number of times to repeat alarm (including initial occasion)"
+#~ msgstr "鬧鐘響鈴之後再重覆響幾次"
+
+#~ msgid "Speak the message when it is displayed"
+#~ msgstr "訊息顯示時順便用語音說出"
+
+#~ msgid "Email subject line"
+#~ msgstr "信件主旨"
+
+#~ msgid "Simulate system time [[[yyyy-]mm-]dd-]hh:mm [TZ] (debug mode)"
+#~ msgstr "模擬系統時間 [[[yyyy-]mm-]dd-]hh:mm [TZ] （除錯模式）"
+
+#~ msgid ""
+#~ "Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+#~ msgstr ""
+#~ "於時間 [[[yyyy-]mm-]dd-]hh:mm [TZ]，或是日期 yyyy-mm-dd [TZ] 觸發鬧鐘"
+
+#~ msgid "Display system tray icon"
+#~ msgstr "顯示系統匣圖示"
+
+#~ msgid "Trigger alarm with the specified event ID"
+#~ msgstr "依指定事件 ID 觸發鬧鐘"
+
+#~ msgid ""
+#~ "Repeat until time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+#~ msgstr ""
+#~ "重覆響鈴直到時間 [[[yyyy-]mm-]dd-]hh:mm [TZ]，或是日期 yyyy-mm-dd [TZ]"
+
+#~ msgid "Volume to play audio file"
+#~ msgstr "播放音效檔案的音量"
+
+#~ msgid "Message text to display"
+#~ msgstr "要顯示的訊息文字"
+
+#~ msgctxt "@action"
+#~ msgid "Show &Alarm Times"
+#~ msgstr "顯示鬧鐘響鈴時間(&A)"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show alarm time"
+#~ msgstr "顯示鬧鐘響鈴時間"
+
+#~ msgctxt "@action"
+#~ msgid "Show Time t&o Alarms"
+#~ msgstr "顯示到響鈴剩餘時間(&O)"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show time until alarm"
+#~ msgstr "顯示到響鈴剩餘時間(&N)"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Failure to create menus (perhaps <filename>%1</filename> missing or "
+#~ "corrupted)"
+#~ msgstr "建立選單時失敗（也許 <filename>%1</filename> 已遺失或損毀）"
+
+#~ msgctxt "@action"
+#~ msgid "&Templates..."
+#~ msgstr "樣本(&T)..."
+
+#~ msgctxt "@action"
+#~ msgid "&New"
+#~ msgstr "新增(&N)..."
+
+#~ msgctxt "@action"
+#~ msgid "Create Tem&plate..."
+#~ msgstr "產生樣本(&P)..."
+
+#~ msgctxt "@action"
+#~ msgid "&Copy..."
+#~ msgstr "複製(&C)..."
+
+#~ msgctxt "@action"
+#~ msgid "&Edit..."
+#~ msgstr "編輯(&E)..."
+
+#~ msgctxt "@action"
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"
+
+#~ msgctxt "@action"
+#~ msgid "Delete Without Confirmation"
+#~ msgstr "不經確認即刪除"
+
+#~ msgctxt "@action"
+#~ msgid "Reac&tivate"
+#~ msgstr "重新啟動(&T)"
+
+#~ msgctxt "@action"
+#~ msgid "Wake From Suspend"
+#~ msgstr "從休眠中喚醒"
+
+#~ msgctxt "@action"
+#~ msgid "Show Archi&ved Alarms"
+#~ msgstr "顯示已歸檔的鬧鐘(&V)"
+
+#~ msgctxt "@action"
+#~ msgid "Show in System &Tray"
+#~ msgstr "在系統匣內顯示(&T)"
+
+#~ msgctxt "@action"
+#~ msgid "Show &Calendars"
+#~ msgstr "顯示行事曆(&C)"
+
+#~ msgctxt "@action"
+#~ msgid "Import &Alarms..."
+#~ msgstr "匯入鬧鐘(&A)..."
+
+#~ msgctxt "@action"
+#~ msgid "Import &Birthdays..."
+#~ msgstr "匯入生日(&B)..."
+
+#~ msgctxt "@action"
+#~ msgid "E&xport Selected Alarms..."
+#~ msgstr "匯出選取的鬧鐘(&X)..."
+
+#~ msgctxt "@action"
+#~ msgid "E&xport..."
+#~ msgstr "匯出(&X)..."
+
+#~ msgctxt "@action"
+#~ msgid "&Refresh Alarms"
+#~ msgstr "更新鬧鐘(&R)"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to delete the selected alarm?"
+#~ msgid_plural "Do you really want to delete the %1 selected alarms?"
+#~ msgstr[0] "您真的要刪除這 %1 個鬧鐘嗎？"
+
+#~ msgctxt "@title:window"
+#~ msgid "Delete Alarm"
+#~ msgid_plural "Delete Alarms"
+#~ msgstr[0] "刪除鬧鐘"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Hide Archived Alarms"
+#~ msgstr "隱藏已歸檔的鬧鐘"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show Archived Alarms"
+#~ msgstr "顯示已歸檔的鬧鐘"
+
+#~ msgctxt "@info"
+#~ msgid "Import birthdays"
+#~ msgstr "匯入生日..."
+
+#~ msgctxt "@action Undo/Redo [action]"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgctxt "@action Undo [action]: message"
+#~ msgid "%1 %2: %3"
+#~ msgstr "%1 %2: %3"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Display Alarm"
+#~ msgstr "顯示鬧鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Email Alarm"
+#~ msgstr "電子郵件型鬧鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Command Alarm"
+#~ msgstr "指令型鬧鐘"
+
+#~ msgctxt "@title:window"
+#~ msgid "Alarm Type"
+#~ msgstr "鬧鐘型態"
+
+#~ msgctxt "@info"
+#~ msgid "Choose alarm type to create:"
+#~ msgstr "選擇鬧鐘樣本"
+
+#~ msgctxt "@action"
+#~ msgid "Ena&ble"
+#~ msgstr "開啟(&B)"
+
+#~ msgctxt "@action"
+#~ msgid "Disa&ble"
+#~ msgstr "關閉(&B)"
+
+#~ msgctxt "@title:window"
+#~ msgid "Reminder"
+#~ msgstr "提醒"
+
+#~ msgctxt "@title:window"
+#~ msgid "Message"
+#~ msgstr "訊息"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The scheduled date/time for the message (as opposed to the actual time of "
+#~ "display)."
+#~ msgstr "此訊息原先所排定顯示之日期與時間（而非實際顯示之時間）"
+
+#~ msgctxt "@info"
+#~ msgid "Reminder"
+#~ msgstr "提醒"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The file whose contents are displayed below"
+#~ msgstr "顯示內容之檔案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The contents of the file to be displayed"
+#~ msgstr "顯示檔案之內容"
+
+#~ msgctxt "@info"
+#~ msgid "File is a folder"
+#~ msgstr "檔案是個目錄"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to open file"
+#~ msgstr "開啟檔案失敗"
+
+#~ msgctxt "@info"
+#~ msgid "File not found"
+#~ msgstr "找不到檔案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The alarm message"
+#~ msgstr "鬧鐘訊息"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The output of the alarm's command"
+#~ msgstr "鬧鐘指令的輸出"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The email to send"
+#~ msgstr "要寄的信件"
+
+#~ msgctxt "@title:window"
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgctxt "@option:check"
+#~ msgid "Do not display this error message again for this alarm"
+#~ msgstr "對此鬧鐘不要再顯示此錯誤訊息"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Acknowledge the alarm"
+#~ msgstr "確認鬧鐘"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Edit..."
+#~ msgstr "編輯(&E)..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Edit the alarm."
+#~ msgstr "編輯鬧鐘"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Defer..."
+#~ msgstr "延期(&D)..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Defer the alarm until later.</para><para>You will be prompted to "
+#~ "specify when the alarm should be redisplayed.</para>"
+#~ msgstr ""
+#~ "<para>延遲鬧鐘響鈴時間（賴床功能）。</para><para>您會被要求指定鬧鐘何時要"
+#~ "重新響鈴。</para>"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Stop sound"
+#~ msgstr "停止聲音"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Stop playing the sound"
+#~ msgstr "停止播放聲音"
+
+#~ msgctxt "@info:tooltip Locate this email in KMail"
+#~ msgid "Locate in <application>KMail</application>"
+#~ msgstr "無法在 <application>KMail</application> 中找到這信件"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Locate and highlight this email in <application>KMail</application>"
+#~ msgstr "在 KMail 中尋找並選擇這封電子郵件"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Activate <application>KAlarm</application>"
+#~ msgstr "啟動 <application>KAlarm</application>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Activate <application>KAlarm</application>"
+#~ msgstr "啟動 <application>KAlarm</application>"
+
+#~ msgctxt "@info"
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgctxt "@info"
+#~ msgid "Tomorrow"
+#~ msgid_plural "in %1 days' time"
+#~ msgstr[0] "%1 天內"
+
+#~ msgctxt "@info"
+#~ msgid "in 1 week's time"
+#~ msgid_plural "in %1 weeks' time"
+#~ msgstr[0] "%1 週內"
+
+#~ msgctxt "@info"
+#~ msgid "in 1 minute's time"
+#~ msgid_plural "in %1 minutes' time"
+#~ msgstr[0] "%1 分鐘內"
+
+#~ msgctxt "@info"
+#~ msgid "in 1 hour's time"
+#~ msgid_plural "in %1 hours' time"
+#~ msgstr[0] "%1 小時內"
+
+#~ msgctxt "@item:intext inserted into 'in ... %1 minute's time' below"
+#~ msgid "1 hour"
+#~ msgid_plural "%1 hours"
+#~ msgstr[0] "%1 小時"
+
+#~ msgctxt "@info '%2' is the previous message '1 hour'/'%1 hours'"
+#~ msgid "in %2 1 minute's time"
+#~ msgid_plural "in %2 %1 minutes' time"
+#~ msgstr[0] "於 %2 %1 分鐘內"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to speak message"
+#~ msgstr "無法用語音說出訊息"
+
+#~ msgctxt "@info"
+#~ msgid "D-Bus call say() failed"
+#~ msgstr "D-Bus 呼叫 say() 失敗"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot open audio file: <filename>%1</filename>"
+#~ msgstr "無法開啟音效檔：<filename>%1</filename>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>Error playing audio file: <filename>%1</filename></para><para>%2</"
+#~ "para>"
+#~ msgstr ""
+#~ "<para>播放音效檔：<filename>%1</filename> 時發生錯誤</para> <para>%2</"
+#~ "para>"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to acknowledge this alarm?"
+#~ msgstr "你真的要確認該鬧鐘嗎？"
+
+#~ msgctxt "@action:button"
+#~ msgid "Acknowledge Alarm"
+#~ msgstr "鬧鐘確認"
+
+#~ msgctxt "@action:button"
+#~ msgid "Acknowledge"
+#~ msgstr "確認"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to locate this email in <application>KMail</application>"
+#~ msgstr "無法在 <application>KMail</application> 中找到這信件"
+
+#~ msgctxt "@info"
+#~ msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
+#~ msgstr "<para>無法延遲鬧鐘：</para><para>找不到鬧鐘</para>"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "&Display Alarm Template"
+#~ msgstr "顯示鬧鐘樣本(&D)"
+
+#~ msgctxt "@action"
+#~ msgid "New Display Alarm"
+#~ msgstr "新增顯示型鬧鐘"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "&Command Alarm Template"
+#~ msgstr "指令型鬧鐘樣本(&C)"
+
+#~ msgctxt "@action"
+#~ msgid "New Command Alarm"
+#~ msgstr "新增指令型鬧鐘"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "&Email Alarm Template"
+#~ msgstr "電子郵件型鬧鐘樣本(&E)"
+
+#~ msgctxt "@action"
+#~ msgid "New Email Alarm"
+#~ msgstr "新增電子郵件型鬧鐘"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "&Audio Alarm Template"
+#~ msgstr "音效型鬧鐘樣本(&A)"
+
+#~ msgctxt "@action"
+#~ msgid "New Audio Alarm"
+#~ msgstr "新增音效型鬧鐘"
+
+#~ msgctxt "@action"
+#~ msgid "New Alarm From &Template"
+#~ msgstr "從樣本產生新的鬧鐘(&T)"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure"
+#~ msgstr "設定"
+
+#~ msgctxt "@title:tab General preferences"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgctxt "@title General preferences"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Time & Date"
+#~ msgstr "時間與日期"
+
+#~ msgctxt "@title"
+#~ msgid "Time and Date"
+#~ msgstr "時間與日期"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Storage"
+#~ msgstr "儲存"
+
+#~ msgctxt "@title"
+#~ msgid "Alarm Storage"
+#~ msgstr "鬧鐘儲存"
+
+#~ msgctxt "@title:tab Email preferences"
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgctxt "@title"
+#~ msgid "Email Alarm Settings"
+#~ msgstr "電子郵件鬧鐘設定"
+
+#~ msgctxt "@title:tab"
+#~ msgid "View"
+#~ msgstr "檢視"
+
+#~ msgctxt "@title"
+#~ msgid "View Settings"
+#~ msgstr "顯示設定"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgctxt "@title"
+#~ msgid "Default Alarm Edit Settings"
+#~ msgstr "預設鬧鐘編輯設定"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Reset all tabs to their default values, or only reset the current tab?"
+#~ msgstr "要把所有分頁重設為預設值，還是只要重設目前的分頁？"
+
+#~ msgctxt "@action:button Reset ALL tabs"
+#~ msgid "&All"
+#~ msgstr "全部(&A)"
+
+#~ msgctxt "@action:button Reset the CURRENT tab"
+#~ msgid "C&urrent"
+#~ msgstr "目前的(&U)"
+
+#~ msgctxt "@title:group"
+#~ msgid "Run Mode"
+#~ msgstr "執行模式"
+
+#~ msgctxt "@option:check"
+#~ msgid "Start at login"
+#~ msgstr "在登入時啟動"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Automatically start <application>KAlarm</application> whenever you "
+#~ "start KDE.</para><para>This option should always be checked unless you "
+#~ "intend to discontinue use of <application>KAlarm</application>.</para>"
+#~ msgstr ""
+#~ "<para>當您啟動 KDE 時自動開始 <application>KAlarm</application>。</para> "
+#~ "<para>這個選項應該被勾選，除非您不打算繼續使用 <application>KAlarm</"
+#~ "application>。</para>"
+
+#~ msgctxt "@option:check"
+#~ msgid "Warn before quitting"
+#~ msgstr "離開前先警告"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to display a warning prompt before quitting <application>KAlarm</"
+#~ "application>."
+#~ msgstr "勾選此選項，在離開 <application>KAlarm</application> 前會出示警告。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Confirm alarm deletions"
+#~ msgstr "確認鬧鐘刪除"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to be prompted for confirmation each time you delete an alarm."
+#~ msgstr "當您刪除鬧鐘時提醒確認。"
+
+#~ msgctxt "@label:spinbox"
+#~ msgid "Default defer time interval:"
+#~ msgstr "預設延遲的時間間隔："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the default time interval (hours & minutes) to defer alarms, used "
+#~ "by the Defer Alarm dialog."
+#~ msgstr "輸入預設的延遲鬧鐘時間間隔（小時與分），會用於延遲鬧鐘對話框。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Terminal for Command Alarms"
+#~ msgstr "指令型鬧鐘使用的終端機程式"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Choose which application to use when a command alarm is executed in a "
+#~ "terminal window"
+#~ msgstr "選擇指令型鬧鐘要執行在哪一個終端機視窗中"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to execute command alarms in a terminal window by <icode>%1</icode>"
+#~ msgstr "勾選此選項指定終端機視窗的命令列 <icode>%1</icode>。"
+
+#~ msgctxt "@option:radio Other terminal window command"
+#~ msgid "Other:"
+#~ msgstr "其他："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the full command line needed to execute a command in your chosen "
+#~ "terminal window. By default the alarm's command string will be appended "
+#~ "to what you enter here. See the <application>KAlarm</application> "
+#~ "Handbook for details of special codes to tailor the command line."
+#~ msgstr ""
+#~ "輸入要執行的終端機程式完整命令列。預設鬧鐘的命令字串會附加在您輸入的命令列"
+#~ "之後。關於詳情請參考 <application>KAlarm</application> 手冊。"
+
+#~ msgctxt "@info"
+#~ msgid "Command to invoke terminal window not found: <command>%1</command>"
+#~ msgstr "找不到啟動終端機視窗的指令：<command>%1</command>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "You should not uncheck this option unless you intend to discontinue use "
+#~ "of <application>KAlarm</application>"
+#~ msgstr ""
+#~ "除非您不打算繼續使用 <application>KAlarm</application>，否則不建議取消此選"
+#~ "項。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Select the time zone which <application>KAlarm</application> should use "
+#~ "as its default for displaying and entering dates and times."
+#~ msgstr "選擇 <application>KAlarm</application> 預設顯示與輸入時間用的時區。"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Holiday region:"
+#~ msgstr "假日區域："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select which holiday region to use"
+#~ msgstr "選擇要使用哪個區域的假日設定"
+
+#~ msgctxt "Holiday region, region language"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgctxt "No holiday region"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "@label:spinbox"
+#~ msgid "Start of day for date-only alarms:"
+#~ msgstr "一天的開始："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>The earliest time of day at which a date-only alarm will be "
+#~ "triggered.</para><para>%1</para>"
+#~ msgstr ""
+#~ "<para>一天最早的時間。對只設定日期的鬧鐘（也就是勾選「任何時間」鬧鐘）而"
+#~ "言，將會在這個時間被觸發。</para> <para>%1</para>"
+
+#~ msgctxt "@title:group"
+#~ msgid "Working Hours"
+#~ msgstr "工作時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check the days in the week which are work days"
+#~ msgstr "選擇在一週之中哪幾天視為工作日"
+
+#~ msgctxt "@label:spinbox"
+#~ msgid "Daily start time:"
+#~ msgstr "一日開始時間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<para>Enter the start time of the working day.</para><para>%1</para>"
+#~ msgstr "<para>輸入工作日的開始時間</para> <para>%1</para>"
+
+#~ msgctxt "@label:spinbox"
+#~ msgid "Daily end time:"
+#~ msgstr "一日結束時間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<para>Enter the end time of the working day.</para><para>%1</para>"
+#~ msgstr "<para>輸入工作日的結束時間</para> <para>%1</para>"
+
+#~ msgctxt "@title:group"
+#~ msgid "KOrganizer"
+#~ msgstr "KOrganizer"
+
+#~ msgctxt "@label:spinbox"
+#~ msgid "KOrganizer event duration:"
+#~ msgstr "KOrganizer 事件期間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Enter the event duration in hours and minutes, for alarms which are "
+#~ "copied to KOrganizer.</para><para>%1</para>"
+#~ msgstr ""
+#~ "<para>輸入要複製到 KOrganizer 的鬧鐘的事件期間，單位為小時與分鐘。</para> "
+#~ "<para>%1</para>"
+
+#~ msgctxt "@title:group"
+#~ msgid "New Alarms && Templates"
+#~ msgstr "新增鬧鐘與樣本"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Store in default calendar"
+#~ msgstr "儲存於預設行事曆"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Add all new alarms and alarm templates to the default calendars, without "
+#~ "prompting."
+#~ msgstr "新增所有新的鬧鐘與樣本到預設行事曆中，不需詢問"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Prompt for which calendar to store in"
+#~ msgstr "提示要儲存於哪個行事曆"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>When saving a new alarm or alarm template, prompt for which "
+#~ "calendar to store it in, if there is more than one active calendar.</"
+#~ "para><para>Note that archived alarms are always stored in the default "
+#~ "archived alarm calendar.</para>"
+#~ msgstr ""
+#~ "<para>儲存新的鬧鐘或鬧鐘樣本時，若是有一個以上可使用的行事曆，則詢問使用者"
+#~ "要儲存到哪個行事曆中。</para><para>注意歸檔的鬧鐘會儲存在預設的歸檔鬧鐘行"
+#~ "事曆內。</para>"
+
+#~ msgctxt "@title:group"
+#~ msgid "Archived Alarms"
+#~ msgstr "已歸檔的鬧鐘"
+
+#~ msgctxt "@option:check"
+#~ msgid "Keep alarms after expiry"
+#~ msgstr "鬧鐘逾時後仍不刪除"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to archive alarms after expiry or deletion (except deleted alarms "
+#~ "which were never triggered)."
+#~ msgstr ""
+#~ "勾選此選項的話，鬧鐘在逾時或刪除後仍實際保留著，除非刪除的鬧鐘已確定不會再"
+#~ "響鈴。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Discard archived alarms after:"
+#~ msgstr "鬧鐘歸檔多久後丟棄："
+
+#~ msgctxt "@label Time unit for user-entered number"
+#~ msgid "days"
+#~ msgstr "天"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Uncheck to store archived alarms indefinitely. Check to enter how long "
+#~ "archived alarms should be stored."
+#~ msgstr ""
+#~ "如果不勾選此選項，則歸檔的鬧鐘將被永久保存。勾選此選項的話則可以選擇要保留"
+#~ "多久。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Clear Archived Alarms"
+#~ msgstr "清除已歸檔的鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Delete all existing archived alarms."
+#~ msgstr "刪除所有存在的已歸檔的鬧鐘。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Delete all existing archived alarms (from the default archived alarm "
+#~ "calendar only)."
+#~ msgstr "刪除所有存在的已歸檔的鬧鐘（只從預設的歸檔鬧鐘行事曆中）。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>A default calendar is required in order to archive alarms, but none "
+#~ "is currently enabled.</para><para>If you wish to keep expired alarms, "
+#~ "please first use the calendars view to select a default archived alarms "
+#~ "calendar.</para>"
+#~ msgstr ""
+#~ "<para>要將鬧鐘歸檔，必須要有一個預設的行事曆，不過目前沒有開啟任何行事曆。"
+#~ "</para> <para>如果您希望保留逾時的鬧鐘，請先使用行事曆檢視來選擇一個預設的"
+#~ "歸檔鬧鐘行事曆。</para>"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to delete all archived alarms?"
+#~ msgstr "您真的要刪除所有已歸檔的鬧鐘嗎？"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Do you really want to delete all alarms in the default archived alarm "
+#~ "calendar?"
+#~ msgstr "您真的要刪除在預設歸檔鬧鐘行事曆中，所有已歸檔的鬧鐘嗎？"
+
+#~ msgctxt "@label"
+#~ msgid "Email client:"
+#~ msgstr "信件客戶端："
+
+#~ msgctxt "@option:radio"
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Sendmail"
+#~ msgstr "Sendmail"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Choose how to send email when an email alarm is triggered."
+#~ "<list><item><interface>%1</interface>: The email is sent automatically "
+#~ "via <application>KMail</application>. <application>KMail</application> is "
+#~ "started first if necessary.</item><item><interface>%2</interface>: The "
+#~ "email is sent automatically. This option will only work if your system is "
+#~ "configured to use <application>sendmail</application> or a sendmail "
+#~ "compatible mail transport agent.</item></list></para>"
+#~ msgstr ""
+#~ "<para>選擇鬧鐘被觸發時要如何寄出信件。\n"
+#~ "<list><item><interface>%1</interface>：信件會自動透過 <application>KMail</"
+#~ "application> 送出。<application>KMail</application> 若尚未啟動，則會先被啟"
+#~ "動。</item><item><interface>%2</interface>：會自動地寄出信件。該選項將只會"
+#~ "在您的系統是設定使用 <application>sendmail</application> 或相容的郵件傳遞"
+#~ "程式時才有作用。</item></list></para>"
+
+#~ msgctxt "@option:check"
+#~ msgid ""
+#~ "Copy sent emails into <application>KMail</application>'s <resource>%1</"
+#~ "resource> folder"
+#~ msgstr ""
+#~ "將發送之信件複製到 <application>KMail</application> 的 <resource>%1</"
+#~ "resource> 資料夾內"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "After sending an email, store a copy in <application>KMail</"
+#~ "application>'s <resource>%1</resource> folder"
+#~ msgstr ""
+#~ "發送信件之後，在 <application>Kmail</application> 的 <resource>%1</"
+#~ "resource> 資料夾中保留備份。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Notify when remote emails are queued"
+#~ msgstr "發送到遠端的電子郵件被佇列住的話則發出通知"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Display a notification message whenever an email alarm has queued an "
+#~ "email for sending to a remote system. This could be useful if, for "
+#~ "example, you have a dial-up connection, so that you can then ensure that "
+#~ "the email is actually transmitted."
+#~ msgstr ""
+#~ "如果要發送到遠端的電子郵件被放進佇列中沒有馬上送出，則顯示一個通知訊息。這"
+#~ "在使用像撥接式網路時很有用，您可以確認電子郵件是否已被送出。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Your Email Address"
+#~ msgstr "您的電子郵件地址"
+
+#~ msgctxt "@label 'From' email address"
+#~ msgid "From:"
+#~ msgstr "寄件者："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Your email address, used to identify you as the sender when sending email "
+#~ "alarms."
+#~ msgstr "您的電子郵件地址，用於填在寄件者欄位中。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Use address from System Settings"
+#~ msgstr "使用系統設定裡設定的位址"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to use the email address set in KDE System Settings, to identify "
+#~ "you as the sender when sending email alarms."
+#~ msgstr "勾選此選項的話，寄件者欄位將使用 KDE 系統設定裡設定的電子郵件地址。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Use <application>KMail</application> identities"
+#~ msgstr "使用 <application>Kmail</application> 的寄件者身份"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to use <application>KMail</application>'s email identities to "
+#~ "identify you as the sender when sending email alarms. For existing email "
+#~ "alarms, <application>KMail</application>'s default identity will be used. "
+#~ "For new email alarms, you will be able to pick which of "
+#~ "<application>KMail</application>'s identities to use."
+#~ msgstr ""
+#~ "勾選此選項的話，寄件者將使用 <application>Kmail</application> 中所設定的寄"
+#~ "件者身份。若為已存在的電子郵件，則會先使用 <application>Kmail</"
+#~ "application> 預設的身份。對後來新發出的電子郵件，會讓您選擇要使用哪一個寄"
+#~ "件身份。"
+
+#~ msgctxt "@label 'Bcc' email address"
+#~ msgid "Bcc:"
+#~ msgstr "密件複本："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Your email address, used for blind copying email alarms to yourself. If "
+#~ "you want blind copies to be sent to your account on the computer which "
+#~ "<application>KAlarm</application> runs on, you can simply enter your user "
+#~ "login name."
+#~ msgstr ""
+#~ "您的電子郵件地址，用於接收密件副本。如果您要發送到本機上的帳號，只要填入帳"
+#~ "號名稱即可。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to use the email address set in KDE System Settings, for blind "
+#~ "copying email alarms to yourself."
+#~ msgstr "將密件副本發送到 KDE 系統設定所設定的電子郵件地址。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "No valid 'Bcc' email address is specified."
+#~ msgstr "沒有指定合法的密件副本位址。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>%1</para><para>Are you sure you want to save your changes?</para>"
+#~ msgstr "<para>%1</para> <para>您確定您要儲存變更嗎？</para>"
+
+#~ msgctxt "@info"
+#~ msgid "No email address is currently set in KDE System Settings. %1"
+#~ msgstr "KDE 系統設定裡沒有設定電子郵件地址。%1"
+
+#~ msgctxt "@info"
+#~ msgid "No <application>KMail</application> identities currently exist. %1"
+#~ msgstr "<application>Kmail</application> 中沒有設定任何寄件身份。%1"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The default setting for <interface>%1</interface> in the alarm edit "
+#~ "dialog."
+#~ msgstr "鬧鐘編輯視窗中 <interface>%1</interface> 的預設設定。"
+
+#~ msgctxt "@title:tab"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Alarm Types"
+#~ msgstr "鬧鐘型態"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Font && Color"
+#~ msgstr "字型與顏色"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Recurrence:"
+#~ msgstr "循環："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The default setting for the recurrence rule in the alarm edit dialog."
+#~ msgstr "鬧鐘編輯視窗中，循環規則的預設設定。"
+
+#~ msgctxt "@label"
+#~ msgid "In non-leap years, repeat yearly February 29th alarms on:"
+#~ msgstr "非閏年時，若是年度重覆鬧鐘的日期落在二月廿九日，則改在："
+
+#~ msgctxt "@option:radio"
+#~ msgid "February 2&8th"
+#~ msgstr "二月廿八日(&8)"
+
+#~ msgctxt "@option:radio"
+#~ msgid "March &1st"
+#~ msgstr "三月一日(&1)"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Do not repeat"
+#~ msgstr "不重覆"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "For yearly recurrences, choose what date, if any, alarms due on February "
+#~ "29th should occur in non-leap years.<note>The next scheduled occurrence "
+#~ "of existing alarms is not re-evaluated when you change this setting.</"
+#~ "note>"
+#~ msgstr ""
+#~ "對年度循環的鬧鐘，如果日期落在二月廿九日，但是當年度非閏年時，選擇要改在哪"
+#~ "一天響鈴。<note>這不會改變此鬧鐘的排程設定。</note>"
+
+#~ msgctxt "@title:group"
+#~ msgid "Display Alarms"
+#~ msgstr "顯示鬧鐘"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Reminder units:"
+#~ msgstr "提醒單位："
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Minutes"
+#~ msgstr "分鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Hours/Minutes"
+#~ msgstr "小時/分鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The default units for the reminder in the alarm edit dialog, for alarms "
+#~ "due soon."
+#~ msgstr "鬧鐘編輯視窗中，提醒的預設時間單位。"
+
+#~ msgctxt "@title:group Audio options group"
+#~ msgid "Sound"
+#~ msgstr "音效"
+
+#~ msgctxt "@option:check"
+#~ msgid "Repeat sound file"
+#~ msgstr "重覆音效檔案"
+
+#~ msgctxt "@info:whatsthis sound file 'Repeat' checkbox"
+#~ msgid ""
+#~ "The default setting for sound file <interface>%1</interface> in the alarm "
+#~ "edit dialog."
+#~ msgstr "鬧鐘編輯視窗中，音效檔 <interface>%1</interface> 的預設設定。"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Sound file:"
+#~ msgstr "音效檔案："
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Choose a sound file"
+#~ msgstr "選擇一個音效檔。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the default sound file to use in the alarm edit dialog."
+#~ msgstr "輸入鬧鐘編輯視窗中預設的音效檔。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Command Alarms"
+#~ msgstr "指令型鬧鐘"
+
+#~ msgctxt "@title:group"
+#~ msgid "Email Alarms"
+#~ msgstr "電子郵件型鬧鐘"
+
+#~ msgctxt "@title:group"
+#~ msgid "Message Font && Color"
+#~ msgstr "訊息字型與顏色"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "You must enter a sound file when <interface>%1</interface> is selected as "
+#~ "the default sound type"
+#~ msgstr ""
+#~ "當選擇 <interface>%1</interface> 為預設音效型態時，您應該輸入一個音效檔"
+#~ "案。"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Alarm Windows"
+#~ msgstr "鬧鐘視窗"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show in system tray"
+#~ msgstr "在系統匣內顯示"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Check to show <application>KAlarm</application>'s icon in the "
+#~ "system tray. Showing it in the system tray provides easy access and a "
+#~ "status indication.</para>"
+#~ msgstr ""
+#~ "<para>勾選此選項，可以在系統匣內顯示 <application>KAlarm</application> 的"
+#~ "圖示，讓您可以輕鬆存取並知道目前的狀態。</para>"
+
+#~ msgctxt "@title:group"
+#~ msgid "System Tray Tooltip"
+#~ msgstr "系統匣工具提示"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show next &24 hours' alarms"
+#~ msgstr "顯示未來廿四小時內響鈴的鬧鐘(&2)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Specify whether to include in the system tray tooltip, a summary of "
+#~ "alarms due in the next 24 hours."
+#~ msgstr "決定是否要在系統匣的工具提示中顯示在未來廿四小時會響鈴的鬧鐘。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Maximum number of alarms to show:"
+#~ msgstr "最多顯示幾個鬧鐘："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Uncheck to display all of the next 24 hours' alarms in the system tray "
+#~ "tooltip. Check to enter an upper limit on the number to be displayed."
+#~ msgstr ""
+#~ "取消此選項就會在系統匣工具列中顯示所有在廿四小時內會響鈴的鬧鐘。勾選此選項"
+#~ "可以選擇最多要顯示幾個。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Specify whether to show in the system tray tooltip, the time at which "
+#~ "each alarm is due."
+#~ msgstr "決定是否要在系統匣的工具提示中顯示每個鬧鐘的響鈴時間。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Specify whether to show in the system tray tooltip, how long until each "
+#~ "alarm is due."
+#~ msgstr "決定是否要在系統匣的工具提示中顯示每個鬧鐘還要多久響鈴。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the text to be displayed in front of the time until the alarm, in "
+#~ "the system tray tooltip."
+#~ msgstr "輸入在系統匣工具提示中，要顯示在鬧鐘時間之前的文字。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Alarm List"
+#~ msgstr "鬧鐘清單"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Disabled alarm color:"
+#~ msgstr "已關閉的鬧鐘顏色："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose the text color in the alarm list for disabled alarms."
+#~ msgstr "選擇在鬧鐘清單中，已關閉的鬧鐘的文字顏色。"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Archived alarm color:"
+#~ msgstr "已歸檔的鬧鐘顏色："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose the text color in the alarm list for archived alarms."
+#~ msgstr "選擇在鬧鐘清單中，已歸檔的鬧鐘的文字顏色。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Alarm Message Windows"
+#~ msgstr "鬧鐘訊息視窗"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Choose how to reduce the chance of alarm messages being "
+#~ "accidentally acknowledged:<list><item>Position alarm message windows as "
+#~ "far as possible from the current mouse cursor location, or</"
+#~ "item><item>Position alarm message windows in the center of the screen, "
+#~ "but disable buttons for a short time after the window is displayed.</"
+#~ "item></list></para>"
+#~ msgstr ""
+#~ "<para>選擇如何降低鬧鐘視窗不小心被按掉的方法： <list><item>將鬧鐘訊息視窗"
+#~ "的位置盡量遠離目前滑鼠的位置。</item> <item>將鬧鐘訊息視窗的位置擺在中央，"
+#~ "但是要過一段短時間才能按下按鍵。</item> </list></para>"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Position windows far from mouse cursor"
+#~ msgstr "將鬧鐘訊息視窗的位置盡量遠離目前滑鼠的位置"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Center windows, delay activating window buttons"
+#~ msgstr "將鬧鐘訊息視窗的位置擺在中央，但不能馬上按下按鍵"
+
+#~ msgctxt "@label:spinbox"
+#~ msgid "Button activation delay (seconds):"
+#~ msgstr "過多久才能按按鍵（秒）："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter how long its buttons should remain disabled after the alarm message "
+#~ "window is shown."
+#~ msgstr "顯示鬧鐘訊息後，要過多久才能按下按鍵。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Message windows have a title bar and take keyboard focus"
+#~ msgstr "訊息視窗有標題列並且會取得鍵盤的焦點"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Specify the characteristics of alarm message windows:<list><item>If "
+#~ "checked, the window is a normal window with a title bar, which grabs "
+#~ "keyboard input when it is displayed.</item><item>If unchecked, the window "
+#~ "does not interfere with your typing when it is displayed, but it has no "
+#~ "title bar and cannot be moved or resized.</item></list></para>"
+#~ msgstr ""
+#~ "<para>指定鬧鐘訊息視窗的特性：<list><item>如果勾選此選項，則顯示的視窗為一"
+#~ "正常視窗，含有標題列，並且會取得鍵盤輸入的焦點。</item> <item>如果不勾選，"
+#~ "則顯示時無法與您互動，沒有標題列也無法移動或改變大小。</item></list></"
+#~ "para>"
+
+#~ msgctxt "@item:inlistbox Recurrence type"
+#~ msgid "No Recurrence"
+#~ msgstr "不循環"
+
+#~ msgctxt "@item:inlistbox Recurrence type"
+#~ msgid "At Login"
+#~ msgstr "登入時"
+
+#~ msgctxt "@item:inlistbox Recurrence type"
+#~ msgid "Hourly/Minutely"
+#~ msgstr "小時/分鐘"
+
+#~ msgctxt "@item:inlistbox Recurrence type"
+#~ msgid "Daily"
+#~ msgstr "天"
+
+#~ msgctxt "@item:inlistbox Recurrence type"
+#~ msgid "Weekly"
+#~ msgstr "週"
+
+#~ msgctxt "@item:inlistbox Recurrence type"
+#~ msgid "Monthly"
+#~ msgstr "月"
+
+#~ msgctxt "@item:inlistbox Recurrence type"
+#~ msgid "Yearly"
+#~ msgstr "年"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recurrence Rule"
+#~ msgstr "循環規則"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Do not repeat the alarm"
+#~ msgstr "不重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Trigger the alarm at the specified date/time and at every login "
+#~ "until then.</para><para>Note that it will also be triggered any time "
+#~ "<application>KAlarm</application> is restarted.</para>"
+#~ msgstr ""
+#~ "<para>在每次登入時重覆響鈴直到指定的時間。</para> <para>注意每次 "
+#~ "<application>KAlarm</application> 重新啟動時也會響鈴。</para>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm at hourly/minutely intervals"
+#~ msgstr "以小時/分鐘為單位重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm at daily intervals"
+#~ msgstr "以天為單位重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm at weekly intervals"
+#~ msgstr "以週為單位重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm at monthly intervals"
+#~ msgstr "以月為單位重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm at annual intervals"
+#~ msgstr "以年為單位重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Set up a repetition within the recurrence, to trigger the alarm multiple "
+#~ "times each time the recurrence is due."
+#~ msgstr "設定循環內的重覆，在每次循環時觸發鬧鐘多次。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recurrence End"
+#~ msgstr "重覆結束"
+
+#~ msgctxt "@option:radio"
+#~ msgid "No end"
+#~ msgstr "不結束"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm indefinitely"
+#~ msgstr "無限期重覆鬧鐘"
+
+#~ msgctxt "@option:radio"
+#~ msgid "End after:"
+#~ msgstr "多久之後結束："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm for the number of times specified"
+#~ msgstr "在指定時間內重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the total number of times to trigger the alarm"
+#~ msgstr "輸入鬧鐘響鈴的總次數"
+
+#~ msgctxt "@label"
+#~ msgid "occurrence(s)"
+#~ msgstr "發生"
+
+#~ msgctxt "@option:radio"
+#~ msgid "End by:"
+#~ msgstr "結束時間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Repeat the alarm until the date/time specified.</"
+#~ "para><para><note>This applies to the main recurrence only. It does not "
+#~ "limit any sub-repetition which will occur regardless after the last main "
+#~ "recurrence.</note></para>"
+#~ msgstr ""
+#~ "<para>重覆鬧鐘直到指定的日期與時間。</para> <para><note>這只會套用到主要循"
+#~ "環。不會限制任何子循環。</note></para>"
+
+#~ msgctxt "@info/plain"
+#~ msgid "This uses the same time zone as the start time."
+#~ msgstr "這會使用跟啟始時間一樣的時區設定。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<para>Enter the last date to repeat the alarm.</para><para>%1</para>"
+#~ msgstr "<para>輸入鬧鐘最後一次響鈴的日期</para> <para>%1</para>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Enter the last time to repeat the alarm.</para><para>%1</para><para>"
+#~ "%2</para>"
+#~ msgstr ""
+#~ "<para>輸入鬧鐘最後一次響鈴的時間</para><para>%1</para><para>%2</para>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Stop repeating the alarm after your first login on or after the specified "
+#~ "end date"
+#~ msgstr "在第一次登入之後，或在指定的結束日期之後停止重覆響鈴。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Exceptions"
+#~ msgstr "例外"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The list of exceptions, i.e. dates/times excluded from the recurrence"
+#~ msgstr "除外的日期/時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter a date to insert in the exceptions list. Use in conjunction with "
+#~ "the Add or Change button below."
+#~ msgstr "輸入一個日期放進例外清單中。可以使用底下的「新增」、「變更」鍵。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Add the date entered above to the exceptions list"
+#~ msgstr "將上面輸入的日期加入例外清單中"
+
+#~ msgctxt "@action:button"
+#~ msgid "Change"
+#~ msgstr "變更"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Replace the currently highlighted item in the exceptions list with the "
+#~ "date entered above"
+#~ msgstr "將例外清單中所選取的日期改換成所輸入的日期"
+
+#~ msgctxt "@action:button"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Remove the currently highlighted item from the exceptions list"
+#~ msgstr "從例外清單中移除所選取的日期時間"
+
+#~ msgctxt "@option:check"
+#~ msgid "Exclude holidays"
+#~ msgstr "排除假日設定"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Do not trigger the alarm on holidays.</para><para>You can specify "
+#~ "your holiday region in the Configuration dialog.</para>"
+#~ msgstr ""
+#~ "<para>只在工作日的工作時間內執行鬧鐘。</para> <para>您可以在設定對話框中設"
+#~ "定工作時間。</para>"
+
+#~ msgctxt "@option:check"
+#~ msgid "Only during working time"
+#~ msgstr "只在工作時間內"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Only execute the alarm during working hours, on working days.</"
+#~ "para><para>You can specify working days and hours in the Configuration "
+#~ "dialog.</para>"
+#~ msgstr ""
+#~ "<para>只在工作日的工作時間內執行鬧鐘。</para> <para>您可以在喜好設定中設定"
+#~ "工作時間。</para>"
+
+#~ msgctxt "@info"
+#~ msgid "End date is earlier than start date"
+#~ msgstr "結束日期比開始日期還早"
+
+#~ msgctxt "@info"
+#~ msgid "End date/time is earlier than start date/time"
+#~ msgstr "結束日期/時間比開始日期/時間還早"
+
+#~ msgctxt "@info"
+#~ msgid "Date cannot be earlier than start date"
+#~ msgstr "日期不能比開始日期還早"
+
+#~ msgctxt "@label:spinbox"
+#~ msgid "Recur e&very"
+#~ msgstr "循環週期 (&V)："
+
+#~ msgctxt "@label Time units for user-entered numbers"
+#~ msgid "hours:minutes"
+#~ msgstr "小時:分鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the number of hours and minutes between repetitions of the alarm"
+#~ msgstr "輸入鬧鐘要重覆響鈴的時間（以小時與分鐘為單位）"
+
+#~ msgctxt "@label On: Tuesday"
+#~ msgid "O&n:"
+#~ msgstr "於(&N)："
+
+#~ msgctxt "@info"
+#~ msgid "No day selected"
+#~ msgstr "沒有選擇天數"
+
+#~ msgctxt "@label Time unit for user-entered number"
+#~ msgid "day(s)"
+#~ msgstr "天"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the number of days between repetitions of the alarm"
+#~ msgstr "輸入鬧鐘要重覆響鈴的時間（以天為單位）"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the days of the week on which the alarm is allowed to occur"
+#~ msgstr "選擇在一週之中哪幾天要重覆響鈴"
+
+#~ msgctxt "@label Time unit for user-entered number"
+#~ msgid "week(s)"
+#~ msgstr "週"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the number of weeks between repetitions of the alarm"
+#~ msgstr "輸入鬧鐘要重覆響鈴的時間（以週為單位）"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the days of the week on which to repeat the alarm"
+#~ msgstr "選擇在一週之中哪幾天要重覆響鈴"
+
+#~ msgctxt "@option:radio On day number in the month"
+#~ msgid "O&n day"
+#~ msgstr "於(&N)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Repeat the alarm on the selected day of the month"
+#~ msgstr "在一個月中的某幾天重覆響鈴"
+
+#~ msgctxt "@item:inlistbox Last day of month"
+#~ msgid "Last"
+#~ msgstr "最後一"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the day of the month on which to repeat the alarm"
+#~ msgstr "選擇一月中的那幾天要重覆響鈴"
+
+#~ msgctxt "@option:radio On the 1st Tuesday"
+#~ msgid "On t&he"
+#~ msgstr "於(&H)："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Repeat the alarm on one day of the week, in the selected week of the month"
+#~ msgstr "選擇一個月中第幾週的星期幾重覆響鈴"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "1st"
+#~ msgstr "第一"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2nd"
+#~ msgstr "第二"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "3rd"
+#~ msgstr "第三"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "4th"
+#~ msgstr "第四"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5th"
+#~ msgstr "第五"
+
+#~ msgctxt "@item:inlistbox Last Monday in March"
+#~ msgid "Last"
+#~ msgstr "最後一"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2nd Last"
+#~ msgstr "倒數第二個"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "3rd Last"
+#~ msgstr "倒數第三個"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "4th Last"
+#~ msgstr "倒數第四個"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5th Last"
+#~ msgstr "倒數第五個"
+
+#~ msgctxt "@item:inlistbox Every (Monday...) in month"
+#~ msgid "Every"
+#~ msgstr "每"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the week of the month in which to repeat the alarm"
+#~ msgstr "選擇一個月中哪幾週要重覆響鈴"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the day of the week on which to repeat the alarm"
+#~ msgstr "選擇一週中哪幾天要重覆響鈴"
+
+#~ msgctxt "@label Time unit for user-entered number"
+#~ msgid "month(s)"
+#~ msgstr "個月"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the number of months between repetitions of the alarm"
+#~ msgstr "輸入月數在每次鬧鐘重覆之間"
+
+#~ msgctxt "@label Time unit for user-entered number"
+#~ msgid "year(s)"
+#~ msgstr "年"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the number of years between repetitions of the alarm"
+#~ msgstr "輸入鬧鐘每幾年要重覆一次"
+
+#~ msgctxt "@label List of months to select"
+#~ msgid "Months:"
+#~ msgstr "月份："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the months of the year in which to repeat the alarm"
+#~ msgstr "選擇一年中哪幾個月要重覆響鈴"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "February 2&9th alarm in non-leap years:"
+#~ msgstr "非閏年遇到二月廿九號響鈴時要改到(&9)："
+
+#~ msgctxt "@item:inlistbox No date"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "@item:inlistbox 1st March (short form)"
+#~ msgid "1 Mar"
+#~ msgstr "三月一日"
+
+#~ msgctxt "@item:inlistbox 28th February (short form)"
+#~ msgid "28 Feb"
+#~ msgstr "二月廿八日"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Select which date, if any, the February 29th alarm should trigger in non-"
+#~ "leap years"
+#~ msgstr "如果在非閏年中遇到要在二月廿九日響鈴的鬧鐘，選擇要改到哪一天響鈴。"
+
+#~ msgctxt "@info"
+#~ msgid "No month selected"
+#~ msgstr "沒有選擇月份"
+
+#~ msgctxt "@option:check"
+#~ msgid "Reminder for first recurrence only"
+#~ msgstr "只在第一次循環時提醒"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "in advance"
+#~ msgstr "之前"
+
+#~ msgctxt "@option:check"
+#~ msgid "Reminder:"
+#~ msgstr "提醒："
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "afterwards"
+#~ msgstr "之後"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Display the reminder only for the first time the alarm is scheduled"
+#~ msgstr "只在第一次響鈴顯示提醒"
+
+#~ msgctxt "@title:window"
+#~ msgid "Alarm Sub-Repetition"
+#~ msgstr "鬧鐘子重覆"
+
+#~ msgctxt "@option:check Repeat every 10 minutes"
+#~ msgid "Repeat every"
+#~ msgstr "重覆間隔"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Instead of the alarm triggering just once at each recurrence, checking "
+#~ "this option makes the alarm trigger multiple times at each recurrence."
+#~ msgstr ""
+#~ "勾選此選項打開賴床功能。與循環週期不同的是，這個選項可以在一個循環週期內重"
+#~ "覆響鈴多次，也就是可以讓您賴個床。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the time between repetitions of the alarm"
+#~ msgstr "輸入鬧鐘重覆響鈴的間隔時間。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Number of repetitions:"
+#~ msgstr "重覆次數："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Check to specify the number of times the alarm should repeat after each "
+#~ "recurrence"
+#~ msgstr "勾選此選項可以指定在每一個循環週期中，鬧鐘要重覆響鈴幾次。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the number of times to trigger the alarm after its initial "
+#~ "occurrence"
+#~ msgstr "輸入觸發鬧鐘的總次數"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Duration:"
+#~ msgstr "期間："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check to specify how long the alarm is to be repeated"
+#~ msgstr "勾選此選項以指定鬧鐘要重覆響鈴多久"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the length of time to repeat the alarm"
+#~ msgstr "輸入要重覆響鈴的時間"
+
+#~ msgctxt "@title:window"
+#~ msgid "Calendar Configuration"
+#~ msgstr "行事曆設定"
+
+#~ msgctxt "@title:group"
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgctxt "@label:textbox Calendar name"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgctxt "@option:check"
+#~ msgid "Read-only"
+#~ msgstr "唯讀"
+
+#~ msgctxt "@title:group"
+#~ msgid "<resource>%1</resource> Calendar Settings"
+#~ msgstr "<resource>%1</resource> 行事曆設定"
+
+#~ msgctxt "@info"
+#~ msgid "Please enter a calendar name."
+#~ msgstr "請輸入行事曆名稱。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Disabled (wrong alarm type)"
+#~ msgstr "已關閉（錯誤的鬧鐘型態）"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Location:"
+#~ msgstr "位置："
+
+#~ msgctxt "@info"
+#~ msgid "No location specified.  The calendar will be invalid."
+#~ msgstr "您沒有指定位置，行事曆將變不合法。"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Download from:"
+#~ msgstr "下載來源："
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Upload to:"
+#~ msgstr "上傳目標："
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "You have specified no upload URL: the alarm calendar will be read-only."
+#~ msgstr "您沒有指定上傳網址，鬧鐘行事曆將設為唯讀。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Calendar <resource>%1</resource> cannot be made writable since it either "
+#~ "was not created by <application>KAlarm</application>, or was created by a "
+#~ "newer version of <application>KAlarm</application>"
+#~ msgstr ""
+#~ "行事曆 <resource>%1</resource> 無法寫入，因為不是由 <application>KAlarm</"
+#~ "application> 所建立，或是由較新版本的 <application>KAlarm</application> 所"
+#~ "建立。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Active alarms"
+#~ msgstr "作用中的鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Archived alarms"
+#~ msgstr "已歸檔的鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Alarm templates"
+#~ msgstr "鬧鐘樣本"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Read-write"
+#~ msgstr "讀寫"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<title>%1</title><para>Calendar type: %2<nl/>Contents: %3<nl/>%4: "
+#~ "<filename>%5</filename><nl/>Permissions: %6<nl/>Status: %7<nl/>Default "
+#~ "calendar: %8</para>"
+#~ msgstr ""
+#~ "<title>%1</title><para>行事曆型態：%2<nl/>內容：%3<nl/>%4：<filename>%5</"
+#~ "filename><nl/>權限：%6<nl/>狀態：%7<nl/>預設行事曆：%8</para>"
+
+#~ msgctxt "@info"
+#~ msgid "%1: invalid calendar file name: <filename>%2</filename>"
+#~ msgstr "%1：不正確的行事曆檔名： <filename>%2</filename>"
+
+#~ msgctxt "@info"
+#~ msgid "%1: file name not permitted: <filename>%2</filename>"
+#~ msgstr "%1：檔名不允許： <filename>%2</filename>"
+
+#~ msgctxt "@title:group"
+#~ msgid "Calendars"
+#~ msgstr "行事曆"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Active Alarms"
+#~ msgstr "作用中的鬧鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Archived Alarms"
+#~ msgstr "已歸檔的鬧鐘"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Alarm Templates"
+#~ msgstr "鬧鐘樣本"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose which type of data to show alarm calendars for"
+#~ msgstr "選擇要顯示鬧鐘行事曆的資料型態"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "List of available calendars of the selected type. The checked state shows "
+#~ "whether a calendar is enabled (checked) or disabled (unchecked). The "
+#~ "default calendar is shown in bold."
+#~ msgstr ""
+#~ "這是所選取的型態可用的行事曆。有勾選的表示該行事曆開啟，反之則表示已關閉。"
+#~ "預設的行事曆則以粗體顯示。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Edit..."
+#~ msgstr "編輯..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Edit the highlighted calendar"
+#~ msgstr "編輯標示的行事曆"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Remove the highlighted calendar from the list.</para><para>The "
+#~ "calendar itself is left intact, and may subsequently be reinstated in the "
+#~ "list if desired.</para>"
+#~ msgstr ""
+#~ "<para>從清單中移除標示的行事曆。</para><para>行事曆本身不會被改動，稍後需"
+#~ "要的話可以重新加入。</para>"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add a new active alarm calendar"
+#~ msgstr "新增作用中的鬧鐘行事曆"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add a new archived alarm calendar"
+#~ msgstr "新增歸檔鬧鐘行事曆"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add a new alarm template calendar"
+#~ msgstr "新增鬧鐘樣本行事曆"
+
+#~ msgctxt "@info"
+#~ msgid "Select storage type of new calendar:"
+#~ msgstr "選擇新行事曆的儲存型態："
+
+#~ msgctxt "@info"
+#~ msgid "Unable to create calendar of type <resource>%1</resource>."
+#~ msgstr "無法建立型態 <resource>%1</resource> 的行事曆。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "%1 calendar"
+#~ msgstr "%1 行事曆"
+
+#~ msgctxt "@info"
+#~ msgid "You cannot make your default active alarm calendar read-only."
+#~ msgstr "您無法將您預設作用中的鬧鐘行事曆設為唯讀。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "You cannot make your default archived alarm calendar read-only while "
+#~ "expired alarms are configured to be kept."
+#~ msgstr ""
+#~ "您無法將您預設的歸檔鬧鐘資源設為行事曆，因為您設定將逾時的鬧鐘保留。"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to make your default calendar read-only?"
+#~ msgstr "您真的要將您預設行事曆設為唯讀嗎？"
+
+#~ msgctxt "@info"
+#~ msgid "You cannot remove your default active alarm calendar."
+#~ msgstr "您無法移除您預設作用中的鬧鐘行事曆。"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "You cannot remove your default archived alarm calendar while expired "
+#~ "alarms are configured to be kept."
+#~ msgstr "您無法移除您預設歸檔鬧鐘行事曆，因為您設定將逾時的鬧鐘保留。"
+
+#~ msgctxt "@info"
+#~ msgid "<para>It also contains:%1</para>"
+#~ msgstr "<para>它也包含了：%1</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para><resource>%1</resource> is the default calendar for:%2</para>"
+#~ "%3<para>Do you really want to remove it from all calendar lists?</para>"
+#~ msgstr ""
+#~ "<para><resource>%1</resource>是 %2 的預設行事曆。</para> %3 <para>您確定要"
+#~ "將它從所有行事曆清單中移除嗎？</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Do you really want to remove your default calendar (<resource>%1</"
+#~ "resource>) from the list?"
+#~ msgstr "您真的要從清單中移除您的預設行事曆（<resource>%1</resource>）嗎？"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para><resource>%1</resource> contains:%2</para><para>Do you really want "
+#~ "to remove it from all calendar lists?</para>"
+#~ msgstr ""
+#~ "<para><resource>%1</resource> 包含 %2。</para> <para>您確定要將它從所有行"
+#~ "事曆清單中移除嗎？</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Do you really want to remove the calendar <resource>%1</resource> from "
+#~ "the list?"
+#~ msgstr "您真的要從清單中移除 <resource>%1</resource> 行事曆嗎？"
+
+#~ msgctxt "@action Reload calendar"
+#~ msgid "Re&load"
+#~ msgstr "重新載入(&L)"
+
+#~ msgctxt "@action"
+#~ msgid "&Save"
+#~ msgstr "儲存(&S)"
+
+#~ msgctxt "@action"
+#~ msgid "Show &Details"
+#~ msgstr "顯示詳情(&D)"
+
+#~ msgctxt "@action"
+#~ msgid "Set &Color..."
+#~ msgstr "設定顏色(&C)..."
+
+#~ msgctxt "@action"
+#~ msgid "Clear C&olor"
+#~ msgstr "清除顏色(&O)"
+
+#~ msgctxt "@action"
+#~ msgid "&Update Calendar Format"
+#~ msgstr "更新行事曆格式(&U)"
+
+#~ msgctxt "@action"
+#~ msgid "&Remove"
+#~ msgstr "移除(&R)"
+
+#~ msgctxt "@action"
+#~ msgid "&Add..."
+#~ msgstr "新增(&A)..."
+
+#~ msgctxt "@action"
+#~ msgid "Im&port..."
+#~ msgstr "匯入(&P)..."
+
+#~ msgctxt "@action"
+#~ msgid "Use as &Default for Active Alarms"
+#~ msgstr "設為預設作用鬧鐘(&D)"
+
+#~ msgctxt "@action"
+#~ msgid "Use as &Default for Archived Alarms"
+#~ msgstr "設為預設歸檔鬧鐘(&D)"
+
+#~ msgctxt "@action"
+#~ msgid "Use as &Default for Alarm Templates"
+#~ msgstr "設為預設鬧鐘樣本(&D)"
+
+#~ msgctxt "@info/plain"
+#~ msgid "It is not an active alarm calendar."
+#~ msgstr "這不是作用中的鬧鐘行事曆。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "It is not an archived alarm calendar."
+#~ msgstr "這不是歸檔鬧鐘行事曆"
+
+#~ msgctxt "@info/plain"
+#~ msgid "It is not an alarm template calendar."
+#~ msgstr "這不是鬧鐘樣本行事曆"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>Calendar <resource>%1</resource> has been disabled:</para><para>%2</"
+#~ "para>"
+#~ msgstr ""
+#~ "<para>行事曆 <resource>%1</resource>已被關閉：</para><para>%2</para>"
+
+#~ msgctxt "@info/plain List separator"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<title>%1</title><para>ID: %2<nl/>Calendar type: %3<nl/>Contents: %4<nl/>"
+#~ "%5: <filename>%6</filename><nl/>Permissions: %7<nl/>Status: %8<nl/"
+#~ ">Default calendar: %9</para>"
+#~ msgstr ""
+#~ "<title>%1</title><para>代碼：%2<nl/>行事曆型態：%3<nl/>內容：%4<nl/>%5："
+#~ "<filename>%6</filename><nl/>權限：%7<nl/>狀態：%8<nl/>預設行事曆：%9</"
+#~ "para>"
+
+#~ msgctxt "@option:check"
+#~ msgid "Repeat"
+#~ msgstr "重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Sound file:"
+#~ msgstr "音效檔案："
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Test the sound"
+#~ msgstr "測試音效"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Play the selected sound file."
+#~ msgstr "播放所選取的音效檔。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the name or URL of a sound file to play."
+#~ msgstr "輸入要播放的音效檔的檔名或網址。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select a sound file to play."
+#~ msgstr "選擇要播放的音效檔。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "If checked, the sound file will be played repeatedly for as long as the "
+#~ "message is displayed."
+#~ msgstr "勾選此選項的話，只要訊息顯示著，音效檔就會一直被重覆播放。"
+
+#~ msgctxt "@title:group Sound volume"
+#~ msgid "Volume"
+#~ msgstr "音量"
+
+#~ msgctxt "@option:check"
+#~ msgid "Set volume"
+#~ msgstr "設定音量"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select to choose the volume for playing the sound file."
+#~ msgstr "選取此項以選擇要播放音效檔的音量。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose the volume for playing the sound file."
+#~ msgstr "選擇要播放音效檔的音量。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Fade"
+#~ msgstr "音量漸強"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select to fade the volume when the sound file first starts to play."
+#~ msgstr "選取此項讓音效檔播出的音量漸漸變強。"
+
+#~ msgctxt "@label:spinbox Time period over which to fade the sound"
+#~ msgid "Fade time:"
+#~ msgstr "音量調整時間："
+
+#~ msgctxt "@label"
+#~ msgid "seconds"
+#~ msgstr "秒"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter how many seconds to fade the sound before reaching the set volume."
+#~ msgstr "輸入在多少秒內讓音量達到所設定的值。"
+
+#~ msgctxt "@label:slider"
+#~ msgid "Initial volume:"
+#~ msgstr "啟始音量："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose the initial volume for playing the sound file."
+#~ msgstr "選擇播放音效檔案的啟始音量。"
+
+#~ msgctxt "@label:listbox Listbox providing audio options"
+#~ msgid "Sound:"
+#~ msgstr "音效："
+
+#~ msgctxt "@item:inlistbox No sound"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Beep"
+#~ msgstr "嗶聲"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Speak"
+#~ msgstr "語音"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Sound file"
+#~ msgstr "音效檔案"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Configure sound file"
+#~ msgstr "設定音效檔"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Configure a sound file to play when the alarm is displayed."
+#~ msgstr "設定鬧鐘響鈴時要播放的音效檔。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<interface>%1</interface>: the message is displayed silently."
+#~ msgstr "<interface>%1</interface>：訊息顯示時將不會播放任何音效。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<interface>%1</interface>: a simple beep is sounded."
+#~ msgstr "<interface>%1</interface>：選擇播放簡單的嗶聲。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<interface>%1</interface>: an audio file is played. You will be prompted "
+#~ "to choose the file and set play options."
+#~ msgstr ""
+#~ "<interface>%1</interface>：選擇播放音效檔。您會被要求選擇音效檔以及設定播"
+#~ "放選項。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<interface>%1</interface>: the message text is spoken."
+#~ msgstr "<interface>%1</interface>：選擇訊息顯示時順便用語音唸出"
+
+#~ msgctxt "@info:whatsthis Combination of multiple whatsthis items"
+#~ msgid ""
+#~ "<para>Choose a sound to play when the message is displayed:<list><item>"
+#~ "%1</item><item>%2</item><item>%3</item><item>%4</item></list></para>"
+#~ msgstr ""
+#~ "<para>選擇此訊息顯示時要播放的音效： <list><item>%1</item> <item>%2</"
+#~ "item> <item>%3</item> <item>%4</item> </list></para>"
+
+#~ msgctxt "@info:whatsthis Combination of multiple whatsthis items"
+#~ msgid ""
+#~ "<para>Choose a sound to play when the message is displayed:<list><item>"
+#~ "%1</item><item>%2</item><item>%3</item></list></para>"
+#~ msgstr ""
+#~ "<para>選擇此訊息顯示時要播放的音效： <list><item>%1</item> <item>%2</"
+#~ "item> <item>%3</item> </list></para>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Sound File"
+#~ msgstr "音效檔"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose Sound File"
+#~ msgstr "選擇音效檔"
+
+#~ msgctxt "@action:button"
+#~ msgid "Special Actions..."
+#~ msgstr "特殊動作..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Specify actions to execute before and after the alarm is displayed."
+#~ msgstr "指定在鬧鐘響鈴之前與之後要執行的動作。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Special Alarm Actions"
+#~ msgstr "特殊鬧鐘動作"
+
+#~ msgctxt "@title:group"
+#~ msgid "Pre-Alarm Action"
+#~ msgstr "鬧鐘響鈴前動作"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Command:"
+#~ msgstr "指令："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Enter a shell command to execute before the alarm is displayed.</"
+#~ "para><para>Note that it is executed only when the alarm proper is "
+#~ "displayed, not when a reminder or deferred alarm is displayed.</"
+#~ "para><para><note>KAlarm will wait for the command to complete before "
+#~ "displaying the alarm.</note></para>"
+#~ msgstr ""
+#~ "<para>輸入鬧鐘顯示前要執行的指令。</para> <para>注意，這只在鬧鐘被顯示前執"
+#~ "行，而不是在提醒或延後時執行。</para> <para><note>KAlarm 會檔到指令執行完"
+#~ "畢時才響鈴。</note></para>"
+
+#~ msgctxt "@option:check"
+#~ msgid "Cancel alarm on error"
+#~ msgstr "發生錯誤時取消鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Cancel the alarm if the pre-alarm command fails, i.e. do not display the "
+#~ "alarm or execute any post-alarm action command."
+#~ msgstr ""
+#~ "如果鬧鐘響鈴前的指令發生錯誤則取消此鬧鐘，也就是不要顯示鬧鐘訊息，或是執行"
+#~ "任何鬧鐘指定的動作。"
+
+#~ msgctxt "@option:check"
+#~ msgid "Do not notify errors"
+#~ msgstr "不要通知錯誤"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Do not show error status or error message if the pre-alarm command fails."
+#~ msgstr "若是鬧鐘響鈴前的指令發生錯誤，不要顯示錯誤狀態或錯誤訊息。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Post-Alarm Action"
+#~ msgstr "鬧鐘響鈴後動作"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Enter a shell command to execute after the alarm window is closed.</"
+#~ "para><para>Note that it is not executed after closing a reminder window. "
+#~ "If you defer the alarm, it is not executed until the alarm is finally "
+#~ "acknowledged or closed.</para>"
+#~ msgstr ""
+#~ "<para>輸入鬧鐘視窗關閉後要執行的指令。</para> <para>注意，這只在鬧鐘視窗關"
+#~ "閉後執行，而不是在提醒視窗關閉後執行。如果您將鬧鐘延遲，則會在最終確認鬧鐘"
+#~ "或關閉時執行。</para>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Alarm Templates"
+#~ msgstr "鬧鐘樣本"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The list of alarm templates"
+#~ msgstr "鬧鐘樣本列表"
+
+#~ msgctxt "@action:button"
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgctxt "@action"
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Create a new alarm template"
+#~ msgstr "產生新的鬧鐘樣本"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Edit the currently highlighted alarm template"
+#~ msgstr "編輯所選取的鬧鐘樣本"
+
+#~ msgctxt "@action:button"
+#~ msgid "Copy"
+#~ msgstr "複製"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Create a new alarm template based on a copy of the currently highlighted "
+#~ "template"
+#~ msgstr "從目前所選取的樣本複製一份成新的樣本。"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Delete the currently highlighted alarm template"
+#~ msgstr "刪除所選取的鬧鐘樣本"
+
+#~ msgctxt "@info"
+#~ msgid "Do you really want to delete the selected alarm template?"
+#~ msgid_plural "Do you really want to delete the %1 selected alarm templates?"
+#~ msgstr[0] "您真的要刪除這 %1 個鬧鐘樣本嗎？"
+
+#~ msgctxt "@title:window"
+#~ msgid "Delete Alarm Template"
+#~ msgid_plural "Delete Alarm Templates"
+#~ msgstr[0] "刪除鬧鐘樣本"
+
+#~ msgctxt "@title:window"
+#~ msgid "Choose Alarm Template"
+#~ msgstr "選擇鬧鐘樣本"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select a template to base the new alarm on."
+#~ msgstr "選擇樣本以產生新的鬧鐘。"
+
+#~ msgctxt "@action"
+#~ msgid "&New Alarm"
+#~ msgstr "新增鬧鐘(&N)"
+
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgctxt "@info:tooltip Brief: some alarms are disabled"
+#~ msgid "(Some alarms disabled)"
+#~ msgstr "（有些鬧鐘已關閉）"
+
+#~ msgctxt "@info/plain prefix + hours:minutes"
+#~ msgid "(%1%2:%3)"
+#~ msgstr "(%1%2:%3)"
+
+#~ msgctxt "@info/plain prefix + hours:minutes"
+#~ msgid "%1%2:%3"
+#~ msgstr "%1%2:%3"
+
+#~ msgctxt "@text/plain"
+#~ msgid "Could not run <command>%1</command> to set wake from suspend"
+#~ msgstr "無法執行 <command>%1</command>來設定從休眠中喚醒功能"
+
+#~ msgctxt "@text/plain"
+#~ msgid ""
+#~ "Error setting wake from suspend.<nl/>Command was: <command>%1</"
+#~ "command><nl/>Error code: %2."
+#~ msgstr ""
+#~ "設定從休眠中喚醒功能時發生錯誤。<nl/>指令為：<command>%1</command><nl/>錯"
+#~ "誤代碼：%2"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Failed to create new calendar resource"
+#~ msgstr "建立行事曆資源失敗。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Failed to create default calendar <resource>%1</resource>"
+#~ msgstr "無法更新預設行事曆 <resource>%1</resource>。"
+
+#~ msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
+#~ msgid ""
+#~ "Failed to convert old configuration for calendar <resource>%1</resource>. "
+#~ "Please use Import Alarms to load its alarms into a new or existing "
+#~ "calendar."
+#~ msgstr ""
+#~ "轉換行事曆 <resource>%1</resource> 的舊設定失敗。請使用「匯入鬧鐘」將它的"
+#~ "鬧鐘載入新的或現有的行事曆中。"
+
+#~ msgctxt "@info/plain File path or URL"
+#~ msgid "Location: %1"
+#~ msgstr "位置：%1"
+
+#~ msgctxt "@info"
+#~ msgid "<para>%1</para><para>%2</para>"
+#~ msgstr "<para>%1</para> <para>%2</para>"
+
+#~ msgctxt "@info"
+#~ msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
+#~ msgstr "<para>%1</para><para>%2<nl/>(%3)</para>"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Invalid collection"
+#~ msgstr "不合法的收藏"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Failed to update format of calendar <resource>%1</resource>"
+#~ msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
+
+#~ msgctxt "@info/plain"
+#~ msgid "New configuration timed out"
+#~ msgstr "新設定已逾時"
+
+#~ msgctxt "@info/plain"
+#~ msgid "New configuration was corrupt"
+#~ msgstr "新設定已損毀"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Alarm not found"
+#~ msgstr "找不到鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Error recreating alarm"
+#~ msgstr "重新產生鬧鐘時發生錯誤"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Error recreating alarm template"
+#~ msgstr "儲存重新啟動的鬧鐘樣本時發生錯誤"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Cannot reactivate archived alarm"
+#~ msgstr "無法重新啟動已歸檔的鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Program error"
+#~ msgstr "程式錯誤"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Unknown error"
+#~ msgstr "未知的錯誤"
+
+#~ msgctxt "@info Undo-action: message"
+#~ msgid "%1: %2"
+#~ msgstr "%1：%2"
+
+#~ msgctxt "@info/plain Action to create a new alarm"
+#~ msgid "New alarm"
+#~ msgstr "新的鬧鐘"
+
+#~ msgctxt "@info/plain Action to delete an alarm"
+#~ msgid "Delete alarm"
+#~ msgstr "刪除鬧鐘"
+
+#~ msgctxt "@info/plain Action to create a new alarm template"
+#~ msgid "New template"
+#~ msgstr "新的樣本"
+
+#~ msgctxt "@info/plain Action to delete an alarm template"
+#~ msgid "Delete template"
+#~ msgstr "刪除樣本"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Delete archived alarm"
+#~ msgstr "刪除已歸檔的鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Create multiple alarms"
+#~ msgstr "建立多個鬧鐘"
+
+#~ msgctxt "@info/plain Action to edit an alarm"
+#~ msgid "Edit alarm"
+#~ msgstr "編輯鬧鐘"
+
+#~ msgctxt "@info/plain Action to edit an alarm template"
+#~ msgid "Edit template"
+#~ msgstr "編輯樣本"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Delete multiple alarms"
+#~ msgstr "刪除多個鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Delete multiple templates"
+#~ msgstr "刪除多個樣本"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Delete multiple archived alarms"
+#~ msgstr "刪除多個已歸檔的鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Reactivate alarm"
+#~ msgstr "重新啟動鬧鐘"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Reactivate multiple alarms"
+#~ msgstr "重新啟動多個鬧鐘"
+
+#~ msgctxt "@title:window"
+#~ msgid "Wake From Suspend"
+#~ msgstr "從休眠中喚醒"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot schedule wakeup time for a date-only alarm"
+#~ msgstr "無法在日期型鬧鐘安排喚醒時間"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>This wakeup will cancel any existing wakeup which has been set by "
+#~ "KAlarm or any other application, because your computer can only schedule "
+#~ "a single wakeup time.</para><para><b>Note:</b> Wake From Suspend is not "
+#~ "supported at all on some computers, especially older ones, and some "
+#~ "computers only support setting a wakeup time up to 24 hours ahead. You "
+#~ "may wish to set up a test alarm to check your system's capability.</para>"
+#~ msgstr ""
+#~ "<para>這個喚醒設定會取消掉所有之前 KAlarm 或其它應用程式所設定的喚醒設定，"
+#~ "因為您的電腦只能安排一個喚醒時間。</para> <para><b>注意：</b>從休眠中喚醒"
+#~ "的功能在某些電腦上並沒有完整支援，特別是舊式的電腦，有的電腦只支援將喚醒時"
+#~ "間設在廿四小時內。您可以先試著設定一組測試鬧鐘來檢查您的系統相容性。</"
+#~ "para> "
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Keanu, Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "keanu@ms50.url.com.tw, franklin@goodhorse.idv.tw"
+
+#~ msgid "Alarm Types"
+#~ msgstr "鬧鐘型態"
+
+#~ msgid "Active Alarms"
+#~ msgstr "作用中的鬧鐘"
+
+#~ msgid "Archived Alarms"
+#~ msgstr "已歸檔的鬧鐘"
+
+#~ msgid "Alarm Templates"
+#~ msgstr "鬧鐘樣本"
+
+#~ msgid "Path to KAlarm calendar file."
+#~ msgstr "請輸入 KAlarm 行事曆檔案的路徑。"
+
+#~ msgid "Display name."
+#~ msgstr "顯示名稱。"
+
+#~ msgid "Do not change the actual backend data."
+#~ msgstr "不要變更實際的後端資料。"
+
+#~ msgid "Monitor file for changes."
+#~ msgstr "監控檔案變更。"
+
+#~ msgid "Alarm types."
+#~ msgstr "鬧鐘型態。"
+
+#~ msgid "Update backend storage format."
+#~ msgstr "更新後端儲存格式。"
+
+#~ msgid "Directory"
+#~ msgstr "目錄"
+
+#~ msgid "Directory Name"
+#~ msgstr "目錄名稱"
+
+#~ msgid "&Directory:"
+#~ msgstr "目錄(&D)："
+
+#~ msgid ""
+#~ "Select the directory whose contents should be represented by this "
+#~ "resource. If the directory does not exist, it will be created."
+#~ msgstr "選取此資源要顯示內容的目錄。若目錄不存在，則會新建一個目錄。"
+
+#~ msgid "Display Name"
+#~ msgstr "顯示名稱"
+
+#~ msgid "&Name:"
+#~ msgstr "名稱(&N)："
+
+#~ msgid ""
+#~ "Enter the name used to identify this resource in displays. If not "
+#~ "specified, the directory name will be used."
+#~ msgstr "輸入用於在顯示中辨識此資源的名稱。若未指定，將會使用目錄名稱。"
+
+#~ msgid "Access Rights"
+#~ msgstr "存取權限"
+
+#~ msgid "Read only"
+#~ msgstr "唯讀"
+
+#~ msgid ""
+#~ "If read-only mode is enabled, no changes will be written to the directory "
+#~ "selected above. Read-only mode will be automatically enabled if you do "
+#~ "not have write access to the directory."
+#~ msgstr ""
+#~ "若開啟唯讀模式，則變更不會被寫入檔案。唯讀模式在您沒有寫入目錄的權限時會自"
+#~ "動被開啟。"
+
+#~ msgid "Path to KAlarm directory."
+#~ msgstr "KAlarm 目錄的路徑。"
+
+#~ msgid "Monitor directory for changes."
+#~ msgstr "監控目錄變更。"
+
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#~ msgid "Filename"
+#~ msgstr "檔案名稱"
+
+#~ msgid "&Filename:"
+#~ msgstr "檔名(&F):"
+
+#~ msgid "Status:"
+#~ msgstr "狀態："
+
+#~ msgid ""
+#~ "Select the file whose contents should be represented by this resource. If "
+#~ "the file does not exist, it will be created. A URL of a remote file can "
+#~ "also be specified, but note that monitoring for file changes will not "
+#~ "work in this case."
+#~ msgstr ""
+#~ "選取此資源要展示內容的檔案。如果檔案不存在，則會建新的檔案。您也可以指定遠"
+#~ "端檔案的網址，但是要注意，無法監測遠端檔案是否有變動。"
+
+#~ msgid ""
+#~ "Enter the name used to identify this resource in displays. If not "
+#~ "specified, the filename will be used."
+#~ msgstr "輸入用於在顯示中辨識此資源的名稱。若未指定，將會使用檔名。"
+
+#~ msgid ""
+#~ "If read-only mode is enabled, no changes will be written to the file "
+#~ "selected above. Read-only mode will be automatically enabled if you do "
+#~ "not have write access to the file or the file is on a remote server that "
+#~ "does not support write access."
+#~ msgstr ""
+#~ "如果開啟唯讀模式，則不會將變更寫入檔案。唯讀模式在您沒有寫入權限時，或是檔"
+#~ "案在遠端，而不支援寫入時會自動開啟。"
+
+#~ msgid "Monitoring"
+#~ msgstr "監控"
+
+#~ msgid ""
+#~ "If file monitoring is enabled the resource will reload the file when "
+#~ "changes are made by other programs. It also tries to create a backup in "
+#~ "case of conflicts whenever possible."
+#~ msgstr ""
+#~ "若開啟檔案監控，當檔案被其它程式變更時，資源會重新載入檔案。它也會試著建立"
+#~ "備份以避免發生衝突。"
+
+#~ msgid "Enable file &monitoring"
+#~ msgstr "開啟檔案監控(&M)"
+
+#~ msgid "&Display name:"
+#~ msgstr "顯示名稱(&D)："
+
+#~ msgctxt "@label"
+#~ msgid "KAlarm version"
+#~ msgstr "KAlarm 版本"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "KAlarm version which wrote this file."
+#~ msgstr "寫此檔案的 KAlarm 版本。"
+
+#~ msgctxt "@label"
+#~ msgid "Time zone"
+#~ msgstr "時區"
+
+#~ msgctxt "@label"
+#~ msgid "Holiday region"
+#~ msgstr "假日區域"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the holiday region to use."
+#~ msgstr "請選擇要使用哪個區域的假日設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Foreground color"
+#~ msgstr "前景顏色"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default foreground color for alarm message windows."
+#~ msgstr "鬧鐘訊息視窗使用的預設背景顏色。"
+
+#~ msgctxt "@label"
+#~ msgid "Background color"
+#~ msgstr "背景顏色"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default background color for alarm message windows."
+#~ msgstr "鬧鐘訊息視窗使用的預設背景顏色。"
+
+#~ msgctxt "@label"
+#~ msgid "Message font"
+#~ msgstr "訊息字型"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default font for displaying alarm messages."
+#~ msgstr "顯示鬧鐘訊息的預設字型。"
+
+#~ msgctxt "@label"
+#~ msgid "Show in system tray"
+#~ msgstr "在系統匣內顯示"
+
+#~ msgctxt "@label"
+#~ msgid "Start at login"
+#~ msgstr "在登入時啟動"
+
+#~ msgctxt "@label"
+#~ msgid "Suppress autostart at login"
+#~ msgstr "在登入時不要自動啟動"
+
+#~ msgctxt "@label"
+#~ msgid "Default defer time interval"
+#~ msgstr "預設延遲的時間間隔："
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the default time interval (in minutes) to defer alarms, used by the "
+#~ "Defer Alarm dialog."
+#~ msgstr "輸入預設的延遲鬧鐘時間間隔（以分為單位），會用於延遲鬧鐘對話框。"
+
+#~ msgctxt "@label"
+#~ msgid "Prompt for which calendar to store in"
+#~ msgstr "提示要儲存於哪個行事曆"
+
+#~ msgctxt "@label"
+#~ msgid "Message windows have a title bar and take keyboard focus"
+#~ msgstr "訊息視窗有標題列並且會取得鍵盤的焦點"
+
+#~ msgctxt "@label"
+#~ msgid "Delay before message window buttons are enabled"
+#~ msgstr "在訊息視窗按鍵可使用前延遲"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Specify the positioning of alarm message windows, and the delay in "
+#~ "seconds after a window shows until its buttons are enabled.\n"
+#~ "        <list><item>0 to position message windows as far from the cursor "
+#~ "as possible with no enable delay.</item>\n"
+#~ "        <item>> 0 to position in center of screen and specify delay "
+#~ "before enabling buttons.</item>\n"
+#~ "        <item>-1 for no special positioning and no enable delay.</item></"
+#~ "list></para>\n"
+#~ "      "
+#~ msgstr ""
+#~ "<para>指定鬧鐘訊息視窗的位置，以及視窗顯示多久後按鍵才啟動。\n"
+#~ "    <list><item>0 表示置於游標處，並且沒有延遲。</item>\n"
+#~ "    <item>正值表示置於螢幕中央，並且多少秒後啟動按鍵。</item>\n"
+#~ "    <item>-1 表示不特別指定視窗位置，也不設定按鍵延遲。</item></list></"
+#~ "para>\n"
+#~ "       "
+
+#~ msgctxt "@label"
+#~ msgid "Number of alarms to show in system tray tooltip"
+#~ msgstr "系統匣工具提示中顯示幾個鬧鐘資訊"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>How many alarms due in the next 24 hours to show in the system tray "
+#~ "tooltip:\n"
+#~ "        <list><item>0 to display none</item>\n"
+#~ "        <item>-1 to display all</item>\n"
+#~ "        <item>>0 to set a limit.</item></list></para>\n"
+#~ "      "
+#~ msgstr ""
+#~ "<para>系統匣工具提示中顯示幾個在廿四小時內會響鈴的鬧鐘資訊：\n"
+#~ "    <list><item>0 不顯示</item>\n"
+#~ "    <list><item>-1 全部顯示</item>\n"
+#~ "    <list><item>其他值則為限制數量</item></list></para>\n"
+#~ "      "
+
+#~ msgctxt "@label"
+#~ msgid "Show alarm times in system tray tooltip"
+#~ msgstr "在系統匣工具提示中顯示鬧鐘時間"
+
+#~ msgctxt "@label"
+#~ msgid "Show time to alarms in system tray tooltip"
+#~ msgstr "在系統匣工具提示中顯示還要多久響鈴"
+
+#~ msgctxt "@label"
+#~ msgid "Time-to-alarm prefix in system tray tooltip"
+#~ msgstr "在系統匣工具提示中顯示還要多久響鈴的前置字串"
+
+#~ msgctxt "@label"
+#~ msgid "Email client"
+#~ msgstr "信件客戶端"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>How to send email when an email alarm is triggered."
+#~ "<list><item>KMail: The email is sent automatically via "
+#~ "<application>KMail</application>. <application>KMail</application> is "
+#~ "started first if necessary.</item><item>Sendmail: The email is sent "
+#~ "automatically. This option will only work if your system is configured to "
+#~ "use <application>sendmail</application> or a sendmail compatible mail "
+#~ "transport agent.</item></list></para>"
+#~ msgstr ""
+#~ "<para>選擇鬧鐘被觸發時要如何寄出信件。\n"
+#~ "<list><item><interface>%1</interface>：信件會自動透過 <application>KMail</"
+#~ "application> 送出。<application>KMail</application> 若尚未啟動，則會先被啟"
+#~ "動。</item><item><interface>Sendmail</interface>：會自動地寄出信件。該選項"
+#~ "將只會在您的系統是設定使用 <application>sendmail</application> 或相容的郵"
+#~ "件傳遞程式時才有作用。</item></list></para>"
+
+#~ msgctxt "@option"
+#~ msgid "Sendmail"
+#~ msgstr "Sendmail"
+
+#~ msgctxt "@option"
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgctxt "@label"
+#~ msgid "Whether to copy sent emails into KMail's Sent folder."
+#~ msgstr "是否要將發送之信件複製到 KMail 的寄件匣內"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Whether after sending an email to store a copy in KMail's sent-mail "
+#~ "folder. Only applies when sendmail is selected as the email client."
+#~ msgstr ""
+#~ "送出信件後是否要儲存一份副本在 KMail 的寄件備份中。這個選項只有在使用 "
+#~ "sendmail 做為信件客戶端時才有作用。"
+
+#~ msgctxt "@label"
+#~ msgid "'From' email address"
+#~ msgstr "寄件者的電子郵件地址"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Your email address, used to identify you as the sender when sending email "
+#~ "alarms. Enter \"@SystemSettings\" to use the email address set in System "
+#~ "Settings, \"@KMail\" to allow choice of KMail identities, or enter the "
+#~ "actual email address otherwise."
+#~ msgstr ""
+#~ "寄件者，也就是您的電子郵件地址。輸入 @SystemSettings 可以使用在控制中心裡"
+#~ "設定的電子郵件地址，@KMail 可以選擇 KMail 中的身份，或是輸入實際的電子郵件"
+#~ "地址。"
+
+#~ msgctxt "@label"
+#~ msgid "'Bcc' email address"
+#~ msgstr "密件副本的電子郵件地址"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Your email address, used for blind copying email alarms to yourself. If "
+#~ "you want blind copies to be sent to your account on the computer which "
+#~ "KAlarm runs on, you can simply enter your user login name. Enter "
+#~ "\"@SystemSettings\" to use the email address set in System Settings, or "
+#~ "enter the actual email address otherwise."
+#~ msgstr ""
+#~ "密件副本使用的電子郵件地址，用於將寄件副本暗地裡傳送給您自己。如果您要發送"
+#~ "到本機上的帳號，只要填入帳號名稱即可。輸入 @SystemSettings 可以使用在控制"
+#~ "中心裡設定的電子郵件地址，@KMail 可以選擇 KMail 中的身份，或是輸入實際的電"
+#~ "子郵件地址。"
+
+#~ msgctxt "@label"
+#~ msgid "Terminal for command alarms"
+#~ msgstr "指令型鬧鐘使用的終端機程式"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Command line to execute command alarms in a terminal window, including "
+#~ "special codes described in the KAlarm handbook."
+#~ msgstr "指令型鬧鐘使用的終端機程式，包括 KAlarm 手冊中描述的一些特殊代碼。"
+
+#~ msgctxt "@label"
+#~ msgid "Start of day for date-only alarms"
+#~ msgstr "一天的開始"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "The earliest time of day at which a date-only alarm will be triggered."
+#~ msgstr ""
+#~ "一天最早的時間。對只設定日期的鬧鐘（也就是勾選「任何時間」鬧鐘）而言，將會"
+#~ "在這個時間被觸發。"
+
+#~ msgctxt "@label"
+#~ msgid "Start time of working day"
+#~ msgstr "工作日的開始時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The start time of the working day."
+#~ msgstr "工作日的開始時間。"
+
+#~ msgctxt "@label"
+#~ msgid "End time of working day"
+#~ msgstr "工作日的結束時間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "The end time of the working day."
+#~ msgstr "工作日的結束時間。"
+
+#~ msgctxt "@label"
+#~ msgid "Working days"
+#~ msgstr "工作日"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "OR'ed bits indicating which days of the week are work days, 1 = "
+#~ "Monday ... 64 = Sunday."
+#~ msgstr "OR 起來的位元表示一週中的哪幾天是工作日。1 為星期一，64 為星期日。"
+
+#~ msgctxt "@label"
+#~ msgid "Disabled alarm color"
+#~ msgstr "已關閉的鬧鐘顏色"
+
+#~ msgctxt "@label"
+#~ msgid "Archived alarm color"
+#~ msgstr "已歸檔的鬧鐘顏色"
+
+#~ msgctxt "@label"
+#~ msgid "Days to keep expired alarms"
+#~ msgstr "已逾時的鬧鐘保留天數"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<para>Specify how many days to keep alarms after they expire or are "
+#~ "deleted (except deleted alarms which were never triggered):\n"
+#~ "        <list><item>0 to not keep</item>\n"
+#~ "        <item>-1 to keep indefinitely</item>\n"
+#~ "        <item>>0 number of days to keep.</item></list></para>\n"
+#~ "      "
+#~ msgstr ""
+#~ "<para>指定已逾時或刪除的鬧鐘實際保留幾天（除非已刪除的鬧鐘已不會再被觸"
+#~ "發）：\n"
+#~ "    <list><item>0 不保留</item>\n"
+#~ "    <item>-1 永遠保留</item>\n"
+#~ "    <item>其他正值則為保留天數</item></list></para>\n"
+#~ "      "
+
+#~ msgctxt "@label"
+#~ msgid "KOrganizer event duration"
+#~ msgstr "KOrganizer 事件期間"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter the event duration in minutes, for alarms which are copied to "
+#~ "KOrganizer."
+#~ msgstr "輸入要複製到 KOrganizer 的鬧鐘的事件期間，單位為小時與分鐘。"
+
+#~ msgctxt "@label"
+#~ msgid "Number of minutes before alarm to wake from suspend"
+#~ msgstr "在鬧鐘響多少分鐘以前從休眠中喚醒"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Enter how many minutes before the alarm trigger time to wake the system "
+#~ "from suspend. This can be used to ensure that the system is fully "
+#~ "restored by the time the alarm triggers."
+#~ msgstr ""
+#~ "輸入您要在鬧鐘響鈴前幾分鐘將電腦從休眠中喚醒。這樣可以確保系統能完整回復並"
+#~ "觸發鬧鐘。"
+
+#~ msgctxt "@label"
+#~ msgid "Cancel if late (minutes)"
+#~ msgstr "超過多少分鐘就取消鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Default value in the alarm edit dialog for late cancellation time (in "
+#~ "minutes). 0 for no late cancellation, >0 how many minutes before "
+#~ "cancelling."
+#~ msgstr ""
+#~ "時間超過多少時間則取消鬧鐘，以分為單位。0 不取消，其他正值則為超過的時間。"
+
+#~ msgctxt "@label"
+#~ msgid "Auto-close window after late-cancellation time"
+#~ msgstr "過了取消延遲的時間後自動關閉視窗"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default setting in the alarm edit dialog for \"auto close if late\"."
+#~ msgstr "在鬧鐘編輯視窗中，「若延遲就自動關閉」的預設設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Confirm acknowledgement"
+#~ msgstr "回覆確認"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Default setting in the alarm edit dialog for \"confirm alarm "
+#~ "acknowledgement\"."
+#~ msgstr "在鬧鐘編輯視窗中，「回覆確認」的預設設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Show in KOrganizer"
+#~ msgstr "在 KOrganizer 中顯示"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default setting in the alarm edit dialog for \"show in KOrganizer\"."
+#~ msgstr "在鬧鐘編輯視窗中，「在 KOrganizer 中顯示」的預設設定。"
+
+#~ msgctxt "@label Label for audio options"
+#~ msgid "Sound"
+#~ msgstr "音效"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default sound type in the alarm edit dialog."
+#~ msgstr "輸入鬧鐘編輯視窗中預設的音效型態。"
+
+#~ msgctxt "@option"
+#~ msgid "Play File"
+#~ msgstr "播放檔案"
+
+#~ msgctxt "@label"
+#~ msgid "Sound file"
+#~ msgstr "音效檔案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default sound file path in the alarm edit dialog."
+#~ msgstr "輸入鬧鐘編輯視窗中預設的音效檔。"
+
+#~ msgctxt "@label"
+#~ msgid "Sound volume"
+#~ msgstr "音量"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Default sound volume in the alarm edit dialog. -1 to deselect volume, or "
+#~ "0 - 100 %"
+#~ msgstr "輸入鬧鐘編輯視窗中預設的音量，由 0 ~ 100%。-1 表示不使用音效。"
+
+#~ msgctxt "@label"
+#~ msgid "Repeat sound file"
+#~ msgstr "重覆音效檔案"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default setting in the alarm edit dialog for sound repetition."
+#~ msgstr "在鬧鐘編輯視窗中，「重覆音效」的預設設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Enter script"
+#~ msgstr "輸入文稿"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default setting in the alarm edit dialog for command script entry."
+#~ msgstr "在鬧鐘編輯視窗中，「輸入命令文稿」的預設設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Command output"
+#~ msgstr "指令輸出"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Default setting in the alarm edit dialog for where to send command alarm "
+#~ "output."
+#~ msgstr "在鬧鐘編輯視窗中，「將鬧鐘輸出傳送到哪裡」的預設設定。"
+
+#~ msgctxt "@option"
+#~ msgid "Discard Output"
+#~ msgstr "丟棄輸出"
+
+#~ msgctxt "@option"
+#~ msgid "Log To File"
+#~ msgstr "紀錄到檔案中"
+
+#~ msgctxt "@option"
+#~ msgid "Execute in terminal window"
+#~ msgstr "於終端視窗中執行"
+
+#~ msgctxt "@label"
+#~ msgid "Log file"
+#~ msgstr "紀錄檔"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default log file path for command alarms in the alarm edit dialog."
+#~ msgstr "在鬧鐘編輯視窗中，預設的紀錄檔路徑設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Copy email to self"
+#~ msgstr "複製信件給自己"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Default setting in the alarm edit dialog for blind copying emails to self."
+#~ msgstr "在鬧鐘編輯視窗中，「密件副本傳送位址」的預設設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Recurrence period"
+#~ msgstr "循環區間"
+
+#~ msgctxt "@option"
+#~ msgid "No recurrence"
+#~ msgstr "不循環"
+
+#~ msgctxt "@option"
+#~ msgid "At login"
+#~ msgstr "登入時"
+
+#~ msgctxt "@option"
+#~ msgid "Hourly/minutely"
+#~ msgstr "小時/分鐘"
+
+#~ msgctxt "@option"
+#~ msgid "February 28th"
+#~ msgstr "二月廿八日"
+
+#~ msgctxt "@option"
+#~ msgid "March 1st"
+#~ msgstr "三月一日"
+
+#~ msgctxt "@option"
+#~ msgid "Do not repeat"
+#~ msgstr "不重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Reminder units"
+#~ msgstr "提醒單位"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default reminder time units in the alarm edit dialog."
+#~ msgstr "鬧鐘編輯視窗中，提醒的預設時間單位。"
+
+#~ msgctxt "@option"
+#~ msgid "Hours/Minutes"
+#~ msgstr "小時/分鐘"
+
+#~ msgctxt "@label"
+#~ msgid "Pre-alarm action"
+#~ msgstr "鬧鐘響鈴前動作"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default command to execute before displaying alarms."
+#~ msgstr "顯示鬧鐘前要執行的指令。"
+
+#~ msgctxt "@label"
+#~ msgid "Cancel alarm on pre-alarm action error"
+#~ msgstr "鬧鐘響鈴前動作發生錯誤時取消鬧鐘"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Default setting for whether to cancel the alarm if the pre-alarm action "
+#~ "command fails."
+#~ msgstr "若是鬧鐘響鈴前的指令發生錯誤，是否要取消此鬧鐘的預設設定。"
+
+#~ msgctxt "@label"
+#~ msgid "Do not notify pre-alarm action errors"
+#~ msgstr "鬧鐘響鈴前動作發生錯誤時不要發出通知"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Default setting for whether to show no error status or error message if "
+#~ "the pre-alarm action command fails."
+#~ msgstr "若是鬧鐘響鈴前的指令發生錯誤，是否不要顯示錯誤狀態或錯誤訊息。"
+
+#~ msgctxt "@label"
+#~ msgid "Post-alarm action"
+#~ msgstr "鬧鐘響鈴後動作"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Default command to execute after alarm message windows are closed."
+#~ msgstr "鬧鐘訊息視窗關閉後要執行的指令。"
+
+#~ msgctxt "@label"
+#~ msgid "Warn before quitting"
+#~ msgstr "離開前先警告"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Whether to suppress a warning prompt before quitting KAlarm."
+#~ msgstr "離開 KAlarm 前是否要顯示警告。"
+
+#~ msgctxt "@label"
+#~ msgid "Confirm alarm deletions"
+#~ msgstr "確認鬧鐘刪除"
+
+#~ msgctxt "@label"
+#~ msgid "Notify when remote emails are queued"
+#~ msgstr "發送到遠端的電子郵件被佇列住的話則發出通知"
+
+#~ msgid "&File"
+#~ msgstr "檔案(&F)"
+
+#~ msgid "&Edit"
+#~ msgstr "編輯(&E)"
+
+#~ msgid "&View"
+#~ msgstr "檢視(&V)"
+
+#~ msgid "&Actions"
+#~ msgstr "動作(&A)"
+
+#~ msgid "&Settings"
+#~ msgstr "設定(&S)"
+
+#~ msgid "Wake From Suspend Alarm"
+#~ msgstr "從休眠中喚醒型鬧鐘"
+
+#~ msgid "Show current wake-from-suspend alarm"
+#~ msgstr "顯示目前的從休眠中喚醒型鬧鐘"
+
+#~ msgid ""
+#~ "Highlight the current wake-from-suspend alarm in the alarm list. This "
+#~ "button is disabled if no wake-from-suspend alarm is configured."
+#~ msgstr ""
+#~ "在鬧鐘清單中將「從休眠中喚醒」型的鬧鐘突顯出來。若是沒有這類型鬧鐘，此按鍵"
+#~ "會被關閉。"
+
+#~ msgid "Show current alarm"
+#~ msgstr "顯示目前的鬧鐘"
+
+#~ msgid "Set highlighted alarm as the wake-from-suspend alarm"
+#~ msgstr "將突顯的鬧鐘設為從休眠中喚醒型鬧鐘"
+
+#~ msgid ""
+#~ "Set the alarm highlighted in the alarm list to wake-from-suspend. This "
+#~ "replaces any existing wake-from-suspend alarm."
+#~ msgstr ""
+#~ "將鬧鐘清單內突顯的鬧鐘設為從休眠中喚醒型的鬧鐘。它會將所有現有的從休眠中喚"
+#~ "醒型的鬧鐘取代掉。"
+
+#~ msgid "Use highlighted alarm"
+#~ msgstr "使用突顯的鬧鐘"
+
+#~ msgid "Cancel the current wake-from-suspend"
+#~ msgstr "取消目前的從休眠中喚醒型鬧鐘"
+
+#~ msgid ""
+#~ "Cancel the currently configured wake-from-suspend. Note that this does "
+#~ "not cancel the alarm itself, which will still trigger in the normal way. "
+#~ "This button is disabled if no wake-from-suspend alarm is configured."
+#~ msgstr ""
+#~ "取消目前所設定的從休眠中喚醒的功能。要注意這不會將鬧鐘整個取消掉，只是讓它"
+#~ "變成正常的觸發模式。若是鬧鐘本身沒有設定喚醒功能，則此按鍵會被關閉。"
+
+#~ msgid "Cancel wake from suspend"
+#~ msgstr "取消從休眠中喚醒功能"
+
+#~ msgid ""
+#~ "Enter how many minutes before the alarm trigger time to wake the system "
+#~ "from suspend. This can be used to ensure that the system is fully "
+#~ "restored by the time the alarm triggers."
+#~ msgstr ""
+#~ "輸入您要在鬧鐘響鈴前幾分鐘將電腦從休眠中喚醒。這樣可以確保系統能完整回復並"
+#~ "觸發鬧鐘。"
+
+#~ msgid "Number of minutes before alarm to wake from suspend"
+#~ msgstr "在鬧鐘響多少分鐘以前從休眠中喚醒"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<title>%1</title>Contents: %2<nl/>%3: <filename>%4</filename><nl/"
+#~ ">Permissions: %5<nl/>Status: %6<nl/>Default calendar: %7</para>"
+#~ msgstr ""
+#~ "<title>%1</title>內容：%2<nl/>%3：<filename>%4</filename><nl/>權限：%5<nl/"
+#~ ">狀態：%6<nl/>預設行事曆：%7</para>"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<title>%1</title><para>ID: %2<nl/>Contents: %3<nl/>%4: <filename>%5</"
+#~ "filename><nl/>Permissions: %6<nl/>Status: %7<nl/>Default calendar: %8</"
+#~ "para>"
+#~ msgstr ""
+#~ "<title>%1</title><para>ID：%2<nl/>內容：%3<nl/>%4：<filename>%5</"
+#~ "filename><nl/>權限：%6<nl/>狀態：%7<nl/>預設行事曆：%8</para>"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "%1<nl/>(%2)"
+#~ msgctxt "@info"
+#~ msgid "%1<nl/>%2<nl/>(%3)"
+#~ msgstr "%1<nl/>(%2)"
+
+#~ msgctxt "@title:column"
+#~ msgid "Changed Alarm"
+#~ msgstr "已變更鬧鐘"
+
+#~ msgctxt "@title:column"
+#~ msgid "Conflicting Alarm"
+#~ msgstr "衝突的鬧鐘"
+
+#~ msgctxt "@label"
+#~ msgid "Item revision"
+#~ msgstr "項物版本"
+
+#~ msgctxt "@title:window"
+#~ msgid "Select Active Alarm Calendar"
+#~ msgstr "選擇作用中的鬧鐘行事曆"
+
+#~ msgctxt "@title:window"
+#~ msgid "Select Archived Alarm Calendar"
+#~ msgstr "選擇歸檔鬧鐘行事曆"
+
+#~ msgctxt "@title:window"
+#~ msgid "Select Alarm Template Calendar"
+#~ msgstr "選擇鬧鐘樣本行事曆"
+
+#~ msgctxt "@info"
+#~ msgid "Item ID %1 differs from payload ID %2."
+#~ msgstr "項目代碼 %1 與資料代碼 %2 不同。"
+
+#~ msgctxt "@info"
+#~ msgid "Event with uid '%1' not found."
+#~ msgstr "找不到代碼為 %1 的事件。"
+
+#~ msgctxt "@info"
+#~ msgid "Calendar is not in current KAlarm format."
+#~ msgstr "目前 KAlarm 格式不是行事曆。"
+
+#~ msgctxt "@info"
+#~ msgid "Event with uid '%1' is read only"
+#~ msgstr "代碼為 %1 的事件是唯讀的"
+
+#~ msgctxt "@info"
+#~ msgid "Event with uid '%1' contains no usable alarms."
+#~ msgstr "代碼為 %1 的事件裡並沒有可用的鬧鐘。"
+
+#~ msgctxt "@label Unique identifier"
+#~ msgid "UID"
+#~ msgstr "UID"
+
+#~ msgctxt "@label"
+#~ msgid "Alarm type"
+#~ msgstr "鬧鐘型態"
+
+#~ msgctxt "@label"
+#~ msgid "Alarm status"
+#~ msgstr "鬧鐘狀態"
+
+#~ msgctxt "@label"
+#~ msgid "Template name"
+#~ msgstr "樣本名稱"
+
+#~ msgctxt "@label"
+#~ msgid "Creation time"
+#~ msgstr "建立時間"
+
+#~ msgctxt "@label"
+#~ msgid "Start time"
+#~ msgstr "開始日期"
+
+#~ msgctxt "@label Start delay configured in an alarm template"
+#~ msgid "Template after time"
+#~ msgstr "過時樣本"
+
+#~ msgctxt "@label"
+#~ msgid "Recurs"
+#~ msgstr "循環"
+
+#~ msgctxt "@label"
+#~ msgid "Recurrence"
+#~ msgstr "循環"
+
+#~ msgctxt "@label"
+#~ msgid "Sub-repetition"
+#~ msgstr "子重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Sub-repetition interval"
+#~ msgstr "子重覆間隔"
+
+#~ msgctxt "@label"
+#~ msgid "Sub-repetition count"
+#~ msgstr "子重覆計數"
+
+#~ msgctxt "@label"
+#~ msgid "Next sub-repetition"
+#~ msgstr "下次子重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Work time only"
+#~ msgstr "只在工作時間內"
+
+#~ msgctxt "@label"
+#~ msgid "Holidays excluded"
+#~ msgstr "排除假日"
+
+#~ msgctxt "@label"
+#~ msgid "Next recurrence"
+#~ msgstr "下次循環"
+
+#~ msgctxt "@label"
+#~ msgid "Late cancel"
+#~ msgstr "延遲取消"
+
+#~ msgctxt "@label Automatically close window"
+#~ msgid "Auto close"
+#~ msgstr "自動關閉"
+
+#~ msgctxt "@label"
+#~ msgid "Copy to KOrganizer"
+#~ msgstr "複製到 KOrganizer"
+
+#~ msgctxt "@label"
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgctxt "@label Whether alarm should be archived"
+#~ msgid "Archive"
+#~ msgstr "歸檔"
+
+#~ msgctxt "@label"
+#~ msgid "Revision"
+#~ msgstr "版本"
+
+#~ msgctxt "@label"
+#~ msgid "Message text"
+#~ msgstr "訊息文字"
+
+#~ msgctxt "@label File to provide text for message"
+#~ msgid "Message file"
+#~ msgstr "訊息檔案"
+
+#~ msgctxt "@label"
+#~ msgid "Font"
+#~ msgstr "字型"
+
+#~ msgctxt "@label Shell command to execute before alarm"
+#~ msgid "Pre-alarm action"
+#~ msgstr "鬧鐘響鈴前動作"
+
+#~ msgctxt "@label"
+#~ msgid "Pre-alarm action cancel"
+#~ msgstr "鬧鐘響鈴前動作取消"
+
+#~ msgctxt "@label"
+#~ msgid "Pre-alarm action no error"
+#~ msgstr "鬧鐘響鈴前動作沒有錯誤"
+
+#~ msgctxt "@label Shell command to execute after alarm"
+#~ msgid "Post-alarm action"
+#~ msgstr "鬧鐘響鈴後動作"
+
+#~ msgctxt "@label"
+#~ msgid "KMail serial number"
+#~ msgstr "KMail 序號"
+
+#~ msgctxt "@label Audio method"
+#~ msgid "Sound"
+#~ msgstr "音效"
+
+#~ msgctxt "@label Whether audio should repeat"
+#~ msgid "Sound repeat"
+#~ msgstr "音效重覆"
+
+#~ msgctxt "@label"
+#~ msgid "Sound fade volume"
+#~ msgstr "音效淡出音量"
+
+#~ msgctxt "@label"
+#~ msgid "Sound fade time"
+#~ msgstr "音效淡出時間"
+
+#~ msgctxt "@label Whether the alarm has a reminder"
+#~ msgid "Reminder"
+#~ msgstr "提醒"
+
+#~ msgctxt "@label Whether reminder is on first recurrence only"
+#~ msgid "Reminder once only"
+#~ msgstr "只提醒一次"
+
+#~ msgctxt "@label Deferral type"
+#~ msgid "Deferral"
+#~ msgstr "延遲"
+
+#~ msgctxt "@label"
+#~ msgid "Deferral time"
+#~ msgstr "延遲時間"
+
+#~ msgctxt "@label Default deferral delay"
+#~ msgid "Deferral default"
+#~ msgstr "延遲預設"
+
+#~ msgctxt "@label Whether deferral time is date-only by default"
+#~ msgid "Deferral default date only"
+#~ msgstr "只延遲預設日期"
+
+#~ msgctxt "@label A shell command"
+#~ msgid "Command"
+#~ msgstr "指令"
+
+#~ msgctxt "@label Execute in terminal window"
+#~ msgid "Execute in terminal"
+#~ msgstr "於終端機中執行"
+
+#~ msgctxt "@label"
+#~ msgid "Email subject"
+#~ msgstr "信件主旨"
+
+#~ msgctxt "@label Email address"
+#~ msgid "Email sender ID"
+#~ msgstr "信件寄件者代碼"
+
+#~ msgctxt "@label Email address"
+#~ msgid "Email to"
+#~ msgstr "傳送電子郵件給"
+
+#~ msgctxt "@label true/false"
+#~ msgid "Email bcc"
+#~ msgstr "電子郵件密件副本"
+
+#~ msgctxt "@label"
+#~ msgid "Email body"
+#~ msgstr "電子郵件主體"
+
+#~ msgctxt "@label"
+#~ msgid "Email attachments"
+#~ msgstr "電子郵件附加檔"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (text)"
+#~ msgstr "顯示（文字）"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (file)"
+#~ msgstr "顯示（檔案）"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (command)"
+#~ msgstr "顯示（指令）"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Command"
+#~ msgstr "指令"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Audio"
+#~ msgstr "音效"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Active"
+#~ msgstr "啟動"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Archived"
+#~ msgstr "已歸檔"
+
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Template"
+#~ msgstr "樣本"
+
+#~ msgctxt "@info/plain Repeat at login"
+#~ msgid "At login until %1"
+#~ msgstr "於登入時重覆，直到 %1"
+
+#~ msgctxt "@info/plain Using default font"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Reminder"
+#~ msgstr "提醒"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Speak"
+#~ msgstr "語音"
+
+#~ msgctxt "@info/plain"
+#~ msgid "Beep"
+#~ msgstr "嗶聲"
+
+#~ msgctxt "@info/plain Percentage"
+#~ msgid "%1%%"
+#~ msgstr "%1%%"
+
+#~ msgctxt "@info/plain"
+#~ msgid "1 Second"
+#~ msgid_plural "%s Seconds"
+#~ msgstr[0] "%s 秒"
+
+#~ msgctxt "@info/plain Error indication"
+#~ msgid "error!"
+#~ msgstr "發生錯誤"
+
+#~ msgctxt "@info/plain General purpose status indication: yes or no"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "@info/plain General purpose status indication: yes or no"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgctxt "@action"
+#~ msgid "New &From Template"
+#~ msgstr "從樣本新增(&F)"
+
+#~ msgid "Calendar not loaded."
+#~ msgstr "行事曆未載入。"
+
+#~ msgid "Select Calendar"
+#~ msgstr "選擇行事曆"
+
+#~ msgid "Failed to save calendar file to %1"
+#~ msgstr "無法儲存行事曆檔案到 %1。"
+
+#~ msgid "Unable to retrieve added item %1."
+#~ msgstr "無法取得新增項目 %1。"
+
+#~ msgid "Unable to retrieve modified item %1."
+#~ msgstr "無法取得變更項目 %1。"
+
+#~ msgid "No file selected."
+#~ msgstr "未選取任何檔案。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Ready"
+#~ msgstr "已就緒"
+
+#~ msgid "Could not create file '%1'."
+#~ msgstr "無法建立檔案 %1。"
+
+#~ msgid "Could not read file '%1'"
+#~ msgstr "無法讀取檔案 %1"
+
+#~ msgid "Another download is still in progress."
+#~ msgstr "另一個下載仍在進行中。"
+
+#~ msgid "Another file upload is still in progress."
+#~ msgstr "另一個檔案上傳仍在進行中。"
+
+#~ msgid "Downloading remote file."
+#~ msgstr "下載遠端檔案。"
+
+#~ msgid "Trying to write to a read-only file: '%1'."
+#~ msgstr "試著寫入唯讀檔：%1。"
+
+#~ msgid "No file specified."
+#~ msgstr "未指定檔案。"
+
+#~ msgid "A download is still in progress."
+#~ msgstr "下載仍在進行中。"
+
+#~ msgid "Uploading cached file to remote location."
+#~ msgstr "上傳快取檔案到遠端。"
+
+#~ msgid ""
+#~ "The file '%1' was changed on disk while there were still pending changes "
+#~ "in Akonadi. To avoid data loss, a backup of the internal changes has been "
+#~ "created at '%2'."
+#~ msgstr ""
+#~ "檔案 %1 已在磁碟內變更，但是在 Akonadi 中仍有未儲存的變更。為了避免資料損"
+#~ "失，已經建立了一份內部變更的備份於 %2。"
+
+#~ msgid "Could not load file '%1'."
+#~ msgstr "無法載入檔案 %1。"
+
+#~ msgid "Could not save file '%1'."
+#~ msgstr "無法儲存檔案 %1。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Checking file information..."
+#~ msgstr "檢查檔案資訊..."
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox"
+#~| msgid "Command Alarm"
+#~ msgctxt "@label"
+#~ msgid "Command X-terminal"
+#~ msgstr "指令型鬧鐘"
+
+#, fuzzy
+#~| msgid "File to display"
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Text display"
+#~ msgstr "要顯示的檔案"
+
+#, fuzzy
+#~| msgid "File to display"
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "File display"
+#~ msgstr "要顯示的檔案"
+
+#, fuzzy
+#~| msgctxt "@item:inlistbox"
+#~| msgid "Command Alarm"
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Command display"
+#~ msgstr "指令型鬧鐘"
+
+#, fuzzy
+#~| msgctxt "@info/plain"
+#~| msgid "1 Minute"
+#~| msgid_plural "%1 Minutes"
+#~ msgctxt "@info/plain"
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 分鐘"
+
+#~ msgctxt "@info"
+#~ msgid "Date cannot be later than %1"
+#~ msgstr "日期不能比 %1 還晚"
+
+#~ msgctxt "@info/plain"
+#~ msgid "today"
+#~ msgstr "今天"
+
+#~ msgctxt "@info"
+#~ msgid "in 1 hour 1 minute's time"
+#~ msgid_plural "in %1 hours 1 minute's time"
+#~ msgstr[0] "%1 小時一分鐘內"
+
+#~ msgctxt "@info"
+#~ msgid "in 1 hour %2 minutes' time"
+#~ msgid_plural "in %1 hours %2 minutes' time"
+#~ msgstr[0] "%1 小時 %2 分鐘內"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot load system tray icon."
+#~ msgstr "無法載入系統匣圖示。"
+
+#~ msgctxt "@info:tooltip 'KAlarm - disabled'"
+#~ msgid "%1 - disabled"
+#~ msgstr "%1 - 已關閉"
+
+#~ msgctxt "@item:inlistbox Do not use holidays"
+#~ msgid "(None)"
+#~ msgstr "（無）"
+
+#~ msgctxt "Filedialog filter for *.ics *.ical"
+#~ msgid "KAlarm Calendar File"
+#~ msgstr "KAlarm 行事曆檔案"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to create mail transport job"
+#~ msgstr "無法建立郵件傳送的工作"
+
+#~ msgctxt "@info"
+#~ msgid "Error calling <application>KMail</application>"
+#~ msgstr "呼叫 <application>KMail</application> 時發生錯誤"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Error copying sent email to <application>KMail</application> <resource>"
+#~ "%1</resource> folder"
+#~ msgstr "將待寄信件複製到 KMail 的 <resource>%1</resource> 資料夾時發生錯誤"
+
+#~ msgctxt "@title:column Name of person"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "@title:column"
+#~ msgid "Birthday"
+#~ msgstr "生日"
+
+#~ msgctxt "@info"
+#~ msgid "Error reading address book"
+#~ msgstr "讀取通訊錄時發生錯誤"
+
+#~ msgid "Autosave interval time (in minutes)."
+#~ msgstr "自動儲存間隔時間（分）。"
+
+#~ msgctxt "@label"
+#~ msgid "Start of day validation"
+#~ msgstr "一天的開始"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Do not change this value!"
+#~ msgstr "不要改變此值。"
+
+#~ msgctxt "@info"
+#~ msgid "The parameter is a date value"
+#~ msgstr "此參數為一日期值"
+
+#~ msgctxt "@info"
+#~ msgid "The parameter is a date/time value"
+#~ msgstr "此參數為一日期/時間值"
+
+#~ msgctxt "@info:shell"
+#~ msgid "message incompatible with <icode>%1</icode>"
+#~ msgstr "訊息不相容於 <icode>%1</icode>"
+
+#~ msgctxt "@action"
+#~ msgid "Show &Archived Alarms"
+#~ msgstr "顯示已歸檔的鬧鐘(&A)"
+
+#~ msgctxt "@action"
+#~ msgid "Show &Resources"
+#~ msgstr "顯示資源(&R)"
+
+#~ msgctxt "@info/plain"
+#~ msgid "%1 resource"
+#~ msgstr "資源 %1"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Whether to display a warning prompt before quitting KAlarm. Enter \"yes\" "
+#~ "to suppress prompt, blank to display prompt."
+#~ msgstr "在離開 KAlarm 前是否要先警告。輸入 yes 則不提示，留白則會顯示警告。"
+
+#~ msgctxt "@info/plain Todo calendar item's title field"
+#~ msgid "Title:"
+#~ msgstr "標題："
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Display Alarm"
+#~ msgstr "顯示鬧鐘"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Command Alarm"
+#~ msgstr "指令型鬧鐘"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Email Alarm"
+#~ msgstr "電子郵件型鬧鐘"
+
+#~ msgctxt "@item:inlistbox Time unit option"
+#~ msgid "Days"
+#~ msgstr "天"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Weeks"
+#~ msgstr "週"
+
+#~ msgctxt "@title:window"
+#~ msgid "Preferences"
+#~ msgstr "喜好設定"
+
+#~ msgctxt "@title"
+#~ msgid "Default Font and Color"
+#~ msgstr "預設字型與顏色"
+
+#~ msgctxt "@label"
+#~ msgid "Color selection list"
+#~ msgstr "顏色選擇清單"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Comma separated list of color codes presented as choice for alarm "
+#~ "messages."
+#~ msgstr "用於選擇鬧鐘訊息可使用的顏色，以逗號區隔。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add Color..."
+#~ msgstr "新增顏色..."
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose a new color to add to the color selection list."
+#~ msgstr "選擇新的顏色以加入顏色選擇清單中。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Remove Color"
+#~ msgstr "移除顏色"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Remove the color currently shown in the background color chooser, from "
+#~ "the color selection list."
+#~ msgstr "將選擇的顏色自顏色選擇清單中移除。"
+
+#~ msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+#~ msgstr "The Quick Brown Fox Jumps Over The Lazy Dog"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "This sample text illustrates the current font and color settings. You may "
+#~ "edit it to test special characters."
+#~ msgstr "這個範例文字展示目前的字型與顏色設定。您可以編輯它以測試特殊字元。"
+
+#~ msgid "HH:MM"
+#~ msgstr "HH:MM"

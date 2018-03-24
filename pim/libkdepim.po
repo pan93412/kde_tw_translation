@@ -1,0 +1,2230 @@
+# translation of libkdepim.po to Chinese Traditional
+# Copyright (C) 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Keanu <keanu@ms50.url.com.tw>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2011.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkdepim\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-12 03:23+0100\n"
+"PO-Revision-Date: 2015-06-14 13:40+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: libkdepim/addressline/recentaddress/recentaddresswidget.cpp:59
+#, fuzzy, kde-format
+#| msgid "&Add"
+msgid "Add"
+msgstr "新增(&A)"
+
+#: libkdepim/addressline/recentaddress/recentaddresswidget.cpp:69
+#: libkdepim/addressline/recentaddress/recentaddresswidget.cpp:124
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#: libkdepim/addressline/recentaddress/recentaddresswidget.cpp:124
+#, fuzzy, kde-format
+#| msgid "Do you want to remove this email?"
+#| msgid_plural "Do you want to remove %1 emails?"
+msgid "Do you want to remove this email address?"
+msgid_plural "Do you want to remove %1 email addresses?"
+msgstr[0] "您要移除 %1 封電子郵件嗎？"
+
+#: libkdepim/ldap/addhostdialog.cpp:77
+#, kde-format
+msgid "Add Host"
+msgstr "新增主機"
+
+#: libkdepim/ldap/kcmldap.cpp:96
+#, kde-format
+msgid "kcmldap"
+msgstr "kcmldap"
+
+#: libkdepim/ldap/kcmldap.cpp:98
+#, kde-format
+msgid "LDAP Server Settings"
+msgstr "LDAP 伺服器設定"
+
+#: libkdepim/ldap/kcmldap.cpp:100
+#, kde-format
+msgid "(c) 2009 - 2010 Tobias Koenig"
+msgstr "(c) 2009 - 2010 Tobias Koenig"
+
+#: libkdepim/ldap/kcmldap.cpp:101
+#, kde-format
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: libkdepim/ldap/kcmldap.cpp:163
+#, kde-format
+msgid "Edit Host"
+msgstr "編輯主機"
+
+#: libkdepim/ldap/kcmldap.cpp:179
+#, kde-format
+msgid "Do you want to remove setting for host \"%1\"?"
+msgstr "您要移除主機 %1 的設定嗎？"
+
+#: libkdepim/ldap/kcmldap.cpp:179
+#, kde-format
+msgid "Remove Host"
+msgstr "移除主機"
+
+#: libkdepim/ldap/kcmldap.cpp:314
+#, kde-format
+msgid "LDAP Servers"
+msgstr "LDAP 伺服器"
+
+#: libkdepim/ldap/kcmldap.cpp:318
+#, kde-format
+msgid "Check all servers that should be used:"
+msgstr "請勾選所有要使用的伺服器："
+
+#: libkdepim/ldap/kcmldap.cpp:355
+#, kde-format
+msgid "&Add Host..."
+msgstr "新增主機(&A)..."
+
+#: libkdepim/ldap/kcmldap.cpp:358
+#, kde-format
+msgid "&Edit Host..."
+msgstr "編輯主機(&E)..."
+
+#: libkdepim/ldap/kcmldap.cpp:362
+#, kde-format
+msgid "&Remove Host"
+msgstr "移除主機(&R)"
+
+#: libkdepim/ldap/ldapclientsearchconfig.cpp:121
+#, kde-format
+msgid ""
+"LDAP password is stored as clear text, do you want to store it in kwallet?"
+msgstr "LDAP 密碼被儲存成純文字，您要將它改存放在 kwallet 錢包裡嗎？"
+
+#: libkdepim/ldap/ldapclientsearchconfig.cpp:122
+#, kde-format
+msgid "Store clear text password in KWallet"
+msgstr "將純文字密碼改存在 KWallet"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:104
+#, kde-format
+msgctxt "@item LDAP search key"
+msgid "Title"
+msgstr "職稱"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:105
+#: libkdepim/ldap/ldapsearchdialog.cpp:315
+#, kde-format
+msgid "Full Name"
+msgstr "全名"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:106
+#, kde-format
+msgctxt "@item LDAP search key"
+msgid "Email"
+msgstr "電子郵件地址"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:107
+#: libkdepim/ldap/ldapsearchdialog.cpp:319
+#, kde-format
+msgid "Home Number"
+msgstr "家裡電話號碼"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:108
+#: libkdepim/ldap/ldapsearchdialog.cpp:321
+#, kde-format
+msgid "Work Number"
+msgstr "辦公室電話號碼"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:109
+#: libkdepim/ldap/ldapsearchdialog.cpp:323
+#, kde-format
+msgid "Mobile Number"
+msgstr "手機號碼"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:110
+#: libkdepim/ldap/ldapsearchdialog.cpp:325
+#, kde-format
+msgid "Fax Number"
+msgstr "傳真號碼"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:111
+#, kde-format
+msgid "Pager"
+msgstr "呼叫器"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:112
+#: libkdepim/ldap/ldapsearchdialog.cpp:331
+#, kde-format
+msgid "Street"
+msgstr "街道"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:113
+#, kde-format
+msgctxt "@item LDAP search key"
+msgid "State"
+msgstr "省/州"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:114
+#: libkdepim/ldap/ldapsearchdialog.cpp:336
+#, kde-format
+msgid "Country"
+msgstr "國家"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:115
+#: libkdepim/ldap/ldapsearchdialog.cpp:342
+#, kde-format
+msgid "City"
+msgstr "城市"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:116
+#: libkdepim/ldap/ldapsearchdialog.cpp:329
+#, kde-format
+msgid "Organization"
+msgstr "組織"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:117
+#: libkdepim/ldap/ldapsearchdialog.cpp:327
+#, kde-format
+msgid "Company"
+msgstr "公司"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:118
+#: libkdepim/ldap/ldapsearchdialog.cpp:344
+#, kde-format
+msgid "Department"
+msgstr "部門"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:119
+#: libkdepim/ldap/ldapsearchdialog.cpp:338
+#, kde-format
+msgid "Zip Code"
+msgstr "郵遞區號"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:120
+#: libkdepim/ldap/ldapsearchdialog.cpp:340
+#, kde-format
+msgid "Postal Address"
+msgstr "郵寄地址"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:121
+#: libkdepim/ldap/ldapsearchdialog.cpp:346
+#, kde-format
+msgid "Description"
+msgstr "描述"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:122
+#: libkdepim/ldap/ldapsearchdialog.cpp:348
+#, kde-format
+msgid "User ID"
+msgstr "使用者 ID"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:317
+#, kde-format
+msgctxt "@title:column Column containing email addresses"
+msgid "Email"
+msgstr "電子郵件地址"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:334
+#, kde-format
+msgctxt "@title:column Column containing the residential state of the address"
+msgid "State"
+msgstr "省/州"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:350
+#, kde-format
+msgctxt "@title:column Column containing title of the person"
+msgid "Title"
+msgstr "職稱"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:490
+#, kde-format
+msgid "Import Contacts from LDAP"
+msgstr "從 LDAP 匯入聯絡人"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:513
+#, kde-format
+msgid "Search for Addresses in Directory"
+msgstr "搜尋目錄裡的地址"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:519
+#, kde-format
+msgid "Search for:"
+msgstr "尋找："
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:527
+#, kde-format
+msgctxt "In LDAP attribute"
+msgid "in"
+msgstr "包含於"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:531
+#, kde-format
+msgctxt "@item:inlistbox Name of the contact"
+msgid "Name"
+msgstr "名稱"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:532
+#, kde-format
+msgctxt "@item:inlistbox email address of the contact"
+msgid "Email"
+msgstr "電子郵件地址"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:533
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Home Number"
+msgstr "家裡電話號碼"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:534
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Work Number"
+msgstr "辦公室電話號碼"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:536
+#, kde-format
+msgctxt "@action:button Start searching"
+msgid "&Search"
+msgstr "搜尋(&S)"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:552
+#, kde-format
+msgid "Recursive search"
+msgstr "遞迴搜尋"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:557
+#, kde-format
+msgid "Contains"
+msgstr "包含"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:558
+#, kde-format
+msgid "Starts With"
+msgstr "開始於"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:568
+#, kde-format
+msgid "Search in result"
+msgstr "在結果中搜尋"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:599
+#, kde-format
+msgid "Searching..."
+msgstr "搜尋中..."
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:603
+#, kde-format
+msgid "Select All"
+msgstr "全部選取"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:608
+#, kde-format
+msgid "Unselect All"
+msgstr "取消全選"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:616
+#, kde-format
+msgid "Add Selected"
+msgstr "新增選擇的"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:617
+#, kde-format
+msgid "Configure LDAP Servers..."
+msgstr "設定 LDAP 伺服器..."
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:653
+#, kde-format
+msgid "Copy"
+msgstr "複製"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:771
+#, kde-format
+msgid "You must select an LDAP server before searching."
+msgstr "在搜尋以前，您必須先選取 LDAP 伺服器。"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:866
+#, kde-format
+msgctxt "arguments are host name, datetime"
+msgid "Imported from LDAP directory %1 on %2"
+msgstr "從 %2 上的 LDAP 目錄 %1 匯入"
+
+#: libkdepim/ldap/ldapsearchdialog.cpp:884
+#, kde-format
+msgid "Configure the Address Book LDAP Settings"
+msgstr "設定通訊錄 LDAP 設定"
+
+#: libkdepim/multiplyingline/multiplyinglineview_p.cpp:76
+#, kde-format
+msgid "We can not add more recipients. We have reached maximum recipients"
+msgstr "無法新增更多的收件者。已達收件者上限"
+
+#: libkdepim/prefs/kprefsdialog.cpp:242
+#, kde-format
+msgid "Choose..."
+msgstr "選擇..."
+
+#: libkdepim/prefs/kprefsdialog.cpp:777
+#, kde-format
+msgid "Preferences"
+msgstr "喜好設定"
+
+#: libkdepim/prefs/kprefsdialog.cpp:882
+#, kde-format
+msgid ""
+"You are about to set all preferences to default values. All custom "
+"modifications will be lost."
+msgstr "您打算將所有的設定都設回預設值。先前所有的改變都會消失。"
+
+#: libkdepim/prefs/kprefsdialog.cpp:884
+#, kde-format
+msgid "Setting Default Preferences"
+msgstr "回復預設喜好設定"
+
+#: libkdepim/prefs/kprefsdialog.cpp:885
+#, kde-format
+msgid "Reset to Defaults"
+msgstr "重設為預設值"
+
+#: libkdepim/progresswidget/progressdialog.cpp:170
+#, kde-format
+msgid "Cancel this operation."
+msgstr "取消這個動作"
+
+#: libkdepim/progresswidget/progressmanager.cpp:134
+#, kde-format
+msgid "Aborting..."
+msgstr "取消中..."
+
+#: libkdepim/progresswidget/ssllabel.cpp:62
+#, kde-format
+msgid "Connection is encrypted"
+msgstr "連線已加密"
+
+#: libkdepim/progresswidget/ssllabel.cpp:67
+#, kde-format
+msgid "Connection is unencrypted"
+msgstr "連線未加密"
+
+#: libkdepim/progresswidget/statusbarprogresswidget.cpp:88
+#, kde-format
+msgid "Open detailed progress dialog"
+msgstr "開啟詳情進度視窗"
+
+#: libkdepim/progresswidget/statusbarprogresswidget.cpp:305
+#, kde-format
+msgid "Show detailed progress window"
+msgstr "顯示詳情進度對視窗"
+
+#: libkdepim/progresswidget/statusbarprogresswidget.cpp:308
+#, kde-format
+msgid "Hide detailed progress window"
+msgstr "開啟詳情進度視窗"
+
+#: libkdepim/widgets/kdatepickerpopup.cpp:103
+#, kde-format
+msgctxt "@option today"
+msgid "&Today"
+msgstr "今天(&T)"
+
+#: libkdepim/widgets/kdatepickerpopup.cpp:106
+#, kde-format
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr "明天(&M)"
+
+#: libkdepim/widgets/kdatepickerpopup.cpp:109
+#, kde-format
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr "下週(&W)"
+
+#: libkdepim/widgets/kdatepickerpopup.cpp:112
+#, kde-format
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr "下個月(&O)"
+
+#: libkdepim/widgets/kdatepickerpopup.cpp:122
+#, kde-format
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "沒有日期"
+
+#: libkdepim/widgets/kwidgetlister.cpp:116
+#, kde-format
+msgctxt "more widgets"
+msgid "More"
+msgstr "更多"
+
+#: libkdepim/widgets/kwidgetlister.cpp:122
+#, kde-format
+msgctxt "fewer widgets"
+msgid "Fewer"
+msgstr "較少"
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:342
+#, fuzzy, kde-format
+#| msgid "Import Text File"
+msgid "vCard Import Failed"
+msgstr "匯入文字檔"
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:343
+#, fuzzy, kde-format
+#| msgid "<qt>Do you really want to delete '<b>%1</b>'?</qt>"
+msgid "<qt>Unable to access <b>%1</b>.</qt>"
+msgstr "<qt>您確定要刪除 <b>%1</b> 嗎？</qt>"
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:463
+#, kde-format
+msgid "Select email from contact"
+msgstr ""
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:582
+#, kde-format
+msgid "Show Organization Unit for LDAP results"
+msgstr "LDAP 結果顯示組織單元"
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:590
+#, fuzzy, kde-format
+#| msgid "Configure Completion Order..."
+msgid "Configure Completion..."
+msgstr "設定完成順序..."
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:594
+#, kde-format
+msgid "Automatically expand groups"
+msgstr ""
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:600
+#, kde-format
+msgid "Expand Groups..."
+msgstr ""
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit.cpp:635
+#: libkdepimakonadi/addressline/completionorder/completionorderwidget.cpp:326
+#, kde-format
+msgid "Recent Addresses"
+msgstr "最近使用的地址"
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit_p.cpp:126
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit_p.cpp:790
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineedit_p.cpp:791
+#, kde-format
+msgctxt "@title:group"
+msgid "Contacts found in your data"
+msgstr "在您的資料中找到聯絡人"
+
+#: libkdepimakonadi/addressline/addresslineedit/addresseelineeditldap.cpp:47
+#, kde-format
+msgid "LDAP server: %1"
+msgstr "LDAP 伺服器：%1"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:48
+#, kde-format
+msgid "Search email:"
+msgstr "在郵件中尋找："
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:53
+#, kde-format
+msgid "Research is done from 3 characters"
+msgstr "重新搜尋已完成"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:61
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailwarning.cpp:41
+#, kde-format
+msgid "Search"
+msgstr "搜尋"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:67
+#, fuzzy, kde-format
+#| msgid "Blacklist address email"
+msgid "Show Blacklisted Emails"
+msgstr "將此地址加入黑名單"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:89
+#, kde-format
+msgid "&Select"
+msgstr "選擇(&S)"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:94
+#, kde-format
+msgid "&Unselect"
+msgstr "取消選取(&U)"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:99
+#, kde-format
+msgid "<qt><a href=\"more_result\">More result...</a></qt>"
+msgstr "<qt><a href=\"more_result\">更多結果...</a></qt>"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:113
+#, fuzzy, kde-format
+#| msgid "Search in result"
+msgid "Search in result..."
+msgstr "在結果中搜尋"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:126
+#, kde-format
+msgid "Exclude domain names:"
+msgstr "排除網域名稱："
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:135
+#, kde-format
+msgid "Separate domain with '%1'"
+msgstr "以 %1 分隔網域"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:211
+#, fuzzy, kde-format
+#| msgid "No result found"
+msgid "No email found."
+msgstr "找不到符合的結果"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:213
+#, fuzzy, kde-format
+#| msgid "No result found"
+msgid "1 email found"
+msgid_plural "%1 emails found"
+msgstr[0] "找不到符合的結果"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemaillist.cpp:135
+#, kde-format
+msgid "No result found"
+msgstr "找不到符合的結果"
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailwarning.cpp:35
+#, kde-format
+msgid ""
+"The list was changed. Do you want to save before to make another search ?"
+msgstr ""
+
+#: libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailwarning.cpp:36
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: libkdepimakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:52
+#, kde-format
+msgid "Configure completion"
+msgstr "設定補完"
+
+#: libkdepimakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:61
+#, fuzzy, kde-format
+#| msgid "Completion order"
+msgid "Completion Order"
+msgstr "補完順序"
+
+#: libkdepimakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:65
+#, kde-format
+msgid "Recent Address"
+msgstr "最近使用的地址"
+
+#: libkdepimakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:69
+#, fuzzy, kde-format
+#| msgid "Blacklist address email"
+msgid "Blacklist Email Address"
+msgstr "將此地址加入黑名單"
+
+#: libkdepimakonadi/addressline/completionorder/completionordereditor.cpp:66
+#, kde-format
+msgid "Edit Completion Order"
+msgstr "編輯補完順序"
+
+#: libkdepimakonadi/addressline/completionorder/completionorderwidget.cpp:65
+#, kde-format
+msgid "LDAP server %1"
+msgstr "LDAP 伺服器 %1"
+
+#: libkdepimakonadi/addressline/completionorder/completionorderwidget.cpp:268
+#, fuzzy, kde-format
+#| msgid "Move rule up"
+msgid "Move Up"
+msgstr "將規則上移"
+
+#: libkdepimakonadi/addressline/completionorder/completionorderwidget.cpp:277
+#, fuzzy, kde-format
+#| msgid "Move rule down"
+msgid "Move Down"
+msgstr "將規則下移"
+
+#: libkdepimakonadi/job/addcontactjob.cpp:72
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The vCard's primary email address is already in your address book; however, "
+"you may save the vCard into a file and import it into the address book "
+"manually."
+msgstr ""
+"vCard 的主要電子郵件已經在您的通訊錄中了。然而，您還是可以將 VCard 存到檔案"
+"中，並手動匯入通訊錄中。"
+
+#: libkdepimakonadi/job/addcontactjob.cpp:129
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The vCard was added to your address book; you can add more information to "
+"this entry by opening the address book."
+msgstr "vCard 已經加入您的通訊錄中。您可以開啟通訊錄並新增其資訊。"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:85
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A contact with the email address <email>%1</email> is already in your "
+"address book."
+msgstr "某位電子郵件地址為 <email>%1</email> 的聯絡人已經在您的通訊錄中了。"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:143
+#: libkdepimakonadi/job/addemaildisplayjob.cpp:167
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You must create an address book before adding a contact. Do you want to "
+"create an address book?"
+msgstr "在新增聯絡人前，您必須先建立通訊錄。您要建立新的通訊錄嗎？"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:144
+#: libkdepimakonadi/job/addemaildisplayjob.cpp:168
+#, kde-format
+msgctxt "@title:window"
+msgid "No Address Book Available"
+msgstr "沒有可用的通訊錄"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:146
+#: libkdepimakonadi/job/addemaildisplayjob.cpp:170
+#, kde-format
+msgid "Add Address Book"
+msgstr "新增通訊錄"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:236
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>A contact for <email>%1</email> was successfully added to your address "
+"book.</para><para>Do you want to edit this new contact now?</para>"
+msgstr ""
+"<para>某位電子郵件地址為 <email>%1</email> 的聯絡人已經成功加入您的通訊錄中"
+"了。</para><para>您要現在編輯此新聯絡人嗎？</para>"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:270
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr "聯絡人無法儲存：%1"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:270
+#, kde-format
+msgid "Failed to store contact"
+msgstr "儲存聯絡人失敗"
+
+#: libkdepimakonadi/job/addemailaddressjob.cpp:277
+#, kde-format
+msgid "Contact created successfully"
+msgstr "聯絡人已成功建立"
+
+#~ msgid "&Remove"
+#~ msgstr "移除(&R)"
+
+#~ msgid "Blacklist Email Completion"
+#~ msgstr "電子郵件黑名單補完"
+
+#~ msgid "Edit Recent Addresses"
+#~ msgstr "編輯最近使用的地址"
+
+#~ msgid "Configure Email Blacklist..."
+#~ msgstr "設定電子郵件黑名單..."
+
+#~ msgctxt "@title:window"
+#~ msgid "Select Address Book"
+#~ msgstr "選擇通訊錄"
+
+#~ msgctxt "@info"
+#~ msgid "Select the address book where the contact will be saved:"
+#~ msgstr "選擇聯絡人要儲存到哪個通訊錄："
+
+#~ msgid "Free"
+#~ msgstr "空閒"
+
+#~ msgid "Busy"
+#~ msgstr "忙碌"
+
+#~ msgid "Unavailable"
+#~ msgstr "沒空"
+
+#~ msgid "Tentative"
+#~ msgstr "暫時的"
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid "Attendee"
+#~ msgstr "參加者"
+
+#~ msgctxt "@label Day of the week name, example: Monday,"
+#~ msgid "%1,"
+#~ msgstr "%1,"
+
+#~ msgctxt ""
+#~ "@label A time period duration. It is preceded/followed (based on the "
+#~ "orientation) by the name of the week, see the message above. example: 12 "
+#~ "June, 8:00am to 9:30am"
+#~ msgid "%1 %2, %3 to %4"
+#~ msgstr "%2 %1 日, %3 到 %4"
+
+#~ msgctxt ""
+#~ "@label A time period duration. KLocale is used to format the components. "
+#~ "example: Monday, 12 June, 8:00am to 9:30am"
+#~ msgid "%1, %2 %3, %4 to %5"
+#~ msgstr "%2 %3 日 %1，%4 到 %5"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Free Period"
+#~ msgstr "有空期間"
+
+#~ msgctxt "@info:tooltip period start time"
+#~ msgid "Start:"
+#~ msgstr "開始："
+
+#~ msgctxt "@info:tooltip period end time"
+#~ msgid "End:"
+#~ msgstr "結束："
+
+#~ msgctxt "@info:tooltip period duration"
+#~ msgid "Duration:"
+#~ msgstr "期間："
+
+#~ msgctxt "%1 is a time, %2 is a status message"
+#~ msgid "[%1] %2"
+#~ msgstr "【%1】%2"
+
+#~ msgid ""
+#~ "Transmission complete. %1 new message (%2 KB). %3 KB remaining on the "
+#~ "server."
+#~ msgid_plural ""
+#~ "Transmission complete. %1 new messages (%2 KB). %3 KB remaining on the "
+#~ "server."
+#~ msgstr[0] "傳輸完成。%1 封新信件（%2 KB）。還有 %3 KB 在伺服器上。"
+
+#~ msgid "Transmission complete. %1 message (%2 KB)."
+#~ msgid_plural "Transmission complete. %1 messages (%2 KB)."
+#~ msgstr[0] "傳輸完成，%1 封新信件（%2 KB）。"
+
+#~ msgid "Transmission complete. %1 new message."
+#~ msgid_plural "Transmission complete. %1 new messages."
+#~ msgstr[0] "傳輸完成，%1 封新信件。"
+
+#~ msgid "Transmission complete. No new messages."
+#~ msgstr "傳輸完成，沒有新信件。"
+
+#~ msgid ""
+#~ "Transmission for account %4 complete. %1 new message (%2 KB). %3 KB "
+#~ "remaining on the server."
+#~ msgid_plural ""
+#~ "Transmission for account %4 complete. %1 new messages (%2 KB). %3 KB "
+#~ "remaining on the server."
+#~ msgstr[0] "帳號 %4 傳輸完成。%1 封新信件（%2 KB）。還有 %3 KB 在伺服器上。"
+
+#~ msgid "Transmission for account %3 complete. %1 message (%2 KB)."
+#~ msgid_plural "Transmission for account %3 complete. %1 messages (%2 KB)."
+#~ msgstr[0] "帳號 %3 傳輸完成。%1 封新信件（%2 KB）。"
+
+#~ msgid "Transmission for account %2 complete. %1 new message."
+#~ msgid_plural "Transmission for account %2 complete. %1 new messages."
+#~ msgstr[0] "帳號 %2 傳輸完成。%1 封新信件。"
+
+#~ msgid "Transmission for account %1 complete. No new messages."
+#~ msgstr "帳號 %1 傳輸完成。沒有新信件。"
+
+#~ msgctxt "Search attribute: Name of contact"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "Search attribute: Email of the contact"
+#~ msgid "Email"
+#~ msgstr "電子郵件地址"
+
+#~ msgid "Spell Checking Language"
+#~ msgstr "拼字檢查語言"
+
+#~ msgid "Retrieving and storing messages..."
+#~ msgstr "取得並儲存信件..."
+
+#~ msgid "Total Messages"
+#~ msgstr "訊息總數"
+
+#~ msgid "Unread Messages"
+#~ msgstr "未讀訊息"
+
+#~ msgid "Quota"
+#~ msgstr "大小限制"
+
+#~ msgid "Storage Size"
+#~ msgstr "儲存大小"
+
+#~ msgid "Subfolder Storage Size"
+#~ msgstr "子資料夾儲存大小"
+
+#~ msgctxt "collection size"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "number of entities in the collection"
+#~ msgid "Total"
+#~ msgstr "總計"
+
+#~ msgctxt "number of unread entities in the collection"
+#~ msgid "Unread"
+#~ msgstr "未讀"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid ""
+#~ "You do not have the semantic desktop system enabled. Many important "
+#~ "features of this software depend on the semantic desktop system and will "
+#~ "not work correctly without it."
+#~ msgstr "您並沒有開啟語意桌面系統。有許多此軟體的重要功能將無法正確運作。"
+
+#~ msgid "&Configure"
+#~ msgstr "設定(&C)..."
+
+#~ msgid ""
+#~ "The module to configure the semantic desktop system (Nepomuk) was not "
+#~ "found on your system. Please make sure Nepomuk was properly installed."
+#~ msgstr ""
+#~ "在您的系統上找不到用來設定語意桌面系統（Nepomuk）的模組。請確定 Nepomuk 已"
+#~ "正確安裝。"
+
+#~ msgid ""
+#~ "You do not have the semantic desktop system enabled. The following "
+#~ "features will not work correctly:<ul><li>%1</li></ul>"
+#~ msgstr ""
+#~ "您並沒有開啟語意桌面系統。以下功能將無法正確運作：<ul><li>%1</li></ul>"
+
+#~ msgid "Send SMS"
+#~ msgstr "發送簡訊"
+
+#~ msgid "Message"
+#~ msgstr "訊息"
+
+#~ msgid "Recipient:"
+#~ msgstr "收件人："
+
+#~ msgid "Send"
+#~ msgstr "發送"
+
+#~ msgid "Select Address Book"
+#~ msgstr "選擇通訊錄"
+
+#~ msgid "Select the address book the new contact shall be saved in:"
+#~ msgstr "選擇新聯絡人要儲存到哪個通訊錄："
+
+#~ msgid ""
+#~ "<qt>The email address <b>%1</b> was added to your address book; you can "
+#~ "add more information to this entry by opening the address book.</qt>"
+#~ msgstr ""
+#~ "<qt>電子郵件地址 <b>%1</b> 已經加入您的通訊錄中。您可以開啟通訊錄並新增其"
+#~ "資訊。</qt>"
+
+#~ msgctxt "the day after today"
+#~ msgid "tomorrow"
+#~ msgstr "明天"
+
+#~ msgctxt "this day"
+#~ msgid "today"
+#~ msgstr "今天"
+
+#~ msgctxt "the day before today"
+#~ msgid "yesterday"
+#~ msgstr "昨天"
+
+#~ msgctxt "@info"
+#~ msgid "Date cannot be earlier than %1"
+#~ msgstr "日期不能比 %1 還早"
+
+#~ msgctxt "@info/plain"
+#~ msgid "today"
+#~ msgstr "今天"
+
+#~ msgid "To"
+#~ msgstr "收件者"
+
+#~ msgid "CC"
+#~ msgstr "副本"
+
+#~ msgid "BCC"
+#~ msgstr "密件副本"
+
+#, fuzzy
+#~| msgid "Select the address book the new contact shall be saved in:"
+#~ msgid "Select the address book the new contact group shall be saved in:"
+#~ msgstr "選擇新聯絡人要儲存到哪個通訊錄："
+
+#, fuzzy
+#~| msgid "Please enter a name for the template:"
+#~ msgid "Please enter name of the new contact group:"
+#~ msgstr "請輸入樣本的名稱"
+
+#, fuzzy
+#~| msgid "Address Selection"
+#~ msgid "EMail Address Selection"
+#~ msgstr "選擇位址"
+
+#, fuzzy
+#~| msgid "&Filter on:"
+#~ msgid "Filter on:"
+#~ msgstr "過濾(&F)："
+
+#, fuzzy
+#~| msgid "&Search Directory Service"
+#~ msgid "Search Directory Service"
+#~ msgstr "搜尋目錄服務(&S)"
+
+#, fuzzy
+#~| msgid "&To >>"
+#~ msgid "To >>"
+#~ msgstr "收件人(&T)"
+
+#, fuzzy
+#~| msgid "&CC >>"
+#~ msgid "CC >>"
+#~ msgstr "副本(&C)"
+
+#, fuzzy
+#~| msgid "&BCC >>"
+#~ msgid "BCC >>"
+#~ msgstr "密件副本(&B)"
+
+#, fuzzy
+#~| msgid "<< &Remove"
+#~ msgid "<< Remove"
+#~ msgstr "移除(&R)"
+
+#, fuzzy
+#~| msgid "Save as &Distribution List..."
+#~ msgid "Save as Distribution List..."
+#~ msgstr "儲存成分派清單(&D)..."
+
+#~ msgid ""
+#~ "You must select a LDAP server before searching.\n"
+#~ "You can do this from the menu Settings/Configure KAddressBook."
+#~ msgstr ""
+#~ "在搜尋之前您必須先選擇 LDAP 伺服器。\n"
+#~ "您可以從 設定/設定 KAddressBook 選單做到。"
+
+#~ msgid "Address Selection"
+#~ msgstr "選擇位址"
+
+#~ msgid "Email Address"
+#~ msgstr "電子郵件地址"
+
+#~ msgid "&To >>"
+#~ msgstr "收件人(&T)"
+
+#~ msgid "&CC >>"
+#~ msgstr "副本(&C)"
+
+#~ msgid "&BCC >>"
+#~ msgstr "密件副本(&B)"
+
+#~ msgid "&Selected Addresses"
+#~ msgstr "選擇的地址(&S)"
+
+#~ msgid "&Filter on:"
+#~ msgstr "過濾(&F)："
+
+#~ msgid "Save as &Distribution List..."
+#~ msgstr "儲存成分派清單(&D)..."
+
+#~ msgid "&Search Directory Service"
+#~ msgstr "搜尋目錄服務(&S)"
+
+#~ msgid "Show Birthday"
+#~ msgstr "顯示生日"
+
+#~ msgid "Show Postal Addresses"
+#~ msgstr "顯示郵寄地址"
+
+#~ msgid "Show Email Addresses"
+#~ msgstr "顯示電子郵件地址"
+
+#~ msgid "Show Telephone Numbers"
+#~ msgstr "顯示電話號碼"
+
+#~ msgid "Show Web Pages (URLs)"
+#~ msgstr "顯示網頁（網址）"
+
+#~ msgid "Show Instant Messaging Addresses"
+#~ msgstr "顯示 IM 位址"
+
+#~ msgid "Show Custom Fields"
+#~ msgstr "顯示自訂欄位"
+
+#~ msgid "SMS"
+#~ msgstr "簡訊"
+
+#~ msgid "Homepage"
+#~ msgstr "首頁"
+
+#~ msgid "Blog Feed"
+#~ msgstr "部落格 Feed"
+
+#~ msgid "Notes"
+#~ msgstr "備註"
+
+#~ msgid "Profession"
+#~ msgstr "職業"
+
+#~ msgid "Assistant's Name"
+#~ msgstr "助理姓名"
+
+#~ msgid "Manager's Name"
+#~ msgstr "主管姓名"
+
+#~ msgctxt "Wife/Husband/..."
+#~ msgid "Partner's Name"
+#~ msgstr "夥伴姓名"
+
+#~ msgid "Office"
+#~ msgstr "辦公室"
+
+#~ msgid "IM Address"
+#~ msgstr "IM 位址"
+
+#~ msgid "Anniversary"
+#~ msgstr "週年紀念日"
+
+#~ msgid "<p><b>Address book</b>: %1</p>"
+#~ msgstr "<p><b>通訊錄</b>：%1</p>"
+
+#~ msgid ""
+#~ "There is no application set which could be executed. Please go to the "
+#~ "settings dialog and configure one."
+#~ msgstr "沒有設定可執行的應用程式。請到設定視窗去設定。"
+
+#~ msgid "Send mail to '%1'"
+#~ msgstr "寄電子郵件給 %1"
+
+#~ msgid "Call number %1"
+#~ msgstr "呼叫號碼 %1"
+
+#~ msgid "Send fax to %1"
+#~ msgstr "發傳真給 %1"
+
+#~ msgid "Show address on map"
+#~ msgstr "在地圖上顯示地址"
+
+#~ msgid "Send SMS to %1"
+#~ msgstr "發送簡訊給 %1"
+
+#~ msgid "Open URL %1"
+#~ msgstr "開啟網址 %1"
+
+#~ msgid "Chat with %1"
+#~ msgstr "與 %1 聊天"
+
+#, fuzzy
+#~| msgctxt "@title:column, address books overview"
+#~| msgid "Address Books"
+#~ msgctxt "@title:column address books overview"
+#~ msgid "Address Books"
+#~ msgstr "通訊錄"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@title:column name of a person"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#, fuzzy
+#~| msgid "Full Name"
+#~ msgctxt "@title:column family name of a person"
+#~ msgid "Family Name"
+#~ msgstr "全名"
+
+#, fuzzy
+#~| msgctxt "@title:column, home address of a person"
+#~| msgid "Home"
+#~ msgctxt "@title:column home address of a person"
+#~ msgid "Home"
+#~ msgstr "首頁"
+
+#, fuzzy
+#~| msgctxt "@title:column, home address of a person"
+#~| msgid "Work"
+#~ msgctxt "@title:column home address of a person"
+#~ msgid "Work"
+#~ msgstr "工作"
+
+#, fuzzy
+#~| msgctxt "@title:column, phone numbers of a person"
+#~| msgid "Phone Numbers"
+#~ msgctxt "@title:column phone numbers of a person"
+#~ msgid "Phone Numbers"
+#~ msgstr "電話號碼"
+
+#, fuzzy
+#~| msgctxt "@title:column, the preferred email addresses of a person"
+#~| msgid "Preferred EMail"
+#~ msgctxt "@title:column the preferred email addresses of a person"
+#~ msgid "Preferred EMail"
+#~ msgstr "預設電子郵件地址"
+
+#, fuzzy
+#~| msgctxt "@title:column, all email addresses of a person"
+#~| msgid "All EMails"
+#~ msgctxt "@title:column all email addresses of a person"
+#~ msgid "All EMails"
+#~ msgstr "所有的電子郵件"
+
+#~ msgid "<group>"
+#~ msgstr "<群組>"
+
+#~ msgid "Other Addresses"
+#~ msgstr "其他地址"
+
+#~ msgid ""
+#~ "There are no addresses in your list. First add some addresses from your "
+#~ "address book, then try again."
+#~ msgstr "在您的清單中沒有任何地址。請先從通訊錄新增地址，然後再試一次。"
+
+#~ msgid "New Distribution List"
+#~ msgstr "新的分派清單"
+
+#~ msgid "Please enter name:"
+#~ msgstr "請輸入名稱："
+
+#~ msgid ""
+#~ "<qt>Distribution list with the given name <b>%1</b> already exists. "
+#~ "Please select a different name.</qt>"
+#~ msgstr "<qt>名稱為 <b>%1</b> 的分派清單已經存在了。請輸入不同的名稱。</qt>"
+
+#~ msgid "Distribution Lists"
+#~ msgstr "分派清單"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Insert"
+#~ msgstr "插入(&I)"
+
+#~ msgctxt "@title:window"
+#~ msgid "Insert File"
+#~ msgstr "插入檔案"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid ""
+#~| "The external editor is still running.<nl>Do you want to stop the editor "
+#~| "or keep it running?</nl><warning>Stopping the editor will cause all your "
+#~| "unsaved changes to be lost.</warning>"
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The external editor is still running.<nl/>Do you want to stop the editor "
+#~ "or keep it running?<nl/><warning>Stopping the editor will cause all your "
+#~ "unsaved changes to be lost.</warning>"
+#~ msgstr ""
+#~ "外部編輯器仍在執行中。<nl>您要停止編輯器嗎？</nl><warning>停止編輯器會讓您"
+#~ "未儲存的變更全部消失。</warning>"
+
+#~ msgctxt "@title:window"
+#~ msgid "External Editor Running"
+#~ msgstr "外部編輯器執行中"
+
+#~ msgctxt "@action:button"
+#~ msgid "Stop Editor"
+#~ msgstr "停止編輯器"
+
+#~ msgctxt "@action:button"
+#~ msgid "Keep Editor Running"
+#~ msgstr "保持編輯器執行中"
+
+#~ msgid "Edit Categories"
+#~ msgstr "編輯分類"
+
+#~ msgid "New category"
+#~ msgstr "新類別"
+
+#, fuzzy
+#~| msgid "New category"
+#~ msgid "New subcategory"
+#~ msgstr "新類別"
+
+#~ msgid "Select Categories"
+#~ msgstr "選擇分類"
+
+#~ msgid "Showing URL %1"
+#~ msgstr "顯示網址 %1"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Numeric Value"
+#~ msgstr "數值"
+
+#~ msgid "Boolean"
+#~ msgstr "布林值"
+
+#~ msgid "Date & Time"
+#~ msgstr "日期與時間"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "KCMDesignerfields"
+#~ msgstr "KCMDesignerfields"
+
+#~ msgid "Qt Designer Fields Dialog"
+#~ msgstr "Qt Designer 欄位對話框"
+
+#~ msgid "Cornelius Schumacher"
+#~ msgstr "Cornelius Schumacher"
+
+#~ msgid "*.ui|Designer Files"
+#~ msgstr "*.ui|Designer 檔案"
+
+#~ msgid "Import Page"
+#~ msgstr "匯入設計頁"
+
+#~ msgid ""
+#~ "<qt><b>Warning:</b> Qt Designer could not be found. It is probably not "
+#~ "installed. You will only be able to import existing designer files.</qt>"
+#~ msgstr ""
+#~ "<qt><b>警告：</b>找不到 Qt Designer。有可能尚未安裝。您目前只能匯入已存在"
+#~ "的 designer 檔案。</qt>"
+
+#~ msgid "Preview of Selected Page"
+#~ msgstr "預覽所選擇的設計頁"
+
+#~ msgid ""
+#~ "<qt><p>This section allows you to add your own GUI  Elements "
+#~ "('<i>Widgets</i>') to store your own values into %1. Proceed as described "
+#~ "below:</p><ol><li>Click on '<i>Edit with Qt Designer</i>'</li><li>In the "
+#~ "dialog, select '<i>Widget</i>', then click <i>OK</i></li><li>Add your "
+#~ "widgets to the form</li><li>Save the file in the directory proposed by Qt "
+#~ "Designer</li><li>Close Qt Designer</li></ol><p>In case you already have a "
+#~ "designer file (*.ui) located somewhere on your hard disk, simply choose "
+#~ "'<i>Import Page</i>'</p><p><b>Important:</b> The name of each input "
+#~ "widget you place within the form must start with '<i>X_</i>'; so if you "
+#~ "want the widget to correspond to your custom entry '<i>X-Foo</i>', set "
+#~ "the widget's <i>name</i> property to '<i>X_Foo</i>'.</p><p><b>Important:</"
+#~ "b> The widget will edit custom fields with an application name of %2.  To "
+#~ "change the application name to be edited, set the widget name in Qt "
+#~ "Designer.</p></qt>"
+#~ msgstr ""
+#~ "<qt> <p>這裡讓您加入您自己的 GUI 元素（<i>Widgets</i>），儲存您自己的值到 "
+#~ "%1。以如下的方式進行：</p> <ol> <li>按下「以 Qt Designer 編輯」</li> <li>"
+#~ "在對話框中，選擇「元件」(Widget)，並按下「確定」。</li> <li>在設計板(form)"
+#~ "中新增您自己的元件。</li> <li>將檔案儲存到 Qt Designer 建議的目錄中。</"
+#~ "li> <li>關閉 Qt Designer。</li></ol> <p>如果您已經有了 designer 檔案 (*."
+#~ "ui)，您可以選擇「匯入設計頁」。</p> <p><b>重要：</b>每一個您放進設計板中的"
+#~ "元件的名稱，都必須以 <i>X_</i> 開頭。所以如果您要讓這個元件與您自定的項目 "
+#~ "<i>X-Foo</i> 相關聯，您應該將此元件的「名稱」(name) 屬性設為 <i>X_Foo</"
+#~ "i>。</p> <p><b>重要：</b>元件會依應用程式名稱 %2 編輯自定欄位。如果要變更"
+#~ "編輯的應用程式名稱，請在 Qt Designer 中設定元件的名稱。</p></qt>"
+
+#~ msgid "<a href=\"whatsthis:%1\">How does this work?</a>"
+#~ msgstr "<a href=\"whatsthis:%1\">這如何運作？</a>"
+
+#~ msgid "Delete Page"
+#~ msgstr "刪除設計頁"
+
+#~ msgid "Import Page..."
+#~ msgstr "匯入設計頁..."
+
+#~ msgid "Edit with Qt Designer..."
+#~ msgstr "以 Qt Designer 編輯..."
+
+#~ msgid "Key:"
+#~ msgstr "鍵："
+
+#~ msgid "Type:"
+#~ msgstr "型態："
+
+#~ msgid "Classname:"
+#~ msgstr "類別名稱："
+
+#~ msgid "Description:"
+#~ msgstr "描述："
+
+#~ msgid "Change Config Value"
+#~ msgstr "變更設定值"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configuration Wizard"
+#~ msgstr "設定精靈"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Rules"
+#~ msgstr "規則"
+
+#~ msgctxt "@title:window"
+#~ msgid "Set Up Rules"
+#~ msgstr "設定規則"
+
+#~ msgctxt "@title:column source file,group,entry"
+#~ msgid "Source"
+#~ msgstr "來源"
+
+#~ msgctxt "@title:column target file,group,entry"
+#~ msgid "Target"
+#~ msgstr "目標"
+
+#~ msgctxt "@title:column file,group,key,value"
+#~ msgid "Condition"
+#~ msgstr "條件"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Changes"
+#~ msgstr "變更"
+
+#~ msgctxt "@title:window"
+#~ msgid "Set Up Changes"
+#~ msgstr "設定變更"
+
+#~ msgctxt "@title:column change action"
+#~ msgid "Action"
+#~ msgstr "動作"
+
+#~ msgctxt "@title:column option to change"
+#~ msgid "Option"
+#~ msgstr "選項"
+
+#~ msgctxt "@title:column value for option"
+#~ msgid "Value"
+#~ msgstr "數值"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Please make sure that the programs which are configured by the wizard do "
+#~ "not run in parallel to the wizard; otherwise, changes done by the wizard "
+#~ "could be lost."
+#~ msgstr ""
+#~ "請確定此精靈所設定的應用程式沒有同時在執行。否則，所做的變更可能會遺失。"
+
+#~ msgctxt "@title:window warn about running instances"
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgctxt "@action:button"
+#~ msgid "Run Wizard Now"
+#~ msgstr "執行精靈"
+
+#, fuzzy
+#~| msgid "Selection"
+#~ msgctxt "incidence category"
+#~ msgid "Meeting"
+#~ msgstr "選擇"
+
+#, fuzzy
+#~| msgid "Duration"
+#~ msgctxt "incidence category"
+#~ msgid "Education"
+#~ msgstr "期間"
+
+#, fuzzy
+#~| msgctxt "this day"
+#~| msgid "today"
+#~ msgctxt ""
+#~ "incidence category: official or unofficial observance of religious/"
+#~ "national/cultural/other significance, often accompanied by celebrations "
+#~ "or festivities"
+#~ msgid "Holiday"
+#~ msgstr "今天"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgctxt ""
+#~ "incidence category: a lengthy time away from work or school, a trip "
+#~ "abroad, or simply a pleasure trip away from home"
+#~ msgid "Vacation"
+#~ msgstr "位置"
+
+#, fuzzy
+#~| msgid "Show Birthday"
+#~ msgctxt "incidence category"
+#~ msgid "Birthday"
+#~ msgstr "顯示生日"
+
+#~ msgid "Unnamed plugin"
+#~ msgstr "未命名的外掛程式"
+
+#~ msgid "New category entry"
+#~ msgstr "新類別項目"
+
+#~ msgid "Type in any text you want to use as a new category or sub-category."
+#~ msgstr "輸入您要做為新類別或新子類別名稱的文字。"
+
+#~ msgid "Add the entry to the category list"
+#~ msgstr "新增項目到類別清單中"
+
+#~ msgid "Click this button to insert the entry into the category list."
+#~ msgstr "點擊此按鍵來將此項目插入類別清單中。"
+
+#~ msgid "A&dd"
+#~ msgstr "增加 (&D)"
+
+#~ msgid "Add the entry as a subcategory of the selected category"
+#~ msgstr "將此項目新增為選取類別的子類別"
+
+#~ msgid ""
+#~ "Click this button to insert the entry as a subcategory of the currently "
+#~ "selected category."
+#~ msgstr "點擊此按鍵來將此項目插入到目前選取的類別中做為子類別。"
+
+#~ msgid "Add &Subcategory"
+#~ msgstr "新增子分類(&S)"
+
+#~ msgid "Remove the selected category"
+#~ msgstr "移除選取的類別"
+
+#~ msgid ""
+#~ "Click this button to remove the selected category from the category list."
+#~ msgstr "點擊此按鍵來從清單中移除選取的類別。"
+
+#~ msgid "Category list"
+#~ msgstr "類別清單"
+
+#~ msgid ""
+#~ "This is a list of all the categories available. You can create as many "
+#~ "sub-categories as you want here."
+#~ msgstr "這是所有可用類別的清單。您可以在此建立子類別。"
+
+#~ msgid "Default Category"
+#~ msgstr "預設類別"
+
+#~ msgid "Category"
+#~ msgstr "分類"
+
+#~ msgid "&Clear Selection"
+#~ msgstr "清除選擇(&C)"
+
+#~ msgid "&Edit Categories..."
+#~ msgstr "編輯分類 (&E)..."
+
+#~ msgctxt "boolean yes"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "boolean no"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "Organizer"
+#~ msgstr "發起人"
+
+#~ msgid "UID"
+#~ msgstr "UID"
+
+#~ msgid "Is all-day"
+#~ msgstr "為全天"
+
+#~ msgid "Has duration"
+#~ msgstr "有期間"
+
+#~ msgid "Summary"
+#~ msgstr "摘要"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Secrecy"
+#~ msgstr "保密"
+
+#~ msgid "Priority"
+#~ msgstr "優先順序"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Categories"
+#~ msgstr "分類"
+
+#~ msgid "Alarms"
+#~ msgstr "鬧鐘"
+
+#~ msgid "Resources"
+#~ msgstr "資源"
+
+#~ msgid "Relations"
+#~ msgstr "關係"
+
+#~ msgid "Attachments"
+#~ msgstr "附加檔"
+
+#~ msgid "Exception Dates"
+#~ msgstr "例外日期"
+
+#~ msgid "Exception Times"
+#~ msgstr "例外時間"
+
+#~ msgctxt "todo creation time"
+#~ msgid "Created"
+#~ msgstr "已建立"
+
+#~ msgid "Related Uid"
+#~ msgstr "相關 UID"
+
+#~ msgid "Has End Date"
+#~ msgstr "有結束日期"
+
+#~ msgid "End Date"
+#~ msgstr "結束日期"
+
+#~ msgid "Has Start Date"
+#~ msgstr "有開始日期"
+
+#~ msgid "Has Due Date"
+#~ msgstr "有預定日期"
+
+#~ msgid "Due Date"
+#~ msgstr "預定日期"
+
+#~ msgid "Has Complete Date"
+#~ msgstr "有完成日期"
+
+#~ msgctxt "to-do completion percentage"
+#~ msgid "Complete"
+#~ msgstr "完成日期"
+
+#~ msgctxt "if to-do is completed"
+#~ msgid "Completed"
+#~ msgstr "已完成"
+
+#~ msgid "Local"
+#~ msgstr "本地端"
+
+#~ msgid "IMAP"
+#~ msgstr "IMAP"
+
+#~ msgid "Cached IMAP"
+#~ msgstr "快取式 IMAP"
+
+#~ msgid "News"
+#~ msgstr "新聞"
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "@item IMAP account"
+#~ msgid "IMAP"
+#~ msgstr "IMAP"
+
+#~ msgctxt "@item mbox account"
+#~ msgid "MBOX"
+#~ msgstr "MBOX"
+
+#~ msgctxt "@item maildir account"
+#~ msgid "Maildir mailbox"
+#~ msgstr "Maildir 信箱"
+
+#~ msgctxt "@item usenet account"
+#~ msgid "News"
+#~ msgstr "新聞"
+
+#~ msgctxt "@item DIMAP account"
+#~ msgid "Disconnected IMAP"
+#~ msgstr "離線式 IMAP"
+
+#~ msgctxt "@item local mailbox account"
+#~ msgid "Local mailbox"
+#~ msgstr "本地端信箱"
+
+#~ msgctxt "@item pop3 account"
+#~ msgid "POP3"
+#~ msgstr "POP3"
+
+#~ msgctxt "@item unknown mail account"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid "Do not show this message again"
+#~ msgstr "不要再顯示此訊息"
+
+#~ msgid ""
+#~ "Article\n"
+#~ "<b>%1</b><br /><b>%2</b><br />caused the following note to appear:<br />%3"
+#~ msgstr ""
+#~ "文章\n"
+#~ "<b>%1</b><br /> <b>%2</b><br /> 讓以下的註解出現：<br /> %3"
+
+#~ msgid "Adjust Score"
+#~ msgstr "調整分數"
+
+#~ msgid "Display Message"
+#~ msgstr "顯示訊息"
+
+#~ msgid "Colorize Header"
+#~ msgstr "將標頭著色"
+
+#~ msgid "Mark as Read"
+#~ msgstr "標記為已讀"
+
+#~ msgid "<h1>List of collected notes</h1>"
+#~ msgstr "<h1>收集便條清單</h1>"
+
+#~ msgid "Collected Notes"
+#~ msgstr "收集便條"
+
+#~ msgid "Contains Substring"
+#~ msgstr "包含子字串"
+
+#~ msgid "Matches Regular Expression"
+#~ msgstr "符合正規表示式"
+
+#~ msgid "Matches Regular Expression (Case Sensitive)"
+#~ msgstr "符合正規表示式（區分大小寫）"
+
+#~ msgid "Is Exactly the Same As"
+#~ msgstr "完全符合"
+
+#~ msgid "Less Than"
+#~ msgstr "小於"
+
+#~ msgid "Greater Than"
+#~ msgstr "大於"
+
+#~ msgid "Choose Another Rule Name"
+#~ msgstr "選擇另一個規則名稱"
+
+#~ msgid "The rule name is already assigned, please choose another name:"
+#~ msgstr "此規則名稱已被使用。請選擇另一個名稱："
+
+#~ msgid "rule %1"
+#~ msgstr "規則 %1"
+
+#~ msgid "Not"
+#~ msgstr "否定"
+
+#~ msgid "Negate this condition"
+#~ msgstr "否定此條件"
+
+#~ msgid "Select the header to match this condition against"
+#~ msgstr "選擇符合此條件的標頭"
+
+#~ msgid "Select the type of match"
+#~ msgstr "選擇符合的型態"
+
+#~ msgid "The condition for the match"
+#~ msgstr "符合的條件"
+
+#~ msgid "Select an action."
+#~ msgstr "選擇動作"
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgctxt "@label rule name"
+#~ msgid "&Name:"
+#~ msgstr "名稱(&N)："
+
+#~ msgid "&Groups:"
+#~ msgstr "群組(&G)："
+
+#~ msgid "A&dd Group"
+#~ msgstr "新增群組(&D)"
+
+#~ msgid "&Expire rule automatically"
+#~ msgstr "自動將規則設為逾期(&E)"
+
+#~ msgid "&Rule is valid for:"
+#~ msgstr "規則適用期(&R)："
+
+#~ msgid "Conditions"
+#~ msgstr "條件"
+
+#~ msgid "Match a&ll conditions"
+#~ msgstr "符合所有條件(&L)"
+
+#~ msgid "Matc&h any condition"
+#~ msgstr "符合任一條件(&H)"
+
+#~ msgid "Actions"
+#~ msgstr "動作"
+
+#~ msgid " day"
+#~ msgid_plural " days"
+#~ msgstr[0] " 天"
+
+#~ msgid "New rule"
+#~ msgstr "新規則"
+
+#~ msgid "Edit rule"
+#~ msgstr "編輯規則"
+
+#~ msgid "Remove rule"
+#~ msgstr "移除規則"
+
+#~ msgid "<placeholder>all groups</placeholder>"
+#~ msgstr "<placeholder>所有群組</placeholder>"
+
+#~ msgid "Sho&w only rules for group:"
+#~ msgstr "只顯示此群組的規則(&W)："
+
+#~ msgid "Rule Editor"
+#~ msgstr "規則編輯器"
+
+#~ msgid "Edit Rule"
+#~ msgstr "編輯規則"
+
+#~ msgid "Reload &List"
+#~ msgstr "重新載入清單(&L)"
+
+#~ msgid "Manage which mail folders you want to see in your folder view"
+#~ msgstr "管理您要在您的資料夾顯示中看到哪些郵件資料夾"
+
+#~ msgid "S&earch:"
+#~ msgstr "搜尋(&E)："
+
+#~ msgid "Disable &tree view"
+#~ msgstr "關閉樹狀顯示(&T)"
+
+#~ msgid "&Subscribed only"
+#~ msgstr "只有已訂閱的(&S)"
+
+#~ msgid "&New only"
+#~ msgstr "只有新的(&N)"
+
+#~ msgid "Current changes:"
+#~ msgstr "目前的改變："
+
+#~ msgctxt "subscription name"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "subscription description"
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Subscribe To"
+#~ msgstr "訂閱"
+
+#~ msgid "Unsubscribe From"
+#~ msgstr "取消訂閱"
+
+#~ msgid "Loading... (1 matching)"
+#~ msgid_plural "Loading... (%1 matching)"
+#~ msgstr[0] "載入中...（%1 符合）"
+
+#~ msgid "%2: (1 matching)"
+#~ msgid_plural "%2: (%1 matching)"
+#~ msgstr[0] "%2：（%1 符合）"
+
+#~ msgid "View Columns"
+#~ msgstr "檢視欄位"
+
+#~ msgctxt "@title:window"
+#~ msgid "Conflict Detected"
+#~ msgstr "偵測到衝突"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "A conflict was detected. This probably means someone edited the same "
+#~ "incidence on the server while you changed it locally.<nl/><note>You have "
+#~ "to check mail again to apply your changes to the server.</note>"
+#~ msgstr ""
+#~ "偵測到衝突。這有可能是當您在本地端改變此事項時，某人在伺服器上編輯了同樣的"
+#~ "事項。<nl/><note>您必須再檢查郵件一次，以便將您的改變套用到伺服器上。</"
+#~ "note>"
+
+#~ msgctxt "@action:button"
+#~ msgid "Take Local"
+#~ msgstr "取用本地的"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Take your local copy of the incidence"
+#~ msgstr "取用您本地的事項"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "A conflict was detected between your local copy of the incidence and the "
+#~ "remote incidence on the server. Press the \"Take Local\" button to make "
+#~ "sure your local copy is used."
+#~ msgstr ""
+#~ "偵測到您本地端的事項複本與伺服器端上的不一樣。按下「取用本地的」可以取用本"
+#~ "地端的事項複本。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Take New"
+#~ msgstr "取用新的"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Take the server copy of the incidence"
+#~ msgstr "取用伺服器端的事項"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "A conflict was detected between your local copy of the incidence and the "
+#~ "remote incidence on the server. Press the \"Take New\" button to use the "
+#~ "server copy, thereby overwriting your local copy"
+#~ msgstr ""
+#~ "偵測到您本地端的事項複本與伺服器端上的不一樣。按下「取用新的」可以取用伺服"
+#~ "器端的事項複本覆寫您本地的事項。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Take Both"
+#~ msgstr "兩者皆取用"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Take both copies of the incidence"
+#~ msgstr "兩端的事項皆取用"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "A conflict was detected between your local copy of the incidence and the "
+#~ "remote incidence on the server. Press the \"Take Both\" button to keep "
+#~ "both the local and the server copies."
+#~ msgstr ""
+#~ "偵測到您本地端的事項複本與伺服器端上的不一樣。按下「兩者取用」可以保留本地"
+#~ "端與伺服器端的事項複本。"
+
+#~ msgctxt "@label"
+#~ msgid "Local incidence"
+#~ msgstr "本地端事項"
+
+#~ msgctxt "@label"
+#~ msgid "Local incidence summary"
+#~ msgstr "本地端事項概要"
+
+#~ msgctxt "@label"
+#~ msgid "Last modified:"
+#~ msgstr "最後變更："
+
+#~ msgctxt "@label"
+#~ msgid "Set Last modified"
+#~ msgstr "設定最後變更"
+
+#~ msgctxt "@action:button"
+#~ msgid "Show Details"
+#~ msgstr "顯示詳情"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Hide/Show incidence details"
+#~ msgstr "隱藏/顯示事項詳情"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Press this button to toggle the incidence details display."
+#~ msgstr "按下此鍵可以切換是否顯示事項詳情。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Show Differences"
+#~ msgstr "顯示不同處"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show the differences between the two incidences"
+#~ msgstr "顯示兩個事項的不同處"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Press the \"Show Differences\" button to see the specific differences "
+#~ "between the incidences which are in conflict."
+#~ msgstr "按下「顯示不同處」可以顯示衝突的兩個事項不同之處在哪。"
+
+#~ msgctxt "@title:group"
+#~ msgid "Sync Preferences"
+#~ msgstr "同步設定"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Sync Preferences"
+#~ msgstr "同步設定"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sync Preferences"
+#~ msgstr "同步設定"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Take local copy on conflict"
+#~ msgstr "衝突時取用本地端的複本"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Take local copy of the incidence on conflicts"
+#~ msgstr "衝突時取用本地端的複本"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When a conflict is detected between a local copy of an incidence and a "
+#~ "remote incidence on the server, this option enforces using the local copy."
+#~ msgstr ""
+#~ "當本地端的事項複本與伺服器端上的不一樣時，此選項會強制使用本地端的事項複"
+#~ "本。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Take remote copy on conflict"
+#~ msgstr "衝突時取用遠端的複本"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Take remote copy of the incidence on conflicts"
+#~ msgstr "衝突時取用遠端的複本"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When a conflict is detected between a local copy of an incidence and a "
+#~ "remote incidence on the server, this option enforces using the remote "
+#~ "copy."
+#~ msgstr ""
+#~ "當本地端的事項複本與伺服器端上的不一樣時，此選項會強制使用遠端的事項複本。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Take newest incidence on conflict"
+#~ msgstr "衝突時取用最新的事項"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Take newest version of the incidence on conflicts"
+#~ msgstr "衝突時取用最新的事項"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When a conflict is detected between a local copy of an incidence and a "
+#~ "remote incidence on the server, this option enforces using the newest "
+#~ "version available."
+#~ msgstr ""
+#~ "當本地端的事項複本與伺服器端上的不一樣時，此選項會強制使用最新的事項複本。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Ask for every conflict"
+#~ msgstr "每次衝突皆詢問處理方式"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Ask for every incidence conflict"
+#~ msgstr "每次事項衝突時皆詢問處理方式"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When a conflict is detected between a local copy of an incidence and a "
+#~ "remote incidence on the server, this option says to ask the user which "
+#~ "version they want to keep."
+#~ msgstr ""
+#~ "當本地端的事項複本與伺服器端上的不一樣時，此選項會詢問使用者要使用哪一端的"
+#~ "複本。"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Take both on conflict"
+#~ msgstr "衝突時兩者皆取用"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Take both incidences on conflict"
+#~ msgstr "衝突時兩端的事項皆取用"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "When a conflict is detected between a local copy of an incidence and a "
+#~ "remote incidence on the server, this option says to keep both versions of "
+#~ "the incidence."
+#~ msgstr ""
+#~ "當本地端的事項複本與伺服器端上的不一樣時，此選項會保留本地端與遠端的事項複"
+#~ "本。"
+
+#~ msgctxt "@action:button"
+#~ msgid "Apply preference to all conflicts of this sync"
+#~ msgstr "在此同步中套用這些設定到所有的衝突點"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Apply the preference to all conflicts that may occur during the sync"
+#~ msgstr "將這些設定套用到此次同步可能遇到的所有衝突點"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Press this button to apply the selected preference to all future "
+#~ "conflicts that might occur during this sync."
+#~ msgstr "按下此按鍵以將選取的設定套用到此次同步時可能遇到的所有衝突點。"
+
+#~ msgctxt "@label"
+#~ msgid "Local Event"
+#~ msgstr "本地事項"
+
+#~ msgctxt "@label"
+#~ msgid "Local Todo"
+#~ msgstr "本地待辦事項"
+
+#~ msgctxt "@label"
+#~ msgid "Local Journal"
+#~ msgstr "本地日誌"
+
+#~ msgctxt "@label"
+#~ msgid "New Event"
+#~ msgstr "新事件"
+
+#~ msgctxt "@label"
+#~ msgid "New Todo"
+#~ msgstr "新待辦事項"
+
+#~ msgctxt "@label"
+#~ msgid "New Journal"
+#~ msgstr "新日誌"
+
+#~ msgctxt "@action:button"
+#~ msgid "Hide Details"
+#~ msgstr "隱藏詳情"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Incidence details"
+#~ msgstr "事項詳情"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "This area shows the incidence details"
+#~ msgstr "此區域顯示事項的詳情"
+
+#~ msgctxt "@action:button"
+#~ msgid "Show details..."
+#~ msgstr "顯示詳情..."
+
+#~ msgctxt "@title:window"
+#~ msgid "Differences of %1 and %2"
+#~ msgstr "%1 與 %2 的不同處"
+
+#~ msgctxt "@title:window"
+#~ msgid "Differences of %1"
+#~ msgstr "%1 的不同處"
+
+#~ msgctxt "@title:column"
+#~ msgid "Local incidence"
+#~ msgstr "本地端事項"
+
+#~ msgctxt "@title:column"
+#~ msgid "Remote incidence"
+#~ msgstr "遠端事項"
+
+#~ msgctxt "@label"
+#~ msgid "Show Details"
+#~ msgstr "顯示詳情"
+
+#~ msgctxt "@label"
+#~ msgid "Hide Details"
+#~ msgstr "隱藏詳情"
+
+#~ msgctxt "@title:column, name of a person"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "This area shows the incidencedetails"
+#~ msgstr "此區域顯示事項的詳情"
+
+#~ msgid ""
+#~ "The external editor is still running.\n"
+#~ "Abort the external editor or leave it open?"
+#~ msgstr ""
+#~ "外部編輯器仍在運作中。\n"
+#~ "要中止外部編輯器還是讓它保持開啟？"
+
+#~ msgid "UTC"
+#~ msgstr "格林威至時間"
+
+#~ msgid "Floating"
+#~ msgstr "浮動"
+
+#~ msgid "Local entry"
+#~ msgstr "本地端項目"
+
+#~ msgid "New (remote) entry"
+#~ msgstr "新的（遠端）項目"
+
+#~ msgid "Plain"
+#~ msgstr "樸素"
+
+#~ msgid "Unquoted"
+#~ msgstr "引文結束"
+
+#~ msgid "Bracketed"
+#~ msgstr "括號"
+
+#~ msgid "Undefined"
+#~ msgstr "未定義"
+
+#~ msgid "File to import:"
+#~ msgstr "要匯入的檔案："
+
+#~ msgid "Separator:"
+#~ msgstr "分隔符號："
+
+#~ msgid "Tab"
+#~ msgstr "Tab"
+
+#~ msgid "Space"
+#~ msgstr "Space"
+
+#~ msgid "Header"
+#~ msgstr "標頭"
+
+#~ msgid "Assign to Selected Column"
+#~ msgstr "分配到選擇的欄位"
+
+#~ msgid "Remove Assignment From Selected Column"
+#~ msgstr "從所選欄位中移除分配"
+
+#~ msgid "Assign with Template..."
+#~ msgstr "以樣本分配..."
+
+#~ msgid "Save Current Template"
+#~ msgstr "儲存現在的樣本"
+
+#~ msgid "Loading Progress"
+#~ msgstr "載入進度"
+
+#~ msgid "Please wait while the file is loaded."
+#~ msgstr "檔案載入中請稍後。"
+
+#~ msgid "Template Selection"
+#~ msgstr "樣本選擇"
+
+#~ msgid "Please select a template, that matches the CSV file:"
+#~ msgstr "請選擇一個符合 csv 檔案的樣本："
+
+#~ msgid "Importing Progress"
+#~ msgstr "匯入進度"
+
+#~ msgid "Please wait while the data is imported."
+#~ msgstr "資料匯入中請稍後。"
+
+#~ msgid "Template Name"
+#~ msgstr "樣本名稱"
+
+#~ msgid "Hide Birthday"
+#~ msgstr "隱藏生日"
+
+#~ msgid "Hide Postal Addresses"
+#~ msgstr "隱藏郵寄地址"
+
+#~ msgid "Hide Email Addresses"
+#~ msgstr "隱藏電子郵件地址"
+
+#~ msgid "Hide Telephone Numbers"
+#~ msgstr "隱藏電話號碼"
+
+#~ msgid "Hide Web Pages (URLs)"
+#~ msgstr "隱藏網頁（網址）"
+
+#~ msgid "Hide Instant Messaging Addresses"
+#~ msgstr "隱藏 IM 位址"
+
+#~ msgid "Hide Custom Fields"
+#~ msgstr "隱藏自訂欄位"
+
+#~ msgid "Test"
+#~ msgstr "測試"
+
+#~ msgid "Suggestions"
+#~ msgstr "建議"
+
+#~ msgid "Ignore"
+#~ msgstr "忽略"
+
+#~ msgid "Add to Dictionary"
+#~ msgstr "新增到字典"

@@ -1,0 +1,4883 @@
+# translation of kword.po to Chinese Traditional
+# traditional Chinese translation of kword
+# Copyright (C) 2001-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Translator: Eric Cheng <ericc@shinewave.com.tw>, 2001.
+#             Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2011, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kword\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-23 03:17+0100\n"
+"PO-Revision-Date: 2012-06-14 09:06+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: Menu (file)
+#: part/calligrawords.rc:4 part/calligrawords_readonly.rc:4
+#, kde-format
+msgid "&File"
+msgstr "檔案(&F)："
+
+#. i18n: ectx: Menu (edit)
+#: part/calligrawords.rc:11 part/calligrawords_readonly.rc:7
+#, kde-format
+msgid "&Edit"
+msgstr "編輯(&E)"
+
+#. i18n: ectx: Menu (view)
+#: part/calligrawords.rc:30 part/calligrawords_readonly.rc:13
+#, kde-format
+msgid "&View"
+msgstr "檢視(&V)"
+
+#. i18n: ectx: Menu (view)
+#. i18n: ectx: Menu (view_displaymodes)
+#: part/calligrawords.rc:32 part/calligrawords_readonly.rc:15
+#, kde-format
+msgid "&Display Mode"
+msgstr "顯示模式(&D)"
+
+#. i18n: ectx: Menu (semantic)
+#: part/calligrawords.rc:63
+#, fuzzy, kde-format
+#| msgid "Semantic Object"
+msgid "Semantics"
+msgstr "語意物件"
+
+#. i18n: ectx: Menu (format)
+#: part/calligrawords.rc:75
+#, kde-format
+msgid "S&tyles"
+msgstr "樣式(&T)"
+
+#. i18n: ectx: Menu (settings)
+#: part/calligrawords.rc:79
+#, kde-format
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: ectx: Menu (SpellCheck)
+#: part/calligrawords.rc:80
+#, kde-format
+msgid "Spellcheck"
+msgstr "拼字檢查"
+
+#. i18n: ectx: ToolBar (edit_toolbar)
+#: part/calligrawords.rc:93
+#, kde-format
+msgid "Edit"
+msgstr "編輯"
+
+#. i18n: ectx: Menu (check_spell_list)
+#: part/calligrawords.rc:149
+#, kde-format
+msgid "Spell Check Result"
+msgstr "拼字檢查結果"
+
+#. i18n: ectx: Menu (variable_list)
+#: part/calligrawords.rc:176
+#, kde-format
+msgid "Change Variable To"
+msgstr "變更變數到"
+
+#. i18n: ectx: Menu (tools)
+#: part/calligrawords_readonly.rc:30
+#, kde-format
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: part/commands/KWChangePageStyleCommand.cpp:24
+msgctxt "(qtundo-format)"
+msgid "Set Page Style"
+msgstr "設定頁面樣式"
+
+#: part/commands/KWNewPageStyleCommand.cpp:25
+msgctxt "(qtundo-format)"
+msgid "Insert Page Style"
+msgstr "插入頁面樣式"
+
+#: part/commands/KWPageStylePropertiesCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Page Properties"
+msgstr "頁面屬性"
+
+#: part/commands/KWShapeCreateCommand.cpp:55
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgstr "建立元件"
+
+#: part/dialogs/KWAnchoringProperties.cpp:435
+#, kde-format
+msgid "Baseline"
+msgstr "基線"
+
+#: part/dialogs/KWAnchoringProperties.cpp:436
+#: part/dialogs/KWAnchoringProperties.cpp:447
+#, kde-format
+msgid "Character"
+msgstr "字元"
+
+#: part/dialogs/KWAnchoringProperties.cpp:439
+#, kde-format
+msgid "Row"
+msgstr "列"
+
+#: part/dialogs/KWAnchoringProperties.cpp:440
+#: part/dialogs/KWAnchoringProperties.cpp:448
+#, kde-format
+msgid "Page (entire) area"
+msgstr "（整個）頁面區"
+
+#: part/dialogs/KWAnchoringProperties.cpp:441
+#: part/dialogs/KWAnchoringProperties.cpp:449
+#, kde-format
+msgid "Page text area"
+msgstr "頁面文字區域"
+
+#: part/dialogs/KWAnchoringProperties.cpp:442
+#: part/dialogs/KWAnchoringProperties.cpp:456
+#, kde-format
+msgid "Paragraph area"
+msgstr "段落區"
+
+#: part/dialogs/KWAnchoringProperties.cpp:443
+#: part/dialogs/KWAnchoringProperties.cpp:457
+#, kde-format
+msgid "Paragraph text area"
+msgstr "段落文字區域"
+
+#: part/dialogs/KWAnchoringProperties.cpp:450
+#, kde-format
+msgid "Left page border"
+msgstr "左頁面框線"
+
+#: part/dialogs/KWAnchoringProperties.cpp:451
+#, kde-format
+msgid "Right page border"
+msgstr "右頁面框線"
+
+#: part/dialogs/KWAnchoringProperties.cpp:458
+#, kde-format
+msgid "Right paragraph border"
+msgstr "右段落框線"
+
+#: part/dialogs/KWAnchoringProperties.cpp:459
+#, kde-format
+msgid "Left paragraph border"
+msgstr "左段落框線"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: part/dialogs/KWAnchoringProperties.ui:17
+#, kde-format
+msgid "Shape relation to text is:"
+msgstr "元件與文字的關係為："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorAsCharacter)
+#: part/dialogs/KWAnchoringProperties.ui:23
+#, kde-format
+msgid "Inline with text (behaves as a character)"
+msgstr "嵌入文字（當成字元）"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorToCharacter)
+#: part/dialogs/KWAnchoringProperties.ui:30
+#, kde-format
+msgid "Floating, but anchored to a character position"
+msgstr "浮動，但定錨於某個字元位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorParagraph)
+#: part/dialogs/KWAnchoringProperties.ui:37
+#, kde-format
+msgid "Floating, but anchored to a paragraph"
+msgstr "浮動，但定錨於某個段落"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorPage)
+#: part/dialogs/KWAnchoringProperties.ui:44
+#, kde-format
+msgid "Floating free (not anchored to text)"
+msgstr "自由浮動（不定錨在文字中）"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpVert)
+#: part/dialogs/KWAnchoringProperties.ui:54
+#, kde-format
+msgid "Vertical Positioning"
+msgstr "垂直位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rTop)
+#: part/dialogs/KWAnchoringProperties.ui:60
+#, kde-format
+msgid "Top align with:"
+msgstr "置頂對齊於："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rVCenter)
+#. i18n: ectx: property (text), widget (QRadioButton, rHCenter)
+#: part/dialogs/KWAnchoringProperties.ui:77
+#: part/dialogs/KWAnchoringProperties.ui:186
+#, kde-format
+msgid "Center align with:"
+msgstr "置中對齊於："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rBottom)
+#: part/dialogs/KWAnchoringProperties.ui:87
+#, kde-format
+msgid "Bottom align with:"
+msgstr "置底對齊於："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rVOffset)
+#. i18n: ectx: property (text), widget (QRadioButton, rHOffset)
+#: part/dialogs/KWAnchoringProperties.ui:97
+#: part/dialogs/KWAnchoringProperties.ui:206
+#, kde-format
+msgid "Offset"
+msgstr "位移"
+
+#. i18n: ectx: property (text), widget (QLabel, lVOffset)
+#. i18n: ectx: property (text), widget (QLabel, lHOffset)
+#: part/dialogs/KWAnchoringProperties.ui:119
+#: part/dialogs/KWAnchoringProperties.ui:228
+#, kde-format
+msgid "from:"
+msgstr "從："
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpHoriz)
+#: part/dialogs/KWAnchoringProperties.ui:163
+#, kde-format
+msgid "Horizontal Positioning"
+msgstr "水平位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rLeft)
+#: part/dialogs/KWAnchoringProperties.ui:169
+#, kde-format
+msgid "Left align with:"
+msgstr "置左對齊於："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rRight)
+#: part/dialogs/KWAnchoringProperties.ui:196
+#, kde-format
+msgid "Right align with:"
+msgstr "置右對齊於："
+
+#: part/dialogs/KWConfigureDialog.cpp:41
+#, kde-format
+msgid "Configure"
+msgstr "設定"
+
+#: part/dialogs/KWConfigureDialog.cpp:45 part/dialogs/KWConfigureDialog.cpp:46
+#, kde-format
+msgid "Misc"
+msgstr "雜項"
+
+#: part/dialogs/KWConfigureDialog.cpp:50 part/dialogs/KWConfigureDialog.cpp:51
+#, kde-format
+msgid "Grid"
+msgstr "格線"
+
+#: part/dialogs/KWConfigureDialog.cpp:57
+#, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "文件"
+
+#: part/dialogs/KWConfigureDialog.cpp:58
+#, kde-format
+msgid "Document Settings"
+msgstr "文件設定"
+
+#: part/dialogs/KWConfigureDialog.cpp:62
+#, kde-format
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "作者"
+
+#: part/dialogs/KWConfigureDialog.cpp:63
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CreateBookmark)
+#: part/dialogs/KWCreateBookmark.ui:13
+#: part/dialogs/KWCreateBookmarkDialog.cpp:50
+#, kde-format
+msgid "Create New Bookmark"
+msgstr "建立新書籤"
+
+#. i18n: ectx: property (text), widget (QLabel, lExplain)
+#: part/dialogs/KWCreateBookmark.ui:20
+#, kde-format
+msgid ""
+"Bookmarks allow you to jump between parts of your document.\n"
+"Please provide the name of your bookmark."
+msgstr ""
+"書籤讓您可以在您的文件中不同的部件間切換。\n"
+"請提供您的書籤名稱。"
+
+#. i18n: ectx: property (text), widget (QLabel, lName)
+#: part/dialogs/KWCreateBookmark.ui:38
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (text), widget (QLabel, columnsLabel)
+#: part/dialogs/KWDocumentColumns.ui:24
+#, kde-format
+msgid "Columns:"
+msgstr "欄位："
+
+#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
+#: part/dialogs/KWDocumentColumns.ui:44
+#, kde-format
+msgid "Column spacing:"
+msgstr "欄位空間："
+
+#: part/dialogs/KWFrameConnectSelector.cpp:114
+#, kde-format
+msgid "frameset"
+msgstr "框架集"
+
+#: part/dialogs/KWFrameConnectSelector.cpp:139
+#, kde-format
+msgid "No framesets in document"
+msgstr "文件中沒有框架集"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/dialogs/KWFrameConnectSelector.ui:67
+#, kde-format
+msgid "Name of frameset:"
+msgstr "框架集名稱："
+
+#. i18n: ectx: property (text), widget (QRadioButton, newRadio)
+#: part/dialogs/KWFrameConnectSelector.ui:82
+#, kde-format
+msgid "Create a new frameset:"
+msgstr "建立新框架集："
+
+#. i18n: ectx: property (text), widget (QRadioButton, existingRadio)
+#: part/dialogs/KWFrameConnectSelector.ui:89
+#, kde-format
+msgid "Select existing frameset to connect to:"
+msgstr "選擇要連接的框架集："
+
+#. i18n: ectx: property (text), widget (QTreeWidget, framesList)
+#: part/dialogs/KWFrameConnectSelector.ui:122
+#, kde-format
+msgid "Frameset Name"
+msgstr "框架集名稱"
+
+#: part/dialogs/KWFrameDialog.cpp:42
+#, kde-format
+msgid "Smart Positioning"
+msgstr "聰明放置"
+
+#: part/dialogs/KWFrameDialog.cpp:46 part/dialogs/KWShapeConfigFactory.cpp:75
+#, kde-format
+msgid "Text Run Around"
+msgstr "文字跑過"
+
+#: part/dialogs/KWFrameDialog.cpp:54 part/dialogs/KWShapeConfigFactory.cpp:39
+#, kde-format
+msgid "Connect Text Frames"
+msgstr "連接文字邊框"
+
+#: part/dialogs/KWFrameDialog.cpp:79
+msgctxt "(qtundo-format)"
+msgid "Change Shape Properties"
+msgstr "變更元件屬性"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpAnchor)
+#: part/dialogs/KWInsertImage.ui:17
+#, kde-format
+msgid "Anchor to..."
+msgstr "定錨點..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorPage)
+#: part/dialogs/KWInsertImage.ui:23
+#, kde-format
+msgid "&Page"
+msgstr "頁面(&P)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorParagraph)
+#: part/dialogs/KWInsertImage.ui:30
+#, kde-format
+msgid "Para&graph"
+msgstr "段落(&G)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorToCharacter)
+#: part/dialogs/KWInsertImage.ui:40
+#, kde-format
+msgid "&To Character"
+msgstr "到字元(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorAsCharacter)
+#: part/dialogs/KWInsertImage.ui:47
+#, kde-format
+msgid "&As Character"
+msgstr "做為字元(&A)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
+#: part/dialogs/KWInsertImage.ui:59
+#, kde-format
+msgid "Horizontal Alignment"
+msgstr "水平對齊"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignLeft)
+#: part/dialogs/KWInsertImage.ui:65
+#, kde-format
+msgid "&Left"
+msgstr "置左(&L)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignCenter)
+#: part/dialogs/KWInsertImage.ui:75
+#, kde-format
+msgid "&Center"
+msgstr "置中(&C)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignRight)
+#: part/dialogs/KWInsertImage.ui:82
+#, kde-format
+msgid "&Right"
+msgstr "置右(&R)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
+#: part/dialogs/KWInsertImage.ui:92
+#, kde-format
+msgid "Vertical Alignment"
+msgstr "垂直對齊"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignTop)
+#: part/dialogs/KWInsertImage.ui:98
+#, kde-format
+msgid "&Top"
+msgstr "置頂(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignMiddle)
+#: part/dialogs/KWInsertImage.ui:105
+#, kde-format
+msgid "&Middle"
+msgstr "置中(&M)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignBottom)
+#: part/dialogs/KWInsertImage.ui:115
+#, kde-format
+msgid "&Bottom"
+msgstr "置底(&B)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpWrap)
+#: part/dialogs/KWInsertImage.ui:127
+#, kde-format
+msgid "Text Wrap-around"
+msgstr "文字折行"
+
+#. i18n: ectx: property (text), widget (QRadioButton, runThrough)
+#: part/dialogs/KWInsertImage.ui:133 part/dialogs/KWRunAroundProperties.ui:26
+#, kde-format
+msgid "Run through this shape"
+msgstr "跑過此玩件"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noRunaround)
+#: part/dialogs/KWInsertImage.ui:140 part/dialogs/KWRunAroundProperties.ui:33
+#, kde-format
+msgid "Skip below this shape"
+msgstr "略過於此元件下"
+
+#. i18n: ectx: property (text), widget (QRadioButton, left)
+#: part/dialogs/KWInsertImage.ui:147 part/dialogs/KWRunAroundProperties.ui:40
+#, kde-format
+msgid "Run on left side of this shape"
+msgstr "跑在此元件左側"
+
+#. i18n: ectx: property (text), widget (QRadioButton, right)
+#: part/dialogs/KWInsertImage.ui:154 part/dialogs/KWRunAroundProperties.ui:47
+#, kde-format
+msgid "Run on right side of this shape"
+msgstr "跑在此元件右側"
+
+#. i18n: ectx: property (text), widget (QRadioButton, longest)
+#: part/dialogs/KWInsertImage.ui:161 part/dialogs/KWRunAroundProperties.ui:54
+#, kde-format
+msgid "Run on longest side of this shape"
+msgstr "跑在此元件最長的一側"
+
+#. i18n: ectx: property (text), widget (QRadioButton, both)
+#: part/dialogs/KWInsertImage.ui:168 part/dialogs/KWRunAroundProperties.ui:61
+#, kde-format
+msgid "Run on both sides of this shape"
+msgstr "跑在此元件的兩側"
+
+#. i18n: ectx: property (text), widget (QRadioButton, enough)
+#: part/dialogs/KWInsertImage.ui:180 part/dialogs/KWRunAroundProperties.ui:73
+#, kde-format
+msgid "Run on sides that are wider than:"
+msgstr "跑在寬度大於此值的一側："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: part/dialogs/KWInsertImage.ui:194
+#, kde-format
+msgid "Distance Between Shape and Text:"
+msgstr "從元件到文字的距離："
+
+#. i18n: ectx: attribute (title), widget (QWidget, columnsTab)
+#: part/dialogs/KWPageSettingsDialog.cpp:50 part/dialogs/KWStartupWidget.ui:29
+#, kde-format
+msgid "Columns"
+msgstr "欄位"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:55
+#, kde-format
+msgid "Style"
+msgstr "樣式"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:61
+#, kde-format
+msgid "Clone"
+msgstr "複製"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:64 part/KWView.cpp:297
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:150
+msgctxt "(qtundo-format)"
+msgid "Change Page Style"
+msgstr "變更頁面樣式"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:224
+#, kde-format
+msgid "Add a new page style with the name:"
+msgstr "新增頁面樣式，名稱為："
+
+#: part/dialogs/KWPageSettingsDialog.cpp:224
+#, kde-format
+msgid "Clone Page Style"
+msgstr "複製頁面樣式"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: part/dialogs/KWRunAroundProperties.ui:17
+#, kde-format
+msgid "Text elsewhere will:"
+msgstr "其他文字："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: part/dialogs/KWRunAroundProperties.ui:105
+#, kde-format
+msgid "The shape affects the text by its:"
+msgstr "元件與文字的關係為："
+
+#. i18n: ectx: property (text), widget (QRadioButton, box)
+#: part/dialogs/KWRunAroundProperties.ui:114
+#, kde-format
+msgid "Bounding box"
+msgstr "邊界盒"
+
+#. i18n: ectx: property (text), widget (QRadioButton, outside)
+#: part/dialogs/KWRunAroundProperties.ui:121
+#, kde-format
+msgid "Contour"
+msgstr "輪廓"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: part/dialogs/KWRunAroundProperties.ui:131
+#, kde-format
+msgid "Shape and text is separated:"
+msgstr "元件與文字的區隔："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: part/dialogs/KWRunAroundProperties.ui:140
+#, fuzzy, kde-format
+#| msgid "Left:"
+msgid "Left by:"
+msgstr "左側："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: part/dialogs/KWRunAroundProperties.ui:169
+#, kde-format
+msgid "Above by:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: part/dialogs/KWRunAroundProperties.ui:198
+#, kde-format
+msgid "Below by:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: part/dialogs/KWRunAroundProperties.ui:227
+#, fuzzy, kde-format
+#| msgid "Right:"
+msgid "Right by:"
+msgstr "右側："
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRename)
+#: part/dialogs/KWSelectBookmark.ui:20
+#, kde-format
+msgid "&Rename"
+msgstr "重新命名(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
+#: part/dialogs/KWSelectBookmark.ui:27
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:81
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "重新命名書籤"
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:82
+#, kde-format
+msgid "Please provide a new name for the bookmark"
+msgstr "請提供書籤的新名稱"
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:90
+#, kde-format
+msgid "A bookmark with the name \"%1\" already exists."
+msgstr "已經有名為 %1 的書籤存在。"
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:122
+#, kde-format
+msgid "Select Bookmark"
+msgstr "選取書籤"
+
+#: part/dialogs/KWShapeConfigFactory.cpp:57
+#, kde-format
+msgid "Geometry"
+msgstr "幾何"
+
+#. i18n: ectx: attribute (title), widget (QWidget, sizeTab)
+#: part/dialogs/KWStartupWidget.ui:24
+#, kde-format
+msgid "Page Size && Margins"
+msgstr "頁面大小與邊界"
+
+#. i18n: ectx: property (text), widget (QPushButton, createButton)
+#: part/dialogs/KWStartupWidget.ui:71 part/KWView.cpp:393
+#, kde-format
+msgid "Create"
+msgstr "建立"
+
+#: part/dockers/KWDebugDocker.cpp:31
+#, kde-format
+msgid "Debug"
+msgstr ""
+
+#: part/dockers/KWNavigationDocker.cpp:33
+#, fuzzy, kde-format
+#| msgid "Salutation"
+msgid "Navigation"
+msgstr "稱呼語"
+
+#: part/dockers/KWNavigationWidget.cpp:108
+#, fuzzy, kde-format
+#| msgid "&Page"
+msgid "Page #"
+msgstr "頁面(&P)"
+
+#: part/dockers/KWNavigationWidget.cpp:108
+#, fuzzy, kde-format
+#| msgid "Functions"
+msgid "Section"
+msgstr "函式"
+
+#: part/dockers/KWRdfDocker.cpp:52
+#, kde-format
+msgid "RDF"
+msgstr "RDF"
+
+#: part/dockers/KWStatisticsDocker.cpp:33
+#, kde-format
+msgid "Statistics"
+msgstr "統計"
+
+#: part/dockers/KWStatisticsWidget.cpp:173
+#, kde-format
+msgid "Words:"
+msgstr "單字："
+
+#: part/dockers/KWStatisticsWidget.cpp:176
+#, kde-format
+msgid "Sentences:"
+msgstr "句子："
+
+#: part/dockers/KWStatisticsWidget.cpp:179
+#, kde-format
+msgid "Syllables:"
+msgstr "音節："
+
+#: part/dockers/KWStatisticsWidget.cpp:182
+#, fuzzy, kde-format
+#| msgid "Characters (including spaces):"
+msgid "Characters (spaces):"
+msgstr "包含空白的字元數："
+
+#: part/dockers/KWStatisticsWidget.cpp:185
+#, fuzzy, kde-format
+#| msgid "Characters (including spaces):"
+msgid "Characters (no spaces):"
+msgstr "包含空白的字元數："
+
+#: part/dockers/KWStatisticsWidget.cpp:188
+#, kde-format
+msgid "Lines:"
+msgstr "行："
+
+#: part/dockers/KWStatisticsWidget.cpp:191
+#, kde-format
+msgid "Readability:"
+msgstr ""
+
+#: part/dockers/KWStatisticsWidget.cpp:193
+#, fuzzy, kde-format
+#| msgid "Flesch Reading Ease"
+msgid "Flesch reading ease"
+msgstr "Flesch 閱讀指數"
+
+#: part/dockers/KWStatisticsWidget.cpp:195
+#, fuzzy, kde-format
+#| msgid "East Asian characters:"
+msgid "East asian characters:"
+msgstr "東亞字元："
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_words)
+#: part/dockers/StatisticsPreferencesPopup.ui:17
+#, kde-format
+msgid "Words"
+msgstr "單字"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_sentences)
+#: part/dockers/StatisticsPreferencesPopup.ui:24
+#, kde-format
+msgid "Sentences"
+msgstr "句子"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_syllables)
+#: part/dockers/StatisticsPreferencesPopup.ui:31
+#, kde-format
+msgid "Syllables"
+msgstr "音節"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_lines)
+#: part/dockers/StatisticsPreferencesPopup.ui:38
+#, kde-format
+msgid "Lines"
+msgstr "行"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_charspace)
+#: part/dockers/StatisticsPreferencesPopup.ui:45
+#, kde-format
+msgid "Characters With Spaces"
+msgstr "包含空白的字元"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_charnospace)
+#: part/dockers/StatisticsPreferencesPopup.ui:52
+#, kde-format
+msgid "Characters without spaces"
+msgstr "不含空白的字元"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_east)
+#: part/dockers/StatisticsPreferencesPopup.ui:59
+#, kde-format
+msgid "East Asian characters"
+msgstr "東亞字元"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_flesch)
+#: part/dockers/StatisticsPreferencesPopup.ui:66
+#, kde-format
+msgid "Flesch Reading Ease"
+msgstr "Flesch 閱讀指數"
+
+#: part/i18n/stylenames.cpp:21
+#, kde-format
+msgctxt "Style name"
+msgid "Standard"
+msgstr "標準"
+
+#: part/i18n/stylenames.cpp:22
+#, kde-format
+msgctxt "Style name"
+msgid "Head 1"
+msgstr "標頭 1"
+
+#: part/i18n/stylenames.cpp:23
+#, kde-format
+msgctxt "Style name"
+msgid "Head 2"
+msgstr "標頭 2"
+
+#: part/i18n/stylenames.cpp:24
+#, kde-format
+msgctxt "Style name"
+msgid "Head 3"
+msgstr "標頭 3"
+
+#: part/i18n/stylenames.cpp:25
+#, kde-format
+msgctxt "Style name"
+msgid "Enumerated List"
+msgstr "列表"
+
+#: part/i18n/stylenames.cpp:26
+#, kde-format
+msgctxt "Style name"
+msgid "Alphabetical List"
+msgstr "字母列表"
+
+#: part/i18n/stylenames.cpp:27
+#, kde-format
+msgctxt "Style name"
+msgid "Bullet List"
+msgstr "圓鈕列表"
+
+#: part/i18n/stylenames.cpp:28
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Title"
+msgstr "內容標題"
+
+#: part/i18n/stylenames.cpp:29
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 1"
+msgstr "內容標頭 1"
+
+#: part/i18n/stylenames.cpp:30
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 2"
+msgstr "內容標頭 2"
+
+#: part/i18n/stylenames.cpp:31
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 3"
+msgstr "內容標頭 3"
+
+#: part/i18n/stylenames.cpp:32
+#, kde-format
+msgctxt "Style name"
+msgid "Document Title"
+msgstr "文件標題"
+
+#: part/i18n/stylenames.cpp:33
+#, kde-format
+msgctxt "Style name"
+msgid "Header"
+msgstr "標頭"
+
+#: part/i18n/stylenames.cpp:34
+#, kde-format
+msgctxt "Style name"
+msgid "Footer"
+msgstr "註腳"
+
+#: part/i18n/stylenames.cpp:37
+#, kde-format
+msgctxt "Style name"
+msgid "Plain"
+msgstr "純文字"
+
+#: part/i18n/stylenames.cpp:38
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 1"
+msgstr "邊框 1"
+
+#: part/i18n/stylenames.cpp:39
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 2"
+msgstr "邊框 2"
+
+#: part/i18n/stylenames.cpp:40
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 3"
+msgstr "邊框 3"
+
+#: part/i18n/stylenames.cpp:41
+#, kde-format
+msgctxt "Style name"
+msgid "Row"
+msgstr "列"
+
+#: part/i18n/stylenames.cpp:42
+#, kde-format
+msgctxt "Style name"
+msgid "Column"
+msgstr "欄"
+
+#: part/i18n/stylenames.cpp:43
+#, kde-format
+msgctxt "Style name"
+msgid "Light Gray"
+msgstr "亮灰色"
+
+#: part/i18n/stylenames.cpp:44
+#, kde-format
+msgctxt "Style name"
+msgid "Dark Gray"
+msgstr "暗灰色"
+
+#: part/i18n/stylenames.cpp:45
+#, kde-format
+msgctxt "Style name"
+msgid "Black"
+msgstr "黑色"
+
+#: part/i18n/stylenames.cpp:46
+#, kde-format
+msgctxt "Style name"
+msgid "Light Blue"
+msgstr "亮藍色"
+
+#: part/i18n/stylenames.cpp:47
+#, kde-format
+msgctxt "Style name"
+msgid "Dark Blue"
+msgstr "暗藍色"
+
+#: part/i18n/stylenames.cpp:48
+#, kde-format
+msgctxt "Style name"
+msgid "Red"
+msgstr "紅色"
+
+#: part/i18n/stylenames.cpp:49
+#, kde-format
+msgctxt "Style name"
+msgid "Yellow"
+msgstr "黃色"
+
+#: part/i18n/stylenames.cpp:50
+#, kde-format
+msgctxt "Style name"
+msgid "Colorful"
+msgstr "彩色"
+
+#: part/i18n/stylenames.cpp:51
+#, kde-format
+msgctxt "Style name"
+msgid "Bluish"
+msgstr "淺藍色"
+
+#: part/i18n/stylenames.cpp:54
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 1"
+msgstr "簡單 1"
+
+#: part/i18n/stylenames.cpp:55
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 2"
+msgstr "簡單 2"
+
+#: part/i18n/stylenames.cpp:56
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 3"
+msgstr "簡單 3"
+
+#: part/i18n/stylenames.cpp:57
+#, kde-format
+msgctxt "Style name"
+msgid "Header 1"
+msgstr "標頭 1"
+
+#: part/i18n/stylenames.cpp:58
+#, kde-format
+msgctxt "Style name"
+msgid "Header 2"
+msgstr "標頭 2"
+
+#: part/i18n/stylenames.cpp:59
+#, kde-format
+msgctxt "Style name"
+msgid "Header 3"
+msgstr "標頭 3"
+
+#: part/i18n/stylenames.cpp:60
+#, kde-format
+msgctxt "Style name"
+msgid "Header 4"
+msgstr "標頭 4"
+
+#: part/i18n/stylenames.cpp:63
+#, kde-format
+msgctxt "Style name"
+msgid "Columns 1"
+msgstr "欄位 1"
+
+#: part/i18n/stylenames.cpp:64
+#, kde-format
+msgctxt "Style name"
+msgid "Columns 2"
+msgstr "欄位 2"
+
+#: part/i18n/stylenames.cpp:65
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 1"
+msgstr "格線 1"
+
+#: part/i18n/stylenames.cpp:66
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 2"
+msgstr "格線 2"
+
+#: part/i18n/stylenames.cpp:67
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 3"
+msgstr "格線 3"
+
+#: part/i18n/stylenames.cpp:68
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Heading"
+msgstr "灰色標頭"
+
+#: part/i18n/stylenames.cpp:69
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Heading"
+msgstr "藍色標頭"
+
+#: part/i18n/stylenames.cpp:70
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Traditional"
+msgstr "藍色傳統"
+
+#: part/i18n/stylenames.cpp:71
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Traditional"
+msgstr "灰色傳統"
+
+#: part/i18n/stylenames.cpp:72
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Top and Bottom"
+msgstr "藍色頂端與底端"
+
+#: part/i18n/stylenames.cpp:73
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Top and Bottom"
+msgstr "灰色頂端與底端"
+
+#: part/KWAboutData.h:33
+#, kde-format
+msgctxt "application name"
+msgid "Calligra Words"
+msgstr "Calligra Words"
+
+#: part/KWAboutData.h:35
+#, kde-format
+msgid "Word processor"
+msgstr "文書處理器"
+
+#: part/KWAboutData.h:37
+#, fuzzy, kde-format
+#| msgid "© 1998-2012, The Words Team"
+msgid "Copyright 1998-%1, The Words Team"
+msgstr "(c) 1998-2012，Words 開發團隊"
+
+#: part/KWAboutData.h:45 part/KWAboutData.h:46
+#, kde-format
+msgid "Co maintainer"
+msgstr "協同維護者"
+
+#: part/KWAboutData.h:45
+#, kde-format
+msgid "Pierre Ducroquet"
+msgstr "Pierre Ducroquet"
+
+#: part/KWAboutData.h:46
+#, kde-format
+msgid "C. Boemann"
+msgstr "C. Boemann"
+
+#: part/KWAboutData.h:47 part/KWAboutData.h:48 part/KWAboutData.h:49
+#: part/KWAboutData.h:51
+#, kde-format
+msgid "Everything"
+msgstr "任何東西"
+
+#: part/KWAboutData.h:47
+#, kde-format
+msgid "Sebastian Sauer"
+msgstr "Sebastian Sauer"
+
+#: part/KWAboutData.h:48
+#, kde-format
+msgid "Boudewijn Rempt"
+msgstr "Boudewijn Rempt"
+
+#: part/KWAboutData.h:49
+#, kde-format
+msgid "Pierre Stirnweiss"
+msgstr "Pierre Stirnweiss"
+
+#: part/KWAboutData.h:50
+#, kde-format
+msgid "Formatting stuff"
+msgstr "格式化相關工作"
+
+#: part/KWAboutData.h:50
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: part/KWAboutData.h:51
+#, kde-format
+msgid "Thorsten Zachmann"
+msgstr "Thorsten Zachmann"
+
+#: part/KWAboutData.h:52 part/KWAboutData.h:58 part/KWAboutData.h:59
+#: part/KWAboutData.h:60 part/KWAboutData.h:72 part/KWAboutData.h:73
+#: part/KWAboutData.h:74 part/KWAboutData.h:75 part/KWAboutData.h:76
+#: part/KWAboutData.h:77 part/KWAboutData.h:78 part/KWAboutData.h:79
+#: part/KWAboutData.h:80 part/KWAboutData.h:81
+#, kde-format
+msgid "Filter"
+msgstr "過濾器"
+
+#: part/KWAboutData.h:52
+#, kde-format
+msgid "Matus Uzak"
+msgstr "Matus Uzak"
+
+#: part/KWAboutData.h:53
+#, kde-format
+msgid "Layout and Painting"
+msgstr "佈局與繪圖"
+
+#: part/KWAboutData.h:53
+#, kde-format
+msgid "Pavol Korinek"
+msgstr "Pavol Korinek"
+
+#: part/KWAboutData.h:54
+#, kde-format
+msgid "Shreya Pandit"
+msgstr "Shreya Pandit"
+
+#: part/KWAboutData.h:54
+#, kde-format
+msgid "Statistics docker"
+msgstr "統計嵌入器"
+
+#: part/KWAboutData.h:55
+#, kde-format
+msgid "Brijesh Patel"
+msgstr "Brijesh Patel"
+
+#: part/KWAboutData.h:55
+#, kde-format
+msgid "Foot and endnotes"
+msgstr "註腳與尾註"
+
+#: part/KWAboutData.h:56
+#, kde-format
+msgid "Bibliography"
+msgstr "參考書目"
+
+#: part/KWAboutData.h:56
+#, kde-format
+msgid "Smit Patel"
+msgstr "Smit Patel"
+
+#: part/KWAboutData.h:57
+#, kde-format
+msgid "Mojtaba Shahi"
+msgstr "Mojtaba Shahi"
+
+#: part/KWAboutData.h:57
+#, kde-format
+msgid "Style Manager"
+msgstr "樣式管理者"
+
+#: part/KWAboutData.h:58
+#, kde-format
+msgid "Lassi Nieminen"
+msgstr "Lassi Nieminen"
+
+#: part/KWAboutData.h:59
+#, kde-format
+msgid "Hanzes Matus"
+msgstr "Hanzes Matus"
+
+#: part/KWAboutData.h:60
+#, kde-format
+msgid "Lukáš Tvrdý"
+msgstr "Lukáš Tvrdý"
+
+#: part/KWAboutData.h:61
+#, kde-format
+msgid "Thomas Zander"
+msgstr "Thomas Zander"
+
+#: part/KWAboutData.h:62
+#, kde-format
+msgid "Girish Ramakrishnan"
+msgstr "Girish Ramakrishnan"
+
+#: part/KWAboutData.h:62 part/KWAboutData.h:63
+#, kde-format
+msgid "ODF Support"
+msgstr "ODF 支援"
+
+#: part/KWAboutData.h:63
+#, kde-format
+msgid "Robert Mathias Marmorstein"
+msgstr "Robert Mathias Marmorstein"
+
+#: part/KWAboutData.h:64
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: part/KWAboutData.h:65
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: part/KWAboutData.h:66
+#, kde-format
+msgid "Sven Lüppken"
+msgstr "Sven Lüppken"
+
+#: part/KWAboutData.h:67
+#, kde-format
+msgid "Frank Dekervel"
+msgstr "Frank Dekervel"
+
+#: part/KWAboutData.h:68
+#, kde-format
+msgid "Krister Wicksell Eriksson"
+msgstr "Krister Wicksell Eriksson"
+
+#: part/KWAboutData.h:69
+#, kde-format
+msgid "Dag Andersen"
+msgstr "Dag Andersen"
+
+#: part/KWAboutData.h:70
+#, kde-format
+msgid "Nash Hoogwater"
+msgstr "Nash Hoogwater"
+
+#: part/KWAboutData.h:71
+#, kde-format
+msgid "KFormula"
+msgstr "KFormula"
+
+#: part/KWAboutData.h:71
+#, kde-format
+msgid "Ulrich Kuettler"
+msgstr "Ulrich Kuettler"
+
+#: part/KWAboutData.h:72
+#, kde-format
+msgid "Shaheed Haque"
+msgstr "Shaheed Haque"
+
+#: part/KWAboutData.h:73
+#, kde-format
+msgid "Werner Trobin"
+msgstr "Werner Trobin"
+
+#: part/KWAboutData.h:74
+#, kde-format
+msgid "Nicolas Goutte"
+msgstr "Nicolas Goutte"
+
+#: part/KWAboutData.h:75
+#, kde-format
+msgid "Ariya Hidayat"
+msgstr "Ariya Hidayat"
+
+#: part/KWAboutData.h:76
+#, kde-format
+msgid "Clarence Dang"
+msgstr "Clarence Dang"
+
+#: part/KWAboutData.h:77
+#, kde-format
+msgid "Robert Jacolin"
+msgstr "Robert Jacolin"
+
+#: part/KWAboutData.h:78
+#, kde-format
+msgid "Enno Bartels"
+msgstr "Enno Bartels"
+
+#: part/KWAboutData.h:79
+#, kde-format
+msgid "Ewald Snel"
+msgstr "Ewald Snel"
+
+#: part/KWAboutData.h:80
+#, kde-format
+msgid "Tomasz Grobelny"
+msgstr "Tomasz Grobelny"
+
+#: part/KWAboutData.h:81
+#, kde-format
+msgid "Michael Johnson"
+msgstr "Michael Johnson"
+
+#: part/KWAboutData.h:82
+#, kde-format
+msgid "Fatcow Web Hosting"
+msgstr "提供 Fatcow 網站主機"
+
+#: part/KWAboutData.h:82
+#, kde-format
+msgid "Page break icon"
+msgstr "頁面中斷圖示"
+
+#. i18n translator strings
+#: part/KWAboutData.h:84
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eric Cheng,ChaoHsiung Liao,Frank Weng"
+
+#: part/KWAboutData.h:85
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"ericc@shinewave.com.tw,pesder.liao@msa.hinet.net, franklin@goodhorse.idv.tw"
+
+#: part/KWDocument.cpp:500
+#, kde-format
+msgid "Copy"
+msgstr "複製"
+
+#: part/KWDocument.cpp:545 part/KWStatusBar.cpp:159
+#, kde-format
+msgid "Standard"
+msgstr "標準"
+
+#: part/KWDocument.cpp:551
+#, fuzzy, kde-format
+#| msgctxt "Style name"
+#| msgid "Document Title"
+msgid "Document Title"
+msgstr "文件標題"
+
+#: part/KWDocument.cpp:558
+#, kde-format
+msgid "Head 1"
+msgstr "標頭 1"
+
+#: part/KWDocument.cpp:564
+#, kde-format
+msgid "Head 2"
+msgstr "標頭 2"
+
+#: part/KWDocument.cpp:570
+#, kde-format
+msgid "Head 3"
+msgstr "標頭 3"
+
+#: part/KWDocument.cpp:576
+#, kde-format
+msgid "Bullet List"
+msgstr "圓鈕列表"
+
+#: part/KWGui.cpp:82
+#, kde-format
+msgid "Tools"
+msgstr "工具"
+
+#: part/KWOdfLoader.cpp:96
+#, kde-format
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "不合法的 OASIS OpenDocument 檔。找不到 office:body 標籤。"
+
+#: part/KWOdfLoader.cpp:108
+#, kde-format
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr "不合法的 OASIS OpenDocument 檔。office:body 中找不到標籤。"
+
+#: part/KWOdfLoader.cpp:110
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr "這不是一個文字處理文件，而是 %1。請試著用適當的應用程式來開啟。"
+
+#: part/KWPart.cpp:150
+#, kde-format
+msgid "Can not find needed text component, Words will quit now"
+msgstr "找不到需要的文字元件。Words 將離開"
+
+#: part/KWPart.cpp:151
+#, kde-format
+msgid "Installation Error"
+msgstr "安裝錯誤"
+
+#: part/KWStatusBar.cpp:48
+#, kde-format
+msgid "Modified"
+msgstr "已修改"
+
+#: part/KWStatusBar.cpp:49
+#, kde-format
+msgid "Saved"
+msgstr "已儲存"
+
+#: part/KWStatusBar.cpp:50
+#, fuzzy, kde-format
+#| msgid "Page %1/%2"
+msgid "Page %1 of %2"
+msgstr "頁面 %1/%2"
+
+#: part/KWStatusBar.cpp:51
+#, fuzzy, kde-format
+#| msgid "Page %1/%2"
+msgid "Page %1-%2 of %3"
+msgstr "頁面 %1/%2"
+
+#: part/KWStatusBar.cpp:52
+#, kde-format
+msgid "Line %1"
+msgstr "行 %1"
+
+#: part/KWStatusBar.cpp:137
+#, kde-format
+msgid "Page Number"
+msgstr "頁碼"
+
+#: part/KWStatusBar.cpp:150
+#, kde-format
+msgid "Line Number"
+msgstr "行號"
+
+#: part/KWStatusBar.cpp:167
+#, kde-format
+msgid "Page Style"
+msgstr "頁面樣式"
+
+#: part/KWStatusBar.cpp:181
+#, kde-format
+msgid "Page Size"
+msgstr "頁面大小"
+
+#: part/KWStatusBar.cpp:196
+#, kde-format
+msgid "Saved/Modified"
+msgstr "已儲存/已修改"
+
+#: part/KWStatusBar.cpp:209
+#, kde-format
+msgid "Mouse Cursor X:Y"
+msgstr "滑鼠位置 X:Y"
+
+#: part/KWStatusBar.cpp:223
+#, kde-format
+msgid "Zoom Controller"
+msgstr "縮放控制器"
+
+#: part/KWView.cpp:196
+#, kde-format
+msgid "Exit Distraction-Free Mode"
+msgstr ""
+
+#: part/KWView.cpp:272
+#, kde-format
+msgid "Shape Properties..."
+msgstr "元件屬性..."
+
+#: part/KWView.cpp:274
+#, kde-format
+msgid "Change how the shape behave"
+msgstr "改變元件的行為"
+
+#: part/KWView.cpp:283
+#, kde-format
+msgid "Create Template From Document..."
+msgstr "從文件建立樣本..."
+
+#: part/KWView.cpp:284
+#, kde-format
+msgid "Save this document and use it later as a template"
+msgstr "儲存此文件，並且以它做為樣本"
+
+#: part/KWView.cpp:285
+#, kde-format
+msgid ""
+"You can save this document as a template.<br><br>You can use this new "
+"template as a starting point for another document."
+msgstr ""
+"您可以將此文件存成樣本。<br><br> 您可以用此新的樣本來開始編輯新的文件。"
+
+#: part/KWView.cpp:304
+#, kde-format
+msgid "Show Formatting Characters"
+msgstr "顯示格式化字元"
+
+#: part/KWView.cpp:310
+#, kde-format
+msgid "Toggle the display of non-printing characters"
+msgstr "切換是否顯示無法印出的字元"
+
+#: part/KWView.cpp:311
+#, kde-format
+msgid ""
+"Toggle the display of non-printing characters.<br/><br/>When this is "
+"enabled, Words shows you tabs, spaces, carriage returns and other non-"
+"printing characters."
+msgstr ""
+"切換是否顯示無法印出的字元。<br /><br /> 當開啟此選項時，Words 會顯示定位點、"
+"空白、積架返回等等無法列印的字元。"
+
+#: part/KWView.cpp:313
+#, kde-format
+msgid "Show Field Shadings"
+msgstr ""
+
+#: part/KWView.cpp:319
+#, kde-format
+msgid "Toggle the shaded background of fields"
+msgstr ""
+
+#: part/KWView.cpp:320
+#, kde-format
+msgid ""
+"Toggle the visualization of fields (variables etc.) by drawing their "
+"background in a contrasting color."
+msgstr ""
+
+#: part/KWView.cpp:322
+#, kde-format
+msgid "Show Text Shape Borders"
+msgstr "顯示文字元件邊框"
+
+#: part/KWView.cpp:323
+#, kde-format
+msgid "Turns the border display on and off"
+msgstr "切換邊框顯示開關"
+
+#: part/KWView.cpp:329
+#, kde-format
+msgid ""
+"Turns the border display on and off.<br/><br/>The borders are never printed. "
+"This option is useful to see how the document will appear on the printed "
+"page."
+msgstr ""
+"切換邊框顯示開關。<br /><br /> 邊框不會被列印。此選項用於觀看文件是如何在列印"
+"頁面中顯示。"
+
+#: part/KWView.cpp:331
+#, kde-format
+msgid "Show Table Borders"
+msgstr "顯示表格邊框"
+
+#: part/KWView.cpp:337
+#, kde-format
+msgid "Toggle the display of table borders"
+msgstr "切換是否顯示表格邊框"
+
+#: part/KWView.cpp:338
+#, kde-format
+msgid ""
+"Toggle the display of table borders.<br/><br/>When this is enabled, Words "
+"shows you any invisible table borders with a thin gray line."
+msgstr ""
+"切換是否顯示表格邊框。<br /><br /> 當開啟此選項時，Words 會用一條細灰線顯示出"
+"未劃線的表格邊框。"
+
+#: part/KWView.cpp:340
+#, kde-format
+msgid "Show Section Bounds"
+msgstr ""
+
+#: part/KWView.cpp:346
+#, fuzzy, kde-format
+#| msgid "Toggle the display of table borders"
+msgid "Toggle the display of section bounds"
+msgstr "切換是否顯示表格邊框"
+
+#: part/KWView.cpp:347
+#, fuzzy, kde-format
+#| msgid ""
+#| "Toggle the display of table borders.<br/><br/>When this is enabled, Words "
+#| "shows you any invisible table borders with a thin gray line."
+msgid ""
+"Toggle the display of section bounds.<br/><br/>When this is enabled, any "
+"section bounds will be indicated with a thin gray horizontal brackets."
+msgstr ""
+"切換是否顯示表格邊框。<br /><br /> 當開啟此選項時，Words 會用一條細灰線顯示出"
+"未劃線的表格邊框。"
+
+#: part/KWView.cpp:349
+#, kde-format
+msgid "Show Rulers"
+msgstr "顯示尺規"
+
+#: part/KWView.cpp:351
+#, kde-format
+msgid "Shows or hides rulers"
+msgstr "顯示或隱藏尺規"
+
+#: part/KWView.cpp:352
+#, kde-format
+msgid ""
+"The rulers are the white measuring spaces top and left of the document. The "
+"rulers show the position and width of pages and of frames and can be used to "
+"position tabulators among others.<p>Uncheck this to disable the rulers from "
+"being displayed.</p>"
+msgstr ""
+"尺規放在文件的上方與左方的空白處。尺規顯示頁面與框架的位置與寬度，也可以用於"
+"定位表格。 <p>取消此選項則不顯示尺規。</p>"
+
+#: part/KWView.cpp:363
+#, kde-format
+msgid "Snap to Grid"
+msgstr "貼齊格線"
+
+#: part/KWView.cpp:371
+#, kde-format
+msgid "Show Status Bar"
+msgstr "顯示狀態列"
+
+#: part/KWView.cpp:372
+#, kde-format
+msgid "Shows or hides the status bar"
+msgstr "顯示或隱藏狀態列"
+
+#: part/KWView.cpp:377
+#, kde-format
+msgid "Distraction Free Mode"
+msgstr ""
+
+#: part/KWView.cpp:378
+#, kde-format
+msgid "Set view in distraction free mode"
+msgstr ""
+
+#: part/KWView.cpp:384
+#, kde-format
+msgid "Semantic Stylesheets..."
+msgstr "語意樣式表單"
+
+#: part/KWView.cpp:386
+#, kde-format
+msgid "Modify and add semantic stylesheets"
+msgstr "變更與新增語意樣式表單"
+
+#: part/KWView.cpp:387
+#, fuzzy, kde-format
+#| msgid ""
+#| "Stylesheets are used to format contact, event, and location information "
+#| "which is stored in Rdf"
+msgid ""
+"Stylesheets are used to format the display of information which is stored in "
+"RDF."
+msgstr "表單用於格式化存在 Rdf 中的聯絡人、事件與位置資訊"
+
+#: part/KWView.cpp:402
+#, kde-format
+msgid "Configure..."
+msgstr "設定..."
+
+#: part/KWView.cpp:411
+#, kde-format
+msgid "Page Layout..."
+msgstr "頁面佈局..."
+
+#: part/KWView.cpp:413
+#, kde-format
+msgid "Change properties of entire page"
+msgstr "變更整個頁面的屬性"
+
+#: part/KWView.cpp:414
+#, kde-format
+msgid ""
+"Change properties of the entire page.<p>Currently you can change paper size, "
+"paper orientation, header and footer sizes, and column settings.</p>"
+msgstr ""
+"變更整個頁面的屬性。 <p>目前您可以變更頁面大小、方向、標頭與註腳的大小，以及"
+"欄位設定。</p>"
+
+#: part/KWView.cpp:417
+#, kde-format
+msgid "Create Header"
+msgstr "建立標頭"
+
+#: part/KWView.cpp:423
+#, kde-format
+msgid "Create Footer"
+msgstr "建立註腳"
+
+#: part/KWView.cpp:430
+#, kde-format
+msgid "Show Comments"
+msgstr ""
+
+#: part/KWView.cpp:431
+#, fuzzy, kde-format
+#| msgid "No framesets in document"
+msgid "Shows comments in the document"
+msgstr "文件中沒有框架集"
+
+#: part/KWView.cpp:437
+#, kde-format
+msgid "Word Count"
+msgstr ""
+
+#: part/KWView.cpp:438
+#, fuzzy, kde-format
+#| msgid "Shows or hides the status bar"
+msgid "Shows or hides word counting in status bar"
+msgstr "顯示或隱藏狀態列"
+
+#: part/pagetool/KWPageTool.cpp:98
+#, kde-format
+msgid "Page Setup"
+msgstr "頁面設定"
+
+#: part/pagetool/KWPageTool.cpp:102
+#, kde-format
+msgid "Header & Footer"
+msgstr "標頭與註腳"
+
+#: part/pagetool/KWPageToolFactory.cpp:30
+#, kde-format
+msgid "Page layout"
+msgstr "頁面佈局"
+
+#. i18n: ectx: property (text), widget (QToolButton, setup)
+#. i18n: ectx: property (text), widget (QToolButton, insertHeader)
+#. i18n: ectx: property (text), widget (QToolButton, insertFooter)
+#: part/pagetool/SimpleHeaderFooterWidget.ui:17
+#: part/pagetool/SimpleHeaderFooterWidget.ui:24
+#: part/pagetool/SimpleSetupWidget.ui:17
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#: part/widgets/KoFindToolbar.cpp:68
+#, kde-format
+msgctxt "Label for the Find text input box"
+msgid "Find:"
+msgstr ""
+
+#: part/widgets/KoFindToolbar.cpp:81
+#, fuzzy, kde-format
+#| msgid "Next Page"
+msgctxt "Next search result"
+msgid "Next"
+msgstr "下一頁"
+
+#: part/widgets/KoFindToolbar.cpp:91
+#, fuzzy, kde-format
+#| msgid "Previous Page"
+msgctxt "Previous search result"
+msgid "Previous"
+msgstr "上一頁"
+
+#: part/widgets/KoFindToolbar.cpp:100
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "Search options"
+msgid "Options"
+msgstr "選項"
+
+#: part/widgets/KoFindToolbar.cpp:128
+#, kde-format
+msgctxt "Label for the Replace text input box"
+msgid "Replace:"
+msgstr ""
+
+#: part/widgets/KoFindToolbar.cpp:138
+#, kde-format
+msgctxt "Replace the current match"
+msgid "Replace"
+msgstr ""
+
+#: part/widgets/KoFindToolbar.cpp:144
+#, kde-format
+msgctxt "Replace all found matches"
+msgid "Replace All"
+msgstr ""
+
+#: part/widgets/KoFindToolbar.cpp:152
+#, kde-format
+msgid "Replace"
+msgstr ""
+
+#: part/widgets/KoFindToolbar.cpp:213
+#, kde-format
+msgctxt "Total number of matches"
+msgid "1 match found"
+msgid_plural "%1 matches found"
+msgstr[0] ""
+
+#: part/widgets/KoFindToolbar.cpp:223
+#, kde-format
+msgid "No matches found"
+msgstr ""
+
+#: part/widgets/KoFindToolbar.cpp:229
+#, kde-format
+msgid "Search hit bottom, continuing from top."
+msgstr ""
+
+#: part/widgets/KoFindToolbar.cpp:231
+#, kde-format
+msgid "Search hit top, continuing from bottom."
+msgstr ""
+
+#: part/Words.cpp:58
+#, kde-format
+msgid "Odd Pages Header"
+msgstr "奇數頁標頭"
+
+#: part/Words.cpp:60
+#, kde-format
+msgid "Even Pages Header"
+msgstr "偶數頁標頭"
+
+#: part/Words.cpp:62
+#, kde-format
+msgid "Odd Pages Footer"
+msgstr "奇數頁註腳"
+
+#: part/Words.cpp:64
+#, kde-format
+msgid "Even Pages Footer"
+msgstr "偶數頁註腳"
+
+#: part/Words.cpp:66
+#, kde-format
+msgid "Main text"
+msgstr "主要文字"
+
+#: part/Words.cpp:68
+#, kde-format
+msgid "Other text"
+msgstr "其他文字"
+
+#, fuzzy
+#~| msgid "Anchor to..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Anchor to..."
+#~ msgstr "定錨點..."
+
+#, fuzzy
+#~| msgid "&Page"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Page"
+#~ msgstr "頁面(&P)"
+
+#, fuzzy
+#~| msgid "Para&graph"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Para&graph"
+#~ msgstr "段落(&G)"
+
+#, fuzzy
+#~| msgid "&To Character"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&To Character"
+#~ msgstr "到字元(&T)"
+
+#, fuzzy
+#~| msgid "&As Character"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&As Character"
+#~ msgstr "做為字元(&A)"
+
+#, fuzzy
+#~| msgid "Horizontal Alignment"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Horizontal Alignment"
+#~ msgstr "水平對齊"
+
+#, fuzzy
+#~| msgid "&Left"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Left"
+#~ msgstr "置左(&L)"
+
+#, fuzzy
+#~| msgid "&Center"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Center"
+#~ msgstr "置中(&C)"
+
+#, fuzzy
+#~| msgid "&Right"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Right"
+#~ msgstr "置右(&R)"
+
+#, fuzzy
+#~| msgid "Vertical Alignment"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Vertical Alignment"
+#~ msgstr "垂直對齊"
+
+#, fuzzy
+#~| msgid "&Top"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Top"
+#~ msgstr "置頂(&T)"
+
+#, fuzzy
+#~| msgid "&Middle"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Middle"
+#~ msgstr "置中(&M)"
+
+#, fuzzy
+#~| msgid "&Bottom"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Bottom"
+#~ msgstr "置底(&B)"
+
+#, fuzzy
+#~| msgid "Text Wrap-around"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Text Wrap-around"
+#~ msgstr "文字折行"
+
+#, fuzzy
+#~| msgid "Run through this shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Run through this shape"
+#~ msgstr "跑過此玩件"
+
+#, fuzzy
+#~| msgid "Skip below this shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Skip below this shape"
+#~ msgstr "略過於此元件下"
+
+#, fuzzy
+#~| msgid "Run on left side of this shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Run on left side of this shape"
+#~ msgstr "跑在此元件左側"
+
+#, fuzzy
+#~| msgid "Run on right side of this shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Run on right side of this shape"
+#~ msgstr "跑在此元件右側"
+
+#, fuzzy
+#~| msgid "Run on longest side of this shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Run on longest side of this shape"
+#~ msgstr "跑在此元件最長的一側"
+
+#, fuzzy
+#~| msgid "Run on both sides of this shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Run on both sides of this shape"
+#~ msgstr "跑在此元件的兩側"
+
+#, fuzzy
+#~| msgid "Run on sides that are wider than:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Run on sides that are wider than:"
+#~ msgstr "跑在寬度大於此值的一側："
+
+#, fuzzy
+#~| msgid "Distance Between Shape and Text:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Distance Between Shape and Text:"
+#~ msgstr "從元件到文字的距離："
+
+#, fuzzy
+#~| msgid "Shape relation to text is:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shape relation to text is:"
+#~ msgstr "元件與文字的關係為："
+
+#, fuzzy
+#~| msgid "Inline with text (behaves as a character)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Inline with text (behaves as a character)"
+#~ msgstr "嵌入文字（當成字元）"
+
+#, fuzzy
+#~| msgid "Floating, but anchored to a character position"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Floating, but anchored to a character position"
+#~ msgstr "浮動，但定錨於某個字元位置"
+
+#, fuzzy
+#~| msgid "Floating, but anchored to a paragraph"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Floating, but anchored to a paragraph"
+#~ msgstr "浮動，但定錨於某個段落"
+
+#, fuzzy
+#~| msgid "Floating free (not anchored to text)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Floating free (not anchored to text)"
+#~ msgstr "自由浮動（不定錨在文字中）"
+
+#, fuzzy
+#~| msgid "Vertical Positioning"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Vertical Positioning"
+#~ msgstr "垂直位置"
+
+#, fuzzy
+#~| msgid "Top align with:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Top align with:"
+#~ msgstr "置頂對齊於："
+
+#, fuzzy
+#~| msgid "Center align with:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Center align with:"
+#~ msgstr "置中對齊於："
+
+#, fuzzy
+#~| msgid "Bottom align with:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Bottom align with:"
+#~ msgstr "置底對齊於："
+
+#, fuzzy
+#~| msgid "Offset"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Offset"
+#~ msgstr "位移"
+
+#, fuzzy
+#~| msgid "from:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "from:"
+#~ msgstr "從："
+
+#, fuzzy
+#~| msgid "Horizontal Positioning"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Horizontal Positioning"
+#~ msgstr "水平位置"
+
+#, fuzzy
+#~| msgid "Left align with:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Left align with:"
+#~ msgstr "置左對齊於："
+
+#, fuzzy
+#~| msgid "Right align with:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Right align with:"
+#~ msgstr "置右對齊於："
+
+#, fuzzy
+#~| msgid "Name of frameset:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Name of frameset:"
+#~ msgstr "框架集名稱："
+
+#, fuzzy
+#~| msgid "Create a new frameset:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create a new frameset:"
+#~ msgstr "建立新框架集："
+
+#, fuzzy
+#~| msgid "Select existing frameset to connect to:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Select existing frameset to connect to:"
+#~ msgstr "選擇要連接的框架集："
+
+#, fuzzy
+#~| msgid "Frameset Name"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Frameset Name"
+#~ msgstr "框架集名稱"
+
+#, fuzzy
+#~| msgid "&Rename"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Rename"
+#~ msgstr "重新命名(&R)"
+
+#, fuzzy
+#~| msgid "&Delete"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Bookmarks allow you to jump between parts of your document.\n"
+#~| "Please provide the name of your bookmark."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Bookmarks allow you to jump between parts of your document.\n"
+#~ "Please provide the name of your bookmark."
+#~ msgstr ""
+#~ "書籤讓您可以在您的文件中不同的部件間切換。\n"
+#~ "請提供您的書籤名稱。"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#, fuzzy
+#~| msgid "Page Size && Margins"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page Size && Margins"
+#~ msgstr "頁面大小與邊界"
+
+#, fuzzy
+#~| msgid "Text elsewhere will:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Text elsewhere will:"
+#~ msgstr "其他文字："
+
+#, fuzzy
+#~| msgid "The shape affects the text by its:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "The shape affects the text by its:"
+#~ msgstr "元件與文字的關係為："
+
+#, fuzzy
+#~| msgid "Bounding box"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Bounding box"
+#~ msgstr "邊界盒"
+
+#, fuzzy
+#~| msgid "Contour"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Contour"
+#~ msgstr "輪廓"
+
+#, fuzzy
+#~| msgid "Shape and text is separated:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shape and text is separated:"
+#~ msgstr "元件與文字的區隔："
+
+#, fuzzy
+#~| msgid "Left:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Left by:"
+#~ msgstr "左側："
+
+#, fuzzy
+#~| msgid "Right:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Right by:"
+#~ msgstr "右側："
+
+#, fuzzy
+#~| msgid "Columns:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Columns:"
+#~ msgstr "欄位："
+
+#, fuzzy
+#~| msgid "Column spacing:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Column spacing:"
+#~ msgstr "欄位空間："
+
+#, fuzzy
+#~| msgid "Words"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Words"
+#~ msgstr "單字"
+
+#, fuzzy
+#~| msgid "Sentences"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Sentences"
+#~ msgstr "句子"
+
+#, fuzzy
+#~| msgid "Syllables"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Syllables"
+#~ msgstr "音節"
+
+#, fuzzy
+#~| msgid "Lines"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Lines"
+#~ msgstr "行"
+
+#, fuzzy
+#~| msgid "Characters With Spaces"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Characters With Spaces"
+#~ msgstr "包含空白的字元"
+
+#, fuzzy
+#~| msgid "Characters without spaces"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Characters without spaces"
+#~ msgstr "不含空白的字元"
+
+#, fuzzy
+#~| msgid "East Asian characters"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "East Asian characters"
+#~ msgstr "東亞字元"
+
+#, fuzzy
+#~| msgid "Flesch Reading Ease"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Flesch Reading Ease"
+#~ msgstr "Flesch 閱讀指數"
+
+#, fuzzy
+#~| msgid "&File"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&File"
+#~ msgstr "檔案(&F)："
+
+#, fuzzy
+#~| msgid "&Edit"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Edit"
+#~ msgstr "編輯(&E)"
+
+#, fuzzy
+#~| msgid "&View"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&View"
+#~ msgstr "檢視(&V)"
+
+#, fuzzy
+#~| msgid "&Display Mode"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Display Mode"
+#~ msgstr "顯示模式(&D)"
+
+#, fuzzy
+#~| msgid "Semantic Object"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Semantics"
+#~ msgstr "語意物件"
+
+#, fuzzy
+#~| msgid "S&tyles"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "S&tyles"
+#~ msgstr "樣式(&T)"
+
+#, fuzzy
+#~| msgid "&Settings"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Settings"
+#~ msgstr "設定(&S)"
+
+#, fuzzy
+#~| msgid "Spellcheck"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Spellcheck"
+#~ msgstr "拼字檢查"
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#, fuzzy
+#~| msgid "Spell Check Result"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Spell Check Result"
+#~ msgstr "拼字檢查結果"
+
+#, fuzzy
+#~| msgid "Change Variable To"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Variable To"
+#~ msgstr "變更變數到"
+
+#, fuzzy
+#~| msgid "..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "..."
+#~ msgstr "..."
+
+#, fuzzy
+#~| msgid "&Tools"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Tools"
+#~ msgstr "工具(&T)"
+
+#, fuzzy
+#~| msgid "Baseline"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Baseline"
+#~ msgstr "基線"
+
+#, fuzzy
+#~| msgid "Character"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Character"
+#~ msgstr "字元"
+
+#, fuzzy
+#~| msgid "Row"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Row"
+#~ msgstr "列"
+
+#, fuzzy
+#~| msgid "Page (entire) area"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page (entire) area"
+#~ msgstr "（整個）頁面區"
+
+#, fuzzy
+#~| msgid "Page text area"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page text area"
+#~ msgstr "頁面文字區域"
+
+#, fuzzy
+#~| msgid "Paragraph area"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paragraph area"
+#~ msgstr "段落區"
+
+#, fuzzy
+#~| msgid "Paragraph text area"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paragraph text area"
+#~ msgstr "段落文字區域"
+
+#, fuzzy
+#~| msgid "Left page border"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Left page border"
+#~ msgstr "左頁面框線"
+
+#, fuzzy
+#~| msgid "Right page border"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Right page border"
+#~ msgstr "右頁面框線"
+
+#, fuzzy
+#~| msgid "Right paragraph border"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Right paragraph border"
+#~ msgstr "右段落框線"
+
+#, fuzzy
+#~| msgid "Left paragraph border"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Left paragraph border"
+#~ msgstr "左段落框線"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Configure"
+#~ msgstr "設定"
+
+#, fuzzy
+#~| msgid "Misc"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Misc"
+#~ msgstr "雜項"
+
+#, fuzzy
+#~| msgid "Grid"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Grid"
+#~ msgstr "格線"
+
+#, fuzzy
+#~| msgctxt "@title:tab Document settings page"
+#~| msgid "Document"
+#~ msgctxt "(qtundo-format) @title:tab Document settings page"
+#~ msgid "Document"
+#~ msgstr "文件"
+
+#, fuzzy
+#~| msgid "Document Settings"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Document Settings"
+#~ msgstr "文件設定"
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgctxt "(qtundo-format) @title:tab Author page"
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#, fuzzy
+#~| msgid "Create New Bookmark"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create New Bookmark"
+#~ msgstr "建立新書籤"
+
+#, fuzzy
+#~| msgid "frameset"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "frameset"
+#~ msgstr "框架集"
+
+#, fuzzy
+#~| msgid "No framesets in document"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "No framesets in document"
+#~ msgstr "文件中沒有框架集"
+
+#, fuzzy
+#~| msgid "Smart Positioning"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Smart Positioning"
+#~ msgstr "聰明放置"
+
+#, fuzzy
+#~| msgid "Text Run Around"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Text Run Around"
+#~ msgstr "文字跑過"
+
+#, fuzzy
+#~| msgid "Connect Text Frames"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Connect Text Frames"
+#~ msgstr "連接文字邊框"
+
+#, fuzzy
+#~| msgid "Columns"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Columns"
+#~ msgstr "欄位"
+
+#, fuzzy
+#~| msgid "Style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Style"
+#~ msgstr "樣式"
+
+#, fuzzy
+#~| msgid "Clone"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Clone"
+#~ msgstr "複製"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#, fuzzy
+#~| msgid "Add a new page style with the name:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Add a new page style with the name:"
+#~ msgstr "新增頁面樣式，名稱為："
+
+#, fuzzy
+#~| msgid "Clone Page Style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Clone Page Style"
+#~ msgstr "複製頁面樣式"
+
+#, fuzzy
+#~| msgid "Rename Bookmark"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Bookmark"
+#~ msgstr "重新命名書籤"
+
+#, fuzzy
+#~| msgid "Please provide a new name for the bookmark"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Please provide a new name for the bookmark"
+#~ msgstr "請提供書籤的新名稱"
+
+#, fuzzy
+#~| msgid "A bookmark with the name \"%1\" already exists."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "A bookmark with the name \"%1\" already exists."
+#~ msgstr "已經有名為 %1 的書籤存在。"
+
+#, fuzzy
+#~| msgid "Select Bookmark"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Select Bookmark"
+#~ msgstr "選取書籤"
+
+#, fuzzy
+#~| msgid "Geometry"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Geometry"
+#~ msgstr "幾何"
+
+#, fuzzy
+#~| msgid "Salutation"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Navigation"
+#~ msgstr "稱呼語"
+
+#, fuzzy
+#~| msgid "&Page"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page #"
+#~ msgstr "頁面(&P)"
+
+#, fuzzy
+#~| msgid "Functions"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Section"
+#~ msgstr "函式"
+
+#, fuzzy
+#~| msgid "RDF"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "RDF"
+#~ msgstr "RDF"
+
+#, fuzzy
+#~| msgid "Statistics"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Statistics"
+#~ msgstr "統計"
+
+#, fuzzy
+#~| msgid "Words:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Words:"
+#~ msgstr "單字："
+
+#, fuzzy
+#~| msgid "Sentences:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Sentences:"
+#~ msgstr "句子："
+
+#, fuzzy
+#~| msgid "Syllables:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Syllables:"
+#~ msgstr "音節："
+
+#, fuzzy
+#~| msgid "Characters (including spaces):"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Characters (spaces):"
+#~ msgstr "包含空白的字元數："
+
+#, fuzzy
+#~| msgid "Characters (including spaces):"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Characters (no spaces):"
+#~ msgstr "包含空白的字元數："
+
+#, fuzzy
+#~| msgid "Lines:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Lines:"
+#~ msgstr "行："
+
+#, fuzzy
+#~| msgid "Flesch Reading Ease"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Flesch reading ease"
+#~ msgstr "Flesch 閱讀指數"
+
+#, fuzzy
+#~| msgid "East Asian characters:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "East asian characters:"
+#~ msgstr "東亞字元："
+
+#, fuzzy
+#~| msgid "Standard"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Standard"
+#~ msgstr "標準"
+
+#, fuzzy
+#~| msgid "Head 1"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Head 1"
+#~ msgstr "標頭 1"
+
+#, fuzzy
+#~| msgid "Head 2"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Head 2"
+#~ msgstr "標頭 2"
+
+#, fuzzy
+#~| msgid "Head 3"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Head 3"
+#~ msgstr "標頭 3"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Enumerated List"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Enumerated List"
+#~ msgstr "列表"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Alphabetical List"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Alphabetical List"
+#~ msgstr "字母列表"
+
+#, fuzzy
+#~| msgid "Bullet List"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Bullet List"
+#~ msgstr "圓鈕列表"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Contents Title"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Contents Title"
+#~ msgstr "內容標題"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Contents Head 1"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Contents Head 1"
+#~ msgstr "內容標頭 1"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Contents Head 2"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Contents Head 2"
+#~ msgstr "內容標頭 2"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Contents Head 3"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Contents Head 3"
+#~ msgstr "內容標頭 3"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Document Title"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Document Title"
+#~ msgstr "文件標題"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Header"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Header"
+#~ msgstr "標頭"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Footer"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Footer"
+#~ msgstr "註腳"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Plain"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Plain"
+#~ msgstr "純文字"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Borders 1"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Borders 1"
+#~ msgstr "邊框 1"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Borders 2"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Borders 2"
+#~ msgstr "邊框 2"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Borders 3"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Borders 3"
+#~ msgstr "邊框 3"
+
+#, fuzzy
+#~| msgid "Row"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Row"
+#~ msgstr "列"
+
+#, fuzzy
+#~| msgid "Column"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Column"
+#~ msgstr "欄"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Light Gray"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Light Gray"
+#~ msgstr "亮灰色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Dark Gray"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Dark Gray"
+#~ msgstr "暗灰色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Black"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Black"
+#~ msgstr "黑色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Light Blue"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Light Blue"
+#~ msgstr "亮藍色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Dark Blue"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Dark Blue"
+#~ msgstr "暗藍色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Red"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Red"
+#~ msgstr "紅色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Yellow"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Yellow"
+#~ msgstr "黃色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Colorful"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Colorful"
+#~ msgstr "彩色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Bluish"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Bluish"
+#~ msgstr "淺藍色"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Simple 1"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Simple 1"
+#~ msgstr "簡單 1"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Simple 2"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Simple 2"
+#~ msgstr "簡單 2"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Simple 3"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Simple 3"
+#~ msgstr "簡單 3"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Header 1"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Header 1"
+#~ msgstr "標頭 1"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Header 2"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Header 2"
+#~ msgstr "標頭 2"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Header 3"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Header 3"
+#~ msgstr "標頭 3"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Header 4"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Header 4"
+#~ msgstr "標頭 4"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Columns 1"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Columns 1"
+#~ msgstr "欄位 1"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Columns 2"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Columns 2"
+#~ msgstr "欄位 2"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Grid 1"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Grid 1"
+#~ msgstr "格線 1"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Grid 2"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Grid 2"
+#~ msgstr "格線 2"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Grid 3"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Grid 3"
+#~ msgstr "格線 3"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Gray Heading"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Gray Heading"
+#~ msgstr "灰色標頭"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Blue Heading"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Blue Heading"
+#~ msgstr "藍色標頭"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Blue Traditional"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Blue Traditional"
+#~ msgstr "藍色傳統"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Gray Traditional"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Gray Traditional"
+#~ msgstr "灰色傳統"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Blue Top and Bottom"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Blue Top and Bottom"
+#~ msgstr "藍色頂端與底端"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Gray Top and Bottom"
+#~ msgctxt "(qtundo-format) Style name"
+#~ msgid "Gray Top and Bottom"
+#~ msgstr "灰色頂端與底端"
+
+#, fuzzy
+#~| msgctxt "application name"
+#~| msgid "Calligra Words"
+#~ msgctxt "(qtundo-format) application name"
+#~ msgid "Calligra Words"
+#~ msgstr "Calligra Words"
+
+#, fuzzy
+#~| msgid "Word processor"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Word processor"
+#~ msgstr "文書處理器"
+
+#, fuzzy
+#~| msgid "© 1998-2012, The Words Team"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Copyright 1998-%1, The Words Team"
+#~ msgstr "(c) 1998-2012，Words 開發團隊"
+
+#, fuzzy
+#~| msgid "Co maintainer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Co maintainer"
+#~ msgstr "協同維護者"
+
+#, fuzzy
+#~| msgid "Pierre Ducroquet"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pierre Ducroquet"
+#~ msgstr "Pierre Ducroquet"
+
+#, fuzzy
+#~| msgid "C. Boemann"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "C. Boemann"
+#~ msgstr "C. Boemann"
+
+#, fuzzy
+#~| msgid "Everything"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Everything"
+#~ msgstr "任何東西"
+
+#, fuzzy
+#~| msgid "Sebastian Sauer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Sebastian Sauer"
+#~ msgstr "Sebastian Sauer"
+
+#, fuzzy
+#~| msgid "Boudewijn Rempt"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Boudewijn Rempt"
+#~ msgstr "Boudewijn Rempt"
+
+#, fuzzy
+#~| msgid "Pierre Stirnweiss"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pierre Stirnweiss"
+#~ msgstr "Pierre Stirnweiss"
+
+#, fuzzy
+#~| msgid "Formatting stuff"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Formatting stuff"
+#~ msgstr "格式化相關工作"
+
+#, fuzzy
+#~| msgid "Inge Wallin"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Inge Wallin"
+#~ msgstr "Inge Wallin"
+
+#, fuzzy
+#~| msgid "Thorsten Zachmann"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Thorsten Zachmann"
+#~ msgstr "Thorsten Zachmann"
+
+#, fuzzy
+#~| msgid "Filter"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Filter"
+#~ msgstr "過濾器"
+
+#, fuzzy
+#~| msgid "Matus Uzak"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Matus Uzak"
+#~ msgstr "Matus Uzak"
+
+#, fuzzy
+#~| msgid "Layout and Painting"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Layout and Painting"
+#~ msgstr "佈局與繪圖"
+
+#, fuzzy
+#~| msgid "Pavol Korinek"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pavol Korinek"
+#~ msgstr "Pavol Korinek"
+
+#, fuzzy
+#~| msgid "Shreya Pandit"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shreya Pandit"
+#~ msgstr "Shreya Pandit"
+
+#, fuzzy
+#~| msgid "Statistics docker"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Statistics docker"
+#~ msgstr "統計嵌入器"
+
+#, fuzzy
+#~| msgid "Brijesh Patel"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Brijesh Patel"
+#~ msgstr "Brijesh Patel"
+
+#, fuzzy
+#~| msgid "Foot and endnotes"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Foot and endnotes"
+#~ msgstr "註腳與尾註"
+
+#, fuzzy
+#~| msgid "Bibliography"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Bibliography"
+#~ msgstr "參考書目"
+
+#, fuzzy
+#~| msgid "Smit Patel"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Smit Patel"
+#~ msgstr "Smit Patel"
+
+#, fuzzy
+#~| msgid "Mojtaba Shahi"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Mojtaba Shahi"
+#~ msgstr "Mojtaba Shahi"
+
+#, fuzzy
+#~| msgid "Style Manager"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Style Manager"
+#~ msgstr "樣式管理者"
+
+#, fuzzy
+#~| msgid "Lassi Nieminen"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Lassi Nieminen"
+#~ msgstr "Lassi Nieminen"
+
+#, fuzzy
+#~| msgid "Hanzes Matus"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Hanzes Matus"
+#~ msgstr "Hanzes Matus"
+
+#, fuzzy
+#~| msgid "Lukáš Tvrdý"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Lukáš Tvrdý"
+#~ msgstr "Lukáš Tvrdý"
+
+#, fuzzy
+#~| msgid "Thomas Zander"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Thomas Zander"
+#~ msgstr "Thomas Zander"
+
+#, fuzzy
+#~| msgid "Girish Ramakrishnan"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Girish Ramakrishnan"
+#~ msgstr "Girish Ramakrishnan"
+
+#, fuzzy
+#~| msgid "ODF Support"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "ODF Support"
+#~ msgstr "ODF 支援"
+
+#, fuzzy
+#~| msgid "Robert Mathias Marmorstein"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Robert Mathias Marmorstein"
+#~ msgstr "Robert Mathias Marmorstein"
+
+#, fuzzy
+#~| msgid "David Faure"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "David Faure"
+#~ msgstr "David Faure"
+
+#, fuzzy
+#~| msgid "Laurent Montel"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Laurent Montel"
+#~ msgstr "Laurent Montel"
+
+#, fuzzy
+#~| msgid "Sven Lüppken"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Sven Lüppken"
+#~ msgstr "Sven Lüppken"
+
+#, fuzzy
+#~| msgid "Frank Dekervel"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Frank Dekervel"
+#~ msgstr "Frank Dekervel"
+
+#, fuzzy
+#~| msgid "Krister Wicksell Eriksson"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Krister Wicksell Eriksson"
+#~ msgstr "Krister Wicksell Eriksson"
+
+#, fuzzy
+#~| msgid "Dag Andersen"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Dag Andersen"
+#~ msgstr "Dag Andersen"
+
+#, fuzzy
+#~| msgid "Nash Hoogwater"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Nash Hoogwater"
+#~ msgstr "Nash Hoogwater"
+
+#, fuzzy
+#~| msgid "KFormula"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "KFormula"
+#~ msgstr "KFormula"
+
+#, fuzzy
+#~| msgid "Ulrich Kuettler"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Ulrich Kuettler"
+#~ msgstr "Ulrich Kuettler"
+
+#, fuzzy
+#~| msgid "Shaheed Haque"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shaheed Haque"
+#~ msgstr "Shaheed Haque"
+
+#, fuzzy
+#~| msgid "Werner Trobin"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Werner Trobin"
+#~ msgstr "Werner Trobin"
+
+#, fuzzy
+#~| msgid "Nicolas Goutte"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Nicolas Goutte"
+#~ msgstr "Nicolas Goutte"
+
+#, fuzzy
+#~| msgid "Ariya Hidayat"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Ariya Hidayat"
+#~ msgstr "Ariya Hidayat"
+
+#, fuzzy
+#~| msgid "Clarence Dang"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Clarence Dang"
+#~ msgstr "Clarence Dang"
+
+#, fuzzy
+#~| msgid "Robert Jacolin"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Robert Jacolin"
+#~ msgstr "Robert Jacolin"
+
+#, fuzzy
+#~| msgid "Enno Bartels"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Enno Bartels"
+#~ msgstr "Enno Bartels"
+
+#, fuzzy
+#~| msgid "Ewald Snel"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Ewald Snel"
+#~ msgstr "Ewald Snel"
+
+#, fuzzy
+#~| msgid "Tomasz Grobelny"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Tomasz Grobelny"
+#~ msgstr "Tomasz Grobelny"
+
+#, fuzzy
+#~| msgid "Michael Johnson"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Michael Johnson"
+#~ msgstr "Michael Johnson"
+
+#, fuzzy
+#~| msgid "Fatcow Web Hosting"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Fatcow Web Hosting"
+#~ msgstr "提供 Fatcow 網站主機"
+
+#, fuzzy
+#~| msgid "Page break icon"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page break icon"
+#~ msgstr "頁面中斷圖示"
+
+#, fuzzy
+#~| msgctxt "NAME OF TRANSLATORS"
+#~| msgid "Your names"
+#~ msgctxt "(qtundo-format) NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Eric Cheng,ChaoHsiung Liao,Frank Weng"
+
+#, fuzzy
+#~| msgctxt "EMAIL OF TRANSLATORS"
+#~| msgid "Your emails"
+#~ msgctxt "(qtundo-format) EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr ""
+#~ "ericc@shinewave.com.tw,pesder.liao@msa.hinet.net, franklin@goodhorse.idv."
+#~ "tw"
+
+#, fuzzy
+#~| msgid "Copy"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Copy"
+#~ msgstr "複製"
+
+#, fuzzy
+#~| msgid "Standard"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Standard"
+#~ msgstr "標準"
+
+#, fuzzy
+#~| msgctxt "Style name"
+#~| msgid "Document Title"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Document Title"
+#~ msgstr "文件標題"
+
+#, fuzzy
+#~| msgid "Head 1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Head 1"
+#~ msgstr "標頭 1"
+
+#, fuzzy
+#~| msgid "Head 2"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Head 2"
+#~ msgstr "標頭 2"
+
+#, fuzzy
+#~| msgid "Head 3"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Head 3"
+#~ msgstr "標頭 3"
+
+#, fuzzy
+#~| msgid "Bullet List"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Bullet List"
+#~ msgstr "圓鈕列表"
+
+#, fuzzy
+#~| msgid "Tools"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#, fuzzy
+#~| msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+#~ msgstr "不合法的 OASIS OpenDocument 檔。找不到 office:body 標籤。"
+
+#, fuzzy
+#~| msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+#~ msgstr "不合法的 OASIS OpenDocument 檔。office:body 中找不到標籤。"
+
+#, fuzzy
+#~| msgid ""
+#~| "This is not a word processing document, but %1. Please try opening it "
+#~| "with the appropriate application."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "This is not a word processing document, but %1. Please try opening it "
+#~ "with the appropriate application."
+#~ msgstr "這不是一個文字處理文件，而是 %1。請試著用適當的應用程式來開啟。"
+
+#, fuzzy
+#~| msgid "Can not find needed text component, Words will quit now"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Can not find needed text component, Words will quit now"
+#~ msgstr "找不到需要的文字元件。Words 將離開"
+
+#, fuzzy
+#~| msgid "Installation Error"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Installation Error"
+#~ msgstr "安裝錯誤"
+
+#, fuzzy
+#~| msgid "Modified"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Modified"
+#~ msgstr "已修改"
+
+#, fuzzy
+#~| msgid "Saved"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Saved"
+#~ msgstr "已儲存"
+
+#, fuzzy
+#~| msgid "Page %1/%2"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page %1 of %2"
+#~ msgstr "頁面 %1/%2"
+
+#, fuzzy
+#~| msgid "Page %1/%2"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page %1-%2 of %3"
+#~ msgstr "頁面 %1/%2"
+
+#, fuzzy
+#~| msgid "Line %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Line %1"
+#~ msgstr "行 %1"
+
+#, fuzzy
+#~| msgid "Page Number"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page Number"
+#~ msgstr "頁碼"
+
+#, fuzzy
+#~| msgid "Line Number"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Line Number"
+#~ msgstr "行號"
+
+#, fuzzy
+#~| msgid "Page Style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page Style"
+#~ msgstr "頁面樣式"
+
+#, fuzzy
+#~| msgid "Page Size"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page Size"
+#~ msgstr "頁面大小"
+
+#, fuzzy
+#~| msgid "Saved/Modified"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Saved/Modified"
+#~ msgstr "已儲存/已修改"
+
+#, fuzzy
+#~| msgid "Mouse Cursor X:Y"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Mouse Cursor X:Y"
+#~ msgstr "滑鼠位置 X:Y"
+
+#, fuzzy
+#~| msgid "Zoom Controller"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Zoom Controller"
+#~ msgstr "縮放控制器"
+
+#, fuzzy
+#~| msgid "Shape Properties..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shape Properties..."
+#~ msgstr "元件屬性..."
+
+#, fuzzy
+#~| msgid "Change how the shape behave"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change how the shape behave"
+#~ msgstr "改變元件的行為"
+
+#, fuzzy
+#~| msgid "Create Template From Document..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Template From Document..."
+#~ msgstr "從文件建立樣本..."
+
+#, fuzzy
+#~| msgid "Save this document and use it later as a template"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Save this document and use it later as a template"
+#~ msgstr "儲存此文件，並且以它做為樣本"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can save this document as a template.<br><br>You can use this new "
+#~| "template as a starting point for another document."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "You can save this document as a template.<br><br>You can use this new "
+#~ "template as a starting point for another document."
+#~ msgstr ""
+#~ "您可以將此文件存成樣本。<br><br> 您可以用此新的樣本來開始編輯新的文件。"
+
+#, fuzzy
+#~| msgid "Show Formatting Characters"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Formatting Characters"
+#~ msgstr "顯示格式化字元"
+
+#, fuzzy
+#~| msgid "Toggle the display of non-printing characters"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Toggle the display of non-printing characters"
+#~ msgstr "切換是否顯示無法印出的字元"
+
+#, fuzzy
+#~| msgid ""
+#~| "Toggle the display of non-printing characters.<br/><br/>When this is "
+#~| "enabled, Words shows you tabs, spaces, carriage returns and other non-"
+#~| "printing characters."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Toggle the display of non-printing characters.<br/><br/>When this is "
+#~ "enabled, Words shows you tabs, spaces, carriage returns and other non-"
+#~ "printing characters."
+#~ msgstr ""
+#~ "切換是否顯示無法印出的字元。<br /><br /> 當開啟此選項時，Words 會顯示定位"
+#~ "點、空白、積架返回等等無法列印的字元。"
+
+#, fuzzy
+#~| msgid "Show Text Shape Borders"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Text Shape Borders"
+#~ msgstr "顯示文字元件邊框"
+
+#, fuzzy
+#~| msgid "Turns the border display on and off"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Turns the border display on and off"
+#~ msgstr "切換邊框顯示開關"
+
+#, fuzzy
+#~| msgid ""
+#~| "Turns the border display on and off.<br/><br/>The borders are never "
+#~| "printed. This option is useful to see how the document will appear on "
+#~| "the printed page."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Turns the border display on and off.<br/><br/>The borders are never "
+#~ "printed. This option is useful to see how the document will appear on the "
+#~ "printed page."
+#~ msgstr ""
+#~ "切換邊框顯示開關。<br /><br /> 邊框不會被列印。此選項用於觀看文件是如何在"
+#~ "列印頁面中顯示。"
+
+#, fuzzy
+#~| msgid "Show Table Borders"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Table Borders"
+#~ msgstr "顯示表格邊框"
+
+#, fuzzy
+#~| msgid "Toggle the display of table borders"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Toggle the display of table borders"
+#~ msgstr "切換是否顯示表格邊框"
+
+#, fuzzy
+#~| msgid ""
+#~| "Toggle the display of table borders.<br/><br/>When this is enabled, "
+#~| "Words shows you any invisible table borders with a thin gray line."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Toggle the display of table borders.<br/><br/>When this is enabled, Words "
+#~ "shows you any invisible table borders with a thin gray line."
+#~ msgstr ""
+#~ "切換是否顯示表格邊框。<br /><br /> 當開啟此選項時，Words 會用一條細灰線顯"
+#~ "示出未劃線的表格邊框。"
+
+#, fuzzy
+#~| msgid "Toggle the display of table borders"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Toggle the display of section bounds"
+#~ msgstr "切換是否顯示表格邊框"
+
+#, fuzzy
+#~| msgid ""
+#~| "Toggle the display of table borders.<br/><br/>When this is enabled, "
+#~| "Words shows you any invisible table borders with a thin gray line."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Toggle the display of section bounds.<br/><br/>When this is enabled, any "
+#~ "section bounds will be indicated with a thin gray horizontal brackets."
+#~ msgstr ""
+#~ "切換是否顯示表格邊框。<br /><br /> 當開啟此選項時，Words 會用一條細灰線顯"
+#~ "示出未劃線的表格邊框。"
+
+#, fuzzy
+#~| msgid "Show Rulers"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Rulers"
+#~ msgstr "顯示尺規"
+
+#, fuzzy
+#~| msgid "Shows or hides rulers"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shows or hides rulers"
+#~ msgstr "顯示或隱藏尺規"
+
+#, fuzzy
+#~| msgid ""
+#~| "The rulers are the white measuring spaces top and left of the document. "
+#~| "The rulers show the position and width of pages and of frames and can be "
+#~| "used to position tabulators among others.<p>Uncheck this to disable the "
+#~| "rulers from being displayed.</p>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "The rulers are the white measuring spaces top and left of the document. "
+#~ "The rulers show the position and width of pages and of frames and can be "
+#~ "used to position tabulators among others.<p>Uncheck this to disable the "
+#~ "rulers from being displayed.</p>"
+#~ msgstr ""
+#~ "尺規放在文件的上方與左方的空白處。尺規顯示頁面與框架的位置與寬度，也可以用"
+#~ "於定位表格。 <p>取消此選項則不顯示尺規。</p>"
+
+#, fuzzy
+#~| msgid "Snap to Grid"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Snap to Grid"
+#~ msgstr "貼齊格線"
+
+#, fuzzy
+#~| msgid "Show Status Bar"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Status Bar"
+#~ msgstr "顯示狀態列"
+
+#, fuzzy
+#~| msgid "Shows or hides the status bar"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shows or hides the status bar"
+#~ msgstr "顯示或隱藏狀態列"
+
+#, fuzzy
+#~| msgid "Semantic Stylesheets..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Semantic Stylesheets..."
+#~ msgstr "語意樣式表單"
+
+#, fuzzy
+#~| msgid "Modify and add semantic stylesheets"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Modify and add semantic stylesheets"
+#~ msgstr "變更與新增語意樣式表單"
+
+#, fuzzy
+#~| msgid ""
+#~| "Stylesheets are used to format contact, event, and location information "
+#~| "which is stored in Rdf"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Stylesheets are used to format the display of information which is stored "
+#~ "in RDF."
+#~ msgstr "表單用於格式化存在 Rdf 中的聯絡人、事件與位置資訊"
+
+#, fuzzy
+#~| msgid "Create"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create"
+#~ msgstr "建立"
+
+#, fuzzy
+#~| msgid "Configure..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Configure..."
+#~ msgstr "設定..."
+
+#, fuzzy
+#~| msgid "Page Layout..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page Layout..."
+#~ msgstr "頁面佈局..."
+
+#, fuzzy
+#~| msgid "Change properties of entire page"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change properties of entire page"
+#~ msgstr "變更整個頁面的屬性"
+
+#, fuzzy
+#~| msgid ""
+#~| "Change properties of the entire page.<p>Currently you can change paper "
+#~| "size, paper orientation, header and footer sizes, and column settings.</"
+#~| "p>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Change properties of the entire page.<p>Currently you can change paper "
+#~ "size, paper orientation, header and footer sizes, and column settings.</p>"
+#~ msgstr ""
+#~ "變更整個頁面的屬性。 <p>目前您可以變更頁面大小、方向、標頭與註腳的大小，以"
+#~ "及欄位設定。</p>"
+
+#, fuzzy
+#~| msgid "Create Header"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Header"
+#~ msgstr "建立標頭"
+
+#, fuzzy
+#~| msgid "Create Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Footer"
+#~ msgstr "建立註腳"
+
+#, fuzzy
+#~| msgid "No framesets in document"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shows comments in the document"
+#~ msgstr "文件中沒有框架集"
+
+#, fuzzy
+#~| msgid "Shows or hides the status bar"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shows or hides word counting in status bar"
+#~ msgstr "顯示或隱藏狀態列"
+
+#, fuzzy
+#~| msgid "Page Setup"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page Setup"
+#~ msgstr "頁面設定"
+
+#, fuzzy
+#~| msgid "Header & Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Header & Footer"
+#~ msgstr "標頭與註腳"
+
+#, fuzzy
+#~| msgid "Page layout"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page layout"
+#~ msgstr "頁面佈局"
+
+#, fuzzy
+#~| msgid "Next Page"
+#~ msgctxt "(qtundo-format) Next search result"
+#~ msgid "Next"
+#~ msgstr "下一頁"
+
+#, fuzzy
+#~| msgid "Previous Page"
+#~ msgctxt "(qtundo-format) Previous search result"
+#~ msgid "Previous"
+#~ msgstr "上一頁"
+
+#, fuzzy
+#~| msgid "Options"
+#~ msgctxt "(qtundo-format) Search options"
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#, fuzzy
+#~| msgid "Odd Pages Header"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Odd Pages Header"
+#~ msgstr "奇數頁標頭"
+
+#, fuzzy
+#~| msgid "Even Pages Header"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Even Pages Header"
+#~ msgstr "偶數頁標頭"
+
+#, fuzzy
+#~| msgid "Odd Pages Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Odd Pages Footer"
+#~ msgstr "奇數頁註腳"
+
+#, fuzzy
+#~| msgid "Even Pages Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Even Pages Footer"
+#~ msgstr "偶數頁註腳"
+
+#, fuzzy
+#~| msgid "Main text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Main text"
+#~ msgstr "主要文字"
+
+#, fuzzy
+#~| msgid "Other text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Other text"
+#~ msgstr "其他文字"
+
+#, fuzzy
+#~| msgid "Bookmark"
+#~ msgid "Book"
+#~ msgstr "書籤"
+
+#, fuzzy
+#~| msgctxt "application name"
+#~| msgid "Calligra Words"
+#~ msgctxt "application name"
+#~ msgid "Calligra Author"
+#~ msgstr "Calligra Words"
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgid "Author tool"
+#~ msgstr "作者"
+
+#, fuzzy
+#~| msgid "© 1998-2012, The Words Team"
+#~ msgid "Copyright 2012-%1, The Author Team"
+#~ msgstr "(c) 1998-2012，Words 開發團隊"
+
+#, fuzzy
+#~| msgid "Co maintainer"
+#~ msgid "Co-maintainer"
+#~ msgstr "協同維護者"
+
+#, fuzzy
+#~| msgid "Mojtaba Shahi"
+#~ msgid "Mojtaba Shahi Senobari"
+#~ msgstr "Mojtaba Shahi"
+
+#, fuzzy
+#~| msgid "Can not find needed text component, Words will quit now"
+#~ msgid "Can not find needed text component, Author will quit now"
+#~ msgstr "找不到需要的文字元件。Words 將離開"
+
+#, fuzzy
+#~| msgid "Insert Page"
+#~ msgid "Select Cover Image..."
+#~ msgstr "插入頁面"
+
+#, fuzzy
+#~| msgid "Move selected page down"
+#~ msgid "Cover selection"
+#~ msgstr "將選取的頁面下移"
+
+#, fuzzy
+#~| msgid "Move selected page up"
+#~ msgid "No cover selected yet"
+#~ msgstr "將選取的頁面上移"
+
+#, fuzzy
+#~| msgid "Functions"
+#~ msgid "Edit section"
+#~ msgstr "函式"
+
+#, fuzzy
+#~| msgid "Main text"
+#~ msgid "Main"
+#~ msgstr "主要文字"
+
+#, fuzzy
+#~| msgid "ODF Support"
+#~ msgid "Supporting"
+#~ msgstr "ODF 支援"
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgid "Author's actor"
+#~ msgstr "作者"
+
+#, fuzzy
+#~| msgid "Enter entry name:"
+#~ msgid "Enter actor's name here"
+#~ msgstr "輸入項目名稱："
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "Type:"
+#~ msgstr "型態"
+
+#, fuzzy
+#~| msgid "Member Description"
+#~ msgid "Short description:"
+#~ msgstr "成員描述"
+
+#, fuzzy
+#~| msgid "Member Description"
+#~ msgid "Actor description:"
+#~ msgstr "成員描述"
+
+#, fuzzy
+#~| msgid "Left align with:"
+#~ msgid "LeftAlign"
+#~ msgstr "置左對齊於："
+
+#, fuzzy
+#~| msgid "Center align with:"
+#~ msgid "CenterAlign"
+#~ msgstr "置中對齊於："
+
+#, fuzzy
+#~| msgid "Right align with:"
+#~ msgid "RightAlign"
+#~ msgstr "置右對齊於："
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgctxt "displayname of the semantic item type AuthorActor"
+#~ msgid "AuthorActor"
+#~ msgstr "作者"
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgid "1st Edit"
+#~ msgstr "編輯"
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgid "2nd Edit"
+#~ msgstr "編輯"
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgid "3rd Edit"
+#~ msgstr "編輯"
+
+#, fuzzy
+#~| msgid "Autocorrection"
+#~ msgid "Author's section"
+#~ msgstr "自動修正"
+
+#, fuzzy
+#~| msgid "Page Description"
+#~ msgid "Section description:"
+#~ msgstr "頁面描述"
+
+#, fuzzy
+#~| msgid "Functions"
+#~ msgctxt "displayname of the semantic item type AuthorSection"
+#~ msgid "Section"
+#~ msgstr "函式"
+
+#~ msgid "File to open"
+#~ msgstr "要開啟的檔案"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Frame"
+#~ msgstr "建立框架"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Frame"
+#~ msgstr "刪除框架"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Protect size and position"
+#~ msgstr "保護大小與位置"
+
+#~ msgid "Position"
+#~ msgstr "位置"
+
+#~ msgid "X:"
+#~ msgstr "X："
+
+#~ msgid "Y:"
+#~ msgstr "Y："
+
+#~ msgid "Width:"
+#~ msgstr "寬度："
+
+#~ msgid "Height:"
+#~ msgstr "高度："
+
+#~ msgid "Margins"
+#~ msgstr "邊界"
+
+#~ msgid "Synchronize changes"
+#~ msgstr "同步變更"
+
+#~ msgid "Bottom:"
+#~ msgstr "底端："
+
+#~ msgid "Top:"
+#~ msgstr "頂端："
+
+#~ msgid "Right:"
+#~ msgstr "右側："
+
+#~ msgid "Left:"
+#~ msgstr "左側："
+
+#~ msgid "If Frame Overflows"
+#~ msgstr "若框架溢出"
+
+#~ msgid "Create a new page"
+#~ msgstr "建立新頁面"
+
+#~ msgid "Resize last frame"
+#~ msgstr "改變最後一個框架的大小"
+
+#~ msgid "Do not show the extra text"
+#~ msgstr "不顯示額外的文字"
+
+#~ msgid "When Creating a Page"
+#~ msgstr "建立頁面時"
+
+#~ msgid "Reconnect frame to current flow"
+#~ msgstr "重新連接框架到目前的流程"
+
+#~ msgid "Do not create a followup frame"
+#~ msgstr "不建立新的框架"
+
+#~ msgid "Copy this Frame"
+#~ msgstr "複製此框架"
+
+#~ msgid "Only on even/odd pages"
+#~ msgstr "只針對奇數或偶數頁"
+
+#~ msgid "Protect content"
+#~ msgstr "保護內容"
+
+#~ msgid "Frame is a copy of the previous frame"
+#~ msgstr "框架由前一個框架複製而來"
+
+#~ msgid "Changes will be applied to all frames in frameset"
+#~ msgstr "改變會套用到框架集中所有的框架"
+
+#~ msgid "Retain original aspect ratio"
+#~ msgstr "保持原始的比例"
+
+#~ msgid "Select All Shapes"
+#~ msgstr "選取所有元件"
+
+#~ msgid "Create Linked Copy"
+#~ msgstr "建立鍊結複本"
+
+#~ msgid "Create a copy of the current frame, always showing the same contents"
+#~ msgstr "建立目前框架的複本，總是顯示同樣的內容"
+
+#~ msgid ""
+#~ "Create a copy of the current frame, that remains linked to it. This means "
+#~ "they always show the same contents: modifying the contents in such a "
+#~ "frame will update all its linked copies."
+#~ msgstr ""
+#~ "建立目前框架的鍊結。這表示此兩個框架會顯示相同的內容，改變其中一個框架則另"
+#~ "一個也會跟著改變。"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Linked Copy"
+#~ msgstr "建立鍊結複本"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Page"
+#~ msgstr "插入頁面"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Remove Page"
+#~ msgstr "移除頁面"
+
+#~ msgid "Bookmark..."
+#~ msgstr "書籤..."
+
+#~ msgid "Select Bookmark..."
+#~ msgstr "選擇書籤..."
+
+#~ msgid "Bookmark"
+#~ msgstr "書籤"
+
+#~ msgid "Characters (excluding spaces):"
+#~ msgstr "不包含空白的字元數："
+
+#~ msgid "Flesch Reading Ease:"
+#~ msgstr "Flesch 閱讀指數："
+
+#~ msgid "Preferences"
+#~ msgstr "喜好設定"
+
+#~ msgid "Automatically update"
+#~ msgstr "自動更新"
+
+#~ msgid "update"
+#~ msgstr "更新"
+
+#~ msgid "by:"
+#~ msgstr "依："
+
+#~ msgid "F&ormat"
+#~ msgstr "格式(&O)"
+
+#~ msgid "Invalid document. No mimetype specified."
+#~ msgstr "不合法的文件。沒有指定 MIME 型態。"
+
+#~ msgid ""
+#~ "Invalid document. Expected mimetype application/x-words or application/"
+#~ "vnd.kde.words, got %1"
+#~ msgstr ""
+#~ "不合法的文件。MIME 型態應該要是 application/x-kword 或 application/vnd."
+#~ "kde.words，不過看到的是 %1。"
+
+#~ msgid "Invalid document. Paper size: %1x%2"
+#~ msgstr "不合法的文件。紙張大小：%1x%2"
+
+#~ msgid "Unable to locate footnote text"
+#~ msgstr "無法找到註腳文字"
+
+#~ msgid "Unable to locate note-text"
+#~ msgstr "無法找到備忘文字"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Clip Frame"
+#~ msgstr "剪下框架"
+
+#~ msgid "Create Frame-clip"
+#~ msgstr "建立框架"
+
+#~ msgid "Remove Frame-clip"
+#~ msgstr "移除框架"
+
+#~ msgid "Force the remainder of the text into the next page"
+#~ msgstr "強制將剩餘的文字放到下一頁"
+
+#~ msgid "All text after this point will be moved into the next page."
+#~ msgstr "此點之後的所有文字都移到下一頁。"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Enable Document Headers"
+#~ msgstr "開啟文件標頭"
+
+#~ msgid "Enable Document Footers"
+#~ msgstr "開啟文件註腳"
+
+#~ msgid "Change Tracking"
+#~ msgstr "變更追蹤"
+
+#~ msgctxt "application name"
+#~ msgid "Words"
+#~ msgstr "單字"
+
+#~ msgid "Notes and fixes"
+#~ msgstr "備忘與修正"
+
+#~ msgid "Number of pages:"
+#~ msgstr "頁面數量："
+
+#~ msgid "Number of frames:"
+#~ msgstr "框架數量："
+
+#~ msgid "Number of pictures:"
+#~ msgstr "圖片數量："
+
+#~ msgid "Number of tables:"
+#~ msgstr "表格數量："
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Include text from foot- and endnotes"
+#~ msgstr "引入從註腳到結束註解的文字"
+
+#~ msgid "Characters without spaces:"
+#~ msgstr "不含空白的字元數："
+
+#~ msgid "Characters incl. spaces"
+#~ msgstr "包含空白的字元"
+
+#~ msgid "Only count main text"
+#~ msgstr "只計算主要文字"
+
+#~ msgid "approximately %1"
+#~ msgstr "大約 %1"
+
+#~ msgid "Sentence, word and letter counts for this document"
+#~ msgstr "此文件的句子、單字與字母計數"
+
+#~ msgid ""
+#~ "Information on the number of letters, words, syllables and sentences for "
+#~ "this document.<p>Evaluates readability using the Flesch reading score.</p>"
+#~ msgstr ""
+#~ "此文件的字母、單字、音節與句子的數量資訊。 <p>使用 Flesch 閱讀指數來計算可"
+#~ "讀性。</p>"
+
+#~ msgid "Shows and hides header display"
+#~ msgstr "顯示與隱藏標頭"
+
+#~ msgid ""
+#~ "Selecting this option toggles the display of headers in Words.<br/><br/"
+#~ ">Headers are special frames at the top of each page which can contain "
+#~ "page numbers or other information."
+#~ msgstr ""
+#~ "此選項會切換 Words 標頭顯示。<br /><br /> 標頭為每一頁面頂端的特殊框架，可"
+#~ "以包含頁數與其他資訊。"
+
+#~ msgid "Shows and hides footer display"
+#~ msgstr "顯示與隱藏註腳"
+
+#~ msgid ""
+#~ "Selecting this option toggles the display of footers in Words. <br/><br/"
+#~ ">Footers are special shapes at the bottom of each page which can contain "
+#~ "page numbers or other information."
+#~ msgstr ""
+#~ "此選項會切換 Words 註腳顯示。<br /><br /> 註腳為每一頁面底端的特殊框架，可"
+#~ "以包含頁數與其他資訊。"
+
+#~ msgid "Raise Shape"
+#~ msgstr "提升元件"
+
+#~ msgid ""
+#~ "Raise the currently selected shape so that it appears above all the other "
+#~ "shape"
+#~ msgstr "提升目前選取的元件，使之在其他元件之上"
+
+#~ msgid ""
+#~ "Raise the currently selected shape so that it appears above all the other "
+#~ "shapes. This is only useful if shapes overlap each other. If multiple "
+#~ "shapes are selected they are all raised in turn."
+#~ msgstr ""
+#~ "提升目前選取的元件，使之在其他元件之上。這只有在元件重疊時有用。如果選取多"
+#~ "個元件，則會輪流提升。"
+
+#~ msgid "Lower Shape"
+#~ msgstr "拉低元件"
+
+#~ msgid ""
+#~ "Lower the currently selected shape so that it disappears under any shape "
+#~ "that overlaps it"
+#~ msgstr "拉低目前選取的元件，使之在其他元件之下"
+
+#~ msgid ""
+#~ "Lower the currently selected shape so that it disappears under any shape "
+#~ "that overlaps it. If multiple shape are selected they are all lowered in "
+#~ "turn."
+#~ msgstr ""
+#~ "拉低目前選取的元件，使之在其他元件之下。這只有在框架重疊時有用。如果選取多"
+#~ "個元件，則會輪流拉低。"
+
+#~ msgid "Bring to Front"
+#~ msgstr "帶到前景"
+
+#~ msgid "Send to Back"
+#~ msgstr "送回後端"
+
+#~ msgid "Before current page"
+#~ msgstr "在目前頁面之前"
+
+#~ msgid "After current page"
+#~ msgstr "在目前頁面之後"
+
+#~ msgid "After last page"
+#~ msgstr "在最後一頁"
+
+#~ msgid "Page style:"
+#~ msgstr "頁面樣式："
+
+#~ msgctxt "Insert menu"
+#~ msgid "&Insert"
+#~ msgstr "插入(&I)"
+
+#~ msgid "Variable"
+#~ msgstr "變數"
+
+#~ msgid "Anchor"
+#~ msgstr "定錨點"
+
+#~ msgid "As Character"
+#~ msgstr "做為字元"
+
+#~ msgid "Anchor the current shape as a character in the text"
+#~ msgstr "將目前元件定錨在文字中做為字元"
+
+#~ msgid "To Character"
+#~ msgstr "到字元"
+
+#~ msgid "Anchor the current shape to the character at the current position"
+#~ msgstr "將目前的元件定錨在目前位置上的字元"
+
+#~ msgid "To Paragraph"
+#~ msgstr "到段落"
+
+#~ msgid "Anchor the current shape to current paragraph"
+#~ msgstr "將目前的元件定錨在目前位置上的段落"
+
+#~ msgid "To Page"
+#~ msgstr "到頁面"
+
+#~ msgid "Anchor the current shape to current page"
+#~ msgstr "將目前的元件定錨在目前位置上的頁面"
+
+#~ msgid "Page..."
+#~ msgstr "頁面..."
+
+#~ msgid "Delete Page"
+#~ msgstr "刪除頁面"
+
+#~ msgid "Insert Image Options"
+#~ msgstr "插入影像選項"
+
+#~ msgid "<optimizations"
+#~ msgstr "最佳化"
+
+#~ msgid "Disable Document Headers"
+#~ msgstr "關閉文件標頭"
+
+#~ msgid "Disable Document Footers"
+#~ msgstr "關閉文件註腳"
+
+#~ msgid "Page Borders"
+#~ msgstr "頁面框線"
+
+#~ msgid "Hide Status Bar"
+#~ msgstr "隱藏狀態列"
+
+#~ msgid "Numbering"
+#~ msgstr "編號"
+
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgid "Footnote"
+#~ msgstr "註腳"
+
+#~ msgid "Endnote"
+#~ msgstr "尾註"
+
+#~ msgid "Insert Footnote/Endnote"
+#~ msgstr "插入註腳/尾註"
+
+#~ msgid "Insert a footnote referencing the selected text"
+#~ msgstr "插入一個參考到選取文字的註腳"
+
+#~ msgid "Frame/Frameset Properties"
+#~ msgstr "框架/框架集屬性"
+
+#~ msgid "Alter frameset properties"
+#~ msgstr "改變框架集屬性"
+
+#~ msgid "Insert a picture into document"
+#~ msgstr "在文件中插入圖片"
+
+#~ msgid "Convert current frame to an inline frame"
+#~ msgstr "轉換目前的框架為內含框架"
+
+#~ msgid ""
+#~ "Convert the current frame to an inline frame.<br><br>Place the inline "
+#~ "frame within the text at the point nearest to the frames current position."
+#~ msgstr ""
+#~ "轉換目前的框架為內含框架。<br /><br /> 放置帶有文字的內含框架到最接近目前"
+#~ "框架位置的點。"
+
+#~ msgid "Set Floating"
+#~ msgstr "設定浮動"
+
+#~ msgid "Set the current shape floating"
+#~ msgstr "設定目前的元件浮動"
+
+#~ msgid "Please select at least one non-locked shape and try again"
+#~ msgstr "請選擇至少一個未鎖定元件，然後再試一次"
+
+#~ msgid ""
+#~ "<p><b>Check this option to have a text area created automatically for "
+#~ "each page.</b><br>\n"
+#~ "For letters and notes with one main text, possibly on several pages, you "
+#~ "should keep this checked. You should only uncheck it if you want to "
+#~ "define completely where each text frame should be positioned.</p>"
+#~ msgstr ""
+#~ "<p><b>勾選此選項會在每一頁面自動建立文字區域。<br>\n"
+#~ "通常對信件與通條等只有一塊主要文字區，但可能有好幾頁的，您可以使用此選項。"
+#~ "只有在您要完全自己定義每個文字框架要擺在哪裡時才取消此選項。</p>"
+
+#~ msgid "Filter stuff"
+#~ msgstr "過濾器相關工作"
+
+#~ msgid "Page: current/total"
+#~ msgstr "頁面：目前/總計"
+
+#~ msgid "Fra&mes"
+#~ msgstr "框架(&M)"
+
+#~ msgid "Tables"
+#~ msgstr "表格"
+
+#~ msgid "Insert"
+#~ msgstr "插入"
+
+#~ msgid "Add Text on Shape"
+#~ msgstr "在元件上新增文字"
+
+#~ msgid "Layout of Text in Other Frames"
+#~ msgstr "其他框架的文字佈局"
+
+#~ msgid "Text will run around this frame"
+#~ msgstr "文字會沿著此框架跑"
+
+#~ msgid "Text will not run around this frame"
+#~ msgstr "文字不會沿著此框架跑"
+
+#~ msgid "Run Around Side"
+#~ msgstr "沿著邊緣跑"
+
+#~ msgid "Longest side"
+#~ msgstr "最長邊"
+
+#~ msgid "Create custom outline"
+#~ msgstr "建立自訂大綱"
+
+#~ msgid "Create Custom Outline"
+#~ msgstr "建立自訂大綱"
+
+#~ msgid "Create a custom vector outline that text will run around"
+#~ msgstr "建立自訂的向量輪廓讓文字通過"
+
+#~ msgid ""
+#~ "Text normally runs around the content of a shape, when you want a custom "
+#~ "outline that is independent of the content you can create one and alter "
+#~ "it with the vector tools"
+#~ msgstr ""
+#~ "文字通常會跟著元件移動。如果您要自訂與內容無關的輪廓您可以用向量工具來建立"
+#~ "與改變。"
+
+#~ msgid "Create outlines"
+#~ msgstr "建立輪廓"
+
+#~ msgid "Borders"
+#~ msgstr "邊框"
+
+#~ msgid "MailMerge"
+#~ msgstr "合併信件"
+
+#~ msgid "Font"
+#~ msgstr "字型"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "Formula"
+#~ msgstr "公式"
+
+#~ msgid "KWord"
+#~ msgstr "KWord"
+
+#, fuzzy
+#~| msgid "Page Break"
+#~ msgid "Page Background"
+#~ msgstr "頁面中斷"
+
+#~ msgid "If Text is Too Long for Frame"
+#~ msgstr "若是文字超過框架大小"
+
+#~ msgid "On New Page Creation"
+#~ msgstr "建立新頁面時"
+
+#~ msgid ""
+#~ "Alter frameset properties.<p>Currently you can change the frame "
+#~ "background."
+#~ msgstr "改變框架集屬性。<p>目前您可以變更框架的背景。"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Show Grid"
+#~ msgstr "顯示格線"
+
+#~ msgid "Odd Pages Header %1"
+#~ msgstr "奇數頁標頭 %1"
+
+#~ msgid "Even Pages Header %1"
+#~ msgstr "偶數頁標頭 %1"
+
+#~ msgid "Odd Pages Footer %1"
+#~ msgstr "奇數頁註腳 %1"
+
+#~ msgid "Even Pages Footer %1"
+#~ msgstr "偶數頁註腳 %1"
+
+#~ msgid "Main Text Frameset"
+#~ msgstr "主要文字邊框集"
+
+#~ msgid "Matrix"
+#~ msgstr "矩陣"
+
+#~ msgid "Configure Frame Border"
+#~ msgstr "設定框架邊框"
+
+#~ msgid "Ta&ble"
+#~ msgstr "表格(&B)"
+
+#~ msgid "Cell"
+#~ msgstr "儲存格"
+
+#~ msgid "Configure Frame Borders"
+#~ msgstr "設定框架邊框"
+
+#~ msgid "Reginald Stadlbauer"
+#~ msgstr "Reginald Stadlbauer"
+
+#~ msgid "Add a new page"
+#~ msgstr "新增頁面"
+
+#~ msgid "Delete selected pages"
+#~ msgstr "刪除選取的頁面"
+
+#~ msgid "New Layer"
+#~ msgstr "新增層次"
+
+#~ msgid "Enter the name of the new layer:"
+#~ msgstr "輸入新層次的名稱："
+
+#~ msgid "New layer"
+#~ msgstr "新層次"
+
+#~ msgid "Delete Layer"
+#~ msgstr "刪除層次"
+
+#~ msgid "Could not delete all layers. At least one layer is required."
+#~ msgstr "無法刪除所有的層次。至少需要一個層次。"
+
+#~ msgid "Error deleting layers"
+#~ msgstr "刪除層次發生錯誤"
+
+#~ msgid "Information"
+#~ msgstr "資訊"
+
+#~ msgid "&Available tables:"
+#~ msgstr "可用的表格(&A)："
+
+#~ msgid "&Fields of the selected table:"
+#~ msgstr "選定的表格裡的欄位(&F)："
+
+#~ msgid "Query Result"
+#~ msgstr "查詢結果"
+
+#~ msgid "&Query:"
+#~ msgstr "查詢(&Q)："
+
+#~ msgid "&Execute"
+#~ msgstr "執行(&E)"
+
+#~ msgid "&Setup"
+#~ msgstr "設定(&S)"
+
+#~ msgid "&Table:"
+#~ msgstr "表格(&T)："
+
+#~ msgid "View or Edit Filter &Rules"
+#~ msgstr "檢視或編輯過濾器規則(&R)"
+
+#~ msgid "&Used database records:"
+#~ msgstr "使用資料庫紀錄(&U)："
+
+#~ msgid "&Keep Settings..."
+#~ msgstr "保留設定值(&K)..."
+
+#~ msgid "&Hostname:"
+#~ msgstr "主機名稱(&H)："
+
+#~ msgid "&Driver:"
+#~ msgstr "管理者(&D)："
+
+#~ msgid "Database &name:"
+#~ msgstr "資料庫名稱(&N)："
+
+#~ msgid "&Username:"
+#~ msgstr "使用者名稱(&U)："
+
+#~ msgid "&Port:"
+#~ msgstr "通訊埠(&P)："
+
+#~ msgid "default"
+#~ msgstr "預設值"
+
+#~ msgid "Address Selection"
+#~ msgstr "選擇位址"
+
+#~ msgid "&Add >>"
+#~ msgstr "新增(&A) >>"
+
+#~ msgid "<< &Remove"
+#~ msgstr "<< 移除(&R)"
+
+#~ msgid "Save as &Distribution List..."
+#~ msgstr "儲存為聯絡人清單(&D)"
+
+#~ msgid "Save selected single entries to a new distribution list"
+#~ msgstr "將所選擇的單一項目個別儲存為新的聯絡人清單。"
+
+#~ msgid "&Filter on:"
+#~ msgstr "過濾(&F)："
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Distribution Lists"
+#~ msgstr "聯絡人清單"
+
+#~ msgid "Single Entries"
+#~ msgstr "單一項目"
+
+#~ msgid "Address B&ook"
+#~ msgstr "通訊錄(&O)"
+
+#~ msgid "Launch KAddressbook"
+#~ msgstr "啟動 KAddressbook"
+
+#~ msgid "&Address Book"
+#~ msgstr "通訊錄(&A)"
+
+#~ msgid "&Selected Addresses"
+#~ msgstr "選擇位址(&S)"
+
+#~ msgid "Personal"
+#~ msgstr "個人"
+
+#~ msgid "Hi!"
+#~ msgstr "嗨！"
+
+#~ msgid "Hello!"
+#~ msgstr "哈囉！"
+
+#~ msgid "Bye!"
+#~ msgstr "再見！"
+
+#~ msgid "Good bye"
+#~ msgstr "再見"
+
+#~ msgid "Professional"
+#~ msgstr "職業的"
+
+#~ msgid "Good Morning"
+#~ msgstr "早安"
+
+#~ msgid "Good Afternoon"
+#~ msgstr "午安"
+
+#~ msgid "Good Evening"
+#~ msgstr "晚安"
+
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgid "To:"
+#~ msgstr "給："
+
+#~ msgid "Subject:"
+#~ msgstr "主旨："
+
+#~ msgid "CC:"
+#~ msgstr "副本："
+
+#~ msgid "BCC:"
+#~ msgstr "密件副本："
+
+#~ msgid "Fwd:"
+#~ msgstr "轉寄："
+
+#~ msgid "Best regards,"
+#~ msgstr "Best regards,"
+
+#~ msgid "Best wishes"
+#~ msgstr "Best wishes,"
+
+#~ msgid "Cordially,"
+#~ msgstr "Cordially,"
+
+#~ msgid "Love,"
+#~ msgstr "Love,"
+
+#~ msgid "Regards,"
+#~ msgstr "Regards,"
+
+#~ msgid "Thank you,"
+#~ msgstr "謝謝您，"
+
+#~ msgid "Thanks,"
+#~ msgstr "感謝，"
+
+#~ msgid "Subject"
+#~ msgstr "主旨"
+
+#~ msgid "Dear Sir or Madam:"
+#~ msgstr "親愛的先生/女士："
+
+#~ msgid "Ladies and Gentlemen:"
+#~ msgstr "各位先生各位女士："
+
+#~ msgid "Attention"
+#~ msgstr "注意"
+
+#~ msgid "Attention:"
+#~ msgstr "請注意："
+
+#~ msgid "ATTN:"
+#~ msgstr "注意："
+
+#~ msgid "Instructions"
+#~ msgstr "說明"
+
+#~ msgid "CERTIFIED"
+#~ msgstr "保證"
+
+#~ msgid "CONFIDENTIAL"
+#~ msgstr "機密"
+
+#~ msgid "PERSONAL"
+#~ msgstr "個人"
+
+#~ msgid "FACSIMILE"
+#~ msgstr "摹寫"
+
+#~ msgid ">>>Illegal position within datasource<<<"
+#~ msgstr ">>>資料來源中的非法位置<<<"
+
+#~ msgid ">>>Field %1 is unknown in the current database query<<<"
+#~ msgstr ">>>欄位 %1 在目前資料庫查詢中是未知的<<<"
+
+#~ msgid "Mail Merge - Editor"
+#~ msgstr "合併信件 - 編輯器"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Please enter the password for the database connection"
+#~ msgstr "請輸入連接資料庫的密碼"
+
+#~ msgid "Mail Merge - Setup Database Connection"
+#~ msgstr "合併信件 - 設定資料庫連線"
+
+#~ msgid "<not saved>"
+#~ msgstr "<未儲存>"
+
+#~ msgid "ascending"
+#~ msgstr "上升"
+
+#~ msgid "descending"
+#~ msgstr "下降"
+
+#~ msgid "contains"
+#~ msgstr "包含"
+
+#~ msgid "Field"
+#~ msgstr "欄位"
+
+#~ msgid "Sorting Order"
+#~ msgstr "排列順序"
+
+#~ msgid "Include"
+#~ msgstr "包含"
+
+#~ msgid "Operator"
+#~ msgstr "運算子"
+
+#~ msgid "Condition"
+#~ msgstr "條件"
+
+#~ msgid "Value"
+#~ msgstr "值"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "NOT"
+#~ msgstr "非"
+
+#~ msgid "KAddressbook entry '%1' not available."
+#~ msgstr "KAddressbook 中的項目 %1 無法使用。"
+
+#~ msgid "%1 South"
+#~ msgstr "%1 南"
+
+#~ msgid "%1 North"
+#~ msgstr "%1 北"
+
+#~ msgid "%1 West"
+#~ msgstr "%1 西"
+
+#~ msgid "%1 East"
+#~ msgstr "%1 東"
+
+#~ msgctxt "Geographic coordinates"
+#~ msgid "%1, %2"
+#~ msgstr "%1，%2"
+
+#~ msgid "Unkown mail merge variable: %1"
+#~ msgstr "未知的合併信件的變數：%1"
+
+#~ msgid "no category"
+#~ msgstr "無類別"
+
+#~ msgid "New Distribution List"
+#~ msgstr "新的聯絡人清單"
+
+#~ msgid "Please enter name:"
+#~ msgstr "請輸入名稱："
+
+#~ msgid ""
+#~ "<qt>Distribution list with the given name <b>%1</b> already exists. "
+#~ "Please select a different name.</qt>"
+#~ msgstr "<qt>聯絡人清單 <b>%1</b> 已存在。請選擇其他名稱。</qt>"
+
+#~ msgid "URL:"
+#~ msgstr "網址："
+
+#~ msgid "No Value"
+#~ msgstr "沒有數值"
+
+#~ msgid "Add record"
+#~ msgstr "新增紀錄"
+
+#~ msgid "Add entry"
+#~ msgstr "新增項目"
+
+#~ msgid "Remove entry"
+#~ msgstr "移除項目"
+
+#~ msgid "Add Entry"
+#~ msgstr "新增項目"
+
+#~ msgid "The host-address the OpenOffice.org Server runs on."
+#~ msgstr "OpenOffice.org 伺服器執行的主機位址。"
+
+#~ msgid "Host:"
+#~ msgstr "主機："
+
+#~ msgid "localhost"
+#~ msgstr "localhost"
+
+#~ msgid "The port the OpenOffice.org Server runs on."
+#~ msgstr "OpenOffice.org 伺服器執行的連接埠。"
+
+#~ msgid "Port:"
+#~ msgstr "連接埠："
+
+#~ msgid ""
+#~ "Number of seconds we try to connect before aborting. If set to 0 we try "
+#~ "to connect only once and if failed abort. If the timeout is disabled, we "
+#~ "try to connect forever."
+#~ msgstr ""
+#~ "我們等待連線多久後取消。如果設定為 0 則只會試著連線一次，若失敗就中止。如"
+#~ "果不設定逾時，則會永久嘗試連線。"
+
+#~ msgid "Timeout:"
+#~ msgstr "逾時："
+
+#~ msgid ""
+#~ "If the first try to connect with OpenOffice.org failed, we are able to "
+#~ "start OpenOffice.org for you, connect with that instance and once the "
+#~ "work is done, shutdown it again."
+#~ msgstr ""
+#~ "如果第一次嘗試連到 OpenOffice.org 失敗，我們可以先開啟 OpenOffice.org，然"
+#~ "後以該實體連線，當工作完成後再關閉。"
+
+#~ msgid "Startup and shutdown OpenOffice.org instance if not running already."
+#~ msgstr "如果尚未執行，則先啟動 OpenOffice.org 實體，完成後再關閉。"
+
+#~ msgid "Hide the temporary OpenOffice.org window."
+#~ msgstr "隱藏暫時的 OpenOffice.org 視窗。"
+
+#~ msgid "Automatic close documents not needed any longer."
+#~ msgstr "自動關閉不再需要的文件。"
+
+#~ msgid "Table of Content"
+#~ msgstr "目錄"
+
+#~ msgid "Classes"
+#~ msgstr "類別"
+
+#~ msgid "Class Description"
+#~ msgstr "類別描述"
+
+#~ msgid "Slots"
+#~ msgstr "信號槽"
+
+#~ msgid "Signals"
+#~ msgstr "信號"
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "Variables"
+#~ msgstr "變數"
+
+#~ msgid ""
+#~ "The intermedia format the OpenOffice.org Server saves the loaded document "
+#~ "to. KWord then imports the content from those file and once the job is "
+#~ "done, those temporary file got removed again."
+#~ msgstr ""
+#~ "OpenOffice.org 伺服器儲存載入的文件的中繼媒體格式。KWord 會從那些檔案中匯"
+#~ "入內容，完成後會移除暫存檔。"
+
+#~ msgid "ISO OASIS OpenDocument Text"
+#~ msgstr "ISO OASIS OpenDocument 文字檔"
+
+#~ msgid "HTML Document"
+#~ msgstr "HTML 文件"
+
+#~ msgid "Encoded Text"
+#~ msgstr "編碼文字"
+
+#~ msgid "Delete the currently selected frame(s)"
+#~ msgstr "刪除目前選取的框架"
+
+#~ msgid "Delete the currently selected frame(s)."
+#~ msgstr "刪除目前選取的框架。"
+
+#~ msgid "First Page Header"
+#~ msgstr "第一頁標頭"
+
+#~ msgid "First Page Footer"
+#~ msgstr "第一頁註腳"
+
+#~ msgid ""
+#~ "Invalid document. 'fo' has the wrong namespace. The application which "
+#~ "produced this document is not OASIS-compliant."
+#~ msgstr ""
+#~ "不合法的文件。 fo 的命名空間不正確。處理此文件的應用程式與 OASIS 不相容。"

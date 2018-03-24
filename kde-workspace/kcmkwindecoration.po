@@ -1,0 +1,390 @@
+# translation of kcmkwindecoration.po to Chinese Traditional
+# translation of kcmkwindecoration.po to
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010, 2012, 2013, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkwindecoration\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-04-14 02:49+0200\n"
+"PO-Revision-Date: 2016-11-03 16:26+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: declarative-plugin/buttonsmodel.cpp:68
+#, kde-format
+msgid "Menu"
+msgstr "選單"
+
+#: declarative-plugin/buttonsmodel.cpp:70
+#, kde-format
+msgid "Application menu"
+msgstr "應用程式選單"
+
+#: declarative-plugin/buttonsmodel.cpp:72
+#, kde-format
+msgid "On all desktops"
+msgstr "在所有桌面"
+
+#: declarative-plugin/buttonsmodel.cpp:74
+#, kde-format
+msgid "Minimize"
+msgstr "最小化"
+
+#: declarative-plugin/buttonsmodel.cpp:76
+#, kde-format
+msgid "Maximize"
+msgstr "最大化"
+
+#: declarative-plugin/buttonsmodel.cpp:78
+#, kde-format
+msgid "Close"
+msgstr "關閉"
+
+#: declarative-plugin/buttonsmodel.cpp:80
+#, kde-format
+msgid "Context help"
+msgstr "內容說明"
+
+#: declarative-plugin/buttonsmodel.cpp:82
+#, kde-format
+msgid "Shade"
+msgstr "陰影"
+
+#: declarative-plugin/buttonsmodel.cpp:84
+#, kde-format
+msgid "Keep below"
+msgstr "保持在下"
+
+#: declarative-plugin/buttonsmodel.cpp:86
+#, kde-format
+msgid "Keep above"
+msgstr "保持在上"
+
+#: kcm.cpp:140
+#, kde-format
+msgid ""
+"Close by double clicking:\n"
+" To open the menu, keep the button pressed until it appears."
+msgstr ""
+"雙擊關閉：\n"
+" 要開啟選單，請按住按鍵直到選單出現。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, theTab)
+#: kcm.ui:21
+#, kde-format
+msgid "Theme"
+msgstr "主題"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filter)
+#: kcm.ui:29
+#, kde-format
+msgid "Search"
+msgstr "搜尋"
+
+#. i18n: ectx: property (text), widget (QPushButton, knsButton)
+#: kcm.ui:42
+#, kde-format
+msgid "Get New Decorations..."
+msgstr "取得新裝飾..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, closeWindowsDoubleClick)
+#: kcm.ui:54
+#, kde-format
+msgid "Close windows by double clicking &the menu button"
+msgstr "雙擊視窗選單按鈕時關閉視窗(&T)"
+
+#. i18n: ectx: property (text), widget (QLabel, borderSizesLabel)
+#: kcm.ui:95
+#, kde-format
+msgid "Border si&ze:"
+msgstr "邊界大小(&Z)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:109
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "No Borders"
+msgstr "沒有外框"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:114
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "No Side Borders"
+msgstr "沒有邊框"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:119
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "Tiny"
+msgstr "極小"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:124
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "Normal"
+msgstr "普通"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:129
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "Large"
+msgstr "大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:134
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Large"
+msgstr "非常大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:139
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "Huge"
+msgstr "巨大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:144
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Huge"
+msgstr "非常巨大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
+#: kcm.ui:149
+#, kde-format
+msgctxt "@item:inlistbox Border size:"
+msgid "Oversized"
+msgstr "超過大小"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: kcm.ui:160
+#, kde-format
+msgid "Buttons"
+msgstr "按鈕"
+
+#: qml/Buttons.qml:77
+#, kde-format
+msgid "Titlebar"
+msgstr "標題列"
+
+#: qml/Buttons.qml:201
+#, kde-format
+msgid "Drag buttons between here and the titlebar"
+msgstr "在這裡跟標題列間拖曳按鈕"
+
+#: qml/Buttons.qml:216
+#, kde-format
+msgid "Drop here to remove button"
+msgstr "丟在這裡以移除按鈕"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Border size:"
+#~ msgstr "邊界大小："
+
+#~ msgid "Button size:"
+#~ msgstr "按鍵大小："
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Tiny"
+#~ msgstr "極小"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Normal"
+#~ msgstr "普通"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Very Large"
+#~ msgstr "非常大"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Huge"
+#~ msgstr "巨大"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Very Huge"
+#~ msgstr "非常巨大"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Oversized"
+#~ msgstr "超過大小"
+
+#~ msgid "Close windows by double clicking the menu button"
+#~ msgstr "雙擊視窗選單按鈕時關閉視窗"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgid "%1 (unavailable)"
+#~ msgstr "%1 (無法使用)"
+
+#~ msgid ""
+#~ "To add or remove titlebar buttons, simply <i>drag</i> items between the "
+#~ "available item list and the titlebar preview. Similarly, drag items "
+#~ "within the titlebar preview to re-position them."
+#~ msgstr ""
+#~ "若要增加或是移除標題列按鍵, 只要將你打算處理的小按鍵們從列表中<i>拉拉拉"
+#~ "拉... 拉</i>過來放著預覽即可. 若是你打算移動他們的順序, 也可以用相同的招數"
+#~ "來搞定他們."
+
+#~ msgid "Resize"
+#~ msgstr "改變大小"
+
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgctxt "Button showing window actions menu"
+#~ msgid "Window Menu"
+#~ msgstr "視窗選單"
+
+#~ msgid "--- spacer ---"
+#~ msgstr "--- 分隔器 ---"
+
+#~ msgid ""
+#~ "Enabling this checkbox will show window button tooltips. If this checkbox "
+#~ "is off, no window button tooltips will be shown."
+#~ msgstr ""
+#~ "若是選取此功能，將會顯示視窗按鍵的小提示。當然如果你沒有選取這個功能，不會"
+#~ "有任何的視窗按鍵小提示出現。"
+
+#~ msgid "&Show window button tooltips"
+#~ msgstr "顯示視窗按鍵小提示(&S)"
+
+#~ msgid "Please note that this option is not available on all styles yet."
+#~ msgstr "請注意目前暫時在任何樣式中都沒有可以設定的選項 。"
+
+#~ msgid "Use custom titlebar button &positions"
+#~ msgstr "使用自訂標題列按鈕位置(&P)"
+
+#~ msgid "B&order size:"
+#~ msgstr "邊框大小(&O):"
+
+#~ msgid "Use this combobox to change the border size of the decoration."
+#~ msgstr "使用這個組合方塊來改變裝飾的邊框大小。"
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "No Side Border"
+#~ msgstr "沒有邊框"
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "No Border"
+#~ msgstr "沒有外框"
+
+#~ msgid "Decoration Options"
+#~ msgstr "外觀選項"
+
+#~ msgid ""
+#~ "Select the window decoration. This is the look and feel of both the "
+#~ "window borders and the window handle."
+#~ msgstr "選擇視窗的外觀，視窗外觀代表著視窗的邊框以及控制方法"
+
+#~ msgid "Configure Decoration..."
+#~ msgstr "設定裝飾..."
+
+#~ msgid "Configure Buttons..."
+#~ msgstr "設定按鍵..."
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Paladin Liu,Tsung-Chien Ho"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "paladin@ms1.hinet.net,iitze@hotmail.com"
+
+#~ msgid "Window Decoration Control Module"
+#~ msgstr "視窗外觀控制模組"
+
+#~ msgid "(c) 2001 Karol Szwed"
+#~ msgstr "(c) 2001 Karol Szwed"
+
+#~ msgid "Karol Szwed"
+#~ msgstr "Karol Szwed"
+
+#~ msgid ""
+#~ "<h1>Installation error</h1>The resource<h2>kwin/kcm_kwindecoration/main."
+#~ "qml</h2>could not be located in any application data path.<h2>Please "
+#~ "contact your distribution</h2>The application will now abort"
+#~ msgstr ""
+#~ "<h1>安裝錯誤</h1>在任何應用程式的資料路徑中都找不到資源檔 <h2>kwin/"
+#~ "kcm_kwindecoration/main.qml</h2> 。<h2>請聯繫您的套件商。</h2>此應用程式將"
+#~ "中止"
+
+#~ msgid "Installation Error"
+#~ msgstr "安裝錯誤"
+
+#~ msgid "Oxygen"
+#~ msgstr "Oxygen"
+
+#~ msgid ""
+#~ "<h1>Window Manager Decoration</h1><p>This module allows you to choose the "
+#~ "window border decorations, as well as titlebar button positions and "
+#~ "custom decoration options.</p>To choose a theme for your window "
+#~ "decoration click on its name and apply your choice by clicking the \"Apply"
+#~ "\" button below. If you do not want to apply your choice you can click "
+#~ "the \"Reset\" button to discard your changes.<p>You can configure each "
+#~ "theme. There are different options specific for each theme.</p><p>On the "
+#~ "\"Buttons\" tab check the \"Use custom titlebar button positions\" box "
+#~ "and you can change the positions of the buttons to your liking.</p>"
+#~ msgstr ""
+#~ "<h1>視窗管理程式裝飾</h1> <p>這個模組讓您可以選擇視窗邊框的裝飾、標題列按"
+#~ "鈕位置和自訂裝飾選項。</p> 要為您的視窗裝飾選擇主題，按下它的名稱並且按下"
+#~ "方的「套用」按鈕來套用您的選擇。如果您不想套用您的選擇，您可以按「重設」按"
+#~ "鈕來放棄您的改變。 <p>您可以設定每一個主題。每個主題都有不同的選項。</p> "
+#~ "<p>在「按鈕 」分頁中，勾選「使用自訂標題按鈕位置」，您可以依您的喜好改變按"
+#~ "鈕的位置。</p>"
+
+#~ msgid "Active Window"
+#~ msgstr "使用中的視窗"
+
+#~ msgid "Inactive Window"
+#~ msgstr "非使用中的視窗"
+
+#~ msgid "kcmkwindecoration"
+#~ msgstr "kcmkwindecoration"
+
+#~ msgctxt "Caption to decoration preview, %1 author name"
+#~ msgid "by %1"
+#~ msgstr "依 %1"
+
+#~ msgid ""
+#~ "No preview available.\n"
+#~ "Most probably there\n"
+#~ "was a problem loading the plugin."
+#~ msgstr ""
+#~ "沒有預視\n"
+#~ "通常可能\n"
+#~ "在載入外掛程式時會有問題"
+
+#~ msgid "&Buttons"
+#~ msgstr "按鈕(&B)"
+
+#~ msgid "Nitrogen"
+#~ msgstr "Nitrogen"
+
+#~ msgid "Ozone"
+#~ msgstr "Ozone"
+
+#~ msgid "KDE 2"
+#~ msgstr "KDE 2"

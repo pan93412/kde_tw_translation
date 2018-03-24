@@ -1,0 +1,2013 @@
+# translation of ksysguard.po to Chinese Traditional
+# traditional Chinese translation for ksysguard.
+# Copyright (C) 2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Translator: Jouston Huang (Huang, Jiun-Jeng) <jouston@housediy.com>, 2001.
+#             Kenduest Lee <Kenduest@i18n.linux.org.tw>, 2001.
+#             Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksysguard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-01 03:37+0100\n"
+"PO-Revision-Date: 2017-01-23 22:09+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Kenduest Lee,Jouston Huang,Chao-Hsiung Liao, Frank Weng (a.k.a. Franklin), "
+"Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"Kenduest@i18n.linux.org.tw,jouston@housediy.com,pesder.liao@msa.hinet.net, "
+"franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: HostConnector.cpp:45
+#, kde-format
+msgid "Connect Host"
+msgstr "連接主機"
+
+#: HostConnector.cpp:58
+#, kde-format
+msgid "Host:"
+msgstr "主機："
+
+#: HostConnector.cpp:68
+#, kde-format
+msgid "Enter the name of the host you want to connect to."
+msgstr "輸入您要連線的主機名稱。"
+
+#: HostConnector.cpp:74
+#, kde-format
+msgid "Connection Type"
+msgstr "連線類型"
+
+#: HostConnector.cpp:79
+#, kde-format
+msgid "ssh"
+msgstr "ssh"
+
+#: HostConnector.cpp:82
+#, kde-format
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr "選擇此項以使用安全的系統殼登入遠端主機。"
+
+#: HostConnector.cpp:85
+#, kde-format
+msgid "rsh"
+msgstr "rsh"
+
+#: HostConnector.cpp:86
+#, kde-format
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr "選擇此項以使用遠端的命令殼登入遠端主機。"
+
+#: HostConnector.cpp:89
+#, kde-format
+msgid "Daemon"
+msgstr "伺服程式"
+
+#: HostConnector.cpp:90
+#, kde-format
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+"如果您想要連線到在您要連接的機器上執行並聽取客戶端要求ksysguard 伺服程式，請"
+"選擇此項。"
+
+#: HostConnector.cpp:93
+#, kde-format
+msgid "Custom command"
+msgstr "自訂指令"
+
+#: HostConnector.cpp:94
+#, kde-format
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr "選擇這個以使用您在下面輸入的命令啟動遠端主機的 ksysguardd。"
+
+#: HostConnector.cpp:97
+#, kde-format
+msgid "Port:"
+msgstr "埠號："
+
+#: HostConnector.cpp:104
+#, kde-format
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr "輸入 Ksysguard 伺服程式聽取連線的埠號。"
+
+#: HostConnector.cpp:107
+#, kde-format
+msgid "e.g.  3112"
+msgstr "例如 3112"
+
+#: HostConnector.cpp:110
+#, kde-format
+msgid "Command:"
+msgstr "指令："
+
+#: HostConnector.cpp:119
+#, kde-format
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr "輸入啟動您要監視的主機上 ksysguardd 的命令。"
+
+#: HostConnector.cpp:123
+#, kde-format
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr "例如 ssh -l root remote.host.org ksysguardd"
+
+#: ksysguard.cpp:75
+#, kde-format
+msgid "KDE System Monitor"
+msgstr "KDE  系統監視器"
+
+#: ksysguard.cpp:162 ksysguard.cpp:537
+#, kde-format
+msgid "System Monitor"
+msgstr "系統監視器"
+
+#: ksysguard.cpp:163
+#, kde-format
+msgid "&Refresh Tab"
+msgstr "重新整理分頁(&R)"
+
+#: ksysguard.cpp:164
+#, kde-format
+msgid "&New Tab..."
+msgstr "新增分頁(&N)..."
+
+#: ksysguard.cpp:165
+#, kde-format
+msgid "Import Tab Fr&om File..."
+msgstr "從檔案匯入分頁(&O)..."
+
+#: ksysguard.cpp:166
+#, kde-format
+msgid "Save Tab &As..."
+msgstr "另存分頁(&A)..."
+
+#: ksysguard.cpp:167
+#, kde-format
+msgid "&Close Tab"
+msgstr "關閉分頁(&C)"
+
+#: ksysguard.cpp:168
+#, kde-format
+msgid "Monitor &Remote Machine..."
+msgstr "監視遠端的機器(&R)..."
+
+#: ksysguard.cpp:169
+#, kde-format
+msgid "&Download New Tabs..."
+msgstr "下載新分頁(&D)..."
+
+#: ksysguard.cpp:170
+#, kde-format
+msgid "&Upload Current Tab..."
+msgstr "上傳目前的分頁(&U)..."
+
+#: ksysguard.cpp:172
+#, kde-format
+msgid "Tab &Properties"
+msgstr "分頁屬性(&P)"
+
+#: ksysguard.cpp:367
+#, kde-format
+msgid "1 process1"
+msgid_plural "%1 processes%1"
+msgstr[0] "%1 個行程%1"
+
+#: ksysguard.cpp:446
+#, kde-format
+msgid "CPU: %1%%1%"
+msgstr "CPU: %1%%1%"
+
+#: ksysguard.cpp:461
+#, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
+msgstr "記憶體：%1 / %2記憶體: %1 / %2記憶體: %1%1"
+
+#: ksysguard.cpp:488
+#, kde-format
+msgid " No swap space available "
+msgstr "沒有可用的置換空間"
+
+#: ksysguard.cpp:490
+#, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid "Swap: %1 / %2Swap: %1%1"
+msgstr "置換空間: %1 / %2置換空間: %1%1"
+
+#: ksysguard.cpp:539
+#, kde-format
+msgid "(c) 1996-2016 The KDE System Monitor Developers"
+msgstr "(c) 1996-2016 KDE 系統監視器開發團隊"
+
+#: ksysguard.cpp:541
+#, kde-format
+msgid "John Tapsell"
+msgstr "John Tapsell"
+
+#: ksysguard.cpp:541
+#, kde-format
+msgid "Current Maintainer"
+msgstr "目前維護者"
+
+#: ksysguard.cpp:542
+#, kde-format
+msgid "Chris Schlaeger"
+msgstr "Chris Schlaeger"
+
+#: ksysguard.cpp:542
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "之前的維護者"
+
+#: ksysguard.cpp:543
+#, kde-format
+msgid "Greg Martyn"
+msgstr "Greg Martyn"
+
+#: ksysguard.cpp:544
+#, kde-format
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: ksysguard.cpp:545
+#, kde-format
+msgid "Nicolas Leclercq"
+msgstr "Nicolas Leclercq"
+
+#: ksysguard.cpp:546
+#, kde-format
+msgid "Alex Sanda"
+msgstr "Alex Sanda"
+
+#: ksysguard.cpp:547
+#, kde-format
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: ksysguard.cpp:548
+#, kde-format
+msgid "Ralf Mueller"
+msgstr "Ralf Mueller"
+
+#: ksysguard.cpp:549
+#, kde-format
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: ksysguard.cpp:550
+#, kde-format
+msgid "Torsten Kasch"
+msgstr "Torsten Kasch"
+
+#: ksysguard.cpp:550
+#, kde-format
+msgid ""
+"Solaris Support\n"
+"Parts derived (by permission) from the sunos5\n"
+"module of William LeFebvre's \"top\" utility."
+msgstr ""
+"Solaris 支援\n"
+"從 William LeFebvre's 「top」公用程式的 sunos5\n"
+"模組得到(授權)的組件。"
+
+#: ksysguard.cpp:559
+#, kde-format
+msgid "Optional worksheet files to load"
+msgstr "選擇性載入的工作表"
+
+#. i18n: ectx: Menu (file)
+#: ksysguardui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "檔案(&F)"
+
+#. i18n: ectx: Menu (view)
+#: ksysguardui.rc:14
+#, kde-format
+msgid "&View"
+msgstr "檢視(&V)"
+
+#. i18n: ectx: Menu (settings)
+#: ksysguardui.rc:18
+#, kde-format
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ksysguardui.rc:21
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#. i18n: tag WorkSheet attribute title
+#. i18n: tag display attribute title
+#: ProcessTable.sgrd:3 ProcessTable.sgrd:5
+#, kde-format
+msgid "Process Table"
+msgstr "行程表"
+
+#: SensorBrowser.cpp:113
+#, kde-format
+msgid "Sensor Browser"
+msgstr "偵測器瀏覽程式"
+
+#: SensorBrowser.cpp:470
+#, kde-format
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr "將偵測器拖曳到工作表中的空白欄位。"
+
+#: SensorBrowser.cpp:471
+#, kde-format
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+"偵測器瀏覽器列出目前連線的主機與他們所提供的偵測器。拖曳偵測器到工作表。顯示"
+"器將出現偵測器並提供視覺化顯示的數值。有些偵測器顯示可以顯示多個偵測器的數"
+"值。只要拖曳其他的偵測器到顯示器上便可以增加偵測器。"
+
+#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#: SensorDisplayLib/DancingBars.cpp:94 SensorDisplayLib/FancyPlotter.cpp:281
+#: SensorDisplayLib/FancyPlotter.cpp:522 SensorDisplayLib/FancyPlotter.cpp:600
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:43
+#, kde-format
+msgid "Edit BarGraph Preferences"
+msgstr "編輯長條圖偏好設定"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:52
+#, kde-format
+msgid "Range"
+msgstr "範圍"
+
+#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
+#: SensorDisplayLib/DancingBarsSettings.cpp:56
+#: SensorDisplayLib/ListViewSettingsWidget.ui:17
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:17 WorkSheetSettings.cpp:62
+#, kde-format
+msgid "Title"
+msgstr "標題"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, m_title)
+#: SensorDisplayLib/DancingBarsSettings.cpp:61
+#: SensorDisplayLib/FancyPlotterSettings.cpp:71
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:36
+#, kde-format
+msgid "Enter the title of the display here."
+msgstr "在這邊輸入顯示的標題。"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:66
+#, kde-format
+msgid "Display Range"
+msgstr "顯示範圍"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:71
+#: SensorDisplayLib/FancyPlotterSettings.cpp:97
+#, kde-format
+msgid "Minimum value:"
+msgstr "最小值："
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:79
+#, kde-format
+msgid ""
+"Enter the minimum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr "在這邊輸入顯示的最小值。如果二個數值都是 0 ，將會啟用自動偵測範圍。"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:83
+#: SensorDisplayLib/FancyPlotterSettings.cpp:108
+#, kde-format
+msgid "Maximum value:"
+msgstr "最大值："
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:91
+#, kde-format
+msgid ""
+"Enter the maximum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr "在這邊輸入顯示的最大值。如果二個數值都是 0 ，將會啟用自動偵測範圍。"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:101
+#, kde-format
+msgid "Alarms"
+msgstr "警報"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: SensorDisplayLib/DancingBarsSettings.cpp:105
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:78
+#, kde-format
+msgid "Alarm for Minimum Value"
+msgstr "最小值的警報"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:110
+#: SensorDisplayLib/DancingBarsSettings.cpp:133
+#, kde-format
+msgid "Enable alarm"
+msgstr "啟用鬧鈴"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cpp:111
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:57
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:96
+#, kde-format
+msgid "Enable the minimum value alarm."
+msgstr "啟用最小值警報。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
+#: SensorDisplayLib/DancingBarsSettings.cpp:114
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:125
+#, kde-format
+msgid "Lower limit:"
+msgstr "下限："
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
+#: SensorDisplayLib/DancingBarsSettings.cpp:128
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:151
+#, kde-format
+msgid "Alarm for Maximum Value"
+msgstr "最大值的警報"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cpp:134
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:116
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:169
+#, kde-format
+msgid "Enable the maximum value alarm."
+msgstr "啟用最大值警報。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
+#: SensorDisplayLib/DancingBarsSettings.cpp:137
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:198
+#, kde-format
+msgid "Upper limit:"
+msgstr "上限："
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:154
+#, kde-format
+msgctxt "@title:tab Appearance of the bar graph"
+msgid "Look"
+msgstr "監看"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:158
+#, kde-format
+msgid "Normal bar color:"
+msgstr "正常長條顏色："
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:165
+#, kde-format
+msgid "Out-of-range color:"
+msgstr "超過範圍的顏色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: SensorDisplayLib/DancingBarsSettings.cpp:172
+#: SensorDisplayLib/ListViewSettingsWidget.ui:105
+#: SensorDisplayLib/LogFile.cpp:105 SensorDisplayLib/LogFileSettings.ui:85
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:92
+#, kde-format
+msgid "Background color:"
+msgstr "背景顏色："
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:179
+#: SensorDisplayLib/FancyPlotterSettings.cpp:178
+#, kde-format
+msgid "Font size:"
+msgstr "字型大小："
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:184
+#, kde-format
+msgid ""
+"This determines the size of the font used to print a label underneath the "
+"bars. Bars are automatically suppressed if text becomes too large, so it is "
+"advisable to use a small font size here."
+msgstr ""
+"這個會偵測顯示在長條圖下面的字型大小。如果字型太大的話長條圖將會自動隱藏，所"
+"以我們建議你使用較小的字型大小。"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:192
+#: SensorDisplayLib/FancyPlotterSettings.cpp:194
+#, kde-format
+msgid "Sensors"
+msgstr "偵測器"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:204
+#, kde-format
+msgid "Edit..."
+msgstr "編輯..."
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:205
+#, kde-format
+msgid "Push this button to configure the label."
+msgstr "按下這個按鈕以設定標籤。"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:208
+#: SensorDisplayLib/FancyPlotterSettings.cpp:226
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:209
+#: SensorDisplayLib/FancyPlotterSettings.cpp:227
+#, kde-format
+msgid "Push this button to delete the sensor."
+msgstr "按下這個按鈕以刪除偵測器。"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:361
+#, kde-format
+msgid "Label of Bar Graph"
+msgstr "長條圖的標籤"
+
+#: SensorDisplayLib/DancingBarsSettings.cpp:362
+#, kde-format
+msgid "Enter new label:"
+msgstr "輸入新標籤："
+
+#: SensorDisplayLib/DummyDisplay.cpp:31 SensorDisplayLib/DummyDisplay.cpp:39
+#, kde-format
+msgid "Drop Sensor Here"
+msgstr "在這邊放置偵測器"
+
+#: SensorDisplayLib/DummyDisplay.cpp:33
+#, kde-format
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"這是工作表的空白空間。從偵測器瀏覽器拖曳一個偵測器到這邊。偵測器將會出現並讓"
+"您可以隨時監控這個偵測器的數值。"
+
+#: SensorDisplayLib/FancyPlotter.cpp:177
+#, kde-format
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr "99999 XXXX"
+
+#: SensorDisplayLib/FancyPlotter.cpp:518 SensorDisplayLib/FancyPlotter.cpp:589
+#: SensorDisplayLib/FancyPlotter.cpp:652
+#, kde-format
+msgctxt "units"
+msgid "%1%"
+msgstr "%1%"
+
+#: SensorDisplayLib/FancyPlotter.cpp:526
+#, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr "<p><b>%1：</b><br>"
+
+#: SensorDisplayLib/FancyPlotter.cpp:597
+#, kde-format
+msgid "%1 of %2%1"
+msgstr "%1 / %2  %1"
+
+#: SensorDisplayLib/FancyPlotter.cpp:625
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB"
+msgstr "%1 TB"
+
+#: SensorDisplayLib/FancyPlotter.cpp:628
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB"
+msgstr "%1 GB"
+
+#: SensorDisplayLib/FancyPlotter.cpp:631
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB"
+msgstr "%1 MB"
+
+#: SensorDisplayLib/FancyPlotter.cpp:634
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB"
+msgstr "%1 KB"
+
+#: SensorDisplayLib/FancyPlotter.cpp:639
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB/s"
+msgstr "%1 TB/s"
+
+#: SensorDisplayLib/FancyPlotter.cpp:642
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB/s"
+msgstr "%1 GB/s"
+
+#: SensorDisplayLib/FancyPlotter.cpp:645
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB/s"
+msgstr "%1 MB/s"
+
+#: SensorDisplayLib/FancyPlotter.cpp:648
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB/s"
+msgstr "%1 KB/s"
+
+#: SensorDisplayLib/FancyPlotter.cpp:654
+#, kde-format
+msgctxt "unitless - just a number"
+msgid "%1"
+msgstr "%1"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:47
+#, kde-format
+msgid "Plotter Settings"
+msgstr "繪圖器設定"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:63
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:67
+#, kde-format
+msgid "Title:"
+msgstr "標題："
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:75
+#, kde-format
+msgid "Stack the beams on top of each other"
+msgstr "將光束堆到彼此的頂端"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:76
+#, kde-format
+msgid ""
+"The beams are stacked on top of each other, and the area is drawn filled in. "
+"So if one beam has a value of 2 and another beam has a value of 3, the first "
+"beam will be drawn at value 2 and the other beam drawn at 2+3=5."
+msgstr ""
+"將光束堆到彼此的頂端，以及填入區域。所以若是其中一個光束值為 2，另一個為 3，"
+"則第一個光束會被畫成光束值 2，另一個則為 2+3=5"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:83
+#, kde-format
+msgid "Scales"
+msgstr "比例"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:87
+#, kde-format
+msgid "Vertical scale"
+msgstr "垂直比例"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:92
+#, kde-format
+msgid "Specify graph range:"
+msgstr "指定圖形範圍："
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:93
+#, kde-format
+msgid ""
+"Check this box if you want the display range to adapt dynamically to the "
+"currently displayed values; if you do not check this, you have to specify "
+"the range you want in the fields below."
+msgstr ""
+"如果你想要顯示的範圍自動對應目前能夠顯示的數值，請核取此方塊；如果你沒有核"
+"取，那麼你必須在下面的欄位中指定您想要的範圍。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:103
+#, kde-format
+msgid "Enter the minimum value for the display here."
+msgstr "在這邊輸入顯示的最小值。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:114
+#, kde-format
+msgid ""
+"Enter the soft maximum value for the display here. The upper range will not "
+"be reduced below this value, but will still go above this number for values "
+"above this value."
+msgstr "輸入顯示的最大值限制。達到上限時不會縮小。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:121
+#, kde-format
+msgid "Horizontal scale"
+msgstr "水平比例"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:129
+#, kde-format
+msgid "Pixels per time period:"
+msgstr "每個時間間隔的像素："
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:136
+#, kde-format
+msgid "Grid"
+msgstr "格子"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:140
+#, kde-format
+msgid "Lines"
+msgstr "線"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:145
+#, kde-format
+msgid "Vertical lines"
+msgstr "垂直線"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:146
+#, kde-format
+msgid "Check this to activate the vertical lines if display is large enough."
+msgstr "如果顯示夠大，你可以核取這個啟動垂直線。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:149
+#, kde-format
+msgid "Distance:"
+msgstr "距離："
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:156
+#, kde-format
+msgid "Enter the distance between two vertical lines here."
+msgstr "在這裡輸入兩個垂直線之間的距離。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:160
+#, kde-format
+msgid "Vertical lines scroll"
+msgstr "垂直捲動軸"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:163
+#, kde-format
+msgid "Horizontal lines"
+msgstr "水平線"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:164
+#, kde-format
+msgid "Check this to enable horizontal lines if display is large enough."
+msgstr "如果顯示夠大，你可以核取這個以顯示水平線。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:169
+#, kde-format
+msgid "Text"
+msgstr "文字"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:174
+#, kde-format
+msgid "Show axis labels"
+msgstr "顯示軸標籤"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:175
+#, kde-format
+msgid ""
+"Check this box if horizontal lines should be decorated with the values they "
+"mark."
+msgstr "如果水平線應該依照其標記的數值來佈置，請核取此方塊。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:218
+#, kde-format
+msgid "Set Color..."
+msgstr "設定色彩..."
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:219
+#, kde-format
+msgid "Push this button to configure the color of the sensor in the diagram."
+msgstr "按下這個按鈕以設定圖表中偵測器的顏色。"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:231
+#, kde-format
+msgid "Move Up"
+msgstr "上移"
+
+#: SensorDisplayLib/FancyPlotterSettings.cpp:236
+#, kde-format
+msgid "Move Down"
+msgstr "下移"
+
+#: SensorDisplayLib/ListView.cpp:44
+#, kde-format
+msgid "%1 K"
+msgstr "%1 K"
+
+#: SensorDisplayLib/ListView.cpp:45
+#, kde-format
+msgid "%1 M"
+msgstr "%1 M"
+
+#: SensorDisplayLib/ListView.cpp:46
+#, kde-format
+msgid "%1 G"
+msgstr "%1 G"
+
+#: SensorDisplayLib/ListView.cpp:47
+#, kde-format
+msgid "%1 T"
+msgstr "%1 T"
+
+#: SensorDisplayLib/ListView.cpp:48
+#, kde-format
+msgid "%1 P"
+msgstr "%1 P"
+
+#: SensorDisplayLib/ListView.cpp:151
+#, kde-format
+msgid "Display Units"
+msgstr "顯示單位"
+
+#: SensorDisplayLib/ListView.cpp:155
+#, kde-format
+msgid "Mixed"
+msgstr "混合"
+
+#: SensorDisplayLib/ListView.cpp:161
+#, kde-format
+msgid "Kilobytes"
+msgstr "KBytes"
+
+#: SensorDisplayLib/ListView.cpp:167
+#, kde-format
+msgid "Megabytes"
+msgstr "MBytes"
+
+#: SensorDisplayLib/ListView.cpp:173
+#, kde-format
+msgid "Gigabytes"
+msgstr "GBytes"
+
+#: SensorDisplayLib/ListView.cpp:179
+#, kde-format
+msgid "Terabytes"
+msgstr "TBytes"
+
+#: SensorDisplayLib/ListViewSettings.cpp:30
+#, kde-format
+msgid "List View Settings"
+msgstr "列出檢視設定值"
+
+#. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
+#: SensorDisplayLib/ListViewSettingsWidget.ui:47
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:47
+#, kde-format
+msgid "Colors"
+msgstr "顏色"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/ListViewSettingsWidget.ui:79
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:79
+#, kde-format
+msgid "Text color:"
+msgstr "文字顏色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: SensorDisplayLib/ListViewSettingsWidget.ui:92
+#, kde-format
+msgid "Grid color:"
+msgstr "格子顏色："
+
+#: SensorDisplayLib/LogFile.cpp:93
+#, kde-format
+msgid "File logging settings"
+msgstr "檔案紀錄設定"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cpp:103 SensorDisplayLib/LogFileSettings.ui:72
+#, kde-format
+msgid "Foreground color:"
+msgstr "前景顏色："
+
+#. i18n: ectx: attribute (title), widget (QWidget, textTab)
+#: SensorDisplayLib/LogFileSettings.ui:21
+#, kde-format
+msgid "&Text"
+msgstr "文字(&T)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SensorDisplayLib/LogFileSettings.ui:29
+#, kde-format
+msgid "T&itle:"
+msgstr "標題(&I)："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: SensorDisplayLib/LogFileSettings.ui:166
+#, kde-format
+msgid "Fi&lter"
+msgstr "過濾(&L)"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: SensorDisplayLib/LogFileSettings.ui:196
+#, kde-format
+msgid "&Add"
+msgstr "新增(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: SensorDisplayLib/LogFileSettings.ui:203
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#. i18n: ectx: property (text), widget (QPushButton, changeButton)
+#: SensorDisplayLib/LogFileSettings.ui:210
+#, kde-format
+msgid "&Change"
+msgstr "改變(&C)"
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:33
+#, kde-format
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "多重儀表設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:26
+#, kde-format
+msgid "&Title:"
+msgstr "標題(&T)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:43
+#, kde-format
+msgid "Enable this to append the unit to the title of the display."
+msgstr "啟用此項來讓顯示的標題加上單位。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:46
+#, kde-format
+msgid "&Show unit"
+msgstr "顯示單位(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:60
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:99
+#, kde-format
+msgid "&Enable alarm"
+msgstr "啟用警報(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:86
+#, kde-format
+msgid "&Lower limit:"
+msgstr "下限(&L)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:119
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:172
+#, kde-format
+msgid "E&nable alarm"
+msgstr "啟用警報(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:145
+#, kde-format
+msgid "&Upper limit:"
+msgstr "上限(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:175
+#, kde-format
+msgid "Nor&mal digit color:"
+msgstr "一般數位顏色(&M)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:205
+#, kde-format
+msgid "Alarm di&git color:"
+msgstr "警報數位顏色(&G)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: SensorDisplayLib/MultiMeterSettingsWidget.ui:235
+#, kde-format
+msgid "Bac&kground color:"
+msgstr "背景顏色(&K)："
+
+#: SensorDisplayLib/SensorDisplay.cpp:116 SensorDisplayLib/SensorLogger.cpp:597
+#, kde-format
+msgid "&Properties"
+msgstr "屬性(&P)"
+
+#: SensorDisplayLib/SensorDisplay.cpp:121 SensorDisplayLib/SensorLogger.cpp:602
+#, kde-format
+msgid "&Remove Display"
+msgstr "移除顯示(&R)"
+
+#: SensorDisplayLib/SensorDisplay.cpp:188
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+"<qt><p>這是偵測器顯示。要自訂一個偵測器顯示，在外框或顯示方塊上按下並按住滑鼠"
+"右鍵並選擇跳出選單中的 <i>內容</i> 項目。選擇 <i>移除</i> 可以從工作表中刪除"
+"顯示。</p>%1</qt>"
+
+#: SensorDisplayLib/SensorLogger.cpp:137
+#, kde-format
+msgctxt "@title:column"
+msgid "Logging"
+msgstr "紀錄"
+
+#: SensorDisplayLib/SensorLogger.cpp:140
+#, kde-format
+msgctxt "@title:column"
+msgid "Timer Interval"
+msgstr "計時間隔"
+
+#: SensorDisplayLib/SensorLogger.cpp:143
+#, kde-format
+msgctxt "@title:column"
+msgid "Sensor Name"
+msgstr "偵測器名稱"
+
+#: SensorDisplayLib/SensorLogger.cpp:146
+#, kde-format
+msgctxt "@title:column"
+msgid "Host Name"
+msgstr "主機名稱"
+
+#: SensorDisplayLib/SensorLogger.cpp:149
+#, kde-format
+msgctxt "@title:column"
+msgid "Log File"
+msgstr "紀錄檔"
+
+#: SensorDisplayLib/SensorLogger.cpp:428
+#: SensorDisplayLib/SensorLoggerDlg.cpp:30
+#, kde-format
+msgid "Sensor Logger"
+msgstr "偵測記錄器"
+
+#: SensorDisplayLib/SensorLogger.cpp:607
+#, kde-format
+msgid "&Remove Sensor"
+msgstr "移除偵測器(&R)"
+
+#: SensorDisplayLib/SensorLogger.cpp:612
+#, kde-format
+msgid "&Edit Sensor..."
+msgstr "編輯偵測器(&E)..."
+
+#: SensorDisplayLib/SensorLogger.cpp:620
+#, kde-format
+msgid "St&op Logging"
+msgstr "停止紀錄(&O)"
+
+#: SensorDisplayLib/SensorLogger.cpp:623
+#, kde-format
+msgid "S&tart Logging"
+msgstr "開始紀錄(&T)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:17
+#, kde-format
+msgid "File"
+msgstr "檔案"
+
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:41
+#, kde-format
+msgctxt "@title:group"
+msgid "Timer Interval"
+msgstr "計時間隔"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_timerInterval)
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 TimerSettings.cpp:57
+#: WorkSheetSettings.cpp:111
+#, kde-format
+msgid " sec"
+msgstr " 秒"
+
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+#, kde-format
+msgid "Sensor Logger Settings"
+msgstr "偵測記錄器設定"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:105
+#, kde-format
+msgid "Alarm color:"
+msgstr "警示顏色："
+
+#: SensorDisplayLib/SensorModel.cpp:166
+#, kde-format
+msgid "Host"
+msgstr "主機"
+
+#: SensorDisplayLib/SensorModel.cpp:169
+#, kde-format
+msgid "Sensor"
+msgstr "偵測器"
+
+#: SensorDisplayLib/SensorModel.cpp:172
+#, kde-format
+msgid "Unit"
+msgstr "單位"
+
+#: SensorDisplayLib/SensorModel.cpp:175
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#: SensorDisplayLib/SensorModel.cpp:178
+#, kde-format
+msgid "Label"
+msgstr "標籤"
+
+#. i18n: tag WorkSheet attribute title
+#: SystemLoad2.sgrd:3
+#, kde-format
+msgid "System Load"
+msgstr "系統負載"
+
+#. i18n: tag display attribute title
+#: SystemLoad2.sgrd:5
+#, kde-format
+msgid "CPU History"
+msgstr "CPU 歷史"
+
+#. i18n: tag display attribute title
+#: SystemLoad2.sgrd:8
+#, kde-format
+msgid "Memory and Swap History"
+msgstr "記憶體與置換區歷史"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:9
+#, kde-format
+msgid "Memory"
+msgstr "記憶體"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:10
+#, kde-format
+msgid "Swap"
+msgstr "置換空間"
+
+#. i18n: tag display attribute title
+#: SystemLoad2.sgrd:12
+#, kde-format
+msgid "Network History"
+msgstr "網路歷史"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:13
+#, kde-format
+msgid "Receiving"
+msgstr "接收"
+
+#. i18n: tag beam attribute summationName
+#: SystemLoad2.sgrd:14
+#, kde-format
+msgid "Sending"
+msgstr "傳送"
+
+#: TimerSettings.cpp:37
+#, kde-format
+msgid "Timer Settings"
+msgstr "計時器設定"
+
+#: TimerSettings.cpp:47
+#, kde-format
+msgid "Use update interval of worksheet"
+msgstr "使用工作表更新間隔"
+
+#: TimerSettings.cpp:50 WorkSheetSettings.cpp:104
+#, kde-format
+msgid "Update interval:"
+msgstr "更新間隔："
+
+#: TimerSettings.cpp:60 WorkSheetSettings.cpp:117
+#, kde-format
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr "所有的工作表顯示都會依照這邊設定的頻率更新。"
+
+#: WorkSheet.cpp:87
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "無法開啟檔案 %1。"
+
+#: WorkSheet.cpp:95
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "檔案 %1 沒有包含任何有效的 XML 內容。"
+
+#: WorkSheet.cpp:102
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"檔案 %1 不包含有效的工作表定義，其中必須有“KsysGuardWorkSheet”的文件類型。"
+
+#: WorkSheet.cpp:114
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "檔案 %1 含有不合法的工作表大小。"
+
+#: WorkSheet.cpp:239
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "無法儲存檔案 %1"
+
+#: WorkSheet.cpp:285
+#, kde-format
+msgid "The clipboard does not contain a valid display description."
+msgstr "剪貼簿並沒有包含合法的顯示敘述。"
+
+#: WorkSheet.cpp:385
+#, kde-format
+msgid "Select Display Type"
+msgstr "選擇顯示類型"
+
+#: WorkSheet.cpp:386
+#, kde-format
+msgid "&Line graph"
+msgstr "線性圖(&L)"
+
+#: WorkSheet.cpp:387
+#, kde-format
+msgid "&Digital display"
+msgstr "數位顯示(&D)"
+
+#: WorkSheet.cpp:388
+#, kde-format
+msgid "&Bar graph"
+msgstr "長條圖(&B)"
+
+#: WorkSheet.cpp:389
+#, kde-format
+msgid "Log to a &file"
+msgstr "紀錄到檔案(&F)"
+
+#: WorkSheet.cpp:545
+#, kde-format
+msgid "Remove this display?"
+msgstr "要移除顯示嗎？"
+
+#: WorkSheet.cpp:546
+#, kde-format
+msgid "Remove Display"
+msgstr "移除顯示"
+
+#: WorkSheet.cpp:587
+#, kde-format
+msgid "Dummy"
+msgstr "空的"
+
+#: WorkSheetSettings.cpp:44
+#, kde-format
+msgid "Tab Properties"
+msgstr "分頁屬性"
+
+#: WorkSheetSettings.cpp:73
+#, kde-format
+msgid "Properties"
+msgstr "屬性"
+
+#: WorkSheetSettings.cpp:82
+#, kde-format
+msgid "Rows:"
+msgstr "列："
+
+#: WorkSheetSettings.cpp:92
+#, kde-format
+msgid "Columns:"
+msgstr "欄："
+
+#: WorkSheetSettings.cpp:101
+#, kde-format
+msgid "Enter the number of rows the sheet should have."
+msgstr "請輸入該工作表應有的列數。"
+
+#: WorkSheetSettings.cpp:102
+#, kde-format
+msgid "Enter the number of columns the sheet should have."
+msgstr "請輸入該工作表應有的欄位數量。"
+
+#: WorkSheetSettings.cpp:118
+#, kde-format
+msgid "Enter the title of the worksheet here."
+msgstr "在這裡輸入工作表的標題。"
+
+#: Workspace.cpp:111
+#, kde-format
+msgid "Sheet %1"
+msgstr "工作表 %1"
+
+#: Workspace.cpp:170
+#, kde-format
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
+"分頁“%1”包含未儲存的資料。\n"
+"您是否要儲存分頁？"
+
+#: Workspace.cpp:186
+#, kde-format
+msgid "Select Tab File to Import"
+msgstr "選擇要匯入的分頁檔"
+
+#: Workspace.cpp:208 Workspace.cpp:228
+#, kde-format
+msgid "You do not have a tab that could be saved."
+msgstr "您沒有可以被儲存的分頁。"
+
+#: Workspace.cpp:235
+#, kde-format
+msgid "Export Tab"
+msgstr "匯出分頁"
+
+#: Workspace.cpp:255
+#, kde-format
+msgid "There are no tabs that could be deleted."
+msgstr "沒有可以刪除的分頁。"
+
+#: Workspace.cpp:299
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>You can publish your custom tab on the <link url='%1'>KDE Store</link> "
+"in the <icode>%2</icode> category.</para><para><filename>%3</filename></para>"
+msgstr ""
+
+#: Workspace.cpp:304
+#, kde-format
+msgid "Upload custom System Monitor tab"
+msgstr "上傳自訂的系統監視器分頁"
+
+#~ msgid ""
+#~ "<qt>To propose the current custom tab as a new System Monitor tab, email "
+#~ "<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde."
+#~ "org?subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde."
+#~ "org</a></qt>"
+#~ msgstr ""
+#~ "<qt>要建議將目前的自訂分頁做為系統監視分頁，請傳送<br> <a href=\"file:"
+#~ "%1\">%2</a><br> 到 <a href=\"mailto:john.tapsell@kde.org?subject='System "
+#~ "Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></qt>"
+
+#~ msgid "*.sgrd|Sensor Files (*.sgrd)"
+#~ msgstr "*.sgrd|偵測器檔案（*.sgrd）"
+
+#~ msgid "Lo&wer limit:"
+#~ msgstr "下限(&W)："
+
+#~ msgctxt "%1 is a host name"
+#~ msgid ""
+#~ "Message from %1:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "來自 %1 的訊息：\n"
+#~ "%2"
+
+#~ msgid "Could not run daemon program '%1'."
+#~ msgstr "無法啟動守護程式 %1。"
+
+#~ msgid "The daemon program '%1' failed."
+#~ msgstr "守護程式 %1 失敗。"
+
+#~ msgid "Connection to %1 refused"
+#~ msgstr "到 %1 的連線被拒絕！"
+
+#~ msgid "Host %1 not found"
+#~ msgstr "找不到主機 %1"
+
+#~ msgid ""
+#~ "An error occurred with the network (e.g. the network cable was "
+#~ "accidentally unplugged) for host %1."
+#~ msgstr "主機 %1 的網路發生錯誤（例如網路線可能突然被拔掉）"
+
+#~ msgid "Error for host %1: %2"
+#~ msgstr "主機 %1 發生錯誤：%2"
+
+#~ msgid "Change"
+#~ msgstr "改變"
+
+#~ msgid "Rate"
+#~ msgstr "比率"
+
+#~ msgid "CPU Load"
+#~ msgstr "CPU 負載"
+
+#~ msgid "Idling"
+#~ msgstr "閒置中"
+
+#~ msgid "Nice Load"
+#~ msgstr "優先負載"
+
+#~ msgid "User Load"
+#~ msgstr "使用者負載"
+
+#~ msgctxt "@item sensor description"
+#~ msgid "System Load"
+#~ msgstr "系統負載"
+
+#~ msgid "Waiting"
+#~ msgstr "等待中"
+
+#~ msgid "Interrupt Load"
+#~ msgstr "中斷負載"
+
+#~ msgid "Total Load"
+#~ msgstr "總負載"
+
+#~ msgid "Physical Memory"
+#~ msgstr "實體記憶體"
+
+#~ msgid "Swap Memory"
+#~ msgstr "交換記憶體"
+
+#~ msgid "Cached Memory"
+#~ msgstr "快取記憶體"
+
+#~ msgid "Buffered Memory"
+#~ msgstr "緩衝記憶體"
+
+#~ msgid "Used Memory"
+#~ msgstr "已使用記憶體"
+
+#~ msgid "Application Memory"
+#~ msgstr "應用程式記憶體"
+
+#~ msgid "Free Memory"
+#~ msgstr "剩餘記憶體"
+
+#~ msgid "Active Memory"
+#~ msgstr "作用中記憶體"
+
+#~ msgid "Inactive Memory"
+#~ msgstr "非作用中記憶體"
+
+#~ msgid "Wired Memory"
+#~ msgstr "有線記憶體"
+
+#~ msgid "Exec Pages"
+#~ msgstr "執行頁"
+
+#~ msgid "File Pages"
+#~ msgstr "檔案頁"
+
+#~ msgid "Processes"
+#~ msgstr "行程"
+
+#~ msgid "Process Controller"
+#~ msgstr "行程控制器"
+
+#~ msgid "Last Process ID"
+#~ msgstr "最後行程代碼"
+
+#~ msgid "Process Spawn Count"
+#~ msgstr "行程衍生計數"
+
+#~ msgid "Process Count"
+#~ msgstr "行程計數"
+
+#~ msgid "Idle Processes Count"
+#~ msgstr "閒置行程計數"
+
+#~ msgid "Running Processes Count"
+#~ msgstr "執行中行程計數"
+
+#~ msgid "Sleeping Processes Count"
+#~ msgstr "睡眠中行程計數"
+
+#~ msgid "Stopped Processes Count"
+#~ msgstr "停止中行程計數"
+
+#~ msgid "Zombie Processes Count"
+#~ msgstr "僵屍行程計數"
+
+#~ msgid "Waiting Processes Count"
+#~ msgstr "等待中行程計數"
+
+#~ msgid "Locked Processes Count"
+#~ msgstr "已鎖定行程計數"
+
+#~ msgid "Disk Throughput"
+#~ msgstr "磁碟輸出"
+
+#~ msgctxt "CPU Load"
+#~ msgid "Load"
+#~ msgstr "負載"
+
+#~ msgid "Total Accesses"
+#~ msgstr "總存取數"
+
+#~ msgid "Read Accesses"
+#~ msgstr "讀取存取數"
+
+#~ msgid "Write Accesses"
+#~ msgstr "寫入存取數"
+
+#~ msgid "Read Data"
+#~ msgstr "已讀取資料"
+
+#~ msgid "Written Data"
+#~ msgstr "已寫入資料"
+
+#~ msgid "Milliseconds spent reading"
+#~ msgstr "讀取時間（毫秒）"
+
+#~ msgid "Milliseconds spent writing"
+#~ msgstr "寫入時間（毫秒）"
+
+#~ msgid "I/Os currently in progress"
+#~ msgstr "目前進行的 I/O"
+
+#~ msgid "Pages In"
+#~ msgstr "進入交換頁"
+
+#~ msgid "Pages Out"
+#~ msgstr "離開交換頁"
+
+#~ msgid "Context Switches"
+#~ msgstr "內容切換"
+
+#~ msgid "Traps"
+#~ msgstr "陷阱"
+
+#~ msgid "System Calls"
+#~ msgstr "系統呼叫"
+
+#~ msgid "Network"
+#~ msgstr "網路"
+
+#~ msgid "Interfaces"
+#~ msgstr "界面"
+
+#~ msgid "Transmitter"
+#~ msgstr "發送者"
+
+#~ msgid "Data Rate"
+#~ msgstr "資料比率"
+
+#~ msgid "Compressed Packets Rate"
+#~ msgstr "壓縮的封包比率"
+
+#~ msgid "Dropped Packets Rate"
+#~ msgstr "丟棄的封包比率"
+
+#~ msgid "Error Rate"
+#~ msgstr "錯誤比率"
+
+#~ msgid "FIFO Overruns Rate"
+#~ msgstr "FIFO 滿溢比率"
+
+#~ msgid "Frame Error Rate"
+#~ msgstr "訊框錯誤比率"
+
+#~ msgid "Multicast Packet Rate"
+#~ msgstr "多點傳送封包比率"
+
+#~ msgid "Packet Rate"
+#~ msgstr "封包比率"
+
+#~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
+#~ msgid "Carrier Loss Rate"
+#~ msgstr "載波遺失比率"
+
+#~ msgid "Collisions"
+#~ msgstr "碰撞"
+
+#~ msgid "Data"
+#~ msgstr "資料"
+
+#~ msgid "Compressed Packets"
+#~ msgstr "壓縮的封包"
+
+#~ msgid "Dropped Packets"
+#~ msgstr "丟棄的封包"
+
+#~ msgid "Errors"
+#~ msgstr "錯誤"
+
+#~ msgid "FIFO Overruns"
+#~ msgstr "FIFO 氾濫"
+
+#~ msgid "Frame Errors"
+#~ msgstr "框架錯誤"
+
+#~ msgid "Multicast Packets"
+#~ msgstr "多點傳送封包"
+
+#~ msgid "Packets"
+#~ msgstr "封包"
+
+#~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
+#~ msgid "Carrier Losses"
+#~ msgstr "載波遺失"
+
+#~ msgid "Sockets"
+#~ msgstr "Sockets"
+
+#~ msgid "Total Number"
+#~ msgstr "總量"
+
+#~ msgid "Table"
+#~ msgstr "表格"
+
+#~ msgid "Advanced Power Management"
+#~ msgstr "進階電源管理"
+
+#~ msgid "ACPI"
+#~ msgstr "ACPI"
+
+#~ msgid "Thermal Zone"
+#~ msgstr "高溫區"
+
+#~ msgid "Temperature"
+#~ msgstr "溫度"
+
+#~ msgid "Average CPU Temperature"
+#~ msgstr "平均 CPU 溫度"
+
+#~ msgid "Fan"
+#~ msgstr "風扇"
+
+#~ msgid "State"
+#~ msgstr "狀態"
+
+#~ msgid "Battery"
+#~ msgstr "電池"
+
+#~ msgid "Battery Capacity"
+#~ msgstr "電池容量"
+
+#~ msgid "Battery Charge"
+#~ msgstr "電池充電"
+
+#~ msgid "Battery Usage"
+#~ msgstr "電池用量"
+
+#~ msgid "Battery Voltage"
+#~ msgstr "電池電壓"
+
+#~ msgid "Battery Discharge Rate"
+#~ msgstr "電池放電率"
+
+#~ msgid "Remaining Time"
+#~ msgstr "剩餘時間"
+
+#~ msgid "Interrupts"
+#~ msgstr "中斷"
+
+#~ msgid "Load Average (1 min)"
+#~ msgstr "平均負載(1 分鐘)"
+
+#~ msgid "Load Average (5 min)"
+#~ msgstr "平均負載(5 分鐘)"
+
+#~ msgid "Load Average (15 min)"
+#~ msgstr "平均負載(15 分鐘)"
+
+#~ msgid "Clock Frequency"
+#~ msgstr "時鐘頻率"
+
+#~ msgid "Average Clock Frequency"
+#~ msgstr "平均時脈頻率"
+
+#~ msgid "Hardware Sensors"
+#~ msgstr "硬體偵測器"
+
+#~ msgid "Partition Usage"
+#~ msgstr "分割區使用量"
+
+#~ msgid "Used Space"
+#~ msgstr "已使用空間"
+
+#~ msgid "Free Space"
+#~ msgstr "剩餘空間"
+
+#~ msgid "Fill Level"
+#~ msgstr "填滿等級"
+
+#~ msgid "Used Inodes"
+#~ msgstr "已使用的 Inode"
+
+#~ msgid "Free Inodes"
+#~ msgstr "可使用的 Inode"
+
+#~ msgid "Inode Level"
+#~ msgstr "Inode 等級"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgid "Uptime"
+#~ msgstr "執行時間"
+
+#~ msgid "Linux Soft Raid (md)"
+#~ msgstr "Linux Soft Raid (md)"
+
+#~ msgid "Processors"
+#~ msgstr "處理器"
+
+#~ msgid "Cores"
+#~ msgstr "核心"
+
+#~ msgid "Number of Blocks"
+#~ msgstr "區塊數量"
+
+#~ msgid "Total Number of Devices"
+#~ msgstr "裝置總量"
+
+#~ msgid "Failed Devices"
+#~ msgstr "失敗的裝置"
+
+#~ msgid "Spare Devices"
+#~ msgstr "備用裝置"
+
+#~ msgid "Number of Raid Devices"
+#~ msgstr "Raid 裝置數量"
+
+#~ msgid "Working Devices"
+#~ msgstr "工作裝置"
+
+#~ msgid "Active Devices"
+#~ msgstr "啟用中裝置"
+
+#~ msgid "Number of Devices"
+#~ msgstr "裝置數量"
+
+#~ msgid "Resyncing Percent"
+#~ msgstr "重新同步百分比"
+
+#~ msgid "Disk Information"
+#~ msgstr "磁碟資訊"
+
+#~ msgid "CPU %1"
+#~ msgstr "CPU %1"
+
+#~ msgid "Disk %1"
+#~ msgstr "磁碟 %1"
+
+#~ msgid "Battery %1"
+#~ msgstr "電池 %1"
+
+#~ msgid "Fan %1"
+#~ msgstr "風扇 %1"
+
+#~ msgid "Temperature %1"
+#~ msgstr "溫度 %1"
+
+#~ msgid "Total"
+#~ msgstr "總計"
+
+#~ msgid "Software Interrupts"
+#~ msgstr "軟體中斷"
+
+#~ msgid "Hardware Interrupts"
+#~ msgstr "硬體中斷"
+
+#~ msgid "Int %1"
+#~ msgstr "中斷 %1"
+
+#~ msgctxt "the unit 1 per second"
+#~ msgid "1/s"
+#~ msgstr "1/s"
+
+#~ msgid "kBytes"
+#~ msgstr "千位元組"
+
+#~ msgctxt "the unit minutes"
+#~ msgid "min"
+#~ msgstr "分"
+
+#~ msgctxt "the frequency unit"
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgctxt "a percentage"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgctxt "the unit milliamperes"
+#~ msgid "mA"
+#~ msgstr "mA"
+
+#~ msgctxt "the unit milliampere hours"
+#~ msgid "mAh"
+#~ msgstr "mAh"
+
+#~ msgctxt "the unit milliwatts"
+#~ msgid "mW"
+#~ msgstr "mW"
+
+#~ msgctxt "the unit milliwatt hours"
+#~ msgid "mWh"
+#~ msgstr "mWh"
+
+#~ msgctxt "the unit millivolts"
+#~ msgid "mV"
+#~ msgstr "mV"
+
+#~ msgid "Integer Value"
+#~ msgstr "整數值"
+
+#~ msgid "Floating Point Value"
+#~ msgstr "浮點數"
+
+#~ msgctxt "Units"
+#~ msgid "%1 second"
+#~ msgid_plural "%1 seconds"
+#~ msgstr[0] "%1 秒"
+
+#~ msgctxt "Units"
+#~ msgid "%1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 分鐘"
+
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgctxt "Arguments are formatted byte sizes (used/total)"
+#~ msgid " Memory: %1 / %2 "
+#~ msgstr "記憶體：%1 / %2"
+
+#~ msgid "Font:"
+#~ msgstr "字型："
+
+#~ msgid "Grid lines:"
+#~ msgstr "格線："
+
+#~ msgid "Background:"
+#~ msgstr "背景："
+
+#~ msgid "Do you really want to delete the display?"
+#~ msgstr "您確定要刪除此顯示嗎？"
+
+#~ msgid "Delete Display"
+#~ msgstr "刪除顯示"
+
+#~ msgid "&Edit"
+#~ msgstr "編輯(&E)"
+
+#~ msgid "Automatic range"
+#~ msgstr "自動調整範圍"
+
+#~ msgid "Manual with ksysguardd's range"
+#~ msgstr "手動調整 ksysguard 的範圍"
+
+#~ msgid "Manual with user's range"
+#~ msgstr "手動調整使用者的範圍"
+
+#~ msgid ""
+#~ "Choose between the three following range policy:\n"
+#~ "\n"
+#~ "Automatic range: adapts dynamically to the currently displayed values\n"
+#~ "\n"
+#~ "Manual with ksysguardd's range: uses ksysguardd's range to set the "
+#~ "minimum and maximum value for the axis, please note that if the minimum "
+#~ "and maximum are not given by ksysguardd you should not choose this range "
+#~ "policy.\n"
+#~ "\n"
+#~ "Manual with user's range: specify your own minimum and maximum range "
+#~ "value for the axis in the fields below. Any range value provided by "
+#~ "ksysguardd will be ignored."
+#~ msgstr ""
+#~ "在以下三種範圍政策中選一種：\n"
+#~ "\n"
+#~ "自動調整範圍：動態自動調整\n"
+#~ "\n"
+#~ "手動調整 ksysguard 範圍：使用 ksysguard 的範圍來設定此軸的最小與最大值，注"
+#~ "意若最小值與最大值並非由 ksysguard 指定，您就不應該使用此選項。\n"
+#~ "\n"
+#~ "手動調整使用者範圍：您自己指定此軸的最小值與最大值。任何 ksysguard 提供的"
+#~ "範圍值都將被忽略。"
+
+#~ msgid "N/A"
+#~ msgstr "無"
+
+#~ msgctxt "units in percentage"
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid ""
+#~ "This is your work space. It holds your tabs. You need to create a new tab "
+#~ "(Menu File->New) before you can drag sensors here."
+#~ msgstr ""
+#~ "這是您的工作空間。他保存您的分頁。在您能拖曳新的偵測器前， 您必須建立新的"
+#~ "分頁（選單 檔案 -> 新增）。"
+
+#~ msgid "Connection to %1 has been lost."
+#~ msgstr "失去到 %1 的連線。"
+
+#~ msgid "&Title"
+#~ msgstr "標題(&T)"
+
+#~ msgid "T&itle"
+#~ msgstr "標題(&I)"
+
+#~ msgid "System Guard Applet Settings"
+#~ msgstr "系統守衛小程式設定"
+
+#~ msgid "Size ratio:"
+#~ msgstr "大小比率："
+
+#~ msgctxt "Number suffix in spinbox"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Launch &System Guard"
+#~ msgstr "啟動系統守衛(&S)"
+
+#~| msgid "Select Worksheet to Import"
+#~ msgid "Select Worksheet to Open"
+#~ msgstr "選擇要開啟的工作表"
+
+#~ msgid "Export Work Sheet"
+#~ msgstr "匯出工作表"
+
+#~ msgid "Worksheet Properties"
+#~ msgstr "工作表屬性"
+
+#~ msgid "&Signal Plotter"
+#~ msgstr "信號繪圖器(&S)"
+
+#~ msgid "&Multimeter"
+#~ msgstr "多重儀表(&M)"
+
+#~ msgid "&Dancing Bars"
+#~ msgstr "動態長條(&D)"
+
+#~ msgid ""
+#~ "The KSysGuard applet does not support displaying of this type of sensor. "
+#~ "Please choose another sensor."
+#~ msgstr "KSysGuard 小程式不支援此類型偵測器的顯示。請選擇其他偵測器。"
+
+#~ msgid ""
+#~ "The file %1 does not contain a valid applet definition, which must have a "
+#~ "document type 'KSysGuardApplet'."
+#~ msgstr ""
+#~ "檔案 %1 不包含有效的工作表定義，其中必須有“KSysGuardApplet”的文件類型。"
+
+#~ msgid "Drag sensors from the KDE System Guard into this cell."
+#~ msgstr "從 KDE  系統守衛拖曳偵測器到此欄位。"
+
+#~ msgid "&New Worksheet..."
+#~ msgstr "新增工作表(&N)..."
+
+#~| msgid "&New Worksheet..."
+#~ msgid "Open Worksheet..."
+#~ msgstr "開啟工作表..."
+
+#~ msgid "&Export Worksheet..."
+#~ msgstr "匯出工作表(&E)..."
+
+#~ msgid "&Remove Worksheet"
+#~ msgstr "移除工作表"
+
+#~ msgid "&Worksheet Properties"
+#~ msgstr "工作表屬性(&W)"
+
+#~ msgid "Import Worksheet..."
+#~ msgstr "匯入工作表..."
+
+#~ msgid "Count:"
+#~ msgstr "計數："
+
+#~ msgid "Enter the number of horizontal lines here."
+#~ msgstr "輸入水平線的數量。"
+
+#~ msgid "Labels"
+#~ msgstr "標籤"
+
+#~ msgid "Top bar"
+#~ msgstr "標題列"
+
+#~ msgid ""
+#~ "Check this to active the display title bar. This is probably only useful "
+#~ "for applet displays. The bar is only visible if the display is large "
+#~ "enough."
+#~ msgstr ""
+#~ "選取這個以啟動標題列。這大概只有在顯示小程式的時候有用。這個長條只在顯示夠"
+#~ "大的時候看的到。"
+
+#~ msgid "Horizontal lines:"
+#~ msgstr "水平線："

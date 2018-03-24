@@ -1,0 +1,5670 @@
+# translation of kget.po to Chinese Traditional
+# traditional Chinese translation fot KGet.
+# Copyright (C) 2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# tonniewalker <tonniewalker@hotmail.com>, 2002.
+# Tse-Chun Ho <saviro.tw@yahoo.com.tw>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kget\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-16 03:24+0100\n"
+"PO-Revision-Date: 2014-02-27 10:40+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: conf/autopastemodel.cpp:174
+#, kde-format
+msgid "Pattern"
+msgstr "樣式"
+
+#: conf/autopastemodel.cpp:176
+#, kde-format
+msgid "Syntax"
+msgstr "語法"
+
+#: conf/autopastemodel.cpp:209 conf/integrationpreferences.cpp:38
+#, kde-format
+msgid "Escape sequences"
+msgstr "跳脫序列"
+
+#: conf/autopastemodel.cpp:209 conf/integrationpreferences.cpp:39
+#, kde-format
+msgid "Regular expression"
+msgstr "正規表示式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableSystemTray)
+#: conf/dlgadvanced.ui:17
+#, kde-format
+msgid "Enable system tray icon"
+msgstr "開啟系統匣圖示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AfterFinishActionEnabled)
+#: conf/dlgadvanced.ui:26
+#, kde-format
+msgid "Execute action after all downloads have been finished:"
+msgstr "當所有下載都已完成時執行動作："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
+#: conf/dlgadvanced.ui:34 mainwindow.cpp:365 ui/droptarget.cpp:91
+#, kde-format
+msgid "Quit KGet"
+msgstr "離開 KGet"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgadvanced.ui:42
+#, kde-format
+msgid "At startup:"
+msgstr "啟動時："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: conf/dlgadvanced.ui:50
+#, kde-format
+msgid "Restore Download State"
+msgstr "回復下載狀態"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: conf/dlgadvanced.ui:55
+#, kde-format
+msgid "Start All Downloads"
+msgstr "開始所有下載"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: conf/dlgadvanced.ui:60
+#, kde-format
+msgid "Stop All Downloads"
+msgstr "停止所有下載"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgadvanced.ui:71
+#, kde-format
+msgid "History backend:"
+msgstr "歷史後端介面："
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_EnableKUIServerIntegration)
+#: conf/dlgadvanced.ui:80
+#, kde-format
+msgid "Enable KDE Global Progress Tracking"
+msgstr "開啟 KDE 全域進度追蹤"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportSingleTransfer)
+#: conf/dlgadvanced.ui:92
+#, kde-format
+msgid "Show every single download "
+msgstr "每次下載都顯示"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportGlobalJob)
+#: conf/dlgadvanced.ui:99
+#, kde-format
+msgid "Show overall progress"
+msgstr "顯示整體進度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlgadvanced.ui:109
+#, kde-format
+msgid "Handle existing Files/Transfers"
+msgstr "處理已存在的檔案/傳輸"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FilesAlwaysAsk)
+#: conf/dlgadvanced.ui:115
+#, kde-format
+msgid "Always ask"
+msgstr "總是詢問"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FilesAutomaticRename)
+#: conf/dlgadvanced.ui:122
+#, kde-format
+msgid "Automatic rename"
+msgstr "自動更改名稱"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FilesOverwrite)
+#: conf/dlgadvanced.ui:129
+#, kde-format
+msgid "Overwrite"
+msgstr "覆寫"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ShowDropTarget)
+#: conf/dlgappearance.ui:17
+#, kde-format
+msgid "Use Drop Target"
+msgstr "使用放下目標"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateDropTarget)
+#: conf/dlgappearance.ui:29
+#, kde-format
+msgid "Enable animations"
+msgstr "使用動畫"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DirectoriesAsSuggestion)
+#: conf/dlggroups.ui:17
+#, kde-format
+msgid "Use default folders for groups as suggestion"
+msgstr "使用預設的群組資料夾做為建議值"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AskForDestination)
+#: conf/dlggroups.ui:24
+#, kde-format
+msgid "Ask for destination if there are no default folders"
+msgstr "如果沒有預設資料夾，則詢問目的地。"
+
+#. i18n: ectx: property (text), widget (QPushButton, rename)
+#: conf/dlggroups.ui:52 ui/transfersettingsdialog.ui:152
+#, kde-format
+msgid "Rename"
+msgstr "重新命名"
+
+#. i18n: ectx: property (text), widget (KIconButton, selectIcon)
+#: conf/dlggroups.ui:65
+#, kde-format
+msgid "Select Icon..."
+msgstr "選取圖示..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KonquerorIntegration)
+#: conf/dlgintegration.ui:17
+#, kde-format
+msgid "Use as download manager for Konqueror"
+msgstr "做為 Konqueror 的下載管理員"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_AutoPaste)
+#: conf/dlgintegration.ui:24
+#, kde-format
+msgid "Monitor Clipboard for Files to Download"
+msgstr "監視剪貼簿是否有要下載的檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: conf/dlgintegration.ui:36
+#, kde-format
+msgid "Case sensitive:"
+msgstr "區分大小寫："
+
+#. i18n: ectx: property (text), widget (QPushButton, increase)
+#: conf/dlgintegration.ui:93 conf/verificationpreferences.cpp:35
+#, kde-format
+msgid "&Increase Priority"
+msgstr "遞增優先權(&I)"
+
+#. i18n: ectx: property (text), widget (QPushButton, decrease)
+#: conf/dlgintegration.ui:100 conf/verificationpreferences.cpp:36
+#, kde-format
+msgid "&Decrease Priority"
+msgstr "遞減優先權(&D)"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_maxnum)
+#: conf/dlgnetwork.ui:19
+#, kde-format
+msgid "Maximum downloads per group:"
+msgstr "每個群組最大下載數："
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_MaxConnections)
+#: conf/dlgnetwork.ui:26
+#, kde-format
+msgctxt "no limit for maximum downloads has been set"
+msgid "No limit"
+msgstr "不限制"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SpeedLimit)
+#: conf/dlgnetwork.ui:35
+#, kde-format
+msgid "Speed Limit"
+msgstr "速度限制"
+
+#. i18n: ectx: property (text), widget (QLabel, dllimitlb)
+#: conf/dlgnetwork.ui:44
+#, kde-format
+msgid "Global &download limit:"
+msgstr "全域下載限制(&D)："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalDownloadLimit)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalUploadLimit)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TransferSpeedLimit)
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadSpin)
+#: conf/dlgnetwork.ui:54 conf/dlgnetwork.ui:80 conf/dlgnetwork.ui:103
+#: ui/groupsettingsdialog.ui:90 ui/groupsettingsdialog.ui:109
+#: ui/transfersettingsdialog.ui:54 ui/transfersettingsdialog.ui:70
+#, kde-format
+msgid " KiB/s"
+msgstr " KiB/s"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgnetwork.ui:70
+#, kde-format
+msgid "Global &upload limit:"
+msgstr "全域上傳限制(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, lb_per_transfer)
+#: conf/dlgnetwork.ui:96
+#, kde-format
+msgid "Per transfer:"
+msgstr "每次傳輸："
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ReconnectOnBroken)
+#: conf/dlgnetwork.ui:119
+#, kde-format
+msgid "Reconnect on Broken Connection"
+msgstr "斷線時重新連線"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_retries_2)
+#: conf/dlgnetwork.ui:128
+#, kde-format
+msgid "Number of retries:"
+msgstr "重試次數："
+
+#. i18n: ectx: property (text), widget (QLabel, lb_after_2)
+#: conf/dlgnetwork.ui:142
+#, kde-format
+msgid "Retry after:"
+msgstr "多久後重新連線："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ReconnectDelay)
+#: conf/dlgnetwork.ui:149
+#, kde-format
+msgid " sec"
+msgstr " 秒"
+
+#: conf/dlgwebinterface.cpp:45 conf/dlgwebinterface.cpp:60
+#, kde-format
+msgid "Could not open KWallet"
+msgstr "無法開啟 KWallet"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_WebinterfaceEnabled)
+#: conf/dlgwebinterface.ui:20
+#, kde-format
+msgid "Enable Web Interface"
+msgstr "開啟網頁介面"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: conf/dlgwebinterface.ui:32
+#: transfer-plugins/bittorrent/btsettingswidget.ui:32
+#, kde-format
+msgid "Port:"
+msgstr "連接埠："
+
+#. i18n: ectx: property (text), widget (QLabel, userLabel)
+#: conf/dlgwebinterface.ui:46
+#, kde-format
+msgid "User:"
+msgstr "帳號："
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: conf/dlgwebinterface.ui:60
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:87
+#, kde-format
+msgid "Password:"
+msgstr "密碼："
+
+#: conf/integrationpreferences.cpp:35
+#, kde-format
+msgid "Include"
+msgstr "引入"
+
+#: conf/integrationpreferences.cpp:36
+#, kde-format
+msgid "Exclude"
+msgstr "排除"
+
+#. i18n: ectx: label, entry (HistoryColumnWidths), group (Geometry)
+#: conf/kget.kcfg:178
+#, kde-format
+msgid "The width of the columns in the history view"
+msgstr "歷史檢視的欄位寬度"
+
+#: conf/pluginselector.cpp:28 conf/preferencesdialog.cpp:79
+#, kde-format
+msgid "Plugins"
+msgstr "外掛程式"
+
+#: conf/preferencesdialog.cpp:53
+#, kde-format
+msgid "Xml"
+msgstr "Xml"
+
+#: conf/preferencesdialog.cpp:55
+#, kde-format
+msgid "Sqlite"
+msgstr "Sqlite"
+
+#: conf/preferencesdialog.cpp:59 mainwindow.cpp:371
+#, kde-format
+msgid "Turn Off Computer"
+msgstr "關閉電腦"
+
+#: conf/preferencesdialog.cpp:60 mainwindow.cpp:376
+#, kde-format
+msgid "Hibernate Computer"
+msgstr "讓電腦進入休眠狀態"
+
+#: conf/preferencesdialog.cpp:61 mainwindow.cpp:381
+#, kde-format
+msgid "Suspend Computer"
+msgstr "讓電腦進入暫停狀態"
+
+#: conf/preferencesdialog.cpp:72
+#, kde-format
+msgid "Appearance"
+msgstr "外觀"
+
+#: conf/preferencesdialog.cpp:72
+#, kde-format
+msgid "Change appearance settings"
+msgstr "改變外觀設定"
+
+#: conf/preferencesdialog.cpp:73
+#, kde-format
+msgid "Groups"
+msgstr "群組"
+
+#: conf/preferencesdialog.cpp:73
+#, kde-format
+msgid "Manage the groups"
+msgstr "管理群組"
+
+#. i18n: ectx: property (title), widget (QGroupBox, networkGroupBox)
+#: conf/preferencesdialog.cpp:74
+#: transfer-plugins/bittorrent/btsettingswidget.ui:23
+#, kde-format
+msgid "Network"
+msgstr "網路"
+
+#: conf/preferencesdialog.cpp:74
+#, kde-format
+msgid "Network and Downloads"
+msgstr "網路與下載檔案"
+
+#: conf/preferencesdialog.cpp:75
+#, kde-format
+msgid "Web Interface"
+msgstr "網頁介面"
+
+#: conf/preferencesdialog.cpp:75
+#, kde-format
+msgid "Control KGet over a Network or the Internet"
+msgstr "控制 KGet 在內部或網際網路上"
+
+#: conf/preferencesdialog.cpp:76
+#, kde-format
+msgid "Verification"
+msgstr "檢查"
+
+#: conf/preferencesdialog.cpp:77
+#, kde-format
+msgctxt "integration of KGet with other applications"
+msgid "Integration"
+msgstr "整合"
+
+#: conf/preferencesdialog.cpp:78
+#, kde-format
+msgctxt "Advanced Options"
+msgid "Advanced"
+msgstr "進階"
+
+#: conf/preferencesdialog.cpp:78
+#, kde-format
+msgid "Advanced Options"
+msgstr "進階選項"
+
+#: conf/preferencesdialog.cpp:79
+#, kde-format
+msgid "Transfer Plugins"
+msgstr "傳輸外掛程式"
+
+#: conf/transfersgrouptree.cpp:113 conf/transfersgrouptree.cpp:118
+#, kde-format
+msgid "New Group"
+msgstr "新增群組"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ChecksumAutomaticVerification)
+#: conf/verificationpreferences.ui:17
+#, kde-format
+msgid "Automatic checksums verification"
+msgstr "自動確認檢查碼"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/verificationpreferences.ui:32
+#, kde-format
+msgid "Used checksum:"
+msgstr "已使用檢查碼："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_4)
+#: conf/verificationpreferences.ui:51
+#, kde-format
+msgid "Weak (fastest)"
+msgstr "脆弱（最快）"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_5)
+#: conf/verificationpreferences.ui:58
+#, kde-format
+msgid "Strong (recommended)"
+msgstr "強（建議）"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_6)
+#: conf/verificationpreferences.ui:65
+#, kde-format
+msgid "Strongest (slowest)"
+msgstr "最強（最慢）"
+
+#. i18n: ectx: property (title), widget (QGroupBox, signatureGroup)
+#. i18n: ectx: property (text), widget (QPushButton, signature)
+#. i18n: ectx: property (title), widget (QGroupBox, sigGroup)
+#: conf/verificationpreferences.ui:78 ui/signaturedlg.ui:20
+#: ui/transfersettingsdialog.ui:172
+#, kde-format
+msgid "Signature"
+msgstr "簽章"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SignatureAutomaticVerification)
+#: conf/verificationpreferences.ui:84
+#, kde-format
+msgid "Automatic verification"
+msgstr "自動檢查"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SignatureAutomaticDownloading)
+#: conf/verificationpreferences.ui:91
+#, kde-format
+msgid "Automatic downloading of missing keys"
+msgstr "自動下載遺失的金鑰"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/verificationpreferences.ui:114
+#, kde-format
+msgid "Keyservers:"
+msgstr "金鑰伺服器："
+
+#: core/datasourcefactory.cpp:280 core/datasourcefactory.cpp:625
+#: core/kget.cpp:1379 transfer-plugins/metalink/metalink.cpp:194
+#: transfer-plugins/metalink/metalinkhttp.cpp:237
+#: transfer-plugins/metalink/metalinkxml.cpp:193
+#: ui/metalinkcreator/metalinkcreator.cpp:147
+#: ui/metalinkcreator/metalinkcreator.cpp:164
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#: core/datasourcefactory.cpp:280
+#, kde-format
+msgid "Filesize is larger than maximum file size supported by VFAT."
+msgstr "檔案大小比 VFAT 支援的最大檔案大小還大。"
+
+#: core/datasourcefactory.cpp:625
+#, kde-format
+msgctxt "A mirror is removed when the file has the wrong download size"
+msgid "%1 removed as it did report a wrong file size."
+msgstr "%1 回報了錯誤的檔案大小，因此被移除。"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "file in a filesystem"
+msgid "File"
+msgstr "檔案"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "status of the download"
+msgid "Status"
+msgstr "狀態"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "size of the download"
+msgid "Size"
+msgstr "大小"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "checksum of a file"
+msgid "Checksum"
+msgstr "檢查碼型態"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "signature of a file"
+msgid "Signature"
+msgstr "簽章"
+
+#: core/keydownloader.cpp:74
+#, kde-format
+msgid ""
+"No server for downloading keys is specified in settings. Downloading aborted."
+msgstr "設定中未指定可下載金鑰的伺服器。下載中止。"
+
+#: core/keydownloader.cpp:75 core/keydownloader.cpp:95
+#, kde-format
+msgid "No key server"
+msgstr "沒有金鑰伺服器"
+
+#: core/keydownloader.cpp:94
+#, kde-format
+msgid ""
+"No useful key server found, key not downloaded. Add more servers to the "
+"settings or restart KGet and retry downloading."
+msgstr ""
+"找不到可用的金鑰伺服器，因此未下載金鑰。請先在設定中新增伺服器，或重新啟動 "
+"KGet 重新下載。"
+
+#: core/kget.cpp:121
+#, kde-format
+msgid "Are you sure that you want to remove the group named %1?"
+msgstr "你確定要刪除名為 %1 的群組嗎？"
+
+#: core/kget.cpp:122
+#, kde-format
+msgid "Remove Group"
+msgstr "移除群組"
+
+#: core/kget.cpp:146
+#, kde-format
+msgid "Are you sure that you want to remove the following groups?"
+msgstr "您確定您要移除以下的群組嗎？"
+
+#: core/kget.cpp:148
+#, kde-format
+msgid "Remove groups"
+msgstr "移除群組"
+
+#: core/kget.cpp:254
+#, kde-format
+msgid ""
+"<p>The following transfer has been added to the download list:</p><p style="
+"\"font-size: small;\">%1</p>"
+msgstr "<p>以下傳輸已加入下載清單：</p><p style=\"font-size: small;\">%1</p>"
+
+#: core/kget.cpp:255 core/kget.cpp:352
+#, kde-format
+msgid "Download added"
+msgstr "下載已新增"
+
+#: core/kget.cpp:347
+#, kde-format
+msgid "<p>The following transfer has been added to the download list:</p>"
+msgstr "<p>以下傳輸已加入下載清單：</p>"
+
+#: core/kget.cpp:349
+#, kde-format
+msgid "<p>The following transfers have been added to the download list:</p>"
+msgstr "<p>以下傳輸已加入下載清單：</p>"
+
+#: core/kget.cpp:511 core/kget.cpp:560
+#, kde-format
+msgid "My Downloads"
+msgstr "我的下載"
+
+#: core/kget.cpp:570
+#, kde-format
+msgid ""
+"The file %1 already exists.\n"
+"Overwrite?"
+msgstr ""
+"檔案 %1 已存在。\n"
+"您要覆寫它嗎？"
+
+#: core/kget.cpp:571
+#, kde-format
+msgid "Overwrite existing file?"
+msgstr "要覆寫現有檔案嗎？"
+
+#: core/kget.cpp:586 ui/metalinkcreator/metalinkcreator.cpp:164
+#, kde-format
+msgid "Unable to save to: %1"
+msgstr "無法儲存：%1"
+
+#: core/kget.cpp:889
+#, kde-format
+msgid ""
+"<p>The following URL cannot be downloaded, its protocol is not supported by "
+"KGet:</p>"
+msgid_plural ""
+"<p>The following URLs cannot be downloaded, their protocols are not "
+"supported by KGet:</p>"
+msgstr[0] "<p>以下的網址無法下載，因為 KGet 不支援它們的協定：</p>"
+
+#: core/kget.cpp:899
+#, kde-format
+msgid "Protocol unsupported"
+msgstr "不支援的協定"
+
+#: core/kget.cpp:953 ui/newtransferdialog.cpp:53
+#, kde-format
+msgid "New Download"
+msgstr "新下載"
+
+#: core/kget.cpp:953
+#, kde-format
+msgid "Enter URL:"
+msgstr "輸入網址："
+
+#: core/kget.cpp:992
+#, kde-format
+msgid "Save As"
+msgstr "另存新檔"
+
+#: core/kget.cpp:1005 core/urlchecker.cpp:366
+#, kde-format
+msgid ""
+"Malformed URL:\n"
+"%1"
+msgstr ""
+"不正確的網址：\n"
+"%1"
+
+#: core/kget.cpp:1012 core/urlchecker.cpp:368
+#, kde-format
+msgid ""
+"Malformed URL, protocol missing:\n"
+"%1"
+msgstr ""
+"不正確的網址，遺失協定：\n"
+"%1"
+
+#: core/kget.cpp:1023 core/urlchecker.cpp:424
+#, kde-format
+msgid ""
+"You have already completed a download from the location: \n"
+"\n"
+"%1\n"
+"\n"
+"Download it again?"
+msgstr ""
+"您已從此位置完成下載：\n"
+"\n"
+"%1\n"
+"\n"
+"要再下載一次嗎？"
+
+#: core/kget.cpp:1024 core/urlchecker.cpp:640
+#, kde-format
+msgid "Download it again?"
+msgstr "要再次下載嗎？"
+
+#: core/kget.cpp:1036 core/urlchecker.cpp:426
+#, kde-format
+msgid ""
+"You have a download in progress from the location: \n"
+"\n"
+"%1\n"
+"\n"
+"Delete it and download again?"
+msgstr ""
+"您正從此位置進行下載中：\n"
+"\n"
+"%1\n"
+"\n"
+"要刪除此下載，並重新來過嗎？"
+
+#: core/kget.cpp:1037 core/urlchecker.cpp:637
+#, kde-format
+msgid "Delete it and download again?"
+msgstr "要刪除並重新下載嗎？"
+
+#: core/kget.cpp:1060 core/kget.cpp:1067
+#, kde-format
+msgid "Directory is not writable"
+msgstr "目錄無法寫入"
+
+#: core/kget.cpp:1095
+#, kde-format
+msgid ""
+"You have already downloaded that file from another location.\n"
+"\n"
+"Download and delete the previous one?"
+msgstr ""
+"您已經從另一個位置下載過此檔案。\n"
+"\n"
+"要把前一個殺掉並重新下載嗎？"
+
+#: core/kget.cpp:1096 core/urlchecker.cpp:649
+#, kde-format
+msgid "File already downloaded. Download anyway?"
+msgstr "檔案已下載。還要再下載一次嗎？"
+
+#: core/kget.cpp:1105
+#, kde-format
+msgid "You are already downloading the same file"
+msgstr "您已經下載過相同的檔案"
+
+#: core/kget.cpp:1109 core/kget.cpp:1112 core/urlchecker.cpp:652
+#: core/urlchecker.cpp:734 transfer-plugins/metalink/abstractmetalink.cpp:485
+#: transfer-plugins/metalink/metalink.cpp:709
+#, kde-format
+msgid "File already exists"
+msgstr "檔案已經存在"
+
+#: core/kget.cpp:1217
+#, kde-format
+msgid "Internet connection established, resuming transfers."
+msgstr "網路連線已建立，回復傳輸中。"
+
+#: core/kget.cpp:1222
+#, kde-format
+msgid "No internet connection, stopping transfers."
+msgstr "沒有網路連線，停止傳輸。"
+
+#: core/kget.cpp:1235
+#, kde-format
+msgid "Plugin loader could not load the plugin: %1."
+msgstr "外掛程式載入器無法載入外掛程式：%1"
+
+#: core/kget.cpp:1250
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is a directory."
+msgstr ""
+"未刪除 %1\n"
+"因為它是個目錄。"
+
+#: core/kget.cpp:1261
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is not a local file."
+msgstr ""
+"未刪除 %1\n"
+"因為它不是本地端檔案。"
+
+#: core/kget.cpp:1372
+#, kde-format
+msgid ""
+"<p>The following file has finished downloading:</p><p style=\"font-size: "
+"small;\">%1</p>"
+msgstr "<p>以下檔案已完成下載：</p><p style=\"font-size: small;\">%1</p>"
+
+#: core/kget.cpp:1373
+#, kde-format
+msgid "Download completed"
+msgstr "下載完成"
+
+#: core/kget.cpp:1376
+#, kde-format
+msgid ""
+"<p>The following transfer has been started:</p><p style=\"font-size: small;"
+"\">%1</p>"
+msgstr "<p>以下檔案已開始下載：</p><p style=\"font-size: small;\">%1</p>"
+
+#: core/kget.cpp:1377
+#, kde-format
+msgid "Download started"
+msgstr "下載已開始"
+
+#: core/kget.cpp:1379
+#, kde-format
+msgid ""
+"<p>There has been an error in the following transfer:</p><p style=\"font-"
+"size: small;\">%1</p><p>The error message is:</p><p style=\"font-size: small;"
+"\">%2</p>"
+msgstr ""
+"<p>以下傳輸發生了錯誤：</p><p style=\"font-size: small;\">%1</p><p>錯誤訊息"
+"為：</p><p style=\"font-size: small;\">%2</p>"
+
+#: core/kget.cpp:1384
+#, kde-format
+msgid "Resolve"
+msgstr "解決"
+
+#: core/kget.cpp:1436
+#, kde-format
+msgid "KGet is now closing, as all downloads have completed."
+msgstr "所有下載都已完成，KGet 即將關閉。"
+
+#: core/kget.cpp:1440
+#, kde-format
+msgid "The computer will now turn off, as all downloads have completed."
+msgstr "所有下載都已完成，電腦即將關閉。"
+
+#: core/kget.cpp:1440
+#, kde-format
+msgctxt "Shutting down computer"
+msgid "Shutdown"
+msgstr "關機"
+
+#: core/kget.cpp:1443
+#, kde-format
+msgid "The computer will now suspend to disk, as all downloads have completed."
+msgstr "所有下載都已完成，電腦即將暫停。"
+
+#: core/kget.cpp:1443
+#, kde-format
+msgctxt "Hibernating computer"
+msgid "Hibernating"
+msgstr "休眠中"
+
+#: core/kget.cpp:1446
+#, kde-format
+msgid "The computer will now suspend to RAM, as all downloads have completed."
+msgstr "所有下載都已完成，電腦即將暫停並儲存到記憶體。"
+
+#: core/kget.cpp:1446
+#, kde-format
+msgctxt "Suspending computer"
+msgid "Suspending"
+msgstr "暫停中"
+
+#: core/kget.cpp:1454
+#, kde-format
+msgctxt "abort the proposed action"
+msgid "Abort"
+msgstr "中止"
+
+#: core/kget.cpp:1464
+#, kde-format
+msgid "<p>All transfers have been finished.</p>"
+msgstr "<p>所有傳輸都已完成。</p>"
+
+#: core/kget.cpp:1465
+#, kde-format
+msgid "Downloads completed"
+msgstr "下載完成"
+
+#: core/kget.h:361 main.cpp:101 mainwindow.cpp:96 mainwindow.cpp:525
+#: ui/tray.cpp:45
+#, kde-format
+msgid "KGet"
+msgstr "KGet"
+
+#: core/kgetglobaljob.cpp:57
+#, kde-format
+msgid "KGet is downloading %1 file"
+msgid_plural "KGet is downloading %1 files"
+msgstr[0] "KGet 正在下載 %1 個檔案"
+
+#: core/kgetkjobadapter.cpp:47
+#, kde-format
+msgid "KGet Transfer"
+msgstr "KGet 傳輸"
+
+#: core/linkimporter.cpp:86
+#, kde-format
+msgid "Error trying to get %1"
+msgstr "試圖取得 %1 時發生錯誤"
+
+#: core/signature.cpp:229
+#, kde-format
+msgid "The key to verify the signature is missing, do you want to download it?"
+msgstr "要用於檢查此簽章的金鑰已遺失。要下載它嗎？"
+
+#: core/signature.cpp:251
+#, kde-format
+msgid ""
+"The signature could not be verified for %1. See transfer settings for more "
+"information."
+msgstr "簽章無法對 %1 驗證。詳情請參考傳輸設定。"
+
+#: core/signature.cpp:252
+#, kde-format
+msgid "Signature not verified"
+msgstr "簽章未驗證"
+
+#: core/transfer.cpp:33
+#, kde-format
+msgid "Downloading...."
+msgstr "下載中..."
+
+#: core/transfer.cpp:34
+#, kde-format
+msgctxt "transfer state: delayed"
+msgid "Delayed"
+msgstr "延遲"
+
+#: core/transfer.cpp:35 core/transfer.cpp:234 core/transfer.cpp:253
+#: transfer-plugins/bittorrent/bttransfer.cpp:302
+#: transfer-plugins/contentfetch/contentfetch.cpp:69
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:89
+#, kde-format
+msgctxt "transfer state: stopped"
+msgid "Stopped"
+msgstr "已停止"
+
+#: core/transfer.cpp:36
+#, kde-format
+msgctxt "transfer state: aborted"
+msgid "Aborted"
+msgstr "已中止"
+
+#: core/transfer.cpp:37 transfer-plugins/bittorrent/bttransfer.cpp:220
+#: transfer-plugins/bittorrent/bttransfer.cpp:298
+#, kde-format
+msgctxt "transfer state: finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: core/transfer.cpp:39 transfer-plugins/bittorrent/bttransfer.cpp:164
+#, kde-format
+msgctxt "changing the destination of the file"
+msgid "Changing destination"
+msgstr "變更目的地"
+
+#: core/transfergrouphandler.cpp:97
+#, kde-format
+msgid "1 Item"
+msgid_plural "%1 Items"
+msgstr[0] "%1 個項目"
+
+#: core/transfergrouphandler.cpp:113 core/transferhandler.cpp:150
+#: ui/transferdetails.cpp:92
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: core/transfergrouphandler.cpp:169
+#, kde-format
+msgctxt "start transfergroup downloads"
+msgid "Start"
+msgstr "開始"
+
+#: core/transfergrouphandler.cpp:175
+#, kde-format
+msgctxt "stop transfergroup downloads"
+msgid "Stop"
+msgstr "停止"
+
+#: core/transferhandler.cpp:137
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:29
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:30
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:31
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:32
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:33
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:34
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:35
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:36
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:61
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:62
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:65
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:66
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:69
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:72
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:75
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:78
+#: ui/transfersviewdelegate.cpp:395
+#, kde-format
+msgctxt "not available"
+msgid "n/a"
+msgstr "n/a"
+
+#: core/transferhandler.cpp:145 ui/transferdetails.cpp:88
+#, kde-format
+msgid "Stalled"
+msgstr "暫停"
+
+#: core/transfertreemodel.cpp:645
+#, kde-format
+msgctxt "name of download"
+msgid "Name"
+msgstr "名稱"
+
+#: core/transfertreemodel.cpp:647
+#, kde-format
+msgctxt "status of download"
+msgid "Status"
+msgstr "狀態"
+
+#: core/transfertreemodel.cpp:649
+#, kde-format
+msgctxt "size of download"
+msgid "Size"
+msgstr "大小"
+
+#: core/transfertreemodel.cpp:651
+#, kde-format
+msgctxt "progress of download"
+msgid "Progress"
+msgstr "進度"
+
+#: core/transfertreemodel.cpp:653
+#, kde-format
+msgctxt "speed of download"
+msgid "Speed"
+msgstr "速度"
+
+#: core/transfertreemodel.cpp:655
+#, kde-format
+msgctxt "remaining time of download"
+msgid "Remaining Time"
+msgstr "剩餘時間"
+
+#: core/urlchecker.cpp:51
+#, kde-format
+msgid "Question"
+msgstr "問題"
+
+#: core/urlchecker.cpp:61
+#, kde-format
+msgid "Appl&y to all"
+msgstr "全部套用(&Y)"
+
+#: core/urlchecker.cpp:300 core/urlchecker.cpp:340
+#, kde-format
+msgid "No download directory specified."
+msgstr "沒有指定下載目錄。"
+
+#: core/urlchecker.cpp:302
+#, kde-format
+msgid "Invalid download directory specified."
+msgstr "指定了不合法的下載目錄。"
+
+#: core/urlchecker.cpp:304
+#, kde-format
+msgid "Download directory is not writeable."
+msgstr "下載目錄無法寫入。"
+
+#: core/urlchecker.cpp:312 core/urlchecker.cpp:352
+#, kde-format
+msgid "No download destination specified."
+msgstr "沒有指定下載目的地。"
+
+#: core/urlchecker.cpp:314
+#, kde-format
+msgid "Invalid download destination specified."
+msgstr "指定了不合法的下載目的地。"
+
+#: core/urlchecker.cpp:316
+#, kde-format
+msgid "Download destination is not writeable."
+msgstr "下載目的地無法寫入。"
+
+#: core/urlchecker.cpp:324 core/urlchecker.cpp:364 core/urlchecker.cpp:454
+#: core/urlchecker.cpp:468
+#, kde-format
+msgid "No URL specified."
+msgstr "未指定網址。"
+
+#: core/urlchecker.cpp:326
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:96
+#: transfer-plugins/bittorrent/bttransfer.cpp:260
+#, kde-format
+msgid "Malformed URL."
+msgstr "不正確的網址。"
+
+#: core/urlchecker.cpp:328
+#, kde-format
+msgid "Malformed URL, protocol missing."
+msgstr "不正確的網址，遺失協定。"
+
+#: core/urlchecker.cpp:330
+#, kde-format
+msgid "Malformed URL, host missing."
+msgstr "不正確的網址，遺失主機。"
+
+#: core/urlchecker.cpp:342
+#, kde-format
+msgid ""
+"Invalid download directory specified:\n"
+"%1"
+msgstr "指定了不合法的下載目錄： %1"
+
+#: core/urlchecker.cpp:344
+#, kde-format
+msgid ""
+"Download directory is not writeable:\n"
+"%1"
+msgstr ""
+"下載目錄無法寫入：\n"
+"%1"
+
+#: core/urlchecker.cpp:354
+#, kde-format
+msgid ""
+"Invalid download destination specified:\n"
+"%1"
+msgstr ""
+"指定了不合法的下載目的地：\n"
+"%1"
+
+#: core/urlchecker.cpp:356
+#, kde-format
+msgid ""
+"Download destination is not writeable:\n"
+"%1"
+msgstr ""
+"下載目的地無法寫入：\n"
+"%1"
+
+#: core/urlchecker.cpp:370
+#, kde-format
+msgid ""
+"Malformed URL, host missing:\n"
+"%1"
+msgstr ""
+"不正確的網址，遺失主機：\n"
+"%1"
+
+#: core/urlchecker.cpp:386 core/urlchecker.cpp:398
+#, kde-format
+msgid "File already exists. Overwrite it?"
+msgstr "檔案已存在。您要覆寫它嗎？"
+
+#: core/urlchecker.cpp:388 core/urlchecker.cpp:414
+#, kde-format
+msgid ""
+"You have already downloaded that file from another location.\n"
+"Download and delete the previous one?"
+msgstr ""
+"您已經從另一個位置下載過此檔案。\n"
+"要把前一個殺掉並重新下載嗎？"
+
+#: core/urlchecker.cpp:390 core/urlchecker.cpp:416
+#, kde-format
+msgid ""
+"You are already downloading that file from another location.\n"
+"Download and delete the previous one?"
+msgstr ""
+"您正在從另一個位置下載此檔案。\n"
+"要把前一個殺掉並重新下載嗎？"
+
+#: core/urlchecker.cpp:400
+#, kde-format
+msgid ""
+"You have already completed a download from that location. Download it again?"
+msgstr "您已從此位置完成下載。要再下載一次嗎？"
+
+#: core/urlchecker.cpp:402
+#, kde-format
+msgid ""
+"You have a download in progress from that location.\n"
+"Delete it and download again?"
+msgstr ""
+"您正從此位置進行下載中。\n"
+"要刪除此下載，並重新來過嗎？"
+
+#: core/urlchecker.cpp:412
+#, kde-format
+msgid ""
+"File already exists:\n"
+"%1\n"
+"Overwrite it?"
+msgstr ""
+"檔案已存在：\n"
+"%1\n"
+"您要覆寫它嗎？"
+
+#: core/urlchecker.cpp:456
+#, kde-format
+msgid "Malformed URLs."
+msgstr "不正確的網址。"
+
+#: core/urlchecker.cpp:458
+#, kde-format
+msgid "Malformed URLs, protocol missing."
+msgstr "不正確的網址，遺失協定。"
+
+#: core/urlchecker.cpp:460
+#, kde-format
+msgid "Malformed URLs, host missing."
+msgstr "不正確的網址，遺失主機。"
+
+#: core/urlchecker.cpp:470
+#, kde-format
+msgid ""
+"Malformed URLs:\n"
+"%1"
+msgstr ""
+"不正確的網址：\n"
+"%1"
+
+#: core/urlchecker.cpp:472
+#, kde-format
+msgid ""
+"Malformed URLs, protocol missing:\n"
+"%1"
+msgstr ""
+"不正確的網址，遺失協定：\n"
+"%1"
+
+#: core/urlchecker.cpp:474
+#, kde-format
+msgid ""
+"Malformed URLs, host missing:\n"
+"%1"
+msgstr ""
+"不正確的網址，遺失主機：\n"
+"%1"
+
+#: core/urlchecker.cpp:476
+#, kde-format
+msgid ""
+"Destinations are not writable:\n"
+"%1"
+msgstr ""
+"目錄無法寫入：\n"
+"%1"
+
+#: core/urlchecker.cpp:500
+#, kde-format
+msgid "Files exist already. Overwrite them?"
+msgstr "檔案已存在。您要覆寫它嗎？"
+
+#: core/urlchecker.cpp:502
+#, kde-format
+msgid ""
+"You have already completed downloads at those destinations. Download them "
+"again?"
+msgstr "您已從這些位置完成下載。要再下載一次嗎？"
+
+#: core/urlchecker.cpp:504
+#, kde-format
+msgid ""
+"You have downloads in progress to these destinations.\n"
+"Delete them and download again?"
+msgstr "您正在從這些位置下載中。要將它們砍掉重新下載嗎？"
+
+#: core/urlchecker.cpp:512
+#, kde-format
+msgid ""
+"You have already completed downloads from these locations. Download them "
+"again?"
+msgstr "您已從這些位置完成下載。要再下載一次嗎？"
+
+#: core/urlchecker.cpp:514
+#, kde-format
+msgid ""
+"You have downloads in progress from these locations.\n"
+"Delete them and download again?"
+msgstr "您正在從這些位置下載中。要將它們砍掉重新下載嗎？"
+
+#: core/urlchecker.cpp:523
+#, kde-format
+msgid ""
+"Files exist already:\n"
+"%1\n"
+"Overwrite them?"
+msgstr ""
+"檔案已存在：\n"
+"%1\n"
+"您要覆寫它嗎？"
+
+#: core/urlchecker.cpp:525
+#, kde-format
+msgid ""
+"You have already completed downloads at those destinations: \n"
+"\n"
+"%1\n"
+"\n"
+" Download them again?"
+msgstr ""
+"您已從這些位置完成下載：\n"
+"\n"
+"%1\n"
+"\n"
+"要再下載一次嗎？"
+
+#: core/urlchecker.cpp:527
+#, kde-format
+msgid ""
+"You have downloads in progress to these destinations: \n"
+"\n"
+"%1\n"
+"\n"
+"Delete them and download again?"
+msgstr ""
+"您正在從這些位置下載中：\n"
+"\n"
+"%1\n"
+"\n"
+"要將它們砍掉重新下載嗎？"
+
+#: core/urlchecker.cpp:535
+#, kde-format
+msgid ""
+"You have already completed downloads from these locations: \n"
+"\n"
+"%1\n"
+"\n"
+"Download them again?"
+msgstr ""
+"您已從這些位置完成下載：\n"
+"\n"
+"%1\n"
+"\n"
+"要再下載一次嗎？"
+
+#: core/urlchecker.cpp:537
+#, kde-format
+msgid ""
+"You have downloads in progress from these locations: \n"
+"\n"
+"%1\n"
+"\n"
+"Delete them and download again?"
+msgstr ""
+"您正在從這些位置下載中：\n"
+"\n"
+"%1\n"
+"\n"
+"要將它們砍掉重新下載嗎？"
+
+#: core/verificationmodel.cpp:152
+#, kde-format
+msgctxt "the type of the hash, e.g. MD5"
+msgid "Type"
+msgstr "型態"
+
+#: core/verificationmodel.cpp:154
+#, kde-format
+msgctxt "the used hash for verification"
+msgid "Hash"
+msgstr "雜湊值"
+
+#: core/verificationmodel.cpp:156
+#, kde-format
+msgctxt "verification-result of a file, can be true/false"
+msgid "Verified"
+msgstr "檢查(&V)"
+
+#: extensions/webinterface/httpserver.cpp:42
+#: extensions/webinterface/httpserver.cpp:58
+#, kde-format
+msgid "Unable to start WebInterface: Could not open KWallet"
+msgstr "無法啟動網頁介面：無法開啟 KWallet"
+
+#: extensions/webinterface/httpserver.cpp:63
+#, kde-format
+msgctxt "@info"
+msgid "Unable to start WebInterface: %1"
+msgstr "無法啟動網頁介面：%1"
+
+#: extensions/webinterface/httpserver.cpp:122
+#, kde-format
+msgctxt "@item speed of transfer per seconds"
+msgid "%1/s"
+msgstr "%1/秒"
+
+#: extensions/webinterface/httpserver.cpp:209
+#, kde-format
+msgctxt "@label"
+msgid "KGet Web Interface"
+msgstr "KGet 網頁介面"
+
+#: extensions/webinterface/httpserver.cpp:210
+#, kde-format
+msgctxt "@label number"
+msgid "Nr"
+msgstr "編號"
+
+#: extensions/webinterface/httpserver.cpp:211
+#, kde-format
+msgctxt "@label"
+msgid "File name"
+msgstr "檔案名稱"
+
+#: extensions/webinterface/httpserver.cpp:212
+#, kde-format
+msgctxt "@label Progress of transfer"
+msgid "Finished"
+msgstr "已完成"
+
+#: extensions/webinterface/httpserver.cpp:213
+#, kde-format
+msgctxt "@label Speed of transfer"
+msgid "Speed"
+msgstr "速度"
+
+#: extensions/webinterface/httpserver.cpp:214
+#, kde-format
+msgctxt "@label Status of transfer"
+msgid "Status"
+msgstr "狀態"
+
+#: extensions/webinterface/httpserver.cpp:215
+#, kde-format
+msgctxt "@action:button start a transfer"
+msgid "Start"
+msgstr "開始"
+
+#: extensions/webinterface/httpserver.cpp:216
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop"
+msgstr "停止"
+
+#: extensions/webinterface/httpserver.cpp:217
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "移除"
+
+#: extensions/webinterface/httpserver.cpp:218
+#, kde-format
+msgctxt "@label Download from"
+msgid "Source:"
+msgstr "來源："
+
+#: extensions/webinterface/httpserver.cpp:219
+#, kde-format
+msgctxt "@label Save download to"
+msgid "Saving to:"
+msgstr "儲存到："
+
+#: extensions/webinterface/httpserver.cpp:220
+#, kde-format
+msgctxt "@label Title in header"
+msgid "Web Interface"
+msgstr "網頁介面"
+
+#: extensions/webinterface/httpserver.cpp:221
+#, kde-format
+msgctxt "@action"
+msgid "Settings"
+msgstr "設定"
+
+#: extensions/webinterface/httpserver.cpp:222
+#, kde-format
+msgctxt "@action"
+msgid "Refresh"
+msgstr "刷新"
+
+#: extensions/webinterface/httpserver.cpp:223
+#, kde-format
+msgctxt "@action"
+msgid "Enter URL: "
+msgstr "輸入網址："
+
+#: extensions/webinterface/httpserver.cpp:224
+#, kde-format
+msgctxt "@action:button"
+msgid "OK"
+msgstr "確定"
+
+#: extensions/webinterface/httpserver.cpp:226
+#, kde-format
+msgctxt "@action Refresh download list every x (seconds)"
+msgid "Refresh download list every"
+msgstr "刷新下載清單時間間隔："
+
+#: extensions/webinterface/httpserver.cpp:227
+#, kde-format
+msgctxt "@action (Refresh very x )seconds"
+msgid "seconds"
+msgstr "秒"
+
+#: extensions/webinterface/httpserver.cpp:228
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: extensions/webinterface/httpserver.cpp:229
+#, kde-format
+msgctxt "@title"
+msgid "Downloads"
+msgstr "下載"
+
+#: extensions/webinterface/httpserver.cpp:231
+#, kde-format
+msgctxt "@label text in footer"
+msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
+msgstr "KGet 網頁介面 | 合法的 XHTML 1.0 Strict &amp; CSS"
+
+#: main.cpp:103
+#, fuzzy, kde-format
+#| msgid "An advanced download manager for KDE"
+msgid "An advanced download manager by KDE"
+msgstr "KDE 的進階下載管理員"
+
+#: main.cpp:105
+#, fuzzy, kde-format
+#| msgid ""
+#| "(C) 2005 - 2012, The KGet developers\n"
+#| "(C) 2001 - 2002, Patrick Charbonnier\n"
+#| "(C) 2002, Carsten Pfeiffer\n"
+#| "(C) 1998 - 2000, Matej Koss"
+msgid ""
+"(C) 2005 - 2014, The KGet developers\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+msgstr ""
+"(C) 2005 - 2012, KGet 開發團隊\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+
+#: main.cpp:109
+#, kde-format
+msgid "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+msgstr "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+
+#: main.cpp:111
+#, kde-format
+msgid "Lukas Appelhans"
+msgstr "Lukas Appelhans"
+
+#: main.cpp:111
+#, kde-format
+msgid "Maintainer, Core Developer, Torrent Plugin Author"
+msgstr "維護者，核心開發者，Torrent 外掛程式作者"
+
+#: main.cpp:112
+#, kde-format
+msgid "Dario Massarin"
+msgstr "Dario Massarin"
+
+#: main.cpp:112 main.cpp:113 main.cpp:115
+#, kde-format
+msgid "Core Developer"
+msgstr "核心發展者"
+
+#: main.cpp:113
+#, kde-format
+msgid "Urs Wolfer"
+msgstr "Urs Wolfer"
+
+#: main.cpp:114
+#, kde-format
+msgid "Manolo Valdes"
+msgstr "Manolo Valdes"
+
+#: main.cpp:114
+#, kde-format
+msgid "Core Developer, Multithreaded Plugin Author"
+msgstr "核心開發者，多緒外掛程式作者"
+
+#: main.cpp:115
+#, kde-format
+msgid "Matthias Fuchs"
+msgstr "Matthias Fuchs"
+
+#: main.cpp:116
+#, kde-format
+msgid "Javier Goday"
+msgstr "Javier Goday"
+
+#: main.cpp:116
+#, kde-format
+msgid "Developer"
+msgstr "發展者"
+
+#: main.cpp:117
+#, kde-format
+msgid "Aish Raj Dahal"
+msgstr "Aish Raj Dahal"
+
+#: main.cpp:117
+#, kde-format
+msgid "Google Summer of Code Student"
+msgstr "參與 Google Summer of Code 的學生"
+
+#: main.cpp:118
+#, kde-format
+msgid "Ernesto Rodriguez Ortiz"
+msgstr "Ernesto Rodriguez Ortiz"
+
+#: main.cpp:118
+#, kde-format
+msgid "Mms Plugin Author"
+msgstr "Mms 外掛程式作者"
+
+#: main.cpp:119
+#, kde-format
+msgid "Patrick Charbonnier"
+msgstr "Patrick Charbonnier"
+
+#: main.cpp:119 main.cpp:120 main.cpp:121
+#, kde-format
+msgid "Former Developer"
+msgstr "前任發展者"
+
+#: main.cpp:120
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:121
+#, kde-format
+msgid "Matej Koss"
+msgstr "Matej Koss"
+
+#: main.cpp:122
+#, kde-format
+msgid "Joris Guisson"
+msgstr "Joris Guisson"
+
+#: main.cpp:122
+#, kde-format
+msgid "BTCore (KTorrent) Developer"
+msgstr "BTCore（KTorrent）核心發展者"
+
+#: main.cpp:123
+#, kde-format
+msgid "Mensur Zahirovic (Nookie)"
+msgstr "Mensur Zahirovic (Nookie)"
+
+#: main.cpp:123
+#, kde-format
+msgid "Design of Web Interface"
+msgstr "網頁介面設計"
+
+#: main.cpp:125
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#: main.cpp:125
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: main.cpp:131
+#, kde-format
+msgid "Start KGet with drop target"
+msgstr "啟動 KGet 在拖放目標模式"
+
+#: main.cpp:132
+#, kde-format
+msgid "Start KGet with hidden main window"
+msgstr "以隱藏主視窗啟動 KGet"
+
+#: main.cpp:133
+#, kde-format
+msgid "Start KGet without drop target animation"
+msgstr "啟動 KGet 在拖放目標模式"
+
+#: main.cpp:135
+#, kde-format
+msgid "Execute Unit Testing"
+msgstr "執行單位測試"
+
+#: main.cpp:137
+#, kde-format
+msgid "URL(s) to download"
+msgstr "以網址下載。"
+
+#: mainwindow.cpp:148
+#, kde-format
+msgid "&New Download..."
+msgstr "新增下載(&N)..."
+
+#: mainwindow.cpp:155
+#, kde-format
+msgid "&Import Transfers..."
+msgstr "匯入傳送清單(&I)..."
+
+#: mainwindow.cpp:162
+#, kde-format
+msgid "&Export Transfers List..."
+msgstr "輸出傳送清單(&E)..."
+
+#: mainwindow.cpp:169
+#, kde-format
+msgid "&Create a Metalink..."
+msgstr "建立 Metalink(&C)..."
+
+#: mainwindow.cpp:175
+#, kde-format
+msgid "Top Priority"
+msgstr "最高優先"
+
+#: mainwindow.cpp:182
+#, kde-format
+msgid "Least Priority"
+msgstr "最低優先"
+
+#: mainwindow.cpp:189
+#, kde-format
+msgid "Increase Priority"
+msgstr "遞增優先權"
+
+#: mainwindow.cpp:196
+#, kde-format
+msgid "Decrease Priority"
+msgstr "遞減優先權"
+
+#: mainwindow.cpp:204 ui/contextmenu.cpp:116
+#, kde-format
+msgid "Delete Group"
+msgid_plural "Delete Groups"
+msgstr[0] "刪除群組"
+
+#: mainwindow.cpp:210 ui/contextmenu.cpp:120
+#, kde-format
+msgid "Rename Group..."
+msgid_plural "Rename Groups..."
+msgstr[0] "重新命名群組..."
+
+#: mainwindow.cpp:215
+#, kde-format
+msgid "Set Icon..."
+msgstr "設定圖示..."
+
+#: mainwindow.cpp:221
+#, kde-format
+msgid "Auto-Paste Mode"
+msgstr "自動貼上模式"
+
+#: mainwindow.cpp:224
+#, kde-format
+msgid ""
+"<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
+"When set, KGet will periodically scan the clipboard for URLs and paste them "
+"automatically."
+msgstr ""
+"<b>自動貼上</b>自動貼上模式啟動和關閉的\n"
+"雙態按鈕。\n"
+"\n"
+"當設定了這項功能， KGet 將會週期性地掃瞄剪貼簿上的網址並且自動地貼上這些網"
+"址。"
+
+#: mainwindow.cpp:230
+#, kde-format
+msgid "Use KGet as Konqueror Download Manager"
+msgstr "將 KGet 設定為 Konqueror 下載管理員"
+
+#: mainwindow.cpp:248
+#, kde-format
+msgctxt "delete selected transfer item"
+msgid "Remove Selected"
+msgstr "移除選取的項目"
+
+#: mainwindow.cpp:255
+#, kde-format
+msgctxt "delete all finished transfers"
+msgid "Remove All Finished"
+msgstr "移除所有已完成的傳輸"
+
+#: mainwindow.cpp:261
+#, kde-format
+msgctxt "delete selected transfer item and files"
+msgid "Remove Selected and Delete Files"
+msgstr "移除選取的傳輸並刪除檔案"
+
+#: mainwindow.cpp:267
+#, kde-format
+msgctxt "redownload selected transfer item"
+msgid "Redownload Selected"
+msgstr "重新下載選取的項目"
+
+#: mainwindow.cpp:272
+#, kde-format
+msgid "Start All"
+msgstr "全部開始"
+
+#: mainwindow.cpp:279
+#, kde-format
+msgid "Start Selected"
+msgstr "開始所選取的項目"
+
+#: mainwindow.cpp:285
+#, kde-format
+msgid "Pause All"
+msgstr "全部暫停"
+
+#: mainwindow.cpp:292
+#, kde-format
+msgid "Stop Selected"
+msgstr "停止所選取的檔案"
+
+#: mainwindow.cpp:297
+#, kde-format
+msgid "Start"
+msgstr "開始"
+
+#: mainwindow.cpp:305
+#, kde-format
+msgid "Pause"
+msgstr "暫停"
+
+#: mainwindow.cpp:314
+#, kde-format
+msgid "Open Destination"
+msgstr "開啟目的地"
+
+#: mainwindow.cpp:319 mainwindow.cpp:507
+#, kde-format
+msgid "Open File"
+msgstr "開啟檔案"
+
+#: mainwindow.cpp:323
+#, kde-format
+msgid "Show Details"
+msgstr "顯示詳情"
+
+#: mainwindow.cpp:328
+#, kde-format
+msgid "Copy URL to Clipboard"
+msgstr "複製網址到剪貼簿"
+
+#: mainwindow.cpp:333
+#, kde-format
+msgid "&Transfer History"
+msgstr "傳輸歷史(&T)"
+
+#: mainwindow.cpp:339
+#, kde-format
+msgid "&Group Settings"
+msgstr "群組設定(&G)"
+
+#: mainwindow.cpp:345
+#, kde-format
+msgid "&Transfer Settings"
+msgstr "傳輸設定(&T)"
+
+#: mainwindow.cpp:351
+#, kde-format
+msgid "Import &Links..."
+msgstr "匯入連結(&L)..."
+
+#: mainwindow.cpp:357
+#, kde-format
+msgid "After downloads finished action"
+msgstr "下載完成後的動作"
+
+#. i18n("Choose an action that is executed after all downloads have been finished."));
+#: mainwindow.cpp:361
+#, kde-format
+msgid "No Action"
+msgstr "沒有動作"
+
+#: mainwindow.cpp:436
+#, kde-format
+msgid ""
+"This is the first time you have run KGet.\n"
+"Would you like to enable KGet as the download manager for Konqueror?"
+msgstr ""
+"這是您第一次執行 KGet 。\n"
+"您要將 KGet 設為 Konqueror 的下載管理員嗎？"
+
+#: mainwindow.cpp:438
+#, kde-format
+msgid "Konqueror Integration"
+msgstr "Konqueror 整合"
+
+#: mainwindow.cpp:438
+#, kde-format
+msgid "Enable"
+msgstr "開啟"
+
+#: mainwindow.cpp:439
+#, kde-format
+msgid "Do Not Enable"
+msgstr "不要開啟"
+
+#: mainwindow.cpp:506
+#, kde-format
+msgid "All Openable Files"
+msgstr "所有可開啟的檔案"
+
+#: mainwindow.cpp:523
+#, kde-format
+msgctxt "window title including overall download progress in percent"
+msgid "KGet - %1%"
+msgstr "KGet ─ %1%"
+
+#: mainwindow.cpp:573
+#, kde-format
+msgid ""
+"Some transfers are still running.\n"
+"Are you sure you want to close KGet?"
+msgstr ""
+"某些傳輸仍在運作中。\n"
+"您確定您要關閉 KGet 嗎？"
+
+#: mainwindow.cpp:575
+#, kde-format
+msgid "Confirm Quit"
+msgstr "確認離開"
+
+#: mainwindow.cpp:602
+#, kde-format
+msgid "KGet Transfer List"
+msgstr "KGet 傳輸清單"
+
+#: mainwindow.cpp:602
+#, kde-format
+msgid "Text File"
+msgstr "文字檔案"
+
+#: mainwindow.cpp:604
+#, kde-format
+msgid "Export Transfers"
+msgstr "輸出傳送"
+
+#: mainwindow.cpp:635
+#, kde-format
+msgid "Enter Group Name"
+msgstr "輸入群組名稱"
+
+#: mainwindow.cpp:636
+#, kde-format
+msgid "Group name:"
+msgstr "群組名稱："
+
+#: mainwindow.cpp:723
+#, kde-format
+msgid "Are you sure you want to delete the selected transfer?"
+msgid_plural "Are you sure you want to delete the selected transfers?"
+msgstr[0] "你確定要刪除選取的傳輸嗎？"
+
+#: mainwindow.cpp:725 mainwindow.cpp:754
+#, kde-format
+msgid "Confirm transfer delete"
+msgstr "確認刪除傳輸"
+
+#: mainwindow.cpp:752
+#, kde-format
+msgid "Are you sure you want to delete the selected transfer including files?"
+msgid_plural ""
+"Are you sure you want to delete the selected transfers including files?"
+msgstr[0] "你確定要刪除選取的傳輸與檔案嗎？"
+
+#: mainwindow.cpp:1083
+#, kde-format
+msgid ""
+"KGet has been temporarily disabled as download manager for Konqueror. If you "
+"want to disable it forever, go to Settings->Advanced and disable \"Use as "
+"download manager for Konqueror\"."
+msgstr ""
+"KGet 已暫時不做 Konqueror 的下載管理員。如果您確定不要 KGet 來管理 Konqueror "
+"的下載，請到「設定」─「進階」選單關閉「做為 Konqueror 的下載管理員」選項。"
+
+#: mainwindow.cpp:1202 ui/droptarget.cpp:220
+#, kde-format
+msgid "The dropped file is a KGet Transfer List"
+msgstr "放下的檔案是 KGet 傳輸清單"
+
+#: mainwindow.cpp:1203 ui/droptarget.cpp:221
+#, kde-format
+msgid "&Download"
+msgstr "下載(&D)"
+
+#: mainwindow.cpp:1204 ui/droptarget.cpp:222
+#, kde-format
+msgid "&Load transfer list"
+msgstr "載入傳輸清單(&L)"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:54
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:58
+#, kde-format
+msgid "Advanced Details for %1"
+msgstr "%1 的進階詳情"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:66
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:215
+#, kde-format
+msgid "Files"
+msgstr "檔案"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:74
+#, kde-format
+msgid "Trackers"
+msgstr "追蹤器"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:77
+#, kde-format
+msgid "Webseeds"
+msgstr "Webseeds"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:211
+#, kde-format
+msgid "Chunk"
+msgstr "區塊"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:212
+#, kde-format
+msgid "Progress"
+msgstr "進度"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:213
+#, kde-format
+msgid "Peer"
+msgstr "端點"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:214
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:313
+#, kde-format
+msgid "Down Speed"
+msgstr "降低速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:223
+#, kde-format
+msgid "Number of the chunk"
+msgstr "區塊數量"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:224
+#, kde-format
+msgid "Download progress of the chunk"
+msgstr "區塊下載進度"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:225
+#, kde-format
+msgid "Which peer we are downloading it from"
+msgstr "我們正從哪一個端點下載"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:226
+#, kde-format
+msgid "Download speed of the chunk"
+msgstr "區塊的下載速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:227
+#, kde-format
+msgid "Which files the chunk is located in"
+msgstr "此區塊是位於哪一個檔案"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ChunkDownloadView)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:13
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:154
+#, kde-format
+msgid "Chunks"
+msgstr "區塊"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:23
+#, kde-format
+msgid "Total:"
+msgstr "總計："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:59
+#, kde-format
+msgid "Currently downloading:"
+msgstr "目前下載中："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:95
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:163
+#, kde-format
+msgid "Downloaded:"
+msgstr "已下載："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:131
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:205
+#, kde-format
+msgid "Excluded:"
+msgstr "已排除："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:167
+#, kde-format
+msgid "Left:"
+msgstr "剩餘："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:203
+#, kde-format
+msgid "Size:"
+msgstr "大小："
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:66
+#, kde-format
+msgctxt "Open file"
+msgid "Open"
+msgstr "開啟"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:68
+#, kde-format
+msgid "Download first"
+msgstr "優先下載"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:69
+#, kde-format
+msgid "Download normally"
+msgstr "正常下載"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:70
+#, kde-format
+msgid "Download last"
+msgstr "最後下載"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:72
+#, kde-format
+msgid "Do Not Download"
+msgstr "不要下載"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:73
+#, kde-format
+msgid "Delete File(s)"
+msgstr "刪除檔案"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:75
+#, kde-format
+msgid "Move File"
+msgstr "移動檔案"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:77
+#, kde-format
+msgid "Collapse Folder Tree"
+msgstr "折疊資料夾樹"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:78
+#, kde-format
+msgid "Expand Folder Tree"
+msgstr "展開資料夾樹"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:266
+#, kde-format
+msgid "You will lose all data in this file, are you sure you want to do this?"
+msgid_plural ""
+"You will lose all data in these files, are you sure you want to do this?"
+msgstr[0] "您會失去這些檔案的所有資料。您確定要這樣做嗎？"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:281
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:302
+#, kde-format
+msgid "Select a directory to move the data to."
+msgstr "選取要移動資料的目錄。"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:67
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:70
+#, kde-format
+msgid "Priority"
+msgstr "優先權"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:68
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:71
+#, kde-format
+msgid "Preview"
+msgstr "預覽"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:70
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:73
+#, no-c-format, kde-format
+msgctxt "Percent of File Downloaded"
+msgid "% Complete"
+msgstr "完成度百分比"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:79
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:82
+#, kde-format
+msgctxt "Download first"
+msgid "First"
+msgstr "優先"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:80
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:83
+#, kde-format
+msgctxt "Download last"
+msgid "Last"
+msgstr "最後"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:85
+#, kde-format
+msgctxt "Download Normal (not as first or last)"
+msgid "Normal"
+msgstr "一般"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:136
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:159
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:163
+#, kde-format
+msgctxt "Preview available"
+msgid "Available"
+msgstr "可用性"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:138
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:161
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:142
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:165
+#, kde-format
+msgctxt "Preview pending"
+msgid "Pending"
+msgstr "待決"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:141
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:164
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:145
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:168
+#, kde-format
+msgctxt "No preview available"
+msgid "No"
+msgstr "無"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:145
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:168
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:150
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:170
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:176
+#, kde-format
+msgid "%1 %"
+msgstr "%1 %"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:88
+#, kde-format
+msgctxt "Download normally(not as first or last)"
+msgid "Normal"
+msgstr "一般"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:140
+#, kde-format
+msgctxt "preview available"
+msgid "Available"
+msgstr "可用"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:54
+#, kde-format
+msgid "Kick Peer"
+msgstr "踢掉端點"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:55
+#, kde-format
+msgid "Ban Peer"
+msgstr "擋住端點"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:156
+#, kde-format
+msgctxt "Choked"
+msgid "Yes"
+msgstr "是"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:156
+#, kde-format
+msgctxt "Not choked"
+msgid "No"
+msgstr "否"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:157
+#, kde-format
+msgctxt "Snubbed"
+msgid "Yes"
+msgstr "是"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:157
+#, kde-format
+msgctxt "Not snubbed"
+msgid "No"
+msgstr "否"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:165
+#, kde-format
+msgctxt "Interested"
+msgid "Yes"
+msgstr "是"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:165
+#, kde-format
+msgctxt "Not Interested"
+msgid "No"
+msgstr "否"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:166
+#, kde-format
+msgctxt "Interesting"
+msgid "Yes"
+msgstr "是"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:166
+#, kde-format
+msgctxt "Not Interesting"
+msgid "No"
+msgstr "否"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:311
+#, kde-format
+msgid "IP Address"
+msgstr "IP 位址"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:312
+#, kde-format
+msgid "Client"
+msgstr "客戶端"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:314
+#, kde-format
+msgid "Up Speed"
+msgstr "增快速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:315
+#, kde-format
+msgid "Choked"
+msgstr "已阻塞"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:316
+#, kde-format
+msgid "Snubbed"
+msgstr "已停止"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:317
+#, kde-format
+msgid "Availability"
+msgstr "可用性"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:318
+#, kde-format
+msgid "DHT"
+msgstr "DHT"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:319
+#, kde-format
+msgid "Score"
+msgstr "分數"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:320
+#, kde-format
+msgid "Upload Slot"
+msgstr "上傳槽"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:321
+#, kde-format
+msgid "Requests"
+msgstr "要求"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:322
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:128
+#, kde-format
+msgid "Downloaded"
+msgstr "已下載"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:323
+#, kde-format
+msgid "Uploaded"
+msgstr "已上傳"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:324
+#, kde-format
+msgid "Interested"
+msgstr "有興趣"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:325
+#, kde-format
+msgid "Interesting"
+msgstr "感興趣"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:333
+#, kde-format
+msgid "IP address of the peer"
+msgstr "端點的 IP 位址"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:334
+#, kde-format
+msgid "Which client the peer is using"
+msgstr "端點使用哪個客戶端程式"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:335
+#, kde-format
+msgid "Download speed"
+msgstr "下載速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:336
+#, kde-format
+msgid "Upload speed"
+msgstr "上傳速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:337
+#, kde-format
+msgid ""
+"Whether or not the peer has choked us. If we are choked, the peer will not "
+"send us any data."
+msgstr "此端點是否「嗆到」我們。若是被嗆到，此端點將無法傳送任何資料給我們。"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:338
+#, kde-format
+msgid "Snubbed means the peer has not sent us any data in the last 2 minutes"
+msgstr "此端點是否「遺忘」了我們，意思是過去兩分鐘內沒有傳送任何資料過來"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:339
+#, kde-format
+msgid "How much of the torrent's data the peer has"
+msgstr "此端點有多少此 torrent 的資料"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:340
+#, kde-format
+msgid "Whether or not the peer has DHT enabled"
+msgstr "此端點是否有開啟 DHT"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:341
+#, kde-format
+msgid ""
+"The score of the peer. KTorrent uses this to determine who to upload to."
+msgstr "此端點的分數。KTorrent 會用此分數來決定要上傳給誰。"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:342
+#, kde-format
+msgid "Only peers which have an upload slot will get data from us"
+msgstr "只有擁有上傳槽的端點才能得到我們傳送的資料"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:343
+#, kde-format
+msgid "The number of download and upload requests"
+msgstr "下載與上傳要求的數量"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:344
+#, kde-format
+msgid "How much data we have downloaded from this peer"
+msgstr "我們從此端點下載了多少資料"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:345
+#, kde-format
+msgid "How much data we have uploaded to this peer"
+msgstr "我們對此端點上傳了多少資料"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:346
+#, kde-format
+msgid "Whether the peer is interested in downloading data from us"
+msgstr "此端點是否有興趣從我們這裡得到資料"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:347
+#, kde-format
+msgid "Whether we are interested in downloading from this peer"
+msgstr "我們是否有興趣從此端點得到資料"
+
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:71
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:378
+#, kde-format
+msgid "File"
+msgstr "檔案"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:379
+#: ui/history/transferhistory.ui:90
+#, kde-format
+msgid "Size"
+msgstr "大小"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:150
+#, kde-format
+msgid "Url"
+msgstr "網址"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:151
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:129
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:152
+#, kde-format
+msgid "Seeders"
+msgstr "播種者"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:153
+#, kde-format
+msgid "Leechers"
+msgstr "接收者"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:154
+#, kde-format
+msgid "Times Downloaded"
+msgstr "已下載時間"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:155
+#, kde-format
+msgid "Next Update"
+msgstr "下次更新"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_add_tracker)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:88
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:21
+#, kde-format
+msgid "Add Tracker"
+msgstr "新增追蹤器"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:88
+#, kde-format
+msgid "Enter the URL of the tracker:"
+msgstr "請輸入追蹤器的網址："
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:103
+#, kde-format
+msgid "There already is a tracker named <b>%1</b>."
+msgstr "已經有一個名為 <b>%1</b> 的追蹤器了。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_remove_tracker)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:28
+#, kde-format
+msgid "Remove Tracker"
+msgstr "移除追蹤器"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_change_tracker)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:35
+#, kde-format
+msgid "Change Tracker"
+msgstr "變更追蹤器"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_scrape)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:42
+#, kde-format
+msgid "Update Trackers"
+msgstr "更新追蹤器"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_restore_defaults)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:62
+#, kde-format
+msgid "Restore Defaults"
+msgstr "回復預設值"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:126
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:32
+#: ui/linkview/kget_linkview.cpp:89
+#, kde-format
+msgid "URL"
+msgstr "網址"
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
+#, kde-format
+msgid "Speed"
+msgstr "速度"
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:96
+#, kde-format
+msgid "Cannot add the webseed %1, it is already part of the list of webseeds."
+msgstr "無法新增 webseed %1，因為它已經在清單中。"
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:113
+#, kde-format
+msgid "Cannot remove webseed %1, it is part of the torrent."
+msgstr "無法移除 webseed %1，因為它是 torrent 的一部份。"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_webseed)
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:21
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Webseed to add to the "
+"torrent.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
+"html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">要新增到 torrent 的 "
+"webseed </p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
+"html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_add)
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:28
+#, kde-format
+msgid "Add Webseed"
+msgstr "新增 webseed"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_remove)
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:50
+#, kde-format
+msgid "Remove Webseed"
+msgstr "移除 webseed"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:29
+#, kde-format
+msgid "Stats"
+msgstr "狀態"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:47
+#, kde-format
+msgid "Seeders:"
+msgstr "播種者："
+
+#. i18n: ectx: property (text), widget (QLabel, seederLabel)
+#. i18n: ectx: property (text), widget (QLabel, dlSpeedLabel)
+#. i18n: ectx: property (text), widget (QLabel, leecherLabel)
+#. i18n: ectx: property (text), widget (QLabel, ulSpeedLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksDownloadedLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksLeftLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksAllLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksExcludedLabel)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:60
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:86
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:112
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:138
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:170
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:184
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:198
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:212
+#, kde-format
+msgid "<n>"
+msgstr "<n>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:73
+#, kde-format
+msgid "Download speed:"
+msgstr "下載速度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:99
+#, kde-format
+msgid "Leechers:"
+msgstr "耗資源者："
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:125
+#, kde-format
+msgid "Upload speed:"
+msgstr "上傳速度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:177
+#, kde-format
+msgctxt "chunks left"
+msgid "Left:"
+msgstr "剩餘區塊："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:191
+#, kde-format
+msgctxt "all chunks"
+msgid "All:"
+msgstr "所有："
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:240
+#, kde-format
+msgctxt "source-file"
+msgid "Source:"
+msgstr "來源："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, destLabel)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:247
+#: ui/transferdetailsfrm.ui:44
+#, kde-format
+msgid "Saving to:"
+msgstr "儲存到："
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:39
+#, kde-format
+msgid "Select a default torrent folder"
+msgstr "選取預設 Torrent 資料夾"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:41
+#, kde-format
+msgid "Select a default temporary folder"
+msgstr "選取預設暫存資料夾"
+
+#. i18n: ectx: property (text), widget (QLabel, uploadLimitLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:49
+#, kde-format
+msgid "Upload limit per transfer:"
+msgstr "傳輸上傳限制："
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:56
+#: transfer-plugins/bittorrent/btsettingswidget.ui:76
+#, kde-format
+msgid "No Limit"
+msgstr "不限制"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:59
+#: transfer-plugins/bittorrent/btsettingswidget.ui:79
+#, kde-format
+msgid "KiB"
+msgstr "KB"
+
+#. i18n: ectx: property (text), widget (QLabel, downloadLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:69
+#, kde-format
+msgid "Download limit per transfer:"
+msgstr "傳輸下載限制："
+
+#. i18n: ectx: property (text), widget (QCheckBox, utpBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:89
+#, kde-format
+msgid "Enable UTP protocol"
+msgstr "開啟 UTP 協定"
+
+#. i18n: ectx: property (title), widget (QGroupBox, folderGroupBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:105
+#, kde-format
+msgid "Folders"
+msgstr "資料夾"
+
+#. i18n: ectx: property (text), widget (QLabel, torrentFolderLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:117
+#, kde-format
+msgid "Default torrent folder:"
+msgstr "預設 Torrent 資料夾："
+
+#. i18n: ectx: property (text), widget (QLabel, tempFolderLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:137
+#, kde-format
+msgid "Default temporary folder:"
+msgstr "預設暫存資料夾："
+
+#. i18n: ectx: property (text), widget (QCheckBox, preallocBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:154
+#, kde-format
+msgid "Pre-allocate disk space"
+msgstr "預先配置磁碟空間"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:134
+#, kde-format
+msgid "Downloading Torrent File...."
+msgstr "下載 Torrent 檔案中..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:178
+#: transfer-plugins/bittorrent/bttransfer.cpp:281
+#, kde-format
+msgctxt "transfer state: downloading"
+msgid "Downloading...."
+msgstr "下載中..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:255
+#, kde-format
+msgid "Cannot add a tracker to a private torrent."
+msgstr "無法新增追蹤器到私有的 torrent。"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:416
+#, kde-format
+msgid "Torrent file does not exist"
+msgstr "Torrent 檔不存在"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:421
+#, kde-format
+msgid "Analyzing torrent...."
+msgstr "分析 torrent 中..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:433
+#, kde-format
+msgid "Cannot initialize port..."
+msgstr "無法初始化連接埠..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:504
+#, kde-format
+msgctxt "Transfer status: seeding"
+msgid "Seeding...."
+msgstr "播種中..."
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:35
+#, kde-format
+msgid "Cannot initialize libktorrent. Torrent support might not work."
+msgstr "無法初始化 libktorrent。Torrent 支援可能無法運作。"
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:84
+#, kde-format
+msgid "&Advanced Details"
+msgstr "進階詳情(&A)"
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:90
+#, kde-format
+msgid "&Scan Files"
+msgstr "掃描檔案(&S)"
+
+#: transfer-plugins/bittorrent/scandlg.cpp:103
+#, kde-format
+msgid "Error scanning data: %1"
+msgstr "掃描資料時發生錯誤：%1"
+
+#. i18n: ectx: property (text), widget (QLabel, torrent_label)
+#: transfer-plugins/bittorrent/scandlg.ui:16
+#, kde-format
+msgid "Scanning data of torrent:"
+msgstr "掃描 torrent 資料："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: transfer-plugins/bittorrent/scandlg.ui:30
+#, kde-format
+msgid "Number of chunks found:"
+msgstr "找到的區塊數："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: transfer-plugins/bittorrent/scandlg.ui:40
+#, kde-format
+msgid "Number of chunks failed:"
+msgstr "失敗的區塊數："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: transfer-plugins/bittorrent/scandlg.ui:50
+#, kde-format
+msgid "Number of chunks not downloaded:"
+msgstr "未下載的區塊數："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: transfer-plugins/bittorrent/scandlg.ui:57
+#, kde-format
+msgid "Number of chunks downloaded:"
+msgstr "下載的區塊數："
+
+#. i18n: ectx: property (text), widget (QLabel, chunks_found)
+#. i18n: ectx: property (text), widget (QLabel, chunks_failed)
+#. i18n: ectx: property (text), widget (QLabel, chunks_not_downloaded)
+#. i18n: ectx: property (text), widget (QLabel, chunks_downloaded)
+#: transfer-plugins/bittorrent/scandlg.ui:77
+#: transfer-plugins/bittorrent/scandlg.ui:102
+#: transfer-plugins/bittorrent/scandlg.ui:124
+#: transfer-plugins/bittorrent/scandlg.ui:137
+#, kde-format
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancel)
+#: transfer-plugins/bittorrent/scandlg.ui:183
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: transfer-plugins/checksumsearch/checksumsearch.cpp:31
+#, kde-format
+msgid "Append"
+msgstr "附加"
+
+#: transfer-plugins/checksumsearch/checksumsearch.cpp:31
+#, kde-format
+msgid "Replace file"
+msgstr "取代檔案"
+
+#: transfer-plugins/checksumsearch/checksumsearch.cpp:31
+#, kde-format
+msgid "Replace file-ending"
+msgstr "取代檔案結尾"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:19
+#, kde-format
+msgid "Change string:"
+msgstr "更改字串："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:33
+#, kde-format
+msgid "Mode:"
+msgstr "模式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:43
+#, kde-format
+msgid "Checksum type:"
+msgstr "檢查碼型態："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:77
+#, kde-format
+msgid "Result:"
+msgstr "結果："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:84
+#, kde-format
+msgid "label"
+msgstr "標籤"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:47
+#, kde-format
+msgid "Add item"
+msgstr "新增項目"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:75
+#, kde-format
+msgid "%1 would become %2"
+msgstr "%1 會變成 %2"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:197
+#, kde-format
+msgctxt "the string that is used to modify an url"
+msgid "Change string"
+msgstr "更改字串"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:198
+#, kde-format
+msgctxt "the mode defines how the url should be changed"
+msgid "Change mode"
+msgstr "更改模式"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:199
+#, kde-format
+msgctxt "the type of the checksum e.g. md5"
+msgid "Checksum type"
+msgstr "檢查碼型態"
+
+#. i18n: ectx: label, entry (SearchStrings), group (ChecksumSearch)
+#. i18n: ectx: label, entry (SearchEnginesNameList), group (SearchEngines)
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:9
+#: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:12
+#, kde-format
+msgid "List of the available search engines"
+msgstr "可使用搜尋引擎清單"
+
+#. i18n: ectx: label, entry (UrlChangeModeList), group (ChecksumSearch)
+#. i18n: ectx: label, entry (ChecksumTypeList), group (ChecksumSearch)
+#. i18n: ectx: label, entry (PathList), group (UserScripts)
+#. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:13
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:17
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:13
+#: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:16
+#, kde-format
+msgid "List of the available search engine URLs"
+msgstr "可使用搜尋引擎網址清單"
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:52
+#, kde-format
+msgctxt "Transfer state: processing script"
+msgid "Processing script...."
+msgstr "處理文稿中..."
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:83
+#, kde-format
+msgctxt "Transfer State: Finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:92
+#, kde-format
+msgctxt "Transfer State: Aborted"
+msgid "Aborted"
+msgstr "已中止"
+
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.cpp:116
+#, kde-format
+msgctxt "Configure script"
+msgid "Configure script"
+msgstr "設定文稿"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:16
+#, kde-format
+msgid "User Scripts"
+msgstr "使用者文稿"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:27
+#, kde-format
+msgid "Path"
+msgstr "路徑"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:32
+#, kde-format
+msgid "RegExp"
+msgstr "正規表示式"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:37
+#: ui/linkview/kget_linkview.cpp:158
+#, kde-format
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (QPushButton, newScriptButton)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:60
+#, kde-format
+msgid "New Script...."
+msgstr "新增文稿..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeScriptButton)
+#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:67
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QPushButton, editScriptButton)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:74
+#, kde-format
+msgid "Edit...."
+msgstr "編輯..."
+
+#. i18n: ectx: property (text), widget (QPushButton, configureScriptButton)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:81
+#, kde-format
+msgid "Configure...."
+msgstr "設定..."
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:25
+#, kde-format
+msgid "Add New Script"
+msgstr "新增文稿"
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:37
+#, kde-format
+msgid "Edit Script"
+msgstr "編輯文稿"
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:48
+#, kde-format
+msgid "Set Script File"
+msgstr "設定文稿檔案 "
+
+#. i18n: ectx: property (text), widget (QLabel, scriptUrlRegexpLabel)
+#: transfer-plugins/contentfetch/dlgscriptediting.ui:29
+#, kde-format
+msgid "Regexp:"
+msgstr "正規表示式："
+
+#. i18n: ectx: property (text), widget (QLabel, scriptPathLabel)
+#: transfer-plugins/contentfetch/dlgscriptediting.ui:36
+#, kde-format
+msgid "Path:"
+msgstr "路徑:"
+
+#. i18n: ectx: property (text), widget (QLabel, scriptDescriptionLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: transfer-plugins/contentfetch/dlgscriptediting.ui:43
+#: ui/metalinkcreator/commondata.ui:32
+#, kde-format
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: label, entry (UrlRegexpList), group (UserScripts)
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:9
+#, kde-format
+msgid "List of the Regexp to match input URL"
+msgstr "用於比對輸入的網址的正規表示式的清單"
+
+#. i18n: ectx: label, entry (DescriptionList), group (UserScripts)
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:21
+#, kde-format
+msgid "List of descriptions for user scripts"
+msgstr "使用者文稿描述清單"
+
+#. i18n: ectx: label, entry (EnableList), group (UserScripts)
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:25
+#, kde-format
+msgid "List of whether the script is enabled"
+msgstr "文稿是否開啟的清單"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fileSettingGroupBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:16
+#, kde-format
+msgid "File Settings"
+msgstr "檔案設定"
+
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:25
+#: ui/metalinkcreator/filedlg.ui:54
+#, kde-format
+msgid "Filename:"
+msgstr "檔案名稱："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:33
+#, kde-format
+msgid "Use Normalized Name"
+msgstr "使用一般化名稱"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:38
+#, kde-format
+msgid "Use Literal Name"
+msgstr "使用文字名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, qualityLabel)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:46
+#, kde-format
+msgid "Quality:"
+msgstr "品質："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:54
+#, kde-format
+msgid "Best Quality (.mp4)"
+msgstr "最佳（.mp4）"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:59
+#, kde-format
+msgid "Normal Quality (.flv)"
+msgstr "一般（.flv）"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, loginGroupBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:70
+#, kde-format
+msgid ""
+"Provide login info of your YouTube account in order to access restricted "
+"media."
+msgstr "請提供您的 youtube 帳號，以便存取媒體。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroupBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:73
+#, kde-format
+msgid "Login Info"
+msgstr "登入資訊"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:101
+#, kde-format
+msgid "Username:"
+msgstr "使用者名稱："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, useNetrcCheck)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:113
+#, kde-format
+msgid ".netrc must have a hostname called 'youtube'."
+msgstr ".netrc 必須有名為 youtube 的主機名稱："
+
+#. i18n: ectx: property (text), widget (QCheckBox, useNetrcCheck)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:116
+#, kde-format
+msgid "User .netrc file"
+msgstr "使用者 .netrc 檔"
+
+#: transfer-plugins/kio/transferKio.cpp:98
+#, kde-format
+msgctxt "transfer state: connecting"
+msgid "Connecting...."
+msgstr "連線中..."
+
+#: transfer-plugins/kio/transferKio.cpp:276
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:254
+#, kde-format
+msgid "The download (%1) could not be verified. Do you want to repair it?"
+msgstr "下載（%1）無法被檢查。您要修復它嗎？"
+
+#: transfer-plugins/kio/transferKio.cpp:279
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:257
+#, kde-format
+msgid "The download (%1) could not be verified. Do you want to redownload it?"
+msgstr "下載（%1）無法被檢查。您要重新下載它嗎？"
+
+#: transfer-plugins/kio/transferKio.cpp:283
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:261
+#, kde-format
+msgid "Verification failed."
+msgstr "檢查失敗。"
+
+#: transfer-plugins/metalink/abstractmetalink.cpp:221
+#: transfer-plugins/metalink/metalink.cpp:482
+#, kde-format
+msgid ""
+"The download could not be verified, do you want to repair (if repairing does "
+"not work the download would be restarted) it?"
+msgstr "下載無法被檢查。您要修復它嗎？若修復無法完成，則會重新開始下載。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: transfer-plugins/metalink/dlgmetalink.ui:22
+#, kde-format
+msgid "Number of simultaneous file downloads:"
+msgstr "同時下載的檔案數："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: transfer-plugins/metalink/dlgmetalink.ui:39
+#, kde-format
+msgid "Number of mirrors per file:"
+msgstr "每個檔案的鏡射站台數："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: transfer-plugins/metalink/dlgmetalink.ui:56
+#: transfer-plugins/mmsthreads/dlgmms.ui:22
+#: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:22
+#, kde-format
+msgid "Number of connections per URL:"
+msgstr "每個網址的連線數："
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: transfer-plugins/metalink/fileselection.ui:17
+#, kde-format
+msgid "Select the files you want to be downloaded."
+msgstr "選擇您要下載的檔案。"
+
+#: transfer-plugins/metalink/fileselectiondlg.cpp:32
+#, kde-format
+msgid "File Selection"
+msgstr "選擇檔案"
+
+#: transfer-plugins/metalink/metalink.cpp:79
+#: transfer-plugins/metalink/metalinkxml.cpp:77
+#, kde-format
+msgid "Downloading Metalink File...."
+msgstr "下載 Metalink 檔案中..."
+
+#: transfer-plugins/metalink/metalink.cpp:113
+#: transfer-plugins/metalink/metalinkxml.cpp:111
+#, kde-format
+msgid ""
+"A newer version of this Metalink might exist, do you want to download it?"
+msgstr "可能有新版本的 Metalink。您要下載它嗎？"
+
+#: transfer-plugins/metalink/metalink.cpp:114
+#: transfer-plugins/metalink/metalinkxml.cpp:112
+#, kde-format
+msgid "Redownload Metalink"
+msgstr "重新下載 Metalink"
+
+#: transfer-plugins/metalink/metalink.cpp:194
+#: transfer-plugins/metalink/metalinkhttp.cpp:237
+#: transfer-plugins/metalink/metalinkxml.cpp:193
+#, kde-format
+msgid "Download failed, no working URLs were found."
+msgstr "下載失敗，找不到可用的網址。"
+
+#: transfer-plugins/metalink/metalinkhttp.cpp:161
+#, kde-format
+msgid "The download could not be verified, try to repair it?"
+msgstr "下載無法被檢查。您要修復它嗎？"
+
+#. i18n: ectx: property (text), widget (QLabel, engineNameLabel)
+#: transfer-plugins/mirrorsearch/dlgengineediting.ui:16
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:32
+#, kde-format
+msgid "Engine name:"
+msgstr "引擎名稱："
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: transfer-plugins/mirrorsearch/dlgengineediting.ui:30
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:33
+#: ui/metalinkcreator/commondata.ui:170 ui/newtransferwidget.ui:24
+#, kde-format
+msgid "URL:"
+msgstr "網址："
+
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:27
+#, kde-format
+msgid "Insert Engine"
+msgstr "插入引擎"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:16
+#, kde-format
+msgid "Search Engines"
+msgstr "搜尋引擎"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:27
+#, kde-format
+msgid "Engine Name"
+msgstr "引擎名稱"
+
+#. i18n: ectx: property (text), widget (QPushButton, newEngineBt)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:55
+#, kde-format
+msgid "New Engine..."
+msgstr "新增引擎..."
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:54
+#, kde-format
+msgctxt "transfer state: running"
+msgid "Running...."
+msgstr "執行中..."
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:117
+#, kde-format
+msgctxt "Transfer State:Finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:160
+#, kde-format
+msgid "Download failed, could not access this URL."
+msgstr "下載失敗，無法存取此網址。"
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:170
+#, kde-format
+msgid ""
+"This URL does not allow multiple connections,\n"
+"the download will take longer."
+msgstr ""
+"此網址不允許多重連線，\n"
+"             因此下載會較久。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enginesCheckBox)
+#: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:44
+#, kde-format
+msgid "Use search engines"
+msgstr "使用搜尋引擎"
+
+#. i18n: ectx: property (text), widget (QCheckBox, verificationCheckBox)
+#: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:51
+#, kde-format
+msgid "Search for verification information"
+msgstr "搜尋檢查資訊"
+
+#: transfer-plugins/multisegmentkio/segment.cpp:296
+#, kde-format
+msgid "Failed to write to the file."
+msgstr "寫入檔案失敗。"
+
+#: ui/droptarget.cpp:84
+#, kde-format
+msgctxt "fix position for droptarget"
+msgid "Sticky"
+msgstr "相黏"
+
+#: ui/droptarget.cpp:278
+#, kde-format
+msgid "Show Main Window"
+msgstr "顯示主視窗"
+
+#: ui/droptarget.cpp:279
+#, kde-format
+msgid "Hide Main Window"
+msgstr "隱藏主視窗"
+
+#: ui/droptarget.cpp:370
+#, kde-format
+msgid "Drop Target"
+msgstr "放下目標"
+
+#: ui/droptarget.cpp:371
+#, kde-format
+msgid "You can drag download links into the drop target."
+msgstr "您可以將下載的連結拖放到目標區。"
+
+#: ui/droptarget.cpp:416
+#, kde-format
+msgctxt "%1 filename, %2 total size, %3 status"
+msgid "%1(%2) %3"
+msgstr "%1(%2) %3"
+
+#: ui/droptarget.cpp:422
+#, kde-format
+msgctxt "%1 filename, %2 percent complete, %3 downloaded out of %4 total size"
+msgid "%1(%2% %3/%4) Speed:%5/s"
+msgstr "%1(%2% %3/%4) 速度：%5/s"
+
+#: ui/droptarget.cpp:430
+#, kde-format
+msgctxt ""
+"%1 filename, %2 percent complete, %3 downloaded out of %4 total size, %5 "
+"status"
+msgid "%1(%2% %3/%4) %5"
+msgstr "%1(%2% %3/%4) %5"
+
+#: ui/droptarget.cpp:444
+#, kde-format
+msgid "Ready"
+msgstr "準備好"
+
+#: ui/groupsettingsdialog.cpp:19
+#, kde-format
+msgid "Group Settings for %1"
+msgstr "%1 的群組設定"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: ui/groupsettingsdialog.ui:32
+#, kde-format
+msgid "Group Settings"
+msgstr "群組設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/groupsettingsdialog.ui:44
+#, fuzzy, kde-format
+#| msgid "Default &folder:"
+msgid "Defau&lt folder:"
+msgstr "預設資料夾(&F)："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#: ui/groupsettingsdialog.ui:61
+#, kde-format
+msgid "Moves all transfers with the regular expression to this group"
+msgstr "將符合此正規表示式的所有傳輸移到此群組"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/groupsettingsdialog.ui:64
+#, fuzzy, kde-format
+#| msgid "Regular &expression:"
+msgid "Re&gular expression:"
+msgstr "正規表示式(&E)："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, regExpEdit)
+#: ui/groupsettingsdialog.ui:74
+#, kde-format
+msgid "*movies*"
+msgstr "*movies*"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadSpin)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadSpin)
+#. i18n: ectx: property (specialValueText), widget (QDoubleSpinBox, ratioSpin)
+#: ui/groupsettingsdialog.ui:87 ui/groupsettingsdialog.ui:106
+#: ui/transfersettingsdialog.ui:51 ui/transfersettingsdialog.ui:67
+#: ui/transfersettingsdialog.ui:83
+#, kde-format
+msgctxt "No value has been set"
+msgid "Not set"
+msgstr "未設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/groupsettingsdialog.ui:119
+#, fuzzy, kde-format
+#| msgid "Maximum &download speed:"
+msgid "Ma&ximum download speed:"
+msgstr "最大下載速度(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/groupsettingsdialog.ui:129
+#, kde-format
+msgid "Maximum &upload speed:"
+msgstr "最大上傳速度(&U)："
+
+#: ui/history/transferhistory.cpp:51
+#, kde-format
+msgid "Transfer History"
+msgstr "傳輸歷史"
+
+#: ui/history/transferhistory.cpp:72
+#, kde-format
+msgid "&Open File"
+msgstr "開啟檔案(&O)"
+
+#: ui/history/transferhistory.cpp:214
+#, kde-format
+msgctxt "The transfer is running"
+msgid "Running"
+msgstr "執行中"
+
+#: ui/history/transferhistory.cpp:216
+#, kde-format
+msgctxt "The transfer is stopped"
+msgid "Stopped"
+msgstr "已停止"
+
+#: ui/history/transferhistory.cpp:218
+#, kde-format
+msgctxt "The transfer is aborted"
+msgid "Aborted"
+msgstr "已中止"
+
+#: ui/history/transferhistory.cpp:220
+#, kde-format
+msgctxt "The transfer is finished"
+msgid "Finished"
+msgstr "已完成"
+
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "Source File"
+msgstr "來源檔"
+
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "Destination"
+msgstr "目的地"
+
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "Time"
+msgstr "時間"
+
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "File Size"
+msgstr "檔案大小"
+
+#: ui/history/transferhistory.cpp:258
+#, kde-format
+msgid "Less than 1MiB"
+msgstr "小於 1MB"
+
+#: ui/history/transferhistory.cpp:260
+#, kde-format
+msgid "Between 1MiB-10MiB"
+msgstr "在 1MB 與 10MB 之間"
+
+#: ui/history/transferhistory.cpp:262
+#, kde-format
+msgid "Between 10MiB-100MiB"
+msgstr "在 10MB 與 100MB 之間"
+
+#: ui/history/transferhistory.cpp:264
+#, kde-format
+msgid "Between 100MiB-1GiB"
+msgstr "在 100MB 與 1GB 之間"
+
+#: ui/history/transferhistory.cpp:266
+#, kde-format
+msgid "More than 1GiB"
+msgstr "大於 1GB"
+
+#: ui/history/transferhistory.cpp:269
+#: ui/history/transferhistorycategorizeddelegate.cpp:45
+#, kde-format
+msgid "Today"
+msgstr "今天"
+
+#: ui/history/transferhistory.cpp:270
+#: ui/history/transferhistorycategorizeddelegate.cpp:49
+#, kde-format
+msgid "Last week"
+msgstr "上週"
+
+#: ui/history/transferhistory.cpp:271
+#, kde-format
+msgid "Last month"
+msgstr "上個月"
+
+#: ui/history/transferhistory.cpp:272
+#: ui/history/transferhistorycategorizeddelegate.cpp:57
+#, kde-format
+msgid "A long time ago"
+msgstr "很久以前"
+
+#: ui/history/transferhistory.cpp:292
+#, kde-format
+msgctxt "the transfer has been finished"
+msgid "Finished"
+msgstr "已完成"
+
+#. i18n: ectx: property (text), widget (QPushButton, clearButton)
+#: ui/history/transferhistory.ui:27
+#, kde-format
+msgid "Clear History"
+msgstr "清除歷史"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/history/transferhistory.ui:47
+#, kde-format
+msgid "View Modes:"
+msgstr "檢視模式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/history/transferhistory.ui:77
+#, kde-format
+msgid "Select Ranges:"
+msgstr "選取範圍："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: ui/history/transferhistory.ui:85
+#, kde-format
+msgid "Date"
+msgstr "日期"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: ui/history/transferhistory.ui:95
+#, kde-format
+msgid "Host"
+msgstr "主機"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, searchBar)
+#: ui/history/transferhistory.ui:106
+#, kde-format
+msgid "Filter history"
+msgstr "過濾歷史"
+
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: ui/history/transferhistory.ui:120
+#, kde-format
+msgctxt "delete selected transfer"
+msgid "Delete Selected"
+msgstr "刪除所選取的項目"
+
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: ui/history/transferhistory.ui:125
+#, kde-format
+msgid "Download"
+msgstr "下載"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:53
+#, kde-format
+msgid "Last Month"
+msgstr "上個月"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:77
+#, kde-format
+msgid "Under 10MiB"
+msgstr "小於 10 MB"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:80
+#, kde-format
+msgid "Between 10MiB and 50MiB"
+msgstr "在 10MB 與 50MB 之間"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:84
+#, kde-format
+msgid "Between 50MiB and 100MiB"
+msgstr "在 50MB 與 100MB 之間"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:89
+#, kde-format
+msgid "More than 100MiB"
+msgstr "大於 100 MB"
+
+#: ui/history/transferhistoryitemdelegate.cpp:42
+#, kde-format
+msgid "Download again"
+msgstr "再次下載"
+
+#: ui/history/transferhistoryitemdelegate.cpp:47
+#, kde-format
+msgctxt "Delete selected history-item"
+msgid "Delete selected"
+msgstr "刪除所選取的項目"
+
+#: ui/history/transferhistoryitemdelegate.cpp:52
+#, kde-format
+msgid "Open file"
+msgstr "開啟檔案"
+
+#. i18n: ectx: Menu (file)
+#: ui/kgetui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "檔案(&F)"
+
+#. i18n: ectx: Menu (Downloads)
+#: ui/kgetui.rc:16
+#, kde-format
+msgid "&Downloads"
+msgstr "下載(&D)"
+
+#. i18n: ectx: Menu (settings)
+#: ui/kgetui.rc:33
+#, kde-format
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: ectx: Menu (help)
+#: ui/kgetui.rc:36
+#, kde-format
+msgid "&Help"
+msgstr "說明(&H)"
+
+#. i18n: ectx: ToolBar (kget_toolbar)
+#: ui/kgetui.rc:39
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/linkview/importlinkdialog.ui:34
+#, fuzzy, kde-format
+#| msgid "&File with links to import:"
+msgid "File with &links to import:"
+msgstr "要匯入連結的檔案(&F)："
+
+#. i18n: ectx: property (text), widget (QPushButton, importLinks)
+#: ui/linkview/importlinkdialog.ui:50
+#, kde-format
+msgid "&Import Links"
+msgstr "匯入連結(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/linkview/importlinkdialog.ui:67
+#, kde-format
+msgid "Show:"
+msgstr "顯示："
+
+#. i18n: ectx: property (text), widget (QCheckBox, showWebContent)
+#: ui/linkview/importlinkdialog.ui:77
+#, kde-format
+msgid "Show &web content"
+msgstr "顯示網頁內容(&W)"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, textFilter)
+#: ui/linkview/importlinkdialog.ui:115
+#, kde-format
+msgid "You can use wildcards for filtering."
+msgstr "您可以用萬用字元來過濾。"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, textFilter)
+#: ui/linkview/importlinkdialog.ui:118
+#, kde-format
+msgid "Filter files here...."
+msgstr "過濾在這裡的檔案..."
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAll)
+#: ui/linkview/importlinkdialog.ui:189 ui/linkview/kget_linkview.cpp:335
+#, kde-format
+msgid "&Select All"
+msgstr "全部選取(&S)"
+
+#. i18n: ectx: property (text), widget (QPushButton, deselectAll)
+#: ui/linkview/importlinkdialog.ui:205 ui/linkview/kget_linkview.cpp:336
+#, kde-format
+msgid "D&eselect All"
+msgstr "全部取消選取(&E)"
+
+#. i18n: ectx: property (text), widget (QPushButton, invertSelection)
+#: ui/linkview/importlinkdialog.ui:221
+#, kde-format
+msgid "Inver&t Selection"
+msgstr "反向選擇(&T)"
+
+#: ui/linkview/kget_linkview.cpp:40
+#, kde-format
+msgid "Import Links"
+msgstr "匯入連結"
+
+#: ui/linkview/kget_linkview.cpp:57
+#, kde-format
+msgid "Contains"
+msgstr "包含"
+
+#: ui/linkview/kget_linkview.cpp:58
+#, kde-format
+msgid "Does Not Contain"
+msgstr "不含"
+
+#: ui/linkview/kget_linkview.cpp:62
+#, kde-format
+msgid "All"
+msgstr "全部"
+
+#: ui/linkview/kget_linkview.cpp:63
+#, kde-format
+msgid "Videos"
+msgstr "影片"
+
+#: ui/linkview/kget_linkview.cpp:64
+#, kde-format
+msgid "Images"
+msgstr "影像"
+
+#: ui/linkview/kget_linkview.cpp:65
+#, kde-format
+msgid "Audio"
+msgstr "音效"
+
+#: ui/linkview/kget_linkview.cpp:66
+#, kde-format
+msgid "Archives"
+msgstr "套件包"
+
+#: ui/linkview/kget_linkview.cpp:72
+#, kde-format
+msgctxt "of a filter, e.g. RegExp or Wildcard"
+msgid "Pattern Syntax"
+msgstr "樣式語法"
+
+#: ui/linkview/kget_linkview.cpp:73
+#, kde-format
+msgid "Escape Sequences"
+msgstr "跳脫序列"
+
+#: ui/linkview/kget_linkview.cpp:76
+#, kde-format
+msgid "Regular Expression"
+msgstr "正規表示式"
+
+#: ui/linkview/kget_linkview.cpp:86
+#, kde-format
+msgctxt "name of a file"
+msgid "Name"
+msgstr "名稱"
+
+#: ui/linkview/kget_linkview.cpp:116
+#, kde-format
+msgctxt "Download the items which have been selected"
+msgid "&Download"
+msgstr "下載(&D)"
+
+#: ui/linkview/kget_linkview.cpp:156
+#, kde-format
+msgid "Auxiliary header"
+msgstr "輔助標頭"
+
+#: ui/linkview/kget_linkview.cpp:157
+#, kde-format
+msgid "File Name"
+msgstr "檔案名稱"
+
+#: ui/linkview/kget_linkview.cpp:159
+#, kde-format
+msgctxt "list header: type of file"
+msgid "File Type"
+msgstr "檔案型態"
+
+#: ui/linkview/kget_linkview.cpp:160
+#, kde-format
+msgid "Location (URL)"
+msgstr "位置（網址）"
+
+#: ui/linkview/kget_linkview.cpp:264
+#, kde-format
+msgid "Links in: %1 - KGet"
+msgstr "在 %1 的連結─KGet"
+
+#: ui/linkview/kget_linkview.cpp:335
+#, kde-format
+msgid "&Select All Filtered"
+msgstr "選擇所有已過濾的(&S)"
+
+#: ui/linkview/kget_linkview.cpp:336
+#, kde-format
+msgid "D&eselect All Filtered"
+msgstr "取消選擇所有已過濾的(&E)"
+
+#: ui/linkview/kget_linkview.cpp:459
+#, kde-format
+msgid "Filter Column"
+msgstr "過濾器欄位"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/metalinkcreator/commondata.ui:22
+#, kde-format
+msgid "Identity"
+msgstr "身份"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/commondata.ui:46
+#, kde-format
+msgid "Version:"
+msgstr "版本："
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: ui/metalinkcreator/commondata.ui:56
+#, kde-format
+msgid "Logo:"
+msgstr "圖標："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, logo)
+#: ui/metalinkcreator/commondata.ui:63
+#, kde-format
+msgid "URL to the logo"
+msgstr "圖標的網址"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_13)
+#: ui/metalinkcreator/commondata.ui:73
+#, kde-format
+msgid "The language of the file"
+msgstr "檔案的語言"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: ui/metalinkcreator/commondata.ui:76
+#, kde-format
+msgid "Language:"
+msgstr "語言："
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: ui/metalinkcreator/commondata.ui:86
+#, kde-format
+msgid "Operating systems:"
+msgstr "作業系統："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, os)
+#: ui/metalinkcreator/commondata.ui:93
+#, kde-format
+msgid "Supported OSes, separated with commas"
+msgstr "支援的作業系統，以逗號分隔"
+
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: ui/metalinkcreator/commondata.ui:103
+#, kde-format
+msgid "Copyright:"
+msgstr "版權所有："
+
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#: ui/metalinkcreator/commondata.ui:141
+#, kde-format
+msgid "Publisher:"
+msgstr "發布者："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ui/metalinkcreator/commondata.ui:150
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, pub_name)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, pub_url)
+#: ui/metalinkcreator/commondata.ui:157 ui/metalinkcreator/commondata.ui:177
+#, kde-format
+msgid "publisher"
+msgstr "發布者"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, pub_name)
+#: ui/metalinkcreator/commondata.ui:160
+#, kde-format
+msgid "Name of the publisher"
+msgstr "發布者名稱"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, pub_url)
+#: ui/metalinkcreator/commondata.ui:180
+#, kde-format
+msgid "URL to the publisher"
+msgstr "發布者網址"
+
+#: ui/metalinkcreator/dragdlg.cpp:69
+#, kde-format
+msgid "Import dropped files"
+msgstr "匯入放下的檔案"
+
+#: ui/metalinkcreator/dragdlg.cpp:92 ui/metalinkcreator/filedlg.cpp:65
+#: ui/metalinkcreator/filedlg.cpp:173
+#, fuzzy, kde-format
+#| msgctxt "comma, to seperate members of a list"
+#| msgid ","
+msgctxt "comma, to separate members of a list"
+msgid ","
+msgstr ","
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite)
+#: ui/metalinkcreator/dragdlg.ui:21
+#, kde-format
+msgctxt "General options."
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (text), widget (QCheckBox, partialChecksums)
+#: ui/metalinkcreator/dragdlg.ui:27
+#, kde-format
+msgid "Create partial checksums"
+msgstr "建立部份的檢查碼"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/metalinkcreator/dragdlg.ui:40
+#, kde-format
+msgid "General URL:"
+msgstr "一般網址："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/metalinkcreator/dragdlg.ui:66
+#, kde-format
+msgid ""
+"Automatically create checksums for the selected types. Keep in mind that "
+"this might take a while."
+msgstr "自動建立選取型態的檢查碼。這可能會花點時間。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/metalinkcreator/dragdlg.ui:92
+#, kde-format
+msgid ""
+"Enter URLs here if all the dropped files are on that server and in the same "
+"directory. For each dropped file the URL would consist of the entered part "
+"and the filename."
+msgstr ""
+"若是所有放下的檔案都在該伺服器上，並且在同一個目錄的話，請在此輸入網址。對每"
+"個檔案，網址會自動加上路徑與檔名。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/metalinkcreator/dragdlg.ui:102
+#, kde-format
+msgid "Types of the checksums:"
+msgstr "檢查碼型態："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/dragdlg.ui:115
+#, kde-format
+msgid "Create checksums:"
+msgstr "建立檢查碼："
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite_2)
+#: ui/metalinkcreator/dragdlg.ui:132
+#, kde-format
+msgctxt "These entries are optional."
+msgid "Optional"
+msgstr "選擇性的"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/metalinkcreator/dragdlg.ui:144
+#, kde-format
+msgid "Optional data:"
+msgstr "選擇性的資料："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/metalinkcreator/dragdlg.ui:169
+#, kde-format
+msgid "Enter information that all chosen files share."
+msgstr "輸入所有選取的檔案共用的資訊。"
+
+#: ui/metalinkcreator/filedlg.cpp:114
+#, kde-format
+msgid "File Properties"
+msgstr "檔案屬性"
+
+#: ui/metalinkcreator/filedlg.cpp:126
+#, kde-format
+msgid "Enter a filename."
+msgstr "請輸入檔案名稱。"
+
+#: ui/metalinkcreator/filedlg.cpp:129
+#, kde-format
+msgid "The filename exists already, choose a different one."
+msgstr "檔案已存在，請選擇另一個檔名。"
+
+#: ui/metalinkcreator/filedlg.cpp:132
+#, kde-format
+msgid "Enter at least one URL."
+msgstr "請輸入至少一個網址。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: ui/metalinkcreator/filedlg.ui:24
+#, kde-format
+msgid "Required"
+msgstr "需要的"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ui/metalinkcreator/filedlg.ui:95
+#, kde-format
+msgid "Used Mirrors:"
+msgstr "已使用的鏡射站台："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: ui/metalinkcreator/filedlg.ui:103
+#, kde-format
+msgid "Recommended"
+msgstr "建議"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: ui/metalinkcreator/filedlg.ui:111
+#, kde-format
+msgid "File size (in bytes):"
+msgstr "檔案大小（位元組）)："
+
+#. i18n: ectx: property (validChars), widget (KRestrictedLine, size)
+#: ui/metalinkcreator/filedlg.ui:121
+#, kde-format
+msgid "0123456789"
+msgstr "0123456789"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ui/metalinkcreator/filedlg.ui:152 ui/signaturedlg.ui:34
+#, kde-format
+msgid "Verification:"
+msgstr "檢查："
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite)
+#: ui/metalinkcreator/filedlg.ui:199
+#, kde-format
+msgid "Optional"
+msgstr "選擇性的"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, add_local_file)
+#: ui/metalinkcreator/files.ui:26
+#, kde-format
+msgid "Adds local files adding a lot information automatically."
+msgstr "將本地端檔案新增進來時，系統會自動填入許多資訊。"
+
+#. i18n: ectx: property (text), widget (QPushButton, add_local_file)
+#: ui/metalinkcreator/files.ui:29
+#, kde-format
+msgid "Add local files"
+msgstr "新增本地端檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/metalinkcreator/files.ui:66
+#, kde-format
+msgid "Adding local files..."
+msgstr "新增本地端檔案..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/metalinkcreator/generalwidget.ui:23
+#, kde-format
+msgid "General information:"
+msgstr "一般資訊："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ui/metalinkcreator/generalwidget.ui:30
+#, kde-format
+msgid "Here you can enter optional general information on the metalink."
+msgstr "您可以在此輸入（非必要的） Metalink 一般資訊。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/generalwidget.ui:61
+#, kde-format
+msgid "Origin:"
+msgstr "原始："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, origin)
+#: ui/metalinkcreator/generalwidget.ui:68
+#, kde-format
+msgid "Web URL to the metalink"
+msgstr "Metalink 的網址"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelDynamic)
+#: ui/metalinkcreator/generalwidget.ui:75
+#, kde-format
+msgid "Dynamic means that updated metalinks can be found at \"Origin\"."
+msgstr "「動態」表示在「原始」處可以找到已更新的 metalink。"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDynamic)
+#: ui/metalinkcreator/generalwidget.ui:78
+#, kde-format
+msgid "Dynamic:"
+msgstr "動態："
+
+#. i18n: ectx: property (title), widget (QGroupBox, publishedGroupBox)
+#: ui/metalinkcreator/generalwidget.ui:110
+#, kde-format
+msgid "Metalink published"
+msgstr "Metalink 發布"
+
+#. i18n: ectx: property (text), widget (QLabel, label_30)
+#. i18n: ectx: property (text), widget (QLabel, label_29)
+#: ui/metalinkcreator/generalwidget.ui:122
+#: ui/metalinkcreator/generalwidget.ui:223
+#, kde-format
+msgid "Date and time:"
+msgstr "日期和時間："
+
+#. i18n: ectx: property (text), widget (QCheckBox, use_publishedtimeoffset)
+#. i18n: ectx: property (text), widget (QCheckBox, use_updatedtimeoffset)
+#: ui/metalinkcreator/generalwidget.ui:132
+#: ui/metalinkcreator/generalwidget.ui:213
+#, kde-format
+msgid "Timezone offset:"
+msgstr "時區偏移值："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ui/metalinkcreator/generalwidget.ui:149
+#: ui/metalinkcreator/generalwidget.ui:206
+#, kde-format
+msgid "Negative offset:"
+msgstr "負偏移值："
+
+#. i18n: ectx: property (title), widget (QGroupBox, updatedGroupBox)
+#: ui/metalinkcreator/generalwidget.ui:178
+#, kde-format
+msgid "Metalink updated"
+msgstr "Metalink 更新"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/introduction.ui:17
+#, kde-format
+msgid ""
+"This assistant allows you to create metalinks from scratch or base them on "
+"existing metalinks. A lot of the fields are optional or recommended, so "
+"enter them if desired. The minimum is a save location, at least one file and "
+"one URL."
+msgstr ""
+"小助手讓您可以從頭建立 metalinks，或根據現有的 metalinks。大部份的欄位都不是"
+"必要的，所以您可以依自己想法填入。至少要填入儲存位置，一個檔案與一個網址。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/metalinkcreator/introduction.ui:48
+#, kde-format
+msgid "Save created Metalink at:"
+msgstr "將 Metalink 儲存在："
+
+#. i18n: ectx: property (text), widget (QRadioButton, createButton)
+#: ui/metalinkcreator/introduction.ui:78
+#, kde-format
+msgid "Create new Metalink"
+msgstr "建立新的 Metalink"
+
+#. i18n: ectx: property (text), widget (QRadioButton, loadButton)
+#: ui/metalinkcreator/introduction.ui:88
+#, kde-format
+msgid "Load existing Metalink:"
+msgstr "載入已存在的 Metalink："
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, load)
+#: ui/metalinkcreator/introduction.ui:98
+#, kde-format
+msgid "*.metalink *.meta4|Metalink file (*.metalink *.meta4)"
+msgstr "*.metalink *.meta4|Metalink 檔案（*.metalink *.meta4）"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:84
+#, kde-format
+msgid "Create a Metalink"
+msgstr "建立 Metalink"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:103
+#, kde-format
+msgid "Add at least one file."
+msgstr "請新增至少一個檔案。"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:105
+#, kde-format
+msgid "You need to set mirrors for the entries with an icon."
+msgstr "您需要對有圖示的項目設定鏡射站台。"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:118
+#, kde-format
+msgid "General optional information for the metalink."
+msgstr "Metalink 的一般非必要資訊。"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:147
+#, kde-format
+msgid "Unable to load: %1"
+msgstr "無法載入：%1"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:174
+#, kde-format
+msgid "Metalink Version 4.0 file (*.meta4)"
+msgstr "Metalink 4.0 版檔案 (*.meta4)"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:174
+#, kde-format
+msgid "Metalink Version 3.0 file (*.metalink)"
+msgstr "Metalink 3.0 版檔案 (*.metalink *.meta4）"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:181
+#, kde-format
+msgid "Define the saving location."
+msgstr "定義儲存位置。"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:227
+#, kde-format
+msgctxt "file as in file on hard drive"
+msgid "Files"
+msgstr "檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMirror)
+#: ui/mirror/mirroradddlg.ui:19
+#, kde-format
+msgid "Mirror:"
+msgstr "鏡射站台："
+
+#. i18n: ectx: property (text), widget (QLabel, labelConnections)
+#: ui/mirror/mirroradddlg.ui:26
+#, kde-format
+msgid "Number of connections:"
+msgstr "連線數："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, url)
+#: ui/mirror/mirroradddlg.ui:33
+#, kde-format
+msgid "Enter a URL"
+msgstr "輸入網址"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPriority)
+#: ui/mirror/mirroradddlg.ui:53
+#, kde-format
+msgid "Priority:"
+msgstr "優先權："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, priority)
+#: ui/mirror/mirroradddlg.ui:60
+#, kde-format
+msgid "Optional: The priority of the mirror, 1 highest 999999 lowest."
+msgstr "選擇性選項：鏡射站台的優先順序。1 最低 999999 最高。"
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, priority)
+#: ui/mirror/mirroradddlg.ui:72 ui/mirror/mirrormodel.cpp:212
+#: ui/mirror/mirrormodel.cpp:230
+#, kde-format
+msgid "not specified"
+msgstr "未指定"
+
+#. i18n: ectx: property (text), widget (QLabel, labelLocation)
+#: ui/mirror/mirroradddlg.ui:79
+#, kde-format
+msgid "Location:"
+msgstr "位置："
+
+#: ui/mirror/mirrormodel.cpp:386
+#, kde-format
+msgctxt "Mirror as in server, in url"
+msgid "Mirror"
+msgstr "鏡射站台"
+
+#: ui/mirror/mirrormodel.cpp:389
+#, kde-format
+msgctxt "The priority of the mirror"
+msgid "Priority"
+msgstr "優先權"
+
+#: ui/mirror/mirrormodel.cpp:394
+#, kde-format
+msgctxt "Number of paralell connections to the mirror"
+msgid "Connections"
+msgstr "連線"
+
+#: ui/mirror/mirrormodel.cpp:396
+#, kde-format
+msgctxt "Location = country"
+msgid "Location"
+msgstr "位置"
+
+#: ui/mirror/mirrorsettings.cpp:55
+#, kde-format
+msgid "Add mirror"
+msgstr "新增鏡射站台"
+
+#: ui/mirror/mirrorsettings.cpp:149
+#, kde-format
+msgid "Modify the used mirrors"
+msgstr "變更使用的鏡射站台"
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: ui/mirror/mirrorsettings.ui:36
+#, kde-format
+msgid "PushButton"
+msgstr ""
+
+#: ui/newtransferdialog.cpp:325
+#, kde-format
+msgid "Select at least one source url."
+msgstr "請選擇至少一個來源網址。"
+
+#: ui/newtransferdialog.cpp:343
+#, kde-format
+msgid "Files that exist already in the current folder have been marked."
+msgstr "已經存在於目前資料夾的檔案均已被標記。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/newtransferwidget.ui:31
+#, kde-format
+msgid "Destination:"
+msgstr "目的地："
+
+#. i18n: ectx: property (text), widget (QLabel, groupLabel)
+#: ui/newtransferwidget.ui:41
+#, kde-format
+msgid "Transfer group:"
+msgstr "傳輸群組："
+
+#: ui/renamefile.cpp:33
+#, kde-format
+msgid "Rename File"
+msgstr "重新命名檔案"
+
+#: ui/renamefile.cpp:40
+#, kde-format
+msgid "Rename %1 to:"
+msgstr "將 %1 重新命名為："
+
+#: ui/renamefile.cpp:43
+#, kde-format
+msgid "&Rename"
+msgstr "重新命名(&R)"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Unknown"
+msgstr "未知的客戶端"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Undefined"
+msgstr "未定義"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Never"
+msgstr "端點"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Marginal"
+msgstr "最低限度"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Full"
+msgstr "完全"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Ultimate"
+msgstr "絕對"
+
+#: ui/signaturedlg.cpp:49
+#, kde-format
+msgctxt ""
+"Signature here is meant in cryptographic terms, so the signature of a file."
+msgid "Signature of %1."
+msgstr "%1 的簽章。"
+
+#: ui/signaturedlg.cpp:72
+#, kde-format
+msgid "This option is not supported for the current transfer."
+msgstr "目前的傳輸未支援此選項。"
+
+#: ui/signaturedlg.cpp:99
+#, kde-format
+msgid "Load Signature File"
+msgstr "載入簽章檔"
+
+#: ui/signaturedlg.cpp:99
+#, kde-format
+msgid "Detached OpenPGP ASCII signature (*.asc)"
+msgstr "分離式 OpenPGP ASCII 簽章（*.asc）"
+
+#: ui/signaturedlg.cpp:100
+#, kde-format
+msgid "Detached OpenPGP binary signature (*.sig)"
+msgstr "分離式 OpenPGP 二進位簽章（*.asc）"
+
+#: ui/signaturedlg.cpp:153
+#, kde-format
+msgid "You need to define a signature."
+msgstr "您需要定義簽章。"
+
+#: ui/signaturedlg.cpp:157
+#, kde-format
+msgid ""
+"No fingerprint could be found, check if the signature is correct or verify "
+"the download."
+msgstr "找不到指紋，請檢查簽章是否正確，或檢查下載。"
+
+#: ui/signaturedlg.cpp:191
+#, kde-format
+msgid "The key has been revoked."
+msgstr "此金鑰已撤銷。"
+
+#: ui/signaturedlg.cpp:195
+#, kde-format
+msgid "The key is disabled."
+msgstr "此金鑰已關閉。"
+
+#: ui/signaturedlg.cpp:199
+#, kde-format
+msgid "The key is invalid."
+msgstr "此金鑰不合法。"
+
+#: ui/signaturedlg.cpp:204
+#, kde-format
+msgid "The key is expired."
+msgstr "此金鑰已逾時。"
+
+#: ui/signaturedlg.cpp:219
+#, kde-format
+msgid "The key is not to be trusted."
+msgstr "此金鑰不可信。"
+
+#: ui/signaturedlg.cpp:224
+#, kde-format
+msgid "The key is to be trusted marginally."
+msgstr "此金鑰大致可信。"
+
+#: ui/signaturedlg.cpp:237
+#, kde-format
+msgid "Trust level of the key is unclear."
+msgstr "此金鑰的信任等級不明。"
+
+#: ui/signaturedlg.cpp:266
+#, kde-format
+msgid "Unlimited"
+msgstr "無限制"
+
+#: ui/signaturedlg.cpp:284
+#, kde-format
+msgctxt "pgp signature is verified"
+msgid "Verified"
+msgstr "已檢驗"
+
+#: ui/signaturedlg.cpp:287
+#, kde-format
+msgctxt "pgp signature is not verified"
+msgid "Failed"
+msgstr "失敗"
+
+#: ui/signaturedlg.cpp:290
+#, kde-format
+msgid ""
+"Caution: Verification failed. Either you entered the wrong signature, or the "
+"data has been modified."
+msgstr "小心：檢查失敗。您可能輸入了錯誤的簽章，或是資料已被更動。"
+
+#: ui/signaturedlg.cpp:295
+#, kde-format
+msgid ""
+"Verification not possible. Check the entered data, whether gpg-agent is "
+"running, or whether you have an Internet connection (for retrieving keys.)"
+msgstr ""
+"無法檢查。請檢查輸入的資料，看看 gpg-agent 是否執行中，或是您是否有網際網路連"
+"線以取得金鑰。"
+
+#: ui/signaturedlg.cpp:312
+#, kde-format
+msgid "Feature is not supported, as KGet is not compiled with QPGME support."
+msgstr "功能未支援，因為 KGet 未將 QPGME 支援編入。"
+
+#. i18n: ectx: property (text), widget (QLabel, binaryLabel)
+#: ui/signaturedlg.ui:80
+#, kde-format
+msgid "Has binary PGP signature."
+msgstr "有二進位 PGP 簽章。"
+
+#. i18n: ectx: property (text), widget (QLabel, asciiLabel)
+#: ui/signaturedlg.ui:87
+#, kde-format
+msgid "Ascii PGP signature:"
+msgstr "ASCII PGP 簽章："
+
+#. i18n: ectx: property (text), widget (QPushButton, loadSignature)
+#: ui/signaturedlg.ui:112
+#, kde-format
+msgid "Load Signature"
+msgstr "載入簽章"
+
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#: ui/signaturedlg.ui:119
+#, kde-format
+msgid "Verify"
+msgstr "檢查"
+
+#. i18n: ectx: property (title), widget (QGroupBox, keyGroup)
+#: ui/signaturedlg.ui:131
+#, kde-format
+msgid "Key"
+msgstr "金鑰"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/signaturedlg.ui:143
+#, kde-format
+msgid "Issuer:"
+msgstr "產生者："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/signaturedlg.ui:166
+#, kde-format
+msgid "E-Mail:"
+msgstr "電子郵件地址："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ui/signaturedlg.ui:183
+#, kde-format
+msgid "Comment:"
+msgstr "備註："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/signaturedlg.ui:197
+#, kde-format
+msgid "Creation:"
+msgstr "建立時間:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/signaturedlg.ui:214
+#, kde-format
+msgid "Expiration:"
+msgstr "使用期限："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/signaturedlg.ui:255
+#, kde-format
+msgid "Trust:"
+msgstr "信任:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/signaturedlg.ui:296
+#, kde-format
+msgid "Fingerprint:"
+msgstr "指紋:"
+
+#: ui/transferdetails.cpp:71
+#, kde-format
+msgid "Average speed: %1/s"
+msgstr "平均速度：%1/秒"
+
+#: ui/transferdetails.cpp:76
+#, kde-format
+msgid "%1 of %2"
+msgstr "%1 / %2"
+
+#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
+#: ui/transferdetailsfrm.ui:51
+#, kde-format
+msgctxt "@label transfer source"
+msgid "Source:"
+msgstr "來源："
+
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: ui/transferdetailsfrm.ui:114
+#, kde-format
+msgid "Status:"
+msgstr "狀態："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/transferdetailsfrm.ui:165
+#, kde-format
+msgid "Remaining Time:"
+msgstr "剩餘時間："
+
+#: ui/transfersettingsdialog.cpp:33
+#, kde-format
+msgid "Transfer Settings for %1"
+msgstr "%1 的傳輸設定"
+
+#: ui/transfersettingsdialog.cpp:168
+#, kde-format
+msgid ""
+"Changing the destination did not work, the destination stays unmodified."
+msgstr "變更目的地沒有成功。目的地並未被改變。"
+
+#: ui/transfersettingsdialog.cpp:168
+#, kde-format
+msgid "Destination unmodified"
+msgstr "目的地未變更"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: ui/transfersettingsdialog.ui:23
+#, kde-format
+msgid "Transfer Settings"
+msgstr "傳輸設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/transfersettingsdialog.ui:35
+#, kde-format
+msgid "Download des&tination:"
+msgstr "下載目的地(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelUpload)
+#: ui/transfersettingsdialog.ui:90
+#, kde-format
+msgid "&Upload limit:"
+msgstr "上傳限制(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelDownload)
+#: ui/transfersettingsdialog.ui:100
+#, fuzzy, kde-format
+#| msgid "&Download limit:"
+msgid "Download &limit:"
+msgstr "下載限制(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelShareRatio)
+#: ui/transfersettingsdialog.ui:110
+#, fuzzy, kde-format
+#| msgid "Maximum &share ratio:"
+msgid "Ma&ximum share ratio:"
+msgstr "最大分享比例(&S)："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mirrors)
+#: ui/transfersettingsdialog.ui:139
+#, kde-format
+msgid "Modify the mirrors used for downloading."
+msgstr "變更用於下載的鏡射站台。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mirrors)
+#: ui/transfersettingsdialog.ui:142
+#, kde-format
+msgctxt "The available mirrors (servers) for downloading"
+msgid "Mirrors"
+msgstr "鏡射站台"
+
+#. i18n: ectx: property (text), widget (QPushButton, verification)
+#: ui/transfersettingsdialog.ui:162
+#, kde-format
+msgctxt "verification of the download (e.g. by using MD5)"
+msgid "Verification"
+msgstr "檢查"
+
+#: ui/transfersview.cpp:125
+#, kde-format
+msgid "Select columns"
+msgstr "選取欄位"
+
+#: ui/transfersview.cpp:313
+#, kde-format
+msgid "Transfer Details"
+msgstr "傳輸詳情"
+
+#: ui/tray.cpp:49
+#, kde-format
+msgid "Download Manager"
+msgstr "下載管理員"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/verificationadddlg.ui:19
+#, kde-format
+msgctxt "hash type as in md5t, sha1 etc."
+msgid "Hash type:"
+msgstr "雜湊型態："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/verificationadddlg.ui:26
+#, kde-format
+msgctxt "hash as a hash of type md5, sha1 etc."
+msgid "Hash:"
+msgstr "雜湊值："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, newHash)
+#: ui/verificationadddlg.ui:33
+#, kde-format
+msgid "Enter a hash key"
+msgstr "輸入雜湊鍵值"
+
+#: ui/verificationdialog.cpp:38
+#, kde-format
+msgid "Add checksum"
+msgstr "新增檢查碼"
+
+#: ui/verificationdialog.cpp:94
+#, kde-format
+msgid "Transfer Verification for %1"
+msgstr "%1 的傳輸檢查"
+
+#: ui/verificationdialog.cpp:206
+#, kde-format
+msgid "%1 was successfully verified."
+msgstr "%1 已成功檢查完成。"
+
+#: ui/verificationdialog.cpp:207
+#, kde-format
+msgid "Verification successful"
+msgstr "檢查成功"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/verificationdialog.ui:65
+#, kde-format
+msgid "Verifying:"
+msgstr "檢查中："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, verify)
+#: ui/verificationdialog.ui:118
+#, kde-format
+msgid "Verify the finished download with the selected checksum."
+msgstr "使用選取的檢查碼來檢查已完成的下載。"
+
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#: ui/verificationdialog.ui:121
+#, kde-format
+msgid "&Verify"
+msgstr "檢查(&V)"
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: ui/verificationdialog.ui:147
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk"
+
+#~ msgid "Opens a dialog to add a transfer to the list"
+#~ msgstr "開啟對話框以新增傳輸到清單中"
+
+#~ msgid "Imports a list of transfers"
+#~ msgstr "匯入傳輸清單"
+
+#~ msgid "Exports the current transfers into a file"
+#~ msgstr "匯出目前的傳輸到檔案中"
+
+#~ msgid "Creates or modifies a metalink and saves it on disk"
+#~ msgstr "建立或變更 metalink 並存到磁碟上"
+
+#~ msgid "Download selected transfer first"
+#~ msgstr "優先下載選取的傳輸"
+
+#~ msgid "Download selected transfer last"
+#~ msgstr "最後下載選取的傳輸："
+
+#~ msgid "Increase priority for selected transfer"
+#~ msgstr "遞增選取傳輸的優先權"
+
+#~ msgid "Decrease priority for selected transfer"
+#~ msgstr "遞減選取傳輸的優先權"
+
+#~ msgid "Delete selected group"
+#~ msgstr "刪除所選取的群組"
+
+#~ msgid "Select a custom icon for the selected group"
+#~ msgstr "選擇選取群組的自訂圖示"
+
+#~ msgid ""
+#~ "Removes selected transfer and deletes files from disk if it's not finished"
+#~ msgstr "移除選取的傳輸。若尚未完成下載，則從磁碟中刪除檔案。"
+
+#~ msgid "Removes all finished transfers and leaves all files on disk"
+#~ msgstr "移除所有已完成的傳輸，並保留下載的檔案"
+
+#~ msgid "Removes selected transfer and deletes files from disk in any case"
+#~ msgstr "移除選取的傳輸並刪除檔案"
+
+#~ msgid "Starts / resumes all transfers"
+#~ msgstr "開始/全部回復"
+
+#~ msgid "Starts / resumes selected transfer"
+#~ msgstr "開始/回復所選取的傳輸"
+
+#~ msgid "Pauses all transfers"
+#~ msgstr "暫停所有傳輸"
+
+#~ msgid "Pauses selected transfer"
+#~ msgstr "暫停選取的傳輸"
+
+#~ msgid ""
+#~ "Choose an action that is executed after all downloads have been finished."
+#~ msgstr "選擇當所有下載都已完成時要執行的動作。"
+
+#~ msgid "Scanning data of <b>%1</b> :"
+#~ msgstr "掃描 %1 的資料："
+
+#~ msgid "Semantic Desktop"
+#~ msgstr "語意桌面"
+
+#~ msgctxt "on a question"
+#~ msgid "Yes all"
+#~ msgstr "全部答是"
+
+#~ msgctxt "on a question"
+#~ msgid "No all"
+#~ msgstr "全部答否"
+
+#~ msgctxt "Download the items which have been selected"
+#~ msgid "&Download Checked"
+#~ msgstr "下載勾選的項目(&D)"
+
+#~ msgid "Number of downloads:"
+#~ msgstr "下載數："
+
+#~ msgctxt "filter: show all file types"
+#~ msgid "&All"
+#~ msgstr "全部(&A)"
+
+#~ msgid "Ima&ges"
+#~ msgstr "影像(&G)"
+
+#~ msgctxt "Check as in mark, not as in verify"
+#~ msgid "Chec&k Selected"
+#~ msgstr "檢查所選取的項目(&K)"
+
+#~ msgid "Stop All"
+#~ msgstr "全部停止"
+
+#~ msgid "Start / Resume"
+#~ msgstr "開始 / 回復"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "Downloads from the same server:"
+#~ msgstr "從同一個伺服器下載："
+
+#~ msgid "Move &Up"
+#~ msgstr "上移(&U)"
+
+#~ msgid "Move &Down"
+#~ msgstr "下移(&D)"
+
+#~ msgid "After Completing Downloads"
+#~ msgstr "完成下載後"
+
+#~ msgid "Auto shutdown"
+#~ msgstr "自動關機"
+
+#~ msgid "Auto disconnect"
+#~ msgstr "自動斷線"
+
+#~ msgid "Startup"
+#~ msgstr "開始"
+
+#~ msgid "Show splashscreen"
+#~ msgstr "顯示開始畫面"
+
+#~ msgid "Enable popup tooltip"
+#~ msgstr "開啟彈出式工具提示"
+
+#~ msgid "Show drop target"
+#~ msgstr "顯示拖放目標"
+
+#~ msgid " KiB"
+#~ msgstr " KB"
+
+#~ msgid "Sets to show the splashscreen while KGet is loading"
+#~ msgstr "設定在 KGet 載入時顯示開始畫面"
+
+#~ msgid ""
+#~ "Drop target has been hidden. If you want to show it again, go to Settings-"
+#~ ">Configure KGet->Look & Feel."
+#~ msgstr ""
+#~ "拖放目標已隱藏。如果您要顯示，請到「設定」─「設定 KGet」─「外觀與感覺」。"
+
+#~ msgid "Hiding drop target"
+#~ msgstr "隱藏拖放目標"
+
+#~ msgid "&Export Transfers as Plain Text..."
+#~ msgstr "以純文字匯出傳送列表(&E)..."
+
+#~ msgid "Checksums"
+#~ msgstr "檢查碼"
+
+#~ msgid "Automatic verification:"
+#~ msgstr "自動檢查："
+
+#~ msgid "Disable confirmation dialogs (less verbosity)"
+#~ msgstr "關閉確認對話框（比較不煩）"
+
+#~ msgid "History"
+#~ msgstr "歷史"
+
+#~ msgid "The key is to be trusted fully."
+#~ msgstr "此金鑰完全可信。"
+
+#~ msgid "The key is to be trusted ultimately."
+#~ msgstr "此金鑰絕對可信。"
+
+#~ msgid "The signature has been verified successfully."
+#~ msgstr "簽章已成功檢查。"
+
+#~ msgid "The signature has been verified successfully:"
+#~ msgstr "簽章已成功檢查："
+
+#~ msgid "Error:"
+#~ msgstr "錯誤："
+
+#~ msgid "Problems:"
+#~ msgstr "問題："
+
+#~ msgid "Information:"
+#~ msgstr "資訊："
+
+#~ msgid ""
+#~ "Required data entered; also consider entering additional information."
+#~ msgstr "已輸入需要的資料，另外也請考慮輸入額外的資訊。"
+
+#~ msgid "You have no source URLs selected."
+#~ msgstr "您沒有選取來源網址。"
+
+#~ msgctxt "an error happened in connection with the user input"
+#~ msgid "Error:"
+#~ msgstr "錯誤："
+
+#~ msgctxt "a warning happened in connection with the user input"
+#~ msgid "Warning:"
+#~ msgstr "警告："
+
+#~ msgctxt "Files as in files on a server"
+#~ msgid "Files:"
+#~ msgstr "檔案："
+
+#~ msgctxt "Adds the item and reopens the dialog to add a further item"
+#~ msgid "Add more"
+#~ msgstr "新增更多"
+
+#~ msgid "%1 has been successfully added."
+#~ msgstr "%1 已成功加入。"
+
+#~ msgid "%1 %2 has been successfully added."
+#~ msgstr "%1 %2 已成功新增。"
+
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgid "Show Drop Target"
+#~ msgstr "顯示拖放目標"
+
+#~ msgid "List All Links"
+#~ msgstr "列出所有的連結"
+
+#~ msgid "List Selected Links"
+#~ msgstr "列出選取的連結"
+
+#~ msgid "No downloadable links were found."
+#~ msgstr "找不到可下載的連結。"
+
+#~ msgid "No Links"
+#~ msgstr "沒有連結"
+
+#~ msgid "Unable to communicate with the KGet download manager."
+#~ msgstr "無法與 KGet 下載管理員聯繫！"
+
+#~ msgid "Communication Error"
+#~ msgstr "通訊錯誤"
+
+#~ msgid "&Tools"
+#~ msgstr "工具(&T)"
+
+#~ msgid "The specified destination directory is not valid."
+#~ msgstr "指定的目標目錄不合法。"
+
+#~ msgid "The specified source url is not valid."
+#~ msgstr "指定的來源網址不合法。"
+
+#~ msgid "There are no links in the active frame of the current HTML page."
+#~ msgstr "此頁面目前的框架中沒有連結。"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "An error occurred...."
+#~ msgstr "發生錯誤。"
+
+#~ msgid "Remove Tag"
+#~ msgstr "移除標籤"
+
+#~ msgid "Add Tag"
+#~ msgstr "新增標籤"
+
+#~ msgid "Tag Settings for the groups"
+#~ msgstr "群組的標籤設定"
+
+#~ msgid "Tag Settings"
+#~ msgstr "標籤設定"
+
+#~ msgid "Available tags:"
+#~ msgstr "可用性標籤："
+
+#~ msgid "Used tags:"
+#~ msgstr "已使用的標籤"
+
+#~ msgid "Enter a new Tag"
+#~ msgstr "請輸入新標籤"
+
+#~ msgid "Enter a new tag"
+#~ msgstr "請輸入新標籤"
+
+#~ msgid "Modify Tags..."
+#~ msgstr "變更標籤..."
+
+#~ msgid "Unable to continue: KGet cannot download using this protocol."
+#~ msgstr "無法繼續：KGet 無法使用此協定下載。"
+
+#~ msgid "The width of the columns in the main view"
+#~ msgstr "主檢視的欄位寬度"
+
+#~ msgid "OK"
+#~ msgstr "確定"
+
+#~ msgid "Announcing"
+#~ msgstr "宣告中"
+
+#~ msgid "Error: %1"
+#~ msgstr "錯誤：%1"
+
+#~ msgid "Unknown client"
+#~ msgstr "未知的客戶端"
+
+#~ msgid "1 day "
+#~ msgid_plural "%1 days "
+#~ msgstr[0] "%1 天"
+
+#~ msgid "Cannot open log file %1 : %2"
+#~ msgstr "無法開啟紀錄檔 %1：%2"
+
+#~ msgid "Cannot write to %1 : %2"
+#~ msgstr "無法寫入 %1：%2"
+
+#~ msgid "Cannot read from %1"
+#~ msgstr "無法從 %1 讀取"
+
+#~ msgid "Cannot create directory %1"
+#~ msgstr "無法建立目錄 %1"
+
+#~ msgid "Cannot symlink %1 to %2: %3"
+#~ msgstr "無法將符號 %1 連結到 %2：%3"
+
+#~ msgid "Cannot move %1 to %2: %3"
+#~ msgstr "無法將 %1 移動到 %2：%3"
+
+#~ msgid "Cannot copy %1 to %2: %3"
+#~ msgstr "無法將 %1 複製到 %2：%3"
+
+#~ msgid "Cannot delete %1: %2"
+#~ msgstr "無法刪除 %1：%2"
+
+#~ msgid "Cannot create %1: %2"
+#~ msgstr "無法建立 %1：%2"
+
+#~ msgid "Cannot calculate the filesize of %1: %2"
+#~ msgstr "無法計算 %1 的檔案大小：%2"
+
+#~ msgid "Cannot calculate the filesize : %1"
+#~ msgstr "無法計算檔案大小：%1"
+
+#~ msgid "Cannot open %1 : %2"
+#~ msgstr "無法開啟 %1：%2"
+
+#~ msgid "Cannot expand file: %1"
+#~ msgstr "無法展開檔案：%1"
+
+#~ msgid "Cannot seek in file : %1"
+#~ msgstr "無法在檔案中尋找：%1"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Connections"
+#~ msgstr "連接"
+
+#~ msgid "Tracker"
+#~ msgstr "追蹤器"
+
+#~ msgid "Disk Input/Output"
+#~ msgstr "磁碟 I/O"
+
+#~ msgid "Not connected"
+#~ msgstr "未連線"
+
+#~ msgid "Not in use"
+#~ msgstr "不在使用中"
+
+#~ msgid "Connection closed"
+#~ msgstr "連線已關閉"
+
+#~ msgid "Resolving proxy %1:%2"
+#~ msgstr "反解代理伺服器 %1：%2 中"
+
+#~ msgid "Resolving hostname %1"
+#~ msgstr "反解主機名稱 %1 中"
+
+#~ msgid "Error: request failed: %1"
+#~ msgstr "錯誤：要求失敗：%1"
+
+#~ msgid "Connected"
+#~ msgstr "已連線"
+
+#~ msgid "Error: Failed to connect to webseed"
+#~ msgstr "錯誤：連線到 webseed 失敗"
+
+#~ msgid "Connecting"
+#~ msgstr "連線中"
+
+#~ msgid "Failed to connect to webseed"
+#~ msgstr "連線到 webseed 失敗"
+
+#~ msgid "Failed to resolve hostname of webseed"
+#~ msgstr "反解 webseed 主機名稱時失敗"
+
+#~ msgid "Error: failed to connect, server not responding"
+#~ msgstr "錯誤：連線失敗，伺服器未回應"
+
+#~ msgid "Error: request timed out"
+#~ msgstr "錯誤：要求逾時"
+
+#~ msgid "Redirected without a new location."
+#~ msgstr "重新導向，但是沒有給新的位置。"
+
+#~ msgid "1 peer"
+#~ msgid_plural "%1 peers"
+#~ msgstr[0] "%1 個端點"
+
+#~ msgid "Illegal token: %1"
+#~ msgstr "不合法的記號：%1"
+
+#~ msgid "Decode error"
+#~ msgstr "解碼錯誤"
+
+#~ msgid "Unexpected end of input"
+#~ msgstr "非預期的輸入結尾"
+
+#~ msgid "Cannot convert %1 to an int"
+#~ msgstr "無法將 %1 轉換為整數"
+
+#~ msgid "Torrent is incomplete."
+#~ msgstr "不完整的 torrent。"
+
+#~ msgid "Failed to open %1 : %2"
+#~ msgstr "開啟 %1 失敗：%2"
+
+#~ msgid "Failed to create %1 : %2"
+#~ msgstr "建立 %1 失敗：%2"
+
+#~ msgid "Cannot open index file %1 : %2"
+#~ msgstr "無法開啟索引檔 %1：%2"
+
+#~ msgid "Cannot create file %1 : %2"
+#~ msgstr "無法建立檔案 %1：%2"
+
+#~ msgid "Failed to write first chunk to DND file : %1"
+#~ msgstr "寫入 DND 檔的第一個區塊時失敗：%1"
+
+#~ msgid "Failed to write last chunk to DND file : %1"
+#~ msgstr "寫入 DND 檔的最後一個區塊時失敗：%1"
+
+#~ msgid "Cannot open %1 for writing : readonly filesystem"
+#~ msgstr "無法開啟 %1 以寫入：唯讀的檔案系統"
+
+#~ msgid "Cannot expand file %1 : %2"
+#~ msgstr "無法展開檔案 %1：%2"
+
+#~ msgid "Error : Reading past the end of the file %1"
+#~ msgstr "錯誤：讀取超過檔案 %1 結尾的位置"
+
+#~ msgid "Failed to seek file %1 : %2"
+#~ msgstr "搜尋檔案 %1 失敗：%2"
+
+#~ msgid "Error reading from %1"
+#~ msgstr "從 %1 讀取時發生錯誤"
+
+#~ msgid "Cannot preallocate diskspace : %1"
+#~ msgstr "無法預先配置磁碟空間：%1"
+
+#~ msgid "Cannot open file %1 : %2"
+#~ msgstr "無法開啟檔案 %1：%2"
+
+#~ msgid "Corrupted torrent."
+#~ msgstr "損壞的 torrent。"
+
+#~ msgid " Unable to open torrent file %1 : %2"
+#~ msgstr "無法開啟 torrent 檔 %1：%2"
+
+#~ msgid "Parse Error"
+#~ msgstr "剖析錯誤"
+
+#~ msgid ""
+#~ "An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/"
+#~ ">The torrent is probably corrupt or is not a valid torrent file."
+#~ msgstr ""
+#~ "載入 torrent <b>%1</b> 時發生錯誤：<br/> <b>%2</b><br/>此 Torrent 可能已損"
+#~ "毀，或不是一個合法的 torrent 檔。"
+
+#~ msgid ""
+#~ "An error occurred while loading the torrent:<br/><b>%1</b><br/>The "
+#~ "torrent is probably corrupt or is not a valid torrent file."
+#~ msgstr ""
+#~ "載入 torrent <b>%1</b> 時發生錯誤。<br/>此 Torrent 可能已損毀，或不是一個"
+#~ "合法的 torrent 檔。"
+
+#~ msgid "Unable to create %1 : %2"
+#~ msgstr "無法建立 %1：%2"
+
+#~ msgid ""
+#~ "You are already downloading this torrent %1, the list of trackers of both "
+#~ "torrents has been merged."
+#~ msgstr "您正在下載 torrent %1，兩個 torrent 的追蹤器已合併。"
+
+#~ msgid "You are already downloading the torrent %1"
+#~ msgstr "您正在下載 torrent %1"
+
+#~ msgid "Not started"
+#~ msgstr "未開始"
+
+#~ msgid "Seeding completed"
+#~ msgstr "播種完成"
+
+#~ msgctxt "Status of a torrent file"
+#~ msgid "Seeding"
+#~ msgstr "播種中"
+
+#~ msgid "Downloading"
+#~ msgstr "下載中"
+
+#~ msgid "Stopped"
+#~ msgstr "已停止"
+
+#~ msgid "Allocating diskspace"
+#~ msgstr "預先配置磁碟空間中"
+
+#~ msgid "Queued for seeding"
+#~ msgstr "放入佇列以播種"
+
+#~ msgid "Queued for downloading"
+#~ msgstr "放入佇列以下載"
+
+#~ msgid "Checking data"
+#~ msgstr "檢查資料中"
+
+#~ msgid "Stopped. No space left on device."
+#~ msgstr "已停止。磁碟裝置上已無空間。"
+
+#~ msgid "Cannot open file %1: %2"
+#~ msgstr "無法開啟檔案 %1：%2"
+
+#~ msgid "Cannot create index file: %1"
+#~ msgstr "無法建立索引檔：%1"
+
+#~ msgid "Redirect without a redirect location"
+#~ msgstr "重新導向，但是沒有給新的位置。"
+
+#~ msgid "Timeout contacting tracker %1"
+#~ msgstr "聯繫追蹤器 %1 時發生逾時"
+
+#~ msgid "Unable to resolve hostname %1"
+#~ msgstr "無法解析主機名稱 %1"
+
+#~ msgid "Cannot bind to udp port %1 or the 10 following ports."
+#~ msgstr "無法結合 UDP 連接埠 %1 與以後的十個連接埠。"
+
+#~ msgid "Invalid response from tracker"
+#~ msgstr "追蹤器傳回不合法的回應"
+
+#~ msgid "Invalid data from tracker"
+#~ msgstr "追蹤器傳回不合法的資料"
+
+#~ msgid "Invalid tracker URL"
+#~ msgstr "不合法的追蹤器網址"
+
+#~ msgid "Cannot open file : %1 : %2"
+#~ msgstr "無法開啟檔案 %1：%2"
+
+#~ msgid ""
+#~ "Another group with this name already exists. Please select a different "
+#~ "name."
+#~ msgstr "已經有群組使用此名稱。請選擇不同的名稱。"
+
+#~ msgid "Group Name Already in Use"
+#~ msgstr "群組名稱已使用中"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Configure..."
+#~ msgstr "設定..."
+
+#~ msgid "Details for: %1"
+#~ msgstr "檔案詳情：%1"
+
+#~ msgid "All downloads"
+#~ msgstr "所有下載"
+
+#~ msgid "Finished downloads"
+#~ msgstr "已完成的下載"
+
+#~ msgid "Transfers:"
+#~ msgstr "傳輸："
+
+#~ msgid "Downloads"
+#~ msgstr "下載"
+
+#~ msgid "Transfer details:"
+#~ msgstr "傳輸詳情："
+
+#~ msgid "Transfer List"
+#~ msgstr "傳輸清單"
+
+#~ msgid "Expandable transfer details instead of separate tabs"
+#~ msgstr "用可擴展的傳輸詳情取代分離式分頁"
+
+#~ msgid "Threads"
+#~ msgstr "執行緒"
+
+#~ msgid "Number of threads:"
+#~ msgstr "執行緒數量："
+
+#~ msgid "Preference:"
+#~ msgstr "喜好設定："
+
+#~ msgid "License:"
+#~ msgstr "授權："
+
+#~ msgid "Name of the license"
+#~ msgstr "授權名稱"
+
+#~ msgid "URL to the license"
+#~ msgstr "授權網址"
+
+#~ msgctxt "The transfer is delayed"
+#~ msgid "Delayed"
+#~ msgstr "已延遲"
+
+#~ msgid ""
+#~ "Destination file \n"
+#~ "%1\n"
+#~ "already exists.\n"
+#~ "Do you want to overwrite it?"
+#~ msgstr ""
+#~ "檔案 %1 已存在。\n"
+#~ "您要覆寫它嗎？"
+
+#~ msgctxt "The preference of the mirror"
+#~ msgid "Preference"
+#~ msgstr "喜好設定"
+
+#~ msgid "Enter an URL to a keyserver."
+#~ msgstr "請輸入金鑰伺服器網址。"
+
+#~ msgid "Key Server"
+#~ msgstr "金鑰伺服器"
+
+#~ msgid "The key is marginally to be trusted!"
+#~ msgstr "此金鑰為大致可信。"
+
+#~ msgid "The key is fully to be trusted!"
+#~ msgstr "此金鑰為完全可信。"
+
+#~ msgid "The key is ultimately to be trusted!"
+#~ msgstr "此金鑰為絕對可信。"
+
+#~ msgid "Cannot remove torrent default tracker."
+#~ msgstr "無法移除 torrent 預設追蹤器。"
+
+#~ msgid "You cannot add trackers to a private torrent"
+#~ msgstr "無法新增追蹤器到私有的 torrent。"
+
+#~ msgid "Cannot migrate %1 : %2"
+#~ msgstr "無法移動 %1：%2"
+
+#~ msgid ""
+#~ "The torrent %1 was started with a previous version of KTorrent. To make "
+#~ "sure this torrent still works with this version of KTorrent, we will "
+#~ "migrate this torrent. You will be asked for a location to save the "
+#~ "torrent to. If you press cancel, we will select your home directory."
+#~ msgstr ""
+#~ "torrent %1 是以前一個版本的 KTorrent  啟動的。為了確定此 torrent 在此版本"
+#~ "的 KTorrent 仍能運作，我們會試著移動此 torrent。您將會被詢問要將此 "
+#~ "torrent 放在哪個位置。如果您按下「取消」鍵，我們會把它放在您的家目錄中。"
+
+#~ msgid "Select Folder to Save To"
+#~ msgstr "選擇要儲存的資料夾"
+
+#~ msgid "Queued"
+#~ msgstr "已排入佇列"
+
+#~ msgid "Current Tracker"
+#~ msgstr "目前追蹤器"
+
+#~ msgid "Manual Announce"
+#~ msgstr "手動宣告"
+
+#~ msgid "Scrape"
+#~ msgstr "Scrape"
+
+#~ msgid "Available Trackers"
+#~ msgstr "可用的追蹤器"
+
+#~ msgid "Url:"
+#~ msgstr "網址："
+
+#~ msgid "Enter an url"
+#~ msgstr "請輸入網址"
+
+#~ msgid "Urls list of the available search engines"
+#~ msgstr "可使用搜尋引擎網址清單"
+
+#~ msgctxt "delete selected transfer item"
+#~ msgid "Delete Selected"
+#~ msgstr "刪除所選取的項目"
+
+#, fuzzy
+#~| msgid "Clear History"
+#~ msgid "We are sorry"
+#~ msgstr "清除歷史"
+
+#~ msgctxt "the basic identity of the metalink-file, e.g. KDE"
+#~ msgid "The identity of the file"
+#~ msgstr "檔案的身份"
+
+#~ msgctxt "the version of the file e.g. 4.3 for KDE"
+#~ msgid "The version of the file"
+#~ msgstr "檔案的版本"
+
+#~ msgid "Identity e.g. \"KDE\""
+#~ msgstr "身份，例如 KDE"
+
+#~ msgid ""
+#~ "Here you can enter optional general information on the metalink. What you "
+#~ "set here applies to all files, if an option is set here and later on a "
+#~ "specific file then the later is preferred."
+#~ msgstr ""
+#~ "您可以在此輸入 Metalink 的一些非必要的一般資訊。您在這裡的設定會套用到所有"
+#~ "檔案上，但是若個別檔案有指定某選項值，則會使用檔案內的指定值。"
+
+#~ msgid "Rename transfer"
+#~ msgstr "重新命名傳輸"
+
+#~ msgid "Download URL again?"
+#~ msgstr "要再下載網址嗎？"
+
+#~ msgctxt "file in a filsystem"
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#~ msgid "Are you sure that you want to remove all selected groups?"
+#~ msgstr "你確定要刪除所有選取的群組嗎？"
+
+#~ msgid "Remaining Time"
+#~ msgstr "剩餘時間"
+
+#~ msgid "KGet - Download Manager"
+#~ msgstr "KGet─下載管理員"
+
+#~ msgid "Adding dropped files."
+#~ msgstr "新增放下的檔案。"
+
+#~ msgid "Minimal segment size:"
+#~ msgstr "最小區段大小："
+
+#~ msgid "kBi"
+#~ msgstr "kBi"
+
+#~ msgid "Save data every:"
+#~ msgstr "儲存資料時機："
+
+#~ msgid ""
+#~ "You will lose all data in these files, are you sure you want to do this?"
+#~ msgstr "您會失去這些檔案的所有資料。您確定要這樣做嗎？"
+
+#~ msgid "Maintainer, Core Developer"
+#~ msgstr "維護者，核心開發者"
+
+#~ msgid "Cannot expand file : %1"
+#~ msgstr "無法展開檔案：%1"
+
+#~ msgid "filterButtonGroup"
+#~ msgstr "過濾按鍵群組"
+
+#~ msgid "Peers"
+#~ msgstr "端點"
+
+#~ msgid "Torrent has no announce or nodes field"
+#~ msgstr "Torrent 沒有宣告（announce）或節點（nodes）的欄位"
+
+#~ msgid ""
+#~ "An error occurred while loading the torrent.\n"
+#~ "The torrent is probably corrupt or is not a torrent file."
+#~ msgstr ""
+#~ "載入 torrent 時發生錯誤。\n"
+#~ " 此 Torrent 可能已損毀，或不是一個 torrent 檔。"
+
+#~ msgid "&Select all"
+#~ msgstr "全部選取(&S)"
+
+#~ msgid "&Transfer History..."
+#~ msgstr "傳輸歷史(&T)..."
+
+#~ msgid "&Group Settings..."
+#~ msgstr "群組設定(&G)..."
+
+#~ msgid "&Transfer Settings..."
+#~ msgstr "傳輸設定(&T)..."
+
+#~ msgid "Download Speed:"
+#~ msgstr "下載速度："
+
+#~ msgid "Upload Speed:"
+#~ msgstr "上傳速度："
+
+#~ msgid "&Import links"
+#~ msgstr "匯入連結(&I)"
+
+#~ msgid "The group name is empty"
+#~ msgstr "此群組名稱是空的"
+
+#~ msgid ""
+#~ "A group can not have an empty name.\n"
+#~ "Please select a new one."
+#~ msgstr ""
+#~ "群組名稱不能為空白。\n"
+#~ "請選擇新名稱。"
+
+#~ msgid "You can not delete this group."
+#~ msgstr "您無法刪除此群組。"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "&Delete"
+#~ msgstr "刪除"
+
+#~ msgid "&Cancel"
+#~ msgstr "取消(&C)"
+
+#~ msgid "Default Download Folders"
+#~ msgstr "預設下載資料夾"
+
+#~ msgid "Folder and extension can not be empty."
+#~ msgstr "資料夾與副檔名不能為空白。"
+
+#~ msgid "Ask save location for every new download"
+#~ msgstr "每次下載都詢問儲存的位置"
+
+#~ msgid "Place new downloads inside default folder:"
+#~ msgstr "將新的下載檔案放到預設資料夾內"
+
+#~ msgid "Except for specific file types"
+#~ msgstr "除了指定的檔案型態外"
+
+#~ msgid "Specify extension and target folder:"
+#~ msgstr "指定副檔名與目標資料夾："
+
+#~ msgid "File Extension"
+#~ msgstr "副檔名"
+
+#~ msgid "Default Folder"
+#~ msgstr "預設資料夾"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid ""
+#~ "Use a regular expression for the extension. \n"
+#~ "Examples: *.tar.gz or *movies*.zip"
+#~ msgstr ""
+#~ "使用正規表示式來表示副檔名。\n"
+#~ "例如：*.tar.gz 或 *movies*.zip"
+
+#~ msgid "Set as default folder"
+#~ msgstr "設為預設資料夾"
+
+#~ msgid "extRegExp, defaultFolder"
+#~ msgstr "正規表示式，預設資料夾"
+
+#~ msgid "Downloading.."
+#~ msgstr "下載中..."
+
+#~ msgid "Advanced-Details for %1"
+#~ msgstr "%1 的進階詳情"
+
+#~ msgctxt "transfer state: downloading"
+#~ msgid "Downloading.."
+#~ msgstr "下載中..."
+
+#~ msgctxt "@label Title in header"
+#~ msgid "Webinterface"
+#~ msgstr "網頁介面"
+
+#~ msgid "Downloads number:"
+#~ msgstr "下載數量："
+
+#~ msgid "Assigned Peers"
+#~ msgstr "指定的端點"
+
+#~ msgid "%1 GB"
+#~ msgstr "%1 GB"
+
+#~ msgid "%1 MB"
+#~ msgstr "%1 MB"
+
+#~ msgid "%1 KB"
+#~ msgstr "%1 KB"
+
+#~ msgid "%1 B"
+#~ msgstr "%1 B"
+
+#~ msgid "%1 KB/s"
+#~ msgstr "%1 KB/s"
+
+#~ msgid "kBi/s"
+#~ msgstr "kBi/s"
+
+#~ msgid "Maximum Shared Ration: (0 if no limit)"
+#~ msgstr "最大分享比例：（0 表示不限制）"
+
+#~ msgid "Start downloading files immediately after startup"
+#~ msgstr "啟動後立即開始下載"
+
+#~ msgid "Not Deleted"
+#~ msgstr "未刪除"
+
+#~ msgid "Konqueror Integration disabled"
+#~ msgstr "Konqueror 整合已關閉"
+
+#~ msgid "Show main window at startup"
+#~ msgstr "啟動時顯示主視窗"

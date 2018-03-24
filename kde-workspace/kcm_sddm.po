@@ -1,0 +1,262 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-17 03:43+0200\n"
+"PO-Revision-Date: 2017-06-29 21:03+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: sddmauthhelper.cpp:160 sddmauthhelper.cpp:180 sddmauthhelper.cpp:187
+#, kde-format
+msgid "Invalid theme package"
+msgstr "無效的主題包"
+
+#: sddmauthhelper.cpp:195
+#, kde-format
+msgid "Could not decompress archive"
+msgstr "無法解壓縮封存檔"
+
+#: sddmthemeinstaller.cpp:41
+#, kde-format
+msgid "SDDM theme installer"
+msgstr "SDDM 主題安裝程式"
+
+#: sddmthemeinstaller.cpp:48
+#, kde-format
+msgid "Install a theme."
+msgstr "安裝主題。"
+
+#: sddmthemeinstaller.cpp:49
+#, kde-format
+msgid "Uninstall a theme."
+msgstr "解除安裝主題。"
+
+#: sddmthemeinstaller.cpp:51
+#, kde-format
+msgid "The theme to install, must be an existing archive file."
+msgstr "要安裝的主題，必須為既有的壓縮檔。"
+
+#: sddmthemeinstaller.cpp:75
+#, kde-format
+msgid "Unable to install theme"
+msgstr "無法安裝主題"
+
+#: src/configwidgets/selectimagebutton.cpp:42
+#, kde-format
+msgid "Load from file..."
+msgstr "從檔案載入..."
+
+#: src/configwidgets/selectimagebutton.cpp:43
+#, kde-format
+msgid "Clear Image"
+msgstr "清除影像"
+
+#: src/configwidgets/selectimagebutton.cpp:76
+#, fuzzy, kde-format
+#| msgid "Select image"
+msgctxt "@title:window"
+msgid "Select Image"
+msgstr "選擇影像"
+
+#: src/cursortheme/dummytheme.cpp:26
+#, kde-format
+msgid "Default"
+msgstr "預設"
+
+#: src/cursortheme/dummytheme.cpp:26
+#, kde-format
+msgid "The default cursor theme in SDDM"
+msgstr "SDDM 預設游標主題"
+
+#: src/cursortheme/thememodel.cpp:75
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: src/cursortheme/thememodel.cpp:78
+#, kde-format
+msgid "Description"
+msgstr "描述"
+
+#: src/cursortheme/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr "（可用的大小：%1）"
+
+#: src/sddmkcm.cpp:46
+#, kde-format
+msgid "SDDM KDE Config"
+msgstr "SDDM KDE 設定"
+
+#: src/sddmkcm.cpp:48
+#, kde-format
+msgid "Login screen using the SDDM"
+msgstr "SDDM 登入畫面"
+
+#: src/sddmkcm.cpp:52 src/sddmkcm.cpp:53
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#: src/sddmkcm.cpp:107
+#, kde-format
+msgid "Theme"
+msgstr "主題"
+
+#: src/sddmkcm.cpp:112
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#: src/sessionmodel.cpp:88
+#, kde-format
+msgctxt "%1 is the name of a session"
+msgid "%1 (Wayland)"
+msgstr "%1 (Wayland)"
+
+#: src/themeconfig.cpp:189
+#, kde-format
+msgid "Download New SDDM Themes"
+msgstr "下載新的 SDDM 主題"
+
+#: src/themesdelegate.cpp:66
+#, kde-format
+msgid "No preview available"
+msgstr "無法預覽"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/ui/advanceconfig.ui:17
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/ui/advanceconfig.ui:23
+#, kde-format
+msgid "Cursor Theme:"
+msgstr "游標主題："
+
+#. i18n: ectx: property (title), widget (QGroupBox, autoLogin)
+#: src/ui/advanceconfig.ui:36
+#, kde-format
+msgid "Auto &Login"
+msgstr "自動登入(&L)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/ui/advanceconfig.ui:51
+#, kde-format
+msgid "User:"
+msgstr "使用者："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/ui/advanceconfig.ui:61
+#, kde-format
+msgid "Session:"
+msgstr "工作階段："
+
+#. i18n: ectx: property (text), widget (QCheckBox, reloginAfterQuit)
+#: src/ui/advanceconfig.ui:74
+#, kde-format
+msgid "Relogin after quit"
+msgstr "離開後重新登入"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/ui/advanceconfig.ui:93
+#, kde-format
+msgid "User"
+msgstr "使用者"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/ui/advanceconfig.ui:99
+#, kde-format
+msgid "Minimum UID:"
+msgstr "最小 UID："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/ui/advanceconfig.ui:119
+#, kde-format
+msgid "Maximum UID:"
+msgstr "最大 UID："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/ui/advanceconfig.ui:148
+#, kde-format
+msgid "Commands"
+msgstr "指令"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/ui/advanceconfig.ui:154
+#, kde-format
+msgid "Halt Command:"
+msgstr "中止指令："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/ui/advanceconfig.ui:164
+#, kde-format
+msgid "Reboot Command:"
+msgstr "重新啟動指令："
+
+#. i18n: ectx: property (title), widget (QGroupBox, customizeBox)
+#: src/ui/themeconfig.ui:53
+#, kde-format
+msgid "Customize theme"
+msgstr "自訂主題"
+
+#. i18n: ectx: property (text), widget (SelectImageButton, selectBackgroundButton)
+#: src/ui/themeconfig.ui:80
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/ui/themeconfig.ui:87
+#, kde-format
+msgid "Background:"
+msgstr "背景顏色："
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: src/ui/themeconfig.ui:119
+#, kde-format
+msgid "Get New Theme"
+msgstr "取得新主題"
+
+#. i18n: ectx: property (text), widget (QPushButton, installFromFileButton)
+#: src/ui/themeconfig.ui:128
+#, kde-format
+msgid "Install From File"
+msgstr "從檔案安裝"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeThemeButton)
+#: src/ui/themeconfig.ui:148
+#, kde-format
+msgid "Remove Theme"
+msgstr "移除主題"
+
+#~ msgctxt "Caption to theme preview, %1 author name"
+#~ msgid "by %1"
+#~ msgstr "由：%1"

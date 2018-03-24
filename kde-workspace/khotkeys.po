@@ -1,0 +1,1254 @@
+# translation of khotkeys.po to Chinese Traditional
+# Copyright (C) 2007, 2008 Free Software Foundation, Inc.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: khotkeys\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-17 03:42+0200\n"
+"PO-Revision-Date: 2012-09-19 08:44+0800\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Chao-Hsiung Liao"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "j_h_liau@yahoo.com.tw"
+
+#: kcm_hotkeys/action_group_widget.cpp:30
+#, kde-format
+msgid "Conditions"
+msgstr "條件"
+
+#. i18n: ectx: property (text), widget (QLabel, commandLabel)
+#: kcm_hotkeys/actions/command_url_action_widget.ui:16
+#, kde-format
+msgid "Command/URL:"
+msgstr "指令/網址："
+
+#: kcm_hotkeys/actions/dbus_action_widget.cpp:122
+#, kde-format
+msgid "Failed to run qdbusviewer"
+msgstr "執行 qdbusviewer 失敗"
+
+#. i18n: ectx: property (text), widget (QLabel, applicationLabel)
+#: kcm_hotkeys/actions/dbus_action_widget.ui:19
+#, kde-format
+msgid "Remote application:"
+msgstr "遠端應用程式："
+
+#. i18n: ectx: property (text), widget (QLabel, objectLabel)
+#: kcm_hotkeys/actions/dbus_action_widget.ui:32
+#, kde-format
+msgid "Remote object:"
+msgstr "遠端物件："
+
+#. i18n: ectx: property (text), widget (QLabel, functionLabel)
+#: kcm_hotkeys/actions/dbus_action_widget.ui:45
+#, kde-format
+msgid "Function:"
+msgstr "功能："
+
+#. i18n: ectx: property (text), widget (QLabel, argumentsLabel)
+#: kcm_hotkeys/actions/dbus_action_widget.ui:58
+#, kde-format
+msgid "Arguments:"
+msgstr "引數："
+
+#. i18n: ectx: property (text), widget (QPushButton, execButton)
+#: kcm_hotkeys/actions/dbus_action_widget.ui:85
+#, kde-format
+msgid "Call"
+msgstr "呼叫"
+
+#. i18n: ectx: property (text), widget (QPushButton, launchButton)
+#: kcm_hotkeys/actions/dbus_action_widget.ui:92
+#, fuzzy, kde-format
+#| msgid "Launch  D-Bus Browser"
+msgid "Launch D-Bus Browser"
+msgstr "啟動 D-Bus 瀏覽器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, window_group)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kcm_hotkeys/actions/keyboard_input_action_widget.ui:19
+#: kcm_hotkeys/triggers/window_trigger_widget.ui:53
+#, kde-format
+msgid "Window"
+msgstr "視窗"
+
+#. i18n: ectx: property (text), widget (QRadioButton, active_radio)
+#: kcm_hotkeys/actions/keyboard_input_action_widget.ui:27
+#, kde-format
+msgid "Active window"
+msgstr "作用中視窗："
+
+#. i18n: ectx: property (text), widget (QRadioButton, specific_radio)
+#: kcm_hotkeys/actions/keyboard_input_action_widget.ui:34
+#, kde-format
+msgid "Specific window"
+msgstr "指定的視窗"
+
+#. i18n: ectx: property (text), widget (QRadioButton, action_radio)
+#: kcm_hotkeys/actions/keyboard_input_action_widget.ui:41
+#, kde-format
+msgid "Action window"
+msgstr "動作視窗"
+
+#. i18n: ectx: property (text), widget (QLabel, applicationLabel)
+#: kcm_hotkeys/actions/menuentry_action_widget.ui:16
+#, kde-format
+msgid "Application:"
+msgstr "應用程式："
+
+#. i18n: ectx: property (text), widget (KPushButton, applicationButton)
+#: kcm_hotkeys/actions/menuentry_action_widget.ui:30
+#, kde-format
+msgid "Select Application ..."
+msgstr "選取應用程式..."
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:27
+#, kde-format
+msgctxt "Condition type"
+msgid "Active Window ..."
+msgstr "作用中視窗..."
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:29
+#, kde-format
+msgctxt "Condition type"
+msgid "Existing Window ..."
+msgstr "存在的視窗..."
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:31
+#, kde-format
+msgctxt "Condition type"
+msgid "And"
+msgstr "且"
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:33
+#, kde-format
+msgctxt "Condition type"
+msgid "Or"
+msgstr "或"
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:35
+#, kde-format
+msgctxt "Condition type"
+msgid "Not"
+msgstr "非"
+
+#: kcm_hotkeys/conditions/conditions_widget.cpp:80
+#, kde-format
+msgctxt "Add a new condition"
+msgid "And"
+msgstr "And"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, tree)
+#: kcm_hotkeys/conditions/conditions_widget.ui:20
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QPushButton, new_button)
+#: kcm_hotkeys/conditions/conditions_widget.ui:30
+#, kde-format
+msgctxt "new condition"
+msgid "New"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, edit_button)
+#: kcm_hotkeys/conditions/conditions_widget.ui:37
+#, kde-format
+msgid "Edit..."
+msgstr "編輯..."
+
+#. i18n: ectx: property (text), widget (QPushButton, delete_button)
+#: kcm_hotkeys/conditions/conditions_widget.ui:44
+#: kcm_hotkeys/hotkeys_context_menu.cpp:136
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, global_group)
+#: kcm_hotkeys/global_settings_widget.ui:32
+#, kde-format
+msgid "Input Actions Daemon"
+msgstr "輸入動作守護程式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enabled)
+#: kcm_hotkeys/global_settings_widget.ui:38
+#, kde-format
+msgid "Start the Input Actions daemon on login"
+msgstr "登入時啟動輸入動作守護程式"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gestures_group)
+#: kcm_hotkeys/global_settings_widget.ui:48
+#, kde-format
+msgid "Gestures"
+msgstr "手勢"
+
+#. i18n: ectx: property (text), widget (QLabel, gestures_timeout_label)
+#: kcm_hotkeys/global_settings_widget.ui:57
+#, kde-format
+msgid "Timeout:"
+msgstr "逾時"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, gestures_timeout)
+#: kcm_hotkeys/global_settings_widget.ui:70
+#, fuzzy, kde-format
+#| msgid "ms"
+msgid " ms"
+msgstr "毫秒"
+
+#. i18n: ectx: property (text), widget (QLabel, gestures_button_label)
+#: kcm_hotkeys/global_settings_widget.ui:99
+#, kde-format
+msgid "Mouse button:"
+msgstr "滑鼠按鍵"
+
+#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:32
+#, kde-format
+msgid "Edit Gesture"
+msgstr "編輯手勢"
+
+#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:36
+#, kde-format
+msgid ""
+"Draw the gesture you would like to record below. Press and hold the left "
+"mouse button while drawing, and release when you have finished."
+msgstr ""
+"請按住滑鼠左鍵，並開始移動滑鼠以做出您要紀錄的手勢。完成後放開左鍵即可。"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#. i18n: ectx: property (text), widget (QPushButton, edit_button)
+#: kcm_hotkeys/helper_widgets/gesture_widget.ui:19
+#: kcm_hotkeys/kcm_hotkeys.ui:29
+#, kde-format
+msgid "Edit"
+msgstr "編輯"
+
+#. i18n: ectx: property (text), widget (QLabel, comment_label)
+#: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:24
+#, kde-format
+msgid "Comment:"
+msgstr "註解："
+
+#. i18n: ectx: property (text), widget (QPushButton, edit_button)
+#: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:38
+#, kde-format
+msgid "&Edit..."
+msgstr "編輯(&E)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, new_button)
+#: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:45
+#, kde-format
+msgid "&New..."
+msgstr "新增(&N)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, duplicate_button)
+#: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:52
+#, kde-format
+msgid "&Duplicate..."
+msgstr "複製(&D)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, delete_button)
+#: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:59
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:16
+#, kde-format
+msgid "Window Data"
+msgstr "視窗資料"
+
+#. i18n: ectx: property (text), widget (QLabel, window_title_label)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:31
+#, kde-format
+msgid "Window title:"
+msgstr "視窗標題："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:39
+#, kde-format
+msgctxt "window title is not important"
+msgid "Is Not Important"
+msgstr "不重要"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:44
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:90
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:136
+#, kde-format
+msgid "Contains"
+msgstr "包含"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:49
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:95
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:141
+#, kde-format
+msgid "Is"
+msgstr "是"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:54
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:100
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:146
+#, kde-format
+msgid "Matches Regular Expression"
+msgstr "配合常規表示"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:59
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:105
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:151
+#, kde-format
+msgid "Does Not Contain"
+msgstr "沒有包含"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:64
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:110
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:156
+#, kde-format
+msgid "Is Not"
+msgstr "不是"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:69
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:115
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:161
+#, kde-format
+msgid "Does Not Match Regular Expression"
+msgstr "沒有配合常規表示"
+
+#. i18n: ectx: property (text), widget (QLabel, window_class_label)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:77
+#, kde-format
+msgid "Window class:"
+msgstr "視窗類別："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_class_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:85
+#, kde-format
+msgctxt "window class is not important"
+msgid "Is Not Important"
+msgstr "不重要"
+
+#. i18n: ectx: property (text), widget (QLabel, window_role_label)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:123
+#, kde-format
+msgid "Window role:"
+msgstr "視窗功用角色："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:131
+#, kde-format
+msgctxt "window role is not important"
+msgid "Is Not Important"
+msgstr "不重要"
+
+#. i18n: ectx: property (text), widget (QPushButton, autodetect)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:195
+#, kde-format
+msgid "&Autodetect"
+msgstr "自動偵測(&A)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:205
+#, kde-format
+msgid "Window Types"
+msgstr "視窗型態"
+
+#. i18n: ectx: property (text), widget (QRadioButton, type_normal)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:211
+#, kde-format
+msgid "Normal"
+msgstr "正常"
+
+#. i18n: ectx: property (text), widget (QRadioButton, type_desktop)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:218
+#, kde-format
+msgid "Desktop"
+msgstr "桌面"
+
+#. i18n: ectx: property (text), widget (QRadioButton, type_dialog)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:225
+#, kde-format
+msgid "Dialog"
+msgstr "對話"
+
+#. i18n: ectx: property (text), widget (QRadioButton, type_dock)
+#: kcm_hotkeys/helper_widgets/window_definition_widget.ui:232
+#, kde-format
+msgid "Dock"
+msgstr "嵌入"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:43
+#: kcm_hotkeys/hotkeys_context_menu.cpp:55
+#, kde-format
+msgid "Test"
+msgstr "測試"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:129
+#: kcm_hotkeys/hotkeys_context_menu.cpp:142 kcm_hotkeys/hotkeys_model.cpp:91
+#, kde-format
+msgid "New Group"
+msgstr "新群組"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:146
+#, kde-format
+msgid "Export Group..."
+msgstr "匯出群組..."
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:147
+#, kde-format
+msgid "Import..."
+msgstr "匯入..."
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:155
+#, kde-format
+msgctxt "@title:menu create various trigger types"
+msgid "New"
+msgstr "新增"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:161
+#, kde-format
+msgid "Global Shortcut"
+msgstr "全域捷徑"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:174
+#, kde-format
+msgid "Window Action"
+msgstr "視窗動作"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:187
+#, kde-format
+msgid "Mouse Gesture Action"
+msgstr "滑鼠手勢動作"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:268
+#, kde-format
+msgid "Command/URL"
+msgstr "指令/網址"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:275
+#, kde-format
+msgid "D-Bus Command"
+msgstr "D-Bus 指令"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:282
+#, kde-format
+msgid "K-Menu Entry"
+msgstr "K-選單 條目"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:289
+#, kde-format
+msgid "Send Keyboard Input"
+msgstr "傳送鍵盤輸入"
+
+#. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
+#: kcm_hotkeys/hotkeys_context_menu.cpp:311
+#: kcm_hotkeys/hotkeys_context_menu.cpp:340
+#: kcm_hotkeys/hotkeys_context_menu.cpp:369 kcm_hotkeys/hotkeys_model.cpp:91
+#: kcm_hotkeys/hotkeys_widget_base.ui:23
+#, kde-format
+msgid "Comment"
+msgstr "註解"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:311
+#: kcm_hotkeys/hotkeys_context_menu.cpp:340
+#: kcm_hotkeys/hotkeys_context_menu.cpp:369
+#, kde-format
+msgid "New Action"
+msgstr "新的動作"
+
+#: kcm_hotkeys/hotkeys_export_widget.cpp:37
+#, kde-format
+msgid "Export Group"
+msgstr "匯出群組"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, stateLabel)
+#: kcm_hotkeys/hotkeys_export_widget.ui:17
+#, kde-format
+msgid "Change the exported state for the actions."
+msgstr "變更此動作的匯出狀態。"
+
+#. i18n: ectx: property (text), widget (QLabel, stateLabel)
+#: kcm_hotkeys/hotkeys_export_widget.ui:20
+#, kde-format
+msgid "Export Actions"
+msgstr "匯出動作"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, state)
+#: kcm_hotkeys/hotkeys_export_widget.ui:40
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Configure in which state "
+"the actions should be exported.</p>\n"
+"<p style=\" margin-top:8px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Actual State</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Export the actions in "
+"their current state.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Disabled</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Export the actions in a "
+"disabled state.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Enabled</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:8px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Export the actions in an "
+"enabled state.</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">設定這些動作要在哪個狀態下"
+"被匯出。</p>\n"
+"<p style=\" margin-top:8px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">實際狀態</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">以它們目前的狀態匯出。</"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">關閉</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">當這些動作在關閉狀態時匯"
+"出。</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">開啟</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:8px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">當這些動作在開啟狀態時匯"
+"出。</p></body></html>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, state)
+#: kcm_hotkeys/hotkeys_export_widget.ui:44
+#, kde-format
+msgctxt "Don't change the state of exported hotkey actions."
+msgid "Actual State"
+msgstr "實際狀態"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, state)
+#: kcm_hotkeys/hotkeys_export_widget.ui:49
+#, kde-format
+msgctxt "Export hotkey actions in enabled state."
+msgid "Enabled"
+msgstr "開啟"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, state)
+#: kcm_hotkeys/hotkeys_export_widget.ui:54
+#, kde-format
+msgctxt "Export hotkey actions into disabled  state"
+msgid "Disabled"
+msgstr "已關閉"
+
+#. i18n: ectx: property (statusTip), widget (QLabel, idLabel)
+#: kcm_hotkeys/hotkeys_export_widget.ui:62
+#, kde-format
+msgid "KHotkeys file id."
+msgstr "KHotkeys 檔案代碼。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, idLabel)
+#: kcm_hotkeys/hotkeys_export_widget.ui:65
+#, kde-format
+msgid ""
+"A khotkeys file id is used to ensure files are not imported more than once. "
+"They are mostly used for automatic updates from the KDE developers."
+msgstr ""
+"khotkeys 檔案代碼用於確定檔案未匯入一次以上。通常會用於 KDE 開發者的自動更"
+"新。"
+
+#. i18n: ectx: property (text), widget (QLabel, idLabel)
+#: kcm_hotkeys/hotkeys_export_widget.ui:68
+#, kde-format
+msgid "Id"
+msgstr "代碼"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, id)
+#: kcm_hotkeys/hotkeys_export_widget.ui:78
+#, kde-format
+msgid "Set import id for file, or leave empty"
+msgstr "設定檔案匯入代碼，或留白"
+
+#. i18n: ectx: property (text), widget (QLabel, filenameLabel)
+#: kcm_hotkeys/hotkeys_export_widget.ui:85
+#, kde-format
+msgid "Filename"
+msgstr "檔案名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, allowMergingLabel)
+#: kcm_hotkeys/hotkeys_export_widget.ui:124
+#, kde-format
+msgid "Allow Merging"
+msgstr "允許合併"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, allowMerging)
+#: kcm_hotkeys/hotkeys_export_widget.ui:134
+#, kde-format
+msgid "Merge into existing directories on import?"
+msgstr "要在匯入時合併到現有的目錄嗎？"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, allowMerging)
+#: kcm_hotkeys/hotkeys_export_widget.ui:137
+#, kde-format
+msgid ""
+"Allow merging of content if a directory with the same name exists on "
+"importing. If merging is not allowed, there will be two directories with the "
+"same name."
+msgstr ""
+"若匯入時遇到同名的目錄，則允許合併內容。若不允許，您會看到兩個同名的目錄。"
+
+#: kcm_hotkeys/hotkeys_model.cpp:402
+#, kde-format
+msgctxt "action name"
+msgid "Name"
+msgstr "名稱"
+
+#: kcm_hotkeys/hotkeys_model.cpp:406
+#, kde-format
+msgctxt "action enabled"
+msgid "Enabled"
+msgstr "已開啟"
+
+#: kcm_hotkeys/hotkeys_model.cpp:409
+#, kde-format
+msgid "Type"
+msgstr "型態"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:96
+#, kde-format
+msgid "KDE Hotkeys Configuration Module"
+msgstr "KDE 熱鍵設定模組"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:100
+#, kde-format
+msgid "Copyright 2008 (c) Michael Jansen"
+msgstr "Copyright 2008 (c) Michael Jansen"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:103
+#, kde-format
+msgid "Michael Jansen"
+msgstr "Michael Jansen"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:104
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:332
+#, kde-format
+msgid ""
+"The current action has unsaved changes. If you continue these changes will "
+"be lost."
+msgstr "目前的動作有未儲存的變更。如果您繼續的話，這些變更將會遺失。"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:333
+#, kde-format
+msgid "Save changes"
+msgstr "儲存變更"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:368 kcm_hotkeys/kcm_hotkeys.cpp:415
+#, kde-format
+msgid ""
+"Unable to contact khotkeys. Your changes are saved, but they could not be "
+"activated."
+msgstr "無法聯繫 khotkeys。您的變更已儲存，但無法啟動。"
+
+#. i18n: ectx: property (text), widget (QPushButton, settings_button)
+#: kcm_hotkeys/kcm_hotkeys.ui:36
+#, kde-format
+msgid "Settings"
+msgstr "設定"
+
+#: kcm_hotkeys/simple_action_data_widget.cpp:124
+#, kde-format
+msgid "Trigger"
+msgstr "觸發器"
+
+#: kcm_hotkeys/simple_action_data_widget.cpp:160
+#, kde-format
+msgid "Action"
+msgstr "動作"
+
+#. i18n: ectx: property (text), widget (QLabel, shortcut_label)
+#: kcm_hotkeys/triggers/shortcut_trigger_widget.ui:17
+#, kde-format
+msgid "&Shortcut:"
+msgstr "捷徑(&S)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, when_group)
+#: kcm_hotkeys/triggers/window_trigger_widget.ui:16
+#, kde-format
+msgid "Trigger When"
+msgstr "觸發於"
+
+#. i18n: ectx: property (text), widget (QRadioButton, window_appears)
+#: kcm_hotkeys/triggers/window_trigger_widget.ui:22
+#, kde-format
+msgid "Window appears"
+msgstr "視窗出現"
+
+#. i18n: ectx: property (text), widget (QRadioButton, window_disappears)
+#: kcm_hotkeys/triggers/window_trigger_widget.ui:29
+#, kde-format
+msgid "Window disappears"
+msgstr "視窗消失"
+
+#. i18n: ectx: property (text), widget (QRadioButton, window_gets_focus)
+#: kcm_hotkeys/triggers/window_trigger_widget.ui:36
+#, kde-format
+msgid "Window gets focus"
+msgstr "視窗取得焦點"
+
+#. i18n: ectx: property (text), widget (QRadioButton, window_lost_focus)
+#: kcm_hotkeys/triggers/window_trigger_widget.ui:43
+#, kde-format
+msgid "Window loses focus"
+msgstr "視窗失去焦點"
+
+#: libkhotkeysprivate/actions/activate_window_action.cpp:87
+#, kde-format
+msgid "Activate window: "
+msgstr "作用中視窗："
+
+#: libkhotkeysprivate/actions/command_url_action.cpp:80
+#, kde-format
+msgid "Command/URL : "
+msgstr "指令/網址"
+
+#: libkhotkeysprivate/actions/dbus_action.cpp:143
+#, kde-format
+msgid "D-Bus: "
+msgstr "D-Bus："
+
+#: libkhotkeysprivate/actions/keyboard_input_action.cpp:193
+#, kde-format
+msgid "Keyboard input: "
+msgstr "鍵盤輸入："
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:91
+#, kde-format
+msgid "No service configured."
+msgstr "沒有設定任何服務。"
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:92
+#: libkhotkeysprivate/actions/menuentry_action.cpp:101
+#, kde-format
+msgid "Input Action: %1"
+msgstr "輸入動作：%1"
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:100
+#, kde-format
+msgid "Failed to start service '%1'."
+msgstr "無法啟動服務 %1。"
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:115
+#, kde-format
+msgid "Menu entry: "
+msgstr "選單條目："
+
+#: libkhotkeysprivate/conditions/active_window_condition.cpp:82
+#, kde-format
+msgid "Active window: "
+msgstr "作用中視窗："
+
+#: libkhotkeysprivate/conditions/and_condition.cpp:61
+#, kde-format
+msgctxt "And_condition"
+msgid "And"
+msgstr "且"
+
+#: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
+#, kde-format
+msgid "Existing window: "
+msgstr "存在的視窗："
+
+#: libkhotkeysprivate/conditions/not_condition.cpp:63
+#, kde-format
+msgctxt "Not_condition"
+msgid "Not"
+msgstr "非"
+
+#: libkhotkeysprivate/conditions/or_condition.cpp:69
+#, kde-format
+msgctxt "Or_condition"
+msgid "Or"
+msgstr "或"
+
+#: libkhotkeysprivate/khotkeysglobal.h:40
+#, kde-format
+msgid "Menu Editor entries"
+msgstr "選單編輯器條目"
+
+#: libkhotkeysprivate/settings.cpp:320
+#, kde-format
+msgid ""
+"This \"actions\" file has already been imported before. Are you sure you "
+"want to import it again?"
+msgstr "這個「動作」以前就匯入過了。您是否確定要再次匯入它們？"
+
+#: libkhotkeysprivate/settings.cpp:348
+#, kde-format
+msgid ""
+"This \"actions\" file has no ImportId field and therefore it cannot be "
+"determined whether or not it has been imported already. Are you sure you "
+"want to import it?"
+msgstr ""
+"這個「動作」沒有 ImportId 欄位因此無法確認是否已經匯入過了。您是否確定要匯入"
+"它們？"
+
+#: libkhotkeysprivate/triggers/gesture_trigger.cpp:126
+#, kde-format
+msgid "Gesture trigger"
+msgstr "手勢觸發器"
+
+#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:153
+#, kde-format
+msgid "Shortcut trigger: "
+msgstr "捷徑觸發器："
+
+#: libkhotkeysprivate/triggers/voice_trigger.cpp:67
+#, kde-format
+msgid "Voice trigger: "
+msgstr "語音觸發器："
+
+#: libkhotkeysprivate/triggers/window_trigger.cpp:151
+#, kde-format
+msgid "Window trigger: "
+msgstr "視窗觸發器："
+
+#: libkhotkeysprivate/windows_helper/window_selection_rules.cpp:82
+#, kde-format
+msgid "Window simple: "
+msgstr "視窗簡易:"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "&Edit"
+#~ msgstr "編輯(&E)"
+
+#~ msgid "Active Window"
+#~ msgstr "作用中視窗"
+
+#~ msgid "KHotKeys Update Helper"
+#~ msgstr "KHotKeys 更新工具"
+
+#~ msgid "(C) 2003-2009 Lubos Lunak"
+#~ msgstr "(C) 2003-2009 Lubos Lunak"
+
+#~ msgid "Id of the script to add to %1"
+#~ msgstr "要新增到 %1 的文稿代碼"
+
+#~ msgid "These entries were created using Menu Editor."
+#~ msgstr "這些項目是用選單編輯器所建立。"
+
+#~ msgid ""
+#~ "Unable to contact khotkeys. Your changes are saved but i failed to "
+#~ "activate them"
+#~ msgstr "無法聯繫 khotkeys。您的變更已儲存，但無法啟動。"
+
+#~ msgid "Enable Gestures"
+#~ msgstr "開啟手勢"
+
+#~ msgid "KHotKeys update utility"
+#~ msgstr "KHotKeys 更新工具"
+
+#~ msgid "KHotKeys Daemon"
+#~ msgstr "KDE 熱鍵精靈"
+
+#~ msgid "Menu"
+#~ msgstr "選單"
+
+#~ msgid "&Enabled"
+#~ msgstr "已開啟(&E)"
+
+#~ msgid "Add comment here"
+#~ msgstr "在此新增註解"
+
+#~ msgid "Parent group is disabled"
+#~ msgstr "父群組已關閉"
+
+#~ msgid "Started server <em>org.kde.khotkeys</em>."
+#~ msgstr "已啟動伺服器 <em>org.kde.khotkeys</em>。"
+
+#~ msgid "Unable to start server <em>org.kde.khotkeys</em>."
+#~ msgstr "無法啟動伺服器 <em>org.kde.khotkeys</em>。"
+
+#~ msgid ""
+#~ "Unable to start service <em>org.kde.khotkeys</em>.<br /><br /><i>Error: "
+#~ "%1</i>"
+#~ msgstr ""
+#~ "無法啟動服務 <em>org.kde.khotkeys</em>。<br /><br /> <i>錯誤：%1</i>"
+
+#~ msgid "GroupBox"
+#~ msgstr "群組盒"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "KDE Hotkeys:"
+#~ msgstr "KDE 熱鍵："
+
+#~ msgid "&Modify..."
+#~ msgstr "修改(&M)..."
+
+#~ msgid "&Copy"
+#~ msgstr "複製(&C)"
+
+#~ msgid "&New Action"
+#~ msgstr "新的動作(&N)"
+
+#~ msgid "Global &Settings"
+#~ msgstr "全域的設定(&S)"
+
+#~ msgid "Command/URL to execute:"
+#~ msgstr "要執行的命令/URL:"
+
+#~ msgid "Window activates"
+#~ msgstr "視窗動用"
+
+#~ msgid "Window deactivates"
+#~ msgstr "視窗不動用"
+
+#~ msgid "Menu entry to execute:"
+#~ msgstr "要執行的選單條目:"
+
+#~ msgid "&Browse..."
+#~ msgstr "瀏覽(&B)..."
+
+#~ msgid "&Play"
+#~ msgstr "播放(&P)"
+
+#~ msgid "&Record"
+#~ msgstr "錄製(&R)"
+
+#~ msgid "&Stop"
+#~ msgstr "停止(&S)"
+
+#~ msgid "Gestures:"
+#~ msgstr "手勢:"
+
+#~ msgid "Action group &name:"
+#~ msgstr "動作群組名稱(&N):"
+
+#~ msgid "&Disable:"
+#~ msgstr "關閉(&D)："
+
+#~ msgid "Info_tab_ui"
+#~ msgstr "Info_tab_ui"
+
+#~ msgid ""
+#~ "<p>This module allows configuration of input actions, such as mouse "
+#~ "gestures, keyboard shortcuts for performing commands, launching "
+#~ "applications or D-Bus calls, and similar.</p>\n"
+#~ "<p><b>NOTE: </b>If you are not an experienced user, you should be careful "
+#~ "when modifying the actions, and should limit your changes mainly to "
+#~ "enabling/disabling actions, and changing triggers.</p>"
+#~ msgstr ""
+#~ "<p>這個模組允許配置輸入的動作，如滑鼠手勢，鍵盤快速鍵完成指令，起動應用程"
+#~ "式或 D-Bus 呼叫，及諸如此類的。</p>\n"
+#~ "<p><b>注意：</b>如果您不是有經驗的使用者，在修改這些動作時要小心，主要就是"
+#~ "要有節制地對啟動/關閉動作和觸發器進行變更。</p>"
+
+#~ msgid "Disable mouse gestures globally"
+#~ msgstr "全域性地關閉鼠標手勢"
+
+#~ msgid "Gesture timeout (ms):"
+#~ msgstr "手勢逾時 (毫秒):"
+
+#~ msgid "Disable KHotKeys daemon"
+#~ msgstr "關閉 K 熱鍵精靈"
+
+#~ msgid "Keyboard_input_widget_ui"
+#~ msgstr "Keyboard_input_widget_ui"
+
+#~ msgid "Keyboard input:"
+#~ msgstr "鍵盤輸入:"
+
+#~ msgid "Modify..."
+#~ msgstr "修改..."
+
+#~ msgid "Send Input To"
+#~ msgstr "傳送輸入到"
+
+#~ msgid ""
+#~ "Specify the window where the keyboard input should be sent to:<ul>\n"
+#~ "<li><em>Action window:</em> The window where the triggering action "
+#~ "happened; this is usually the currently active window, except for mouse "
+#~ "gesture triggers - where it is the window under mouse - and window "
+#~ "triggers -where it is the window triggering the action.</li>\n"
+#~ "<li><em>Active window:</em> The currently active window.</li>\n"
+#~ "<li><em>Specific window:</em> Any window matching the given criteria.</"
+#~ "li>\n"
+#~ "</ul>"
+#~ msgstr ""
+#~ "指定鍵盤輸入應送出至哪個視窗：<ul>\n"
+#~ "<li><em>動作視窗：</em> 觸發動作發生的視窗；這通常是目前作用中視窗，除了滑"
+#~ "鼠手勢觸發─它是發生於該滑鼠之下的視窗─與視窗觸發─它是由觸發該動作的視窗。"
+#~ "</li>\n"
+#~ "<li><em>作用中視窗：</em> 目前作用中的視窗</li>\n"
+#~ "<li><em>指定的視窗：</em> 任何合於指定條件的視窗。</li>\n"
+#~ "</ul>"
+
+#~ msgid "Called &function:"
+#~ msgstr "呼叫的功能(&F):"
+
+#~ msgid "&Try"
+#~ msgstr "嘗試&T"
+
+#~ msgid "Action &type:"
+#~ msgstr "動作型態(&T):"
+
+#~ msgid "Action &name:"
+#~ msgstr "動作名稱(&N):"
+
+#~ msgid ""
+#~ "In order to trigger a spoken action, you have to press the key (or "
+#~ "combination of keys) configured below, speak the command and then press "
+#~ "the same key again once you have finished speaking."
+#~ msgstr ""
+#~ "為了觸發語音動作，您須要按下下面設定的按鍵(或組合鍵)，說話，並且在您說完語"
+#~ "音指令後再按一次相同的快速鍵"
+
+#~ msgid ""
+#~ "<b>Note:</b> To get voice recognition working correctly and in full "
+#~ "duplex mode: \n"
+#~ "make sure <i>Full duplex</i> is checked in your <i>Sound System</i> "
+#~ "options."
+#~ msgstr ""
+#~ "<b>注意：</b> 要讓語音辨識功能正確執行，您須要有能正常運作的 <i>arts</i>，"
+#~ "並使用全雙工模式： \n"
+#~ "請確定您的 <i>聲音伺服器</i> 選項中的 <i>全雙工</i> 核取方塊已核取。"
+
+#~ msgctxt "to try"
+#~ msgid "&Try"
+#~ msgstr "嘗試(&T)"
+
+#~ msgid "Simple Window..."
+#~ msgstr "簡易視窗..."
+
+#~ msgid ""
+#~ "Draw the gesture you would like to record below. Press and hold the left "
+#~ "mouse button while drawing, and release when you have finished.\n"
+#~ "\n"
+#~ "You will be required to draw the gesture 3 times. After each drawing, if "
+#~ "they match, the indicators below will change to represent which step you "
+#~ "are on.\n"
+#~ "\n"
+#~ "If at any point they do not match, you will be required to restart. If "
+#~ "you want to force a restart, use the reset button below.\n"
+#~ "\n"
+#~ "Draw here:"
+#~ msgstr ""
+#~ "在下方繪畫出您要紀錄的手勢。繪畫時要按住滑鼠左鍵，當您完成時再放開。\n"
+#~ "\n"
+#~ "您需要繪畫手勢三次。如果有符合的話，在每次畫完後，下方的指示會改變並顯示出"
+#~ "您所在的步驟。\n"
+#~ "\n"
+#~ "如果有任何特點沒有相符合，您將被要求重新開始。如果您要強制重新開始，就使用"
+#~ "下方的重設按鈕。\n"
+#~ "\n"
+#~ "在這裡繪畫:"
+
+#~ msgid "Your gestures did not match."
+#~ msgstr "您的手勢不相符。"
+
+#~ msgid ""
+#~ "You have already completed the three required drawings. Either press 'Ok' "
+#~ "to save or 'Reset' to try again."
+#~ msgstr "您已經完成三個所需的繪圖請按 'Ok' 存檔或者 '重設' 再試一次。"
+
+#~ msgid "Button 2 (middle)"
+#~ msgstr "按鈕 2 (中)"
+
+#~ msgid "Button 3 (secondary)"
+#~ msgstr "按鈕 3 (次要的)"
+
+#~ msgid "Button 4 (often wheel up)"
+#~ msgstr "按鈕 4 (通常是滾輪向上)"
+
+#~ msgid "Button 5 (often wheel down)"
+#~ msgstr "按鈕 5 (通常是滾輪向下)"
+
+#~ msgid "Button 6 (if available)"
+#~ msgstr "按鈕 6 (如果有的話)"
+
+#~ msgid "Button 7 (if available)"
+#~ msgstr "按鈕 7 (如果有的話)"
+
+#~ msgid "Button 8 (if available)"
+#~ msgstr "按鈕 8 (如果有的話)"
+
+#~ msgid "Button 9 (if available)"
+#~ msgstr "按鈕 9 (如果有的話)"
+
+#~ msgid "Info"
+#~ msgstr "資訊"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid "Gestures Settings"
+#~ msgstr "手勢設定"
+
+#~ msgid "Command/URL Settings"
+#~ msgstr "命令/URL 設定"
+
+#~ msgid "Menu Entry Settings"
+#~ msgstr "選單條目設定"
+
+#~ msgid "D-Bus Call Settings"
+#~ msgstr "D-Bus 呼叫設定"
+
+#~ msgid "Keyboard Input Settings"
+#~ msgstr "鍵盤輸入設定"
+
+#~ msgid ""
+#~ "A group is selected.\n"
+#~ "Add the new condition in this selected group?"
+#~ msgstr ""
+#~ "選取了一個群組。\n"
+#~ "要把這新的條件加到所選取的群組嗎?"
+
+#~ msgid "Add in Group"
+#~ msgstr "加入群組"
+
+#~ msgid "Recording..."
+#~ msgstr "錄音中..."
+
+#~ msgid ""
+#~ "The word you recorded is too close to the existing reference '%1'. Please "
+#~ "record another word."
+#~ msgstr "您所錄製的單字太接近既存的參照「%1」，請錄製其他單字。"
+
+#~ msgid ""
+#~ "Unable to extract voice information from noise.\n"
+#~ "If this error occurs repeatedly, it suggests that there is either too "
+#~ "much background noise, or the quality of your microphone is too poor."
+#~ msgstr ""
+#~ "無法從雜訊中解讀出語音資訊。\n"
+#~ "  如果這個訊息太常出現表示有太多雜訊，或者您的麥克風不夠好。"
+
+#~ msgid "Lubos Lunak"
+#~ msgstr "Lubos Lunak"
+
+#~ msgid "New Action Group"
+#~ msgstr "新的動作群組"
+
+#~ msgid "Select File with Actions to Be Imported"
+#~ msgstr "選擇要匯入的附動作檔案"
+
+#~ msgid ""
+#~ "Import of the specified file failed. Most probably the file is not a "
+#~ "valid file with actions."
+#~ msgstr "匯入指定的檔案失敗。很可能這不是個有效的附動作檔案。"
+
+#~ msgid "Command/URL..."
+#~ msgstr "命令/URL..."
+
+#~ msgid "D-Bus Call..."
+#~ msgstr "D-Bus 呼叫..."
+
+#~ msgid "Activate Window..."
+#~ msgstr "動用視窗..."
+
+#~ msgid ""
+#~ "Enter a code for the sound (e.g. the word you are saying) and record the "
+#~ "same word twice."
+#~ msgstr "輸入此語音的代號（如：您所說的單字）然後錄製同一個單字兩次"
+
+#~ msgid ""
+#~ "<qt>%1<br /><font color='red'>The sound code already exists</font></qt>"
+#~ msgstr "<qt>%1<br /><font color='red'>此語音代碼已存在</font></qt>"
+
+#~ msgid ""
+#~ "<qt>%1<br /><font color='red'>One of the sound references is not correct</"
+#~ "font></qt>"
+#~ msgstr "<qt>%1<br /><font color='red'>其中一個語音參照不正確</font></qt>"
+
+#~ msgid "Generic"
+#~ msgstr "一般的"
+
+#~ msgid "Keyboard Shortcut -> Command/URL (simple)"
+#~ msgstr "鍵盤快速鍵 -> 命令/URL (簡易)"
+
+#~ msgid "K-Menu Entry (simple)"
+#~ msgstr "K-選單條目 (簡易)"
+
+#~ msgid "Keyboard Shortcut -> D-Bus Call (simple)"
+#~ msgstr "鍵盤快速鍵 -> D-Bus 呼叫 (簡易)"
+
+#~ msgid "Keyboard Shortcut -> Keyboard Input (simple)"
+#~ msgstr "鍵盤快速鍵 -> 鍵盤輸入 (簡易)"
+
+#~ msgid "Gesture -> Keyboard Input (simple)"
+#~ msgstr "手勢 -> 鍵盤輸入 (簡易)"
+
+#~ msgid "Keyboard Shortcut -> Activate Window (simple)"
+#~ msgstr "鍵盤快速鍵 -> 動用視窗 (簡易)"
+
+#~ msgid "Shortcut Trigger..."
+#~ msgstr "快速鍵觸發器"
+
+#~ msgid "Gesture Trigger..."
+#~ msgstr "手勢觸發器"
+
+#~ msgid "Window Trigger..."
+#~ msgstr "視窗觸發器..."
+
+#~ msgid "Voice Trigger..."
+#~ msgstr "語音觸發器..."
+
+#~ msgid "TODO: Correct Behavior"
+#~ msgstr "TODO: Correct Behaviour"
+
+#~ msgid "Select keyboard shortcut:"
+#~ msgstr "選擇鍵盤快速鍵:"
+
+#~ msgid "Copy of "
+#~ msgstr "複製"

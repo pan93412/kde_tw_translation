@@ -1,0 +1,167 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.mediaframe\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-20 03:26+0100\n"
+"PO-Revision-Date: 2016-11-03 19:29+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: package/contents/config/config.qml:30
+#, kde-format
+msgid "Paths"
+msgstr "路徑"
+
+#: package/contents/ui/ConfigGeneral.qml:64
+#, kde-format
+msgid "Change picture every"
+msgstr "變更圖片頻率："
+
+#: package/contents/ui/ConfigGeneral.qml:70
+#, kde-format
+msgid "s"
+msgstr "秒"
+
+#: package/contents/ui/ConfigGeneral.qml:81
+#, fuzzy, kde-format
+#| msgid "Fill mode"
+msgid "Fill mode:"
+msgstr "填充模式"
+
+#: package/contents/ui/ConfigGeneral.qml:93
+#, kde-format
+msgid "Stretch"
+msgstr "伸縮"
+
+#: package/contents/ui/ConfigGeneral.qml:98
+#, kde-format
+msgid "Preserve aspect fit"
+msgstr "保留縱橫比，不裁切"
+
+#: package/contents/ui/ConfigGeneral.qml:104
+#, kde-format
+msgid "Preserve aspect crop"
+msgstr "保留縱橫比，裁切"
+
+#: package/contents/ui/ConfigGeneral.qml:109
+#, kde-format
+msgid "Tile"
+msgstr "鋪排"
+
+#: package/contents/ui/ConfigGeneral.qml:114
+#, kde-format
+msgid "Tile vertically"
+msgstr "垂直平鋪"
+
+#: package/contents/ui/ConfigGeneral.qml:119
+#, kde-format
+msgid "Tile horizontally"
+msgstr "水平平鋪"
+
+#: package/contents/ui/ConfigGeneral.qml:124
+#, kde-format
+msgid "Pad"
+msgstr "Pad"
+
+#: package/contents/ui/ConfigGeneral.qml:142
+#, fuzzy, kde-format
+#| msgid "The image is scaled to fit"
+msgid "The image is scaled to fit the frame"
+msgstr "影像大小依視框調整"
+
+#: package/contents/ui/ConfigGeneral.qml:146
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "The image is scaled uniformly to fit without cropping"
+msgstr "影像大小依視框調整，但是保持比例不裁切"
+
+#: package/contents/ui/ConfigGeneral.qml:150
+#, kde-format
+msgid "The image is scaled uniformly to fill, cropping if necessary"
+msgstr "影像大小依視框調整，超過就裁切"
+
+#: package/contents/ui/ConfigGeneral.qml:154
+#, kde-format
+msgid "The image is duplicated horizontally and vertically"
+msgstr "圖片水平與垂直複製"
+
+#: package/contents/ui/ConfigGeneral.qml:158
+#, kde-format
+msgid "The image is stretched horizontally and tiled vertically"
+msgstr "圖片水平伸展並垂直平鋪"
+
+#: package/contents/ui/ConfigGeneral.qml:162
+#, kde-format
+msgid "The image is stretched vertically and tiled horizontally"
+msgstr "圖片垂直伸展並水平平鋪"
+
+#: package/contents/ui/ConfigGeneral.qml:166
+#, kde-format
+msgid "The image is not transformed"
+msgstr "圖片不變動"
+
+#: package/contents/ui/ConfigGeneral.qml:191
+#, kde-format
+msgid "Randomize items"
+msgstr "隨機項目"
+
+#: package/contents/ui/ConfigGeneral.qml:196
+#, kde-format
+msgid "Pause on mouseover"
+msgstr "在滑鼠經過時暫停"
+
+#: package/contents/ui/ConfigGeneral.qml:201
+#, kde-format
+msgid "Background frame"
+msgstr "背景圖框"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, kde-format
+msgid "Left click image opens in external viewer"
+msgstr "左鍵點選圖片以在外部檢視器中開啟"
+
+#: package/contents/ui/ConfigPaths.qml:63
+#, kde-format
+msgid "Choose files"
+msgstr "選擇檔案"
+
+#: package/contents/ui/ConfigPaths.qml:92
+#, kde-format
+msgid "Choose a folder"
+msgstr "選擇資料夾"
+
+#: package/contents/ui/ConfigPaths.qml:124
+#, kde-format
+msgid "Add folder..."
+msgstr "新增資料夾..."
+
+#: package/contents/ui/ConfigPaths.qml:130
+#, kde-format
+msgid "Add files..."
+msgstr "新增檔案..."
+
+#: package/contents/ui/ConfigPaths.qml:137
+#, fuzzy, kde-format
+#| msgid "Paths"
+msgid "Paths:"
+msgstr "路徑"
+
+#: package/contents/ui/main.qml:423
+#, kde-format
+msgid "Configure plasmoid..."
+msgstr "設定 plasmoid..."

@@ -1,0 +1,512 @@
+# translation of desktop_kdebase.po to Chinese Traditional
+# Copyright (C) 2001-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006-2008, 2009, 2010.
+# AceLan <acelan@kde.linux.org.tw>, 2001, 2005.
+# Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001.
+# Calvin Lin <armin.lin@msa.hinet.net>, 2002.
+# Yuan-Chen Cheng <ycheng@slat.org>, 2002.
+# Zhu Dingjie <alastor@alastor.ath.cx>, 2002.
+# Abel Cheung <maddog@linux.org.hk>, 2002.
+# Anthony Fok <anthony@thizlinux.com>, 2002.
+# Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2002.
+# Tzer-Ming Liu <tzerming@gmail.com>, 2006.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2011, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_kdebase\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-05-26 01:09+0000\n"
+"PO-Revision-Date: 2014-03-14 16:07+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: app/khotkeys.desktop:2
+msgctxt "Name"
+msgid "Input Actions"
+msgstr "輸入動作"
+
+#: app/khotkeys.desktop:88
+msgctxt "Comment"
+msgid "Input Actions service performing configured actions on key presses"
+msgstr "輸入動作服務，在按下按鍵時執行設定好的動作。"
+
+#: data/defaults.khotkeys:5 data/defaults.khotkeys:155
+msgctxt "Comment"
+msgid "Comment"
+msgstr "註解"
+
+#: data/defaults.khotkeys:77
+msgctxt "Name"
+msgid "KMenuEdit"
+msgstr "選單編輯器"
+
+#: data/defaults.khotkeys:226
+msgctxt "Name"
+msgid "Search"
+msgstr "搜尋"
+
+#: data/defaults.khotkeys:309 data/kde32b1.khotkeys:521
+#: data/kde32b1.khotkeys:761 data/kde32b1.khotkeys:1018
+#: data/kde32b1.khotkeys:1483 data/kde32b1.khotkeys:1899
+#: data/kde32b1.khotkeys:3307
+msgctxt "Comment"
+msgid "Simple_action"
+msgstr "簡易動作"
+
+#: data/kde32b1.khotkeys:5
+msgctxt "Comment"
+msgid ""
+"This group contains various examples demonstrating most of the features of "
+"KHotkeys. (Note that this group and all its actions are disabled by default.)"
+msgstr ""
+"這個群組包含了展示 KHotkeys 大部份功能的各種範例。（注意這個群組與其定義的動"
+"作預設是關閉的）"
+
+#: data/kde32b1.khotkeys:78
+msgctxt "Name"
+msgid "Examples"
+msgstr "範例"
+
+#: data/kde32b1.khotkeys:171
+msgctxt "Comment"
+msgid ""
+"After pressing Ctrl+Alt+I, the KSIRC window will be activated, if it exists. "
+"Simple."
+msgstr "按下 Ctrl+Alt+I 會叫出隱藏的 KSIRC 視窗。就這麼簡單。"
+
+#: data/kde32b1.khotkeys:248
+msgctxt "Name"
+msgid "Activate KSIRC Window"
+msgstr "叫出 KSIRC 視窗"
+
+#: data/kde32b1.khotkeys:338
+msgctxt "Comment"
+msgid "KSIRC window"
+msgstr "KSIRC 視窗"
+
+#: data/kde32b1.khotkeys:426
+msgctxt "Comment"
+msgid "KSIRC"
+msgstr "KSIRC"
+
+#: data/kde32b1.khotkeys:605
+msgctxt "Comment"
+msgid ""
+"After pressing Alt+Ctrl+H the input of 'Hello' will be simulated, as if you "
+"typed it.  This is especially useful if you have call to frequently type a "
+"word (for instance, 'unsigned').  Every keypress in the input is separated "
+"by a colon ':'. Note that the keypresses literally mean keypresses, so you "
+"have to write what you would press on the keyboard. In the table below, the "
+"left column shows the input and the right column shows what to type.\\n\\n"
+"\"enter\" (i.e. new line)                Enter or Return\\na (i.e. small "
+"a)                          A\\nA (i.e. capital a)                       "
+"Shift+A\\n: (colon)                                  Shift+;\\n' "
+"'  (space)                              Space"
+msgstr ""
+"按下 Alt+Ctrl+H 會模擬您在鍵盤上輸入 'Hello'。若是您挺懶得打一些常用的如 "
+"'unsigned' 之類的字，這類動作就很好用。輸入的每個按鍵以冒號 : 區隔。注意按鍵"
+"就是按鍵，您必須定義您實際要按下的鍵。在底下的表格中，左方的欄位顯示實際輸"
+"入，右方的欄位顯示要按的鍵。\\n\\n\"enter\"（換行）                  Enter "
+"或 Return\\na （小寫 a）                  A\\nA（大寫 A）                  "
+"Shift+A\\n:（冒號）                  Shift+;\\n' '（空白"
+"鍵）                  Space"
+
+#: data/kde32b1.khotkeys:667
+msgctxt "Name"
+msgid "Type 'Hello'"
+msgstr "輸入 Hello"
+
+#: data/kde32b1.khotkeys:845
+msgctxt "Comment"
+msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
+msgstr "這個動作會在按下 Ctrl+Alt+T 時執行 Konsole"
+
+#: data/kde32b1.khotkeys:922
+msgctxt "Name"
+msgid "Run Konsole"
+msgstr "執行 Konsole"
+
+#: data/kde32b1.khotkeys:1102
+msgctxt "Comment"
+msgid ""
+"Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer uses "
+"Ctrl+F4 for closing windows.  In KDE, however, Ctrl+F4 is the shortcut for "
+"going to virtual desktop 4, so this shortcut does not work in Qt Designer.  "
+"Further, Qt Designer does not use KDE's standard Ctrl+W for closing the "
+"window.\\n\\nThis problem can be solved by remapping Ctrl+W to Ctrl+F4 when "
+"the active window is Qt Designer. When Qt Designer is active, every time Ctrl"
+"+W is pressed, Ctrl+F4 will be sent to Qt Designer instead. In other "
+"applications, the effect of Ctrl+W is unchanged.\\n\\nWe now need to specify "
+"three things: A new shortcut trigger on 'Ctrl+W', a new keyboard input "
+"action sending Ctrl+F4, and a new condition that the active window is Qt "
+"Designer.\\nQt Designer seems to always have title 'Qt Designer by "
+"Trolltech', so the condition will check for the active window having that "
+"title."
+msgstr ""
+"請先參考「輸入 Hello」的註解。\\n\\nQt 設計器用 Ctrl+F4 來關閉視窗（也許是因"
+"為微軟用這個鍵？），不過在 KDE 中 Ctrl+F4 是跳到 4 號虛擬桌面，所以在 Qt 設計"
+"師中會無法使用。此外，Qt 設計師並未使用 KDE 標準的關閉視窗鍵 Ctrl+W。\\n\\n不"
+"過您可以利用此重新映射的功能來解決這個問題。當 Qt 設計師視窗取得焦點時，每次"
+"按下 Ctrl+W 鍵，實際上會送出 Ctrl+F4 給 Qt 設計師。而在其他應用程式中，Ctrl"
+"+W 鍵則不受影響。\\n\\n要使用此功能，要指定三個參數：快捷鍵 Ctrl+W，要做的動"
+"作為送出 Ctrl+F4，以及生效條件為目前焦點處於 Qt 設計師視窗。\\nQt 設計師的視"
+"窗標題是 'Qt Designer by Trolltech'，所以生效條件可以檢查視窗的標題是否符合。"
+
+#: data/kde32b1.khotkeys:1153
+msgctxt "Name"
+msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
+msgstr "在 Qt 設計師中重新映射 Ctrl+W 到 Ctrl+F4"
+
+#: data/kde32b1.khotkeys:1244
+msgctxt "Comment"
+msgid "Qt Designer"
+msgstr "Qt 設計器"
+
+#: data/kde32b1.khotkeys:1348
+msgctxt "Comment"
+msgid ""
+"By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
+"minicli. You can use any kind of D-Bus call, just like using the command "
+"line 'qdbus' tool."
+msgstr ""
+"按下 Alt+Ctrl+W 時，會產生一個 D-Bus 呼叫來顯示 minicli。您可以使用任何種類"
+"的 D-Bus 呼叫，就如同在命令列中使用 qdbus 一樣。"
+
+#: data/kde32b1.khotkeys:1413
+msgctxt "Name"
+msgid "Perform D-Bus call 'qdbus org.kde.krunner /App display'"
+msgstr "執行 D-Bus 呼叫 'qdbus org.kde.krunner /App display'"
+
+#: data/kde32b1.khotkeys:1567
+msgctxt "Comment"
+msgid ""
+"Read the comment on the \"Type 'Hello'\" action first.\\n\\nJust like the "
+"\"Type 'Hello'\" action, this one simulates keyboard input, specifically, "
+"after pressing Ctrl+Alt+B, it sends B to XMMS (B in XMMS jumps to the next "
+"song). The 'Send to specific window' checkbox is checked and a window with "
+"its class containing 'XMMS_Player' is specified; this will make the input "
+"always be sent to this window. This way, you can control XMMS even if, for "
+"instance, it is on a different virtual desktop.\\n\\n(Run 'xprop' and click "
+"on the XMMS window and search for WM_CLASS to see 'XMMS_Player')."
+msgstr ""
+"請先參考「輸入 Hello」的註解。就如同「輸入 Hello」的動作，這個動作模擬鍵盤的"
+"輸入，在按下 Ctrl+Alt＋B 之後，會送出 B 到 XMMS（在 XMMS 中 B 是跳到下一首"
+"歌）。勾選「送到指定視窗」，並指定視窗類別為包含 XMMS_Player。這會讓此輸入永"
+"遠送到這個視窗。您可以用這個方法控制 XMMS，即使是在不同的虛擬桌面上。\\n"
+"\\n（執行 xprop 並點選 XMMS 視窗，搜尋 WM_CLASS 可以看到 XMMS_Player）。"
+
+#: data/kde32b1.khotkeys:1625
+msgctxt "Name"
+msgid "Next in XMMS"
+msgstr "命令 XMMS 跳到下一首"
+
+#: data/kde32b1.khotkeys:1718
+msgctxt "Comment"
+msgid "XMMS window"
+msgstr "XMMS 視窗"
+
+#: data/kde32b1.khotkeys:1807
+msgctxt "Comment"
+msgid "XMMS Player window"
+msgstr "XMMS 播放器視窗"
+
+#: data/kde32b1.khotkeys:1983
+msgctxt "Comment"
+msgid ""
+"Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust "
+"press the middle mouse button and start drawing one of the gestures, and "
+"after you are finished, release the mouse button. If you only need to paste "
+"the selection, it still works, just click the middle mouse button. (You can "
+"change the mouse button to use in the global settings).\\n\\nRight now, "
+"there are the following gestures available:\\nmove right and back left - "
+"Forward (Alt+Right)\\nmove left and back right - Back (Alt+Left)\\nmove up "
+"and back down  - Up (Alt+Up)\\ncircle anticlockwise - Reload (F5)\\n\\nThe "
+"gesture shapes can be entered by performing them in the configuration "
+"dialog. You can also look at your numeric pad to help you: gestures are "
+"recognized like a 3x3 grid of fields, numbered 1 to 9.\\n\\nNote that you "
+"must perform exactly the gesture to trigger the action. Because of this, it "
+"is possible to enter more gestures for the action. You should try to avoid "
+"complicated gestures where you change the direction of mouse movement more "
+"than once.  For instance, 45654 or 74123 are simple to perform, but 1236987 "
+"may be already quite difficult.\\n\\nThe conditions for all gestures are "
+"defined in this group. All these gestures are active only if the active "
+"window is Konqueror (class contains 'konqueror')."
+msgstr ""
+"KDE 3.1 中的 Konqueror 有分頁，現在您也可以用手勢。\\n\\n只要按住滑鼠中鍵，然"
+"後開始畫某個手勢，畫完以後放開。如果您只是要貼上選擇的文字，您還是可以只簡單"
+"點選中鍵。（您可以在全域設定中改變滑鼠按鍵的定義。）\\n\\n現在，有這些手勢可"
+"以使用：\\n往右移再往左移─表示往下一頁（Alt+右鍵）\\n往左移再往右移─表示返回"
+"前一頁（Alt+左鍵）\\n往上移再往下移─表示往上一層（Alt+上鍵）\\n逆時針畫圈圈─"
+"重新載入（F5）\\n\\n手勢的形狀可以在設定對話框中輸入。您也可以用鍵盤上的數字"
+"方向鍵。手勢就像是個 3x3 的格子，從 1 到 9。\\n\\n注意，您必須要完整做完手勢"
+"才會觸發動作，因此您可以對某動作輸入多個手勢。您應該避免使用太複雜的手勢，"
+"（例如：45654 或 74123 夠簡單，可以使用，但是 1236987 就可能有點困難）。\\n"
+"\\n所有手勢的條件都定義在此群組中。這些手勢只會在視窗類別為 Konqueror 才有作"
+"用。"
+
+#: data/kde32b1.khotkeys:2042
+msgctxt "Name"
+msgid "Konqi Gestures"
+msgstr "Konqi 手勢"
+
+#: data/kde32b1.khotkeys:2123 data/konqueror_gestures_kde321.khotkeys:168
+msgctxt "Comment"
+msgid "Konqueror window"
+msgstr "Konqueror 視窗"
+
+#: data/kde32b1.khotkeys:2213 data/kde32b1.khotkeys:2303
+#: data/konqueror_gestures_kde321.khotkeys:258
+#: data/konqueror_gestures_kde321.khotkeys:348
+msgctxt "Comment"
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#: data/kde32b1.khotkeys:2398 data/konqueror_gestures_kde321.khotkeys:520
+msgctxt "Name"
+msgid "Back"
+msgstr "返回"
+
+#: data/kde32b1.khotkeys:2499 data/kde32b1.khotkeys:2687
+#: data/kde32b1.khotkeys:2875 data/kde32b1.khotkeys:3063
+#: data/konqueror_gestures_kde321.khotkeys:779
+#: data/konqueror_gestures_kde321.khotkeys:1026
+#: data/konqueror_gestures_kde321.khotkeys:1260
+#: data/konqueror_gestures_kde321.khotkeys:1515
+#: data/konqueror_gestures_kde321.khotkeys:1769
+#: data/konqueror_gestures_kde321.khotkeys:1858
+#: data/konqueror_gestures_kde321.khotkeys:2109
+#: data/konqueror_gestures_kde321.khotkeys:2360
+#: data/konqueror_gestures_kde321.khotkeys:2616
+#: data/konqueror_gestures_kde321.khotkeys:2872
+#: data/konqueror_gestures_kde321.khotkeys:3124
+#: data/konqueror_gestures_kde321.khotkeys:3375
+#: data/konqueror_gestures_kde321.khotkeys:3635
+#: data/konqueror_gestures_kde321.khotkeys:3891
+msgctxt "Comment"
+msgid "Gesture_triggers"
+msgstr "手勢觸發"
+
+#: data/kde32b1.khotkeys:2586 data/konqueror_gestures_kde321.khotkeys:2515
+msgctxt "Name"
+msgid "Forward"
+msgstr "往前"
+
+#: data/kde32b1.khotkeys:2774 data/konqueror_gestures_kde321.khotkeys:925
+msgctxt "Name"
+msgid "Up"
+msgstr "上一層"
+
+#: data/kde32b1.khotkeys:2962 data/konqueror_gestures_kde321.khotkeys:3790
+msgctxt "Name"
+msgid "Reload"
+msgstr "重新載入"
+
+#: data/kde32b1.khotkeys:3148
+msgctxt "Comment"
+msgid ""
+"After pressing Win+E (Tux+E) a WWW browser will be launched, and it will "
+"open http://www.kde.org . You may run all kind of commands you can run in "
+"minicli (Alt+F2)."
+msgstr ""
+"按下 Win+E（Tux+E）後會開啟瀏覽器，並跳到 http://www.kde.org。您也可以在 "
+"minicli（Alt+F2）中執行所有可執行的指令。"
+
+#: data/kde32b1.khotkeys:3212
+msgctxt "Name"
+msgid "Go to KDE Website"
+msgstr "跳到 KDE 網站"
+
+#: data/konqueror_gestures_kde321.khotkeys:5
+msgctxt "Comment"
+msgid "Basic Konqueror gestures."
+msgstr "基本的 Konqueror 手勢"
+
+#: data/konqueror_gestures_kde321.khotkeys:85
+msgctxt "Name"
+msgid "Konqueror Gestures"
+msgstr "Konqueror 手勢"
+
+#: data/konqueror_gestures_kde321.khotkeys:441
+msgctxt "Comment"
+msgid "Press, move left, release."
+msgstr "按下，往左移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:609
+msgctxt "Comment"
+msgid ""
+"Opera-style: Press, move up, release.\\nNOTE: Conflicts with 'New Tab', and "
+"as such is disabled by default."
+msgstr ""
+"Opera 風格：按下，往上移，再放開。\\n注意：會與「新增分頁」衝突，預設為關閉。"
+
+#: data/konqueror_gestures_kde321.khotkeys:681
+msgctxt "Name"
+msgid "Stop Loading"
+msgstr "停止載入"
+
+#: data/konqueror_gestures_kde321.khotkeys:856
+msgctxt "Comment"
+msgid ""
+"Going up in URL/directory structure.\\nMozilla-style: Press, move up, move "
+"left, move up, release."
+msgstr ""
+"往上一層的網址或目錄。\\nMozilla 風格：按住，往上移，往左移，往上移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:1103
+msgctxt "Comment"
+msgid ""
+"Going up in URL/directory structure.\\nOpera-style: Press, move up, move "
+"left, move up, release.\\nNOTE: Conflicts with  \"Activate Previous Tab\", "
+"and as such is disabled by default."
+msgstr ""
+"往上一層的網址或目錄。\\nOpera 風格：按住，往上移，往左移，往上移，再放"
+"開。\\n注意：會與「跳到前一個分頁」衝突，預設為關閉。"
+
+#: data/konqueror_gestures_kde321.khotkeys:1169
+msgctxt "Name"
+msgid "Up #2"
+msgstr "往上層（2）"
+
+#: data/konqueror_gestures_kde321.khotkeys:1337
+msgctxt "Comment"
+msgid "Press, move up, move right, release."
+msgstr "按住，往上移，往右移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:1415
+msgctxt "Name"
+msgid "Activate Next Tab"
+msgstr "跳到下一個分頁"
+
+#: data/konqueror_gestures_kde321.khotkeys:1592
+msgctxt "Comment"
+msgid "Press, move up, move left, release."
+msgstr "按住，往上移，往左移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:1670
+msgctxt "Name"
+msgid "Activate Previous Tab"
+msgstr "跳到前一個分頁"
+
+#: data/konqueror_gestures_kde321.khotkeys:1935
+msgctxt "Comment"
+msgid "Press, move down, move up, move down, release."
+msgstr "按住，往下移，往上移，往下移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:2013
+msgctxt "Name"
+msgid "Duplicate Tab"
+msgstr "複製分頁"
+
+#: data/konqueror_gestures_kde321.khotkeys:2186
+msgctxt "Comment"
+msgid "Press, move down, move up, release."
+msgstr "按住，往下移，往上移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:2264
+msgctxt "Name"
+msgid "Duplicate Window"
+msgstr "複製視窗"
+
+#: data/konqueror_gestures_kde321.khotkeys:2437
+msgctxt "Comment"
+msgid "Press, move right, release."
+msgstr "按住，往右移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:2693
+msgctxt "Comment"
+msgid ""
+"Press, move down, move half up, move right, move down, release.\\n(Drawing a "
+"lowercase 'h'.)"
+msgstr ""
+"按住，往下移，往上移一半，往右移，往下移，再放開。\\n（就像寫一個小寫的 h）"
+
+#: data/konqueror_gestures_kde321.khotkeys:2765
+msgctxt "Name"
+msgid "Home"
+msgstr "家目錄"
+
+#: data/konqueror_gestures_kde321.khotkeys:2953
+msgctxt "Comment"
+msgid ""
+"Press, move right, move down, move right, release.\\nMozilla-style: Press, "
+"move down, move right, release."
+msgstr ""
+"按住，往右移，往下移，往右移，再放開。\\nMozilla 風格：按住，往下移，往右移，"
+"再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:3025
+msgctxt "Name"
+msgid "Close Tab"
+msgstr "關閉分頁"
+
+#: data/konqueror_gestures_kde321.khotkeys:3205
+msgctxt "Comment"
+msgid ""
+"Press, move up, release.\\nConflicts with Opera-style 'Up #2', which is "
+"disabled by default."
+msgstr ""
+"按住，往上移，再放開。\\n與預設為關閉的 Opera 風格「往上層（2）」衝突，"
+
+#: data/konqueror_gestures_kde321.khotkeys:3276
+msgctxt "Name"
+msgid "New Tab"
+msgstr "新分頁"
+
+#: data/konqueror_gestures_kde321.khotkeys:3452
+msgctxt "Comment"
+msgid "Press, move down, release."
+msgstr "按住，往下移，再放開。"
+
+#: data/konqueror_gestures_kde321.khotkeys:3530
+msgctxt "Name"
+msgid "New Window"
+msgstr "新視窗"
+
+#: data/konqueror_gestures_kde321.khotkeys:3712
+msgctxt "Comment"
+msgid "Press, move up, move down, release."
+msgstr "按住，往上移，往下移，再放開。"
+
+#: kcm_hotkeys/khotkeys.desktop:13
+msgctxt "Name"
+msgid "Custom Shortcuts"
+msgstr "自訂捷徑"
+
+#: kcm_hotkeys/khotkeys.desktop:76
+msgctxt "Comment"
+msgid "Configure Input Actions settings"
+msgstr "設定輸入動作"
+
+#: kcm_hotkeys/khotkeys.desktop:145
+msgctxt "X-KDE-Keywords"
+msgid ""
+"global,keyboard shortcuts,hot keys,hotkeys,KHotKeys,input actions,mouse "
+"gestures,actions,triggers,launch"
+msgstr ""
+"global,keyboard shortcuts,hot keys,hotkeys,KHotKeys,input actions,mouse "
+"gestures,actions,triggers,launch"
+
+#~ msgctxt "Comment"
+#~ msgid "This group contains actions that are set up by default."
+#~ msgstr "此群組包含了預先設定好的動作。"
+
+#~ msgctxt "Name"
+#~ msgid "Preset Actions"
+#~ msgstr "預先設定動作"
+
+#~ msgctxt "Comment"
+#~ msgid "Launches KSnapShot when PrintScrn is pressed."
+#~ msgstr "按下 PrintScreen 鍵時叫出 KSnapShot。"
+
+#~ msgctxt "Name"
+#~ msgid "PrintScreen"
+#~ msgstr "PrintScreen"

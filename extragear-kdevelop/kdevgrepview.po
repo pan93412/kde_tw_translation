@@ -1,0 +1,757 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevgrepview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-12-16 03:09+0100\n"
+"PO-Revision-Date: 2014-04-23 14:34+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: grepdialog.cpp:55
+#, kde-format
+msgid "All Open Files"
+msgstr "所有已開啟檔案"
+
+#: grepdialog.cpp:56
+#, kde-format
+msgid "All Open Projects"
+msgstr "所有已開啟專案"
+
+#: grepdialog.cpp:164 grepdialog.cpp:498 grepviewplugin.cpp:95
+#, kde-format
+msgid "Find/Replace in Files"
+msgstr "在檔案中尋找/取代"
+
+#: grepdialog.cpp:171
+#, fuzzy, kde-format
+#| msgid "Search..."
+msgctxt "@action:button"
+msgid "Search..."
+msgstr "搜尋..."
+
+#: grepdialog.cpp:235
+#, fuzzy, kde-format
+#| msgid "Select a directory to search in."
+msgctxt "@title:window"
+msgid "Select directory to search in"
+msgstr "選擇您要在哪個目錄內搜尋。"
+
+#: grepdialog.cpp:490
+#, kde-format
+msgid "%2, and %1 more item"
+msgid_plural "%2, and %1 more items"
+msgstr[0] "%2，還有 %1 個項目"
+
+#: grepdialog.cpp:503
+#, fuzzy, kde-format
+#| msgid "Search \"%1\" in %2 (at time %3)"
+msgid "Search \"%1\" in %2"
+msgstr "在 %2 中搜尋 \"%1\"（於時間 %3）"
+
+#: grepdialog.cpp:508
+#, kde-format
+msgid "Search \"%1\" in %2 (at time %3)"
+msgstr "在 %2 中搜尋 \"%1\"（於時間 %3）"
+
+#: grepjob.cpp:104
+#, kde-format
+msgid "Find in Files"
+msgstr "在檔案中尋找"
+
+#: grepjob.cpp:119 grepjob.cpp:221
+#, kde-format
+msgid "Search aborted"
+msgstr "搜尋已中止"
+
+#: grepjob.cpp:128
+#, kde-format
+msgid "No files found matching the wildcard patterns"
+msgstr "找不到符合此搜尋樣式的檔案"
+
+#: grepjob.cpp:146
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Capture is the text which is \"captured\" with () in regular expressions "
+#| "see http://doc.trolltech.com/qregexp.html#capturedTexts"
+#| msgid "Captures are not allowed in pattern string"
+msgctxt ""
+"Capture is the text which is \"captured\" with () in regular expressions see "
+"https://doc.qt.io/qt-5/qregexp.html#capturedTexts"
+msgid "Captures are not allowed in pattern string"
+msgstr "在樣式字串中不允許抓取"
+
+#: grepjob.cpp:166
+#, kde-format
+msgid "Searching for <b>%2</b> in one file"
+msgid_plural "Searching for <b>%2</b> in %1 files"
+msgstr[0] "正在 %1 個檔案中尋找 <b>%2</b>"
+
+#: grepjob.cpp:187
+#, kde-format
+msgid "Collecting files..."
+msgstr "收集檔案中..."
+
+#: grepjob.cpp:265
+#, kde-format
+msgid "Failed: %1"
+msgstr "失敗：%1"
+
+#: grepjob.cpp:268
+#, kde-format
+msgid "No results found"
+msgstr "找不到任何資料"
+
+#: grepjob.cpp:287
+#, kde-format
+msgid "Grep: %1"
+msgstr "Grep：%1"
+
+#: grepoutputdelegate.cpp:87 grepoutputdelegate.cpp:155
+#, kde-format
+msgid "Line %1: "
+msgstr "第 %1 行："
+
+#: grepoutputmodel.cpp:389
+#, kde-format
+msgid "<b>1</b> match"
+msgid_plural "<b>%1</b> matches"
+msgstr[0] "<b>%1</b> 筆符合"
+
+#: grepoutputmodel.cpp:390
+#, kde-format
+msgid "<b>1</b> file"
+msgid_plural "<b>%1</b> files"
+msgstr[0] "<b>%1</b> 個檔案"
+
+#: grepoutputmodel.cpp:392
+#, fuzzy, kde-format
+#| msgctxt "%1 is e.g. '4 matches', %2 is e.g. '1 file'"
+#| msgid "<h3>%1 in %2</h3>"
+msgctxt "%1 is e.g. '4 matches', %2 is e.g. '1 file'"
+msgid "<b>%1 in %2</b>"
+msgstr "<h3>%2 內的 %1</h3>"
+
+#: grepoutputmodel.cpp:394
+#, kde-format
+msgid "%2: 1 match"
+msgid_plural "%2: %1 matches"
+msgstr[0] ""
+
+#: grepoutputmodel.cpp:469
+#, kde-format
+msgctxt ""
+"%1 is the old text, %2 is the new text, %3 is the file path, %4 and %5 are "
+"its row and column"
+msgid "Failed to replace <b>%1</b> by <b>%2</b> in %3:%4:%5"
+msgstr "於 %3:%4:%5 以 <b>%2</b> 取代 <b>%1</b> 失敗"
+
+#: grepoutputview.cpp:75
+#, kde-format
+msgctxt "@title:window"
+msgid "Find/Replace Output View"
+msgstr "尋找/取代輸出檢視"
+
+#: grepoutputview.cpp:78
+#, kde-format
+msgid "&Previous Item"
+msgstr "前一個項目(&P)"
+
+#: grepoutputview.cpp:79
+#, kde-format
+msgid "&Next Item"
+msgstr "下一個項目(&N)"
+
+#: grepoutputview.cpp:80
+#, kde-format
+msgid "C&ollapse All"
+msgstr "全部折疊(&O)"
+
+#: grepoutputview.cpp:81
+#, kde-format
+msgid "&Expand All"
+msgstr "全部展開(&E)"
+
+#: grepoutputview.cpp:85
+#, kde-format
+msgid "New &Search"
+msgstr "新增搜尋(&S)..."
+
+#: grepoutputview.cpp:86
+#, kde-format
+msgid "Refresh"
+msgstr ""
+
+#: grepoutputview.cpp:88
+#, kde-format
+msgid "Clear Search History"
+msgstr "清除搜尋歷史"
+
+#: grepoutputview.cpp:321
+#, kde-format
+msgid "Do you want to replace with an empty string?"
+msgstr "您要用空字串取代嗎？"
+
+#: grepoutputview.cpp:322
+#, kde-format
+msgid "Start replacement"
+msgstr "開始取代"
+
+#. i18n: ectx: property (text), widget (QLabel, replacementLabel)
+#: grepoutputview.ui:41
+#, fuzzy, kde-format
+#| msgid "Replacement &Text:"
+msgid "Replacement &text:"
+msgstr "取代文字(&T)："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, replacementCombo)
+#: grepoutputview.ui:57
+#, kde-format
+msgid "Enter the replacement pattern."
+msgstr "輸入取代樣式。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyButton)
+#: grepoutputview.ui:76
+#, kde-format
+msgid "Apply replacement on selected items."
+msgstr "套用取代在選取的項目上。"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyButton)
+#: grepoutputview.ui:79
+#, kde-format
+msgid "&Replace"
+msgstr "取代(&R)"
+
+#: grepviewplugin.cpp:81
+#, kde-format
+msgid "Find/Replace in Fi&les..."
+msgstr "在檔案中尋找/取代(&L)..."
+
+#: grepviewplugin.cpp:84
+#, kde-format
+msgid "Search for expressions over several files"
+msgstr "在數個檔案中搜尋表示式"
+
+#: grepviewplugin.cpp:85
+#, kde-format
+msgid ""
+"Opens the 'Find/Replace in files' dialog. There you can enter a regular "
+"expression which is then searched for within all files in the directories "
+"you specify. Matches will be displayed, you can switch to a match directly. "
+"You can also do replacement."
+msgstr ""
+"開啟「在檔案中尋找/取代」對話框。您可以輸入正規表示式，並搜尋您指定的目錄中的"
+"所有檔案。比對結果會顯示出來，您可以直接切換到某一筆結果。您也可以執行取代的"
+"動作。"
+
+#: grepviewplugin.cpp:133 grepviewplugin.cpp:156
+#, fuzzy, kde-format
+#| msgid "Find/Replace in This Folder"
+msgid "Find/Replace in This Folder..."
+msgstr "在此資料夾中尋找與取代"
+
+#: grepviewplugin.cpp:144
+#, fuzzy, kde-format
+#| msgid "Find/Replace in Fi&les..."
+msgid "&Find/Replace in Files..."
+msgstr "在檔案中尋找/取代(&L)..."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GrepWidget)
+#: grepwidget.ui:26
+#, kde-format
+msgid "Find-Replace In Files"
+msgstr "在檔案中尋找/取代"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patternCombo)
+#: grepwidget.ui:38
+#, kde-format
+msgid "Enter the regular expression you want to search for here."
+msgstr "在此輸入您要搜尋比對用的正規表示式"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, patternCombo)
+#: grepwidget.ui:62
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Enter the regular "
+"expression you want to search for here.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">If you do not check "
+"\"Regular Expression\" below, this is considered a raw string. That means, "
+"all meta characters are escaped.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Possible meta characters "
+"are:</p>\n"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-"
+"right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"><span style=\" font-weight:600;\">.</span> - Matches any "
+"character</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">^</span> - Matches the beginning of a line</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">$</span> - Matches the end of a line</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">\\b</span> - Matches a word boundary</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">\\s</span> - Matches any whitespace character</li></ul>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">The following repetition "
+"operators exist:</p>\n"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-"
+"right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"><span style=\" font-weight:600;\">?</span> - The preceding "
+"item is matched at most once</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">*</span> - The preceding item is matched zero or more times</"
+"li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">+</span> - The preceding item is matched one or more times</"
+"li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">}</span> - The preceding item "
+"is matched exactly <span style=\" font-style:italic;\">n</span> times</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">,}</span> - The preceding item "
+"is matched <span style=\" font-style:italic;\">n</span> or more times</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{,</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">}</span> - The preceding item "
+"is matched at most <span style=\" font-style:italic;\">n</span> times</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">,</span><span style=\" font-"
+"weight:600; font-style:italic;\">m</span><span style=\" font-weight:600;\">}"
+"</span> - The preceding item is matched at least <span style=\" font-style:"
+"italic;\">n</span>, but at most <span style=\" font-style:italic;\">m</span> "
+"times.</li></ul>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Furthermore, "
+"backreferences to bracketed subexpressions are available via the notation "
+"\\<span style=\" font-style:italic;\">n</span>.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">For further reference, "
+"look at <a href=\"http://www.pcre.org\"><span style=\" text-decoration: "
+"underline; color:#0057ae;\">www.pcre.org</span></a> or <span style=\" font-"
+"style:italic;\">man pcresyntax.</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">在此輸入您要搜尋的字串的正"
+"規表示式。</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">若您未勾選下方的「正規表示"
+"式」選項， 則這裡輸入的會被視為字串。也就是說，所有的符號等都被視為搜尋字串的"
+"一部份。</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">正規表示式中可用的符號包"
+"括：</p>\n"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-"
+"right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"><span style=\" font-weight:600;\">.</span> - 符合任何一個字元</"
+"li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">^</span> - 表示一行的開頭</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">$</span> - 表示一行的結尾</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">\\b</span> - 表示一個單字的邊界</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">\\s</span> - 符合任何空白字元</li></ul>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">以下為重覆操作元：</p>\n"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-"
+"right: 0px; -qt-list-indent: 1;\"><li style=\" margin-top:12px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"><span style=\" font-weight:600;\">?</span> - 前面的項目要符合一"
+"次以上</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">*</span> - 前面的項目可有可無，也可以很多次</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">+</span> - 前面的項目至少要符合一次以上</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">}</span> - 前面的項目要準確地符"
+"合 <span style=\" font-style:italic;\">n</span> 次</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">,}</span> - 前面的項目至少要符"
+"合 <span style=\" font-style:italic;\">n</span> 次</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{,</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">}</span> - 前面的項目最多符合 "
+"<span style=\" font-style:italic;\">n</span> 次</li>\n"
+"<li style=\" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">{</span><span style=\" font-weight:600; font-style:italic;"
+"\">n</span><span style=\" font-weight:600;\">,</span><span style=\" font-"
+"weight:600; font-style:italic;\">m</span><span style=\" font-weight:600;\">}"
+"</span> - 前面的項目至少符合 <span style=\" font-style:italic;\">n</span> "
+"次，但最多符合 <span style=\" font-style:italic;\">m</span> 次。</li></ul>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">此外， \\<span style=\" "
+"font-style:italic;\">n</span> 表示往回參考刮號內的子表示式。</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">關於正規表示式，您可以參考 "
+"<a href=\"http://www.pcre.org\"><span style=\" text-decoration: underline; "
+"color:#0057ae;\">www.pcre.org</span></a> 或 <span style=\" font-style:italic;"
+"\">man pcresyntax</span>。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: grepwidget.ui:75
+#, kde-format
+msgid "Template:"
+msgstr "範本："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, templateEdit)
+#: grepwidget.ui:88
+#, kde-format
+msgid "This is the regular expression template."
+msgstr "這是正規表示式樣本。"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, templateEdit)
+#: grepwidget.ui:91
+#, no-c-format, kde-format
+msgid ""
+"This is the regular expression template. <i>%s</i> will be replaced by the "
+"pattern, while <i>%%</i> will be replaced by <i>%</i>."
+msgstr ""
+"這是正規表示式的樣本。<i>%s</i>會以樣式取代，<i>%%</i> 則會以百分比符號 <i>"
+"%</i> 取代。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, syncButton)
+#: grepwidget.ui:98
+#, kde-format
+msgid "Quickly select location from a set of directories"
+msgstr "從一些目錄快速選擇位置"
+
+#. i18n: ectx: property (text), widget (QPushButton, syncButton)
+#: grepwidget.ui:101
+#, kde-format
+msgid "Quick Select"
+msgstr "快速選擇"
+
+#. i18n: ectx: property (text), widget (QLabel, depthLabel)
+#: grepwidget.ui:108
+#, kde-format
+msgid "Depth:"
+msgstr "深度："
+
+#. i18n: Full recursion will be used. For folder-based searches, that means searching in the target folder and all the subfolders, their subfolders, and so on.
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, depthSpin)
+#: grepwidget.ui:124
+#, kde-format
+msgid "Full"
+msgstr "完全"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: grepwidget.ui:137
+#, kde-format
+msgid "Pattern:"
+msgstr "樣式："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: grepwidget.ui:150
+#, kde-format
+msgid "Files:"
+msgstr "檔案："
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: grepwidget.ui:163
+#, fuzzy, kde-format
+#| msgid "Case Sensitive:"
+msgid "Case sensitive:"
+msgstr "區分大小寫："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, caseSensitiveCheck)
+#: grepwidget.ui:182
+#, kde-format
+msgid "Case-sensitive searching."
+msgstr "區分大小寫搜尋。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: grepwidget.ui:195
+#, kde-format
+msgid "Location(s):"
+msgstr "位置："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, filesCombo)
+#: grepwidget.ui:208
+#, kde-format
+msgid "Files filter."
+msgstr "檔案過濾器。"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, filesCombo)
+#: grepwidget.ui:211
+#, kde-format
+msgid ""
+"Enter the file name pattern of the files to search here. You may give "
+"several patterns separated by commas or spaces."
+msgstr "請在此輸入要搜尋的檔案名稱樣式。您可以用空白或逗號來區隔多個樣式。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: grepwidget.ui:224
+#, kde-format
+msgid "Exclude:"
+msgstr "執行檔："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, excludeCombo)
+#: grepwidget.ui:237
+#, kde-format
+msgid "Files pattern to exclude"
+msgstr "要排除的檔案樣式"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, excludeCombo)
+#: grepwidget.ui:240
+#, kde-format
+msgid ""
+"Enter the file name pattern of the files to exclude from the search here. "
+"You may give several patterns separated by commas or spaces.<p>Every pattern "
+"is internally surrounded by asterisks, so that each pattern can match parts "
+"of the file paths.</p>"
+msgstr ""
+"請在此輸入搜尋時要排除的檔案名稱樣式。您可以用空白或逗號來區隔多個樣式。 <p>"
+"每個樣式在處理時前後都會加上星號，這表示這些樣式可以只是檔名的一部份。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: grepwidget.ui:320
+#, fuzzy, kde-format
+#| msgid "Regular Expression:"
+msgid "Regular expression:"
+msgstr "正規表示式："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, regexCheck)
+#: grepwidget.ui:333
+#, kde-format
+msgid "Enable or disable regular expression."
+msgstr "開啟或關閉正規表示式。"
+
+#. i18n: ectx: property (text), widget (QLabel, limitToProjectLabel)
+#: grepwidget.ui:346
+#, kde-format
+msgid "Limit to project files:"
+msgstr "限制只搜尋專案檔："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, replacementTemplateEdit)
+#: grepwidget.ui:375
+#, kde-format
+msgid "Enter the replacement template."
+msgstr "輸入取代樣本。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: grepwidget.ui:382
+#, fuzzy, kde-format
+#| msgid "Replacement Template:"
+msgid "Replacement template:"
+msgstr "取代樣本："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, searchPaths)
+#: grepwidget.ui:395
+#, kde-format
+msgid ""
+"Select the location where you want to search. It can be a directory, a file, "
+"or a semicolon separated (without spaces) list of directories/files."
+msgstr ""
+"選擇您要搜尋的位置。它可以是一個目錄、檔案或目錄與檔案的清單，清單中的項目用"
+"分號分隔（但不要有空白）。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, directorySelector)
+#: grepwidget.ui:420
+#, kde-format
+msgid "Select a directory to search in."
+msgstr "選擇您要在哪個目錄內搜尋。"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "<big>%2 <i>(one match)</i></big>"
+#~ msgid_plural "<big>%2 <i>(%1 matches)</i></big>"
+#~ msgstr[0] "<big>%2<i>（%1 筆符合）</i></big>"
+
+#, fuzzy
+#~| msgid "Replace"
+#~ msgid "Find/Replace"
+#~ msgstr "取代"
+
+#~ msgid "&Find/Replace in Files"
+#~ msgstr "在檔案中尋找/取代(&F)"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Franklin Weng"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid ""
+#~ "Allows fast searching of multiple files using patterns or regular "
+#~ "expressions. And allow to replace it too."
+#~ msgstr "允許使用樣式或正規表示式來快速搜尋與取代多個檔案。"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Ctrl+Alt+f"
+#~ msgstr "Ctrl+Alt+f"
+
+#~ msgid "Synchronize with current document directory."
+#~ msgstr "與目前的文件目錄同步。"
+
+#~ msgid "&Change Search Settings"
+#~ msgstr "變更搜尋設定(&C)"
+
+#~ msgid "Support for running grep over a list of files"
+#~ msgstr "支援在列表檔案中執行 grep"
+
+#~ msgid "Recursive:"
+#~ msgstr "遞迴："
+
+#~ msgid "Find/Replace In Files"
+#~ msgstr "在檔案中取代"
+
+#~ msgid "&Change criteria"
+#~ msgstr "變更條件(&C)"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Directory:"
+#~ msgstr "目錄："
+
+#~ msgid "Replace in files"
+#~ msgstr "在檔案中取代"
+
+#~ msgid "Replace with: "
+#~ msgstr "取代為："
+
+#~ msgid "Apply"
+#~ msgstr "套用"
+
+#~ msgid "%1 matches in %2 files"
+#~ msgstr "%2 個檔案中有 %1 處符合"
+
+#~ msgid "Replace <b>%2</b> by <b>%3</b> in one file"
+#~ msgid_plural "Replace <b>%2</b> by <b>%3</b> in %1 files"
+#~ msgstr[0] "在 %1 個檔案中以 <b>%3</b> 取代 <b>%2</b>"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Find in Files aborted"
+#~ msgstr "在檔案中尋找的動作已中止"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Navigation"
+#~ msgstr "導覽"
+
+#~ msgid "Unable to create a temporary file for search."
+#~ msgstr "無法建立搜尋暫存檔。"
+
+#~ msgid "Process failed to start."
+#~ msgstr "行程啟動失敗。"
+
+#~ msgid "Process crashed."
+#~ msgstr "行程已崩潰。"
+
+#~ msgid "Process timed out."
+#~ msgstr "行程逾時。"
+
+#~ msgid "Error while writing to process."
+#~ msgstr "寫入行程時發生錯誤。"
+
+#~ msgid "Error while reading from process."
+#~ msgstr "從行程讀取時發生錯誤。"
+
+#~ msgid "Unknown process error."
+#~ msgstr "未知的行程錯誤。"
+
+#~ msgid ""
+#~ "Enter the regular expression you want to search for here.<p>Possible meta "
+#~ "characters are:<ul><li><b>.</b> - Matches any character</li><li><b>^</b> "
+#~ "- Matches the beginning of a line</li><li><b>$</b> - Matches the end of a "
+#~ "line</li><li><b>\\&lt;</b> - Matches the beginning of a word</li><li><b>"
+#~ "\\&gt;</b> - Matches the end of a word</li></ul>The following repetition "
+#~ "operators exist:<ul><li><b>?</b> - The preceding item is matched at most "
+#~ "once</li><li><b>*</b> - The preceding item is matched zero or more times</"
+#~ "li><li><b>+</b> - The preceding item is matched one or more times</"
+#~ "li><li><b>{<i>n</i>}</b> - The preceding item is matched exactly <i>n</i> "
+#~ "times</li><li><b>{<i>n</i>,}</b> - The preceding item is matched <i>n</i> "
+#~ "or more times</li><li><b>{,<i>n</i>}</b> - The preceding item is matched "
+#~ "at most <i>n</i> times</li><li><b>{<i>n</i>,<i>m</i>}</b> - The preceding "
+#~ "item is matched at least <i>n</i>, but at most <i>m</i> times.</li></"
+#~ "ul>Furthermore, backreferences to bracketed subexpressions are available "
+#~ "via the notation \\<i>n</i>.</p>"
+#~ msgstr ""
+#~ "請在此輸入您要搜尋的正規表示式。 <p>可用的符號包括：<ul> <li><b>.</b>：符"
+#~ "合任何字元</li> <li><b>^</b>：表示一行的開始</li> <li><b>$</b>：表示一行的"
+#~ "結尾</li> <li><b>\\&lt;</b>：表示一個單字的開始</li> <li><b>\\&gt;</b>：表"
+#~ "示一個單字的結尾</li> </ul></p> <p>可用的重覆運算子包括：<ul> <li><b>?</"
+#~ "b>：前面的項目最多符合一次</li> <li><b>*</b>：前面的項目符合零次或一次以上"
+#~ "</li> <li><b>+</b>：前面的項目至少符合一次</li> <li><b>{<i>n</i>}</b>：前"
+#~ "面的項目正好符合 n 次</li> <li><b>{<i>n</i>,}</b>：前面的項目至少符合 n 次"
+#~ "</li> <li><b>{,<i>n</i>}</b>：前面的項目最多符合 n 次</li> <li><b>{<i>n</"
+#~ "i>,<i>m</i>}</b>：前面的項目符合最少 n 次最多 m 次。</li> </ul></p><p>另"
+#~ "外，也可以對用括號括起來的子表示式使用回溯參考（backreferences），符號為 "
+#~ "\\<i>n</i>。</p>"
+
+#~ msgid ""
+#~ "You can choose a template for the pattern from the combo box and edit it "
+#~ "here. The string %s in the template is replaced by the pattern input "
+#~ "field, resulting in the regular expression to search for."
+#~ msgstr ""
+#~ "您可以從下拉式選單選取此樣式的樣本並編輯。樣本中的字串 %s 會被樣式輸入欄位"
+#~ "中的文字取代，成為要搜尋的正規表示式。"
+
+#~ msgid "Suppress find errors:"
+#~ msgstr "略過搜尋的錯誤："

@@ -1,0 +1,147 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_lockout\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-09 03:26+0100\n"
+"PO-Revision-Date: 2016-11-03 19:22+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: contents/ui/ConfigGeneral.qml:61
+#, kde-format
+msgctxt "Heading for list of actions (leave, lock, shutdown, ...)"
+msgid "Actions"
+msgstr "動作"
+
+#: contents/ui/ConfigGeneral.qml:68
+#, kde-format
+msgid "Leave"
+msgstr "離開"
+
+#: contents/ui/ConfigGeneral.qml:74 contents/ui/data.js:4
+#, kde-format
+msgid "Lock"
+msgstr "鎖定"
+
+#: contents/ui/ConfigGeneral.qml:79
+#, kde-format
+msgid "Switch User"
+msgstr "切換使用者"
+
+#: contents/ui/ConfigGeneral.qml:84 contents/ui/data.js:26
+#: contents/ui/lockout.qml:125
+#, kde-format
+msgid "Hibernate"
+msgstr "睡眠"
+
+#: contents/ui/ConfigGeneral.qml:89 contents/ui/data.js:20
+#: contents/ui/lockout.qml:141
+#, kde-format
+msgid "Suspend"
+msgstr "暫停"
+
+#: contents/ui/data.js:5
+#, kde-format
+msgid "Lock the screen"
+msgstr "鎖定螢幕"
+
+#: contents/ui/data.js:10
+#, kde-format
+msgid "Switch user"
+msgstr "切換使用者"
+
+#: contents/ui/data.js:11
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "以另一個使用者開始平行的作業階段"
+
+#: contents/ui/data.js:15
+#, kde-format
+msgid "Leave..."
+msgstr "離開..."
+
+#: contents/ui/data.js:16
+#, kde-format
+msgid "Logout, turn off or restart the computer"
+msgstr "登出，關閉或重新啟動電腦"
+
+#: contents/ui/data.js:21
+#, kde-format
+msgid "Sleep (suspend to RAM)"
+msgstr "睡眠（暫停並儲存到記憶體）"
+
+#: contents/ui/data.js:27
+#, kde-format
+msgid "Hibernate (suspend to disk)"
+msgstr "冬眠（暫停並儲存到磁碟）"
+
+#: contents/ui/lockout.qml:126
+#, kde-format
+msgid "Do you want to suspend to disk (hibernate)?"
+msgstr "您要暫停並儲存到磁碟嗎（冬眠模式）？"
+
+#: contents/ui/lockout.qml:129 contents/ui/lockout.qml:145
+#, kde-format
+msgid "Yes"
+msgstr "是"
+
+#: contents/ui/lockout.qml:130 contents/ui/lockout.qml:146
+#, kde-format
+msgid "No"
+msgstr "否"
+
+#: contents/ui/lockout.qml:142
+#, kde-format
+msgid "Do you want to suspend to RAM (sleep)?"
+msgstr "您要暫停並儲存到記憶體嗎（睡眠模式）？"
+
+#~ msgid "Sleep"
+#~ msgstr "睡眠"
+
+#~ msgid "Lock/Logout Settings"
+#~ msgstr "鎖定/登出設定"
+
+#~ msgid "SystemTray Settings"
+#~ msgstr "系統匣設定"
+
+#~ msgid "Configure Lock/Logout"
+#~ msgstr "設定鎖定/登出"
+
+#~ msgid "Please select one or more items on the list below."
+#~ msgstr "請從下方清單中選取一個以上的項目。"
+
+#~ msgid "Entries"
+#~ msgstr "項目"
+
+#~ msgid "Show lock button"
+#~ msgstr "顯示鎖定按鍵"
+
+#~ msgid "Show \"switch user\" button"
+#~ msgstr "顯示切換使用者按鍵"
+
+#~ msgid "Show logout button"
+#~ msgstr "顯示登出按鍵"
+
+#~ msgid "Show hibernate button"
+#~ msgstr "顯示冬眠模式按鍵"
+
+#~ msgid "Show sleep button"
+#~ msgstr "顯示睡眠模式按鍵"

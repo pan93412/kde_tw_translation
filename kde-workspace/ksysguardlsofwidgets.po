@@ -1,0 +1,2815 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008.
+# Goodhorse <franklin@goodhorse.idv.tw>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksysguardlsofwidgets\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"PO-Revision-Date: 2008-08-19 14:42+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: zh_TW <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lsof.cpp:21
+#, kde-format
+msgctxt "Short for File Descriptor"
+msgid "FD"
+msgstr "FD"
+
+#. i18n: ectx: property (text), widget (KLsofWidget, klsofwidget)
+#: lsof.cpp:21 LsofSearchWidget.ui:28
+#, kde-format
+msgid "Type"
+msgstr "型態"
+
+#: lsof.cpp:21
+#, kde-format
+msgid "Object"
+msgstr "物件"
+
+#: LsofSearchWidget.cpp:39
+#, kde-format
+msgid "Renice Process"
+msgstr "重新調整行程優先權"
+
+#. i18n: ectx: property (text), widget (KLsofWidget, klsofwidget)
+#: LsofSearchWidget.ui:23
+#, kde-format
+msgid "Stream"
+msgstr "串流"
+
+#. i18n: ectx: property (text), widget (KLsofWidget, klsofwidget)
+#: LsofSearchWidget.ui:33
+#, kde-format
+msgid "Filename"
+msgstr "檔名"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "txt"
+#~ msgstr "文字"
+
+#~ msgid "unknown"
+#~ msgstr "未知"
+
+#~ msgid "/proc/1/exe (readlink: Permission denied)"
+#~ msgstr "/proc/1/exe（readlink：權限不足）"
+
+#~ msgid "/proc/2/exe (readlink: Permission denied)"
+#~ msgstr "/proc/2/exe (readlink：權限不足)"
+
+#~ msgid "/proc/3/exe (readlink: Permission denied)"
+#~ msgstr "/proc/3/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7/exe (readlink：權限不足)"
+
+#~ msgid "/proc/8/exe (readlink: Permission denied)"
+#~ msgstr "/proc/8/exe (readlink：權限不足)"
+
+#~ msgid "/proc/9/exe (readlink: Permission denied)"
+#~ msgstr "/proc/9/exe (readlink：權限不足)"
+
+#~ msgid "/proc/10/exe (readlink: Permission denied)"
+#~ msgstr "/proc/10/exe (readlink：權限不足)"
+
+#~ msgid "/proc/11/exe (readlink: Permission denied)"
+#~ msgstr "/proc/11/exe (readlink：權限不足)"
+
+#~ msgid "/proc/46/exe (readlink: Permission denied)"
+#~ msgstr "/proc/46/exe (readlink：權限不足)"
+
+#~ msgid "/proc/47/exe (readlink: Permission denied)"
+#~ msgstr "/proc/47/exe (readlink：權限不足)"
+
+#~ msgid "/proc/50/exe (readlink: Permission denied)"
+#~ msgstr "/proc/50/exe (readlink：權限不足)"
+
+#~ msgid "/proc/51/exe (readlink: Permission denied)"
+#~ msgstr "/proc/51/exe (readlink：權限不足)"
+
+#~ msgid "/proc/141/exe (readlink: Permission denied)"
+#~ msgstr "/proc/141/exe (readlink：權限不足)"
+
+#~ msgid "/proc/188/exe (readlink: Permission denied)"
+#~ msgstr "/proc/188/exe (readlink：權限不足)"
+
+#~ msgid "/proc/189/exe (readlink: Permission denied)"
+#~ msgstr "/proc/189/exe (readlink：權限不足)"
+
+#~ msgid "/proc/190/exe (readlink: Permission denied)"
+#~ msgstr "/proc/190/exe (readlink：權限不足)"
+
+#~ msgid "/proc/234/exe (readlink: Permission denied)"
+#~ msgstr "/proc/234/exe (readlink：權限不足)"
+
+#~ msgid "/proc/235/exe (readlink: Permission denied)"
+#~ msgstr "/proc/235/exe (readlink：權限不足)"
+
+#~ msgid "/proc/1297/exe (readlink: Permission denied)"
+#~ msgstr "/proc/1297/exe (readlink：權限不足)"
+
+#~ msgid "/proc/1660/exe (readlink: Permission denied)"
+#~ msgstr "/proc/1660/exe (readlink：權限不足)"
+
+#~ msgid "/proc/1661/exe (readlink: Permission denied)"
+#~ msgstr "/proc/1661/exe (readlink：權限不足)"
+
+#~ msgid "/proc/1716/exe (readlink: Permission denied)"
+#~ msgstr "/proc/1716/exe (readlink：權限不足)"
+
+#~ msgid "/proc/1720/exe (readlink: Permission denied)"
+#~ msgstr "/proc/1720/exe (readlink：權限不足)"
+
+#~ msgid "/proc/1723/exe (readlink: Permission denied)"
+#~ msgstr "/proc/1723/exe (readlink：權限不足)"
+
+#~ msgid "/proc/2469/exe (readlink: Permission denied)"
+#~ msgstr "/proc/2469/exe (readlink：權限不足)"
+
+#~ msgid "/proc/2472/exe (readlink: Permission denied)"
+#~ msgstr "/proc/2472/exe (readlink：權限不足)"
+
+#~ msgid "/proc/2494/exe (readlink: Permission denied)"
+#~ msgstr "/proc/2494/exe (readlink：權限不足)"
+
+#~ msgid "/proc/2495/exe (readlink: Permission denied)"
+#~ msgstr "/proc/2495/exe (readlink：權限不足)"
+
+#~ msgid "/proc/2802/exe (readlink: Permission denied)"
+#~ msgstr "/proc/2802/exe (readlink：權限不足)"
+
+#~ msgid "/proc/3032/exe (readlink: Permission denied)"
+#~ msgstr "/proc/3032/exe (readlink：權限不足)"
+
+#~ msgid "/proc/3562/exe (readlink: Permission denied)"
+#~ msgstr "/proc/3562/exe (readlink：權限不足)"
+
+#~ msgid "/proc/3655/exe (readlink: Permission denied)"
+#~ msgstr "/proc/3655/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4365/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4365/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4736/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4736/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4737/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4737/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4746/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4746/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4876/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4876/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4896/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4896/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4905/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4905/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4906/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4906/exe (readlink：權限不足)"
+
+#~ msgid "/proc/4925/exe (readlink: Permission denied)"
+#~ msgstr "/proc/4925/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5177/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5177/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5178/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5178/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5180/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5180/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5181/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5181/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5182/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5182/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5183/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5183/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5371/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5371/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5408/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5408/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5409/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5409/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5492/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5492/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5554/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5554/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5557/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5557/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5581/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5581/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5598/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5598/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5612/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5612/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5632/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5632/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5635/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5635/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5636/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5636/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5722/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5722/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5724/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5724/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5725/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5725/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5747/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5747/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5780/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5780/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5823/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5823/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5824/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5824/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5898/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5898/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5938/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5938/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5956/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5956/exe (readlink：權限不足)"
+
+#~ msgid "/proc/5989/exe (readlink: Permission denied)"
+#~ msgstr "/proc/5989/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6036/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6036/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6078/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6078/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6080/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6080/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6212/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6212/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6213/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6213/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6214/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6214/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6215/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6215/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6216/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6216/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6217/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6217/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6218/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6218/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6219/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6219/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6220/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6220/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6221/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6221/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6225/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6225/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6300/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6300/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6334/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6334/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6336/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6336/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6364/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6364/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6422/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6422/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6497/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6497/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6501/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6501/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6527/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6527/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6570/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6570/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6606/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6606/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6623/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6623/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6629/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6629/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6630/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6630/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6644/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6644/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6645/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6645/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6649/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6649/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6664/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6664/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6693/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6693/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6694/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6694/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6698/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6698/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6701/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6701/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6734/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6734/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6748/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6748/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6771/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6771/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6815/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6815/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6862/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6862/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6914/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6914/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6947/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6947/exe (readlink：權限不足)"
+
+#~ msgid "/proc/6952/exe (readlink: Permission denied)"
+#~ msgstr "/proc/6952/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7010/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7010/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7036/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7036/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7087/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7087/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7088/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7088/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7118/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7118/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7119/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7119/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7122/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7122/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7124/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7124/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7126/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7126/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7131/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7131/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7133/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7133/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7134/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7134/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7136/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7136/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7138/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7138/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7141/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7141/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7143/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7143/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7150/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7150/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7189/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7189/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7191/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7191/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7192/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7192/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7193/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7193/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7194/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7194/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7196/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7196/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7198/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7198/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7199/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7199/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7200/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7200/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7206/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7206/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7213/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7213/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7216/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7216/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7217/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7217/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7219/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7219/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7220/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7220/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7244/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7244/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7272/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7272/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7273/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7273/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7274/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7274/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7275/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7275/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7363/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7363/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7366/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7366/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7381/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7381/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7477/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7477/exe (readlink：權限不足)"
+
+#~ msgid "REG"
+#~ msgstr "REG"
+
+#~ msgid "/bin/bash"
+#~ msgstr "/bin/bash"
+
+#~ msgid "/usr/bin/dbus-daemon"
+#~ msgstr "/usr/bin/dbus-daemon"
+
+#~ msgid "/proc/7505/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7505/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7506/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7506/exe (readlink：權限不足)"
+
+#~ msgid "/proc/7535/exe (readlink: Permission denied)"
+#~ msgstr "/proc/7535/exe (readlink：權限不足)"
+
+#~ msgid "/proc/9991/exe (readlink: Permission denied)"
+#~ msgstr "/proc/9991/exe (readlink：權限不足)"
+
+#~ msgid "/proc/9992/exe (readlink: Permission denied)"
+#~ msgstr "/proc/9992/exe (readlink：權限不足)"
+
+#~ msgid "/proc/10060/exe (readlink: Permission denied)"
+#~ msgstr "/proc/10060/exe (readlink：權限不足)"
+
+#~ msgid "/proc/10065/exe (readlink: Permission denied)"
+#~ msgstr "/proc/10065/exe (readlink：權限不足)"
+
+#~ msgid "/proc/10076/exe (readlink: Permission denied)"
+#~ msgstr "/proc/10076/exe (readlink：權限不足)"
+
+#~ msgid "/proc/10205/exe (readlink: Permission denied)"
+#~ msgstr "/proc/10205/exe (readlink：權限不足)"
+
+#~ msgid "/proc/11880/exe (readlink: Permission denied)"
+#~ msgstr "/proc/11880/exe (readlink：權限不足)"
+
+#~ msgid "/proc/14096/exe (readlink: Permission denied)"
+#~ msgstr "/proc/14096/exe (readlink：權限不足)"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/bin/designer"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/bin/designer"
+
+#~ msgid "/usr/bin/lsof"
+#~ msgstr "/usr/bin/lsof"
+
+#~ msgid "rtd"
+#~ msgstr "rtd"
+
+#~ msgid "/proc/1/root (readlink: Permission denied)"
+#~ msgstr "/proc/1/root (readlink：權限不足)"
+
+#~ msgid "/proc/2/root (readlink: Permission denied)"
+#~ msgstr "/proc/2/root (readlink：權限不足)"
+
+#~ msgid "/proc/3/root (readlink: Permission denied)"
+#~ msgstr "/proc/3/root (readlink：權限不足)"
+
+#~ msgid "/proc/4/root (readlink: Permission denied)"
+#~ msgstr "/proc/4/root (readlink：權限不足)"
+
+#~ msgid "/proc/5/root (readlink: Permission denied)"
+#~ msgstr "/proc/5/root (readlink：權限不足)"
+
+#~ msgid "/proc/6/root (readlink: Permission denied)"
+#~ msgstr "/proc/6/root (readlink：權限不足)"
+
+#~ msgid "/proc/7/root (readlink: Permission denied)"
+#~ msgstr "/proc/7/root (readlink：權限不足)"
+
+#~ msgid "/proc/8/root (readlink: Permission denied)"
+#~ msgstr "/proc/8/root (readlink：權限不足)"
+
+#~ msgid "/proc/9/root (readlink: Permission denied)"
+#~ msgstr "/proc/9/root (readlink：權限不足)"
+
+#~ msgid "/proc/10/root (readlink: Permission denied)"
+#~ msgstr "/proc/10/root (readlink：權限不足)"
+
+#~ msgid "/proc/11/root (readlink: Permission denied)"
+#~ msgstr "/proc/11/root (readlink：權限不足)"
+
+#~ msgid "/proc/46/root (readlink: Permission denied)"
+#~ msgstr "/proc/46/root (readlink：權限不足)"
+
+#~ msgid "/proc/47/root (readlink: Permission denied)"
+#~ msgstr "/proc/47/root (readlink：權限不足)"
+
+#~ msgid "/proc/50/root (readlink: Permission denied)"
+#~ msgstr "/proc/50/root (readlink：權限不足)"
+
+#~ msgid "/proc/51/root (readlink: Permission denied)"
+#~ msgstr "/proc/51/root (readlink：權限不足)"
+
+#~ msgid "/proc/141/root (readlink: Permission denied)"
+#~ msgstr "/proc/141/root (readlink：權限不足)"
+
+#~ msgid "/proc/188/root (readlink: Permission denied)"
+#~ msgstr "/proc/188/root (readlink：權限不足)"
+
+#~ msgid "/proc/189/root (readlink: Permission denied)"
+#~ msgstr "/proc/189/root (readlink：權限不足)"
+
+#~ msgid "/proc/190/root (readlink: Permission denied)"
+#~ msgstr "/proc/190/root (readlink：權限不足)"
+
+#~ msgid "/proc/234/root (readlink: Permission denied)"
+#~ msgstr "/proc/234/root (readlink：權限不足)"
+
+#~ msgid "/proc/235/root (readlink: Permission denied)"
+#~ msgstr "/proc/235/root (readlink：權限不足)"
+
+#~ msgid "/proc/1297/root (readlink: Permission denied)"
+#~ msgstr "/proc/1297/root (readlink：權限不足)"
+
+#~ msgid "/proc/1660/root (readlink: Permission denied)"
+#~ msgstr "/proc/1660/root (readlink：權限不足)"
+
+#~ msgid "/proc/1661/root (readlink: Permission denied)"
+#~ msgstr "/proc/1661/root (readlink：權限不足)"
+
+#~ msgid "/proc/1716/root (readlink: Permission denied)"
+#~ msgstr "/proc/1716/root (readlink：權限不足)"
+
+#~ msgid "/proc/1720/root (readlink: Permission denied)"
+#~ msgstr "/proc/1720/root (readlink：權限不足)"
+
+#~ msgid "/proc/1723/root (readlink: Permission denied)"
+#~ msgstr "/proc/1723/root (readlink：權限不足)"
+
+#~ msgid "/proc/2469/root (readlink: Permission denied)"
+#~ msgstr "/proc/2469/root (readlink：權限不足)"
+
+#~ msgid "/proc/2472/root (readlink: Permission denied)"
+#~ msgstr "/proc/2472/root (readlink：權限不足)"
+
+#~ msgid "/proc/2494/root (readlink: Permission denied)"
+#~ msgstr "/proc/2494/root (readlink：權限不足)"
+
+#~ msgid "/proc/2495/root (readlink: Permission denied)"
+#~ msgstr "/proc/2495/root (readlink：權限不足)"
+
+#~ msgid "/proc/2802/root (readlink: Permission denied)"
+#~ msgstr "/proc/2802/root (readlink：權限不足)"
+
+#~ msgid "/proc/3032/root (readlink: Permission denied)"
+#~ msgstr "/proc/3032/root (readlink：權限不足)"
+
+#~ msgid "/proc/3562/root (readlink: Permission denied)"
+#~ msgstr "/proc/3562/root (readlink：權限不足)"
+
+#~ msgid "/proc/3655/root (readlink: Permission denied)"
+#~ msgstr "/proc/3655/root (readlink：權限不足)"
+
+#~ msgid "/proc/4365/root (readlink: Permission denied)"
+#~ msgstr "/proc/4365/root (readlink：權限不足)"
+
+#~ msgid "/proc/4736/root (readlink: Permission denied)"
+#~ msgstr "/proc/4736/root (readlink：權限不足)"
+
+#~ msgid "/proc/4737/root (readlink: Permission denied)"
+#~ msgstr "/proc/4737/root (readlink：權限不足)"
+
+#~ msgid "/proc/4746/root (readlink: Permission denied)"
+#~ msgstr "/proc/4746/root (readlink：權限不足)"
+
+#~ msgid "/proc/4876/root (readlink: Permission denied)"
+#~ msgstr "/proc/4876/root (readlink：權限不足)"
+
+#~ msgid "/proc/4896/root (readlink: Permission denied)"
+#~ msgstr "/proc/4896/root (readlink：權限不足)"
+
+#~ msgid "/proc/4905/root (readlink: Permission denied)"
+#~ msgstr "/proc/4905/root (readlink：權限不足)"
+
+#~ msgid "/proc/4906/root (readlink: Permission denied)"
+#~ msgstr "/proc/4906/root (readlink：權限不足)"
+
+#~ msgid "/proc/4925/root (readlink: Permission denied)"
+#~ msgstr "/proc/4925/root (readlink：權限不足)"
+
+#~ msgid "/proc/5177/root (readlink: Permission denied)"
+#~ msgstr "/proc/5177/root (readlink：權限不足)"
+
+#~ msgid "/proc/5178/root (readlink: Permission denied)"
+#~ msgstr "/proc/5178/root (readlink：權限不足)"
+
+#~ msgid "/proc/5180/root (readlink: Permission denied)"
+#~ msgstr "/proc/5180/root (readlink：權限不足)"
+
+#~ msgid "/proc/5181/root (readlink: Permission denied)"
+#~ msgstr "/proc/5181/root (readlink：權限不足)"
+
+#~ msgid "/proc/5182/root (readlink: Permission denied)"
+#~ msgstr "/proc/5182/root (readlink：權限不足)"
+
+#~ msgid "/proc/5183/root (readlink: Permission denied)"
+#~ msgstr "/proc/5183/root (readlink：權限不足)"
+
+#~ msgid "/proc/5371/root (readlink: Permission denied)"
+#~ msgstr "/proc/5371/root (readlink：權限不足)"
+
+#~ msgid "/proc/5408/root (readlink: Permission denied)"
+#~ msgstr "/proc/5408/root (readlink：權限不足)"
+
+#~ msgid "/proc/5409/root (readlink: Permission denied)"
+#~ msgstr "/proc/5409/root (readlink：權限不足)"
+
+#~ msgid "/proc/5492/root (readlink: Permission denied)"
+#~ msgstr "/proc/5492/root (readlink：權限不足)"
+
+#~ msgid "/proc/5554/root (readlink: Permission denied)"
+#~ msgstr "/proc/5554/root (readlink：權限不足)"
+
+#~ msgid "/proc/5557/root (readlink: Permission denied)"
+#~ msgstr "/proc/5557/root (readlink：權限不足)"
+
+#~ msgid "/proc/5581/root (readlink: Permission denied)"
+#~ msgstr "/proc/5581/root (readlink：權限不足)"
+
+#~ msgid "/proc/5598/root (readlink: Permission denied)"
+#~ msgstr "/proc/5598/root (readlink：權限不足)"
+
+#~ msgid "/proc/5612/root (readlink: Permission denied)"
+#~ msgstr "/proc/5612/root (readlink：權限不足)"
+
+#~ msgid "/proc/5632/root (readlink: Permission denied)"
+#~ msgstr "/proc/5632/root (readlink：權限不足)"
+
+#~ msgid "/proc/5635/root (readlink: Permission denied)"
+#~ msgstr "/proc/5635/root (readlink：權限不足)"
+
+#~ msgid "/proc/5636/root (readlink: Permission denied)"
+#~ msgstr "/proc/5636/root (readlink：權限不足)"
+
+#~ msgid "/proc/5722/root (readlink: Permission denied)"
+#~ msgstr "/proc/5722/root (readlink：權限不足)"
+
+#~ msgid "/proc/5724/root (readlink: Permission denied)"
+#~ msgstr "/proc/5724/root (readlink：權限不足)"
+
+#~ msgid "/proc/5725/root (readlink: Permission denied)"
+#~ msgstr "/proc/5725/root (readlink：權限不足)"
+
+#~ msgid "/proc/5747/root (readlink: Permission denied)"
+#~ msgstr "/proc/5747/root (readlink：權限不足)"
+
+#~ msgid "/proc/5780/root (readlink: Permission denied)"
+#~ msgstr "/proc/5780/root (readlink：權限不足)"
+
+#~ msgid "/proc/5823/root (readlink: Permission denied)"
+#~ msgstr "/proc/5823/root (readlink：權限不足)"
+
+#~ msgid "/proc/5824/root (readlink: Permission denied)"
+#~ msgstr "/proc/5824/root (readlink：權限不足)"
+
+#~ msgid "/proc/5898/root (readlink: Permission denied)"
+#~ msgstr "/proc/5898/root (readlink：權限不足)"
+
+#~ msgid "/proc/5938/root (readlink: Permission denied)"
+#~ msgstr "/proc/5938/root (readlink：權限不足)"
+
+#~ msgid "/proc/5956/root (readlink: Permission denied)"
+#~ msgstr "/proc/5956/root (readlink：權限不足)"
+
+#~ msgid "/proc/5989/root (readlink: Permission denied)"
+#~ msgstr "/proc/5989/root (readlink：權限不足)"
+
+#~ msgid "/proc/6036/root (readlink: Permission denied)"
+#~ msgstr "/proc/6036/root (readlink：權限不足)"
+
+#~ msgid "/proc/6078/root (readlink: Permission denied)"
+#~ msgstr "/proc/6078/root (readlink：權限不足)"
+
+#~ msgid "/proc/6080/root (readlink: Permission denied)"
+#~ msgstr "/proc/6080/root (readlink：權限不足)"
+
+#~ msgid "/proc/6212/root (readlink: Permission denied)"
+#~ msgstr "/proc/6212/root (readlink：權限不足)"
+
+#~ msgid "/proc/6213/root (readlink: Permission denied)"
+#~ msgstr "/proc/6213/root (readlink：權限不足)"
+
+#~ msgid "/proc/6214/root (readlink: Permission denied)"
+#~ msgstr "/proc/6214/root (readlink：權限不足)"
+
+#~ msgid "/proc/6215/root (readlink: Permission denied)"
+#~ msgstr "/proc/6215/root (readlink：權限不足)"
+
+#~ msgid "/proc/6216/root (readlink: Permission denied)"
+#~ msgstr "/proc/6216/root (readlink：權限不足)"
+
+#~ msgid "/proc/6217/root (readlink: Permission denied)"
+#~ msgstr "/proc/6217/root (readlink：權限不足)"
+
+#~ msgid "/proc/6218/root (readlink: Permission denied)"
+#~ msgstr "/proc/6218/root (readlink：權限不足)"
+
+#~ msgid "/proc/6219/root (readlink: Permission denied)"
+#~ msgstr "/proc/6219/root (readlink：權限不足)"
+
+#~ msgid "/proc/6220/root (readlink: Permission denied)"
+#~ msgstr "/proc/6220/root (readlink：權限不足)"
+
+#~ msgid "/proc/6221/root (readlink: Permission denied)"
+#~ msgstr "/proc/6221/root (readlink：權限不足)"
+
+#~ msgid "/proc/6225/root (readlink: Permission denied)"
+#~ msgstr "/proc/6225/root (readlink：權限不足)"
+
+#~ msgid "/proc/6300/root (readlink: Permission denied)"
+#~ msgstr "/proc/6300/root (readlink：權限不足)"
+
+#~ msgid "/proc/6334/root (readlink: Permission denied)"
+#~ msgstr "/proc/6334/root (readlink：權限不足)"
+
+#~ msgid "/proc/6336/root (readlink: Permission denied)"
+#~ msgstr "/proc/6336/root (readlink：權限不足)"
+
+#~ msgid "/proc/6364/root (readlink: Permission denied)"
+#~ msgstr "/proc/6364/root (readlink：權限不足)"
+
+#~ msgid "/proc/6422/root (readlink: Permission denied)"
+#~ msgstr "/proc/6422/root (readlink：權限不足)"
+
+#~ msgid "/proc/6497/root (readlink: Permission denied)"
+#~ msgstr "/proc/6497/root (readlink：權限不足)"
+
+#~ msgid "/proc/6501/root (readlink: Permission denied)"
+#~ msgstr "/proc/6501/root (readlink：權限不足)"
+
+#~ msgid "/proc/6527/root (readlink: Permission denied)"
+#~ msgstr "/proc/6527/root (readlink：權限不足)"
+
+#~ msgid "/proc/6570/root (readlink: Permission denied)"
+#~ msgstr "/proc/6570/root (readlink：權限不足)"
+
+#~ msgid "/proc/6606/root (readlink: Permission denied)"
+#~ msgstr "/proc/6606/root (readlink：權限不足)"
+
+#~ msgid "/proc/6623/root (readlink: Permission denied)"
+#~ msgstr "/proc/6623/root (readlink：權限不足)"
+
+#~ msgid "/proc/6629/root (readlink: Permission denied)"
+#~ msgstr "/proc/6629/root (readlink：權限不足)"
+
+#~ msgid "/proc/6630/root (readlink: Permission denied)"
+#~ msgstr "/proc/6630/root (readlink：權限不足)"
+
+#~ msgid "/proc/6644/root (readlink: Permission denied)"
+#~ msgstr "/proc/6644/root (readlink：權限不足)"
+
+#~ msgid "/proc/6645/root (readlink: Permission denied)"
+#~ msgstr "/proc/6645/root (readlink：權限不足)"
+
+#~ msgid "/proc/6649/root (readlink: Permission denied)"
+#~ msgstr "/proc/6649/root (readlink：權限不足)"
+
+#~ msgid "/proc/6664/root (readlink: Permission denied)"
+#~ msgstr "/proc/6664/root (readlink：權限不足)"
+
+#~ msgid "/proc/6693/root (readlink: Permission denied)"
+#~ msgstr "/proc/6693/root (readlink：權限不足)"
+
+#~ msgid "/proc/6694/root (readlink: Permission denied)"
+#~ msgstr "/proc/6694/root (readlink：權限不足)"
+
+#~ msgid "/proc/6698/root (readlink: Permission denied)"
+#~ msgstr "/proc/6698/root (readlink：權限不足)"
+
+#~ msgid "/proc/6701/root (readlink: Permission denied)"
+#~ msgstr "/proc/6701/root (readlink：權限不足)"
+
+#~ msgid "/proc/6734/root (readlink: Permission denied)"
+#~ msgstr "/proc/6734/root (readlink：權限不足)"
+
+#~ msgid "/proc/6748/root (readlink: Permission denied)"
+#~ msgstr "/proc/6748/root (readlink：權限不足)"
+
+#~ msgid "/proc/6771/root (readlink: Permission denied)"
+#~ msgstr "/proc/6771/root (readlink：權限不足)"
+
+#~ msgid "/proc/6815/root (readlink: Permission denied)"
+#~ msgstr "/proc/6815/root (readlink：權限不足)"
+
+#~ msgid "/proc/6862/root (readlink: Permission denied)"
+#~ msgstr "/proc/6862/root (readlink：權限不足)"
+
+#~ msgid "/proc/6914/root (readlink: Permission denied)"
+#~ msgstr "/proc/6914/root (readlink：權限不足)"
+
+#~ msgid "/proc/6947/root (readlink: Permission denied)"
+#~ msgstr "/proc/6947/root (readlink：權限不足)"
+
+#~ msgid "/proc/6952/root (readlink: Permission denied)"
+#~ msgstr "/proc/6952/root (readlink：權限不足)"
+
+#~ msgid "/proc/7010/root (readlink: Permission denied)"
+#~ msgstr "/proc/7010/root (readlink：權限不足)"
+
+#~ msgid "/proc/7036/root (readlink: Permission denied)"
+#~ msgstr "/proc/7036/root (readlink：權限不足)"
+
+#~ msgid "/proc/7087/root (readlink: Permission denied)"
+#~ msgstr "/proc/7087/root (readlink：權限不足)"
+
+#~ msgid "/proc/7088/root (readlink: Permission denied)"
+#~ msgstr "/proc/7088/root (readlink：權限不足)"
+
+#~ msgid "/proc/7118/root (readlink: Permission denied)"
+#~ msgstr "/proc/7118/root (readlink：權限不足)"
+
+#~ msgid "/proc/7119/root (readlink: Permission denied)"
+#~ msgstr "/proc/7119/root (readlink：權限不足)"
+
+#~ msgid "/proc/7122/root (readlink: Permission denied)"
+#~ msgstr "/proc/7122/root (readlink：權限不足)"
+
+#~ msgid "/proc/7124/root (readlink: Permission denied)"
+#~ msgstr "/proc/7124/root (readlink：權限不足)"
+
+#~ msgid "/proc/7126/root (readlink: Permission denied)"
+#~ msgstr "/proc/7126/root (readlink：權限不足)"
+
+#~ msgid "/proc/7131/root (readlink: Permission denied)"
+#~ msgstr "/proc/7131/root (readlink：權限不足)"
+
+#~ msgid "/proc/7133/root (readlink: Permission denied)"
+#~ msgstr "/proc/7133/root (readlink：權限不足)"
+
+#~ msgid "/proc/7134/root (readlink: Permission denied)"
+#~ msgstr "/proc/7134/root (readlink：權限不足)"
+
+#~ msgid "/proc/7136/root (readlink: Permission denied)"
+#~ msgstr "/proc/7136/root (readlink：權限不足)"
+
+#~ msgid "/proc/7138/root (readlink: Permission denied)"
+#~ msgstr "/proc/7138/root (readlink：權限不足)"
+
+#~ msgid "/proc/7141/root (readlink: Permission denied)"
+#~ msgstr "/proc/7141/root (readlink：權限不足)"
+
+#~ msgid "/proc/7143/root (readlink: Permission denied)"
+#~ msgstr "/proc/7143/root (readlink：權限不足)"
+
+#~ msgid "/proc/7150/root (readlink: Permission denied)"
+#~ msgstr "/proc/7150/root (readlink：權限不足)"
+
+#~ msgid "/proc/7189/root (readlink: Permission denied)"
+#~ msgstr "/proc/7189/root (readlink：權限不足)"
+
+#~ msgid "/proc/7191/root (readlink: Permission denied)"
+#~ msgstr "/proc/7191/root (readlink：權限不足)"
+
+#~ msgid "/proc/7192/root (readlink: Permission denied)"
+#~ msgstr "/proc/7192/root (readlink：權限不足)"
+
+#~ msgid "/proc/7193/root (readlink: Permission denied)"
+#~ msgstr "/proc/7193/root (readlink：權限不足)"
+
+#~ msgid "/proc/7194/root (readlink: Permission denied)"
+#~ msgstr "/proc/7194/root (readlink：權限不足)"
+
+#~ msgid "/proc/7196/root (readlink: Permission denied)"
+#~ msgstr "/proc/7196/root (readlink：權限不足)"
+
+#~ msgid "/proc/7198/root (readlink: Permission denied)"
+#~ msgstr "/proc/7198/root (readlink：權限不足)"
+
+#~ msgid "/proc/7199/root (readlink: Permission denied)"
+#~ msgstr "/proc/7199/root (readlink：權限不足)"
+
+#~ msgid "/proc/7200/root (readlink: Permission denied)"
+#~ msgstr "/proc/7200/root (readlink：權限不足)"
+
+#~ msgid "/proc/7206/root (readlink: Permission denied)"
+#~ msgstr "/proc/7206/root (readlink：權限不足)"
+
+#~ msgid "/proc/7213/root (readlink: Permission denied)"
+#~ msgstr "/proc/7213/root (readlink：權限不足)"
+
+#~ msgid "/proc/7216/root (readlink: Permission denied)"
+#~ msgstr "/proc/7216/root (readlink：權限不足)"
+
+#~ msgid "/proc/7217/root (readlink: Permission denied)"
+#~ msgstr "/proc/7217/root (readlink：權限不足)"
+
+#~ msgid "/proc/7219/root (readlink: Permission denied)"
+#~ msgstr "/proc/7219/root (readlink：權限不足)"
+
+#~ msgid "/proc/7220/root (readlink: Permission denied)"
+#~ msgstr "/proc/7220/root (readlink：權限不足)"
+
+#~ msgid "/proc/7244/root (readlink: Permission denied)"
+#~ msgstr "/proc/7244/root (readlink：權限不足)"
+
+#~ msgid "/proc/7272/root (readlink: Permission denied)"
+#~ msgstr "/proc/7272/root (readlink：權限不足)"
+
+#~ msgid "/proc/7273/root (readlink: Permission denied)"
+#~ msgstr "/proc/7273/root (readlink：權限不足)"
+
+#~ msgid "/proc/7274/root (readlink: Permission denied)"
+#~ msgstr "/proc/7274/root (readlink：權限不足)"
+
+#~ msgid "/proc/7275/root (readlink: Permission denied)"
+#~ msgstr "/proc/7275/root (readlink：權限不足)"
+
+#~ msgid "/proc/7363/root (readlink: Permission denied)"
+#~ msgstr "/proc/7363/root (readlink：權限不足)"
+
+#~ msgid "/proc/7366/root (readlink: Permission denied)"
+#~ msgstr "/proc/7366/root (readlink：權限不足)"
+
+#~ msgid "/proc/7381/root (readlink: Permission denied)"
+#~ msgstr "/proc/7381/root (readlink：權限不足)"
+
+#~ msgid "/proc/7477/root (readlink: Permission denied)"
+#~ msgstr "/proc/7477/root (readlink：權限不足)"
+
+#~ msgid "DIR"
+#~ msgstr "DIR"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/proc/7505/root (readlink: Permission denied)"
+#~ msgstr "/proc/7505/root (readlink：權限不足)"
+
+#~ msgid "/proc/7506/root (readlink: Permission denied)"
+#~ msgstr "/proc/7506/root (readlink：權限不足)"
+
+#~ msgid "/proc/7535/root (readlink: Permission denied)"
+#~ msgstr "/proc/7535/root (readlink：權限不足)"
+
+#~ msgid "/proc/9991/root (readlink: Permission denied)"
+#~ msgstr "/proc/9991/root (readlink：權限不足)"
+
+#~ msgid "/proc/9992/root (readlink: Permission denied)"
+#~ msgstr "/proc/9992/root (readlink：權限不足)"
+
+#~ msgid "/proc/10060/root (readlink: Permission denied)"
+#~ msgstr "/proc/10060/root (readlink：權限不足)"
+
+#~ msgid "/proc/10065/root (readlink: Permission denied)"
+#~ msgstr "/proc/10065/root (readlink：權限不足)"
+
+#~ msgid "/proc/10076/root (readlink: Permission denied)"
+#~ msgstr "/proc/10076/root (readlink：權限不足)"
+
+#~ msgid "/proc/10205/root (readlink: Permission denied)"
+#~ msgstr "/proc/10205/root (readlink：權限不足)"
+
+#~ msgid "/proc/11880/root (readlink: Permission denied)"
+#~ msgstr "/proc/11880/root (readlink：權限不足)"
+
+#~ msgid "/proc/14096/root (readlink: Permission denied)"
+#~ msgstr "/proc/14096/root (readlink：權限不足)"
+
+#~ msgid "mem"
+#~ msgstr "mem"
+
+#~ msgid "/lib/libnss_files-2.7.so"
+#~ msgstr "/lib/libnss_files-2.7.so"
+
+#~ msgid "/lib/libnss_nis-2.7.so"
+#~ msgstr "/lib/libnss_nis-2.7.so"
+
+#~ msgid "/lib/libnsl-2.7.so"
+#~ msgstr "/lib/libnsl-2.7.so"
+
+#~ msgid "/lib/libnss_compat-2.7.so"
+#~ msgstr "/lib/libnss_compat-2.7.so"
+
+#~ msgid "/lib/libc-2.7.so"
+#~ msgstr "/lib/libc-2.7.so"
+
+#~ msgid "/lib/libdl-2.7.so"
+#~ msgstr "/lib/libdl-2.7.so"
+
+#~ msgid "/lib/libncurses.so.5.6"
+#~ msgstr "/lib/libncurses.so.5.6"
+
+#~ msgid "/lib/ld-2.7.so"
+#~ msgstr "/lib/ld-2.7.so"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_CTYPE"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_CTYPE"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_COLLATE"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_COLLATE"
+
+#~ msgid "/usr/share/locale-langpack/en_GB/LC_MESSAGES/libc.mo"
+#~ msgstr "/usr/share/locale-langpack/en_GB/LC_MESSAGES/libc.mo"
+
+#~ msgid "/usr/share/locale-langpack/en_GB/LC_MESSAGES/bash.mo"
+#~ msgstr "/usr/share/locale-langpack/en_GB/LC_MESSAGES/bash.mo"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_NUMERIC"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_NUMERIC"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_TIME"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_TIME"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_MONETARY"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_MONETARY"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_MESSAGES/SYS_LC_MESSAGES"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_MESSAGES/SYS_LC_MESSAGES"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_PAPER"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_PAPER"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_NAME"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_NAME"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_ADDRESS"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_ADDRESS"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_TELEPHONE"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_TELEPHONE"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_MEASUREMENT"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_MEASUREMENT"
+
+#~ msgid "/usr/lib/gconv/gconv-modules.cache"
+#~ msgstr "/usr/lib/gconv/gconv-modules.cache"
+
+#~ msgid "/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION"
+#~ msgstr "/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION"
+
+#~ msgid "/lib/libpthread-2.7.so"
+#~ msgstr "/lib/libpthread-2.7.so"
+
+#~ msgid "/lib/libselinux.so.1"
+#~ msgstr "/lib/libselinux.so.1"
+
+#~ msgid "/usr/lib/libexpat.so.1.5.2"
+#~ msgstr "/usr/lib/libexpat.so.1.5.2"
+
+#~ msgid "/lib/libgpg-error.so.0.3.0"
+#~ msgstr "/lib/libgpg-error.so.0.3.0"
+
+#~ msgid "/lib/libgcrypt.so.11.2.3"
+#~ msgstr "/lib/libgcrypt.so.11.2.3"
+
+#~ msgid "/usr/lib/libtasn1.so.3.0.12"
+#~ msgstr "/usr/lib/libtasn1.so.3.0.12"
+
+#~ msgid "/lib/libkeyutils-1.2.so"
+#~ msgstr "/lib/libkeyutils-1.2.so"
+
+#~ msgid "/usr/lib/libkrb5support.so.0.1"
+#~ msgstr "/usr/lib/libkrb5support.so.0.1"
+
+#~ msgid "/lib/libcrypt-2.7.so"
+#~ msgstr "/lib/libcrypt-2.7.so"
+
+#~ msgid "/usr/lib/libgnutls.so.13.9.1"
+#~ msgstr "/usr/lib/libgnutls.so.13.9.1"
+
+#~ msgid "/lib/libcom_err.so.2.1"
+#~ msgstr "/lib/libcom_err.so.2.1"
+
+#~ msgid "/usr/lib/libk5crypto.so.3.1"
+#~ msgstr "/usr/lib/libk5crypto.so.3.1"
+
+#~ msgid "/usr/lib/libkrb5.so.3.3"
+#~ msgstr "/usr/lib/libkrb5.so.3.3"
+
+#~ msgid "/usr/lib/libgssapi_krb5.so.2.2"
+#~ msgstr "/usr/lib/libgssapi_krb5.so.2.2"
+
+#~ msgid "/usr/lib/libcups.so.2"
+#~ msgstr "/usr/lib/libcups.so.2"
+
+#~ msgid "/var/tmp/kdedev-kde4/kdecache-kdedev/ksycoca4"
+#~ msgstr "/var/tmp/kdedev-kde4/kdecache-kdedev/ksycoca4"
+
+#~ msgid "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf"
+#~ msgstr "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf"
+
+#~ msgid "/var/tmp/kdedev-kde4/kdecache-kdedev/kpc/kde-icon-cache.data"
+#~ msgstr "/var/tmp/kdedev-kde4/kdecache-kdedev/kpc/kde-icon-cache.data"
+
+#~ msgid "/var/tmp/kdedev-kde4/kdecache-kdedev/kpc/kde-icon-cache.index"
+#~ msgstr "/var/tmp/kdedev-kde4/kdecache-kdedev/kpc/kde-icon-cache.index"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/styles/oxygen.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/styles/oxygen.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqtwcodecs.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqtwcodecs.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqkrcodecs.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqkrcodecs.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqjpcodecs.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqjpcodecs.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqcncodecs.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/codecs/libqcncodecs.so"
+
+#~ msgid "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf"
+#~ msgstr "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf"
+
+#~ msgid ""
+#~ "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_xview.so"
+#~ msgstr ""
+#~ "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_xview.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_xcf.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_xcf.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_tga.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_tga.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_rgb.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_rgb.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_psd.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_psd.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_pcx.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_pcx.so"
+
+#~ msgid "/usr/lib/libjasper.so.1.0.0"
+#~ msgstr "/usr/lib/libjasper.so.1.0.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_jp2.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_jp2.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_ico.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_ico.so"
+
+#~ msgid "/usr/lib/libHalf.so.2.0.2"
+#~ msgstr "/usr/lib/libHalf.so.2.0.2"
+
+#~ msgid "/usr/lib/libIex.so.2.0.2"
+#~ msgstr "/usr/lib/libIex.so.2.0.2"
+
+#~ msgid "/usr/lib/libIlmImf.so.2.0.2"
+#~ msgstr "/usr/lib/libIlmImf.so.2.0.2"
+
+#~ msgid "/usr/lib/libImath.so.2.0.2"
+#~ msgstr "/usr/lib/libImath.so.2.0.2"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_exr.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_exr.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_eps.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_eps.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_dds.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/imageformats/kimg_dds.so"
+
+#~ msgid "/usr/lib/libtiff.so.4.2.1"
+#~ msgstr "/usr/lib/libtiff.so.4.2.1"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqtiff.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqtiff.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqsvg.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqsvg.so"
+
+#~ msgid "/usr/lib/liblcms.so.1.0.16"
+#~ msgstr "/usr/lib/liblcms.so.1.0.16"
+
+#~ msgid "/usr/lib/libmng.so.1.1.0.9"
+#~ msgstr "/usr/lib/libmng.so.1.1.0.9"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqmng.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqmng.so"
+
+#~ msgid "/usr/lib/libjpeg.so.62.0.0"
+#~ msgstr "/usr/lib/libjpeg.so.62.0.0"
+
+#~ msgid "/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf"
+#~ msgstr "/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqjpeg.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqjpeg.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqico.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqico.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqgif.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/imageformats/libqgif.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libprocesscore.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libprocesscore.so.4.1.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libprocessui.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libprocessui.so.4.1.0"
+
+#~ msgid ""
+#~ "/home/kdedev/kde-unstable/lib/kde4/plugins/designer/ksysguardwidgets.so"
+#~ msgstr ""
+#~ "/home/kdedev/kde-unstable/lib/kde4/plugins/designer/ksysguardwidgets.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/liblsofui.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/liblsofui.so.4.1.0"
+
+#~ msgid ""
+#~ "/home/kdedev/kde-unstable/lib/kde4/plugins/designer/ksysguardlsofwidgets."
+#~ "so"
+#~ msgstr ""
+#~ "/home/kdedev/kde-unstable/lib/kde4/plugins/designer/ksysguardlsofwidgets."
+#~ "so"
+
+#~ msgid "/usr/lib/libdbus-1.so.2.0.0"
+#~ msgstr "/usr/lib/libdbus-1.so.2.0.0"
+
+#~ msgid "/usr/lib/libxml2.so.2.6.31"
+#~ msgstr "/usr/lib/libxml2.so.2.6.31"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtDBus.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtDBus.so.4.4.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libsolid.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libsolid.so.4.1.0"
+
+#~ msgid "/lib/libresolv-2.7.so"
+#~ msgstr "/lib/libresolv-2.7.so"
+
+#~ msgid "/lib/libbz2.so.1.0.4"
+#~ msgstr "/lib/libbz2.so.1.0.4"
+
+#~ msgid "/lib/libattr.so.1.1.0"
+#~ msgstr "/lib/libattr.so.1.1.0"
+
+#~ msgid "/lib/libacl.so.1.1.0"
+#~ msgstr "/lib/libacl.so.1.1.0"
+
+#~ msgid "/usr/lib/libfam.so.0.0.0"
+#~ msgstr "/usr/lib/libfam.so.0.0.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libstreams.so.0.5.8"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libstreams.so.0.5.8"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libstreamanalyzer.so.0.5.8"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libstreamanalyzer.so.0.5.8"
+
+#~ msgid "/usr/lib/libXtst.so.6.1.0"
+#~ msgstr "/usr/lib/libXtst.so.6.1.0"
+
+#~ msgid "/usr/lib/libXpm.so.4.11.0"
+#~ msgstr "/usr/lib/libXpm.so.4.11.0"
+
+#~ msgid "/usr/lib/libXft.so.2.1.2"
+#~ msgstr "/usr/lib/libXft.so.2.1.2"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtSvg.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtSvg.so.4.4.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libkfile.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libkfile.so.4.1.0"
+
+#~ msgid "/lib/libutil-2.7.so"
+#~ msgstr "/lib/libutil-2.7.so"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libkpty.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libkpty.so.4.1.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libkparts.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libkparts.so.4.1.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libkde3support.so.4.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libkde3support.so.4.1.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libkio.so.5.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libkio.so.5.1.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libkdeui.so.5.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libkdeui.so.5.1.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/libkdecore.so.5.1.0"
+#~ msgstr "/home/kdedev/kde-unstable/lib/libkdecore.so.5.1.0"
+
+#~ msgid "/home/kdedev/kde-unstable/lib/kde4/plugins/designer/kdewidgets.so"
+#~ msgstr "/home/kdedev/kde-unstable/lib/kde4/plugins/designer/kdewidgets.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtWebKit.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtWebKit.so.4.4.0"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/plugins/designer/libqwebview.so"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/plugins/designer/libqwebview.so"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtSql.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtSql.so.4.4.0"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQt3Support.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQt3Support.so.4.4.0"
+
+#~ msgid ""
+#~ "/home/kdedev/src/kde/build/qt-copy/plugins/designer/libqt3supportwidgets."
+#~ "so"
+#~ msgstr ""
+#~ "/home/kdedev/src/kde/build/qt-copy/plugins/designer/libqt3supportwidgets."
+#~ "so"
+
+#~ msgid "/usr/lib/libXinerama.so.1.0.0"
+#~ msgstr "/usr/lib/libXinerama.so.1.0.0"
+
+#~ msgid "/usr/lib/libXcursor.so.1.0.2"
+#~ msgstr "/usr/lib/libXcursor.so.1.0.2"
+
+#~ msgid "/usr/lib/libXfixes.so.3.1.0"
+#~ msgstr "/usr/lib/libXfixes.so.3.1.0"
+
+#~ msgid "/usr/share/fonts/type1/gsfonts/n019004l.pfb"
+#~ msgstr "/usr/share/fonts/type1/gsfonts/n019004l.pfb"
+
+#~ msgid "/usr/share/fonts/type1/gsfonts/n019003l.pfb"
+#~ msgstr "/usr/share/fonts/type1/gsfonts/n019003l.pfb"
+
+#~ msgid "/usr/lib/gconv/UTF-16.so"
+#~ msgstr "/usr/lib/gconv/UTF-16.so"
+
+#~ msgid "/usr/lib/libXdmcp.so.6.0.0"
+#~ msgstr "/usr/lib/libXdmcp.so.6.0.0"
+
+#~ msgid "/usr/lib/libpcre.so.3.12.1"
+#~ msgstr "/usr/lib/libpcre.so.3.12.1"
+
+#~ msgid "/usr/lib/libxcb.so.1.0.0"
+#~ msgstr "/usr/lib/libxcb.so.1.0.0"
+
+#~ msgid "/usr/lib/libxcb-xlib.so.0.0.0"
+#~ msgstr "/usr/lib/libxcb-xlib.so.0.0.0"
+
+#~ msgid "/usr/lib/libXau.so.6.0.0"
+#~ msgstr "/usr/lib/libXau.so.6.0.0"
+
+#~ msgid "/lib/libgcc_s.so.1"
+#~ msgstr "/lib/libgcc_s.so.1"
+
+#~ msgid "/lib/libm-2.7.so"
+#~ msgstr "/lib/libm-2.7.so"
+
+#~ msgid "/usr/lib/libstdc++.so.6.0.9"
+#~ msgstr "/usr/lib/libstdc++.so.6.0.9"
+
+#~ msgid "/usr/lib/libglib-2.0.so.0.1600.1"
+#~ msgstr "/usr/lib/libglib-2.0.so.0.1600.1"
+
+#~ msgid "/lib/librt-2.7.so"
+#~ msgstr "/lib/librt-2.7.so"
+
+#~ msgid "/usr/lib/libgthread-2.0.so.0.1600.1"
+#~ msgstr "/usr/lib/libgthread-2.0.so.0.1600.1"
+
+#~ msgid "/usr/lib/libz.so.1.2.3.3"
+#~ msgstr "/usr/lib/libz.so.1.2.3.3"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtCore.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtCore.so.4.4.0"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtNetwork.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtNetwork.so.4.4.0"
+
+#~ msgid "/usr/lib/libX11.so.6.2.0"
+#~ msgstr "/usr/lib/libX11.so.6.2.0"
+
+#~ msgid "/usr/lib/libXext.so.6.4.0"
+#~ msgstr "/usr/lib/libXext.so.6.4.0"
+
+#~ msgid "/usr/lib/libfontconfig.so.1.3.0"
+#~ msgstr "/usr/lib/libfontconfig.so.1.3.0"
+
+#~ msgid "/usr/lib/libfreetype.so.6.3.16"
+#~ msgstr "/usr/lib/libfreetype.so.6.3.16"
+
+#~ msgid "/usr/lib/libXrandr.so.2.1.0"
+#~ msgstr "/usr/lib/libXrandr.so.2.1.0"
+
+#~ msgid "/usr/lib/libXrender.so.1.3.0"
+#~ msgstr "/usr/lib/libXrender.so.1.3.0"
+
+#~ msgid "/usr/lib/libXi.so.6.0.0"
+#~ msgstr "/usr/lib/libXi.so.6.0.0"
+
+#~ msgid "/usr/lib/libICE.so.6.3.0"
+#~ msgstr "/usr/lib/libICE.so.6.3.0"
+
+#~ msgid "/usr/lib/libSM.so.6.0.0"
+#~ msgstr "/usr/lib/libSM.so.6.0.0"
+
+#~ msgid "/usr/lib/libpng12.so.0.15.0"
+#~ msgstr "/usr/lib/libpng12.so.0.15.0"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtGui.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtGui.so.4.4.0"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtXml.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtXml.so.4.4.0"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtScript.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtScript.so.4.4.0"
+
+#~ msgid "/home/kdedev/src/kde/build/qt-copy/lib/libQtDesigner.so.4.4.0"
+#~ msgstr "/home/kdedev/src/kde/build/qt-copy/lib/libQtDesigner.so.4.4.0"
+
+#~ msgid ""
+#~ "/home/kdedev/src/kde/build/qt-copy/lib/libQtDesignerComponents.so.4.4.0"
+#~ msgstr ""
+#~ "/home/kdedev/src/kde/build/qt-copy/lib/libQtDesignerComponents.so.4.4.0"
+
+#~ msgid "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf"
+#~ msgstr "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/e383d7ea5fbe662a33d9b44caf393297-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/e383d7ea5fbe662a33d9b44caf393297-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/fd9505950c048a77dc4b710eb6a628ed-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/fd9505950c048a77dc4b710eb6a628ed-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/ddc79d3ea06a7c6ffa86ede85f3bb5df-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/ddc79d3ea06a7c6ffa86ede85f3bb5df-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/e7071f4a29fa870f4323321c154eba04-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/e7071f4a29fa870f4323321c154eba04-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/a2ab74764b07279e7c36ddb1d302cf26-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/a2ab74764b07279e7c36ddb1d302cf26-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/921a30a17f0be15c70ac14043cb7a739-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/921a30a17f0be15c70ac14043cb7a739-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/c69f04ab05004e31a6d5e715764f16d8-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/c69f04ab05004e31a6d5e715764f16d8-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/4c73fe0c47614734b17d736dbde7580a-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/4c73fe0c47614734b17d736dbde7580a-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/646addb8444faa74ee138aa00ab0b6a0-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/646addb8444faa74ee138aa00ab0b6a0-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/a755afe4a08bf5b97852ceb7400b47bc-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/a755afe4a08bf5b97852ceb7400b47bc-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/20bd79ad97094406f7d1b9654bfbd926-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/20bd79ad97094406f7d1b9654bfbd926-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/9c0624108b9a2ae8552f664125be8356-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/9c0624108b9a2ae8552f664125be8356-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/6d41288fd70b0be22e8c3a91e032eec0-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/6d41288fd70b0be22e8c3a91e032eec0-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/de156ccd2eddbdc19d37a45b8b2aac9c-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/de156ccd2eddbdc19d37a45b8b2aac9c-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/da1bd5ca8443ffe22927a23ce431d198-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/da1bd5ca8443ffe22927a23ce431d198-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/e3de0de479f42330eadf588a55fb5bf4-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/e3de0de479f42330eadf588a55fb5bf4-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/0f34bcd4b6ee430af32735b75db7f02b-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/0f34bcd4b6ee430af32735b75db7f02b-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/9451a55048e8dbe8633e64d34165fdf2-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/9451a55048e8dbe8633e64d34165fdf2-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/365b55f210c0a22e9a19e35191240f32-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/365b55f210c0a22e9a19e35191240f32-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/2c5ba8142dffc8bf0377700342b8ca1a-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/2c5ba8142dffc8bf0377700342b8ca1a-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/de9486f0b47a4d768a594cb4198cb1c6-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/de9486f0b47a4d768a594cb4198cb1c6-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/d52a8644073d54c13679302ca1180695-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/d52a8644073d54c13679302ca1180695-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/105b9c7e6f0a4f82d8c9b6e39c52c6f9-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/105b9c7e6f0a4f82d8c9b6e39c52c6f9-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/6386b86020ecc1ef9690bb720a13964f-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/6386b86020ecc1ef9690bb720a13964f-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/089dead882dea3570ffc31a9898cfb69-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/089dead882dea3570ffc31a9898cfb69-x86-64.cache-2"
+
+#~ msgid ""
+#~ "/var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-x86-64.cache-2"
+#~ msgstr ""
+#~ "/var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-x86-64.cache-2"
+
+#~ msgid "cwd"
+#~ msgstr "cwd"
+
+#~ msgid "/proc/1/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/1/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/2/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/2/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/3/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/3/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/8/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/8/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/9/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/9/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/10/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/10/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/11/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/11/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/46/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/46/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/47/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/47/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/50/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/50/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/51/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/51/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/141/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/141/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/188/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/188/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/189/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/189/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/190/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/190/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/234/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/234/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/235/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/235/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/1297/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/1297/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/1660/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/1660/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/1661/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/1661/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/1716/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/1716/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/1720/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/1720/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/1723/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/1723/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/2469/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/2469/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/2472/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/2472/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/2494/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/2494/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/2495/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/2495/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/2802/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/2802/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/3032/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/3032/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/3562/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/3562/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/3655/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/3655/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4365/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4365/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4736/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4736/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4737/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4737/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4746/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4746/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4876/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4876/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4896/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4896/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4905/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4905/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4906/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4906/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/4925/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/4925/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5177/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5177/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5178/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5178/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5180/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5180/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5181/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5181/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5182/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5182/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5183/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5183/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5371/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5371/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5408/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5408/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5409/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5409/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5492/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5492/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5554/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5554/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5557/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5557/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5581/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5581/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5598/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5598/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5612/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5612/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5632/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5632/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5635/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5635/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5636/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5636/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5722/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5722/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5724/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5724/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5725/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5725/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5747/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5747/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5780/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5780/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5823/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5823/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5824/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5824/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5898/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5898/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5938/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5938/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5956/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5956/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/5989/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/5989/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6036/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6036/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6078/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6078/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6080/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6080/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6212/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6212/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6213/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6213/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6214/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6214/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6215/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6215/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6216/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6216/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6217/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6217/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6218/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6218/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6219/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6219/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6220/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6220/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6221/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6221/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6225/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6225/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6300/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6300/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6334/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6334/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6336/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6336/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6364/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6364/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6422/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6422/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6497/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6497/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6501/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6501/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6527/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6527/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6570/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6570/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6606/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6606/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6623/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6623/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6629/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6629/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6630/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6630/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6644/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6644/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6645/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6645/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6649/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6649/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6664/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6664/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6693/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6693/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6694/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6694/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6698/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6698/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6701/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6701/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6734/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6734/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6748/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6748/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6771/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6771/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6815/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6815/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6862/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6862/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6914/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6914/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6947/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6947/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/6952/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/6952/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7010/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7010/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7036/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7036/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7087/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7087/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7088/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7088/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7118/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7118/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7119/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7119/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7122/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7122/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7124/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7124/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7126/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7126/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7131/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7131/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7133/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7133/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7134/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7134/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7136/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7136/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7138/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7138/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7141/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7141/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7143/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7143/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7150/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7150/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7189/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7189/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7191/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7191/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7192/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7192/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7193/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7193/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7194/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7194/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7196/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7196/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7198/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7198/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7199/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7199/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7200/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7200/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7206/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7206/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7213/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7213/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7216/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7216/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7217/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7217/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7219/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7219/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7220/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7220/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7244/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7244/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7272/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7272/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7273/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7273/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7274/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7274/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7275/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7275/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7363/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7363/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7366/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7366/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7381/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7381/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7477/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7477/cwd (readlink：權限不足)"
+
+#~ msgid "/home/kdedev/src/kde/kdebase/workspace/libs/ksysguard/lsofui"
+#~ msgstr "/home/kdedev/src/kde/kdebase/workspace/libs/ksysguard/lsofui"
+
+#~ msgid "/proc/7505/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7505/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/7506/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7506/cwd (readlink：權限不足)"
+
+#~ msgid "/home/kdedev"
+#~ msgstr "/home/kdedev"
+
+#~ msgid "/proc/7535/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/7535/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/9991/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/9991/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/9992/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/9992/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/10060/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/10060/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/10065/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/10065/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/10076/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/10076/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/10205/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/10205/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/11880/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/11880/cwd (readlink：權限不足)"
+
+#~ msgid "/proc/14096/cwd (readlink: Permission denied)"
+#~ msgstr "/proc/14096/cwd (readlink：權限不足)"
+
+#~ msgid "NOFD"
+#~ msgstr "NOFD"
+
+#~ msgid "/proc/1/fd (opendir: Permission denied)"
+#~ msgstr "/proc/1/fd (opendir：權限不足)"
+
+#~ msgid "/proc/2/fd (opendir: Permission denied)"
+#~ msgstr "/proc/2/fd (opendir：權限不足)"
+
+#~ msgid "/proc/3/fd (opendir: Permission denied)"
+#~ msgstr "/proc/3/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7/fd (opendir：權限不足)"
+
+#~ msgid "/proc/8/fd (opendir: Permission denied)"
+#~ msgstr "/proc/8/fd (opendir：權限不足)"
+
+#~ msgid "/proc/9/fd (opendir: Permission denied)"
+#~ msgstr "/proc/9/fd (opendir：權限不足)"
+
+#~ msgid "/proc/10/fd (opendir: Permission denied)"
+#~ msgstr "/proc/10/fd (opendir：權限不足)"
+
+#~ msgid "/proc/11/fd (opendir: Permission denied)"
+#~ msgstr "/proc/11/fd (opendir：權限不足)"
+
+#~ msgid "/proc/46/fd (opendir: Permission denied)"
+#~ msgstr "/proc/46/fd (opendir：權限不足)"
+
+#~ msgid "/proc/47/fd (opendir: Permission denied)"
+#~ msgstr "/proc/47/fd (opendir：權限不足)"
+
+#~ msgid "/proc/50/fd (opendir: Permission denied)"
+#~ msgstr "/proc/50/fd (opendir：權限不足)"
+
+#~ msgid "/proc/51/fd (opendir: Permission denied)"
+#~ msgstr "/proc/51/fd (opendir：權限不足)"
+
+#~ msgid "/proc/141/fd (opendir: Permission denied)"
+#~ msgstr "/proc/141/fd (opendir：權限不足)"
+
+#~ msgid "/proc/188/fd (opendir: Permission denied)"
+#~ msgstr "/proc/188/fd (opendir：權限不足)"
+
+#~ msgid "/proc/189/fd (opendir: Permission denied)"
+#~ msgstr "/proc/189/fd (opendir：權限不足)"
+
+#~ msgid "/proc/190/fd (opendir: Permission denied)"
+#~ msgstr "/proc/190/fd (opendir：權限不足)"
+
+#~ msgid "/proc/234/fd (opendir: Permission denied)"
+#~ msgstr "/proc/234/fd (opendir：權限不足)"
+
+#~ msgid "/proc/235/fd (opendir: Permission denied)"
+#~ msgstr "/proc/235/fd (opendir：權限不足)"
+
+#~ msgid "/proc/1297/fd (opendir: Permission denied)"
+#~ msgstr "/proc/1297/fd (opendir：權限不足)"
+
+#~ msgid "/proc/1660/fd (opendir: Permission denied)"
+#~ msgstr "/proc/1660/fd (opendir：權限不足)"
+
+#~ msgid "/proc/1661/fd (opendir: Permission denied)"
+#~ msgstr "/proc/1661/fd (opendir：權限不足)"
+
+#~ msgid "/proc/1716/fd (opendir: Permission denied)"
+#~ msgstr "/proc/1716/fd (opendir：權限不足)"
+
+#~ msgid "/proc/1720/fd (opendir: Permission denied)"
+#~ msgstr "/proc/1720/fd (opendir：權限不足)"
+
+#~ msgid "/proc/1723/fd (opendir: Permission denied)"
+#~ msgstr "/proc/1723/fd (opendir：權限不足)"
+
+#~ msgid "/proc/2469/fd (opendir: Permission denied)"
+#~ msgstr "/proc/2469/fd (opendir：權限不足)"
+
+#~ msgid "/proc/2472/fd (opendir: Permission denied)"
+#~ msgstr "/proc/2472/fd (opendir：權限不足)"
+
+#~ msgid "/proc/2494/fd (opendir: Permission denied)"
+#~ msgstr "/proc/2494/fd (opendir：權限不足)"
+
+#~ msgid "/proc/2495/fd (opendir: Permission denied)"
+#~ msgstr "/proc/2495/fd (opendir：權限不足)"
+
+#~ msgid "/proc/2802/fd (opendir: Permission denied)"
+#~ msgstr "/proc/2802/fd (opendir：權限不足)"
+
+#~ msgid "/proc/3032/fd (opendir: Permission denied)"
+#~ msgstr "/proc/3032/fd (opendir：權限不足)"
+
+#~ msgid "/proc/3562/fd (opendir: Permission denied)"
+#~ msgstr "/proc/3562/fd (opendir：權限不足)"
+
+#~ msgid "/proc/3655/fd (opendir: Permission denied)"
+#~ msgstr "/proc/3655/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4365/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4365/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4736/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4736/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4737/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4737/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4746/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4746/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4876/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4876/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4896/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4896/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4905/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4905/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4906/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4906/fd (opendir：權限不足)"
+
+#~ msgid "/proc/4925/fd (opendir: Permission denied)"
+#~ msgstr "/proc/4925/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5177/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5177/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5178/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5178/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5180/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5180/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5181/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5181/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5182/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5182/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5183/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5183/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5371/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5371/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5408/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5408/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5409/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5409/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5492/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5492/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5554/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5554/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5557/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5557/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5581/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5581/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5598/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5598/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5612/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5612/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5632/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5632/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5635/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5635/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5636/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5636/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5722/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5722/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5724/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5724/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5725/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5725/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5747/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5747/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5780/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5780/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5823/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5823/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5824/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5824/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5898/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5898/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5938/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5938/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5956/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5956/fd (opendir：權限不足)"
+
+#~ msgid "/proc/5989/fd (opendir: Permission denied)"
+#~ msgstr "/proc/5989/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6036/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6036/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6078/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6078/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6080/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6080/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6212/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6212/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6213/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6213/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6214/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6214/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6215/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6215/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6216/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6216/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6217/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6217/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6218/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6218/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6219/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6219/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6220/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6220/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6221/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6221/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6225/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6225/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6300/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6300/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6334/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6334/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6336/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6336/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6364/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6364/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6422/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6422/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6497/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6497/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6501/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6501/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6527/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6527/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6570/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6570/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6606/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6606/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6623/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6623/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6629/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6629/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6630/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6630/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6644/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6644/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6645/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6645/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6649/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6649/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6664/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6664/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6693/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6693/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6694/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6694/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6698/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6698/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6701/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6701/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6734/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6734/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6748/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6748/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6771/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6771/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6815/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6815/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6862/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6862/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6914/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6914/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6947/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6947/fd (opendir：權限不足)"
+
+#~ msgid "/proc/6952/fd (opendir: Permission denied)"
+#~ msgstr "/proc/6952/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7010/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7010/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7036/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7036/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7087/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7087/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7088/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7088/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7118/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7118/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7119/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7119/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7122/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7122/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7124/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7124/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7126/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7126/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7131/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7131/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7133/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7133/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7134/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7134/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7136/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7136/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7138/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7138/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7141/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7141/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7143/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7143/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7150/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7150/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7189/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7189/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7191/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7191/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7192/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7192/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7193/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7193/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7194/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7194/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7196/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7196/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7198/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7198/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7199/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7199/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7200/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7200/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7206/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7206/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7213/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7213/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7216/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7216/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7217/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7217/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7219/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7219/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7220/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7220/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7244/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7244/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7272/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7272/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7273/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7273/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7274/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7274/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7275/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7275/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7363/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7363/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7366/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7366/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7381/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7381/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7477/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7477/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7505/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7505/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7506/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7506/fd (opendir：權限不足)"
+
+#~ msgid "/proc/7535/fd (opendir: Permission denied)"
+#~ msgstr "/proc/7535/fd (opendir：權限不足)"
+
+#~ msgid "/proc/9991/fd (opendir: Permission denied)"
+#~ msgstr "/proc/9991/fd (opendir：權限不足)"
+
+#~ msgid "/proc/9992/fd (opendir: Permission denied)"
+#~ msgstr "/proc/9992/fd (opendir：權限不足)"
+
+#~ msgid "/proc/10060/fd (opendir: Permission denied)"
+#~ msgstr "/proc/10060/fd (opendir：權限不足)"
+
+#~ msgid "/proc/10065/fd (opendir: Permission denied)"
+#~ msgstr "/proc/10065/fd (opendir：權限不足)"
+
+#~ msgid "/proc/10076/fd (opendir: Permission denied)"
+#~ msgstr "/proc/10076/fd (opendir：權限不足)"
+
+#~ msgid "/proc/10205/fd (opendir: Permission denied)"
+#~ msgstr "/proc/10205/fd (opendir：權限不足)"
+
+#~ msgid "/proc/11880/fd (opendir: Permission denied)"
+#~ msgstr "/proc/11880/fd (opendir：權限不足)"
+
+#~ msgid "/proc/14096/fd (opendir: Permission denied)"
+#~ msgstr "/proc/14096/fd (opendir：權限不足)"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "unix"
+#~ msgstr "unix"
+
+#~ msgid "socket"
+#~ msgstr "socket"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "FIFO"
+#~ msgstr "FIFO"
+
+#~ msgid "pipe"
+#~ msgstr "pipe"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "CHR"
+#~ msgstr "CHR"
+
+#~ msgid "/dev/null"
+#~ msgstr "/dev/null"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "/inotify"
+#~ msgstr "/inotify"
+
+#~ msgid "/proc/15498/fd"
+#~ msgstr "/proc/15498/fd"
+
+#~ msgid "/proc"
+#~ msgstr "/proc"
+
+#~ msgid "255"
+#~ msgstr "255"
+
+#~ msgid "/dev/pts/2"
+#~ msgstr "/dev/pts/2"
+
+#~ msgid "/dev/pts/3"
+#~ msgstr "/dev/pts/3"
+
+#~ msgid "25"
+#~ msgstr "25"
+
+#~ msgid "23"
+#~ msgstr "23"
+
+#~ msgid "22"
+#~ msgstr "22"
+
+#~ msgid "20"
+#~ msgstr "20"
+
+#~ msgid "19"
+#~ msgstr "19"
+
+#~ msgid "17"
+#~ msgstr "17"
+
+#~ msgid "16"
+#~ msgstr "16"
+
+#~ msgid "/etc/passwd"
+#~ msgstr "/etc/passwd"
+
+#~ msgid "15"
+#~ msgstr "15"
+
+#~ msgid "14"
+#~ msgstr "14"
+
+#~ msgid "/dev/urandom"
+#~ msgstr "/dev/urandom"
+
+#~ msgid "13"
+#~ msgstr "13"
+
+#~ msgid "12"
+#~ msgstr "12"
+
+#~ msgid "11"
+#~ msgstr "11"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "0"
+#~ msgstr "0"

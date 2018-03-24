@@ -1,0 +1,228 @@
+# translation of plasma_applet_devicenotifier.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-02 03:34+0100\n"
+"PO-Revision-Date: 2016-11-03 19:17+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: package/contents/ui/configGeneral.qml:46
+#, kde-format
+msgid "Removable devices only"
+msgstr "只有可移除裝置"
+
+#: package/contents/ui/configGeneral.qml:51
+#, kde-format
+msgid "Non-removable devices only"
+msgstr "只有不可移除裝置"
+
+#: package/contents/ui/configGeneral.qml:56
+#, kde-format
+msgid "All devices"
+msgstr "所有裝置"
+
+#: package/contents/ui/configGeneral.qml:63
+#, kde-format
+msgid "Open popup when new device is plugged in"
+msgstr "當新裝置插入時開啟彈出式通知"
+
+#: package/contents/ui/DeviceItem.qml:167
+#, kde-format
+msgid ""
+"It is currently <b>not safe</b> to remove this device: applications may be "
+"accessing it. Click the eject button to safely remove this device."
+msgstr ""
+"目前無法<b>安全地</b>移除此裝置：可能還有應用程式正在使用它。點擊退出鍵可以安"
+"全地移除此裝置。"
+
+#: package/contents/ui/DeviceItem.qml:169
+#, kde-format
+msgid "This device is currently accessible."
+msgstr "此裝置目前可存取。"
+
+#: package/contents/ui/DeviceItem.qml:174
+#, kde-format
+msgid ""
+"It is currently <b>not safe</b> to remove this device: applications may be "
+"accessing other volumes on this device. Click the eject button on these "
+"other volumes to safely remove this device."
+msgstr ""
+"目前無法<b>安全地</b>移除此裝置：可能還有應用程式正在使用此裝置的某些部份。對"
+"該部份點擊退出鍵可以安全地移除此裝置。"
+
+#: package/contents/ui/DeviceItem.qml:176
+#, kde-format
+msgid "It is currently safe to remove this device."
+msgstr "目前可以安全地移除此裝置。"
+
+#: package/contents/ui/DeviceItem.qml:179
+#, kde-format
+msgid "This device is not currently accessible."
+msgstr "此裝置目前無法存取。"
+
+#: package/contents/ui/DeviceItem.qml:220
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "剩餘 %1"
+
+#: package/contents/ui/DeviceItem.qml:247
+#, kde-format
+msgid "1 action for this device"
+msgid_plural "%1 actions for this device"
+msgstr[0] "此裝置的 %1 個動作"
+
+#: package/contents/ui/DeviceItem.qml:252
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing..."
+msgstr "存取中..."
+
+#: package/contents/ui/DeviceItem.qml:254
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation shoud be short "
+"and mean 'Currently unmounting this device'"
+msgid "Removing..."
+msgstr "移除中..."
+
+#: package/contents/ui/devicenotifier.qml:60
+#: package/contents/ui/FullRepresentation.qml:44
+#, kde-format
+msgid "No Devices Available"
+msgstr "沒有可用裝置"
+
+#: package/contents/ui/devicenotifier.qml:60
+#, kde-format
+msgid "Most Recent Device"
+msgstr "上次插入的裝置"
+
+#: package/contents/ui/devicenotifier.qml:211
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices"
+msgstr "設定可移除裝置"
+
+#: package/contents/ui/FullRepresentation.qml:181
+#, kde-format
+msgid "Click to access this device from other applications."
+msgstr "點擊以從其它應用程式存取此裝置。"
+
+#: package/contents/ui/FullRepresentation.qml:183
+#, kde-format
+msgid "Click to eject this disc."
+msgstr "點擊以退出碟片。"
+
+#: package/contents/ui/FullRepresentation.qml:185
+#, kde-format
+msgid "Click to safely remove this device."
+msgstr "點擊以安全地移除此裝置。"
+
+#~ msgid "No devices available"
+#~ msgstr "沒有可用裝置"
+
+#~ msgid "Click to mount this device."
+#~ msgstr "點擊以掛載此裝置。"
+
+#~ msgid "Available Devices"
+#~ msgstr "所有可用的裝置"
+
+#~ msgid "This device is currently not accessible."
+#~ msgstr "此裝置目前無法存取。"
+
+#~ msgid "Display"
+#~ msgstr "顯示"
+
+#~ msgid "Automounting"
+#~ msgstr "自動掛載中"
+
+#~ msgid "Show hidden devices"
+#~ msgstr "顯示隱藏的裝置"
+
+#~ msgctxt "Hide a device"
+#~ msgid "Hide %1"
+#~ msgstr "隱藏 %1"
+
+#~ msgid "Mounting..."
+#~ msgstr "掛載中..."
+
+#, fuzzy
+#~| msgid "Device is plugged in and can be accessed by applications."
+#~ msgid ""
+#~ "Device is plugged in and the volume can be accessed by applications. It "
+#~ "is not safe to remove this device."
+#~ msgstr "裝置已插入，並且可以讓應用程式使用。"
+
+#, fuzzy
+#~| msgid "Device is plugged in, but not mounted for access yet."
+#~ msgid ""
+#~ "Device is plugged in and the volume is not mounted for access yet. The "
+#~ "device can be safely removed."
+#~ msgstr "裝置已插入，但尚未掛載。"
+
+#~ msgid ""
+#~ "Could not unmount device %1.\n"
+#~ "One or more files on this device are open within an application."
+#~ msgstr ""
+#~ "無法卸載裝置 %1。\n"
+#~ "可能此裝置上有一個以上的檔案被開啟，尚未關閉。"
+
+#~ msgid ""
+#~ "Cannot eject the disc.\n"
+#~ "One or more files on this disc are open within an application."
+#~ msgstr ""
+#~ "無法退出碟片。\n"
+#~ "可能此碟片上有一個以上的檔案被開啟，尚未關閉。"
+
+#~ msgid "Could not mount device %1."
+#~ msgstr "無法裝載裝置 %1。"
+
+#~ msgid "Cannot mount the disc."
+#~ msgstr "無法掛載此碟片。"
+
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "最近插入的裝置："
+
+#, fuzzy
+#~| msgid " sec"
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " 秒"
+
+#~ msgid "&Time to stay on top:"
+#~ msgstr "停留在頂端的時間(&T)："
+
+#~ msgid "&Number of items displayed:"
+#~ msgstr "顯示的項目數(&N)："
+
+#~ msgid "Unlimited"
+#~ msgstr "不限制"
+
+#~ msgid "&Display time of items:"
+#~ msgstr "顯示項目時間(&D)："
+
+#~ msgid "Configure New Device Notifier"
+#~ msgstr "設定新增裝置通知器"

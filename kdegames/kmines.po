@@ -1,0 +1,231 @@
+# translation of kmines.po to Chinese Traditional
+# kmine 1.33
+# Copyright (C) 2000, 2003, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>, 1998.
+# Hydonsingore Sie <hydonsingore@mail.educities.edu.tw>, 2003.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmines\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:14+0100\n"
+"PO-Revision-Date: 2010-09-16 17:02+0800\n"
+"Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Hydonsingore Sie"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "hydonsingore@mail.educities.edu.tw"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: customgame.ui:16
+#, kde-format
+msgid "Width:"
+msgstr "寬度:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: customgame.ui:26
+#, kde-format
+msgid "Height:"
+msgstr "高度:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: customgame.ui:36
+#, kde-format
+msgid "Mines:"
+msgstr "地雷："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseQuestionMarks)
+#: generalopts.ui:16
+#, kde-format
+msgid "Use '?' marks"
+msgstr "使用問號（不確定）標記"
+
+#. i18n: ectx: label, entry (UseQuestionMarks), group (General)
+#: kmines.kcfg:9
+#, kde-format
+msgid "Whether the \"unsure\" marker may be used."
+msgstr "是否可以使用「不確定」標記"
+
+#. i18n: ectx: label, entry (CustomWidth), group (Options)
+#: kmines.kcfg:15
+#, kde-format
+msgid "The width of the playing field."
+msgstr "遊戲區的寬度"
+
+#. i18n: ectx: label, entry (CustomHeight), group (Options)
+#: kmines.kcfg:21
+#, kde-format
+msgid "The height of the playing field."
+msgstr "遊戲區的高度"
+
+#. i18n: ectx: label, entry (CustomMines), group (Options)
+#: kmines.kcfg:27
+#, kde-format
+msgid "The number of mines in the playing field."
+msgstr "遊戲區內地雷的數目"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kminesui.rc:12
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: main.cpp:33
+#, kde-format
+msgid "KMines is a classic minesweeper game"
+msgstr "KMine 是典型的踩地雷遊戲。"
+
+#: main.cpp:49
+#, kde-format
+msgid "KMines"
+msgstr "KMines"
+
+#: main.cpp:52
+#, kde-format
+msgid "Nicolas Hadacek"
+msgstr "Nicolas Hadacek"
+
+#: main.cpp:53
+#, kde-format
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:54
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#: main.cpp:55
+#, kde-format
+msgid "Code refactoring and SVG support. Current maintainer"
+msgstr "整理程式碼，SVG 支援，目前維護者"
+
+#: main.cpp:57
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: main.cpp:58
+#, kde-format
+msgid "Rewrite to use QGraphicsView framework. Current maintainer"
+msgstr "用 QGraphicsView 架構重寫，目前維護者"
+
+#: main.cpp:60
+#, kde-format
+msgid "Andreas Zehender"
+msgstr "Andreas Zehender"
+
+#: main.cpp:60
+#, kde-format
+msgid "Smiley pixmaps"
+msgstr "笑臉圖"
+
+#: main.cpp:61
+#, kde-format
+msgid "Mikhail Kourinny"
+msgstr "Mikhail Kourinny"
+
+#: main.cpp:61
+#, kde-format
+msgid "Solver/Adviser"
+msgstr "解決者/建議者"
+
+#: main.cpp:62
+#, kde-format
+msgid "Thomas Capricelli"
+msgstr "Thomas Capricelli"
+
+#: main.cpp:62
+#, kde-format
+msgid "Magic reveal mode"
+msgstr "神奇開挖模式"
+
+#: main.cpp:63
+#, kde-format
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:63
+#, kde-format
+msgid "Port to use KGameRenderer"
+msgstr "移植到 use KGameRenderer"
+
+#: mainwindow.cpp:108
+#, kde-format
+msgid "Mines: 0/0"
+msgstr "地雷：0/0"
+
+#: mainwindow.cpp:109 mainwindow.cpp:180
+#, kde-format
+msgid "Time: 00:00"
+msgstr "時間：00:00"
+
+#: mainwindow.cpp:132
+#, kde-format
+msgid "Custom"
+msgstr "自訂"
+
+#: mainwindow.cpp:142
+#, kde-format
+msgid "Mines: %1/%2"
+msgstr "地雷：%1/%2"
+
+#: mainwindow.cpp:210
+#, kde-format
+msgid "Time: %1"
+msgstr "時間：%1"
+
+#: mainwindow.cpp:236
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: mainwindow.cpp:237
+#, kde-format
+msgid "Theme"
+msgstr "外觀主題"
+
+#: mainwindow.cpp:238
+#, kde-format
+msgid "Custom Game"
+msgstr "自定遊戲"
+
+#: scene.cpp:110
+#, kde-format
+msgid "Game is paused."
+msgstr "遊戲已暫停。"
+
+#: scene.cpp:118
+#, kde-format
+msgid "Congratulations! You have won!"
+msgstr "恭喜，您贏了！"
+
+#: scene.cpp:120
+#, kde-format
+msgid "You have lost."
+msgstr "您輸了。"
+
+#~ msgid "The graphical theme to be used."
+#~ msgstr "要使用的圖形主題。"
+
+#~ msgid "The difficulty level."
+#~ msgstr "難度等級"
+
+#~ msgid "Failed to load \"%1\" theme. Please check your installation."
+#~ msgstr "載入外觀主題 %1 失敗。請檢查您的安裝。"

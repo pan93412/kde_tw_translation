@@ -1,0 +1,1159 @@
+# translation of kalgebra.po to Chinese Traditional
+# translation of kalgebra.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2007, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kalgebra\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-06-23 03:04+0200\n"
+"PO-Revision-Date: 2017-11-11 20:44+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: consolehtml.cpp:163
+#, kde-format
+msgid " <a href='kalgebra:%1'>%2</a>"
+msgstr " <a href='kalgebra:%1'>%2</a>"
+
+#: consolehtml.cpp:168
+#, kde-format
+msgid "Options: %1"
+msgstr "選項：%1"
+
+#: consolehtml.cpp:214
+#, kde-format
+msgid "Paste \"%1\" to input"
+msgstr "貼上 %1 以輸入"
+
+#: consolemodel.cpp:86
+#, kde-format
+msgid "Paste to Input"
+msgstr "貼上以輸入"
+
+#: consolemodel.cpp:88
+#, kde-format
+msgid "<ul class='error'>Error: <b>%1</b><li>%2</li></ul>"
+msgstr "<ul class='error'>錯誤：<b>%1</b><li>%2</li></ul>"
+
+#: consolemodel.cpp:110
+#, kde-format
+msgid "Imported: %1"
+msgstr "已匯入：%1"
+
+#: consolemodel.cpp:112
+#, kde-format
+msgid "<ul class='error'>Error: Could not load %1. <br /> %2</ul>"
+msgstr "<ul class='error'>錯誤：無法載入 %1。<br />%2</ul>"
+
+#: dictionary.cpp:44
+#, kde-format
+msgid "Information"
+msgstr "資訊"
+
+#: dictionary.cpp:67 dictionary.cpp:68 dictionary.cpp:69 dictionary.cpp:70
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: functionedit.cpp:49
+#, kde-format
+msgid "Add/Edit a function"
+msgstr "新增/編輯函數"
+
+#: functionedit.cpp:94
+#, kde-format
+msgid "Preview"
+msgstr "預覽"
+
+#: functionedit.cpp:101
+#, kde-format
+msgid "From:"
+msgstr "從："
+
+#: functionedit.cpp:103
+#, kde-format
+msgid "To:"
+msgstr "到："
+
+#: functionedit.cpp:106
+#, kde-format
+msgid "Options"
+msgstr "選項"
+
+#: functionedit.cpp:111
+#, kde-format
+msgid "OK"
+msgstr "確定"
+
+#: functionedit.cpp:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "移除"
+
+#: functionedit.cpp:240
+#, kde-format
+msgid "The options you specified are not correct"
+msgstr "您指定的選項不正確"
+
+#: functionedit.cpp:245
+#, kde-format
+msgid "Downlimit cannot be greater than uplimit"
+msgstr "下載限制不能大於上傳限制"
+
+#: kalgebra.cpp:73
+#, kde-format
+msgid "Plot 2D"
+msgstr "繪製平面圖"
+
+#: kalgebra.cpp:94
+#, kde-format
+msgid "Plot 3D"
+msgstr "繪製立體圖"
+
+#: kalgebra.cpp:117
+#, kde-format
+msgid "Session"
+msgstr "工作階段"
+
+#: kalgebra.cpp:135 kalgebra.cpp:231
+#, kde-format
+msgid "Variables"
+msgstr "變數"
+
+#: kalgebra.cpp:154
+#, kde-format
+msgid "&Calculator"
+msgstr "計算機(&C)"
+
+#: kalgebra.cpp:166
+#, kde-format
+msgid "C&alculator"
+msgstr "計算機(&A)"
+
+#: kalgebra.cpp:168
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Load Script..."
+msgstr "載入文稿(&L)..."
+
+#: kalgebra.cpp:170
+#, kde-format
+msgid "Recent Scripts"
+msgstr "最近的文稿"
+
+#: kalgebra.cpp:174
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Save Script..."
+msgstr "儲存文稿(&S)..."
+
+#: kalgebra.cpp:176
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Export Log..."
+msgstr "匯出紀錄(&E)..."
+
+#: kalgebra.cpp:178
+#, kde-format
+msgid "Execution Mode"
+msgstr "執行模式"
+
+#: kalgebra.cpp:180
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Calculate"
+msgstr "計算"
+
+#: kalgebra.cpp:181
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Evaluate"
+msgstr "估算"
+
+#: kalgebra.cpp:201
+#, kde-format
+msgid "Functions"
+msgstr "函數"
+
+#: kalgebra.cpp:213
+#, kde-format
+msgid "List"
+msgstr "列表"
+
+#: kalgebra.cpp:219 kalgebra.cpp:451
+#, kde-format
+msgid "&Add"
+msgstr "新增(&A)"
+
+#: kalgebra.cpp:235
+#, kde-format
+msgid "Viewport"
+msgstr "檢視埠"
+
+#: kalgebra.cpp:239
+#, kde-format
+msgid "&2D Graph"
+msgstr "平面圖(&2)"
+
+#: kalgebra.cpp:251
+#, kde-format
+msgid "2&D Graph"
+msgstr "平面圖(&D)"
+
+#: kalgebra.cpp:253
+#, kde-format
+msgid "&Grid"
+msgstr "格線(&G)"
+
+#: kalgebra.cpp:254
+#, kde-format
+msgid "&Keep Aspect Ratio"
+msgstr "保持比例(&K)"
+
+#: kalgebra.cpp:262
+#, kde-format
+msgid "Resolution"
+msgstr "解析度"
+
+#: kalgebra.cpp:263
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Poor"
+msgstr "低"
+
+#: kalgebra.cpp:264
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Normal"
+msgstr "正常"
+
+#: kalgebra.cpp:265
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Fine"
+msgstr "高"
+
+#: kalgebra.cpp:266
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Very Fine"
+msgstr "非常高"
+
+#: kalgebra.cpp:300
+#, kde-format
+msgid "&3D Graph"
+msgstr "立體圖(&3)"
+
+#: kalgebra.cpp:308
+#, kde-format
+msgid "3D &Graph"
+msgstr "立體圖(&G)"
+
+#: kalgebra.cpp:311
+#, kde-format
+msgid "&Reset View"
+msgstr "重置檢視(&R)"
+
+#: kalgebra.cpp:313
+#, kde-format
+msgid "Dots"
+msgstr "點"
+
+#: kalgebra.cpp:314
+#, kde-format
+msgid "Lines"
+msgstr "線"
+
+#: kalgebra.cpp:315
+#, kde-format
+msgid "Solid"
+msgstr "立體"
+
+#: kalgebra.cpp:332
+#, kde-format
+msgid "Operations"
+msgstr "操作"
+
+#: kalgebra.cpp:336
+#, kde-format
+msgid "&Dictionary"
+msgstr "字典(&D)"
+
+#: kalgebra.cpp:347
+#, kde-format
+msgid "Look for:"
+msgstr "尋找："
+
+#: kalgebra.cpp:440
+#, kde-format
+msgid "&Editing"
+msgstr "編輯(&E)"
+
+#: kalgebra.cpp:497
+#, kde-format
+msgid "Choose a script"
+msgstr "請選擇文稿"
+
+#: kalgebra.cpp:497 kalgebra.cpp:513
+#, kde-format
+msgid "Script (*.kal)"
+msgstr "文稿（*.kal）"
+
+#: kalgebra.cpp:524
+#, kde-format
+msgid "HTML File (*.html)"
+msgstr "HTML 檔（*.html）"
+
+#: kalgebra.cpp:542
+#, kde-format
+msgid ", "
+msgstr ","
+
+#: kalgebra.cpp:542
+#, kde-format
+msgid "Errors: %1"
+msgstr "錯誤：%1"
+
+#: kalgebra.cpp:580
+#, kde-format
+msgid "Select where to put the rendered plot"
+msgstr "選擇要在哪裡放置已繪製之圖形"
+
+#: kalgebra.cpp:580
+#, kde-format
+msgid "Image File (*.png);;SVG File (*.svg)"
+msgstr "圖片檔 (*.png);;SVG 檔 (*.svg)"
+
+#: kalgebra.cpp:638
+#, kde-format
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "就緒"
+
+#: kalgebra.cpp:672
+#, kde-format
+msgid "Add variable"
+msgstr "新增/變數"
+
+#: kalgebra.cpp:676
+#, kde-format
+msgid "Enter a name for the new variable"
+msgstr "請輸入新變數名稱"
+
+#: main.cpp:29
+#, kde-format
+msgid "A portable calculator"
+msgstr "計算機"
+
+#: main.cpp:30
+#, kde-format
+msgid "(C) 2006-2016 Aleix Pol i Gonzalez"
+msgstr "(C) 2006-2016 Aleix Pol i Gonzalez"
+
+#: main.cpp:32
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#: main.cpp:32
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: varedit.cpp:34
+#, kde-format
+msgid "Add/Edit a variable"
+msgstr "新增/編輯變數"
+
+#: varedit.cpp:39
+#, kde-format
+msgid "Remove Variable"
+msgstr "移除變數"
+
+#: varedit.cpp:64
+#, kde-format
+msgid "Edit '%1' value"
+msgstr "編輯 %1 數值"
+
+#: varedit.cpp:66
+#, kde-format
+msgid "not available"
+msgstr "N/A"
+
+#: varedit.cpp:99
+#, kde-format
+msgid "<b style='color:#090'>%1 := %2</b>"
+msgstr "<b style='color:#090'>%1 := %2</b>"
+
+#: varedit.cpp:102
+#, kde-format
+msgid "<b style='color:red'>WRONG</b>"
+msgstr "<b style='color:red'>錯誤</b>"
+
+#: viewportwidget.cpp:46
+#, kde-format
+msgid "Left:"
+msgstr "左："
+
+#: viewportwidget.cpp:47
+#, kde-format
+msgid "Top:"
+msgstr "頂端："
+
+#: viewportwidget.cpp:48
+#, kde-format
+msgid "Width:"
+msgstr "寬度："
+
+#: viewportwidget.cpp:49
+#, kde-format
+msgid "Height:"
+msgstr "高度："
+
+#: viewportwidget.cpp:51
+#, kde-format
+msgid "Apply"
+msgstr "套用"
+
+#~ msgid ""
+#~ "PNG File (*.png);;PDF Document(*.pdf);;X3D Document (*.x3d);;STL Document "
+#~ "(*.stl)"
+#~ msgstr ""
+#~ "PNG 檔案 (*.png);;PDF 文件(*.pdf);;X3D 文件 (*.x3d);;STL 文件 (*.stl)"
+
+#~ msgid "C&onsole"
+#~ msgstr "主控台(&O)"
+
+#~ msgid "KAlgebra"
+#~ msgstr "數學_KAlgebra"
+
+#~ msgid "&Console"
+#~ msgstr "主控台(&C)"
+
+#~ msgid "Aleix Pol Gonzalez"
+#~ msgstr "Aleix Pol Gonzalez"
+
+#~ msgid "Percy Camilo Triveño Aucahuasi"
+#~ msgstr "Percy Camilo Triveño Aucahuasi"
+
+#~ msgid ""
+#~ "Developed feature for drawing implicit curves. Improvements for plotting "
+#~ "functions."
+#~ msgstr "加強繪製功能。開發繪製隱式曲線功能。"
+
+#~ msgid "<b>Formula</b>"
+#~ msgstr "<b>公式</b>"
+
+#~ msgid "Error: Wrong type of function"
+#~ msgstr "錯誤：函式型態錯誤"
+
+#~ msgctxt "3D graph done in x milliseconds"
+#~ msgid "Done: %1ms"
+#~ msgstr "已完成： %1 毫秒"
+
+#~ msgid "Error: %1"
+#~ msgstr "錯誤：%1"
+
+#~ msgctxt "@action:button"
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "*.png|PNG File"
+#~ msgstr "*.png|PNG 檔"
+
+#~ msgctxt "text ellipsis"
+#~ msgid "%1..."
+#~ msgstr "%1..."
+
+#~ msgid "&Transparency"
+#~ msgstr "透明度(&T)"
+
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgid "Result: %1"
+#~ msgstr "結果：%1"
+
+#~ msgid "To Expression"
+#~ msgstr "為表示式"
+
+#~ msgid "To MathML"
+#~ msgstr "為 MathML"
+
+#~ msgid "Simplify"
+#~ msgstr "簡化"
+
+#~ msgid "Examples"
+#~ msgstr "範例"
+
+#~ msgid "We can only draw Real results."
+#~ msgstr "我們只能畫實數的結果。"
+
+#~ msgid "The expression is not correct"
+#~ msgstr "表示式不正確"
+
+#~ msgid "Function type not recognized"
+#~ msgstr "函式型態無法辨認"
+
+#~ msgid "Function type not correct for functions depending on %1"
+#~ msgstr "相依於 %1 的函式的型態不正確"
+
+#~ msgctxt ""
+#~ "This function can't be represented as a curve. To draw implicit curve, "
+#~ "the function has to satisfy the implicit function theorem."
+#~ msgid "Implicit function undefined in the plane"
+#~ msgstr "隱式函式（Implicit function）在平面中未定義"
+
+#~ msgid "center"
+#~ msgstr "圓心"
+
+#~ msgctxt "@title:column"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgctxt "@title:column"
+#~ msgid "Function"
+#~ msgstr "函數"
+
+#~ msgid "%1 function added"
+#~ msgstr "已新增 %1 函數"
+
+#~ msgid "Hide '%1'"
+#~ msgstr "隱藏 %1"
+
+#~ msgid "Show '%1'"
+#~ msgstr "顯示 %1"
+
+#~ msgid "Selected viewport too small"
+#~ msgstr "選取的檢視埠太小"
+
+#~ msgctxt "@title:column"
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgctxt "@title:column"
+#~ msgid "Parameters"
+#~ msgstr "參數"
+
+#~ msgctxt "@title:column"
+#~ msgid "Example"
+#~ msgstr "範例"
+
+#~ msgctxt "Syntax for function bounding"
+#~ msgid " : var"
+#~ msgstr " : 變數"
+
+#~ msgctxt "Syntax for function bounding values"
+#~ msgid "=from..to"
+#~ msgstr "=啟始值..結束值"
+
+#~ msgid "%1("
+#~ msgstr "%1("
+
+#~ msgid "%1... parameters, ...%2)"
+#~ msgstr "%1... 參數, ...%2)"
+
+#~ msgid "par%1"
+#~ msgstr "par%1"
+
+#~ msgid "Addition"
+#~ msgstr "加法"
+
+#~ msgid "Multiplication"
+#~ msgstr "乘法"
+
+#~ msgid "Division"
+#~ msgstr "除法"
+
+#~ msgid "Subtraction. Will remove all values from the first one."
+#~ msgstr "減法。會從第一個移除所有的數值。"
+
+#~ msgid "Power"
+#~ msgstr "乘方"
+
+#~ msgid "Remainder"
+#~ msgstr "餘數"
+
+#~ msgid "Quotient"
+#~ msgstr "商數"
+
+#~ msgid "The factor of"
+#~ msgstr "因數"
+
+#~ msgid "Factorial. factorial(n)=n!"
+#~ msgstr "階乘。factorial(n) = n!"
+
+#~ msgid "Function to calculate the sine of a given angle"
+#~ msgstr "計算給定角度的正弦值的函數"
+
+#~ msgid "Function to calculate the cosine of a given angle"
+#~ msgstr "計算給定角度的餘弦值的函數"
+
+#~ msgid "Function to calculate the tangent of a given angle"
+#~ msgstr "計算給定角度的正切值的函數"
+
+#~ msgid "Secant"
+#~ msgstr "正割"
+
+#~ msgid "Cosecant"
+#~ msgstr "餘割"
+
+#~ msgid "Cotangent"
+#~ msgstr "餘切"
+
+#~ msgid "Hyperbolic sine"
+#~ msgstr "雙曲正弦"
+
+#~ msgid "Hyperbolic cosine"
+#~ msgstr "雙曲餘弦"
+
+#~ msgid "Hyperbolic tangent"
+#~ msgstr "雙曲正切"
+
+#~ msgid "Hyperbolic secant"
+#~ msgstr "雙曲正割"
+
+#~ msgid "Hyperbolic cosecant"
+#~ msgstr "雙曲餘割"
+
+#~ msgid "Hyperbolic cotangent"
+#~ msgstr "雙曲餘切"
+
+#~ msgid "Arc sine"
+#~ msgstr "反正弦"
+
+#~ msgid "Arc cosine"
+#~ msgstr "反餘弦"
+
+#~ msgid "Arc tangent"
+#~ msgstr "反正切"
+
+#~ msgid "Arc cotangent"
+#~ msgstr "反餘切"
+
+#~ msgid "Hyperbolic arc tangent"
+#~ msgstr "雙曲反正切"
+
+#~ msgid "Summatory"
+#~ msgstr "加法器"
+
+#~ msgid "Productory"
+#~ msgstr "乘積器"
+
+#~ msgid "For all"
+#~ msgstr "所有"
+
+#~ msgid "Exists"
+#~ msgstr "已存在"
+
+#~ msgid "Differentiation"
+#~ msgstr "微分"
+
+#~ msgid "Hyperbolic arc sine"
+#~ msgstr "雙曲反正弦"
+
+#~ msgid "Hyperbolic arc cosine"
+#~ msgstr "雙曲反餘弦"
+
+#~ msgid "Arc cosecant"
+#~ msgstr "反餘割"
+
+#~ msgid "Hyperbolic arc cosecant"
+#~ msgstr "雙取反餘割"
+
+#~ msgid "Arc secant"
+#~ msgstr "反正割"
+
+#~ msgid "Hyperbolic arc secant"
+#~ msgstr "雙取反正割"
+
+#~ msgid "Exponent (e^x)"
+#~ msgstr "指數 (e^x)"
+
+#~ msgid "Base-e logarithm"
+#~ msgstr "自然對數"
+
+#~ msgid "Base-10 logarithm"
+#~ msgstr "基底 10 對數"
+
+#~ msgid "Absolute value. abs(n)=|n|"
+#~ msgstr "絕對值。abs(n)=|n|"
+
+#~ msgid "Floor value. floor(n)=⌊n⌋"
+#~ msgstr "下限值。floor(n)=⌊n⌋"
+
+#~ msgid "Ceil value. ceil(n)=⌈n⌉"
+#~ msgstr "上限值。ceil(n)=⌈n⌉"
+
+#~ msgid "Minimum"
+#~ msgstr "最小值"
+
+#~ msgid "Maximum"
+#~ msgstr "最大值"
+
+#~ msgid "Greater than. gt(a,b)=a>b"
+#~ msgstr "大於。gt(a,b)=a>b"
+
+#~ msgid "Less than. lt(a,b)=a<b"
+#~ msgstr "小於。lt(a,b)=a<b"
+
+#~ msgid "Equal. eq(a,b) = a=b"
+#~ msgstr "等於。eq(a,b) = a=b"
+
+#~ msgid "Approximation. approx(a)=a±n"
+#~ msgstr "近似值。approx(a)=a±n"
+
+#~ msgid "Not equal. neq(a,b)=a≠b"
+#~ msgstr "不等於。neq(a,b)=a≠b"
+
+#~ msgid "Greater or equal. geq(a,b)=a≥b"
+#~ msgstr "大於等於。geq(a,b)=a≥b"
+
+#~ msgid "Less or equal. leq(a,b)=a≤b"
+#~ msgstr "小於等於。leq(a,b) = a≤b"
+
+#~ msgid "Boolean and"
+#~ msgstr "AND"
+
+#~ msgid "Boolean not"
+#~ msgstr "NOT"
+
+#~ msgid "Boolean or"
+#~ msgstr "OR"
+
+#~ msgid "Boolean xor"
+#~ msgstr "XOR"
+
+#~ msgid "Boolean implication"
+#~ msgstr "布林值推斷"
+
+#~ msgid "Greatest common divisor"
+#~ msgstr "最大公因數"
+
+#~ msgid "Least common multiple"
+#~ msgstr "最小公倍數"
+
+#~ msgid "Root"
+#~ msgstr "根目錄"
+
+#~ msgid "Cardinal"
+#~ msgstr "基數"
+
+#~ msgid "Scalar product"
+#~ msgstr "純量乘積"
+
+#~ msgid "Select the par1-th element of par2 list or vector"
+#~ msgstr "請選擇 par2 清單中的第 par1 個元素，或是向量"
+
+#~ msgid "Joins several items of the same type"
+#~ msgstr "將幾個相同型態的項目結合在一起"
+
+#~ msgid "Applies a function to every element in a list"
+#~ msgstr "套用某個函數到列表中所有元素"
+
+#~ msgid "Removes all elements that don't fit a condition"
+#~ msgstr "移除所有不符合某個條件的元素"
+
+#~ msgctxt "n-ary function prototype"
+#~ msgid "<em>%1</em>(..., <b>par%2</b>, ...)"
+#~ msgstr "<em>%1</em>(..., <b>par%2</b>, ...)"
+
+#~ msgctxt "Function name in function prototype"
+#~ msgid "<em>%1</em>("
+#~ msgstr "<em>%1</em>("
+
+#~ msgctxt "Uncorrect function name in function prototype"
+#~ msgid "<em style='color:red'><b>%1</b></em>("
+#~ msgstr "<em style='color:red'><b>%1</b></em>("
+
+#~ msgctxt "Parameter in function prototype"
+#~ msgid "par%1"
+#~ msgstr "par%1"
+
+#~ msgctxt "Current parameter in function prototype"
+#~ msgid "<b>%1</b>"
+#~ msgstr "<b>%1</b>"
+
+#~ msgctxt "Function parameter separator"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "Current parameter is the bounding"
+#~ msgid " : bounds"
+#~ msgstr "：邊界"
+
+#~ msgctxt "@title:column"
+#~ msgid "Value"
+#~ msgstr "數值"
+
+#~ msgid "Must specify a correct operation"
+#~ msgstr "必須指定正確的操作"
+
+#~ msgctxt "identifier separator in error message"
+#~ msgid "', '"
+#~ msgstr "', '"
+
+#~ msgid "Unknown identifier: '%1'"
+#~ msgstr "未知的識別子：%1"
+
+#~ msgctxt "Error message, no proper condition found."
+#~ msgid "Could not find a proper choice for a condition statement."
+#~ msgstr "此片段沒有 otherwise 也沒有相對應的 piece。"
+
+#~ msgid "Type not supported for bounding."
+#~ msgstr "型態未被支援設限。"
+
+#~ msgid "The downlimit is greater than the uplimit"
+#~ msgstr "下限比上限還大。"
+
+#~ msgid "Incorrect uplimit or downlimit."
+#~ msgstr "上下限不正確。"
+
+#~ msgctxt "By a cycle i mean a variable that depends on itself"
+#~ msgid "Defined a variable cycle"
+#~ msgstr "已定義變數循環"
+
+#~ msgid "The result is not a number"
+#~ msgstr "結果不是一個數字"
+
+#~ msgid "Unexpectedly arrived to the end of the input"
+#~ msgstr "非預期地遇到輸入的結尾"
+
+#~ msgid "Unknown token %1"
+#~ msgstr "未知的記號 %1"
+
+#~ msgid "<em>%1</em> needs at least 2 parameters"
+#~ msgstr "<em>%1</em> 需要至少兩個參數"
+
+#~ msgid "<em>%1</em> requires %2 parameters"
+#~ msgstr "<em>%1</em> 需要 %2 個參數"
+
+#~ msgid "Missing boundary for '%1'"
+#~ msgstr "遺失 %1 的邊界"
+
+#~ msgid "Unexpected bounding for '%1'"
+#~ msgstr "未預期的 %1 的界線"
+
+#~ msgid "<em>%1</em> missing bounds on '%2'"
+#~ msgstr "<em>%1</em> 在 %2 上遺失邊界"
+
+#~ msgid "Wrong declare"
+#~ msgstr "錯誤的宣告"
+
+#~ msgid "Empty container: %1"
+#~ msgstr "空容器：%1"
+
+#~ msgctxt "there was a conditional outside a condition structure"
+#~ msgid "We can only have conditionals inside piecewise structures."
+#~ msgstr "在 piecewise 內只能有條件。"
+
+#~ msgid "Cannot have two parameters with the same name like '%1'."
+#~ msgstr "不能有兩個參數使用相同的名稱，如 '%1'"
+
+#~ msgctxt ""
+#~ "this is an error message. otherwise is the else in a mathml condition"
+#~ msgid "The <em>otherwise</em> parameter should be the last one"
+#~ msgstr "<em>otherwise</em> 參數應該要是最後一個"
+
+#~ msgctxt "there was an element that was not a conditional inside a condition"
+#~ msgid "%1 is not a proper condition inside the piecewise"
+#~ msgstr "%1 在 piecewise 內不是合適的條件"
+
+#~ msgid "We can only declare variables"
+#~ msgstr "我們只能宣告變數。"
+
+#~ msgid "We can only have bounded variables"
+#~ msgstr "我們只能有結合的變數。"
+
+#~ msgid "Error while parsing: %1"
+#~ msgstr "剖析時發生錯誤：%1"
+
+#~ msgctxt "An error message"
+#~ msgid "Container unknown: %1"
+#~ msgstr "未知的容器：%1"
+
+#~ msgid "Cannot codify the %1 value."
+#~ msgstr "無法將 %1 值編碼。"
+
+#~ msgid "The %1 operator cannot have child contexts."
+#~ msgstr "%1 操作元不能有子內文。"
+
+#~ msgid "The element '%1' is not an operator."
+#~ msgstr "元素 %1 不是一個操作元。"
+
+#~ msgid "Do not want empty vectors"
+#~ msgstr "不需要空的向量"
+
+#~ msgctxt "Error message due to an unrecognized input"
+#~ msgid "Not supported/unknown: %1"
+#~ msgstr "不支援/未知：%1"
+
+#~ msgctxt "error message"
+#~ msgid "Expected %1 instead of '%2'"
+#~ msgstr "應該為 %1，而不是 %2"
+
+#~ msgid "Missing right parenthesis"
+#~ msgstr "遺失右括號"
+
+#~ msgid "Unbalanced right parenthesis"
+#~ msgstr "不平衡的右刮號"
+
+#~ msgid "Unexpected token identifier: %1"
+#~ msgstr "未預期的標記辨識子：%1"
+
+#~ msgid "Unexpected token %1"
+#~ msgstr "未預期的標記 %1"
+
+#~ msgid "Could not find a type that unifies '%1'"
+#~ msgstr "找不到將 %1 統一的型態"
+
+#~ msgid "The domain should be either a vector or a list"
+#~ msgstr "領域應該為一個向量或串列"
+
+#~ msgid "Invalid parameter count for '%2'. Should have 1 parameter."
+#~ msgid_plural "Invalid parameter count for '%2'. Should have %1 parameters."
+#~ msgstr[0] "%2 有不正確的參數數量。應該要有 %1 個參數"
+
+#~ msgid "Could not call '%1'"
+#~ msgstr "無法呼叫 %1"
+
+#~ msgid "Could not solve '%1'"
+#~ msgstr "無法解 %1"
+
+#~ msgid "Incoherent type for the variable '%1'"
+#~ msgstr "變數 %1 型態不明"
+
+#~ msgid "Could not determine the type for piecewise"
+#~ msgstr "無法決定 piecewise 型態"
+
+#~ msgid "Unexpected type"
+#~ msgstr "未預期的型態"
+
+#~ msgid "Cannot convert '%1' to '%2'"
+#~ msgstr "無法將 %1 轉換為 %2"
+
+#~ msgctxt "html representation of an operator"
+#~ msgid "<span class='op'>%1</span>"
+#~ msgstr "<span class='op'>%1</span> "
+
+#~ msgctxt "html representation of an operator"
+#~ msgid "<span class='keyword'>%1</span>"
+#~ msgstr "<span class='keyword'>%1</span>"
+
+#~ msgctxt "Error message"
+#~ msgid "Unknown token %1"
+#~ msgstr "未知的標記 %1"
+
+#~ msgid "Cannot calculate the remainder on 0."
+#~ msgstr "無法計算 0 的餘數。"
+
+#~ msgid "Cannot calculate the factor on 0."
+#~ msgstr "無法計算 0 的因數"
+
+#~ msgid "Cannot calculate the lcm of 0."
+#~ msgstr "無法計算 0 的最小公因數"
+
+#~ msgid "Could not calculate a value %1"
+#~ msgstr "無法計算數值 %1"
+
+#~ msgid "Invalid index for a container"
+#~ msgstr "容器索引不正確"
+
+#~ msgid "Cannot operate on different sized vectors."
+#~ msgstr "不能操作於不同大小的向量。"
+
+#~ msgid "Could not calculate a vector's %1"
+#~ msgstr "無法計算向量的 %1"
+
+#~ msgid "Could not calculate a list's %1"
+#~ msgstr "無法計算列表的 %1"
+
+#~ msgid "Could not calculate the derivative for '%1'"
+#~ msgstr "無法計算 %1 的導數"
+
+#~ msgid "Could not reduce '%1' and '%2'."
+#~ msgstr "無法簡化 %1 與 %2"
+
+#~ msgid "Incorrect domain."
+#~ msgstr "不正確的領域。"
+
+#~ msgctxt "Uncorrect function name in function prototype"
+#~ msgid "<em style='color:red'>%1</em>("
+#~ msgstr "<em style='color:red'>%1</em>("
+
+#~ msgctxt "if the specified function is not a vector"
+#~ msgid "The parametric function does not return a vector"
+#~ msgstr "此參數函式並未傳回向量"
+
+#~ msgctxt "If it is a vector but the wrong size. We work in R2 here"
+#~ msgid "A two-dimensional vector is needed"
+#~ msgstr "需要一個二維的向量"
+
+#~ msgctxt "The vector has to be composed by integer members"
+#~ msgid "The parametric function items should be scalars"
+#~ msgstr "此參數函式的項目必須是數量"
+
+#~ msgid "The %1 derivative has not been implemented."
+#~ msgstr "%1 導函數尚未實作。"
+
+#~ msgctxt "Error message"
+#~ msgid "Did not understand the real value: %1"
+#~ msgstr "無法瞭解實數值：%1"
+
+#~ msgid "Subtraction"
+#~ msgstr "減法"
+
+#~ msgid ""
+#~ "%1\n"
+#~ "Error: %2"
+#~ msgstr ""
+#~ "%1\n"
+#~ "錯誤：%2"
+
+#~ msgid "Select an element from a container"
+#~ msgstr "從容器選擇元素"
+
+#~ msgid " <a href='%1'>Plot 3D</a>"
+#~ msgstr " <a href='%1'>繪製立體圖</a>"
+
+#~ msgid "Error: We need values to draw a graph"
+#~ msgstr "錯誤：我們需要數值才能繪圖。"
+
+#~ msgid "Generating... Please wait"
+#~ msgstr "產生中... 請稍候"
+
+#~ msgid "Wrong parameter count, had 1 parameter for '%2'"
+#~ msgid_plural "Wrong parameter count, had %1 parameters for '%2'"
+#~ msgstr[0] "錯誤的參數數量，對 %2 給了 %1 個參數"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "&Save Log"
+#~ msgstr "儲存紀錄(&S)"
+
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#~ msgid "We can only call functions"
+#~ msgstr "我們只能呼叫函式"
+
+#~ msgid "Wrong parameter count"
+#~ msgstr "錯誤的參數數量"
+
+#~ msgctxt ""
+#~ "html representation of a true. please don't translate the true for "
+#~ "consistency"
+#~ msgid "<span class='const'>true</span>"
+#~ msgstr "<span class='const'>真</span>"
+
+#~ msgctxt ""
+#~ "html representation of a false. please don't translate the false for "
+#~ "consistency"
+#~ msgid "<span class='const'>false</span>"
+#~ msgstr "<span class='const'>假</span> "
+
+#~ msgctxt "html representation of a number"
+#~ msgid "<span class='num'>%1</span>"
+#~ msgstr "<span class='num'>%1</span> "
+
+#, fuzzy
+#~| msgid "Wrong parameter count"
+#~ msgid "Invalid parameter count."
+#~ msgstr "錯誤的參數數量"
+
+#~ msgid "Mode"
+#~ msgstr "模式"
+
+#~ msgid "Save the expression"
+#~ msgstr "儲存此表示式"
+
+#~ msgid "Calculate the expression"
+#~ msgstr "計算此表示式"
+
+#~ msgid "%1:=%2"
+#~ msgstr "%1:=%2"
+
+#~ msgid "Cannot have downlimit ≥ uplimit"
+#~ msgstr "下限不能大於上限"
+
+#, fuzzy
+#~| msgid "Trying to call an empty or invalid function"
+#~ msgid "Trying to call an invalid function"
+#~ msgstr "試著呼叫空的或不合法的函式"
+
+#~ msgctxt "If it is a vector but the wrong size. We work in R2 here"
+#~ msgid "We want a 2 dimension vector"
+#~ msgstr "我們需要一個二維向量"
+
+#~ msgid "The function <em>%1</em> does not exist"
+#~ msgstr "函數 <em>%1</em> 不存在"
+
+#~ msgid "The variable <em>%1</em> does not exist"
+#~ msgstr "變數 <em>%1</em> 不存在"
+
+#~ msgid "Need a var name and a value"
+#~ msgstr "需要變數名稱與值"
+
+#~ msgid "We can only select a container's value with its integer index"
+#~ msgstr "我們只能用整數索引選擇容器值"
+
+#~ msgid "<b style='color:red'>%1</b>"
+#~ msgstr "<b style='color:red'>%1</b>"
+
+#~ msgid "The first parameter in a function should be the name"
+#~ msgstr "函式的第一個參數必須是名稱"
+
+#~ msgctxt "Error message"
+#~ msgid "Unknown bounded variable: %1"
+#~ msgstr "未知的有界變數：%1"
+
+#~ msgid "From parser:"
+#~ msgstr "從分析器："
+
+#~ msgid ""
+#~ "Wrong parameter count in a selector, should have 2 parameters, the "
+#~ "selected index and the container."
+#~ msgstr ""
+#~ "選擇器的參數數量錯誤，應該有兩個參數，一個是選擇的索引，另一個是容器。"
+
+#~ msgid "piece or otherwise in the wrong place"
+#~ msgstr "piece 或 otherwise 擺錯位置"
+
+#~ msgid "No bounding variables for this sum"
+#~ msgstr "此總和沒有邊界變數"
+
+#~ msgid "Missing bounding limits on a sum operation"
+#~ msgstr "總和操作中沒有邊界限制"
+
+#~ msgctxt "Error message"
+#~ msgid "Trying to codify an unknown value: %1"
+#~ msgstr "正試著取未知值：%1"
+
+#~ msgctxt "An error message"
+#~ msgid "The downlimit is greater than the uplimit. Probably should be %1..%2"
+#~ msgstr "下限比上限還大。也許應該是 %1..%2"
+
+#~ msgid "Hyperbolic arc cotangent"
+#~ msgstr "雙曲反餘切"
+
+#~ msgid "Real"
+#~ msgstr "實數"
+
+#~ msgid "%1, "
+#~ msgstr "%1, "

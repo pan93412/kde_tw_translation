@@ -1,0 +1,2899 @@
+# translation of kofficefilters.po to Chinese Traditional
+# Translator:
+# Yiching Clara Wu <ycwu@mailandnews.com>, 2001.
+# Chih-Wei Huang <cwhuang@linux.org.tw>, 2001.
+# Chao-Hsiung Liao <pesder@seed.net.tw>, 2002.
+# Ben Wu <hpwu@redhat.com>, 2002.
+# Keanu <keanu@ms50.url.com.tw>, 2002.
+# Keng-Tso Ou <jupiter@ocool.org>, 2003.
+# Yuan-Chen Cheng <ycheng@slat.org>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kofficefilters\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-06-07 06:07+0200\n"
+"PO-Revision-Date: 2016-12-08 08:53+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: flow/imageexport/flow_imageexport.cpp:91
+#, kde-format
+msgid "Failed to read data."
+msgstr "讀取資料失敗。"
+
+#: flow/imageexport/flow_imageexport.cpp:91
+#: flow/imageexport/flow_imageexport.cpp:102
+#, kde-format
+msgid "Export Error"
+msgstr "匯出錯誤"
+
+#: flow/imageexport/flow_imageexport.cpp:102
+#, kde-format
+msgid "Malformed XML data."
+msgstr "不正確的 XML 資料。"
+
+#: flow/imageexport/flow_imageexportdialog.cpp:35
+#, kde-format
+msgid "Export to Image"
+msgstr "匯入影像"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: flow/imageexport/flow_imageexportwidget.ui:27
+#, kde-format
+msgid "Page:"
+msgstr "頁面："
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: flow/imageexport/flow_imageexportwidget.ui:38
+#, kde-format
+msgid "Complete Page"
+msgstr "完成頁面"
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: flow/imageexport/flow_imageexportwidget.ui:43
+#, kde-format
+msgid "Area of Objects on Page"
+msgstr "頁面上的物件區域"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: flow/imageexport/flow_imageexportwidget.ui:55
+#, kde-format
+msgid "Area to export:"
+msgstr "要匯出的區域："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: flow/imageexport/flow_imageexportwidget.ui:63
+#, kde-format
+msgid "Custom size (in pixels):"
+msgstr "自訂大小（像素）："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: flow/imageexport/flow_imageexportwidget.ui:108
+#, kde-format
+msgid "Height:"
+msgstr "高度："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: flow/imageexport/flow_imageexportwidget.ui:119
+#, kde-format
+msgid "Width:"
+msgstr "寬度："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: flow/imageexport/flow_imageexportwidget.ui:200
+#, kde-format
+msgid "Margin:"
+msgstr "邊界："
+
+#: karbon/image/ImageExport.cpp:99
+#, kde-format
+msgid "PNG Export Options"
+msgstr "PNG 匯出選項"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: karbon/image/ImageExportOptionsWidget.ui:17
+#, kde-format
+msgid "Size in Pixels"
+msgstr "大小，以像素為單位"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: karbon/image/ImageExportOptionsWidget.ui:26
+#: karbon/image/ImageExportOptionsWidget.ui:61
+#, kde-format
+msgid "Image width:"
+msgstr "影像寬度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: karbon/image/ImageExportOptionsWidget.ui:36
+#: karbon/image/ImageExportOptionsWidget.ui:71
+#, kde-format
+msgid "Image height:"
+msgstr "影像高度："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: karbon/image/ImageExportOptionsWidget.ui:52
+#, kde-format
+msgid "Size in Units"
+msgstr "大小單位"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: karbon/image/ImageExportOptionsWidget.ui:81
+#, kde-format
+msgid "Resolution:"
+msgstr "解析度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: karbon/image/ImageExportOptionsWidget.ui:91
+#, kde-format
+msgid "Unit:"
+msgstr "單位："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: karbon/image/ImageExportOptionsWidget.ui:107
+#, kde-format
+msgid "Background Color"
+msgstr "背景顏色"
+
+#. i18n: ectx: property (text), widget (QLabel, labelColor)
+#: karbon/image/ImageExportOptionsWidget.ui:116
+#, kde-format
+msgid "Color"
+msgstr "顏色"
+
+#. i18n: ectx: property (text), widget (QLabel, labelOpacity)
+#: karbon/image/ImageExportOptionsWidget.ui:126
+#, kde-format
+msgid "Opacity"
+msgstr "不透明度"
+
+#: libmsooxml/MsooXmlDocPropertiesReader.cpp:75
+#: libmsooxml/MsooXmlReader.cpp:184 libmsooxml/MsooXmlThemesReader.cpp:363
+#: sheets/xlsx/XlsxXmlCommentsReader.cpp:110
+#: sheets/xlsx/XlsxXmlDocumentReader.cpp:138
+#: sheets/xlsx/XlsxXmlSharedStringsReader.cpp:114
+#: sheets/xlsx/XlsxXmlStylesReader.cpp:460
+#: sheets/xlsx/XlsxXmlTableReader.cpp:80
+#: sheets/xlsx/XlsxXmlWorksheetReader.cpp:309
+#: stage/pptx/PptxXmlDocumentReader.cpp:156
+#: stage/pptx/PptxXmlSlideReader.cpp:333
+#: words/docx/import/DocxXmlCommentsReader.cpp:94
+#: words/docx/import/DocxXmlDocumentReader.cpp:205
+#: words/docx/import/DocxXmlEndnoteReader.cpp:95
+#: words/docx/import/DocxXmlFontTableReader.cpp:93
+#: words/docx/import/DocxXmlFooterReader.cpp:100
+#: words/docx/import/DocxXmlFootnoteReader.cpp:95
+#: words/docx/import/DocxXmlHeaderReader.cpp:100
+#: words/docx/import/DocxXmlNumberingReader.cpp:90
+#: words/docx/import/DocxXmlSettingsReader.cpp:90
+#, kde-format
+msgid "Namespace \"%1\" not found"
+msgstr "找不到命名空間 %1"
+
+#: libmsooxml/MsooXmlImport.cpp:114
+#, kde-format
+msgid "Could not open the requested file %1"
+msgstr "無法開啟要求的檔案 %1"
+
+#: libmsooxml/MsooXmlImport.cpp:137
+#, kde-format
+msgid "Could not read ZIP directory of the requested file %1"
+msgstr "無法讀取要求的檔案 %1 中的 ZIP 目錄"
+
+#: libmsooxml/MsooXmlImport.cpp:354 libmsooxml/MsooXmlImport.cpp:467
+#, kde-format
+msgid "Enter password"
+msgstr "輸入密碼"
+
+#: libmsooxml/MsooXmlImport.cpp:356 libmsooxml/MsooXmlImport.cpp:469
+#, kde-format
+msgid "This document is encrypted, please enter the password to decrypt it:"
+msgstr "文件已加密。請輸入密碼來解密："
+
+#: libmsooxml/MsooXmlImport.cpp:357 libmsooxml/MsooXmlImport.cpp:470
+#, kde-format
+msgid "Incorrect password, please enter the password to decrypt this document:"
+msgstr "不正確的密碼。請輸入密碼來解密此文件："
+
+#: libmsooxml/MsooXmlImport.cpp:645
+#, kde-format
+msgid "Could not find path for type %1"
+msgstr "找不到型態 %1 的路徑"
+
+#: libmsooxml/MsooXmlReader.cpp:148
+#, kde-format
+msgid "%1 (line %2, column %3)"
+msgstr "%1（第 %2 行，第 %3 欄）"
+
+#: libmsooxml/MsooXmlReader.cpp:150
+#, kde-format
+msgid "%1 (%2, line %3, column %4)"
+msgstr "%1（%2，第 %3 行，第 %4 欄）"
+
+#: libmsooxml/MsooXmlReader.cpp:174
+#, kde-format
+msgid "Element \"%1\" not found"
+msgstr "元素 %1 找不到"
+
+#: libmsooxml/MsooXmlReader.cpp:179
+#, kde-format
+msgid "Attribute \"%1\" not found"
+msgstr "屬性 %1 找不到"
+
+#: libmsooxml/MsooXmlReader.cpp:189
+#, kde-format
+msgid "Unexpected value \"%1\" of attribute \"%2\""
+msgstr "屬性 %2 中未預期的值 %1"
+
+#: libmsooxml/MsooXmlReader.cpp:194
+#, kde-format
+msgid "Unexpected second occurrence of \"%1\" element"
+msgstr "未預期的第二次遇到 %1 元素"
+
+#: libmsooxml/MsooXmlReader.cpp:211 libmsooxml/MsooXmlReader.cpp:262
+#, kde-format
+msgid "Expected closing of element \"%1\""
+msgstr "預期應該關閉元素 %1"
+
+#: libmsooxml/MsooXmlReader.cpp:253
+#, kde-format
+msgid "None of expected elements found: %1"
+msgstr "找不到預期的元素：%1"
+
+#: libmsooxml/MsooXmlRelationships.cpp:102
+#, kde-format
+msgid "Could not find target for id \"%1\" in file \"%2\""
+msgstr "檔案 %2 內找不到代碼 %1 的目標"
+
+#: libmsooxml/MsooXmlRelationships.cpp:106
+#: libmsooxml/MsooXmlRelationships.cpp:126
+#, kde-format
+msgid "Could not find relationships file \"%1\""
+msgstr "找不到關聯檔 %1"
+
+#: libmsooxml/MsooXmlRelationships.cpp:121
+#, kde-format
+msgid "Could not find target for relationship \"%1\" in file \"%2\""
+msgstr "檔案 %2 內找不到關係 %1 的目標"
+
+#: libmsooxml/MsooXmlUtils.cpp:180
+#, kde-format
+msgid ""
+"Parsing error in the main document at line %1, column %2.\n"
+"Error message: %3"
+msgstr ""
+"主文件剖析錯誤於行 %1，位置 %2。\n"
+"錯誤訊息：%3"
+
+#: libmsooxml/MsooXmlUtils.cpp:181
+#, kde-format
+msgid "QXml"
+msgstr "QXml"
+
+#: libmsooxml/MsooXmlUtils.cpp:230
+#, kde-format
+msgid "Entry '%1' not found."
+msgstr "項目 %1 找不到。"
+
+#: libmsooxml/MsooXmlUtils.cpp:236
+#, kde-format
+msgid "Entry '%1' is not a file."
+msgstr "項目 %1 不是個檔案。"
+
+#: libmsooxml/MsooXmlUtils.cpp:314 libmsooxml/MsooXmlUtils.cpp:358
+#: libmsooxml/MsooXmlUtils.cpp:401
+#, kde-format
+msgid "Could not open entry \"%1\" for writing."
+msgstr "無法開啟項目 %1 以寫入。"
+
+#: libmsooxml/MsooXmlUtils.cpp:328 libmsooxml/MsooXmlUtils.cpp:368
+#: libmsooxml/MsooXmlUtils.cpp:412
+#, kde-format
+msgid "Could not write block"
+msgstr "無法寫入區塊"
+
+#: sheets/csv/csvexport.cc:280
+#, kde-format
+msgid "<SHEETNAME>"
+msgstr "<工作表名稱>"
+
+#: sheets/csv/csvexportdialog.cpp:48 words/ascii/ImportDialog.cc:49
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Recommended ( %1 )"
+msgstr "建議（%1）"
+
+#: sheets/csv/csvexportdialog.cpp:49 words/ascii/ImportDialog.cc:50
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Locale ( %1 )"
+msgstr "區域設定（%1）"
+
+#: sheets/csv/csvexportdialog.cpp:52 words/ascii/ImportDialog.cc:53
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Other ( %1 )"
+msgstr "其他（%1）"
+
+#: sheets/csv/csvexportdialog.cpp:286 words/ascii/ImportDialog.cc:107
+#, kde-format
+msgid "Cannot find encoding: %1"
+msgstr "找不到編碼：%1"
+
+#: sheets/csv/csvimport.cc:93
+#, kde-format
+msgid "CSV filter cannot open input file - please report."
+msgstr "CSV 過濾器無法開啟輸入檔案─請回報錯誤。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: attribute (title), widget (QWidget, encodingPage)
+#: sheets/csv/exportdialogui.ui:27 sheets/latex/export/latexexportwidget.ui:219
+#, kde-format
+msgid "Encoding"
+msgstr "編碼"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: sheets/csv/exportdialogui.ui:35 words/ascii/ImportDialogUI.ui:24
+#, kde-format
+msgid "E&ncoding:"
+msgstr "編碼(&N)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroupEndOfLine)
+#: sheets/csv/exportdialogui.ui:76
+#, kde-format
+msgid "End of Line"
+msgstr "行尾"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioEndOfLineLF)
+#: sheets/csv/exportdialogui.ui:82
+#, kde-format
+msgid "&UNIX style (recommended; line feed only)"
+msgstr "UNIX 樣式（建議使用，只有 LF）(&U)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioEndOfLineCRLF)
+#: sheets/csv/exportdialogui.ui:92
+#, kde-format
+msgid "&Windows style (carriage return and line feed)"
+msgstr "Windows 樣式（包含 CR 與 LF）(&W)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioEndOfLineCR)
+#: sheets/csv/exportdialogui.ui:102
+#, kde-format
+msgid "&MacOS style (carriage return only)"
+msgstr "MacOS 樣式（只有 CR）(&M)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: sheets/csv/exportdialogui.ui:132
+#, kde-format
+msgid "Sheets"
+msgstr "工作表"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: sheets/csv/exportdialogui.ui:145
+#, kde-format
+msgid "Select sheets to export:"
+msgstr "選擇要匯出的工作表："
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_delimiterLineBox)
+#: sheets/csv/exportdialogui.ui:161
+#, kde-format
+msgid "Delimiter Line"
+msgstr "分隔線"
+
+#. i18n: ectx: property (text), widget (QLineEdit, m_sheetDelimiter)
+#: sheets/csv/exportdialogui.ui:167
+#, kde-format
+msgid "********<SHEETNAME>********"
+msgstr "********<SHEETNAME>********"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: sheets/csv/exportdialogui.ui:180
+#, kde-format
+msgid "<SHEETNAME> gets replaced by the name of the next sheet."
+msgstr "<SHEETNAME> 會取代為下個工作表的名稱。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_delimiterAboveAll)
+#: sheets/csv/exportdialogui.ui:199
+#, kde-format
+msgid "Print delimiter line above every sheet"
+msgstr "在每個工作表上方列印分隔線"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: sheets/csv/exportdialogui.ui:210 sheets/csv/exportdialogui.ui:294
+#, kde-format
+msgid "Cells"
+msgstr "儲存格"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, m_delimiterBox)
+#: sheets/csv/exportdialogui.ui:222
+#, kde-format
+msgid "Delimiter"
+msgstr "定義符號"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
+#: sheets/csv/exportdialogui.ui:228
+#, kde-format
+msgid "Comma"
+msgstr "逗點"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
+#: sheets/csv/exportdialogui.ui:238
+#, kde-format
+msgid "Semicolon"
+msgstr "分號"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
+#: sheets/csv/exportdialogui.ui:245
+#, kde-format
+msgid "Tabulator"
+msgstr "定位"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
+#: sheets/csv/exportdialogui.ui:252
+#, kde-format
+msgid "Space"
+msgstr "空白"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
+#: sheets/csv/exportdialogui.ui:259
+#, kde-format
+msgid "Other:"
+msgstr "其他："
+
+#. i18n: ectx: property (text), widget (QLabel, m_quotesLabel)
+#: sheets/csv/exportdialogui.ui:309
+#, kde-format
+msgid "Quotes:"
+msgstr "引號："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: sheets/csv/exportdialogui.ui:329
+#, kde-format
+msgid "\""
+msgstr "\""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: sheets/csv/exportdialogui.ui:334
+#, kde-format
+msgid "'"
+msgstr "'"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_selectionOnly)
+#: sheets/csv/exportdialogui.ui:365
+#, kde-format
+msgid "Export selection only"
+msgstr "只匯出所選擇的"
+
+#: sheets/dbase/dbaseimport.cc:57
+#, kde-format
+msgid "File format is not supported."
+msgstr "不支援此檔案格式。"
+
+#: sheets/dbase/dbaseimport.cc:62
+#, kde-format
+msgid "Could not read from file."
+msgstr "無法從檔案讀取。"
+
+#: sheets/html/exportdialog.cc:37
+#, kde-format
+msgid "Export Sheet to HTML"
+msgstr "匯出工作表到 HTML"
+
+#: sheets/html/exportdialog.cc:48
+#, kde-format
+msgid "Recommended: UTF-8"
+msgstr "建議使用：UTF-8"
+
+#: sheets/html/exportdialog.cc:49
+#, kde-format
+msgid "Locale (%1)"
+msgstr "區域設定（%1）"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: sheets/html/exportwidget.ui:19
+#, kde-format
+msgid "En&coding:"
+msgstr "編碼(&C)："
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, mEncodingBox)
+#: sheets/html/exportwidget.ui:32
+#, kde-format
+msgid ""
+"With this option you can define the encoding of the HTML file. The "
+"recommended encoding (UTF8) is selected as default."
+msgstr "這個選項讓您定義 HTML 檔案的編碼。預設並且建議使用的編碼為 UTF8。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: sheets/html/exportwidget.ui:57
+#, kde-format
+msgid "Sheet Selection"
+msgstr "選擇工作表"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mSelectAllButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mDeselectAllButton)
+#: sheets/html/exportwidget.ui:72 sheets/html/exportwidget.ui:82
+#, kde-format
+msgid "Click here to select all sheets in the list."
+msgstr "點選此處以選擇清單中所有的工作表。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mSelectAllButton)
+#: sheets/html/exportwidget.ui:75
+#, kde-format
+msgid "Select &All"
+msgstr "全部選取(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDeselectAllButton)
+#: sheets/html/exportwidget.ui:85
+#, kde-format
+msgid "Desele&ct All"
+msgstr "全部取消選擇(&C)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mSeparateFiles)
+#: sheets/html/exportwidget.ui:110
+#, kde-format
+msgid ""
+"This option will make the HTML export filter generate a new page for each "
+"sheet. If you disable this option, all sheets are written on one page."
+msgstr ""
+"這個選項會讓 HTML 匯出過濾器對每個工作表產生新的頁面。如果您關閉此選項，所有"
+"的工作表會寫到同一頁面中。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mSeparateFiles)
+#: sheets/html/exportwidget.ui:113
+#, kde-format
+msgid "Use &separate files for each table"
+msgstr "每個表格使用不同的檔案(&S)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
+#: sheets/html/exportwidget.ui:123
+#, kde-format
+msgid "Style"
+msgstr "樣式"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mDefaultButton)
+#: sheets/html/exportwidget.ui:129
+#, kde-format
+msgid ""
+"Select this option to use the default fonts and colors for the HTML page."
+msgstr "選擇此選項以在 HTML 頁面中使用預設的字型與顏色。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mDefaultButton)
+#: sheets/html/exportwidget.ui:132
+#, kde-format
+msgid "Use &default style"
+msgstr "使用預設的樣式(&D)"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mCustomButton)
+#: sheets/html/exportwidget.ui:142
+#, kde-format
+msgid ""
+"Select this option to specify a separate stylesheet for the HTML page. You "
+"can select or type on in the field below."
+msgstr ""
+"選擇此選項為 HTML 頁面指定不同的樣式表。您可以選擇或直接輸入底下的欄位。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mCustomButton)
+#: sheets/html/exportwidget.ui:145
+#, kde-format
+msgid "Use &external stylesheet:"
+msgstr "使用外部樣式表(&E)："
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, mCustomURL)
+#: sheets/html/exportwidget.ui:155
+#, kde-format
+msgid ""
+"In this field you can enter an URL for your stylesheet. It is possible to "
+"point to a stylesheet on disk, or to somewhere on the Internet."
+msgstr ""
+"這個欄位中您可以輸入您的樣式表的網址。它也可以指向磁碟裡的樣式表，或網際網路"
+"上的某處。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: sheets/html/exportwidget.ui:165
+#, kde-format
+msgid "Layout"
+msgstr "佈局"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mUseBorders)
+#: sheets/html/exportwidget.ui:171
+#, kde-format
+msgid "Use this option to enable or disable borders around the cells."
+msgstr "使用此選項開啟或關閉儲存格週邊的邊框。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mUseBorders)
+#: sheets/html/exportwidget.ui:174
+#, kde-format
+msgid "Use &borders"
+msgstr "使用邊框(&B)"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mPixelsBetweenCells)
+#: sheets/html/exportwidget.ui:186 sheets/html/exportwidget.ui:208
+#, kde-format
+msgid ""
+"Use this option to define how many pixels there should be between the cells. "
+"This effect is better visible if you check <b>Use borders</b> too."
+msgstr ""
+"使用此選項決定在儲存格之間應該有多少像素。這在您選擇「使用邊框」的時候效果比"
+"較好。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: sheets/html/exportwidget.ui:189
+#, kde-format
+msgid "Pi&xels between cells:"
+msgstr "儲存格之間的像素(&X)："
+
+#: sheets/html/htmlexport.cc:209 sheets/html/htmlexport.cc:385
+#, kde-format
+msgid "Top"
+msgstr "頂端"
+
+#: sheets/latex/export/latexexportdialog.cc:152
+#, kde-format
+msgid "Latex Export Filter Configuration"
+msgstr "Latex 匯出過濾器設定"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Widget2)
+#: sheets/latex/export/latexexportwidget.ui:24
+#, kde-format
+msgid "Document"
+msgstr "文件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: sheets/latex/export/latexexportwidget.ui:32
+#, kde-format
+msgid "Document Style"
+msgstr "文件樣式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, latexStyleButton)
+#: sheets/latex/export/latexexportwidget.ui:38
+#, kde-format
+msgid "Latex style"
+msgstr "LaTeX 樣式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, wordsStyleButton)
+#: sheets/latex/export/latexexportwidget.ui:45
+#, kde-format
+msgid "Words style"
+msgstr "Words 樣式"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: sheets/latex/export/latexexportwidget.ui:58
+#, kde-format
+msgid "Document Type"
+msgstr "文件類型"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, fullDocButton)
+#: sheets/latex/export/latexexportwidget.ui:64
+#, kde-format
+msgid "The document will be able to be compiled alone"
+msgstr "這份文件將可以單獨編譯。"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, fullDocButton)
+#: sheets/latex/export/latexexportwidget.ui:67
+#, fuzzy, kde-format
+#| msgid ""
+#| "The document will be generated as a full latex document since all the "
+#| "include will be generated before the \\begin[document} and "
+#| "\\end{document} commands."
+msgid ""
+"The document will be generated as a full latex document since all the "
+"include will be generated before the \\begin{document} and \\end{document} "
+"commands."
+msgstr ""
+"此文件在以完整 latex 文件產生時，所有介於 \\begin[document} 以及 "
+"\\end{document} 指令間的引入文件將一起產生。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fullDocButton)
+#: sheets/latex/export/latexexportwidget.ui:70
+#, kde-format
+msgid "Independent document"
+msgstr "獨立文件"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, embededButton)
+#: sheets/latex/export/latexexportwidget.ui:80
+#, kde-format
+msgid "Do not generate either the latex header or the document environment"
+msgstr "不要產生 latex 標頭與文件環境。"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, embededButton)
+#: sheets/latex/export/latexexportwidget.ui:83
+#, kde-format
+msgid ""
+"The document will be generated as a latex document which will have to be "
+"included in a main latex document. It will allow you to generate several "
+"little files for each chapter of your document."
+msgstr ""
+"這個文件會產生為 latex 文件。它會將您文件中的每個章節都產生一個小檔案，並包含"
+"在一份主要的 latex 文件中。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, embededButton)
+#: sheets/latex/export/latexexportwidget.ui:86
+#, kde-format
+msgid "Document to include"
+msgstr "要引入的文件"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: sheets/latex/export/latexexportwidget.ui:98
+#, kde-format
+msgid "Document class:"
+msgstr "文件類別："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: sheets/latex/export/latexexportwidget.ui:111
+#, kde-format
+msgid "Quality:"
+msgstr "品質："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
+#: sheets/latex/export/latexexportwidget.ui:122
+#, kde-format
+msgid "Final"
+msgstr "完成"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
+#: sheets/latex/export/latexexportwidget.ui:127
+#, kde-format
+msgid "Draft"
+msgstr "草稿"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultFontSizeTextZone)
+#: sheets/latex/export/latexexportwidget.ui:135
+#, kde-format
+msgid "Default font size:"
+msgstr "預設字體大小："
+
+#. i18n: ectx: attribute (title), widget (QWidget, Widget3)
+#: sheets/latex/export/latexexportwidget.ui:176
+#, kde-format
+msgid "Pictures"
+msgstr "圖片"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: sheets/latex/export/latexexportwidget.ui:182
+#, kde-format
+msgid "Convert the pictures:"
+msgstr "轉換圖片："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: sheets/latex/export/latexexportwidget.ui:199
+#, kde-format
+msgid "Pictures directory:"
+msgstr "圖片目錄："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: sheets/latex/export/latexexportwidget.ui:213
+#: sheets/latex/export/latexexportwidget.ui:244
+#, kde-format
+msgid "Language"
+msgstr "語言"
+
+#. i18n: ectx: property (text), widget (QPushButton, addLanguageBtn)
+#: sheets/latex/export/latexexportwidget.ui:261
+#, kde-format
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, rmLanguageBtn)
+#: sheets/latex/export/latexexportwidget.ui:268
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: sheets/latex/export/latexexportwidget.ui:293
+#, kde-format
+msgid "Contents"
+msgstr "內容"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: sheets/latex/export/latexexportwidget.ui:301
+#, kde-format
+msgid "Export information about author:"
+msgstr "匯出作者資訊："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: sheets/latex/export/latexexportwidget.ui:321
+#, kde-format
+msgid "Add a table of content:"
+msgstr "增加表格內容："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: sheets/latex/export/latexexportwidget.ui:340
+#, kde-format
+msgid "Notes"
+msgstr "筆記"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton7)
+#: sheets/latex/export/latexexportwidget.ui:346
+#, kde-format
+msgid "Don't export"
+msgstr "不匯出"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton5)
+#: sheets/latex/export/latexexportwidget.ui:353
+#, kde-format
+msgid "Export notes in margin notes"
+msgstr "匯出筆記於邊界筆記"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton6)
+#: sheets/latex/export/latexexportwidget.ui:360
+#, kde-format
+msgid "Export notes in comments"
+msgstr "匯出筆記於註解"
+
+#: sheets/opencalc/opencalcexport.cc:918
+#, kde-format
+msgid "Page "
+msgstr "頁面"
+
+#: sheets/opencalc/opencalcimport.cc:1233
+#, kde-format
+msgid "The file seems to be corrupt. Skipping a table."
+msgstr "此檔案似乎已損毀。略過一個表格。"
+
+#: sheets/opencalc/opencalcimport.cc:1244
+#, kde-format
+msgid "Skipping a table."
+msgstr "略過一個表格。"
+
+#: sheets/opencalc/opencalcimport.cc:1944
+#, kde-format
+msgid ""
+"This document was created with OpenOffice.org version '%1'. This filter was "
+"written for version 1.0. Reading this file could cause strange behavior, "
+"crashes or incorrect display of the data. Do you want to continue converting "
+"the document?"
+msgstr ""
+"這個文件是由 OpenOffice.org 版本 %1 所建立的。這個過濾器是為 1.0 版設計的。讀"
+"取這個檔可能會有奇怪的行為，程式當掉或是資料顯示不正確的問題。您要繼續轉換"
+"嗎？"
+
+#: sheets/opencalc/opencalcimport.cc:1945
+#, kde-format
+msgid "Unsupported document version"
+msgstr "不支援的文件版本"
+
+#: sheets/qpro/qproimport.cc:128
+#, kde-format
+msgid "QPRO filter cannot open input file - please report."
+msgstr "QPRO 過濾器無法開啟輸入檔案─請回報錯誤。"
+
+#: sheets/qpro/qproimport.cc:239
+#, kde-format
+msgid ""
+"Unable to open password protected files.\n"
+"The password algorithm has not been published"
+msgstr ""
+"無法開啟以密碼保護的檔案。\n"
+"此密碼演算法尚未公開"
+
+#: sheets/xlsx/XlsxImport.cpp:567 stage/pptx/PptxImport.cpp:1090
+#: words/docx/import/DocxImport.cpp:163
+#, kde-format
+msgid "Unable to find part for type %1"
+msgstr "找不到型態 %1 的部件"
+
+#: sheets/xlsx/XlsxXmlSharedStringsReader.cpp:182
+#, kde-format
+msgid "Declared number of shared strings too small (%1)"
+msgstr "分享字串的宣告數字太小（%1）"
+
+#: sheets/xlsx/XlsxXmlStylesReader.cpp:574
+#, kde-format
+msgid "Declared number of font styles too small (%1)"
+msgstr "字型樣式宣告的數字太小（%1）"
+
+#: sheets/xlsx/XlsxXmlStylesReader.cpp:927
+#, kde-format
+msgid "Declared number of cell formats too small (%1)"
+msgstr "儲存格格式宣告的數字太小（%1）"
+
+#: sheets/xlsx/XlsxXmlStylesReader.cpp:1050
+#: sheets/xlsx/XlsxXmlStylesReader.cpp:1396
+#, kde-format
+msgid "Declared number of fill styles too small (%1)"
+msgstr "充填樣式宣告的數字太小（%1）"
+
+#: sheets/xlsx/XlsxXmlWorksheetReader.cpp:358
+#, kde-format
+msgid ""
+"The data could not be loaded completely because the maximum size of sheet "
+"was exceeded."
+msgstr "資料無法完整被載入，因為超過了工作表的最大大小。"
+
+#: sheets/xlsx/XlsxXmlWorksheetReader.cpp:1437
+#, kde-format
+msgid "Expected integer or floating point number"
+msgstr "預期應為整數或浮點數"
+
+#: stage/pptx/PptxXmlDocumentReader.cpp:294
+#, kde-format
+msgid "Slide layout \"%1\" not found"
+msgstr "投影片佈局 %1 找不到"
+
+#: stage/pptx/PptxXmlSlideReader.cpp:629
+#, kde-format
+msgid "Slide %1"
+msgstr "投影片 %1"
+
+#: words/ascii/ImportDialog.cc:45
+#, kde-format
+msgid "Words's Plain Text Import Filter"
+msgstr "Word 純文字匯入過濾程式"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ImportDialogUI)
+#: words/ascii/ImportDialogUI.ui:16
+#, kde-format
+msgid "Plain Text Import Dialog"
+msgstr "純文字匯入對話盒"
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroupParagraph)
+#: words/ascii/ImportDialogUI.ui:65
+#, kde-format
+msgid "End of Paragraph"
+msgstr "段落結尾"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioParagraphAsIs)
+#: words/ascii/ImportDialogUI.ui:71
+#, kde-format
+msgid "&As is: At the end of line"
+msgstr "當：在行尾時(&A)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioParagraphSentence)
+#: words/ascii/ImportDialogUI.ui:81
+#, kde-format
+msgid "&Sentence: If the end of line is the end of a sentence"
+msgstr "句子：如果行尾是句子的結尾(&S)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioParagraphEmptyLine)
+#: words/ascii/ImportDialogUI.ui:88
+#, kde-format
+msgid "&Empty Line: If the line is empty"
+msgstr "空白行：此行是否為空白(&E)"
+
+#: words/epub/OdtHtmlConverter.cpp:301 words/mobi/OdtMobiHtmlConverter.cpp:323
+#, kde-format
+msgid "End notes"
+msgstr "尾註"
+
+#: words/msword-odf/conversion.cpp:831
+#, kde-format
+msgid "Even Pages Header"
+msgstr "雙數頁標頭"
+
+#: words/msword-odf/conversion.cpp:833
+#, kde-format
+msgid "Odd Pages Header"
+msgstr "單數頁標頭"
+
+#: words/msword-odf/conversion.cpp:835
+#, kde-format
+msgid "Even Pages Footer"
+msgstr "雙數頁註腳"
+
+#: words/msword-odf/conversion.cpp:837
+#, kde-format
+msgid "Odd Pages Footer"
+msgstr "單數頁註腳"
+
+#: words/msword-odf/conversion.cpp:839
+#, kde-format
+msgid "First Page Header"
+msgstr "第一頁標頭"
+
+#: words/msword-odf/conversion.cpp:841
+#, kde-format
+msgid "First Page Footer"
+msgstr "第一頁註腳"
+
+#: words/msword-odf/texthandler.cpp:631
+#, kde-format
+msgid "Table %1"
+msgstr "表格 %1"
+
+#: words/rtf/import/rtfimport.cpp:55
+#, kde-format
+msgid "The file cannot be loaded, as it seems not to be an RTF document."
+msgstr "無法載入檔案，因為似乎不是 RTF 文件。"
+
+#: words/rtf/import/rtfimport.cpp:56 words/rtf/import/rtfimport.cpp:70
+#: words/rtf/import/rtfimport.cpp:80
+#, kde-format
+msgid "Words's RTF Import Filter"
+msgstr "Words RTF 匯出過濾器"
+
+#: words/rtf/import/rtfimport.cpp:69 words/rtf/import/rtfimport.cpp:79
+#, kde-format
+msgid "The file cannot be loaded."
+msgstr "無法載入檔案。"
+
+#, fuzzy
+#~| msgid "Size in Pixels"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Size in Pixels"
+#~ msgstr "大小，以像素為單位"
+
+#, fuzzy
+#~| msgid "Image width:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Image width:"
+#~ msgstr "影像寬度："
+
+#, fuzzy
+#~| msgid "Image height:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Image height:"
+#~ msgstr "影像高度："
+
+#, fuzzy
+#~| msgid "Size in Units"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Size in Units"
+#~ msgstr "大小單位"
+
+#, fuzzy
+#~| msgid "Resolution:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Resolution:"
+#~ msgstr "解析度："
+
+#, fuzzy
+#~| msgid "Unit:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Unit:"
+#~ msgstr "單位："
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Background Color"
+#~ msgstr "背景顏色"
+
+#, fuzzy
+#~| msgid "Color"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Color"
+#~ msgstr "顏色"
+
+#, fuzzy
+#~| msgid "Opacity"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Opacity"
+#~ msgstr "不透明度"
+
+#, fuzzy
+#~| msgid "En&coding:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "En&coding:"
+#~ msgstr "編碼(&C)："
+
+#, fuzzy
+#~| msgid ""
+#~| "With this option you can define the encoding of the HTML file. The "
+#~| "recommended encoding (UTF8) is selected as default."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "With this option you can define the encoding of the HTML file. The "
+#~ "recommended encoding (UTF8) is selected as default."
+#~ msgstr "這個選項讓您定義 HTML 檔案的編碼。預設並且建議使用的編碼為 UTF8。"
+
+#, fuzzy
+#~| msgid "Sheet Selection"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Sheet Selection"
+#~ msgstr "選擇工作表"
+
+#, fuzzy
+#~| msgid "Click here to select all sheets in the list."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Click here to select all sheets in the list."
+#~ msgstr "點選此處以選擇清單中所有的工作表。"
+
+#, fuzzy
+#~| msgid "Select &All"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Select &All"
+#~ msgstr "全部選取(&A)"
+
+#, fuzzy
+#~| msgid "Desele&ct All"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Desele&ct All"
+#~ msgstr "全部取消選擇(&C)"
+
+#, fuzzy
+#~| msgid ""
+#~| "This option will make the HTML export filter generate a new page for "
+#~| "each sheet. If you disable this option, all sheets are written on one "
+#~| "page."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "This option will make the HTML export filter generate a new page for each "
+#~ "sheet. If you disable this option, all sheets are written on one page."
+#~ msgstr ""
+#~ "這個選項會讓 HTML 匯出過濾器對每個工作表產生新的頁面。如果您關閉此選項，所"
+#~ "有的工作表會寫到同一頁面中。"
+
+#, fuzzy
+#~| msgid "Use &separate files for each table"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Use &separate files for each table"
+#~ msgstr "每個表格使用不同的檔案(&S)"
+
+#, fuzzy
+#~| msgid "Style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Style"
+#~ msgstr "樣式"
+
+#, fuzzy
+#~| msgid ""
+#~| "Select this option to use the default fonts and colors for the HTML page."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Select this option to use the default fonts and colors for the HTML page."
+#~ msgstr "選擇此選項以在 HTML 頁面中使用預設的字型與顏色。"
+
+#, fuzzy
+#~| msgid "Use &default style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Use &default style"
+#~ msgstr "使用預設的樣式(&D)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Select this option to specify a separate stylesheet for the HTML page. "
+#~| "You can select or type on in the field below."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Select this option to specify a separate stylesheet for the HTML page. "
+#~ "You can select or type on in the field below."
+#~ msgstr ""
+#~ "選擇此選項為 HTML 頁面指定不同的樣式表。您可以選擇或直接輸入底下的欄位。"
+
+#, fuzzy
+#~| msgid "Use &external stylesheet:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Use &external stylesheet:"
+#~ msgstr "使用外部樣式表(&E)："
+
+#, fuzzy
+#~| msgid ""
+#~| "In this field you can enter an URL for your stylesheet. It is possible "
+#~| "to point to a stylesheet on disk, or to somewhere on the Internet."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "In this field you can enter an URL for your stylesheet. It is possible to "
+#~ "point to a stylesheet on disk, or to somewhere on the Internet."
+#~ msgstr ""
+#~ "這個欄位中您可以輸入您的樣式表的網址。它也可以指向磁碟裡的樣式表，或網際網"
+#~ "路上的某處。"
+
+#, fuzzy
+#~| msgid "Layout"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Layout"
+#~ msgstr "佈局"
+
+#, fuzzy
+#~| msgid "Use this option to enable or disable borders around the cells."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Use this option to enable or disable borders around the cells."
+#~ msgstr "使用此選項開啟或關閉儲存格週邊的邊框。"
+
+#, fuzzy
+#~| msgid "Use &borders"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Use &borders"
+#~ msgstr "使用邊框(&B)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use this option to define how many pixels there should be between the "
+#~| "cells. This effect is better visible if you check <b>Use borders</b> too."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Use this option to define how many pixels there should be between the "
+#~ "cells. This effect is better visible if you check <b>Use borders</b> too."
+#~ msgstr ""
+#~ "使用此選項決定在儲存格之間應該有多少像素。這在您選擇「使用邊框」的時候效果"
+#~ "比較好。"
+
+#, fuzzy
+#~| msgid "Pi&xels between cells:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pi&xels between cells:"
+#~ msgstr "儲存格之間的像素(&X)："
+
+#, fuzzy
+#~| msgid "Document"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Document"
+#~ msgstr "文件"
+
+#, fuzzy
+#~| msgid "Document Style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Document Style"
+#~ msgstr "文件樣式"
+
+#, fuzzy
+#~| msgid "Latex style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Latex style"
+#~ msgstr "LaTeX 樣式"
+
+#, fuzzy
+#~| msgid "Words style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Words style"
+#~ msgstr "Words 樣式"
+
+#, fuzzy
+#~| msgid "Document Type"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Document Type"
+#~ msgstr "文件類型"
+
+#, fuzzy
+#~| msgid "The document will be able to be compiled alone"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "The document will be able to be compiled alone"
+#~ msgstr "這份文件將可以單獨編譯。"
+
+#, fuzzy
+#~| msgid ""
+#~| "The document will be generated as a full latex document since all the "
+#~| "include will be generated before the \\begin[document} and "
+#~| "\\end{document} commands."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "The document will be generated as a full latex document since all the "
+#~ "include will be generated before the \\begin[document} and "
+#~ "\\end{document} commands."
+#~ msgstr ""
+#~ "此文件在以完整 latex 文件產生時，所有介於 \\begin[document} 以及 "
+#~ "\\end{document} 指令間的引入文件將一起產生。"
+
+#, fuzzy
+#~| msgid "Independent document"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Independent document"
+#~ msgstr "獨立文件"
+
+#, fuzzy
+#~| msgid "Do not generate either the latex header or the document environment"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Do not generate either the latex header or the document environment"
+#~ msgstr "不要產生 latex 標頭與文件環境。"
+
+#, fuzzy
+#~| msgid ""
+#~| "The document will be generated as a latex document which will have to be "
+#~| "included in a main latex document. It will allow you to generate several "
+#~| "little files for each chapter of your document."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "The document will be generated as a latex document which will have to be "
+#~ "included in a main latex document. It will allow you to generate several "
+#~ "little files for each chapter of your document."
+#~ msgstr ""
+#~ "這個文件會產生為 latex 文件。它會將您文件中的每個章節都產生一個小檔案，並"
+#~ "包含在一份主要的 latex 文件中。"
+
+#, fuzzy
+#~| msgid "Document to include"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Document to include"
+#~ msgstr "要引入的文件"
+
+#, fuzzy
+#~| msgid "Document class:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Document class:"
+#~ msgstr "文件類別："
+
+#, fuzzy
+#~| msgid "Quality:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Quality:"
+#~ msgstr "品質："
+
+#, fuzzy
+#~| msgid "Final"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Final"
+#~ msgstr "完成"
+
+#, fuzzy
+#~| msgid "Draft"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Draft"
+#~ msgstr "草稿"
+
+#, fuzzy
+#~| msgid "Default font size:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Default font size:"
+#~ msgstr "預設字體大小："
+
+#, fuzzy
+#~| msgid "Pictures"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pictures"
+#~ msgstr "圖片"
+
+#, fuzzy
+#~| msgid "Convert the pictures"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Convert the pictures:"
+#~ msgstr "轉換圖片"
+
+#, fuzzy
+#~| msgid "Pictures directory:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pictures directory:"
+#~ msgstr "圖片目錄："
+
+#, fuzzy
+#~| msgid "Language"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Language"
+#~ msgstr "語言"
+
+#, fuzzy
+#~| msgid "Encoding"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Encoding"
+#~ msgstr "編碼"
+
+#, fuzzy
+#~| msgid "Add"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#, fuzzy
+#~| msgid "Contents"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Contents"
+#~ msgstr "內容"
+
+#, fuzzy
+#~| msgid "Export information about author"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Export information about author:"
+#~ msgstr "匯出作者資訊"
+
+#, fuzzy
+#~| msgid "Add a table of content"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Add a table of content:"
+#~ msgstr "增加表格內容"
+
+#, fuzzy
+#~| msgid "Notes"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Notes"
+#~ msgstr "筆記"
+
+#, fuzzy
+#~| msgid "Don't export"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Don't export"
+#~ msgstr "不匯出"
+
+#, fuzzy
+#~| msgid "Export notes in margin notes"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Export notes in margin notes"
+#~ msgstr "匯出筆記於邊界筆記"
+
+#, fuzzy
+#~| msgid "Export notes in comments"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Export notes in comments"
+#~ msgstr "匯出筆記於註解"
+
+#, fuzzy
+#~| msgid "E&ncoding:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "E&ncoding:"
+#~ msgstr "編碼(&N)："
+
+#, fuzzy
+#~| msgid "End of Line"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "End of Line"
+#~ msgstr "行尾"
+
+#, fuzzy
+#~| msgid "&UNIX style (recommended; line feed only)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&UNIX style (recommended; line feed only)"
+#~ msgstr "UNIX 樣式（建議使用，只有 LF）(&U)"
+
+#, fuzzy
+#~| msgid "&Windows style (carriage return and line feed)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Windows style (carriage return and line feed)"
+#~ msgstr "Windows 樣式（包含 CR 與 LF）(&W)"
+
+#, fuzzy
+#~| msgid "&MacOS style (carriage return only)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&MacOS style (carriage return only)"
+#~ msgstr "MacOS 樣式（只有 CR）(&M)"
+
+#, fuzzy
+#~| msgid "Sheets"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Sheets"
+#~ msgstr "工作表"
+
+#, fuzzy
+#~| msgid "Select sheets to export:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Select sheets to export:"
+#~ msgstr "選擇要匯出的工作表："
+
+#, fuzzy
+#~| msgid "Delimiter Line"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delimiter Line"
+#~ msgstr "分隔線"
+
+#, fuzzy
+#~| msgid "********<SHEETNAME>********"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "********<SHEETNAME>********"
+#~ msgstr "********<SHEETNAME>********"
+
+#, fuzzy
+#~| msgid "<SHEETNAME> gets replaced by the name of the next sheet."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "<SHEETNAME> gets replaced by the name of the next sheet."
+#~ msgstr "<SHEETNAME> 會取代為下個工作表的名稱。"
+
+#, fuzzy
+#~| msgid "Print delimiter line above every sheet"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Print delimiter line above every sheet"
+#~ msgstr "在每個工作表上方列印分隔線"
+
+#, fuzzy
+#~| msgid "Cells"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Cells"
+#~ msgstr "儲存格"
+
+#, fuzzy
+#~| msgid "Delimiter"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delimiter"
+#~ msgstr "定義符號"
+
+#, fuzzy
+#~| msgid "Comma"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Comma"
+#~ msgstr "逗點"
+
+#, fuzzy
+#~| msgid "Semicolon"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Semicolon"
+#~ msgstr "分號"
+
+#, fuzzy
+#~| msgid "Tabulator"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Tabulator"
+#~ msgstr "定位"
+
+#, fuzzy
+#~| msgid "Space"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Space"
+#~ msgstr "空白"
+
+#, fuzzy
+#~| msgid "Other:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Other:"
+#~ msgstr "其他："
+
+#, fuzzy
+#~| msgid "Quotes:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Quotes:"
+#~ msgstr "引號："
+
+#, fuzzy
+#~| msgid "\""
+#~ msgctxt "(qtundo-format)"
+#~ msgid "\""
+#~ msgstr "\""
+
+#, fuzzy
+#~| msgid "'"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "'"
+#~ msgstr "'"
+
+#, fuzzy
+#~| msgid "Export selection only"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Export selection only"
+#~ msgstr "只匯出所選擇的"
+
+#, fuzzy
+#~| msgid "Page:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page:"
+#~ msgstr "頁面："
+
+#, fuzzy
+#~| msgid "Complete Page"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Complete Page"
+#~ msgstr "完成頁面"
+
+#, fuzzy
+#~| msgid "Area of Objects on Page"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Area of Objects on Page"
+#~ msgstr "頁面上的物件區域"
+
+#, fuzzy
+#~| msgid "Area to export:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Area to export:"
+#~ msgstr "要匯出的區域："
+
+#, fuzzy
+#~| msgid "Custom size (in pixels):"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Custom size (in pixels):"
+#~ msgstr "自訂大小（像素）："
+
+#, fuzzy
+#~| msgid "Height:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Height:"
+#~ msgstr "高度："
+
+#, fuzzy
+#~| msgid "Width:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Width:"
+#~ msgstr "寬度："
+
+#, fuzzy
+#~| msgid "Margin:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Margin:"
+#~ msgstr "邊界："
+
+#, fuzzy
+#~| msgid "Plain Text Import Dialog"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Plain Text Import Dialog"
+#~ msgstr "純文字匯入對話盒"
+
+#, fuzzy
+#~| msgid "End of Paragraph"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "End of Paragraph"
+#~ msgstr "段落結尾"
+
+#, fuzzy
+#~| msgid "&As is: At the end of line"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&As is: At the end of line"
+#~ msgstr "當：在行尾時(&A)"
+
+#, fuzzy
+#~| msgid "&Sentence: If the end of line is the end of a sentence"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Sentence: If the end of line is the end of a sentence"
+#~ msgstr "句子：如果行尾是句子的結尾(&S)"
+
+#, fuzzy
+#~| msgid "&Empty Line: If the line is empty"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "&Empty Line: If the line is empty"
+#~ msgstr "空白行：此行是否為空白(&E)"
+
+#, fuzzy
+#~| msgid "Export Error"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Export Error"
+#~ msgstr "匯出錯誤"
+
+#, fuzzy
+#~| msgid "Failed to read data."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Failed to read data."
+#~ msgstr "讀取資料失敗。"
+
+#, fuzzy
+#~| msgid "Malformed XML data."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Malformed XML data."
+#~ msgstr "不正確的 XML 資料。"
+
+#, fuzzy
+#~| msgid "Export to Image"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Export to Image"
+#~ msgstr "匯入影像"
+
+#, fuzzy
+#~| msgid "PNG Export Options"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "PNG Export Options"
+#~ msgstr "PNG 匯出選項"
+
+#, fuzzy
+#~| msgid "Namespace \"%1\" not found"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Namespace \"%1\" not found"
+#~ msgstr "找不到命名空間 %1"
+
+#, fuzzy
+#~| msgid "Could not open the requested file %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not open the requested file %1"
+#~ msgstr "無法開啟要求的檔案 %1"
+
+#, fuzzy
+#~| msgid "Could not read ZIP directory of the requested file %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not read ZIP directory of the requested file %1"
+#~ msgstr "無法讀取要求的檔案 %1 中的 ZIP 目錄"
+
+#, fuzzy
+#~| msgid "Enter password"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Enter password"
+#~ msgstr "輸入密碼"
+
+#, fuzzy
+#~| msgid ""
+#~| "This document is encrypted, please enter the password to decrypt it:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "This document is encrypted, please enter the password to decrypt it:"
+#~ msgstr "文件已加密。請輸入密碼來解密："
+
+#, fuzzy
+#~| msgid ""
+#~| "Incorrect password, please enter the password to decrypt this document:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Incorrect password, please enter the password to decrypt this document:"
+#~ msgstr "不正確的密碼。請輸入密碼來解密此文件："
+
+#, fuzzy
+#~| msgid "Could not find path for type %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not find path for type %1"
+#~ msgstr "找不到型態 %1 的路徑"
+
+#, fuzzy
+#~| msgid "%1 (line %2, column %3)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "%1 (line %2, column %3)"
+#~ msgstr "%1（第 %2 行，第 %3 欄）"
+
+#, fuzzy
+#~| msgid "%1 (%2, line %3, column %4)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "%1 (%2, line %3, column %4)"
+#~ msgstr "%1（%2，第 %3 行，第 %4 欄）"
+
+#, fuzzy
+#~| msgid "Element \"%1\" not found"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Element \"%1\" not found"
+#~ msgstr "元素 %1 找不到"
+
+#, fuzzy
+#~| msgid "Attribute \"%1\" not found"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Attribute \"%1\" not found"
+#~ msgstr "屬性 %1 找不到"
+
+#, fuzzy
+#~| msgid "Unexpected value \"%1\" of attribute \"%2\""
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Unexpected value \"%1\" of attribute \"%2\""
+#~ msgstr "屬性 %2 中未預期的值 %1"
+
+#, fuzzy
+#~| msgid "Unexpected second occurrence of \"%1\" element"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Unexpected second occurrence of \"%1\" element"
+#~ msgstr "未預期的第二次遇到 %1 元素"
+
+#, fuzzy
+#~| msgid "Expected closing of element \"%1\""
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Expected closing of element \"%1\""
+#~ msgstr "預期應該關閉元素 %1"
+
+#, fuzzy
+#~| msgid "None of expected elements found: %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "None of expected elements found: %1"
+#~ msgstr "找不到預期的元素：%1"
+
+#, fuzzy
+#~| msgid "Could not find target for id \"%1\" in file \"%2\""
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not find target for id \"%1\" in file \"%2\""
+#~ msgstr "檔案 %2 內找不到代碼 %1 的目標"
+
+#, fuzzy
+#~| msgid "Could not find relationships file \"%1\""
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not find relationships file \"%1\""
+#~ msgstr "找不到關聯檔 %1"
+
+#, fuzzy
+#~| msgid "Could not find target for relationship \"%1\" in file \"%2\""
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not find target for relationship \"%1\" in file \"%2\""
+#~ msgstr "檔案 %2 內找不到關係 %1 的目標"
+
+#, fuzzy
+#~| msgid ""
+#~| "Parsing error in the main document at line %1, column %2.\n"
+#~| "Error message: %3"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Parsing error in the main document at line %1, column %2.\n"
+#~ "Error message: %3"
+#~ msgstr ""
+#~ "主文件剖析錯誤於行 %1，位置 %2。\n"
+#~ "錯誤訊息：%3"
+
+#, fuzzy
+#~| msgid "QXml"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "QXml"
+#~ msgstr "QXml"
+
+#, fuzzy
+#~| msgid "Entry '%1' not found."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Entry '%1' not found."
+#~ msgstr "項目 %1 找不到。"
+
+#, fuzzy
+#~| msgid "Entry '%1' is not a file."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Entry '%1' is not a file."
+#~ msgstr "項目 %1 不是個檔案。"
+
+#, fuzzy
+#~| msgid "Could not open entry \"%1\" for writing."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not open entry \"%1\" for writing."
+#~ msgstr "無法開啟項目 %1 以寫入。"
+
+#, fuzzy
+#~| msgid "Could not write block"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not write block"
+#~ msgstr "無法寫入區塊"
+
+#, fuzzy
+#~| msgid "<SHEETNAME>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "<SHEETNAME>"
+#~ msgstr "<工作表名稱>"
+
+#, fuzzy
+#~| msgctxt "Descriptive encoding name"
+#~| msgid "Recommended ( %1 )"
+#~ msgctxt "(qtundo-format) Descriptive encoding name"
+#~ msgid "Recommended ( %1 )"
+#~ msgstr "建議（%1）"
+
+#, fuzzy
+#~| msgctxt "Descriptive encoding name"
+#~| msgid "Locale ( %1 )"
+#~ msgctxt "(qtundo-format) Descriptive encoding name"
+#~ msgid "Locale ( %1 )"
+#~ msgstr "區域設定（%1）"
+
+#, fuzzy
+#~| msgctxt "Descriptive encoding name"
+#~| msgid "Other ( %1 )"
+#~ msgctxt "(qtundo-format) Descriptive encoding name"
+#~ msgid "Other ( %1 )"
+#~ msgstr "其他（%1）"
+
+#, fuzzy
+#~| msgid "Cannot find encoding: %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Cannot find encoding: %1"
+#~ msgstr "找不到編碼：%1"
+
+#, fuzzy
+#~| msgid "CSV filter cannot open input file - please report."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "CSV filter cannot open input file - please report."
+#~ msgstr "CSV 過濾器無法開啟輸入檔案─請回報錯誤。"
+
+#, fuzzy
+#~| msgid "File format is not supported."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "File format is not supported."
+#~ msgstr "不支援此檔案格式。"
+
+#, fuzzy
+#~| msgid "Could not read from file."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Could not read from file."
+#~ msgstr "無法從檔案讀取。"
+
+#, fuzzy
+#~| msgid "Export Sheet to HTML"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Export Sheet to HTML"
+#~ msgstr "匯出工作表到 HTML"
+
+#, fuzzy
+#~| msgid "Recommended: UTF-8"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Recommended: UTF-8"
+#~ msgstr "建議使用：UTF-8"
+
+#, fuzzy
+#~| msgid "Locale (%1)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Locale (%1)"
+#~ msgstr "區域設定（%1）"
+
+#, fuzzy
+#~| msgid "Top"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#, fuzzy
+#~| msgid "Latex Export Filter Configuration"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Latex Export Filter Configuration"
+#~ msgstr "Latex 匯出過濾器設定"
+
+#, fuzzy
+#~| msgid "Page "
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Page "
+#~ msgstr "頁面"
+
+#, fuzzy
+#~| msgid "The file seems to be corrupt. Skipping a table."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "The file seems to be corrupt. Skipping a table."
+#~ msgstr "此檔案似乎已損毀。略過一個表格。"
+
+#, fuzzy
+#~| msgid "Skipping a table."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Skipping a table."
+#~ msgstr "略過一個表格。"
+
+#, fuzzy
+#~| msgid ""
+#~| "This document was created with OpenOffice.org version '%1'. This filter "
+#~| "was written for version 1.0. Reading this file could cause strange "
+#~| "behavior, crashes or incorrect display of the data. Do you want to "
+#~| "continue converting the document?"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "This document was created with OpenOffice.org version '%1'. This filter "
+#~ "was written for version 1.0. Reading this file could cause strange "
+#~ "behavior, crashes or incorrect display of the data. Do you want to "
+#~ "continue converting the document?"
+#~ msgstr ""
+#~ "這個文件是由 OpenOffice.org 版本 %1 所建立的。這個過濾器是為 1.0 版設計"
+#~ "的。讀取這個檔可能會有奇怪的行為，程式當掉或是資料顯示不正確的問題。您要繼"
+#~ "續轉換嗎？"
+
+#, fuzzy
+#~| msgid "Unsupported document version"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Unsupported document version"
+#~ msgstr "不支援的文件版本"
+
+#, fuzzy
+#~| msgid "QPRO filter cannot open input file - please report."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "QPRO filter cannot open input file - please report."
+#~ msgstr "QPRO 過濾器無法開啟輸入檔案─請回報錯誤。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Unable to open password protected files.\n"
+#~| "The password algorithm has not been published"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Unable to open password protected files.\n"
+#~ "The password algorithm has not been published"
+#~ msgstr ""
+#~ "無法開啟以密碼保護的檔案。\n"
+#~ "此密碼演算法尚未公開"
+
+#, fuzzy
+#~| msgid "Unable to find part for type %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Unable to find part for type %1"
+#~ msgstr "找不到型態 %1 的部件"
+
+#, fuzzy
+#~| msgid "Declared number of shared strings too small (%1)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Declared number of shared strings too small (%1)"
+#~ msgstr "分享字串的宣告數字太小（%1）"
+
+#, fuzzy
+#~| msgid "Declared number of font styles too small (%1)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Declared number of font styles too small (%1)"
+#~ msgstr "字型樣式宣告的數字太小（%1）"
+
+#, fuzzy
+#~| msgid "Declared number of cell formats too small (%1)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Declared number of cell formats too small (%1)"
+#~ msgstr "儲存格格式宣告的數字太小（%1）"
+
+#, fuzzy
+#~| msgid "Declared number of fill styles too small (%1)"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Declared number of fill styles too small (%1)"
+#~ msgstr "充填樣式宣告的數字太小（%1）"
+
+#, fuzzy
+#~| msgid ""
+#~| "The data could not be loaded completely because the maximum size of "
+#~| "sheet was exceeded."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "The data could not be loaded completely because the maximum size of sheet "
+#~ "was exceeded."
+#~ msgstr "資料無法完整被載入，因為超過了工作表的最大大小。"
+
+#, fuzzy
+#~| msgid "Expected integer or floating point number"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Expected integer or floating point number"
+#~ msgstr "預期應為整數或浮點數"
+
+#, fuzzy
+#~| msgid "Slide layout \"%1\" not found"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Slide layout \"%1\" not found"
+#~ msgstr "投影片佈局 %1 找不到"
+
+#, fuzzy
+#~| msgid "Slide %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Slide %1"
+#~ msgstr "投影片 %1"
+
+#, fuzzy
+#~| msgid "Words's Plain Text Import Filter"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Words's Plain Text Import Filter"
+#~ msgstr "Word 純文字匯入過濾程式"
+
+#, fuzzy
+#~| msgid "Endnote %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "End notes"
+#~ msgstr "尾註 %1"
+
+#, fuzzy
+#~| msgid "Even Pages Header"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Even Pages Header"
+#~ msgstr "雙數頁標頭"
+
+#, fuzzy
+#~| msgid "Odd Pages Header"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Odd Pages Header"
+#~ msgstr "單數頁標頭"
+
+#, fuzzy
+#~| msgid "Even Pages Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Even Pages Footer"
+#~ msgstr "雙數頁註腳"
+
+#, fuzzy
+#~| msgid "Odd Pages Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Odd Pages Footer"
+#~ msgstr "單數頁註腳"
+
+#, fuzzy
+#~| msgid "First Page Header"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "First Page Header"
+#~ msgstr "第一頁標頭"
+
+#, fuzzy
+#~| msgid "First Page Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "First Page Footer"
+#~ msgstr "第一頁註腳"
+
+#, fuzzy
+#~| msgid "Table %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Table %1"
+#~ msgstr "表格 %1"
+
+#, fuzzy
+#~| msgid "The file cannot be loaded, as it seems not to be an RTF document."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "The file cannot be loaded, as it seems not to be an RTF document."
+#~ msgstr "無法載入檔案，因為似乎不是 RTF 文件。"
+
+#, fuzzy
+#~| msgid "Words's RTF Import Filter"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Words's RTF Import Filter"
+#~ msgstr "Words RTF 匯出過濾器"
+
+#, fuzzy
+#~| msgid "The file cannot be loaded."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "The file cannot be loaded."
+#~ msgstr "無法載入檔案。"
+
+#~ msgid "Failed to write file."
+#~ msgstr "寫入檔案失敗。"
+
+#~ msgid "%1 Export Error"
+#~ msgstr "%1 匯出錯誤"
+
+#~ msgid "Export Filter Parameters"
+#~ msgstr "匯出過濾器參數"
+
+#~ msgid "Keep ratio"
+#~ msgstr "保持比例"
+
+#~ msgid "Width (%):"
+#~ msgstr "寬度（%）："
+
+#~ msgid "Height (%):"
+#~ msgstr "高度（%）："
+
+#~ msgid "PNG Export Error"
+#~ msgstr "PNG 匯出錯誤"
+
+#~ msgid "EPS Export"
+#~ msgstr "EPS 匯出"
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "PostScript level 1"
+#~ msgstr "PostScript 第一級"
+
+#~ msgid "PostScript level 2"
+#~ msgstr "PostScript 第二級"
+
+#~ msgid "PostScript level 3"
+#~ msgstr "PostScript 第三級"
+
+#~ msgid "Import"
+#~ msgstr "匯入"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Number"
+#~ msgstr "數字"
+
+#~ msgid "Currency"
+#~ msgstr "貨幣"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Decimal Comma Number"
+#~ msgstr "千位點數字"
+
+#~ msgid "Decimal Point Number"
+#~ msgstr "小數點數字"
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid ""
+#~ "Please check the ranges you specified. The start value must be lower than "
+#~ "the end value."
+#~ msgstr "請檢查您指定的範圍。開始值必須小於結束值。"
+
+#~ msgid "Common"
+#~ msgstr "一般的"
+
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#~ msgid "Ignore duplicate delimiters"
+#~ msgstr "忽略重複的分隔子"
+
+#~ msgid "Text&quote:"
+#~ msgstr "文字引號(&Q)："
+
+#~ msgid "&Format:"
+#~ msgstr "格式(&F)："
+
+#~ msgid "Ranges"
+#~ msgstr "範圍"
+
+#~ msgid "to"
+#~ msgstr "到"
+
+#~ msgid "Import lines:"
+#~ msgstr "匯入行："
+
+#~ msgid "Import columns:"
+#~ msgstr "匯入欄："
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid "&Help"
+#~ msgstr "說明(&H)"
+
+#~ msgid "F1"
+#~ msgstr "F1"
+
+#~ msgid "&OK"
+#~ msgstr "確定(&O)"
+
+#~ msgid "&Cancel"
+#~ msgstr "取消(&C)"
+
+#~ msgid ""
+#~ "An error has occurred while parsing the Words file.\n"
+#~ "At line: %1, column %2\n"
+#~ "Error message: %3"
+#~ msgstr ""
+#~ "剖析 Words 檔案時發生錯誤。\n"
+#~ "在第 %1 列，第 %2 欄\n"
+#~ "錯誤訊息： %3"
+
+#~ msgid "Words Export Filter Library"
+#~ msgstr "Words 匯出過濾器函式庫"
+
+#~ msgid "Export XSLT Configuration"
+#~ msgstr "轉出 XSLT 設定"
+
+#~ msgid "Open Document"
+#~ msgstr "開啟文件"
+
+#~ msgid "Import XSLT Configuration"
+#~ msgstr "轉入 XSLT 設定"
+
+#~ msgid "Common xslt Files"
+#~ msgstr "一般 xslt 檔案"
+
+#~ msgid "Personal xslt Files"
+#~ msgstr "個人 xslt 檔案"
+
+#~ msgid "Choose..."
+#~ msgstr "選擇..."
+
+#~ msgid "SVG Export Error"
+#~ msgstr "SVG 匯出錯誤"
+
+#~ msgid "LaTeX Export Error"
+#~ msgstr "LaTeX 匯出錯誤"
+
+#~ msgid "PNG Export Filter Parameters"
+#~ msgstr "PNG 匯出過濾器參數"
+
+#~ msgid "Height"
+#~ msgstr "高度"
+
+#~ msgid "Width"
+#~ msgstr "寬度"
+
+#~ msgid "Height (%)"
+#~ msgstr "高度(%)"
+
+#~ msgid "Width (%)"
+#~ msgstr "寬度(%)"
+
+#~ msgid "Slide Title"
+#~ msgstr "投影片標題"
+
+#~ msgctxt "Frameset name"
+#~ msgid "Picture %1"
+#~ msgstr "圖片 %1"
+
+#~ msgctxt "Frameset name"
+#~ msgid "Table %3, row %1, column %2"
+#~ msgstr "表格 %3，列 %1，欄 %2"
+
+#~ msgid ""
+#~ "An error has occurred while parsing the AbiWord file.\n"
+#~ "At line: %1, column %2\n"
+#~ "Error message: %3"
+#~ msgstr ""
+#~ "在解析AbiWord檔案時發生一個錯誤。\n"
+#~ "在第 %1 列，第 %2 欄 \n"
+#~ "錯誤訊息： %3"
+
+#~ msgid "AbiWord Import Filter"
+#~ msgstr "AbiWord 匯入過濾器"
+
+#~ msgctxt "Frameset name"
+#~ msgid "Main Text Frameset"
+#~ msgstr "主要文字結構"
+
+#~ msgid "An error occurred during the load of the AbiWord file: %1"
+#~ msgstr "在載入 AbiWord 檔 %1 時發生一個錯誤"
+
+#~ msgid "Unable to save document information."
+#~ msgstr "無法儲存文件資訊。"
+
+#~ msgid "Unable to save main document."
+#~ msgstr "無法儲存主要文件。"
+
+#~ msgctxt "Frameset name"
+#~ msgid "Footnote %1"
+#~ msgstr "註腳 %1"
+
+#~ msgid "Words's Plain Text Export Filter"
+#~ msgstr "Words 純文字匯出過濾程式"
+
+#~ msgid "Words's HTML Export Filter"
+#~ msgstr "Words HTML 匯出過濾器"
+
+#~ msgid "Untitled Document"
+#~ msgstr "未命名文件"
+
+#~ msgid "Latex Import Filter Parameters"
+#~ msgstr "Latex 匯入過濾器參數"
+
+#~ msgid "Unicode"
+#~ msgstr "萬國碼"
+
+#~ msgid "latin1"
+#~ msgstr "Latin1"
+
+#~ msgid "New document"
+#~ msgstr "新文件"
+
+#~ msgid "Embedded document"
+#~ msgstr "嵌入式文件"
+
+#~ msgid "Words's MS Write Import Filter"
+#~ msgstr "Words 的 MS 小作家匯入過濾器"
+
+#~ msgid "Header"
+#~ msgstr "標頭"
+
+#~ msgid "Footer"
+#~ msgstr "註腳"
+
+#~ msgid "Main Text Frameset"
+#~ msgstr "主要文字結構"
+
+#~ msgctxt "Object name"
+#~ msgid "Table %1"
+#~ msgstr "表格 %1"
+
+#~ msgctxt "Object name"
+#~ msgid "Table Frame %1"
+#~ msgstr "表格結構 %1"
+
+#~ msgctxt "Pseudo-author for annotations"
+#~ msgid "KWord 1.3"
+#~ msgstr "KWord 1.3"
+
+#~ msgid "Plain Text Export Dialog"
+#~ msgstr "純文字匯出對話盒"
+
+#~ msgid "HTML Export Dialog"
+#~ msgstr "HTML 匯出對話框"
+
+#~ msgid "&HTML 4.01"
+#~ msgstr "HTML 4.01 (&H)"
+
+#~ msgid "HTML 4.01 (For older HTML user agents) "
+#~ msgstr "HTML 4.01 (給較舊的HTML使用者代理)"
+
+#~ msgid "&XHTML 1.0"
+#~ msgstr "XHTML 1.0(&X)"
+
+#~ msgid "XHTML 1.0"
+#~ msgstr "XHTML 1.0"
+
+#~ msgid "Mode"
+#~ msgstr "模式"
+
+#~ msgid "L&ight: Convert to strict (X)HTML"
+#~ msgstr "輕量型：轉換到嚴謹的 (X)HTML(&I)"
+
+#~ msgid ""
+#~ "Convert mainly the document structure (Recommended for exporting to "
+#~ "browsers with limited capabilities)"
+#~ msgstr "轉換文件的主要結構(建議匯出至有此功能的瀏覽器)"
+
+#~ msgid "&Basic: Convert to transitional (X)HTML"
+#~ msgstr "基本型：轉換到過渡性的 (X)HTML(&B)"
+
+#~ msgid ""
+#~ "Convert most of the document (Recommended for re-importing in Words or "
+#~ "for exporting to older browsers)"
+#~ msgstr "轉換文件的大部份內容（建議在 Words 中重新匯出或匯出至較舊的瀏覽器）"
+
+#~ msgid "&Enhanced: Convert to (X)HTML with CSS"
+#~ msgstr "增強型：用 CSS 轉換到 (X)HTML(&E)"
+
+#~ msgid ""
+#~ "Convert as much as possible of the Words document (Recommended for "
+#~ "exporting to other modern word processors or to modern browsers)"
+#~ msgstr ""
+#~ "儘可能地轉換 Words 文件（建議匯出至其它新的文書處理器或新型的瀏覽器）"
+
+#~ msgid "Use external CSS sheet:"
+#~ msgstr "使用外部 CSS 工作表："
+
+#~ msgid "Enter the location of the CSS file in this field"
+#~ msgstr "在此欄位輸入 CSS 檔案的位置"
+
+#~ msgid "This directory will contains the eps pictures of your document"
+#~ msgstr "這個目錄將包含您文件中的 eps 圖片。"
+
+#~ msgid "MS Write Import Dialog"
+#~ msgstr "MS 小作家匯入對話盒"
+
+#~ msgid "&Encoding"
+#~ msgstr "編碼(&E)"
+
+#~ msgid ""
+#~ "Select the encoding of the Write document.<br><br>Try the Default  "
+#~ "Encoding (CP 1252), if unsure."
+#~ msgstr ""
+#~ "選擇小作家文件的編碼。<br><br>如果不確定，可以試試預設編碼(CP 1252)。"
+
+#~ msgid "&Other encoding:"
+#~ msgstr "其他編碼(&O)："
+
+#~ msgid "&Default encoding (CP 1252)"
+#~ msgstr "預設編碼(CP 1252)(&D)"
+
+#~ msgid ""
+#~ "Most Write documents are stored using this encoding (also known as "
+#~ "windows-1252).<br><br>Select this if unsure."
+#~ msgstr ""
+#~ "大部分的小作家文件都是使用這個編碼儲存的（也稱作windows-1252）。<br><br>如"
+#~ "果不確定就選擇這個值。"
+
+#~ msgid "&Advanced"
+#~ msgstr "進階(&A)"
+
+#~ msgid ""
+#~ "These advanced options allow you to fine-tune the importing of formatting "
+#~ "information. They compensate for differences between Words and MS Write "
+#~ "by adding extra formatting information (not found in the original "
+#~ "document), to try to make the imported document look as close to the "
+#~ "original as possible.<br><br>It is safe to use the defaults, if unsure."
+#~ msgstr ""
+#~ "這些進階選項允許您精確校調格式資訊的匯入。它以增加額外的格式資訊（原始文件"
+#~ "中不包含的）的方式來彌補 Words 與 MS 小作家之間的差異，並試著儘可能讓匯入"
+#~ "的文件看起來跟原始文件更為接近。<br><br>如果不確定，使用預設值也是安全的。"
+
+#~ msgid "Compensate for &linespacing differences"
+#~ msgstr "彌補行距的差異(&L)"
+
+#~ msgid ""
+#~ "Try to simulate Write's linespacing by adding some spaces before each "
+#~ "paragraph."
+#~ msgstr "以在每一個段落前加上若干空白的方式試著模擬小作家的行距。"
+
+#~ msgid "Enable &image positioning"
+#~ msgstr "啟用影像位置(&I)"
+
+#~ msgid "Use paragraph indentation to position images."
+#~ msgstr "使用段落縮排來定位影像。"
+
+#~ msgid "DCM Import"
+#~ msgstr "DCM 匯入"
+
+#~ msgid "Import options"
+#~ msgstr "匯入選項"
+
+#~ msgid "Read digital signatures from the dataset"
+#~ msgstr "從資料集讀取數位簽章"
+
+#~ msgid "Ignore relationship constraints"
+#~ msgstr "忽略關係限制"
+
+#~ msgid ""
+#~ "Do not abort on content item errors\n"
+#~ "(e.g. missing value type specific attributes)"
+#~ msgstr ""
+#~ "不要因內容項目錯誤而中止\n"
+#~ "（例：遺失數值型態指定的屬性）"
+
+#~ msgid "Skip invalid content item subtree"
+#~ msgstr "略過不合法的內容項目子樹"
+
+#~ msgid "Note \"%1\" already exists"
+#~ msgstr "備忘 %1 已存在"
+
+#~ msgid ""
+#~ "The document cannot be loaded, as it seems not to follow the RTF syntax."
+#~ msgstr "無法載入文件，因為並非 RTF 格式。"
+
+#~ msgid ""
+#~ "The RTF (Rich Text Format) document has an unexpected version number: %1. "
+#~ "Continuing might result in an erroneous conversion. Do you want to "
+#~ "continue?"
+#~ msgstr ""
+#~ "RTF（Rich Text Format）文件的版本號不正確（%1）。繼續的話可能造成轉換錯"
+#~ "誤。您要繼續嗎？"
+
+#~ msgid ""
+#~ "The PWD (PocketWord's Rich Text Format) document has an unexpected "
+#~ "version number: %1. Continuing might result in an erroneous conversion. "
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "PWD（Pocket Word's RTF）文件的版本號不正確（%1）。繼續的話可能造成轉換錯"
+#~ "誤。您要繼續嗎？"
+
+#~ msgid ""
+#~ "The URTF (\"Unicode Rich Text Format\") document has an unexpected "
+#~ "version number: %1. Continuing might result in an erroneous conversion. "
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "URTF（Unicode RTF）文件的版本號不正確（%1）。繼續的話可能造成轉換錯誤。您"
+#~ "要繼續嗎？"
+
+#~ msgid ""
+#~ "The RTF document cannot be loaded, as it has an unexpected first keyword: "
+#~ "\\%1."
+#~ msgstr "無法載入 RTF 文件，因為第一個關鍵字 \\%1 錯誤。"
+
+#~ msgid "Declared number of border styles too small (%1)"
+#~ msgstr "邊框樣式宣告的數字太小（%1）"
+
+#~ msgid "Old &method: If the line is empty or has less than 40 characters"
+#~ msgstr "老方法：如果為此行是空的或其字元少於 40 個(&M)"
+
+#~ msgid "KFormula Import Error"
+#~ msgstr "KFormula 匯入錯誤"
+
+#~ msgid "KFormula1.3 Import Filter"
+#~ msgstr "KFormula1.3 匯入過濾器"
+
+#~ msgid "Available Sheets"
+#~ msgstr "可用的工作表"
+
+#~ msgid "Endnote \"%1\" not found"
+#~ msgstr "尾註 %1 找不到"
+
+#~ msgid "Comment \"%1\" not found"
+#~ msgstr "註解 %1 找不到"
+
+#~ msgid "Footnote \"%1\" not found"
+#~ msgstr "註腳 %1 找不到"
+
+#~ msgid "Invalid comment date \"%1\""
+#~ msgstr "不合法的註解日期 %1"
+
+#~ msgid "Picture %1"
+#~ msgstr "圖片 %1"
+
+#~ msgid "Declared number of formats too small (%1)"
+#~ msgstr "格式宣告的數字太小（%1）"
+
+#~ msgid "A password is required to read that pdf"
+#~ msgstr "需要密碼才能讀取該 pdf 檔"
+
+#~ msgid "Page %1"
+#~ msgstr "頁面 %1"
+
+#~ msgid "Cannot export images in %1.\n"
+#~ msgstr "無法匯出在 %1 的圖片。\n"
+
+#~ msgid "JPEG Export Options"
+#~ msgstr "JPEG 匯出選項"
+
+#~ msgid "TIFF Export Options"
+#~ msgstr "TIFF 匯出選項"
+
+#~ msgid "All Images"
+#~ msgstr "所有影像"
+
+#~ msgid ""
+#~ "The image is using an unsupported color space. Please convert to 16-bit "
+#~ "floating point RGB/Alpha before saving in the OpenEXR format."
+#~ msgstr ""
+#~ "這個影像使用未支援的色彩空間。在儲存成 OpenEXR 格式之前，請先轉換成 16 位"
+#~ "元浮點 RGB/Alpha。"
+
+#~ msgid "PDFImportWidget"
+#~ msgstr "PDF 匯入元件"
+
+#~ msgid "Pages"
+#~ msgstr "頁面"
+
+#~ msgid "&All pages"
+#~ msgstr "所有頁面(&A)"
+
+#~ msgid "&First page"
+#~ msgstr "第一頁(&F)"
+
+#~ msgid "&Selection of page"
+#~ msgstr "選擇頁面(&S)"
+
+#~ msgid "Dimensions"
+#~ msgstr "尺寸"
+
+#~ msgctxt "vertical resolution"
+#~ msgid "Vertical:"
+#~ msgstr "垂直："
+
+#~ msgctxt "horizontal resolution"
+#~ msgid "Horizontal:"
+#~ msgstr "水平："
+
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgid "Options of Your PNG"
+#~ msgstr "您的 PNG 選項"
+
+#~ msgid ""
+#~ "Note: the compression level does not change the quality of the result"
+#~ msgstr "注意：壓縮等級不會改變結果的品質"
+
+#~ msgid ""
+#~ "<p>Adjust the compression time. Better compression takes longer.\n"
+#~ "<br>Note: the compression level does not change the quality of the result."
+#~ "</p>"
+#~ msgstr ""
+#~ "<p>調整壓縮時間。較好的壓縮會花比較長的時間。\n"
+#~ "<br>注意：壓縮等級不會改變結果的品質。</p>"
+
+#~ msgid "Compress:"
+#~ msgstr "壓縮："
+
+#~ msgctxt ""
+#~ "The compression will take a long time; saving the file will be slow."
+#~ msgid "Slow"
+#~ msgstr "慢"
+
+#~ msgctxt "The file will save fast but will not be compressed a lot"
+#~ msgid "Fast"
+#~ msgstr "快"
+
+#~ msgctxt "the file will be small"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "the file will be big"
+#~ msgid "Big"
+#~ msgstr "大"
+
+#~ msgid "Use interlacing when publishing on the Internet"
+#~ msgstr "在網際網路上公布時使用交錯式"
+
+#~ msgid ""
+#~ "<p>Interlacing is useful if you intend to publish your image on the "
+#~ "Internet.<br>\n"
+#~ "Enabling interlacing will cause the image to be displayed by the browser "
+#~ "even while downloading.</p>"
+#~ msgstr ""
+#~ "<p>交錯式在您打算在網際網路上公開您的圖片時有用。<br>\n"
+#~ "開啟交錯式會讓圖片在瀏覽器下載時就顯示出來。</p>"
+
+#~ msgid "Interlacing"
+#~ msgstr "交錯式"
+
+#~ msgid "Disable to get smaller files if your image has no transparency"
+#~ msgstr "如果您的影像沒有透明度設定，您可以關閉此選項以便讓檔案變小。"
+
+#~ msgid ""
+#~ "<p>The Portable Network Graphics (PNG) file format allows transparency in "
+#~ "your image to be stored by saving an alpha channel.\n"
+#~ "You can uncheck the box if you are not using transparency and you want to "
+#~ "make the resulting file smaller .<br>Always saving the alpha channel is "
+#~ "recommended.</p>"
+#~ msgstr ""
+#~ "<p>可攜式網路圖形（Portable Network Graphics，PNG）檔案格式可以將您的圖片"
+#~ "的透明度設定儲存在 alpha 頻道中。如果您沒有使用透明度設定，而且要讓檔案變"
+#~ "小，您可以取消此選項。<br>建議永遠儲存 alpha 頻道。</p>"
+
+#~ msgid "Store alpha channel (transparency)"
+#~ msgstr "儲存 alpha 頻道（透明度）"
+
+#~ msgid "No image loaded"
+#~ msgstr "沒有載入影像"
+
+#~ msgctxt ""
+#~ "Show a preview of the image after saving to assess the quality difference"
+#~ msgid "Preview image"
+#~ msgstr "預覽影像"
+
+#~ msgid "Size: 100KB"
+#~ msgstr "大小：100KB"
+
+#~ msgid "Basic"
+#~ msgstr "基本"
+
+#~ msgid "File size:"
+#~ msgstr "檔案大小："
+
+#~ msgctxt ""
+#~ "the file will be much compressed, thus small, but quality will be bad"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgctxt "the file will be good quality, but big"
+#~ msgid "Big"
+#~ msgstr "大"
+
+#~ msgid ""
+#~ "These settings determine how much information is lost during compression"
+#~ msgstr "這些設定決定壓縮時會遺失多少資訊"
+
+#~ msgctxt "the file will be much compressed, so the quality will be bad"
+#~ msgid "Bad"
+#~ msgstr "差"
+
+#~ msgctxt "the quality will be good but the file will not be much compressed"
+#~ msgid "Good"
+#~ msgstr "好"
+
+#~ msgctxt "A progressive jpeg file can be displayed while loading."
+#~ msgid "Progressive"
+#~ msgstr "漸進模式"
+
+#~ msgid "Advanced quality"
+#~ msgstr "進階品質"
+
+#~ msgid "Optimize"
+#~ msgstr "最佳化"
+
+#~ msgctxt "the result will be artificially smoothed to hide jpeg artefacts"
+#~ msgid "Smooth:"
+#~ msgstr "平滑："
+
+#~ msgid "Force baseline JPEG"
+#~ msgstr "強制性基礎 JPEG"
+
+#~ msgid "Subsampling:"
+#~ msgstr "子取樣："
+
+#~ msgid "2x2, 1x1, 1x1 (smallest file)"
+#~ msgstr "2x2, 1x1, 1x1 (最小的檔案)"
+
+#~ msgid "2x1, 1x1, 1x1"
+#~ msgstr "2x1, 1x1, 1x1"
+
+#~ msgid "1x2, 1x1, 1x1"
+#~ msgstr "1x2, 1x1, 1x1"
+
+#~ msgid "1x1, 1x1, 1x1 (best quality)"
+#~ msgstr "1x1, 1x1, 1x1（最好的品質）"
+
+#~ msgid "Metadata"
+#~ msgstr "中繼資料"
+
+#~ msgid "Formats:"
+#~ msgstr "格式："
+
+#~ msgid "Exif"
+#~ msgstr "Exif"
+
+#~ msgid "IPTC"
+#~ msgstr "IPTC"
+
+#~ msgid "XMP"
+#~ msgstr "XMP"
+
+#~ msgid "Filters:"
+#~ msgstr "過濾器："
+
+#~ msgid "Options of Your TIFF"
+#~ msgstr "您的 TIFF 選項"
+
+#~ msgid "TIFF Options"
+#~ msgstr "TIFF 選項"
+
+#~ msgid "Compression type:"
+#~ msgstr "壓縮型態："
+
+#~ msgid "JPEG DCT Compression"
+#~ msgstr "JPEG DCT 壓縮"
+
+#~ msgid "Deflate (ZIP)"
+#~ msgstr "Deflate（ZIP）"
+
+#~ msgid "Lempel-Ziv & Welch (LZW)"
+#~ msgstr "Lempel-Ziv & Welch (LZW)"
+
+#~ msgid "Leadtools JPEG2000"
+#~ msgstr "Leadtools JPEG2000"
+
+#~ msgid "CCITT Modified Huffman RLE"
+#~ msgstr "CCITT 修正的 Huffman RLE"
+
+#~ msgid "CCITT Group 3 Fax Encoding"
+#~ msgstr "CCITT 群組 3 傳真編碼"
+
+#~ msgid "CCITT Group 4 Fax Encoding"
+#~ msgstr "CCITT 群組 4 傳真編碼"
+
+#~ msgid "Pixar Log"
+#~ msgstr "Pixar 紀錄檔"
+
+#~ msgid "Predictor:"
+#~ msgstr "預測器："
+
+#~ msgid ""
+#~ "Using a predictor can improve the compression (mostly for LZW and deflate)"
+#~ msgstr "使用預測器可以改進壓縮（大部份是為了 LZW 與 Deflate）"
+
+#~ msgid "Horizontal Differencing"
+#~ msgstr "水平差異"
+
+#~ msgid "Floating Point Horizontal Differencing"
+#~ msgstr "浮點水平差異"
+
+#~ msgid "Store alpha &channel (transparency)"
+#~ msgstr "儲存 alpha 頻道（透明度）(&C)"
+
+#~ msgid ""
+#~ "This option will merge all layers. It is advisable to check this option, "
+#~ "otherwise other applications might not be able to read your file correctly"
+#~ msgstr ""
+#~ "這個選項會將所有層次合併。建議勾選此選項，否則其他應用程式可能無法正確讀取"
+#~ "您的檔案。"
+
+#~ msgid "Flatten the &image"
+#~ msgstr "平面化圖片(&I)"
+
+#~ msgid "JPEG Compression Options"
+#~ msgstr "JPEG 壓縮選項"
+
+#~ msgid "Smallest"
+#~ msgstr "最小的"
+
+#~ msgid "Best"
+#~ msgstr "最好的"
+
+#~ msgid "Deflate Compression Options"
+#~ msgstr "Deflate 壓縮選項"
+
+#~ msgctxt "save the file quickly, but do not compress very well"
+#~ msgid "Fast"
+#~ msgstr "快"
+
+#~ msgctxt "make the file small, at the price of a longer saving time"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "CCITT Group 3 fax encoding Options"
+#~ msgstr "CCITT 群組 3 傳真編碼選項"
+
+#~ msgid "Fax mode:"
+#~ msgstr "傳真模式："
+
+#~ msgid "Classic"
+#~ msgstr "傳統"
+
+#~ msgid "No RTC"
+#~ msgstr "沒有 RTC"
+
+#~ msgid "No EOL"
+#~ msgstr "沒有行尾"
+
+#~ msgid "Pixar Log Compression Options"
+#~ msgstr "Pixar 紀錄壓縮選項"
+
+#~ msgctxt "save quickly, but do not compress a lot"
+#~ msgid "Fast"
+#~ msgstr "快"
+
+#~ msgctxt "make a very small file, but take a long time saving"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Initializing..."
+#~ msgstr "初始化中..."
+
+#~ msgid "First pass: page #%1..."
+#~ msgstr "第一階段: 第 %1 頁..."
+
+#~ msgid "Second pass: page #%1..."
+#~ msgstr "第二階段: 第 %1 頁..."
+
+#~ msgid "Body Frameset #%1"
+#~ msgstr "本文框架 #%1"
+
+#~ msgid "Header Frameset #%1"
+#~ msgstr "頁首框架 #%1"
+
+#~ msgid "Footer Frameset #%1"
+#~ msgstr "頁尾框架 #%1"
+
+#~ msgid "Text Frameset %1"
+#~ msgstr "文字框架 #%1"
+
+#~ msgid "KWord's PDF Import Filter"
+#~ msgstr "KWord's PDF 匯入過濾器"
+
+#~ msgid "Page Selection"
+#~ msgstr "選擇頁"
+
+#~ msgid "All (%1 pages)"
+#~ msgstr "全部 (共 %1 頁)"
+
+#~ msgid "Range:"
+#~ msgstr "範圍:"
+
+#~ msgid "Import images"
+#~ msgstr "匯入影像"
+
+#~ msgid "\"Smart\" mode"
+#~ msgstr "智慧模式"
+
+#~ msgid ""
+#~ "Removes returns and hyphens at end of line. Also tries to compute the "
+#~ "paragraph alignment. Note that the layout of some pages can get messed up."
+#~ msgstr ""
+#~ "移除行尾的換行符號與連字號。並且試著計算段落的縮排。注意有些頁面的佈局可能"
+#~ "會變亂七捌糟。"
+
+#~ msgid "Owner:"
+#~ msgstr "文件所有人:"
+
+#~ msgid "User:"
+#~ msgstr "使用者:"
+
+#~ msgid "Footnote %1"
+#~ msgstr "註腳 %1"
+
+#~ msgctxt "Table_Name Cell row,column"
+#~ msgid "%1 Cell %2,%3"
+#~ msgstr "%1 儲存格 %2 %3"

@@ -1,0 +1,264 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-01-02 03:15+0100\n"
+"PO-Revision-Date: 2015-02-16 22:33+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: addarchivemaildialog.cpp:45
+#, kde-format
+msgid "Modify Archive Mail"
+msgstr "變更郵件歸檔"
+
+#: addarchivemaildialog.cpp:47 archivemailwidget.cpp:259
+#, kde-format
+msgid "Add Archive Mail"
+msgstr "新增郵件歸檔"
+
+#: addarchivemaildialog.cpp:59
+#, kde-format
+msgid "&Folder:"
+msgstr "資料夾(&F)："
+
+#: addarchivemaildialog.cpp:73
+#, fuzzy, kde-format
+#| msgid "F&ormat:"
+msgid "Format:"
+msgstr "格式(&O)："
+
+#: addarchivemaildialog.cpp:81
+#, kde-format
+msgid "Archive all subfolders"
+msgstr "歸檔所有的子資料夾"
+
+#: addarchivemaildialog.cpp:87
+#, kde-format
+msgid "Path:"
+msgstr "路徑："
+
+#: addarchivemaildialog.cpp:97
+#, kde-format
+msgid "Backup each:"
+msgstr "備份間隔："
+
+#: addarchivemaildialog.cpp:113
+#, kde-format
+msgid "Maximum number of archive:"
+msgstr "歸檔最大數量："
+
+#: addarchivemaildialog.cpp:118
+#, kde-format
+msgid "unlimited"
+msgstr "不限制"
+
+#: archivemaildialog.cpp:41
+#, kde-format
+msgid "Configure Archive Mail Agent"
+msgstr "設定歸檔郵件代理程式"
+
+#: archivemaildialog.cpp:67
+#, kde-format
+msgid "Archive Mail Agent"
+msgstr "歸檔郵件代理程式"
+
+#: archivemaildialog.cpp:69
+#, kde-format
+msgid "Archive emails automatically."
+msgstr "自動歸檔電子郵件。"
+
+#: archivemaildialog.cpp:71
+#, fuzzy, kde-format
+#| msgid "Copyright (C) 2012-2015 Laurent Montel"
+msgid "Copyright (C) 2012-2018 Laurent Montel"
+msgstr "Copyright (C) 2012-2015 Laurent Montel"
+
+#: archivemaildialog.cpp:73
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: archivemaildialog.cpp:74
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: archivemaildialog.cpp:77
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#: archivemaildialog.cpp:78
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: archivemailinfo.cpp:93 archivemailinfo.cpp:110
+#, kde-format
+msgctxt "Start of the filename for a mail archive file"
+msgid "Archive"
+msgstr "歸檔"
+
+#: archivemailwidget.cpp:70
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: archivemailwidget.cpp:70
+#, kde-format
+msgid "Last archive"
+msgstr "上次歸檔"
+
+#: archivemailwidget.cpp:70
+#, kde-format
+msgid "Next archive in"
+msgstr "下次歸檔時間："
+
+#: archivemailwidget.cpp:70
+#, kde-format
+msgid "Storage directory"
+msgstr "儲存目錄"
+
+#. i18n: ectx: property (text), widget (QPushButton, addItem)
+#: archivemailwidget.cpp:100 ui/archivemailwidget.ui:31
+#, kde-format
+msgid "Add..."
+msgstr "新增..."
+
+#: archivemailwidget.cpp:103
+#, kde-format
+msgid "Open Containing Folder..."
+msgstr "開啟存放資料夾..."
+
+#: archivemailwidget.cpp:105
+#, kde-format
+msgid "Archive now"
+msgstr "現在歸檔"
+
+#: archivemailwidget.cpp:108
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: archivemailwidget.cpp:166
+#, kde-format
+msgid "Folder: %1"
+msgstr "資料夾：%1"
+
+#: archivemailwidget.cpp:182
+#, kde-format
+msgid "Tomorrow"
+msgid_plural "%1 days"
+msgstr[0] "%1 天"
+
+#: archivemailwidget.cpp:190
+#, kde-format
+msgid "Archive will be done %1"
+msgstr "歸檔將完成 %1"
+
+#: archivemailwidget.cpp:223
+#, fuzzy, kde-format
+#| msgid "Do you want to delete selected items? Do you want to continue?"
+msgid "Do you want to delete the selected items?"
+msgstr "您確定要刪除選取的項目嗎？"
+
+#: archivemailwidget.cpp:223
+#, kde-format
+msgid "Remove items"
+msgstr "移除項目"
+
+#: archivemailwidget.cpp:259
+#, kde-format
+msgid ""
+"Cannot add a second archive for this folder. Modify the existing one instead."
+msgstr "同一個資料夾無法新增第二個歸檔。將改為變更現有的歸檔。"
+
+#: job/archivejob.cpp:72
+#, kde-format
+msgid "Directory does not exist. Please verify settings. Archive postponed."
+msgstr "目錄不存在。請檢查設定。壓縮將延後。"
+
+#: job/archivejob.cpp:90
+#, kde-format
+msgid "Start to archive %1"
+msgstr "開始歸檔 %1"
+
+#. i18n: ectx: property (text), widget (QPushButton, modifyItem)
+#: ui/archivemailwidget.ui:38
+#, kde-format
+msgid "Modify..."
+msgstr "變更..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeItem)
+#: ui/archivemailwidget.ui:45
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#: widgets/formatcombobox.cpp:27
+#, kde-format
+msgid "Compressed Zip Archive (.zip)"
+msgstr "Zip 壓縮檔（.zip）"
+
+#: widgets/formatcombobox.cpp:28
+#, kde-format
+msgid "Uncompressed Archive (.tar)"
+msgstr "未壓縮的歸檔（.tar）"
+
+#: widgets/formatcombobox.cpp:29
+#, kde-format
+msgid "BZ2-Compressed Tar Archive (.tar.bz2)"
+msgstr "Tar.bz2 壓縮檔（.tar.bz2）"
+
+#: widgets/formatcombobox.cpp:30
+#, kde-format
+msgid "GZ-Compressed Tar Archive (.tar.gz)"
+msgstr "tar.gz 壓縮檔（.tar.gz）"
+
+#: widgets/unitcombobox.cpp:26
+#, kde-format
+msgid "Days"
+msgstr "天"
+
+#: widgets/unitcombobox.cpp:27
+#, kde-format
+msgid "Weeks"
+msgstr "週"
+
+#: widgets/unitcombobox.cpp:28
+#, kde-format
+msgid "Months"
+msgstr "月"
+
+#: widgets/unitcombobox.cpp:29
+#, kde-format
+msgid "Years"
+msgstr "年"
+
+#~ msgid "1 day"
+#~ msgid_plural "%1 days"
+#~ msgstr[0] "%1 天"
+
+#~ msgid "Archive done for %1"
+#~ msgstr "%1 歸檔完成"
+
+#~ msgid ""
+#~ "There is already an archive for this folder. Modify it. We can not add "
+#~ "two archive for an folder."
+#~ msgstr "此資料夾已經歸檔過，請變更它。我們沒辦法對一個資料夾新增兩個歸檔。"
+
+#~ msgid "foo"
+#~ msgstr "foo"

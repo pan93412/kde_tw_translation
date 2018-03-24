@@ -1,0 +1,201 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevmakebuilder\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-05-08 02:51+0200\n"
+"PO-Revision-Date: 2013-06-11 16:55+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: makebuilderpreferences.cpp:84 makejob.cpp:97
+#, kde-format
+msgid "Make"
+msgstr "Make"
+
+#: makebuilderpreferences.cpp:89
+#, kde-format
+msgid "Configure Make settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: makeconfig.ui:32
+#, kde-format
+msgid "&Abort on first error:"
+msgstr "遇到錯誤就中止(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: makeconfig.ui:52
+#, kde-format
+msgid "&Display commands but do not execute them:"
+msgstr "顯示指令但不執行(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_31)
+#: makeconfig.ui:72
+#, fuzzy, kde-format
+#| msgid "Install as &root:"
+msgid "Insta&ll as root:"
+msgstr "以 root 安裝(&R)："
+
+#. i18n: ectx: property (text), widget (QLabel, rootinstallationcommandLabel)
+#: makeconfig.ui:95
+#, kde-format
+msgid "Root installation &command:"
+msgstr "Root 安裝指令(&C)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_suCommand)
+#: makeconfig.ui:112
+#, kde-format
+msgid "kdesu"
+msgstr "kdesu"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_suCommand)
+#: makeconfig.ui:117
+#, kde-format
+msgid "kdesudo"
+msgstr "kdesudo"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_suCommand)
+#: makeconfig.ui:122
+#, kde-format
+msgid "gksu"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: makeconfig.ui:133
+#, kde-format
+msgid "&Number of simultaneous jobs:"
+msgstr "同時工作的數量(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: makeconfig.ui:156
+#, kde-format
+msgid "&Make executable:"
+msgstr "Make 執行檔(&M)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: makeconfig.ui:179
+#, kde-format
+msgid "Default make &target:"
+msgstr "預設的 Make 目標(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: makeconfig.ui:199
+#, fuzzy, kde-format
+#| msgid "Additional make &options:"
+msgid "Additional ma&ke options:"
+msgstr "Make 的其它選項(&O)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: makeconfig.ui:219
+#, kde-format
+msgid "Active environment &profile:"
+msgstr "作用的環境設定檔(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: makeconfig.ui:263
+#, kde-format
+msgid "Override number of &jobs:"
+msgstr ""
+
+#: makejob.cpp:93
+#, kde-format
+msgid "Make (%1): %2"
+msgstr "Make（%1）：%2"
+
+#: makejob.cpp:95
+#, kde-format
+msgid "Make (%1)"
+msgstr "Make (%1)"
+
+#: makejob.cpp:111
+#, kde-format
+msgid "Build item no longer available"
+msgstr "已無法建立項目"
+
+#: makejob.cpp:117
+#, kde-format
+msgid "Internal error: cannot build a file item"
+msgstr "內部錯誤：無法建立檔案項目"
+
+#~ msgid "sudo"
+#~ msgstr "sudo"
+
+#~ msgid "View"
+#~ msgstr "檢視"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Make Builder"
+#~ msgstr "Make 編譯器"
+
+#~ msgid "Support for building Make projects"
+#~ msgstr "支援編譯 Make 專案"
+
+#~ msgid "Invalid build directory '%1'"
+#~ msgstr "不合法的編譯目錄 %1"
+
+#~ msgid "'%1' is not a local path"
+#~ msgstr "%1 不是本地端路徑"
+
+#~ msgid "'%1' is not a directory"
+#~ msgstr "%1 不是目錄"
+
+#~ msgid "Could not create build command for targets '%1'"
+#~ msgstr "無法建立目標 %1 的編譯指令"
+
+#~ msgid "Job failed"
+#~ msgstr "工作失敗"
+
+#~ msgid "*** Failed ***"
+#~ msgstr "*** 失敗 ***"
+
+#~ msgid "*** Finished ***"
+#~ msgstr "*** 完成 ***"
+
+#~ msgid "*** Aborted ***"
+#~ msgstr "*** 中止 ***"
+
+#, fuzzy
+#~| msgid "Install as &root:"
+#~ msgid "Build, then install as root"
+#~ msgstr "以 root 安裝(&R)："
+
+#~ msgid "compiling"
+#~ msgstr "正在編譯"
+
+#~ msgid "generating"
+#~ msgstr "正在產生"
+
+#~ msgctxt "Linking object files into a library or executable"
+#~ msgid "linking"
+#~ msgstr "正在連結"
+
+#~ msgid "built"
+#~ msgstr "已編譯"
+
+#~ msgid "installing"
+#~ msgstr "正在安裝"
+
+#~ msgid "creating"
+#~ msgstr "正在建立"
+
+#~ msgid "Run more than one job at once:"
+#~ msgstr "一次執行多個工作："

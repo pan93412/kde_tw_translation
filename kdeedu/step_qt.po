@@ -1,0 +1,3836 @@
+# translation of step.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: step\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-22 08:50+0000\n"
+"PO-Revision-Date: 2016-11-16 21:47+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Qt-Contexts: true\n"
+
+#: body.cc:26
+msgctxt "ObjectClass|"
+msgid "Body"
+msgstr "主體"
+
+#: body.cc:26
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Body"
+msgctxt "ObjectDescription|"
+msgid "Body"
+msgstr "主體"
+
+#: collisionsolver.cc:32
+msgctxt "ObjectClass|"
+msgid "CollisionSolver"
+msgstr "CollisionSolver"
+
+#: collisionsolver.cc:33 solver.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Allowed absolute tolerance"
+msgctxt "PropertyDescription|"
+msgid "Allowed absolute tolerance"
+msgstr "允許的絕對容忍值"
+
+#: collisionsolver.cc:33 solver.cc:28
+msgctxt "PropertyName|"
+msgid "toleranceAbs"
+msgstr "toleranceAbs"
+
+#: collisionsolver.cc:34 solver.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Maximal local error during last step"
+msgctxt "PropertyDescription|"
+msgid "Maximal local error during last step"
+msgstr "最後步驟中的最大本地誤差"
+
+#: collisionsolver.cc:34 solver.cc:31
+msgctxt "PropertyName|"
+msgid "localError"
+msgstr "localError"
+
+#: collisionsolver.cc:36
+msgctxt "ObjectClass|"
+msgid "GJKCollisionSolver"
+msgstr "GJKCollisionSolver"
+
+#: constraintsolver.cc:31
+msgctxt "ObjectClass|"
+msgid "ConstraintSolver"
+msgstr "ConstraintSolver"
+
+#: constraintsolver.cc:35
+msgctxt "ObjectClass|"
+msgid "CGConstraintSolver"
+msgstr "CGConstraintSolver"
+
+#: coulombforce.cc:27
+msgctxt "ObjectClass|"
+msgid "CoulombForce"
+msgstr "CoulombForce"
+
+#: coulombforce.cc:27
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Coulomb force"
+msgctxt "ObjectDescription|"
+msgid "Coulomb force"
+msgstr "庫侖力"
+
+#: coulombforce.cc:29
+msgctxt "PropertyName|"
+msgid "coulombConst"
+msgstr "coulombConst"
+
+#: coulombforce.cc:29 coulombforce.cc:34
+msgctxt "Units|"
+msgid "N m²/C²"
+msgstr "N m²/C²"
+
+#: coulombforce.cc:30
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Coulomb constant"
+msgctxt "PropertyDescription|"
+msgid "Coulomb constant"
+msgstr "庫侖常數"
+
+#: coulombforce.cc:32
+msgctxt "ObjectClass|"
+msgid "CoulombForceErrors"
+msgstr "CoulombForceErrors"
+
+#: coulombforce.cc:32
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for CoulombForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for CoulombForce"
+msgstr "CoulombForce 的誤差類別"
+
+#: coulombforce.cc:34
+msgctxt "PropertyName|"
+msgid "coulombConstVariance"
+msgstr "coulombConstVariance"
+
+#: coulombforce.cc:35
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Coulomb constant variance"
+msgctxt "PropertyDescription|"
+msgid "Coulomb constant variance"
+msgstr "庫侖常數變異"
+
+#: eulersolver.cc:28
+msgctxt "ObjectClass|"
+msgid "GenericEulerSolver"
+msgstr "GenericEulerSolver"
+
+#: eulersolver.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Generic Euler solver"
+msgctxt "ObjectDescription|"
+msgid "Generic Euler solver"
+msgstr "一般型尤拉計算器"
+
+#: eulersolver.cc:29
+msgctxt "ObjectClass|"
+msgid "EulerSolver"
+msgstr "EulerSolver"
+
+#: eulersolver.cc:29
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Non-adaptive Euler solver"
+msgctxt "ObjectDescription|"
+msgid "Non-adaptive Euler solver"
+msgstr "Non-adaptive 尤拉計算器"
+
+#: eulersolver.cc:30
+msgctxt "ObjectClass|"
+msgid "AdaptiveEulerSolver"
+msgstr "AdaptiveEulerSolver"
+
+#: eulersolver.cc:30
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Euler solver"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Euler solver"
+msgstr "Adaptive 尤拉計算器"
+
+#: force.cc:27
+msgctxt "ObjectClass|"
+msgid "Force"
+msgstr "力"
+
+#: force.cc:27
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Force"
+msgctxt "ObjectDescription|"
+msgid "Force"
+msgstr "力"
+
+#: gas.cc:28
+msgctxt "ObjectClass|"
+msgid "GasParticle"
+msgstr "GasParticle"
+
+#: gas.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Gas particle"
+msgctxt "ObjectDescription|"
+msgid "Gas particle"
+msgstr "氣體粒子"
+
+#: gas.cc:30
+msgctxt "ObjectClass|"
+msgid "GasLJForce"
+msgstr "GasLJForce"
+
+#: gas.cc:30
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Lennard-Jones force"
+msgctxt "ObjectDescription|"
+msgid "Lennard-Jones force"
+msgstr "蘭納-瓊斯力（Lennard-Jones force）"
+
+#: gas.cc:32
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Potential depth"
+msgctxt "PropertyDescription|"
+msgid "Potential depth"
+msgstr "勢能深度"
+
+#: gas.cc:32
+msgctxt "PropertyName|"
+msgid "depth"
+msgstr "depth"
+
+#: gas.cc:32 gas.cc:38 gas.cc:60 gas.cc:75 particle.cc:38 particle.cc:54
+#: rigidbody.cc:49 rigidbody.cc:80
+msgctxt "Units|"
+msgid "J"
+msgstr "J"
+
+#: gas.cc:33
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Distance at which the force is zero"
+msgctxt "PropertyDescription|"
+msgid "Distance at which the force is zero"
+msgstr "此力為 0 的距離"
+
+#: gas.cc:33
+msgctxt "PropertyName|"
+msgid "rmin"
+msgstr "rmin"
+
+#: gas.cc:33 gas.cc:34 gas.cc:40 gas.cc:46 gas.cc:48 joints.cc:30 joints.cc:36
+#: joints.cc:37 joints.cc:41 joints.cc:44 joints.cc:46 joints.cc:48
+#: joints.cc:49 motor.cc:31 motor.cc:37 particle.cc:30 particle.cc:42
+#: rigidbody.cc:28 rigidbody.cc:53 rigidbody.cc:84 rigidbody.cc:89
+#: rigidbody.cc:92 softbody.cc:36 spring.cc:30 spring.cc:31 spring.cc:36
+#: spring.cc:38 spring.cc:40 spring.cc:41 spring.cc:47 spring.cc:49
+#: spring.cc:55 spring.cc:57 spring.cc:59 spring.cc:61 tool.cc:38 tool.cc:39
+#: tool.cc:45 tool.cc:46 tool.cc:67 tool.cc:68 tool.cc:79 tool.cc:80 tool.cc:98
+#: tool.cc:100 tool.cc:101
+msgctxt "Units|"
+msgid "m"
+msgstr "m"
+
+#: gas.cc:34
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Cut-off distance"
+msgctxt "PropertyDescription|"
+msgid "Cut-off distance"
+msgstr "切斷距離"
+
+#: gas.cc:34
+msgctxt "PropertyName|"
+msgid "cutoff"
+msgstr "cutoff"
+
+#: gas.cc:36
+msgctxt "ObjectClass|"
+msgid "GasLJForceErrors"
+msgstr "GasLJForceErrors"
+
+#: gas.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for GasLJForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for GasLJForce"
+msgstr "GasLJForce 的誤差類別"
+
+#: gas.cc:38
+msgctxt "PropertyName|"
+msgid "depthVariance"
+msgstr "depthVariance"
+
+#: gas.cc:39
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Potential depth variance"
+msgctxt "PropertyDescription|"
+msgid "Potential depth variance"
+msgstr "勢能深度變化"
+
+#: gas.cc:40
+msgctxt "PropertyName|"
+msgid "rminVariance"
+msgstr "rminVariance"
+
+#: gas.cc:41
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Variance of the distance at which the force is zero"
+msgctxt "PropertyDescription|"
+msgid "Variance of the distance at which the force is zero"
+msgstr "此力為 0 時的距離變化"
+
+#: gas.cc:45
+msgctxt "ObjectClass|"
+msgid "Gas"
+msgstr "Gas"
+
+#: gas.cc:45
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Particle gas"
+msgctxt "ObjectDescription|"
+msgid "Particle gas"
+msgstr "氣體粒子"
+
+#: gas.cc:46
+msgctxt "PropertyName|"
+msgid "measureRectCenter"
+msgstr "measureRectCenter"
+
+#: gas.cc:47
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Center of the rect for measurements"
+msgctxt "PropertyDescription|"
+msgid "Center of the rect for measurements"
+msgstr "測量矩形的中心"
+
+#: gas.cc:48
+msgctxt "PropertyName|"
+msgid "measureRectSize"
+msgstr "measureRectSize"
+
+#: gas.cc:49
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Size of the rect for measurements"
+msgctxt "PropertyDescription|"
+msgid "Size of the rect for measurements"
+msgstr "測量矩形的大小"
+
+#: gas.cc:50
+msgctxt "PropertyName|"
+msgid "rectVolume"
+msgstr "rectVolume"
+
+#: gas.cc:50
+msgctxt "Units|"
+msgid "m²"
+msgstr "m²"
+
+#: gas.cc:51
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Volume of the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Volume of the measureRect"
+msgstr "測量矩形的面積"
+
+#: gas.cc:52
+msgctxt "PropertyName|"
+msgid "rectParticleCount"
+msgstr "rectParticleCount"
+
+#: gas.cc:53
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Count of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Count of particles in the measureRect"
+msgstr "測量矩形中的粒子數"
+
+#: gas.cc:54
+msgctxt "PropertyName|"
+msgid "rectConcentration"
+msgstr "rectConcentration"
+
+#: gas.cc:54
+msgctxt "Units|"
+msgid "1/m²"
+msgstr "1/m²"
+
+#: gas.cc:55
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Concentration of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Concentration of particles in the measureRect"
+msgstr "測量矩形中的粒子濃度"
+
+#: gas.cc:56
+msgctxt "PropertyName|"
+msgid "rectPressure"
+msgstr "rectPressure"
+
+#: gas.cc:56 gas.cc:71
+msgctxt "Units|"
+msgid "Pa"
+msgstr "Pa"
+
+#: gas.cc:57
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Pressure of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Pressure of particles in the measureRect"
+msgstr "測量矩形中的粒子壓力"
+
+#: gas.cc:58
+msgctxt "PropertyName|"
+msgid "rectTemperature"
+msgstr "rectTemperature"
+
+#: gas.cc:58 gas.cc:73
+msgctxt "Units|"
+msgid "K"
+msgstr "K"
+
+#: gas.cc:59
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Temperature of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Temperature of particles in the measureRect"
+msgstr "測量矩形中的粒子溫度"
+
+#: gas.cc:60
+msgctxt "PropertyName|"
+msgid "rectMeanKineticEnergy"
+msgstr "rectMeanKineticEnergy"
+
+#: gas.cc:61
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Mean kinetic energy of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Mean kinetic energy of particles in the measureRect"
+msgstr "測量矩形中的粒子平均動能"
+
+#: gas.cc:62
+msgctxt "PropertyName|"
+msgid "rectMeanVelocity"
+msgstr "rectMeanVelocity"
+
+#: gas.cc:62 gas.cc:77 particle.cc:31 particle.cc:44 rigidbody.cc:31
+#: rigidbody.cc:58 softbody.cc:38
+msgctxt "Units|"
+msgid "m/s"
+msgstr "m/s"
+
+#: gas.cc:63
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Mean velocity of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Mean velocity of particles in the measureRect"
+msgstr "測量矩形中的粒子平均速率"
+
+#: gas.cc:64
+msgctxt "PropertyName|"
+msgid "rectMeanParticleMass"
+msgstr "rectMeanParticleMass"
+
+#: gas.cc:64 gas.cc:66 gas.cc:79 gas.cc:81 particle.cc:35 particle.cc:50
+#: particle.cc:62 rigidbody.cc:42 rigidbody.cc:71 softbody.cc:50
+msgctxt "Units|"
+msgid "kg"
+msgstr "kg"
+
+#: gas.cc:65
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Mean mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Mean mass of particles in the measureRect"
+msgstr "測量矩形中的粒子平均質量"
+
+#: gas.cc:66
+msgctxt "PropertyName|"
+msgid "rectMass"
+msgstr "rectMass"
+
+#: gas.cc:67
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Total mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Total mass of particles in the measureRect"
+msgstr "測量矩形中的粒子總質量"
+
+#: gas.cc:70
+msgctxt "ObjectClass|"
+msgid "GasErrors"
+msgstr "GasErrors"
+
+#: gas.cc:70
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for Gas"
+msgctxt "ObjectDescription|"
+msgid "Errors class for Gas"
+msgstr "Gas 的誤差類別"
+
+#: gas.cc:71
+msgctxt "PropertyName|"
+msgid "rectPressureVariance"
+msgstr "rectPressureVariance"
+
+#: gas.cc:72
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Variance of pressure of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of pressure of particles in the measureRect"
+msgstr "測量矩形中的粒子壓力變化"
+
+#: gas.cc:73
+msgctxt "PropertyName|"
+msgid "rectTemperatureVariance"
+msgstr "rectTemperatureVariance"
+
+#: gas.cc:74
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Variance of temperature of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of temperature of particles in the measureRect"
+msgstr "測量矩形中的粒子溫度變化"
+
+#: gas.cc:75
+msgctxt "PropertyName|"
+msgid "rectMeanKineticEnergyVariance"
+msgstr "rectMeanKineticEnergyVariance"
+
+#: gas.cc:76
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Variance of mean kinetic energy of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of mean kinetic energy of particles in the measureRect"
+msgstr "測量矩形中的粒子平均動能變化"
+
+#: gas.cc:77
+msgctxt "PropertyName|"
+msgid "rectMeanVelocityVariance"
+msgstr "rectMeanVelocityVariance"
+
+#: gas.cc:78
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Variance of mean velocity of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of mean velocity of particles in the measureRect"
+msgstr "測量矩形中的粒子平均速率變化"
+
+#: gas.cc:79
+msgctxt "PropertyName|"
+msgid "rectMeanParticleMassVariance"
+msgstr "rectMeanParticleMassVariance"
+
+#: gas.cc:80
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Variance of mean mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of mean mass of particles in the measureRect"
+msgstr "測量矩形中的粒子平均質量變化"
+
+#: gas.cc:81
+msgctxt "PropertyName|"
+msgid "rectMassVariance"
+msgstr "rectMassVariance"
+
+#: gas.cc:82
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Variance of total mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of total mass of particles in the measureRect"
+msgstr "測量矩形中的粒子總質量變化"
+
+#: gravitation.cc:28
+msgctxt "ObjectClass|"
+msgid "GravitationForce"
+msgstr "GravitationForce"
+
+#: gravitation.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Gravitation force"
+msgctxt "ObjectDescription|"
+msgid "Gravitation force"
+msgstr "重力"
+
+#: gravitation.cc:30
+msgctxt "PropertyName|"
+msgid "gravitationConst"
+msgstr "gravitationConst"
+
+#: gravitation.cc:30 gravitation.cc:35
+msgctxt "Units|"
+msgid "N m²/kg²"
+msgstr "N m²/kg²"
+
+#: gravitation.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Gravitation constant"
+msgctxt "PropertyDescription|"
+msgid "Gravitation constant"
+msgstr "重力常數"
+
+#: gravitation.cc:33
+msgctxt "ObjectClass|"
+msgid "GravitationForceErrors"
+msgstr "GravitationForceErrors"
+
+#: gravitation.cc:33
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for GravitationForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for GravitationForce"
+msgstr "GravitationForce 的誤差類別"
+
+#: gravitation.cc:35
+msgctxt "PropertyName|"
+msgid "gravitationConstVariance"
+msgstr "gravitationConstVariance"
+
+#: gravitation.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Gravitation constant variance"
+msgctxt "PropertyDescription|"
+msgid "Gravitation constant variance"
+msgstr "重力常數變化"
+
+#: gravitation.cc:38
+msgctxt "ObjectClass|"
+msgid "WeightForce"
+msgstr "WeightForce"
+
+#: gravitation.cc:38
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Weight force"
+msgctxt "ObjectDescription|"
+msgid "Weight force"
+msgstr "重量力"
+
+#: gravitation.cc:40
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Weight constant"
+msgctxt "PropertyDescription|"
+msgid "Weight constant"
+msgstr "重量常數"
+
+#: gravitation.cc:40
+msgctxt "PropertyName|"
+msgid "weightConst"
+msgstr "weightConst"
+
+#: gravitation.cc:40 gravitation.cc:45 particle.cc:32 particle.cc:46
+#: rigidbody.cc:34 rigidbody.cc:63 softbody.cc:43
+msgctxt "Units|"
+msgid "m/s²"
+msgstr "m/s²"
+
+#: gravitation.cc:43
+msgctxt "ObjectClass|"
+msgid "WeightForceErrors"
+msgstr "WeightForceErrors"
+
+#: gravitation.cc:43
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for WeightForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for WeightForce"
+msgstr "WeightForce 的誤差類別"
+
+#: gravitation.cc:45
+msgctxt "PropertyName|"
+msgid "weightConstVariance"
+msgstr "weightConstVariance"
+
+#: gravitation.cc:46
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Weight constant variance"
+msgctxt "PropertyDescription|"
+msgid "Weight constant variance"
+msgstr "重量常數變化"
+
+#: gslsolver.cc:31
+msgctxt "ObjectClass|"
+msgid "GslGenericSolver"
+msgstr "GslGenericSolver"
+
+#: gslsolver.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "GSL generic solver"
+msgctxt "ObjectDescription|"
+msgid "GSL generic solver"
+msgstr "GSL 一般計算器"
+
+#: gslsolver.cc:33
+msgctxt "ObjectClass|"
+msgid "GslSolver"
+msgstr "GslSolver"
+
+#: gslsolver.cc:33
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "GSL non-adaptive solver"
+msgctxt "ObjectDescription|"
+msgid "GSL non-adaptive solver"
+msgstr "GSL Non-Adaptive 計算器"
+
+#: gslsolver.cc:36
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveSolver"
+msgstr "GslAdaptiveSolver"
+
+#: gslsolver.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "GSL adaptive solver"
+msgctxt "ObjectDescription|"
+msgid "GSL adaptive solver"
+msgstr "GSL Adaptive 計算器"
+
+#: gslsolver.cc:39
+msgctxt "ObjectClass|"
+msgid "GslRK2Solver"
+msgstr "GslRK2Solver"
+
+#: gslsolver.cc:39
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Runge-Kutta second-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta second-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Runge-Kutta second-order 計算器"
+
+#: gslsolver.cc:41
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK2Solver"
+msgstr "GslAdaptiveRK2Solver"
+
+#: gslsolver.cc:41
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Runge-Kutta second-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta second-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta second-order 計算器"
+
+#: gslsolver.cc:44
+msgctxt "ObjectClass|"
+msgid "GslRK4Solver"
+msgstr "GslRK4Solver"
+
+#: gslsolver.cc:44
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Runge-Kutta classical fourth-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta classical fourth-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Runge-Kutta classical fourth-order 計算器"
+
+#: gslsolver.cc:46
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK4Solver"
+msgstr "GslAdaptiveRK4Solver"
+
+#: gslsolver.cc:46
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Runge-Kutta classical fourth-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta classical fourth-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta classical fourth-order 計算器"
+
+#: gslsolver.cc:49
+msgctxt "ObjectClass|"
+msgid "GslRKF45Solver"
+msgstr "GslRKF45Solver"
+
+#: gslsolver.cc:49
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Runge-Kutta-Fehlberg (4,5) 計算器"
+
+#: gslsolver.cc:51
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRKF45Solver"
+msgstr "GslAdaptiveRKF45Solver"
+
+#: gslsolver.cc:51
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta-Fehlberg (4,5) 計算器"
+
+#: gslsolver.cc:54
+msgctxt "ObjectClass|"
+msgid "GslRKCKSolver"
+msgstr "GslRKCKSolver"
+
+#: gslsolver.cc:54
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Runge-Kutta Cash-Karp (4,5) 計算器"
+
+#: gslsolver.cc:56
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRKCKSolver"
+msgstr "GslAdaptiveRKCKSolver"
+
+#: gslsolver.cc:56
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta Cash-Karp (4,5) 計算器"
+
+#: gslsolver.cc:59
+msgctxt "ObjectClass|"
+msgid "GslRK8PDSolver"
+msgstr "GslRK8PDSolver"
+
+#: gslsolver.cc:59
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Runge-Kutta Prince-Dormand (8,9) 計算器"
+
+#: gslsolver.cc:61
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK8PDSolver"
+msgstr "GslAdaptiveRK8PDSolver"
+
+#: gslsolver.cc:61
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta Prince-Dormand (8,9) 計算器"
+
+#: gslsolver.cc:64
+msgctxt "ObjectClass|"
+msgid "GslRK2IMPSolver"
+msgstr "GslRK2IMPSolver"
+
+#: gslsolver.cc:64
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Runge-Kutta implicit second-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta implicit second-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Runge-Kutta implicit second-order 計算器"
+
+#: gslsolver.cc:66
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK2IMPSolver"
+msgstr "GslAdaptiveRK2IMPSolver"
+
+#: gslsolver.cc:66
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Runge-Kutta implicit second-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta implicit second-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta implicit second-order 計算器"
+
+#: gslsolver.cc:69
+msgctxt "ObjectClass|"
+msgid "GslRK4IMPSolver"
+msgstr "GslRK4IMPSolver"
+
+#: gslsolver.cc:69
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Runge-Kutta implicit fourth-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta implicit fourth-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Runge-Kutta implicit fourth-order 計算器"
+
+#: gslsolver.cc:71
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK4IMPSolver"
+msgstr "GslAdaptiveRK4IMPSolver"
+
+#: gslsolver.cc:71
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Adaptive Runge-Kutta implicit fource-order solver from GSL library"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta implicit fource-order solver from GSL library"
+msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta implicit fourth-order 計算器"
+
+#: item.cc:28
+msgctxt "ObjectClass|"
+msgid "Item"
+msgstr "項目"
+
+#: item.cc:28
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Item"
+msgctxt "ObjectDescription|"
+msgid "Item"
+msgstr "項目"
+
+#: item.cc:30
+msgctxt "PropertyName|"
+msgid "color"
+msgstr "color"
+
+#: item.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Item color"
+msgctxt "PropertyDescription|"
+msgid "Item color"
+msgstr "項目顏色"
+
+#: itemgroup.cc:28
+msgctxt "ObjectClass|"
+msgid "ItemGroup"
+msgstr "ItemGroup"
+
+#: itemgroup.cc:28
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "ItemGroup"
+msgctxt "ObjectDescription|"
+msgid "ItemGroup"
+msgstr "ItemGroup"
+
+#: joint.cc:26
+msgctxt "ObjectClass|"
+msgid "Joint"
+msgstr "Joint"
+
+#: joint.cc:26
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Joint"
+msgctxt "ObjectDescription|"
+msgid "Joint"
+msgstr "Joint"
+
+#: joints.cc:27
+msgctxt "ObjectClass|"
+msgid "Anchor"
+msgstr "Anchor"
+
+#: joints.cc:27
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Anchor: fixes position of the body"
+msgctxt "ObjectDescription|"
+msgid "Anchor: fixes position of the body"
+msgstr "Anchor：固定主體位置"
+
+#: joints.cc:29 joints.cc:35 motor.cc:30 motor.cc:36
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Body"
+msgctxt "PropertyDescription|"
+msgid "Body"
+msgstr "主體"
+
+#: joints.cc:29 joints.cc:35 motor.cc:30 motor.cc:36 tool.cc:97
+msgctxt "PropertyName|"
+msgid "body"
+msgstr "body"
+
+#: joints.cc:30 tool.cc:100
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position"
+msgctxt "PropertyDescription|"
+msgid "Position"
+msgstr "位置"
+
+#: joints.cc:30 joints.cc:37 particle.cc:30 rigidbody.cc:28 softbody.cc:36
+#: tool.cc:38 tool.cc:45 tool.cc:67 tool.cc:79 tool.cc:100
+msgctxt "PropertyName|"
+msgid "position"
+msgstr "位置"
+
+#: joints.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Angle"
+msgctxt "PropertyDescription|"
+msgid "Angle"
+msgstr "角度"
+
+#: joints.cc:31 rigidbody.cc:29
+msgctxt "PropertyName|"
+msgid "angle"
+msgstr "angle"
+
+#: joints.cc:31 rigidbody.cc:29 rigidbody.cc:55
+msgctxt "Units|"
+msgid "rad"
+msgstr "rad"
+
+#: joints.cc:33
+msgctxt "ObjectClass|"
+msgid "Pin"
+msgstr "Pin"
+
+#: joints.cc:33
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Pin: fixes position of a given point on the body"
+msgctxt "ObjectDescription|"
+msgid "Pin: fixes position of a given point on the body"
+msgstr "Pin：固定主體中某點的位置"
+
+#: joints.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position on the body"
+msgctxt "PropertyDescription|"
+msgid "Position on the body"
+msgstr "主體中的位置"
+
+#: joints.cc:36 motor.cc:31 motor.cc:37 tool.cc:98
+msgctxt "PropertyName|"
+msgid "localPosition"
+msgstr "localPosition"
+
+#: joints.cc:37
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position in the world"
+msgctxt "PropertyDescription|"
+msgid "Position in the world"
+msgstr "世界裡的位置"
+
+#: joints.cc:39
+msgctxt "ObjectClass|"
+msgid "Stick"
+msgstr "Stick"
+
+#: joints.cc:39
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Massless stick which can be connected to bodies"
+msgctxt "ObjectDescription|"
+msgid "Massless stick which can be connected to bodies"
+msgstr "可以將多個主體相連，無質量的棒子"
+
+#: joints.cc:41
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Rest length of the stick"
+msgctxt "PropertyDescription|"
+msgid "Rest length of the stick"
+msgstr "棒子的剩餘長度"
+
+#: joints.cc:41 spring.cc:30
+msgctxt "PropertyName|"
+msgid "restLength"
+msgstr "restLength"
+
+#: joints.cc:42 spring.cc:34
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Body1"
+msgctxt "PropertyDescription|"
+msgid "Body1"
+msgstr "主體 1"
+
+#: joints.cc:42 spring.cc:34
+msgctxt "PropertyName|"
+msgid "body1"
+msgstr "body1"
+
+#: joints.cc:43 spring.cc:35
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Body2"
+msgctxt "PropertyDescription|"
+msgid "Body2"
+msgstr "主體 2"
+
+#: joints.cc:43 spring.cc:35
+msgctxt "PropertyName|"
+msgid "body2"
+msgstr "body2"
+
+#: joints.cc:44 spring.cc:36
+msgctxt "PropertyName|"
+msgid "localPosition1"
+msgstr "localPosition1"
+
+#: joints.cc:45 spring.cc:37
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Local position 1"
+msgctxt "PropertyDescription|"
+msgid "Local position 1"
+msgstr "本地位置 1"
+
+#: joints.cc:46 spring.cc:38
+msgctxt "PropertyName|"
+msgid "localPosition2"
+msgstr "localPosition2"
+
+#: joints.cc:47 spring.cc:39
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Local position 2"
+msgctxt "PropertyDescription|"
+msgid "Local position 2"
+msgstr "本地位置 2"
+
+#: joints.cc:48 spring.cc:40
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position1"
+msgctxt "PropertyDescription|"
+msgid "Position1"
+msgstr "位置 1"
+
+#: joints.cc:48 spring.cc:40
+msgctxt "PropertyName|"
+msgid "position1"
+msgstr "position1"
+
+#: joints.cc:49 spring.cc:41
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position2"
+msgctxt "PropertyDescription|"
+msgid "Position2"
+msgstr "位置 2"
+
+#: joints.cc:49 spring.cc:41
+msgctxt "PropertyName|"
+msgid "position2"
+msgstr "position2"
+
+#: joints.cc:52
+msgctxt "ObjectClass|"
+msgid "Rope"
+msgstr "Rope"
+
+#: joints.cc:52
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Massless rope which can be connected to bodies"
+msgctxt "ObjectDescription|"
+msgid "Massless rope which can be connected to bodies"
+msgstr "可以將多個主體相連，無質量的繩子"
+
+#: motor.cc:28
+msgctxt "ObjectClass|"
+msgid "LinearMotor"
+msgstr "LinearMotor"
+
+#: motor.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid ""
+#| "Linear motor: applies a constant force to a given position of the body"
+msgctxt "ObjectDescription|"
+msgid "Linear motor: applies a constant force to a given position of the body"
+msgstr "Linear motor：加一常數力在主體上的指定位置"
+
+#: motor.cc:31 motor.cc:37
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position of the motor on a body"
+msgctxt "PropertyDescription|"
+msgid "Position of the motor on a body"
+msgstr "此力施於主體上的位置"
+
+#: motor.cc:32
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Value of the force, acting on the body"
+msgctxt "PropertyDescription|"
+msgid "Value of the force, acting on the body"
+msgstr "對主體上施加的力的值"
+
+#: motor.cc:32
+msgctxt "PropertyName|"
+msgid "forceValue"
+msgstr "forceValue"
+
+#: motor.cc:32 particle.cc:34 particle.cc:48 rigidbody.cc:39 rigidbody.cc:68
+#: softbody.cc:48 spring.cc:42 spring.cc:63
+msgctxt "Units|"
+msgid "N"
+msgstr "N（牛頓）"
+
+#: motor.cc:34
+msgctxt "ObjectClass|"
+msgid "CircularMotor"
+msgstr "CircularMotor"
+
+#: motor.cc:34
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Circular motor: applies a constant torque to the body"
+msgctxt "ObjectDescription|"
+msgid "Circular motor: applies a constant torque to the body"
+msgstr "Circular motor：加一常數力矩在主體上"
+
+#: motor.cc:38
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Value of the torque, acting on the body"
+msgctxt "PropertyDescription|"
+msgid "Value of the torque, acting on the body"
+msgstr "對主體上施加的力矩的值"
+
+#: motor.cc:38
+msgctxt "PropertyName|"
+msgid "torqueValue"
+msgstr "torqueValue"
+
+#: motor.cc:38 rigidbody.cc:40 rigidbody.cc:69 softbody.cc:49
+msgctxt "Units|"
+msgid "N m"
+msgstr "N m"
+
+#: object.cc:26
+msgctxt "ObjectClass|"
+msgid "Object"
+msgstr "物件"
+
+#: object.cc:26
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Object"
+msgctxt "ObjectDescription|"
+msgid "Object"
+msgstr "物件"
+
+#: object.cc:27
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Object name"
+msgctxt "PropertyDescription|"
+msgid "Object name"
+msgstr "物件名稱"
+
+#: object.cc:27
+msgctxt "PropertyName|"
+msgid "name"
+msgstr "name"
+
+#: objecterrors.cc:26
+msgctxt "ObjectClass|"
+msgid "ObjectErrors"
+msgstr "ObjectErrors"
+
+#: objecterrors.cc:26
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "ObjectErrors"
+msgctxt "ObjectDescription|"
+msgid "ObjectErrors"
+msgstr "ObjectErrors"
+
+#: particle.cc:28
+msgctxt "ObjectClass|"
+msgid "Particle"
+msgstr "Particle"
+
+#: particle.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Simple zero-size particle"
+msgctxt "ObjectDescription|"
+msgid "Simple zero-size particle"
+msgstr "簡單的無大小的粒子"
+
+#: particle.cc:30
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "position"
+msgctxt "PropertyDescription|"
+msgid "position"
+msgstr "位置"
+
+#: particle.cc:31
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "velocity"
+msgctxt "PropertyDescription|"
+msgid "velocity"
+msgstr "速率"
+
+#: particle.cc:31 rigidbody.cc:31 softbody.cc:38
+msgctxt "PropertyName|"
+msgid "velocity"
+msgstr "速率"
+
+#: particle.cc:32 rigidbody.cc:34 softbody.cc:43
+msgctxt "PropertyName|"
+msgid "acceleration"
+msgstr "acceleration"
+
+#: particle.cc:33
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "acceleration"
+msgctxt "PropertyDescription|"
+msgid "acceleration"
+msgstr "acceleration"
+
+#: particle.cc:34
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "force"
+msgctxt "PropertyDescription|"
+msgid "force"
+msgstr "force"
+
+#: particle.cc:34 rigidbody.cc:39 softbody.cc:48 spring.cc:42
+msgctxt "PropertyName|"
+msgid "force"
+msgstr "force"
+
+#: particle.cc:35
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "mass"
+msgctxt "PropertyDescription|"
+msgid "mass"
+msgstr "質量"
+
+#: particle.cc:35 rigidbody.cc:42 softbody.cc:50
+msgctxt "PropertyName|"
+msgid "mass"
+msgstr "質量"
+
+#: particle.cc:36 rigidbody.cc:45
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "momentum"
+msgctxt "PropertyDescription|"
+msgid "momentum"
+msgstr "momentum"
+
+#: particle.cc:36 rigidbody.cc:45
+msgctxt "PropertyName|"
+msgid "momentum"
+msgstr "momentum"
+
+#: particle.cc:36 particle.cc:52 rigidbody.cc:45 rigidbody.cc:75
+msgctxt "Units|"
+msgid "kg m/s"
+msgstr "kg m/s"
+
+#: particle.cc:38 rigidbody.cc:49
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "kinetic energy"
+msgctxt "PropertyDescription|"
+msgid "kinetic energy"
+msgstr "動能"
+
+#: particle.cc:38 rigidbody.cc:49
+msgctxt "PropertyName|"
+msgid "kineticEnergy"
+msgstr "kineticEnergy"
+
+#: particle.cc:41
+msgctxt "ObjectClass|"
+msgid "ParticleErrors"
+msgstr "ParticleErrors"
+
+#: particle.cc:41
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for Particle"
+msgctxt "ObjectDescription|"
+msgid "Errors class for Particle"
+msgstr "Particle 的誤差類別"
+
+#: particle.cc:42 rigidbody.cc:53
+msgctxt "PropertyName|"
+msgid "positionVariance"
+msgstr "positionVariance"
+
+#: particle.cc:43 rigidbody.cc:54
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "position variance"
+msgstr "位置變化"
+
+#: particle.cc:44 rigidbody.cc:58
+msgctxt "PropertyName|"
+msgid "velocityVariance"
+msgstr "velocityVariance"
+
+#: particle.cc:45 rigidbody.cc:59
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "velocity variance"
+msgctxt "PropertyDescription|"
+msgid "velocity variance"
+msgstr "速度變化"
+
+#: particle.cc:46 rigidbody.cc:63
+msgctxt "PropertyName|"
+msgid "accelerationVariance"
+msgstr "accelerationVariance"
+
+#: particle.cc:47 rigidbody.cc:64
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "acceleration variance"
+msgctxt "PropertyDescription|"
+msgid "acceleration variance"
+msgstr "加速度變化"
+
+#: particle.cc:48 rigidbody.cc:68 spring.cc:63
+msgctxt "PropertyName|"
+msgid "forceVariance"
+msgstr "forceVariance"
+
+#: particle.cc:49 rigidbody.cc:68
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "force variance"
+msgctxt "PropertyDescription|"
+msgid "force variance"
+msgstr "力變化"
+
+#: particle.cc:50 rigidbody.cc:71
+msgctxt "PropertyName|"
+msgid "massVariance"
+msgstr "massVariance"
+
+#: particle.cc:51 rigidbody.cc:72
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "mass variance"
+msgctxt "PropertyDescription|"
+msgid "mass variance"
+msgstr "質量變化"
+
+#: particle.cc:52 rigidbody.cc:75
+msgctxt "PropertyName|"
+msgid "momentumVariance"
+msgstr "momentumVariance"
+
+#: particle.cc:53 rigidbody.cc:76
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "momentum variance"
+msgctxt "PropertyDescription|"
+msgid "momentum variance"
+msgstr "動量變化"
+
+#: particle.cc:54 rigidbody.cc:80
+msgctxt "PropertyName|"
+msgid "kineticEnergyVariance"
+msgstr "kineticEnergyVariance"
+
+#: particle.cc:55 rigidbody.cc:81
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "kinetic energy variance"
+msgctxt "PropertyDescription|"
+msgid "kinetic energy variance"
+msgstr "動能變化"
+
+#: particle.cc:57
+msgctxt "ObjectClass|"
+msgid "ChargedParticle"
+msgstr "ChargedParticle"
+
+#: particle.cc:57
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Charged zero-size particle"
+msgctxt "ObjectDescription|"
+msgid "Charged zero-size particle"
+msgstr "變更的無大小粒子"
+
+#: particle.cc:58
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "charge"
+msgctxt "PropertyDescription|"
+msgid "charge"
+msgstr "charge"
+
+#: particle.cc:58
+msgctxt "PropertyName|"
+msgid "charge"
+msgstr "charge"
+
+#: particle.cc:58
+msgctxt "Units|"
+msgid "C"
+msgstr "C"
+
+#: particle.cc:60
+msgctxt "ObjectClass|"
+msgid "ChargedParticleErrors"
+msgstr "ChargedParticleErrors"
+
+#: particle.cc:60
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for ChargedParticle"
+msgctxt "ObjectDescription|"
+msgid "Errors class for ChargedParticle"
+msgstr "ChargedParticle 的誤差類別"
+
+#: particle.cc:62
+msgctxt "PropertyName|"
+msgid "chargeVariance"
+msgstr "chargeVariance"
+
+#: particle.cc:63
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "charge variance"
+msgctxt "PropertyDescription|"
+msgid "charge variance"
+msgstr "電量變化"
+
+#: rigidbody.cc:27
+msgctxt "ObjectClass|"
+msgid "RigidBody"
+msgstr "RigidBody"
+
+#: rigidbody.cc:27
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Generic rigid body"
+msgctxt "ObjectDescription|"
+msgid "Generic rigid body"
+msgstr "一般固態主體"
+
+#: rigidbody.cc:28 softbody.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Position of the center of mass"
+msgstr "質量中心位置"
+
+#: rigidbody.cc:29
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Rotation angle"
+msgctxt "PropertyDescription|"
+msgid "Rotation angle"
+msgstr "旋轉角度"
+
+#: rigidbody.cc:31 softbody.cc:38
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Velocity of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Velocity of the center of mass"
+msgstr "質量中心速率"
+
+#: rigidbody.cc:32 softbody.cc:39
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Angular velocity of the body"
+msgctxt "PropertyDescription|"
+msgid "Angular velocity of the body"
+msgstr "主體角速率"
+
+#: rigidbody.cc:32 softbody.cc:39
+msgctxt "PropertyName|"
+msgid "angularVelocity"
+msgstr "angularVelocity"
+
+#: rigidbody.cc:32 rigidbody.cc:60 softbody.cc:39
+msgctxt "Units|"
+msgid "rad/s"
+msgstr "rad/s"
+
+#: rigidbody.cc:35 softbody.cc:44
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Acceleration of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Acceleration of the center of mass"
+msgstr "質量中心加速度"
+
+#: rigidbody.cc:36 softbody.cc:45
+msgctxt "PropertyName|"
+msgid "angularAcceleration"
+msgstr "angularAcceleration"
+
+#: rigidbody.cc:36 rigidbody.cc:65 softbody.cc:45
+msgctxt "Units|"
+msgid "rad/s²"
+msgstr "rad/s²"
+
+#: rigidbody.cc:37 softbody.cc:46
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Angular acceleration of the body"
+msgctxt "PropertyDescription|"
+msgid "Angular acceleration of the body"
+msgstr "主體的角加速度"
+
+#: rigidbody.cc:39 softbody.cc:48
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Force that acts upon the body"
+msgctxt "PropertyDescription|"
+msgid "Force that acts upon the body"
+msgstr "對主體上施加的力"
+
+#: rigidbody.cc:40 softbody.cc:49
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Torque that acts upon the body"
+msgctxt "PropertyDescription|"
+msgid "Torque that acts upon the body"
+msgstr "施加在主體上的力矩"
+
+#: rigidbody.cc:40 softbody.cc:49
+msgctxt "PropertyName|"
+msgid "torque"
+msgstr "torque"
+
+#: rigidbody.cc:42 softbody.cc:50
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Total mass of the body"
+msgctxt "PropertyDescription|"
+msgid "Total mass of the body"
+msgstr "主體總質量"
+
+#: rigidbody.cc:43 softbody.cc:51
+msgctxt "PropertyName|"
+msgid "inertia"
+msgstr "inertia"
+
+#: rigidbody.cc:43 rigidbody.cc:73 softbody.cc:51
+msgctxt "Units|"
+msgid "kg m²"
+msgstr "kg m²"
+
+#: rigidbody.cc:44 softbody.cc:52
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Inertia \"tensor\" of the body"
+msgctxt "PropertyDescription|"
+msgid "Inertia \"tensor\" of the body"
+msgstr "主體的慣性張量"
+
+#: rigidbody.cc:47
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "angular momentum"
+msgctxt "PropertyDescription|"
+msgid "angular momentum"
+msgstr "角動量"
+
+#: rigidbody.cc:47 softbody.cc:40
+msgctxt "PropertyName|"
+msgid "angularMomentum"
+msgstr "angularMomentum"
+
+#: rigidbody.cc:47 rigidbody.cc:77
+msgctxt "Units|"
+msgid "kg m² rad/s"
+msgstr "kg m² rad/s"
+
+#: rigidbody.cc:52
+msgctxt "ObjectClass|"
+msgid "RigidBodyErrors"
+msgstr "RigidBodyErrors"
+
+#: rigidbody.cc:52
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for RigidBody"
+msgctxt "ObjectDescription|"
+msgid "Errors class for RigidBody"
+msgstr "RigidBody 誤差類別"
+
+#: rigidbody.cc:55
+msgctxt "PropertyName|"
+msgid "angleVariance"
+msgstr "angleVariance"
+
+#: rigidbody.cc:56
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "angle variance"
+msgctxt "PropertyDescription|"
+msgid "angle variance"
+msgstr "角變化"
+
+#: rigidbody.cc:60
+msgctxt "PropertyName|"
+msgid "angularVelocityVariance"
+msgstr "angularVelocityVariance"
+
+#: rigidbody.cc:61
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "angularVelocity variance"
+msgctxt "PropertyDescription|"
+msgid "angularVelocity variance"
+msgstr "角速度變化"
+
+#: rigidbody.cc:65
+msgctxt "PropertyName|"
+msgid "angularAccelerationVariance"
+msgstr "angularAccelerationVariance"
+
+#: rigidbody.cc:66
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "angularAcceleration variance"
+msgctxt "PropertyDescription|"
+msgid "angularAcceleration variance"
+msgstr "角加速度變化"
+
+#: rigidbody.cc:69
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "torque variance"
+msgctxt "PropertyDescription|"
+msgid "torque variance"
+msgstr "力矩變化"
+
+#: rigidbody.cc:69
+msgctxt "PropertyName|"
+msgid "torqueVariance"
+msgstr "torqueVariance"
+
+#: rigidbody.cc:73
+msgctxt "PropertyName|"
+msgid "inertiaVariance"
+msgstr "inertiaVariance"
+
+#: rigidbody.cc:74
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "inertia variance"
+msgctxt "PropertyDescription|"
+msgid "inertia variance"
+msgstr "慣性力變化"
+
+#: rigidbody.cc:77
+msgctxt "PropertyName|"
+msgid "angularMomentumVariance"
+msgstr "angularMomentumVariance"
+
+#: rigidbody.cc:78
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "angular momentum variance"
+msgctxt "PropertyDescription|"
+msgid "angular momentum variance"
+msgstr "角動量變化"
+
+#: rigidbody.cc:83
+msgctxt "ObjectClass|"
+msgid "Disk"
+msgstr "Disk"
+
+#: rigidbody.cc:83
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Rigid disk"
+msgctxt "ObjectDescription|"
+msgid "Rigid disk"
+msgstr "固態碟型"
+
+#: rigidbody.cc:84
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Radius of the disk"
+msgctxt "PropertyDescription|"
+msgid "Radius of the disk"
+msgstr "碟的半徑"
+
+#: rigidbody.cc:84
+msgctxt "PropertyName|"
+msgid "radius"
+msgstr "radius"
+
+#: rigidbody.cc:86
+msgctxt "ObjectClass|"
+msgid "BasePolygon"
+msgstr "BasePolygon"
+
+#: rigidbody.cc:86
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Base polygon body"
+msgctxt "ObjectDescription|"
+msgid "Base polygon body"
+msgstr "多邊形底的主體"
+
+#: rigidbody.cc:88
+msgctxt "ObjectClass|"
+msgid "Box"
+msgstr "Box"
+
+#: rigidbody.cc:88
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Rigid box"
+msgctxt "ObjectDescription|"
+msgid "Rigid box"
+msgstr "固態盒"
+
+#: rigidbody.cc:89
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Size of the box"
+msgctxt "PropertyDescription|"
+msgid "Size of the box"
+msgstr "盒的大小"
+
+#: rigidbody.cc:89 tool.cc:39 tool.cc:46 tool.cc:68 tool.cc:80
+msgctxt "PropertyName|"
+msgid "size"
+msgstr "size"
+
+#: rigidbody.cc:91
+msgctxt "ObjectClass|"
+msgid "Polygon"
+msgstr "Polygon"
+
+#: rigidbody.cc:91
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Rigid polygon body"
+msgctxt "ObjectDescription|"
+msgid "Rigid polygon body"
+msgstr "固態多邊形主體"
+
+#: rigidbody.cc:92
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Vertex list"
+msgctxt "PropertyDescription|"
+msgid "Vertex list"
+msgstr "頂點清單"
+
+#: rigidbody.cc:92
+msgctxt "PropertyName|"
+msgid "vertices"
+msgstr "vertices"
+
+#: softbody.cc:31
+msgctxt "ObjectClass|"
+msgid "SoftBodyParticle"
+msgstr "SoftBodyParticle"
+
+#: softbody.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "SoftBody particle"
+msgctxt "ObjectDescription|"
+msgid "SoftBody particle"
+msgstr "柔軟體粒子"
+
+#: softbody.cc:32
+msgctxt "ObjectClass|"
+msgid "SoftBodySpring"
+msgstr "SoftBodySpring"
+
+#: softbody.cc:32
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "SoftBody spring"
+msgctxt "ObjectDescription|"
+msgid "SoftBody spring"
+msgstr "柔軟體彈簧"
+
+#: softbody.cc:33
+msgctxt "ObjectClass|"
+msgid "SoftBody"
+msgstr "SoftBody"
+
+#: softbody.cc:33
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Deformable SoftBody"
+msgctxt "ObjectDescription|"
+msgid "Deformable SoftBody"
+msgstr "可變形柔軟體"
+
+#: softbody.cc:34
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Show internal items"
+msgctxt "PropertyDescription|"
+msgid "Show internal items"
+msgstr "顯示內部項目"
+
+#: softbody.cc:34
+msgctxt "PropertyName|"
+msgid "showInternalItems"
+msgstr "showInternalItems"
+
+#: softbody.cc:40
+msgctxt "Units|"
+msgid "kg m²/s"
+msgstr "kg m²/s"
+
+#: softbody.cc:41
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Angular momentum of the body"
+msgctxt "PropertyDescription|"
+msgid "Angular momentum of the body"
+msgstr "主體角動量"
+
+#: softbody.cc:53
+msgctxt "PropertyName|"
+msgid "borderParticleNames"
+msgstr "borderParticleNames"
+
+#: softbody.cc:54
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Border particle names (temporal property)"
+msgctxt "PropertyDescription|"
+msgid "Border particle names (temporal property)"
+msgstr "邊框粒子名稱（暫時性的屬性）"
+
+#: solver.cc:25
+msgctxt "ObjectClass|"
+msgid "Solver"
+msgstr "計算器"
+
+#: solver.cc:25
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Solver"
+msgctxt "ObjectDescription|"
+msgid "Solver"
+msgstr "計算器"
+
+#: solver.cc:26
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Solver type"
+msgctxt "PropertyDescription|"
+msgid "Solver type"
+msgstr "計算器型態"
+
+#: solver.cc:26
+msgctxt "PropertyName|"
+msgid "solverType"
+msgstr "solverType"
+
+#: solver.cc:27
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Step size"
+msgctxt "PropertyDescription|"
+msgid "Step size"
+msgstr "單步大小"
+
+#: solver.cc:27
+msgctxt "PropertyName|"
+msgid "stepSize"
+msgstr "stepSize"
+
+#: solver.cc:27 world.cc:35
+msgctxt "Units|"
+msgid "s"
+msgstr "s"
+
+#: solver.cc:29
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Allowed relative tolerance"
+msgctxt "PropertyDescription|"
+msgid "Allowed relative tolerance"
+msgstr "允許的相對容忍值"
+
+#: solver.cc:29
+msgctxt "PropertyName|"
+msgid "toleranceRel"
+msgstr "toleranceRel"
+
+#: solver.cc:30
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Count of dynamic variables"
+msgctxt "PropertyDescription|"
+msgid "Count of dynamic variables"
+msgstr "動態變數個數"
+
+#: solver.cc:30
+msgctxt "PropertyName|"
+msgid "dimension"
+msgstr "dimension"
+
+#: solver.cc:32
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Maximal local error ratio during last step"
+msgctxt "PropertyDescription|"
+msgid "Maximal local error ratio during last step"
+msgstr "最後步驟中的最大本地誤差比例"
+
+#: solver.cc:32
+msgctxt "PropertyName|"
+msgid "localErrorRatio"
+msgstr "localErrorRatio"
+
+#: spring.cc:28
+msgctxt "ObjectClass|"
+msgid "Spring"
+msgstr "Spring"
+
+#: spring.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Massless spring which can be connected to bodies"
+msgctxt "ObjectDescription|"
+msgid "Massless spring which can be connected to bodies"
+msgstr "可以將多個主體相連，無質量的彈簧"
+
+#: spring.cc:30
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Rest length"
+msgctxt "PropertyDescription|"
+msgid "Rest length"
+msgstr "剩餘長度"
+
+#: spring.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Current length"
+msgctxt "PropertyDescription|"
+msgid "Current length"
+msgstr "目前長度"
+
+#: spring.cc:31
+msgctxt "PropertyName|"
+msgid "length"
+msgstr "length"
+
+#: spring.cc:32
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Stiffness"
+msgctxt "PropertyDescription|"
+msgid "Stiffness"
+msgstr "堅硬程度"
+
+#: spring.cc:32
+msgctxt "PropertyName|"
+msgid "stiffness"
+msgstr "stiffness"
+
+#: spring.cc:32 spring.cc:51 spring.cc:53
+msgctxt "Units|"
+msgid "N/m"
+msgstr "N/m"
+
+#: spring.cc:33
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Damping"
+msgctxt "PropertyDescription|"
+msgid "Damping"
+msgstr "阻尼"
+
+#: spring.cc:33
+msgctxt "PropertyName|"
+msgid "damping"
+msgstr "damping"
+
+#: spring.cc:33
+msgctxt "Units|"
+msgid "N s/m"
+msgstr "N s/m"
+
+#: spring.cc:42
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Spring tension force"
+msgctxt "PropertyDescription|"
+msgid "Spring tension force"
+msgstr "彈簧拉力"
+
+#: spring.cc:45
+msgctxt "ObjectClass|"
+msgid "SpringErrors"
+msgstr "SpringErrors"
+
+#: spring.cc:45
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Errors class for Spring"
+msgctxt "ObjectDescription|"
+msgid "Errors class for Spring"
+msgstr "Spring 的誤差類別"
+
+#: spring.cc:47
+msgctxt "PropertyName|"
+msgid "restLengthVariance"
+msgstr "restLengthVariance"
+
+#: spring.cc:48
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Rest length variance"
+msgctxt "PropertyDescription|"
+msgid "Rest length variance"
+msgstr "剩餘長度變化"
+
+#: spring.cc:49
+msgctxt "PropertyName|"
+msgid "lengthVariance"
+msgstr "lengthVariance"
+
+#: spring.cc:50
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Current length variance"
+msgctxt "PropertyDescription|"
+msgid "Current length variance"
+msgstr "目前長度變化"
+
+#: spring.cc:51
+msgctxt "PropertyName|"
+msgid "stiffnessVariance"
+msgstr "stiffnessVariance"
+
+#: spring.cc:52
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Stiffness variance"
+msgctxt "PropertyDescription|"
+msgid "Stiffness variance"
+msgstr "堅硬程度變化"
+
+#: spring.cc:53
+msgctxt "PropertyName|"
+msgid "dampingVariance"
+msgstr "dampingVariance"
+
+#: spring.cc:54
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Damping variance"
+msgctxt "PropertyDescription|"
+msgid "Damping variance"
+msgstr "阻尼變化"
+
+#: spring.cc:55
+msgctxt "PropertyName|"
+msgid "localPosition1Variance"
+msgstr "localPosition1Variance"
+
+#: spring.cc:56
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Local position 1 variance"
+msgctxt "PropertyDescription|"
+msgid "Local position 1 variance"
+msgstr "本地位置 1 變化"
+
+#: spring.cc:57
+msgctxt "PropertyName|"
+msgid "localPosition2Variance"
+msgstr "localPosition2Variance"
+
+#: spring.cc:58
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Local position 2 variance"
+msgctxt "PropertyDescription|"
+msgid "Local position 2 variance"
+msgstr "本地位置 2 變化"
+
+#: spring.cc:59
+msgctxt "PropertyName|"
+msgid "position1Variance"
+msgstr "position1Variance"
+
+#: spring.cc:60
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position1 variance"
+msgctxt "PropertyDescription|"
+msgid "Position1 variance"
+msgstr "位置 1 變化"
+
+#: spring.cc:61
+msgctxt "PropertyName|"
+msgid "position2Variance"
+msgstr "position2Variance"
+
+#: spring.cc:62
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Position2 variance"
+msgctxt "PropertyDescription|"
+msgid "Position2 variance"
+msgstr "位置 2 變化"
+
+#: spring.cc:64
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Spring tension force variance"
+msgctxt "PropertyDescription|"
+msgid "Spring tension force variance"
+msgstr "彈簧拉力變化"
+
+#: tool.cc:26
+msgctxt "ObjectClass|"
+msgid "NoteImage"
+msgstr "NoteImage"
+
+#: tool.cc:26
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "NoteImage: an image embedded in Note"
+msgctxt "ObjectDescription|"
+msgid "NoteImage: an image embedded in Note"
+msgstr "NoteImage：嵌入 Note 中的影像"
+
+#: tool.cc:28
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Image data"
+msgctxt "PropertyDescription|"
+msgid "Image data"
+msgstr "影像資料"
+
+#: tool.cc:28
+msgctxt "PropertyName|"
+msgid "image"
+msgstr "image"
+
+#: tool.cc:31
+msgctxt "ObjectClass|"
+msgid "NoteFormula"
+msgstr "NoteFormula"
+
+#: tool.cc:31
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "NoteFormula: a formula embedded in Note"
+msgctxt "ObjectDescription|"
+msgid "NoteFormula: a formula embedded in Note"
+msgstr "NoteFormula: Note 中嵌入的公式"
+
+#: tool.cc:33
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Formula code"
+msgctxt "PropertyDescription|"
+msgid "Formula code"
+msgstr "公式碼"
+
+#: tool.cc:33
+msgctxt "PropertyName|"
+msgid "code"
+msgstr "code"
+
+#: tool.cc:36
+msgctxt "ObjectClass|"
+msgid "Note"
+msgstr "Note"
+
+#: tool.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Note: displays a textual note on the scene"
+msgctxt "ObjectDescription|"
+msgid "Note: displays a textual note on the scene"
+msgstr "Note：在場中顯示文字備忘"
+
+#: tool.cc:38
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Note position on the scene"
+msgctxt "PropertyDescription|"
+msgid "Note position on the scene"
+msgstr "場中的備忘位置"
+
+#: tool.cc:39
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Note size on the scene"
+msgctxt "PropertyDescription|"
+msgid "Note size on the scene"
+msgstr "場中的備忘大小"
+
+#: tool.cc:40
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Text"
+msgctxt "PropertyDescription|"
+msgid "Text"
+msgstr "文字"
+
+#: tool.cc:40
+msgctxt "PropertyName|"
+msgid "text"
+msgstr "text"
+
+#: tool.cc:43
+msgctxt "ObjectClass|"
+msgid "Graph"
+msgstr "Graph"
+
+#: tool.cc:43
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Graph: plots a graph of any properties"
+msgctxt "ObjectDescription|"
+msgid "Graph: plots a graph of any properties"
+msgstr "Graph：繪製任一屬性的圖形"
+
+#: tool.cc:45
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Graph position on the scene"
+msgctxt "PropertyDescription|"
+msgid "Graph position on the scene"
+msgstr "場中的圖形位置"
+
+#: tool.cc:46
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Graph size on the scene"
+msgctxt "PropertyDescription|"
+msgid "Graph size on the scene"
+msgstr "場中的圖形大小"
+
+#: tool.cc:47
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "X axis: object"
+msgctxt "PropertyDescription|"
+msgid "X axis: object"
+msgstr "X 軸：物件"
+
+#: tool.cc:47
+msgctxt "PropertyName|"
+msgid "objectX"
+msgstr "objectX"
+
+#: tool.cc:48
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "X axis: object property"
+msgctxt "PropertyDescription|"
+msgid "X axis: object property"
+msgstr "X 軸：物件屬性"
+
+#: tool.cc:48
+msgctxt "PropertyName|"
+msgid "propertyX"
+msgstr "propertyX"
+
+#: tool.cc:49
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "X axis: vector index"
+msgctxt "PropertyDescription|"
+msgid "X axis: vector index"
+msgstr "X 軸：向量索引"
+
+#: tool.cc:49
+msgctxt "PropertyName|"
+msgid "indexX"
+msgstr "indexX"
+
+#: tool.cc:50
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Y axis: object"
+msgctxt "PropertyDescription|"
+msgid "Y axis: object"
+msgstr "Y 軸：物件"
+
+#: tool.cc:50
+msgctxt "PropertyName|"
+msgid "objectY"
+msgstr "objectY"
+
+#: tool.cc:51
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Y axis: property"
+msgctxt "PropertyDescription|"
+msgid "Y axis: property"
+msgstr "Y 軸：屬性"
+
+#: tool.cc:51
+msgctxt "PropertyName|"
+msgid "propertyY"
+msgstr "propertyY"
+
+#: tool.cc:52
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Y axis: vector index"
+msgctxt "PropertyDescription|"
+msgid "Y axis: vector index"
+msgstr "Y 軸：向量索引"
+
+#: tool.cc:52
+msgctxt "PropertyName|"
+msgid "indexY"
+msgstr "indexY"
+
+#: tool.cc:53
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Auto-limits along X axis"
+msgctxt "PropertyDescription|"
+msgid "Auto-limits along X axis"
+msgstr "沿著 X 軸的自動限制"
+
+#: tool.cc:53
+msgctxt "PropertyName|"
+msgid "autoLimitsX"
+msgstr "autoLimitsX"
+
+#: tool.cc:54
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Auto-limits along Y axis"
+msgctxt "PropertyDescription|"
+msgid "Auto-limits along Y axis"
+msgstr "沿著 Y 軸的自動限制"
+
+#: tool.cc:54
+msgctxt "PropertyName|"
+msgid "autoLimitsY"
+msgstr "autoLimitsY"
+
+#: tool.cc:55
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Limits along X axis"
+msgctxt "PropertyDescription|"
+msgid "Limits along X axis"
+msgstr "沿著 X 軸的限制"
+
+#: tool.cc:55
+msgctxt "PropertyName|"
+msgid "limitsX"
+msgstr "limitsX"
+
+#: tool.cc:56
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Limits along Y axis"
+msgctxt "PropertyDescription|"
+msgid "Limits along Y axis"
+msgstr "沿著 Y 軸的限制"
+
+#: tool.cc:56
+msgctxt "PropertyName|"
+msgid "limitsY"
+msgstr "limitsY"
+
+#: tool.cc:57
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Show points on the graph"
+msgctxt "PropertyDescription|"
+msgid "Show points on the graph"
+msgstr "在圖形中顯示點"
+
+#: tool.cc:57
+msgctxt "PropertyName|"
+msgid "showPoints"
+msgstr "showPoints"
+
+#: tool.cc:58
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Show lines on the graph"
+msgctxt "PropertyDescription|"
+msgid "Show lines on the graph"
+msgstr "在圖形中顯示線"
+
+#: tool.cc:58
+msgctxt "PropertyName|"
+msgid "showLines"
+msgstr "showLines"
+
+#: tool.cc:59
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Current value"
+msgctxt "PropertyDescription|"
+msgid "Current value"
+msgstr "目前的值"
+
+#: tool.cc:59
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "currentValue"
+msgctxt "PropertyName|"
+msgid "currentValue"
+msgstr "currentValue"
+
+#: tool.cc:60 tool.cc:101
+#, fuzzy
+#| msgctxt "PropertyName|"
+#| msgid "points"
+msgctxt "PropertyDescription|"
+msgid "points"
+msgstr "點"
+
+#: tool.cc:60 tool.cc:101
+msgctxt "PropertyName|"
+msgid "points"
+msgstr "點"
+
+#: tool.cc:61
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "unitsX"
+msgctxt "PropertyName|"
+msgid "unitsX"
+msgstr "unitsX"
+
+#: tool.cc:61
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Units along X axis"
+msgctxt "PropertyName|"
+msgid "Units along X axis"
+msgstr "X 軸的單位"
+
+#: tool.cc:62
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "unitsY"
+msgctxt "PropertyName|"
+msgid "unitsY"
+msgstr "unitsY"
+
+#: tool.cc:62
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Units along Y axis"
+msgctxt "PropertyName|"
+msgid "Units along Y axis"
+msgstr "Y 軸的單位"
+
+#: tool.cc:65
+msgctxt "ObjectClass|"
+msgid "Meter"
+msgstr "Meter"
+
+#: tool.cc:65
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Meter: displays any property on the scene"
+msgctxt "ObjectDescription|"
+msgid "Meter: displays any property on the scene"
+msgstr "Meter：計量器，在場中顯示任何屬性"
+
+#: tool.cc:67
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Meter position on the scene"
+msgctxt "PropertyDescription|"
+msgid "Meter position on the scene"
+msgstr "場中的計量器位置"
+
+#: tool.cc:68
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Meter size on the scene"
+msgctxt "PropertyDescription|"
+msgid "Meter size on the scene"
+msgstr "場中的計量器大小"
+
+#: tool.cc:69
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Observed object"
+msgctxt "PropertyDescription|"
+msgid "Observed object"
+msgstr "觀測物件"
+
+#: tool.cc:69 tool.cc:81
+msgctxt "PropertyName|"
+msgid "object"
+msgstr "物件"
+
+#: tool.cc:70
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Observed property"
+msgctxt "PropertyDescription|"
+msgid "Observed property"
+msgstr "觀測屬性"
+
+#: tool.cc:70 tool.cc:82
+msgctxt "PropertyName|"
+msgid "property"
+msgstr "屬性"
+
+#: tool.cc:71 tool.cc:83
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Vector index"
+msgctxt "PropertyDescription|"
+msgid "Vector index"
+msgstr "向量索引"
+
+#: tool.cc:71 tool.cc:83
+msgctxt "PropertyName|"
+msgid "index"
+msgstr "index"
+
+#: tool.cc:72
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Display digits"
+msgctxt "PropertyDescription|"
+msgid "Display digits"
+msgstr "顯示位數"
+
+#: tool.cc:72
+msgctxt "PropertyName|"
+msgid "digits"
+msgstr "digits"
+
+#: tool.cc:73 tool.cc:90
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Value"
+msgctxt "PropertyDescription|"
+msgid "Value"
+msgstr "數值"
+
+#: tool.cc:73 tool.cc:90
+msgctxt "PropertyName|"
+msgid "value"
+msgstr "value"
+
+#: tool.cc:74
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Units of measured property"
+msgctxt "PropertyDescription|"
+msgid "Units of measured property"
+msgstr "測量屬性的單位"
+
+#: tool.cc:74 tool.cc:92
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "units"
+msgctxt "PropertyName|"
+msgid "units"
+msgstr "units"
+
+#: tool.cc:77
+msgctxt "ObjectClass|"
+msgid "Controller"
+msgstr "Controller"
+
+#: tool.cc:77
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Controller: allows to easily control any property"
+msgctxt "ObjectDescription|"
+msgid "Controller: allows to easily control any property"
+msgstr "Controller：讓您輕鬆控制屬性"
+
+#: tool.cc:79
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Controller position on the scene"
+msgctxt "PropertyDescription|"
+msgid "Controller position on the scene"
+msgstr "場中的控制器位置"
+
+#: tool.cc:80
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Controller size on the scene"
+msgctxt "PropertyDescription|"
+msgid "Controller size on the scene"
+msgstr "場中的控制器大小"
+
+#: tool.cc:81
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Controlled object"
+msgctxt "PropertyDescription|"
+msgid "Controlled object"
+msgstr "控制的物件"
+
+#: tool.cc:82
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Controlled property"
+msgctxt "PropertyDescription|"
+msgid "Controlled property"
+msgstr "控制的屬性"
+
+#: tool.cc:84
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Limits"
+msgctxt "PropertyDescription|"
+msgid "Limits"
+msgstr "限制"
+
+#: tool.cc:84
+msgctxt "PropertyName|"
+msgid "limits"
+msgstr "limits"
+
+#: tool.cc:85
+msgctxt "PropertyName|"
+msgid "increaseShortcut"
+msgstr "increaseShortcut"
+
+#: tool.cc:86
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Shortcut to increase the value"
+msgctxt "PropertyDescription|"
+msgid "Shortcut to increase the value"
+msgstr "遞增數值的捷徑"
+
+#: tool.cc:87
+msgctxt "PropertyName|"
+msgid "decreaseShortcut"
+msgstr "decreaseShortcut"
+
+#: tool.cc:88
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Shortcut to decrease the value"
+msgctxt "PropertyDescription|"
+msgid "Shortcut to decrease the value"
+msgstr "遞減數值的捷徑"
+
+#: tool.cc:89
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Increment value"
+msgctxt "PropertyDescription|"
+msgid "Increment value"
+msgstr "遞增數值"
+
+#: tool.cc:89
+msgctxt "PropertyName|"
+msgid "increment"
+msgstr "increment"
+
+#: tool.cc:92
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Units of controlled property"
+msgctxt "PropertyDescription|"
+msgid "Units of controlled property"
+msgstr "控制屬性的單位"
+
+#: tool.cc:95
+msgctxt "ObjectClass|"
+msgid "Tracer"
+msgstr "Tracer"
+
+#: tool.cc:95
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Tracer: traces trajectory of a point on a body"
+msgctxt "ObjectDescription|"
+msgid "Tracer: traces trajectory of a point on a body"
+msgstr "Tracer：追蹤主體上某一點的軌道"
+
+#: tool.cc:97
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Traced body"
+msgctxt "PropertyDescription|"
+msgid "Traced body"
+msgstr "追蹤的主體"
+
+#: tool.cc:99
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Local position"
+msgctxt "PropertyDescription|"
+msgid "Local position"
+msgstr "本地位置"
+
+#: world.cc:32
+msgctxt "ObjectClass|"
+msgid "Tool"
+msgstr "工具"
+
+#: world.cc:32
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "Tool"
+msgctxt "ObjectDescription|"
+msgid "Tool"
+msgstr "工具"
+
+#: world.cc:34
+msgctxt "ObjectClass|"
+msgid "World"
+msgstr "世界"
+
+#: world.cc:34
+#, fuzzy
+#| msgctxt "ObjectClass|"
+#| msgid "World"
+msgctxt "ObjectDescription|"
+msgid "World"
+msgstr "世界"
+
+#: world.cc:35
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Current time"
+msgctxt "PropertyDescription|"
+msgid "Current time"
+msgstr "目前時間"
+
+#: world.cc:35
+msgctxt "PropertyName|"
+msgid "time"
+msgstr "time"
+
+#: world.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Simulation speed scale"
+msgctxt "PropertyDescription|"
+msgid "Simulation speed scale"
+msgstr "模擬速度刻度"
+
+#: world.cc:36
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "timeScale"
+msgctxt "PropertyName|"
+msgid "timeScale"
+msgstr "timeScale"
+
+#: world.cc:37
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "errorsCalculation"
+msgctxt "PropertyName|"
+msgid "errorsCalculation"
+msgstr "errorsCalculation"
+
+#: world.cc:38
+#, fuzzy
+#| msgctxt "StepCore|"
+#| msgid "Enable global error calculation"
+msgctxt "PropertyDescription|"
+msgid "Enable global error calculation"
+msgstr "開啟全域誤差計算"
+
+#: xmlfile.cc:201
+msgctxt "QObject|"
+msgid "The file is not a StepCoreXML file."
+msgstr "檔案不是 StepCoreXML 檔。"
+
+#: xmlfile.cc:247
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown item type \"%1\""
+msgstr "未知的項目型態 %1"
+
+#: xmlfile.cc:268
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown solver type \"%1\""
+msgstr "未知的計算器型態 %1"
+
+#: xmlfile.cc:282
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown collisionSolver type \"%1\""
+msgstr "未知的衝突計算器型態 %1"
+
+#: xmlfile.cc:296
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown constraint solver type \"%1\""
+msgstr "未知的強制計算器型態 %1"
+
+#: xmlfile.cc:324
+#, qt-format
+msgctxt "QObject|"
+msgid "Wrong ID attribute value for %1"
+msgstr "%1 的代碼屬性值錯誤"
+
+#: xmlfile.cc:329
+#, qt-format
+msgctxt "QObject|"
+msgid "Non-unique ID attribute value for %1"
+msgstr "%1 的代碼屬性值非唯一"
+
+#: xmlfile.cc:357 xmlfile.cc:371
+#, qt-format
+msgctxt "QObject|"
+msgid "Property \"%1\" of \"%2\" has illegal value"
+msgstr "%2 的屬性 %1 有不合法的值"
+
+#: xmlfile.cc:384
+msgctxt "QObject|"
+msgid "File is not writable."
+msgstr "檔案無法寫入"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Body"
+#~ msgstr "主體"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Force"
+#~ msgstr "力"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Item"
+#~ msgstr "項目"
+
+#~ msgctxt "StepCore|"
+#~ msgid "ItemGroup"
+#~ msgstr "ItemGroup"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Joint"
+#~ msgstr "Joint"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Object"
+#~ msgstr "物件"
+
+#~ msgctxt "StepCore|"
+#~ msgid "ObjectErrors"
+#~ msgstr "ObjectErrors"
+
+#~ msgctxt "StepCore|"
+#~ msgid "position"
+#~ msgstr "位置"
+
+#~ msgctxt "StepCore|"
+#~ msgid "velocity"
+#~ msgstr "速率"
+
+#~ msgctxt "StepCore|"
+#~ msgid "acceleration"
+#~ msgstr "acceleration"
+
+#~ msgctxt "StepCore|"
+#~ msgid "force"
+#~ msgstr "force"
+
+#~ msgctxt "StepCore|"
+#~ msgid "mass"
+#~ msgstr "質量"
+
+#~ msgctxt "StepCore|"
+#~ msgid "momentum"
+#~ msgstr "momentum"
+
+#~ msgctxt "StepCore|"
+#~ msgid "charge"
+#~ msgstr "charge"
+
+#~ msgctxt "ObjectClass|"
+#~ msgid "Plane"
+#~ msgstr "Plane"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Unmovable rigid plane"
+#~ msgstr "無法移動的平面"
+
+#~ msgctxt "PropertyName|"
+#~ msgid "point1"
+#~ msgstr "點1"
+
+#~ msgctxt "StepCore|"
+#~ msgid "First point which defines the plane"
+#~ msgstr "定義此平面的第一點"
+
+#~ msgctxt "PropertyName|"
+#~ msgid "point2"
+#~ msgstr "點2"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Second point which defines the plane"
+#~ msgstr "定義此平面的第二點"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Solver"
+#~ msgstr "計算器"
+
+#~ msgctxt "StepCore|"
+#~ msgid "points"
+#~ msgstr "點"
+
+#~ msgctxt "StepCore|"
+#~ msgid "value"
+#~ msgstr "value"
+
+#~ msgctxt "StepCore|"
+#~ msgid "Tool"
+#~ msgstr "工具"
+
+#~ msgctxt "StepCore|"
+#~ msgid "World"
+#~ msgstr "世界"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Body"
+#~ msgstr "Body"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Force"
+#~ msgstr "Force"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Item"
+#~ msgstr "Item"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ItemGroup"
+#~ msgstr "ItemGroup"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Joint"
+#~ msgstr "Joint"
+
+#~ msgctxt "PropertyName"
+#~ msgid "position"
+#~ msgstr "position"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Object"
+#~ msgstr "Object"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ObjectErrors"
+#~ msgstr "ObjectErrors"
+
+#~ msgctxt "PropertyName"
+#~ msgid "velocity"
+#~ msgstr "velocity"
+
+#~ msgctxt "PropertyName"
+#~ msgid "acceleration"
+#~ msgstr "acceleration"
+
+#~ msgctxt "PropertyName"
+#~ msgid "force"
+#~ msgstr "force"
+
+#~ msgctxt "PropertyName"
+#~ msgid "mass"
+#~ msgstr "mass"
+
+#~ msgctxt "PropertyName"
+#~ msgid "momentum"
+#~ msgstr "momentum"
+
+#~ msgctxt "PropertyName"
+#~ msgid "charge"
+#~ msgstr "charge"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Solver"
+#~ msgstr "Solver"
+
+#~ msgctxt "PropertyName"
+#~ msgid "points"
+#~ msgstr "points"
+
+#~ msgctxt "PropertyName"
+#~ msgid "value"
+#~ msgstr "value"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Tool"
+#~ msgstr "Tool"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "World"
+#~ msgstr "World"
+
+#~ msgid "Item \"%1\" has no stored property named \"%2\""
+#~ msgstr "項目 %1 沒有儲存名為 %2 的屬性"
+
+#~ msgid "Unexpected tag \"%1\""
+#~ msgstr "未預期的標籤 %1"
+
+#~ msgid "\"world\" tag not found"
+#~ msgstr "找不到 \"world\" 標籤"
+
+#~ msgid "Error parsing file at line %1: %2"
+#~ msgstr "剖析檔案時發生錯誤：行 %1：%2"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具列"
+
+#~ msgid "Simulation Toolbar"
+#~ msgstr "模擬工具"
+
+#~ msgid "&Examples"
+#~ msgstr "範例(&E)"
+
+#~ msgid "&Simulation"
+#~ msgstr "模擬(&S)"
+
+#~ msgid "&Run Speed"
+#~ msgstr "執行速度(&R)"
+
+#~ msgid "&Panels"
+#~ msgstr "面板(&P)"
+
+#~ msgid "Data Source"
+#~ msgstr "資料來源"
+
+#~ msgid "Range"
+#~ msgstr "範圍"
+
+#~ msgid "min:"
+#~ msgstr "最小："
+
+#~ msgid "max:"
+#~ msgstr "最大："
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Shortcuts"
+#~ msgstr "捷徑"
+
+#~ msgid "Decrease:"
+#~ msgstr "遞減："
+
+#~ msgid "Increase:"
+#~ msgstr "遞增："
+
+#~ msgid "Increment:"
+#~ msgstr "增加量："
+
+#~ msgid "0.1"
+#~ msgstr "0.1"
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "Area"
+#~ msgstr "面積"
+
+#~ msgid "The area the gas takes"
+#~ msgstr "氣體面積"
+
+#~ msgid "Particles count:"
+#~ msgstr "粒子數："
+
+#~ msgid "The number of partcles of this gas."
+#~ msgstr "此氣體的粒子數。"
+
+#~ msgid "20"
+#~ msgstr "20"
+
+#~ msgid "Concentration:"
+#~ msgstr "濃縮："
+
+#~ msgid "Particles mass:"
+#~ msgstr "粒子質量："
+
+#~ msgid "The mass of one particle"
+#~ msgstr "一顆粒子的質量"
+
+#~ msgid "Temperature:"
+#~ msgstr "溫度："
+
+#~ msgid "1e21"
+#~ msgstr "1e21"
+
+#~ msgid "Mean velocity:"
+#~ msgstr "平均速率："
+
+#~ msgid "(0,0)"
+#~ msgstr "(0,0)"
+
+#~ msgid "Display precision:"
+#~ msgstr "顯示精確度："
+
+#~ msgid "Show scene axes"
+#~ msgstr "顯示場軸"
+
+#~ msgid "Show tips when creating objects"
+#~ msgstr "建立物件時顯示提示"
+
+#~ msgid "Enable OpenGL (EXPERIMENTAL)"
+#~ msgstr "開啟 OpenGL（實驗性質）"
+
+#~ msgid "Open wikipedia in external browser"
+#~ msgstr "在外部瀏覽器開啟維基百科"
+
+#~ msgid "Position:"
+#~ msgstr "位置："
+
+#~ msgid "Body size:"
+#~ msgstr "本體大小："
+
+#~ msgid "(1,1)"
+#~ msgstr "(1,1)"
+
+#~ msgid "Body mass:"
+#~ msgstr "本體質量："
+
+#~ msgid "Young's modulus:"
+#~ msgstr "楊氏係數（Young's modulus）："
+
+#~ msgid "15"
+#~ msgstr "15"
+
+#~ msgid "Body damping:"
+#~ msgstr "本體阻尼："
+
+#~ msgid "0.3"
+#~ msgstr "0.3"
+
+#~ msgid "Body split counts:"
+#~ msgstr "本體分裂計數："
+
+#~ msgid "(4,4)"
+#~ msgstr "(4,4)"
+
+#~ msgid "Number of digits:"
+#~ msgstr "位數："
+
+#~ msgid "X :"
+#~ msgstr "X："
+
+#~ msgid "Y :"
+#~ msgstr "Y："
+
+#~ msgid "Ranges"
+#~ msgstr "範圍"
+
+#~ msgid "auto"
+#~ msgstr "自動"
+
+#~ msgid "Show lines"
+#~ msgstr "顯示線"
+
+#~ msgid "Show points"
+#~ msgstr "顯示點"
+
+#~ msgid "Click on the scene to create a %1"
+#~ msgstr "在場珠點擊以建立 %1"
+
+#~ msgid "Create %1"
+#~ msgstr "建立 %1"
+
+#~ msgid "%1 named '%2' created"
+#~ msgstr "名為 %2 的 %1 已建立"
+
+#~ msgid ""
+#~ "Press left mouse button to position first end of a %1\n"
+#~ "then drag and release it to position the second end"
+#~ msgstr ""
+#~ "點擊滑鼠左鍵來擺放 %1 的一端\n"
+#~ "然後按住並拖曳到另一端後放開"
+
+#~ msgid "Release left mouse button to position second end of the %1"
+#~ msgstr "放開滑鼠左鍵來決定 %1 的另一端位置"
+
+#~ msgid "Move %1"
+#~ msgstr "移動 %1"
+
+#~ msgid "several objects"
+#~ msgstr "一些物件"
+
+#~ msgid "Change %1.%2"
+#~ msgstr "變更 %1.%2"
+
+#~ msgid "Change %1"
+#~ msgstr "變更 %1"
+
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"
+
+#~ msgctxt "Object list"
+#~ msgid "World"
+#~ msgstr "世界"
+
+#~ msgid "Palette"
+#~ msgstr "調色盤"
+
+#~ msgid "Pointer"
+#~ msgstr "指標"
+
+#~ msgid "Selection pointer"
+#~ msgstr "選取指標"
+
+#~ msgid "Show text"
+#~ msgstr "顯示文字"
+
+#~ msgid "can not launch %1"
+#~ msgstr "無法啟動 %1"
+
+#~ msgid "error running %1"
+#~ msgstr "執行 %1 發生錯誤"
+
+#~ msgid ""
+#~ "%1 reported an error (exit status %2):\n"
+#~ "%3"
+#~ msgstr ""
+#~ "%1 回報了一個錯誤（離開狀態為 %2）\n"
+#~ "%3"
+
+#~ msgid "%1 did not create output file"
+#~ msgstr "%1 沒有建立輸出檔"
+
+#~ msgid "can not open temporary file"
+#~ msgstr "無法開啟暫存檔"
+
+#~ msgid "can not open result file"
+#~ msgstr "無法開啟結果檔"
+
+#~ msgid "Move end of %1"
+#~ msgstr "移動 %1 的一端"
+
+#~ msgid "Create items..."
+#~ msgstr "建立項目..."
+
+#~ msgid "Create soft body items"
+#~ msgstr "建立軟本體項目"
+
+#~ msgid "Create items for %1"
+#~ msgstr "建立 %1 的項目"
+
+#~ msgid "Objects under mouse:"
+#~ msgstr "滑鼠下的物件："
+
+#~ msgid "... (%1 more items)"
+#~ msgstr "   （還有 %1 個項目）"
+
+#~ msgid "Interactive physical simulator"
+#~ msgstr "互動式物理模擬器"
+
+#~ msgid "Step"
+#~ msgstr "Step"
+
+#~ msgid "(C) 2007 Vladimir Kuznetsov"
+#~ msgstr "(C) 2007 Vladimir Kuznetsov"
+
+#~ msgid "Vladimir Kuznetsov"
+#~ msgstr "Vladimir Kuznetsov"
+
+#~ msgid "Original author"
+#~ msgstr "原始作者"
+
+#~ msgid "Carsten Niehaus"
+#~ msgstr "Carsten Niehaus"
+
+#~ msgid "Code contributions"
+#~ msgstr "貢獻程式碼"
+
+#~ msgid "Document to open"
+#~ msgstr "要開啟的文件"
+
+#~ msgid "Delete %1"
+#~ msgstr "刪除 %1"
+
+#~ msgid "Delete several items"
+#~ msgstr "刪除一些項目"
+
+#~ msgid "<no object>"
+#~ msgstr "<沒有物件>"
+
+#~ msgid "<unnamed>"
+#~ msgstr "<未命名>"
+
+#~ msgid "%1: %2"
+#~ msgstr "%1：%2"
+
+#~ msgid "<nobr><h4><u>%1</u></h4></nobr>"
+#~ msgstr "<nobr><h4><u>%1</u></h4></nobr>"
+
+#~ msgid "<tr><td>%1&nbsp;&nbsp;</td><td>%2</td></tr>"
+#~ msgstr "<tr><td>%1&nbsp;&nbsp;</td><td>%2</td></tr>"
+
+#~ msgid "Simulate %1 → %2"
+#~ msgstr "模擬 %1 → %2"
+
+#~ msgid "Undo history"
+#~ msgstr "復原歷史"
+
+#~ msgid "Change solver type"
+#~ msgstr "變更計算器型態"
+
+#~ msgid "Rename %1 to %2"
+#~ msgstr "將 %1 重新命名為 %2"
+
+#~ msgid "Property"
+#~ msgstr "屬性"
+
+#~ msgid "false"
+#~ msgstr "偽"
+
+#~ msgid "true"
+#~ msgstr "真"
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "&Open Tutorial..."
+#~ msgstr "開啟教學(&O)..."
+
+#~ msgid "&Open Example..."
+#~ msgstr "開啟範例(&O)..."
+
+#~ msgid "Open Down&loaded Example..."
+#~ msgstr "開啟已下載的範例(&L)..."
+
+#~ msgid "Share C&urrent Experiment..."
+#~ msgstr "分享目前的實驗(&U)..."
+
+#~ msgid "&Download New Experiments..."
+#~ msgstr "下載新實驗(&D)..."
+
+#~ msgid "Redo"
+#~ msgstr "重做"
+
+#~ msgid "Undo"
+#~ msgstr "復原"
+
+#~ msgid "&Run"
+#~ msgstr "執行(&R)"
+
+#~ msgid "Execute the program"
+#~ msgstr "執行程式"
+
+#~ msgid "Run: Execute the program"
+#~ msgstr "執行：執行程式"
+
+#~ msgctxt "@option:radio"
+#~ msgid "1x Speed"
+#~ msgstr "一倍速"
+
+#~ msgctxt "@option:radio choose the slow speed"
+#~ msgid "2x Speed"
+#~ msgstr "兩倍速"
+
+#~ msgctxt "@option:radio"
+#~ msgid "4x Speed"
+#~ msgstr "四倍速"
+
+#~ msgctxt "@option:radio"
+#~ msgid "8x Speed"
+#~ msgstr "八倍速"
+
+#~ msgctxt "@option:radio"
+#~ msgid "16x Speed"
+#~ msgstr "十六倍速"
+
+#~ msgctxt "filename"
+#~ msgid "untitled.step"
+#~ msgstr "untitled.step"
+
+#~ msgid "<new file>"
+#~ msgstr "<新檔案>"
+
+#~ msgid "*.step|Step files (*.step)"
+#~ msgstr "*.step|Step 檔案(*.step)"
+
+#~ msgid "Cannot open file '%1'"
+#~ msgstr "無法開啟檔案 %1"
+
+#~ msgid "Cannot parse file '%1': %2"
+#~ msgstr "無法剖析檔案 %1：%2"
+
+#~ msgid "<open file: %1>"
+#~ msgstr "<開啟檔案：%1>"
+
+#~ msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+#~ msgstr "檔案 %1 已存在。您希望覆寫它嗎？"
+
+#~ msgid "Warning - Step"
+#~ msgstr "警告─Step"
+
+#~ msgid "Cannot save file '%1': %2"
+#~ msgstr "無法儲存檔案 %1：%2"
+
+#~ msgid ""
+#~ "The experiment has been modified.\n"
+#~ "Do you want to save your changes?"
+#~ msgstr ""
+#~ "實驗已被變更。\n"
+#~ "您要儲存您的變更嗎？"
+
+#~ msgid "Uploading is still not implemented in kdelibs."
+#~ msgstr "上傳功能尚未在 kdelibs 中實作。"
+
+#~ msgid "Sorry - Step"
+#~ msgstr "抱歉─Step"
+
+#~ msgid "&Stop"
+#~ msgstr "停止(&S)"
+
+#~ msgid "&Simulate"
+#~ msgstr "模擬(&S)"
+
+#~ msgid ""
+#~ "Cannot finish this step because local error is greater than local "
+#~ "tolerance.\n"
+#~ "Please check solver settings and try again."
+#~ msgstr ""
+#~ "無法完成此步驟，因為本地端發生的誤差超過可容忍範圍。\n"
+#~ "請檢查計算器設定並再試一次。"
+
+#~ msgid ""
+#~ "Cannot finish this step because there are collisions which cannot be "
+#~ "resolved automatically.\n"
+#~ "Please move colliding objects apart and try again."
+#~ msgstr ""
+#~ "無法完成此步驟，因為發生無法自動解決的衝突。\n"
+#~ "請移動衝突的物件並再試一次。"
+
+#~ msgid "Cannot finish this step because of an unknown error."
+#~ msgstr "無法完成此步驟，因為發生未知的錯誤。"
+
+#~ msgid "&Undo"
+#~ msgstr "復原(&U)"
+
+#~ msgid "&Undo: %1"
+#~ msgstr "復原(&U)：%1"
+
+#~ msgid "Re&do"
+#~ msgstr "重做(&D)"
+
+#~ msgid "Re&do: %1"
+#~ msgstr "重做(&D)：%1"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid ""
+#~ "Press left mouse button to position\n"
+#~ "top left corner of a region for %1"
+#~ msgstr "按下滑鼠左鍵來決定 %1 的左上角位置"
+
+#~ msgid ""
+#~ "Move mouse and release left mouse button to position\n"
+#~ "bottom right corner of the region for %1"
+#~ msgstr "拖曳滑鼠左鍵來決定 %1 的右下角位置"
+
+#~ msgid "Please fill in the parameters for the gas particles."
+#~ msgstr "請填入氣體粒子的參數。"
+
+#~ msgid "Create particles..."
+#~ msgstr "建立粒子..."
+
+#~ msgid "Create gas particles"
+#~ msgstr "建立氣體粒子"
+
+#~ msgid ""
+#~ "You are trying to create a very large number of particles. It will make "
+#~ "simulation very slow. Do you want to continue ?"
+#~ msgstr ""
+#~ "您正試圖建立非常大量的粒子。它可能會讓模擬變得非常慢。您確定要繼續嗎？"
+
+#~ msgid "Create particles for %1"
+#~ msgstr "建立 %1 的粒子"
+
+#~ msgid "Click to enter a text"
+#~ msgstr "點擊以輸入文字"
+
+#~ msgid "&Color"
+#~ msgstr "顏色(&C)"
+
+#~ msgid "&Bold"
+#~ msgstr "粗體(&B)"
+
+#~ msgid "&Italic"
+#~ msgstr "斜體(&I)"
+
+#~ msgid "&Underline"
+#~ msgstr "底線(&U)"
+
+#~ msgid "Align &Left"
+#~ msgstr "置左(&L)"
+
+#~ msgid "Align C&enter"
+#~ msgstr "置中(&E)"
+
+#~ msgid "Align &Right"
+#~ msgstr "置右(&R)"
+
+#~ msgid "Align &Justify"
+#~ msgstr "兩邊對齊(&J)"
+
+#~ msgid "&Align"
+#~ msgstr "排列(&A)"
+
+#~ msgid "&Font"
+#~ msgstr "字型(&F)"
+
+#~ msgid "Font &Size"
+#~ msgstr "字型大小(&S)"
+
+#~ msgid "Insert &Image"
+#~ msgstr "插入影像(&I)"
+
+#~ msgid "Insert &Formula"
+#~ msgstr "插入公式(&F)"
+
+#~ msgid "Edit %1"
+#~ msgstr "編輯 %1"
+
+#~ msgid "Cannot parse file '%1'"
+#~ msgstr "無法剖析檔案 %1"
+
+#~ msgid ""
+#~ "Cannot find latex installation. You need 'latex', 'dvips' and 'gs' "
+#~ "executables installed and accessible from $PATH"
+#~ msgstr ""
+#~ "找不到 latex。您需要 latex、dvips 與 gs 執行檔，並且要在 $PATH 路徑之中"
+
+#~ msgid "LaTex Formula - Step"
+#~ msgstr "Latex 公式─Step"
+
+#~ msgid "Enter LaTeX formula string"
+#~ msgstr "請輸入 LaTeX 公式字串"
+
+#~ msgid "Cannot compile LaTeX formula: %1"
+#~ msgstr "無法編譯 LaTeX 公式：%1"
+
+#~ msgid "Cannot parse result image"
+#~ msgstr "無法剖析結果影像"
+
+#~ msgid "Property name"
+#~ msgstr "屬性名稱"
+
+#~ msgid "%1.%2"
+#~ msgstr "%1.%2"
+
+#~ msgid "[%1]"
+#~ msgstr "【%1】"
+
+#~ msgid "[not configured]"
+#~ msgstr "【未設定】"
+
+#~ msgid "Clear graph"
+#~ msgstr "清除圖形"
+
+#~ msgid "Configure graph..."
+#~ msgstr "設定圖形..."
+
+#~ msgid "Configure graph"
+#~ msgstr "設定圖形"
+
+#~ msgid "Edit properties of %1"
+#~ msgstr "編輯 %1 的屬性"
+
+#~ msgid "Clear graph %1"
+#~ msgstr "清除圖形 %1"
+
+#~ msgid "Configure meter..."
+#~ msgstr "設定公尺..."
+
+#~ msgid "Configure meter"
+#~ msgstr "設定公尺"
+
+#~ msgid "Increase value"
+#~ msgstr "遞增數值"
+
+#~ msgid "Decrease value"
+#~ msgstr "遞減數值"
+
+#~ msgid "Decrease controller %1"
+#~ msgstr "遞減控制器 %1"
+
+#~ msgid "Increase controller %1"
+#~ msgstr "遞增控制器 %1"
+
+#~ msgid "Change controller %1"
+#~ msgstr "變更控制器 %1"
+
+#~ msgid "Configure controller..."
+#~ msgstr "設定控制器..."
+
+#~ msgid "Configure controller"
+#~ msgstr "設定控制器"
+
+#~ msgid "Clear trace"
+#~ msgstr "清除追蹤"
+
+#~ msgid "Clear tracer %1"
+#~ msgstr "清除追蹤 %1"
+
+#~ msgid "Context info"
+#~ msgstr "內文資訊"
+
+#~ msgid "Back"
+#~ msgstr "返回"
+
+#~ msgid "Forward"
+#~ msgstr "往後"
+
+#~ msgid "Sync selection"
+#~ msgstr "同步選取"
+
+#~ msgid "Follow selection"
+#~ msgstr "跟隨選取"
+
+#~ msgid "Open in browser"
+#~ msgstr "在瀏覽器開啟"
+
+#~ msgid "Documentation"
+#~ msgstr "文件"
+
+#~ msgid "No current object."
+#~ msgstr "沒有目前的物件。"
+
+#~ msgid "Documentation error"
+#~ msgstr "文件錯誤"
+
+#~ msgid "Documentation for %1 not available."
+#~ msgstr "找不到 %1 的文件"
+
+#~ msgid ""
+#~ "You can help <a href=\"http://edu.kde.org/step\">Step</a> by writing it!"
+#~ msgstr "您可以協助 <a href=\"http://edu.kde.org/step\">Step</a> 撰寫文件。"
+
+#~ msgid "Wikipedia"
+#~ msgstr "維基百科"
+
+#~ msgid "Fetching Wikipedia Information..."
+#~ msgstr "讀取維基百科資訊中..."
+
+#~ msgid "Wikipedia error"
+#~ msgstr "維基百科錯誤"
+
+#~ msgid ""
+#~ "Information could not be retrieved because the server was not reachable."
+#~ msgstr "無法拮取資訊，因為無法連線到伺服器。"
+
+#~ msgid "Wikipedia Information"
+#~ msgstr "維基百科資訊"
+
+#~ msgid "Wikipedia Other Languages"
+#~ msgstr "其他語言的維基百科"
+
+#~ msgid "Press left mouse button to position a center of a %1"
+#~ msgstr "按下滑鼠左鍵來放置 %1 的圓心"
+
+#~ msgid ""
+#~ "Move mouse and release left mouse button to define a radius of the %1"
+#~ msgstr "拖曳滑鼠左鍵來決定 %1 的半徑"
+
+#~ msgid ""
+#~ "Press left mouse button to position\n"
+#~ "top left corner of a %1"
+#~ msgstr "按下滑鼠左鍵來決定 %1 的左上角位置"
+
+#~ msgid ""
+#~ "Move mouse and release left mouse button to position\n"
+#~ "bottom right corner of the %1"
+#~ msgstr "拖曳滑鼠左鍵來決定 %1 的右下角位置"
+
+#~ msgid "Click on the scene to create a first vertex of %1"
+#~ msgstr "在場中點擊來建立 %1 的第一個向量"
+
+#~ msgid "Click on the scene to add new vertex or press Enter to finish"
+#~ msgstr "在場中點擊來新增向量，或按 Enter 完成"

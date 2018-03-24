@@ -1,0 +1,3121 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcachegrind_qt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-18 02:14+0000\n"
+"PO-Revision-Date: 2013-11-04 15:27+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Qt-Contexts: true\n"
+
+#: libcore/cachegrindloader.cpp:145
+#, fuzzy
+#| msgid "Import filter for Cachegrind/Callgrind generated profile data files"
+msgctxt "QObject|"
+msgid "Import filter for Cachegrind/Callgrind generated profile data files"
+msgstr "Cachegrind/Callgrind 產生的分析檔資料檔匯入過濾器"
+
+#: libcore/context.cpp:70
+#, fuzzy
+#| msgid "Invalid Context"
+msgctxt "ProfileContext|"
+msgid "Invalid Context"
+msgstr "不合法的內容"
+
+#: libcore/context.cpp:71
+#, fuzzy
+#| msgid "Unknown Context"
+msgctxt "ProfileContext|"
+msgid "Unknown Context"
+msgstr "未知的內文"
+
+#: libcore/context.cpp:72
+#, fuzzy
+#| msgid "Part Source Line"
+msgctxt "ProfileContext|"
+msgid "Part Source Line"
+msgstr "源碼行部件"
+
+#: libcore/context.cpp:73
+#, fuzzy
+#| msgid "Source Line"
+msgctxt "ProfileContext|"
+msgid "Source Line"
+msgstr "來源行"
+
+#: libcore/context.cpp:74
+#, fuzzy
+#| msgid "Part Line Call"
+msgctxt "ProfileContext|"
+msgid "Part Line Call"
+msgstr "行呼叫部件"
+
+#: libcore/context.cpp:75
+#, fuzzy
+#| msgid "Line Call"
+msgctxt "ProfileContext|"
+msgid "Line Call"
+msgstr "行呼叫"
+
+#: libcore/context.cpp:76
+#, fuzzy
+#| msgid "Part Jump"
+msgctxt "ProfileContext|"
+msgid "Part Jump"
+msgstr "跳躍部件"
+
+#: libcore/context.cpp:77
+#, fuzzy
+#| msgid "Jump"
+msgctxt "ProfileContext|"
+msgid "Jump"
+msgstr "跳躍"
+
+#: libcore/context.cpp:78
+#, fuzzy
+#| msgid "Part Instruction"
+msgctxt "ProfileContext|"
+msgid "Part Instruction"
+msgstr "指令部件"
+
+#: libcore/context.cpp:79
+#, fuzzy
+#| msgid "Instruction"
+msgctxt "ProfileContext|"
+msgid "Instruction"
+msgstr "指令"
+
+#: libcore/context.cpp:80
+#, fuzzy
+#| msgid "Part Instruction Jump"
+msgctxt "ProfileContext|"
+msgid "Part Instruction Jump"
+msgstr "指令跳躍部件"
+
+#: libcore/context.cpp:81
+#, fuzzy
+#| msgid "Instruction Jump"
+msgctxt "ProfileContext|"
+msgid "Instruction Jump"
+msgstr "指令跳躍"
+
+#: libcore/context.cpp:82
+#, fuzzy
+#| msgid "Part Instruction Call"
+msgctxt "ProfileContext|"
+msgid "Part Instruction Call"
+msgstr "指令呼叫部件"
+
+#: libcore/context.cpp:83
+#, fuzzy
+#| msgid "Instruction Call"
+msgctxt "ProfileContext|"
+msgid "Instruction Call"
+msgstr "指令呼叫"
+
+#: libcore/context.cpp:84
+#, fuzzy
+#| msgid "Part Call"
+msgctxt "ProfileContext|"
+msgid "Part Call"
+msgstr "呼叫部件"
+
+#: libcore/context.cpp:85
+#, fuzzy
+#| msgid "Call"
+msgctxt "ProfileContext|"
+msgid "Call"
+msgstr "呼叫"
+
+#: libcore/context.cpp:86
+#, fuzzy
+#| msgid "Part Function"
+msgctxt "ProfileContext|"
+msgid "Part Function"
+msgstr "函式部件"
+
+#: libcore/context.cpp:87
+#, fuzzy
+#| msgid "Function Source File"
+msgctxt "ProfileContext|"
+msgid "Function Source File"
+msgstr "函式源碼檔案"
+
+#: libcore/context.cpp:88
+#, fuzzy
+#| msgid "Function"
+msgctxt "ProfileContext|"
+msgid "Function"
+msgstr "函式"
+
+#: libcore/context.cpp:89
+#, fuzzy
+#| msgid "Function Cycle"
+msgctxt "ProfileContext|"
+msgid "Function Cycle"
+msgstr "函式循環"
+
+#: libcore/context.cpp:90
+#, fuzzy
+#| msgid "Part Class"
+msgctxt "ProfileContext|"
+msgid "Part Class"
+msgstr "類別部件"
+
+#: libcore/context.cpp:91
+#, fuzzy
+#| msgid "Class"
+msgctxt "ProfileContext|"
+msgid "Class"
+msgstr "類別"
+
+#: libcore/context.cpp:92
+#, fuzzy
+#| msgid "Part Source File"
+msgctxt "ProfileContext|"
+msgid "Part Source File"
+msgstr "程式源碼檔案部件"
+
+#: libcore/context.cpp:93
+#, fuzzy
+#| msgid "Source File"
+msgctxt "ProfileContext|"
+msgid "Source File"
+msgstr "來源檔案"
+
+#: libcore/context.cpp:94
+#, fuzzy
+#| msgid "Part ELF Object"
+msgctxt "ProfileContext|"
+msgid "Part ELF Object"
+msgstr "ELF 物件部件"
+
+#: libcore/context.cpp:95
+#, fuzzy
+#| msgid "ELF Object"
+msgctxt "ProfileContext|"
+msgid "ELF Object"
+msgstr "ELF 物件"
+
+#: libcore/context.cpp:96
+#, fuzzy
+#| msgid "Profile Part"
+msgctxt "ProfileContext|"
+msgid "Profile Part"
+msgstr "分析檔部件"
+
+#: libcore/context.cpp:97
+#, fuzzy
+#| msgid "Program Trace"
+msgctxt "ProfileContext|"
+msgid "Program Trace"
+msgstr "程式追蹤"
+
+#: libcore/costitem.cpp:60
+#, fuzzy, qt-format
+#| msgid "%1 from %2"
+msgctxt "QObject|"
+msgid "%1 from %2"
+msgstr "%1 從 %2"
+
+#: libcore/costitem.cpp:66 libcore/costitem.cpp:71 libcore/tracedata.cpp:1988
+#: libcore/tracedata.cpp:2050 libcore/tracedata.cpp:2870
+#: libcore/tracedata.cpp:2971 libviews/partgraph.cpp:418
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "QObject|"
+msgid "(unknown)"
+msgstr "（未知）"
+
+#: libcore/globalconfig.cpp:87
+#, fuzzy
+#| msgid "Instruction Fetch"
+msgctxt "QObject|"
+msgid "Instruction Fetch"
+msgstr "指令抓取"
+
+#: libcore/globalconfig.cpp:88
+#, fuzzy
+#| msgid "Data Read Access"
+msgctxt "QObject|"
+msgid "Data Read Access"
+msgstr "資料讀取存取"
+
+#: libcore/globalconfig.cpp:89
+#, fuzzy
+#| msgid "Data Write Access"
+msgctxt "QObject|"
+msgid "Data Write Access"
+msgstr "資料寫入存取"
+
+#: libcore/globalconfig.cpp:90
+#, fuzzy
+#| msgid "L1 Instr. Fetch Miss"
+msgctxt "QObject|"
+msgid "L1 Instr. Fetch Miss"
+msgstr "L1 指令抓取失誤"
+
+#: libcore/globalconfig.cpp:91
+#, fuzzy
+#| msgid "L1 Data Read Miss"
+msgctxt "QObject|"
+msgid "L1 Data Read Miss"
+msgstr "L2 資料讀取失誤"
+
+#: libcore/globalconfig.cpp:92
+#, fuzzy
+#| msgid "L1 Data Write Miss"
+msgctxt "QObject|"
+msgid "L1 Data Write Miss"
+msgstr "L1 資料寫入失誤"
+
+#: libcore/globalconfig.cpp:93
+#, fuzzy
+#| msgid "L2 Instr. Fetch Miss"
+msgctxt "QObject|"
+msgid "L2 Instr. Fetch Miss"
+msgstr "L2 指令抓取失誤"
+
+#: libcore/globalconfig.cpp:94
+#, fuzzy
+#| msgid "L2 Data Read Miss"
+msgctxt "QObject|"
+msgid "L2 Data Read Miss"
+msgstr "L2 資料讀取失誤"
+
+#: libcore/globalconfig.cpp:95
+#, fuzzy
+#| msgid "L2 Data Write Miss"
+msgctxt "QObject|"
+msgid "L2 Data Write Miss"
+msgstr "L2 資料寫入失誤"
+
+#: libcore/globalconfig.cpp:96
+#, fuzzy
+#| msgid "LL Instr. Fetch Miss"
+msgctxt "QObject|"
+msgid "LL Instr. Fetch Miss"
+msgstr "LL 指令抓取失誤"
+
+#: libcore/globalconfig.cpp:97
+#, fuzzy
+#| msgid "LL Data Read Miss"
+msgctxt "QObject|"
+msgid "LL Data Read Miss"
+msgstr "LL 資料讀取失誤"
+
+#: libcore/globalconfig.cpp:98
+#, fuzzy
+#| msgid "LL Data Write Miss"
+msgctxt "QObject|"
+msgid "LL Data Write Miss"
+msgstr "LL 資料寫入失誤"
+
+#: libcore/globalconfig.cpp:99
+#, fuzzy
+#| msgid "L1 Miss Sum"
+msgctxt "QObject|"
+msgid "L1 Miss Sum"
+msgstr "L1 失誤總和"
+
+#: libcore/globalconfig.cpp:100
+#, fuzzy
+#| msgid "L2 Miss Sum"
+msgctxt "QObject|"
+msgid "L2 Miss Sum"
+msgstr "L2 失誤總和"
+
+#: libcore/globalconfig.cpp:101
+#, fuzzy
+#| msgid "Last-level Miss Sum"
+msgctxt "QObject|"
+msgid "Last-level Miss Sum"
+msgstr "LL 失誤總和"
+
+#: libcore/globalconfig.cpp:102
+#, fuzzy
+#| msgid "Indirect Branch"
+msgctxt "QObject|"
+msgid "Indirect Branch"
+msgstr "間接分支"
+
+#: libcore/globalconfig.cpp:103
+#, fuzzy
+#| msgid "Mispredicted Ind. Branch"
+msgctxt "QObject|"
+msgid "Mispredicted Ind. Branch"
+msgstr "預測間接分支失誤"
+
+#: libcore/globalconfig.cpp:104
+#, fuzzy
+#| msgid "Conditional Branch"
+msgctxt "QObject|"
+msgid "Conditional Branch"
+msgstr "條件分支"
+
+#: libcore/globalconfig.cpp:105
+#, fuzzy
+#| msgid "Mispredicted Cond. Branch"
+msgctxt "QObject|"
+msgid "Mispredicted Cond. Branch"
+msgstr "預測條件分支失誤"
+
+#: libcore/globalconfig.cpp:106
+#, fuzzy
+#| msgid "Mispredicted Branch"
+msgctxt "QObject|"
+msgid "Mispredicted Branch"
+msgstr "預測分支失誤"
+
+#: libcore/globalconfig.cpp:107
+#, fuzzy
+#| msgid "Global Bus Event"
+msgctxt "QObject|"
+msgid "Global Bus Event"
+msgstr "全域匯流排事件"
+
+#: libcore/globalconfig.cpp:108
+#, fuzzy
+#| msgid "Samples"
+msgctxt "QObject|"
+msgid "Samples"
+msgstr "範例"
+
+#: libcore/globalconfig.cpp:109
+#, fuzzy
+#| msgid "System Time"
+msgctxt "QObject|"
+msgid "System Time"
+msgstr "系統時間"
+
+#: libcore/globalconfig.cpp:110
+#, fuzzy
+#| msgid "User Time"
+msgctxt "QObject|"
+msgid "User Time"
+msgstr "使用者時間"
+
+#: libcore/globalconfig.cpp:111
+#, fuzzy
+#| msgid "Cycle Estimation"
+msgctxt "QObject|"
+msgid "Cycle Estimation"
+msgstr "循環估計"
+
+#: libcore/tracedata.cpp:1250
+#, fuzzy
+#| msgid "(no caller)"
+msgctxt "QObject|"
+msgid "(no caller)"
+msgstr "（無呼叫者）"
+
+#: libcore/tracedata.cpp:1257 libcore/tracedata.cpp:1276
+#, fuzzy, qt-format
+#| msgid "%1 via %2"
+msgctxt "QObject|"
+msgid "%1 via %2"
+msgstr "%1 經過 %2"
+
+#: libcore/tracedata.cpp:1266
+#, fuzzy
+#| msgid "(no callee)"
+msgctxt "QObject|"
+msgid "(no callee)"
+msgstr "（無被呼叫者）"
+
+#: libcore/tracedata.cpp:2719
+#, fuzzy
+#| msgid "(global)"
+msgctxt "QObject|"
+msgid "(global)"
+msgstr "（全域）"
+
+#: libcore/tracedata.cpp:3154
+#, fuzzy
+#| msgid "(not found)"
+msgctxt "QObject|"
+msgid "(not found)"
+msgstr "（未找到）"
+
+#: libcore/tracedata.cpp:3702
+#, fuzzy
+#| msgid "Recalculating Function Cycles..."
+msgctxt "TraceData|"
+msgid "Recalculating Function Cycles..."
+msgstr "重新計算函式循環..."
+
+#: libviews/callgraphview.cpp:423
+#, fuzzy, qt-format
+#| msgid "Call(s) from %1"
+msgctxt "QObject|"
+msgid "Call(s) from %1"
+msgstr "從 %1 來的呼叫"
+
+#: libviews/callgraphview.cpp:426
+#, fuzzy, qt-format
+#| msgid "Call(s) to %1"
+msgctxt "QObject|"
+msgid "Call(s) to %1"
+msgstr "呼叫 %1"
+
+#: libviews/callgraphview.cpp:428
+#, fuzzy
+#| msgid "(unknown call)"
+msgctxt "QObject|"
+msgid "(unknown call)"
+msgstr "（未知的呼叫）"
+
+#: libviews/callgraphview.cpp:1559
+#, fuzzy
+#| msgid ""
+#| "<b>Call Graph around active Function</b><p>Depending on configuration, "
+#| "this view shows the call graph environment of the active function. Note: "
+#| "the shown cost is <b>only</b> the cost which is spent while the active "
+#| "function was actually running; i.e. the cost shown for main() - if it is "
+#| "visible - should be the same as the cost of the active function, as that "
+#| "is the part of inclusive cost of main() spent while the active function "
+#| "was running.</p><p>For cycles, blue call arrows indicate that this is an "
+#| "artificial call added for correct drawing which actually never happened.</"
+#| "p><p>If the graph is larger than the widget area, an overview panner is "
+#| "shown in one edge. There are similar visualization options to the Call "
+#| "Treemap; the selected function is highlighted.</p>"
+msgctxt "CallGraphView|"
+msgid ""
+"<b>Call Graph around active Function</b><p>Depending on configuration, this "
+"view shows the call graph environment of the active function. Note: the "
+"shown cost is <b>only</b> the cost which is spent while the active function "
+"was actually running; i.e. the cost shown for main() - if it is visible - "
+"should be the same as the cost of the active function, as that is the part "
+"of inclusive cost of main() spent while the active function was running.</"
+"p><p>For cycles, blue call arrows indicate that this is an artificial call "
+"added for correct drawing which actually never happened.</p><p>If the graph "
+"is larger than the widget area, an overview panner is shown in one edge. "
+"There are similar visualization options to the Call Treemap; the selected "
+"function is highlighted.</p>"
+msgstr ""
+"<b>活躍函式的呼叫圖環境</b> <p>根據設定，此檢視顯示活躍函式的呼叫圖環境。注"
+"意：顯示的花費只表示此函式執行中的花費，也就是說，main() 函式顯示的花費會跟此"
+"函式的花費一樣，因為那是 main() 的引入花費。</p> <p>對循環而言，藍色的呼叫箭"
+"頭表示是人工加上去修正的，實際上不會發生。</p> <p>如果此圖大於元件的大小，則"
+"會在一邊顯示略圖。類似呼叫樹狀圖的視覺選項，選取的函式會被突顯。</p>"
+
+#: libviews/callgraphview.cpp:1971
+#, fuzzy
+#| msgid ""
+#| "Warning: a long lasting graph layouting is in progress.\n"
+#| "Reduce node/edge limits for speedup.\n"
+msgctxt "CallGraphView|"
+msgid ""
+"Warning: a long lasting graph layouting is in progress.\n"
+"Reduce node/edge limits for speedup.\n"
+msgstr ""
+"警告：正在進行長而持續的佈局作業。\n"
+"要加速，請降低節點與邊線的限制。\n"
+
+#: libviews/callgraphview.cpp:1974
+#, fuzzy
+#| msgid "Layouting stopped.\n"
+msgctxt "CallGraphView|"
+msgid "Layouting stopped.\n"
+msgstr "佈局停止。\n"
+
+#: libviews/callgraphview.cpp:1976
+#, fuzzy, qt-format
+#| msgid "The call graph has %1 nodes and %2 edges.\n"
+msgctxt "CallGraphView|"
+msgid "The call graph has %1 nodes and %2 edges.\n"
+msgstr "呼叫圖中含有 %1 個節點與 %2 個邊線。\n"
+
+#: libviews/callgraphview.cpp:1985
+#, fuzzy
+#| msgid "No graph available because the layouting process failed.\n"
+msgctxt "CallGraphView|"
+msgid "No graph available because the layouting process failed.\n"
+msgstr "沒有可用的呼叫圖，因為佈局行程已失敗。\n"
+
+#: libviews/callgraphview.cpp:1987
+#, fuzzy, qt-format
+#| msgid ""
+#| "Trying to run the following command did not work:\n"
+#| "'%1'\n"
+msgctxt "CallGraphView|"
+msgid ""
+"Trying to run the following command did not work:\n"
+"'%1'\n"
+msgstr ""
+"試著執行以下的指令時失敗：\n"
+"%1\n"
+
+#: libviews/callgraphview.cpp:1989 libviews/callgraphview.cpp:2506
+#, fuzzy
+#| msgid "Please check that 'dot' is installed (package GraphViz)."
+msgctxt "CallGraphView|"
+msgid "Please check that 'dot' is installed (package GraphViz)."
+msgstr "請檢查 dot 已安裝（在 GraphViz 套件中）"
+
+#: libviews/callgraphview.cpp:2031
+#, fuzzy
+#| msgid "No item activated for which to draw the call graph."
+msgctxt "CallGraphView|"
+msgid "No item activated for which to draw the call graph."
+msgstr "沒有激發要繪製呼叫圖的項目。"
+
+#: libviews/callgraphview.cpp:2043
+#, fuzzy
+#| msgid "No call graph can be drawn for the active item."
+msgctxt "CallGraphView|"
+msgid "No call graph can be drawn for the active item."
+msgstr "沒有目前活躍的項目可繪製呼叫圖。"
+
+#: libviews/callgraphview.cpp:2505
+#, fuzzy
+#| msgid "Error running the graph layouting tool.\n"
+msgctxt "CallGraphView|"
+msgid "Error running the graph layouting tool.\n"
+msgstr "執行圖形佈局工具時發生錯誤。\n"
+
+#: libviews/callgraphview.cpp:2510
+#, fuzzy, qt-format
+#| msgid ""
+#| "There is no call graph available for function\n"
+#| "\t'%1'\n"
+#| "because it has no cost of the selected event type."
+msgctxt "CallGraphView|"
+msgid ""
+"There is no call graph available for function\n"
+"\t'%1'\n"
+"because it has no cost of the selected event type."
+msgstr "沒有函式 %1 的呼叫圖，因為沒有所選取事件型態的花費。"
+
+#: libviews/callgraphview.cpp:2724
+#, fuzzy
+#| msgid "Caller Depth"
+msgctxt "CallGraphView|"
+msgid "Caller Depth"
+msgstr "呼叫者深度"
+
+#: libviews/callgraphview.cpp:2725 libviews/callgraphview.cpp:2765
+#, fuzzy
+#| msgid "Unlimited"
+msgctxt "CallGraphView|"
+msgid "Unlimited"
+msgstr "不限制"
+
+#: libviews/callgraphview.cpp:2728 libviews/callgraphview.cpp:2768
+#, fuzzy
+#| msgctxt "None"
+#| msgid "Depth 0"
+msgctxt "CallGraphView|None"
+msgid "Depth 0"
+msgstr "深度 0"
+
+#: libviews/callgraphview.cpp:2729 libviews/callgraphview.cpp:2769
+#, fuzzy
+#| msgid "max. 10"
+msgctxt "CallGraphView|"
+msgid "max. 1"
+msgstr "最大 10"
+
+#: libviews/callgraphview.cpp:2730 libviews/callgraphview.cpp:2770
+#, fuzzy
+#| msgid "max. 2"
+msgctxt "CallGraphView|"
+msgid "max. 2"
+msgstr "最大 2"
+
+#: libviews/callgraphview.cpp:2731 libviews/callgraphview.cpp:2771
+#, fuzzy
+#| msgid "max. 5"
+msgctxt "CallGraphView|"
+msgid "max. 5"
+msgstr "最大 5"
+
+#: libviews/callgraphview.cpp:2732 libviews/callgraphview.cpp:2772
+#, fuzzy
+#| msgid "max. 10"
+msgctxt "CallGraphView|"
+msgid "max. 10"
+msgstr "最大 10"
+
+#: libviews/callgraphview.cpp:2733 libviews/callgraphview.cpp:2773
+#, fuzzy
+#| msgid "max. 15"
+msgctxt "CallGraphView|"
+msgid "max. 15"
+msgstr "最大 15"
+
+#: libviews/callgraphview.cpp:2764
+#, fuzzy
+#| msgid "Callee Depth"
+msgctxt "CallGraphView|"
+msgid "Callee Depth"
+msgstr "被呼叫者深度"
+
+#: libviews/callgraphview.cpp:2804
+#, fuzzy
+#| msgid "Min. Node Cost"
+msgctxt "CallGraphView|"
+msgid "Min. Node Cost"
+msgstr "最小節點花費"
+
+#: libviews/callgraphview.cpp:2805
+#, fuzzy
+#| msgid "No Minimum"
+msgctxt "CallGraphView|"
+msgid "No Minimum"
+msgstr "無最小值"
+
+#: libviews/callgraphview.cpp:2811
+#, fuzzy
+#| msgid "50 %"
+msgctxt "CallGraphView|"
+msgid "50 %"
+msgstr "50 %"
+
+#: libviews/callgraphview.cpp:2812
+#, fuzzy
+#| msgid "20 %"
+msgctxt "CallGraphView|"
+msgid "20 %"
+msgstr "20 %"
+
+#: libviews/callgraphview.cpp:2813
+#, fuzzy
+#| msgid "10 %"
+msgctxt "CallGraphView|"
+msgid "10 %"
+msgstr "10 %"
+
+#: libviews/callgraphview.cpp:2814
+#, fuzzy
+#| msgid "5 %"
+msgctxt "CallGraphView|"
+msgid "5 %"
+msgstr "5 %"
+
+#: libviews/callgraphview.cpp:2815
+#, fuzzy
+#| msgid "2 %"
+msgctxt "CallGraphView|"
+msgid "2 %"
+msgstr "2 %"
+
+#: libviews/callgraphview.cpp:2816
+#, fuzzy
+#| msgid "1 %"
+msgctxt "CallGraphView|"
+msgid "1 %"
+msgstr "1 %"
+
+#: libviews/callgraphview.cpp:2846
+#, fuzzy
+#| msgid "Min. Call Cost"
+msgctxt "CallGraphView|"
+msgid "Min. Call Cost"
+msgstr "最小呼叫花費"
+
+#: libviews/callgraphview.cpp:2847
+#, fuzzy
+#| msgid "Same as Node"
+msgctxt "CallGraphView|"
+msgid "Same as Node"
+msgstr "與節點相同"
+
+#: libviews/callgraphview.cpp:2849
+#, fuzzy
+#| msgid "50 % of Node"
+msgctxt "CallGraphView|"
+msgid "50 % of Node"
+msgstr "50% 的節點"
+
+#: libviews/callgraphview.cpp:2851
+#, fuzzy
+#| msgid "20 % of Node"
+msgctxt "CallGraphView|"
+msgid "20 % of Node"
+msgstr "20% 的節點"
+
+#: libviews/callgraphview.cpp:2853
+#, fuzzy
+#| msgid "10 % of Node"
+msgctxt "CallGraphView|"
+msgid "10 % of Node"
+msgstr "10% 的節點"
+
+#: libviews/callgraphview.cpp:2882
+#, fuzzy
+#| msgid "Birds-eye View"
+msgctxt "CallGraphView|"
+msgid "Birds-eye View"
+msgstr "鳥瞰檢視"
+
+#: libviews/callgraphview.cpp:2883
+#, fuzzy
+#| msgid "Top Left"
+msgctxt "CallGraphView|"
+msgid "Top Left"
+msgstr "左上方"
+
+#: libviews/callgraphview.cpp:2884
+#, fuzzy
+#| msgid "Top Right"
+msgctxt "CallGraphView|"
+msgid "Top Right"
+msgstr "右上方"
+
+#: libviews/callgraphview.cpp:2885
+#, fuzzy
+#| msgid "Bottom Left"
+msgctxt "CallGraphView|"
+msgid "Bottom Left"
+msgstr "左下方"
+
+#: libviews/callgraphview.cpp:2886
+#, fuzzy
+#| msgid "Bottom Right"
+msgctxt "CallGraphView|"
+msgid "Bottom Right"
+msgstr "右下方"
+
+#: libviews/callgraphview.cpp:2887
+#, fuzzy
+#| msgid "Automatic"
+msgctxt "CallGraphView|"
+msgid "Automatic"
+msgstr "自動"
+
+#: libviews/callgraphview.cpp:2888
+#, fuzzy
+#| msgid "Hide"
+msgctxt "CallGraphView|"
+msgid "Hide"
+msgstr "隱藏"
+
+#: libviews/callgraphview.cpp:2918
+#, fuzzy
+#| msgid "Layout"
+msgctxt "CallGraphView|"
+msgid "Layout"
+msgstr "編排"
+
+#: libviews/callgraphview.cpp:2919
+#, fuzzy
+#| msgid "Top to Down"
+msgctxt "CallGraphView|"
+msgid "Top to Down"
+msgstr "上到下"
+
+#: libviews/callgraphview.cpp:2920
+#, fuzzy
+#| msgid "Left to Right"
+msgctxt "CallGraphView|"
+msgid "Left to Right"
+msgstr "左到右"
+
+#: libviews/callgraphview.cpp:2921
+#, fuzzy
+#| msgid "Circular"
+msgctxt "CallGraphView|"
+msgid "Circular"
+msgstr "圓形"
+
+#: libviews/callgraphview.cpp:2961 libviews/callgraphview.cpp:2966
+#: libviews/callgraphview.cpp:2986
+#, fuzzy, qt-format
+#| msgid "Go to '%1'"
+msgctxt "CallGraphView|"
+msgid "Go to '%1'"
+msgstr "跳到 %1"
+
+#: libviews/callgraphview.cpp:2997
+#, fuzzy
+#| msgid "Stop Layouting"
+msgctxt "CallGraphView|"
+msgid "Stop Layouting"
+msgstr "停止佈局"
+
+#: libviews/callgraphview.cpp:3004
+#, fuzzy
+#| msgid "Export Graph"
+msgctxt "CallGraphView|"
+msgid "Export Graph"
+msgstr "匯出圖形"
+
+#: libviews/callgraphview.cpp:3005
+#, fuzzy
+#| msgid "As DOT file..."
+msgctxt "CallGraphView|"
+msgid "As DOT file..."
+msgstr "為 DOT 檔..."
+
+#: libviews/callgraphview.cpp:3006
+#, fuzzy
+#| msgid "As Image..."
+msgctxt "CallGraphView|"
+msgid "As Image..."
+msgstr "為影像檔..."
+
+#: libviews/callgraphview.cpp:3009
+#, fuzzy
+#| msgid "Graph"
+msgctxt "CallGraphView|"
+msgid "Graph"
+msgstr "圖形"
+
+#: libviews/callgraphview.cpp:3017
+#, fuzzy
+#| msgid "Arrows for Skipped Calls"
+msgctxt "CallGraphView|"
+msgid "Arrows for Skipped Calls"
+msgstr "被略過呼叫的箭頭"
+
+#: libviews/callgraphview.cpp:3022
+#, fuzzy
+#| msgid "Inner-cycle Calls"
+msgctxt "CallGraphView|"
+msgid "Inner-cycle Calls"
+msgstr "內部循環呼叫"
+
+#: libviews/callgraphview.cpp:3027
+#, fuzzy
+#| msgid "Cluster Groups"
+msgctxt "CallGraphView|"
+msgid "Cluster Groups"
+msgstr "叢集群組"
+
+#: libviews/callgraphview.cpp:3031
+#, fuzzy
+#| msgid "Visualization"
+msgctxt "CallGraphView|"
+msgid "Visualization"
+msgstr "視覺化"
+
+#: libviews/callgraphview.cpp:3032
+#, fuzzy
+#| msgid "Compact"
+msgctxt "CallGraphView|"
+msgid "Compact"
+msgstr "簡潔"
+
+#: libviews/callgraphview.cpp:3035
+#, fuzzy
+#| msgid "Normal"
+msgctxt "CallGraphView|"
+msgid "Normal"
+msgstr "一般"
+
+#: libviews/callgraphview.cpp:3038
+#, fuzzy
+#| msgid "Tall"
+msgctxt "CallGraphView|"
+msgid "Tall"
+msgstr "高"
+
+#: libviews/callgraphview.cpp:3063
+#, fuzzy
+#| msgid "Export Graph As DOT file"
+msgctxt "CallGraphView|"
+msgid "Export Graph As DOT file"
+msgstr "將圖形匯出為 DOT 檔"
+
+#: libviews/callgraphview.cpp:3064
+#, fuzzy
+#| msgid "Graphviz (*.dot)"
+msgctxt "CallGraphView|"
+msgid "Graphviz (*.dot)"
+msgstr "Graphviz (*.dot)"
+
+#: libviews/callgraphview.cpp:3079
+#, fuzzy
+#| msgid "Export Graph As Image"
+msgctxt "CallGraphView|"
+msgid "Export Graph As Image"
+msgstr "將圖形匯出為影像"
+
+#: libviews/callgraphview.cpp:3081
+#, fuzzy
+#| msgid "Images (*.png *.jpg)"
+msgctxt "CallGraphView|"
+msgid "Images (*.png *.jpg)"
+msgstr "影像（*.png *.jpg）"
+
+#: libviews/callitem.cpp:83 libviews/partlistitem.cpp:141
+#, fuzzy
+#| msgid "(active)"
+msgctxt "QObject|"
+msgid "(active)"
+msgstr "（活躍）"
+
+#: libviews/callmapview.cpp:62
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "A thing's name"
+msgctxt "CallMapView|Name"
+msgid "A thing's name"
+msgstr "東西的名稱"
+
+#: libviews/callmapview.cpp:63
+#, fuzzy
+#| msgid "Cost"
+msgctxt "CallMapView|"
+msgid "Cost"
+msgstr "花費"
+
+#: libviews/callmapview.cpp:64
+#, fuzzy
+#| msgid "Location"
+msgctxt "CallMapView|"
+msgid "Location"
+msgstr "位置"
+
+#: libviews/callmapview.cpp:66
+#, fuzzy
+#| msgid "Calls"
+msgctxt "CallMapView|"
+msgid "Calls"
+msgstr "呼叫"
+
+#: libviews/callmapview.cpp:101
+#, fuzzy
+#| msgid ""
+#| "<b>Caller Map</b><p>This graph shows the nested hierarchy of all callers "
+#| "of the current activated function. Each colored rectangle represents a "
+#| "function; its size tries to be proportional to the cost spent therein "
+#| "while the active function is running (however, there are drawing "
+#| "constraints).</p>"
+msgctxt "CallMapView|"
+msgid ""
+"<b>Caller Map</b><p>This graph shows the nested hierarchy of all callers of "
+"the current activated function. Each colored rectangle represents a "
+"function; its size tries to be proportional to the cost spent therein while "
+"the active function is running (however, there are drawing constraints).</p>"
+msgstr ""
+"<b>呼叫者地圖</b> <p>這個圖形顯示目前活躍的函式所有呼叫者的巢狀架構。每個彩色"
+"的矩形表示一個函式，大小會與該函式執行時的花費成比例。（不過畫圖形時會有所限"
+"制，所以是盡量成比例）。</p>"
+
+#: libviews/callmapview.cpp:108
+#, fuzzy
+#| msgid ""
+#| "<b>Call Map</b><p>This graph shows the nested hierarchy of all callees of "
+#| "the current activated function. Each colored rectangle represents a "
+#| "function; its size tries to be proportional to the cost spent therein "
+#| "while the active function is running (however, there are drawing "
+#| "constraints).</p>"
+msgctxt "CallMapView|"
+msgid ""
+"<b>Call Map</b><p>This graph shows the nested hierarchy of all callees of "
+"the current activated function. Each colored rectangle represents a "
+"function; its size tries to be proportional to the cost spent therein while "
+"the active function is running (however, there are drawing constraints).</p>"
+msgstr ""
+"<b>呼叫地圖</b> <p>這個圖形顯示目前活躍的函式所有呼叫的巢狀架構。每個彩色的矩"
+"形表示一個函式，大小會與該函式執行時的花費成比例。（不過畫圖形時會有所限制，"
+"所以是盡量成比例）。</p>"
+
+#: libviews/callmapview.cpp:116
+#, fuzzy
+#| msgid ""
+#| "<p>Appearance options can be found in the in the context menu. To get "
+#| "exact size proportions, choose 'Hide incorrect borders'. As this mode can "
+#| "be <em>very</em> time consuming, you may want to limit the maximum drawn "
+#| "nesting level before. 'Best' determinates the split direction for "
+#| "children from the aspect ratio of the parent. 'Always Best' decides on "
+#| "remaining space for each sibling. 'Ignore Proportions' takes space for "
+#| "function name drawing <em>before</em> drawing children. Note that size "
+#| "proportions can get <em>heavily</em> wrong.</p><p>This is a <em>TreeMap</"
+#| "em> widget. Keyboard navigation is available with the left/right arrow "
+#| "keys for traversing siblings, and up/down arrow keys to go a nesting "
+#| "level up/down. <em>Return</em> activates the current item.</p>"
+msgctxt "CallMapView|"
+msgid ""
+"<p>Appearance options can be found in the in the context menu. To get exact "
+"size proportions, choose 'Hide incorrect borders'. As this mode can be "
+"<em>very</em> time consuming, you may want to limit the maximum drawn "
+"nesting level before. 'Best' determinates the split direction for children "
+"from the aspect ratio of the parent. 'Always Best' decides on remaining "
+"space for each sibling. 'Ignore Proportions' takes space for function name "
+"drawing <em>before</em> drawing children. Note that size proportions can get "
+"<em>heavily</em> wrong.</p><p>This is a <em>TreeMap</em> widget. Keyboard "
+"navigation is available with the left/right arrow keys for traversing "
+"siblings, and up/down arrow keys to go a nesting level up/down. <em>Return</"
+"em> activates the current item.</p>"
+msgstr ""
+"<p>外觀選項可以在選單中找到。要取得精準的大小比例，選擇「隱藏不正確的框線」。"
+"這個模式可能會<em>非常</em>花時間，您可能要先限制一下最多的巢狀等級。「最佳」"
+"會依父函式的比例來分離子函式的方向。「總是最佳」會依剩餘空間來決定。「忽略比"
+"例」會在畫子函式前先保留函式名稱空間。注意大小的比例有可能會錯得很離譜。</p> "
+"<p>有一種「樹狀地圖」元件。可以用鍵盤左右鍵來導覽所有的子節點，上下鍵則可以進"
+"出巢狀等級。Enter 鍵會啟動目前的項目。</p>"
+
+#: libviews/callmapview.cpp:149
+#, fuzzy
+#| msgid "Go To"
+msgctxt "CallMapView|"
+msgid "Go To"
+msgstr "跳到"
+
+#: libviews/callmapview.cpp:180
+#, fuzzy
+#| msgid "Stop at Depth"
+msgctxt "CallMapView|"
+msgid "Stop at Depth"
+msgstr "停止於深度"
+
+#: libviews/callmapview.cpp:181
+#, fuzzy
+#| msgid "No Depth Limit"
+msgctxt "CallMapView|"
+msgid "No Depth Limit"
+msgstr "沒有深度限制"
+
+#: libviews/callmapview.cpp:183
+#, fuzzy
+#| msgid "Depth 10"
+msgctxt "CallMapView|"
+msgid "Depth 10"
+msgstr "深度 10"
+
+#: libviews/callmapview.cpp:184
+#, fuzzy
+#| msgid "Depth 15"
+msgctxt "CallMapView|"
+msgid "Depth 15"
+msgstr "深度 15"
+
+#: libviews/callmapview.cpp:185
+#, fuzzy
+#| msgid "Depth 20"
+msgctxt "CallMapView|"
+msgid "Depth 20"
+msgstr "深度 20"
+
+#: libviews/callmapview.cpp:188
+#, fuzzy, qt-format
+#| msgid "Depth of '%1' (%2)"
+msgctxt "CallMapView|"
+msgid "Depth of '%1' (%2)"
+msgstr "%1 的深度（%2）"
+
+#: libviews/callmapview.cpp:195
+#, fuzzy, qt-format
+#| msgid "Decrement Depth (to %1)"
+msgctxt "CallMapView|"
+msgid "Decrement Depth (to %1)"
+msgstr "遞減深度（到 %1）"
+
+#: libviews/callmapview.cpp:197
+#, fuzzy, qt-format
+#| msgid "Increment Depth (to %1)"
+msgctxt "CallMapView|"
+msgid "Increment Depth (to %1)"
+msgstr "遞增深度（到 %1）"
+
+#: libviews/callmapview.cpp:223
+#, fuzzy
+#| msgid "Stop at Function"
+msgctxt "CallMapView|"
+msgid "Stop at Function"
+msgstr "停止於函式"
+
+#: libviews/callmapview.cpp:224
+#, fuzzy
+#| msgid "No Function Limit"
+msgctxt "CallMapView|"
+msgid "No Function Limit"
+msgstr "無函式限制"
+
+#: libviews/callmapview.cpp:267
+#, fuzzy
+#| msgid "Stop at Area"
+msgctxt "CallMapView|"
+msgid "Stop at Area"
+msgstr "停止於區域"
+
+#: libviews/callmapview.cpp:268
+#, fuzzy
+#| msgid "No Area Limit"
+msgctxt "CallMapView|"
+msgid "No Area Limit"
+msgstr "沒有區域限制"
+
+#: libviews/callmapview.cpp:270
+#, fuzzy
+#| msgid "100 Pixels"
+msgctxt "CallMapView|"
+msgid "100 Pixels"
+msgstr "100 像素"
+
+#: libviews/callmapview.cpp:271
+#, fuzzy
+#| msgid "200 Pixels"
+msgctxt "CallMapView|"
+msgid "200 Pixels"
+msgstr "200 像素"
+
+#: libviews/callmapview.cpp:272
+#, fuzzy
+#| msgid "500 Pixels"
+msgctxt "CallMapView|"
+msgid "500 Pixels"
+msgstr "500 像素"
+
+#: libviews/callmapview.cpp:273
+#, fuzzy
+#| msgid "1000 Pixels"
+msgctxt "CallMapView|"
+msgid "1000 Pixels"
+msgstr "1000 像素"
+
+#: libviews/callmapview.cpp:279
+#, fuzzy, qt-format
+#| msgid "Area of '%1' (%2)"
+msgctxt "CallMapView|"
+msgid "Area of '%1' (%2)"
+msgstr "%1 的區域 (%2)"
+
+#: libviews/callmapview.cpp:285
+#, fuzzy, qt-format
+#| msgid "Double Area Limit (to %1)"
+msgctxt "CallMapView|"
+msgid "Double Area Limit (to %1)"
+msgstr "將區域限制加倍（到 %1）"
+
+#: libviews/callmapview.cpp:287
+#, fuzzy, qt-format
+#| msgid "Half Area Limit (to %1)"
+msgctxt "CallMapView|"
+msgid "Half Area Limit (to %1)"
+msgstr "將區域限制減半（到 %1）"
+
+#: libviews/callmapview.cpp:337
+#, fuzzy
+#| msgid "Visualization"
+msgctxt "CallMapView|"
+msgid "Visualization"
+msgstr "視覺化"
+
+#: libviews/callmapview.cpp:338
+#, fuzzy
+#| msgid "Split Direction"
+msgctxt "CallMapView|"
+msgid "Split Direction"
+msgstr "分割方向"
+
+#: libviews/callmapview.cpp:341
+#, fuzzy
+#| msgid "Skip Incorrect Borders"
+msgctxt "CallMapView|"
+msgid "Skip Incorrect Borders"
+msgstr "略過不正確的邊框"
+
+#: libviews/callmapview.cpp:346
+#, fuzzy
+#| msgid "Border Width"
+msgctxt "CallMapView|"
+msgid "Border Width"
+msgstr "邊框寬度"
+
+#: libviews/callmapview.cpp:347
+#, fuzzy
+#| msgid "Border 0"
+msgctxt "CallMapView|"
+msgid "Border 0"
+msgstr "邊框 0"
+
+#: libviews/callmapview.cpp:349
+#, fuzzy
+#| msgid "Border 1"
+msgctxt "CallMapView|"
+msgid "Border 1"
+msgstr "邊框 1"
+
+#: libviews/callmapview.cpp:350
+#, fuzzy
+#| msgid "Border 2"
+msgctxt "CallMapView|"
+msgid "Border 2"
+msgstr "邊框 2"
+
+#: libviews/callmapview.cpp:351
+#, fuzzy
+#| msgid "Border 3"
+msgctxt "CallMapView|"
+msgid "Border 3"
+msgstr "邊框 3"
+
+#: libviews/callmapview.cpp:356
+#, fuzzy
+#| msgid "Draw Symbol Names"
+msgctxt "CallMapView|"
+msgid "Draw Symbol Names"
+msgstr "繪製符號名稱"
+
+#: libviews/callmapview.cpp:358
+#, fuzzy
+#| msgid "Draw Cost"
+msgctxt "CallMapView|"
+msgid "Draw Cost"
+msgstr "繪製花費"
+
+#: libviews/callmapview.cpp:360
+#, fuzzy
+#| msgid "Draw Location"
+msgctxt "CallMapView|"
+msgid "Draw Location"
+msgstr "繪製位置"
+
+#: libviews/callmapview.cpp:362
+#, fuzzy
+#| msgid "Draw Calls"
+msgctxt "CallMapView|"
+msgid "Draw Calls"
+msgstr "繪製呼叫"
+
+#: libviews/callmapview.cpp:366
+#, fuzzy
+#| msgid "Ignore Proportions"
+msgctxt "CallMapView|"
+msgid "Ignore Proportions"
+msgstr "忽略屬性"
+
+#: libviews/callmapview.cpp:368
+#, fuzzy
+#| msgid "Allow Rotation"
+msgctxt "CallMapView|"
+msgid "Allow Rotation"
+msgstr "允許旋轉"
+
+#: libviews/callmapview.cpp:386
+#, fuzzy
+#| msgid "Shading"
+msgctxt "CallMapView|"
+msgid "Shading"
+msgstr "遮蔽"
+
+#: libviews/callmapview.cpp:438
+#, fuzzy, qt-format
+#| msgid "Call Map: Current is '%1'"
+msgctxt "CallMapView|"
+msgid "Call Map: Current is '%1'"
+msgstr "呼叫映射：目前是 %1"
+
+#: libviews/callmapview.cpp:631
+#, fuzzy
+#| msgid "(no function)"
+msgctxt "QObject|"
+msgid "(no function)"
+msgstr "（無函式）"
+
+#: libviews/callmapview.cpp:771 libviews/callmapview.cpp:890
+#, fuzzy
+#| msgid "(no call)"
+msgctxt "QObject|"
+msgid "(no call)"
+msgstr "（無呼叫）"
+
+#: libviews/callview.cpp:47
+#, fuzzy
+#| msgid "Cost"
+msgctxt "CallView|"
+msgid "Cost"
+msgstr "花費"
+
+#: libviews/callview.cpp:48
+#, fuzzy
+#| msgid "Cost per call"
+msgctxt "CallView|"
+msgid "Cost per call"
+msgstr "每次呼叫花費"
+
+#: libviews/callview.cpp:49
+#, fuzzy
+#| msgid "Cost 2"
+msgctxt "CallView|"
+msgid "Cost 2"
+msgstr "花費 2"
+
+#: libviews/callview.cpp:50
+#, fuzzy
+#| msgid "Cost 2 per call"
+msgctxt "CallView|"
+msgid "Cost 2 per call"
+msgstr "每次呼叫花費 2"
+
+#: libviews/callview.cpp:51
+#, fuzzy
+#| msgid "Count"
+msgctxt "CallView|"
+msgid "Count"
+msgstr "計數"
+
+#: libviews/callview.cpp:52
+#, fuzzy
+#| msgid "Caller"
+msgctxt "CallView|"
+msgid "Caller"
+msgstr "呼叫者"
+
+#: libviews/callview.cpp:52
+#, fuzzy
+#| msgid "Callee"
+msgctxt "CallView|"
+msgid "Callee"
+msgstr "被呼叫者"
+
+#: libviews/callview.cpp:86
+#, fuzzy
+#| msgid ""
+#| "<b>List of direct Callers</b><p>This list shows all functions calling the "
+#| "current selected one directly, together with a call count and the cost "
+#| "spent in the current selected function while being called from the "
+#| "function from the list.</p><p>An icon instead of an inclusive cost "
+#| "specifies that this is a call inside of a recursive cycle. An inclusive "
+#| "cost makes no sense here.</p><p>Selecting a function makes it the current "
+#| "selected one of this information panel. If there are two panels (Split "
+#| "mode), the function of the other panel is changed instead.</p>"
+msgctxt "CallView|"
+msgid ""
+"<b>List of direct Callers</b><p>This list shows all functions calling the "
+"current selected one directly, together with a call count and the cost spent "
+"in the current selected function while being called from the function from "
+"the list.</p><p>An icon instead of an inclusive cost specifies that this is "
+"a call inside of a recursive cycle. An inclusive cost makes no sense here.</"
+"p><p>Selecting a function makes it the current selected one of this "
+"information panel. If there are two panels (Split mode), the function of the "
+"other panel is changed instead.</p>"
+msgstr ""
+"<b>直接呼叫者清單</b> <p>這個清單顯示直接呼叫目前選取函式的所有函式，以及呼叫"
+"次數與呼叫花費。</p> <p>如果顯示一圖示而非引入花費，則表示這個呼叫是在遞迴循"
+"環之中。引入花費在此沒有意義。</p> <p>選擇某個函式會在目前資訊面板的顯示中跳"
+"到該函式。如果有兩個面板（分割模式），則會變換另一個面板的函式。</p>"
+
+#: libviews/callview.cpp:99
+#, fuzzy
+#| msgid ""
+#| "<b>List of direct Callees</b><p>This list shows all functions called by "
+#| "the current selected one directly, together with a call count and the "
+#| "cost spent in this function while being called from the selected function."
+#| "</p><p>Selecting a function makes it the current selected one of this "
+#| "information panel. If there are two panels (Split mode), the function of "
+#| "the other panel is changed instead.</p>"
+msgctxt "CallView|"
+msgid ""
+"<b>List of direct Callees</b><p>This list shows all functions called by the "
+"current selected one directly, together with a call count and the cost spent "
+"in this function while being called from the selected function.</"
+"p><p>Selecting a function makes it the current selected one of this "
+"information panel. If there are two panels (Split mode), the function of the "
+"other panel is changed instead.</p>"
+msgstr ""
+"<b>直接被呼叫者清單</b> <p>這個清單顯示目前選取函式直接呼叫的所有函式，以及呼"
+"叫次數與呼叫花費。</p> <p>選擇某個函式會在目前資訊面板的顯示中跳到該函式。如"
+"果有兩個面板（分割模式），則會變換另一個面板的函式。</p>"
+
+#: libviews/callview.cpp:128 libviews/callview.cpp:133
+#, fuzzy, qt-format
+#| msgid "Go to '%1'"
+msgctxt "CallView|"
+msgid "Go to '%1'"
+msgstr "跳到 %1"
+
+#: libviews/callview.cpp:266 libviews/callview.cpp:270
+#, fuzzy, qt-format
+#| msgid "%1 per call"
+msgctxt "CallView|"
+msgid "%1 per call"
+msgstr "每次呼叫 %1"
+
+#: libviews/costlistitem.cpp:63
+#, fuzzy, qt-format
+#| msgid "(%1 function(s) skipped)"
+msgctxt "QObject|"
+msgid "(%n item(s) skipped)"
+msgid_plural "(%n item(s) skipped)"
+msgstr[0] "（略過 %1 個函式）"
+
+#: libviews/coverageitem.cpp:68 libviews/coverageitem.cpp:205
+#, fuzzy, qt-format
+#| msgid "(%1 function(s) skipped)"
+msgctxt "QObject|"
+msgid "(%n function(s) skipped)"
+msgid_plural "(%n function(s) skipped)"
+msgstr[0] "（略過 %1 個函式）"
+
+#: libviews/coverageview.cpp:47
+#, fuzzy
+#| msgid "Incl."
+msgctxt "CoverageView|"
+msgid "Incl."
+msgstr "引入"
+
+#: libviews/coverageview.cpp:50 libviews/coverageview.cpp:57
+#, fuzzy
+#| msgid "Distance"
+msgctxt "CoverageView|"
+msgid "Distance"
+msgstr "距離"
+
+#: libviews/coverageview.cpp:51
+#, fuzzy
+#| msgid "Called"
+msgctxt "CoverageView|"
+msgid "Called"
+msgstr "已呼叫"
+
+#: libviews/coverageview.cpp:52
+#, fuzzy
+#| msgid "Caller"
+msgctxt "CoverageView|"
+msgid "Caller"
+msgstr "呼叫者"
+
+#: libviews/coverageview.cpp:56
+#, fuzzy
+#| msgid "Self"
+msgctxt "CoverageView|"
+msgid "Self"
+msgstr "自身"
+
+#: libviews/coverageview.cpp:58
+#, fuzzy
+#| msgid "Calling"
+msgctxt "CoverageView|"
+msgid "Calling"
+msgstr "呼叫中"
+
+#: libviews/coverageview.cpp:59
+#, fuzzy
+#| msgid "Callee"
+msgctxt "CoverageView|"
+msgid "Callee"
+msgstr "被呼叫者"
+
+#: libviews/coverageview.cpp:94
+#, fuzzy
+#| msgid ""
+#| "<b>List of all Callers</b><p>This list shows all functions calling the "
+#| "current selected one, either directly or with several functions in-"
+#| "between on the stack; the number of functions in-between plus one is "
+#| "called the <em>Distance</em> (e.g. for function A,B,C there exists a call "
+#| "from A to C when A calls B and B calls C, i.e. A => B => C. The distance "
+#| "here is 2).</p><p>Absolute cost shown is the cost spent in the selected "
+#| "function while a listed function is active; relative cost is the "
+#| "percentage of all cost spent in the selected function while the listed "
+#| "one is active. The cost graphic shows logarithmic percentage with a "
+#| "different color for each distance.</p><p>As there can be many calls from "
+#| "the same function, the distance column sometimes shows the range of "
+#| "distances for all calls happening; then, in parentheses, there is the "
+#| "medium distance, i.e. the distance where most of the call costs happened."
+#| "</p><p>Selecting a function makes it the current selected one of this "
+#| "information panel. If there are two panels (Split mode), the function of "
+#| "the other panel is changed instead.</p>"
+msgctxt "CoverageView|"
+msgid ""
+"<b>List of all Callers</b><p>This list shows all functions calling the "
+"current selected one, either directly or with several functions in-between "
+"on the stack; the number of functions in-between plus one is called the "
+"<em>Distance</em> (e.g. for function A,B,C there exists a call from A to C "
+"when A calls B and B calls C, i.e. A => B => C. The distance here is 2).</"
+"p><p>Absolute cost shown is the cost spent in the selected function while a "
+"listed function is active; relative cost is the percentage of all cost spent "
+"in the selected function while the listed one is active. The cost graphic "
+"shows logarithmic percentage with a different color for each distance.</"
+"p><p>As there can be many calls from the same function, the distance column "
+"sometimes shows the range of distances for all calls happening; then, in "
+"parentheses, there is the medium distance, i.e. the distance where most of "
+"the call costs happened.</p><p>Selecting a function makes it the current "
+"selected one of this information panel. If there are two panels (Split "
+"mode), the function of the other panel is changed instead.</p>"
+msgstr ""
+"<b>所有呼叫者清單</b> <p>此清單顯示目前選取函式的所有呼叫者函式，包括直接呼叫"
+"與間接呼叫。間接呼叫的數字加一稱為「距離」（例如，函式 A 呼叫函式 B，函式 B "
+"又呼叫函式 C，則函式 A 到 C 的距離為 2）</p> <p>顯示的「絕對花費」是當一個已"
+"列出的所選函式使用時的花費；「相對花費」是此函式相對於所有已選函式的花費。花"
+"費圖形以對每個距離以不同顏色顯示對數百分比。</p> <p>因為有可能同一個函式中會"
+"有許多呼叫，距離欄位有時會顯示所有發生呼叫的函式的距離範圍，這種狀況下，括弧"
+"中顯示的是平均距離，也就是發生呼叫最多花費的地方。</p> <p>選擇某函式可以看每"
+"個函式的資訊。如果在分割模式下的兩個面板，會在另一個面板改變。</p>"
+
+#: libviews/coverageview.cpp:124
+#, fuzzy
+#| msgid ""
+#| "<b>List of all Callees</b><p>This list shows all functions called by the "
+#| "current selected one, either directly or with several function in-between "
+#| "on the stack; the number of function in-between plus one is called the "
+#| "<em>Distance</em> (e.g. for function A,B,C there exists a call from A to "
+#| "C when A calls B and B calls C, i.e. A => B => C. The distance here is 2)."
+#| "</p><p>Absolute cost shown is the cost spent in the listed function while "
+#| "the selected is active; relative cost is the percentage of all cost spent "
+#| "in the listed function while the selected one is active. The cost graphic "
+#| "always shows logarithmic percentage with a different color for each "
+#| "distance.</p><p>As there can be many calls to the same function, the "
+#| "distance column sometimes shows the range of distances for all calls "
+#| "happening; then, in parentheses, there is the medium distance, i.e. the "
+#| "distance where most of the call costs happened.</p><p>Selecting a "
+#| "function makes it the current selected one of this information panel. If "
+#| "there are two panels (Split mode), the function of the other panel is "
+#| "changed instead.</p>"
+msgctxt "CoverageView|"
+msgid ""
+"<b>List of all Callees</b><p>This list shows all functions called by the "
+"current selected one, either directly or with several function in-between on "
+"the stack; the number of function in-between plus one is called the "
+"<em>Distance</em> (e.g. for function A,B,C there exists a call from A to C "
+"when A calls B and B calls C, i.e. A => B => C. The distance here is 2).</"
+"p><p>Absolute cost shown is the cost spent in the listed function while the "
+"selected is active; relative cost is the percentage of all cost spent in the "
+"listed function while the selected one is active. The cost graphic always "
+"shows logarithmic percentage with a different color for each distance.</"
+"p><p>As there can be many calls to the same function, the distance column "
+"sometimes shows the range of distances for all calls happening; then, in "
+"parentheses, there is the medium distance, i.e. the distance where most of "
+"the call costs happened.</p><p>Selecting a function makes it the current "
+"selected one of this information panel. If there are two panels (Split "
+"mode), the function of the other panel is changed instead.</p>"
+msgstr ""
+"<b>被呼叫者清單</b><p>這份清單顯示所有被目前選取的函式呼叫的函式，包括直接與"
+"間接呼叫。間接呼叫的數字加一稱為「距離」（例如，函式 A 呼叫函式 B，函式 B 又"
+"呼叫函式 C，則函式 A 到 C 的距離為 2）</p> <p>顯示的「絕對花費」是當一個已列"
+"出的所選函式使用時的花費；「相對花費」是此函式相對於所有已選函式的花費。花費"
+"圖形以對每個距離以不同顏色顯示對數百分比。</p> <p>因為有可能同一個函式中會有"
+"許多呼叫，距離欄位有時會顯示所有發生呼叫的函式的距離範圍，這種狀況下，括弧中"
+"顯示的是平均距離，也就是發生呼叫最多花費的地方。</p> <p>選擇某函式可以看每個"
+"函式的資訊。如果在分割模式下的兩個面板，會在另一個面板改變。</p>"
+
+#: libviews/coverageview.cpp:170
+#, fuzzy, qt-format
+#| msgid "Go to '%1'"
+msgctxt "CoverageView|"
+msgid "Go to '%1'"
+msgstr "跳到 %1"
+
+#: libviews/eventtypeitem.cpp:58
+#, fuzzy
+#| msgid "Unknown Type"
+msgctxt "QObject|"
+msgid "Unknown Type"
+msgstr "未知類型"
+
+#: libviews/eventtypeview.cpp:47
+#, fuzzy
+#| msgid "Event Type"
+msgctxt "EventTypeView|"
+msgid "Event Type"
+msgstr "事件類型"
+
+#: libviews/eventtypeview.cpp:48
+#, fuzzy
+#| msgid "Incl."
+msgctxt "EventTypeView|"
+msgid "Incl."
+msgstr "引入"
+
+#: libviews/eventtypeview.cpp:49
+#, fuzzy
+#| msgid "Self"
+msgctxt "EventTypeView|"
+msgid "Self"
+msgstr "自身"
+
+#: libviews/eventtypeview.cpp:50
+#, fuzzy
+#| msgid "Short"
+msgctxt "EventTypeView|"
+msgid "Short"
+msgstr "短"
+
+#: libviews/eventtypeview.cpp:52
+#, fuzzy
+#| msgid "Formula"
+msgctxt "EventTypeView|"
+msgid "Formula"
+msgstr "公式"
+
+#: libviews/eventtypeview.cpp:86
+#, fuzzy
+#| msgid ""
+#| "<b>Cost Types List</b><p>This list shows all cost types available and "
+#| "what the self/inclusive cost of the current selected function is for that "
+#| "cost type.</p><p>By choosing a cost type from the list, you change the "
+#| "cost type of costs shown all over KCachegrind to be the selected one.</p>"
+msgctxt "EventTypeView|"
+msgid ""
+"<b>Cost Types List</b><p>This list shows all cost types available and what "
+"the self/inclusive cost of the current selected function is for that cost "
+"type.</p><p>By choosing a cost type from the list, you change the cost type "
+"of costs shown all over KCachegrind to be the selected one.</p>"
+msgstr ""
+"<b>花費類型清單</b><p>這份清單顯示所有可用的花費類型（cost type）以及目前所選"
+"取的函式在該類型的自身與引入的花費。</p> <p>選取其中一種類型，您可以改變所有 "
+"KCachegrind 的花費成為該類型。</p>"
+
+#: libviews/eventtypeview.cpp:106
+#, fuzzy
+#| msgid "Set as Secondary Event Type"
+msgctxt "EventTypeView|"
+msgid "Set as Secondary Event Type"
+msgstr "設定為次要事件類型"
+
+#: libviews/eventtypeview.cpp:108
+#, fuzzy
+#| msgid "Hide Secondary Event Type"
+msgctxt "EventTypeView|"
+msgid "Hide Secondary Event Type"
+msgstr "隱藏次要事件類型"
+
+#: libviews/eventtypeview.cpp:117
+#, fuzzy
+#| msgid "Edit Long Name"
+msgctxt "EventTypeView|"
+msgid "Edit Long Name"
+msgstr "編輯長名稱"
+
+#: libviews/eventtypeview.cpp:118
+#, fuzzy
+#| msgid "Edit Short Name"
+msgctxt "EventTypeView|"
+msgid "Edit Short Name"
+msgstr "編輯短名稱"
+
+#: libviews/eventtypeview.cpp:119
+#, fuzzy
+#| msgid "Edit Formula"
+msgctxt "EventTypeView|"
+msgid "Edit Formula"
+msgstr "編輯公式"
+
+#: libviews/eventtypeview.cpp:120
+#, fuzzy
+#| msgid "Remove"
+msgctxt "EventTypeView|"
+msgid "Remove"
+msgstr "移除"
+
+#: libviews/eventtypeview.cpp:129
+#, fuzzy
+#| msgid "New Event Type..."
+msgctxt "EventTypeView|"
+msgid "New Event Type..."
+msgstr "新事件型態..."
+
+#: libviews/eventtypeview.cpp:164 libviews/eventtypeview.cpp:169
+#, fuzzy, qt-format
+#| msgid "New%1"
+msgctxt "EventTypeView|"
+msgid "New%1"
+msgstr "新增%1"
+
+#: libviews/eventtypeview.cpp:170
+#, fuzzy, qt-format
+#| msgid "New Event Type %1"
+msgctxt "EventTypeView|"
+msgid "New Event Type %1"
+msgstr "新事件型態 %1"
+
+#: libviews/functionlistmodel.cpp:32
+#, fuzzy
+#| msgid "Incl."
+msgctxt "FunctionListModel|"
+msgid "Incl."
+msgstr "引入"
+
+#: libviews/functionlistmodel.cpp:33
+#, fuzzy
+#| msgid "Self"
+msgctxt "FunctionListModel|"
+msgid "Self"
+msgstr "自身"
+
+#: libviews/functionlistmodel.cpp:34
+#, fuzzy
+#| msgid "Called"
+msgctxt "FunctionListModel|"
+msgid "Called"
+msgstr "已呼叫"
+
+#: libviews/functionlistmodel.cpp:35
+#, fuzzy
+#| msgid "Function"
+msgctxt "FunctionListModel|"
+msgid "Function"
+msgstr "函式"
+
+#: libviews/functionlistmodel.cpp:36
+#, fuzzy
+#| msgid "Location"
+msgctxt "FunctionListModel|"
+msgid "Location"
+msgstr "位置"
+
+#: libviews/functionlistmodel.cpp:76
+#, fuzzy, qt-format
+#| msgid "(%1 function(s) skipped)"
+msgctxt "FunctionListModel|"
+msgid "(%1 function(s) skipped)"
+msgstr "（略過 %1 個函式）"
+
+#: libviews/functionselection.cpp:97
+#, fuzzy
+#| msgid "Function Profile"
+msgctxt "FunctionSelection|"
+msgid "Function Profile"
+msgstr "函式分析檔"
+
+#: libviews/functionselection.cpp:105
+#, fuzzy
+#| msgid "&Search:"
+msgctxt "FunctionSelection|"
+msgid "&Search:"
+msgstr "搜尋(&S)："
+
+#: libviews/functionselection.cpp:124
+#, fuzzy
+#| msgid "Self"
+msgctxt "FunctionSelection|"
+msgid "Self"
+msgstr "自身"
+
+#: libviews/functionselection.cpp:124
+#, fuzzy
+#| msgid "Group"
+msgctxt "FunctionSelection|"
+msgid "Group"
+msgstr "群組"
+
+#: libviews/functionselection.cpp:167 libviews/functionselection.cpp:512
+#, fuzzy
+#| msgid "(No Grouping)"
+msgctxt "FunctionSelection|"
+msgid "(No Grouping)"
+msgstr "（無群組）"
+
+#: libviews/functionselection.cpp:217
+#, fuzzy
+#| msgid ""
+#| "<b>The Flat Profile</b><p>The flat profile contains a group and a "
+#| "function selection list. The group list contains all groups where costs "
+#| "are spent in, depending on the chosen group type. The group list is "
+#| "hidden when group type 'Function' is selected.</p><p>The function list "
+#| "contains the functions of the selected group (or all for 'Function' group "
+#| "type), ordered by the costs spent therein. Functions with costs less than "
+#| "1% are hidden on default.</p>"
+msgctxt "FunctionSelection|"
+msgid ""
+"<b>The Flat Profile</b><p>The flat profile contains a group and a function "
+"selection list. The group list contains all groups where costs are spent in, "
+"depending on the chosen group type. The group list is hidden when group type "
+"'Function' is selected.</p><p>The function list contains the functions of "
+"the selected group (or all for 'Function' group type), ordered by the costs "
+"spent therein. Functions with costs less than 1% are hidden on default.</p>"
+msgstr ""
+"<b>簡單分析檔</b><p>簡單分析檔（Flat Profile）包含一個群組與函式選取清單。根"
+"據所選取的群組型態，群組清單包含了所有花費到的群組。若是群組型態選擇為「函"
+"式」則群組清單會被隱藏起來。</p> <p>函式清單則包含了所選取的群組的函式，（如"
+"果群組型態為「函式」則包含所有的函式），依花費排序。花費少於 1% 的則預設為隱"
+"藏。</p>"
+
+#: libviews/functionselection.cpp:295
+#, fuzzy, qt-format
+#| msgid "Go to '%1'"
+msgctxt "FunctionSelection|"
+msgid "Go to '%1'"
+msgstr "跳到 %1"
+
+#: libviews/functionselection.cpp:305 libviews/functionselection.cpp:325
+#, fuzzy
+#| msgid "Grouping"
+msgctxt "FunctionSelection|"
+msgid "Grouping"
+msgstr "群組"
+
+#: libviews/functionselection.cpp:361
+#, fuzzy
+#| msgid "No Grouping"
+msgctxt "FunctionSelection|"
+msgid "No Grouping"
+msgstr "未群組"
+
+#: libviews/instritem.cpp:117 libviews/sourceitem.cpp:100
+#, fuzzy, qt-format
+#| msgid "Active call to '%1'"
+msgctxt "QObject|"
+msgid "Active call to '%1'"
+msgstr "使用中到 %1 的呼叫"
+
+#: libviews/instritem.cpp:119 libviews/sourceitem.cpp:102
+#, fuzzy, qt-format
+#| msgid "Call(s) to %1"
+msgctxt "QObject|"
+msgid "Call to '%1'"
+msgstr "呼叫 %1"
+
+#: libviews/instritem.cpp:125 libviews/sourceitem.cpp:106
+#, fuzzy, qt-format
+#| msgid "Call(s) to %1"
+msgctxt "QObject|"
+msgid "%n call(s) to '%2'"
+msgid_plural "%n call(s) to '%2'"
+msgstr[0] "呼叫 %1"
+
+#: libviews/instritem.cpp:158
+#, fuzzy, qt-format
+#| msgid "Jump %1 of %2 times to 0x%3"
+msgctxt "QObject|"
+msgid "Jump %1 of %2 times to 0x%3"
+msgstr "跳躍到 0x%3 %1 次，共要 %2 次"
+
+#: libviews/instritem.cpp:163
+#, fuzzy, qt-format
+#| msgid "Jump %1 times to 0x%2"
+msgctxt "QObject|"
+msgid "Jump %1 times to 0x%2"
+msgstr "跳躍到 0x%2 %1 次"
+
+#: libviews/instritem.cpp:204 libviews/sourceitem.cpp:190
+#, fuzzy
+#| msgid "(cycle)"
+msgctxt "QObject|"
+msgid "(cycle)"
+msgstr "（循環）"
+
+#: libviews/instrview.cpp:193
+#, fuzzy
+#| msgid "#"
+msgctxt "InstrView|"
+msgid "#"
+msgstr "#"
+
+#: libviews/instrview.cpp:194
+#, fuzzy
+#| msgid "Cost"
+msgctxt "InstrView|"
+msgid "Cost"
+msgstr "花費"
+
+#: libviews/instrview.cpp:195
+#, fuzzy
+#| msgid "Cost 2"
+msgctxt "InstrView|"
+msgid "Cost 2"
+msgstr "花費 2"
+
+#: libviews/instrview.cpp:197
+#, fuzzy
+#| msgid "Hex"
+msgctxt "InstrView|"
+msgid "Hex"
+msgstr "十六進位"
+
+#: libviews/instrview.cpp:199
+#, fuzzy
+#| msgid "Assembly Instructions"
+msgctxt "InstrView|"
+msgid "Assembly Instructions"
+msgstr "組合語言指令"
+
+#: libviews/instrview.cpp:200
+#, fuzzy
+#| msgid "Source Position"
+msgctxt "InstrView|"
+msgid "Source Position"
+msgstr "源碼位置"
+
+#: libviews/instrview.cpp:236
+#, fuzzy
+#| msgid ""
+#| "<b>Annotated Machine Code</b><p>The annotated machine code list shows the "
+#| "assembly instructions of the current selected function together with "
+#| "(self) cost spent while executing an instruction. If this is a call "
+#| "instruction, lines with details on the call happening are inserted into "
+#| "the source: the cost spent inside of the call, the number of calls "
+#| "happening, and the call destination.</p><p>The machine code shown is "
+#| "generated with the 'objdump' utility from the 'binutils' package.</"
+#| "p><p>Select a line with call information to make the destination function "
+#| "of this call current.</p>"
+msgctxt "InstrView|"
+msgid ""
+"<b>Annotated Machine Code</b><p>The annotated machine code list shows the "
+"assembly instructions of the current selected function together with (self) "
+"cost spent while executing an instruction. If this is a call instruction, "
+"lines with details on the call happening are inserted into the source: the "
+"cost spent inside of the call, the number of calls happening, and the call "
+"destination.</p><p>The machine code shown is generated with the 'objdump' "
+"utility from the 'binutils' package.</p><p>Select a line with call "
+"information to make the destination function of this call current.</p>"
+msgstr ""
+"<b>註記機器碼（Annotated Machine Code）</b> <p>註記機器碼顯示目前選取的函式的"
+"組合與言指令，以及執行該指令時的花費。如果是呼叫指令，則呼叫時發生的詳情會插"
+"入到源碼中，包括呼叫的花費，呼叫的次數，以及呼叫的目的地。</p> <p>顯示的機器"
+"碼是用 objdump 產生，通常會包在 binutils 套件中。</p> <p>選取呼叫資訊中的某一"
+"行可以眺到被呼叫的函式。</p>"
+
+#: libviews/instrview.cpp:265
+#, fuzzy, qt-format
+#| msgid "Go to '%1'"
+msgctxt "InstrView|"
+msgid "Go to '%1'"
+msgstr "跳到 %1"
+
+#: libviews/instrview.cpp:270
+#, fuzzy, qt-format
+#| msgid "Go to Address %1"
+msgctxt "InstrView|"
+msgid "Go to Address %1"
+msgstr "跳到位址 %1"
+
+#: libviews/instrview.cpp:282
+#, fuzzy
+#| msgid "Hex Code"
+msgctxt "InstrView|"
+msgid "Hex Code"
+msgstr "十六進位碼"
+
+#: libviews/instrview.cpp:582
+#, fuzzy
+#| msgid "There is no instruction info in the profile data file."
+msgctxt "InstrView|"
+msgid "There is no instruction info in the profile data file."
+msgstr "此分析資料檔中沒有指令資訊。"
+
+#: libviews/instrview.cpp:584
+#, fuzzy
+#| msgid "Tip: For Callgrind, rerun with option"
+msgctxt "InstrView|"
+msgid "Tip: For Callgrind, rerun with option"
+msgstr "提示：Callgrind 請以選項重新執行"
+
+#: libviews/instrview.cpp:585
+#, fuzzy
+#| msgid "      --dump-instr=yes"
+msgctxt "InstrView|"
+msgid "      --dump-instr=yes"
+msgstr "      --dump-instr=yes"
+
+#: libviews/instrview.cpp:586
+#, fuzzy
+#| msgid "To see (conditional) jumps, additionally specify"
+msgctxt "InstrView|"
+msgid "To see (conditional) jumps, additionally specify"
+msgstr "想要看條件式的跳躍，請額外指定選項"
+
+#: libviews/instrview.cpp:587
+#, fuzzy
+#| msgid "      --collect-jumps=yes"
+msgctxt "InstrView|"
+msgid "      --collect-jumps=yes"
+msgstr "      --collect-jumps=yes"
+
+#: libviews/instrview.cpp:826
+#, fuzzy
+#| msgid "For annotated machine code, the following object file is needed:"
+msgctxt "InstrView|"
+msgid "For annotated machine code, the following object file is needed:"
+msgstr "要顯示註記機器碼，需要以下的 object 檔："
+
+#: libviews/instrview.cpp:831
+#, fuzzy
+#| msgid "This file can not be found."
+msgctxt "InstrView|"
+msgid "This file can not be found."
+msgstr "找不到檔案。"
+
+#: libviews/instrview.cpp:834
+msgctxt "InstrView|"
+msgid "If cross-compiled, set SYSROOT variable."
+msgstr ""
+
+#: libviews/instrview.cpp:857
+#, fuzzy
+#| msgid "There is an error trying to execute the command"
+msgctxt "InstrView|"
+msgid "There is an error trying to execute the command"
+msgstr "執行此指令時發生錯誤"
+
+#: libviews/instrview.cpp:861 libviews/instrview.cpp:1155
+#, fuzzy
+#| msgid "Check that you have installed 'objdump'."
+msgctxt "InstrView|"
+msgid "Check that you have installed 'objdump'."
+msgstr "請檢查您是否已安裝 objdump。"
+
+#: libviews/instrview.cpp:863 libviews/instrview.cpp:1157
+#, fuzzy
+#| msgid "This utility can be found in the 'binutils' package."
+msgctxt "InstrView|"
+msgid "This utility can be found in the 'binutils' package."
+msgstr "這個工具可以在 binutils 套件中找到。"
+
+#: libviews/instrview.cpp:965
+#, fuzzy
+#| msgid "(No Instruction)"
+msgctxt "InstrView|"
+msgid "(No Instruction)"
+msgstr "（沒有指令）"
+
+#: libviews/instrview.cpp:1131
+#, qt-format
+msgctxt "InstrView|"
+msgid "There are %n cost line(s) without machine code."
+msgid_plural "There are %n cost line(s) without machine code."
+msgstr[0] ""
+
+#: libviews/instrview.cpp:1133
+#, fuzzy
+#| msgid "This happens because the code of"
+msgctxt "InstrView|"
+msgid "This happens because the code of"
+msgstr "發生的原因是因為這個的程式碼："
+
+#: libviews/instrview.cpp:1136
+#, fuzzy
+#| msgid "does not seem to match the profile data file."
+msgctxt "InstrView|"
+msgid "does not seem to match the profile data file."
+msgstr "似乎無法符合此分析資料檔。"
+
+#: libviews/instrview.cpp:1139
+#, fuzzy
+#| msgid "Are you using an old profile data file or is the above mentioned"
+msgctxt "InstrView|"
+msgid "Are you using an old profile data file or is the above mentioned"
+msgstr "您正使用舊的分析資料檔，還是像上面提到的"
+
+#: libviews/instrview.cpp:1141
+#, fuzzy
+#| msgid "ELF object from an updated installation/another machine?"
+msgctxt "InstrView|"
+msgid "ELF object from an updated installation/another machine?"
+msgstr "這是從已更新的安裝或其他機器來的 ELF 物件嗎？"
+
+#: libviews/instrview.cpp:1149
+#, fuzzy
+#| msgid "There seems to be an error trying to execute the command"
+msgctxt "InstrView|"
+msgid "There seems to be an error trying to execute the command"
+msgstr "試著執行此命令時發生錯誤"
+
+#: libviews/instrview.cpp:1153
+#, fuzzy
+#| msgid "Check that the ELF object used in the command exists."
+msgctxt "InstrView|"
+msgid "Check that the ELF object used in the command exists."
+msgstr "請檢查命令中使用的 ELF 物件存在。"
+
+#: libviews/partgraph.cpp:164
+#, fuzzy, qt-format
+#| msgid "Profile Part %1"
+msgctxt "QObject|"
+msgid "Profile Part %1"
+msgstr "分析檔部件 %1"
+
+#: libviews/partgraph.cpp:221
+#, fuzzy
+#| msgid "(no trace)"
+msgctxt "QObject|"
+msgid "(no trace)"
+msgstr "（無追蹤）"
+
+#: libviews/partgraph.cpp:224
+#, fuzzy
+#| msgid "(no part)"
+msgctxt "QObject|"
+msgid "(no part)"
+msgstr "（無部件）"
+
+#: libviews/partlistitem.cpp:49
+#, fuzzy
+#| msgid "(none)"
+msgctxt "QObject|"
+msgid "(none)"
+msgstr "（無）"
+
+#: libviews/partselection.cpp:58
+#, fuzzy
+#| msgid "Parts Overview"
+msgctxt "PartSelection|"
+msgid "Parts Overview"
+msgstr "部件概觀"
+
+#: libviews/partselection.cpp:71
+#, fuzzy
+#| msgctxt "A thing's name"
+#| msgid "Name"
+msgctxt "PartSelection|A thing's name"
+msgid "Name"
+msgstr "名稱"
+
+#: libviews/partselection.cpp:72
+#, fuzzy
+#| msgid "Cost"
+msgctxt "PartSelection|"
+msgid "Cost"
+msgstr "花費"
+
+#: libviews/partselection.cpp:79
+#, fuzzy
+#| msgid "(no trace parts)"
+msgctxt "PartSelection|"
+msgid "(no trace parts)"
+msgstr "（無追蹤部件）"
+
+#: libviews/partselection.cpp:106
+#, fuzzy
+#| msgid ""
+#| "<b>The Parts Overview</b><p>A trace consists of multiple trace parts when "
+#| "there are several profile data files from one profile run. The Trace Part "
+#| "Overview dockable shows these, horizontally ordered in execution time; "
+#| "the rectangle sizes are proportional to the total cost spent in the "
+#| "parts. You can select one or several parts to constrain all costs shown "
+#| "to these parts only.</p><p>The parts are further subdivided: there is a "
+#| "partitioning and an callee split mode: <ul><li>Partitioning: You see the "
+#| "partitioning into groups for a trace part, according to the group type "
+#| "selected. E.g. if ELF object groups are selected, you see colored "
+#| "rectangles for each used ELF object (shared library or executable), sized "
+#| "according to the cost spent therein.</li><li>Callee: A rectangle showing "
+#| "the inclusive cost of the current selected function in the trace part is "
+#| "shown. This is split up into smaller rectangles to show the costs of its "
+#| "callees.</li></ul></p>"
+msgctxt "PartSelection|"
+msgid ""
+"<b>The Parts Overview</b><p>A trace consists of multiple trace parts when "
+"there are several profile data files from one profile run. The Trace Part "
+"Overview dockable shows these, horizontally ordered in execution time; the "
+"rectangle sizes are proportional to the total cost spent in the parts. You "
+"can select one or several parts to constrain all costs shown to these parts "
+"only.</p><p>The parts are further subdivided: there is a partitioning and an "
+"callee split mode: <ul><li>Partitioning: You see the partitioning into "
+"groups for a trace part, according to the group type selected. E.g. if ELF "
+"object groups are selected, you see colored rectangles for each used ELF "
+"object (shared library or executable), sized according to the cost spent "
+"therein.</li><li>Callee: A rectangle showing the inclusive cost of the "
+"current selected function in the trace part is shown. This is split up into "
+"smaller rectangles to show the costs of its callees.</li></ul></p>"
+msgstr ""
+"<b>部件概觀</b><p>當某個分析檔中還有多個分析資料檔時，這份概觀可以看到所有的"
+"追蹤部件。追蹤部件概觀水平軸為執行時間，矩形大小與部件的總花費成比例。您可以"
+"選擇多個部件來顯示這些部件的總花費。</p> <p>這些部件可以再更進一步細分：有分"
+"割模式與被呼叫者模式： <ul> <li>分割模式（Partitioning）：您可以看到追蹤部件"
+"被分割為多個群組，根據所選取的群組類型，例如選取了 ELF 物件群組，您可以看到每"
+"個被使用的 ELF 物件（分享函式庫或執行檔）都分別用彩色的矩形表示，矩形大小與花"
+"費成比例。</li> <li>被呼叫者（Callee）模式：顯示一個矩形，代表此追蹤部件裡目"
+"前所選取的函式的總花費。這裡面又分成小矩形，代表每個被呼叫者的花費。</li></"
+"ul></p>"
+
+#: libviews/partselection.cpp:241
+#, fuzzy, qt-format
+#| msgid "Profile Part Overview: Current is '%1'"
+msgctxt "PartSelection|"
+msgid "Profile Part Overview: Current is '%1'"
+msgstr "分析檔部件概觀。目前為 %1"
+
+#: libviews/partselection.cpp:347
+#, fuzzy, qt-format
+#| msgid "Deselect '%1'"
+msgctxt "PartSelection|"
+msgid "Deselect '%1'"
+msgstr "取消選擇 %1"
+
+#: libviews/partselection.cpp:349
+#, fuzzy, qt-format
+#| msgid "Select '%1'"
+msgctxt "PartSelection|"
+msgid "Select '%1'"
+msgstr "選擇 %1"
+
+#: libviews/partselection.cpp:354
+#, fuzzy
+#| msgid "Select All Parts"
+msgctxt "PartSelection|"
+msgid "Select All Parts"
+msgstr "選擇全部的部件"
+
+#: libviews/partselection.cpp:355
+#, fuzzy
+#| msgid "Visible Parts"
+msgctxt "PartSelection|"
+msgid "Visible Parts"
+msgstr "可見的部件"
+
+#: libviews/partselection.cpp:356
+#, fuzzy
+#| msgid "Hide Selected Parts"
+msgctxt "PartSelection|"
+msgid "Hide Selected Parts"
+msgstr "隱藏已選取的部件"
+
+#: libviews/partselection.cpp:357
+#, fuzzy
+#| msgid "Show Hidden Parts"
+msgctxt "PartSelection|"
+msgid "Show Hidden Parts"
+msgstr "顯示隱藏的部件"
+
+#: libviews/partselection.cpp:371
+#, fuzzy, qt-format
+#| msgid "Go to '%1'"
+msgctxt "PartSelection|"
+msgid "Go to '%1'"
+msgstr "跳到 %1"
+
+#: libviews/partselection.cpp:380
+#, fuzzy
+#| msgid "Visualization"
+msgctxt "PartSelection|"
+msgid "Visualization"
+msgstr "視覺化"
+
+#: libviews/partselection.cpp:381
+#, fuzzy
+#| msgid "Partitioning Mode"
+msgctxt "PartSelection|"
+msgid "Partitioning Mode"
+msgstr "切割模式"
+
+#: libviews/partselection.cpp:383
+#, fuzzy
+#| msgid "Zoom Function"
+msgctxt "PartSelection|"
+msgid "Zoom Function"
+msgstr "縮放函式"
+
+#: libviews/partselection.cpp:385
+#, fuzzy
+#| msgid "Show Direct Calls"
+msgctxt "PartSelection|"
+msgid "Show Direct Calls"
+msgstr "顯示直接呼叫"
+
+#: libviews/partselection.cpp:386
+#, fuzzy
+#| msgid "Increment Shown Call Levels"
+msgctxt "PartSelection|"
+msgid "Increment Shown Call Levels"
+msgstr "遞增顯示呼叫等級"
+
+#: libviews/partselection.cpp:387
+#, fuzzy
+#| msgid "Diagram Mode"
+msgctxt "PartSelection|"
+msgid "Diagram Mode"
+msgstr "繪圖模式"
+
+#: libviews/partselection.cpp:402
+#, fuzzy
+#| msgid "Draw Names"
+msgctxt "PartSelection|"
+msgid "Draw Names"
+msgstr "繪製名稱"
+
+#: libviews/partselection.cpp:404
+#, fuzzy
+#| msgid "Draw Costs"
+msgctxt "PartSelection|"
+msgid "Draw Costs"
+msgstr "繪製花費"
+
+#: libviews/partselection.cpp:406
+#, fuzzy
+#| msgid "Ignore Proportions"
+msgctxt "PartSelection|"
+msgid "Ignore Proportions"
+msgstr "忽略屬性"
+
+#: libviews/partselection.cpp:408
+#, fuzzy
+#| msgid "Allow Rotation"
+msgctxt "PartSelection|"
+msgid "Allow Rotation"
+msgstr "允許旋轉"
+
+#: libviews/partselection.cpp:410
+#, fuzzy
+#| msgid "Draw Frames"
+msgctxt "PartSelection|"
+msgid "Draw Frames"
+msgstr "繪製框架"
+
+#: libviews/partselection.cpp:424
+#, fuzzy
+#| msgid "Hide Info"
+msgctxt "PartSelection|"
+msgid "Hide Info"
+msgstr "隱藏資訊"
+
+#: libviews/partselection.cpp:424
+#, fuzzy
+#| msgid "Show Info"
+msgctxt "PartSelection|"
+msgid "Show Info"
+msgstr "顯示資訊"
+
+#: libviews/partselection.cpp:572
+#, fuzzy
+#| msgid "(no trace loaded)"
+msgctxt "PartSelection|"
+msgid "(no trace loaded)"
+msgstr "（未載入追蹤）"
+
+#: libviews/partview.cpp:47
+#, fuzzy
+#| msgid "Profile Part"
+msgctxt "PartView|"
+msgid "Profile Part"
+msgstr "分析檔部件"
+
+#: libviews/partview.cpp:48
+#, fuzzy
+#| msgid "Incl."
+msgctxt "PartView|"
+msgid "Incl."
+msgstr "引入"
+
+#: libviews/partview.cpp:49
+#, fuzzy
+#| msgid "Self"
+msgctxt "PartView|"
+msgid "Self"
+msgstr "自身"
+
+#: libviews/partview.cpp:50
+#, fuzzy
+#| msgid "Called"
+msgctxt "PartView|"
+msgid "Called"
+msgstr "已呼叫"
+
+#: libviews/partview.cpp:51
+#, fuzzy
+#| msgid "Comment"
+msgctxt "PartView|"
+msgid "Comment"
+msgstr "註解"
+
+#: libviews/partview.cpp:78
+#, fuzzy
+#| msgid ""
+#| "<b>Trace Part List</b><p>This list shows all trace parts of the loaded "
+#| "trace. For each part, the self/inclusive cost of the current selected "
+#| "function, spent in the part, is shown; percentage costs are always "
+#| "relative to the total cost <em>of the part</em> (not to the whole trace "
+#| "as in the Trace Part Overview). Also shown are the calls happening to/"
+#| "from the current function inside of the trace part.</p><p>By choosing one "
+#| "or more trace parts from the list, the costs shown all over KCachegrind "
+#| "will only be the ones spent in the selected part(s). If no list selection "
+#| "is shown, in fact all trace parts are selected implicitly.</p><p>This is "
+#| "a multi-selection list. You can select ranges by dragging the mouse or "
+#| "use SHIFT/CTRL modifiers. Selection/Deselection of trace parts can also "
+#| "be done by using the Trace Part Overview Dockable. This one also supports "
+#| "multiple selection.</p><p>Note that the list is hidden if only one trace "
+#| "part is loaded.</p>"
+msgctxt "PartView|"
+msgid ""
+"<b>Trace Part List</b><p>This list shows all trace parts of the loaded "
+"trace. For each part, the self/inclusive cost of the current selected "
+"function, spent in the part, is shown; percentage costs are always relative "
+"to the total cost <em>of the part</em> (not to the whole trace as in the "
+"Trace Part Overview). Also shown are the calls happening to/from the current "
+"function inside of the trace part.</p><p>By choosing one or more trace parts "
+"from the list, the costs shown all over KCachegrind will only be the ones "
+"spent in the selected part(s). If no list selection is shown, in fact all "
+"trace parts are selected implicitly.</p><p>This is a multi-selection list. "
+"You can select ranges by dragging the mouse or use SHIFT/CTRL modifiers. "
+"Selection/Deselection of trace parts can also be done by using the Trace "
+"Part Overview Dockable. This one also supports multiple selection.</"
+"p><p>Note that the list is hidden if only one trace part is loaded.</p>"
+msgstr ""
+"<b>追蹤部件清單</b> <p>這份清單顯示載入的追蹤的所有追蹤部件。每個部件中包含目"
+"前選取的函式在該部件中的自身與引入的花費，百分比是相對於該部件的總花費（不是"
+"追蹤部件概觀中的總花費）。另外也會呼叫目前函式的呼叫者與被呼叫者。</p> <p>若"
+"從清單中選擇追蹤部件，就只會顯示選取的部件的花費。如果沒有選擇任何部件，則預"
+"設是選取所有的部件。</p> <p>這是可以多重選擇的清單，您可以拖曳滑鼠來選取一個"
+"範圍，或是用 Shift 或 Ctrl 鍵來在「追蹤部件概觀」元件中選擇部件。</p> <p>注意"
+"若是只載入一個追蹤部件，則此元件是隱藏的。</p>"
+
+#: libviews/sourceitem.cpp:147
+#, fuzzy, qt-format
+#| msgid "Jump %1 of %2 times to %3"
+msgctxt "QObject|"
+msgid "Jump %1 of %2 times to %3"
+msgstr "跳到 %3 %1 次，總共需要 %2 次"
+
+#: libviews/sourceitem.cpp:152
+#, fuzzy, qt-format
+#| msgid "Jump %1 times to %2"
+msgctxt "QObject|"
+msgid "Jump %1 times to %2"
+msgstr "跳躍到 %2 %1 次"
+
+#: libviews/sourceview.cpp:61
+#, fuzzy
+#| msgid "#"
+msgctxt "SourceView|"
+msgid "#"
+msgstr "#"
+
+#: libviews/sourceview.cpp:62
+#, fuzzy
+#| msgid "Cost"
+msgctxt "SourceView|"
+msgid "Cost"
+msgstr "花費"
+
+#: libviews/sourceview.cpp:63
+#, fuzzy
+#| msgid "Cost 2"
+msgctxt "SourceView|"
+msgid "Cost 2"
+msgstr "花費 2"
+
+#: libviews/sourceview.cpp:65
+#, fuzzy
+#| msgid "Source Line"
+msgctxt "SourceView|"
+msgid "Source"
+msgstr "來源行"
+
+#: libviews/sourceview.cpp:93
+#, fuzzy
+#| msgid ""
+#| "<b>Annotated Source</b><p>The annotated source list shows the source "
+#| "lines of the current selected function together with (self) cost spent "
+#| "while executing the code of this source line. If there was a call in a "
+#| "source line, lines with details on the call happening are inserted into "
+#| "the source: the cost spent inside of the call, the number of calls "
+#| "happening, and the call destination.</p><p>Select a inserted call "
+#| "information line to make the destination function current.</p>"
+msgctxt "SourceView|"
+msgid ""
+"<b>Annotated Source</b><p>The annotated source list shows the source lines "
+"of the current selected function together with (self) cost spent while "
+"executing the code of this source line. If there was a call in a source "
+"line, lines with details on the call happening are inserted into the source: "
+"the cost spent inside of the call, the number of calls happening, and the "
+"call destination.</p><p>Select a inserted call information line to make the "
+"destination function current.</p>"
+msgstr ""
+"<b>註記源碼</b> <p>註記源碼清單顯示目前所選取的函式源碼，以及其執行時的花費。"
+"如果在源碼中有呼叫，則呼叫發生時的詳情會被插入源碼中，包括呼叫時的花費，呼叫"
+"的數量以及呼叫的目的地。</p> <p>選取被插入的呼叫資訊可以眺到該函式。</p>"
+
+#: libviews/sourceview.cpp:120
+#, fuzzy, qt-format
+#| msgid "Go to '%1'"
+msgctxt "SourceView|"
+msgid "Go to '%1'"
+msgstr "跳到 %1"
+
+#: libviews/sourceview.cpp:125
+#, fuzzy, qt-format
+#| msgid "Go to Line %1"
+msgctxt "SourceView|"
+msgid "Go to Line %1"
+msgstr "跳到第 %1 行"
+
+#: libviews/sourceview.cpp:636
+#, fuzzy
+#| msgid "There is no cost of current selected type associated"
+msgctxt "SourceView|"
+msgid "There is no cost of current selected type associated"
+msgstr "沒有與目前選取的型態相關的花費"
+
+#: libviews/sourceview.cpp:638
+#, fuzzy
+#| msgid "with any source line of this function in file"
+msgctxt "SourceView|"
+msgid "with any source line of this function in file"
+msgstr "與檔案中此函式的任何程式碼"
+
+#: libviews/sourceview.cpp:642
+#, fuzzy
+#| msgid "Thus, no annotated source can be shown."
+msgctxt "SourceView|"
+msgid "Thus, no annotated source can be shown."
+msgstr "因此，沒有註記來源可以顯示。"
+
+#: libviews/sourceview.cpp:667
+#, fuzzy, qt-format
+#| msgid "--- Inlined from '%1' ---"
+msgctxt "SourceView|"
+msgid "--- From '%1' ---"
+msgstr "--- 從 %1 引入 ---"
+
+#: libviews/sourceview.cpp:672
+#, fuzzy, qt-format
+#| msgid "--- Inlined from '%1' ---"
+msgctxt "SourceView|"
+msgid "--- Inlined from '%1' ---"
+msgstr "--- 從 %1 引入 ---"
+
+#: libviews/sourceview.cpp:673
+#, fuzzy
+#| msgid "--- Inlined from unknown source ---"
+msgctxt "SourceView|"
+msgid "--- Inlined from unknown source ---"
+msgstr "--- 從未知的來源引入 ---"
+
+#: libviews/sourceview.cpp:678
+#, fuzzy
+#| msgid "There is no source available for the following function:"
+msgctxt "SourceView|"
+msgid "There is no source available for the following function:"
+msgstr "以下的函式沒有源碼可參考："
+
+#: libviews/sourceview.cpp:683
+#, fuzzy
+#| msgid "This is because no debug information is present."
+msgctxt "SourceView|"
+msgid "This is because no debug information is present."
+msgstr "這是因為沒有除錯資訊。"
+
+#: libviews/sourceview.cpp:685
+#, fuzzy
+#| msgid "Recompile source and redo the profile run."
+msgctxt "SourceView|"
+msgid "Recompile source and redo the profile run."
+msgstr "重新編譯來源並重新執行此分析檔。"
+
+#: libviews/sourceview.cpp:688
+#, fuzzy
+#| msgid "The function is located in this ELF object:"
+msgctxt "SourceView|"
+msgid "The function is located in this ELF object:"
+msgstr "這個函式位於此 ELF 物件中："
+
+#: libviews/sourceview.cpp:696
+#, fuzzy
+#| msgid "This is because its source file cannot be found:"
+msgctxt "SourceView|"
+msgid "This is because its source file cannot be found:"
+msgstr "這是因為它的程式源碼檔找不到："
+
+#: libviews/sourceview.cpp:700
+#, fuzzy
+#| msgid "Add the folder of this file to the source folder list."
+msgctxt "SourceView|"
+msgid "Add the folder of this file to the source folder list."
+msgstr "新增此檔案所在的資料夾到程式源碼資料夾清單中。"
+
+#: libviews/sourceview.cpp:702
+#, fuzzy
+#| msgid "The list can be found in the configuration dialog."
+msgctxt "SourceView|"
+msgid "The list can be found in the configuration dialog."
+msgstr "這個清單可以在設定對話框中找到。"
+
+#: libviews/stackselection.cpp:46
+#, fuzzy
+#| msgid "Stack Selection"
+msgctxt "StackSelection|"
+msgid "Stack Selection"
+msgstr "堆疊選擇"
+
+#: libviews/stackselection.cpp:54
+#, fuzzy
+#| msgid "Cost"
+msgctxt "StackSelection|"
+msgid "Cost"
+msgstr "花費"
+
+#: libviews/stackselection.cpp:55
+#, fuzzy
+#| msgid "Cost2"
+msgctxt "StackSelection|"
+msgid "Cost2"
+msgstr "花費2"
+
+#: libviews/stackselection.cpp:56
+#, fuzzy
+#| msgid "Calls"
+msgctxt "StackSelection|"
+msgid "Calls"
+msgstr "呼叫"
+
+#: libviews/stackselection.cpp:57
+#, fuzzy
+#| msgid "Function"
+msgctxt "StackSelection|"
+msgid "Function"
+msgstr "函式"
+
+#: libviews/tabview.cpp:113
+#, fuzzy
+#| msgid "Move to Top"
+msgctxt "TabBar|"
+msgid "Move to Top"
+msgstr "移動到頂端"
+
+#: libviews/tabview.cpp:114
+#, fuzzy
+#| msgctxt "Move to Top"
+#| msgid "Top"
+msgctxt "TabBar|Move to Top"
+msgid "Top"
+msgstr "頂端"
+
+#: libviews/tabview.cpp:117
+#, fuzzy
+#| msgid "Move to Right"
+msgctxt "TabBar|"
+msgid "Move to Right"
+msgstr "移動到右方"
+
+#: libviews/tabview.cpp:118
+#, fuzzy
+#| msgctxt "Move to Right"
+#| msgid "Right"
+msgctxt "TabBar|Move to Right"
+msgid "Right"
+msgstr "右方"
+
+#: libviews/tabview.cpp:121
+#, fuzzy
+#| msgid "Move to Bottom"
+msgctxt "TabBar|"
+msgid "Move to Bottom"
+msgstr "移動到底端"
+
+#: libviews/tabview.cpp:122
+#, fuzzy
+#| msgctxt "Move to Bottom"
+#| msgid "Bottom"
+msgctxt "TabBar|Move to Bottom"
+msgid "Bottom"
+msgstr "底端"
+
+#: libviews/tabview.cpp:125
+#, fuzzy
+#| msgid "Move to Bottom Left"
+msgctxt "TabBar|"
+msgid "Move to Bottom Left"
+msgstr "移動到左下方"
+
+#: libviews/tabview.cpp:126
+#, fuzzy
+#| msgid "Bottom Left"
+msgctxt "TabBar|Move to Bottom Left"
+msgid "Bottom Left"
+msgstr "左下方"
+
+#: libviews/tabview.cpp:128
+#, fuzzy
+#| msgid "Move Area To"
+msgctxt "TabBar|"
+msgid "Move Area To"
+msgstr "移動區域到"
+
+#: libviews/tabview.cpp:131
+#, fuzzy
+#| msgid "Hide This Tab"
+msgctxt "TabBar|"
+msgid "Hide This Tab"
+msgstr "隱藏此分頁"
+
+#: libviews/tabview.cpp:132
+#, fuzzy
+#| msgid "Hide Area"
+msgctxt "TabBar|"
+msgid "Hide Area"
+msgstr "隱藏範圍"
+
+#: libviews/tabview.cpp:141
+#, fuzzy
+#| msgctxt "Move to Top"
+#| msgid "Top"
+msgctxt "TabBar|Show on Top"
+msgid "Top"
+msgstr "頂端"
+
+#: libviews/tabview.cpp:142
+#, fuzzy
+#| msgctxt "Move to Right"
+#| msgid "Right"
+msgctxt "TabBar|Show on Right"
+msgid "Right"
+msgstr "右方"
+
+#: libviews/tabview.cpp:143
+#, fuzzy
+#| msgctxt "Move to Bottom"
+#| msgid "Bottom"
+msgctxt "TabBar|Show on Bottom"
+msgid "Bottom"
+msgstr "底端"
+
+#: libviews/tabview.cpp:144
+#, fuzzy
+#| msgid "Bottom Left"
+msgctxt "TabBar|Show on Bottom Left"
+msgid "Bottom Left"
+msgstr "左下方"
+
+#: libviews/tabview.cpp:145
+#, fuzzy
+#| msgid "Show Hidden On"
+msgctxt "TabBar|"
+msgid "Show Hidden On"
+msgstr "顯示隱藏於"
+
+#: libviews/tabview.cpp:318 libviews/tabview.cpp:320 libviews/tabview.cpp:737
+#, fuzzy
+#| msgid "(No profile data file loaded)"
+msgctxt "TabView|"
+msgid "(No profile data file loaded)"
+msgstr "（沒有載入分析資料檔）"
+
+#: libviews/tabview.cpp:380
+#, fuzzy
+#| msgid "Types"
+msgctxt "TabView|"
+msgid "Types"
+msgstr "類型"
+
+#: libviews/tabview.cpp:383
+#, fuzzy
+#| msgid "Callers"
+msgctxt "TabView|"
+msgid "Callers"
+msgstr "呼叫者"
+
+#: libviews/tabview.cpp:384
+#, fuzzy
+#| msgid "All Callers"
+msgctxt "TabView|"
+msgid "All Callers"
+msgstr "所有呼叫者"
+
+#: libviews/tabview.cpp:385
+#, fuzzy
+#| msgid "Callee Map"
+msgctxt "TabView|"
+msgid "Callee Map"
+msgstr "被呼叫者地圖"
+
+#: libviews/tabview.cpp:388
+#, fuzzy
+#| msgid "Source Code"
+msgctxt "TabView|"
+msgid "Source Code"
+msgstr "源碼"
+
+#: libviews/tabview.cpp:390
+#, fuzzy
+#| msgid "Parts"
+msgctxt "TabView|"
+msgid "Parts"
+msgstr "部件"
+
+#: libviews/tabview.cpp:391
+#, fuzzy
+#| msgid "Callees"
+msgctxt "TabView|"
+msgid "Callees"
+msgstr "被呼叫者"
+
+#: libviews/tabview.cpp:392
+#, fuzzy
+#| msgid "Call Graph"
+msgctxt "TabView|"
+msgid "Call Graph"
+msgstr "呼叫圖"
+
+#: libviews/tabview.cpp:395
+#, fuzzy
+#| msgid "All Callees"
+msgctxt "TabView|"
+msgid "All Callees"
+msgstr "所有被呼叫者"
+
+#: libviews/tabview.cpp:396
+#, fuzzy
+#| msgid "Caller Map"
+msgctxt "TabView|"
+msgid "Caller Map"
+msgstr "呼叫者地圖"
+
+#: libviews/tabview.cpp:399
+#, fuzzy
+#| msgid "Machine Code"
+msgctxt "TabView|"
+msgid "Machine Code"
+msgstr "機器碼"
+
+#: libviews/tabview.cpp:653
+#, fuzzy
+#| msgid ""
+#| "<b>Information Tabs</b><p>This widget shows information for the currently "
+#| "selected function in different tabs: <ul><li>The Costs tab shows a list "
+#| "of available event types and the inclusive and self-costs related to "
+#| "these types.</li><li>The Parts tab shows a list of trace parts if the "
+#| "trace consists of more than one part (otherwise, this tab is hidden). The "
+#| "cost of the selected function spent in the different parts together with "
+#| "the calls happening is shown.</li><li>The Call Lists tab shows direct "
+#| "callers and callees of the function in more detail.</li><li>The Coverage "
+#| "tab shows the same as the Call Lists tab, but also shows indirect callers "
+#| "and callees, not just direct ones.</li><li>The Call Graph tab shows a "
+#| "graphical visualization of the calls made by this function.</li><li>The "
+#| "Source Code tab presents annotated source code if debugging information "
+#| "and the source file are available.</li><li>The Machine Code tab presents "
+#| "annotated assembly instructions if profile information at instruction "
+#| "level is available.</li></ul>For more information, see the <em>What's "
+#| "This?</em> help of the corresponding tab widget.</p>"
+msgctxt "TabView|"
+msgid ""
+"<b>Information Tabs</b><p>This widget shows information for the currently "
+"selected function in different tabs: <ul><li>The Costs tab shows a list of "
+"available event types and the inclusive and self-costs related to these "
+"types.</li><li>The Parts tab shows a list of trace parts if the trace "
+"consists of more than one part (otherwise, this tab is hidden). The cost of "
+"the selected function spent in the different parts together with the calls "
+"happening is shown.</li><li>The Call Lists tab shows direct callers and "
+"callees of the function in more detail.</li><li>The Coverage tab shows the "
+"same as the Call Lists tab, but also shows indirect callers and callees, not "
+"just direct ones.</li><li>The Call Graph tab shows a graphical visualization "
+"of the calls made by this function.</li><li>The Source Code tab presents "
+"annotated source code if debugging information and the source file are "
+"available.</li><li>The Machine Code tab presents annotated assembly "
+"instructions if profile information at instruction level is available.</li></"
+"ul>For more information, see the <em>What's This?</em> help of the "
+"corresponding tab widget.</p>"
+msgstr ""
+"<b>資訊分頁</b><p>此元件在不同的分頁顯示目前選取的函式： <ul><li>花費頁顯示可"
+"用的事件型態的清單，以及其引入與自身的花費。</li> <li>部件頁顯示追蹤部件清"
+"單。若只有一個部件則此分頁會被隱藏。呼叫所選取函式在不同部件的花費會一起顯"
+"示。</li> <li>呼叫清單頁顯示此函式呼叫者與被呼叫者的詳情。</li> <li>總體呼叫"
+"頁跟呼叫清單頁顯示的差不多，不過更進一步包括直接呼叫者與非直接呼叫者。</li> "
+"<li>源碼分頁在有除錯資訊與源碼檔時，會顯示註記源碼。</li> <li>機器碼分頁在有"
+"指令層級的追蹤資訊時會顯示組譯指令。</li></ul> 詳情可以參考「這是什麼」的說"
+"明。</p>"
+
+#: libviews/tabview.cpp:738
+#, fuzzy
+#| msgid "(No function selected)"
+msgctxt "TabView|"
+msgid "(No function selected)"
+msgstr "（沒有選取函式）"
+
+#: libviews/traceitemview.cpp:77
+#, fuzzy
+#| msgid "No description available"
+msgctxt "QObject|"
+msgid "No description available"
+msgstr "沒有可用的描述"
+
+#: libviews/treemap.cpp:1344
+#, fuzzy, qt-format
+#| msgid "Text %1"
+msgctxt "TreeMapWidget|"
+msgid "Text %1"
+msgstr "文字 %1"
+
+#: libviews/treemap.cpp:2864
+#, fuzzy
+#| msgid "Recursive Bisection"
+msgctxt "TreeMapWidget|"
+msgid "Recursive Bisection"
+msgstr "遞迴對切"
+
+#: libviews/treemap.cpp:2865
+#, fuzzy
+#| msgid "Columns"
+msgctxt "TreeMapWidget|"
+msgid "Columns"
+msgstr "欄位"
+
+#: libviews/treemap.cpp:2866
+#, fuzzy
+#| msgid "Rows"
+msgctxt "TreeMapWidget|"
+msgid "Rows"
+msgstr "列"
+
+#: libviews/treemap.cpp:2867
+#, fuzzy
+#| msgid "Always Best"
+msgctxt "TreeMapWidget|"
+msgid "Always Best"
+msgstr "永遠最好的"
+
+#: libviews/treemap.cpp:2868
+#, fuzzy
+#| msgid "Best"
+msgctxt "TreeMapWidget|"
+msgid "Best"
+msgstr "最好的"
+
+#: libviews/treemap.cpp:2869
+#, fuzzy
+#| msgid "Alternate (V)"
+msgctxt "TreeMapWidget|"
+msgid "Alternate (V)"
+msgstr "替代（垂直）"
+
+#: libviews/treemap.cpp:2870
+#, fuzzy
+#| msgid "Alternate (H)"
+msgctxt "TreeMapWidget|"
+msgid "Alternate (H)"
+msgstr "替代（水平）"
+
+#: libviews/treemap.cpp:2871
+#, fuzzy
+#| msgid "Horizontal"
+msgctxt "TreeMapWidget|"
+msgid "Horizontal"
+msgstr "水平"
+
+#: libviews/treemap.cpp:2872
+#, fuzzy
+#| msgid "Vertical"
+msgctxt "TreeMapWidget|"
+msgid "Vertical"
+msgstr "垂直"
+
+#~ msgctxt "Move to Bottom Left"
+#~ msgid "Bottom Left"
+#~ msgstr "左下方"
+
+#~ msgctxt "Show on Top"
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgctxt "Show on Right"
+#~ msgid "Right"
+#~ msgstr "右方"
+
+#~ msgctxt "Show on Bottom"
+#~ msgid "Bottom"
+#~ msgstr "底端"
+
+#~ msgctxt "Show on Bottom Left"
+#~ msgid "Bottom Left"
+#~ msgstr "左下方"
+
+#~ msgid "Source (unknown)"
+#~ msgstr "程式源碼（未知）"
+
+#~ msgid "(No Source)"
+#~ msgstr "（無程式源碼）"
+
+#~ msgid "Source ('%1')"
+#~ msgstr "程式源碼（%1）"
+
+#~ msgid " (Thread %1)"
+#~ msgstr "（執行緒 %1）"
+
+#~ msgctxt "Top"
+#~ msgid "Move to Top"
+#~ msgstr "移動到頂端"
+
+#~ msgctxt "Right"
+#~ msgid "Move to Right"
+#~ msgstr "移動到右方"
+
+#~ msgctxt "Bottom"
+#~ msgid "Move to Bottom"
+#~ msgstr "移動到底端"
+
+#~ msgctxt "Bottom Left"
+#~ msgid "Move to Bottom Left"
+#~ msgstr "移動到左下方"
+
+#~ msgctxt "Top"
+#~ msgid "Show on Top"
+#~ msgstr "在頂端顯示"
+
+#~ msgctxt "Right"
+#~ msgid "Show on Right"
+#~ msgstr "在右方顯示"
+
+#~ msgctxt "Bottom"
+#~ msgid "Show on Bottom"
+#~ msgstr "在底端顯示"
+
+#~ msgctxt "Bottom Left"
+#~ msgid "Show on Bottom Left"
+#~ msgstr "在左下方顯示"
+
+#~ msgid "Show All Items"
+#~ msgstr "顯示全部項目"
+
+#~ msgid "Nesting"
+#~ msgstr "巢狀"
+
+#~ msgid "Border"
+#~ msgstr "邊框"
+
+#~ msgid "Correct Borders Only"
+#~ msgstr "只有正確的框線"
+
+#~ msgid "Width %1"
+#~ msgstr "寬度 %1"
+
+#~ msgid "Visible"
+#~ msgstr "可見的"
+
+#~ msgid "Take Space From Children"
+#~ msgstr "由子系統取得空間"
+
+#~ msgid "Top Center"
+#~ msgstr "頂端中央"
+
+#~ msgid "Bottom Center"
+#~ msgstr "底端中央"
+
+#~ msgid "No %1 Limit"
+#~ msgstr "沒有 %1 限制"
+
+#~ msgid "Halve Area Limit (to %1)"
+#~ msgstr "將區域限制減半（到 %1）"
+
+#~ msgid "Depth %1"
+#~ msgstr "深度 %1"
+
+#~ msgid "Decrement (to %1)"
+#~ msgstr "遞減（到 %1）"
+
+#~ msgid "Increment (to %1)"
+#~ msgstr "遞增（到 %1）"
+
+#~ msgid "50 Pixels"
+#~ msgstr "50 像素"
+
+#~ msgid "Remove Secondary Event Type"
+#~ msgstr "移除次要事件類型"
+
+#~ msgid "Hide '%1'"
+#~ msgstr "隱藏 %1"
+
+#~ msgid "Hide Selected"
+#~ msgstr "隱藏已選取項目"
+
+#~ msgid "Show All"
+#~ msgstr "全部顯示"
+
+#~ msgid "As PostScript"
+#~ msgstr "為 PostScript 檔"
+
+#~ msgid "Save Image"
+#~ msgstr "儲存影像"
+
+#~ msgid "Assembler"
+#~ msgstr "組譯器"
+
+#~ msgid "(No Assembler)"
+#~ msgstr "（沒有組譯器）"
+
+#~ msgid "Assembly Code"
+#~ msgstr "組譯碼"
