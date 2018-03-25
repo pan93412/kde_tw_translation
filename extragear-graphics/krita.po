@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-24 03:11+0100\n"
+"POT-Creation-Date: 2018-03-25 04:15+0200\n"
 "PO-Revision-Date: 2018-01-04 20:03+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -12427,7 +12427,7 @@ msgstr "捲動時移動檢查者(&M)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveWorkspaces)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:26
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:292
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:293
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:155
 #, kde-format
 msgid "Workspaces"
@@ -12471,7 +12471,7 @@ msgstr "縮放時使用三線濾鏡。 停用此功能可能會提高繪畫性�
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveGradients)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:73 libs/ui/kis_control_frame.cpp:86
 #: libs/ui/kis_control_frame.cpp:226
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:280
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:281
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:152
 #, kde-format
 msgid "Gradients"
@@ -12512,7 +12512,7 @@ msgstr "顏色集"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveBrushes)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:113
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:286
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:287
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:150
 #, kde-format
 msgid "Brushes"
@@ -15001,7 +15001,7 @@ msgstr "繪畫工具集(&P)"
 
 #: libs/ui/kis_control_frame.cpp:180
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:31
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:283
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:284
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:153
 #: plugins/tools/karbonplugins/tools/KarbonPatternTool.cpp:306
 #, kde-format
@@ -23216,7 +23216,7 @@ msgid "Add color"
 msgstr "加入顏色"
 
 #: plugins/dockers/presetdocker/presetdocker_dock.cpp:37
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:295
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:296
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:151
 #, kde-format
 msgid "Brush Presets"
@@ -25387,22 +25387,25 @@ msgstr "管理資源包"
 msgid "Resource"
 msgstr "資源"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:155
-#, kde-format
-msgid "Couldn't add bundle to resource server"
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:156
+#, fuzzy, kde-format
+#| msgid "Couldn't add bundle to resource server"
+msgid "Couldn't add bundle \"%1\" to resource server"
 msgstr "無法將資源包加入資源伺服器"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:161
-#, kde-format
-msgid "Couldn't remove bundle from blacklist"
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:162
+#, fuzzy, kde-format
+#| msgid "Couldn't remove bundle from blacklist"
+msgid "Couldn't remove bundle \"%1\" from blacklist"
 msgstr "無法將資源包從黑名單移除"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:176
-#, kde-format
-msgid "Bundle doesn't exist!"
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:177
+#, fuzzy, kde-format
+#| msgid "Bundle doesn't exist!"
+msgid "Bundle \"%1\" doesn't exist!"
 msgstr "資源包不存在！"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:289
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:290
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:154
 #, kde-format
 msgid "Palettes"

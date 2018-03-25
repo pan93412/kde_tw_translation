@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-04 03:18+0100\n"
+"POT-Creation-Date: 2018-03-25 04:17+0200\n"
 "PO-Revision-Date: 2016-12-04 16:42+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -536,7 +536,7 @@ msgid "Total Time: %1"
 msgstr "總計時間：%1"
 
 #: gui/applyprogressdialog.cpp:435 gui/mainwindow.cpp:923
-#: gui/mainwindow.cpp:1084 gui/smartdialog.cpp:234
+#: gui/mainwindow.cpp:1084 gui/smartdialog.cpp:236
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -697,19 +697,19 @@ msgid "1 Sector"
 msgid_plural "%1 Sectors"
 msgstr[0] "%1 個磁區"
 
-#: gui/devicepropsdialog.cpp:123 gui/smartdialog.cpp:90 gui/smartdialog.cpp:154
+#: gui/devicepropsdialog.cpp:123 gui/smartdialog.cpp:91 gui/smartdialog.cpp:156
 #, kde-kuit-format
 msgctxt "@label SMART disk status"
 msgid "good"
 msgstr "好"
 
-#: gui/devicepropsdialog.cpp:126 gui/smartdialog.cpp:93 gui/smartdialog.cpp:156
+#: gui/devicepropsdialog.cpp:126 gui/smartdialog.cpp:94 gui/smartdialog.cpp:158
 #, kde-kuit-format
 msgctxt "@label SMART disk status"
 msgid "BAD"
 msgstr "差"
 
-#: gui/devicepropsdialog.cpp:130 gui/smartdialog.cpp:136
+#: gui/devicepropsdialog.cpp:130 gui/smartdialog.cpp:138
 #, kde-kuit-format
 msgctxt "@label"
 msgid "(unknown)"
@@ -790,8 +790,8 @@ msgid "Primaries/Max:"
 msgstr "主要/最大："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartStatus)
-#: gui/devicepropswidgetbase.ui:265 gui/smartdialog.cpp:154
-#: gui/smartdialog.cpp:156 gui/smartdialogwidgetbase.ui:23
+#: gui/devicepropswidgetbase.ui:265 gui/smartdialog.cpp:156
+#: gui/smartdialog.cpp:158 gui/smartdialogwidgetbase.ui:23
 #, kde-format
 msgid "SMART status:"
 msgstr "SMART 狀態："
@@ -2934,103 +2934,103 @@ msgstr "在此之後的剩餘空間："
 msgid "Logical Volume Name:"
 msgstr "邏輯卷冊名稱："
 
-#: gui/smartdialog.cpp:64
+#: gui/smartdialog.cpp:65
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "SMART Properties: <filename>%1</filename>"
 msgstr "'SMART 屬性：<filename>%1</filename>"
 
-#: gui/smartdialog.cpp:68
+#: gui/smartdialog.cpp:69
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Save SMART Report"
 msgstr "儲存 SMART 報告"
 
-#: gui/smartdialog.cpp:104 gui/smartdialog.cpp:160
+#: gui/smartdialog.cpp:105 gui/smartdialog.cpp:162
 #, kde-format, kde-kuit-format
 msgctxt "@label SMART number of bad sectors"
 msgid "none"
 msgstr "無"
 
-#: gui/smartdialog.cpp:123 gui/smartdialog.cpp:188
+#: gui/smartdialog.cpp:124 gui/smartdialog.cpp:190
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "Pre-Failure"
 msgstr "預失敗"
 
-#: gui/smartdialog.cpp:123 gui/smartdialog.cpp:188
+#: gui/smartdialog.cpp:124 gui/smartdialog.cpp:190
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "Old-Age"
 msgstr "老舊"
 
-#: gui/smartdialog.cpp:124 gui/smartdialog.cpp:189
+#: gui/smartdialog.cpp:125 gui/smartdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "Online"
 msgstr "上線"
 
-#: gui/smartdialog.cpp:124 gui/smartdialog.cpp:189
+#: gui/smartdialog.cpp:125 gui/smartdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "Offline"
 msgstr "離線"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartModelName)
-#: gui/smartdialog.cpp:162 gui/smartdialogwidgetbase.ui:63
+#: gui/smartdialog.cpp:164 gui/smartdialogwidgetbase.ui:63
 #, kde-format
 msgid "Model:"
 msgstr "機型："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartSerialNumber)
-#: gui/smartdialog.cpp:163 gui/smartdialogwidgetbase.ui:92
+#: gui/smartdialog.cpp:165 gui/smartdialogwidgetbase.ui:92
 #, kde-format
 msgid "Serial number:"
 msgstr "序號："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartFirmware)
-#: gui/smartdialog.cpp:164 gui/smartdialogwidgetbase.ui:121
+#: gui/smartdialog.cpp:166 gui/smartdialogwidgetbase.ui:121
 #, kde-format
 msgid "Firmware revision:"
 msgstr "韌體版本："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartTemperature)
-#: gui/smartdialog.cpp:165 gui/smartdialogwidgetbase.ui:150
+#: gui/smartdialog.cpp:167 gui/smartdialogwidgetbase.ui:150
 #, kde-format
 msgid "Temperature:"
 msgstr "溫度："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartBadSectors)
-#: gui/smartdialog.cpp:166 gui/smartdialogwidgetbase.ui:179
+#: gui/smartdialog.cpp:168 gui/smartdialogwidgetbase.ui:179
 #, kde-format
 msgid "Bad sectors:"
 msgstr "壞磁區數："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartPoweredOn)
-#: gui/smartdialog.cpp:167 gui/smartdialogwidgetbase.ui:208
+#: gui/smartdialog.cpp:169 gui/smartdialogwidgetbase.ui:208
 #, kde-format
 msgid "Powered on for:"
 msgstr "開機時間："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartPowerCycles)
-#: gui/smartdialog.cpp:168 gui/smartdialogwidgetbase.ui:237
+#: gui/smartdialog.cpp:170 gui/smartdialogwidgetbase.ui:237
 #, kde-format
 msgid "Power cycles:"
 msgstr "電源週期："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartSelfTests)
-#: gui/smartdialog.cpp:169 gui/smartdialogwidgetbase.ui:414
+#: gui/smartdialog.cpp:171 gui/smartdialogwidgetbase.ui:414
 #, kde-format
 msgid "Self tests:"
 msgstr "自我測試："
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartOverallAssessment)
-#: gui/smartdialog.cpp:170 gui/smartdialogwidgetbase.ui:385
+#: gui/smartdialog.cpp:172 gui/smartdialogwidgetbase.ui:385
 #, kde-format
 msgid "Overall assessment:"
 msgstr "整體評價："
 
-#: gui/smartdialog.cpp:234
+#: gui/smartdialog.cpp:236
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Could Not Save SMART Report."

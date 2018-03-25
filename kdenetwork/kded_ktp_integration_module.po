@@ -32,8 +32,8 @@ msgid ""
 "<p><strong>%tr+&lt;val&gt;</strong>: Countdown to 0 from <strong>&lt;val&gt;"
 "</strong> minutes. e.g. %tr+30</p>"
 msgstr ""
-"<p><strong>%tr+&lt;val&gt;</strong>：倒數計時從 <strong>&lt;val&gt;"
-"</strong> 至結束的分鐘數。範例：%tr+30</p>"
+"<p><strong>%tr+&lt;val&gt;</strong>：倒數計時從 <strong>&lt;val&gt;</strong> "
+"至結束的分鐘數。範例：%tr+30</p>"
 
 #: config/telepathy-kded-config.cpp:41
 #, kde-format
@@ -42,8 +42,8 @@ msgid ""
 "value is specified, the local time <strong>&lt;val&gt;</strong> minutes in "
 "the future. e.g. %time+10</p>"
 msgstr ""
-"<p><strong>%time+[&lt;val&gt;]</strong>：目前的本機時間，或當一個值被指定，"
-"目前的本機時間將會在未來 <strong>&lt;val&gt;</strong>分鐘。範例：%time+10</p>"
+"<p><strong>%time+[&lt;val&gt;]</strong>：目前的本機時間，或當一個值被指定，目"
+"前的本機時間將會在未來 <strong>&lt;val&gt;</strong>分鐘。範例：%time+10</p>"
 
 #: config/telepathy-kded-config.cpp:42
 #, kde-format
@@ -52,9 +52,8 @@ msgid ""
 "is specified, the UTC time <strong>&lt;val&gt;</strong> minutes into the "
 "future. e.g. %utc</p>"
 msgstr ""
-"<p><strong>%utc+[&lt;val&gt;]</strong>：目前的 UTC 時間，或當"
-"一個值被指定，這個值將會在未來 <strong>&lt;val&gt;</strong> 分鐘。"
-"範例：%utc</p>"
+"<p><strong>%utc+[&lt;val&gt;]</strong>：目前的 UTC 時間，或當一個值被指定，這"
+"個值將會在未來 <strong>&lt;val&gt;</strong> 分鐘。範例：%utc</p>"
 
 #: config/telepathy-kded-config.cpp:43
 #, kde-format
@@ -63,9 +62,8 @@ msgid ""
 "Append an initial elapsed time &quot;&lt;val&gt;&quot; in minutes. e.g. %te"
 "+5</p>"
 msgstr ""
-"<p><strong>%te+[&lt;val&gt;]</strong>：訊息啟用後過的時間。 "
-"附加在最後初始的時間 &quot;&lt;val&gt;&quot; 分鐘。範例：%te"
-"+5</p>"
+"<p><strong>%te+[&lt;val&gt;]</strong>：訊息啟用後過的時間。 附加在最後初始的"
+"時間 &quot;&lt;val&gt;&quot; 分鐘。範例：%te+5</p>"
 
 #: config/telepathy-kded-config.cpp:44
 #, kde-format
@@ -99,12 +97,11 @@ msgid ""
 "message or automatic presence status message with the global presence status "
 "message. e.g. %um, %um+g</p>"
 msgstr ""
-"<p><strong>%um+[&lt;val&gt;]</strong>：當指定全域或在一個"
-"帳號存在時的狀態訊息時， 將覆蓋所有自動存在訊息。當指定了一"
-"自動存在狀態訊息，以取代全域或帳號存在時的狀態消息"
-"（假如已指定）。當 <strong>val = g</strong> 在帳號存在時的狀態消息或"
-"自動存在狀態消息，覆蓋帳號的狀態訊息或自動存在狀態消息透過全域存在狀態消息"
-"範例：%um, %um+g</p>"
+"<p><strong>%um+[&lt;val&gt;]</strong>：當指定全域或在一個帳號存在時的狀態訊息"
+"時， 將覆蓋所有自動存在訊息。當指定了一自動存在狀態訊息，以取代全域或帳號存在"
+"時的狀態消息（假如已指定）。當 <strong>val = g</strong> 在帳號存在時的狀態消"
+"息或自動存在狀態消息，覆蓋帳號的狀態訊息或自動存在狀態消息透過全域存在狀態消"
+"息範例：%um, %um+g</p>"
 
 #: config/telepathy-kded-config.cpp:49
 #, kde-format
@@ -112,8 +109,8 @@ msgid ""
 "<p><strong>%tu+&lt;val&gt;</strong>: Refresh the status message every "
 "<strong>&lt;val&gt;</strong> minutes. e.g. %tu+2</p>"
 msgstr ""
-"<p><strong>%tu+&lt;val&gt;</strong>：重新整理狀態訊息於每"
-"<strong>&lt;val&gt;</strong> 分鐘。範例：%tu+2</p>"
+"<p><strong>%tu+&lt;val&gt;</strong>：重新整理狀態訊息於每<strong>&lt;val&gt;"
+"</strong> 分鐘。範例：%tu+2</p>"
 
 #: config/telepathy-kded-config.cpp:50
 #, kde-format
@@ -133,9 +130,9 @@ msgid ""
 "%tr, %time, %utc, and %tx token expiry. e.g. %xm+&quot;Back %time. %tx+3 %xm"
 "+&quot;Running late&quot;&quot;</p>"
 msgstr ""
-"<p><strong>%xm+&quot;&lt;val&gt;&quot;</strong>：指定一個訊息去追蹤"
-"%tr、%time、%utc 和 %tx Token 是否過期。範例：%xm+&quot;Back %time. %tx+3 %xm"
-"+&quot;Running late&quot;&quot;</p>"
+"<p><strong>%xm+&quot;&lt;val&gt;&quot;</strong>：指定一個訊息去追"
+"蹤%tr、%time、%utc 和 %tx Token 是否過期。範例：%xm+&quot;Back %time. %tx+3 "
+"%xm+&quot;Running late&quot;&quot;</p>"
 
 #: config/telepathy-kded-config.cpp:52
 #, kde-format
@@ -144,9 +141,8 @@ msgid ""
 "local time using QDateTime::toString() expressions. e.g. %tf+&quot;h:mm AP "
 "t&quot;</p>"
 msgstr ""
-"<p><strong>%tf+&quot;&lt;val&gt;&quot;</strong>：指定一個為本機時間的格式"
-"使用 QDateTime::toString() 表達式。範例：%tf+&quot;h:mm AP "
-"t&quot;</p>"
+"<p><strong>%tf+&quot;&lt;val&gt;&quot;</strong>：指定一個為本機時間的格式使"
+"用 QDateTime::toString() 表達式。範例：%tf+&quot;h:mm AP t&quot;</p>"
 
 #: config/telepathy-kded-config.cpp:53
 #, kde-format
@@ -155,9 +151,8 @@ msgid ""
 "time using QDateTime::toString() expressions. e.g. %uf+&quot;hh:mm t&quot;</"
 "p>"
 msgstr ""
-"<p><strong>%uf+&quot;&lt;val&gt;&quot;</strong>：指定一個格式給 UTC "
-"時間，使用 QDateTime::toString() 表達式。範例：%uf+&quot;hh:mm t&quot;</"
-"p>"
+"<p><strong>%uf+&quot;&lt;val&gt;&quot;</strong>：指定一個格式給 UTC 時間，使"
+"用 QDateTime::toString() 表達式。範例：%uf+&quot;hh:mm t&quot;</p>"
 
 #: config/telepathy-kded-config.cpp:54
 #, kde-format
@@ -165,8 +160,8 @@ msgid ""
 "<p><strong>%sp+&quot;&lt;val&gt;&quot;</strong>: Change the separator for "
 "empty fields. e.g. %sp+&quot;-&quot;</p>"
 msgstr ""
-"<p><strong>%sp+&quot;&lt;val&gt;&quot;</strong>：修改空領域的分割器"
-"。範例：%sp+&quot;-&quot;</p>"
+"<p><strong>%sp+&quot;&lt;val&gt;&quot;</strong>：修改空領域的分割器。範例："
+"%sp+&quot;-&quot;</p>"
 
 #: config/telepathy-kded-config.cpp:55
 #, kde-format
@@ -174,9 +169,8 @@ msgid ""
 "<p>Using tokens requires the Telepathy KDED module to be loaded. Tokens can "
 "be escaped by prepending a backslash character, e.g. &#92;%sp</p>"
 msgstr ""
-"<p>使用 Tokens 需要 Telepathy KDED 模組被載入。"
-"Tokens 可以被退出，只需要預先加一個反斜杠字符。"
-"範例：&#92;%sp</p>"
+"<p>使用 Tokens 需要 Telepathy KDED 模組被載入。Tokens 可以被退出，只需要預先"
+"加一個反斜杠字符。範例：&#92;%sp</p>"
 
 #: config/telepathy-kded-config.cpp:74 config/telepathy-kded-config.cpp:77
 #, kde-format

@@ -98,7 +98,8 @@ msgstr "找不到觸控板。現在連線觸控板。"
 msgid ""
 "Not able to save all changes. See logs for more informations. Please restart "
 "this configuration module and try again."
-msgstr "無法儲存所有變動。請見紀錄檔以取得更多資訊。請重新啟動本設定模組並再次嘗試。"
+msgstr ""
+"無法儲存所有變動。請見紀錄檔以取得更多資訊。請重新啟動本設定模組並再次嘗試。"
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:152
 #, kde-format
@@ -340,7 +341,6 @@ msgstr "開啟/關閉觸控板"
 #. i18n: ectx: property (windowTitle), widget (QWidget, KdedForm)
 #: src/kcm/xlib/ui/kded.ui:14
 #, kde-format
-#| msgid "Enable/Disable Touchpad"
 msgctxt "@title:window"
 msgid "Enable/Disable Touchpad"
 msgstr "開啟/關閉觸控板"
@@ -349,7 +349,6 @@ msgstr "開啟/關閉觸控板"
 #. i18n: ectx: property (text), widget (QPushButton, configureNotificationsButton)
 #: src/kcm/xlib/ui/kded.ui:35 src/kcm/xlib/ui/kded.ui:146
 #, kde-format
-#| msgid "Configure"
 msgid "Configure..."
 msgstr "設定…"
 
@@ -826,7 +825,6 @@ msgstr "角度："
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_CircScrollDelta)
 #: src/kcm/xlib/ui/scroll.ui:345
 #, kde-format
-#| msgid "Move angle (radians) of finger to generate a scroll event"
 msgid "Move angle (degrees) of finger to generate a scroll event"
 msgstr "產生捲軸事件的移動角度（度）"
 

@@ -508,8 +508,6 @@ msgstr "身份："
 #: editor/settings/ui/802-1x.ui:130 editor/settings/ui/802-1x.ui:574
 #: editor/settings/ui/802-1x.ui:718
 #, kde-format
-#| msgctxt "@info"
-#| msgid "Search Domains:"
 msgid "Domain:"
 msgstr "網域："
 
@@ -865,7 +863,8 @@ msgstr "編輯此連線的進階存取權限"
 msgid ""
 "Fine-grained permissions editor for this connection. It lets you choose "
 "which users can activate/modify/delete this connection."
-msgstr "此連線的權限微調編輯器。它可以讓您選擇可以啟用/變更/刪除此連線的使用者。"
+msgstr ""
+"此連線的權限微調編輯器。它可以讓您選擇可以啟用/變更/刪除此連線的使用者。"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
 #: editor/settings/ui/connectionwidget.ui:51
@@ -1024,7 +1023,8 @@ msgstr "名稱伺服器："
 msgid ""
 "Use this field to specify the IP address(es) of one or more DNS servers. Use "
 "',' to separate entries."
-msgstr "使用此欄位指定一個以上的 DNS 伺服器的 IP 位址。用逗號 ',' 分隔多個位址。"
+msgstr ""
+"使用此欄位指定一個以上的 DNS 伺服器的 IP 位址。用逗號 ',' 分隔多個位址。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #: editor/settings/ui/ipv4.ui:125
@@ -1092,7 +1092,8 @@ msgid ""
 "IP addresses identify your computer on the network. Click the \"Add\" button "
 "to add\n"
 "an IP address"
-msgstr "IP 位址是讓您的電腦可以在網路上被識別。點擊「新增」按鍵來新增 IP 位址。"
+msgstr ""
+"IP 位址是讓您的電腦可以在網路上被識別。點擊「新增」按鍵來新增 IP 位址。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv4RequiredCB)
 #: editor/settings/ui/ipv4.ui:282
@@ -2164,26 +2165,22 @@ msgstr "Wi-Fi（分享）"
 #: models/creatableconnectionsmodel.cpp:191
 #: models/creatableconnectionsmodel.cpp:197
 #, kde-format
-#| msgid "VPN connections"
 msgid "Virtual connections"
 msgstr "虛擬連線"
 
 #: models/creatableconnectionsmodel.cpp:180
 #: models/creatableconnectionsmodel.cpp:186
 #, kde-format
-#| msgid "Some infiniband description"
 msgid "Some bond description"
 msgstr "一些 bond 描述"
 
 #: models/creatableconnectionsmodel.cpp:192
 #, kde-format
-#| msgid "Some DSL description"
 msgid "Some team description"
 msgstr "一些 team 描述"
 
 #: models/creatableconnectionsmodel.cpp:198
 #, kde-format
-#| msgid "Some DSL description"
 msgid "Some vlan description"
 msgstr "一些 VLAN 描述"
 

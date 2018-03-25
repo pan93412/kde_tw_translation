@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-18 03:20+0100\n"
+"POT-Creation-Date: 2018-03-25 04:23+0200\n"
 "PO-Revision-Date: 2015-02-27 23:36+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -436,7 +436,7 @@ msgstr "(c) 2014, Thomas Eschenbacher"
 msgid "Kwave label list"
 msgstr ""
 
-#: kwave/MainWidget.cpp:897 libkwave/SignalManager.cpp:1889
+#: kwave/MainWidget.cpp:897 libkwave/SignalManager.cpp:1862
 #, kde-format
 msgid "Add Label"
 msgstr "新增標籤"
@@ -1159,7 +1159,7 @@ msgstr "復原"
 msgid "Redo"
 msgstr "重做"
 
-#: kwave/TopWidget.cpp:392 libkwave/SignalManager.cpp:672
+#: kwave/TopWidget.cpp:392 libkwave/SignalManager.cpp:669
 #, kde-format
 msgid "Cut"
 msgstr "剪下"
@@ -1425,7 +1425,7 @@ msgstr ""
 msgid "Into second half"
 msgstr ""
 
-#: libgui/CurveWidget.cpp:100 libkwave/SignalManager.cpp:699
+#: libgui/CurveWidget.cpp:100 libkwave/SignalManager.cpp:696
 #: libkwave/undo/UndoDeleteAction.cpp:56
 #, kde-format
 msgid "Delete"
@@ -1605,7 +1605,7 @@ msgstr ""
 msgid "Selection, right border"
 msgstr ""
 
-#: libgui/SelectionItem.cpp:89 libgui/SignalView.cpp:587
+#: libgui/SelectionItem.cpp:88 libgui/SignalView.cpp:587
 #, kde-format
 msgid "Drag and Drop"
 msgstr ""
@@ -3722,154 +3722,154 @@ msgstr ""
 msgid "(built with KDE Frameworks %1)"
 msgstr "KDE 音效編輯器"
 
-#: libkwave/SignalManager.cpp:454
+#: libkwave/SignalManager.cpp:451
 #, kde-format
 msgid "An error occurred while saving the file."
 msgstr ""
 
-#: libkwave/SignalManager.cpp:466
+#: libkwave/SignalManager.cpp:463
 #, kde-format
 msgid "The file has been truncated and might be corrupted."
 msgstr ""
 
-#: libkwave/SignalManager.cpp:475
+#: libkwave/SignalManager.cpp:472
 #, kde-format
 msgid "Sorry, the file type is not supported."
 msgstr ""
 
-#: libkwave/SignalManager.cpp:648
+#: libkwave/SignalManager.cpp:645
 #, kde-format
 msgid "Insert Clipboard at position"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:658
+#: libkwave/SignalManager.cpp:655
 #, kde-format
 msgid "Paste"
 msgstr "貼上"
 
-#: libkwave/SignalManager.cpp:680
+#: libkwave/SignalManager.cpp:677
 #, fuzzy, kde-format
 msgid "Crop"
 msgstr "裁剪"
 
-#: libkwave/SignalManager.cpp:731
+#: libkwave/SignalManager.cpp:728
 #, kde-format
 msgid "Expand Selection to Label"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:760
+#: libkwave/SignalManager.cpp:757
 #, kde-format
 msgid "Select Next Labels"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:798
+#: libkwave/SignalManager.cpp:795
 #, kde-format
 msgid "Select Previous Labels"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:838
+#: libkwave/SignalManager.cpp:835
 #, fuzzy, kde-format
 msgid "Select All Tracks"
 msgstr "選擇所有音軌(&A)"
 
-#: libkwave/SignalManager.cpp:842
+#: libkwave/SignalManager.cpp:839
 #, fuzzy, kde-format
 msgid "Deselect all tracks"
 msgstr "取消選擇所有音軌(&A)"
 
-#: libkwave/SignalManager.cpp:846
+#: libkwave/SignalManager.cpp:843
 #, kde-format
 msgid "Invert Track Selection"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:852
+#: libkwave/SignalManager.cpp:849
 #, kde-format
 msgid "Select Track"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:857
+#: libkwave/SignalManager.cpp:854
 #, kde-format
 msgid "Deselect Track"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:862
+#: libkwave/SignalManager.cpp:859
 #, kde-format
 msgid "Toggle Track Selection"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:904
+#: libkwave/SignalManager.cpp:901
 #, kde-format
 msgid "Append Track"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:911 libkwave/undo/UndoInsertTrack.cpp:44
+#: libkwave/SignalManager.cpp:908 libkwave/undo/UndoInsertTrack.cpp:44
 #, kde-format
 msgid "Insert Track"
 msgstr "新增軌道"
 
-#: libkwave/SignalManager.cpp:953 libkwave/undo/UndoDeleteTrack.cpp:45
+#: libkwave/SignalManager.cpp:937 libkwave/undo/UndoDeleteTrack.cpp:45
 #, kde-format
 msgid "Delete Track"
 msgstr "移除軌道"
 
-#: libkwave/SignalManager.cpp:1115
+#: libkwave/SignalManager.cpp:1088
 #, kde-format
 msgid "Insert Space"
 msgstr "插入空白空間"
 
-#: libkwave/SignalManager.cpp:1391
+#: libkwave/SignalManager.cpp:1364
 #, kde-format
 msgid "Not enough memory for saving undo information."
 msgstr ""
 
-#: libkwave/SignalManager.cpp:1393
+#: libkwave/SignalManager.cpp:1366
 #, kde-format
 msgid "Do you want to continue without the possibility to undo?"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:1395
+#: libkwave/SignalManager.cpp:1368
 #, kde-format
 msgid ""
 "<b>Hint</b>: you can configure the amount of memory<br>available for undo "
 "under '%1'/'%2'."
 msgstr ""
 
-#: libkwave/SignalManager.cpp:1397
+#: libkwave/SignalManager.cpp:1370
 #, fuzzy, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: libkwave/SignalManager.cpp:1398
+#: libkwave/SignalManager.cpp:1371
 #, kde-format
 msgid "Memory"
 msgstr "記憶體"
 
-#: libkwave/SignalManager.cpp:1544 libkwave/SignalManager.cpp:1551
+#: libkwave/SignalManager.cpp:1517 libkwave/SignalManager.cpp:1524
 #, kde-format
 msgid "Last Action"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:1841
+#: libkwave/SignalManager.cpp:1814
 #, kde-format
 msgid "Modify File Info"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:1916
+#: libkwave/SignalManager.cpp:1889
 #, fuzzy, kde-format
 msgid "Delete All Labels"
 msgstr "選擇所有音軌(&A)"
 
-#: libkwave/SignalManager.cpp:1935
+#: libkwave/SignalManager.cpp:1908
 #, kde-format
 msgid "Delete Label"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:2031
+#: libkwave/SignalManager.cpp:2004
 #, kde-format
 msgid "Manual Track Selection"
 msgstr ""
 
-#: libkwave/SignalManager.cpp:2034
+#: libkwave/SignalManager.cpp:2007
 #, fuzzy, kde-format
 msgid "Manual Selection"
 msgstr "手動選擇"
@@ -3880,13 +3880,13 @@ msgstr "手動選擇"
 msgid "New File"
 msgstr "新增檔案"
 
-#: libkwave/undo/UndoAddMetaDataAction.cpp:111
+#: libkwave/undo/UndoAddMetaDataAction.cpp:94
 #, kde-format
 msgctxt "name of the undo action for inserting a meta data object"
 msgid "Insert %1"
 msgstr "插入 %1"
 
-#: libkwave/undo/UndoAddMetaDataAction.cpp:131
+#: libkwave/undo/UndoAddMetaDataAction.cpp:114
 #, kde-format
 msgctxt ""
 "name of the undo action for inserting multiple meta data objects of the same "
@@ -3894,7 +3894,7 @@ msgctxt ""
 msgid "Insert %1 %2 objects"
 msgstr ""
 
-#: libkwave/undo/UndoAddMetaDataAction.cpp:136
+#: libkwave/undo/UndoAddMetaDataAction.cpp:119
 #, kde-format
 msgid "Insert Meta Data"
 msgstr ""
@@ -7317,12 +7317,12 @@ msgstr ""
 msgid "Reverse"
 msgstr "反轉"
 
-#: plugins/samplerate/SampleRatePlugin.cpp:99
+#: plugins/samplerate/SampleRatePlugin.cpp:101
 #, kde-format
 msgid "Change sample rate"
 msgstr ""
 
-#: plugins/samplerate/SampleRatePlugin.cpp:147
+#: plugins/samplerate/SampleRatePlugin.cpp:161
 #, kde-format
 msgid "Changing sample rate from %1 kHz to %2 kHz..."
 msgstr ""

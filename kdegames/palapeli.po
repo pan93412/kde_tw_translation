@@ -353,21 +353,17 @@ msgstr "以下的謎題將被刪除。此動作無法回復。"
 
 #: src/engine/gameplay.cpp:326 src/engine/gameplay.cpp:352
 #, kde-format
-#| msgctxt "Filter for a file dialog"
-#| msgid "*.puzzle|Palapeli puzzles (*.puzzle)"
 msgctxt "Filter for a file dialog"
 msgid "Palapeli puzzles (*.puzzle)"
 msgstr "Palapeli 謎題 (*.puzzle)"
 
 #: src/engine/gameplay.cpp:328
 #, kde-format
-#| msgid "Automatic builder for Palapeli puzzles"
 msgid "Import Palapeli puzzles"
 msgstr "匯入 Palapeli 謎題"
 
 #: src/engine/gameplay.cpp:354
 #, kde-format
-#| msgid "Automatic builder for Palapeli puzzles"
 msgid "Save Palapeli puzzles"
 msgstr "儲存 Palapeli 謎題"
 
@@ -820,14 +816,13 @@ msgstr "謎題檔的路徑（若未指定 -i 選項，則會被開啟）"
 
 #: src/main.cpp:48
 #, kde-format
-#| msgid ""
-#| "Import the given puzzle file into the local collection (does nothing if "
-#| "no puzzle file is given)"
 msgid ""
 "Import the given puzzle file into the local collection (does nothing if no "
 "puzzle file is given). The main window will not be shown after importing the "
 "given puzzle."
-msgstr "匯入指定的謎題檔到本地端收藏（若沒有提供指定檔案，則不做任何事）。這個主視窗將不會在匯入指定的拼圖後顯示"
+msgstr ""
+"匯入指定的謎題檔到本地端收藏（若沒有提供指定檔案，則不做任何事）。這個主視窗"
+"將不會在匯入指定的拼圖後顯示"
 
 #. i18n: ectx: label, entry (SnappingPrecision), group (Puzzling)
 #: src/palapeli.kcfg:6

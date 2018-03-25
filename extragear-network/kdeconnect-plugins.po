@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-plugins\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-19 03:18+0100\n"
+"POT-Creation-Date: 2018-03-25 04:16+0200\n"
 "PO-Revision-Date: 2016-11-24 08:40+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -39,7 +39,7 @@ msgstr "KDE連線"
 msgid "Use your phone as a touchpad and keyboard"
 msgstr "將您的智慧型手機當成觸碰板或鍵盤"
 
-#: notifications/notification.cpp:126 telephony/telephonyplugin.cpp:113
+#: notifications/notification.cpp:120 telephony/telephonyplugin.cpp:113
 #, kde-format
 msgid "Reply"
 msgstr "回覆"
@@ -102,13 +102,28 @@ msgstr "系統聲音消音"
 msgid "Ping!"
 msgstr "Ping!"
 
-#: runcommand/runcommand_config.cpp:51
+#: runcommand/runcommand_config.cpp:45
+#, kde-format
+msgid "Suspend"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:46
+#, kde-format
+msgid "Maximum Brightness"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:53
+#, kde-format
+msgid "Sample commands"
+msgstr ""
+
+#: runcommand/runcommand_config.cpp:62
 #: sendnotifications/notifyingapplicationmodel.cpp:208
 #, kde-format
 msgid "Name"
 msgstr "名字"
 
-#: runcommand/runcommand_config.cpp:51
+#: runcommand/runcommand_config.cpp:62
 #, kde-format
 msgid "Command"
 msgstr "指令"

@@ -80,8 +80,6 @@ msgstr " MB"
 
 #: difficultydialog.cpp:39
 #, kde-format
-#| msgid " move"
-#| msgid_plural " moves"
 msgctxt "Search depth suffix"
 msgid " move"
 msgid_plural " moves"
@@ -165,7 +163,6 @@ msgstr[0] " 步"
 
 #: gamedialog.cpp:348
 #, kde-format
-#| msgid "Computer Engines"
 msgid "Chess Engines"
 msgstr "西洋棋引擎"
 
@@ -178,14 +175,12 @@ msgstr "玩家 1"
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer1Human)
 #: gamedialog.ui:35
 #, kde-format
-#| msgid "Human (You)"
 msgid "Human (&You)"
 msgstr "人類（您） (&Y)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer1Engine)
 #: gamedialog.ui:45
 #, kde-format
-#| msgid "Computer engine:"
 msgid "&Computer engine"
 msgstr "電腦引擎 (&C)"
 
@@ -198,14 +193,12 @@ msgstr "玩家 1 的顏色"
 #. i18n: ectx: property (text), widget (QRadioButton, colorBlack)
 #: gamedialog.ui:103
 #, kde-format
-#| msgid "Black"
 msgid "B&lack"
 msgstr "黑 (&B)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, colorRandom)
 #: gamedialog.ui:116
 #, kde-format
-#| msgid "Choose randomly"
 msgid "Choose r&andomly"
 msgstr "隨機選取 (&A)"
 
@@ -218,14 +211,12 @@ msgstr "玩家 2"
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Human)
 #: gamedialog.ui:135
 #, kde-format
-#| msgid "Human"
 msgid "H&uman"
 msgstr "人類 (&U)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Engine)
 #: gamedialog.ui:145
 #, kde-format
-#| msgid "Computer engine:"
 msgid "Co&mputer engine"
 msgstr "電腦引擎 (&M)"
 
@@ -238,14 +229,12 @@ msgstr "下棋伺服器"
 #. i18n: ectx: property (text), widget (QCheckBox, cbTimeControl)
 #: gamedialog.ui:207
 #, kde-format
-#| msgid "Use Time Control"
 msgid "&Use Time Control"
 msgstr "使用時間控制 (&U)"
 
 #. i18n: ectx: property (text), widget (QLabel, lNumberOfMoves)
 #: gamedialog.ui:214
 #, kde-format
-#| msgid "Time control period"
 msgid "&Time control period"
 msgstr "時間控制期間 (&T)"
 
@@ -259,14 +248,12 @@ msgstr "只用計時器"
 #. i18n: ectx: property (text), widget (QLabel, timeLimitLabel)
 #: gamedialog.ui:243
 #, kde-format
-#| msgid "Initial time limit"
 msgid "&Initial time limit"
 msgstr "初始時間限制 (&I)"
 
 #. i18n: ectx: property (text), widget (QLabel, timeIncrementLabel)
 #: gamedialog.ui:269
 #, kde-format
-#| msgid "Increment per move"
 msgid "I&ncrement per move"
 msgstr "每次移動遞增時間 (&I)"
 
@@ -335,13 +322,11 @@ msgstr "將軍，死棋"
 
 #: historywidget.cpp:43
 #, kde-format
-#| msgid "White"
 msgid "white"
 msgstr "白"
 
 #: historywidget.cpp:44
 #, kde-format
-#| msgid "Black"
 msgid "black"
 msgstr "黑"
 
@@ -482,7 +467,6 @@ msgstr "開啟檔案"
 
 #: knights.cpp:269 knights.cpp:605 knights.cpp:628
 #, kde-format
-#| msgid "*.pgn | Portable game notation"
 msgid "Portable game notation (*.pgn)"
 msgstr "可移植的遊戲符號 (*.pgn)"
 
@@ -523,34 +507,24 @@ msgstr "遊戲以平手結束"
 
 #: knights.cpp:514
 #, kde-format
-#| msgctxt "White as in the player with white pieces"
-#| msgid "The game ended with a victory for <emphasis>White</emphasis>"
 msgctxt "White as in the player with white pieces"
 msgid "The game ended with a victory for <em>White</em>"
 msgstr "遊戲已結束，<em>白方</em>獲勝"
 
 #: knights.cpp:517
 #, kde-format
-#| msgctxt "Black as in the player with black pieces"
-#| msgid "The game ended with a victory for <emphasis>Black</emphasis>"
 msgctxt "Black as in the player with black pieces"
 msgid "The game ended with a victory for <em>Black</em>"
 msgstr "遊戲已結束，<em>黑方</em>獲勝"
 
 #: knights.cpp:522
 #, kde-format
-#| msgctxt "Player name, then <White as in the player with white pieces"
-#| msgid ""
-#| "The game ended with a victory for <emphasis>%1</emphasis>, playing White"
 msgctxt "Player name, then <White as in the player with white pieces"
 msgid "The game ended with a victory for <em>%1</em>, playing White"
 msgstr "遊戲已結束，<em>%1</em> （白方）獲勝"
 
 #: knights.cpp:525
 #, kde-format
-#| msgctxt "Player name, then Black as in the player with black pieces"
-#| msgid ""
-#| "The game ended with a victory for <emphasis>%1</emphasis>, playing Black"
 msgctxt "Player name, then Black as in the player with black pieces"
 msgid "The game ended with a victory for <em>%1</em>, playing Black"
 msgstr "遊戲已結束，<em>%1</em> （黑方）獲勝"
@@ -576,7 +550,6 @@ msgstr "儲存"
 
 #: knights.cpp:627
 #, kde-format
-#| msgid "&Save History"
 msgid "Save As"
 msgstr "另存新檔..."
 
@@ -835,7 +808,6 @@ msgstr "KDE 西洋棋板"
 
 #: main.cpp:48
 #, kde-format
-#| msgid "(C) 2009-2011 Miha Čančula"
 msgid "(C) 2016-2017 Alexander Semke, 2009-2011 Miha Čančula"
 msgstr "(C) 2016-2017 Alexander Semke, 2009-2011 Miha Čančula"
 
@@ -1053,7 +1025,6 @@ msgstr "將士兵升級為："
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonQueen)
 #: promotiondialog.ui:47
 #, kde-format
-#| msgid "Queen"
 msgid "&Queen"
 msgstr "皇后 (&Q)"
 
@@ -1072,7 +1043,6 @@ msgstr "主教"
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonKnight)
 #: promotiondialog.ui:86
 #, kde-format
-#| msgid "Knight"
 msgid "&Knight"
 msgstr "騎士 (&K)"
 

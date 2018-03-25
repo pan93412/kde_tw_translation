@@ -1464,13 +1464,13 @@ msgstr ""
 #. Help title
 #: activities/calendar/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
-msgid "Read the task and select the correct date on calendar"
+msgid "Read the instructions and select the correct date on the calendar"
 msgstr ""
 
 #. Help goal
 #: activities/calendar/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
-msgid "Learn to use a calendar efficiently"
+msgid "Learn how to use a calendar"
 msgstr ""
 
 #. Help prerequisite
@@ -1481,9 +1481,8 @@ msgstr ""
 
 #. Help manual
 #: activities/calendar/ActivityInfo.qml:36
-#: activities/find_the_day/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
-msgid "Review the instructions and select the correct date on calendar."
+msgid "Read the instructions and select the correct date on the calendar."
 msgstr ""
 
 #: activities/calendar/Calendar.qml:266
@@ -6007,13 +6006,16 @@ msgstr "塔米爾文"
 #. Help title
 #: activities/family/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
-msgid "This activity will teach you about who we are related to our relatives"
+msgid "Select the name you should call this family member"
 msgstr ""
 
 #. Help goal
 #: activities/family/ActivityInfo.qml:32
+#: activities/family_find_relative/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
-msgid "To get an idea about relationships in the family"
+msgid ""
+"Learn the relationships in a family, according to the lineal system used in "
+"most Western societies"
 msgstr ""
 
 #. Help prerequisite
@@ -6029,11 +6031,11 @@ msgstr "訓練閱讀能力"
 #: activities/family/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
 msgid ""
-"To find the relation between two family members.\n"
-"For the married couple we have highlighted with the rings that is between "
-"two circles. For the rest of relations we have only solid lines.\n"
-"White circle will point to you and red one to your relative. Now you have to "
-"find what you should call this person.\n"
+"A family tree is shown.\n"
+"The circles are linked with lines to mark the relations. Married couples are "
+"marked with a ring on the link.\n"
+"You are the person in the white circle. Select the name you should call the "
+"person in the orange circle.\n"
 msgstr ""
 
 #: activities/family/Dataset.qml:136 activities/family/Dataset.qml:137
@@ -6203,12 +6205,6 @@ msgctxt "ActivityInfo|"
 msgid "Point the relatives"
 msgstr "數一數物品"
 
-#. Help goal
-#: activities/family_find_relative/ActivityInfo.qml:32
-msgctxt "ActivityInfo|"
-msgid "To get an idea of family relations"
-msgstr ""
-
 #. Help prerequisite
 #: activities/family_find_relative/ActivityInfo.qml:34
 #, fuzzy
@@ -6222,8 +6218,10 @@ msgstr "移動並按下滑鼠"
 #: activities/family_find_relative/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
 msgid ""
-"You are provided with a relation and a family hierarchy. Click on a pair of "
-"family members which correctly identifies the given relation."
+"A family tree is shown, with some instructions.\n"
+"The circles are linked with lines to mark the relations. Married couples are "
+"marked with a ring on the link.\n"
+"Click on a pair of family members which corresponds to the given relation."
 msgstr ""
 
 #. Activity title
@@ -6258,14 +6256,13 @@ msgstr "找出豎琴"
 #. Help title
 #: activities/find_the_day/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
-msgid ""
-"Read the task and find the correct date by doing mathematical calculations."
+msgid "Find the correct date and select it on the calendar."
 msgstr ""
 
 #. Help goal
 #: activities/find_the_day/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
-msgid "Learn to find date on the calendar by duration calculations."
+msgid "Learn how to count days and find a date on a calendar."
 msgstr ""
 
 #. Help prerequisite
@@ -6276,6 +6273,14 @@ msgstr ""
 msgctxt "ActivityInfo|"
 msgid "Basics of calendar"
 msgstr "加拿大行政區"
+
+#. Help manual
+#: activities/find_the_day/ActivityInfo.qml:36
+msgctxt "ActivityInfo|"
+msgid ""
+"Read the instructions and perform the requested calculation to find a date. "
+"Then select this date on the calendar."
+msgstr ""
 
 #: activities/find_the_day/find_the_day_dataset.js:46
 #, fuzzy
