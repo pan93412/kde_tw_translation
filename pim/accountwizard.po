@@ -4,19 +4,20 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2014.
 # Tsung-en Hsiao <joshua841025@gmail.com>, 2015.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-18 03:24+0100\n"
-"PO-Revision-Date: 2015-06-14 13:14+0800\n"
-"Last-Translator: Franklin\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-24 20:20+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -45,89 +46,89 @@ msgid "Config file for %1 was not changed."
 msgstr "%1 的設定檔未變更。"
 
 #: configfile.cpp:100
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No given name for the configuration"
 msgid "No given name for the configuration."
-msgstr "設定檔未命名"
+msgstr "設定檔未命名。"
 
 #: configfile.cpp:112
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unknown configurationname '%1'"
 msgid "Unknown configuration name '%1'"
-msgstr "未知的設定檔名稱 '%1'"
+msgstr "未知的設定檔名稱「%1」"
 
 #: cryptopage.cpp:99 cryptopage.cpp:122 cryptopage.cpp:228
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Account Assistant"
 msgid "Account Wizard"
-msgstr "帳號小助手"
+msgstr "帳號精靈"
 
 #: cryptopage.cpp:100 cryptopage.cpp:123
 #, kde-format
 msgid "Error while generating new key pair for your account %1: %2"
-msgstr ""
+msgstr "在為你的帳號生成新金鑰對時發生錯誤 %1: %2"
 
 #: cryptopage.cpp:288
 #, kde-format
 msgid "Could not detect valid key type"
-msgstr ""
+msgstr "無法偵測有效的金鑰類型"
 
 #: cryptopage.cpp:289 cryptopage.cpp:298 cryptopage.cpp:315 cryptopage.cpp:324
 #, kde-format
 msgid "Import error"
-msgstr ""
+msgstr "匯入失敗"
 
 #: cryptopage.cpp:297
 #, kde-format
 msgid "Cannot read data from the certificate file: %1"
-msgstr ""
+msgstr "無法從憑證檔案中讀取資料：%1"
 
 #: cryptopage.cpp:314
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to load script: '%1'."
 msgid "Failed to import key: %1"
-msgstr "載入文稿失敗：%1。"
+msgstr "載入金鑰失敗：%1"
 
 #: cryptopage.cpp:323
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to load script: '%1'."
 msgid "Failed to import key."
-msgstr "載入文稿失敗：%1。"
+msgstr "載入金鑰失敗。"
 
 #: cryptopage.cpp:352
 #, kde-format
 msgid "No key"
-msgstr ""
+msgstr "沒有金鑰"
 
 #: cryptopage.cpp:354
 #, kde-format
 msgid "Generate a new key pair"
-msgstr ""
+msgstr "生成新金鑰對"
 
 #: cryptopage.cpp:356
 #, kde-format
 msgid "Import a key"
-msgstr ""
+msgstr "匯入一個金鑰"
 
 #: cryptopage.cpp:468
 #, kde-format
 msgid "Certificates"
-msgstr ""
+msgstr "憑證"
 
 #: cryptopage.cpp:469
 #, kde-format
 msgid "Any files"
-msgstr ""
+msgstr "任何檔案"
 
 #: cryptopage.cpp:471
 #, kde-format
 msgid "Select Certificate File"
-msgstr ""
+msgstr "選擇憑證檔案"
 
 #: cryptopage.cpp:479
 #, kde-format
 msgid "Importing key..."
-msgstr ""
+msgstr "匯入金鑰中…"
 
 #: dialog.cpp:61
 #, kde-format
@@ -137,7 +138,7 @@ msgstr "提供個人資料"
 #: dialog.cpp:69
 #, kde-format
 msgid "Secure your Communication"
-msgstr ""
+msgstr "保護你的聊天"
 
 #: dialog.cpp:79
 #, kde-format
@@ -228,63 +229,63 @@ msgstr "試著抓取該電子郵件地址的設定"
 #: key.cpp:86
 #, kde-format
 msgid "Skipping key publishing"
-msgstr ""
+msgstr "跳過金鑰發布"
 
 #: key.cpp:100 key.cpp:225
 #, kde-format
 msgid "Publishing OpenPGP key..."
-msgstr ""
+msgstr "發布 OpenPGP 金鑰中..."
 
 #: key.cpp:115 key.cpp:143 key.cpp:215
 #, kde-format
 msgid "Key publishing was canceled."
-msgstr ""
+msgstr "金鑰發布被取消。"
 
 #: key.cpp:121
 #, kde-format
 msgid "Key publishing failed: not online, or GnuPG too old."
-msgstr ""
+msgstr "金鑰發布失敗：未連線至網路、或 GnuPG 過舊。"
 
 #: key.cpp:124
 #, kde-format
 msgid "Your email provider does not support key publishing."
-msgstr ""
+msgstr "您的電子郵件提供者不支援金鑰發布。"
 
 #: key.cpp:148
 #, kde-format
 msgid "An error occurred while creating key publishing request."
-msgstr ""
+msgstr "在建立金鑰發布請求時發生錯誤。"
 
 #: key.cpp:172
 #, kde-format
 msgid "Key publishing error: mail transport is not configured"
-msgstr ""
+msgstr "金鑰發布失敗：郵件傳輸未設定"
 
 #: key.cpp:185
 #, kde-format
 msgid "Key publishing error: failed to create request email"
-msgstr ""
+msgstr "金鑰發布失敗：無法建立請求電子郵件"
 
 #: key.cpp:217
 #, kde-format
 msgid "Failed to send key publishing request: %1"
-msgstr ""
+msgstr "無法傳送代碼發布請求：%1"
 
 #: key.cpp:219
 #, kde-format
 msgid "Key publishing request sent."
-msgstr ""
+msgstr "代碼發布請求傳送。"
 
 #: key.cpp:257
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to load script: '%1'."
 msgid "Failed to publish the key."
-msgstr "載入文稿失敗。"
+msgstr "發布金鑰失敗。"
 
 #: key.cpp:263
 #, kde-format
 msgid "Key has been published on %1"
-msgstr ""
+msgstr "代碼已經發布於 %1"
 
 #: ldap.cpp:55
 #, kde-format
@@ -347,10 +348,10 @@ msgid "Account Assistant"
 msgstr "帳號小助手"
 
 #: main.cpp:49
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(c) 2009-2015 the Akonadi developers"
 msgid "(c) 2009-2018 the Akonadi developers"
-msgstr "(c) 2009-2015 Akonadi 開發團隊"
+msgstr "(c) 2009-2018 Akonadi 開發群"
 
 #: main.cpp:51
 #, kde-format
@@ -530,6 +531,9 @@ msgid ""
 "encrypted using the public key while only you can decrypt them with your "
 "private key."
 msgstr ""
+"保護你自己，為了要防止被窺視，就使用加密您的郵件方法（使用 GnuPG）。"
+"通過生成或選擇一個金鑰對，現在郵件可以透過公鑰加密，"
+"只有你可以透過私鑰解密你的郵件。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableCryptoCheckBox)
 #: ui/cryptopage.ui:52
@@ -541,30 +545,33 @@ msgid ""
 "that it can be verified that your messages have not been tampered with.</p></"
 "body></html>"
 msgstr ""
+"<html><head/><boby><p>發送郵件時，KMail 會自動觀察您收件人的加密金鑰，"
+"並在每個收件人的金鑰可以找到時保護郵件。</p><p>它還會以加密方式對您的郵件進行簽名，"
+"以便可以驗證您的郵件沒有被篡改。</p></boby></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableCryptoCheckBox)
 #: ui/cryptopage.ui:55
 #, kde-format
 msgid "Secure outgoing emails, if possible"
-msgstr ""
+msgstr "如果可行，保護外發信件。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/cryptopage.ui:65
 #, kde-format
 msgid "Select key for this account:"
-msgstr ""
+msgstr "選擇這個帳號的金鑰："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/cryptopage.ui:99
 #, kde-format
 msgid "Checking key publishing support ..."
-msgstr ""
+msgstr "檢查金鑰發布支援…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, wksCheckBox)
 #: ui/cryptopage.ui:122
 #, kde-format
 msgid "Register &this key with your email provider"
-msgstr ""
+msgstr "透過電子郵件提供者註冊這個金鑰 (&T)"
 
 #. i18n: ectx: property (text), widget (QLabel, wksDescription)
 #: ui/cryptopage.ui:132
@@ -575,12 +582,15 @@ msgid ""
 "This means that your public key can be queried from your email provider and "
 "others can then use it to secure their email communication with you."
 msgstr ""
+"您的電子郵件提供者支援提供您公鑰的服務，使其他用戶可以找到它。\n"
+"這意味者您的公鑰可以被電子郵件提供者查詢，然後其他使用者也可以"
+"透過它來保護你與他們的信件對話。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pksCheckBox)
 #: ui/cryptopage.ui:152
 #, kde-format
 msgid "Publish &this key on public key server"
-msgstr ""
+msgstr "在公開的金鑰伺服器發布這個金鑰 (&T)"
 
 #. i18n: ectx: property (text), widget (QLabel, pksDescription)
 #: ui/cryptopage.ui:162
@@ -593,6 +603,12 @@ msgid ""
 "should be aware that your email address will be publicly listed and they key "
 "cannot be removed from there, only revoked."
 msgstr ""
+"您的電子郵件提供者不支援金鑰發布。您應該發布"
+"您的公鑰以讓其他使用者能取得您的公鑰、使用它"
+"以保護您與它們的信件對話。\n"
+"你可以發布您的公鑰至一個公鑰伺服器，但是你"
+"必須意識到您的電子郵件網址將會公開列在伺服"
+"器上、且他們的金鑰不能在那裡被移除，只能撤回。"
 
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
 #: ui/loadpage.ui:30
@@ -628,10 +644,10 @@ msgstr "密碼："
 
 #. i18n: ectx: property (title), widget (QGroupBox, checkOnlineGroupBox)
 #: ui/personaldatapage.ui:122
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Find provider settings on the Internet"
 msgid "Find pro&vider settings on the Internet"
-msgstr "在網際網路上尋找提供者設定"
+msgstr "在網際網路上尋找提供者設定 (&V)"
 
 #. i18n: ectx: property (text), widget (QLabel, checkOnlineExplanation)
 #: ui/personaldatapage.ui:143
@@ -652,10 +668,10 @@ msgstr "IMAP 帳號"
 
 #. i18n: ectx: property (text), widget (QRadioButton, pop3Account)
 #: ui/personaldatapage.ui:194
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "POP3 account"
 msgid "POP&3 account"
-msgstr "POP3 帳號"
+msgstr "POP3 帳號 (&3)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/personaldatapage.ui:208
@@ -677,21 +693,21 @@ msgstr "使用者名稱："
 
 #. i18n: ectx: property (text), widget (QPushButton, createAccountPb)
 #: ui/personaldatapage.ui:276
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "IMAP account"
 msgid "Add Account"
-msgstr "IMAP 帳號"
+msgstr "加入帳號"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/providerpage.ui:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Select your provider from the list below or click advanced if your "
 #| "provider is not listed"
 msgid ""
 "Select your provider from the list below or click back if your provider is "
 "not listed"
-msgstr "從底下的清單中選擇您的提供者。若清單中沒有，請點擊「進階」"
+msgstr "從底下的清單中選擇您的提供者。若清單中沒有，請點擊「返回」"
 
 #. i18n: ectx: property (text), widget (QPushButton, detailsButton)
 #: ui/setuppage.ui:62

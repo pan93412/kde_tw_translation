@@ -3,20 +3,21 @@
 #
 # Stanley Wong<stanley18fan0k@yahoo.com.hk>, 2006.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kimagemapeditor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-11-10 03:14+0100\n"
-"PO-Revision-Date: 2007-08-23 21:20+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"PO-Revision-Date: 2018-03-24 19:54+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 2.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -544,7 +545,7 @@ msgid "Choose File to Open"
 msgstr "請選擇要開啟的檔案"
 
 #: kimagemapeditor.cpp:1621 kimeshell.cpp:178
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "*.png *.jpg *.jpeg *.gif *.htm *.html|Web File\n"
 #| "*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng|Images\n"
@@ -558,18 +559,14 @@ msgid ""
 "*.gif *.bmp *.xbm *.xpm *.pnm *.mng);;HTML Files (*.htm *.html);;All Files "
 "(*)"
 msgstr ""
-"*.png *.jpg *.jpeg *.gif *.htm *.html|網站檔案\n"
-"*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng|影像/圖片\n"
-"*.htm *.html|HTML 檔案\n"
-"*.png|PNG 影像\n"
-"*.jpg *.jpeg|JPEG 影像\n"
-"*.gif|GIF-影像\n"
-"*|所有檔案"
+"網頁檔案 (*.png *.jpg *.jpeg *.gif *.htm *.html);;圖片 (*.png *.jpg *.jpeg "
+"*.gif *.bmp *.xbm *.xpm *.pnm *.mng);;HTML 檔案 (*.htm *.html);;所有檔案 "
+"(*)"
 
 #: kimagemapeditor.cpp:1659
 #, kde-format
 msgid "HTML File (*.htm *.html);;Text File (*.txt);;All Files (*)"
-msgstr ""
+msgstr "HTML 檔案 (*.htm *.html);;文字檔案 (*.txt);;所有檔案 (*)"
 
 #: kimagemapeditor.cpp:1670
 #, kde-format
@@ -615,8 +612,7 @@ msgstr "<qt>檔案 <i>%1</i> 無法被儲存，因為您沒有需要的寫入權
 msgid ""
 "<qt>Are you sure you want to delete the map <i>%1</i>? <br /><b>There is no "
 "way to undo this.</b></qt>"
-msgstr ""
-"<qt>您真的要刪除地圖 <i>%1</i> 嗎? <br /><b>這個動作是不可復原的。</b></qt>"
+msgstr "<qt>您真的要刪除地圖 <i>%1</i> 嗎? <br /><b>這個動作是不可復原的。</b></qt>"
 
 #: kimagemapeditor.cpp:2701
 #, kde-format
@@ -630,10 +626,10 @@ msgid ""
 msgstr "<qt>檔案 <i>%1</i> 已被修改。<br />您要儲存它嗎?</qt>"
 
 #: kimagemapeditor.cpp:2833
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Selection"
 msgid "Select image"
-msgstr "選取"
+msgstr "選取圖片"
 
 #: kimagemapeditor.cpp:2834
 #, kde-format
@@ -641,6 +637,8 @@ msgid ""
 "Images (*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng);;All Files "
 "(*)"
 msgstr ""
+"圖片 (*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng);;所有檔案 "
+"(*)"
 
 #: kimagemapeditor.cpp:2880
 #, kde-format
@@ -801,7 +799,7 @@ msgid "Center &Y:"
 msgstr "中心 &Y 值："
 
 #: kimedialogs.cpp:138
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Radius:"
 msgid "&Radius:"
 msgstr "半徑(&R)："
@@ -849,7 +847,7 @@ msgstr "Tit&le:"
 #: kimedialogs.cpp:305 kimedialogs.cpp:542
 #, kde-format
 msgid "On"
-msgstr ""
+msgstr "在"
 
 #: kimedialogs.cpp:309
 #, kde-format
@@ -922,10 +920,10 @@ msgid "Choose File"
 msgstr "選擇檔案"
 
 #: kimedialogs.cpp:441
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "All Files"
 msgid "All Files (*)"
-msgstr "所有檔案"
+msgstr "所有檔案 (*)"
 
 #: kimedialogs.cpp:510
 #, kde-format
