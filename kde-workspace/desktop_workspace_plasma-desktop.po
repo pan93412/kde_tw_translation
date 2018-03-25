@@ -15,14 +15,15 @@
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2011, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-10 02:31+0000\n"
-"PO-Revision-Date: 2017-04-10 09:33+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 11:31+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -216,8 +217,7 @@ msgctxt "Comment"
 msgid ""
 "A modifier key (e.g. Shift or Ctrl) has been locked and is now active for "
 "all of the following keypresses"
-msgstr ""
-"一個組合鍵（如 Shift 或 Ctrl 等）已被鎖定，現在再按任何鍵都視為快捷鍵組合"
+msgstr "一個組合鍵（如 Shift 或 Ctrl 等）已被鎖定，現在再按任何鍵都視為快捷鍵組合"
 
 #: kaccess/kaccess.notifyrc:566
 msgctxt "Name"
@@ -294,7 +294,6 @@ msgid "Accessibility Options"
 msgstr "無障礙輔助選項"
 
 #: kcms/access/kcmaccess.desktop:157
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,"
@@ -309,9 +308,9 @@ msgid ""
 "keys,modifier,locking keys"
 msgstr ""
 "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,"
-"visible bell,Keyboard,keys,sticky keys,bounce keys,slow keys,mouse "
-"navigation,num pad,numpad,activation gestures,gestures,sticky,modifier keys,"
-"modifier,locking keys"
+"visible bell,visual bell,Keyboard,keys,sticky keys,bounce keys,slow keys,"
+"mouse navigation,num pad,numpad,activation gestures,gestures,sticky,modifier "
+"keys,modifier,locking keys"
 
 #: kcms/activities/kcm_activities.desktop:71
 msgctxt "Comment"
@@ -329,12 +328,11 @@ msgid "Automatically Started Applications"
 msgstr "自動啟動應用程式"
 
 #: kcms/autostart/autostart.desktop:150
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid "Autostart Manager,autostart,startup,system startup,kde start,cron"
 msgctxt "X-KDE-Keywords"
 msgid "Autostart Manager,autostart,startup,system startup,plasma start,cron"
-msgstr "Autostart Manager,autostart,startup,system startup,kde start,cron"
+msgstr "Autostart Manager,autostart,startup,system startup,plasma start,cron"
 
 #: kcms/baloo/kcm_baloofile.desktop:15
 msgctxt "Name"
@@ -915,18 +913,18 @@ msgstr "設定桌面的外觀與感覺"
 #: kcms/nightcolor/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Night Color"
-msgstr ""
+msgstr "夜間模式"
 
 #: kcms/nightcolor/kcm_nightcolor.desktop:46
 #: kcms/nightcolor/package/metadata.desktop:30
 msgctxt "Comment"
 msgid "Adjust color temperature at night to reduce eye strain"
-msgstr ""
+msgstr "在夜間調整色溫以減輕眼睛的疲勞"
 
 #: kcms/nightcolor/kcm_nightcolor.desktop:74
 msgctxt "X-KDE-Keywords"
 msgid "kwin,window,manager,night,colors,redshift,eyes"
-msgstr ""
+msgstr "kwin,window,manager,night,colors,redshift,eyes"
 
 #: kcms/phonon/kcm_phonon.desktop:13
 msgctxt "Name"
@@ -953,12 +951,11 @@ msgid "Plasma Search"
 msgstr "Plasma 搜尋"
 
 #: kcms/runners/kcm_plasmasearch.desktop:58
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure Search"
 msgctxt "Comment"
 msgid "Configure Search Bar"
-msgstr "設定搜尋"
+msgstr "設定搜尋框"
 
 #: kcms/runners/kcm_plasmasearch.desktop:92
 msgctxt "X-KDE-Keywords"
@@ -1238,7 +1235,6 @@ msgid "Widget Style and Behavior"
 msgstr "元件樣式與行為"
 
 #: kcms/style/style.desktop:107
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "style,styles,look,widget,icons,toolbars,text,highlight,apps,KDE "
@@ -1249,7 +1245,7 @@ msgid ""
 "theme,plasma,menu,global menu"
 msgstr ""
 "style,styles,look,widget,icons,toolbars,text,highlight,apps,KDE applications,"
-"theme,plasma"
+"theme,plasma,menu,global menu"
 
 #: kcms/touchpad/src/applet/dataengine.desktop:2
 msgctxt "Name"
@@ -1356,7 +1352,7 @@ msgstr "應用程式選單列"
 #: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:40
 msgctxt "Comment"
 msgid "Panel containing the global menu applet"
-msgstr ""
+msgstr "包含全域螢幕小程式的面板"
 
 #: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:2
 msgctxt "Name"
@@ -1367,15 +1363,14 @@ msgstr "預設面板"
 msgctxt "Comment"
 msgid ""
 "Default panel featuring application launcher, task manager and system tray"
-msgstr ""
+msgstr "擁有應用程式啟動器、工作管理員與系統程式圖示的面板。"
 
 #: layout-templates/org.kde.plasma.desktop.emptyPanel/metadata.desktop:54
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Empty Panel"
 msgctxt "Comment"
 msgid "Empty panel"
-msgstr "空白面板"
+msgstr "空白的面板"
 
 #: runners/kwin/plasma-runner-kwin.desktop:2
 msgctxt "Name"

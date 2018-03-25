@@ -5,14 +5,15 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-16 03:29+0100\n"
-"PO-Revision-Date: 2017-08-02 21:31+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 12:07+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -379,7 +380,7 @@ msgstr "多媒體"
 #, kde-format
 msgctxt "Category"
 msgid "Audio and Video Editors"
-msgstr ""
+msgstr "音訊與視訊編輯器"
 
 #: categoriesxml.cpp:92 categoriesxml.cpp:198
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:450
@@ -387,7 +388,7 @@ msgstr ""
 #, kde-format
 msgctxt "Category"
 msgid "Audio Players"
-msgstr ""
+msgstr "音樂播放器"
 
 #: categoriesxml.cpp:94 categoriesxml.cpp:200
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:471
@@ -395,7 +396,7 @@ msgstr ""
 #, kde-format
 msgctxt "Category"
 msgid "Video Players"
-msgstr ""
+msgstr "影片播放器"
 
 #: categoriesxml.cpp:96 categoriesxml.cpp:202
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:489
@@ -403,7 +404,7 @@ msgstr ""
 #, kde-format
 msgctxt "Category"
 msgid "CD and DVD"
-msgstr ""
+msgstr "CD 與 DVD"
 
 #: categoriesxml.cpp:98 categoriesxml.cpp:204
 #: libdiscover/backends/FlatpakBackend/flatpak-backend-categories.xml:501
@@ -508,7 +509,7 @@ msgstr "測試用 4"
 
 #: libdiscover/appstream/OdrsReviewsBackend.cpp:250
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "package-name (version)"
 #| msgid "%1 (%2)"
 msgid "%1 (%2)"
@@ -560,28 +561,28 @@ msgstr "%1 個在磁碟中"
 #: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:51
 #, kde-format
 msgid "Add Flathub"
-msgstr ""
+msgstr "新增 Flathub"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:88
 #: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:99
 #, kde-format
 msgid "Could not add the source %1"
-msgstr ""
+msgstr "無法增加來源 %1"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:231
 #, kde-format
 msgid "Flatpak repository URI (*.flatpakrepo)"
-msgstr ""
+msgstr "Flatpak 套件庫連結 (*.flatpakrepo)"
 
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:119
 #, kde-format
 msgid "Invalid %1 backend, contact your distributor."
-msgstr ""
+msgstr "無效的 %1 後端，聯絡你的經銷商。"
 
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:128
 #, kde-format
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:155
 #, kde-format
@@ -601,7 +602,7 @@ msgstr "錯誤的 KNewStuff URI：%1"
 #: libdiscover/backends/KNSBackend/KNSResource.cpp:230
 #, kde-format
 msgid "Use"
-msgstr ""
+msgstr "使用"
 
 #: libdiscover/backends/KNSBackend/KNSReviews.cpp:147
 #, kde-format
@@ -1220,14 +1221,14 @@ msgstr "測試中"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:104
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:116
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@item:inlistbox"
 #| msgid "Application Updates"
 msgid "Offline Updates"
-msgstr "應用程式更新"
+msgstr "離線更新"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:105
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label"
 #| msgid ""
 #| "Failed to download %1\n"
@@ -1237,54 +1238,53 @@ msgid ""
 "Failed to update %1 packages\n"
 "%2"
 msgstr ""
-"下載 %1 失敗\n"
-"%2\n"
-"\n"
+"下載 %1 套件失敗\n"
+"%2"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:117
 #, kde-format
 msgid "Successfully updated %1 packages"
-msgstr ""
+msgstr "順利更新 %1 套件"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:198
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Upgradeable"
 msgid "Upgrade available"
-msgstr "可更新"
+msgstr "可以更新"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:202
 #, kde-format
 msgid "New unstable version: %1"
-msgstr ""
+msgstr "新的不穩定版本：%1"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:205
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:label Refers to a software version, Ex: Version 1.2.1:"
 #| msgid "Version %1:"
 msgid "New version: %1"
-msgstr "版本 %1："
+msgstr "新版本： %1"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:298
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "PackageKit restart required"
 msgid "Restart is required"
-msgstr "需要重新啟動 PackageKit"
+msgstr "需要重新啟動"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:299
 #, kde-format
 msgid "The system needs to be restarted for the updates to take effect."
-msgstr ""
+msgstr "系統需要被重新啟動，變更才能生效。"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:302
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "PackageKit restart required"
 msgid "Session restart is required"
-msgstr "需要重新啟動 PackageKit"
+msgstr "需要重新啟動工作階段"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:303
 #, kde-format
 msgid "You will need to log out and back in for the update to take effect."
-msgstr ""
+msgstr "你需要登出再登入，變更才能生效。"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:219
 #, kde-format
@@ -1332,13 +1332,13 @@ msgstr "廠商："
 #, kde-format
 msgid "%2 (plus %1 dependency)"
 msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] ""
+msgstr[0] "%2 （加上 %1 個依賴庫）"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:102
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Repository description:"
 msgid "Repository URL:"
-msgstr "軟體庫描述："
+msgstr "軟體庫 URL："
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:177
 #, kde-format
@@ -1346,14 +1346,16 @@ msgid "Packages to remove"
 msgstr "個套件要移除"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:177
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The following packages will be removed by the update:\n"
 #| "%1"
 msgid ""
 "The following packages will be removed by the update:\n"
 "<ul><li>%1</li></ul>"
-msgstr "下列套件將會因更新而移除：%1"
+msgstr ""
+"下列套件將會因更新而移除：\n"
+"<ui><li>%1</li></ul>"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:279
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:251
@@ -1385,7 +1387,7 @@ msgstr ""
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:263
 #, kde-format
 msgid "Missing signature for %1 in %2"
-msgstr ""
+msgstr "在 %2 中缺少對 %1 的簽名"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:370
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:264
@@ -1399,14 +1401,21 @@ msgid ""
 "Fingerprint: %4\n"
 "Timestamp: %4\n"
 msgstr ""
+"你確定要信任這個金鑰嗎？\n"
+"\n"
+"連結： %1\n"
+"用戶： %2\n"
+"金鑰： %3\n"
+"指紋： %4\n"
+"時間戳： %4\n"
 
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:167
 #, kde-format
 msgid "Confirm package removal"
-msgstr ""
+msgstr "確定移除套件"
 
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:167
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label"
 #| msgid "Unable to download the following packages:"
 msgid ""
@@ -1415,10 +1424,12 @@ msgid ""
 msgid_plural ""
 "This action will also remove the following packages:\n"
 "%2"
-msgstr[0] "無法下載以下的套件："
+msgstr[0] ""
+"這動作也會移除下述的套件：\n"
+"%2"
 
 #: libdiscover/DiscoverBackendsFactory.cpp:114
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "List all the backends we'll want to have loaded, separated by coma ','."
 msgid ""
@@ -1454,7 +1465,7 @@ msgstr "%1 (%2)"
 #: libdiscover/resources/AbstractResource.cpp:251
 #, kde-format
 msgid "Launch"
-msgstr ""
+msgstr "執行"
 
 #: libdiscover/resources/ResourcesModel.cpp:73
 #, kde-format
