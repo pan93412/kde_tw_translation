@@ -9,14 +9,15 @@
 # Goodhorse <franklin@goodhorse.idv.tw>, 2008.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-23 03:27+0100\n"
-"PO-Revision-Date: 2017-09-27 08:39+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 20:19+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,14 +76,14 @@ msgstr "記住資料夾與網址"
 #: app/advancedconfigpage.ui:127
 #, kde-format
 msgid "Rendering intent:"
-msgstr ""
+msgstr "繪製意圖："
 
 #. i18n: ectx: property (text), widget (QRadioButton, perceptualRenderingIntentRadioButton)
 #: app/advancedconfigpage.ui:142
 #, kde-format
 msgctxt "@option:Perceptual rendering intent"
 msgid "Perceptual"
-msgstr ""
+msgstr "感知"
 
 #. i18n: ectx: property (text), widget (QLabel, perceptualHelpLabel)
 #: app/advancedconfigpage.ui:154
@@ -90,14 +91,14 @@ msgstr ""
 msgid ""
 "Scale all colors equally to fit them within the active color profile's color "
 "gamut"
-msgstr ""
+msgstr "在活動顏色配置檔案的色域中均勻縮放所有顏色以適合他們"
 
 #. i18n: ectx: property (text), widget (QRadioButton, relativeRenderingIntentRadioButton)
 #: app/advancedconfigpage.ui:182
 #, kde-format
 msgctxt "@option:Relative Colorimetric rendering intent"
 msgid "Relative Colorimetric"
-msgstr ""
+msgstr "相對色域"
 
 #. i18n: ectx: property (text), widget (QLabel, relativeHelpLabel)
 #: app/advancedconfigpage.ui:194
@@ -105,7 +106,7 @@ msgstr ""
 msgid ""
 "Squash colors that don't fit within the active color profile's color gamut, "
 "leaving other colors untouched"
-msgstr ""
+msgstr "壓縮不適合目前色彩設定檔色域的顏色，並保持其他顏色不變。"
 
 #: app/browsemainpage.cpp:134 app/mainwindow.cpp:363 app/viewmainpage.cpp:404
 #: lib/documentview/documentviewcontroller.cpp:90
@@ -222,20 +223,20 @@ msgid "Advanced"
 msgstr "進階"
 
 #: app/fileoperations.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Copy"
 msgctxt "@title:window %1 file name"
 msgid "Copy %1"
-msgstr "複製"
+msgstr "複製 %1"
 
 #: app/fileoperations.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Loop on images"
 msgctxt "@title:window %1 number of images"
 msgid "Copy %1 image"
 msgid_plural "Copy %1 images"
-msgstr[0] "循環播放影像"
+msgstr[0] "複製 %1 個圖像"
 
 #: app/fileoperations.cpp:69
 #, kde-format
@@ -244,22 +245,22 @@ msgid "Copy"
 msgstr "複製"
 
 #: app/fileoperations.cpp:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Move"
 msgctxt "@title:window %1 file name"
 msgid "Move %1"
-msgstr "移動"
+msgstr "移動 %1"
 
 #: app/fileoperations.cpp:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "%1 is collection name, %2 is image count in collection"
 #| msgid "%1 (%2 image)"
 #| msgid_plural "%1 (%2 images)"
 msgctxt "@title:window %1 number of images"
 msgid "Move %1 image"
 msgid_plural "Move %1 images"
-msgstr[0] "%1（%2 張影像）"
+msgstr[0] "移動 %1 個圖像"
 
 #: app/fileoperations.cpp:77
 #, kde-format
@@ -268,22 +269,22 @@ msgid "Move"
 msgstr "移動"
 
 #: app/fileoperations.cpp:81
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Link"
 msgctxt "@title:window %1 file name"
 msgid "Link %1"
-msgstr "連結"
+msgstr "連結 %1"
 
 #: app/fileoperations.cpp:83
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "%1 is collection name, %2 is image count in collection"
 #| msgid "%1 (%2 image)"
 #| msgid_plural "%1 (%2 images)"
 msgctxt "@title:window %1 number of images"
 msgid "Link %1 image"
 msgid_plural "Link %1 images"
-msgstr[0] "%1（%2 張影像）"
+msgstr[0] "連結 %1 個圖像"
 
 #: app/fileoperations.cpp:85
 #, kde-format
@@ -376,7 +377,7 @@ msgstr "開啟方式..."
 #: app/fileopscontextmanageritem.cpp:190
 #, kde-format
 msgid "Open Containing Folder"
-msgstr ""
+msgstr "開啟包含資料夾"
 
 #: app/fileopscontextmanageritem.cpp:386
 #, kde-format
@@ -550,23 +551,23 @@ msgstr "背景顏色："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: app/generalconfigpage.ui:128
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Thumbnail Details"
 msgid "Thumbnail actions:"
-msgstr "縮圖詳情"
+msgstr "縮圖動作："
 
 #. i18n: ectx: property (text), widget (QRadioButton, allButtonsThumbnailActionsRadioButton)
 #: app/generalconfigpage.ui:135
 #, kde-format
 msgid "All buttons"
-msgstr ""
+msgstr "所有按鈕"
 
 #. i18n: ectx: property (text), widget (QRadioButton, selectionOnlyThumbnailActionsRadioButton)
 #: app/generalconfigpage.ui:142
 #, kde-format
 msgid "Show selection button only"
-msgstr ""
+msgstr "只顯示選擇的按鈕"
 
 #. i18n: ectx: property (text), widget (QRadioButton, noneThumbnailActionsRadioButton)
 #. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
@@ -1001,11 +1002,11 @@ msgid "A starting file or folders"
 msgstr "開始檔案或資料夾"
 
 #: app/mainwindow.cpp:373
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Forget this Folder"
 msgctxt "@action Open Recent menu"
 msgid "Forget All Files && Folders"
-msgstr "遺忘此資料夾"
+msgstr "遺忘此資料夾與所有檔案"
 
 #: app/mainwindow.cpp:380
 #, kde-format
@@ -1159,16 +1160,16 @@ msgid "Open Image"
 msgstr "開啟影像"
 
 #: app/mainwindow.cpp:1436
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Slideshow"
 msgid "Pause Slideshow"
-msgstr "投影秀"
+msgstr "暫停投影秀"
 
 #: app/mainwindow.cpp:1439
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Slideshow"
 msgid "Resume Slideshow"
-msgstr "投影秀"
+msgstr "繼續投影秀"
 
 #: app/mainwindow.cpp:1440
 #, kde-format
@@ -1227,7 +1228,7 @@ msgid "Go to the First Document"
 msgstr "跳到第一份文件"
 
 #: app/renamedialog.cpp:50
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Rename"
 msgctxt "@action:button"
@@ -1374,7 +1375,7 @@ msgid "Description"
 msgstr "描述"
 
 #: app/startmainpage.cpp:278
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Add Folder to Places"
 msgctxt "@action Recent Folders view"
@@ -1382,40 +1383,40 @@ msgid "Add Folder to Places"
 msgstr "新增要擺放的資料夾"
 
 #: app/startmainpage.cpp:279
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Forget this Folder"
 msgctxt "@action Recent Folders view"
 msgid "Forget This Folder"
 msgstr "遺忘此資料夾"
 
 #: app/startmainpage.cpp:280
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Forget this Folder"
 msgctxt "@action Recent Folders view"
 msgid "Forget All Folders"
-msgstr "遺忘此資料夾"
+msgstr "遺忘全部的資料夾"
 
 #: app/startmainpage.cpp:282
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Add Folder to Places"
 msgctxt "@action Recent Files view"
 msgid "Add Containing Folder to Places"
-msgstr "新增要擺放的資料夾"
+msgstr "新增要擺放的包含資料夾"
 
 #: app/startmainpage.cpp:283
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Forget this Folder"
 msgctxt "@action Recent Files view"
 msgid "Forget This File"
-msgstr "遺忘此資料夾"
+msgstr "遺忘此檔案"
 
 #: app/startmainpage.cpp:284
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Forget All"
 msgctxt "@action Recent Files view"
 msgid "Forget All Files"
-msgstr "全部遺忘"
+msgstr "遺忘所有檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
 #: app/startmainpage.ui:34
@@ -1744,10 +1745,10 @@ msgid "Developer"
 msgstr "開發者"
 
 #: lib/crop/cropwidget.cpp:183
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print Image"
 msgid "Current Image"
-msgstr "列印影像"
+msgstr "目前的影像"
 
 #: lib/crop/cropwidget.cpp:186
 #, kde-format
@@ -1765,10 +1766,10 @@ msgid "Landscape"
 msgstr "橫向"
 
 #: lib/crop/cropwidget.cpp:193 lib/crop/cropwidget.cpp:200
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "ISO Size (A4, A3...)"
 msgid "ISO (A4, A3...)"
-msgstr "ISO 大小 (A4, A3...)"
+msgstr "ISO (A4, A3...)"
 
 #: lib/crop/cropwidget.cpp:194 lib/crop/cropwidget.cpp:201
 #, kde-format
@@ -1800,10 +1801,10 @@ msgstr "進階設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: lib/crop/cropwidget.ui:55
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Keep aspect ratio"
 msgid "Aspect ratio:"
-msgstr "保持比例"
+msgstr "比例："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: lib/crop/cropwidget.ui:84
@@ -1819,7 +1820,7 @@ msgstr "位置："
 
 #. i18n: ectx: property (text), widget (QCheckBox, preserveAspectRatioCheckBox)
 #: lib/crop/cropwidget.ui:166
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Keep aspect ratio"
 msgid "Preserve aspect ratio"
 msgstr "保持比例"
@@ -1865,8 +1866,7 @@ msgctxt "@info"
 msgid ""
 "Could not open file for writing, check that you have the necessary rights in "
 "<filename>%1</filename>."
-msgstr ""
-"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+msgstr "無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
 
 #: lib/document/savejob.cpp:132
 #, kde-kuit-format
@@ -1899,10 +1899,10 @@ msgid "Loading <filename>%1</filename> failed"
 msgstr "載入 <filename>%1</filename> 失敗"
 
 #: lib/documentview/documentviewcontroller.cpp:96
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Zoom to Fit"
 msgid "Zoom to fit"
-msgstr "縮放為適中"
+msgstr "縮放以適合"
 
 #: lib/documentview/documentviewcontroller.cpp:98
 #, kde-format
@@ -1913,7 +1913,7 @@ msgstr "適中"
 #: lib/documentview/documentviewcontroller.cpp:104
 #, kde-format
 msgid "Zoom to fill window by fitting to width or height"
-msgstr ""
+msgstr "透過填寬度與長度以放大填充整個視窗"
 
 #: lib/documentview/documentviewcontroller.cpp:106
 #, kde-format
@@ -1921,7 +1921,7 @@ msgctxt ""
 "@action:button Zoom to fill (fit width or height), shown in status bar, keep "
 "it short please"
 msgid "Fill"
-msgstr ""
+msgstr "填充"
 
 #: lib/documentview/documentviewcontroller.cpp:112
 #, kde-format
@@ -1997,6 +1997,9 @@ msgid ""
 "colors\n"
 "            that cannot be displayed, and leave the other colors alone."
 msgstr ""
+"定義當顯示器使用 ICC 色彩設定檔時、和圖片的顏色不適合在設定檔色域時，顏色的渲染方式。\n"
+"「感知」將會縮放整個圖像的顏色，使他們能適合所有顯示器的功能。\n"
+"「相對」將會壓縮不會被顯示的色域，並保留其他的顏色。"
 
 #. i18n: ectx: label, entry (random), group (slide show)
 #: lib/gwenviewconfig.kcfg:272
@@ -2032,25 +2035,25 @@ msgstr "影像間的播放間隔（以秒為單位）"
 #: lib/gwenviewconfig.kcfg:304
 #, kde-format
 msgid "Restrict crop to image ratio when Advanced Settings disabled"
-msgstr ""
+msgstr "當進階設定被停用時，限制裁剪圖片比例"
 
 #. i18n: ectx: label, entry (CropRatioIndex), group (Crop)
 #: lib/gwenviewconfig.kcfg:308
 #, kde-format
 msgid "Index representing selected ratio in the Advanced settings combobox"
-msgstr ""
+msgstr "在進階設定組合框中代表選定比例的索引"
 
 #. i18n: ectx: label, entry (CropRatioWidth), group (Crop)
 #: lib/gwenviewconfig.kcfg:312
 #, kde-format
 msgid "Last used crop ratio width when Advanced Settings enabled"
-msgstr ""
+msgstr "當進階設定啟用時，使用上次的裁剪比例寬度"
 
 #. i18n: ectx: label, entry (CropRatioHeight), group (Crop)
 #: lib/gwenviewconfig.kcfg:316
 #, kde-format
 msgid "Last used crop ratio height when Advanced Settings enabled"
-msgstr ""
+msgstr "當進階設定啟用時，使用上次的裁剪比例高度。"
 
 #: lib/historymodel.cpp:148
 #, kde-format
@@ -2250,10 +2253,10 @@ msgstr "目前的大小："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: lib/resize/resizeimagewidget.ui:88
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "New Si&ze:"
 msgid "New Size:"
-msgstr "新的大小(&Z)："
+msgstr "新的大小："
 
 #. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
 #: lib/resize/resizeimagewidget.ui:129

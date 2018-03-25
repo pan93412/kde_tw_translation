@@ -9,14 +9,15 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2008, 2010, 2012.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2011, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-21 03:34+0100\n"
-"PO-Revision-Date: 2017-09-27 08:41+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 20:37+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -201,8 +202,7 @@ msgstr "作者(&A)："
 msgid ""
 "<b>Note</b>: the information here is used only for comments and reviews. "
 "Information inserted here will not be transmitted without your knowledge."
-msgstr ""
-"<b>注意</b>：此處的資訊只用於註解與回顧。安插於此的資訊通常是給您自己看的。"
+msgstr "<b>注意</b>：此處的資訊只用於註解與回顧。安插於此的資訊通常是給您自己看的。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, annotToolsGroup)
 #: conf/dlgannotationsbase.ui:87
@@ -347,10 +347,10 @@ msgstr "顯示檔案完整路徑"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseCustomBackgroundColor)
 #: conf/dlggeneralbase.ui:164
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Background color:"
 msgid "Use custom background color"
-msgstr "背景顏色："
+msgstr "使用自訂背景顏色"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: conf/dlggeneralbase.ui:233
@@ -478,8 +478,7 @@ msgstr "自動調適"
 msgid ""
 "Keeps used memory as low as possible. Do not reuse anything. (For systems "
 "with low memory.)"
-msgstr ""
-"盡量減少記憶體使用量。不要重複使用任何東西。（給記憶體較少的系統用的。）"
+msgstr "盡量減少記憶體使用量。不要重複使用任何東西。（給記憶體較少的系統用的。）"
 
 #: conf/dlgperformance.cpp:58
 #, kde-format
@@ -1126,20 +1125,20 @@ msgstr ""
 "選擇要使用哪一種：</qt>"
 
 #: core/document.cpp:179
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "paper type and orientation (eg: Portrait A4)"
 #| msgid "Portrait %0"
 msgctxt "paper type and orientation (eg: Portrait A4)"
 msgid "Portrait %1"
-msgstr "直向 %0"
+msgstr "直向 %1"
 
 #: core/document.cpp:181
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "paper type and orientation (eg: Portrait A4)"
 #| msgid "Landscape %0"
 msgctxt "paper type and orientation (eg: Portrait A4)"
 msgid "Landscape %1"
-msgstr "橫向 %0"
+msgstr "橫向 %1"
 
 #: core/document.cpp:208
 #, kde-format
@@ -1156,12 +1155,12 @@ msgstr "%1 x %2 釐米（%3）"
 #: core/document.cpp:1655
 #, kde-format
 msgid "Continuing search from beginning"
-msgstr ""
+msgstr "從開頭重新搜尋"
 
 #: core/document.cpp:1660
 #, kde-format
 msgid "Continuing search from bottom"
-msgstr ""
+msgstr "從底端重新搜尋"
 
 #: core/document.cpp:2419
 #, kde-format
@@ -1488,6 +1487,8 @@ msgid ""
 "<br/>Please save to a file in order to move them if you want to continue to "
 "edit the document."
 msgstr ""
+"這個文件包含了來自舊版 Okular 的存於內部儲存空間的註解或表單資料。內部儲存空間已經 <b>不再支援</b>。<br/"
+">假如你要繼續編輯檔案，請儲存至一個檔案以移動它們。"
 
 #: part.cpp:488
 #, kde-format
@@ -1654,7 +1655,7 @@ msgstr "匯出為(&X)"
 #: part.cpp:867
 #, kde-format
 msgid "S&hare"
-msgstr ""
+msgstr "分享 (&H)"
 
 #: part.cpp:876
 #, kde-format
@@ -1776,22 +1777,24 @@ msgid ""
 "This document wants to be shown full screen.\n"
 "Leave normal mode and enter presentation mode?"
 msgstr ""
+"這個檔案想要在全螢幕模式顯示\n"
+"要離開標準模式，並進入簡報模式嗎？"
 
 #: part.cpp:1629
 #, kde-format
 msgid "Request to Change Viewing Mode"
-msgstr ""
+msgstr "請求變更顯示模式"
 
 #: part.cpp:1630
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Exit Presentation Mode"
 msgid "Enter Presentation Mode"
-msgstr "離開展示模式"
+msgstr "進入展示模式"
 
 #: part.cpp:1631
 #, kde-format
 msgid "Deny Request"
-msgstr ""
+msgstr "取消請求"
 
 #: part.cpp:1710
 #, kde-format
@@ -1805,22 +1808,24 @@ msgid ""
 "program. Your changes will be lost, because the file can no longer be saved."
 "<br>Do you want to continue reloading the file?"
 msgstr ""
+"這裡有一些未儲存的變更，且檔案 %1 已經被其他程式所變更。您的變更將會遺失，因為這檔案已經沒辦法被儲存。"
+"<br>你要重新載入這個檔案嗎？"
 
 #: part.cpp:1731 part.cpp:1739 part.cpp:2498
 #, kde-format
 msgid "File Changed"
-msgstr ""
+msgstr "檔案已變更"
 
 #: part.cpp:1732
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Continuous"
 msgid "Continue Reloading"
-msgstr "繼續(&C)"
+msgstr "仍然重新載入"
 
 #: part.cpp:1733
 #, kde-format
 msgid "Abort Reloading"
-msgstr ""
+msgstr "取消重新載入"
 
 #: part.cpp:1738
 #, kde-format
@@ -1829,23 +1834,25 @@ msgid ""
 "program. Your changes will be lost, because the file can no longer be saved."
 "<br>Do you want to continue closing the file?"
 msgstr ""
+"這裡有一些未儲存的變更，且檔案 %1 已經被其他程式所變更。您的變更將會遺失，因為這檔案已經沒辦法被儲存。"
+"<br>你要關閉這個檔案嗎？"
 
 #: part.cpp:1740
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Continuous"
 msgid "Continue Closing"
-msgstr "繼續(&C)"
+msgstr "仍然關閉"
 
 #: part.cpp:1741
 #, kde-format
 msgid "Abort Closing"
-msgstr ""
+msgstr "取消關閉"
 
 #: part.cpp:1747
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Do you want to save your annotation changes or discard them?"
 msgid "Do you want to save your changes to \"%1\" or discard them?"
-msgstr "您要儲存還是丟棄您的註記變更？"
+msgstr "您要儲存你的變更至 %1 還是放棄它們？"
 
 #: part.cpp:1748
 #, kde-format
@@ -1908,18 +1915,18 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: part.cpp:2473
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "&Save As..."
 msgid "Save As"
-msgstr "另存新檔(&S)..."
+msgstr "另存新檔"
 
 #: part.cpp:2499
 #, kde-format
 msgid ""
 "The file '%1' has been modified by another program, which means it can no "
 "longer be saved."
-msgstr ""
+msgstr "這個檔案 %1 已經被其他程式所變更，這代表著再也沒辦法被儲存了。"
 
 #: part.cpp:2507
 #, kde-format
@@ -1928,11 +1935,14 @@ msgid ""
 "the file needs to be reloaded. You will be asked for the password again and "
 "your undo/redo history will be lost.<br />Do you want to continue?"
 msgstr ""
+"目前的檔案已經以密碼保護。<br />為了要儲存它，這檔案必須重新載入。"
+"您將會被再次被詢問密碼，且您的還原 / 重作 (Redo) 紀錄將會消失。"
+"<br />仍要繼續？"
 
 #: part.cpp:2508 part.cpp:2543
 #, kde-format
 msgid "Save - Warning"
-msgstr ""
+msgstr "儲存 - 警告"
 
 #: part.cpp:2527
 #, kde-format
@@ -1945,6 +1955,8 @@ msgid ""
 "After saving, the current document format requires the file to be reloaded. "
 "Your undo/redo history will be lost.<br />Do you want to continue?"
 msgstr ""
+"儲存後，目前的檔案格式要求檔案需要重新載入。"
+"你的還原 / 重做 (redo) 紀錄將會消失。<br />仍要繼續？"
 
 #: part.cpp:2557 part.cpp:2628 part.cpp:2651 part.cpp:3148
 #, kde-format
@@ -1952,18 +1964,18 @@ msgid "File could not be saved in '%1'. Try to save it to another location."
 msgstr "無法儲存檔案到 %1。請儲存在其他位置。"
 
 #: part.cpp:2570
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Edit an form's text contents"
 #| msgid "edit form contents"
 msgid "Filled form contents"
-msgstr "編輯表單內容"
+msgstr "填充表單內容"
 
 #: part.cpp:2571
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "remove a collection of annotations from the page"
 #| msgid "remove annotations"
 msgid "User annotations"
-msgstr "移除註記"
+msgstr "用戶註記"
 
 #: part.cpp:2577
 #, kde-format
@@ -1972,16 +1984,18 @@ msgid ""
 "saving the following elements. Please use the <i>Okular document archive</i> "
 "format to preserve them."
 msgstr ""
+"你準備要儲存變更，但目前的檔案格式不支援儲存這些元素。"
+"請使用 <i>Okular 檔案封存格式</i> 以保留他們。"
 
 #: part.cpp:2580 part.cpp:2603
 #, kde-format
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: part.cpp:2581 part.cpp:2604
 #, kde-format
 msgid "Save as Okular document archive..."
-msgstr ""
+msgstr "儲存為 Okular 檔案封存格式…"
 
 #: part.cpp:2596
 #, kde-format
@@ -1991,6 +2005,9 @@ msgid ""
 "format to preserve them. Click <i>Continue</i> to save the document and "
 "discard these elements."
 msgstr ""
+"你準備要儲存變更，但目前的檔案格式不支援儲存這些元素。"
+"請使用 <i>Okular 檔案封存格式</i> 以保留他們。"
+"點一下 <i>繼續</i> 仍然儲存，並放棄這些元素。"
 
 #: part.cpp:2597
 #, kde-format
@@ -2000,17 +2017,20 @@ msgid ""
 "format to preserve them. Click <i>Continue</i> to save, but you will lose "
 "these elements as well as the undo/redo history."
 msgstr ""
+"你準備要儲存變更，但目前的檔案格式不支援儲存這些元素。"
+"請使用 <i>Okular 檔案封存格式</i> 以保留他們。"
+"點一下 <i>繼續</i> 仍然儲存，但你將會損失這些元素，還有還原 / 重做 (redo) 紀錄"
 
 #: part.cpp:2599
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Continuous"
 msgid "Continue"
-msgstr "繼續(&C)"
+msgstr "繼續"
 
 #: part.cpp:2600
 #, kde-format
 msgid "Continue losing changes"
-msgstr ""
+msgstr "仍然放棄變更"
 
 #: part.cpp:2630
 #, kde-format
@@ -2029,12 +2049,12 @@ msgstr ""
 "文件不再存在。"
 
 #: part.cpp:2708
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "File could not be saved in '%1'. Try to save it to another location."
 msgid ""
 "File could not be saved in '%1'. Error: '%2'. Try to save it to another "
 "location."
-msgstr "無法儲存檔案到 %1。請儲存在其他位置。"
+msgstr "無法儲存檔案到 %1，因為錯誤：「%2」。請儲存在其他位置。"
 
 #: part.cpp:2967 ui/annotationmodel.cpp:331
 #, kde-format
@@ -2128,8 +2148,7 @@ msgstr ""
 msgid ""
 "<qt>This error typically occurs if the file is corrupt. If you want to be "
 "sure, try to decompress the file manually using command-line tools.</qt>"
-msgstr ""
-"<qt>這個錯誤通常是因為檔案已損毀。您可以試著在命令列直接解壓此檔看看。</qt>"
+msgstr "<qt>這個錯誤通常是因為檔案已損毀。您可以試著在命令列直接解壓此檔看看。</qt>"
 
 #: part.cpp:3447
 #, kde-format
@@ -2139,22 +2158,22 @@ msgstr "沒有書籤"
 #: part.cpp:3521
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "分享檔案時發生問題：%1"
 
 #: part.cpp:3522 part.cpp:3529
 #, kde-format
 msgid "Share"
-msgstr ""
+msgstr "分享"
 
 #: part.cpp:3526
 #, kde-format
 msgid "Document shared successfully"
-msgstr ""
+msgstr "檔案分享完畢"
 
 #: part.cpp:3528
 #, kde-format
 msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
-msgstr ""
+msgstr "你可以在這裡找到分享的檔案：<a href=\"%1\">%1</a>"
 
 #. i18n: ectx: Menu (edit)
 #: part.rc:17
@@ -2202,10 +2221,10 @@ msgid "Start with print dialog"
 msgstr "以列印對話框開始"
 
 #: shell/main.cpp:52
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Start with print dialog"
 msgid "Start with print dialog and exit after printing"
-msgstr "以列印對話框開始"
+msgstr "以列印對話框開始並且列印後離開"
 
 #: shell/main.cpp:53
 #, kde-format

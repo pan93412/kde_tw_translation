@@ -2,14 +2,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-18 03:20+0100\n"
-"PO-Revision-Date: 2017-09-27 08:41+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 20:42+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: Traditional Chinese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,10 +19,10 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #: src/ExportManager.cpp:263
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "QImageWriter cannot write image: "
 msgid "QImageWriter cannot write image: %1"
-msgstr "QImageWriter 無法寫入影像："
+msgstr "QImageWriter 無法寫入影像：%1"
 
 #: src/ExportManager.cpp:276
 #, kde-format
@@ -91,22 +92,22 @@ msgstr "影像大小：%1x%2 像素"
 #: src/Gui/KSMainWindow.cpp:137
 #, kde-format
 msgid "Configure..."
-msgstr ""
+msgstr "配置 ..."
 
 #: src/Gui/KSMainWindow.cpp:138
 #, kde-format
 msgid "Change Spectacle's settings."
-msgstr ""
+msgstr "變更 Spectacle 的設定"
 
 #: src/Gui/KSMainWindow.cpp:142
 #, kde-format
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
 #: src/Gui/KSMainWindow.cpp:147
 #, kde-format
 msgid "Export"
-msgstr ""
+msgstr "匯出"
 
 #: src/Gui/KSMainWindow.cpp:152
 #, kde-format
@@ -121,12 +122,12 @@ msgstr "將目前的螢幕快照複製到剪貼簿。"
 #: src/Gui/KSMainWindow.cpp:168
 #, kde-format
 msgid "Open Screenshots Folder"
-msgstr ""
+msgstr "開啟螢幕擷取資料夾"
 
 #: src/Gui/KSMainWindow.cpp:171
 #, kde-format
 msgid "Record Screen"
-msgstr ""
+msgstr "錄製螢幕"
 
 #: src/Gui/KSMainWindow.cpp:275
 #, kde-format
@@ -210,10 +211,10 @@ msgid "Delay:"
 msgstr "延遲："
 
 #: src/Gui/KSWidget.cpp:91
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b>Content Options</b>"
 msgid "<b>Options</b>"
-msgstr "<b>內容選項</b>"
+msgstr "<b>選項</b>"
 
 #: src/Gui/KSWidget.cpp:93
 #, kde-format
@@ -243,7 +244,7 @@ msgid "Capture the current pop-up only"
 msgstr "僅擷取目前的彈出式視窗"
 
 #: src/Gui/KSWidget.cpp:103
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Capture only the current pop-up window (like a menu, tooltip etc). If "
 #| "this is not enabled, the pop-up is captured along with the parent window"
@@ -251,18 +252,18 @@ msgid ""
 "Capture only the current pop-up window (like a menu, tooltip etc).\n"
 "If disabled, the pop-up is captured along with the parent window"
 msgstr ""
-"僅擷取目前的彈出式視窗（像是選單、工具提示等）。若此選項未被啟用，彈出式視窗"
-"將會與其母視窗一起被擷取"
+"僅擷取目前的彈出式視窗（像是選單、工具提示等）。\n"
+"若停用，彈出式視窗將會與其母視窗一起被擷取"
 
 #: src/Gui/KSWidget.cpp:108
 #, kde-format
 msgid "Quit after Save or Copy"
-msgstr ""
+msgstr "儲存或複製後退出"
 
 #: src/Gui/KSWidget.cpp:109
 #, kde-format
 msgid "Quit Spectacle after saving or copying the image"
-msgstr ""
+msgstr "儲存或複製圖片後退出 Spectacle"
 
 #: src/Gui/KSWidget.cpp:121
 #, kde-format
@@ -275,22 +276,22 @@ msgid "Copy save location to the clipboard"
 msgstr "複製儲存位置到剪貼簿"
 
 #: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Use light background color"
 msgid "Use light background"
-msgstr "使用亮色背景"
+msgstr "使用較亮的背景"
 
 #: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:57
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Remember Rectangular Region"
 msgid "Remember selected area"
-msgstr "記住矩形區域"
+msgstr "記住選取的區域"
 
 #: src/Gui/SettingsDialog/SaveOptionsPage.cpp:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default Save Settings"
 msgid "Default Save Location"
-msgstr "預設儲存設定"
+msgstr "預設儲存位置"
 
 #: src/Gui/SettingsDialog/SaveOptionsPage.cpp:44
 #, kde-format
@@ -308,7 +309,7 @@ msgid "Filename:"
 msgstr "檔案名稱："
 
 #: src/Gui/SettingsDialog/SaveOptionsPage.cpp:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>Set a default filename for saved screenshots.</p><p>You can use the "
 #| "following placeholders in the filename, which will be replaced with "
@@ -328,19 +329,16 @@ msgid ""
 "%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
 "Second<br /><b>%T</b>: Window title</blockquote>"
 msgstr ""
-"<p>設定儲存的螢幕快照的預設檔案名稱。</p><p>您可以在檔案 名稱中使用下述的佔位"
-"符，其將會被取代為當檔案儲存時的真正文字： </p><blockquote><b>%Y</b>：年（四"
-"位數）<br /><b>%y</b>：年（兩位數）<br /><b>%M</b>：月<br /><b>%D</b>：日"
-"<br /><b>%H</b>：時<br /><b>%m</b>：分<br /><b>%S</b>：秒</blockquote><p>您不"
-"需要輸入副檔名。預設情況下， 螢幕快照會被儲存為 <b>PNG（可攜式網路圖形）</b> "
-"圖片，<b>.png</b> 副檔名。</p><p>若已有相同名稱的圖片 存在，將會在檔案名稱後"
-"附加序列號。舉例來說，若 檔案名稱為「螢幕快照」，而「螢幕快照.png」已經存"
-"在， 那麼新快照就會被儲存為「螢幕快照-1.png」。</p>"
+"<p>您可以在檔案名稱中使用下述的佔位符，其將會被取代為當檔案儲存時的真正文字： </p>"
+"<blockquote><b>%Y</b>：年（四位數）<br /><b>%y</b>：年（兩位數）<br /><b>%M</b>：月<br /><b>"
+"%D</b>：日"
+"<br /><b>%H</b>：時<br /><b>%m</b>：分<br /><b>%S</b>：秒<br /><b>%T</b>：視窗標題<"
+"/blockquote>"
 
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:34
 #, kde-format
 msgid "Configure"
-msgstr ""
+msgstr "配置"
 
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:44
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:45
@@ -352,7 +350,7 @@ msgstr "一般"
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:51
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:77
 #, kde-format
