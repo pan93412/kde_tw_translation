@@ -4,19 +4,20 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014, 2015.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-11-05 03:11+0100\n"
-"PO-Revision-Date: 2015-06-14 13:20+0800\n"
-"Last-Translator: Franklin\n"
-"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 17:45+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. i18n: ectx: whatsthis, entry (ShowAddressAction), group (Show Address Settings)
@@ -447,11 +448,11 @@ msgid "Show Contact"
 msgstr "顯示聯絡人"
 
 #: akonadi-contacts/emailaddressrequester.cpp:96
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Update Address Book"
 #| msgid_plural "Update %1 Address Books"
 msgid "Open Address Book"
-msgstr "更新 %1 個通訊錄"
+msgstr "開啟通訊錄"
 
 #: akonadi-contacts/emailaddressselectionproxymodel.cpp:36
 #, kde-format
@@ -471,18 +472,18 @@ msgid "Search:"
 msgstr "搜尋："
 
 #: akonadi-contacts/selectaddressbookdialog.cpp:37
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Address Book"
 msgctxt "@title:window"
 msgid "Select Address Book"
 msgstr "選擇通訊錄"
 
 #: akonadi-contacts/selectaddressbookdialog.cpp:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select the address book the new contact shall be saved in:"
 msgctxt "@info"
 msgid "Select the address book where the contact will be saved:"
-msgstr "選擇新聯絡人要儲存到哪個通訊錄："
+msgstr "選擇聯絡人要儲存到哪個通訊錄："
 
 #: akonadi-contacts/standardcontactactionmanager.cpp:113
 #, kde-format
@@ -819,8 +820,7 @@ msgstr "新增聯絡人(&C)..."
 msgid ""
 "Create a new contact<p>You will be presented with a dialog where you can add "
 "data about a person, including addresses and phone numbers.</p>"
-msgstr ""
-"新增聯絡人<p>您可以新增聯絡人的資料，包括電子郵件地址與電話號碼等等。</p>"
+msgstr "新增聯絡人<p>您可以新增聯絡人的資料，包括電子郵件地址與電話號碼等等。</p>"
 
 #: akonadi-contacts/standardcontactactionmanager.cpp:605
 #, kde-format
@@ -972,7 +972,7 @@ msgstr "<p style=\"color: white;\"><b>等待動作中</b><br/></p>"
 #: contact-editor/editor/addresseditor/addresseslocationwidget.cpp:46
 #, kde-format
 msgid "Missing plugins. Please verify your installation"
-msgstr ""
+msgstr "找不到附加元件。請驗證您的安裝。"
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:53
 #, kde-format
@@ -981,10 +981,10 @@ msgid "Organization:"
 msgstr "組織："
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Organization Name"
 msgid "Add organization's name"
-msgstr "組織名稱"
+msgstr "新增組織名稱"
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:62
 #, kde-format
@@ -993,10 +993,10 @@ msgid "Profession:"
 msgstr "職業："
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Profession"
 msgid "Add profession"
-msgstr "職業"
+msgstr "新增職業"
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:71
 #, kde-format
@@ -1007,7 +1007,7 @@ msgstr "職稱："
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:75
 #, kde-format
 msgid "Add the title"
-msgstr ""
+msgstr "增加標題"
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:80
 #, kde-format
@@ -1016,10 +1016,10 @@ msgid "Department:"
 msgstr "部門："
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:84
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Department"
 msgid "Add the department"
-msgstr "部門"
+msgstr "新增部門"
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:89
 #, kde-format
@@ -1030,7 +1030,7 @@ msgstr "辦公室："
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:94
 #, kde-format
 msgid "Add the office"
-msgstr ""
+msgstr "新增辦公室"
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:99
 #, kde-format
@@ -1039,11 +1039,11 @@ msgid "Manager's name:"
 msgstr "主管姓名："
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:103
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label The manager's name of a contact"
 #| msgid "Manager's name:"
 msgid "Add manager's name"
-msgstr "主管姓名："
+msgstr "新增主管姓名："
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:108
 #, kde-format
@@ -1052,11 +1052,11 @@ msgid "Assistant's name:"
 msgstr "助理姓名："
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:112
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label The assistant's name of a contact"
 #| msgid "Assistant's name:"
 msgid "Add assistant's name"
-msgstr "助理姓名："
+msgstr "新增助理姓名："
 
 #: contact-editor/editor/businesseditor/businesseditorwidget.cpp:118
 #, kde-format
@@ -1065,11 +1065,11 @@ msgid "Free/Busy:"
 msgstr "行程資訊："
 
 #: contact-editor/editor/businesseditor/freebusyeditwidget.cpp:42
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label The free/busy information of a contact"
 #| msgid "Free/Busy:"
 msgid "Add FreeBusy"
-msgstr "行程資訊："
+msgstr "新增行程資訊："
 
 #: contact-editor/editor/contacteditorwidget.cpp:111
 #, kde-format
@@ -1108,24 +1108,24 @@ msgid "Custom Fields"
 msgstr "自定欄位"
 
 #: contact-editor/editor/customfieldeditor/customfieldeditorwidget.cpp:41
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Custom Fields"
 msgid "Custom Field Title"
-msgstr "自定欄位"
+msgstr "自定欄位標題"
 
 #: contact-editor/editor/customfieldeditor/customfieldeditorwidget.cpp:49
 #: contact-editor/editor/personaleditor/personaleditorwidget.cpp:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Additional names:"
 msgid "Add name"
-msgstr "額外的名字:"
+msgstr "增加名字"
 
 #: contact-editor/editor/customfieldeditor/customfieldeditorwidget.cpp:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add Email"
 msgid "Add Field"
-msgstr "新增電子郵件"
+msgstr "新增欄位"
 
 #: contact-editor/editor/customfieldeditor/customfieldeditorwidget.cpp:65
 #, kde-format
@@ -1192,7 +1192,7 @@ msgstr "值"
 
 #: contact-editor/editor/generalinfoeditor/contactselecttypecombobox.cpp:39
 #: contact-editor/editor/generalinfoeditor/web/webwidget.cpp:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@item:inlistbox select from a list of IM protocols"
 #| msgid "Select..."
 msgid "Select..."
@@ -1200,7 +1200,7 @@ msgstr "選擇..."
 
 #: contact-editor/editor/generalinfoeditor/contactselecttypecombobox.cpp:42
 #: contact-editor/editor/generalinfoeditor/web/webwidget.cpp:53
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:column home address of a person"
 #| msgid "Home"
 msgid "Home"
@@ -1208,7 +1208,7 @@ msgstr "住家"
 
 #: contact-editor/editor/generalinfoeditor/contactselecttypecombobox.cpp:45
 #: contact-editor/editor/generalinfoeditor/web/webwidget.cpp:56
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:column work address of a person"
 #| msgid "Work"
 msgid "Work"
@@ -1216,11 +1216,11 @@ msgstr "工作"
 
 #: contact-editor/editor/generalinfoeditor/contactselecttypecombobox.cpp:48
 #: contact-editor/editor/generalinfoeditor/web/webwidget.cpp:59
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@item:inlistbox Category of contact info field"
 #| msgid "Other..."
 msgid "Other"
-msgstr "其他..."
+msgstr "其他"
 
 #: contact-editor/editor/generalinfoeditor/displaynameeditwidget.cpp:60
 #, kde-format
@@ -1254,36 +1254,36 @@ msgid "Custom"
 msgstr "自訂"
 
 #: contact-editor/editor/generalinfoeditor/generalinfowidget.cpp:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Add Tags"
 msgid "Tags"
-msgstr "新增標籤"
+msgstr "標籤"
 
 #: contact-editor/editor/generalinfoeditor/mail/maillistwidget.cpp:38
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "a contact's email address"
 #| msgid "Email"
 msgid "Email"
 msgstr "電子郵件"
 
 #: contact-editor/editor/generalinfoeditor/mail/mailwidget.cpp:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add Email"
 msgid "Add an Email Account"
 msgstr "新增電子郵件"
 
 #: contact-editor/editor/generalinfoeditor/mail/mailwidget.cpp:52
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add Email"
 msgid "Add an Email"
 msgstr "新增電子郵件"
 
 #: contact-editor/editor/generalinfoeditor/mail/mailwidget.cpp:59
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Remove logo"
 msgid "Remove Email"
-msgstr "移除標誌"
+msgstr "移除電子郵件地址"
 
 #: contact-editor/editor/generalinfoeditor/messageformattingwidget.cpp:37
 #, kde-format
@@ -1311,17 +1311,17 @@ msgid "Allow remote content in received HTML messages"
 msgstr "允許接收 HTML 遠端內容"
 
 #: contact-editor/editor/generalinfoeditor/messaging/messaginglistwidget.cpp:38
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label The instant messaging address of a contact"
 #| msgid "Messaging:"
 msgid "Messaging"
-msgstr "訊息："
+msgstr "訊息"
 
 #: contact-editor/editor/generalinfoeditor/messaging/messagingwidget.cpp:41
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Additional names:"
 msgid "Add an identifier"
-msgstr "額外的名字:"
+msgstr "新增一個標識符號"
 
 #: contact-editor/editor/generalinfoeditor/messaging/messagingwidget.cpp:49
 #, kde-format
@@ -1330,16 +1330,16 @@ msgid "Select..."
 msgstr "選擇..."
 
 #: contact-editor/editor/generalinfoeditor/messaging/messagingwidget.cpp:62
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Additional names:"
 msgid "Add an IM"
-msgstr "額外的名字:"
+msgstr "新增 IM"
 
 #: contact-editor/editor/generalinfoeditor/messaging/messagingwidget.cpp:69
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Remove"
 msgid "Remove IM"
-msgstr "移除"
+msgstr "移除 IM"
 
 #: contact-editor/editor/generalinfoeditor/nameeditdialog.cpp:36
 #: contact-editor/editor/generalinfoeditor/namewidget.cpp:55
@@ -1373,7 +1373,7 @@ msgid "Honorific suffixes:"
 msgstr "後置敬語:"
 
 #: contact-editor/editor/generalinfoeditor/nameeditdialog.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label The display name of a contact"
 #| msgid "Display:"
 msgid "Display:"
@@ -1435,7 +1435,7 @@ msgid "Sr."
 msgstr "Sr."
 
 #: contact-editor/editor/generalinfoeditor/namewidget.cpp:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "contact's name"
 #| msgid "Name"
 msgid "Name"
@@ -1447,17 +1447,17 @@ msgid "..."
 msgstr "..."
 
 #: contact-editor/editor/generalinfoeditor/nicknamewidget.cpp:36
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label The nickname of a contact"
 #| msgid "Nickname:"
 msgid "Nickname"
-msgstr "暱稱："
+msgstr "暱稱"
 
 #: contact-editor/editor/generalinfoeditor/nicknamewidget.cpp:42
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Additional names:"
 msgid "Add a Nickname"
-msgstr "額外的名字:"
+msgstr "新增暱稱"
 
 #: contact-editor/editor/generalinfoeditor/phone/phonecomboboxtype.cpp:83
 #, kde-format
@@ -1466,7 +1466,7 @@ msgid "Other..."
 msgstr "其他..."
 
 #: contact-editor/editor/generalinfoeditor/phone/phonelistwidget.cpp:38
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:group"
 #| msgid "Phones"
 msgid "Phone"
@@ -1479,38 +1479,38 @@ msgstr "編輯電話號碼"
 
 #: contact-editor/editor/generalinfoeditor/phone/phonewidget.cpp:42
 #: contact-editor/editor/generalinfoeditor/phone/phonewidget.cpp:53
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Edit Phone Number"
 msgid "Add a Phone Number"
-msgstr "編輯電話號碼"
+msgstr "新增電話號碼"
 
 #: contact-editor/editor/generalinfoeditor/phone/phonewidget.cpp:60
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:column phone numbers of a person"
 #| msgid "Phone Numbers"
 msgid "Remove Phone Number"
-msgstr "電話號碼"
+msgstr "移除電話號碼"
 
 #: contact-editor/editor/generalinfoeditor/web/weblistwidget.cpp:39
 #, kde-format
 msgid "Web"
-msgstr ""
+msgstr "網站"
 
 #: contact-editor/editor/generalinfoeditor/web/webwidget.cpp:41
 #: contact-editor/editor/generalinfoeditor/web/webwidget.cpp:65
 #, kde-format
 msgid "Add a Web Site"
-msgstr ""
+msgstr "新增網站"
 
 #: contact-editor/editor/generalinfoeditor/web/webwidget.cpp:72
 #, kde-format
 msgid "Remove Web Site"
-msgstr ""
+msgstr "移除網站"
 
 #: contact-editor/editor/personaleditor/dateeditwidget.cpp:37
 #, kde-format
 msgid "Click to Add Date"
-msgstr ""
+msgstr "點一下以新增日期"
 
 #: contact-editor/editor/personaleditor/dateeditwidget.cpp:48
 #, kde-format
@@ -1587,10 +1587,10 @@ msgstr "變更相片"
 
 #: contact-editor/editor/widgets/imagewidget.cpp:252
 #: contact-editor/editor/widgets/imagewidget.cpp:265
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Change..."
 msgid "Change URL..."
-msgstr "變更..."
+msgstr "變更 URL..."
 
 #: contact-editor/editor/widgets/imagewidget.cpp:256
 #, kde-format
@@ -1618,16 +1618,16 @@ msgid "Remove logo"
 msgstr "移除標誌"
 
 #: contact-editor/editor/widgets/imagewidget.cpp:285
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Change Tags"
 msgid "Change image URL"
-msgstr "變更標籤"
+msgstr "變更圖片 URL"
 
 #: contact-editor/editor/widgets/imagewidget.cpp:285
 #, kde-format
 msgid "Image URL:"
-msgstr ""
+msgstr "圖片網址："
 
 #: contact-editor/editor/widgets/imagewidget.cpp:312
 #: contact-editor/editor/widgets/imagewidget.cpp:335
@@ -1636,10 +1636,10 @@ msgid "Images (%1)"
 msgstr "影像 (%1)"
 
 #: contact-editor/editor/widgets/preferredlineeditwidget.cpp:42
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Set as Standard"
 msgid "Set as Preferred"
-msgstr "設為標準"
+msgstr "設為喜好"
 
 #, fuzzy
 #~| msgid "Add to:"

@@ -5,14 +5,15 @@
 # Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2011.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012.
 # Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-08 03:34+0100\n"
-"PO-Revision-Date: 2016-11-14 21:27+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 16:01+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -562,8 +563,7 @@ msgstr "若信件總量超過大小限制，則清掉最舊的信件"
 msgid ""
 "If active, most recent messages are kept until the quota is reached and "
 "oldest messages are deleted."
-msgstr ""
-"若開啟此選項，則信件會保留，直到總量超過大小限制時才會將最舊的信件刪除。"
+msgstr "若開啟此選項，則信件會保留，直到總量超過大小限制時才會將最舊的信件刪除。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerSizeCheck)
 #: popsettings.ui:317
@@ -717,19 +717,19 @@ msgstr "連接埠："
 
 #. i18n: ectx: property (text), widget (QCheckBox, proxyCheck)
 #: popsettings.ui:545
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Wallet disabled in system settings"
 msgid "Connect using the system proxy settings"
-msgstr "系統設定中已關閉錢包功能"
+msgstr "使用系統 Proxy 設定連線"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, proxyCheck)
 #: popsettings.ui:548
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "If checked the message is not deleted from the mail server"
 msgid ""
 "If checked, the system proxy settings will be used to connect to the mail "
 "server."
-msgstr "若勾選此選項，則郵件不會從伺服器上刪除"
+msgstr "若勾選此選項，則系統 Proxy 設定將會用於連線郵件伺服器。"
 
 #. i18n: ectx: label, entry (authenticationMethod), group (General)
 #: settings.kcfg:26

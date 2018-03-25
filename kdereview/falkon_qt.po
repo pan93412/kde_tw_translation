@@ -1,6 +1,7 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the falkon package.
 #
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -9,6 +10,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: zh_TW\n"
 "X-Qt-Contexts: true\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2018-03-25 18:22+0800\n"
+"Project-Id-Version: \n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: lib/3rdparty/lineedit.cpp:102
 msgctxt "LineEdit|"
@@ -195,7 +202,7 @@ msgstr "EasyList"
 #: lib/adblock/adblockmanager.cpp:321
 msgctxt "AdBlockManager|"
 msgid "NoCoin List"
-msgstr ""
+msgstr "NoCoin 列表"
 
 #: lib/adblock/adblocksubscription.cpp:174
 msgctxt "AdBlockSubscription|"
@@ -253,7 +260,7 @@ msgstr "被 <i>%1 (%2)</i> 阻擋"
 #: lib/app/browserwindow.cpp:206 lib/app/browserwindow.cpp:981
 msgctxt "BrowserWindow|"
 msgid "Falkon"
-msgstr ""
+msgstr "Falkon"
 
 #: lib/app/browserwindow.cpp:396
 msgctxt "BrowserWindow|"
@@ -269,7 +276,7 @@ msgstr " (隱私瀏覽)"
 #, qt-format
 msgctxt "BrowserWindow|"
 msgid "%1 - Falkon"
-msgstr ""
+msgstr "%1 - Falkon"
 
 #: lib/app/browserwindow.cpp:1049
 msgctxt "BrowserWindow|"
@@ -322,7 +329,7 @@ msgid "Open file..."
 msgstr "開啟檔案…"
 
 #: lib/app/browserwindow.cpp:1504
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "BrowserWindow|"
 #| msgid ""
 #| "There are still %n open tabs and your session won't be stored. \n"
@@ -352,7 +359,6 @@ msgid "There are still open tabs"
 msgstr "仍然有開啟中分頁"
 
 #: lib/app/mainapplication.cpp:1040
-#, fuzzy
 #| msgctxt "MainApplication|"
 #| msgid ""
 #| "QupZilla is not currently your default browser. Would you like to make it "
@@ -361,15 +367,14 @@ msgctxt "MainApplication|"
 msgid ""
 "Falkon is not currently your default browser. Would you like to make it your "
 "default browser?"
-msgstr "QupZilla 並非您現在的預設網頁瀏覽器。是否要設為預設網頁瀏覽器？"
+msgstr "Falkon 並非您現在的預設網頁瀏覽器。是否要設為預設網頁瀏覽器？"
 
 #: lib/app/mainapplication.cpp:1041
-#, fuzzy
 #| msgctxt "MainApplication|"
 #| msgid "Always perform this check when starting QupZilla."
 msgctxt "MainApplication|"
 msgid "Always perform this check when starting Falkon."
-msgstr "啟動 QupZilla 總是顯示此確認。"
+msgstr "啟動 Falkon 總是顯示此確認。"
 
 #: lib/app/mainapplication.cpp:1043
 msgctxt "MainApplication|"
@@ -392,7 +397,6 @@ msgid "Open new private window"
 msgstr "開啟新的隱私瀏覽視窗"
 
 #: lib/app/mainapplication.cpp:1178
-#, fuzzy
 #| msgctxt "MainApplication|"
 #| msgid ""
 #| "QupZilla is a new, fast and secure open-source WWW browser. QupZilla is "
@@ -404,8 +408,8 @@ msgid ""
 "under GPL version 3 or (at your option) any later version. It is based on "
 "QtWebEngine and Qt Framework."
 msgstr ""
-"QupZilla 是一個新穎、快速、安全且開放原始碼的 WWW 瀏覽器。QupZilla 以 GPLv3 "
-"或是 (在您的選擇下) 更新的版本釋出。QupZilla 是基於 WebKit 內核及 Qt 框架。"
+"Falkon 是一個新穎、快速、安全且開放原始碼的 WWW 瀏覽器。Falkon 以 GPLv3 "
+"或是 (在您的選擇下) 更新的版本釋出。Falkon 是基於 QtWebngine 內核及 Qt 框架。"
 
 #: lib/app/mainmenu.cpp:84 lib/app/mainmenu.cpp:497
 msgctxt "MainMenu|"
@@ -415,7 +419,7 @@ msgstr "工作階段"
 #: lib/app/mainmenu.cpp:467
 msgctxt "MainMenu|"
 msgid "&About Falkon"
-msgstr ""
+msgstr "關於 Falkon (&A)"
 
 #: lib/app/mainmenu.cpp:472
 msgctxt "MainMenu|"
@@ -670,20 +674,20 @@ msgid "for <b>%1</b>"
 msgstr "為 <b>%1</b>"
 
 #: lib/autofill/autofillnotification.cpp:49
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "AutoFillNotification|"
 #| msgid "Do you want QupZilla to update saved password %1?"
 msgctxt "AutoFillNotification|"
 msgid "Do you want Falkon to update saved password %1?"
-msgstr "您想要 QupZIlla 更新已儲存密碼 %1 嗎？"
+msgstr "您想要 Falkon 更新已儲存密碼 %1 嗎？"
 
 #: lib/autofill/autofillnotification.cpp:55
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "AutoFillNotification|"
 #| msgid "Do you want QupZilla to remember the password %1 %2?"
 msgctxt "AutoFillNotification|"
 msgid "Do you want Falkon to remember the password %1 %2?"
-msgstr "您想要 QupZilla %1 %2 記得密碼嗎？"
+msgstr "您想要 Falkon %1 %2 記得密碼嗎？"
 
 #: lib/autofill/autofillnotification.ui:69
 msgctxt "AutoFillNotification|"
@@ -739,7 +743,6 @@ msgid "Warning!"
 msgstr "警告！"
 
 #: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:580
-#, fuzzy
 #| msgctxt "AutoFill|"
 #| msgid ""
 #| "This backend needs a master password to be set! QupZilla just switches to "
@@ -748,7 +751,7 @@ msgctxt "AutoFill|"
 msgid ""
 "This backend needs a master password to be set! Falkon just switches to its "
 "default backend"
-msgstr "此後端需要設定主控台密碼！QupZilla 將移轉到預設的後端"
+msgstr "此後端需要設定主控台密碼！Falkon 將移轉到預設的後端"
 
 #: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:601
 msgctxt "MasterPasswordDialog|"
@@ -1002,8 +1005,7 @@ msgctxt "BookmarksImporter|"
 msgid ""
 "Google Chrome stores its bookmarks in <b>Bookmarks</b> text file. This file "
 "is usually located in"
-msgstr ""
-"Google Chrome 將它的書籤儲存在 <b>Bookmarks</b> 文字檔案。這份檔案通常位於 "
+msgstr "Google Chrome 將它的書籤儲存在 <b>Bookmarks</b> 文字檔案。這份檔案通常位於 "
 
 #: lib/bookmarks/bookmarksimport/chromeimporter.cpp:50
 #: lib/bookmarks/bookmarksimport/firefoximporter.cpp:57
@@ -1050,8 +1052,7 @@ msgctxt "BookmarksImporter|"
 msgid ""
 "You can import bookmarks from any browser that supports HTML exporting. This "
 "file has usually these suffixes"
-msgstr ""
-"您可以從任何支援 HTML 匯出的瀏覽器中來匯入書籤。此檔案通常具有這些後綴名"
+msgstr "您可以從任何支援 HTML 匯出的瀏覽器中來匯入書籤。此檔案通常具有這些後綴名"
 
 #: lib/bookmarks/bookmarksimport/htmlimporter.cpp:43
 msgctxt "BookmarksImporter|"
@@ -1077,8 +1078,7 @@ msgctxt "BookmarksImporter|"
 msgid ""
 "Opera stores its bookmarks in <b>bookmarks.adr</b> text file. This file is "
 "usually located in"
-msgstr ""
-"Opera 將它的書籤儲存在 <b>bookmarks.adr</b> 文字檔案。這份檔案通常位於 "
+msgstr "Opera 將它的書籤儲存在 <b>bookmarks.adr</b> 文字檔案。這份檔案通常位於 "
 
 #: lib/bookmarks/bookmarksimport/operaimporter.cpp:65
 msgctxt "BookmarksImporter|"
@@ -1472,8 +1472,7 @@ msgctxt "CookieManager|"
 msgid ""
 "Cookies from these servers will ALWAYS be accepted (even if you have "
 "disabled saving cookies)"
-msgstr ""
-"來自這些伺服器的 Cookie 「總是」會被接受 (即使您已停用 Cookie 儲存功能)"
+msgstr "來自這些伺服器的 Cookie 「總是」會被接受 (即使您已停用 Cookie 儲存功能)"
 
 #: lib/cookies/cookiemanager.ui:304 lib/cookies/cookiemanager.ui:358
 msgctxt "CookieManager|"
@@ -1707,12 +1706,11 @@ msgid "Save page as..."
 msgstr "另存網頁為..."
 
 #: lib/downloads/downloadmanager.cpp:401
-#, fuzzy
 #| msgctxt "DownloadManager|"
 #| msgid "QupZilla: Download Finished"
 msgctxt "DownloadManager|"
 msgid "Falkon: Download Finished"
-msgstr "QupZilla：下載結束"
+msgstr "Falkon：下載結束"
 
 #: lib/downloads/downloadmanager.cpp:401
 msgctxt "DownloadManager|"
@@ -1747,12 +1745,11 @@ msgid "Download link copied."
 msgstr "下載連結已複製。"
 
 #: lib/downloads/downloadoptionsdialog.ui:25
-#, fuzzy
 #| msgctxt "DownloadOptionsDialog|"
 #| msgid "What should QupZilla do with this file?"
 msgctxt "DownloadOptionsDialog|"
 msgid "What should Falkon do with this file?"
-msgstr "QupZilla 應該怎麼處理這個檔案？"
+msgstr "Falkon 應該怎麼處理這個檔案？"
 
 #: lib/downloads/downloadoptionsdialog.ui:47
 msgctxt "DownloadOptionsDialog|"
@@ -2264,7 +2261,6 @@ msgid "A username and password are being requested by proxy %1. "
 msgstr "代理 %1 要求使用者名稱及密碼。"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:155
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Start Page"
 msgctxt "FalkonSchemeReply|"
@@ -2272,7 +2268,6 @@ msgid "Start Page"
 msgstr "起始頁"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:156
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Search on Web"
 msgctxt "FalkonSchemeReply|"
@@ -2280,7 +2275,6 @@ msgid "Search on Web"
 msgstr "在網頁中搜尋"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:157
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Search results provided by DuckDuckGo"
 msgctxt "FalkonSchemeReply|"
@@ -2292,10 +2286,9 @@ msgstr "搜尋由 DuckDuckGo 提供的結果"
 #: lib/network/schemehandlers/falkonschemehandler.cpp:176
 msgctxt "FalkonSchemeReply|"
 msgid "About Falkon"
-msgstr ""
+msgstr "關於 Falkon"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:160
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "<h1>Private Browsing</h1>"
 msgctxt "FalkonSchemeReply|"
@@ -2304,7 +2297,6 @@ msgstr "<h1>隱私瀏覽</h1>"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:177
 #: lib/network/schemehandlers/falkonschemehandler.cpp:287
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Information about version"
 msgctxt "FalkonSchemeReply|"
@@ -2312,7 +2304,6 @@ msgid "Information about version"
 msgstr "版本資訊"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:178
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Copyright"
 msgctxt "FalkonSchemeReply|"
@@ -2321,7 +2312,6 @@ msgstr "著作權"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:181
 #: lib/network/schemehandlers/falkonschemehandler.cpp:297
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Version"
 msgctxt "FalkonSchemeReply|"
@@ -2329,7 +2319,6 @@ msgid "Version"
 msgstr "版本"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:188
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Main developer"
 msgctxt "FalkonSchemeReply|"
@@ -2337,7 +2326,6 @@ msgid "Main developer"
 msgstr "主要開發人員"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:211
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Speed Dial"
 msgctxt "FalkonSchemeReply|"
@@ -2345,7 +2333,6 @@ msgid "Speed Dial"
 msgstr "快速撥號"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:212
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Add New Page"
 msgctxt "FalkonSchemeReply|"
@@ -2353,7 +2340,6 @@ msgid "Add New Page"
 msgstr "新增頁面"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:213
-#, fuzzy
 #| msgctxt "AutoFillManager|"
 #| msgid "Edit"
 msgctxt "FalkonSchemeReply|"
@@ -2361,7 +2347,6 @@ msgid "Edit"
 msgstr "編輯"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:214
-#, fuzzy
 #| msgctxt "AcceptLanguage|"
 #| msgid "Remove"
 msgctxt "FalkonSchemeReply|"
@@ -2369,7 +2354,6 @@ msgid "Remove"
 msgstr "移除"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:215
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Reload"
 msgctxt "FalkonSchemeReply|"
@@ -2377,7 +2361,6 @@ msgid "Reload"
 msgstr "重新整理"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:216
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Are you sure you want to remove this speed dial?"
 msgctxt "FalkonSchemeReply|"
@@ -2385,7 +2368,6 @@ msgid "Are you sure you want to remove this speed dial?"
 msgstr "您確定要移除快速撥號嗎？"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:217
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Are you sure you want to reload all speed dials?"
 msgctxt "FalkonSchemeReply|"
@@ -2393,7 +2375,7 @@ msgid "Are you sure you want to reload all speed dials?"
 msgstr "您確定要重新整理所有快速撥號嗎？"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:218
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Load title from page"
 msgctxt "FalkonSchemeReply|"
@@ -2401,7 +2383,7 @@ msgid "Load title from page"
 msgstr "從網頁載入標題"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:219
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "SpeedDial requires enabled JavaScript."
 msgctxt "FalkonSchemeReply|"
@@ -2409,7 +2391,7 @@ msgid "SpeedDial requires enabled JavaScript."
 msgstr "快速撥號需要啟用 JavaScript。"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:220
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Url"
 msgctxt "FalkonSchemeReply|"
@@ -2417,7 +2399,7 @@ msgid "Url"
 msgstr "URL"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:221
-#, fuzzy
+#
 #| msgctxt "BookmarksModel|"
 #| msgid "Title"
 msgctxt "FalkonSchemeReply|"
@@ -2425,7 +2407,7 @@ msgid "Title"
 msgstr "標題"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:222
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Apply"
 msgctxt "FalkonSchemeReply|"
@@ -2433,7 +2415,7 @@ msgid "Apply"
 msgstr "套用"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:223
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Cancel"
 msgctxt "FalkonSchemeReply|"
@@ -2441,7 +2423,7 @@ msgid "Cancel"
 msgstr "取消"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:224
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "New Page"
 msgctxt "FalkonSchemeReply|"
@@ -2449,7 +2431,7 @@ msgid "New Page"
 msgstr "新頁面"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:225
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Speed Dial settings"
 msgctxt "FalkonSchemeReply|"
@@ -2457,7 +2439,7 @@ msgid "Speed Dial settings"
 msgstr "快速撥號設定"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:226
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Placement: "
 msgctxt "FalkonSchemeReply|"
@@ -2465,7 +2447,7 @@ msgid "Placement: "
 msgstr "放置："
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:227
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Auto"
 msgctxt "FalkonSchemeReply|"
@@ -2473,7 +2455,7 @@ msgid "Auto"
 msgstr "自動"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:228
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Cover"
 msgctxt "FalkonSchemeReply|"
@@ -2481,7 +2463,7 @@ msgid "Cover"
 msgstr "覆蓋"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:229
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Fit"
 msgctxt "FalkonSchemeReply|"
@@ -2489,7 +2471,7 @@ msgid "Fit"
 msgstr "適應"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:230
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Fit Width"
 msgctxt "FalkonSchemeReply|"
@@ -2497,7 +2479,7 @@ msgid "Fit Width"
 msgstr "適應寬度"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:231
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Fit Height"
 msgctxt "FalkonSchemeReply|"
@@ -2505,7 +2487,7 @@ msgid "Fit Height"
 msgstr "適應高度"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:232
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Use custom wallpaper"
 msgctxt "FalkonSchemeReply|"
@@ -2513,7 +2495,7 @@ msgid "Use custom wallpaper"
 msgstr "使用自訂桌布"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:233
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Click to select image"
 msgctxt "FalkonSchemeReply|"
@@ -2521,7 +2503,7 @@ msgid "Click to select image"
 msgstr "點按以選取圖片"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:234
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Maximum pages in a row:"
 msgctxt "FalkonSchemeReply|"
@@ -2529,7 +2511,7 @@ msgid "Maximum pages in a row:"
 msgstr "每列最大的頁數："
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:235
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Change size of pages:"
 msgctxt "FalkonSchemeReply|"
@@ -2537,7 +2519,7 @@ msgid "Change size of pages:"
 msgstr "變更頁面的大小："
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:236
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Center speed dials"
 msgctxt "FalkonSchemeReply|"
@@ -2545,7 +2527,7 @@ msgid "Center speed dials"
 msgstr "中央快速撥號"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:261
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Restore Session"
 msgctxt "FalkonSchemeReply|"
@@ -2553,15 +2535,15 @@ msgid "Restore Session"
 msgstr "回復作業階段"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:262
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Oops, QupZilla crashed."
 msgctxt "FalkonSchemeReply|"
 msgid "Oops, Falkon crashed."
-msgstr "噢！QupZilla 不正常關閉了。"
+msgstr "噢！Falkon 不正常關閉了。"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:263
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid ""
 #| "We apologize for this. Would you like to restore the last saved state?"
@@ -2570,7 +2552,7 @@ msgid "We apologize for this. Would you like to restore the last saved state?"
 msgstr "我們對此感到抱歉。您想要回復上次儲存的情形嗎？"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:264
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Try removing one or more tabs that you think cause troubles"
 msgctxt "FalkonSchemeReply|"
@@ -2578,7 +2560,7 @@ msgid "Try removing one or more tabs that you think cause troubles"
 msgstr "試著移除一個或多個讓您感到困擾的分頁"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:265
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Or you can start completely new session"
 msgctxt "FalkonSchemeReply|"
@@ -2586,7 +2568,7 @@ msgid "Or you can start completely new session"
 msgstr "或是您可以開啟另一個全新的作業階段"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:266
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Window"
 msgctxt "FalkonSchemeReply|"
@@ -2594,7 +2576,7 @@ msgid "Window"
 msgstr "視窗"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:267
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Windows and Tabs"
 msgctxt "FalkonSchemeReply|"
@@ -2602,7 +2584,7 @@ msgid "Windows and Tabs"
 msgstr "視窗與分頁"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:268
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Start New Session"
 msgctxt "FalkonSchemeReply|"
@@ -2610,7 +2592,7 @@ msgid "Start New Session"
 msgstr "開啟新作業階段"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:269
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Restore"
 msgctxt "FalkonSchemeReply|"
@@ -2618,7 +2600,7 @@ msgid "Restore"
 msgstr "回復"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:270
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Requires enabled JavaScript."
 msgctxt "FalkonSchemeReply|"
@@ -2627,7 +2609,7 @@ msgstr "需要啟用 JavaScript。"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:285
 #: lib/network/schemehandlers/falkonschemehandler.cpp:286
-#, fuzzy
+#
 #| msgctxt "MainMenu|"
 #| msgid "Configuration Information"
 msgctxt "FalkonSchemeReply|"
@@ -2635,7 +2617,7 @@ msgid "Configuration Information"
 msgstr "設定資訊"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:288
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid ""
 #| "This page contains information about QupZilla's current configuration - "
@@ -2647,11 +2629,11 @@ msgid ""
 "relevant for troubleshooting. Please include this information when "
 "submitting bug reports."
 msgstr ""
-"此頁包涵 QupZilla 現在的設定相關訊息 (也許有關解決問題)。回報問題給我們時請附"
+"此頁包涵 Falkon 現在的設定相關訊息 (也許有關解決問題)。回報問題給我們時請附"
 "上這些資訊。"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:289
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Browser Identification"
 msgctxt "FalkonSchemeReply|"
@@ -2659,7 +2641,7 @@ msgid "Browser Identification"
 msgstr "瀏覽器識別"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:290
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Paths"
 msgctxt "FalkonSchemeReply|"
@@ -2667,7 +2649,7 @@ msgid "Paths"
 msgstr "路徑"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:291
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Build Configuration"
 msgctxt "FalkonSchemeReply|"
@@ -2675,7 +2657,7 @@ msgid "Build Configuration"
 msgstr "建立設定"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:292
-#, fuzzy
+#
 #| msgctxt "Preferences|"
 #| msgid "Preferences"
 msgctxt "FalkonSchemeReply|"
@@ -2683,7 +2665,7 @@ msgid "Preferences"
 msgstr "偏好設定"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:293
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Option"
 msgctxt "FalkonSchemeReply|"
@@ -2691,7 +2673,7 @@ msgid "Option"
 msgstr "選項"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:294
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Value"
 msgctxt "FalkonSchemeReply|"
@@ -2700,7 +2682,7 @@ msgstr "數值"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:295
 #: lib/network/schemehandlers/falkonschemehandler.cpp:330
-#, fuzzy
+#
 #| msgctxt "Preferences|"
 #| msgid "Extensions"
 msgctxt "FalkonSchemeReply|"
@@ -2708,7 +2690,7 @@ msgid "Extensions"
 msgstr "擴充功能"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:296
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Name"
 msgctxt "FalkonSchemeReply|"
@@ -2716,7 +2698,7 @@ msgid "Name"
 msgstr "名稱"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:298
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Author"
 msgctxt "FalkonSchemeReply|"
@@ -2724,7 +2706,7 @@ msgid "Author"
 msgstr "作者"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:299
-#, fuzzy
+#
 #| msgctxt "BookmarksManager|"
 #| msgid "Description"
 msgctxt "FalkonSchemeReply|"
@@ -2732,7 +2714,7 @@ msgid "Description"
 msgstr "描述"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:314
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Application version"
 msgctxt "FalkonSchemeReply|"
@@ -2740,7 +2722,7 @@ msgid "Application version"
 msgstr "軟體版本"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:321
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Qt version"
 msgctxt "FalkonSchemeReply|"
@@ -2748,7 +2730,7 @@ msgid "Qt version"
 msgstr "Qt 版本"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:322
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Platform"
 msgctxt "FalkonSchemeReply|"
@@ -2756,7 +2738,7 @@ msgid "Platform"
 msgstr "平台"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:325
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Profile"
 msgctxt "FalkonSchemeReply|"
@@ -2764,7 +2746,7 @@ msgid "Profile"
 msgstr "個人設定"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:326
-#, fuzzy
+#
 #| msgctxt "CookieManager|"
 #| msgid "Settings"
 msgctxt "FalkonSchemeReply|"
@@ -2772,7 +2754,7 @@ msgid "Settings"
 msgstr "設定"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:327
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Saved session"
 msgctxt "FalkonSchemeReply|"
@@ -2780,7 +2762,7 @@ msgid "Saved session"
 msgstr "儲存的作業階段"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:328
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Data"
 msgctxt "FalkonSchemeReply|"
@@ -2788,7 +2770,7 @@ msgid "Data"
 msgstr "資料"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:329
-#, fuzzy
+#
 #| msgctxt "Preferences|"
 #| msgid "Themes"
 msgctxt "FalkonSchemeReply|"
@@ -2798,7 +2780,7 @@ msgstr "主題"
 #: lib/network/schemehandlers/falkonschemehandler.cpp:333
 #: lib/network/schemehandlers/falkonschemehandler.cpp:340
 #: lib/network/schemehandlers/falkonschemehandler.cpp:346
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "<b>Enabled</b>"
 msgctxt "FalkonSchemeReply|"
@@ -2808,7 +2790,6 @@ msgstr "<b>已啟用</b>"
 #: lib/network/schemehandlers/falkonschemehandler.cpp:335
 #: lib/network/schemehandlers/falkonschemehandler.cpp:342
 #: lib/network/schemehandlers/falkonschemehandler.cpp:346
-#, fuzzy
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Disabled"
 msgctxt "FalkonSchemeReply|"
@@ -2816,7 +2797,7 @@ msgid "Disabled"
 msgstr "已停用"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:349
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Debug build"
 msgctxt "FalkonSchemeReply|"
@@ -2824,7 +2805,7 @@ msgid "Debug build"
 msgstr "除錯組建"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:351
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Windows 7 API"
 msgctxt "FalkonSchemeReply|"
@@ -2832,7 +2813,7 @@ msgid "Windows 7 API"
 msgstr "Windows 7 API"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:353
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "Portable build"
 msgctxt "FalkonSchemeReply|"
@@ -2840,7 +2821,7 @@ msgid "Portable build"
 msgstr "可攜版組建"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:371
-#, fuzzy
+#
 #| msgctxt "QupZillaSchemeReply|"
 #| msgid "No available extensions."
 msgctxt "FalkonSchemeReply|"
@@ -3018,7 +2999,7 @@ msgstr "<b>QtWebEngine 版本 %1</b></p>"
 #: lib/other/aboutdialog.ui:14
 msgctxt "AboutDialog|"
 msgid "About Falkon"
-msgstr ""
+msgstr "關於 Falkon"
 
 #: lib/other/browsinglibrary.cpp:55
 msgctxt "BrowsingLibrary|"
@@ -3196,15 +3177,14 @@ msgid "License Viewer"
 msgstr "授權檢視器"
 
 #: lib/other/pagescreen.ui:14
-#, fuzzy
 #| msgctxt "MainMenu|"
 #| msgid "&Page Source"
 msgctxt "PageScreen|"
 msgid "Page Screen"
-msgstr "頁面原始碼 (&P)"
+msgstr "頁面螢幕"
 
 #: lib/other/pagescreen.ui:62
-#, fuzzy
+#
 #| msgctxt "BookmarksExportDialog|"
 #| msgid "Format:"
 msgctxt "PageScreen|"
@@ -3212,7 +3192,7 @@ msgid "Format:"
 msgstr "格式："
 
 #: lib/other/pagescreen.ui:72
-#, fuzzy
+#
 #| msgctxt "MainMenu|"
 #| msgid "Open Location"
 msgctxt "PageScreen|"
@@ -3220,12 +3200,11 @@ msgid "Location:"
 msgstr "開啟位置"
 
 #: lib/other/pagescreen.ui:91
-#, fuzzy
 #| msgctxt "BookmarksExportDialog|"
 #| msgid "Choose..."
 msgctxt "PageScreen|"
 msgid "Browse..."
-msgstr "選擇…"
+msgstr "瀏覽…"
 
 #: lib/other/registerqappassociation.cpp:110
 msgctxt "RegisterQAppAssociation|"
@@ -3233,7 +3212,6 @@ msgid "Warning!"
 msgstr "警告！"
 
 #: lib/other/registerqappassociation.cpp:111
-#, fuzzy
 #| msgctxt "RegisterQAppAssociation|"
 #| msgid ""
 #| "There are some problems. Please, reinstall QupZilla.\n"
@@ -3243,8 +3221,8 @@ msgid ""
 "There are some problems. Please, reinstall Falkon.\n"
 "Maybe relaunch with administrator right do a magic for you! ;)"
 msgstr ""
-"有問題發生了。請重新安裝 QupZilla。\n"
-"也許用系統管理員重新啟動 QupZilla 會奇蹟似的復活！"
+"有問題發生了。請重新安裝 Falkon。\n"
+"也許用系統管理員重新啟動 Falkon 會奇蹟似的復活！"
 
 #: lib/other/siteinfo.cpp:67
 msgctxt "SiteInfo|"
@@ -3408,12 +3386,12 @@ msgid "Update available"
 msgstr "有可用更新"
 
 #: lib/other/updater.cpp:151
-#, fuzzy
+#
 #| msgctxt "Updater|"
 #| msgid "New version of QupZilla is ready to download."
 msgctxt "Updater|"
 msgid "New version of Falkon is ready to download."
-msgstr "新版本 QupZilla 已準備好可下載。"
+msgstr "新版本 Falkon 已準備好可下載。"
 
 #: lib/other/updater.cpp:160
 msgctxt "Updater|"
@@ -3494,7 +3472,7 @@ msgstr "頁面原始碼 (&P)"
 #, qt-format
 msgctxt "PopupWindow|"
 msgid "%1 - Falkon"
-msgstr ""
+msgstr "%1 - Falkon"
 
 #: lib/preferences/acceptlanguage.cpp:99 lib/preferences/acceptlanguage.cpp:160
 #, qt-format
@@ -3729,12 +3707,11 @@ msgid "Open popup windows"
 msgstr "開啟彈出視窗"
 
 #: lib/preferences/jsoptions.ui:36
-#, fuzzy
 #| msgctxt "MainMenu|"
 #| msgid "New &Private Window"
 msgctxt "JsOptions|"
 msgid "Activate windows"
-msgstr "新增隱私瀏覽視窗 (&P)"
+msgstr "啟用視窗"
 
 #: lib/preferences/jsoptions.ui:43
 msgctxt "JsOptions|"
@@ -3742,12 +3719,11 @@ msgid "Access clipboard"
 msgstr "存取剪貼本"
 
 #: lib/preferences/jsoptions.ui:50
-#, fuzzy
 #| msgctxt "JsOptions|"
 #| msgid "Access clipboard"
 msgctxt "JsOptions|"
 msgid "Paste from clipboard"
-msgstr "存取剪貼本"
+msgstr "從剪貼板上複製"
 
 #: lib/preferences/pluginslist.ui:56
 msgctxt "PluginsList|"
@@ -4023,12 +3999,12 @@ msgid "Don't load tabs until selected"
 msgstr "選擇後才載入分頁"
 
 #: lib/preferences/preferences.ui:440
-#, fuzzy
+#
 #| msgctxt "Preferences|"
 #| msgid "Check to see if QupZilla is the default browser on startup"
 msgctxt "Preferences|"
 msgid "Check to see if Falkon is the default browser on startup"
-msgstr "啟動時檢查 QupZilla 是否為預設瀏覽器"
+msgstr "啟動時檢查 Falkon 是否為預設瀏覽器"
 
 #: lib/preferences/preferences.ui:450
 msgctxt "Preferences|"
@@ -4311,17 +4287,16 @@ msgid "Use native scrollbars"
 msgstr "使用原生的捲軸列"
 
 #: lib/preferences/preferences.ui:1067
-#, fuzzy
 #| msgctxt "Preferences|"
 #| msgid "Enable automatic searching from the address bar"
 msgctxt "Preferences|"
 msgid "Disable automatic playing of videos"
-msgstr "啟用從位址列自動搜尋"
+msgstr "停用自動播放影片"
 
 #: lib/preferences/preferences.ui:1074
 msgctxt "Preferences|"
 msgid "Prevent WebRTC from leaking local IP address"
-msgstr ""
+msgstr "預防 WebRTC 洩漏本機 IP 位址"
 
 #: lib/preferences/preferences.ui:1091
 msgctxt "Preferences|"
@@ -4707,7 +4682,6 @@ msgid "Preview"
 msgstr "預覽"
 
 #: lib/preferences/preferences.ui:2320
-#, fuzzy
 #| msgctxt "Preferences|"
 #| msgid ""
 #| "For more information about Spell Check, please see <a href=\"https://"
@@ -4717,8 +4691,8 @@ msgid ""
 "For more information about Spell Check, please see <a href=\"https://"
 "userbase.kde.org/Falkon#Spell_Check\">wiki</a>."
 msgstr ""
-"更多關於拼字檢查的資訊：請見 <a href=\"https://github.com/QupZilla/qupzilla/"
-"wiki/Spell-Check\">wiki</a>。"
+"更多關於拼字檢查的資訊：請見 <a href=\"https://"
+"userbase.kde.org/Falkon#Spell_Check\">wiki</a>。"
 
 #: lib/preferences/preferences.ui:2362
 msgctxt "Preferences|"
@@ -5155,12 +5129,11 @@ msgid "&Duplicate Tab"
 msgstr "重製分頁(&D)"
 
 #: lib/tabwidget/tabcontextmenu.cpp:126
-#, fuzzy
 #| msgctxt "TabContextMenu|"
 #| msgid "&Reload Tab"
 msgctxt "TabContextMenu|"
 msgid "D&etach Tab"
-msgstr "重新載入分頁(&R)"
+msgstr "分離分頁(&E)"
 
 #: lib/tabwidget/tabcontextmenu.cpp:129
 msgctxt "TabContextMenu|"
@@ -5183,12 +5156,11 @@ msgid "&Mute Tab"
 msgstr "分頁靜音(&M)"
 
 #: lib/tabwidget/tabcontextmenu.cpp:133
-#, fuzzy
 #| msgctxt "TabContextMenu|"
 #| msgid "Unload Tab"
 msgctxt "TabContextMenu|"
 msgid "Load Tab"
-msgstr "取消載入分頁"
+msgstr "載入分頁"
 
 #: lib/tabwidget/tabcontextmenu.cpp:135
 msgctxt "TabContextMenu|"
@@ -5296,7 +5268,7 @@ msgid "Warning!"
 msgstr "警告！"
 
 #: lib/tools/aesinterface.cpp:147
-#, fuzzy
+#
 #| msgctxt "AesInterface|"
 #| msgid ""
 #| "Data has been encrypted with a newer version of QupZilla.\n"
@@ -5306,8 +5278,8 @@ msgid ""
 "Data has been encrypted with a newer version of Falkon.\n"
 "Please install latest version of Falkon."
 msgstr ""
-"資料已由新版的 QupZilla 加密，\n"
-"請安裝最新版的 QupZilla。"
+"資料已由新版的 Falkon 加密，\n"
+"請安裝最新版的 Falkon。"
 
 #: lib/tools/certificateinfowidget.cpp:300
 msgctxt "QObject|"
@@ -5527,7 +5499,7 @@ msgid "Prevent this page from creating additional dialogs"
 msgstr "防止此頁建立額外對話窗"
 
 #: lib/webengine/webpage.cpp:320
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "WebPage|"
 #| msgid ""
 #| "QupZilla cannot handle <b>%1:</b> links. The requested link is <ul><li>"
@@ -5538,8 +5510,8 @@ msgid ""
 "Falkon cannot handle <b>%1:</b> links. The requested link is <ul><li>%2</"
 "li></ul>Do you want Falkon to try open this link in system application?"
 msgstr ""
-"QupZilla 無法處理 <b>%1:</b> 連結。請求的連結為 <ul><li>%2</li></ul>您想要讓 "
-"QupZilla 以系統應用程式試著開啟此連結嗎？"
+"Falkon 無法處理 <b>%1:</b> 連結。請求的連結為 <ul><li>%2</li></ul>您想要讓 "
+"Falkon 以系統應用程式試著開啟此連結嗎？"
 
 #: lib/webengine/webpage.cpp:325
 msgctxt "WebPage|"
@@ -5598,12 +5570,12 @@ msgid "Empty Page"
 msgstr "空頁面"
 
 #: lib/webengine/webview.cpp:406
-#, fuzzy, qt-format
+#, qt-format
 #| msgctxt "DownloadItem|"
 #| msgid "Done - %1 (%2)"
 msgctxt "WebView|"
 msgid "Falkon %1 (%2)"
-msgstr "完成 - %1 (%2)"
+msgstr "Falkon %1 (%2)"
 
 #: lib/webengine/webview.cpp:695
 msgctxt "WebView|"
@@ -5860,7 +5832,7 @@ msgstr "審查元素"
 #, qt-format
 msgctxt "WebTab|"
 msgid "%1 - Falkon"
-msgstr ""
+msgstr "%1 - Falkon"
 
 #~ msgctxt "JsOptions|"
 #~ msgid "Change window size"
@@ -5882,7 +5854,7 @@ msgstr ""
 #~ msgid "Dictionary"
 #~ msgstr "字典"
 
-#, fuzzy
+#
 #~| msgctxt "QupZillaSchemeReply|"
 #~| msgid "Translations"
 #~ msgctxt "FalkonSchemeReply|"
