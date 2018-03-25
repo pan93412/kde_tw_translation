@@ -7,19 +7,20 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2011, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-10-15 03:24+0200\n"
-"PO-Revision-Date: 2014-08-17 17:37+0800\n"
-"Last-Translator: Franklin\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-03-24 22:52+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -113,10 +114,10 @@ msgid "Mute"
 msgstr "靜音"
 
 #: apps/kmix.cpp:278
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add View"
 msgid "Add new view"
-msgstr "新增檢視"
+msgstr "新增新的檢視"
 
 #: apps/kmix.cpp:811
 #, kde-format
@@ -129,10 +130,10 @@ msgid "Error"
 msgstr "錯誤"
 
 #: apps/kmix.cpp:818
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cannot add view - GUIProfile is invalid."
 msgid "Cannot add view - View already exists."
-msgstr "無法新增檢視 - GUIProfile 不合法。"
+msgstr "無法新增檢視 - 檢視已經存在。"
 
 #: apps/kmix.cpp:936 apps/kmixd.cpp:201
 #, kde-format
@@ -152,13 +153,16 @@ msgid "Mixer Hardware Information"
 msgstr "混音器硬體資訊"
 
 #: apps/kmix.cpp:1245
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The helper application is either not installed or not working."
 msgid ""
 "The helper application is either not installed or not working.\n"
 "\n"
 "%1"
-msgstr "輔助應用程式未安裝或無法運作。"
+msgstr ""
+"輔助應用程式未安裝或無法運作。\n"
+"\n"
+"%1"
 
 #: apps/kmix.cpp:1283 gui/dialogaddview.cpp:119 gui/dialogchoosebackends.cpp:84
 #: gui/dialogselectmaster.cpp:101
@@ -167,10 +171,10 @@ msgid "No sound card is installed or currently plugged in."
 msgstr "未安裝或未插入音效卡。"
 
 #: apps/kmix.cpp:1297
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mixer"
 msgid "Mixer (%1)"
-msgstr "混音器"
+msgstr "混音器 (%1)"
 
 #: apps/kmixctrl.cpp:36
 #, kde-format
@@ -877,33 +881,33 @@ msgid "Configure Channels"
 msgstr "設定聲道"
 
 #: gui/dialogviewconfiguration.cpp:170
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Configuration of the channels. Drag icon to update."
 msgid "Configure the visible channels. Drag icons between the lists to update."
-msgstr "設定聲道。拖曳圖示以更新。"
+msgstr "設定可見聲道。拖曳圖示至列表以更新。"
 
 #: gui/dialogviewconfiguration.cpp:262
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Visible channels"
 msgid "Visible channels:"
-msgstr "可顯示聲道"
+msgstr "可顯示聲道："
 
 #: gui/dialogviewconfiguration.cpp:265
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Available channels"
 msgid "Available channels:"
 msgstr "可用的聲道："
 
 #: gui/dialogviewconfiguration.cpp:280
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Hide the selected channel"
 msgid "Move the selected channel to the visible list"
-msgstr "隱藏選取的聲道"
+msgstr "移動選取的聲道至可見列表"
 
 #: gui/dialogviewconfiguration.cpp:288
 #, kde-format
 msgid "Move the selected channel to the available (hidden) list"
-msgstr ""
+msgstr "移動選取的頻道至支援（隱藏的）列表"
 
 #: gui/dialogviewconfiguration.cpp:361
 #, kde-format
@@ -1164,10 +1168,10 @@ msgid "Automatic According to Category"
 msgstr "根據類別決定"
 
 #: gui/viewbase.cpp:101
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Configure Channels"
 msgid "Configure this view"
-msgstr "設定聲道"
+msgstr "設定顯示"
 
 #: gui/viewbase.cpp:162
 #, kde-format
@@ -1180,10 +1184,10 @@ msgid "Device Settings"
 msgstr "裝置設定"
 
 #: gui/viewdockareapopup.cpp:369
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show Mixer Window"
 msgid "Show the full mixer window"
-msgstr "顯示混音器視窗"
+msgstr "顯示完整混音器視窗"
 
 #: gui/viewdockareapopup.cpp:405
 #, kde-format

@@ -9,14 +9,15 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2011, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-23 03:29+0100\n"
-"PO-Revision-Date: 2016-11-15 22:17+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-24 22:37+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -255,10 +256,10 @@ msgid "Remove UML object : %1"
 msgstr "移除 UML 物件：%1"
 
 #: cmds/generic/cmdrenameumlinstancetype.cpp:25
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Rename object : %1 to %2"
 msgid "Rename type: %1 to %2"
-msgstr "重新命名物件：%1 到 %2"
+msgstr "重新命名類型：%1 到 %2"
 
 #: cmds/generic/cmdrenameumlobject.cpp:25
 #, kde-format
@@ -2668,7 +2669,7 @@ msgid "Default operation scope:"
 msgstr "預設操作範圍："
 
 #: dialogs/pages/classoptionspage.cpp:344
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Attribute Signature"
 msgid "Attribute Signatures"
 msgstr "屬性簽名"
@@ -2709,7 +2710,7 @@ msgstr "解決相依性（會降低匯入速度）"
 #: dialogs/pages/codeimportoptionspage.ui:80
 #, kde-format
 msgid "Enable C++11 standard (experimental)"
-msgstr ""
+msgstr "啟用 C++11 標準（實驗性的）"
 
 #: dialogs/pages/constraintlistpage.cpp:84
 #: dialogs/pages/constraintlistpage.cpp:86 listpopupmenu.cpp:1606
@@ -3366,10 +3367,10 @@ msgid "&Name:"
 msgstr "名稱(&N)："
 
 #: dialogs/umlattributedialog.cpp:87 dialogs/umloperationdialog.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Classifier scope (\"static\")"
 msgid "Classifier &scope (\"static\")"
-msgstr "分類別範圍（\"static\"）"
+msgstr "分類別範圍（\"static\"） (&S)"
 
 #: dialogs/umlattributedialog.cpp:116 dialogs/umlenumliteraldialog.cpp:87
 #: dialogs/umlinstanceattributedialog.cpp:42
@@ -3425,16 +3426,16 @@ msgid "&Name:"
 msgstr "名稱(&N)："
 
 #: dialogs/umlentityattributedialog.cpp:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default Value:"
 msgid "&Default value:"
-msgstr "預設值："
+msgstr "預設值 (&D)："
 
 #: dialogs/umlentityattributedialog.cpp:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Length:"
 msgid "Length/Values:"
-msgstr "長度："
+msgstr "長度 / 值："
 
 #: dialogs/umlentityattributedialog.cpp:89
 #, kde-format
@@ -3442,10 +3443,10 @@ msgid "&Auto increment"
 msgstr "自動遞增(&A)"
 
 #: dialogs/umlentityattributedialog.cpp:93
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Allow Null"
 msgid "Allow &null"
-msgstr "允許為 null"
+msgstr "允許為 null (&N)"
 
 #: dialogs/umlentityattributedialog.cpp:100
 #, kde-format
@@ -3458,10 +3459,10 @@ msgid "Indexing"
 msgstr "索引"
 
 #: dialogs/umlentityattributedialog.cpp:121
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Not Inde&xed"
 msgid "&Not Indexed"
-msgstr "未建索引(&X)"
+msgstr "未建索引(&N)"
 
 #. i18n("&Primary"), m_pScopeGB);
 #. scopeLayout->addWidget(m_pPublicRB);
@@ -3470,10 +3471,10 @@ msgstr "未建索引(&X)"
 #. scopeLayout->addWidget(m_pProtectedRB);
 #.
 #: dialogs/umlentityattributedialog.cpp:132
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "I&ndexed"
 msgid "&Indexed"
-msgstr "已建索引(&N)"
+msgstr "已建索引(&I)"
 
 #: dialogs/umlentityattributedialog.cpp:170
 #, kde-format
@@ -3675,22 +3676,22 @@ msgid "&Name:"
 msgstr "名稱(&N)："
 
 #: dialogs/umloperationdialog.cpp:107
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Abstract Operation"
 msgid "&Abstract operation"
-msgstr "抽象操作"
+msgstr "抽象操作 (&A)"
 
 #: dialogs/umloperationdialog.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Query (\"const\")"
 msgid "&Query (\"const\")"
-msgstr "查詢（\"const\"）"
+msgstr "查詢（\"const\"） (&Q)"
 
 #: dialogs/umloperationdialog.cpp:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Overwrite"
 msgid "&Override"
-msgstr "覆蓋檔案(&O)"
+msgstr "覆寫 (&O)"
 
 #: dialogs/umloperationdialog.cpp:126
 #, kde-format
@@ -3869,10 +3870,10 @@ msgid "Package path:"
 msgstr "套件路徑："
 
 #: dialogs/widgets/umlstereotypewidget.cpp:96
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Stereotype name:"
 msgid "&Stereotype name:"
-msgstr "模板造型名稱："
+msgstr "模板造型名稱 (&S)："
 
 #: dialogs/widgets/visibilityenumwidget.cpp:31
 #, kde-format
@@ -4026,8 +4027,7 @@ msgstr "Umbrello UML 建模工具自動程式碼產生器"
 msgid ""
 "(c) 2006 Gael de Chalendar (aka Kleag), (c) 2002-2006 Umbrello UML Modeller "
 "Authors"
-msgstr ""
-"(c) 2006 Gael de Chalendar (aka Kleag), (c) 2002-2006 Umbrello 建模工具作者群"
+msgstr "(c) 2006 Gael de Chalendar (aka Kleag), (c) 2002-2006 Umbrello 建模工具作者群"
 
 #: docgenerators/main.cpp:55
 #, kde-format
@@ -4371,10 +4371,10 @@ msgid "Text Line..."
 msgstr "文字線條..."
 
 #: listpopupmenu.cpp:985
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Auto Increment"
 msgid "Auto resize"
-msgstr "自動遞增"
+msgstr "自動調整大小"
 
 #: listpopupmenu.cpp:1000
 #, kde-format
@@ -4624,10 +4624,10 @@ msgid "Use Case..."
 msgstr "用例..."
 
 #: listpopupmenu.cpp:1539 listpopupmenu.cpp:1584
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Closing file..."
 msgid "from file..."
-msgstr "正在關閉檔案..."
+msgstr "來自檔案.."
 
 #: listpopupmenu.cpp:1544
 #, kde-format
@@ -4635,11 +4635,11 @@ msgid "Package..."
 msgstr "套件..."
 
 #: listpopupmenu.cpp:1548
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Instance"
 msgctxt "new instance menu item"
 msgid "Instance..."
-msgstr "實體"
+msgstr "實體..."
 
 #: listpopupmenu.cpp:1551 worktoolbar.cpp:346
 #, kde-format
@@ -4783,10 +4783,10 @@ msgid "Snap to Grid"
 msgstr "貼齊格線"
 
 #: listpopupmenu.cpp:2083
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Snap component size"
 msgid "Snap Component Size to Grid"
-msgstr "貼齊元件大小"
+msgstr "貼齊元件大小至網格"
 
 #: listpopupmenu.cpp:2085
 #, kde-format
@@ -4819,7 +4819,7 @@ msgid "Umbrello UML Modeller"
 msgstr "Umbrello UML 建模工具"
 
 #: main.cpp:124
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Umbrello – Visual development environment for software, based on the "
 #| "industry standard Unified Modelling Language (UML).<br/>See also <a "
@@ -4830,17 +4830,17 @@ msgid ""
 "\"http://www.omg.org/spec/\">http://www.omg.org/spec/</a>."
 msgstr ""
 "Umbrello – 軟體的視覺化開發環境，基於工業標準的統一塑模語言 (UML)。<br/>參見 "
-"<a href=’http://www.omg.org/spec/’>http://www.omg.org/spec/</a>。"
+"<a href=\"http://www.omg.org/spec/’>http://www.omg.org/spec/</a>。"
 
 #: main.cpp:128
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Copyright © 2001 Paul Hensgen,\n"
 #| "Copyright © 2002-2016 Umbrello UML Modeller Authors"
 msgid ""
 "Copyright © 2001 Paul Hensgen,\n"
 "Copyright © 2002-2018 Umbrello UML Modeller Authors"
-msgstr "(c) 2001 Paul Hensgen, (c) 2002-2016 Umbrello UML 建模工具作者"
+msgstr "(c) 2001 Paul Hensgen, (c) 2002-2018 Umbrello UML 建模工具作者"
 
 #: main.cpp:131
 #, kde-format
@@ -4928,10 +4928,10 @@ msgid "import files"
 msgstr "匯入檔案"
 
 #: main.cpp:158
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "All Supported Files"
 msgid "list supported languages"
-msgstr "所有支援的檔案"
+msgstr "列出支援的語言"
 
 #: main.cpp:159
 #, kde-format
@@ -4941,16 +4941,16 @@ msgid ""
 msgstr "在目標目錄中的文件裡保留用於儲存檢視的樹狀結構"
 
 #: main.cpp:160
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Import from Directory..."
 msgid "import files from directory <dir>"
-msgstr "從目錄匯入..."
+msgstr "從目錄匯入 <dir>"
 
 #: main.cpp:164
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Active &Language"
 msgid "set active language"
-msgstr "啟動語言(&L)"
+msgstr "設定使用中的語言"
 
 #: model_utils.cpp:485
 #, kde-format
@@ -5793,13 +5793,13 @@ msgstr "匯入檔案時解決相依性問題"
 #: umbrello.kcfg:326
 #, kde-format
 msgid "Support C++11 standard"
-msgstr ""
+msgstr "支援 C++11 標準"
 
 #. i18n: ectx: whatsthis, entry (supportCPP11), group (Code Importer)
 #: umbrello.kcfg:327
 #, kde-format
 msgid "Support C++11 standard on code import"
-msgstr ""
+msgstr "支援代碼匯入的 C++11 標準"
 
 #. i18n: ectx: label, entry (autoGenEmptyConstructors), group (Code Generation)
 #: umbrello.kcfg:333
@@ -6296,10 +6296,10 @@ msgstr "代碼(&C)"
 
 #. i18n: ectx: Menu (active_lang_menu)
 #: umbrelloui.rc.cmake:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Active &Language"
 msgid "Active &Language"
-msgstr "啟動語言(&L)"
+msgstr "使用中語言(&L)"
 
 #. i18n: ectx: Menu (settings)
 #: umbrelloui.rc.cmake:83
@@ -6669,7 +6669,7 @@ msgstr ""
 "xmi.tar.bz2 | Bzip2 壓縮過的 XMI 檔案 (*.xmi.tar.bz2);;* | 所有檔案 (*)"
 
 #: uml.cpp:1372
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "*.xmi|XMI File\n"
 #| "*.xmi.tgz|Gzip Compressed XMI File\n"
@@ -7379,7 +7379,7 @@ msgid "Enter the new name of the diagram:"
 msgstr "輸入圖表的新名稱："
 
 #: umlscene.cpp:3150
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to import stack trace."
 msgid "Failed to import from file."
 msgstr "匯入堆疊追蹤失敗。"
@@ -7720,16 +7720,16 @@ msgid "new precondition"
 msgstr "新的先決條件"
 
 #: umlwidgets/toolbarstateonewidget.cpp:191
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "new Signal"
 msgid "new pin"
-msgstr "新信號"
+msgstr "新 pin"
 
 #: umlwidgets/toolbarstateonewidget.cpp:192
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enter the port"
 msgid "Enter the Pin"
-msgstr "輸入連接埠"
+msgstr "輸入 Pin"
 
 #: umlwidgets/toolbarstateonewidget.cpp:198
 #, kde-format

@@ -1,10 +1,11 @@
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-11-29 03:10+0100\n"
-"PO-Revision-Date: 2017-01-29 21:24+0800\n"
-"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"PO-Revision-Date: 2018-03-24 22:27+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -28,11 +29,10 @@ msgstr "分析器前端"
 msgid ""
 "KCachegrind is a profile data visualization tool, used to determine the most "
 "time consuming parts in the execution of a program."
-msgstr ""
+msgstr "KCachegrind 是一個配置檔案可視化工具，用於確定執行程序中最耗時的部分。"
 
 #. (itstool) path: description/p
 #: org.kde.kcachegrind.appdata.xml:12
-#, fuzzy
 msgid "Features:"
 msgstr "功能："
 
@@ -43,6 +43,8 @@ msgid ""
 "applications in various ways, including call graph vizualisations and source/"
 "disassembler annotation."
 msgstr ""
+"KCachegrind 使用各種方式可視化程式的配置檔案（例如：執行庫特點），"
+"包含使用圖行可視化和來源 / 反彙編註釋。"
 
 #. (itstool) path: ul/li
 #: org.kde.kcachegrind.appdata.xml:16
@@ -52,23 +54,27 @@ msgid ""
 "with shared libraries and plugin architectures, and does not influence the "
 "measuring itself."
 msgstr ""
+"它可以載入生成自快取模擬 / call tracer Calltree 配置檔案，"
+"一個 Valgrind 工具。 因此，分析不需要任何的準備，"
+"可以應付函式庫和附加元件架構，並沒有影響測量自己。"
 
 #. (itstool) path: ul/li
 #: org.kde.kcachegrind.appdata.xml:18
 msgid "Converter scripts for OProfile, Perl, and PHP."
-msgstr ""
+msgstr "OProfile、Perl 和 PHP 的轉換指令"
 
 #. (itstool) path: ul/li
 #: org.kde.kcachegrind.appdata.xml:19
 msgid "Switching between multiple visualization layouts."
-msgstr ""
+msgstr "切換於多個可視化版面。"
 
 #. (itstool) path: ul/li
 #: org.kde.kcachegrind.appdata.xml:20
 msgid "Call graph can be exported as image (PNG)."
-msgstr ""
+msgstr "Call 圖形可以匯出為圖片（PNG）。"
 
 #. (itstool) path: ul/li
 #: org.kde.kcachegrind.appdata.xml:21
 msgid "Simultaneous display of 2 event types in Call and Annotation View"
-msgstr ""
+msgstr "在 Call 和註解顯示中同時顯示兩個活動類型"
+

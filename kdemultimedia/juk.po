@@ -4,19 +4,20 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-18 03:20+0100\n"
-"PO-Revision-Date: 2014-10-16 10:51+0800\n"
-"Last-Translator: Franklin\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-03-24 22:45+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -446,10 +447,10 @@ msgstr "插入類別"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: filerenamerbase.ui:135
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add category:"
 msgid "&Add category:"
-msgstr "新增類別"
+msgstr "新增類別 (&A)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_7)
 #: filerenamerbase.ui:145
@@ -848,10 +849,10 @@ msgstr ""
 "Lyrics_Wiki'>LyricWiki</a> 提供。</i>"
 
 #: main.cpp:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Jukebox and music manager by KDE"
 msgid "Jukebox and music manager by the KDE community"
-msgstr "KDE 的音樂管理與播放器"
+msgstr "來自 KDE 社區的音樂管理與播放器"
 
 #: main.cpp:35
 #, kde-format
@@ -958,16 +959,16 @@ msgid "MPRIS2 Interface implementation."
 msgstr "MPRIS2 介面實作。"
 
 #: main.cpp:55
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Porting to KDE 4 when no one else was around"
 msgid "Porting to KF5 when no one else was around"
-msgstr "獨自移植到 KDE4"
+msgstr "第一個獨自移植到 KDE5 的程序"
 
 #: main.cpp:64
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "© 2002–2014, Scott Wheeler, Michael Pyne, and others"
 msgid "© 2002–2017, Scott Wheeler, Michael Pyne, and others"
-msgstr "© 2002–2014, Scott Wheeler, Michael Pyne，以及其他人"
+msgstr "© 2002–2017, Scott Wheeler, Michael Pyne，以及其他人"
 
 #: main.cpp:68
 #, kde-format
@@ -982,7 +983,7 @@ msgstr "Michael Pyne"
 #: main.cpp:70
 #, kde-format
 msgid "Kacper Kasper"
-msgstr ""
+msgstr "Kacper Kasper"
 
 #: main.cpp:71
 #, kde-format
@@ -1100,10 +1101,10 @@ msgid "Open"
 msgstr "開啟"
 
 #: mediafiles.cpp:139
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Search Playlist"
 msgid "Save Playlist"
-msgstr "搜尋播放清單"
+msgstr "儲存播放清單"
 
 #: musicbrainzquery.cpp:39
 #, kde-format
@@ -1166,7 +1167,7 @@ msgstr "選擇封面圖片檔"
 #: playlist.cpp:614
 #, kde-format
 msgid "Images (*.png *.jpg)"
-msgstr ""
+msgstr "圖片 (*.png *.jpg)"
 
 #: playlist.cpp:767
 #, kde-format
@@ -1527,7 +1528,7 @@ msgid "Test login..."
 msgstr "測試登入..."
 
 #: scrobbleconfigdlg.cpp:50
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Please enter your <a href=\"http://last.fm/\">last.fm</a> login "
 #| "credentials:"
@@ -2033,7 +2034,7 @@ msgid "Cover found"
 msgstr "找到封面"
 
 #: webimagefetcher.cpp:191
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cover fetched from <a href='http://last.fm/'>last.fm</a>."
 msgid "Cover fetched from <a href='https://last.fm/'>last.fm</a>."
 msgstr "封面從 <a href='http://last.fm/'>last.fm</a> 擷取。"

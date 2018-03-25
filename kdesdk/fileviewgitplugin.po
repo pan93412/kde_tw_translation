@@ -4,14 +4,15 @@
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2012.
 # Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-02-10 03:18+0100\n"
-"PO-Revision-Date: 2016-11-15 21:17+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-24 22:10+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -217,16 +218,16 @@ msgid "<application>Git</application> Pull..."
 msgstr "<application>Git</application> 從上游合併..."
 
 #: fileviewgitplugin.cpp:111
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid "<application>Git</application> Push..."
 msgid "<application>Git</application> Merge..."
-msgstr "<application>Git</application> 傳回上游..."
+msgstr "<application>Git</application> 合併…"
 
 #: fileviewgitplugin.cpp:115
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid "<application>Git</application> Commit..."
 msgid "<application>Git</application> Log..."
-msgstr "<application>Git</application> 提交..."
+msgstr "<application>Git</application> 紀錄..."
 
 #: fileviewgitplugin.cpp:398
 #, kde-kuit-format
@@ -274,19 +275,19 @@ msgid "Reverted files from <application>Git</application> repository."
 msgstr "已將檔案從 <application>Git</application> 主目錄回復。"
 
 #: fileviewgitplugin.cpp:453
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid "<application>Git</application> tag creation failed."
 msgid "<application>Git</application> Log failed."
-msgstr "<application>Git</application> 標籤建立失敗。"
+msgstr "<application>Git</application> 紀錄失敗。"
 
 #: fileviewgitplugin.cpp:472
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid "<application>Git</application> Add"
 msgid "<application>Git</application> Log"
-msgstr "<application>Git</application> 新增"
+msgstr "<application>Git</application> 記錄"
 
 #: fileviewgitplugin.cpp:488
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Commit"
 msgctxt "Git commit hash"
@@ -297,21 +298,21 @@ msgstr "提交"
 #, kde-format
 msgctxt "Git commit date"
 msgid "Date"
-msgstr ""
+msgstr "提交日期"
 
 #: fileviewgitplugin.cpp:490
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Tag Message:"
 msgctxt "Git commit message"
 msgid "Message"
-msgstr "標籤訊息："
+msgstr "提交訊息"
 
 #: fileviewgitplugin.cpp:491
 #, kde-format
 msgctxt "Git commit author"
 msgid "Author"
-msgstr ""
+msgstr "提交者"
 
 #: fileviewgitplugin.cpp:535
 #, kde-kuit-format
@@ -536,3 +537,4 @@ msgstr "標籤名稱不能包含空白。"
 msgctxt "@info:tooltip"
 msgid "A tag named '%1' already exists."
 msgstr "名為 '%1 的標籤已經存在。"
+
