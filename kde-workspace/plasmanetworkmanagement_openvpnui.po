@@ -3,14 +3,15 @@
 #
 # Franklin, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-11-16 03:32+0100\n"
-"PO-Revision-Date: 2017-04-17 22:48+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 14:13+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -398,10 +399,10 @@ msgstr "在指定秒數後重新協調資料頻道金鑰"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseCustomReneg)
 #: openvpnadvanced.ui:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Use custom renegotiation interval"
 msgid "Use custom renegotiation interval:"
-msgstr "使用自訂的協定溝通間隔"
+msgstr "使用自訂的協定溝通間隔："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseLZO)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbUseLZO)
@@ -667,8 +668,7 @@ msgid ""
 "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
 "Cipher\n"
 "Block Chaining mode)."
-msgstr ""
-"將封包加密。預設演算法為 BF-CBC（Blowfish in Cipher Block Chining）模式。"
+msgstr "將封包加密。預設演算法為 BF-CBC（Blowfish in Cipher Block Chining）模式。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: openvpnadvanced.ui:474
@@ -931,11 +931,11 @@ msgstr "使用額外的 HMAC 認證"
 #: openvpnadvanced.ui:856
 #, kde-format
 msgid "Mode:"
-msgstr ""
+msgstr "模式："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboTLSMode)
 #: openvpnadvanced.ui:864
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "No \"Key Direction\""
 #| msgid "None"
 msgid "None"
@@ -945,13 +945,13 @@ msgstr "無"
 #: openvpnadvanced.ui:869
 #, kde-format
 msgid "TLS-Auth"
-msgstr ""
+msgstr "TLS 認證"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboTLSMode)
 #: openvpnadvanced.ui:874
 #, kde-format
 msgid "TLS-Crypt"
-msgstr ""
+msgstr "TLS 加密"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel4_3)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kurlTlsAuthKey)
@@ -997,7 +997,7 @@ msgstr "代理伺服器"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_11)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbProxyType)
 #: openvpnadvanced.ui:980 openvpnadvanced.ui:1005
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Proxy type: HTTP or Socks"
 msgid "Proxy type: HTTP or SOCKS"
 msgstr "代理伺服器型態：HTTP 或 Socks"
@@ -1063,7 +1063,7 @@ msgstr "連接埠："
 #. i18n: ectx: property (toolTip), widget (QLabel, label_14)
 #. i18n: ectx: property (toolTip), widget (PasswordField, proxyUsername)
 #: openvpnadvanced.ui:1100 openvpnadvanced.ui:1113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "HTTP/Socks proxy username passed to OpenVPN when prompted for it."
 msgid "HTTP/SOCKS proxy username passed to OpenVPN when prompted for it."
 msgstr "當跳出提示時，傳送給 OpenVPN 的 HTTP/Socks 代理伺服器使用者名稱。"
@@ -1077,7 +1077,7 @@ msgstr "代理伺服器使用者名稱："
 #. i18n: ectx: property (toolTip), widget (QLabel, label_15)
 #. i18n: ectx: property (toolTip), widget (PasswordField, proxyPassword)
 #: openvpnadvanced.ui:1123 openvpnadvanced.ui:1138
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "HTTP/Socks proxy password passed to OpenVPN when prompted for it."
 msgid "HTTP/SOCKS proxy password passed to OpenVPN when prompted for it."
 msgstr "當跳出提示時，傳送給 OpenVPN 的 HTTP/Socks 代理伺服器密碼。"

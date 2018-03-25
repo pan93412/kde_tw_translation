@@ -3,14 +3,15 @@
 #
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
 # Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-02-11 03:23+0100\n"
-"PO-Revision-Date: 2016-11-03 19:45+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 13:47+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,7 +153,7 @@ msgstr "氣象站"
 #: package/contents/config/config.qml:30
 #, kde-format
 msgid "Appearance"
-msgstr ""
+msgstr "個人化"
 
 #: package/contents/config/config.qml:36
 #, kde-format
@@ -162,7 +163,7 @@ msgstr "單位"
 #: package/contents/ui/config/ConfigAppearance.qml:56
 #, kde-format
 msgid "Show temperature in compact mode:"
-msgstr ""
+msgstr "在緊湊模式顯示溫度："
 
 #: package/contents/ui/config/ConfigUnits.qml:67
 #, kde-format
@@ -204,7 +205,7 @@ msgstr "位置："
 #: package/contents/ui/config/ConfigWeatherStation.qml:150
 #, kde-format
 msgid "Select weather services providers"
-msgstr ""
+msgstr "顯示天氣服務提供者"
 
 #: package/contents/ui/config/ConfigWeatherStation.qml:168
 #, kde-format
@@ -236,20 +237,20 @@ msgid "%1 %2"
 msgstr "%1 %2"
 
 #: package/contents/ui/NoticesView.qml:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "weather warnings"
 #| msgid "Warnings Issued:"
 msgctxt "weather warnings"
 msgid "Warnings Issued"
-msgstr "警告項目："
+msgstr "警告項目"
 
 #: package/contents/ui/NoticesView.qml:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "weather watches"
 #| msgid "Watches Issued:"
 msgctxt "weather watches"
 msgid "Watches Issued"
-msgstr "監看項目："
+msgstr "監看項目"
 
 #: package/contents/ui/SwitchPanel.qml:54
 #, kde-format
@@ -350,7 +351,7 @@ msgid "Miles"
 msgstr "英哩"
 
 #: plugin/servicelistmodel.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "A weather station location and the weather service it comes from"
 #| msgid "%1 (%2)"
 msgctxt "weather services provider name (id)"

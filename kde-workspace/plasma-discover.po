@@ -3,14 +3,15 @@
 #
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-20 03:34+0100\n"
-"PO-Revision-Date: 2017-07-30 21:43+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-03-25 14:11+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,10 +85,10 @@ msgid "An application explorer"
 msgstr "應用程式探詢器"
 
 #: discover/main.cpp:97
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "© 2010-2016 Plasma Development Team"
 msgid "© 2010-2018 Plasma Development Team"
-msgstr "© 2010-2016 Plasma 開發團隊"
+msgstr "© 2010-2018 Plasma 開發團隊"
 
 #: discover/main.cpp:98
 #, kde-format
@@ -132,13 +133,13 @@ msgstr "更多..."
 #: discover/qml/AddSourceDialog.qml:49
 #, kde-format
 msgid "Add a new %1 repository"
-msgstr ""
+msgstr "增加一個新的 %1 軟體庫"
 
 #: discover/qml/AddSourceDialog.qml:74
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Addons"
 msgid "Add"
-msgstr "外加功能"
+msgstr "新增"
 
 #: discover/qml/AddSourceDialog.qml:86 discover/qml/DiscoverWindow.qml:187
 #: discover/qml/UpdatesPage.qml:54
@@ -147,58 +148,58 @@ msgid "Cancel"
 msgstr "取消"
 
 #: discover/qml/ApplicationPage.qml:56
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Source:"
 msgid "Sources"
-msgstr "來源："
+msgstr "來源"
 
 #: discover/qml/ApplicationPage.qml:154
 #, kde-format
 msgid "What's New"
-msgstr ""
+msgstr "發掘新項目"
 
 #: discover/qml/ApplicationPage.qml:192
 #, kde-format
 msgid "Reviews"
-msgstr "回顧"
+msgstr "評論"
 
 #: discover/qml/ApplicationPage.qml:218
 #, kde-format
 msgid "Be the first to write a review!"
-msgstr ""
+msgstr "當第一個撰寫評論的人吧！"
 
 #: discover/qml/ApplicationPage.qml:218
 #, kde-format
 msgid "Install this app and be the first to write a review!"
-msgstr ""
+msgstr "安裝這個應用程式，然後當第一個評論這個程式的人！"
 
 #: discover/qml/ApplicationPage.qml:226
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show reviews (%1)..."
 msgid "Show all %1 reviews..."
-msgstr "顯示審閱（%1）..."
+msgstr "顯示 %1 的所有評論"
 
 #: discover/qml/ApplicationPage.qml:247
 #, kde-format
 msgid "Category:"
-msgstr ""
+msgstr "分類："
 
 #: discover/qml/ApplicationPage.qml:259
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Version: %1"
 msgid "Version:"
-msgstr "版本：%1"
+msgstr "版本："
 
 #: discover/qml/ApplicationPage.qml:273
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Size: %1"
 msgid "Size:"
-msgstr "大小：%1"
+msgstr "大小："
 
 #: discover/qml/ApplicationPage.qml:278
 #, kde-format
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: discover/qml/ApplicationPage.qml:284
 #, kde-format
@@ -211,7 +212,7 @@ msgid "License:"
 msgstr "授權："
 
 #: discover/qml/ApplicationPage.qml:313
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Homepage: "
 msgid "Homepage:"
 msgstr "首頁："
@@ -219,22 +220,22 @@ msgstr "首頁："
 #: discover/qml/ApplicationPage.qml:329
 #, kde-format
 msgid "User Guide:"
-msgstr ""
+msgstr "用戶指南："
 
 #: discover/qml/ApplicationPage.qml:345
 #, kde-format
 msgid "Donate:"
-msgstr ""
+msgstr "贊助："
 
 #: discover/qml/ApplicationPage.qml:361
 #, kde-format
 msgid "Report a Problem:"
-msgstr ""
+msgstr "回報問題："
 
 #: discover/qml/ApplicationsListPage.qml:68
 #, kde-format
 msgid "Sort"
-msgstr ""
+msgstr "排序"
 
 #: discover/qml/ApplicationsListPage.qml:71
 #, kde-format
@@ -247,15 +248,15 @@ msgid "Rating"
 msgstr "評分"
 
 #: discover/qml/ApplicationsListPage.qml:91
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Size: %1"
 msgid "Size"
-msgstr "大小：%1"
+msgstr "大小"
 
 #: discover/qml/ApplicationsListPage.qml:101
 #, kde-format
 msgid "Release Date"
-msgstr ""
+msgstr "釋出日期"
 
 #: discover/qml/ApplicationsListPage.qml:142
 #, kde-format
@@ -270,7 +271,7 @@ msgstr "依然在尋找中..."
 #: discover/qml/BrowsingPage.qml:33
 #, kde-format
 msgid "Featured"
-msgstr ""
+msgstr "功能"
 
 #: discover/qml/DiscoverWindow.qml:48
 #, kde-format
@@ -278,10 +279,10 @@ msgid "Running as <em>root</em> is discouraged and unnecessary."
 msgstr "以 <em>root</em> 身份執行是不被鼓勵且不需要的。"
 
 #: discover/qml/DiscoverWindow.qml:62
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Search..."
 msgid "Search"
-msgstr "搜尋..."
+msgstr "搜尋"
 
 #: discover/qml/DiscoverWindow.qml:69 discover/qml/InstalledPage.qml:15
 #, kde-format
@@ -310,10 +311,10 @@ msgid "Settings"
 msgstr "設定"
 
 #: discover/qml/DiscoverWindow.qml:123
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Short summary..."
 msgid "Sorry..."
-msgstr "簡短摘要..."
+msgstr "抱歉 ..."
 
 #: discover/qml/DiscoverWindow.qml:126
 #, kde-format
@@ -328,7 +329,7 @@ msgstr "找不到資源：%1"
 #: discover/qml/DiscoverWindow.qml:177
 #, kde-format
 msgid "Proceed"
-msgstr ""
+msgstr "繼續"
 
 #: discover/qml/InstallApplicationButton.qml:14
 #, kde-format
@@ -379,17 +380,17 @@ msgstr "工作"
 #, kde-format
 msgctxt "TransactioName TransactionStatus"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: discover/qml/ReviewDelegate.qml:37
 #, kde-format
 msgid "<em>Tell us about this review!</em>"
-msgstr "<em>告訴我們關於此回顧！</em>"
+msgstr "<em>告訴我們關於這個評論！</em>"
 
 #: discover/qml/ReviewDelegate.qml:38
 #, kde-format
 msgid "<em>%1 out of %2 people found this review useful</em>"
-msgstr "<em>%2 個人中的 %1 個覺得這個回顧很有用</em>"
+msgstr "<em>%2 個人中的 %1 個覺得這個評論很有用</em>"
 
 #: discover/qml/ReviewDelegate.qml:47
 #, kde-format
@@ -402,22 +403,20 @@ msgid "<b>%1</b> by %2"
 msgstr "<b>%1</b> 由 %2"
 
 #: discover/qml/ReviewDelegate.qml:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Comments"
 msgid "Comment by %1"
-msgstr "註解"
+msgstr "來自 %1 的註解"
 
 #: discover/qml/ReviewDelegate.qml:73
 #, kde-format
 msgid "<em>Useful? <a href='true'><b>Yes</b></a>/<a href='false'>No</a></em>"
-msgstr ""
-"<em>有用嗎？<a href='true'><b>是的</b></a>/<a href='false'>沒用</a></em>"
+msgstr "<em>有用嗎？<a href='true'><b>是的</b></a>/<a href='false'>沒用</a></em>"
 
 #: discover/qml/ReviewDelegate.qml:76
 #, kde-format
 msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'><b>No</b></a></em>"
-msgstr ""
-"<em>有用嗎？<a href='true'>是的</a>/<a href='false'><b>沒用</b></a></em>"
+msgstr "<em>有用嗎？<a href='true'>是的</a>/<a href='false'><b>沒用</b></a></em>"
 
 #: discover/qml/ReviewDelegate.qml:79
 #, kde-format
@@ -427,7 +426,7 @@ msgstr "<em>有用嗎？<a href='true'>是的</a>/<a href='false'>沒用</a></em
 #: discover/qml/ReviewDialog.qml:21
 #, kde-format
 msgid "Reviewing '%1'"
-msgstr "正在回顧「%1」"
+msgstr "正在評論「%1」"
 
 #: discover/qml/ReviewDialog.qml:22
 #, kde-format
@@ -437,52 +436,52 @@ msgstr "評分："
 #: discover/qml/ReviewDialog.qml:30
 #, kde-format
 msgid "Submission name: %1"
-msgstr ""
+msgstr "提交名稱：%1"
 
 #: discover/qml/ReviewDialog.qml:32
 #, kde-format
 msgid "Title:"
-msgstr ""
+msgstr "標題："
 
 #: discover/qml/ReviewDialog.qml:38
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Review"
 msgid "Review:"
-msgstr "回顧"
+msgstr "評論："
 
 #: discover/qml/ReviewDialog.qml:51
 #, kde-format
 msgid "Enter a rating"
-msgstr ""
+msgstr "輸入一個評論"
 
 #: discover/qml/ReviewDialog.qml:52
 #, kde-format
 msgid "Write a title"
-msgstr ""
+msgstr "撰寫一個標題"
 
 #: discover/qml/ReviewDialog.qml:53
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid "Updating..."
 msgid "Keep writing..."
-msgstr "更新中..."
+msgstr "正在撰寫..."
 
 #: discover/qml/ReviewDialog.qml:54
 #, kde-format
 msgid "Too long!"
-msgstr ""
+msgstr "太長了！"
 
 #: discover/qml/ReviewDialog.qml:55
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Submit"
 msgid "Submit review"
-msgstr "提交"
+msgstr "提交評論"
 
 #: discover/qml/ReviewsPage.qml:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Review"
 msgid "Review..."
-msgstr "回顧"
+msgstr "評論 ..."
 
 #: discover/qml/SearchField.qml:32
 #, kde-format
@@ -497,18 +496,18 @@ msgstr "搜尋於 %1..."
 #: discover/qml/SourcesPage.qml:60
 #, kde-format
 msgid "%1 (Default)"
-msgstr ""
+msgstr "%1（預設值）"
 
 #: discover/qml/SourcesPage.qml:81
 #, kde-format
 msgid "Make default"
-msgstr ""
+msgstr "設為預設值"
 
 #: discover/qml/SourcesPage.qml:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add Source"
 msgid "Add Source..."
-msgstr "新增來源"
+msgstr "新增來源 ..."
 
 #: discover/qml/SourcesPage.qml:151
 #, kde-format
@@ -516,10 +515,10 @@ msgid "Delete the origin"
 msgstr "刪除來源"
 
 #: discover/qml/SourcesPage.qml:155
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unable to find resource: %1"
 msgid "Failed to remove the source '%1'"
-msgstr "找不到資源：%1"
+msgstr "無法移除資源「%1」"
 
 #: discover/qml/UpdatesPage.qml:15
 #, kde-format
@@ -554,22 +553,22 @@ msgstr "%1 (%2)"
 #: discover/qml/UpdatesPage.qml:220
 #, kde-format
 msgid "More Information..."
-msgstr ""
+msgstr "更多資訊..."
 
 #: discover/qml/UpdatesPage.qml:247
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid "Updating..."
 msgctxt "@info"
 msgid "Fetching..."
-msgstr "更新中..."
+msgstr "抓取中..."
 
 #: discover/qml/UpdatesPage.qml:248
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Checking for updates..."
 msgctxt "@info"
 msgid "Looking for updates"
-msgstr "正在檢查更新..."
+msgstr "正在檢查更新"
 
 #: discover/qml/UpdatesPage.qml:252
 #, kde-format
