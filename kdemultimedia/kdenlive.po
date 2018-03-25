@@ -1,11 +1,12 @@
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-20 03:28+0100\n"
-"PO-Revision-Date: 2016-10-20 11:14+0800\n"
-"Last-Translator: Jarrow Chu\n"
-"Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
+"PO-Revision-Date: 2018-03-25 15:37+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,12 +14,12 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: /usr/share/locale/zh_TW/LC_MESSAGES\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Lokalize 2.0\n"
 
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "幀數"
+msgstr "byStarTW"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -48,9 +49,9 @@ msgstr "調整聲道的左 / 右分散"
 
 #: data/effects/audiopan.xml:7 data/effects/channelcopy.xml:7
 #: data/effects/channelcopy.xml:11
-#, fuzzy, kde-format
+#, kde-format
 msgid "Left,Right"
-msgstr "右側"
+msgstr "左側、右側"
 
 #: data/effects/audiopan.xml:8 data/effects/frei0r_bezier_curves.xml:9
 #: data/effects/frei0r_curves.xml:9 data/effects/frei0r_curves.xml:66
@@ -130,22 +131,22 @@ msgid "Macroblock width"
 msgstr ""
 
 #: data/effects/automask.xml:13
-#, fuzzy, kde-format
+#, kde-format
 msgid "Macroblock height"
-msgstr "軌道高度"
+msgstr "宏塊高度"
 
 #: data/effects/automask.xml:16
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximum x distance"
-msgstr "最大顆粒數"
+msgstr "最大 x 距離"
 
 #: data/effects/automask.xml:19
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximum y distance"
-msgstr "最大顆粒數"
+msgstr "最大 y 距離"
 
 #: data/effects/automask.xml:22
-#, fuzzy, kde-format
+#, kde-format
 msgid "Denoise"
 msgstr "降噪"
 
@@ -161,7 +162,7 @@ msgstr "馬賽克遮蓋"
 
 #: data/effects/automask.xml:36 data/effects/loudness.xml:12
 #: data/effects/tracker.xml:38
-#, fuzzy, kde-format
+#, kde-format
 msgid "Analyse"
 msgstr "分析"
 
@@ -176,7 +177,7 @@ msgid "Box blur (separate horizontal and vertical blur)"
 msgstr ""
 
 #: data/effects/boxblur.xml:7
-#, fuzzy, kde-format
+#, kde-format
 msgid "Horizontal multiplicator"
 msgstr "水平乘數"
 
@@ -237,7 +238,7 @@ msgid "Charcoal drawing effect"
 msgstr "用炭筆繪畫的視訊效果"
 
 #: data/effects/charcoal.xml:7
-#, fuzzy, kde-format
+#, kde-format
 msgid "Horizontal scatter"
 msgstr "水平散佈"
 
@@ -343,9 +344,9 @@ msgid "Center balance"
 msgstr "中央平衡"
 
 #: data/effects/crop.xml:25
-#, fuzzy, kde-format
+#, kde-format
 msgid "Use project resolution"
-msgstr "視訊解析度"
+msgstr "使用專案解析度"
 
 #: data/effects/dust.xml:3
 #, kde-format
@@ -383,30 +384,30 @@ msgid "Font Family"
 msgstr ""
 
 #: data/effects/dynamictext.xml:13
-#, fuzzy, kde-format
+#, kde-format
 msgid "Font Size"
-msgstr "預覽視窗尺寸"
+msgstr "字體大小"
 
 #: data/effects/dynamictext.xml:16
-#, fuzzy, kde-format
+#, kde-format
 msgid "Font Weight"
-msgstr "字型粗細"
+msgstr "字重"
 
 #: data/effects/dynamictext.xml:25
-#, fuzzy, kde-format
+#, kde-format
 msgid "Outline Color"
-msgstr "外框色彩不透通度"
+msgstr "輪廓顏色"
 
 #: data/effects/dynamictext.xml:28
-#, fuzzy, kde-format
+#, kde-format
 msgid "Outline Width"
-msgstr "外框寬度"
+msgstr "輪廓寬度"
 
 #. i18n: ectx: property (text), widget (QLabel, padLabel)
 #: data/effects/dynamictext.xml:31 src/ui/qtextclip_ui.ui:194
-#, fuzzy, kde-format
+#, kde-format
 msgid "Padding"
-msgstr "正在載入"
+msgstr "填充"
 
 #: data/effects/dynamictext.xml:34
 #, kde-format
@@ -8355,8 +8356,7 @@ msgstr "截取畫面"
 msgid ""
 "You have changed the proxy parameters. Do you want to recreate all proxy "
 "clips for this project?"
-msgstr ""
-"您已經修改了項目的檔案夾。您是否要將緩衝區資料從 %1 複製到新檔案夾 %2？"
+msgstr "您已經修改了項目的檔案夾。您是否要將緩衝區資料從 %1 複製到新檔案夾 %2？"
 
 #: src/mainwindow.cpp:1755
 #, kde-format
@@ -11696,8 +11696,7 @@ msgstr "裁剪起點"
 msgid ""
 "Use Ctrl to resize only current item, otherwise all items in this group will "
 "be resized at once."
-msgstr ""
-"按下 Ctrl 鍵只調整目前項目的大小，否則將會調整這個組合中所有項目的大小。"
+msgstr "按下 Ctrl 鍵只調整目前項目的大小，否則將會調整這個組合中所有項目的大小。"
 
 #: src/timeline/managers/selectmanager.cpp:358
 #, fuzzy, kde-format
@@ -11729,8 +11728,7 @@ msgstr "點擊可加入轉場特效。"
 msgid ""
 "Move keyframe above or below clip to remove it, double click to add a new "
 "one."
-msgstr ""
-"將關鍵幀拖拽到素材外（上方或下方）可移除此關鍵幀，按兩下可添加新的關鍵幀。"
+msgstr "將關鍵幀拖拽到素材外（上方或下方）可移除此關鍵幀，按兩下可添加新的關鍵幀。"
 
 #: src/timeline/managers/trimmanager.cpp:84
 #, kde-format
