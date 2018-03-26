@@ -370,7 +370,8 @@ msgstr "在滑鼠游標位置開啟 Klipper"
 msgid ""
 "You can enable URL actions later by left-clicking on the Klipper icon and "
 "selecting 'Enable Clipboard Actions'"
-msgstr "您之後可以自行啟動 URL 動作。點擊 Klipper 圖示，然後選擇「開啟剪貼簿動作」"
+msgstr ""
+"您之後可以自行啟動 URL 動作。點擊 Klipper 圖示，然後選擇「開啟剪貼簿動作」"
 
 #: klipper.cpp:534
 #, kde-format
@@ -464,19 +465,14 @@ msgstr "忽略選取區"
 #. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
 #: klipper.kcfg:27
 #, kde-format
-#| msgid ""
-#| "<qt>When an area of the screen is selected with mouse or keyboard, this "
-#| "is called \"the selection\".<br/>If this option is set, the selection is "
-#| "not entered into the clipboard history, though it is still available for "
-#| "pasting using the middle mouse button.</qt>"
 msgid ""
 "When an area of the screen is selected with mouse or keyboard, this is "
 "called \"the selection\".<br/>If this option is set, the selection is not "
 "entered into the clipboard history, though it is still available for pasting "
 "using the middle mouse button."
 msgstr ""
-"當您使用滑鼠或鍵盤選取螢幕上的某個區塊的時候，這個區塊就叫作「選取區」。"
-"<br/>選取此選項時，選取區不會放入剪貼簿中，但是您還是可以用滑鼠中鍵將它貼上。"
+"當您使用滑鼠或鍵盤選取螢幕上的某個區塊的時候，這個區塊就叫作「選取區」。<br/>"
+"選取此選項時，選取區不會放入剪貼簿中，但是您還是可以用滑鼠中鍵將它貼上。"
 
 #. i18n: ectx: label, entry (SyncClipboards), group (General)
 #: klipper.kcfg:34
@@ -487,15 +483,6 @@ msgstr "同步剪貼簿和選取內容"
 #. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
 #: klipper.kcfg:36
 #, kde-format
-#| msgid ""
-#| "<qt>When an area of the screen is selected with mouse or keyboard, this "
-#| "is called \"the selection\".<br/>If this option is selected, the "
-#| "selection and the clipboard is kept the same, so that anything in the "
-#| "selection is immediately available for pasting elsewhere using any "
-#| "method, including the traditional middle mouse button. Otherwise, the "
-#| "selection is recorded in the clipboard history, but the selection can "
-#| "only be pasted using the middle mouse button. Also see the 'Ignore "
-#| "Selection' option.</qt>"
 msgid ""
 "When an area of the screen is selected with mouse or keyboard, this is "
 "called \"the selection\".<br/>If this option is selected, the selection and "
@@ -505,10 +492,10 @@ msgid ""
 "clipboard history, but the selection can only be pasted using the middle "
 "mouse button. Also see the 'Ignore Selection' option."
 msgstr ""
-"當您使用滑鼠或鍵盤選取螢幕上的某個區塊的時候，這個區塊就叫作「選取區」。"
-"<br/>選取此選項時，剪貼簿與選取區會保持同步，所以選取區的內容會馬上可以用任何"
-"方法貼到任何地方，包括用滑鼠中鍵。若未選取，則選取區會紀錄在剪貼簿中，但是只"
-"能用滑鼠中鍵貼上。此外請參考「忽略選取區」選項。"
+"當您使用滑鼠或鍵盤選取螢幕上的某個區塊的時候，這個區塊就叫作「選取區」。<br/>"
+"選取此選項時，剪貼簿與選取區會保持同步，所以選取區的內容會馬上可以用任何方法"
+"貼到任何地方，包括用滑鼠中鍵。若未選取，則選取區會紀錄在剪貼簿中，但是只能用"
+"滑鼠中鍵貼上。此外請參考「忽略選取區」選項。"
 
 #. i18n: ectx: label, entry (SelectionTextOnly), group (General)
 #: klipper.kcfg:39
@@ -519,19 +506,14 @@ msgstr "只有選取的文字"
 #. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
 #: klipper.kcfg:41
 #, kde-format
-#| msgid ""
-#| "<qt>When an area of the screen is selected with mouse or keyboard, this "
-#| "is called \"the selection\".<br/>If this option is selected, only text "
-#| "selections are stored in the history, while images and other selections "
-#| "are not.</qt>"
 msgid ""
 "When an area of the screen is selected with mouse or keyboard, this is "
 "called \"the selection\".<br/>If this option is selected, only text "
 "selections are stored in the history, while images and other selections are "
 "not."
 msgstr ""
-"當您使用滑鼠或鍵盤選取螢幕上的某個區塊的時候，這個區塊就叫作「選取區」。"
-"<br/>選取此選項時，只有文字會儲存在剪貼簿歷史紀錄中，影像和其它的物件則不會。"
+"當您使用滑鼠或鍵盤選取螢幕上的某個區塊的時候，這個區塊就叫作「選取區」。<br/>"
+"選取此選項時，只有文字會儲存在剪貼簿歷史紀錄中，影像和其它的物件則不會。"
 
 #. i18n: ectx: label, entry (UseGUIRegExpEditor), group (General)
 #: klipper.kcfg:44

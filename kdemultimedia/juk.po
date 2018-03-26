@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-18 03:20+0100\n"
+"POT-Creation-Date: 2018-03-26 03:23+0200\n"
 "PO-Revision-Date: 2018-03-24 22:45+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -448,7 +448,6 @@ msgstr "插入類別"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: filerenamerbase.ui:135
 #, kde-format
-#| msgid "Add category:"
 msgid "&Add category:"
 msgstr "新增類別 (&A)："
 
@@ -574,160 +573,160 @@ msgstr "14 ->"
 msgid "Time"
 msgstr "時間"
 
-#: juk.cpp:154
+#: juk.cpp:170
 #, kde-format
 msgid "Your album art failed to download."
 msgstr "無法下載您的相簿美工。"
 
-#: juk.cpp:156
+#: juk.cpp:172
 #, kde-format
 msgid "Your album art has finished downloading."
 msgstr "已下載您的相簿美工。"
 
-#: juk.cpp:200 systemtray.cpp:185
+#: juk.cpp:216 systemtray.cpp:185
 #, kde-format
 msgid "&Random Play"
 msgstr "隨機播放(&R)"
 
-#: juk.cpp:207
+#: juk.cpp:223
 #, kde-format
 msgid "&Disable Random Play"
 msgstr "關閉隨機播放(&D)"
 
-#: juk.cpp:213
+#: juk.cpp:229
 #, kde-format
 msgid "Use &Random Play"
 msgstr "使用隨機播放(&R)"
 
-#: juk.cpp:219
+#: juk.cpp:235
 #, kde-format
 msgid "Use &Album Random Play"
 msgstr "使用專輯隨機播放(&A)"
 
-#: juk.cpp:226
+#: juk.cpp:242
 #, kde-format
 msgid "Remove From Playlist"
 msgstr "從清單中移除"
 
-#: juk.cpp:230
+#: juk.cpp:246
 #, kde-format
 msgid "&Play"
 msgstr "播放(&P)"
 
-#: juk.cpp:234
+#: juk.cpp:250
 #, kde-format
 msgid "P&ause"
 msgstr "暫停(&A)"
 
-#: juk.cpp:238
+#: juk.cpp:254
 #, kde-format
 msgid "&Stop"
 msgstr "停止(&S)"
 
-#: juk.cpp:241
+#: juk.cpp:257
 #, kde-format
 msgctxt "previous track"
 msgid "Previous"
 msgstr "前一首"
 
-#: juk.cpp:246
+#: juk.cpp:262
 #, kde-format
 msgctxt "next track"
 msgid "&Next"
 msgstr "下一首(&N)"
 
-#: juk.cpp:250
+#: juk.cpp:266
 #, kde-format
 msgid "&Loop Playlist"
 msgstr "循環播放清單(&L)"
 
-#: juk.cpp:254
+#: juk.cpp:270
 #, kde-format
 msgid "&Resize Playlist Columns Manually"
 msgstr "手動調整播放清單欄位大小(&R)"
 
-#: juk.cpp:259
+#: juk.cpp:275
 #, kde-format
 msgctxt "silence playback"
 msgid "Mute"
 msgstr "靜音"
 
-#: juk.cpp:263
+#: juk.cpp:279
 #, kde-format
 msgid "Volume Up"
 msgstr "提高音量"
 
-#: juk.cpp:267
+#: juk.cpp:283
 #, kde-format
 msgid "Volume Down"
 msgstr "降低音量"
 
-#: juk.cpp:271
+#: juk.cpp:287
 #, kde-format
 msgid "Play / Pause"
 msgstr "播放/暫停"
 
-#: juk.cpp:275
+#: juk.cpp:291
 #, kde-format
 msgid "Seek Forward"
 msgstr "往前尋找"
 
-#: juk.cpp:279
+#: juk.cpp:295
 #, kde-format
 msgid "Seek Back"
 msgstr "往後尋找"
 
-#: juk.cpp:283
+#: juk.cpp:299
 #, kde-format
 msgid "Show / Hide"
 msgstr "顯示/隱藏"
 
-#: juk.cpp:290
+#: juk.cpp:306
 #, kde-format
 msgid "&Dock in System Tray"
 msgstr "顯示系統匣圖示(&D)"
 
-#: juk.cpp:294
+#: juk.cpp:310
 #, kde-format
 msgid "&Stay in System Tray on Close"
 msgstr "關閉視窗時仍然留在系統匣內(&S)"
 
-#: juk.cpp:297
+#: juk.cpp:313
 #, kde-format
 msgid "Popup &Track Announcement"
 msgstr "跳出音軌宣告(&T)"
 
-#: juk.cpp:300
+#: juk.cpp:316
 #, kde-format
 msgid "Save &Play Queue on Exit"
 msgstr "離開時儲存播放佇列(&P)"
 
-#: juk.cpp:303
+#: juk.cpp:319
 #, kde-format
 msgid "&Tag Guesser..."
 msgstr "標籤猜測器(&T)..."
 
-#: juk.cpp:306
+#: juk.cpp:322
 #, kde-format
 msgid "&File Renamer..."
 msgstr "檔案重新命名器(&F)..."
 
-#: juk.cpp:309
+#: juk.cpp:325
 #, kde-format
 msgid "&Configure scrobbling..."
 msgstr "設定使用者音樂歷史資料傳送(scrobbling)(&C)"
 
-#: juk.cpp:316
+#: juk.cpp:332
 #, kde-format
 msgid "Track Position"
 msgstr "音軌位置"
 
-#: juk.cpp:318 slider.cpp:232
+#: juk.cpp:334 slider.cpp:232
 #, kde-format
 msgid "Volume"
 msgstr "音量"
 
-#: juk.cpp:487
+#: juk.cpp:506
 #, kde-format
 msgid ""
 "<qt>Closing the main window will keep JuK running in the system tray. Use "
@@ -736,7 +735,7 @@ msgstr ""
 "<qt>關閉主視窗後，JuK 仍然會留在系統匣中運作。要離開 JuK 請到選單中選取「離"
 "開」。</qt>"
 
-#: juk.cpp:489
+#: juk.cpp:508
 #, kde-format
 msgid "Docking in System Tray"
 msgstr "顯示系統匣圖示"
@@ -850,7 +849,6 @@ msgstr ""
 
 #: main.cpp:34
 #, kde-format
-#| msgid "Jukebox and music manager by KDE"
 msgid "Jukebox and music manager by the KDE community"
 msgstr "來自 KDE 社區的音樂管理與播放器"
 
@@ -960,13 +958,11 @@ msgstr "MPRIS2 介面實作。"
 
 #: main.cpp:55
 #, kde-format
-#| msgid "Porting to KDE 4 when no one else was around"
 msgid "Porting to KF5 when no one else was around"
 msgstr "第一個獨自移植到 KDE5 的程序"
 
 #: main.cpp:64
 #, kde-format
-#| msgid "© 2002–2014, Scott Wheeler, Michael Pyne, and others"
 msgid "© 2002–2017, Scott Wheeler, Michael Pyne, and others"
 msgstr "© 2002–2017, Scott Wheeler, Michael Pyne，以及其他人"
 
@@ -1080,7 +1076,7 @@ msgstr "Pascal Klein"
 msgid "File(s) to open"
 msgstr "要開啟的檔案"
 
-#: main.cpp:118
+#: main.cpp:112
 #, kde-format
 msgid ""
 "JuK running in docked mode\n"
@@ -1089,7 +1085,7 @@ msgstr ""
 "JuK 以嵌入模式執行中。\n"
 "用系統匣的內文選單來回復。"
 
-#: main.cpp:119
+#: main.cpp:113
 #, kde-format
 msgid "JuK Docked"
 msgstr "在系統匣啟動 Juk"
@@ -1102,7 +1098,6 @@ msgstr "開啟"
 
 #: mediafiles.cpp:139
 #, kde-format
-#| msgid "Search Playlist"
 msgid "Save Playlist"
 msgstr "儲存播放清單"
 
@@ -1529,9 +1524,6 @@ msgstr "測試登入..."
 
 #: scrobbleconfigdlg.cpp:50
 #, kde-format
-#| msgid ""
-#| "Please enter your <a href=\"http://last.fm/\">last.fm</a> login "
-#| "credentials:"
 msgid ""
 "Please enter your <a href=\"https://last.fm/\">last.fm</a> login credentials:"
 msgstr "請輸入您的 <a href=\"http://last.fm/\">last.fm</a> 登入資訊："
@@ -2035,7 +2027,6 @@ msgstr "找到封面"
 
 #: webimagefetcher.cpp:191
 #, kde-format
-#| msgid "Cover fetched from <a href='http://last.fm/'>last.fm</a>."
 msgid "Cover fetched from <a href='https://last.fm/'>last.fm</a>."
 msgstr "封面從 <a href='http://last.fm/'>last.fm</a> 擷取。"
 

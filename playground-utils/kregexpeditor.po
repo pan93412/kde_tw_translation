@@ -276,7 +276,8 @@ msgstr "'Lookahead' 正規表示式在 Emacs 型態下不支援"
 #: emacsregexpconverter.cpp:182
 #, kde-format
 msgid "Word boundary and non word boundary is not supported in Emacs syntax"
-msgstr "文字邊界(word boundary)與非文字邊界(non word boundary)在 Emacs 語法中不支援"
+msgstr ""
+"文字邊界(word boundary)與非文字邊界(non word boundary)在 Emacs 語法中不支援"
 
 #: errormap.cpp:47
 #, kde-format
@@ -454,7 +455,6 @@ msgstr ""
 
 #: kregexpeditorprivate.cpp:159
 #, kde-format
-#| msgid "ASCII syntax:"
 msgid "ASCII syntax:"
 msgstr "ASCII 語法："
 
@@ -543,14 +543,14 @@ msgid ""
 "graphical area, the back reference will be replaced by matching the text <b>"
 "%2</b> literally.</p>"
 msgstr ""
-"<p>Back reference 正規表達式尚未支援。</p><p><tt>\\1</tt>，<tt>\\2</tt> 等等為 <i>back"
-" reference</i> 正規表達式，代表著他們參考以前的符合項目。遺憾的是，這尚未支援在目前的編輯器版本。</p><p>在這個圖形區塊，這個文字 <"
-"b>%1</b> 已經被插入。然而，這只是一個解決方法，以確保應用程序處理正則表達式。因此，只要編輯了正則表達式圖形區域，後面的引用將被替換為符合的文字<b"
-"> %2 </b>按照字面</p>"
+"<p>Back reference 正規表達式尚未支援。</p><p><tt>\\1</tt>，<tt>\\2</tt> 等等"
+"為 <i>back reference</i> 正規表達式，代表著他們參考以前的符合項目。遺憾的是，"
+"這尚未支援在目前的編輯器版本。</p><p>在這個圖形區塊，這個文字 <b>%1</b> 已經"
+"被插入。然而，這只是一個解決方法，以確保應用程序處理正則表達式。因此，只要編"
+"輯了正則表達式圖形區域，後面的引用將被替換為符合的文字<b> %2 </b>按照字面</p>"
 
 #: qregexpparser.y:214
 #, kde-format
-#| msgid "Look ahead regular expressions not supported in Emacs style"
 msgid "Back reference regular expressions not supported"
 msgstr "'Back reference' 正規表示式不支援"
 
@@ -621,16 +621,6 @@ msgstr "重覆內容"
 
 #: regexpbuttons.cpp:76
 #, kde-format
-#| msgid ""
-#| "<qt>This <i>regexp item</i> will repeat the <i>regexp items</i> it "
-#| "surrounds a specified number of times.<br />The number of times to repeat "
-#| "may be specified using ranges; e.g. it could be specified that it should "
-#| "match from 2 to 4 times, that it should match exactly 5 times, or that it "
-#| "should match at least one time.<br />Examples:<br />If you specify that "
-#| "it should match <i>any</i> time, and the content it surrounds is <tt>abc</"
-#| "tt>, then this <i>regexp item</i> will match the empty string, the string "
-#| "<tt>abc</tt>, the string <tt>abcabc</tt>, the string <tt>abcabcabcabc</"
-#| "tt>, etc.</qt>"
 msgid ""
 "<qt>This <i>regexp item</i> will repeat the <i>regexp items</i> it surrounds "
 "a specified number of times.<br />The number of times to repeat may be "
@@ -648,10 +638,6 @@ msgstr ""
 
 #: regexpbuttons.cpp:89
 #, kde-format
-#| msgid ""
-#| "<p>This <i>regexp item</i> will match any of its alternatives.</"
-#| "p><p>Alternatives are specified by placing <i>regexp items</i> on top of "
-#| "each other inside this widget.</p>"
 msgid ""
 "<p>This <i>regexp item</i> will match any of its alternatives.</"
 "p><p>Alternatives are specified by placing <i>regexp items</i> on top of "
@@ -667,12 +653,6 @@ msgstr "複合表示式"
 
 #: regexpbuttons.cpp:95
 #, kde-format
-#| msgid ""
-#| "<qt>This <i>regexp item</i> serves two purposes:<ul><li>It makes it "
-#| "possible for you to collapse a huge <i>regexp item</i> into a small box. "
-#| "This makes it easier for you to get an overview of large <i>regexp items</"
-#| "i>. This is especially useful if you load a predefined <i>regexp item</i> "
-#| "that you perhaps do not care about the inner workings of.</qt>"
 msgid ""
 "<qt>This <i>regexp item</i> serves two purposes:<ul><li>It makes it possible "
 "for you to collapse a huge <i>regexp item</i> into a small box. This makes "
@@ -714,7 +694,8 @@ msgstr "文字邊界"
 msgid ""
 "<qt>This asserts a word boundary (This part does not actually match any "
 "characters)</qt>"
-msgstr "<qt>這個會插入一個文字邊界(word boundary)，這部份將不會符合任何字元。</qt>"
+msgstr ""
+"<qt>這個會插入一個文字邊界(word boundary)，這部份將不會符合任何字元。</qt>"
 
 #: regexpbuttons.cpp:114
 #, kde-format
@@ -821,7 +802,6 @@ msgstr "空名稱尚未支援"
 
 #: regexpeditorwindow.cpp:390
 #, kde-format
-#| msgid "&Save Regular Expression..."
 msgid "Save Regular Expression"
 msgstr "儲存正規表示式"
 
@@ -957,7 +937,6 @@ msgstr "檔案%1中使用者所定義的正規表示式包含著錯誤"
 
 #: userdefinedregexps.cpp:154
 #, kde-format
-#| msgid "Rename"
 msgid "Rename"
 msgstr "重新命名"
 
@@ -991,7 +970,8 @@ msgstr "檢查正規表示式"
 msgid ""
 "Shows what part of the regular expression is being matched in the "
 "<i>verifier window</i>.(The window below the graphical editor window)."
-msgstr "顯示正規表示式中哪一部份符合 <i>檢查視窗</i>。（在圖形編輯器視窗下的視窗）"
+msgstr ""
+"顯示正規表示式中哪一部份符合 <i>檢查視窗</i>。（在圖形編輯器視窗下的視窗）"
 
 #: verifybuttons.cpp:48
 #, kde-format
@@ -1057,7 +1037,6 @@ msgstr "<p>讀取XML檔時發現未知的標籤。此標籤是<b>%1</b></p>"
 
 #: widgetfactory.cpp:188
 #, kde-format
-#| msgid "Error While Loading Regular Expression From XML"
 msgid "Error while loading regular expression from XML."
 msgstr "從 XML 讀取正規表示式時發生錯誤。"
 
@@ -1076,7 +1055,8 @@ msgstr "<p>XML檔並沒有包含一個叫 <b>%1</b> 的標籤。</p>"
 msgid ""
 "<p>Error while reading XML file. The element just below the tag <b>%1</b> "
 "was not an element.</p>"
-msgstr "<p>讀取XML檔時發生錯誤。此元素正好在標籤<b>%1</b>之下但並不是一個元素。</p>"
+msgstr ""
+"<p>讀取XML檔時發生錯誤。此元素正好在標籤<b>%1</b>之下但並不是一個元素。</p>"
 
 #: zerowidgets.cpp:72
 #, kde-format

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevplatform\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-15 03:16+0100\n"
+"POT-Creation-Date: 2018-03-26 03:16+0200\n"
 "PO-Revision-Date: 2014-04-23 15:00+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -1411,24 +1411,24 @@ msgstr "未知"
 msgid "%1 of %2 : %3"
 msgstr "%2 的 %1：%3"
 
-#: language/util/debuglanguageparserhelper.h:190
+#: language/util/debuglanguageparserhelper.h:195
 #, kde-format
 msgid ""
 "files or - to read from STDIN, the latter is the default if nothing is "
 "provided"
 msgstr "檔案，或是用 - 表示從標準輸入讀取。若未提供檔案則預設使用標準輸入"
 
-#: language/util/debuglanguageparserhelper.h:192
+#: language/util/debuglanguageparserhelper.h:197
 #, kde-format
 msgid "print generated AST tree"
 msgstr "印出產生的 AST 樹"
 
-#: language/util/debuglanguageparserhelper.h:193
+#: language/util/debuglanguageparserhelper.h:198
 #, kde-format
 msgid "print generated token stream"
 msgstr "印出產生的 token stream"
 
-#: language/util/debuglanguageparserhelper.h:194
+#: language/util/debuglanguageparserhelper.h:199
 #, kde-format
 msgid "code to parse"
 msgstr "要剖析的代碼"
@@ -3148,39 +3148,39 @@ msgstr "開啟最近的專案。"
 msgid "Open Project for Current File"
 msgstr "為目前檔案開啟專案"
 
-#: shell/projectcontroller.cpp:729
+#: shell/projectcontroller.cpp:739
 #, kde-format
 msgid "Project already open: %1"
 msgstr "專案已開啟：%1"
 
-#: shell/projectcontroller.cpp:732
+#: shell/projectcontroller.cpp:742
 #, kde-format
 msgid "No active document"
 msgstr "沒有目前的文件。"
 
-#: shell/projectcontroller.cpp:806
+#: shell/projectcontroller.cpp:816
 #, kde-format
 msgid "Project Already Open"
 msgstr "專案已開啟"
 
-#: shell/projectcontroller.cpp:809
+#: shell/projectcontroller.cpp:819
 #, kde-format
 msgid ""
 "The project you're trying to open is already open in at least one other "
 "session.<br>What do you want to do?"
 msgstr "您要開啟的專案已經在另一個工作階段中開啟了。<br>您要怎麼做？"
 
-#: shell/projectcontroller.cpp:813
+#: shell/projectcontroller.cpp:823
 #, kde-format
 msgid "Add project to current session"
 msgstr "將專案加入目前的工作階段"
 
-#: shell/projectcontroller.cpp:817
+#: shell/projectcontroller.cpp:827
 #, kde-format
 msgid "Open session %1"
 msgstr "開啟工作階段 %1"
 
-#: shell/projectcontroller.cpp:875
+#: shell/projectcontroller.cpp:885
 #, kde-format
 msgid "No enabled plugin supports this repository URL: %1"
 msgstr ""
@@ -4679,7 +4679,7 @@ msgstr "新信"
 msgid "Edit..."
 msgstr "編輯..."
 
-#: shell/textdocument.cpp:405
+#: shell/textdocument.cpp:404
 #, kde-format
 msgid ""
 "The file \"%1\" is modified on disk.\n"
@@ -4690,13 +4690,13 @@ msgstr ""
 "\n"
 "您確定要覆寫它嗎？（別人所做的變更將會遺失）"
 
-#: shell/textdocument.cpp:408
+#: shell/textdocument.cpp:407
 #, kde-format
 msgctxt "@title:window"
 msgid "Document Externally Modified"
 msgstr "文件已被別人變更"
 
-#: shell/textdocument.cpp:666
+#: shell/textdocument.cpp:646
 #, kde-format
 msgid " Line: %1 Col: %2 "
 msgstr " 行: %1 欄: %2 "

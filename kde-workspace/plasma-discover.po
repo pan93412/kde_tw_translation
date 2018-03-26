@@ -86,7 +86,6 @@ msgstr "應用程式探詢器"
 
 #: discover/main.cpp:97
 #, kde-format
-#| msgid "© 2010-2016 Plasma Development Team"
 msgid "© 2010-2018 Plasma Development Team"
 msgstr "© 2010-2018 Plasma 開發團隊"
 
@@ -137,7 +136,6 @@ msgstr "增加一個新的 %1 軟體庫"
 
 #: discover/qml/AddSourceDialog.qml:74
 #, kde-format
-#| msgid "Addons"
 msgid "Add"
 msgstr "新增"
 
@@ -149,7 +147,6 @@ msgstr "取消"
 
 #: discover/qml/ApplicationPage.qml:56
 #, kde-format
-#| msgid "Source:"
 msgid "Sources"
 msgstr "來源"
 
@@ -175,7 +172,6 @@ msgstr "安裝這個應用程式，然後當第一個評論這個程式的人！
 
 #: discover/qml/ApplicationPage.qml:226
 #, kde-format
-#| msgid "Show reviews (%1)..."
 msgid "Show all %1 reviews..."
 msgstr "顯示 %1 的所有評論"
 
@@ -186,13 +182,11 @@ msgstr "分類："
 
 #: discover/qml/ApplicationPage.qml:259
 #, kde-format
-#| msgid "Version: %1"
 msgid "Version:"
 msgstr "版本："
 
 #: discover/qml/ApplicationPage.qml:273
 #, kde-format
-#| msgid "Size: %1"
 msgid "Size:"
 msgstr "大小："
 
@@ -213,7 +207,6 @@ msgstr "授權："
 
 #: discover/qml/ApplicationPage.qml:313
 #, kde-format
-#| msgid "Homepage: "
 msgid "Homepage:"
 msgstr "首頁："
 
@@ -249,7 +242,6 @@ msgstr "評分"
 
 #: discover/qml/ApplicationsListPage.qml:91
 #, kde-format
-#| msgid "Size: %1"
 msgid "Size"
 msgstr "大小"
 
@@ -280,7 +272,6 @@ msgstr "以 <em>root</em> 身份執行是不被鼓勵且不需要的。"
 
 #: discover/qml/DiscoverWindow.qml:62
 #, kde-format
-#| msgid "Search..."
 msgid "Search"
 msgstr "搜尋"
 
@@ -312,7 +303,6 @@ msgstr "設定"
 
 #: discover/qml/DiscoverWindow.qml:123
 #, kde-format
-#| msgid "Short summary..."
 msgid "Sorry..."
 msgstr "抱歉 ..."
 
@@ -404,19 +394,20 @@ msgstr "<b>%1</b> 由 %2"
 
 #: discover/qml/ReviewDelegate.qml:48
 #, kde-format
-#| msgid "Comments"
 msgid "Comment by %1"
 msgstr "來自 %1 的註解"
 
 #: discover/qml/ReviewDelegate.qml:73
 #, kde-format
 msgid "<em>Useful? <a href='true'><b>Yes</b></a>/<a href='false'>No</a></em>"
-msgstr "<em>有用嗎？<a href='true'><b>是的</b></a>/<a href='false'>沒用</a></em>"
+msgstr ""
+"<em>有用嗎？<a href='true'><b>是的</b></a>/<a href='false'>沒用</a></em>"
 
 #: discover/qml/ReviewDelegate.qml:76
 #, kde-format
 msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'><b>No</b></a></em>"
-msgstr "<em>有用嗎？<a href='true'>是的</a>/<a href='false'><b>沒用</b></a></em>"
+msgstr ""
+"<em>有用嗎？<a href='true'>是的</a>/<a href='false'><b>沒用</b></a></em>"
 
 #: discover/qml/ReviewDelegate.qml:79
 #, kde-format
@@ -445,7 +436,6 @@ msgstr "標題："
 
 #: discover/qml/ReviewDialog.qml:38
 #, kde-format
-#| msgid "Review"
 msgid "Review:"
 msgstr "評論："
 
@@ -461,8 +451,6 @@ msgstr "撰寫一個標題"
 
 #: discover/qml/ReviewDialog.qml:53
 #, kde-format
-#| msgctxt "@info"
-#| msgid "Updating..."
 msgid "Keep writing..."
 msgstr "正在撰寫..."
 
@@ -473,13 +461,11 @@ msgstr "太長了！"
 
 #: discover/qml/ReviewDialog.qml:55
 #, kde-format
-#| msgid "Submit"
 msgid "Submit review"
 msgstr "提交評論"
 
 #: discover/qml/ReviewsPage.qml:67
 #, kde-format
-#| msgid "Review"
 msgid "Review..."
 msgstr "評論 ..."
 
@@ -505,7 +491,6 @@ msgstr "設為預設值"
 
 #: discover/qml/SourcesPage.qml:86
 #, kde-format
-#| msgid "Add Source"
 msgid "Add Source..."
 msgstr "新增來源 ..."
 
@@ -516,7 +501,6 @@ msgstr "刪除來源"
 
 #: discover/qml/SourcesPage.qml:155
 #, kde-format
-#| msgid "Unable to find resource: %1"
 msgid "Failed to remove the source '%1'"
 msgstr "無法移除資源「%1」"
 
@@ -557,15 +541,12 @@ msgstr "更多資訊..."
 
 #: discover/qml/UpdatesPage.qml:247
 #, kde-format
-#| msgctxt "@info"
-#| msgid "Updating..."
 msgctxt "@info"
 msgid "Fetching..."
 msgstr "抓取中..."
 
 #: discover/qml/UpdatesPage.qml:248
 #, kde-format
-#| msgid "Checking for updates..."
 msgctxt "@info"
 msgid "Looking for updates"
 msgstr "正在檢查更新"

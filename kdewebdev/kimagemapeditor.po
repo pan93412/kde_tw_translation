@@ -546,22 +546,13 @@ msgstr "請選擇要開啟的檔案"
 
 #: kimagemapeditor.cpp:1621 kimeshell.cpp:178
 #, kde-format
-#| msgid ""
-#| "*.png *.jpg *.jpeg *.gif *.htm *.html|Web File\n"
-#| "*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng|Images\n"
-#| "*.htm *.html|HTML Files\n"
-#| "*.png|PNG Images\n"
-#| "*.jpg *.jpeg|JPEG Images\n"
-#| "*.gif|GIF-Images\n"
-#| "*|All Files"
 msgid ""
 "Web File (*.png *.jpg *.jpeg *.gif *.htm *.html);;Images (*.png *.jpg *.jpeg "
 "*.gif *.bmp *.xbm *.xpm *.pnm *.mng);;HTML Files (*.htm *.html);;All Files "
 "(*)"
 msgstr ""
-"網頁檔案 (*.png *.jpg *.jpeg *.gif *.htm *.html);;圖片 (*.png *.jpg *.jpeg "
-"*.gif *.bmp *.xbm *.xpm *.pnm *.mng);;HTML 檔案 (*.htm *.html);;所有檔案 "
-"(*)"
+"網頁檔案 (*.png *.jpg *.jpeg *.gif *.htm *.html);;圖片 (*.png *.jpg *.jpeg *."
+"gif *.bmp *.xbm *.xpm *.pnm *.mng);;HTML 檔案 (*.htm *.html);;所有檔案 (*)"
 
 #: kimagemapeditor.cpp:1659
 #, kde-format
@@ -612,7 +603,8 @@ msgstr "<qt>檔案 <i>%1</i> 無法被儲存，因為您沒有需要的寫入權
 msgid ""
 "<qt>Are you sure you want to delete the map <i>%1</i>? <br /><b>There is no "
 "way to undo this.</b></qt>"
-msgstr "<qt>您真的要刪除地圖 <i>%1</i> 嗎? <br /><b>這個動作是不可復原的。</b></qt>"
+msgstr ""
+"<qt>您真的要刪除地圖 <i>%1</i> 嗎? <br /><b>這個動作是不可復原的。</b></qt>"
 
 #: kimagemapeditor.cpp:2701
 #, kde-format
@@ -627,7 +619,6 @@ msgstr "<qt>檔案 <i>%1</i> 已被修改。<br />您要儲存它嗎?</qt>"
 
 #: kimagemapeditor.cpp:2833
 #, kde-format
-#| msgid "Selection"
 msgid "Select image"
 msgstr "選取圖片"
 
@@ -637,8 +628,7 @@ msgid ""
 "Images (*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng);;All Files "
 "(*)"
 msgstr ""
-"圖片 (*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng);;所有檔案 "
-"(*)"
+"圖片 (*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng);;所有檔案 (*)"
 
 #: kimagemapeditor.cpp:2880
 #, kde-format
@@ -800,7 +790,6 @@ msgstr "中心 &Y 值："
 
 #: kimedialogs.cpp:138
 #, kde-format
-#| msgid "&Radius:"
 msgid "&Radius:"
 msgstr "半徑(&R)："
 
@@ -921,7 +910,6 @@ msgstr "選擇檔案"
 
 #: kimedialogs.cpp:441
 #, kde-format
-#| msgid "All Files"
 msgid "All Files (*)"
 msgstr "所有檔案 (*)"
 

@@ -606,7 +606,6 @@ msgstr "Callgrind/Cachegrind 的 KDE 前端程式"
 
 #: kcachegrind/main.cpp:47
 #, kde-format
-#| msgid "(C) 2002 - 2011"
 msgid "(C) 2002 - 2016"
 msgstr "(C) 2002 - 2016"
 
@@ -791,7 +790,8 @@ msgstr "匯出圖形(&E)"
 msgid ""
 "<b>Export Call Graph</b><p>Generates a file with extension .dot for the "
 "tools of the GraphViz package.</p>"
-msgstr "<b>匯出呼叫圖</b> <p>產生副檔名為 .dot 的 GraphViz 套件工具的檔案。</p>"
+msgstr ""
+"<b>匯出呼叫圖</b> <p>產生副檔名為 .dot 的 GraphViz 套件工具的檔案。</p>"
 
 #: kcachegrind/toplevel.cpp:456
 #, kde-format
@@ -966,7 +966,8 @@ msgstr "向上(&U)"
 msgid ""
 "<b>Go Up</b><p>Go to last selected caller of current function. If no caller "
 "was visited, use that with highest cost.</p>"
-msgstr "<b>往上</b><p>到此函式最後一個選取的呼叫者。如果沒有，則使用最高花費。</p>"
+msgstr ""
+"<b>往上</b><p>到此函式最後一個選取的呼叫者。如果沒有，則使用最高花費。</p>"
 
 #: kcachegrind/toplevel.cpp:626
 #, kde-format
@@ -1040,9 +1041,6 @@ msgstr "選擇 Callgrind 分析資料"
 
 #: kcachegrind/toplevel.cpp:910 kcachegrind/toplevel.cpp:978
 #, kde-format
-#| msgid ""
-#| "cachegrind.out* callgrind.out*|Callgrind Profile Data\n"
-#| "*|All Files"
 msgid "Callgrind Profile Data (cachegrind.out* callgrind.out*);;All Files (*)"
 msgstr "Callgrind 分析資料檔 (cachegrind.out* callgrind.out*);;所有檔案 (*)"
 

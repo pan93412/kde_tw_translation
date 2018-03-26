@@ -1954,7 +1954,8 @@ msgstr "加到專案(&A)"
 msgid ""
 "K3b uses vcdxrip from the vcdimager package to rip Video CDs. Please make "
 "sure it is installed."
-msgstr "K3b 使用 vcdimager 套件內的 vcdxrip 來擷取影像 CD。請確認它是否已安裝。"
+msgstr ""
+"K3b 使用 vcdimager 套件內的 vcdxrip 來擷取影像 CD。請確認它是否已安裝。"
 
 #: k3bdirview.cpp:235
 #, kde-format
@@ -2433,7 +2434,8 @@ msgstr "儲存目前的設定以便之後可以再使用"
 msgid ""
 "<p>Load a set of settings either from the default K3b settings, settings "
 "saved before, or the last used ones."
-msgstr "<p>從預設 K3b 設定值、之前儲存的設定值，或是上次使用的設定值中載入其中一套。"
+msgstr ""
+"<p>從預設 K3b 設定值、之前儲存的設定值，或是上次使用的設定值中載入其中一套。"
 
 #: k3binteractiondialog.cpp:206
 #, kde-format
@@ -2504,16 +2506,12 @@ msgstr "取消確認"
 
 #: k3bjobprogressdialog.cpp:555
 #, kde-format
-#| msgctxt "@info %1 is a duration formatted using QLocale::toString"
-#| msgid "Elapsed time: %1"
 msgctxt "@info %1 is a duration formatted"
 msgid "Elapsed time: %1"
 msgstr "經過時間：%1"
 
 #: k3bjobprogressdialog.cpp:559
 #, kde-format
-#| msgctxt "@info %1 is a duration formatted using QLocale::toString"
-#| msgid "Remaining: %1"
 msgctxt "@info %1 is a duration formatted"
 msgid "Remaining: %1"
 msgstr "剩餘：%1"
@@ -2852,11 +2850,12 @@ msgstr "強烈建議在使用 cdrdao 時，設定在 root 權限下執行，以�
 msgid ""
 "Cdrskin can substitute for cdrecord with data and audio CD, and for "
 "growisofs with DVD and BD."
-msgstr "Cdrskin 可以替代 cdrecord 製作資料、音樂光碟，也可以取代 growisofs 製作 DVD 或藍光光碟。"
+msgstr ""
+"Cdrskin 可以替代 cdrecord 製作資料、音樂光碟，也可以取代 growisofs 製作 DVD "
+"或藍光光碟。"
 
 #: k3bsystemproblemdialog.cpp:301
 #, kde-format
-#| msgid "Install the cdrdao package."
 msgid "Consider to install the libburn and cdrskin packages."
 msgstr "考慮安裝 libburn 和 cdrskin 套件。"
 
@@ -2918,7 +2917,8 @@ msgstr "K3b 使用 dvd+rw-format 來格式化 DVD-RWs 和 DVD+RWs。"
 msgid ""
 "K3b needs at least mkisofs version 1.14. Older versions may introduce "
 "problems when creating data projects."
-msgstr "K3b 需要 mkisofs 1.14 以上的版本。較舊的版本在建立資料專案時可能會產生問題。"
+msgstr ""
+"K3b 需要 mkisofs 1.14 以上的版本。較舊的版本在建立資料專案時可能會產生問題。"
 
 #: k3bsystemproblemdialog.cpp:403
 #, kde-format
@@ -3052,7 +3052,8 @@ msgstr ""
 #: k3bsystemproblemdialog.cpp:510
 #, kde-format
 msgid "Enable DMA temporarily as root with 'hdparm -d 1 %1'."
-msgstr "要暫時地啟用 DMA ，請轉換為 root 系統管理員並下指令「hdparm -d 1 %1」。"
+msgstr ""
+"要暫時地啟用 DMA ，請轉換為 root 系統管理員並下指令「hdparm -d 1 %1」。"
 
 #: k3bsystemproblemdialog.cpp:525
 #, kde-format
@@ -3256,7 +3257,6 @@ msgstr "歡迎使用 K3b &ndash; CD、DVD、Blu-ray 燒錄工具"
 
 #: k3bwelcomewidget.cpp:272
 #, kde-format
-#| msgid "K3b %1 Copyright &copy; 1998&ndash;2016 K3b authors"
 msgid "K3b %1 Copyright &copy; 1998&ndash;2017 K3b authors"
 msgstr "K3b %1 版權所有 &copy; 1998&ndash;2017 K3b 作者群"
 
@@ -3310,7 +3310,8 @@ msgstr "實際燒錄媒體的外部應用程式"
 msgid ""
 "<p>Select the medium that you want to use for burning.<p>In most cases there "
 "will only be one medium available which does not leave much choice."
-msgstr "<p>選擇您想要用的燒錄媒體。<p>大多數情況下只會有一種媒體，不會有太多的選擇。"
+msgstr ""
+"<p>選擇您想要用的燒錄媒體。<p>大多數情況下只會有一種媒體，不會有太多的選擇。"
 
 #: k3bwriterselectionwidget.cpp:176
 #, kde-format
@@ -3509,7 +3510,6 @@ msgstr ""
 
 #: main.cpp:38
 #, kde-format
-#| msgid "Copyright © 1998–2016 K3b authors"
 msgid "Copyright © 1998–2017 K3b authors"
 msgstr "版權所有 © 1998–2017 K3b 作者群"
 
@@ -3692,13 +3692,11 @@ msgstr "感謝他在 BSD 移植上的工作與一些極佳的修補檔。"
 
 #: main.cpp:82
 #, kde-format
-#| msgid "Adriaan De Groot"
 msgid "Adriaan de Groot"
 msgstr "Adriaan de Groot"
 
 #: main.cpp:83
 #, kde-format
-#| msgid "For his work on the BSD port."
 msgid "For his work on the FreeBSD port."
 msgstr "感謝其對於 FreeBSD port 的工作"
 
@@ -4620,7 +4618,8 @@ msgstr "允許燒錄超過標準的媒體容量"
 msgid ""
 "Show advanced GUI elements like allowing to choose between cdrecord and "
 "cdrdao"
-msgstr "顯示進階圖形使用者介面 (GUI) 元件，例：允許在 cdrecord 與 cdrdao 之間作選擇。"
+msgstr ""
+"顯示進階圖形使用者介面 (GUI) 元件，例：允許在 cdrecord 與 cdrdao 之間作選擇。"
 
 #: option/k3badvancedoptiontab.cpp:102
 #, kde-format
@@ -4676,7 +4675,8 @@ msgstr ""
 msgid ""
 "<p>If this option is checked K3b will automatically erase CD-RWs and format "
 "DVD-RWs if one is found instead of an empty media before writing."
-msgstr "<p>如果這個選項被勾選的話，在燒錄前K3b將會自動清除 CD-RWs 和格式化 DVD-RWs。"
+msgstr ""
+"<p>如果這個選項被勾選的話，在燒錄前K3b將會自動清除 CD-RWs 和格式化 DVD-RWs。"
 
 #: option/k3badvancedoptiontab.cpp:129
 #, kde-format
@@ -4808,7 +4808,8 @@ msgstr "無"
 msgid ""
 "In order to give K3b full access to the writer device the current user needs "
 "be added to a group <em>%1</em>."
-msgstr "為了給 K3b 完整存取寫入裝置的權限，目前的使用者必須先加入 <em>%1</em> 群組。"
+msgstr ""
+"為了給 K3b 完整存取寫入裝置的權限，目前的使用者必須先加入 <em>%1</em> 群組。"
 
 #: option/k3bdevicewidget.cpp:251
 #, kde-format
@@ -5004,7 +5005,8 @@ msgstr ""
 msgid ""
 "One of these sets is loaded once an action dialog is opened. This setting "
 "defines which set it will be."
-msgstr "每當動作對話窗開啟時，會載入三套設定值的其中一套。此設定將定義要使用哪一套。"
+msgstr ""
+"每當動作對話窗開啟時，會載入三套設定值的其中一套。此設定將定義要使用哪一套。"
 
 #: option/k3bmiscoptiontab.cpp:112
 #, kde-format
@@ -5032,7 +5034,8 @@ msgstr "無法建立資料夾 %1"
 msgid ""
 "You specified a file for the temporary folder. K3b will use its base path as "
 "the temporary folder."
-msgstr "您已為這個暫時資料夾指定了一個檔案。K3b 會使用其基礎路徑作為暫時資料夾。"
+msgstr ""
+"您已為這個暫時資料夾指定了一個檔案。K3b 會使用其基礎路徑作為暫時資料夾。"
 
 #: option/k3bmiscoptiontab.cpp:137
 #, kde-format
@@ -6180,7 +6183,8 @@ msgstr "以隨機順序播放檔案"
 msgid ""
 "<p>If this option is checked the order in which the files are played is "
 "determined randomly every time it is played."
-msgstr "<p>如果選取了此選項，每當檔案被播放時，被播放的檔案其次序將會被隨機決定。"
+msgstr ""
+"<p>如果選取了此選項，每當檔案被播放時，被播放的檔案其次序將會被隨機決定。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkRandomPlay)
 #: projects/base_k3bmovixoptionswidget.ui:62
@@ -6400,7 +6404,8 @@ msgstr "選擇鍵盤配置"
 msgid ""
 "<p>The keyboard layout selected here will be used for eMovix commands such "
 "as controlling the media player."
-msgstr "<p>這裡選擇的鍵盤配置會被用來當作 eMovix 指令來源，例如拿來控制媒體播放器。"
+msgstr ""
+"<p>這裡選擇的鍵盤配置會被用來當作 eMovix 指令來源，例如拿來控制媒體播放器。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: projects/base_k3bmovixoptionswidget.ui:248
@@ -6519,25 +6524,21 @@ msgstr ""
 
 #: projects/k3baudioburndialog.cpp:129 projects/k3baudioburndialog.cpp:130
 #, kde-format
-#| msgid "Rip Audio CD..."
 msgid "Rip Audio"
 msgstr "擷取音樂"
 
 #: projects/k3baudioburndialog.cpp:131
 #, kde-format
-#| msgid "Rip Audio CD..."
 msgid "Only Rip Audio"
 msgstr "只擷取音樂"
 
 #: projects/k3baudioburndialog.cpp:132
 #, kde-format
-#| msgid "Use the 'Image' tab to optionally adjust the path of the image."
 msgid "Use the 'Rip Audio' tab to optionally adjust the path of the audio."
 msgstr "選擇性地使用「擷取音樂」分頁以調整音樂的路徑。"
 
 #: projects/k3baudioburndialog.cpp:133
 #, kde-format
-#| msgid "Wri&te image files to:"
 msgid "Wri&te Rip Audio files to:"
 msgstr "寫入擷取音樂的檔案至 (&T)："
 

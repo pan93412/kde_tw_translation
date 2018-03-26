@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-17 03:23+0100\n"
+"POT-Creation-Date: 2018-03-26 03:29+0200\n"
 "PO-Revision-Date: 2018-03-25 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -37,7 +37,6 @@ msgstr "franklin@nospam_goodhorse.idv.tw, s8321414@gmail.com"
 #. i18n: ectx: property (text), widget (QLabel, labelConstantBlurDescription)
 #: blur/blur_config.ui:17
 #, kde-format
-#| msgid "&Strength:"
 msgid "Blur strength:"
 msgstr "模糊強度："
 
@@ -58,7 +57,6 @@ msgstr "強"
 #. i18n: ectx: property (text), widget (QLabel, labelConstantNoiseDescription)
 #: blur/blur_config.ui:83
 #, kde-format
-#| msgid "&Strength:"
 msgid "Noise strength:"
 msgstr "雜訊強度："
 
@@ -71,7 +69,7 @@ msgstr ""
 "選取位置並按下滑鼠左鍵或 Enter 以進行顏色挑選。\n"
 "Esc 或右鍵點選以取消。"
 
-#: coverswitch/coverswitch.cpp:952 flipswitch/flipswitch.cpp:935
+#: coverswitch/coverswitch.cpp:951 flipswitch/flipswitch.cpp:935
 #, kde-format
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
@@ -949,8 +947,6 @@ msgstr "投影片"
 
 #: effect_builtins.cpp:523
 #, kde-format
-#| msgctxt "Comment describing the KWin Effect"
-#| msgid "Slide windows across the screen when switching virtual desktops"
 msgctxt "Comment describing the KWin Effect"
 msgid "Slide desktops when switching virtual desktops"
 msgstr "切換虛擬桌面時滑過桌面"
@@ -1687,7 +1683,6 @@ msgstr "文字字母："
 #. i18n: ectx: property (text), widget (QLabel, label_Duration)
 #: slide/slide_config.ui:25
 #, kde-format
-#| msgid "Duration"
 msgid "D&uration:"
 msgstr "期間 (&U)："
 
@@ -1695,38 +1690,30 @@ msgstr "期間 (&U)："
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
 #: slide/slide_config.ui:50
 #, kde-format
-#| msgctxt "Duration of rotation"
-#| msgid "Default"
 msgid "Default"
 msgstr "預設"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupbox_Gaps)
 #: slide/slide_config.ui:71
 #, kde-format
-#| msgctxt "Comment describing the KWin Effect"
-#| msgid "Magnify the entire desktop"
 msgid "Gap between desktops"
 msgstr "桌面之間的差距"
 
 #. i18n: ectx: property (text), widget (QLabel, label_HorizontalGap)
 #: slide/slide_config.ui:85
 #, kde-format
-#| msgid "Horizontal"
 msgid "Hori&zontal:"
 msgstr "水平 (&Z)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_VerticalGap)
 #: slide/slide_config.ui:127
 #, kde-format
-#| msgid "Vertical"
 msgid "Ver&tical:"
 msgstr "垂直 (T)："
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlideDocks)
 #: slide/slide_config.ui:161
 #, kde-format
-#| msgctxt "Name of a KWin Effect"
-#| msgid "Slide Back"
 msgid "Slide docks"
 msgstr "滑動 dock"
 

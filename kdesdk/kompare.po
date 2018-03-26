@@ -547,28 +547,24 @@ msgstr "格式"
 #. i18n: ectx: property (text), widget (QRadioButton, m_ContextRB)
 #: komparepart/komparesaveoptionsbase.ui:35
 #, kde-format
-#| msgid "Context"
 msgid "&Context"
 msgstr "內容 (&C)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_NormalRB)
 #: komparepart/komparesaveoptionsbase.ui:49
 #, kde-format
-#| msgid "Normal"
 msgid "&Normal"
 msgstr "普通 (&N)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_UnifiedRB)
 #: komparepart/komparesaveoptionsbase.ui:63
 #, kde-format
-#| msgid "Unified"
 msgid "&Unified"
 msgstr "統一 (&U)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_SideBySideRB)
 #: komparepart/komparesaveoptionsbase.ui:73
 #, kde-format
-#| msgid "Side-by-side"
 msgid "&Side-by-side"
 msgstr "並排比較 (&S)"
 
@@ -928,7 +924,8 @@ msgstr "對應到 diff 的 -w 選項。"
 msgid ""
 "This is useful for seeing the significant changes without being overwhelmed "
 "by all the white space changes."
-msgstr "若您希望看到真正的變更，而不要被一堆空白造成的變更打擾時，可以使用此選項。"
+msgstr ""
+"若您希望看到真正的變更，而不要被一堆空白造成的變更打擾時，可以使用此選項。"
 
 #: libdialogpages/diffpage.cpp:330
 #, kde-format
@@ -961,7 +958,8 @@ msgstr "要排除的檔案樣式"
 msgid ""
 "If this is checked you can enter a shell pattern in the text box on the "
 "right or select entries from the list."
-msgstr "勾選此選項的話，您可以在右方文字欄內輸入一個文稿樣式，或是從清單中選擇。"
+msgstr ""
+"勾選此選項的話，您可以在右方文字欄內輸入一個文稿樣式，或是從清單中選擇。"
 
 #: libdialogpages/diffpage.cpp:356
 #, kde-format
@@ -1002,14 +1000,12 @@ msgstr "排除"
 #: libdialogpages/filespage.cpp:49 libdialogpages/filespage.cpp:78
 #: libdialogpages/filespage.cpp:140
 #, kde-format
-#| msgid "N&ext File"
 msgid "Select File"
 msgstr "選擇檔案"
 
 #: libdialogpages/filespage.cpp:61 libdialogpages/filespage.cpp:90
 #: libdialogpages/filespage.cpp:136
 #, kde-format
-#| msgid "Source Folder"
 msgid "Select Folder"
 msgstr "選擇資料夾"
 
@@ -1186,7 +1182,8 @@ msgstr ""
 msgid ""
 "Disables the check for automatically finding the original file(s) when using "
 "'-' as URL with the -o option."
-msgstr "在使用 '-' 為讀取的 URL，並與 -o 一起使用時，關閉自動尋找原始檔案的檢查。"
+msgstr ""
+"在使用 '-' 為讀取的 URL，並與 -o 一起使用時，關閉自動尋找原始檔案的檢查。"
 
 #: main.cpp:76
 #, kde-format

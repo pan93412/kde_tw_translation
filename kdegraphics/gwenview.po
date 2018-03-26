@@ -224,15 +224,12 @@ msgstr "進階"
 
 #: app/fileoperations.cpp:65
 #, kde-format
-#| msgctxt "@action:button"
-#| msgid "Copy"
 msgctxt "@title:window %1 file name"
 msgid "Copy %1"
 msgstr "複製 %1"
 
 #: app/fileoperations.cpp:67
 #, kde-format
-#| msgid "Loop on images"
 msgctxt "@title:window %1 number of images"
 msgid "Copy %1 image"
 msgid_plural "Copy %1 images"
@@ -246,17 +243,12 @@ msgstr "複製"
 
 #: app/fileoperations.cpp:73
 #, kde-format
-#| msgctxt "@action:button"
-#| msgid "Move"
 msgctxt "@title:window %1 file name"
 msgid "Move %1"
 msgstr "移動 %1"
 
 #: app/fileoperations.cpp:75
 #, kde-format
-#| msgctxt "%1 is collection name, %2 is image count in collection"
-#| msgid "%1 (%2 image)"
-#| msgid_plural "%1 (%2 images)"
 msgctxt "@title:window %1 number of images"
 msgid "Move %1 image"
 msgid_plural "Move %1 images"
@@ -270,17 +262,12 @@ msgstr "移動"
 
 #: app/fileoperations.cpp:81
 #, kde-format
-#| msgctxt "@action:button"
-#| msgid "Link"
 msgctxt "@title:window %1 file name"
 msgid "Link %1"
 msgstr "連結 %1"
 
 #: app/fileoperations.cpp:83
 #, kde-format
-#| msgctxt "%1 is collection name, %2 is image count in collection"
-#| msgid "%1 (%2 image)"
-#| msgid_plural "%1 (%2 images)"
 msgctxt "@title:window %1 number of images"
 msgid "Link %1 image"
 msgid_plural "Link %1 images"
@@ -552,8 +539,6 @@ msgstr "背景顏色："
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: app/generalconfigpage.ui:128
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Thumbnail Details"
 msgid "Thumbnail actions:"
 msgstr "縮圖動作："
 
@@ -1003,7 +988,6 @@ msgstr "開始檔案或資料夾"
 
 #: app/mainwindow.cpp:373
 #, kde-format
-#| msgid "Forget this Folder"
 msgctxt "@action Open Recent menu"
 msgid "Forget All Files && Folders"
 msgstr "遺忘此資料夾與所有檔案"
@@ -1161,13 +1145,11 @@ msgstr "開啟影像"
 
 #: app/mainwindow.cpp:1436
 #, kde-format
-#| msgid "Slideshow"
 msgid "Pause Slideshow"
 msgstr "暫停投影秀"
 
 #: app/mainwindow.cpp:1439
 #, kde-format
-#| msgid "Slideshow"
 msgid "Resume Slideshow"
 msgstr "繼續投影秀"
 
@@ -1229,8 +1211,6 @@ msgstr "跳到第一份文件"
 
 #: app/renamedialog.cpp:50
 #, kde-format
-#| msgctxt "@title:window"
-#| msgid "Rename"
 msgctxt "@action:button"
 msgid "Rename"
 msgstr "重新命名"
@@ -1376,44 +1356,36 @@ msgstr "描述"
 
 #: app/startmainpage.cpp:278
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add Folder to Places"
 msgctxt "@action Recent Folders view"
 msgid "Add Folder to Places"
 msgstr "新增要擺放的資料夾"
 
 #: app/startmainpage.cpp:279
 #, kde-format
-#| msgid "Forget this Folder"
 msgctxt "@action Recent Folders view"
 msgid "Forget This Folder"
 msgstr "遺忘此資料夾"
 
 #: app/startmainpage.cpp:280
 #, kde-format
-#| msgid "Forget this Folder"
 msgctxt "@action Recent Folders view"
 msgid "Forget All Folders"
 msgstr "遺忘全部的資料夾"
 
 #: app/startmainpage.cpp:282
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add Folder to Places"
 msgctxt "@action Recent Files view"
 msgid "Add Containing Folder to Places"
 msgstr "新增要擺放的包含資料夾"
 
 #: app/startmainpage.cpp:283
 #, kde-format
-#| msgid "Forget this Folder"
 msgctxt "@action Recent Files view"
 msgid "Forget This File"
 msgstr "遺忘此檔案"
 
 #: app/startmainpage.cpp:284
 #, kde-format
-#| msgid "Forget All"
 msgctxt "@action Recent Files view"
 msgid "Forget All Files"
 msgstr "遺忘所有檔案"
@@ -1746,7 +1718,6 @@ msgstr "開發者"
 
 #: lib/crop/cropwidget.cpp:183
 #, kde-format
-#| msgid "Print Image"
 msgid "Current Image"
 msgstr "目前的影像"
 
@@ -1767,7 +1738,6 @@ msgstr "橫向"
 
 #: lib/crop/cropwidget.cpp:193 lib/crop/cropwidget.cpp:200
 #, kde-format
-#| msgid "ISO Size (A4, A3...)"
 msgid "ISO (A4, A3...)"
 msgstr "ISO (A4, A3...)"
 
@@ -1802,7 +1772,6 @@ msgstr "進階設定"
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: lib/crop/cropwidget.ui:55
 #, kde-format
-#| msgid "Keep aspect ratio"
 msgid "Aspect ratio:"
 msgstr "比例："
 
@@ -1821,7 +1790,6 @@ msgstr "位置："
 #. i18n: ectx: property (text), widget (QCheckBox, preserveAspectRatioCheckBox)
 #: lib/crop/cropwidget.ui:166
 #, kde-format
-#| msgid "Keep aspect ratio"
 msgid "Preserve aspect ratio"
 msgstr "保持比例"
 
@@ -1866,7 +1834,8 @@ msgctxt "@info"
 msgid ""
 "Could not open file for writing, check that you have the necessary rights in "
 "<filename>%1</filename>."
-msgstr "無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+msgstr ""
+"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
 
 #: lib/document/savejob.cpp:132
 #, kde-kuit-format
@@ -1900,7 +1869,6 @@ msgstr "載入 <filename>%1</filename> 失敗"
 
 #: lib/documentview/documentviewcontroller.cpp:96
 #, kde-format
-#| msgid "Zoom to Fit"
 msgid "Zoom to fit"
 msgstr "縮放以適合"
 
@@ -1997,7 +1965,8 @@ msgid ""
 "colors\n"
 "            that cannot be displayed, and leave the other colors alone."
 msgstr ""
-"定義當顯示器使用 ICC 色彩設定檔時、和圖片的顏色不適合在設定檔色域時，顏色的渲染方式。\n"
+"定義當顯示器使用 ICC 色彩設定檔時、和圖片的顏色不適合在設定檔色域時，顏色的渲"
+"染方式。\n"
 "「感知」將會縮放整個圖像的顏色，使他們能適合所有顯示器的功能。\n"
 "「相對」將會壓縮不會被顯示的色域，並保留其他的顏色。"
 
@@ -2254,7 +2223,6 @@ msgstr "目前的大小："
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: lib/resize/resizeimagewidget.ui:88
 #, kde-format
-#| msgid "New Si&ze:"
 msgid "New Size:"
 msgstr "新的大小："
 

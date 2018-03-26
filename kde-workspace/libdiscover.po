@@ -510,8 +510,6 @@ msgstr "測試用 4"
 #: libdiscover/appstream/OdrsReviewsBackend.cpp:250
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:113
 #, kde-format
-#| msgctxt "package-name (version)"
-#| msgid "%1 (%2)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
@@ -1222,18 +1220,11 @@ msgstr "測試中"
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:104
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:116
 #, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Application Updates"
 msgid "Offline Updates"
 msgstr "離線更新"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:105
 #, kde-format
-#| msgctxt "@label"
-#| msgid ""
-#| "Failed to download %1\n"
-#| "%2\n"
-#| "\n"
 msgid ""
 "Failed to update %1 packages\n"
 "%2"
@@ -1248,7 +1239,6 @@ msgstr "順利更新 %1 套件"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:198
 #, kde-format
-#| msgid "Upgradeable"
 msgid "Upgrade available"
 msgstr "可以更新"
 
@@ -1259,14 +1249,11 @@ msgstr "新的不穩定版本：%1"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:205
 #, kde-format
-#| msgctxt "@info:label Refers to a software version, Ex: Version 1.2.1:"
-#| msgid "Version %1:"
 msgid "New version: %1"
 msgstr "新版本： %1"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:298
 #, kde-format
-#| msgid "PackageKit restart required"
 msgid "Restart is required"
 msgstr "需要重新啟動"
 
@@ -1277,7 +1264,6 @@ msgstr "系統需要被重新啟動，變更才能生效。"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:302
 #, kde-format
-#| msgid "PackageKit restart required"
 msgid "Session restart is required"
 msgstr "需要重新啟動工作階段"
 
@@ -1336,7 +1322,6 @@ msgstr[0] "%2 （加上 %1 個依賴庫）"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:102
 #, kde-format
-#| msgid "Repository description:"
 msgid "Repository URL:"
 msgstr "軟體庫 URL："
 
@@ -1347,9 +1332,6 @@ msgstr "個套件要移除"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:177
 #, kde-format
-#| msgid ""
-#| "The following packages will be removed by the update:\n"
-#| "%1"
 msgid ""
 "The following packages will be removed by the update:\n"
 "<ul><li>%1</li></ul>"
@@ -1416,8 +1398,6 @@ msgstr "確定移除套件"
 
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:167
 #, kde-format
-#| msgctxt "@label"
-#| msgid "Unable to download the following packages:"
 msgid ""
 "This action will also remove the following package:\n"
 "%2"
@@ -1430,8 +1410,6 @@ msgstr[0] ""
 
 #: libdiscover/DiscoverBackendsFactory.cpp:114
 #, kde-format
-#| msgid ""
-#| "List all the backends we'll want to have loaded, separated by coma ','."
 msgid ""
 "List all the backends we'll want to have loaded, separated by comma ','."
 msgstr "列出所有要載入的後端介面，以逗號分隔。"

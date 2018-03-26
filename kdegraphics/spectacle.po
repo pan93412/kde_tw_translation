@@ -20,7 +20,6 @@ msgstr ""
 
 #: src/ExportManager.cpp:263
 #, kde-format
-#| msgid "QImageWriter cannot write image: "
 msgid "QImageWriter cannot write image: %1"
 msgstr "QImageWriter 無法寫入影像：%1"
 
@@ -212,7 +211,6 @@ msgstr "延遲："
 
 #: src/Gui/KSWidget.cpp:91
 #, kde-format
-#| msgid "<b>Content Options</b>"
 msgid "<b>Options</b>"
 msgstr "<b>選項</b>"
 
@@ -245,9 +243,6 @@ msgstr "僅擷取目前的彈出式視窗"
 
 #: src/Gui/KSWidget.cpp:103
 #, kde-format
-#| msgid ""
-#| "Capture only the current pop-up window (like a menu, tooltip etc). If "
-#| "this is not enabled, the pop-up is captured along with the parent window"
 msgid ""
 "Capture only the current pop-up window (like a menu, tooltip etc).\n"
 "If disabled, the pop-up is captured along with the parent window"
@@ -277,19 +272,16 @@ msgstr "複製儲存位置到剪貼簿"
 
 #: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:51
 #, kde-format
-#| msgid "Use light background color"
 msgid "Use light background"
 msgstr "使用較亮的背景"
 
 #: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:57
 #, kde-format
-#| msgid "Remember Rectangular Region"
 msgid "Remember selected area"
 msgstr "記住選取的區域"
 
 #: src/Gui/SettingsDialog/SaveOptionsPage.cpp:39
 #, kde-format
-#| msgid "Default Save Settings"
 msgid "Default Save Location"
 msgstr "預設儲存位置"
 
@@ -310,18 +302,6 @@ msgstr "檔案名稱："
 
 #: src/Gui/SettingsDialog/SaveOptionsPage.cpp:94
 #, kde-format
-#| msgid ""
-#| "<p>Set a default filename for saved screenshots.</p><p>You can use the "
-#| "following placeholders in the filename, which will be replaced with "
-#| "actual text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 "
-#| "digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</"
-#| "b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
-#| "Second</blockquote><p>If a file with this name already exists, a serial "
-#| "number will be appended to the filename. For example, if the filename is "
-#| "\"Screenshot\", and \"Screenshot.png\" already exists, the image will be "
-#| "saved as \"Screenshot-1.png\".</p><p>Typing an extension into the "
-#| "filename will automatically set the image format correctly and remove the "
-#| "extension from the filename field.</p>"
 msgid ""
 "<p>You can use the following placeholders in the filename, which will be "
 "replaced with actual text when the file is saved:</p><blockquote><b>%Y</b>: "
@@ -329,11 +309,10 @@ msgid ""
 "%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
 "Second<br /><b>%T</b>: Window title</blockquote>"
 msgstr ""
-"<p>您可以在檔案名稱中使用下述的佔位符，其將會被取代為當檔案儲存時的真正文字： </p>"
-"<blockquote><b>%Y</b>：年（四位數）<br /><b>%y</b>：年（兩位數）<br /><b>%M</b>：月<br /><b>"
-"%D</b>：日"
-"<br /><b>%H</b>：時<br /><b>%m</b>：分<br /><b>%S</b>：秒<br /><b>%T</b>：視窗標題<"
-"/blockquote>"
+"<p>您可以在檔案名稱中使用下述的佔位符，其將會被取代為當檔案儲存時的真正文"
+"字： </p><blockquote><b>%Y</b>：年（四位數）<br /><b>%y</b>：年（兩位數）"
+"<br /><b>%M</b>：月<br /><b>%D</b>：日<br /><b>%H</b>：時<br /><b>%m</b>：分"
+"<br /><b>%S</b>：秒<br /><b>%T</b>：視窗標題</blockquote>"
 
 #: src/Gui/SettingsDialog/SettingsDialog.cpp:34
 #, kde-format

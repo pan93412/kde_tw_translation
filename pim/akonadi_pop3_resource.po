@@ -563,7 +563,8 @@ msgstr "若信件總量超過大小限制，則清掉最舊的信件"
 msgid ""
 "If active, most recent messages are kept until the quota is reached and "
 "oldest messages are deleted."
-msgstr "若開啟此選項，則信件會保留，直到總量超過大小限制時才會將最舊的信件刪除。"
+msgstr ""
+"若開啟此選項，則信件會保留，直到總量超過大小限制時才會將最舊的信件刪除。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerSizeCheck)
 #: popsettings.ui:317
@@ -718,14 +719,12 @@ msgstr "連接埠："
 #. i18n: ectx: property (text), widget (QCheckBox, proxyCheck)
 #: popsettings.ui:545
 #, kde-format
-#| msgid "Wallet disabled in system settings"
 msgid "Connect using the system proxy settings"
 msgstr "使用系統 Proxy 設定連線"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, proxyCheck)
 #: popsettings.ui:548
 #, kde-format
-#| msgid "If checked the message is not deleted from the mail server"
 msgid ""
 "If checked, the system proxy settings will be used to connect to the mail "
 "server."

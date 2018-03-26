@@ -47,19 +47,16 @@ msgstr "%1 的設定檔未變更。"
 
 #: configfile.cpp:100
 #, kde-format
-#| msgid "No given name for the configuration"
 msgid "No given name for the configuration."
 msgstr "設定檔未命名。"
 
 #: configfile.cpp:112
 #, kde-format
-#| msgid "Unknown configurationname '%1'"
 msgid "Unknown configuration name '%1'"
 msgstr "未知的設定檔名稱「%1」"
 
 #: cryptopage.cpp:99 cryptopage.cpp:122 cryptopage.cpp:228
 #, kde-format
-#| msgid "Account Assistant"
 msgid "Account Wizard"
 msgstr "帳號精靈"
 
@@ -85,13 +82,11 @@ msgstr "無法從憑證檔案中讀取資料：%1"
 
 #: cryptopage.cpp:314
 #, kde-format
-#| msgid "Failed to load script: '%1'."
 msgid "Failed to import key: %1"
 msgstr "載入金鑰失敗：%1"
 
 #: cryptopage.cpp:323
 #, kde-format
-#| msgid "Failed to load script: '%1'."
 msgid "Failed to import key."
 msgstr "載入金鑰失敗。"
 
@@ -278,7 +273,6 @@ msgstr "代碼發布請求傳送。"
 
 #: key.cpp:257
 #, kde-format
-#| msgid "Failed to load script: '%1'."
 msgid "Failed to publish the key."
 msgstr "發布金鑰失敗。"
 
@@ -349,7 +343,6 @@ msgstr "帳號小助手"
 
 #: main.cpp:49
 #, kde-format
-#| msgid "(c) 2009-2015 the Akonadi developers"
 msgid "(c) 2009-2018 the Akonadi developers"
 msgstr "(c) 2009-2018 Akonadi 開發群"
 
@@ -531,9 +524,8 @@ msgid ""
 "encrypted using the public key while only you can decrypt them with your "
 "private key."
 msgstr ""
-"保護你自己，為了要防止被窺視，就使用加密您的郵件方法（使用 GnuPG）。"
-"通過生成或選擇一個金鑰對，現在郵件可以透過公鑰加密，"
-"只有你可以透過私鑰解密你的郵件。"
+"保護你自己，為了要防止被窺視，就使用加密您的郵件方法（使用 GnuPG）。通過生成"
+"或選擇一個金鑰對，現在郵件可以透過公鑰加密，只有你可以透過私鑰解密你的郵件。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableCryptoCheckBox)
 #: ui/cryptopage.ui:52
@@ -545,8 +537,8 @@ msgid ""
 "that it can be verified that your messages have not been tampered with.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><boby><p>發送郵件時，KMail 會自動觀察您收件人的加密金鑰，"
-"並在每個收件人的金鑰可以找到時保護郵件。</p><p>它還會以加密方式對您的郵件進行簽名，"
+"<html><head/><boby><p>發送郵件時，KMail 會自動觀察您收件人的加密金鑰，並在每"
+"個收件人的金鑰可以找到時保護郵件。</p><p>它還會以加密方式對您的郵件進行簽名，"
 "以便可以驗證您的郵件沒有被篡改。</p></boby></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableCryptoCheckBox)
@@ -583,8 +575,8 @@ msgid ""
 "others can then use it to secure their email communication with you."
 msgstr ""
 "您的電子郵件提供者支援提供您公鑰的服務，使其他用戶可以找到它。\n"
-"這意味者您的公鑰可以被電子郵件提供者查詢，然後其他使用者也可以"
-"透過它來保護你與他們的信件對話。"
+"這意味者您的公鑰可以被電子郵件提供者查詢，然後其他使用者也可以透過它來保護你"
+"與他們的信件對話。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pksCheckBox)
 #: ui/cryptopage.ui:152
@@ -603,12 +595,10 @@ msgid ""
 "should be aware that your email address will be publicly listed and they key "
 "cannot be removed from there, only revoked."
 msgstr ""
-"您的電子郵件提供者不支援金鑰發布。您應該發布"
-"您的公鑰以讓其他使用者能取得您的公鑰、使用它"
-"以保護您與它們的信件對話。\n"
-"你可以發布您的公鑰至一個公鑰伺服器，但是你"
-"必須意識到您的電子郵件網址將會公開列在伺服"
-"器上、且他們的金鑰不能在那裡被移除，只能撤回。"
+"您的電子郵件提供者不支援金鑰發布。您應該發布您的公鑰以讓其他使用者能取得您的"
+"公鑰、使用它以保護您與它們的信件對話。\n"
+"你可以發布您的公鑰至一個公鑰伺服器，但是你必須意識到您的電子郵件網址將會公開"
+"列在伺服器上、且他們的金鑰不能在那裡被移除，只能撤回。"
 
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
 #: ui/loadpage.ui:30
@@ -645,7 +635,6 @@ msgstr "密碼："
 #. i18n: ectx: property (title), widget (QGroupBox, checkOnlineGroupBox)
 #: ui/personaldatapage.ui:122
 #, kde-format
-#| msgid "Find provider settings on the Internet"
 msgid "Find pro&vider settings on the Internet"
 msgstr "在網際網路上尋找提供者設定 (&V)"
 
@@ -669,7 +658,6 @@ msgstr "IMAP 帳號"
 #. i18n: ectx: property (text), widget (QRadioButton, pop3Account)
 #: ui/personaldatapage.ui:194
 #, kde-format
-#| msgid "POP3 account"
 msgid "POP&3 account"
 msgstr "POP3 帳號 (&3)"
 
@@ -694,16 +682,12 @@ msgstr "使用者名稱："
 #. i18n: ectx: property (text), widget (QPushButton, createAccountPb)
 #: ui/personaldatapage.ui:276
 #, kde-format
-#| msgid "IMAP account"
 msgid "Add Account"
 msgstr "加入帳號"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/providerpage.ui:17
 #, kde-format
-#| msgid ""
-#| "Select your provider from the list below or click advanced if your "
-#| "provider is not listed"
 msgid ""
 "Select your provider from the list below or click back if your provider is "
 "not listed"
