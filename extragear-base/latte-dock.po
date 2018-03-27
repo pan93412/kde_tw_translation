@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-22 03:18+0100\n"
+"POT-Creation-Date: 2018-03-27 03:18+0200\n"
 "PO-Revision-Date: 2017-09-27 09:00+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -71,7 +71,7 @@ msgid "Applets Distance:"
 msgstr "小程式距離："
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:345
-#: settingsdialog.cpp:770
+#: settingsdialog.cpp:779
 #, kde-format
 msgid "Background"
 msgstr "背景"
@@ -460,75 +460,75 @@ msgstr "隱藏："
 msgid "General"
 msgstr "一般"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:255
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:258
 #, kde-format
 msgid "Advanced"
 msgstr "進階"
 
 #. i18n: ectx: property (text), widget (QLabel, behaviorLbl)
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:309
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:312
 #: ../shell/package/contents/configuration/TweaksConfig.qml:161
 #: settingsdialog.ui:467
 #, kde-format
 msgid "Behavior"
 msgstr "行為"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:314
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:317
 #: ../shell/package/contents/configuration/TasksConfig.qml:52
 #: ../shell/package/contents/configuration/TweaksConfig.qml:51
 #, kde-format
 msgid "Appearance"
 msgstr "外觀"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:319
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:322
 #, kde-format
 msgid "Tasks"
 msgstr "工作"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:326
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:329
 #, kde-format
 msgid "Tweaks"
 msgstr "調整"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:413
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:416
 #, kde-format
 msgid "Copy Dock"
 msgstr "複製 Dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:424
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:427
 #, kde-format
 msgid "Move to:"
 msgstr ""
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:472
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:475
 #, kde-format
 msgid "New Dock"
 msgstr "新 Dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:474
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:477
 #, kde-format
 msgid "Add a new dock"
 msgstr "加入新 dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:490
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:493
 #, kde-format
 msgid "Remove"
 msgstr "移除"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:493
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:496
 #, kde-format
 msgid "Remove current dock"
 msgstr "移除目前的 dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:504
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:507
 #, kde-format
-msgid "Quit"
-msgstr "離開"
+msgid "Close"
+msgstr ""
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:506
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:509
 #, kde-format
-msgid "Quit Latte"
-msgstr "離開 Latte"
+msgid "Close settings window"
+msgstr ""
 
 #: ../shell/package/contents/configuration/LatteTextField.qml:42
 #, kde-format
@@ -1004,7 +1004,7 @@ msgid ""
 "layout(s) <b>[%0]</b> were updated for consistency!!!"
 msgstr ""
 
-#: layoutmanager.cpp:688 layoutmanager.cpp:1013 layoutmanager.cpp:1204
+#: layoutmanager.cpp:688 layoutmanager.cpp:1013 layoutmanager.cpp:1212
 #, kde-format
 msgid "Default"
 msgstr "預設"
@@ -1015,17 +1015,17 @@ msgstr "預設"
 msgid "Adding layout: <b>%0</b> ..."
 msgstr "正在切換到佈局 <b>%0</b> ..."
 
-#: layoutmanager.cpp:1205
+#: layoutmanager.cpp:1213
 #, kde-format
 msgid "Plasma"
 msgstr "Plasma"
 
-#: layoutmanager.cpp:1206
+#: layoutmanager.cpp:1214
 #, kde-format
 msgid "Unity"
 msgstr "Unity"
 
-#: layoutmanager.cpp:1207
+#: layoutmanager.cpp:1215
 #, kde-format
 msgid "Extended"
 msgstr "延伸"
@@ -1263,39 +1263,49 @@ msgstr "預設佈局檔"
 
 #: settingsdialog.cpp:127
 #, kde-format
-msgid "Help"
+msgid "File"
 msgstr ""
 
 #: settingsdialog.cpp:130
+#, kde-format
+msgid "Help"
+msgstr ""
+
+#: settingsdialog.cpp:134
+#, kde-format
+msgid "Quit Latte"
+msgstr "離開 Latte"
+
+#: settingsdialog.cpp:138
 #, fuzzy, kde-format
 #| msgid "Quit Latte"
 msgid "About Latte"
 msgstr "離開 Latte"
 
-#: settingsdialog.cpp:362
+#: settingsdialog.cpp:371
 #, kde-format
 msgctxt "import layout/configuration"
 msgid "Import Layout/Configuration"
 msgstr "匯入佈局／設定"
 
-#: settingsdialog.cpp:371
+#: settingsdialog.cpp:380
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr "Latte Dock 佈局檔案 v0.2"
 
-#: settingsdialog.cpp:372
+#: settingsdialog.cpp:381
 #, kde-format
 msgctxt "import latte layouts/configuration"
 msgid "Latte Dock Full Configuration file (v0.1, v0.2)"
 msgstr "Latte Dock 完整設定檔 (v0.1, v0.2)"
 
-#: settingsdialog.cpp:388
+#: settingsdialog.cpp:397
 #, kde-format
 msgid "Import: Configuration file version v0.1"
 msgstr "匯入：設定版本 v0.1"
 
-#: settingsdialog.cpp:390
+#: settingsdialog.cpp:399
 #, kde-format
 msgid ""
 "You are going to import an old version <b>v0.1</b> configuration file."
@@ -1307,24 +1317,24 @@ msgstr ""
 "將會抹除所有</b>您目前的設定！！！<br><br> <i>另外，您也可以從這個檔案<b>安全"
 "地匯入</b><br><b>僅包含佈局的部份s...</b></i>"
 
-#: settingsdialog.cpp:395
+#: settingsdialog.cpp:404
 #, kde-format
 msgctxt "import full configuration"
 msgid "Full Configuration"
 msgstr "完整設定"
 
-#: settingsdialog.cpp:397
+#: settingsdialog.cpp:406
 #, kde-format
 msgctxt "import only the layouts"
 msgid "Only Layouts"
 msgstr "僅佈局"
 
-#: settingsdialog.cpp:423
+#: settingsdialog.cpp:432
 #, kde-format
 msgid "Import: Configuration file version v0.2"
 msgstr "匯入：設定檔版本 v0.2"
 
-#: settingsdialog.cpp:425
+#: settingsdialog.cpp:434
 #, kde-format
 msgid ""
 "You are going to import a <b>v0.2</b> configuration file.<br><b>Be careful</"
@@ -1334,25 +1344,25 @@ msgstr ""
 "您將會要匯入舊版本 v0.2</b> 的設定檔。<br>請小心</b>，匯入整個設定檔<b>將會抹"
 "除所有</b>您目前的設定！！！<br><br> <i>您想要繼續嗎？</i>"
 
-#: settingsdialog.cpp:470
+#: settingsdialog.cpp:479
 #, kde-format
 msgctxt "layout"
 msgid "Alternative"
 msgstr "替代"
 
-#: settingsdialog.cpp:500
+#: settingsdialog.cpp:509
 #, kde-format
 msgctxt "export layout/configuration"
 msgid "Export Layout/Configuration"
 msgstr "匯出佈局／設定"
 
-#: settingsdialog.cpp:508
+#: settingsdialog.cpp:517
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr "Latte Dock 佈局檔案 v0.2"
 
-#: settingsdialog.cpp:509
+#: settingsdialog.cpp:518
 #, fuzzy, kde-format
 #| msgctxt "export full configuraion"
 #| msgid "Latte Dock Full Configuration file v0.2"
@@ -1360,43 +1370,43 @@ msgctxt "export full configuration"
 msgid "Latte Dock Full Configuration file v0.2"
 msgstr "Latte Dock 完整設定檔 v0.2"
 
-#: settingsdialog.cpp:523
+#: settingsdialog.cpp:532
 #, kde-format
 msgctxt "export layout"
 msgid "Failed to export layout"
 msgstr "匯出佈局失敗"
 
-#: settingsdialog.cpp:544
+#: settingsdialog.cpp:553
 #, kde-format
 msgctxt "export layout"
 msgid "Open location"
 msgstr "開啟位置"
 
-#: settingsdialog.cpp:545
+#: settingsdialog.cpp:554
 #, kde-format
 msgctxt "export layout"
 msgid "Layout exported successfully"
 msgstr "佈局匯出成功"
 
-#: settingsdialog.cpp:556
+#: settingsdialog.cpp:565
 #, kde-format
 msgctxt "import/export config"
 msgid "Failed to export configuration"
 msgstr "匯出設定失敗"
 
-#: settingsdialog.cpp:563
+#: settingsdialog.cpp:572
 #, kde-format
 msgctxt "import/export config"
 msgid "Open location"
 msgstr "開啟位置"
 
-#: settingsdialog.cpp:564
+#: settingsdialog.cpp:573
 #, kde-format
 msgctxt "import/export config"
 msgid "Full Configuration exported successfully"
 msgstr "完整設定匯出成功"
 
-#: settingsdialog.cpp:718
+#: settingsdialog.cpp:727
 #, fuzzy, kde-format
 #| msgctxt "import-done"
 #| msgid "Layout: <b>%0</b> imported successfully\n"
@@ -1404,27 +1414,27 @@ msgctxt "import-done"
 msgid "Layout: <b>%0</b> imported successfully<br>"
 msgstr "佈局：<b>%0</b> 匯入成功\n"
 
-#: settingsdialog.cpp:771
+#: settingsdialog.cpp:780
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: settingsdialog.cpp:772
+#: settingsdialog.cpp:781
 #, kde-format
 msgid "In Menu"
 msgstr "在選單中"
 
-#: settingsdialog.cpp:773
+#: settingsdialog.cpp:782
 #, kde-format
 msgid "Activities"
 msgstr "活動"
 
-#: settingsdialog.cpp:815 settingsdialog.cpp:1144
+#: settingsdialog.cpp:824 settingsdialog.cpp:1153
 #, kde-format
 msgid "Layout Warning"
 msgstr "佈局警告"
 
-#: settingsdialog.cpp:816
+#: settingsdialog.cpp:825
 #, kde-format
 msgid ""
 "The layout(s) <b>%0</b> have <i>broken configuration</i>!!! Please <b>remove "
@@ -1433,7 +1443,7 @@ msgstr ""
 "佈局 <b>%0</b> 有<i>損壞的設定</i>！！！請<b>移除 它們</b>來改善系統的穩定"
 "性..."
 
-#: settingsdialog.cpp:1145
+#: settingsdialog.cpp:1154
 #, kde-format
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
@@ -1673,6 +1683,9 @@ msgstr ""
 msgctxt "high sensitivity"
 msgid "High"
 msgstr ""
+
+#~ msgid "Quit"
+#~ msgstr "離開"
 
 #~ msgid "Tangerine Font"
 #~ msgstr "Tangerine 字型"

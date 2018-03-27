@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-26 03:14+0200\n"
+"POT-Creation-Date: 2018-03-27 03:19+0200\n"
 "PO-Revision-Date: 2014-04-23 11:04+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -17930,29 +17930,37 @@ msgstr[0] "重新命名 (%1 張影像)"
 msgid "Sort Images"
 msgstr "影像排序(&S)"
 
-#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:86
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:88
 #, kde-format
 msgid "&Abort"
 msgstr "放棄(&A)"
 
-#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:87
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:89
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:177
 #, kde-format
 msgid "Renaming images"
 msgstr "重新命名影像"
 
-#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:88
-#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:148
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:90
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:150
 #, kde-format
 msgid "<b>Renaming images. Please wait...</b>"
 msgstr "<b>正在重新命名影像。請稍候...</b>"
 
-#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:101
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:103
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:937
 #, kde-format
 msgid "Processing..."
 msgstr "正在處理..."
 
-#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:184
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:178
+#, kde-format
+msgid ""
+"An error occurred while renaming %1 image(s).\n"
+"Do you want to rename this image(s) again?"
+msgstr ""
+
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:206
 #, fuzzy, kde-format
 #| msgid "<b>Renaming images. Please wait...</b>"
 msgid "<b>Renaming images has failed...</b>"
