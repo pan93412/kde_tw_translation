@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevpython\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-24 03:09+0100\n"
+"POT-Creation-Date: 2018-03-28 03:23+0200\n"
 "PO-Revision-Date: 2014-04-23 15:03+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -451,23 +451,23 @@ msgstr "找不到模組 \"%1\""
 msgid "Declaration for \"%1\" not found in specified module"
 msgstr "在指定的模組找不到宣告 \"%1\""
 
-#: duchain/declarationbuilder.cpp:1522
+#: duchain/declarationbuilder.cpp:1523
 #, kde-format
 msgid "First argument of __new__ method is not called cls, this is deprecated"
 msgstr "__new__ 方法的第一個參數非 cls，這種方式已被廢棄"
 
-#: duchain/declarationbuilder.cpp:1527
+#: duchain/declarationbuilder.cpp:1528
 #, kde-format
 msgid "First argument of class method is not called self, this is deprecated"
 msgstr "類別方法的第一個參數非 self，這種方式已被廢棄"
 
-#: duchain/declarationbuilder.cpp:1547
+#: duchain/declarationbuilder.cpp:1548
 #, kde-format
 msgid ""
 "Non-static class method without arguments, must have at least one (self)"
 msgstr "非靜態類別方法沒有參數。您必須至少指定一個參數（self）"
 
-#: duchain/declarationbuilder.cpp:1708
+#: duchain/declarationbuilder.cpp:1709
 #, kde-format
 msgid "Return statement not within function declaration"
 msgstr "Return 敘述不在函式宣告內"
@@ -598,12 +598,12 @@ msgstr "設定使用的 Python 直譯器"
 msgid "Format source with the autopep8 formatter."
 msgstr "用 pep8ify 格式器將源碼格式化。"
 
-#: pythonstylechecking.cpp:117
+#: pythonstylechecking.cpp:119
 #, kde-format
 msgid "PEP8 checker error: %1"
 msgstr "PEP8 檢查器發生錯誤：%1"
 
-#: pythonstylechecking.cpp:204
+#: pythonstylechecking.cpp:206
 #, fuzzy, kde-format
 #| msgid ""
 #| "The selected PEP8 syntax checker \"%1\" does not seem to work correctly."

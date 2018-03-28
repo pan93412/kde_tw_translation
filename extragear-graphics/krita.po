@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-27 03:20+0200\n"
+"POT-Creation-Date: 2018-03-28 03:22+0200\n"
 "PO-Revision-Date: 2018-01-04 20:03+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -10598,7 +10598,7 @@ msgstr "組合法線貼圖"
 #: libs/pigment/resources/KoColorSet.cpp:801
 #: libs/pigment/resources/KoColorSet.cpp:1228
 #: libs/ui/actions/kis_selection_action_factories.cpp:392
-#: libs/ui/KisView.cpp:727
+#: libs/ui/KisView.cpp:728
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:65
 #, kde-format
 msgid "Untitled"
@@ -10970,7 +10970,7 @@ msgstr "關閉"
 #: libs/ui/forms/wdgnewimage.ui:639 libs/ui/forms/wdgpaintopsettings.ui:197
 #: libs/ui/forms/wdgsavebrushpreset.ui:208
 #: libs/ui/input/kis_tool_invocation_action.cpp:58 libs/ui/kis_clipboard.cc:274
-#: libs/ui/KisView.cpp:543
+#: libs/ui/KisView.cpp:544
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:70
 #, kde-format
 msgid "Cancel"
@@ -11161,8 +11161,8 @@ msgstr "選取 ASL 檔"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:679 libs/ui/kis_autogradient.cc:76
 #: libs/ui/kis_autogradient.cc:80
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:134
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:51
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:58
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:53
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:60
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:97
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:912
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:928
@@ -11295,16 +11295,16 @@ msgstr "選擇一個背景圖"
 #: libs/ui/kis_layer_manager.cc:905 libs/ui/kis_node_manager.cpp:1101
 #: libs/ui/KisApplication.cpp:754 libs/ui/KisApplication.cpp:757
 #: libs/ui/KisApplication.cpp:779 libs/ui/KisApplication.cpp:805
-#: libs/ui/KisApplication.cpp:826 libs/ui/KisDocument.cpp:615
-#: libs/ui/KisDocument.cpp:1009 libs/ui/KisDocument.cpp:1091
-#: libs/ui/KisDocument.cpp:1131 libs/ui/KisDocument.cpp:1139
+#: libs/ui/KisApplication.cpp:826 libs/ui/KisDocument.cpp:616
+#: libs/ui/KisDocument.cpp:1010 libs/ui/KisDocument.cpp:1092
+#: libs/ui/KisDocument.cpp:1132 libs/ui/KisDocument.cpp:1140
 #: libs/ui/KisMainWindow.cpp:812 libs/ui/KisMainWindow.cpp:898
 #: libs/ui/KisMainWindow.cpp:911 libs/ui/KisMainWindow.cpp:961
 #: libs/ui/KisMainWindow.cpp:1708 libs/ui/KisMainWindow.cpp:1738
 #: libs/ui/KisMainWindow.cpp:1815 libs/ui/KisMainWindow.cpp:1827
 #: libs/ui/KisPart.cpp:417 libs/ui/KisPart.cpp:420
 #: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisTemplateCreateDia.cpp:298
-#: libs/ui/KisTemplateCreateDia.cpp:404 libs/ui/KisView.cpp:730
+#: libs/ui/KisTemplateCreateDia.cpp:404 libs/ui/KisView.cpp:731
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:342
 #: libs/ui/opengl/kis_opengl_image_textures.cpp:652
 #: libs/ui/widgets/kis_custom_image_widget.cc:267
@@ -15752,7 +15752,7 @@ msgstr "無設定檔"
 
 #: libs/ui/kis_stopgradient_editor.cpp:44
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:122
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:50
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:52
 #, kde-format
 msgid "Opacity: "
 msgstr "不透明度："
@@ -16016,28 +16016,28 @@ msgstr "色票"
 msgid "Palette %1"
 msgstr "調色盤 %1"
 
-#: libs/ui/KisDocument.cpp:518
+#: libs/ui/KisDocument.cpp:519
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "%1 不能寫入。 請以不同的名稱保存。"
 
-#: libs/ui/KisDocument.cpp:531
+#: libs/ui/KisDocument.cpp:532
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出文件…"
 
-#: libs/ui/KisDocument.cpp:532
+#: libs/ui/KisDocument.cpp:533
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存文件…"
 
-#: libs/ui/KisDocument.cpp:609
+#: libs/ui/KisDocument.cpp:610
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存時出錯 %1：%2"
 
-#: libs/ui/KisDocument.cpp:615 plugins/extensions/imagesplit/imagesplit.cpp:84
+#: libs/ui/KisDocument.cpp:616 plugins/extensions/imagesplit/imagesplit.cpp:84
 #, kde-format
 msgid ""
 "Could not save %1\n"
@@ -16046,33 +16046,33 @@ msgstr ""
 "無法儲存 %1\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:634
+#: libs/ui/KisDocument.cpp:635
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:770
+#: libs/ui/KisDocument.cpp:771
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:773
+#: libs/ui/KisDocument.cpp:774
 #, kde-format
 msgid "Autosaving..."
 msgstr "自動儲存中..."
 
-#: libs/ui/KisDocument.cpp:796
+#: libs/ui/KisDocument.cpp:797
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr " 自動儲存 %1 期間出錯：%2"
 
-#: libs/ui/KisDocument.cpp:809
+#: libs/ui/KisDocument.cpp:810
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動保存 %1"
 
-#: libs/ui/KisDocument.cpp:994
+#: libs/ui/KisDocument.cpp:995
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -16081,7 +16081,7 @@ msgstr ""
 "錯誤的網址\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1010
+#: libs/ui/KisDocument.cpp:1011
 #, kde-format
 msgid ""
 "An autosaved file exists for this document.\n"
@@ -16090,17 +16090,17 @@ msgstr ""
 "存在為此文件自動保存的檔案。\n"
 "您想開啟它作為替代嗎？"
 
-#: libs/ui/KisDocument.cpp:1091
+#: libs/ui/KisDocument.cpp:1092
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1121
+#: libs/ui/KisDocument.cpp:1122
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟文件"
 
-#: libs/ui/KisDocument.cpp:1132
+#: libs/ui/KisDocument.cpp:1133
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -16109,17 +16109,17 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因： %1。"
 
-#: libs/ui/KisDocument.cpp:1140
+#: libs/ui/KisDocument.cpp:1141
 #, kde-format
 msgid "There were problems opening %1."
 msgstr "開啟 %1 時，會發生問題。"
 
-#: libs/ui/KisDocument.cpp:1257
+#: libs/ui/KisDocument.cpp:1258
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:1601
+#: libs/ui/KisDocument.cpp:1602
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -16716,86 +16716,86 @@ msgstr "沒有圖片可用。"
 msgid "Use This Template"
 msgstr "使用這個範本"
 
-#: libs/ui/KisView.cpp:531
+#: libs/ui/KisView.cpp:532
 #, kde-format
 msgid "Insert as New Layer"
 msgstr "插入為新圖層"
 
-#: libs/ui/KisView.cpp:532
+#: libs/ui/KisView.cpp:533
 #, kde-format
 msgid "Insert Many Layers"
 msgstr "插入多個圖層"
 
-#: libs/ui/KisView.cpp:534
+#: libs/ui/KisView.cpp:535
 #, kde-format
 msgid "Insert as New File Layer"
 msgstr "插入為新的圖檔圖層"
 
-#: libs/ui/KisView.cpp:535
+#: libs/ui/KisView.cpp:536
 #, kde-format
 msgid "Insert Many File Layers"
 msgstr "插入多個圖檔圖層"
 
-#: libs/ui/KisView.cpp:537
+#: libs/ui/KisView.cpp:538
 #, kde-format
 msgid "Open in New Document"
 msgstr "在新文件開啟"
 
-#: libs/ui/KisView.cpp:538
+#: libs/ui/KisView.cpp:539
 #, kde-format
 msgid "Open Many Documents"
 msgstr "開啟很多文件"
 
-#: libs/ui/KisView.cpp:540
+#: libs/ui/KisView.cpp:541
 #, fuzzy, kde-format
 #| msgid "Reference Images"
 msgid "Insert as Reference Image"
 msgstr "參考影像"
 
-#: libs/ui/KisView.cpp:541
+#: libs/ui/KisView.cpp:542
 #, fuzzy, kde-format
 #| msgid "Reference Images"
 msgid "Insert as Reference Images"
 msgstr "參考影像"
 
-#: libs/ui/KisView.cpp:731
+#: libs/ui/KisView.cpp:732
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr "<p>文件 <b>「%1」</b> 已被修改。</p><p>您是否要儲存它？</p>"
 
-#: libs/ui/KisView.cpp:869
+#: libs/ui/KisView.cpp:870
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr "軟校樣在浮點中不起作用。"
 
-#: libs/ui/KisView.cpp:874
+#: libs/ui/KisView.cpp:875
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr "軟校樣開啟。"
 
-#: libs/ui/KisView.cpp:876
+#: libs/ui/KisView.cpp:877
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr "軟校樣關閉。"
 
-#: libs/ui/KisView.cpp:888
+#: libs/ui/KisView.cpp:889
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr "色域警告不要工作在浮點數。"
 
-#: libs/ui/KisView.cpp:894
+#: libs/ui/KisView.cpp:895
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr "色域警告開啟。"
 
-#: libs/ui/KisView.cpp:896
+#: libs/ui/KisView.cpp:897
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr "但是，軟打樣仍然處於關閉狀態。"
 
-#: libs/ui/KisView.cpp:899
+#: libs/ui/KisView.cpp:900
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr "色域警告關閉。"
@@ -22289,7 +22289,7 @@ msgstr "色階數"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1401
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:57
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:59
 #, kde-format
 msgid "Saturation: "
 msgstr "飽和度："
@@ -30223,7 +30223,7 @@ msgstr "圖層 %1 有一不支援的類型：%2."
 msgid "Failure loading layer %1 of type: %2."
 msgstr "無法載入 %1 類型的圖層： %2。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:803
+#: plugins/impex/libkra/kis_kra_loader.cpp:801
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -30235,14 +30235,14 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:808
-#: plugins/impex/libkra/kis_kra_loader.cpp:1167
+#: plugins/impex/libkra/kis_kra_loader.cpp:806
+#: plugins/impex/libkra/kis_kra_loader.cpp:1165
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
 msgstr "找不到檔案"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1162
+#: plugins/impex/libkra/kis_kra_loader.cpp:1160
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -31872,7 +31872,7 @@ msgid "Fetching palette..."
 msgstr "正在獲取調色盤..."
 
 #: plugins/impex/video/video_saver.cpp:301
-#: plugins/impex/video/video_saver.cpp:339
+#: plugins/impex/video/video_saver.cpp:344
 #, kde-format
 msgid "Encoding frames..."
 msgstr "正在將影格編碼..."
@@ -35398,7 +35398,7 @@ msgid "Select Shapes Tool"
 msgstr "選取物件工具"
 
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:122
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:50
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:52
 #, kde-format
 msgid "Opacity [*varies*]: "
 msgstr "不透明度 [*varies*]："
@@ -35498,7 +35498,7 @@ msgctxt "(qtundo-format)"
 msgid "Shear"
 msgstr "傾斜"
 
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:66
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:72
 #, fuzzy, kde-format
 #| msgid "Select a Vector Image"
 msgid "Select a Reference Image"
@@ -35510,7 +35510,7 @@ msgstr "選擇向量影像"
 msgid "Reference Images Tool"
 msgstr "參考影像"
 
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:57
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:59
 #, fuzzy, kde-format
 #| msgid "Saturation Rings:"
 msgid "Saturation [*varies*]: "

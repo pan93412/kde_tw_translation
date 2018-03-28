@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-22 03:31+0100\n"
+"POT-Creation-Date: 2018-03-28 03:34+0200\n"
 "PO-Revision-Date: 2015-02-16 22:58+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -686,7 +686,7 @@ msgctxt "@info"
 msgid "OpenPGP certificates exported successfully."
 msgstr "OpenPGP 憑證已成功匯出。"
 
-#: src/commands/exportpaperkeycommand.cpp:88
+#: src/commands/exportpaperkeycommand.cpp:89
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -695,7 +695,7 @@ msgid ""
 "</para><para>Please make sure it is installed.</para>"
 msgstr ""
 
-#: src/commands/exportpaperkeycommand.cpp:92
+#: src/commands/exportpaperkeycommand.cpp:93
 #: src/commands/importpaperkeycommand.cpp:182
 #, fuzzy, kde-format
 #| msgid "Could not find gpgconf executable"
@@ -703,21 +703,21 @@ msgctxt "@title"
 msgid "Failed to find PaperKey executable."
 msgstr "找不到 gpgconf 執行檔"
 
-#: src/commands/exportpaperkeycommand.cpp:107
+#: src/commands/exportpaperkeycommand.cpp:114
 #, fuzzy, kde-format
 #| msgid "List secret keys only"
 msgctxt "@title"
 msgid "Print secret key"
 msgstr "只列出私密金鑰"
 
-#: src/commands/exportpaperkeycommand.cpp:121
+#: src/commands/exportpaperkeycommand.cpp:131
 #, fuzzy, kde-format
 #| msgid "Export Secret Key"
 msgctxt "@title:window"
 msgid "Error printing secret key"
 msgstr "匯出秘密金鑰"
 
-#: src/commands/exportpaperkeycommand.cpp:127
+#: src/commands/exportpaperkeycommand.cpp:137
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -733,7 +733,7 @@ msgstr ""
 "<para>GPG 或 GpgSM 行程在試著匯出秘密金鑰時發生非預期的錯誤，導致行程已不正常"
 "的結束。</para> <para>請檢查 <icode>%1</icode> 的輸出。</para>"
 
-#: src/commands/exportpaperkeycommand.cpp:136
+#: src/commands/exportpaperkeycommand.cpp:146
 #: src/commands/exportsecretkeycommand.cpp:156
 #, kde-kuit-format
 msgctxt "@info"
@@ -5535,38 +5535,38 @@ msgstr "對話框的父視窗代碼"
 msgid "File(s) to process"
 msgstr "要處理的檔案"
 
-#: src/kleopatraapplication.cpp:251
+#: src/kleopatraapplication.cpp:253
 #, fuzzy, kde-format
 #| msgid "Failed to execute %1: %2"
 msgid "Failed to execute command"
 msgstr "執行 %1 時失敗：%2"
 
-#: src/kleopatraapplication.cpp:288
+#: src/kleopatraapplication.cpp:290
 #, kde-format
 msgid "Ambiguous protocol: --openpgp and --cms"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:314
+#: src/kleopatraapplication.cpp:316
 #, kde-format
 msgid "No search string specified for --search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:326
+#: src/kleopatraapplication.cpp:328
 #, kde-format
 msgid "No fingerprint argument specified for --query"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:360
+#: src/kleopatraapplication.cpp:362
 #, kde-format
 msgid "Ambiguous commands \"%1\" and \"%2\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:366
+#: src/kleopatraapplication.cpp:368
 #, kde-format
 msgid "No files specified for \"%1\" command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:381
+#: src/kleopatraapplication.cpp:383
 #, fuzzy, kde-format
 #| msgid "Cannot send \"%1\" status"
 msgid "Cannot read \"%1\""

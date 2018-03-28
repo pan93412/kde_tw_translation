@@ -489,14 +489,13 @@ msgid ""
 "puzzle and make sure there is only one solution. If the check fails, you "
 "have probably made an error somewhere in one of the cages."
 msgstr ""
-"Mathdoku 和 Killer Sudoku 拼圖需要透過一個按鍵去鎖定框架一次。"
-"要啟動一個，左點下任何沒在使用的框架、或是輸入在滑鼠鼠標底下框架內的任何一個數字、或者是輸入 + - x /。"
-"一個小型的框架標籤將會出現在框架裡面。為了要在任何地方擴展框架，左鍵隔壁的框架，或是移動鼠標到那邊，"
-"並且按下空白鍵。\n"
+"Mathdoku 和 Killer Sudoku 拼圖需要透過一個按鍵去鎖定框架一次。要啟動一個，左"
+"點下任何沒在使用的框架、或是輸入在滑鼠鼠標底下框架內的任何一個數字、或者是輸"
+"入 + - x /。一個小型的框架標籤將會出現在框架裡面。為了要在任何地方擴展框架，"
+"左鍵隔壁的框架，或是移動鼠標到那邊，並且按下空白鍵。\n"
 "\n"
-"你輸入的數字就是這個框架的值，然後它可以有一到多個數字（包含零）。"
-"一個大小為 1 的框架就會在正常的 Sudoku 拼圖上擁有一個數字。"
-"它成為玩家的起始值或線索。\n"
+"你輸入的數字就是這個框架的值，然後它可以有一到多個數字（包含零）。一個大小為 "
+"1 的框架就會在正常的 Sudoku 拼圖上擁有一個數字。它成為玩家的起始值或線索。\n"
 "\n"
 "+ - x / 為運算符號（加、減、乘與除），大小為 2 或其他的框架裡面至少要有一個。"
 "在 Killer Sudoku，運算符號會自動提供，因為它總是 + 或無。\n"
@@ -746,7 +745,8 @@ msgstr "您選擇的儲存格不在所建立的框架中的任何儲存格旁邊
 msgid ""
 "The cage you wish to complete has no cells in it yet. Please click on a cell "
 "or key in + - / x or a number."
-msgstr "你想完成的框架裡還沒有完成。 請點擊一個單元格或者輸入 +、-、*、/ 或一個數字。"
+msgstr ""
+"你想完成的框架裡還沒有完成。 請點擊一個單元格或者輸入 +、-、*、/ 或一個數字。"
 
 #: src/gui/ksudokugame.cpp:476
 #, kde-format
@@ -760,7 +760,8 @@ msgstr "你想完成的框架尚未有值存在。請輸入一個號碼包含著
 msgid ""
 "The cage you wish to complete has more than one cell, but it has no operator "
 "yet. Please key in + - / or x."
-msgstr "你想要的框架包含著超過一個元件，但是還沒有運算符號。請輸入 + - * 或 /。"
+msgstr ""
+"你想要的框架包含著超過一個元件，但是還沒有運算符號。請輸入 + - * 或 /。"
 
 #: src/gui/ksudokugame.cpp:492
 #, kde-format

@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-27 03:19+0200\n"
+"POT-Creation-Date: 2018-03-28 03:21+0200\n"
 "PO-Revision-Date: 2014-04-23 11:04+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -1604,8 +1604,8 @@ msgid "Import"
 msgstr "匯入"
 
 #: core/app/main/main.cpp:80 core/app/views/welcomepageview.cpp:180
-#: core/libs/album/albummanager.cpp:3158 core/libs/album/albummanager.cpp:3188
-#: core/libs/album/albummanager.cpp:3231 core/libs/album/albummanager.cpp:3261
+#: core/libs/album/albummanager.cpp:3189 core/libs/album/albummanager.cpp:3219
+#: core/libs/album/albummanager.cpp:3262 core/libs/album/albummanager.cpp:3292
 #, kde-format
 msgid "digiKam"
 msgstr "digiKam"
@@ -2179,7 +2179,7 @@ msgstr ""
 "版本：%3"
 
 #: core/app/utils/editablesearchtreeview.cpp:81
-#: core/libs/album/albummanager.cpp:1066
+#: core/libs/album/albummanager.cpp:1068
 #: core/libs/album/albumselecttabs.cpp:193 core/libs/models/albummodel.cpp:147
 #, kde-format
 msgid "Searches"
@@ -2674,7 +2674,7 @@ msgid "Show Fullscreen"
 msgstr ""
 
 #: core/app/views/leftsidebarwidgets.cpp:171 core/libs/album/album.cpp:473
-#: core/libs/album/albummanager.cpp:1060
+#: core/libs/album/albummanager.cpp:1062
 #: core/libs/album/albumselectiontreeview.cpp:187
 #: core/libs/album/albumselectors.cpp:131
 #: core/libs/album/albumselecttabs.cpp:191
@@ -2711,7 +2711,7 @@ msgid "No Tags Album"
 msgstr "前往相簿"
 
 #: core/app/views/leftsidebarwidgets.cpp:379 core/libs/album/album.cpp:535
-#: core/libs/album/albummanager.cpp:1063 core/libs/album/albumselectors.cpp:134
+#: core/libs/album/albummanager.cpp:1065 core/libs/album/albumselectors.cpp:134
 #: core/libs/album/albumselecttabs.cpp:192
 #: core/libs/database/utils/dbstatdlg.cpp:74
 #: core/libs/dmetadata/dmetadatasettingscontainer.h:53
@@ -3776,7 +3776,7 @@ msgstr "匯出中"
 msgid "Labels Album"
 msgstr "新增相簿"
 
-#: core/libs/album/albummanager.cpp:414
+#: core/libs/album/albummanager.cpp:416
 #, kde-format
 msgid ""
 "Failed to backup the existing database file (\"%1\"). Refusing to replace "
@@ -3785,7 +3785,7 @@ msgstr ""
 "備份現有的資料庫檔案 (\"%1\") 失敗。若沒有備份會拒絕取代檔案，而使用現有的檔"
 "案。"
 
-#: core/libs/album/albummanager.cpp:431
+#: core/libs/album/albummanager.cpp:433
 #, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -3793,12 +3793,12 @@ msgid ""
 msgstr ""
 "將舊資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") 失敗。用空白的資料庫啟動。"
 
-#: core/libs/album/albummanager.cpp:465
+#: core/libs/album/albummanager.cpp:467
 #, kde-format
 msgid "Database Folder"
 msgstr "資料庫資料夾"
 
-#: core/libs/album/albummanager.cpp:466
+#: core/libs/album/albummanager.cpp:468
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the place to store the database. A "
@@ -3811,25 +3811,25 @@ msgstr ""
 "digiKam 的資料庫檔案。</p> <p>您想要升級此舊資料庫檔案 - 確認這個資料庫檔案實"
 "際被建立放置在資料夾「%2」的圖片 - 或者忽略此舊檔並用新的資料庫啟動？</p> "
 
-#: core/libs/album/albummanager.cpp:476 core/libs/album/albummanager.cpp:536
-#: core/libs/album/albummanager.cpp:557
+#: core/libs/album/albummanager.cpp:478 core/libs/album/albummanager.cpp:538
+#: core/libs/album/albummanager.cpp:559
 #, kde-format
 msgid "Upgrade Database"
 msgstr "升級資料庫"
 
-#: core/libs/album/albummanager.cpp:478 core/libs/album/albummanager.cpp:538
-#: core/libs/album/albummanager.cpp:559 core/libs/album/albummanager.cpp:605
+#: core/libs/album/albummanager.cpp:480 core/libs/album/albummanager.cpp:540
+#: core/libs/album/albummanager.cpp:561 core/libs/album/albummanager.cpp:607
 #, kde-format
 msgid "Create New Database"
 msgstr "建立新資料庫"
 
-#: core/libs/album/albummanager.cpp:527 core/libs/album/albummanager.cpp:549
-#: core/libs/album/albummanager.cpp:597 core/libs/album/albummanager.cpp:628
+#: core/libs/album/albummanager.cpp:529 core/libs/album/albummanager.cpp:551
+#: core/libs/album/albummanager.cpp:599 core/libs/album/albummanager.cpp:630
 #, kde-format
 msgid "New database folder"
 msgstr "新增資料庫資料夾"
 
-#: core/libs/album/albummanager.cpp:528
+#: core/libs/album/albummanager.cpp:530
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -3842,13 +3842,13 @@ msgstr ""
 "digiKam 的資料庫檔案。</p> <p>您想要升級此舊資料庫檔案、用新的資料庫啟動或複"
 "製目前的資料庫到這個位置並繼續使用？</p> "
 
-#: core/libs/album/albummanager.cpp:540 core/libs/album/albummanager.cpp:607
-#: core/libs/album/albummanager.cpp:637
+#: core/libs/album/albummanager.cpp:542 core/libs/album/albummanager.cpp:609
+#: core/libs/album/albummanager.cpp:639
 #, kde-format
 msgid "Copy Current Database"
 msgstr "複製目前資料庫"
 
-#: core/libs/album/albummanager.cpp:550
+#: core/libs/album/albummanager.cpp:552
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -3860,7 +3860,7 @@ msgstr ""
 "digiKam 的資料庫檔案。</p> <p>您是否要升級此舊資料庫檔案或用新的資料庫開始？"
 "</p> "
 
-#: core/libs/album/albummanager.cpp:583
+#: core/libs/album/albummanager.cpp:585
 #, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -3869,7 +3869,7 @@ msgstr ""
 "將舊的資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") 失敗。請試著將舊的資料庫升"
 "級。"
 
-#: core/libs/album/albummanager.cpp:598
+#: core/libs/album/albummanager.cpp:600
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database."
@@ -3879,7 +3879,7 @@ msgstr ""
 "<p>您已經選擇資料夾「%1」作為儲存資料庫的新地方。</p><p>您想要複製目前的資料"
 "庫到這個位置並繼續使用，或者用新的資料庫啟動？</p> "
 
-#: core/libs/album/albummanager.cpp:629
+#: core/libs/album/albummanager.cpp:631
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -3891,12 +3891,12 @@ msgstr ""
 "置。</p> <p>您想要使用這個現有檔案作為新的資料庫，或者移除此檔案並複製目前的"
 "資料庫到這個地方？</p> "
 
-#: core/libs/album/albummanager.cpp:639
+#: core/libs/album/albummanager.cpp:641
 #, kde-format
 msgid "Use Existing File"
 msgstr "使用現有檔案"
 
-#: core/libs/album/albummanager.cpp:740
+#: core/libs/album/albummanager.cpp:742
 #, kde-format
 msgid ""
 "<p><b>An error occurred during the internal server start.</b></p>Details:\n"
@@ -3905,7 +3905,7 @@ msgstr ""
 "<p><b>內部伺服器啟動期間發生錯誤。</b></p>詳細資訊：\n"
 " %1"
 
-#: core/libs/album/albummanager.cpp:756 core/libs/album/albummanager.cpp:788
+#: core/libs/album/albummanager.cpp:758 core/libs/album/albummanager.cpp:790
 #, kde-format
 msgid ""
 "<p>Failed to open the database. </p><p>You cannot use digiKam without a "
@@ -3917,7 +3917,7 @@ msgstr ""
 "會試著啟動，但<b>不</b>會有任何功能。請檢查<b>組態設定選單</b>中的資料庫設定"
 "值。</p>"
 
-#: core/libs/album/albummanager.cpp:797
+#: core/libs/album/albummanager.cpp:799
 #, kde-format
 msgid ""
 "<p>Failed to open the database. Error message from database:</p><p><b>%1</"
@@ -3929,7 +3929,7 @@ msgstr ""
 "資料庫情形下使用 digiKam。digiKam 現在會試著啟動，但<b>不</b>會有任何功能。請"
 "檢查<b>組態設定選單</b>中的資料庫設定值。</p>"
 
-#: core/libs/album/albummanager.cpp:870
+#: core/libs/album/albummanager.cpp:872
 #, kde-format
 msgid ""
 "Your locale has changed since this album was last opened.\n"
@@ -3948,7 +3948,7 @@ msgstr ""
 "再也找不到這些檔案。如果您確定要繼續，請點選「是」。反之，請點選「否」並在重"
 "新啟動 digiKam 前修正您的語系設定值。"
 
-#: core/libs/album/albummanager.cpp:912
+#: core/libs/album/albummanager.cpp:914
 #, kde-format
 msgid ""
 "<p>The collection </p><p><b>%1</b><br/>(%2)</p><p> is currently not found on "
@@ -3958,7 +3958,7 @@ msgstr ""
 "<p>目前在您的系統上無法找到此收藏 </p><p><b>%1</b><br/>(%2)</p><p>。<br/> 請"
 "選擇最合適的選項來處理這個狀況：</p>"
 
-#: core/libs/album/albummanager.cpp:930
+#: core/libs/album/albummanager.cpp:932
 #, kde-format
 msgid ""
 "<p>The collection is still available, but the identifier changed.<br/>This "
@@ -3968,93 +3968,93 @@ msgstr ""
 "<p>此收藏仍無法使用，但識別碼已改變。<br/>這可能是還原備份所造成，請改變分割"
 "區規劃或檔案系統設定值。<br/>此收藏現在被放在這個地方：</p>"
 
-#: core/libs/album/albummanager.cpp:949
+#: core/libs/album/albummanager.cpp:951
 #, kde-format
 msgid ""
 "The collection is located on a storage device which is not always attached. "
 "Mark the collection as a removable collection."
 msgstr "此收藏放置的儲存裝置不是固定式的。請將此收藏標記為抽取式收藏。"
 
-#: core/libs/album/albummanager.cpp:956
+#: core/libs/album/albummanager.cpp:958
 #, kde-format
 msgid ""
 "Take no action now. I would like to solve the problem later using the setup "
 "dialog"
 msgstr "現在不採取行動。我想之後再用設定對話框解決這個問題"
 
-#: core/libs/album/albummanager.cpp:970
+#: core/libs/album/albummanager.cpp:972
 #, kde-format
 msgid "Collection not found"
 msgstr "沒有找到任何收藏"
 
-#: core/libs/album/albummanager.cpp:2180
+#: core/libs/album/albummanager.cpp:2182
 #, kde-format
 msgid "The collection location supplied is invalid or currently not available."
 msgstr "提供的收藏位置無效或者目前無法使用。"
 
-#: core/libs/album/albummanager.cpp:2188
+#: core/libs/album/albummanager.cpp:2190
 #, kde-format
 msgid "No album for collection location: Internal error"
 msgstr ""
 
-#: core/libs/album/albummanager.cpp:2204
+#: core/libs/album/albummanager.cpp:2206
 #, kde-format
 msgid "No parent found for album."
 msgstr "找不到相簿的上層相簿。"
 
-#: core/libs/album/albummanager.cpp:2211
+#: core/libs/album/albummanager.cpp:2213
 #, kde-format
 msgid "Album name cannot be empty."
 msgstr "相簿名稱不可為空。"
 
-#: core/libs/album/albummanager.cpp:2217
+#: core/libs/album/albummanager.cpp:2219
 #, kde-format
 msgid "Album name cannot contain '/'."
 msgstr "相簿名稱不能包含「/」。"
 
-#: core/libs/album/albummanager.cpp:2223
+#: core/libs/album/albummanager.cpp:2225
 #, kde-format
 msgid "createPAlbum does not accept the root album as parent."
 msgstr "createPAlbum 不接受根相簿作為母層。"
 
-#: core/libs/album/albummanager.cpp:2237
+#: core/libs/album/albummanager.cpp:2239
 #, kde-format
 msgid "An existing album has the same name."
 msgstr "已經存在一個相同名稱的相簿。"
 
-#: core/libs/album/albummanager.cpp:2253
+#: core/libs/album/albummanager.cpp:2255
 #, fuzzy, kde-format
 msgid "Failed to create directory '%1'"
 msgstr "建立目錄失敗。"
 
-#: core/libs/album/albummanager.cpp:2262
+#: core/libs/album/albummanager.cpp:2264
 #, kde-format
 msgid "Failed to add album to database"
 msgstr "加入相簿到資料庫時失敗"
 
-#: core/libs/album/albummanager.cpp:2289 core/libs/album/albummanager.cpp:2387
-#: core/libs/album/albummanager.cpp:2491 core/libs/album/albummanager.cpp:2546
-#: core/libs/album/albummanager.cpp:2582 core/libs/album/albummanager.cpp:2620
+#: core/libs/album/albummanager.cpp:2291 core/libs/album/albummanager.cpp:2389
+#: core/libs/album/albummanager.cpp:2493 core/libs/album/albummanager.cpp:2560
+#: core/libs/album/albummanager.cpp:2598 core/libs/album/albummanager.cpp:2636
 #, kde-format
 msgid "No such album"
 msgstr "無此相簿"
 
-#: core/libs/album/albummanager.cpp:2295
+#: core/libs/album/albummanager.cpp:2297
 #, kde-format
 msgid "Cannot rename root album"
 msgstr "無法重新命名根相簿"
 
-#: core/libs/album/albummanager.cpp:2301
+#: core/libs/album/albummanager.cpp:2303
 #, kde-format
 msgid "Cannot rename album root album"
 msgstr "無法重新命名根相簿"
 
-#: core/libs/album/albummanager.cpp:2307
+#: core/libs/album/albummanager.cpp:2309
 #, kde-format
 msgid "Album name cannot contain '/'"
 msgstr "相簿名稱不能包含「/」"
 
-#: core/libs/album/albummanager.cpp:2314
+#: core/libs/album/albummanager.cpp:2316
 #, kde-format
 msgid ""
 "Another album with the same name already exists.\n"
@@ -4063,52 +4063,52 @@ msgstr ""
 "另一個相同名稱的相簿已經存在。\n"
 "請另選一個名稱。"
 
-#: core/libs/album/albummanager.cpp:2338
+#: core/libs/album/albummanager.cpp:2340
 #, kde-format
 msgid "Failed to rename Album"
 msgstr "重新命名相簿時失敗"
 
-#: core/libs/album/albummanager.cpp:2393
+#: core/libs/album/albummanager.cpp:2395
 #, kde-format
 msgid "Cannot edit root album"
 msgstr "無法編輯根相簿"
 
-#: core/libs/album/albummanager.cpp:2419
+#: core/libs/album/albummanager.cpp:2421
 #, kde-format
 msgid "No parent found for tag"
 msgstr "找不到標籤的上層"
 
-#: core/libs/album/albummanager.cpp:2426
+#: core/libs/album/albummanager.cpp:2428
 #, kde-format
 msgid "Tag name cannot be empty"
 msgstr "標籤名稱不可留空"
 
-#: core/libs/album/albummanager.cpp:2432 core/libs/album/albummanager.cpp:2558
+#: core/libs/album/albummanager.cpp:2434 core/libs/album/albummanager.cpp:2572
 #, kde-format
 msgid "Tag name cannot contain '/'"
 msgstr "標籤名稱不能包含「/」"
 
-#: core/libs/album/albummanager.cpp:2439 core/libs/tags/tageditdlg.cpp:471
+#: core/libs/album/albummanager.cpp:2441 core/libs/tags/tageditdlg.cpp:471
 #, kde-format
 msgid "Tag name already exists"
 msgstr "標籤名稱已經存在"
 
-#: core/libs/album/albummanager.cpp:2448
+#: core/libs/album/albummanager.cpp:2450
 #, kde-format
 msgid "Failed to add tag to database"
 msgstr "將標籤加入到資料庫時失敗"
 
-#: core/libs/album/albummanager.cpp:2497
+#: core/libs/album/albummanager.cpp:2499
 #, kde-format
 msgid "Cannot delete Root Tag"
 msgstr "無法刪除根標籤"
 
-#: core/libs/album/albummanager.cpp:2552 core/libs/album/albummanager.cpp:2711
+#: core/libs/album/albummanager.cpp:2566 core/libs/album/albummanager.cpp:2742
 #, kde-format
 msgid "Cannot edit root tag"
 msgstr "無法編輯根標籤"
 
-#: core/libs/album/albummanager.cpp:2565
+#: core/libs/album/albummanager.cpp:2579
 #, kde-format
 msgid ""
 "Another tag with the same name already exists.\n"
@@ -4117,17 +4117,17 @@ msgstr ""
 "另一個相同名稱的標籤已經存在。\n"
 "請另選一個名稱。"
 
-#: core/libs/album/albummanager.cpp:2588
+#: core/libs/album/albummanager.cpp:2604
 #, kde-format
 msgid "Attempt to move TAlbum to nowhere"
 msgstr ""
 
-#: core/libs/album/albummanager.cpp:2594
+#: core/libs/album/albummanager.cpp:2610
 #, kde-format
 msgid "Cannot move root tag"
 msgstr "無法移動根標籤"
 
-#: core/libs/album/albummanager.cpp:2602
+#: core/libs/album/albummanager.cpp:2618
 #, fuzzy, kde-format
 #| msgid ""
 #| "Another tag with the same name already exists.\n"
@@ -4139,15 +4139,20 @@ msgstr ""
 "另一個相同名稱的標籤已經存在。\n"
 "請另選一個名稱。"
 
-#: core/libs/album/albummanager.cpp:2611
+#: core/libs/album/albummanager.cpp:2627
 #, kde-format
 msgid "Only a tag without children can be merged!"
 msgstr ""
 
-#: core/libs/album/albummanager.cpp:2705
+#: core/libs/album/albummanager.cpp:2736
 #, kde-format
 msgid "No such tag"
 msgstr "無此標籤"
+
+#: core/libs/album/albummanager.cpp:3677
+#, fuzzy, kde-format
+msgid "Do you want to update the metadata of %1 images?"
+msgstr "您要從收藏清單中移除此收藏「%1」嗎？"
 
 #: core/libs/album/albumpropsedit.cpp:123
 #: core/libs/album/albumpropsedit.cpp:279
@@ -26078,7 +26083,7 @@ msgid "Open File"
 msgstr "開啟資料夾"
 
 #: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:808
-#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:835
+#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:833
 #, kde-format
 msgid "XBEL (*.xbel *.xml)"
 msgstr ""
@@ -26089,24 +26094,24 @@ msgstr ""
 msgid "Imported %1"
 msgstr "匯入"
 
-#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:832
+#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:831
 #, fuzzy, kde-format
 msgid "Save File"
 msgstr "儲存於檔案"
 
-#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:833
+#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:832
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgid "%1 Bookmarks.xbel"
 msgstr "書籤"
 
-#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:842
+#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:840
 #, fuzzy, kde-format
 #| msgid "Export Tools"
 msgid "Export error"
 msgstr "匯出工具"
 
-#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:842
+#: core/utilities/geolocation/editor/bookmark/bookmarksmngr.cpp:840
 #, kde-format
 msgid "error saving bookmarks"
 msgstr ""

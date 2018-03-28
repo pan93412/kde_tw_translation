@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-23 03:29+0100\n"
+"POT-Creation-Date: 2018-03-28 03:32+0200\n"
 "PO-Revision-Date: 2018-03-24 22:37+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -735,7 +735,7 @@ msgstr "在產生的代碼中的類別使用以下內容:"
 #: dialogs/pages/classifierlistpage.cpp:237
 #: dialogs/pages/diagrampropertiespage.ui:257
 #: dialogs/pages/umlrolepropertiesbase.ui:140
-#: dialogs/widgets/documentationwidget.cpp:79 listpopupmenu.cpp:1218
+#: dialogs/widgets/documentationwidget.cpp:79 listpopupmenu.cpp:1223
 #, kde-format
 msgid "Documentation"
 msgstr "文件"
@@ -1609,7 +1609,7 @@ msgstr "終止活動"
 msgid "Final activity"
 msgstr "結束活動"
 
-#: dialogs/activitydialog.cpp:136 listpopupmenu.cpp:1566 worktoolbar.cpp:349
+#: dialogs/activitydialog.cpp:136 listpopupmenu.cpp:1571 worktoolbar.cpp:349
 #, kde-format
 msgid "Branch/Merge"
 msgstr "分支/合併"
@@ -1706,8 +1706,8 @@ msgid "Display Options"
 msgstr "顯示選項"
 
 #: dialogs/classpropertiesdialog.cpp:281
-#: dialogs/pages/classifierlistpage.cpp:120 listpopupmenu.cpp:1222
-#: listpopupmenu.cpp:1256 refactoring/refactoringassistant.cpp:670
+#: dialogs/pages/classifierlistpage.cpp:120 listpopupmenu.cpp:1227
+#: listpopupmenu.cpp:1261 refactoring/refactoringassistant.cpp:670
 #, kde-format
 msgid "Attributes"
 msgstr "屬性"
@@ -1718,8 +1718,8 @@ msgid "Attribute Settings"
 msgstr "屬性設定"
 
 #: dialogs/classpropertiesdialog.cpp:291
-#: dialogs/pages/classifierlistpage.cpp:124 listpopupmenu.cpp:1225
-#: listpopupmenu.cpp:1265 refactoring/refactoringassistant.cpp:686
+#: dialogs/pages/classifierlistpage.cpp:124 listpopupmenu.cpp:1230
+#: listpopupmenu.cpp:1270 refactoring/refactoringassistant.cpp:686
 #, kde-format
 msgid "Operations"
 msgstr "操作"
@@ -1840,9 +1840,9 @@ msgstr "類別操作"
 msgid "Add operations to the new class."
 msgstr "新增新類別的操作。"
 
-#: dialogs/codeeditor.cpp:768 dialogs/codeeditor.cpp:770 listpopupmenu.cpp:1259
-#: listpopupmenu.cpp:1267 listpopupmenu.cpp:1274 listpopupmenu.cpp:1281
-#: listpopupmenu.cpp:1287
+#: dialogs/codeeditor.cpp:768 dialogs/codeeditor.cpp:770 listpopupmenu.cpp:1264
+#: listpopupmenu.cpp:1272 listpopupmenu.cpp:1279 listpopupmenu.cpp:1286
+#: listpopupmenu.cpp:1292
 #, kde-format
 msgid "Hide"
 msgstr "隱藏"
@@ -1852,9 +1852,9 @@ msgstr "隱藏"
 #: dialogs/pages/classoptionspage.cpp:222
 #: dialogs/pages/classoptionspage.cpp:244
 #: dialogs/pages/classoptionspage.cpp:337 listpopupmenu.cpp:748
-#: listpopupmenu.cpp:1215 listpopupmenu.cpp:1253 listpopupmenu.cpp:1258
-#: listpopupmenu.cpp:1266 listpopupmenu.cpp:1273 listpopupmenu.cpp:1280
-#: listpopupmenu.cpp:1286 listpopupmenu.cpp:1353
+#: listpopupmenu.cpp:1220 listpopupmenu.cpp:1258 listpopupmenu.cpp:1263
+#: listpopupmenu.cpp:1271 listpopupmenu.cpp:1278 listpopupmenu.cpp:1285
+#: listpopupmenu.cpp:1291 listpopupmenu.cpp:1358
 #, kde-format
 msgid "Show"
 msgstr "顯示"
@@ -2049,7 +2049,7 @@ msgid "&All diagrams"
 msgstr "全部圖表(&A)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/finddialog.ui:74 listpopupmenu.cpp:876
+#: dialogs/finddialog.ui:74 listpopupmenu.cpp:879
 #: umlwidgets/widgetbase.cpp:1085 worktoolbar.cpp:385
 #, kde-format
 msgid "Category"
@@ -2062,27 +2062,27 @@ msgid "All"
 msgstr "全部"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryPackage)
-#: dialogs/finddialog.ui:96 listpopupmenu.cpp:1025 listpopupmenu.cpp:1241
+#: dialogs/finddialog.ui:96 listpopupmenu.cpp:1030 listpopupmenu.cpp:1246
 #: umlwidgets/widgetbase.cpp:1130 worktoolbar.cpp:354
 #, kde-format
 msgid "Package"
 msgstr "套件"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryInterface)
-#: dialogs/finddialog.ui:103 listpopupmenu.cpp:1021
+#: dialogs/finddialog.ui:103 listpopupmenu.cpp:1026
 #: umlwidgets/widgetbase.cpp:1112 worktoolbar.cpp:358
 #, kde-format
 msgid "Interface"
 msgstr "介面"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryOperation)
-#: dialogs/finddialog.ui:110 listpopupmenu.cpp:1594 listpopupmenu.cpp:1599
+#: dialogs/finddialog.ui:110 listpopupmenu.cpp:1599 listpopupmenu.cpp:1604
 #, kde-format
 msgid "Operation"
 msgstr "操作"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryAttribute)
-#: dialogs/finddialog.ui:117 listpopupmenu.cpp:1593
+#: dialogs/finddialog.ui:117 listpopupmenu.cpp:1598
 #, kde-format
 msgid "Attribute"
 msgstr "屬性"
@@ -2316,8 +2316,8 @@ msgctxt "name of association widget"
 msgid "Name:"
 msgstr "名稱："
 
-#: dialogs/pages/associationgeneralpage.cpp:114 listpopupmenu.cpp:1243
-#: listpopupmenu.cpp:1359 uml1model/stereotype.cpp:113
+#: dialogs/pages/associationgeneralpage.cpp:114 listpopupmenu.cpp:1248
+#: listpopupmenu.cpp:1364 uml1model/stereotype.cpp:113
 #, kde-format
 msgid "Stereotype"
 msgstr "模板造型"
@@ -2711,25 +2711,25 @@ msgid "Enable C++11 standard (experimental)"
 msgstr "啟用 C++11 標準（實驗性的）"
 
 #: dialogs/pages/constraintlistpage.cpp:84
-#: dialogs/pages/constraintlistpage.cpp:86 listpopupmenu.cpp:1606
+#: dialogs/pages/constraintlistpage.cpp:86 listpopupmenu.cpp:1611
 #, kde-format
 msgid "Unique Constraint..."
 msgstr "唯一規範"
 
 #: dialogs/pages/constraintlistpage.cpp:92
-#: dialogs/pages/constraintlistpage.cpp:94 listpopupmenu.cpp:1605
+#: dialogs/pages/constraintlistpage.cpp:94 listpopupmenu.cpp:1610
 #, kde-format
 msgid "Primary Key Constraint..."
 msgstr "主鍵值規範..."
 
 #: dialogs/pages/constraintlistpage.cpp:100
-#: dialogs/pages/constraintlistpage.cpp:102 listpopupmenu.cpp:1607
+#: dialogs/pages/constraintlistpage.cpp:102 listpopupmenu.cpp:1612
 #, kde-format
 msgid "Foreign Key Constraint..."
 msgstr "外來鍵值規範..."
 
 #: dialogs/pages/constraintlistpage.cpp:108
-#: dialogs/pages/constraintlistpage.cpp:110 listpopupmenu.cpp:1608
+#: dialogs/pages/constraintlistpage.cpp:110 listpopupmenu.cpp:1613
 #, kde-format
 msgid "Check Constraint..."
 msgstr "檢查規範..."
@@ -3888,8 +3888,8 @@ msgstr "實作(&M)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: dialogs/widgets/visibilityenumwidget.cpp:35
-#: dialogs/widgets/visibilityenumwidget.ui:17 listpopupmenu.cpp:1229
-#: listpopupmenu.cpp:1272
+#: dialogs/widgets/visibilityenumwidget.ui:17 listpopupmenu.cpp:1234
+#: listpopupmenu.cpp:1277
 #, kde-format
 msgid "Visibility"
 msgstr "可見"
@@ -4085,7 +4085,7 @@ msgstr "焦點變動後啟用文件編輯。"
 msgid "Apply layout"
 msgstr "套用佈局"
 
-#: listpopupmenu.cpp:407 listpopupmenu.cpp:1860
+#: listpopupmenu.cpp:407 listpopupmenu.cpp:1865
 #, kde-format
 msgid "Category Type"
 msgstr "類別型態"
@@ -4137,7 +4137,7 @@ msgstr "水平翻轉"
 msgid "Flip Vertical"
 msgstr "垂直翻轉"
 
-#: listpopupmenu.cpp:561 listpopupmenu.cpp:701 listpopupmenu.cpp:1392
+#: listpopupmenu.cpp:561 listpopupmenu.cpp:701 listpopupmenu.cpp:1397
 #, kde-format
 msgid "Fill Color..."
 msgstr "填充顏色..."
@@ -4169,45 +4169,45 @@ msgctxt "clear combined fragment"
 msgid "Clear"
 msgstr "清除"
 
-#: listpopupmenu.cpp:648 listpopupmenu.cpp:651 listpopupmenu.cpp:2016
-#: listpopupmenu.cpp:2020
+#: listpopupmenu.cpp:648 listpopupmenu.cpp:651 listpopupmenu.cpp:2021
+#: listpopupmenu.cpp:2025
 #, kde-format
 msgid "Change Multiplicity..."
 msgstr "更改多重性..."
 
-#: listpopupmenu.cpp:654 listpopupmenu.cpp:2024
+#: listpopupmenu.cpp:654 listpopupmenu.cpp:2029
 #, kde-format
 msgid "Change Name"
 msgstr "更改名稱"
 
-#: listpopupmenu.cpp:657 listpopupmenu.cpp:1076 listpopupmenu.cpp:2008
+#: listpopupmenu.cpp:657 listpopupmenu.cpp:1081 listpopupmenu.cpp:2013
 #, kde-format
 msgid "Change Role A Name..."
 msgstr "更改角色 A 名稱..."
 
-#: listpopupmenu.cpp:660 listpopupmenu.cpp:1077 listpopupmenu.cpp:2012
+#: listpopupmenu.cpp:660 listpopupmenu.cpp:1082 listpopupmenu.cpp:2017
 #, kde-format
 msgid "Change Role B Name..."
 msgstr "更改角色 B 名稱..."
 
-#: listpopupmenu.cpp:675 listpopupmenu.cpp:1085
+#: listpopupmenu.cpp:675 listpopupmenu.cpp:1090
 #, kde-format
 msgid "Select Operation..."
 msgstr "選擇操作..."
 
-#: listpopupmenu.cpp:699 listpopupmenu.cpp:1390
+#: listpopupmenu.cpp:699 listpopupmenu.cpp:1395
 #, kde-format
 msgctxt "color menu"
 msgid "Color"
 msgstr "顏色"
 
-#: listpopupmenu.cpp:700 listpopupmenu.cpp:766 listpopupmenu.cpp:1391
+#: listpopupmenu.cpp:700 listpopupmenu.cpp:766 listpopupmenu.cpp:1396
 #, kde-format
 msgid "Line Color..."
 msgstr "線條顏色..."
 
 #. i18n: ectx: label, entry (useFillColor), group (UI Options)
-#: listpopupmenu.cpp:702 listpopupmenu.cpp:1393 umbrello.kcfg:134
+#: listpopupmenu.cpp:702 listpopupmenu.cpp:1398 umbrello.kcfg:134
 #, kde-format
 msgid "Use Fill Color"
 msgstr "使用填充顏色"
@@ -4222,7 +4222,7 @@ msgstr "不填充顏色"
 msgid "Change Font..."
 msgstr "改變字型..."
 
-#: listpopupmenu.cpp:739 listpopupmenu.cpp:2028
+#: listpopupmenu.cpp:739 listpopupmenu.cpp:2033
 #, kde-format
 msgid "Rename..."
 msgstr "重新命名..."
@@ -4288,7 +4288,7 @@ msgstr "新增參數..."
 msgid "New Attribute..."
 msgstr "新增屬性..."
 
-#: listpopupmenu.cpp:803 listpopupmenu.cpp:1955
+#: listpopupmenu.cpp:803 listpopupmenu.cpp:1960
 #, kde-format
 msgid "New Template..."
 msgstr "新增樣本..."
@@ -4308,492 +4308,498 @@ msgstr "新增實體屬性..."
 msgid "Export as Picture..."
 msgstr "匯出成圖片..."
 
-#: listpopupmenu.cpp:834
+#: listpopupmenu.cpp:818
+#, fuzzy, kde-format
+#| msgid "<< Remove"
+msgid "Remove"
+msgstr "<< 移除"
+
+#: listpopupmenu.cpp:837
 #, kde-format
 msgid "Subsystem"
 msgstr "子系統"
 
-#: listpopupmenu.cpp:837 umlwidgets/widgetbase.cpp:1091 worktoolbar.cpp:355
+#: listpopupmenu.cpp:840 umlwidgets/widgetbase.cpp:1091 worktoolbar.cpp:355
 #, kde-format
 msgid "Component"
 msgstr "元件"
 
-#: listpopupmenu.cpp:840 umlwidgets/widgetbase.cpp:1136 worktoolbar.cpp:378
+#: listpopupmenu.cpp:843 umlwidgets/widgetbase.cpp:1136 worktoolbar.cpp:378
 #, kde-format
 msgid "Port"
 msgstr "連接埠"
 
-#: listpopupmenu.cpp:843 umlwidgets/widgetbase.cpp:1076 worktoolbar.cpp:357
+#: listpopupmenu.cpp:846 umlwidgets/widgetbase.cpp:1076 worktoolbar.cpp:357
 #, kde-format
 msgid "Artifact"
 msgstr "產出"
 
-#: listpopupmenu.cpp:852 umlwidgets/widgetbase.cpp:1118 worktoolbar.cpp:356
+#: listpopupmenu.cpp:855 umlwidgets/widgetbase.cpp:1118 worktoolbar.cpp:356
 #, kde-format
 msgid "Node"
 msgstr "節點"
 
-#: listpopupmenu.cpp:864 listpopupmenu.cpp:1019 models/diagramsmodel.cpp:61
+#: listpopupmenu.cpp:867 listpopupmenu.cpp:1024 models/diagramsmodel.cpp:61
 #: models/objectsmodel.cpp:87 uml1model/folder.cpp:579
 #, kde-format
 msgid "Folder"
 msgstr "資料夾"
 
-#: listpopupmenu.cpp:867 umlwidgets/widgetbase.cpp:1100 worktoolbar.cpp:361
+#: listpopupmenu.cpp:870 umlwidgets/widgetbase.cpp:1100 worktoolbar.cpp:361
 #, kde-format
 msgid "Entity"
 msgstr "實體"
 
-#: listpopupmenu.cpp:879 umlwidgets/widgetbase.cpp:1073 worktoolbar.cpp:337
+#: listpopupmenu.cpp:882 umlwidgets/widgetbase.cpp:1073 worktoolbar.cpp:337
 #, kde-format
 msgid "Actor"
 msgstr "主角"
 
-#: listpopupmenu.cpp:882 worktoolbar.cpp:344
+#: listpopupmenu.cpp:885 worktoolbar.cpp:344
 #, kde-format
 msgid "Use Case"
 msgstr "用例"
 
-#: listpopupmenu.cpp:891
+#: listpopupmenu.cpp:894
 #, kde-format
 msgid "Text Line..."
 msgstr "文字線條..."
 
-#: listpopupmenu.cpp:985
+#: listpopupmenu.cpp:990
 #, kde-format
 msgid "Auto resize"
 msgstr "自動調整大小"
 
-#: listpopupmenu.cpp:1000
+#: listpopupmenu.cpp:1005
 #, kde-format
 msgctxt "new container menu"
 msgid "New"
 msgstr "新增"
 
-#: listpopupmenu.cpp:1020
+#: listpopupmenu.cpp:1025
 #, kde-format
 msgctxt "new class menu item"
 msgid "Class"
 msgstr "類別"
 
-#: listpopupmenu.cpp:1022 umlwidgets/widgetbase.cpp:1097 worktoolbar.cpp:359
+#: listpopupmenu.cpp:1027 umlwidgets/widgetbase.cpp:1097 worktoolbar.cpp:359
 #, kde-format
 msgid "Datatype"
 msgstr "資料型態"
 
-#: listpopupmenu.cpp:1023 umlwidgets/widgetbase.cpp:1103 worktoolbar.cpp:360
+#: listpopupmenu.cpp:1028 umlwidgets/widgetbase.cpp:1103 worktoolbar.cpp:360
 #, kde-format
 msgid "Enum"
 msgstr "Enum"
 
-#: listpopupmenu.cpp:1063
+#: listpopupmenu.cpp:1068
 #, kde-format
 msgid "Add Point"
 msgstr "新增點"
 
-#: listpopupmenu.cpp:1065
+#: listpopupmenu.cpp:1070
 #, kde-format
 msgid "Delete Point"
 msgstr "刪除點"
 
-#: listpopupmenu.cpp:1075
+#: listpopupmenu.cpp:1080
 #, kde-format
 msgid "Change Association Name..."
 msgstr "更改關聯名稱..."
 
-#: listpopupmenu.cpp:1115
+#: listpopupmenu.cpp:1120
 #, kde-format
 msgctxt "Layout menu"
 msgid "Layout"
 msgstr "佈局"
 
-#: listpopupmenu.cpp:1116
+#: listpopupmenu.cpp:1121
 #, kde-format
 msgid "Polyline"
 msgstr "折線"
 
-#: listpopupmenu.cpp:1117
+#: listpopupmenu.cpp:1122
 #, kde-format
 msgid "Direct"
 msgstr "直接"
 
-#: listpopupmenu.cpp:1118
+#: listpopupmenu.cpp:1123
 #, kde-format
 msgid "Spline"
 msgstr "曲線尺"
 
-#: listpopupmenu.cpp:1119
+#: listpopupmenu.cpp:1124
 #, kde-format
 msgid "Orthogonal"
 msgstr "垂直"
 
-#: listpopupmenu.cpp:1193
+#: listpopupmenu.cpp:1198
 #, kde-format
 msgid "apply '%1'"
 msgstr "套用 '%1'"
 
-#: listpopupmenu.cpp:1227
+#: listpopupmenu.cpp:1232
 #, kde-format
 msgid "Public Only"
 msgstr "只公開"
 
-#: listpopupmenu.cpp:1231
+#: listpopupmenu.cpp:1236
 #, kde-format
 msgid "Operation Signature"
 msgstr "操作簽名"
 
-#: listpopupmenu.cpp:1236 listpopupmenu.cpp:1356
+#: listpopupmenu.cpp:1241 listpopupmenu.cpp:1361
 #, kde-format
 msgid "Attribute Signature"
 msgstr "屬性簽名"
 
-#: listpopupmenu.cpp:1260 listpopupmenu.cpp:1268
+#: listpopupmenu.cpp:1265 listpopupmenu.cpp:1273
 #, kde-format
 msgid "Show Signatures"
 msgstr "顯示簽名"
 
-#: listpopupmenu.cpp:1261 listpopupmenu.cpp:1269
+#: listpopupmenu.cpp:1266 listpopupmenu.cpp:1274
 #, kde-format
 msgid "Hide Signatures"
 msgstr "隱藏簽名"
 
-#: listpopupmenu.cpp:1275
+#: listpopupmenu.cpp:1280
 #, kde-format
 msgid "Hide Non-public members"
 msgstr "隱藏非公開成員"
 
-#: listpopupmenu.cpp:1276
+#: listpopupmenu.cpp:1281
 #, kde-format
 msgid "Show Non-public members"
 msgstr "顯示非公開成員"
 
-#: listpopupmenu.cpp:1279
+#: listpopupmenu.cpp:1284
 #, kde-format
 msgid "Packages"
 msgstr "套件"
 
-#: listpopupmenu.cpp:1285
+#: listpopupmenu.cpp:1290
 #, kde-format
 msgid "Stereotypes"
 msgstr "模板造型"
 
-#: listpopupmenu.cpp:1299
+#: listpopupmenu.cpp:1304
 #, kde-format
 msgctxt "new classifier menu"
 msgid "New"
 msgstr "新增"
 
-#: listpopupmenu.cpp:1302
+#: listpopupmenu.cpp:1307
 #, kde-format
 msgid "Attribute..."
 msgstr "屬性..."
 
-#: listpopupmenu.cpp:1303
+#: listpopupmenu.cpp:1308
 #, kde-format
 msgid "Operation..."
 msgstr "操作..."
 
-#: listpopupmenu.cpp:1304
+#: listpopupmenu.cpp:1309
 #, kde-format
 msgid "Template..."
 msgstr "樣本..."
 
-#: listpopupmenu.cpp:1305 listpopupmenu.cpp:1540
+#: listpopupmenu.cpp:1310 listpopupmenu.cpp:1545
 #, kde-format
 msgctxt "new class menu item"
 msgid "Class..."
 msgstr "類別..."
 
-#: listpopupmenu.cpp:1306 listpopupmenu.cpp:1541
+#: listpopupmenu.cpp:1311 listpopupmenu.cpp:1546
 #, kde-format
 msgid "Interface..."
 msgstr "介面..."
 
-#: listpopupmenu.cpp:1307 listpopupmenu.cpp:1542
+#: listpopupmenu.cpp:1312 listpopupmenu.cpp:1547
 #, kde-format
 msgid "Datatype..."
 msgstr "資料型態..."
 
-#: listpopupmenu.cpp:1308 listpopupmenu.cpp:1543
+#: listpopupmenu.cpp:1313 listpopupmenu.cpp:1548
 #, kde-format
 msgid "Enum..."
 msgstr "Enum..."
 
-#: listpopupmenu.cpp:1318
+#: listpopupmenu.cpp:1323
 #, kde-format
 msgid "Draw as Circle"
 msgstr "繪製成圓圈"
 
-#: listpopupmenu.cpp:1320 listpopupmenu.cpp:1322 listpopupmenu.cpp:1780
+#: listpopupmenu.cpp:1325 listpopupmenu.cpp:1327 listpopupmenu.cpp:1785
 #, kde-format
 msgid "Change into Class"
 msgstr "更改為類別"
 
-#: listpopupmenu.cpp:1323 listpopupmenu.cpp:1781
+#: listpopupmenu.cpp:1328 listpopupmenu.cpp:1786
 #, kde-format
 msgid "Change into Package"
 msgstr "更改為套件"
 
-#: listpopupmenu.cpp:1325
+#: listpopupmenu.cpp:1330
 #, kde-format
 msgid "Refactor"
 msgstr "重構"
 
-#: listpopupmenu.cpp:1326
+#: listpopupmenu.cpp:1331
 #, kde-format
 msgid "View Code"
 msgstr "查看代碼"
 
-#: listpopupmenu.cpp:1329
+#: listpopupmenu.cpp:1334
 #, kde-format
 msgid "Change into Interface"
 msgstr "更改為介面"
 
-#: listpopupmenu.cpp:1369
+#: listpopupmenu.cpp:1374
 #, kde-format
 msgctxt "align menu"
 msgid "Align"
 msgstr "對齊"
 
-#: listpopupmenu.cpp:1370 uml.cpp:571
+#: listpopupmenu.cpp:1375 uml.cpp:571
 #, kde-format
 msgid "Align Right"
 msgstr "置右對齊"
 
-#: listpopupmenu.cpp:1371 uml.cpp:576
+#: listpopupmenu.cpp:1376 uml.cpp:576
 #, kde-format
 msgid "Align Left"
 msgstr "置左對齊"
 
-#: listpopupmenu.cpp:1372 uml.cpp:581
+#: listpopupmenu.cpp:1377 uml.cpp:581
 #, kde-format
 msgid "Align Top"
 msgstr "置頂對齊"
 
-#: listpopupmenu.cpp:1373 uml.cpp:586
+#: listpopupmenu.cpp:1378 uml.cpp:586
 #, kde-format
 msgid "Align Bottom"
 msgstr "置底對齊"
 
-#: listpopupmenu.cpp:1375 uml.cpp:591
+#: listpopupmenu.cpp:1380 uml.cpp:591
 #, kde-format
 msgid "Align Vertical Middle"
 msgstr "垂直置中對齊"
 
-#: listpopupmenu.cpp:1376 uml.cpp:596
+#: listpopupmenu.cpp:1381 uml.cpp:596
 #, kde-format
 msgid "Align Horizontal Middle"
 msgstr "水平置中對齊"
 
-#: listpopupmenu.cpp:1377 uml.cpp:601
+#: listpopupmenu.cpp:1382 uml.cpp:601
 #, kde-format
 msgid "Align Vertical Distribute"
 msgstr "垂直分散對齊"
 
-#: listpopupmenu.cpp:1378 uml.cpp:606
+#: listpopupmenu.cpp:1383 uml.cpp:606
 #, kde-format
 msgid "Align Horizontal Distribute"
 msgstr "水平分散對齊"
 
-#: listpopupmenu.cpp:1483
+#: listpopupmenu.cpp:1488
 #, kde-format
 msgctxt "new sub menu"
 msgid "New"
 msgstr "新增"
 
-#: listpopupmenu.cpp:1534
+#: listpopupmenu.cpp:1539
 #, kde-format
 msgid "Actor..."
 msgstr "主角..."
 
-#: listpopupmenu.cpp:1535
+#: listpopupmenu.cpp:1540
 #, kde-format
 msgid "Use Case..."
 msgstr "用例..."
 
-#: listpopupmenu.cpp:1539 listpopupmenu.cpp:1584
+#: listpopupmenu.cpp:1544 listpopupmenu.cpp:1589
 #, kde-format
 msgid "from file..."
 msgstr "來自檔案.."
 
-#: listpopupmenu.cpp:1544
+#: listpopupmenu.cpp:1549
 #, kde-format
 msgid "Package..."
 msgstr "套件..."
 
-#: listpopupmenu.cpp:1548
+#: listpopupmenu.cpp:1553
 #, kde-format
 msgctxt "new instance menu item"
 msgid "Instance..."
 msgstr "實體..."
 
-#: listpopupmenu.cpp:1551 worktoolbar.cpp:346
+#: listpopupmenu.cpp:1556 worktoolbar.cpp:346
 #, kde-format
 msgid "Initial State"
 msgstr "初始狀態"
 
-#: listpopupmenu.cpp:1552 worktoolbar.cpp:348
+#: listpopupmenu.cpp:1557 worktoolbar.cpp:348
 #, kde-format
 msgid "End State"
 msgstr "終止狀態"
 
-#: listpopupmenu.cpp:1553
+#: listpopupmenu.cpp:1558
 #, kde-format
 msgctxt "add new state"
 msgid "State..."
 msgstr "狀態..."
 
-#: listpopupmenu.cpp:1554 worktoolbar.cpp:366
+#: listpopupmenu.cpp:1559 worktoolbar.cpp:366
 #, kde-format
 msgid "Junction"
 msgstr "接合"
 
-#: listpopupmenu.cpp:1555 worktoolbar.cpp:362
+#: listpopupmenu.cpp:1560 worktoolbar.cpp:362
 #, kde-format
 msgid "Deep History"
 msgstr "深歷史"
 
-#: listpopupmenu.cpp:1556 worktoolbar.cpp:363
+#: listpopupmenu.cpp:1561 worktoolbar.cpp:363
 #, kde-format
 msgid "Shallow History"
 msgstr "淺歷史"
 
-#: listpopupmenu.cpp:1557
+#: listpopupmenu.cpp:1562
 #, kde-format
 msgid "Choice"
 msgstr "選擇"
 
-#: listpopupmenu.cpp:1558 worktoolbar.cpp:365
+#: listpopupmenu.cpp:1563 worktoolbar.cpp:365
 #, kde-format
 msgid "Fork"
 msgstr "分叉"
 
-#: listpopupmenu.cpp:1559
+#: listpopupmenu.cpp:1564
 #, kde-format
 msgid "Join"
 msgstr "連接"
 
-#: listpopupmenu.cpp:1563 worktoolbar.cpp:379
+#: listpopupmenu.cpp:1568 worktoolbar.cpp:379
 #, kde-format
 msgid "Initial Activity"
 msgstr "初始活動"
 
-#: listpopupmenu.cpp:1564 worktoolbar.cpp:375
+#: listpopupmenu.cpp:1569 worktoolbar.cpp:375
 #, kde-format
 msgid "End Activity"
 msgstr "終止活動"
 
-#: listpopupmenu.cpp:1565 listpopupmenu.cpp:1615
+#: listpopupmenu.cpp:1570 listpopupmenu.cpp:1620
 #, kde-format
 msgid "Activity..."
 msgstr "活動..."
 
-#: listpopupmenu.cpp:1570
+#: listpopupmenu.cpp:1575
 #, kde-format
 msgid "Subsystem..."
 msgstr "子系統..."
 
-#: listpopupmenu.cpp:1571
+#: listpopupmenu.cpp:1576
 #, kde-format
 msgid "Component..."
 msgstr "元件..."
 
-#: listpopupmenu.cpp:1573
+#: listpopupmenu.cpp:1578
 #, kde-format
 msgid "Port..."
 msgstr "連接埠..."
 
-#: listpopupmenu.cpp:1574
+#: listpopupmenu.cpp:1579
 #, kde-format
 msgid "Artifact..."
 msgstr "產出..."
 
-#: listpopupmenu.cpp:1577
+#: listpopupmenu.cpp:1582
 #, kde-format
 msgid "Node..."
 msgstr "節點..."
 
-#: listpopupmenu.cpp:1580
+#: listpopupmenu.cpp:1585
 #, kde-format
 msgid "Entity..."
 msgstr "實體..."
 
-#: listpopupmenu.cpp:1581
+#: listpopupmenu.cpp:1586
 #, kde-format
 msgid "Category..."
 msgstr "類別..."
 
-#: listpopupmenu.cpp:1585 listpopupmenu.cpp:1589
+#: listpopupmenu.cpp:1590 listpopupmenu.cpp:1594
 #, kde-format
 msgid "Object..."
 msgstr "物件..."
 
-#: listpopupmenu.cpp:1595 listpopupmenu.cpp:1600
+#: listpopupmenu.cpp:1600 listpopupmenu.cpp:1605
 #, kde-format
 msgid "Template"
 msgstr "樣本"
 
-#: listpopupmenu.cpp:1604
+#: listpopupmenu.cpp:1609
 #, kde-format
 msgid "Entity Attribute..."
 msgstr "實體屬性..."
 
-#: listpopupmenu.cpp:1611
+#: listpopupmenu.cpp:1616
 #, kde-format
 msgid "Enum Literal..."
 msgstr "Enum 常數..."
 
-#: listpopupmenu.cpp:2004
+#: listpopupmenu.cpp:2009
 #, kde-format
 msgid "Delete Anchor"
 msgstr "刪除錨點"
 
-#: listpopupmenu.cpp:2070
+#: listpopupmenu.cpp:2075
 #, kde-format
 msgid "Undo"
 msgstr "復原"
 
-#: listpopupmenu.cpp:2071
+#: listpopupmenu.cpp:2076
 #, kde-format
 msgid "Redo"
 msgstr "重做"
 
-#: listpopupmenu.cpp:2077
+#: listpopupmenu.cpp:2082
 #, kde-format
 msgid "Clear Diagram"
 msgstr "清除圖表"
 
-#: listpopupmenu.cpp:2081
+#: listpopupmenu.cpp:2086
 #, kde-format
 msgid "Snap to Grid"
 msgstr "貼齊格線"
 
-#: listpopupmenu.cpp:2083
+#: listpopupmenu.cpp:2088
 #, kde-format
 msgid "Snap Component Size to Grid"
 msgstr "貼齊元件大小至網格"
 
-#: listpopupmenu.cpp:2085
+#: listpopupmenu.cpp:2090
 #, kde-format
 msgid "Show Grid"
 msgstr "顯示格線"
 
-#: listpopupmenu.cpp:2087
+#: listpopupmenu.cpp:2092
 #, kde-format
 msgid "Show Documentation Indicator"
 msgstr "顯示文件指示器"
 
-#: listpopupmenu.cpp:2099
+#: listpopupmenu.cpp:2104
 #, kde-format
 msgid "Disjoint(Specialisation)"
 msgstr "解體（專門化）"
 
-#: listpopupmenu.cpp:2100
+#: listpopupmenu.cpp:2105
 #, kde-format
 msgid "Overlapping(Specialisation)"
 msgstr "重疊（專門化）"
 
-#: listpopupmenu.cpp:2101
+#: listpopupmenu.cpp:2106
 #, kde-format
 msgid "Union"
 msgstr "聯合"

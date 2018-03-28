@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-27 03:24+0200\n"
+"POT-Creation-Date: 2018-03-28 03:26+0200\n"
 "PO-Revision-Date: 2018-03-27 21:37+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -57,23 +57,23 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "無法建立 io-slave: %1"
 
-#: core/copyjob.cpp:1164 core/job_error.cpp:517
+#: core/copyjob.cpp:1162 core/job_error.cpp:517
 #, kde-format
 msgid "Folder Already Exists"
 msgstr "資料夾已存在"
 
-#: core/copyjob.cpp:1436 core/copyjob.cpp:2008 core/filecopyjob.cpp:369
+#: core/copyjob.cpp:1434 core/copyjob.cpp:2006 core/filecopyjob.cpp:369
 #: core/job_error.cpp:507 widgets/paste.cpp:103
 #, kde-format
 msgid "File Already Exists"
 msgstr "檔案已存在"
 
-#: core/copyjob.cpp:1436 core/copyjob.cpp:2008
+#: core/copyjob.cpp:1434 core/copyjob.cpp:2006
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "已存在以此為名的資料夾"
 
-#: core/copyjob.cpp:1560
+#: core/copyjob.cpp:1558
 #, kde-format
 msgid "Trash"
 msgstr "資源回收桶"
@@ -924,7 +924,8 @@ msgstr "(不明)"
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
-msgstr "請聯繫合適的電腦支援組織，例如系統管理員或技術支援小組，以取得進一步的協助。"
+msgstr ""
+"請聯繫合適的電腦支援組織，例如系統管理員或技術支援小組，以取得進一步的協助。"
 
 #: core/job_error.cpp:347
 #, kde-format
@@ -971,7 +972,8 @@ msgstr "您可能遇到了程式中的錯誤。"
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
-msgstr "這最有可能是程式中的錯誤所導致。請考慮提效一份詳細的問題報告，詳情如下。"
+msgstr ""
+"這最有可能是程式中的錯誤所導致。請考慮提效一份詳細的問題報告，詳情如下。"
 
 #: core/job_error.cpp:362
 #, kde-format
@@ -1007,7 +1009,8 @@ msgstr "您的網路連線可能有問題。"
 msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
-msgstr "您的網路設定可能有問題。如果您最近存取網際網路沒有問題，這就不太可能了。"
+msgstr ""
+"您的網路設定可能有問題。如果您最近存取網際網路沒有問題，這就不太可能了。"
 
 #: core/job_error.cpp:378
 #, kde-format
@@ -1080,7 +1083,8 @@ msgstr "無法開啟資源進行寫入"
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
 "requested, because access with permission to write could not be obtained."
-msgstr "這就是說，該檔案 <strong>%1</strong> 無法按請求寫入，因為無法取得寫入權限。"
+msgstr ""
+"這就是說，該檔案 <strong>%1</strong> 無法按請求寫入，因為無法取得寫入權限。"
 
 #: core/job_error.cpp:410
 #, kde-format
@@ -1122,7 +1126,8 @@ msgstr "內部錯誤"
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an internal error."
-msgstr "在您的電腦上提供 <strong>%1</strong> 協定存取的程式報告了一個內部錯誤。"
+msgstr ""
+"在您的電腦上提供 <strong>%1</strong> 協定存取的程式報告了一個內部錯誤。"
 
 #: core/job_error.cpp:432
 #, kde-format
@@ -1389,7 +1394,8 @@ msgstr "無法進入資料夾"
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
 "folder <strong>%1</strong> was rejected."
-msgstr "這就是說，試圖進入 (即開啟) 要求的資料夾 <strong>%1</strong> 時被拒絕了。"
+msgstr ""
+"這就是說，試圖進入 (即開啟) 要求的資料夾 <strong>%1</strong> 時被拒絕了。"
 
 #: core/job_error.cpp:570
 #, kde-format
@@ -1481,7 +1487,8 @@ msgstr "無法建立 Socket"
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
-msgstr "這是一個相當技術性的錯誤，無法建立所需的網路通訊裝置 (socket, 承接口)。"
+msgstr ""
+"這是一個相當技術性的錯誤，無法建立所需的網路通訊裝置 (socket, 承接口)。"
 
 #: core/job_error.cpp:616 core/job_error.cpp:737 core/job_error.cpp:748
 #: core/job_error.cpp:757
@@ -1537,7 +1544,8 @@ msgstr "往伺服器的連線意外地關閉了"
 msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
 "was closed at an unexpected point in the communication."
-msgstr "雖然往 <strong>%1</strong> 的連線已經設立了，但通訊其間這個連線意外地中斷了。"
+msgstr ""
+"雖然往 <strong>%1</strong> 的連線已經設立了，但通訊其間這個連線意外地中斷了。"
 
 #: core/job_error.cpp:640
 #, kde-format
@@ -1593,7 +1601,8 @@ msgstr "無法裝載裝置"
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
 "error was: <strong>%1</strong>"
-msgstr "無法初始化 (裝載, mount) 您所要求的裝置。報告的錯誤是：<strong>%1</strong>"
+msgstr ""
+"無法初始化 (裝載, mount) 您所要求的裝置。報告的錯誤是：<strong>%1</strong>"
 
 #: core/job_error.cpp:666
 #, kde-format
@@ -2004,7 +2013,8 @@ msgstr "伺服器上提供 <strong>%1</strong> 協定的存取的程式報告內
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
 "consider submitting a full bug report as detailed below."
-msgstr "這大概是因為該伺服器程式內部有錯誤。請考慮依照下列指示提交完整的錯誤報告。"
+msgstr ""
+"這大概是因為該伺服器程式內部有錯誤。請考慮依照下列指示提交完整的錯誤報告。"
 
 #: core/job_error.cpp:923
 #, kde-format
@@ -2264,7 +2274,8 @@ msgstr ""
 msgid ""
 "klauncher could not find or start the plugin which provides the protocol."
 "This means you may have an outdated version of the plugin."
-msgstr "klauncher 找不到或無法啟動提供通訊協定的外掛。這代表了您的外掛程式太舊了。"
+msgstr ""
+"klauncher 找不到或無法啟動提供通訊協定的外掛。這代表了您的外掛程式太舊了。"
 
 #: core/job_error.cpp:1073
 #, kde-format
@@ -3400,7 +3411,8 @@ msgstr "提供了多個資料夾"
 msgid ""
 "At least one folder and one file has been selected. Selected files will be "
 "ignored and the selected folder will be listed"
-msgstr "您至少選擇了一個資料夾與一個檔案。選取的檔案會被忽略，而選取的資料夾會被列出"
+msgstr ""
+"您至少選擇了一個資料夾與一個檔案。選取的檔案會被忽略，而選取的資料夾會被列出"
 
 #: filewidgets/kfilewidget.cpp:1039
 #, kde-format
@@ -3872,7 +3884,8 @@ msgstr "無法登入 %1。"
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
-msgstr "您必須為下列的代理伺服器提供一組使用者名稱和密碼，才能夠取得存取網站的權限。"
+msgstr ""
+"您必須為下列的代理伺服器提供一組使用者名稱和密碼，才能夠取得存取網站的權限。"
 
 #: ioslaves/ftp/ftp.cpp:2616 ioslaves/http/http.cpp:5251
 #: ioslaves/http/http.cpp:5383
@@ -4199,7 +4212,8 @@ msgid ""
 msgid_plural ""
 "<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept or "
 "reject these cookies?</p>"
-msgstr[0] "<p>您收到了從<br/><b>%2%3</b><br/>來的 %1 個 cookies。您要接受或拒絕？</p>"
+msgstr[0] ""
+"<p>您收到了從<br/><b>%2%3</b><br/>來的 %1 個 cookies。您要接受或拒絕？</p>"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:98
 #, kde-format
@@ -4450,7 +4464,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<para>Set the number of days that files can remain in the trash. Any files "
 "older than this will be automatically deleted.</para>"
-msgstr "<para>設定資源回收桶中的檔案可以保留多久。超過此期限則自動刪除。</para>"
+msgstr ""
+"<para>設定資源回收桶中的檔案可以保留多久。超過此期限則自動刪除。</para>"
 
 #: ioslaves/trash/kcmtrash.cpp:277
 #, kde-format
@@ -4663,7 +4678,8 @@ msgstr "儘可能使用快取(&P)"
 msgid ""
 "Do not fetch web pages that are not already stored in the cache. Offline "
 "mode prevents you from viewing pages that you have not previously visited."
-msgstr "既使網頁不在快取資料中，也不抓取。離線模式會使你只能瀏覽之前看過的網頁。"
+msgstr ""
+"既使網頁不在快取資料中，也不抓取。離線模式會使你只能瀏覽之前看過的網頁。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbOfflineMode)
 #: kcms/kio/cache.ui:75
@@ -4844,7 +4860,8 @@ msgstr "新增 Cookie 政策"
 msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
-msgstr "<qt>關於<center><b>%1</b></center>的政策已經存在，您確定要覆蓋它嗎？</qt>"
+msgstr ""
+"<qt>關於<center><b>%1</b></center>的政策已經存在，您確定要覆蓋它嗎？</qt>"
 
 #: kcms/kio/kcookiespolicies.cpp:225
 #, kde-format
@@ -6590,7 +6607,8 @@ msgid ""
 "The Shortcut URL does not contain a \\{...} placeholder for the user query.\n"
 "This means that the same page is always going to be visited, regardless of "
 "the text typed in with the shortcut."
-msgstr "此捷徑網址不包含 \\{...} 符號。這表示不管輸入什麼文字，都會跑到同一個網址。"
+msgstr ""
+"此捷徑網址不包含 \\{...} 符號。這表示不管輸入什麼文字，都會跑到同一個網址。"
 
 #: urifilters/ikws/searchproviderdlg.cpp:149
 #, kde-format
@@ -7763,7 +7781,8 @@ msgstr "描述"
 msgid ""
 "Click on this button if you want to add a type of file (mimetype) that your "
 "application can handle."
-msgstr "如果你想要加入您的應用程式可以處理的檔案類型（mime 類型），請按這個按鈕。"
+msgstr ""
+"如果你想要加入您的應用程式可以處理的檔案類型（mime 類型），請按這個按鈕。"
 
 #. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
 #: widgets/kpropertiesdesktopbase.ui:209
@@ -8184,7 +8203,8 @@ msgstr "特殊屬性"
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
-msgstr "特殊的旗標。對整個資料夾都有效，這個旗標精確的意思可以在右手邊的欄位看到。"
+msgstr ""
+"特殊的旗標。對整個資料夾都有效，這個旗標精確的意思可以在右手邊的欄位看到。"
 
 #: widgets/kpropertiesdialog.cpp:2022
 #, kde-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-20 03:34+0100\n"
+"POT-Creation-Date: 2018-03-28 03:36+0200\n"
 "PO-Revision-Date: 2018-03-25 14:11+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: discover/DiscoverObject.cpp:176
+#: discover/DiscoverObject.cpp:172
 #, kde-format
 msgid "Could not find category '%1'"
 msgstr "找不到分類 '%1'"
 
-#: discover/DiscoverObject.cpp:205 discover/DiscoverObject.cpp:232
+#: discover/DiscoverObject.cpp:201 discover/DiscoverObject.cpp:228
 #, kde-format
 msgid "Couldn't open %1"
 msgstr "無法開啟 %1"
@@ -190,11 +190,6 @@ msgstr "版本："
 msgid "Size:"
 msgstr "大小："
 
-#: discover/qml/ApplicationPage.qml:278
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
 #: discover/qml/ApplicationPage.qml:284
 #, kde-format
 msgid "Source:"
@@ -226,8 +221,9 @@ msgid "Report a Problem:"
 msgstr "回報問題："
 
 #: discover/qml/ApplicationsListPage.qml:68
-#, kde-format
-msgid "Sort"
+#, fuzzy, kde-format
+#| msgid "Sort"
+msgid "Sort: %1"
 msgstr "排序"
 
 #: discover/qml/ApplicationsListPage.qml:71
@@ -366,7 +362,7 @@ msgstr "工作 (%1%)"
 msgid "Tasks"
 msgstr "工作"
 
-#: discover/qml/ProgressView.qml:113
+#: discover/qml/ProgressView.qml:77
 #, kde-format
 msgctxt "TransactioName TransactionStatus"
 msgid "%1 %2"
@@ -598,6 +594,9 @@ msgstr "應該檢查更新"
 msgctxt "@info"
 msgid "It is unknown when the last check for updates was"
 msgstr "不知道上次檢查更新的時間"
+
+#~ msgid "%1"
+#~ msgstr "%1"
 
 #~ msgid ""
 #~ "\n"

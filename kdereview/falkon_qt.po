@@ -351,44 +351,50 @@ msgctxt "BrowserWindow|"
 msgid "There are still open tabs"
 msgstr "仍然有開啟中分頁"
 
-#: lib/app/mainapplication.cpp:1040
+#: lib/app/mainapplication.cpp:1045
 msgctxt "MainApplication|"
 msgid ""
 "Falkon is not currently your default browser. Would you like to make it your "
 "default browser?"
 msgstr "Falkon 並非您現在的預設網頁瀏覽器。是否要設為預設網頁瀏覽器？"
 
-#: lib/app/mainapplication.cpp:1041
+#: lib/app/mainapplication.cpp:1046
 msgctxt "MainApplication|"
 msgid "Always perform this check when starting Falkon."
 msgstr "啟動 Falkon 總是顯示此確認。"
 
-#: lib/app/mainapplication.cpp:1043
+#: lib/app/mainapplication.cpp:1048
 msgctxt "MainApplication|"
 msgid "Default Browser"
 msgstr "預設網頁瀏覽器"
 
-#: lib/app/mainapplication.cpp:1161
+#: lib/app/mainapplication.cpp:1166
 msgctxt "MainApplication|"
 msgid "Open new tab"
 msgstr "開啟新分頁"
 
-#: lib/app/mainapplication.cpp:1162
+#: lib/app/mainapplication.cpp:1167
 msgctxt "MainApplication|"
 msgid "Open new window"
 msgstr "開啟新視窗"
 
-#: lib/app/mainapplication.cpp:1163
+#: lib/app/mainapplication.cpp:1168
 msgctxt "MainApplication|"
 msgid "Open new private window"
 msgstr "開啟新的隱私瀏覽視窗"
 
-#: lib/app/mainapplication.cpp:1178
+#: lib/app/mainapplication.cpp:1183
+#, fuzzy
+#| msgctxt "MainApplication|"
+#| msgid ""
+#| "Falkon is a new, fast and secure open-source WWW browser. Falkon is "
+#| "licensed under GPL version 3 or (at your option) any later version. It is "
+#| "based on QtWebEngine and Qt Framework."
 msgctxt "MainApplication|"
 msgid ""
-"Falkon is a new, fast and secure open-source WWW browser. Falkon is licensed "
-"under GPL version 3 or (at your option) any later version. It is based on "
-"QtWebEngine and Qt Framework."
+"Falkon is a new and very fast Qt web browser. Falkon is licensed under GPL "
+"version 3 or (at your option) any later version. It is based on QtWebEngine "
+"and Qt Framework."
 msgstr ""
 "Falkon 是一個新穎、快速、安全且開放原始碼的 WWW 瀏覽器。Falkon 以 GPLv3 或是 "
 "(在您的選擇下) 更新的版本釋出。Falkon 是基於 QtWebngine 內核及 Qt 框架。"
@@ -1640,65 +1646,65 @@ msgstr ""
 " %1 \n"
 "找不到！"
 
-#: lib/downloads/downloadmanager.cpp:177 lib/downloads/downloadmanager.cpp:408
+#: lib/downloads/downloadmanager.cpp:192 lib/downloads/downloadmanager.cpp:419
 #: lib/downloads/downloadmanager.ui:20
 msgctxt "DownloadManager|"
 msgid "Download Manager"
 msgstr "下載管理員"
 
-#: lib/downloads/downloadmanager.cpp:217
+#: lib/downloads/downloadmanager.cpp:230
 #, qt-format
 msgctxt "DownloadManager|"
 msgid "%1% of %2 files (%3) %4 remaining"
 msgstr "%1% / %2 檔案 (%3) 剩餘 %4"
 
-#: lib/downloads/downloadmanager.cpp:221
+#: lib/downloads/downloadmanager.cpp:234
 #, qt-format
 msgctxt "DownloadManager|"
 msgid "%1% - Download Manager"
 msgstr "%1% - 下載管理員"
 
-#: lib/downloads/downloadmanager.cpp:293
+#: lib/downloads/downloadmanager.cpp:304
 msgctxt "DownloadManager|"
 msgid "Save file as..."
 msgstr "將檔案另存為…"
 
-#: lib/downloads/downloadmanager.cpp:303
+#: lib/downloads/downloadmanager.cpp:314
 msgctxt "DownloadManager|"
 msgid "MIME HTML Archive (*.mhtml)"
 msgstr "MIME HTML 歸檔 (*.mhtml)"
 
-#: lib/downloads/downloadmanager.cpp:304
+#: lib/downloads/downloadmanager.cpp:315
 msgctxt "DownloadManager|"
 msgid "HTML Page, single (*.html)"
 msgstr "單一 HTML 頁面 (*.html)"
 
-#: lib/downloads/downloadmanager.cpp:305
+#: lib/downloads/downloadmanager.cpp:316
 msgctxt "DownloadManager|"
 msgid "HTML Page, complete (*.html)"
 msgstr "完整 HTML 頁面 (*.html)"
 
-#: lib/downloads/downloadmanager.cpp:309
+#: lib/downloads/downloadmanager.cpp:320
 msgctxt "DownloadManager|"
 msgid "Save page as..."
 msgstr "另存網頁為..."
 
-#: lib/downloads/downloadmanager.cpp:401
+#: lib/downloads/downloadmanager.cpp:412
 msgctxt "DownloadManager|"
 msgid "Falkon: Download Finished"
 msgstr "Falkon：下載結束"
 
-#: lib/downloads/downloadmanager.cpp:401
+#: lib/downloads/downloadmanager.cpp:412
 msgctxt "DownloadManager|"
 msgid "All files have been successfully downloaded."
 msgstr "所有檔案皆成功下載。"
 
-#: lib/downloads/downloadmanager.cpp:469
+#: lib/downloads/downloadmanager.cpp:466
 msgctxt "DownloadManager|"
 msgid "Warning"
 msgstr "警告"
 
-#: lib/downloads/downloadmanager.cpp:470
+#: lib/downloads/downloadmanager.cpp:467
 msgctxt "DownloadManager|"
 msgid ""
 "Are you sure you want to quit? All uncompleted downloads will be cancelled!"
@@ -3552,82 +3558,82 @@ msgctxt "PluginsManager|"
 msgid "Cannot load extension!"
 msgstr "無法載入擴充功能！"
 
-#: lib/preferences/preferences.cpp:151 lib/preferences/preferences.cpp:582
+#: lib/preferences/preferences.cpp:153 lib/preferences/preferences.cpp:589
 msgctxt "Preferences|"
 msgid "Default"
 msgstr "預設"
 
-#: lib/preferences/preferences.cpp:155
+#: lib/preferences/preferences.cpp:157
 msgctxt "Preferences|"
 msgid "Set as default"
 msgstr "設定為預設"
 
-#: lib/preferences/preferences.cpp:525
+#: lib/preferences/preferences.cpp:532
 msgctxt "Preferences|"
 msgid "Choose executable location..."
 msgstr "選擇可執行檔位置…"
 
-#: lib/preferences/preferences.cpp:568
+#: lib/preferences/preferences.cpp:575
 msgctxt "Preferences|"
 msgid "OSD Notification"
 msgstr "OSD 通知"
 
-#: lib/preferences/preferences.cpp:569
+#: lib/preferences/preferences.cpp:576
 msgctxt "Preferences|"
 msgid "Drag it on the screen to place it where you want."
 msgstr "在螢幕上拖曳它到您想要的位置。"
 
-#: lib/preferences/preferences.cpp:618
+#: lib/preferences/preferences.cpp:625
 msgctxt "Preferences|"
 msgid "Choose download location..."
 msgstr "選擇下載位置…"
 
-#: lib/preferences/preferences.cpp:632
+#: lib/preferences/preferences.cpp:639
 msgctxt "Preferences|"
 msgid "Choose stylesheet location..."
 msgstr "選擇樣式表位置…"
 
-#: lib/preferences/preferences.cpp:643
+#: lib/preferences/preferences.cpp:650
 msgctxt "Preferences|"
 msgid "Deleted"
 msgstr "已刪除"
 
-#: lib/preferences/preferences.cpp:733
+#: lib/preferences/preferences.cpp:740
 msgctxt "Preferences|"
 msgid "Choose cache path..."
 msgstr "選擇快取路徑…"
 
-#: lib/preferences/preferences.cpp:764
+#: lib/preferences/preferences.cpp:771
 msgctxt "Preferences|"
 msgid "New Profile"
 msgstr "新增個人設定"
 
-#: lib/preferences/preferences.cpp:764
+#: lib/preferences/preferences.cpp:771
 msgctxt "Preferences|"
 msgid "Enter the new profile's name:"
 msgstr "輸入新的個人設定名稱："
 
-#: lib/preferences/preferences.cpp:774 lib/preferences/preferences.cpp:779
+#: lib/preferences/preferences.cpp:781 lib/preferences/preferences.cpp:786
 msgctxt "Preferences|"
 msgid "Error!"
 msgstr "錯誤！"
 
-#: lib/preferences/preferences.cpp:774
+#: lib/preferences/preferences.cpp:781
 msgctxt "Preferences|"
 msgid "This profile already exists!"
 msgstr "此個人設定已存在！"
 
-#: lib/preferences/preferences.cpp:779
+#: lib/preferences/preferences.cpp:786
 msgctxt "Preferences|"
 msgid "Cannot create profile directory!"
 msgstr "無法建立個人設定目錄！"
 
-#: lib/preferences/preferences.cpp:790
+#: lib/preferences/preferences.cpp:797
 msgctxt "Preferences|"
 msgid "Confirmation"
 msgstr "確認"
 
-#: lib/preferences/preferences.cpp:791
+#: lib/preferences/preferences.cpp:798
 #, qt-format
 msgctxt "Preferences|"
 msgid ""
@@ -3635,12 +3641,12 @@ msgid ""
 "cannot be undone!"
 msgstr "您確定要永久刪除「%1」設定檔嗎？這個動作無法還原！"
 
-#: lib/preferences/preferences.cpp:806 lib/preferences/preferences.ui:227
+#: lib/preferences/preferences.cpp:813 lib/preferences/preferences.ui:227
 msgctxt "Preferences|"
 msgid "Note: You cannot delete active profile."
 msgstr "注意：您不能刪除正在運行的個人設定。"
 
-#: lib/preferences/preferences.cpp:1060
+#: lib/preferences/preferences.cpp:1067
 msgctxt "Preferences|"
 msgid "Select Color"
 msgstr "選擇顏色"
