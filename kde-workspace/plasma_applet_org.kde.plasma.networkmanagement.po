@@ -1,0 +1,4519 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2011, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: networkmanagement_openvpnui\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-02 03:35+0100\n"
+"PO-Revision-Date: 2018-03-25 13:43+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: contents/config/config.qml:29
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: contents/ui/configGeneral.qml:41
+#, kde-format
+msgid "Ask for PIN on modem detection"
+msgstr "在數據機偵測時詢問 PIN"
+
+#: contents/ui/configGeneral.qml:50
+#, kde-format
+msgid "Show and configure virtual connections"
+msgstr "顯示與設定虛擬網路連線..."
+
+#: contents/ui/ConnectionItem.qml:145
+#, kde-format
+msgid "Connect"
+msgstr "連線"
+
+#: contents/ui/ConnectionItem.qml:145
+#, kde-format
+msgid "Disconnect"
+msgstr "斷線"
+
+#: contents/ui/ConnectionItem.qml:192
+#, kde-format
+msgid "Speed"
+msgstr "速度"
+
+#: contents/ui/ConnectionItem.qml:197
+#, kde-format
+msgid "Details"
+msgstr "詳情"
+
+#: contents/ui/ConnectionItem.qml:356
+#, kde-format
+msgid ""
+"Connected, <font color='%1'>⬇</font> %2/s, <font color='%3'>⬆</font> %4/s"
+msgstr ""
+"已連線，<font color='%1'>⬇</font> %2/秒, <font color='%3'>⬆</font> %4/秒"
+
+#: contents/ui/ConnectionItem.qml:362
+#, kde-format
+msgid "Connected"
+msgstr "已連線"
+
+#: contents/ui/DetailsText.qml:45
+#, kde-format
+msgid "Copy"
+msgstr "複製"
+
+#: contents/ui/Header.qml:87
+#, kde-format
+msgid "Available connections"
+msgstr "可用的連線"
+
+#: contents/ui/main.qml:34
+#, kde-format
+msgid "Networks"
+msgstr "網路"
+
+#: contents/ui/main.qml:54
+#, kde-format
+msgid "&Configure Network Connections..."
+msgstr "設定網路連線...(&C)"
+
+#: contents/ui/PasswordField.qml:31
+#, kde-format
+msgid "Password..."
+msgstr "密碼..."
+
+#: contents/ui/Toolbar.qml:69
+#, kde-format
+msgid "Enable wireless"
+msgstr "啟用無線網路"
+
+#: contents/ui/Toolbar.qml:83
+#, kde-format
+msgid "Enable mobile network"
+msgstr "啟用行動網路"
+
+#: contents/ui/Toolbar.qml:98
+#, kde-format
+msgid "Enable airplane mode"
+msgstr "啟用飛航模式"
+
+#: contents/ui/Toolbar.qml:124
+#, kde-format
+msgid "Configure network connections..."
+msgstr "設定網路連線..."
+
+#: contents/ui/TrafficMonitor.qml:67
+#, kde-format
+msgid "Download"
+msgstr "下載"
+
+#: contents/ui/TrafficMonitor.qml:72
+#, kde-format
+msgid "Upload"
+msgstr "上傳"
+
+#~ msgid "Rescan wireless networks"
+#~ msgstr "重新掃描無線網路"
+
+#~ msgid "Show password"
+#~ msgstr "顯示密碼"
+
+#~ msgid "Connected, ⬇ %1/s, ⬆ %2/s"
+#~ msgstr "已連線，⬇ %1/s, ⬆ %2/s"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#, fuzzy
+#~| msgid "&Show secrets"
+#~ msgid "Show sections"
+#~ msgstr "顯示密碼(&S)"
+
+#, fuzzy
+#~| msgid "Show network speed in:"
+#~ msgid "Show &network speed in:"
+#~ msgstr "顯示網路速度單位："
+
+#~ msgid "KBytes/s"
+#~ msgstr "KBytes/s"
+
+#, fuzzy
+#~ msgid "KBits/s"
+#~ msgstr "KBits/s"
+
+#, fuzzy
+#~| msgctxt "network interface connection failed state label"
+#~| msgid "Connection Failed"
+#~ msgid "Connection Details"
+#~ msgstr "連線失敗"
+
+#, fuzzy
+#~ msgid "Wireless enabled"
+#~ msgstr "無線網路硬體已開啟"
+
+#, fuzzy
+#~ msgid "Wireless disabled"
+#~ msgstr "無線網路硬體已開啟"
+
+#, fuzzy
+#~ msgid "Mobile broadband enabled"
+#~ msgstr "行動寬頻"
+
+#, fuzzy
+#~ msgid "Mobile broadband disabled"
+#~ msgstr "行動寬頻"
+
+#, fuzzy
+#~ msgid "Airplane mode enabled"
+#~ msgstr "無線網路硬體已開啟"
+
+#, fuzzy
+#~| msgctxt "@info:status Notification for radio kill switch turned off"
+#~| msgid "Wireless hardware disabled"
+#~ msgid "Airplane mode disabled"
+#~ msgstr "無線網路硬體已關閉"
+
+#, fuzzy
+#~| msgid "Users allowed to activate the connection"
+#~ msgctxt "Disconnected"
+#~ msgid "There is no active network connection"
+#~ msgstr "允許啟動此連線的使用者"
+
+#, fuzzy
+#~| msgid "Create network connections standalone"
+#~ msgctxt "Disconnecting"
+#~ msgid "Network connections are being cleaned up"
+#~ msgstr "建立獨立網路連線"
+
+#, fuzzy
+#~ msgid "VPN Connection"
+#~ msgstr "新的 VPN 連線"
+
+#, fuzzy
+#~ msgid "Connected to %1"
+#~ msgstr "已連線到 %1"
+
+#, fuzzy
+#~ msgid "Connecting to %1"
+#~ msgstr "已連線到 %1"
+
+#, fuzzy
+#~ msgid "NetworkManager not running"
+#~ msgstr "網路管理"
+
+#, fuzzy
+#~ msgid "NetworkManager 0.9.8 required, found %1."
+#~ msgstr "網路管理"
+
+#, fuzzy
+#~ msgctxt "global connection state"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#, fuzzy
+#~ msgctxt "traffic transmitted empty"
+#~ msgid "Transmitted"
+#~ msgstr "傳輸強度"
+
+#, fuzzy
+#~ msgid "KBit/s"
+#~ msgstr "KBits/s"
+
+#, fuzzy
+#~ msgid "MBit/s"
+#~ msgstr " MBit/s"
+
+#, fuzzy
+#~ msgid "GBit/s"
+#~ msgstr "%1 GBit/s"
+
+#, fuzzy
+#~ msgid "Transmitted"
+#~ msgstr "傳輸強度"
+
+#, fuzzy
+#~ msgid "Missing VPN plugin"
+#~ msgstr "VPN 外掛程式名稱"
+
+#, fuzzy
+#~| msgid "&Connection name:"
+#~ msgid "Connection name"
+#~ msgstr "連線名稱(&C)："
+
+#, fuzzy
+#~| msgid "Last Used"
+#~ msgid "Last used"
+#~ msgstr "上次使用"
+
+#, fuzzy
+#~ msgid "Active connections"
+#~ msgstr "解除連線"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Wired Ethernet"
+#~ msgstr "有線乙太網路"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Wireless 802.11"
+#~ msgstr "無線網路 802.11"
+
+#, fuzzy
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Bluetooth"
+#~ msgstr "藍芽"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Serial Modem"
+#~ msgstr "序列數據機"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Mobile Broadband"
+#~ msgstr "行動寬頻"
+
+#~ msgid "DSL"
+#~ msgstr "DSL"
+
+#~ msgid "Bluetooth"
+#~ msgstr "藍芽"
+
+#, fuzzy
+#~ msgid "Mobile broadband"
+#~ msgstr "行動寬頻"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Wired"
+#~ msgstr "有線"
+
+#, fuzzy
+#~ msgid "Unknown connection type"
+#~ msgstr "未知的安全型態"
+
+#, fuzzy
+#~ msgid "Wireless Interface (%1)"
+#~ msgstr "無線網路介面"
+
+#, fuzzy
+#~ msgid "Wired Interface (%1)"
+#~ msgstr "已斷線介面（%1）"
+
+#, fuzzy
+#~ msgid "Bluetooth (%1)"
+#~ msgstr "藍芽"
+
+#~ msgctxt "description of unknown network interface state"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "description of unmanaged network interface state"
+#~ msgid "Unmanaged"
+#~ msgstr "未管理"
+
+#~ msgctxt "description of unavailable network interface state"
+#~ msgid "Unavailable"
+#~ msgstr "無法使用"
+
+#~ msgctxt "description of unconnected network interface state"
+#~ msgid "Not connected"
+#~ msgstr "未連線"
+
+#~ msgctxt "description of preparing to connect network interface state"
+#~ msgid "Preparing to connect"
+#~ msgstr "準備連線中"
+
+#~ msgctxt "description of configuring hardware network interface state"
+#~ msgid "Configuring interface"
+#~ msgstr "設定介面"
+
+#~ msgctxt "description of waiting for authentication network interface state"
+#~ msgid "Waiting for authorization"
+#~ msgstr "等待認證"
+
+#~ msgctxt "network interface doing dhcp request in most cases"
+#~ msgid "Setting network address"
+#~ msgstr "設定網路位址"
+
+#~ msgctxt "is other action required to fully connect? captive portals, etc."
+#~ msgid "Checking further connectivity"
+#~ msgstr "檢查進一步連線"
+
+#~ msgctxt ""
+#~ "a secondary connection (e.g. VPN) has to be activated first to continue"
+#~ msgid "Waiting for a secondary connection"
+#~ msgstr "等待第二連線"
+
+#~ msgctxt "network interface connected state label"
+#~ msgid "Connected"
+#~ msgstr "已連線"
+
+#~ msgctxt "network interface connected state label"
+#~ msgid "Connected to %1"
+#~ msgstr "已連線到 %1"
+
+#~ msgctxt "network interface disconnecting state label"
+#~ msgid "Deactivating connection"
+#~ msgstr "解除連線"
+
+#~ msgctxt "network interface connection failed state label"
+#~ msgid "Connection Failed"
+#~ msgstr "連線失敗"
+
+#~ msgctxt "interface state"
+#~ msgid "Error: Invalid state"
+#~ msgstr "錯誤：不合法的狀態"
+
+#, fuzzy
+#~ msgctxt "The state of the VPN connection is unknown"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#, fuzzy
+#~| msgctxt "description of preparing to connect network interface state"
+#~| msgid "Preparing to connect"
+#~ msgctxt "The VPN connection is preparing to connect"
+#~ msgid "Preparing to connect"
+#~ msgstr "準備連線中"
+
+#, fuzzy
+#~| msgctxt "description of waiting for authentication network interface state"
+#~| msgid "Waiting for authorization"
+#~ msgctxt "The VPN connection needs authorization credentials"
+#~ msgid "Needs authorization"
+#~ msgstr "等待認證"
+
+#, fuzzy
+#~ msgctxt "The VPN connection is being established"
+#~ msgid "Connecting"
+#~ msgstr "連線"
+
+#, fuzzy
+#~| msgctxt "network interface doing dhcp request in most cases"
+#~| msgid "Setting network address"
+#~ msgctxt "The VPN connection is getting an IP address"
+#~ msgid "Setting network address"
+#~ msgstr "設定網路位址"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "@info:status Notification text when a connection has been activated"
+#~| msgid "%1 activated"
+#~ msgctxt "The VPN connection is active"
+#~ msgid "Activated"
+#~ msgstr "%1 已啟動"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Adhoc"
+#~ msgstr "Adhoc"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Infrastructure"
+#~ msgstr "Infrastructure"
+
+#, fuzzy
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Access point"
+#~ msgstr "存取點"
+
+#~ msgid "INCORRECT MODE FIX ME"
+#~ msgstr "不正確的模式，FIXME"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Pairwise WEP40"
+#~ msgstr "Pairwise WEP40"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Pairwise WEP104"
+#~ msgstr "Pairwise WEP104"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Pairwise TKIP"
+#~ msgstr "Pairwise TKIP"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Pairwise CCMP"
+#~ msgstr "Pairwise CCMP"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Group WEP40"
+#~ msgstr "Group WEP40"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Group WEP104"
+#~ msgstr "Group WEP104"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Group TKIP"
+#~ msgstr "Group TKIP"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "Group CCMP"
+#~ msgstr "Group CCMP"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "PSK"
+#~ msgstr "PSK"
+
+#~ msgctxt "wireless network cipher"
+#~ msgid "802.1x"
+#~ msgstr "802.1x"
+
+#~ msgctxt "connection speed"
+#~ msgid "<numid>%1</numid> Bit/s"
+#~ msgstr "<numid>%1</numid> Bit/s"
+
+#~ msgctxt "connection speed"
+#~ msgid "<numid>%1</numid> MBit/s"
+#~ msgstr "<numid>%1</numid> MBit/s"
+
+#~ msgctxt "connection speed"
+#~ msgid "<numid>%1</numid> GBit/s"
+#~ msgstr "<numid>%1</numid> GBit/s"
+
+#, fuzzy
+#~| msgid "3G (UMTS/HSPA)"
+#~ msgctxt "Gsm modes (2G/3G/any)"
+#~ msgid "UMTS/HSxPA"
+#~ msgstr "3G (UMTS/HSPA)"
+
+#, fuzzy
+#~| msgid "2G (GPRS/EDGE)"
+#~ msgctxt "Gsm modes (2G/3G/any)"
+#~ msgid "GPRS/EDGE"
+#~ msgstr "2G (GPRS/EDGE)"
+
+#, fuzzy
+#~| msgctxt "Cellular access technology"
+#~| msgid "GSM"
+#~ msgctxt "Gsm modes (2G/3G/any)"
+#~ msgid "GSM"
+#~ msgstr "GSM"
+
+#, fuzzy
+#~| msgctxt "Any cellular frequency band"
+#~| msgid "Any"
+#~ msgctxt "Gsm modes (2G/3G/any)"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#, fuzzy
+#~ msgctxt "Cellular access technology"
+#~ msgid "HSPA+"
+#~ msgstr "HSPA"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "HSPA"
+#~ msgstr "HSPA"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "HSUPA"
+#~ msgstr "HSUPA"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "HSDPA"
+#~ msgstr "HSDPA"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "UMTS"
+#~ msgstr "UMTS"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "EDGE"
+#~ msgstr "EDGE"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "GPRS"
+#~ msgstr "GPRS"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "Compact GSM"
+#~ msgstr "Compact GSM"
+
+#~ msgctxt "Cellular access technology"
+#~ msgid "GSM"
+#~ msgstr "GSM"
+
+#~ msgctxt "Unknown cellular access technology"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#, fuzzy
+#~| msgctxt "Any cellular frequency band"
+#~| msgid "Any"
+#~ msgctxt "Any cellular access technology"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#, fuzzy
+#~| msgctxt "@label unknown security"
+#~| msgid "Unknown security type"
+#~ msgctxt "Unknown"
+#~ msgid "Unknown Wimax NSP type"
+#~ msgstr "未知的安全型態"
+
+#~ msgctxt "@label no security"
+#~ msgid "Insecure"
+#~ msgstr "不安全"
+
+#~ msgctxt "@label WEP security"
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgctxt "@label LEAP security"
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgctxt "@label Dynamic WEP security"
+#~ msgid "Dynamic WEP"
+#~ msgstr "動態 WEP"
+
+#~ msgctxt "@label WPA-PSK security"
+#~ msgid "WPA-PSK"
+#~ msgstr "WPA-PSK"
+
+#~ msgctxt "@label WPA-EAP security"
+#~ msgid "WPA-EAP"
+#~ msgstr "WPA-EAP"
+
+#~ msgctxt "@label WPA2-PSK security"
+#~ msgid "WPA2-PSK"
+#~ msgstr "WPA2-PSK"
+
+#~ msgctxt "@label WPA2-EAP security"
+#~ msgid "WPA2-EAP"
+#~ msgstr "WPA2-EAP"
+
+#~ msgctxt "@label unknown security"
+#~ msgid "Unknown security type"
+#~ msgstr "未知的安全型態"
+
+#~ msgctxt "@info:tooltip no security"
+#~ msgid "Insecure"
+#~ msgstr "不安全"
+
+#~ msgctxt "@info:tooltip WEP security"
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgctxt "@info:tooltip LEAP security"
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgctxt "@info:tooltip Dynamic WEP security"
+#~ msgid "Dynamic WEP"
+#~ msgstr "動態 WEP"
+
+#~ msgctxt "@info:tooltip WPA-PSK security"
+#~ msgid "WPA-PSK"
+#~ msgstr "WPA-PSK"
+
+#~ msgctxt "@info:tooltip WPA-EAP security"
+#~ msgid "WPA-EAP"
+#~ msgstr "WPA-EAP"
+
+#~ msgctxt "@info:tooltip WPA2-PSK security"
+#~ msgid "WPA2-PSK"
+#~ msgstr "WPA2-PSK"
+
+#~ msgctxt "@info:tooltip WPA2-EAP security"
+#~ msgid "WPA2-EAP"
+#~ msgstr "WPA2-EAP"
+
+#~ msgctxt "@info:tooltip unknown security"
+#~ msgid "Unknown security type"
+#~ msgstr "未知的安全型態"
+
+#, fuzzy
+#~ msgid "System name:"
+#~ msgstr "系統名稱"
+
+#, fuzzy
+#~ msgid "IPv4 Address:"
+#~ msgstr "IPv4 位址"
+
+#, fuzzy
+#~ msgid "IPv4 Gateway:"
+#~ msgstr "IPv4 閘道"
+
+#, fuzzy
+#~ msgid "IPv6 Address:"
+#~ msgstr "IPv6 位址"
+
+#, fuzzy
+#~ msgid "IPv6 Gateway:"
+#~ msgstr "IPv4 閘道"
+
+#, fuzzy
+#~ msgid "Driver:"
+#~ msgstr "驅動程式"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Bluetooth name"
+#~ msgstr "藍芽"
+
+#, fuzzy
+#~ msgid "MAC Address:"
+#~ msgstr "硬體 Mac 位址"
+
+#, fuzzy
+#~ msgid "Operator:"
+#~ msgstr "行動裝置操作程式"
+
+#, fuzzy
+#~| msgid "Network ID"
+#~ msgid "Network ID:"
+#~ msgstr "網路代碼"
+
+#, fuzzy
+#~ msgid "Signal Quality:"
+#~ msgstr "行動網路信號品質"
+
+#, fuzzy
+#~ msgid "Access Technology:"
+#~ msgstr "行動網路存取技術"
+
+#, fuzzy
+#~ msgid "Allowed Mode:"
+#~ msgstr "行動網路允許的模式"
+
+#, fuzzy
+#~ msgid "Unlock Required:"
+#~ msgstr "行動網路需要解除鎖定"
+
+#, fuzzy
+#~ msgid "VPN plugin:"
+#~ msgstr "VPN 外掛程式名稱"
+
+#, fuzzy
+#~ msgid "Banner:"
+#~ msgstr "頻道(&C)："
+
+#, fuzzy
+#~ msgid "NSP Name:"
+#~ msgstr "名稱"
+
+#, fuzzy
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#, fuzzy
+#~ msgid "Network Type:"
+#~ msgstr "網路型態"
+
+#, fuzzy
+#~ msgid "Connection speed:"
+#~ msgstr "連線速度"
+
+#, fuzzy
+#~ msgid "Mode:"
+#~ msgstr "模式(&M)："
+
+#, fuzzy
+#~ msgid "Signal strength:"
+#~ msgstr "信號強度"
+
+#, fuzzy
+#~ msgid "Access point (SSID):"
+#~ msgstr "存取點 (SSID)"
+
+#, fuzzy
+#~ msgid "Access point (BSSID):"
+#~ msgstr "存取點 (SSID)"
+
+#, fuzzy
+#~ msgctxt "Wifi AP channel and frequency"
+#~ msgid "Channel:"
+#~ msgstr "頻道(&C)："
+
+#, fuzzy
+#~ msgid "Security:"
+#~ msgstr "安全性(&S)："
+
+#, fuzzy
+#~ msgid "Frequency band:"
+#~ msgstr "頻率"
+
+#~ msgctxt ""
+#~ "Label for last used time for a network connection used in the last hour, "
+#~ "as the number of minutes since usage"
+#~ msgid "One minute ago"
+#~ msgid_plural "%1 minutes ago"
+#~ msgstr[0] "%1 分鐘之前"
+
+#~ msgctxt ""
+#~ "Label for last used time for a network connection used in the last day, "
+#~ "as the number of hours since usage"
+#~ msgid "One hour ago"
+#~ msgid_plural "%1 hours ago"
+#~ msgstr[0] "%1 小時之前"
+
+#~ msgctxt ""
+#~ "Label for last used time for a network connection used the previous day"
+#~ msgid "Yesterday"
+#~ msgstr "昨天"
+
+#~ msgctxt ""
+#~ "Label for last used time for a network connection that has never been used"
+#~ msgid "Never"
+#~ msgstr "從未用過"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Label for last used time for a network connection used in the last hour, "
+#~| "as the number of minutes since usage"
+#~| msgid "One minute ago"
+#~| msgid_plural "%1 minutes ago"
+#~ msgctxt ""
+#~ "Label for last used time for a network connection used in the last hour, "
+#~ "as the number of minutes since usage"
+#~ msgid "Last used one minute ago"
+#~ msgid_plural "Last used %1 minutes ago"
+#~ msgstr[0] "%1 分鐘之前"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Label for last used time for a network connection used in the last day, "
+#~| "as the number of hours since usage"
+#~| msgid "One hour ago"
+#~| msgid_plural "%1 hours ago"
+#~ msgctxt ""
+#~ "Label for last used time for a network connection used in the last day, "
+#~ "as the number of hours since usage"
+#~ msgid "Last used one hour ago"
+#~ msgid_plural "Last used %1 hours ago"
+#~ msgstr[0] "%1 小時之前"
+
+#, fuzzy
+#~| msgid "Last used"
+#~ msgctxt ""
+#~ "Label for last used time for a network connection used the previous day"
+#~ msgid "Last used yesterday"
+#~ msgstr "上次使用"
+
+#, fuzzy
+#~| msgid "Last used"
+#~ msgid "Last used on %1"
+#~ msgstr "上次使用"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Label for last used time for a network connection that has never been "
+#~| "used"
+#~| msgid "Never"
+#~ msgctxt ""
+#~ "Label for last used time for a network connection that has never been used"
+#~ msgid "Never used"
+#~ msgstr "從未用過"
+
+#~ msgid "Driver"
+#~ msgstr "驅動程式"
+
+#~ msgid "Device driver"
+#~ msgstr "裝置驅動程式"
+
+#~ msgid "Connection Speed"
+#~ msgstr "連線速度"
+
+#~ msgid "Connection speed"
+#~ msgstr "連線速度"
+
+#~ msgid "System Name"
+#~ msgstr "系統名稱"
+
+#~ msgid "MAC Address"
+#~ msgstr "硬體 Mac 位址"
+
+#~ msgid "Hardware address"
+#~ msgstr "硬體位址"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 位址"
+
+#~ msgid "IP version 4 address"
+#~ msgstr "IPv4 位址"
+
+#~ msgid "IPv4 Gateway"
+#~ msgstr "IPv4 閘道"
+
+#~ msgid "IP version 4 default gateway"
+#~ msgstr "IPv4 預設閘道器"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 位址"
+
+#, fuzzy
+#~ msgid "IP version 6 address"
+#~ msgstr "IPv4 位址"
+
+#, fuzzy
+#~ msgid "IPv6 Gateway"
+#~ msgstr "IPv4 閘道"
+
+#, fuzzy
+#~ msgid "IP version 6 default gateway"
+#~ msgstr "IPv4 預設閘道器"
+
+#, fuzzy
+#~ msgid "The name of the NSP"
+#~ msgstr "無線網路名稱"
+
+#~ msgid "Access Point (SSID)"
+#~ msgstr "存取點 (SSID)"
+
+#~ msgid "Wireless Access Point's SSID"
+#~ msgstr "無線網路存取點的 SSID"
+
+#~ msgid "Signal Strength"
+#~ msgstr "信號強度"
+
+#, fuzzy
+#~ msgid "Wireless Access Point's signal strength"
+#~ msgstr "無線網路存取點的 SSID"
+
+#~ msgid "Access Point (MAC)"
+#~ msgstr "存取點 (MAC)"
+
+#~ msgid "Wireless Access Point's Hardware Address"
+#~ msgstr "無線網路存取點的硬體位置"
+
+#~ msgid "Wireless Band"
+#~ msgstr "無線頻帶"
+
+#~ msgid "Wireless Frequency Band"
+#~ msgstr "無線網路的頻綠帶"
+
+#~ msgid "Wireless Channel"
+#~ msgstr "無線網路頻道"
+
+#~ msgid "Wireless Frequency Channel"
+#~ msgstr "無線網路頻率頻道"
+
+#~ msgid "Wireless Security"
+#~ msgstr "無線安全性"
+
+#, fuzzy
+#~ msgid "Describes the security capabilities of the access point"
+#~ msgstr "此存取點使用的基本 SSID（Basic SSID）"
+
+#, fuzzy
+#~ msgid "Wireless Mode"
+#~ msgstr "無線頻帶"
+
+#, fuzzy
+#~ msgid "The operating mode of the wireless device"
+#~ msgstr "無線網路操作模式"
+
+#~ msgid "Mobile Operator"
+#~ msgstr "行動裝置操作程式"
+
+#~ msgid "Mobile Operator's Name"
+#~ msgstr "行動裝置操作程式名稱"
+
+#~ msgid "Mobile Signal Quality"
+#~ msgstr "行動網路信號品質"
+
+#~ msgid "Mobile Access Technology"
+#~ msgstr "行動網路存取技術"
+
+#~ msgid "Mobile Allowed Mode"
+#~ msgstr "行動網路允許的模式"
+
+#~ msgid "Mobile Unlock Required"
+#~ msgstr "行動網路需要解除鎖定"
+
+#~ msgid "Mobile Master Device"
+#~ msgstr "行動網路主要裝置"
+
+#~ msgid "Mobile Device IMEI"
+#~ msgstr "行動裝置 IMEI 碼"
+
+#~ msgid "Mobile Device Serial Number"
+#~ msgstr "行動裝置序號"
+
+#~ msgid "Mobile Device IMSI"
+#~ msgstr "行動裝置 IMSI 碼"
+
+#~ msgid "Mobile Device Identity Number"
+#~ msgstr "行動裝置識別碼"
+
+#, fuzzy
+#~ msgid "Bluetooth Name"
+#~ msgstr "藍芽"
+
+#, fuzzy
+#~ msgid "VPN Plugin"
+#~ msgstr "VPN 外掛程式名稱"
+
+#, fuzzy
+#~ msgid "VPN plugin type"
+#~ msgstr "VPN 外掛程式名稱"
+
+#, fuzzy
+#~ msgid "VPN connection banner"
+#~ msgstr "新的 VPN 連線"
+
+#~ msgid "Available Details"
+#~ msgstr "可用的詳情"
+
+#~ msgctxt "title of a table's column"
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Details to Show"
+#~ msgstr "要顯示的詳情"
+
+#, fuzzy
+#~ msgid "Disconnected"
+#~ msgstr "已連線"
+
+#, fuzzy
+#~ msgid "Disconnecting"
+#~ msgstr "連線"
+
+#, fuzzy
+#~ msgid "Connecting"
+#~ msgstr "連線"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#, fuzzy
+#~ msgctxt "type of network device"
+#~ msgid "Type:"
+#~ msgstr "型態(&T)："
+
+#, fuzzy
+#~| msgctxt "@info:status Notification text when connecting"
+#~| msgid "Activating %1"
+#~ msgid "Activating"
+#~ msgstr "啟動 %1"
+
+#, fuzzy
+#~ msgid "Status:"
+#~ msgstr "狀態"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "名稱"
+
+#~ msgid "Type"
+#~ msgstr "型態"
+
+#~ msgid "Interface type"
+#~ msgstr "介面型態"
+
+#~ msgid "Connection State"
+#~ msgstr "連線狀態"
+
+#~ msgid "Connection state"
+#~ msgstr "連線狀態"
+
+#~ msgctxt "Format for <Vendor> <Product>"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgctxt "Unknown cellular type"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#, fuzzy
+#~| msgctxt "Cellular access technology"
+#~| msgid "GSM"
+#~ msgctxt "GSM cellular type"
+#~ msgid "GSM"
+#~ msgstr "GSM"
+
+#~ msgctxt "Unknown cellular frequency band"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "Any cellular frequency band"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "GSM/GPRS/EDGE 900 MHz"
+#~ msgstr "GSM/GPRS/EDGE 900 MHz"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "GSM/GPRS/EDGE 1800 MHz"
+#~ msgstr "GSM/GPRS/EDGE 1800 MHz"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "GSM/GPRS/EDGE 1900 MHz"
+#~ msgstr "GSM/GPRS/EDGE 1900 MHz"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "GSM/GPRS/EDGE 850 MHz"
+#~ msgstr "GSM/GPRS/EDGE 850 MHz"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 2100 MHz (Class I)"
+#~ msgstr "WCDMA 2100 MHz (Class I)"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP 1800 MHz (Class III)"
+#~ msgstr "WCDMA 3GPP 1800 MHz (Class III)"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP AWS 1700/2100 MHz (Class IV)"
+#~ msgstr "WCDMA 3GPP AWS 1700/2100 MHz (Class IV)"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP UMTS 800 MHz (Class VI)"
+#~ msgstr "WCDMA 3GPP UMTS 800 MHz (Class VI)"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP UMTS 850 MHz (Class V)"
+#~ msgstr "WCDMA 3GPP UMTS 850 MHz (Class V)"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP UMTS 900 MHz (Class VIII)"
+#~ msgstr "WCDMA 3GPP UMTS 900 MHz (Class VIII)"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP UMTS 1700 MHz (Class IX)"
+#~ msgstr "WCDMA 3GPP UMTS 1700 MHz (Class IX)"
+
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP UMTS 1900 MHz (Class II)"
+#~ msgstr "WCDMA 3GPP UMTS 1900 MHz (Class II)"
+
+#, fuzzy
+#~ msgctxt "Cellular frequency band"
+#~ msgid "WCDMA 3GPP UMTS 2600 MHz (Class VII)"
+#~ msgstr "WCDMA 3GPP UMTS 900 MHz (Class VIII)"
+
+#~ msgctxt "Allowed Gsm modes (2G/3G/any)"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgctxt "Allowed Gsm modes (2G/3G/any)"
+#~ msgid "Prefer 2G"
+#~ msgstr "預設用 2G"
+
+#~ msgctxt "Allowed Gsm modes (2G/3G/any)"
+#~ msgid "Prefer 3G"
+#~ msgstr "預設用 3G"
+
+#~ msgctxt "Allowed Gsm modes (2G/3G/any)"
+#~ msgid "Only 2G"
+#~ msgstr "只用 2G"
+
+#~ msgctxt "Allowed Gsm modes (2G/3G/any)"
+#~ msgid "Only 3G"
+#~ msgstr "只用 3G"
+
+#, fuzzy
+#~ msgid "Frequency Band:"
+#~ msgstr "行動網路頻率帶"
+
+#~ msgid "Mobile Frequency Band"
+#~ msgstr "行動網路頻率帶"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "New Mobile Broadband Connection"
+#~ msgstr "新增行動寬頻連線"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "My plan is not listed..."
+#~ msgstr "我的計劃未被列出"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Unknown Provider"
+#~ msgstr "未知的提供者"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "APN"
+#~ msgstr "APN"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Set up a Mobile Broadband Connection"
+#~ msgstr "設定行動寬頻連線"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid ""
+#~ "This assistant helps you easily set up a mobile broadband connection to a "
+#~ "cellular (3G) network."
+#~ msgstr "小助手將協助您輕鬆設定行動寬頻網路連線，讓您使用行動網路（3G）。"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "You will need the following information:"
+#~ msgstr "您需要以下的資訊："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Your broadband provider's name"
+#~ msgstr "您的寬頻網路提供者名稱"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Your broadband billing plan name"
+#~ msgstr "您的寬頻網路名稱"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "(in some cases) Your broadband billing plan APN (Access Point Name)"
+#~ msgstr "（有些狀況下）您的寬頻網路的存取點名稱（APN）"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Create a connection for &this mobile broadband device:"
+#~ msgstr "建立此行動寬頻裝置的連線(&T)："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Any GSM device"
+#~ msgstr "任何 GSM 裝置"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Any CDMA device"
+#~ msgstr "任何 CDMA 裝置"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Installed GSM device"
+#~ msgstr "已安裝的 GSM 裝置"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Installed CDMA device"
+#~ msgstr "已安裝的 CDMA 裝置"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Choose your Provider's Country"
+#~ msgstr "選擇您的提供者的國家"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Country List:"
+#~ msgstr "國家清單："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "My country is not listed"
+#~ msgstr "我的國家未被列出"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Choose your Provider"
+#~ msgstr "選擇您的提供者"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Select your provider from a &list:"
+#~ msgstr "從清單中選取您的提供者(&L)："
+
+#, fuzzy
+#~| msgctxt "Mobile Connection Wizard"
+#~| msgid "I can't find my provider and I wish to enter it &manually:"
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "I cannot find my provider and I wish to enter it &manually:"
+#~ msgstr "清單中沒有我的提供者，我要手動輸入(&M)："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Choose your Billing Plan"
+#~ msgstr "選擇您的寬頻網路"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "&Select your plan:"
+#~ msgstr "選擇您的網路(&S)："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Selected plan &APN (Access Point Name):"
+#~ msgstr "選擇您的網路存取點名稱（APN）(&A)："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid ""
+#~ "Warning: Selecting an incorrect plan may result in billing issues for "
+#~ "your broadband account or may prevent connectivity.\n"
+#~ "\n"
+#~ "If you are unsure of your plan please ask your provider for your plan's "
+#~ "APN."
+#~ msgstr ""
+#~ "警告：選擇不正確的網路，您會無法連線。\n"
+#~ "\n"
+#~ "若您不確定您的網路存取點名稱等資訊，請詢問您的提供者。"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Confirm Mobile Broadband Settings"
+#~ msgstr "確認行動寬頻設定"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid ""
+#~ "Your mobile broadband connection is configured with the following "
+#~ "settings:"
+#~ msgstr "您的行動寬頻連線已設定："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Your Provider:"
+#~ msgstr "您的提供者："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "Your Plan:"
+#~ msgstr "您的網路："
+
+#~ msgctxt "Error message in VPN import/export dialog"
+#~ msgid "Operation not supported for this VPN type."
+#~ msgstr "這種 VPN 型態不支援此操作。"
+
+#, fuzzy
+#~| msgctxt "Cellular access technology"
+#~| msgid "GPRS"
+#~ msgctxt "Gsm modes (2G/3G/any)"
+#~ msgid "GPRS/Edge"
+#~ msgstr "GPRS"
+
+#~ msgctxt "Gsm cellular type"
+#~ msgid "Gsm"
+#~ msgstr "Gsm"
+
+#~ msgctxt "Cdma cellular type"
+#~ msgid "Cdma"
+#~ msgstr "Cdma"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Label for last used time for a network connection that has never been "
+#~| "used"
+#~| msgid "Never"
+#~ msgid "Never used"
+#~ msgstr "從未用過"
+
+#, fuzzy
+#~ msgid "Previous connections"
+#~ msgstr "解除連線"
+
+#, fuzzy
+#~ msgid "Unknown connections"
+#~ msgstr "不明的選項：%1"
+
+#~ msgid "Connect automatically"
+#~ msgstr "自動連線"
+
+#, fuzzy
+#~ msgid "Edit connection"
+#~ msgstr "連線"
+
+#, fuzzy
+#~ msgid "Networking enabled"
+#~ msgstr "網路系統已關閉"
+
+#, fuzzy
+#~ msgid "Edit connections..."
+#~ msgstr "連線"
+
+#, fuzzy
+#~| msgid "Automatically start connecting next time"
+#~ msgid "Automatically connect"
+#~ msgstr "下次自動開始連線"
+
+#, fuzzy
+#~ msgid "Frequency Bands:"
+#~ msgstr "行動網路頻率帶"
+
+#, fuzzy
+#~ msgid "Signal quality:"
+#~ msgstr "行動網路信號品質"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "編輯..."
+
+#, fuzzy
+#~ msgid "Remove"
+#~ msgstr "移除(&E)"
+
+#, fuzzy
+#~ msgid "Do you really want to remove connection %1?"
+#~ msgstr "您真的要刪除連線 %1？"
+
+#~ msgid "Store secrets in wallet"
+#~ msgstr "在錢包內儲存密碼"
+
+#~ msgid "Security type"
+#~ msgstr "安全型態"
+
+#~ msgid "Key management"
+#~ msgstr "金鑰管理"
+
+#~ msgid "WEP TX key index"
+#~ msgstr "WEP TX 金鑰索引"
+
+#~ msgid "Authentication algorithm"
+#~ msgstr "認證演算法"
+
+#~ msgid "Protocols"
+#~ msgstr "協定"
+
+#~ msgid "Pairwise"
+#~ msgstr "Pairwise"
+
+#~ msgctxt ""
+#~ "encryption capabilities group (one of 'wep40', 'wep104', 'tkip', or "
+#~ "'ccmp')"
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgid "LEAP Username"
+#~ msgstr "LEAP 使用者名稱"
+
+#~ msgid "WEP key 0"
+#~ msgstr "WEP 金鑰 0"
+
+#~ msgid "WEP key 1"
+#~ msgstr "WEP 金鑰 1"
+
+#~ msgid "WEP key 2"
+#~ msgstr "WEP 金鑰 2"
+
+#~ msgid "WEP key 3"
+#~ msgstr "WEP 金鑰 3"
+
+#~ msgid "PSK"
+#~ msgstr "PSK"
+
+#~ msgid "LEAP Password"
+#~ msgstr "LEAP 密碼"
+
+#~ msgid "WEP Passphrase"
+#~ msgstr "WEP 密碼片語"
+
+#~ msgid "SSID"
+#~ msgstr "SSID"
+
+#~ msgid "Service Set IDentifier (network name) "
+#~ msgstr "服務設定識別 SSID（網路名稱）"
+
+#~ msgid "Mode"
+#~ msgstr "模式"
+
+#~ msgid "Band"
+#~ msgstr "頻帶"
+
+#~ msgid "Channel"
+#~ msgstr "頻道"
+
+#~ msgid "BSSID"
+#~ msgstr "BSSID"
+
+#~ msgid "Data rate"
+#~ msgstr "資料比率"
+
+#~ msgid "Hardware address to set on the wireless network interface"
+#~ msgstr "設定在無線網路介面上的硬體位址"
+
+#~ msgid "MTU"
+#~ msgstr "MTU"
+
+#~ msgid "Maximum Transmit Unit"
+#~ msgstr "最大傳輸單位"
+
+#~ msgid "Seen BSSIDs"
+#~ msgstr "看到的 BSSID"
+
+#~ msgid "EAP"
+#~ msgstr "EAP"
+
+#~ msgid "Identity"
+#~ msgstr "身份"
+
+#~ msgid "Anonymous identity"
+#~ msgstr "匿名身份"
+
+#~ msgid "CA Cert"
+#~ msgstr "CA 憑證"
+
+#~ msgid "CA Path"
+#~ msgstr "CA 路徑"
+
+#~ msgid "Client Cert"
+#~ msgstr "客戶端憑證"
+
+#~ msgid "Client Cert Path"
+#~ msgstr "客戶端憑證路徑"
+
+#~ msgid "Phase 1 PEAP version"
+#~ msgstr "Phase 1 PEAP 版本"
+
+#~ msgid "Phase 1 PEAP label"
+#~ msgstr "Phase 1 PEAP 標籤"
+
+#~ msgid "Phase 1 fast provisioning"
+#~ msgstr "Phase 1 fast provisioning"
+
+#~ msgid "Phase 2 auth"
+#~ msgstr "Phase 2 認證"
+
+#~ msgid "Phase 2 auth eap"
+#~ msgstr "Phase 2 認證 eap"
+
+#~ msgid "Phase 2 CA Cert"
+#~ msgstr "Phase 2 CA 憑證"
+
+#~ msgid "Phase 2 CA Path"
+#~ msgstr "Phase 2 CA 路徑"
+
+#~ msgid "Phase 2 client cert"
+#~ msgstr "Phase 2 客戶端憑證"
+
+#~ msgid "Phase 2 client cert path"
+#~ msgstr "Phase 2 客戶端憑證路徑"
+
+#~ msgid "Private key"
+#~ msgstr "私密金鑰"
+
+#~ msgid "Private key Path"
+#~ msgstr "私密金鑰路徑"
+
+#~ msgid "Private key password"
+#~ msgstr "私密金鑰密碼"
+
+#~ msgid "Phase 2 private key"
+#~ msgstr "Phase 2 私密金鑰"
+
+#~ msgid "Phase 2 Private key Path"
+#~ msgstr "Phase 2 私密金鑰路徑"
+
+#~ msgid "Phase 2 private key password"
+#~ msgstr "Phase 2 私密金鑰密碼"
+
+#~ msgid "PIN"
+#~ msgstr "PIN 碼"
+
+#~ msgid "Use System CA Certs"
+#~ msgstr "使用系統的 CA 憑證"
+
+#~ msgid "Connection uses 802.1x"
+#~ msgstr "連線使用 802.1x"
+
+#~ msgid "Port"
+#~ msgstr "連接埠"
+
+#~ msgctxt "like in Ethernet duplex mode (half or full)"
+#~ msgid "Duplex"
+#~ msgstr "雙工"
+
+#~ msgid "Whether the Ethernet interface should use duplex communications"
+#~ msgstr "乙太網路介面是否要使用雙工通訊"
+
+#~ msgid "Auto negotiate"
+#~ msgstr "自動溝通"
+
+#~ msgid "Maximum Transfer Unit to use"
+#~ msgstr "要使用的最大傳輸單位"
+
+#~ msgid "Network Name"
+#~ msgstr "網路名稱"
+
+#~ msgid "Bdaddr"
+#~ msgstr "藍牙裝置位址(bdaddr)"
+
+#~ msgid "Number"
+#~ msgstr "號碼"
+
+#~ msgctxt "like in Username for authenticaton"
+#~ msgid "Username"
+#~ msgstr "使用者名稱"
+
+#~ msgid "Identifier"
+#~ msgstr "識別碼"
+
+#~ msgid "A name that uniquely identifies a connection"
+#~ msgstr "辨識連線用的獨一名稱"
+
+#~ msgid ""
+#~ "Specifies the connection type, defines which devices it can activate and "
+#~ "which other settings the connection should contain"
+#~ msgstr "指定連線型態，定義它可啟動的裝置，以及連線必須包含的其它設定"
+
+#~ msgid "Should the networking system always try to activate this connection?"
+#~ msgstr "此網路系統是否總是要試著啟動此連線？"
+
+#~ msgid "The date and time that the connection was last activated"
+#~ msgstr "連線上次啟動時的日期與時間"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "Unique connection identifier"
+#~ msgstr "唯一的連線代碼"
+
+#~ msgctxt "like in Username for authentication"
+#~ msgid "Username"
+#~ msgstr "使用者名稱"
+
+#~ msgid "APN"
+#~ msgstr "APN"
+
+#~ msgid "PUK"
+#~ msgstr "PUK"
+
+#~ msgid "Method"
+#~ msgstr "方法"
+
+#~ msgid "Choose the way to set the IP address of this connection"
+#~ msgstr "選擇設定此連線 IP 位址的方法"
+
+#~ msgid "DNS Servers"
+#~ msgstr "DNS 伺服器"
+
+#~ msgid "List of Domain Name System servers to use"
+#~ msgstr "要使用的 DNS 伺服器清單"
+
+#~ msgid "Search Domains"
+#~ msgstr "搜尋網域"
+
+#~ msgid "List of domains to search for a hostname"
+#~ msgstr "搜尋主機名稱時搜尋的網域清單"
+
+#~ msgid "IP Addresses"
+#~ msgstr "IP 位址"
+
+#~ msgid "List of IP addresses to configure on this connection"
+#~ msgstr "設定此連線的 IP 清單"
+
+#~ msgid "Ignore DHCP DNS"
+#~ msgstr "忽略 DHCP DNS 設定"
+
+#~ msgid ""
+#~ "Ignore DNS servers returned by DHCP and use the configured servers instead"
+#~ msgstr "不要管 DHCP 傳回來的 DNS 設定，直接用設定好的伺服器"
+
+#~ msgid "Ignore Automatic Routes"
+#~ msgstr "忽略自動路由"
+
+#~ msgid ""
+#~ "Ignore routes returned by automatic configuration mechanisms and use the "
+#~ "manually configured routes instead"
+#~ msgstr "忽略自動設定機制設定好的路由，而改用手動設定的路由"
+
+#~ msgid "Never Default Route"
+#~ msgstr "永不使用預設路由"
+
+#~ msgid "Never assign the default route to this connection"
+#~ msgstr "對此連線永不指定預設路由器"
+
+#~ msgid "DHCP Client ID"
+#~ msgstr "DHCP 客戶端代碼"
+
+#~ msgid "Send hostname to DHCP server"
+#~ msgstr "傳送主機名稱到 DHCP 伺服器"
+
+#~ msgid "DHCP hostname"
+#~ msgstr "DHCP 主機名稱"
+
+#~ msgid "Required for this connection"
+#~ msgstr "此連線需要"
+
+#~ msgid "No Auth"
+#~ msgstr "無認證"
+
+#~ msgid "Refuse EAP"
+#~ msgstr "拒絕 EAP"
+
+#~ msgid "Refuse PAP"
+#~ msgstr "拒絕 PAP"
+
+#~ msgid "Refuse CHAP"
+#~ msgstr "拒絕 CHAP"
+
+#~ msgid "Refuse MS CHAP"
+#~ msgstr "拒絕 MS CHAP"
+
+#~ msgid "Refuse MS CHAP V2"
+#~ msgstr "拒絕 MS CHAP V2"
+
+#~ msgid "No BSD comp."
+#~ msgstr "沒有 BSD 壓縮"
+
+#~ msgid "No deflate"
+#~ msgstr "沒有 defalte 壓縮"
+
+#~ msgid "No VJ comp."
+#~ msgstr "沒有 VJ 壓縮"
+
+#~ msgid "Require MPPE"
+#~ msgstr "需要 MPPE"
+
+#~ msgid "Require MPPE 128"
+#~ msgstr "需要 MPPE 128"
+
+#~ msgid "MPPE Stateful"
+#~ msgstr "MPPE 狀態式"
+
+#~ msgid "CRTSCTS"
+#~ msgstr "CRTSCTS"
+
+#~ msgid "Baud"
+#~ msgstr "鮑率"
+
+#~ msgid "MRU"
+#~ msgstr "MRU"
+
+#~ msgid "LCP echo Failure"
+#~ msgstr "LCP echo 失敗"
+
+#~ msgid "LCP echo interval"
+#~ msgstr "LCP echo 間隔"
+
+#~ msgid "Service"
+#~ msgstr "服務"
+
+#~ msgid "Data bits"
+#~ msgstr "資料位元"
+
+#~ msgid "Parity"
+#~ msgstr "同位檢查"
+
+#~ msgid "Stop bits"
+#~ msgstr "停止位元"
+
+#~ msgid "Send delay"
+#~ msgstr "傳送延遲"
+
+#~ msgid "Service Type"
+#~ msgstr "服務型態"
+
+#~ msgid "System username, not stored"
+#~ msgstr "系統使用者名稱，未儲存"
+
+#~ msgid "Vpnsecrets"
+#~ msgstr "Vpnsecrets"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Interface type"
+#~ msgstr "介面型態"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "System device name"
+#~ msgstr "系統裝置名稱"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "System driver name"
+#~ msgstr "系統驅動程式名稱"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Network interface status"
+#~ msgstr "網路介面狀態"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Hardware address of a network interface"
+#~ msgstr "網路介面的硬體位址"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Network interface current bit rate"
+#~ msgstr "網路介面目前的位元速率"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Maximum speed of the network interface"
+#~ msgstr "網路介面的最大速率"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "IPv4 network address"
+#~ msgstr "IPv4 網路位址"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Network name servers"
+#~ msgstr "網路名稱伺服器"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Network domains"
+#~ msgstr "網域"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Network routes"
+#~ msgstr "網路路由"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Signal strength of the wifi network"
+#~ msgstr "WIFI 無線網路的信號強度"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Name of the wireless network in use"
+#~ msgstr "使用中的無線網路名稱"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Operation mode of wireless network"
+#~ msgstr "無線網路操作模式"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Hardware address of the active access point"
+#~ msgstr "作用中存取點的硬體位址"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "The radio channel frequency that the access point is operating on"
+#~ msgstr "存取點使用的無線頻道頻率"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Subjective network security level description"
+#~ msgstr "主觀網路安全等級描述"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Flags describing the access point's capabilities according to WPA (Wifi "
+#~ "Protected Access)"
+#~ msgstr ""
+#~ "根據 WPA （Wifi Protected Access，無線網路保護存取）取得的存取點的能力旗標"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Flags describing the access point's capabilities according to RSN (Robust "
+#~ "Secure Network)"
+#~ msgstr ""
+#~ "根據 RSN （Robust Secure Network，可信賴安全網路）取得的存取點的能力旗標"
+
+#~ msgctxt "@label interface type"
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgctxt "@label network device name eg eth0"
+#~ msgid "Interface"
+#~ msgstr "介面"
+
+#~ msgctxt "@label system driver name"
+#~ msgid "Driver"
+#~ msgstr "驅動程式"
+
+#~ msgctxt "@label this is the hardware address of a network interface"
+#~ msgid "Hardware address (Wired)"
+#~ msgstr "硬體位址（有線網路）"
+
+#~ msgctxt "@label network connection bit rate"
+#~ msgid "Bit rate"
+#~ msgstr "位元速率"
+
+#~ msgctxt "@label The network device's maximum speed"
+#~ msgid "Max speed"
+#~ msgstr "最大速率"
+
+#~ msgctxt "@label IPv4 address"
+#~ msgid "IP address"
+#~ msgstr "IP 位址"
+
+#~ msgctxt "@label network name servers"
+#~ msgid "Name servers"
+#~ msgstr "名稱伺服器"
+
+#~ msgctxt "@label network domains"
+#~ msgid "Domains"
+#~ msgstr "網域"
+
+#~ msgctxt "@label network routes"
+#~ msgid "Routes"
+#~ msgstr "路由"
+
+#~ msgctxt "@label The signal strength of the wifi network"
+#~ msgid "Strength"
+#~ msgstr "強度"
+
+#~ msgctxt "@label SSID is a friendly name that identifies a 802.11 WLAN."
+#~ msgid "SSID"
+#~ msgstr "SSID"
+
+#~ msgctxt "@label the operation mode of wi-fi network"
+#~ msgid "Mode"
+#~ msgstr "模式"
+
+#~ msgctxt "@label network security level, e.g. high, low"
+#~ msgid "Security"
+#~ msgstr "安全性"
+
+#~ msgctxt ""
+#~ "@label Flags describing the access point's capabilities according to WPA "
+#~ "(Wifi Protected Access)"
+#~ msgid "WPA flags"
+#~ msgstr "WPA 旗標"
+
+#~ msgctxt ""
+#~ "@label Flags describing the access point's capabilities according to RSN "
+#~ "(Robust Secure Network)"
+#~ msgid "RSN(WPA2) flags"
+#~ msgstr "RSN(WPA2) 旗標"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Ap mode"
+#~ msgstr "AP 模式"
+
+#~ msgctxt "Text in GSM PIN/PUK unlock error dialog"
+#~ msgid "Error unlocking modem: %1"
+#~ msgstr "解除數據機鎖定時發生錯誤：%1"
+
+#~ msgctxt "Title for GSM PIN/PUK unlock error dialog"
+#~ msgid "PIN/PUK unlock error"
+#~ msgstr "PIN/PUK 碼解除鎖定錯誤"
+
+#~ msgctxt "@info:status Notification text when deactivating a connection"
+#~ msgid "%1 deactivated"
+#~ msgstr "%1 已停止"
+
+#~ msgctxt "@info:status Notification text when connection has failed"
+#~ msgid "Connection %1 failed"
+#~ msgstr "連線 %1 失敗"
+
+#~ msgctxt "@info:status Notification text when wireless/gsm signal is low"
+#~ msgid "Low signal on %1"
+#~ msgstr "%1 上的信號過低"
+
+#~ msgctxt ""
+#~ "@info:status interface (%2) status notification title when a connection "
+#~ "(%1) is activating"
+#~ msgid "Activating %1 on %2"
+#~ msgstr "啟動 %1 於 %2"
+
+#~ msgctxt ""
+#~ "@info:status interface (%2) status notification title when a connection "
+#~ "(%1) has successfully activated"
+#~ msgid "%1 on %2"
+#~ msgstr "%1 於 %2"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "NowManagedReason"
+#~ msgid "%1 because it is now being managed"
+#~ msgstr "%1 因為它現在已被管理"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "NowUnmanagedReason"
+#~ msgid "%1 because it is no longer being managed"
+#~ msgstr "%1 因為它現在已不再被管理"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ConfigFailedReason"
+#~ msgid "%1 because configuration failed"
+#~ msgstr "%1 因為設定失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ConfigUnavailableReason"
+#~ msgid "%1 because the configuration is unavailable"
+#~ msgstr "%1 因為無法取得設定"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ConfigExpiredReason"
+#~ msgid "%1 because the configuration has expired"
+#~ msgstr "%1 因為設定已過期"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "NoSecretsReason"
+#~ msgid "%1 because secrets were not provided"
+#~ msgstr "%1 因為未提供密碼"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "AuthSupplicantDisconnectReason"
+#~ msgid "%1 because the authorization supplicant disconnected"
+#~ msgstr "%1 因為認證請求被斷線"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "AuthSupplicantConfigFailedReason"
+#~ msgid "%1 because the authorization supplicant's configuration failed"
+#~ msgstr "%1 因為認證請求的設定失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "AuthSupplicantFailedReason"
+#~ msgid "%1 because the authorization supplicant failed"
+#~ msgstr "%1 因為認證請求失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "AuthSupplicantTimeoutReason"
+#~ msgid "%1 because the authorization supplicant timed out"
+#~ msgstr "%1 因為認證請求逾時"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "PppStartFailedReason"
+#~ msgid "%1 because PPP failed to start"
+#~ msgstr "%1 因為 PPP 啟動失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "PppDisconnectReason"
+#~ msgid "%1 because PPP disconnected"
+#~ msgstr "%1 因為 PPP 已斷線"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "PppFailedReason"
+#~ msgid "%1 because PPP failed"
+#~ msgstr "%1 因為 PPP 失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "DhcpStartFailedReason"
+#~ msgid "%1 because DHCP failed to start"
+#~ msgstr "%1 因為 DHCP 啟動失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "DhcpErrorReason"
+#~ msgid "%1 because a DHCP error occurred"
+#~ msgstr "%1 因為 DHCP 發生錯誤"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "DhcpFailedReason"
+#~ msgid "%1 because DHCP failed "
+#~ msgstr "%1 因為 DHCP 失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "SharedStartFailedReason"
+#~ msgid "%1 because the shared service failed to start"
+#~ msgstr "%1 因為分享服務啟動失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "SharedFailedReason"
+#~ msgid "%1 because the shared service failed"
+#~ msgstr "%1 因為分享服務失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "AutoIpStartFailedReason"
+#~ msgid "%1 because the auto IP service failed to start"
+#~ msgstr "%1 因為自動 IP 服務啟動失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "AutoIpErrorReason"
+#~ msgid "%1 because the auto IP service reported an error"
+#~ msgstr "%1 因為自動 IP 服務回報錯誤"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "AutoIpFailedReason"
+#~ msgid "%1 because the auto IP service failed"
+#~ msgstr "%1 因為自動 IP 服務失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ModemBusyReason"
+#~ msgid "%1 because the modem is busy"
+#~ msgstr "%1 因為數據機忙線中"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ModemNoDialToneReason"
+#~ msgid "%1 because the modem has no dial tone"
+#~ msgstr "%1 因為數據機沒有撥號音"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ModemNoCarrierReason"
+#~ msgid "%1 because the modem shows no carrier"
+#~ msgstr "%1 因為數據機沒有載波"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ModemDialTimeoutReason"
+#~ msgid "%1 because the modem dial timed out"
+#~ msgstr "%1 因為數據機撥號逾時"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ModemDialFailedReason"
+#~ msgid "%1 because the modem dial failed"
+#~ msgstr "%1 因為數據機撥號失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ModemInitFailedReason"
+#~ msgid "%1 because the modem could not be initialized"
+#~ msgstr "%1 因為數據機無法初始化"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "GsmApnSelectFailedReason"
+#~ msgid "%1 because the GSM APN could not be selected"
+#~ msgstr "%1 因為 GSM APN 無法被選擇"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "GsmNotSearchingReason"
+#~ msgid "%1 because the GSM modem is not searching"
+#~ msgstr "%1 因為 GSM 數據機未搜尋"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "GsmRegistrationDeniedReason"
+#~ msgid "%1 because GSM network registration was denied"
+#~ msgstr "%1 因為 GSM 網路註冊被拒"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "GsmRegistrationTimeoutReason"
+#~ msgid "%1 because GSM network registration timed out"
+#~ msgstr "%1 因為 GSM 網路註冊逾時"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "GsmRegistrationFailedReason"
+#~ msgid "%1 because GSM registration failed"
+#~ msgstr "%1 因為 GSM 註冊失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "GsmPinCheckFailedReason"
+#~ msgid "%1 because the GSM PIN check failed"
+#~ msgstr "%1 因為 GSM PIN 碼檢查失敗"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "FirmwareMissingReason"
+#~ msgid "%1 because firmware is missing"
+#~ msgstr "%1 因為沒有韌體"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "DeviceRemovedReason"
+#~ msgid "%1 because the device was removed"
+#~ msgstr "%1 因為裝置已被移除"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "SleepingReason"
+#~ msgid "%1 because the networking system is now sleeping"
+#~ msgstr "%1 因為網路系統正在睡眠中"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ConnectionRemovedReason"
+#~ msgid "%1 because the connection was removed"
+#~ msgstr "%1 因為連線已被移除"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "UserRequestedReason"
+#~ msgid "%1 by request"
+#~ msgstr "%1 依要求"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "CarrierReason"
+#~ msgid "%1 because the cable was disconnected"
+#~ msgstr "%1 因為線路被中斷"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ConnectionAssumedReason"
+#~ msgid "%1 because the device's existing connection was assumed"
+#~ msgstr "%1 因為假設使用裝置現有的連線"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "SupplicantAvailableReason"
+#~ msgid "%1 because the supplicant is now available"
+#~ msgstr "%1 因為請求已可使用"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "ModemNotFoundReason"
+#~ msgid "%1 because the modem could not be found"
+#~ msgstr "%1 因為找不到數據機"
+
+#~ msgctxt ""
+#~ "@info:status Notification when an interface changes state (%1) due to "
+#~ "BluetoothFailedReason"
+#~ msgid "%1 because the bluetooth connection failed or timed out"
+#~ msgstr "%1 因為藍牙連線失敗或逾時"
+
+#~ msgctxt "@info:status Notification for hardware added"
+#~ msgid "%1 attached"
+#~ msgstr "%1 已附加"
+
+#~ msgctxt "@action"
+#~ msgid "Create Connection"
+#~ msgstr "建立連線"
+
+#~ msgctxt "@action"
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgctxt ""
+#~ "@info:status Notification for hardware removed giving vendor supplied "
+#~ "product name"
+#~ msgid "%1 removed"
+#~ msgstr "%1 已移除"
+
+#~ msgctxt ""
+#~ "@info:status Notification for hardware removed used if we don't have its "
+#~ "user-visible name"
+#~ msgid "Network interface removed"
+#~ msgstr "網路介面已移除"
+
+#~ msgctxt ""
+#~ "@info:status Notification text when a single wireless network was found"
+#~ msgid "Wireless network %1 found"
+#~ msgstr "找到無線網路 %1"
+
+#~ msgctxt ""
+#~ "@info:status Notification text when multiple wireless networks are found. "
+#~ "%2 is a list of networks, and the %1 value (not printed) is just used to "
+#~ "determine the plural form of network."
+#~ msgid "<title>New wireless network:</title><para>%2</para>"
+#~ msgid_plural "<title>New wireless networks:</title><para>%2</para>"
+#~ msgstr[0] "<title>新的無線網路：</title><para>%2</para>"
+
+#~ msgctxt ""
+#~ "@info:status Notification text when a single wireless network disappeared"
+#~ msgid "Wireless network %1 disappeared"
+#~ msgstr "無線網路 %1 已消失"
+
+#~ msgctxt ""
+#~ "@info:status Notification text when multiple wireless networks have "
+#~ "disappeared.  %2 is a list of networks, and the %1 value (not printed) is "
+#~ "just used to determine the plural form of network."
+#~ msgid "<title>Wireless network disappeared:</title><para>%2</para>"
+#~ msgid_plural "<title>Wireless networks disappeared:</title><para>%2</para>"
+#~ msgstr[0] "<title>無線網路已消失：</title><para>%2</para>"
+
+#~ msgctxt "As in 'Unlock cell phone with this pin code'"
+#~ msgid "Unlock"
+#~ msgstr "解除鎖定"
+
+#~ msgid "SIM PUK unlock required"
+#~ msgstr "需要 SIM PUK 碼解除鎖定"
+
+#~ msgid "SIM PUK Unlock Required"
+#~ msgstr "需要 SIM PUK 碼解除鎖定"
+
+#~ msgid ""
+#~ "The mobile broadband device '%1' requires a SIM PUK code before it can be "
+#~ "used."
+#~ msgstr "行動寬頻裝置 %1 需要 SIM PUK 碼才能使用。"
+
+#~ msgid "PUK code:"
+#~ msgstr "PUK 碼："
+
+#~ msgid "New PIN code:"
+#~ msgstr "新的 PIN 碼："
+
+#~ msgid "Re-enter new PIN code:"
+#~ msgstr "重新輸入新的 PIN 碼："
+
+#~ msgid "Show PIN/PUK code"
+#~ msgstr "顯示 PIN/PUK 碼"
+
+#~ msgid "SIM PIN unlock required"
+#~ msgstr "需要 SIM PIN 碼解除鎖定"
+
+#~ msgid "SIM PIN Unlock Required"
+#~ msgstr "需要 SIM PIN 碼解除鎖定"
+
+#~ msgid ""
+#~ "The mobile broadband device '%1' requires a SIM PIN code before it can be "
+#~ "used."
+#~ msgstr "行動寬頻裝置 %1 需要 SIM PIN 碼才能使用。"
+
+#~ msgid "PIN code:"
+#~ msgstr "PIN 碼："
+
+#~ msgid "Show PIN code"
+#~ msgstr "顯示 PIN 碼"
+
+#~ msgid "PIN code too short. It should be at least 4 digits."
+#~ msgstr "PIN 碼過短。應該至少要四位數字。"
+
+#~ msgid "The two PIN codes do not match"
+#~ msgstr "兩次的 PIN 碼不相符"
+
+#~ msgid "PUK code too short. It should be 8 digits."
+#~ msgstr "PUK 碼過短。應該至少要八位數字。"
+
+#~ msgid "Unknown Error"
+#~ msgstr "未知的錯誤"
+
+#~ msgid "&SSID:"
+#~ msgstr "SSID(&S)："
+
+#~ msgid "The Service Set IDentifier is the name of a wireless network."
+#~ msgstr "服務設定識別（Service Set IDentifier，SSID）是指無線網路的名稱。"
+
+#~ msgid "S&can"
+#~ msgstr "掃描(&C)..."
+
+#~ msgid "M&ode:"
+#~ msgstr "模式(&O)："
+
+#~ msgid ""
+#~ "Infrastructure mode is the most common setting.  To form a peer-to-peer "
+#~ "wireless network with another computer when there is no infrastructure, "
+#~ "choose Ap-mode (requires NetworkManager >= 0.9.8 and a suitable wifi "
+#~ "driver) or Ad-hoc. Also read https://bugs.kde.org/show_bug.cgi?id=311705."
+#~ msgstr ""
+#~ "基礎結構（infrastructure）模式是最通用的設定。若是沒有基礎結構，要與另一台"
+#~ "電腦建構一個點對點的無線網路，請選擇 AP 模式（NetworkManager 版本要在 "
+#~ "0.9.8 以上，並且需要正確的 wifi 驅動程式）或是 Ad-hoc。另外也請參考 "
+#~ "https://bugs.kde.org/show_bug.cgi?id=311705 。"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Infrastructure"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Ap-mode"
+#~ msgstr "AP 模式"
+
+#~ msgid "B&and:"
+#~ msgstr "頻帶(&A)："
+
+#~ msgid "Frequency band of the wireless network."
+#~ msgstr "此無線網路的頻率帶。"
+
+#~ msgid ""
+#~ "b/g is the most common band around 2.4 GHz. Less common is a at 5 GHz."
+#~ msgstr "b/g 最常用的頻率帶是 2.4GHz。較少用的是 5GHz。"
+
+#~ msgctxt "like in use Automatic configuration"
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgid "a"
+#~ msgstr "a"
+
+#~ msgid "b/g"
+#~ msgstr "b/g"
+
+#~ msgid "Sets the channel of the network."
+#~ msgstr "設定此網路的頻道。"
+
+#~ msgid "&BSSID:"
+#~ msgstr "BSSID(&B)："
+
+#~ msgid "Only connect to the access point with this hardware address"
+#~ msgstr "只連線到用此硬體位址的存取點"
+
+#~ msgid ""
+#~ "Setting a BSSID (Basic Service Set Identification) forces this connection "
+#~ "to connect only to the access point with the specified hardware address, "
+#~ "even if other access points are part of the same network."
+#~ msgstr ""
+#~ "設定 BSSID 會強制此連線只連到此硬體位址的存取點，即使其它存取點也在相同的"
+#~ "網路中。"
+
+#~ msgid "HH:HH:HH:HH:HH:HH;_"
+#~ msgstr "HH:HH:HH:HH:HH:HH;_"
+
+#~ msgid "Select the BSSID (access point) with the strongest signal."
+#~ msgstr "選擇信號最強的存取點。"
+
+#~ msgid ""
+#~ "This button will select the access point with the ssid specified in the "
+#~ "field above and with the strongest signal."
+#~ msgstr "此按鍵會選擇上面欄位中指定的 SSID 的存取點中信號最強的。"
+
+#~ msgid "&Select"
+#~ msgstr "選擇(&S)"
+
+#~ msgid "&Restrict To Interface:"
+#~ msgstr "限制介面(&R)"
+
+#~ msgctxt "like in use this connection with Any network device"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgid "MT&U:"
+#~ msgstr "MTU(&U)："
+
+#~ msgid "Maximum Transmission Unit"
+#~ msgstr "最大傳輸單位（Max Transmission Unit）"
+
+#~ msgid ""
+#~ "Sets the size of the largest packet that can be transmitted on this "
+#~ "network. '0' sets the MTU automatically."
+#~ msgstr "設定此網路上一次可以傳輸的最大封包大小。0 表示自動設定。"
+
+#~ msgid "Cloned MAC address"
+#~ msgstr "複製硬體 Mac 位址"
+
+#~ msgid "Custom MAC address for the hardware to use"
+#~ msgstr "自訂硬體的 MAC 位址"
+
+#~ msgid ""
+#~ "The MAC address entered here will be used as hardware address for the "
+#~ "network device this connection is activated on. This feature is known as "
+#~ "MAC cloning or spoofing."
+#~ msgstr ""
+#~ "在此輸入的 MAC 位址會被用於此連線所使用的網路裝置。這個功能也叫做 MAC "
+#~ "cloning 或 MAC spoofing。"
+
+#~ msgctxt "like in use Random mac address generation"
+#~ msgid "Random"
+#~ msgstr "隨機"
+
+#~ msgctxt "@label:textbox"
+#~ msgid " byte"
+#~ msgid_plural " bytes"
+#~ msgstr[0] " 位元組"
+
+#~ msgctxt "@title:window wireless network scan dialog"
+#~ msgid "Available Networks"
+#~ msgstr "可用的網路"
+
+#~ msgctxt "@item:intable shortcut for Not Available"
+#~ msgid "N/A"
+#~ msgstr "無"
+
+#~ msgctxt "@info:tooltip real user name is not available"
+#~ msgid "Not Available"
+#~ msgstr "無法聯繫"
+
+#~ msgid "Available Users"
+#~ msgstr "允許的使用者"
+
+#~ msgid "Real Name"
+#~ msgstr "真實姓名"
+
+#~ msgctxt "like in Username for athentication"
+#~ msgid "Username"
+#~ msgstr "使用者名稱"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "Encrypted"
+#~ msgstr "已加密"
+
+#~ msgid "Hardware Address"
+#~ msgstr "硬體位址"
+
+#~ msgid "Dialup Network (DUN)"
+#~ msgstr "撥號網路（Dial Up Network，DUN）"
+
+#~ msgid "Personal Area Network (PANU)"
+#~ msgstr "個人區域網路（PANU）"
+
+#~ msgid "%1 Network"
+#~ msgstr "%1 網路"
+
+#~ msgid "New Bluetooth Connection"
+#~ msgstr "新增藍牙連線"
+
+#~ msgid "&Number:"
+#~ msgstr "號碼(&N)："
+
+#~ msgid "&Username:"
+#~ msgstr "使用者名稱(&U)："
+
+#~ msgid "&Password:"
+#~ msgstr "密碼(&P)："
+
+#~ msgid "New Cellular Connection"
+#~ msgstr "新增手機連線"
+
+#~ msgid "&Firewall zone:"
+#~ msgstr "防火牆區(&F)："
+
+#~ msgid "Connect &automatically"
+#~ msgstr "自動連線(&A)"
+
+#~ msgid "Save secrets in system storage"
+#~ msgstr "在系統儲存裝置中儲存機密資料"
+
+#~ msgid ""
+#~ "If checked, secrets (passwords and encryption keys) will be saved in "
+#~ "system storage, which allows the connection to work without a KDE session."
+#~ msgstr ""
+#~ "若勾選此選項，機密資料（如密碼與加密金鑰等）會被存在系統儲存裝置中，這樣您"
+#~ "可以不必在 KDE 裡也能使用。"
+
+#~ msgid "&System connection"
+#~ msgstr "系統連線(&S)"
+
+#~ msgid "Edit advanced permissions for this connection"
+#~ msgstr "編輯此連線的進階存取權限"
+
+#~ msgid ""
+#~ "Fine-grained permissions editor for this connection. It lets you choose "
+#~ "which users can activate/modify/delete this connection."
+#~ msgstr ""
+#~ "此連線的權限微調編輯器。它可以讓您選擇可以啟用/變更/刪除此連線的使用者。"
+
+#~ msgid "Advanced Permissions"
+#~ msgstr "進階的權限"
+
+#~ msgid ""
+#~ "The zone defines trust level of the connection. Default is not a regular "
+#~ "zone, selecting it results in the use of the default zone set in the "
+#~ "firewall. Only usable if firewalld is active."
+#~ msgstr ""
+#~ "此區定義連線的信任等級。預設是非正歸區，選擇它會讓預設區在防火牆內使用。只"
+#~ "有在 firewalld 啟動時才有作用。"
+
+#~ msgctxt "Edit connection dialog caption"
+#~ msgid "Edit Network Connection"
+#~ msgstr "編輯網路連線"
+
+#~ msgctxt "Add connection dialog caption"
+#~ msgid "Add Network Connection"
+#~ msgstr "新增網路連線"
+
+#~ msgctxt "@title:window for network secrets request"
+#~ msgid "Secrets for %1"
+#~ msgstr "%1 的密碼"
+
+#~ msgctxt "@item:intext default connection name"
+#~ msgid "New Wireless Connection"
+#~ msgstr "新的無線網路連線"
+
+#~ msgctxt "@item::inlist default firewall zone item"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "@title:window advanced permissions editor"
+#~ msgid "Advanced Permissions Editor"
+#~ msgstr "進階權限編輯器"
+
+#~ msgctxt "like in show Basic settings only"
+#~ msgid "Basic"
+#~ msgstr "基本"
+
+#~ msgid "*99#"
+#~ msgstr "*99#"
+
+#~ msgid "Store"
+#~ msgstr "儲存"
+
+#~ msgid "Always Ask"
+#~ msgstr "總是詢問"
+
+#~ msgid "Not Required"
+#~ msgstr "不需要"
+
+#~ msgctxt "like in Advanced settings"
+#~ msgid "Advanced"
+#~ msgstr "進階"
+
+#~ msgid "&APN:"
+#~ msgstr "APN(&A)："
+
+#~ msgctxt "like in use Any configuration"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgid "Prefer 3G"
+#~ msgstr "預設用 3G"
+
+#~ msgid "Prefer 2G"
+#~ msgstr "預設用 2G"
+
+#~ msgid "&Band:"
+#~ msgstr "頻帶(&B)："
+
+#~ msgid "&PIN:"
+#~ msgstr "PIN 碼(&P)："
+
+#~ msgid "Allow Roaming"
+#~ msgstr "允許漫遊"
+
+#~ msgid "Basic settings"
+#~ msgstr "基本設定"
+
+#~ msgid "Additional addresses"
+#~ msgstr "額外位址"
+
+#~ msgid "Routes"
+#~ msgstr "路由"
+
+#~ msgid "Method:"
+#~ msgstr "方法："
+
+#~ msgid "DHCP"
+#~ msgstr "DHCP"
+
+#~ msgid "DHCP (only address)"
+#~ msgstr "DHCP（只有位址）"
+
+#~ msgctxt "like in use Manual configuration"
+#~ msgid "Manual"
+#~ msgstr "手動"
+
+#~ msgid "Link-Local"
+#~ msgstr "連結本地端"
+
+#~ msgid "Shared"
+#~ msgstr "共享"
+
+#~ msgctxt "like in this setting is Disabled"
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgid "&IP Address:"
+#~ msgstr "IP 位址(&I)："
+
+#~ msgid ""
+#~ "Use this field to specify the IP address that should be used by this "
+#~ "computer."
+#~ msgstr "使用此欄位指定此電腦使用的 IP 位址。"
+
+#~ msgid "Subnet &Mask:"
+#~ msgstr "子網路遮罩(&M)："
+
+#~ msgid ""
+#~ "Use this field to specify the subnet that the above IP address belongs to."
+#~ msgstr "使用此欄位指定上面的 IP 位址歸屬的子網路。"
+
+#~ msgid "&Gateway:"
+#~ msgstr "閘道(&G)："
+
+#~ msgid ""
+#~ "Use this field to specify the IP address of the gateway for requests "
+#~ "outside the local network."
+#~ msgstr "使用此欄位來指定閘道器的 IP 位址。"
+
+#~ msgctxt "@info"
+#~ msgid "&DNS Servers:"
+#~ msgstr "DNS 伺服器(&D)："
+
+#~ msgid ""
+#~ "Use this field to specify the IP address(es) of one or more DNS servers. "
+#~ "Use ',' to separate entries."
+#~ msgstr "使用此欄位來指定一個或以上的 DNS 伺服器的 IP 位址，用逗號來分隔。"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgctxt "@info"
+#~ msgid "&Search Domains:"
+#~ msgstr "搜尋網域(&S)："
+
+#~ msgid "DHCP &Client ID:"
+#~ msgstr "DHCP 客戶端代碼(&C)："
+
+#~ msgid ""
+#~ "Use this field to specify the DHCP client ID which is a string sent to "
+#~ "the DHCP server to identify the local machine that the DHCP server may "
+#~ "use to customize the DHCP lease and options."
+#~ msgstr ""
+#~ "用這個欄位來指定 DHCP 客戶端代碼。這個字串會送到 DHCP 伺服器來辨識本地端機"
+#~ "器，用來自訂 DHCP 的 lease 與選項。"
+
+#~ msgid "IPv4 is required for this connection"
+#~ msgstr "此連線需要 IPv4"
+
+#~ msgid "Advanced IP Settings"
+#~ msgstr "進階 IP 設定"
+
+#~ msgid "&Additional IP Addresses:"
+#~ msgstr "額外 IP 位址(&A)："
+
+#~ msgctxt "Insert a row"
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgctxt "Header text for IPv4 address"
+#~ msgid "Address"
+#~ msgstr "位址"
+
+#~ msgctxt "Header text for IPv4 netmask"
+#~ msgid "Netmask"
+#~ msgstr "網路遮罩"
+
+#~ msgctxt "Header text for IPv4 gateway"
+#~ msgid "Gateway"
+#~ msgstr "閘道"
+
+#~ msgid "&Routes"
+#~ msgstr "路由(&R)"
+
+#~ msgid "Ignore &automatically obtained routes"
+#~ msgstr "忽略自動取得的路由設定(&A)"
+
+#~ msgid "Use &only for resources on this connection"
+#~ msgstr "只使用此連線的資源(&O)"
+
+#~ msgctxt "Header text for IPv4 route metric"
+#~ msgid "Metric"
+#~ msgstr "公制"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (VPN)"
+#~ msgstr "自動（VPN）"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (VPN) addresses only"
+#~ msgstr "自動（VPN）只取得位址"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (PPP)"
+#~ msgstr "自動（PPP）"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (PPP) addresses only"
+#~ msgstr "自動（PPP）只取得位址"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (DSL)"
+#~ msgstr "自動（DSL）"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (DSL) addresses only"
+#~ msgstr "自動（DSL）只取得位址"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "自動（DHCP）"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "自動（DHCP）只取得位址"
+
+#~ msgctxt "@info"
+#~ msgid "Additional &DNS Servers:"
+#~ msgstr "額外的 DNS 伺服器(&D)："
+
+#~ msgctxt "@info"
+#~ msgid "Additional &Search Domains:"
+#~ msgstr "額外的搜尋網域(&S)："
+
+#~ msgctxt "@title:window"
+#~ msgid "DNS Servers"
+#~ msgstr "DNS 伺服器"
+
+#~ msgctxt "@title:window"
+#~ msgid "Search domains"
+#~ msgstr "搜尋網域"
+
+#~ msgid "Automatic (addresses only)"
+#~ msgstr "自動（只取得位址）"
+
+#~ msgid "Automatic (DHCP only)"
+#~ msgstr "自動（只抓 DHCP）"
+
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgid "Enabled (prefer public address)"
+#~ msgstr "已開啟（預設使用公開位址）"
+
+#~ msgid "Enabled (prefer temporary addresses)"
+#~ msgstr "已開啟（預設使用暫時位址）"
+
+#~ msgid "Privacy Extensions:"
+#~ msgstr "私密延伸："
+
+#~ msgid "IPv6 is required for this connection"
+#~ msgstr "此連線需要 IPv6"
+
+#~ msgctxt "Header text for IPv6 address"
+#~ msgid "Address"
+#~ msgstr "位址"
+
+#~ msgctxt "Header text for IPv6 netmask"
+#~ msgid "Netmask"
+#~ msgstr "網路遮罩"
+
+#~ msgctxt "Header text for IPv6 gateway"
+#~ msgid "Gateway"
+#~ msgstr "閘道"
+
+#~ msgctxt "Header text for IPv6 route metric"
+#~ msgid "Metric"
+#~ msgstr "公制"
+
+#~ msgctxt "@item:intable wireless network name"
+#~ msgid "Name"
+#~ msgstr "名字"
+
+#~ msgctxt "@item:intable wireless signal strength"
+#~ msgid "Signal Strength"
+#~ msgstr "信號強度"
+
+#~ msgctxt "@item:intable wireless encryption type"
+#~ msgid "Encryption"
+#~ msgstr "加密"
+
+#~ msgctxt "@item:intable wireless band"
+#~ msgid "Band"
+#~ msgstr "頻帶"
+
+#~ msgctxt "@item:intable wireless channel"
+#~ msgid "Channel"
+#~ msgstr "頻道"
+
+#~ msgctxt "@item:intable wireless access point hardware address"
+#~ msgid "MAC Address"
+#~ msgstr "硬體 Mac 位址"
+
+#~ msgid "PPP"
+#~ msgstr "PPP"
+
+#~ msgid "Authentication"
+#~ msgstr "認證"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "Compression"
+#~ msgstr "壓縮"
+
+#~ msgid "Point-to-Point-Encryption (MPPE)"
+#~ msgstr "點對點加密 (MPPE)"
+
+#~ msgid "Require 128-bit encryption"
+#~ msgstr "需要 128 位元式加密"
+
+#~ msgid "Stateful MPPE"
+#~ msgstr "狀態式 MPPE"
+
+#~ msgid "Allow BSD compression"
+#~ msgstr "允許 BSD 壓縮"
+
+#~ msgid "Allow Deflate compression"
+#~ msgstr "允許 Deflate 壓縮"
+
+#~ msgid "Use TCP header compression"
+#~ msgstr "使用 TCP 標頭壓縮"
+
+#~ msgid "Echo"
+#~ msgstr "Echo"
+
+#~ msgid "Send PPP echo packets"
+#~ msgstr "傳送 PPP echo 封包"
+
+#~ msgid "&Service:"
+#~ msgstr "服務(&S)："
+
+#~ msgid "New DSL Connection"
+#~ msgstr "新的 DSL 連線"
+
+#~ msgid "Interface:"
+#~ msgstr "介面："
+
+#~ msgid "View:"
+#~ msgstr "檢視："
+
+#~ msgid "Map"
+#~ msgstr "映射"
+
+#~ msgid "Use the selected AP's BSSID in the connection settings"
+#~ msgstr "在連線設定中使用選取的存取點的 BSSID"
+
+#~ msgid ""
+#~ "Automatically set the BSSID in the connection settings to the selected "
+#~ "AP's BSSID. This is useful if multiple networks with the same SSID, but "
+#~ "different BSSIDs exist."
+#~ msgstr ""
+#~ "自動將連線設定中的 BSSID 設為選取的存取點的 BSSID。這在多個網路有相同的 "
+#~ "SSID 但不同的 BSSID 時有用。"
+
+#~ msgid "Use the AP's BSSID"
+#~ msgstr "使用存取點的 BSSID"
+
+#~ msgctxt "Label for inner auth combobox"
+#~ msgid "&Inner Authentication:"
+#~ msgstr "內部認證(&I)："
+
+#~ msgid "Password on this network"
+#~ msgstr "此網路的密碼"
+
+#~ msgid "&Anonymous Identity:"
+#~ msgstr "匿名身份(&A)："
+
+#~ msgid "CA Certi&ficate:"
+#~ msgstr "CA 憑證(&F)："
+
+#~ msgid "Use Syste&m CA Certs"
+#~ msgstr "使用系統的 CA 憑證(&M)"
+
+#~ msgid "PEAP &Version:"
+#~ msgstr "PEAP 版本(&V)："
+
+#~ msgid "Version 0"
+#~ msgstr "版本 0"
+
+#~ msgid "Version 1"
+#~ msgstr "版本 1"
+
+#~ msgid "Subject Match:"
+#~ msgstr "主題比對："
+
+#~ msgid ""
+#~ "Only connect to servers whose certificate subject matches this. For the "
+#~ "syntax see the wpa_supplicant documentation."
+#~ msgstr ""
+#~ "只連線到憑證主題符合此字串的伺服器。語法請參考 wpa_supplicant 文件。"
+
+#~ msgid "Alternative Subject Matches:"
+#~ msgstr "替代主題比對："
+
+#~ msgid ""
+#~ "Only connect to servers whose certificate contains at least one of the "
+#~ "entries. For the syntax see the wpa_supplicant documentation. Use ',' to "
+#~ "separate entries."
+#~ msgstr ""
+#~ "只連線到憑證包含這些項目中至少一個項目的伺服器。語法請參考 wpa_supplicant "
+#~ "文件。項目間使用逗號 ',' 區隔。"
+
+#~ msgid "Connect to these Servers:"
+#~ msgstr "連線到這些伺服器："
+
+#~ msgid "Only connect to these servers. Use ',' to separate entries."
+#~ msgstr "只連線到這些伺服器。用逗號來分隔。"
+
+#~ msgid "&Authentication:"
+#~ msgstr "認證(&A)："
+
+#~ msgid "&Identity:"
+#~ msgstr "身份(&I)："
+
+#~ msgid "&User Certificate:"
+#~ msgstr "使用者憑證(&U)："
+
+#~ msgid ""
+#~ "If your private key file is in PKCS12 format select it here and in the "
+#~ "'Private Key' field below."
+#~ msgstr ""
+#~ "若您的私密金鑰檔為 PKCS12 格式，則在這裡與下方的「私密金鑰」欄位中選擇。"
+
+#~ msgid "Private &Key:"
+#~ msgstr "私密金鑰(&K)："
+
+#~ msgid ""
+#~ "If your private key file is in PKCS12 format select it here and in the "
+#~ "'User Certificate' field above."
+#~ msgstr ""
+#~ "若您的私密金鑰檔為 PKCS12 格式，則在這裡與上方的「使用者憑證」欄位中選擇。"
+
+#~ msgid "Private Key Pass&word:"
+#~ msgstr "私密金鑰密碼(&W)："
+
+#~ msgid ""
+#~ "Only connect to servers whose certificate's subject matches this. For the "
+#~ "syntax see the wpa_supplicant documentation."
+#~ msgstr ""
+#~ "只連線到憑證主題符合此字串的伺服器。語法請參考 wpa_supplicant 文件。"
+
+#~ msgid ""
+#~ "Only connect to servers whose certificate's alternative subject contains "
+#~ "at least one of the entries. For the syntax see the wpa_supplicant "
+#~ "documentation. Use ',' to separate entries."
+#~ msgstr ""
+#~ "只連線到憑證的替代主題包含這些項目中至少一個項目的伺服器。語法請參考 "
+#~ "wpa_supplicant 文件。項目間使用逗號 ',' 區隔。"
+
+#~ msgid "Password:"
+#~ msgstr "密碼："
+
+#~ msgctxt "MSCHAPv2 inner auth method"
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgctxt "MD5 inner auth method"
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgctxt "GTC inner auth method"
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "Alternative Subject Matches"
+#~ msgstr "替代主題比對"
+
+#~ msgid ""
+#~ "<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip address&gt;</"
+#~ "li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. http://www.kde."
+#~ "org&gt;</li></ul></qt>"
+#~ msgstr ""
+#~ "<qt>此項目必須為以下選項之一： <ul><li>DNS：&lt;名稱或 IP 位址&gt;</li> "
+#~ "<li>EMAIL：&lt;電子郵件地址&gt;</li> <li>URI：&lt;網址，如 http://www.kde."
+#~ "org&gt;</li></ul></qt>"
+
+#~ msgid "Connect to these Servers"
+#~ msgstr "連線到這些伺服器"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "私密金鑰密碼："
+
+#~ msgid "Phase 2 Private Key Password:"
+#~ msgstr "Phase 2 私密金鑰密碼："
+
+#~ msgctxt "show passwords button"
+#~ msgid "&Show Passwords"
+#~ msgstr "顯示密碼(&S)"
+
+#~ msgctxt "TLS auth type"
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgctxt "LEAP auth type"
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgctxt "Peap outer auth type"
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "保護模式 EAP (PEAP)"
+
+#~ msgctxt "TTLS outer auth type"
+#~ msgid "Tunnelled TLS (TTLS)"
+#~ msgstr "通道式 TLS (TTLS)"
+
+#~ msgctxt "@title:tab wired 802.1x security"
+#~ msgid "802.1x Security"
+#~ msgstr "802.1x 安全性"
+
+#~ msgctxt "@option:check enables/disables 802.1x auth on wired ethernet"
+#~ msgid "Use &802.1x authentication"
+#~ msgstr "使用 802.1x 認證(&8)"
+
+#~ msgctxt "PAP inner auth method"
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgctxt "MSCHAP inner auth method"
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgctxt "CHAP inner auth method"
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Key type:"
+#~ msgstr "金鑰型態："
+
+#~ msgid "Passphrase (for 128 bit)"
+#~ msgstr "密碼片語（128 位元模式用）"
+
+#~ msgid "Hex or Ascii Key (for 64 or 128 bit)"
+#~ msgstr "十六進位數字或 ASCII 字元金鑰（64 或 128 位元模式用）"
+
+#~ msgid "&WEP index:"
+#~ msgstr "WEP 索引(&W)："
+
+#~ msgctxt ""
+#~ "Default WEP key index to use. WEP supports four keys, the key with index "
+#~ "number one is the default"
+#~ msgid "1 (Default)"
+#~ msgstr "1（預設）"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "開放系統"
+
+#~ msgid "Shared Key"
+#~ msgstr "分享金鑰"
+
+#~ msgid "&Key:"
+#~ msgstr "金鑰(&K)："
+
+#~ msgid "Passphrase:"
+#~ msgstr "密碼片語："
+
+#~ msgid "Key:"
+#~ msgstr "金鑰："
+
+#~ msgid "&Passphrase:"
+#~ msgstr "密碼片語(&P)："
+
+#~ msgctxt "@title:window"
+#~ msgid "The network %1 requires authentication"
+#~ msgstr "網路 %1 需要認證"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Show password"
+#~ msgstr "顯示密碼 (&S)"
+
+#~ msgctxt "Label for no wireless security"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "Label for LEAP wireless security"
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgctxt "Label for Dynamic WEP wireless security"
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "動態 WEP（802.1x）"
+
+#~ msgctxt "Label for WEP wireless security"
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgctxt "Label for WPA-PSK wireless security"
+#~ msgid "WPA/WPA2 Personal"
+#~ msgstr "WPA/WPA2 個人"
+
+#~ msgctxt "Label for WPA-EAP wireless security"
+#~ msgid "WPA/WPA2 Enterprise"
+#~ msgstr "WPA/WPA2 企業"
+
+#~ msgid "Ethernet"
+#~ msgstr "乙太網路"
+
+#~ msgid "Example: 11:22:33:44:55:66"
+#~ msgstr "範例：11:22:33:44:55:66"
+
+#~ msgid "Maximum Transfer Unit (bytes)"
+#~ msgstr "最大傳輸單位（位元組）"
+
+#~ msgid "M&TU:"
+#~ msgstr "MTU(&U)："
+
+#~ msgid "Use the specified speed"
+#~ msgstr "使用指定的速率"
+
+#~ msgid "Request that the device use only the specified speed."
+#~ msgstr "要求裝置只使用特定的速率。"
+
+#~ msgctxt "like in use the specified Duplex mode (full or half)"
+#~ msgid "Duplex"
+#~ msgstr "雙工"
+
+#~ msgid "Use the specified duplex mode"
+#~ msgstr "使用指定的雙工模式"
+
+#~ msgid ""
+#~ "Request that the device use only the specified duplex mode. A device in "
+#~ "full duplex mode can send and receive data at the same time, while a "
+#~ "device in half duplex mode can either send or receive data, but not both "
+#~ "at the same time."
+#~ msgstr ""
+#~ "要求裝置只使用指定的雙工模式。裝置使用全雙工模式時，可以同時接收與傳送資"
+#~ "料，而半雙工模式同一時間只能接收或傳送資料，但無法同時。"
+
+#~ msgid "Half"
+#~ msgstr "半雙工"
+
+#~ msgctxt "like in use Full duplex mode"
+#~ msgid "Full"
+#~ msgstr "全雙工"
+
+#~ msgid "Allow auto-negotiation of port speed and duplex mode"
+#~ msgstr "允許自動協調連接埠的速率與雙工模式"
+
+#~ msgid "Autonegotiate"
+#~ msgstr "自動溝通"
+
+#~ msgid "Shared Wired Connection"
+#~ msgstr "分享有線網路"
+
+#~ msgid "New Wired Connection"
+#~ msgstr "新增有線網路"
+
+#~ msgid "&ESSID:"
+#~ msgstr "ESSID(&E)："
+
+#~ msgid "HH:HH:HH:HH:HH:HH; "
+#~ msgstr "HH:HH:HH:HH:HH:HH; "
+
+#~ msgid ":::::"
+#~ msgstr ":::::"
+
+#~ msgid "MAC &address:"
+#~ msgstr "硬體 Mac 位址(&A)："
+
+#~ msgid "&MTU:"
+#~ msgstr "MTU(&M)："
+
+#~ msgctxt ""
+#~ "ssid of the wifi connection. Use ASCII letters and underscore *only* (no "
+#~ "spaces!). Leave it unstranslated if your language does not support ASCII "
+#~ "characters"
+#~ msgid "Shared_Wireless_Connection"
+#~ msgstr "分享無線網路"
+
+#~ msgid "Shared Wireless Connection"
+#~ msgstr "分享無線網路連線"
+
+#~ msgid "New Wireless Connection"
+#~ msgstr "新的無線網路連線"
+
+#~ msgid "Add..."
+#~ msgstr "新增..."
+
+#~ msgid "Import"
+#~ msgstr "匯入"
+
+#~ msgid "Export"
+#~ msgstr "匯出"
+
+#~ msgid "Manage Connections"
+#~ msgstr "管理連線"
+
+#~ msgid "Manage Connections Control Panel Module"
+#~ msgstr "管理連線控制面板模組"
+
+#~ msgid "(c) 2008-2009 Will Stephenson<p>(c) 2011-2012 Lamarque V. Souza</p>"
+#~ msgstr "(c) 2008-2009 Will Stephenson<p>(c) 2011-2012 Lamarque V. Souza</p>"
+
+#~ msgid "Lamarque V. Souza"
+#~ msgstr "Lamarque V. Souza"
+
+#~ msgid "Developer and Maintainer"
+#~ msgstr "開發者和維護者"
+
+#~ msgid "Ilia Kats"
+#~ msgstr "Ilia Kats"
+
+#~ msgid "Developer"
+#~ msgstr "開發者"
+
+#~ msgid "Rajeesh K Nambiar"
+#~ msgstr "Rajeesh K Nambiar"
+
+#~ msgid "Will Stephenson"
+#~ msgstr "Will Stephenson"
+
+#~ msgid "Sebastian Kügler"
+#~ msgstr "Sebastian Kügler"
+
+#~ msgctxt "Like in 'add wired connection'"
+#~ msgid "Wired"
+#~ msgstr "有線"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Create regular wired connection"
+#~ msgstr "建立正規有線網路"
+
+#~ msgctxt "Like in 'add shared connection'"
+#~ msgid "Shared"
+#~ msgstr "共享"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Click here to share this computer's wired Internet connection to other "
+#~ "computers"
+#~ msgstr "點擊此處可以與其他電腦分享此電腦的有線網際網路連線"
+
+#~ msgctxt "Like in 'add wireless connection'"
+#~ msgid "Wireless"
+#~ msgstr "無線"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Create regular wireless connection"
+#~ msgstr "建立正規無線網路"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Click here to share this computer's wireless Internet connection to other "
+#~ "computers"
+#~ msgstr "點擊此處可以與其他電腦分享此電腦的無線網際網路連線"
+
+#~ msgctxt "Tooltip for disabled tab when no VPN plugins are installed"
+#~ msgid "No VPN plugins were found"
+#~ msgstr "找不到 VPN 外掛程式"
+
+#~ msgctxt "File chooser dialog title for importing VPN"
+#~ msgid "Import VPN connection settings"
+#~ msgstr "匯入 VPN 連線設定"
+
+#~ msgid ""
+#~ "None of the supported plugins implement importing operation for file %1."
+#~ msgstr "所支援的外掛程式均未實作將檔案 %1 匯入的操作。"
+
+#~ msgid "Error importing VPN connection settings"
+#~ msgstr "匯入 VPN 連線設定時發生錯誤"
+
+#~ msgctxt "File chooser dialog title for exporting VPN"
+#~ msgid "Export VPN"
+#~ msgstr "匯出 VPN"
+
+#~ msgid "VPN connection successfully exported"
+#~ msgstr "VPN 連線已成功匯出"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Do not show again"
+#~ msgstr "不要再顯示"
+
+#~ msgid "Error exporting VPN connection settings"
+#~ msgstr "匯入 VPN 連線設定時發生錯誤"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Could not export VPN connection settings"
+#~ msgstr "無法匯出 VPN 連線設定"
+
+#~ msgid ""
+#~ "Connection edit option failed, make sure that NetworkManager is properly "
+#~ "running."
+#~ msgstr "連線編輯選項失敗，請確定 NetworkManager 已正確執行。"
+
+#~ msgid "Connection create operation failed."
+#~ msgstr "連線建立操作失敗。"
+
+#~ msgid "Confirm Delete"
+#~ msgstr "確認刪除"
+
+#~ msgctxt "this connection is connected/activated"
+#~ msgid "Connected"
+#~ msgstr "已連線"
+
+#~ msgctxt "like in current connection State (connected or disconnected)"
+#~ msgid "State"
+#~ msgstr "狀態"
+
+#~ msgid ""
+#~ "(c) 2008-2009 Will Stephenson<p>(c) 2010 Sebastian Kügler</p><p>(c) "
+#~ "2011-2012 Lamarque V. Souza</p>"
+#~ msgstr ""
+#~ "(c) 2008-2009 Will Stephenson<p>(c) 2010 Sebastian Kügler</p><p>(c) "
+#~ "2011-2012 Lamarque V. Souza</p>"
+
+#~ msgctxt "@info"
+#~ msgid "Error switching storage type"
+#~ msgstr "切換儲存型態時發生錯誤"
+
+#~ msgid "<b>Connection Secrets</b>"
+#~ msgstr "<b>連線密碼</b>"
+
+#~ msgid "&Store connection secrets: "
+#~ msgstr "儲存連線密碼(&S)"
+
+#~ msgid "Do not store (always prompt)"
+#~ msgstr "不要儲存（每次都詢問）"
+
+#~ msgid "In file (unencrypted)"
+#~ msgstr "存在檔案中（未加密）"
+
+#~ msgid "In secure storage (encrypted)"
+#~ msgstr "安全方式儲存（加密）"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>顯示</b>"
+
+#~ msgid "Show network interfaces using:"
+#~ msgstr "顯示使用的網路介面："
+
+#~ msgid "Type Name"
+#~ msgstr "類型名稱"
+
+#~ msgid "Vendor's Name"
+#~ msgstr "製造商名稱"
+
+#~ msgid "Display settings as:"
+#~ msgstr "顯示設定為："
+
+#~ msgctxt "like in show Advanced settings"
+#~ msgid "Advanced"
+#~ msgstr "進階"
+
+#~ msgid "Configure Details to Show..."
+#~ msgstr "設定要顯示的詳情..."
+
+#~ msgid "<b>Events</b>"
+#~ msgstr "<b>事件</b>"
+
+#~ msgid "Ask for GSM Pin:"
+#~ msgstr "詢問 GSM Pin 碼："
+
+#~ msgid "When Activating Connection"
+#~ msgstr "啟動連線時"
+
+#~ msgctxt "@label:textbox Version text"
+#~ msgid "&lt;b&gt;Version %1&lt;/b&gt;"
+#~ msgstr "&lt;b&gt;版本 %1&lt;/b&gt;"
+
+#~ msgctxt "@title:window interface details editor"
+#~ msgid "Interface Details Editor"
+#~ msgstr "介面詳情編輯器"
+
+#~ msgid "Show tray icon"
+#~ msgstr "顯示系統匣圖示"
+
+#~ msgid "Tray icons:"
+#~ msgstr "系統匣圖示："
+
+#~ msgid "Arrange interface types between icons with drag and drop"
+#~ msgstr "用拖放的方式將介面型態安排於圖示間"
+
+#~ msgid "Add another system tray icon"
+#~ msgstr "新增其它系統匣圖示"
+
+#~ msgid "&More Icons"
+#~ msgstr "更多圖示(&M)"
+
+#~ msgid "Remove a system tray icon"
+#~ msgstr "移除系統匣圖示"
+
+#~ msgid "&Fewer Icons"
+#~ msgstr "較少圖示(&F)"
+
+#~ msgid "We support 'dun' and 'nap' services only."
+#~ msgstr "我們只支援 'dun' （撥號網路）與 'nap' （網路存取點）服務。"
+
+#~ msgid "Could not contact bluetooth manager (BlueZ)."
+#~ msgstr "無法聯繫藍牙管理員（BlueZ）。"
+
+#~ msgid "Default bluetooth adapter not found: %1"
+#~ msgstr "找不到預設的藍牙轉接器：%1"
+
+#~ msgid "%1 (%2) does not support Dialup Networking (DUN)."
+#~ msgstr "%1（%2）不支援撥號網路（DUN）。"
+
+#~ msgid "%1 (%2) does not support Network Access Point (NAP)."
+#~ msgstr "%1（%2）不支援網路存取點（NAP）。"
+
+#~ msgid "Error activating devices's serial port: %1"
+#~ msgstr "啟動裝置的序列埠時發生錯誤：%1"
+
+#~ msgid "Device %1 is not the one we want (%2)"
+#~ msgstr "裝置 %1 不是我們要的（%2）"
+
+#~ msgid "Device for serial port %1 (%2) not found."
+#~ msgstr "找不到裝置的序列埠 %1（%2）。"
+
+#~ msgid "(c) 2008 Will Stephenson"
+#~ msgstr "(c) 2008 Will Stephenson"
+
+#~ msgid "Connection ID to edit"
+#~ msgstr "要編輯的連線代碼"
+
+#~ msgid ""
+#~ "Connection type to create, must be one of '802-3-ethernet', '802-11-"
+#~ "wireless', 'pppoe', 'vpn', 'cellular', 'bluetooth'"
+#~ msgstr ""
+#~ "要建立的連線型態，必須是 '802-3-ethernet'、'802-11-"
+#~ "wireless'、'pppoe'、'vpn' 、'cellular' 或 'bluetooth' 其中一個"
+
+#~ msgid ""
+#~ "Space-separated connection type-specific arguments, may be either 'gsm' "
+#~ "or 'cdma' for cellular connections,\n"
+#~ "'openvpn' or 'vpnc' for vpn connections,\n"
+#~ "interface and AP identifiers for wireless connections,\n"
+#~ "bluetooth mac address and service ('dun' or 'nap') for bluetooth "
+#~ "connections.\n"
+#~ "\n"
+#~ "You can also pass the serial device (i.e. 'rfcomm0') instead of service "
+#~ "for dun bluetooth connections,\n"
+#~ "in that case this program will block waiting for that device to be "
+#~ "registered in ModemManager."
+#~ msgstr ""
+#~ "連線型態指定參數，以空白分隔。若為行動裝置，可以是 'gsm' 或 'cdma'；\n"
+#~ "VPN 連線則為 'openvpn' 或 'vpnc'；\n"
+#~ "無線網路則為介面與存取點的識別子；\n"
+#~ "藍牙網路則為藍牙的硬體位址與服務（'dun' 或 'nap'）。\n"
+#~ "\n"
+#~ "對 dun 藍牙連線，您也可以改傳送序列裝置（也就是 'rfcomm0'）而不是服務，\n"
+#~ "這種狀況下此程式會等待裝置在 ModemManager 中註冊。"
+
+#~ msgid "Operation mode, may be either 'create' or 'edit'"
+#~ msgstr "操作模式，可以是 'create' 或 'edit'"
+
+#~ msgid "Expected two specific args, found %1: %2"
+#~ msgstr "應該要有兩個指定參數，找到 %1: %2"
+
+#~ msgid "unknown error"
+#~ msgstr "未知的錯誤"
+
+#~ msgid "Error adding connection: %1"
+#~ msgstr "新增連線時發生錯誤：%1"
+
+#~ msgid "&DH Group"
+#~ msgstr "DH 群組(&D)"
+
+#~ msgid "768 bits (DH&1)"
+#~ msgstr "768 位元（DH1）(&1)"
+
+#~ msgid "1024 bits (DH&2)"
+#~ msgstr "1024 位元（DH2）(&2)"
+
+#~ msgid "&PFS Group"
+#~ msgstr "PFS 群組(&P)"
+
+#~ msgid "&Off"
+#~ msgstr "關閉(&O)"
+
+#~ msgid "&768 bits (PF1)"
+#~ msgstr "768 位元（PF1）(&7)"
+
+#~ msgid "102&4 bits (PF2)"
+#~ msgstr "1024 位元（PF2）(&4)"
+
+#~ msgid "Disable &split tunnel"
+#~ msgstr "關閉分離通道(&S)"
+
+#~ msgid "Novell VPN"
+#~ msgstr "Novell VPN"
+
+#~ msgid "Gate&way Type:"
+#~ msgstr "閘道型態(&W)："
+
+#~ msgid "Nortel"
+#~ msgstr "Nortel"
+
+#~ msgid "Standard Gateway"
+#~ msgstr "標準閘道器"
+
+#~ msgid "XAUTH"
+#~ msgstr "XAUTH"
+
+#~ msgctxt ""
+#~ "X.509 is an ITU-T standard for a public key infrastructure (PKI) and "
+#~ "Privilege Management Infrastructure (PMI)"
+#~ msgid ""
+#~ "\n"
+#~ "\t  X.509\n"
+#~ "\t  "
+#~ msgstr ""
+#~ "\n"
+#~ "\t  X.509\n"
+#~ "\t  "
+
+#~ msgid "&Group Name:"
+#~ msgstr "群組名稱(&G)："
+
+#~ msgid "U&ser Password:"
+#~ msgstr "使用者密碼(&S)："
+
+#~ msgid "G&roup Password:"
+#~ msgstr "群組密碼(&R)："
+
+#~ msgid "Certificate &file:"
+#~ msgstr "憑證檔案(&F)："
+
+#~ msgid "Certificate &password:"
+#~ msgstr "憑證密碼(&P)："
+
+#~ msgid "&Show Passwords"
+#~ msgstr "顯示密碼(&S)"
+
+#~ msgid "Ad&vanced..."
+#~ msgstr "進階(&V)..."
+
+#~ msgctxt "@title:window NovellVPN advanced connection options"
+#~ msgid "NovellVPN advanced options"
+#~ msgstr "NovellVPN 進階選項"
+
+#~ msgid "Contacting host, please wait..."
+#~ msgstr "聯繫主機中，請稍候..."
+
+#~ msgid "Login"
+#~ msgstr "登入"
+
+#~ msgid ""
+#~ "Check failed for certificate from VPN server \"%1\".\n"
+#~ "Reason: %2\n"
+#~ "Accept it anyway?"
+#~ msgstr ""
+#~ "檢查從 VPN 伺服器 %1 的憑證失敗。\n"
+#~ "理由：%2\n"
+#~ "還是要接受嗎？"
+
+#~ msgid "Connection attempt was unsuccessful."
+#~ msgstr "試圖連線不成功。"
+
+#~ msgid "OpenConnect VPN Authentication"
+#~ msgstr "OpenConnect VPN 認證"
+
+#~ msgid "VPN Host"
+#~ msgstr "VPN 主機"
+
+#~ msgid "View Log"
+#~ msgstr "檢視紀錄"
+
+#~ msgid "Log Level:"
+#~ msgstr "紀錄等級："
+
+#~ msgid "Info"
+#~ msgstr "資訊"
+
+#~ msgctxt "like in Debug log level"
+#~ msgid "Debug"
+#~ msgstr "除錯"
+
+#~ msgid "Trace"
+#~ msgstr "追蹤"
+
+#~ msgid "OpenConnect Settings"
+#~ msgstr "OpenConnect 設定"
+
+#~ msgid "&CA Certificate:"
+#~ msgstr "CA 憑證(&C)："
+
+#~ msgid "&Proxy:"
+#~ msgstr "代理伺服器(&P)："
+
+#~ msgid "CSD &Wrapper Script:"
+#~ msgstr "CSD 包裝文稿(&W)："
+
+#~ msgid "Allow Cisco Secure Desktop &trojan"
+#~ msgstr "允許 Cisco 安全桌面的特洛依木碼(&T)"
+
+#~ msgid "Certificate Authentication"
+#~ msgstr "憑證認證"
+
+#~ msgid "Use &FSID for key passphrase"
+#~ msgstr "使用 FSID 做金鑰密碼片語(&F)"
+
+#~ msgid "Could not open file"
+#~ msgstr "無法開啟檔案"
+
+#~ msgid "Invalid number of arguments (expected 1) in option: %1"
+#~ msgstr "選項裡參數數目不正確（應為 1 個）：%1"
+
+#~ msgid "Invalid size (should be between 0 and 0xFFFF) in option: %1"
+#~ msgstr "選項裡大小不正確（應為 0 到 0xffff 間）：%1"
+
+#~ msgid "Invalid size (should be between 0 and 604800) in option: %1"
+#~ msgstr "選項裡大小不正確（應為 0 到 604800 間）：%1"
+
+#~ msgid "Invalid proxy option: %1"
+#~ msgstr "代理伺服器選項不正確：%1"
+
+#~ msgid "Invalid port (should be between 1 and 65535) in option: %1"
+#~ msgstr "選項裡連接埠不正確（應為 1 到 65535 間）：%1"
+
+#~ msgid "Invalid number of arguments (expected 2) in option: %1"
+#~ msgstr "選項裡參數數目不正確（應為 2 個）：%1"
+
+#~ msgid "File %1 is not a valid OpenVPN's client configuration file"
+#~ msgstr "檔案 %1 不是合法的 OpenVPN 客戶端設定檔"
+
+#~ msgid "File %1 is not a valid OpenVPN configuration (no remote)."
+#~ msgstr "檔案 %1 不是合法的 OpenVPN 設定檔（無遠端）"
+
+#~ msgid "Could not open file for writing"
+#~ msgstr "無法開啟檔案以寫入"
+
+#~ msgid "Key Password:"
+#~ msgstr "金鑰密碼："
+
+#~ msgid "Proxy Password:"
+#~ msgstr "代理伺服器密碼："
+
+#~ msgid "OpenVPNAuthentication"
+#~ msgstr "OpenVPNAuthentication"
+
+#~ msgid "OpenVPN"
+#~ msgstr "OpenVPN"
+
+#~ msgid "Required Settings"
+#~ msgstr "需要的設定"
+
+#~ msgid "Connection &type:"
+#~ msgstr "連線類型(&T)："
+
+#~ msgid "X.509 Certificates"
+#~ msgstr "X.509 憑證"
+
+#~ msgid "Pre-shared Key"
+#~ msgstr "預先分享金鑰"
+
+#~ msgid "X.509 With Password"
+#~ msgstr "X.509 帶密碼"
+
+#~ msgid "C&A file:"
+#~ msgstr "CA 檔(&A)："
+
+#~ msgid "&Certificate:"
+#~ msgstr "憑證(&C)："
+
+#~ msgid "Key password:"
+#~ msgstr "金鑰密碼："
+
+#~ msgid "Local IP"
+#~ msgstr "本地端 IP"
+
+#~ msgid "Remote IP"
+#~ msgstr "遠端 IP"
+
+#~ msgid "Key Direction"
+#~ msgstr "金鑰方向"
+
+#~ msgid ""
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer."
+#~ msgstr "如果使用金鑰方向，它必須跟在 VPN 端點上使用的相反。"
+
+#~ msgctxt "like in None setting selected"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "CA File:"
+#~ msgstr "CA 檔："
+
+#~ msgctxt "like in Username for athentication"
+#~ msgid "Username:"
+#~ msgstr "使用者名稱："
+
+#~ msgid "CA file"
+#~ msgstr "CA 檔"
+
+#~ msgid "Certificate"
+#~ msgstr "憑證"
+
+#~ msgid "Key"
+#~ msgstr "金鑰"
+
+#~ msgid "Key password"
+#~ msgstr "金鑰密碼"
+
+#~ msgid "Optional Settings"
+#~ msgstr "選擇性設定"
+
+#~ msgid "Gateway &Port:"
+#~ msgstr "閘道連接埠(&P)："
+
+#~ msgid "Tunnel MTU"
+#~ msgstr "通道式 MTU"
+
+#~ msgid "UDP fragment size"
+#~ msgstr "UDP 區段大小"
+
+#~ msgid "Use custom renegotiation interval"
+#~ msgstr "使用自訂的協定溝通間隔"
+
+#~ msgid "Use LZO compression"
+#~ msgstr "使用 LZO 壓縮"
+
+#~ msgid "Use TCP connection"
+#~ msgstr "使用 TCP 連線"
+
+#~ msgid "Use TAP device"
+#~ msgstr "使用 TAP 裝置"
+
+#~ msgid "Restrict TCP maximum segment size (MSS)"
+#~ msgstr "限制 TCP 最大區段大小（Maximum Segment Size, MSS）"
+
+#~ msgid "Optional &Security"
+#~ msgstr "選擇性安全性(&S)"
+
+#~ msgid "&Cipher:"
+#~ msgstr "編碼(&C)："
+
+#~ msgid "Obtaining available ciphers..."
+#~ msgstr "取得可用的編碼中..."
+
+#~ msgid "&HMAC Authentication:"
+#~ msgstr "HMAC 認證(&H)："
+
+#~ msgctxt "like in use Default configuration"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Optional TLS Settings"
+#~ msgstr "選擇性 TLS 設定"
+
+#~ msgid ""
+#~ "Connect only to servers whose certificate matches the given subject. "
+#~ "Example: /CN=myvpn.company.com"
+#~ msgstr "只連線到擁有符合特定主題的憑證的伺服器。例如：/CN=myvpn.company.com"
+
+#~ msgid "Use additional TLS authentication"
+#~ msgstr "使用額外的 TLS 認證"
+
+#~ msgid "Key Direction:"
+#~ msgstr "金鑰方向："
+
+#~ msgid "Server (0)"
+#~ msgstr "伺服器 (0)"
+
+#~ msgid "Client (1)"
+#~ msgstr "客戶端 (1)"
+
+#~ msgid "Proxies"
+#~ msgstr "代理伺服器"
+
+#~ msgid "Proxy Type:"
+#~ msgstr "代理伺服器型態："
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Server Address:"
+#~ msgstr "伺服器位址："
+
+#~ msgid "Port:"
+#~ msgstr "連接埠："
+
+#~ msgid "Retry indefinitely when errors occur"
+#~ msgstr "錯誤發生時無限制重試"
+
+#~ msgid "Proxy Username:"
+#~ msgstr "代理伺服器使用者名稱："
+
+#~ msgid "Show Password"
+#~ msgstr "顯示密碼"
+
+#~ msgctxt "@item:inlistbox Item added when OpenVPN cipher lookup failed"
+#~ msgid "OpenVPN cipher lookup failed"
+#~ msgstr "OPenVPN 密碼搜尋失敗"
+
+#~ msgctxt "@item::inlist Default openvpn cipher item"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "@item:inlistbox Item added when OpenVPN cipher lookup failed"
+#~ msgid "No OpenVPN ciphers found"
+#~ msgstr "找不到 OpenVPN 密碼"
+
+#~ msgid "Allow following &authentication methods:"
+#~ msgstr "允許以下認證模式(&A)："
+
+#~ msgid "Use Microsoft Point-to-Point Encryption"
+#~ msgstr "使用微軟點對點加密法"
+
+#~ msgid "Use &MPPE Encryption"
+#~ msgstr "使用 MPPE 加密(&M)"
+
+#~ msgid "&Crypto:"
+#~ msgstr "加密法(&C):"
+
+#~ msgid "128 bit"
+#~ msgstr "128 位元"
+
+#~ msgid "40 bit"
+#~ msgstr "40 位元"
+
+#~ msgid "Use &stateful encryption"
+#~ msgstr "使用狀態加密(&S)"
+
+#~ msgid "Allow &BSD compression"
+#~ msgstr "允許 BSD 壓縮(&B)"
+
+#~ msgid "Allow &Deflate compression"
+#~ msgstr "允許 Deflate 壓縮(&D)"
+
+#~ msgid "Allow &TCP header compression"
+#~ msgstr "允許 TCP 標頭壓縮(&T)"
+
+#~ msgid "Send PPP &echo packets "
+#~ msgstr "傳送 PPP echo 封包"
+
+#~ msgid "PPTPAuthentication"
+#~ msgstr "PPTP 認證"
+
+#~ msgid "PPTP Settings"
+#~ msgstr "PPTP 設定"
+
+#~ msgctxt "like in Additional settings"
+#~ msgid "Additional"
+#~ msgstr "附加"
+
+#~ msgid "&Login:"
+#~ msgstr "登入(&L)："
+
+#~ msgid "&NT Domain:"
+#~ msgstr "NT 網域(&N)："
+
+#~ msgctxt "@label:textbox password label for private key password"
+#~ msgid "Private Key Password:"
+#~ msgstr "私密金鑰密碼："
+
+#~ msgctxt "@label:textbox password label for smartcard pin"
+#~ msgid "PIN:"
+#~ msgstr "PIN 碼："
+
+#~ msgctxt "@label:textbox password label for EAP password"
+#~ msgid "Password:"
+#~ msgstr "密碼："
+
+#~ msgctxt "@label:textbox error message while saving configuration"
+#~ msgid ""
+#~ "Configuration uses ssh-agent for authentication, but no ssh-agent found "
+#~ "running."
+#~ msgstr "設定裡使用 ssh-agent 做認證，但找不到執行中的 ssh-agent。"
+
+#~ msgid "Strong Swan VPN"
+#~ msgstr "Strong Swan VPN"
+
+#~ msgid "&Show passwords"
+#~ msgstr "顯示密碼(&S)"
+
+#~ msgid "Gateway"
+#~ msgstr "閘道"
+
+#~ msgid "Gateway:"
+#~ msgstr "閘道："
+
+#~ msgid "Certificate:"
+#~ msgstr "憑證："
+
+#~ msgid "Certificate/private key"
+#~ msgstr "憑證/私密金鑰"
+
+#~ msgid "Certificate/ssh-agent"
+#~ msgstr "憑證/ssh 代理程式"
+
+#~ msgid "Smartcard"
+#~ msgstr "智慧卡"
+
+#~ msgid "Private key:"
+#~ msgstr "私密金鑰："
+
+#~ msgid "PIN:"
+#~ msgstr "PIN 碼："
+
+#~ msgid "User &Password"
+#~ msgstr "使用者密碼(&P)"
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "Request an inner IP address"
+#~ msgstr "要求一個內部 IP 位址"
+
+#~ msgid "Enforce UDP encapsulation"
+#~ msgstr "強制使用 UDP 封裝"
+
+#~ msgid "Use IP compression"
+#~ msgstr "使用 IP 壓縮"
+
+#~ msgid "Error decrypting the obfuscated password"
+#~ msgstr "解開混淆密碼時發生錯誤"
+
+#~ msgid "File %1 could not be opened."
+#~ msgstr "無法開啟檔案 %1。"
+
+#~ msgid "Needed executable cisco-decrypt could not be found."
+#~ msgstr "找不到必須的執行檔 cisco-decrypt。"
+
+#~ msgid ""
+#~ "The VPN settings file '%1' specifies that VPN traffic should be tunneled "
+#~ "through TCP which is currently not supported in the vpnc software.\n"
+#~ "\n"
+#~ "The connection can still be created, with TCP tunneling disabled, however "
+#~ "it may not work as expected."
+#~ msgstr ""
+#~ "VPN 設定檔 %1 指定 VPN 連線要透過 TCP 通道，但目前的 vpnc 軟體不支援。\n"
+#~ "\n"
+#~ "連線還是可以建立，不過 TCP 通道功能會被關閉，而可能不會依您所期望地運作。"
+
+#~ msgid "Not supported"
+#~ msgstr "未支援"
+
+#~ msgid "%1: file format error."
+#~ msgstr "%1：檔案格式錯誤"
+
+#~ msgid "%1: file could not be created"
+#~ msgstr "%1：無法建立檔案"
+
+#~ msgid "VPNCAuthentication"
+#~ msgstr "VPNCAuthentication"
+
+#~ msgid "User &Password:"
+#~ msgstr "使用者密碼(&P)："
+
+#~ msgid "&Group Password:"
+#~ msgstr "群組密碼(&G)："
+
+#~ msgid "Group name:"
+#~ msgstr "群組名稱："
+
+#~ msgid "Cisco VPN"
+#~ msgstr "Cisco VPN"
+
+#~ msgid "Use hybrid authentication"
+#~ msgstr "使用混合式認證"
+
+#~ msgid "&Domain:"
+#~ msgstr "網域(&D)："
+
+#~ msgid "&Encryption Method:"
+#~ msgstr "加密方法(&E)："
+
+#~ msgctxt "like in Secure encryption method"
+#~ msgid "Secure"
+#~ msgstr "安全性:"
+
+#~ msgid "Weak"
+#~ msgstr "脆弱"
+
+#~ msgctxt "like in None encryption method"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "&NAT Traversal:"
+#~ msgstr "NAT 遊歷(&N)："
+
+#~ msgid "NAT-T (if available)"
+#~ msgstr "NAT-T（若可使用）"
+
+#~ msgid "Force NAT-T"
+#~ msgstr "強制使用 NAT-T"
+
+#~ msgid "Cisco UDP"
+#~ msgstr "Cisco UDP"
+
+#~ msgid "&IKE DH Group"
+#~ msgstr "IKE DH 群組(&I)"
+
+#~ msgid "DH Group 1"
+#~ msgstr "DH 群組 1"
+
+#~ msgid "DH Group 2 (default)"
+#~ msgstr "DH 群組 2（預設）"
+
+#~ msgid "DH Group 5"
+#~ msgstr "DH 群組 5"
+
+#~ msgid "&Perfect Forward Secrecy:"
+#~ msgstr "完美轉寄保密（Perfect Forward Secrecy，PFS）(&P)："
+
+#~ msgid "No PFS"
+#~ msgstr "不使用 PFS"
+
+#~ msgid "Server (default)"
+#~ msgstr "伺服器（預設）"
+
+#~ msgid "DH Group 2"
+#~ msgstr "DH 群組 2"
+
+#~ msgid "&Vendor:"
+#~ msgstr "製造商(&V)："
+
+#~ msgid "Cisco (default)"
+#~ msgstr "Cisco（預設）"
+
+#~ msgid "Netscreen"
+#~ msgstr "Netscreen"
+
+#~ msgid "&Application Version:"
+#~ msgstr "應用程式版本(&A)："
+
+#~ msgid "Enable Dead &Peer Detection"
+#~ msgstr "開啟已死端點偵測（Dead Peer Detection）(&P)"
+
+#~ msgid "&Local Port:"
+#~ msgstr "本地連接埠(&L)："
+
+#~ msgid "&Cisco UDP Encapsulation Port:"
+#~ msgstr "Cisco UDP 封裝連接埠(&C)："
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Unassociated"
+#~ msgstr "無關聯"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Managed"
+#~ msgstr "已管理"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Master"
+#~ msgstr "主要"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Repeater"
+#~ msgstr "強波器"
+
+#~ msgctxt "Version text"
+#~ msgid "<b>Version %1</b>"
+#~ msgstr "<b>版本 %1</b>"
+
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (VPN)"
+#~ msgstr "自動（VPN）"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (VPN) addresses only"
+#~ msgstr "自動（VPN）只取得位址"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (PPP)"
+#~ msgstr "自動（PPP）"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (PPP) addresses only"
+#~ msgstr "自動（PPP）只取得位址"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (DSL)"
+#~ msgstr "自動（DSL）"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (DSL) addresses only"
+#~ msgstr "自動（DSL）只取得位址"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "自動（DHCP）"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "自動（DHCP）只取得位址"
+
+#~ msgid "Descriptive Name"
+#~ msgstr "描述名稱"
+
+#~ msgid "CA file:"
+#~ msgstr "CA 檔："
+
+#~ msgctxt "like in Use default configuration"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "like in No authentication method required"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "like in Use any encryption method"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgctxt "like in Advanced Settings"
+#~ msgid "Advanced"
+#~ msgstr "進階"
+
+#~ msgctxt "like in Geral Settings"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgctxt "like in IPv4 configuration disabled"
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgctxt "like in Automatic version selection"
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgctxt "like in Use this connection with any network device"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgctxt "like in Automatic MTU selection"
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgctxt "like in Automatic speed selection"
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgctxt "like in Automatic radio frequency selection"
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgctxt "like in Automatic wifi channel selection"
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgctxt "like in Basic settings"
+#~ msgid "Basic"
+#~ msgstr "基本"
+
+#~ msgctxt "like in Use any configuration"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid "User Name"
+#~ msgstr "使用者名稱"
+
+#~ msgctxt " interface type"
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgctxt " network routes"
+#~ msgid "Routes"
+#~ msgstr "路由"
+
+#~ msgctxt " SSID is a friendly name that identifies a 802.11 WLAN."
+#~ msgid "SSID"
+#~ msgstr "SSID"
+
+#~ msgctxt " the operation mode of wi-fi network"
+#~ msgid "Mode"
+#~ msgstr "模式"
+
+#~ msgctxt "connection speed"
+#~ msgid "%1 Bit/s"
+#~ msgstr "%1 Bit/s"
+
+#~ msgctxt "connection speed"
+#~ msgid "%1 MBit/s"
+#~ msgstr "%1 MBit/s"
+
+#~ msgid "Show Passwords"
+#~ msgstr "顯示密碼"
+
+#~ msgid "&Hide passwords"
+#~ msgstr "隱藏密碼(&H)"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "User"
+#~ msgstr "使用者"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgctxt "@action"
+#~ msgid "Ignore"
+#~ msgstr "忽略"
+
+#~ msgctxt ""
+#~ "@info:status Notification when the networking subsystem (NetworkManager, "
+#~ "etc) is already running"
+#~ msgid "Networking system already running"
+#~ msgstr "網路系統正在執行中"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (PPPoE)"
+#~ msgstr "自動（PPPoE）"
+
+#~ msgctxt "@item:inlistbox IPv4 settings configuration method"
+#~ msgid "Automatic (PPPoE) addresses only"
+#~ msgstr "自動（PPPoE）只取得位址"
+
+#~ msgctxt "File chooser dialog title for certificate loading"
+#~ msgid "Load Certificate"
+#~ msgstr "載入憑證"
+
+#~ msgctxt ""
+#~ "Text to display on certificate button a certificate is already loaded"
+#~ msgid "Load new"
+#~ msgstr "載入新的"
+
+#~ msgctxt ""
+#~ "Text to display on CA certificate LED label when certificate is already "
+#~ "loaded"
+#~ msgid "Loaded"
+#~ msgstr "已載入"
+
+#~ msgctxt ""
+#~ "Text to display on CA certificate button when no certificate is loaded yet"
+#~ msgid "Load"
+#~ msgstr "載入"
+
+#~ msgctxt "@info:tooltip user action"
+#~ msgid "Choose a connection icon"
+#~ msgstr "選擇網路圖示"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (PPPoE)"
+#~ msgstr "自動（PPPoE）"
+
+#~ msgctxt "@item:inlistbox IPv6 settings configuration method"
+#~ msgid "Automatic (PPPoE) addresses only"
+#~ msgstr "自動（PPPoE）只取得位址"
+
+#~ msgid "New PPPoE Connection"
+#~ msgstr "新增 PPPoE 連線"
+
+#~ msgid "Could not import VPN connection settings"
+#~ msgstr "無法匯入 VPN 連線設定"
+
+#~ msgid "Scope"
+#~ msgstr "範圍"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:10pt; font-weight:600;\">Gateway</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:10pt; font-weight:600;\">閘道器</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:10pt; font-weight:600;\">Authentication</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:10pt; font-weight:600;\">認證</span></p></body></html>"
+
+#~ msgid "&Method:"
+#~ msgstr "方式 (&M)："
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:10pt; font-weight:600;\">Options</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:10pt; font-weight:600;\">選項</span></p></body></html>"
+
+#~ msgid "User Password"
+#~ msgstr "使用者密碼"
+
+#~ msgid "Group Password"
+#~ msgstr "群組密碼"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">General</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">一般</span></p></body></html>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Optional</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">選擇性的</span></p></body></html>"
+
+#~ msgid "Load"
+#~ msgstr "載入"
+
+#~ msgid "<b>Basic</b>"
+#~ msgstr "<b>基本</b>"
+
+#~ msgid "<b>Advanced</b>"
+#~ msgstr "<b>進階</b>"
+
+#, fuzzy
+#~| msgid "Shared"
+#~ msgid "Shared_Wifi"
+#~ msgstr "共享"
+
+#~ msgid "&Copy current AP's MAC to BSSID"
+#~ msgstr "將目前 AP 的硬體位址複製到 BSSID(&C)"
+
+#~ msgid "Unlock failed. Error code is %1/%2 (%3)."
+#~ msgstr "解除鎖定失敗。錯誤碼為 %1/%2 (%3)。"
+
+#~ msgctxt "@info:status Notification for hardware added"
+#~ msgid "%1 attached.<br />You do not have a cellular connection yet."
+#~ msgstr "%1 已附加。<br />您尚未連線到行動裝置。"
+
+#~ msgid "If checked, only manually configured routes will be used"
+#~ msgstr "若勾選此選項，只會使用手動指定的路由設定。"
+
+#~ msgid "Determines whether this connection should receive the default route"
+#~ msgstr "決定此連線是否要接受預設路由"
+
+#~ msgid "PU&K:"
+#~ msgstr "PUK(&K)："
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "My provider uses GSM technology (GPRS, EDGE, UMTS, HSPA)"
+#~ msgstr "我的提供者使用 GSM 技術（GPRS，EDGE，UMTS，HSPA）"
+
+#~ msgctxt "Mobile Connection Wizard"
+#~ msgid "My provider uses CDMA technology (1xRTT, EVDO)"
+#~ msgstr "我的提供者使用 CDMA 技術（1xRTT，EVDO）"
+
+#~ msgctxt "Menu item for GSM connections"
+#~ msgid "GSM Connection"
+#~ msgstr "GSM 連線"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Icon %1"
+#~ msgstr "圖示 %1"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Wired network interfaces"
+#~ msgstr "有線網路介面"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "DSL network devices"
+#~ msgstr "DSL 網路裝置"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "GSM network devices"
+#~ msgstr "GSM 網路裝置"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "CDMA network devices"
+#~ msgstr "CDMA 網路裝置"
+
+#~ msgctxt "@title:tab tab containing general UI settings"
+#~ msgid "&Tray Icon"
+#~ msgstr "系統匣圖示(&T)"
+
+#~ msgctxt "@title:tab tab containing menu tooltip settings"
+#~ msgid "&Tool Tips"
+#~ msgstr "工具提示(&T)"
+
+#~ msgid "All keys:"
+#~ msgstr "所有金鑰："
+
+#~ msgid "Selected keys:"
+#~ msgstr "選取的金鑰："
+
+#~ msgid "UNKNOWN STATE FIX ME"
+#~ msgstr "未知的狀態，FIXME"
+
+#~ msgid "Authentication scheme to use"
+#~ msgstr "要使用的認證機制"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "保護模式 EAP (PEAP)"
+
+#~ msgid "Identity:"
+#~ msgstr "身份："
+
+#~ msgid "User certificate:"
+#~ msgstr "使用者憑證："
+
+#~ msgid "CA certificate:"
+#~ msgstr "CA 憑證："
+
+#~ msgid "Private key password:"
+#~ msgstr "私密金鑰密碼："
+
+#~ msgid "&CA certificate:"
+#~ msgstr "CA 憑證(&C)："
+
+#~ msgid "Inner &authentication:"
+#~ msgstr "內部認證(&A)："
+
+#~ msgid "Anonymous &identity:"
+#~ msgstr "匿名身份(&I)："
+
+#~ msgid "PEAP &version:"
+#~ msgstr "PEAP 版本(&V)："
+
+#~ msgctxt "Insert a row"
+#~ msgid "&Insert"
+#~ msgstr "插入(&I)"
+
+#~ msgid "&Configure:"
+#~ msgstr "設定(&C)："
+
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"

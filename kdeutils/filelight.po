@@ -1,0 +1,606 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2013, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: filelight\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-12-08 03:14+0100\n"
+"PO-Revision-Date: 2017-03-12 21:38+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#. i18n: ectx: Menu (file)
+#: misc/filelightui.rc:4
+#, kde-format
+msgid "&Scan"
+msgstr "掃描(&S)"
+
+#. i18n: ectx: Menu (view)
+#: misc/filelightui.rc:18
+#, kde-format
+msgid "&View"
+msgstr "檢視(&V)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: misc/filelightui.rc:24
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#. i18n: ectx: ToolBar (locationToolBar)
+#: misc/filelightui.rc:32
+#, kde-format
+msgid "Location Toolbar"
+msgstr "位置工具列"
+
+#. i18n: ectx: ToolBar (viewToolBar)
+#: misc/filelightui.rc:37
+#, kde-format
+msgid "View Toolbar"
+msgstr "檢視工具列"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Dialog)
+#: src/dialog.ui:14
+#, kde-format
+msgid "Settings - Filelight"
+msgstr "設定 - Filelight"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Widget2)
+#: src/dialog.ui:33
+#, kde-format
+msgid "Scannin&g"
+msgstr "掃瞄中(&G)..."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/dialog.ui:45
+#, kde-format
+msgid "Do &not scan these folders:"
+msgstr "不要掃描這些資料夾(&N)："
+
+#. i18n: ectx: property (text), widget (QPushButton, m_removeButton)
+#: src/dialog.ui:85
+#, kde-format
+msgid "R&emove"
+msgstr "移除(&E)"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_addButton)
+#: src/dialog.ui:95
+#, kde-format
+msgid "&Add..."
+msgstr "新增(&A)..."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, dontScanRemoteMounts)
+#: src/dialog.ui:171
+#, kde-format
+msgid ""
+"Prevents scanning of filesystems that are not on this computer, e.g. NFS or "
+"Samba mounts."
+msgstr "預防掃描到非本地端的檔案系統，如 NFS 或 Samba 的遠端檔案系統。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dontScanRemoteMounts)
+#: src/dialog.ui:174
+#, kde-format
+msgid "Exclude remote files&ystems"
+msgstr "排除遠端檔案系統(&Y)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, scanAcrossMounts)
+#: src/dialog.ui:181
+#, kde-format
+msgid ""
+"Allows scans to enter directories that are part of other filesystems. For "
+"example, when unchecked, this will usually prevent the contents of <b>/mnt</"
+"b> from being scanned if you scan <b>/</b>."
+msgstr ""
+"允許掃描跨越到其他檔案系統。例如，若是不勾選此選項，則在掃描根目錄時會避免掃"
+"描 /mnt 下的東西。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, scanAcrossMounts)
+#: src/dialog.ui:184
+#, kde-format
+msgid "Scan across filesystem &boundaries"
+msgstr "允許掃描跨越檔案系統(&B)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, dontScanRemovableMedia)
+#: src/dialog.ui:197
+#, kde-format
+msgid "Prevents Filelight from scanning removable media (eg. CD-ROMs)."
+msgstr "防止 Filelight 掃描可移除裝置（如光碟片）。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dontScanRemovableMedia)
+#: src/dialog.ui:200
+#, kde-format
+msgid "E&xclude removable media"
+msgstr "排除可移除裝置(&X)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Widget3)
+#: src/dialog.ui:210
+#, kde-format
+msgid "&Appearance"
+msgstr "外觀(&A)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/dialog.ui:222
+#, kde-format
+msgid "Color scheme"
+msgstr "顏色機制"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/dialog.ui:248
+#, kde-format
+msgid "Co&ntrast"
+msgstr "對比(&N)"
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, contrastSlider)
+#: src/dialog.ui:270
+#, kde-format
+msgid "Here you can vary the contrast of the filemap in realtime."
+msgstr "您可以在此調整即時檔案地圖的對比。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useAntialiasing)
+#: src/dialog.ui:291
+#, kde-format
+msgid ""
+"Anti-aliasing the filemap makes it clearer and prettier, unfortunately it "
+"also makes rendering very slow."
+msgstr "對檔案地圖做防鋸齒可以讓它看起來更清楚漂亮。不過這樣會畫得很慢。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useAntialiasing)
+#: src/dialog.ui:294
+#, kde-format
+msgid "&Use anti-aliasing"
+msgstr "使用反鋸齒(&U)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showSmallFiles)
+#: src/dialog.ui:301
+#, kde-format
+msgid ""
+"Some files are too small to be rendered on the filemap. Selecting this "
+"option makes these files visible by merging them all into a single \"multi-"
+"segment\"."
+msgstr ""
+"有些檔案太小了，沒辦法畫在檔案地圖上。選擇此選項可以將這些檔案合併在一個「多"
+"重區段」的區塊內。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showSmallFiles)
+#: src/dialog.ui:304
+#, kde-format
+msgid "Show small files"
+msgstr "顯示小檔案"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, varyLabelFontSizes)
+#: src/dialog.ui:314
+#, kde-format
+msgid ""
+"The font size of exploded labels can be varied relative to the depth of the "
+"directories they represent. This helps you spot the important labels more "
+"easily. Set a sensible minimum font size."
+msgstr ""
+"字型大小可以根據目錄的深度而不同。這樣您可以更容易地找到重要的標籤。注意，請"
+"設定合理的最小字型大小。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, varyLabelFontSizes)
+#: src/dialog.ui:317
+#, kde-format
+msgid "Var&y label font sizes"
+msgstr "標籤字型大小可變(&Y)"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, minFontPitchLabel)
+#: src/dialog.ui:354
+#, kde-format
+msgid "The smallest font size Filelight can use to render labels."
+msgstr "Filelight 可用於繪製標籤的最小的字型大小。"
+
+#. i18n: ectx: property (text), widget (QLabel, minFontPitchLabel)
+#: src/dialog.ui:357
+#, kde-format
+msgid "Minimum font si&ze:"
+msgstr "最小字型大小(&Z)："
+
+#: src/historyAction.cpp:77
+#, kde-format
+msgctxt "Go to the last path viewed"
+msgid "Back"
+msgstr "返回"
+
+#: src/historyAction.cpp:78
+#, kde-format
+msgctxt "Go to forward in the history of paths viewed"
+msgid "Forward"
+msgstr "往前"
+
+#: src/main.cpp:51
+#, kde-format
+msgid "Graphical disk-usage information"
+msgstr "圖形化的磁碟用量資訊"
+
+#: src/main.cpp:53
+#, kde-format
+msgid ""
+"(C) 2006 Max Howell\n"
+"(C) 2008-2014 Martin Sandsmark"
+msgstr ""
+"(C) 2006 Max Howell\n"
+"(C) 2008-2014 Martin Sandsmark"
+
+#: src/main.cpp:58
+#, kde-format
+msgid "Martin Sandsmark"
+msgstr "Martin Sandsmark"
+
+#: src/main.cpp:58
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: src/main.cpp:59
+#, kde-format
+msgid "Max Howell"
+msgstr "Max Howell"
+
+#: src/main.cpp:59
+#, kde-format
+msgid "Original author"
+msgstr "原始作者"
+
+#: src/main.cpp:60
+#, kde-format
+msgid "Lukas Appelhans"
+msgstr "Lukas Appelhans"
+
+#: src/main.cpp:60
+#, kde-format
+msgid "Help and support"
+msgstr "協助與支援"
+
+#: src/main.cpp:61
+#, kde-format
+msgid "Steffen Gerlach"
+msgstr "Steffen Gerlach"
+
+#: src/main.cpp:61
+#, kde-format
+msgid "Inspiration"
+msgstr "靈感"
+
+#: src/main.cpp:62
+#, kde-format
+msgid "Mike Diehl"
+msgstr "Mike Diehl"
+
+#: src/main.cpp:62
+#, kde-format
+msgid "Original documentation"
+msgstr "原始文件"
+
+#: src/main.cpp:63
+#, kde-format
+msgid "Sune Vuorela"
+msgstr "Sune Vuorela"
+
+#: src/main.cpp:63 src/main.cpp:64
+#, kde-format
+msgid "Icon"
+msgstr "圖示"
+
+#: src/main.cpp:64
+#, kde-format
+msgid "Nuno Pinheiro"
+msgstr "Nuno Pinheiro"
+
+#: src/main.cpp:73
+#, kde-format
+msgid "Path or URL to scan"
+msgstr "要掃描的路徑或網址"
+
+#: src/main.cpp:73
+#, kde-format
+msgid "[url]"
+msgstr "[網址]"
+
+#: src/mainWindow.cpp:154
+#, kde-format
+msgid "Scan &Home Folder"
+msgstr "掃描家資料夾(&H)"
+
+#: src/mainWindow.cpp:159
+#, kde-format
+msgid "Scan &Root Folder"
+msgstr "掃描根目錄(&R)"
+
+#: src/mainWindow.cpp:163
+#, kde-format
+msgid "Rescan"
+msgstr "重新掃描"
+
+#: src/mainWindow.cpp:169
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: src/mainWindow.cpp:175
+#, kde-format
+msgid "Go"
+msgstr "走！"
+
+#: src/mainWindow.cpp:179
+#, kde-format
+msgid "Scan Folder"
+msgstr "掃描資料夾"
+
+#: src/mainWindow.cpp:183
+#, kde-format
+msgid "Location Bar"
+msgstr "位置列"
+
+#: src/mainWindow.cpp:186
+#, kde-format
+msgid "&Recent Scans"
+msgstr "最近的掃描(&R)"
+
+#: src/mainWindow.cpp:227
+#, kde-format
+msgid "Select Folder to Scan"
+msgstr "選擇要掃描的資料夾"
+
+#: src/mainWindow.cpp:376
+#, kde-format
+msgid "The entered URL cannot be parsed; it is invalid."
+msgstr "輸入的網址無法被剖析，因為是不合法的。"
+
+#: src/mainWindow.cpp:380
+#, kde-format
+msgid "Filelight only accepts absolute paths, eg. /%1"
+msgstr "Filelight 只接受絕對路徑，例如 /%1"
+
+#: src/mainWindow.cpp:384
+#, kde-format
+msgid "Folder not found: %1"
+msgstr "找不到資料夾：%1"
+
+#: src/mainWindow.cpp:388
+#, kde-format
+msgid ""
+"Unable to enter: %1\n"
+"You do not have access rights to this location."
+msgstr ""
+"無法進入：%1\n"
+"您沒有這個位置的存取權限。"
+
+#: src/mainWindow.cpp:408
+#, kde-format
+msgid "Aborting Scan..."
+msgstr "取消掃描中..."
+
+#: src/mainWindow.cpp:471
+#, kde-format
+msgid "Scanning: %1"
+msgstr "掃瞄中： %1"
+
+#: src/mainWindow.cpp:505
+#, kde-format
+msgid "Scan completed, generating map..."
+msgstr "掃描已完成。產生地圖中..."
+
+#: src/mainWindow.cpp:515
+#, kde-format
+msgid "Scan failed: %1"
+msgstr "掃描失敗：%1"
+
+#: src/mainWindow.cpp:537
+#, kde-format
+msgid "No files."
+msgstr "沒有檔案。"
+
+#: src/mainWindow.cpp:538
+#, kde-format
+msgid "1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 個檔案"
+
+#: src/progressBox.cpp:93
+#, kde-format
+msgid "%1 File"
+msgid_plural "%1 Files"
+msgstr[0] "%1 個檔案"
+
+#: src/radialMap/map.cpp:193
+#, kde-format
+msgid "1 file, with an average size of %2"
+msgid_plural "%1 files, with an average size of %2"
+msgstr[0] "%1 個檔案，平均大小為 %2"
+
+#: src/radialMap/widgetEvents.cpp:76
+#, kde-format
+msgctxt "We messed up, the user needs to initiate a rescan."
+msgid ""
+"Internal representation is invalid,\n"
+"please rescan."
+msgstr "內部展示不合法。請重新掃描。"
+
+#: src/radialMap/widgetEvents.cpp:162
+#, kde-format
+msgid "File: %1"
+msgid_plural "Files: %1"
+msgstr[0] "檔案：%1"
+
+#: src/radialMap/widgetEvents.cpp:170
+#, kde-format
+msgid ""
+"\n"
+"Click to go up to parent directory"
+msgstr ""
+"\n"
+"點擊以回到上層目錄"
+
+#: src/radialMap/widgetEvents.cpp:266
+#, kde-format
+msgid "Open &File Manager Here"
+msgstr "在此開啟檔案管理員(&F)"
+
+#: src/radialMap/widgetEvents.cpp:269
+#, kde-format
+msgid "Open &Terminal Here"
+msgstr "在這裡開啟終端機(&T)"
+
+#: src/radialMap/widgetEvents.cpp:274
+#, kde-format
+msgid "&Center Map Here"
+msgstr "將地圖置中(&C)"
+
+#: src/radialMap/widgetEvents.cpp:277
+#, kde-format
+msgctxt "Scan/open the path of the selected element"
+msgid "&Open"
+msgstr "開啟(&O)"
+
+#: src/radialMap/widgetEvents.cpp:281
+#, kde-format
+msgid "&Copy to clipboard"
+msgstr "複製到剪貼簿(&C)"
+
+#: src/radialMap/widgetEvents.cpp:285 src/radialMap/widgetEvents.cpp:315
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#: src/radialMap/widgetEvents.cpp:311
+#, kde-format
+msgid ""
+"<qt>The folder at <i>'%1'</i> will be <b>recursively</b> and <b>permanently</"
+"b> deleted.</qt>"
+msgstr "<qt>於 <i>%1</i> 的資料夾將會<b>遞迴式</b>並且<b>永久</b>刪除。</qt>"
+
+#: src/radialMap/widgetEvents.cpp:312
+#, kde-format
+msgid "<qt><i>'%1'</i> will be <b>permanently</b> deleted.</qt>"
+msgstr "<qt><i>%1</i> 將會<b>永久</b>刪除。</qt>"
+
+#: src/radialMap/widgetEvents.cpp:341
+#, kde-format
+msgid "Error while deleting"
+msgstr "刪除時發生錯誤"
+
+#: src/settingsDialog.cpp:46
+#, kde-format
+msgid "Rainbow"
+msgstr "彩虹"
+
+#: src/settingsDialog.cpp:50
+#, kde-format
+msgid "System colors"
+msgstr "系統顏色"
+
+#: src/settingsDialog.cpp:54
+#, kde-format
+msgid "High contrast"
+msgstr "高對比"
+
+#: src/settingsDialog.cpp:163
+#, kde-format
+msgid "Select path to ignore"
+msgstr "選擇要忽略的路徑"
+
+#: src/settingsDialog.cpp:180
+#, kde-format
+msgid "Folder already ignored"
+msgstr "已忽略的資料夾"
+
+#: src/settingsDialog.cpp:180
+#, kde-format
+msgid "That folder is already set to be excluded from scans."
+msgstr "該資料夾已被設定成排除掃描。"
+
+#: src/summaryWidget.cpp:112
+#, kde-format
+msgctxt "Free space on the disks/partitions"
+msgid "Free"
+msgstr "未使用"
+
+#: src/summaryWidget.cpp:113
+#, kde-format
+msgctxt "Used space on the disks/partitions"
+msgid "Used"
+msgstr "已使用"
+
+#: src/summaryWidget.cpp:134
+#, kde-format
+msgctxt "Percent used disk space on the partition"
+msgid "<b>%1</b><br/>%2% Used"
+msgstr "<b>%1</b><br/>已使用 %2%"
+
+#: src/summaryWidget.cpp:136
+#, kde-format
+msgctxt "Percent used disk space on the partition"
+msgid "<b>%1: %2</b><br/>%3% Used"
+msgstr "<b>%1：%2</b><br/>已使用 %3%"
+
+#~ msgid ""
+#~ "Unable to locate the Filelight Part.\n"
+#~ "Please make sure Filelight was correctly installed."
+#~ msgstr ""
+#~ "無法找到 Filelight 部件。\n"
+#~ "請確定 Filelight 已正確安裝。"
+
+#~ msgid ""
+#~ "Unable to load the Filelight Part.\n"
+#~ "Please make sure Filelight was correctly installed."
+#~ msgstr ""
+#~ "無法載入 Filelight 部件。\n"
+#~ "請確定 Filelight 已正確安裝。"
+
+#~ msgid ""
+#~ "Unable to create Filelight part widget.\n"
+#~ "Please ensure that Filelight is correctly installed."
+#~ msgstr ""
+#~ "無法建立 Filelight 部件。\n"
+#~ "請確定 Filelight 已正確安裝。"
+
+#~ msgid "Displays file usage in an easy to understand way."
+#~ msgstr "以簡單易懂的方式顯示檔案用量。"
+
+#~ msgid ""
+#~ "(c) 2002-2004 Max Howell\n"
+#~ "(c) 2008-2014 Martin T. Sandsmark"
+#~ msgstr ""
+#~ "(c) 2002-2004 Max Howell\n"
+#~ "(c) 2008-2014 Martin T. Sandsmark"
+
+#~ msgid "Configure Filelight..."
+#~ msgstr "設定 Filelight..."
+
+#~ msgctxt "Path in the file system to scan"
+#~ msgid "+[path]"
+#~ msgstr "+[path]"
+
+#~ msgid "Scan 'path'"
+#~ msgstr "掃描 'path'"
+
+#~ msgid "Unable to create part widget."
+#~ msgstr "無法建立部件元件。"
+
+#~ msgid "Filelight"
+#~ msgstr "Filelight"
+
+#~ msgctxt "&Up: /home/mxcl"
+#~ msgid "%1: %2"
+#~ msgstr "%1: %2"

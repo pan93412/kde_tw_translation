@@ -1,0 +1,1879 @@
+# translation of konqueror.po to Chinese Traditional
+# traditional Chinese translation of konqueror
+# Copyright (C) 2001-2003, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Translator: Jing-Jong Shyue <shyue@sonoma.com.tw>
+#             Chih-Wei Huang <cwhuang@linux.org.tw>, March 2001
+#             Kenduest Kee <kenduest@i18n.linux.org.tw>, Oct 2001
+#             Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2002.
+# 	      Bao-Chau Chen <b8802046@mail.ntust.edu.tw>, 2003.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: konqueror\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:06+0100\n"
+"PO-Revision-Date: 2011-05-12 13:26+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kshellcmdexecutor.cpp:119
+#, kde-format
+msgid "Input Required:"
+msgstr "要求輸入："
+
+#: kshellcmdplugin.cpp:47
+#, kde-format
+msgid "&Execute Shell Command..."
+msgstr "執行 Shell 命令(&E)..."
+
+#: kshellcmdplugin.cpp:56
+#, kde-format
+msgid ""
+"KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
+msgstr "KShellCmdPlugin::slotExecuteShellCommand: 程式錯誤，請回報。"
+
+#: kshellcmdplugin.cpp:62
+#, kde-format
+msgid "Executing shell commands works only on local directories."
+msgstr "執行 Shell 命令只能用在本地端目錄。"
+
+#: kshellcmdplugin.cpp:83
+#, kde-format
+msgctxt "@title:window"
+msgid "Execute Shell Command"
+msgstr "執行 Shell 命令"
+
+#: kshellcmdplugin.cpp:84
+#, kde-format
+msgid "Execute shell command in current directory:"
+msgstr "在目前的目錄執行命令："
+
+#: kshellcmdplugin.cpp:93
+#, kde-format
+msgid "Output from command: \"%1\""
+msgstr "從命令的輸出：\"%1\""
+
+#. i18n: ectx: Menu (tools)
+#: kshellcmdplugin.rc:4
+#, kde-format
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#~ msgid "no name"
+#~ msgstr "未命名"
+
+#~ msgid "Configure"
+#~ msgstr "設定"
+
+#~ msgid "Extensions"
+#~ msgstr "延伸功能"
+
+#~ msgid ""
+#~ "There was an error loading the module %1.\n"
+#~ "The diagnostics is:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "載入模組 %1 時發生錯誤。\n"
+#~ "除錯訊息：\n"
+#~ "%2"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror 征服家"
+
+#~ msgid "Web browser, file manager and document viewer."
+#~ msgstr "網頁瀏覽器，檔案管理員與文件檢視器。"
+
+#~ msgid "(C) 1999-2008, The Konqueror developers"
+#~ msgstr "(c) 1999-2008， The Konqueror 開發群"
+
+#~ msgid "http://konqueror.kde.org"
+#~ msgstr "http://konqueror.kde.org"
+
+#~ msgid "David Faure"
+#~ msgstr "David Faure"
+
+#~ msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
+#~ msgstr "發展者（架構、組件、JavaScript、 I/O 函式庫）及維護人"
+
+#~ msgid "Simon Hausmann"
+#~ msgstr "Simon Hausmann"
+
+#~ msgid "Developer (framework, parts)"
+#~ msgstr "發展者（架構，部件）"
+
+#~ msgid "Michael Reiher"
+#~ msgstr "Michael Reiher"
+
+#~ msgid "Developer (framework)"
+#~ msgstr "發展者（架構）"
+
+#~ msgid "Matthias Welk"
+#~ msgstr "Matthias Welk"
+
+#~ msgid "Developer"
+#~ msgstr "發展者"
+
+#~ msgid "Alexander Neundorf"
+#~ msgstr "Alexander Neundorf"
+
+#~ msgid "Developer (List views)"
+#~ msgstr "發展者（列表）"
+
+#~ msgid "Michael Brade"
+#~ msgstr "Michael Brade"
+
+#~ msgid "Developer (List views, I/O library)"
+#~ msgstr "發展者（列表，I/O 函式庫）"
+
+#~ msgid "Lars Knoll"
+#~ msgstr "Lars Knoll"
+
+#~ msgid "Developer (HTML rendering engine)"
+#~ msgstr "發展者（HTML 轉譯引擎）"
+
+#~ msgid "Dirk Mueller"
+#~ msgstr "Dirk Mueller"
+
+#~ msgid "Peter Kelly"
+#~ msgstr "Peter Kelly"
+
+#~ msgid "Waldo Bastian"
+#~ msgstr "Waldo Bastian"
+
+#~ msgid "Developer (HTML rendering engine, I/O library)"
+#~ msgstr "發展者（HTML 轉譯引擎，I/O 函式庫）"
+
+#~ msgid "Germain Garand"
+#~ msgstr "Germain Garand"
+
+#~ msgid "Leo Savernik"
+#~ msgstr "Leo Savernik"
+
+#~ msgid "Stephan Kulow"
+#~ msgstr "Stephan Kulow"
+
+#~ msgid ""
+#~ "Developer (HTML rendering engine, I/O library, regression test framework)"
+#~ msgstr "發展者（HTML 轉譯引擎、I/O 函式庫、回溯測試架構）"
+
+#~ msgid "Antti Koivisto"
+#~ msgstr "Antti Koivisto"
+
+#~ msgid "Zack Rusin"
+#~ msgstr "Zack Rusin"
+
+#~ msgid "Tobias Anton"
+#~ msgstr "Tobias Anton"
+
+#~ msgid "Lubos Lunak"
+#~ msgstr "Lubos Lunak"
+
+#~ msgid "Maks Orlovich"
+#~ msgstr "Maks Orlovich"
+
+#~ msgid "Developer (HTML rendering engine, JavaScript)"
+#~ msgstr "發展者（HTML 轉譯引擎、JavaScript）"
+
+#~ msgid "Allan Sandfeld Jensen"
+#~ msgstr "Allan Sandfeld Jensen"
+
+#~ msgid "Apple Safari Developers"
+#~ msgstr "Apple Safari Developers"
+
+#~ msgid "Harri Porten"
+#~ msgstr "Harri Porten"
+
+#~ msgid "Developer (JavaScript)"
+#~ msgstr "發展者 (JavaScript)"
+
+#~ msgid "Koos Vriezen"
+#~ msgstr "Koos Vriezen"
+
+#~ msgid "Developer (Java applets and other embedded objects)"
+#~ msgstr "發展者（Java applet 支援與其他內嵌的物件）"
+
+#~ msgid "Matt Koss"
+#~ msgstr "Matt Koss"
+
+#~ msgid "Developer (I/O library)"
+#~ msgstr "發展者（I/O 函式庫）"
+
+#~ msgid "Alex Zepeda"
+#~ msgstr "Alex Zepeda"
+
+#~ msgid "Richard Moore"
+#~ msgstr "Richard Moore"
+
+#~ msgid "Developer (Java applet support)"
+#~ msgstr "發展者（Java applet 支援）"
+
+#~ msgid "Dima Rogozin"
+#~ msgstr "Dima Rogozin"
+
+#~ msgid "Wynn Wilkes"
+#~ msgstr "Wynn Wilkes"
+
+#~ msgid ""
+#~ "Developer (Java 2 security manager support,\n"
+#~ " and other major improvements to applet support)"
+#~ msgstr ""
+#~ "發展者（Java 2 安全管理員支援，\n"
+#~ "以及其它主要的 applet 支援改進）"
+
+#~ msgid "Stefan Schimanski"
+#~ msgstr "Stefan Schimanski"
+
+#~ msgid "Developer (Netscape plugin support)"
+#~ msgstr "發展者（Netscape 外掛模組支援）"
+
+#~ msgid "George Staikos"
+#~ msgstr "George Staikos"
+
+#~ msgid "Developer (SSL, Netscape plugins)"
+#~ msgstr "發展者（SSL， Netscape 外掛模組支援）"
+
+#~ msgid "Dawit Alemayehu"
+#~ msgstr "Dawit Alemayehu"
+
+#~ msgid "Developer (I/O library, Authentication support)"
+#~ msgstr "發展者（I/O 函式，認證模組支援）"
+
+#~ msgid "Carsten Pfeiffer"
+#~ msgstr "Carsten Pfeiffer"
+
+#~ msgid "Torsten Rahn"
+#~ msgstr "Torsten Rahn"
+
+#~ msgid "Graphics/icons"
+#~ msgstr "圖片/圖示"
+
+#~ msgid "Torben Weis"
+#~ msgstr "Torben Weis"
+
+#~ msgid "KFM author"
+#~ msgstr "KFM 作者"
+
+#~ msgid "Joseph Wenninger"
+#~ msgstr "Joseph Wenninger"
+
+#~ msgid "Developer (navigation panel framework)"
+#~ msgstr "發展者（導覽面板架構）"
+
+#~ msgid "Stephan Binner"
+#~ msgstr "Stephan Binner"
+
+#~ msgid "Developer (misc stuff)"
+#~ msgstr "發展者（雜項）"
+
+#~ msgid "Ivor Hewitt"
+#~ msgstr "Ivor Hewitt"
+
+#~ msgid "Developer (AdBlock filter)"
+#~ msgstr "發展者（AdBlock 過濾器）"
+
+#~ msgid "Eduardo Robles Elvira"
+#~ msgstr "Eduardo Robles Elvira"
+
+#~ msgid ""
+#~ "Checking this box on at least two views sets those views as 'linked'. "
+#~ "Then, when you change directories in one view, the other views linked "
+#~ "with it will automatically update to show the current directory. This is "
+#~ "especially useful with different types of views, such as a directory tree "
+#~ "with an icon view or detailed view, and possibly a terminal emulator "
+#~ "window."
+#~ msgstr ""
+#~ "選取此方塊為至少兩個「連結」的檢視。如此一來，當你在其中一個檢視中改變目錄"
+#~ "時，另一個連結到它的檢視將會自動地更新顯示目前目錄。當使用不同的檢視，例如"
+#~ "終端模擬視窗、圖示的樹狀目錄或清單時，這將會特別有用。"
+
+#~ msgid "Close View"
+#~ msgstr "關閉檢視"
+
+#~ msgid "%1/s"
+#~ msgstr "%1/s"
+
+#~ msgid "Stalled"
+#~ msgstr "卡住"
+
+#~ msgid "Preview &in %1"
+#~ msgstr "在 %1 中預覽(&I)"
+
+#~ msgid "Show %1"
+#~ msgstr "顯示 %1"
+
+#~ msgctxt "@title:window"
+#~ msgid "History"
+#~ msgstr "歷史紀錄"
+
+#~ msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+#~ msgid "Sort"
+#~ msgstr "排序"
+
+#~ msgid ""
+#~ "<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+#~ "%3<br />Number of times visited: %4</qt>"
+#~ msgstr ""
+#~ "<qt><center><b>%1</b></center><hr />最後一次造訪：%2<br />第一次造訪："
+#~ "%3<br />造訪總次數：%4</qt>"
+
+#~ msgid "Local"
+#~ msgstr "本地端"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "雜項"
+
+#~ msgid "Open in New &Window"
+#~ msgstr "在新視窗開啟(&W)"
+
+#~ msgid "Open in New Tab"
+#~ msgstr "在新分頁中開啟"
+
+#~ msgid "&Copy Link Address"
+#~ msgstr "複製連結位址(&C)"
+
+#~ msgid "&Remove Entry"
+#~ msgstr "移除項目(&R)"
+
+#~ msgid "C&lear History"
+#~ msgstr "清除瀏覽紀錄(&L)"
+
+#~ msgid "&Preferences..."
+#~ msgstr "偏好設定(&P)..."
+
+#~ msgid "By &Name"
+#~ msgstr "以名稱(&N)"
+
+#~ msgid "By &Date"
+#~ msgstr "以日期(&D)"
+
+#~ msgid "Search in history"
+#~ msgstr "搜尋歷史紀錄"
+
+#~ msgid "Do you really want to clear the entire history?"
+#~ msgstr "您確定要清除整個瀏覽紀錄？"
+
+#~ msgid "Clear History?"
+#~ msgstr "清除瀏覽紀錄？"
+
+#~ msgid "Start without a default window, when called without URLs"
+#~ msgstr "若呼叫時未帶網址，則不使用預設視窗啟始"
+
+#~ msgid ""
+#~ "Preload for later use. This mode does not support URLs on the command line"
+#~ msgstr "預先載入以供後續使用。此模式不支援在命令列中帶網址。"
+
+#~ msgid "Profile to open"
+#~ msgstr "要開啟的設定檔"
+
+#~ msgid "List available profiles"
+#~ msgstr "列出可用的設定檔"
+
+#~ msgid "List available sessions"
+#~ msgstr "列出可用的工作階段"
+
+#~ msgid "Session to open"
+#~ msgstr "要開啟的工作階段"
+
+#~ msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+#~ msgstr "這個網址使用的 MIME 類型（例如 text/html 或 inode/directory）"
+
+#~ msgid "Part to use (e.g. khtml or kwebkitpart)"
+#~ msgstr "使用的部件（如 khtml 或 kwebkitpart）"
+
+#~ msgid ""
+#~ "For URLs that point to files, opens the directory and selects the file, "
+#~ "instead of opening the actual file"
+#~ msgstr "對指向檔案的網址，開啟其目錄並選擇該檔案，而非直接開啟實際的檔案"
+
+#~ msgid "Location to open"
+#~ msgstr "要開啟的位置"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Loading..."
+#~ msgstr "載入中..."
+
+#~ msgid "Canceled."
+#~ msgstr "取消。"
+
+#~ msgid ""
+#~ "This page contains changes that have not been submitted.\n"
+#~ "Reloading the page will discard these changes."
+#~ msgstr ""
+#~ "這個頁面包含尚未送出的變更。\n"
+#~ "重新載入此頁面會放棄這些變更。"
+
+#~ msgid "Discard Changes?"
+#~ msgstr "放棄變更？"
+
+#~ msgid "&Discard Changes"
+#~ msgstr "放棄變更(&D)"
+
+#~ msgid "File Management"
+#~ msgstr "檔案管理"
+
+#~ msgid "Web Browsing"
+#~ msgstr "網頁瀏覽"
+
+#~ msgid "Home Folder"
+#~ msgstr "家目錄"
+
+#~ msgid "Home"
+#~ msgstr "首頁"
+
+#~ msgid "Navigate to your 'Home Folder'"
+#~ msgstr "帶領您到您的家目錄"
+
+#~ msgid "Navigate to your local 'Home Folder'"
+#~ msgstr "帶領您到您本地端的家目錄"
+
+#~ msgid "Home Page"
+#~ msgstr "首頁"
+
+#~ msgid "Navigate to your 'Home Page'"
+#~ msgstr "帶領您到您的首頁"
+
+#~ msgid ""
+#~ "<html>Navigate to your 'Home Page'<br /><br />You can configure the "
+#~ "location where this button takes you under <b>Settings -> Configure "
+#~ "Konqueror -> General</b>.</html>"
+#~ msgstr ""
+#~ "<html>帶領您到您的首頁<br /><br />您可以從「設定」─「設定 Konqueror」─「一"
+#~ "般」選單中設定此按鈕會帶您去的位置。</html>"
+
+#~ msgid ""
+#~ "This tab contains changes that have not been submitted.\n"
+#~ "Detaching the tab will discard these changes."
+#~ msgstr ""
+#~ "這個分頁包含尚未送出的變更。\n"
+#~ "退出此分頁會放棄這些變更。"
+
+#~ msgid ""
+#~ "This view contains changes that have not been submitted.\n"
+#~ "Closing the view will discard these changes."
+#~ msgstr ""
+#~ "這個檢視包含尚未送出的變更。\n"
+#~ "關閉此檢視會放棄這些變更。"
+
+#~ msgid ""
+#~ "This tab contains changes that have not been submitted.\n"
+#~ "Closing the tab will discard these changes."
+#~ msgstr ""
+#~ "這個分頁包含尚未送出的變更。\n"
+#~ "關閉此分頁會放棄這些變更。"
+
+#~ msgid "Do you really want to close all other tabs?"
+#~ msgstr "您確定要關閉所有其他的分頁？"
+
+#~ msgid "Close Other Tabs Confirmation"
+#~ msgstr "關閉其他分頁確認"
+
+#~ msgid "Close &Other Tabs"
+#~ msgstr "關閉其他分頁(&O)"
+
+#~ msgid ""
+#~ "This tab contains changes that have not been submitted.\n"
+#~ "Closing other tabs will discard these changes."
+#~ msgstr ""
+#~ "這個分頁包含尚未送出的變更。\n"
+#~ "關閉其他分頁會放棄這些變更。"
+
+#~ msgid ""
+#~ "This tab contains changes that have not been submitted.\n"
+#~ "Reloading all tabs will discard these changes."
+#~ msgstr ""
+#~ "這個分頁包含尚未送出的變更。\n"
+#~ "重新載入所有分頁會放棄這些變更。"
+
+#~ msgid "Enter Target"
+#~ msgstr "輸入目標"
+
+#~ msgid "<qt><b>%1</b> is not valid</qt>"
+#~ msgstr "<qt><b>%1</b> 是無效的</qt>"
+
+#~ msgid "Copy selected files from %1 to:"
+#~ msgstr "從 %1 複製選擇的檔案至："
+
+#~ msgid "Move selected files from %1 to:"
+#~ msgstr "從 %1 移動選擇的檔案至："
+
+#~ msgctxt "This menu entry empties the closed items history"
+#~ msgid "Empty Closed Items History"
+#~ msgstr "清空關閉分頁的歷史紀錄"
+
+#~ msgid "Save As..."
+#~ msgstr "另存為..."
+
+#~ msgid "Manage..."
+#~ msgstr "管理..."
+
+#~ msgid "New &Window"
+#~ msgstr "新視窗(&W)"
+
+#~ msgid "&Duplicate Window"
+#~ msgstr "重複視窗(&D)"
+
+#~ msgid "Send &Link Address..."
+#~ msgstr "傳送連結位址(&L)..."
+
+#~ msgid "S&end File..."
+#~ msgstr "寄出檔案...(&E)"
+
+#~ msgid "&Open Location"
+#~ msgstr "開啟位置(&O)"
+
+#~ msgid "&Open File..."
+#~ msgstr "開啟檔案(&O)..."
+
+#~ msgid "&Find File..."
+#~ msgstr "尋找檔案(&F)..."
+
+#~ msgid "&Use index.html"
+#~ msgstr "使用首頁(&U)"
+
+#~ msgid "Lock to Current Location"
+#~ msgstr "鎖定目前位置"
+
+#~ msgctxt "This option links konqueror views"
+#~ msgid "Lin&k View"
+#~ msgstr "連結檢視(&K)"
+
+#~ msgid "&Up"
+#~ msgstr "上移(&U)"
+
+#~ msgid "Closed Items"
+#~ msgstr "已關閉項目"
+
+#~ msgid "Sessions"
+#~ msgstr "工作階段"
+
+#~ msgctxt "@action:inmenu Go"
+#~ msgid "Most Often Visited"
+#~ msgstr "最常去的站台"
+
+#~ msgctxt "@action:inmenu Go"
+#~ msgid "Recently Visited"
+#~ msgstr "最近去的站台"
+
+#~ msgctxt "@action:inmenu Go"
+#~ msgid "Show History"
+#~ msgstr "顯示歷史紀錄"
+
+#~ msgid "&Save View Profile As..."
+#~ msgstr "另存檢視設定檔(&S)..."
+
+#~ msgid "Configure Extensions..."
+#~ msgstr "設定延伸功能..."
+
+#~ msgid "Configure Spell Checking..."
+#~ msgstr "設定拼字檢查功能..."
+
+#~ msgid "Split View &Left/Right"
+#~ msgstr "分裂檢視 左/右(&L)"
+
+#~ msgid "Split View &Top/Bottom"
+#~ msgstr "分裂檢視 上/下(&T)"
+
+#~ msgid "&New Tab"
+#~ msgstr "新增分頁(&N)"
+
+#~ msgid "&Duplicate Current Tab"
+#~ msgstr "複製目前分頁(&D)"
+
+#~ msgid "Detach Current Tab"
+#~ msgstr "分離目前分頁"
+
+#~ msgid "&Close Active View"
+#~ msgstr "關閉作用中檢視(&C)"
+
+#~ msgid "Close Current Tab"
+#~ msgstr "關閉目前分頁"
+
+#~ msgid "Activate Next Tab"
+#~ msgstr "作用下個分頁"
+
+#~ msgid "Activate Previous Tab"
+#~ msgstr "作用上個分頁"
+
+#~ msgid "Activate Tab %1"
+#~ msgstr "作用分頁 %1"
+
+#~ msgid "Move Tab Left"
+#~ msgstr "移動分頁至左邊"
+
+#~ msgid "Move Tab Right"
+#~ msgstr "在右邊顯示分頁"
+
+#~ msgid "Dump Debug Info"
+#~ msgstr "轉儲除錯資訊"
+
+#~ msgid "C&onfigure View Profiles..."
+#~ msgstr "配置檢視設定(&O)..."
+
+#~ msgid "Load &View Profile"
+#~ msgstr "載入檢視設定檔(&V)"
+
+#~ msgid "&Reload"
+#~ msgstr "重新載入(&R)"
+
+#~ msgid "&Reload All Tabs"
+#~ msgstr "重新載入所有的分頁(&R)"
+
+#~ msgid "&Force Reload"
+#~ msgstr "強制重新載入(&F)"
+
+#~ msgid "&Stop"
+#~ msgstr "停止(&S)"
+
+#~ msgid "Throbber"
+#~ msgstr "動態瀏覽圖示"
+
+#~ msgid "L&ocation: "
+#~ msgstr "位置(&O)： "
+
+#~ msgid "Location Bar"
+#~ msgstr "位置工具列"
+
+#~ msgid ""
+#~ "<html>Location Bar<br /><br />Enter a web address or search term.</html>"
+#~ msgstr "<html>位址列<br /><br />輸入一個網址或者搜尋的項目</html>"
+
+#~ msgid "Clear Location Bar"
+#~ msgstr "清除位置列"
+
+#~ msgid ""
+#~ "<html>Clear Location bar<br /><br />Clears the contents of the location "
+#~ "bar.</html>"
+#~ msgstr "<html>清除位置列<br /><br />清除目前位置列中的內容。</html>"
+
+#~ msgid "&Bookmarks"
+#~ msgstr "書籤(&B)"
+
+#~ msgid "Kon&queror Introduction"
+#~ msgstr "Koqueror 征服家簡介(&Q)"
+
+#~ msgid "Go"
+#~ msgstr "移至"
+
+#~ msgid ""
+#~ "<html>Go<br /><br />Goes to the page that has been entered into the "
+#~ "location bar.</html>"
+#~ msgstr "<html>Go<br /><br />前往位址列已經輸入的位址</html>"
+
+#~ msgid ""
+#~ "<html>Enter the parent folder<br /><br />For instance, if the current "
+#~ "location is file:/home/%1 clicking this button will take you to file:/"
+#~ "home.</html>"
+#~ msgstr ""
+#~ "<html>進入父目錄<br /><br />例如，目前的位置是 file:/home/%1 按下此按鈕會"
+#~ "將您帶到 file:/home。</html>"
+
+#~ msgid "Enter the parent folder"
+#~ msgstr "進入母目錄"
+
+#~ msgid "Move backwards one step in the browsing history"
+#~ msgstr "向後移至瀏覽紀錄中的上一步"
+
+#~ msgid "Move forward one step in the browsing history"
+#~ msgstr "向前移至瀏覽紀錄中的下一步"
+
+#~ msgid "Move backwards one step in the closed tabs history"
+#~ msgstr "向後移至瀏覽已關閉分頁歷史紀錄中的上一步"
+
+#~ msgid ""
+#~ "<html>Reload the currently displayed document<br /><br />This may, for "
+#~ "example, be needed to refresh web pages that have been modified since "
+#~ "they were loaded, in order to make the changes visible.</html>"
+#~ msgstr ""
+#~ "<html>重新載入目前顯示的文件<br /><br />這個功能在已載入的網頁有所變更時可"
+#~ "用來更新網頁，如此才能讓變更顯現出來。</html>"
+
+#~ msgid "Reload the currently displayed document"
+#~ msgstr "重新載入目前顯示的文件"
+
+#~ msgid ""
+#~ "<html>Reload all currently displayed documents in tabs<br /><br />This "
+#~ "may, for example, be needed to refresh web pages that have been modified "
+#~ "since they were loaded, in order to make the changes visible.</html>"
+#~ msgstr ""
+#~ "<html>重新載入目前分頁中顯示的文件<br /><br />這個功能在已載入的網頁有所變"
+#~ "更時需要更新網頁，如此才能讓變更顯現出來。</html>"
+
+#~ msgid "Reload all currently displayed document in tabs"
+#~ msgstr "重新載入目前分頁顯示的文件"
+
+#~ msgid ""
+#~ "<html>Stop loading the document<br /><br />All network transfers will be "
+#~ "stopped and Konqueror will display the content that has been received so "
+#~ "far.</html>"
+#~ msgstr ""
+#~ "<html>停止載入文件<br /><br />所有網路的傳輸會被停止，而 Konqueror 則會顯"
+#~ "示到此時所接收到的內容。</html>"
+
+#~ msgid ""
+#~ "<html>Reload the currently displayed document<br /><br />This may, for "
+#~ "example, be needed to refresh web pages that have been modified since "
+#~ "they were loaded, in order to make the changes visible.  Any images on "
+#~ "the page are downloaded again, even if cached copies exist.</html>"
+#~ msgstr ""
+#~ "<html>重新載入目前顯示的文件<br /><br />這個功能在已載入的網頁有所變更時可"
+#~ "用來更新網頁，如此才能讓變更顯現出來。所有在網頁中的影像都會重新下載，即使"
+#~ "已經存在於快取中。</html>"
+
+#~ msgid ""
+#~ "Force a reload of the currently displayed document and any contained "
+#~ "images"
+#~ msgstr "強制重新載入目前分頁顯示的文件以及影像"
+
+#~ msgid "Stop loading the document"
+#~ msgstr "停止載入文件"
+
+#~ msgid ""
+#~ "<html>Cut the currently selected text or item(s) and move it to the "
+#~ "system clipboard<br /><br />This makes it available to the <b>Paste</b> "
+#~ "command in Konqueror and other KDE applications.</html>"
+#~ msgstr ""
+#~ "<html>剪下目前選取的文字或項目，並移至系統剪貼簿<br /><br />這樣就可以在 "
+#~ "Konqueror 和其他 KDE 應用程式中使用 <b>貼上</b> 命令。</html>"
+
+#~ msgid "Move the selected text or item(s) to the clipboard"
+#~ msgstr "移動已選取的文字或項目至剪貼簿"
+
+#~ msgid ""
+#~ "<html>Copy the currently selected text or item(s) to the system "
+#~ "clipboard<br /><br />This makes it available to the <b>Paste</b> command "
+#~ "in Konqueror and other KDE applications.</html>"
+#~ msgstr ""
+#~ "<html>複製目前選取的文字或項目至系統剪貼簿<br /><br />這樣就可以在 "
+#~ "Konqueror 和其他 KDE 應用程式中使用 <b>貼上</b> 命令。</html>"
+
+#~ msgid "Copy the selected text or item(s) to the clipboard"
+#~ msgstr "複製已選取的文字或項目至剪貼簿"
+
+#~ msgid ""
+#~ "<html>Paste the previously cut or copied clipboard contents<br /><br /"
+#~ ">This also works for text copied or cut from other KDE applications.</"
+#~ "html>"
+#~ msgstr ""
+#~ "<html>貼上先前已剪下或複製的剪貼簿內容<br /><br />此功能也可用於從其他 "
+#~ "KDE 應用程式複製或剪下的文字。</html>"
+
+#~ msgid "Paste the clipboard contents"
+#~ msgstr "貼上剪貼簿內容"
+
+#~ msgid ""
+#~ "<html>Print the currently displayed document<br /><br />You will be "
+#~ "presented with a dialog where you can set various options, such as the "
+#~ "number of copies to print and which printer to use.<br /><br />This "
+#~ "dialog also provides access to special KDE printing services such as "
+#~ "creating a PDF file from the current document.</html>"
+#~ msgstr ""
+#~ "<html>列印目前顯示的文件<br /><br />您會看到一個對話盒讓您可以設定各種選"
+#~ "項，如要印列的份數或要使用哪臺印表機。<br /><br />此對話盒也提供對特殊 "
+#~ "KDE 列印服務的存取，像是自目前的文件建立 PDF 檔案。</html>"
+
+#~ msgid "Print the current document"
+#~ msgstr "列印目前文件"
+
+#~ msgid "If present, open index.html when entering a folder."
+#~ msgstr "若目錄中存在 index.html，則在進入時開啟。"
+
+#~ msgid ""
+#~ "A locked view cannot change folders. Use in combination with 'link view' "
+#~ "to explore many files from one folder"
+#~ msgstr ""
+#~ "在鎖定的檢視下不能更改資料夾。請使用「連結檢視」以瀏覽資料夾中的多個檔案"
+
+#~ msgid ""
+#~ "Sets the view as 'linked'. A linked view follows folder changes made in "
+#~ "other linked views."
+#~ msgstr ""
+#~ "設定此檢視為 \"linked\"。一個連結的檢視將會因目錄其他連結檢視變更而跟著變"
+#~ "動。"
+
+#~ msgid "Copy &Files..."
+#~ msgstr "複製檔案(&F)..."
+
+#~ msgid "M&ove Files..."
+#~ msgstr "移動檔案(&O)..."
+
+#~ msgid ""
+#~ "You have requested to open more than 20 bookmarks in tabs. This might "
+#~ "take a while. Continue?"
+#~ msgstr "您要求在分頁中開啟廿個以上的書籤，這可能會花一點時間。要繼續嗎？"
+
+#~ msgid "Open bookmarks folder in new tabs"
+#~ msgstr "在新分頁中打開書籤資料夾"
+
+#~ msgid "Open in T&his Window"
+#~ msgstr "在這個視窗開啟(&H)"
+
+#~ msgid "Open the document in current window"
+#~ msgstr "在目前的的視窗開啟文件"
+
+#~ msgid "Open the document in a new window"
+#~ msgstr "開啟文件於新的視窗"
+
+#~ msgid "Open in &New Tab"
+#~ msgstr "在新分頁中開啟(&N)"
+
+#~ msgid "Open the document in a new tab"
+#~ msgstr "開啟文件於新的分頁"
+
+#~ msgid "&Open With"
+#~ msgstr "開啟方式(&O)"
+
+#~ msgid "Open with %1"
+#~ msgstr "以 %1 開啟"
+
+#~ msgctxt "@action:inmenu View"
+#~ msgid "&View Mode"
+#~ msgstr "檢視模式(&V)"
+
+#~ msgid ""
+#~ "You have multiple tabs open in this window, are you sure you want to quit?"
+#~ msgstr "您已經在這個視窗中開啟了多個分頁，你確定要關閉嗎？"
+
+#~ msgid "Confirmation"
+#~ msgstr "確定"
+
+#~ msgid "C&lose Current Tab"
+#~ msgstr "關閉目前的分頁(&L)"
+
+#~ msgid ""
+#~ "This tab contains changes that have not been submitted.\n"
+#~ "Closing the window will discard these changes."
+#~ msgstr ""
+#~ "這個分頁包含尚未送出的變更。\n"
+#~ "關閉此視窗會放棄這些變更。"
+
+#~ msgid ""
+#~ "This page contains changes that have not been submitted.\n"
+#~ "Closing the window will discard these changes."
+#~ msgstr ""
+#~ "這個分頁包含尚未送出的變更。\n"
+#~ "關閉此視窗會放棄這些變更。"
+
+#~ msgid ""
+#~ "Your sidebar is not functional or unavailable. A new entry cannot be "
+#~ "added."
+#~ msgstr "無法增加新的項目。你的 sidebar 沒有這樣的作用。"
+
+#~ msgid "Web Sidebar"
+#~ msgstr "Web 邊列工具列"
+
+#~ msgid "Add new web extension \"%1\" to your sidebar?"
+#~ msgstr "增加瀏覽新的部份 \"%1\" 到你的邊列工具列?"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Do Not Add"
+#~ msgstr "不要加入"
+
+#~ msgid ""
+#~ "There appears to be a configuration error. You have associated Konqueror "
+#~ "with %1, but it cannot handle this file type."
+#~ msgstr "設定有誤。您設定用 Konqueror 來檢視 %1，但它無法處理此類型的檔案。"
+
+#~ msgid "Profile Management"
+#~ msgstr "設定檔管理員"
+
+#~ msgid "&Rename Profile"
+#~ msgstr "重新命名設定檔(&R)"
+
+#~ msgid "&Delete Profile"
+#~ msgstr "刪除設定檔(&D)"
+
+#~ msgid "Manage Sessions"
+#~ msgstr "管理工作階段"
+
+#~ msgid "&Open"
+#~ msgstr "開啟(&O)"
+
+#~ msgid "Rename Session"
+#~ msgstr "重新命名工作階段"
+
+#~ msgid "Save Session"
+#~ msgstr "儲存工作階段"
+
+#~ msgid ""
+#~ "A session with the name '%1' already exists, do you want to overwrite it?"
+#~ msgstr "名為 %1 的工作階段已存在。您要覆寫它嗎？"
+
+#~ msgid "Session exists. Overwrite?"
+#~ msgstr "工作階段已存在，要覆寫嗎？"
+
+#~ msgid ""
+#~ "Konqueror did not close correctly. Would you like to restore the previous "
+#~ "session?"
+#~ msgstr "Konqueror 並未正確關閉。您要回復先前的工作階段嗎？"
+
+#~ msgid "Restore Session?"
+#~ msgstr "回復工作階段？"
+
+#~ msgid "Restore Session"
+#~ msgstr "回復工作階段"
+
+#~ msgid "Do Not Restore"
+#~ msgstr "不要回復"
+
+#~ msgid "Ask Me Later"
+#~ msgstr "稍後問我"
+
+#~ msgid ""
+#~ "This bar contains the list of currently open tabs. Click on a tab to make "
+#~ "it active. You can also use keyboard shortcuts to navigate through tabs. "
+#~ "The text on the tab shows the content currently open in it; place your "
+#~ "mouse over the tab to see the full title, in case it has been shortened "
+#~ "to fit the tab width."
+#~ msgstr ""
+#~ "這一列包含目前開啟的分頁清單。按下分頁可使它成為作用中。您也可以使用快捷鍵"
+#~ "來瀏覽各分頁。在分頁上的文字顯示目前所開啟的網站的內容  ，由於它會被截短以符合分頁大小，您可以把滑鼠移至分頁上來檢視完整的標題。"
+
+#~ msgid "Open a new tab"
+#~ msgstr "開啟一個新分頁"
+
+#~ msgid "Close the current tab"
+#~ msgstr "關閉目前的分頁"
+
+#~ msgid "&Duplicate Tab"
+#~ msgstr "複製分頁(&D)"
+
+#~ msgid "&Reload Tab"
+#~ msgstr "重新載入分頁(&R)"
+
+#~ msgid "Other Tabs"
+#~ msgstr "其他分頁"
+
+#~ msgid "D&etach Tab"
+#~ msgstr "分離分頁(&E)"
+
+#~ msgid "&Close Tab"
+#~ msgstr "關閉分頁(&C)"
+
+#~ msgid "Und&o: Closed Tab"
+#~ msgstr "復原：關閉分頁(&O)"
+
+#~ msgid "Und&o: Closed Window"
+#~ msgstr "復原：關閉視窗(&O)"
+
+#~ msgid "Und&o"
+#~ msgstr "復原(&O)"
+
+#~ msgid ""
+#~ "The page you are trying to view is the result of posted form data. If you "
+#~ "resend the data, any action the form carried out (such as search or "
+#~ "online purchase) will be repeated. "
+#~ msgstr ""
+#~ "您嘗試檢視的網頁是送出表單資料的結果。如果您重新送出資料，此 表單所進行的"
+#~ "任何動作（像是搜尋或線上購物）都會重覆一次。"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid "Resend"
+#~ msgstr "重新送出"
+
+#~ msgid ""
+#~ "You have multiple tabs open in this window.\n"
+#~ "Loading a view profile will close them."
+#~ msgstr ""
+#~ "您已經在這個視窗中開啟了多個分頁。\n"
+#~ "載入檢視設定檔會關閉它們。"
+
+#~ msgid "Load View Profile"
+#~ msgstr "載入檢視設定檔"
+
+#~ msgid ""
+#~ "This tab contains changes that have not been submitted.\n"
+#~ "Loading a profile will discard these changes."
+#~ msgstr ""
+#~ "這個分頁包含尚未送出的變更。\n"
+#~ "載入設定檔會放棄這些變更。"
+
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "History Sidebar Module"
+#~ msgstr "網頁邊列模組"
+
+#~ msgctxt "@title:tab"
+#~ msgid "History"
+#~ msgstr "歷史紀錄"
+
+#~ msgid " day"
+#~ msgid_plural " days"
+#~ msgstr[0] " 天"
+
+#~ msgid "Minute"
+#~ msgid_plural "Minutes"
+#~ msgstr[0] "分鐘"
+
+#~ msgid "Day"
+#~ msgid_plural "Days"
+#~ msgstr[0] "天"
+
+#~ msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
+#~ msgstr "<h1>紀錄邊列</h1>您可以在這裡設定紀錄邊列。"
+
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "Places Sidebar Module"
+#~ msgstr "地方邊列模組"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Places"
+#~ msgstr "地方"
+
+#~ msgid "Extended Sidebar"
+#~ msgstr "展出邊列工具列"
+
+#~ msgid "Rollback to System Default"
+#~ msgstr "回到系統預設值"
+
+#~ msgid "Configure Sidebar"
+#~ msgstr "設定邊列工具"
+
+#~ msgid "Add New"
+#~ msgstr "新增"
+
+#~ msgid "Multiple Views"
+#~ msgstr "多重檢視"
+
+#~ msgid "Show Tabs Left"
+#~ msgstr "在左邊顯示分頁"
+
+#~ msgid "Show Configuration Button"
+#~ msgstr "顯示設定按鈕"
+
+#~ msgid "Close Sidebar"
+#~ msgstr "關閉邊列"
+
+#~ msgid "This entry already exists."
+#~ msgstr "這個項目已經存在"
+
+#~ msgid ""
+#~ "<qt>This removes all your entries from the sidebar and adds the system "
+#~ "default ones.<br /><b>This procedure is irreversible</b><br />Do you want "
+#~ "to proceed?</qt>"
+#~ msgstr ""
+#~ "<qt>這會將所有您的項目自邊列移除，並且加上系統的預設項目。<br /><B>這個程"
+#~ "序是不能反悔的</B><BR />您是否要繼續執行？</qt>"
+
+#~ msgid "Show Tabs Right"
+#~ msgstr "在右邊顯示分頁"
+
+#~ msgid "Set Name"
+#~ msgstr "設定名稱"
+
+#~ msgid "Enter the name:"
+#~ msgstr "輸入名稱："
+
+#~ msgid "Enter a URL:"
+#~ msgstr "輸入網址："
+
+#~ msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+#~ msgstr "<qt>您確定要移除<b>%1</b>分頁嗎？</qt>"
+
+#~ msgid ""
+#~ "You have hidden the sidebar configuration button. To make it visible "
+#~ "again, click the right mouse button on any of the sidebar buttons and "
+#~ "select \"Show Configuration Button\"."
+#~ msgstr ""
+#~ "您已經隱藏邊列設定按鈕。要讓它再次出現，在邊列的任何部分 單擊滑鼠右鍵並選"
+#~ "擇“顯示設定按鈕”。"
+
+#~ msgid "Set Name..."
+#~ msgstr "設定名稱..."
+
+#~ msgid "Set URL..."
+#~ msgstr "設定網址..."
+
+#~ msgid "Set Icon..."
+#~ msgstr "設定圖示..."
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Web module"
+#~ msgstr "網頁模組"
+
+#~ msgid "&Create New Folder"
+#~ msgstr "建立新的資料夾(&C)"
+
+#~ msgid "Delete Folder"
+#~ msgstr "刪除資料夾"
+
+#~ msgid "Delete Bookmark"
+#~ msgstr "刪除書籤"
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "Open in New Window"
+#~ msgstr "打開新的視窗"
+
+#~ msgid "Open Folder in Tabs"
+#~ msgstr "在分頁中打開資料夾"
+
+#~ msgid "Copy Link Address"
+#~ msgstr "複製連結位址"
+
+#~ msgid ""
+#~ "Are you sure you wish to remove the bookmark folder\n"
+#~ "\"%1\"?"
+#~ msgstr ""
+#~ "您是否確定想要移除此書籤資料夾\n"
+#~ "「%1」？"
+
+#~ msgid ""
+#~ "Are you sure you wish to remove the bookmark\n"
+#~ "\"%1\"?"
+#~ msgstr ""
+#~ "您是否確定想要移除此書籤\n"
+#~ "「%1」？"
+
+#~ msgid "Bookmark Folder Deletion"
+#~ msgstr "書籤資料夾刪除動作"
+
+#~ msgid "Bookmark Deletion"
+#~ msgstr "書籤刪除動作"
+
+#~ msgid "Bookmark Properties"
+#~ msgstr "書籤屬性"
+
+#~ msgid "&Update"
+#~ msgstr "更新(&U)"
+
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgid "Location:"
+#~ msgstr "位置："
+
+#~ msgid "Add Bookmark"
+#~ msgstr "加入書籤"
+
+#~ msgid "Cannot find parent item %1 in the tree. Internal error."
+#~ msgstr "無法找樹狀結構的上層項目 %1。內部錯誤。"
+
+#~ msgid "&Create New Folder..."
+#~ msgstr "建立新資料夾(&C)..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "移到資源回收桶"
+
+#~ msgid "Rename"
+#~ msgstr "重新命名"
+
+#~ msgid "Delete Link"
+#~ msgstr "刪除連結"
+
+#~ msgid "New Folder"
+#~ msgstr "新增資料夾"
+
+#~ msgid "Create New Folder"
+#~ msgstr "建立新的資料夾"
+
+#~ msgid "Enter folder name:"
+#~ msgstr "輸入資料夾的名稱："
+
+#~ msgctxt "@label"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgctxt "@label"
+#~ msgid "Path or URL:"
+#~ msgstr "路徑或網址："
+
+#~ msgctxt "@title:window"
+#~ msgid "Add folder sidebar module"
+#~ msgstr "新增資料夾邊列模組"
+
+#~ msgid "&Open Link"
+#~ msgstr "打開連結(&O)"
+
+#~ msgid "Set &Automatic Reload"
+#~ msgstr "設定自動重新載入(&A)"
+
+#~ msgid "Set Refresh Timeout (0 disables)"
+#~ msgstr "設定重新更新時限 (0 為停用)"
+
+#~ msgid " min"
+#~ msgstr " 分"
+
+#~ msgid " sec"
+#~ msgstr " 秒"
+
+#~ msgctxt "@action:inmenu Add"
+#~ msgid "Web Sidebar Module"
+#~ msgstr "網頁邊列模組"
+
+#~ msgctxt "@title:window"
+#~ msgid "Add web sidebar module"
+#~ msgstr "新增網頁邊列模組"
+
+#~ msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
+#~ msgid "Be free."
+#~ msgstr "擁抱自由！"
+
+#~ msgid ""
+#~ "Konqueror is a web browser, file manager and universal document viewer."
+#~ msgstr "Konqueror 是您的檔案管理程式、網頁瀏覽器及通用文件檢視器。"
+
+#~ msgctxt ""
+#~ "Link that points to the first page of the Konqueror 'about page', "
+#~ "Starting Points contains links to Home, Network Folders, Trash, etc."
+#~ msgid "Starting Points"
+#~ msgstr "起始點"
+
+#~ msgid "Introduction"
+#~ msgstr "簡介"
+
+#~ msgid "Tips"
+#~ msgstr "密訣"
+
+#~ msgid "Specifications"
+#~ msgstr "規格"
+
+#~ msgid "Your personal files"
+#~ msgstr "您的個人檔案"
+
+#~ msgid "Trash"
+#~ msgstr "資源回收桶"
+
+#~ msgid "Browse and restore the trash"
+#~ msgstr "瀏覽並回復資源回收桶"
+
+#~ msgid "Network Folders"
+#~ msgstr "網路資料夾"
+
+#~ msgid "Shared files and folders"
+#~ msgstr "分享的檔案與資料夾"
+
+#~ msgid "Bookmarks"
+#~ msgstr "書籤"
+
+#~ msgid "Quick access to your bookmarks"
+#~ msgstr "快速存取您的書籤"
+
+#~ msgid "Next: An Introduction to Konqueror"
+#~ msgstr "下一步：Konqueror 介紹"
+
+#~ msgid "Search the Web"
+#~ msgstr "搜尋網頁"
+
+#~ msgid ""
+#~ "Konqueror makes working with and managing your files easy. You can browse "
+#~ "both local and networked folders while enjoying advanced features such as "
+#~ "the powerful sidebar and file previews."
+#~ msgstr ""
+#~ "Konqueror 讓工作與管理您的檔案變得容易。您可以在瀏覽本地端與網路資料夾的同"
+#~ "時享受像多功能的邊列與檔案預覽這類進階的功能。"
+
+#~ msgid ""
+#~ "Konqueror is also a full featured and easy to use web browser which you "
+#~ "can use to explore the Internet. Enter the address (e.g. <a href=\"http://"
+#~ "www.kde.org\">http://www.kde.org</a>) of a web page you would like to "
+#~ "visit in the location bar and press Enter, or choose an entry from the "
+#~ "Bookmarks menu."
+#~ msgstr ""
+#~ "Konqueror 也是功能完整且易於使用的網頁瀏覽器，可供您瀏覽網際網路。只要在位"
+#~ "址列輸入您要瀏覽的網路位址（例如 <a href=\"http://www.kde.org\">http://"
+#~ "www.kde.org</a>）並按下 Enter 鍵，或從您的書籤選單中選擇一個項目。"
+
+#~ msgid ""
+#~ "To return to the previous location, press the back button <img width='16' "
+#~ "height='16' src=\"%1\"></img> in the toolbar. "
+#~ msgstr ""
+#~ "如果您要回到前一個位置，可按下工具列上的「上一頁」按鈕  <img width='16' "
+#~ "height='16' src=\"%1\"></img>。"
+
+#~ msgid ""
+#~ "To quickly go to your Home folder press the  home button <img width='16' "
+#~ "height='16' src=\"%1\"></img>."
+#~ msgstr ""
+#~ "如果您要快速移至家目錄，可按下工具列上的「家」按鈕  <img width='16' "
+#~ "height='16' src=\"%1\"></img>。"
+
+#~ msgid ""
+#~ "For more detailed documentation on Konqueror click <a href=\"%1\">here</"
+#~ "a>."
+#~ msgstr "按下 <a href=\"%1\">這裡</a>可以取得 Konqueror 的詳細文件。"
+
+#~ msgid ""
+#~ "<em>Tuning Tip:</em> If you want the Konqueror web browser to start "
+#~ "faster, you can turn off this information screen by clicking <a href="
+#~ "\"%1\">here</a>. You can re-enable it by choosing the Help -> Konqueror "
+#~ "Introduction menu option, and then pressing Settings -> Save View Profile "
+#~ "As... -> \"Web Browsing\"."
+#~ msgstr ""
+#~ "<em>微調小密訣：</em> 如果您希望讓 Konqueror 瀏覽器啟動更快些，您可以單擊 "
+#~ "<a href=\"%1\">這裡</a> 來關閉這個訊息畫面。您也可以經由選擇「說明」"
+#~ "─「Konqueror 征服家簡介」來重新開啟它，並且從「設定」─「另存檢視設定檔」"
+#~ "─「網頁瀏覽」來儲存。"
+
+#~ msgid "Next: Tips &amp; Tricks"
+#~ msgstr "下一個：密訣 &amp; 訣竅"
+
+#~ msgid ""
+#~ "Konqueror is designed to embrace and support Internet standards. The aim "
+#~ "is to fully implement the officially sanctioned standards from "
+#~ "organizations such as the W3 and OASIS, while also adding extra support "
+#~ "for other common usability features that arise as de facto standards "
+#~ "across the Internet. Along with this support, for such functions as "
+#~ "favicons, Web Shortcuts, and <A HREF=\"%1\">XBEL bookmarks</A>, Konqueror "
+#~ "also implements:"
+#~ msgstr ""
+#~ "Konqueror 征服家支援網際網路的標準，目標是完整的實作由國際組織如 W3 與 "
+#~ "OASIS 等所認可的正式標準。同時也額外加入了其它常見而有用的網際網路業界標準"
+#~ "(de facto standards)。此外，Konqueror 也支援 favicons、網頁捷徑以及 <A "
+#~ "HREF=\"%1\">XBEL 書籤</A> 等的功能， Konqueror 也實作了："
+
+#~ msgid "Supported standards"
+#~ msgstr "支援的標準"
+
+#~ msgid "Additional requirements*"
+#~ msgstr "額外的需求*"
+
+#~ msgid ""
+#~ "<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF="
+#~ "\"%2\">HTML 4.01</A>"
+#~ msgstr ""
+#~ "<A HREF=\"%1\">DOM</A> (Level 1， 部分 Level 2) 基於 <A HREF=\"%2\">HTML "
+#~ "4.01</A>"
+
+#~ msgid "built-in"
+#~ msgstr "內建"
+
+#~ msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
+#~ msgstr "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1， 部分 CSS 2)"
+
+#~ msgid ""
+#~ "<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)"
+#~ msgstr "<A HREF=\"%1\">ECMA-262</A> 版本 3 (大約等於 Javascript 1.5)"
+
+#~ msgid ""
+#~ "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
+#~ msgstr "Javascript 已被停用（全域）。在<A HREF=\"%1\">這邊</A>可以啟動。"
+
+#~ msgid ""
+#~ "JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\"
+#~ "\">here</A>."
+#~ msgstr ""
+#~ "Javascript 已被啟用（全域）。在<A HREF=\\\"%1\\\">這邊</A>可以設定。"
+
+#~ msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
+#~ msgstr "安全的 <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> 支援"
+
+#~ msgid ""
+#~ "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">IBM</A> or <A HREF="
+#~ "\"%2\">Sun/Oracle</A>)"
+#~ msgstr ""
+#~ "JDK 1.2.0 (Java 2) 相容虛擬機器 (<A HREF=\"%1\">IBM</A> 或 <A HREF="
+#~ "\"%2\">Sun/Oracle</A>)"
+
+#~ msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
+#~ msgstr "在<A HREF=\"%1\">這邊</A>啟用 Java （全域）。"
+
+#~ msgid ""
+#~ "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
+#~ "viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF="
+#~ "\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</"
+#~ "SUP></A>Video, etc.)"
+#~ msgstr ""
+#~ "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">外掛程式</A> (用於檢"
+#~ "視<A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>， <A HREF=\"%2\">Real<SUP>&reg;"
+#~ "</SUP></A>Audio， <A HREF=\"%3\">Real<SUP>&reg;</SUP></A>Video， etc.)"
+
+#~ msgid "Secure Sockets Layer"
+#~ msgstr "Secure Sockets Layer"
+
+#~ msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
+#~ msgstr "(TLS/SSL v2/3) 用於高到 168 位元的安全通訊"
+
+#~ msgid "OpenSSL"
+#~ msgstr "OpenSSL"
+
+#~ msgid "Bidirectional 16bit unicode support"
+#~ msgstr "雙向 16 位元 unicode 支援"
+
+#~ msgid "AutoCompletion for forms"
+#~ msgstr "自動補齊表單"
+
+#~ msgctxt "Title of an html 'group box' explaining konqueror features"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Feature"
+#~ msgstr "特徵"
+
+#~ msgid "Details"
+#~ msgstr "詳細資料"
+
+#~ msgid "Image formats"
+#~ msgstr "影像格式"
+
+#~ msgid "PNG<br />JPG<br />GIF"
+#~ msgstr "PNG<br />JPG<br />GIF"
+
+#~ msgid "Transfer protocols"
+#~ msgstr "傳輸協定"
+
+#~ msgid "HTTP 1.1 (including gzip/bzip2 compression)"
+#~ msgstr "HTTP 1.1 （包含zip/bzip2 壓縮)"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "and <A HREF=\"%1\">many more (see Kioslaves in KHelpcenter)...</A>"
+#~ msgstr ""
+#~ "以及 <A HREF=\"%1\">更多其他的（請參考 KDE 說明中心裡關於 Kioslaves 的說"
+#~ "明）...</A>"
+
+#~ msgctxt "A feature of Konqueror"
+#~ msgid "URL-Completion"
+#~ msgstr "網址補完"
+
+#~ msgid "Manual"
+#~ msgstr "手動"
+
+#~ msgid "Popup"
+#~ msgstr "彈出"
+
+#~ msgid "(Short-) Automatic"
+#~ msgstr "(短-) 自動"
+
+#~ msgctxt ""
+#~ "Link that points to the first page of the Konqueror 'about page', "
+#~ "Starting Points contains links to Home, Network Folders, Trash, etc."
+#~ msgid "<a href=\"%1\">Return to Starting Points</a>"
+#~ msgstr "<a href=\"%1\">返回起始點</a>"
+
+#~ msgid "Tips &amp; Tricks"
+#~ msgstr "密訣 &amp; 訣竅"
+
+#~ msgid ""
+#~ "Use Web-Shortcuts: by typing \"gg: KDE\" one can search the Internet, "
+#~ "using Google, for the search phrase \"KDE\". There are a lot of Web-"
+#~ "Shortcuts predefined to make searching for software or looking up certain "
+#~ "words in an encyclopedia a breeze. You can even <a href=\"%1\">create "
+#~ "your own</a> Web-Shortcuts."
+#~ msgstr ""
+#~ "使用網頁捷徑：輸入「gg: KDE」可以使用 google 在網際網路找尋「KDE」一詞。目"
+#~ "前有許多預先定義的網頁捷徑可以找到某些關鍵字。而且您也可以 <a href=\"%1\">"
+#~ "建立您自己的</a> 網頁捷徑。"
+
+#~ msgid ""
+#~ "Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in "
+#~ "the HTML toolbar to increase the font size on your web page."
+#~ msgstr ""
+#~ "使用 HTML 工具列中的放大鏡按鈕 <img width='16' height='16' src=\"%1\"></"
+#~ "img>來增加網頁的字型大小。"
+
+#~ msgid ""
+#~ "When you want to paste a new address into the Location toolbar you might "
+#~ "want to clear the current entry by pressing the black arrow with the "
+#~ "white cross <img width='16' height='16' src=\"%1\"></img> in the toolbar."
+#~ msgstr ""
+#~ "當您要貼上新的位址到位置工具列，您可藉由按下工具列中的這個黑箭頭與白十字 "
+#~ "<img width='16' height='16' src=\"%1\"></img> 來清除目前的內容。"
+
+#~ msgid ""
+#~ "To create a link on your desktop pointing to the current page, simply "
+#~ "drag the icon (favicon) that is to the left of the Location toolbar, drop "
+#~ "it on to the desktop, and choose \"Icon\"."
+#~ msgstr ""
+#~ "希望把目前瀏覽的網頁連結位址放置到您桌面上，只要用滑鼠按住位置工具列左邊的"
+#~ "小圖示，然後拖曳到桌面上放開，然後選擇「圖示」就可以完成了。"
+
+#~ msgid ""
+#~ "You can also find <img width='16' height='16' src=\"%1\" /> \"Full-Screen "
+#~ "Mode\" in the Settings menu. This feature is very useful for \"Talk\" "
+#~ "sessions."
+#~ msgstr ""
+#~ "您也可以在設定選單找到 <img width='16' height='16' src=\"%1\">「全螢幕模"
+#~ "式」。對於常上「聊天室」的人是很有用的。"
+
+#~ msgid ""
+#~ "Divide et impera (lat. \"Divide and conquer\") - by splitting a window "
+#~ "into two parts (e.g. Window -> <img width='16' height='16' src=\"%1\" /> "
+#~ "Split View Left/Right) you can make Konqueror appear the way you like. "
+#~ "You can even load some example view-profiles (e.g. Midnight Commander), "
+#~ "or create your own ones."
+#~ msgstr ""
+#~ "分割並控制 - 分割視窗成二個區域（例如：視窗 -> <img width='16' "
+#~ "height='16' src=\"%1\"> 分割檢視左/右）您可以讓 Konqueror 變成您希望的樣"
+#~ "子。您甚至可以載入一些範例設定（如 Midnight Commander），或者自己建立。"
+
+#~ msgid ""
+#~ "Use the <a href=\"%1\">user-agent</a> feature if the website you are "
+#~ "visiting asks you to use a different browser (and do not forget to send a "
+#~ "complaint to the webmaster!)"
+#~ msgstr ""
+#~ "如果網站要求您使用其他的瀏覽器，請使用 <a href=\"%1\">使用者代理</a> 功能"
+#~ "（別忘了向他們抱怨！）"
+
+#~ msgid ""
+#~ "The <img width='16' height='16' src=\"%1\"></img> History in your Sidebar "
+#~ "ensures that you can keep track of the pages you have visited recently."
+#~ msgstr ""
+#~ "在邊列上的 <img width='16' height='16' src=\"%1\"></img> 紀錄，可以讓您追"
+#~ "蹤最近所瀏覽過的網頁。"
+
+#~ msgid ""
+#~ "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet "
+#~ "connection."
+#~ msgstr "使用快取 <a href=\"%1\">代理伺服器</a> 來加速您的網路連線。"
+
+#~ msgid ""
+#~ "Advanced users will appreciate the Konsole which you can embed into "
+#~ "Konqueror (Settings -> <img width='16' height='16' SRC=\"%1\"></img> Show "
+#~ "Terminal Emulator)."
+#~ msgstr ""
+#~ "進階的使用者會很高興能把 Konsole 嵌入 Konqueror（設定 -> <img width='16' "
+#~ "height='16' SRC=\"%1\"></img> 顯示終端機模擬）。"
+
+#~ msgid "Next: Specifications"
+#~ msgstr "下一步：規格"
+
+#~ msgid "Installed Plugins"
+#~ msgstr "已安裝的外掛"
+
+#~ msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
+#~ msgstr "<td>外掛</td><td>描述</td><td>檔案</td><td>Types</td>"
+
+#~ msgid "Installed"
+#~ msgstr "已安裝"
+
+#~ msgid ""
+#~ "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
+#~ msgstr "<td>Mime Type</td><td>描述</td><td>字尾</td><td>外掛</td>"
+
+#~ msgid ""
+#~ "Do you want to disable showing the introduction in the webbrowsing "
+#~ "profile?"
+#~ msgstr "您想關閉瀏覽設定簡介的顯示嗎？"
+
+#~ msgid "Faster Startup?"
+#~ msgstr "更快速的啟動？"
+
+#~ msgid "Disable"
+#~ msgstr "停用"
+
+#~ msgid "Keep"
+#~ msgstr "保留"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr ""
+#~ "薛景中,黃志偉,李爵樺,ChaoHsiung Liao,陳柏超, Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr ""
+#~ "shyue@sonoma.com.tw,cwhuang@linux.org.tw,kenduest@i18n.linux.org.tw,"
+#~ "pesder.liao@msa.hinet.net,b8802046@mail.ntust.edu.tw, franklin at "
+#~ "goodhorse dot idv dot tw"
+
+#~ msgid "&File"
+#~ msgstr "檔案(&F)"
+
+#~ msgid "&Edit"
+#~ msgstr "編輯(&E)"
+
+#~ msgid "&View"
+#~ msgstr "檢視(&V)"
+
+#~ msgid "&Go"
+#~ msgstr "移至(&G)"
+
+#~ msgid "&Settings"
+#~ msgstr "設定(&S)"
+
+#~ msgid "&Window"
+#~ msgstr "視窗(&W)"
+
+#~ msgid "&Help"
+#~ msgstr "說明(&H)"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具列"
+
+#~ msgid "Extra Toolbar"
+#~ msgstr "額外工具列"
+
+#~ msgid "Location Toolbar"
+#~ msgstr "位置工具列"
+
+#~ msgid "Bookmark Toolbar"
+#~ msgstr "書籤工具列"
+
+#~ msgid "Save open tabs and windows for easy retrieval"
+#~ msgstr "儲存已開啟的分頁與視窗，以便更容易回復"
+
+#~ msgid "&Session name:"
+#~ msgstr "工作階段名稱(&S)："
+
+#~ msgid "&Profile name:"
+#~ msgstr "設定檔名稱(&P)："
+
+#~ msgid "Save &URLs in profile"
+#~ msgstr "儲存網址至設定檔(&U)"
+
+#~ msgctxt "@action:button New session"
+#~ msgid "New..."
+#~ msgstr "新增..."
+
+#~ msgctxt "@action:button Save current session"
+#~ msgid "Save Current"
+#~ msgstr "儲存目前的"
+
+#~ msgctxt "@action:button Rename session"
+#~ msgid "Rename..."
+#~ msgstr "重新命名..."
+
+#~ msgctxt "@action:button Delete session"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Open tabs inside current window"
+#~ msgstr "在目前的的視窗開啟分頁"
+
+#~ msgid "Limits"
+#~ msgstr "限制"
+
+#~ msgid "URLs e&xpire after"
+#~ msgstr "網址過期時間(&X)"
+
+#~ msgid "Maximum &number of URLs:"
+#~ msgstr "網址最大數量(&N)："
+
+#~ msgid "Custom Fonts For"
+#~ msgstr "自訂字型給"
+
+#~ msgid "URLs newer than"
+#~ msgstr "網址新於"
+
+#~ msgid "Choose Font..."
+#~ msgstr "選擇字型..."
+
+#~ msgid "URLs older than"
+#~ msgstr "網址舊於"
+
+#~ msgid ""
+#~ "Shows the number of times visited and the dates of the first and last "
+#~ "visits, in addition to the URL"
+#~ msgstr "除了網址外同時顯示您光臨的次數與第一次與最近一次光臨的日期"
+
+#~ msgid "Detailed tooltips"
+#~ msgstr "詳細的工具提示"
+
+#~ msgid "Clear History"
+#~ msgstr "清除瀏覽紀錄"
+
+#~ msgid ""
+#~ "This is the URL of the web page where Konqueror (as web browser) will "
+#~ "jump to when the \\\"Home\\\" button is pressed. When Konqueror is "
+#~ "started as a file manager, that button makes it jump to your local home "
+#~ "folder instead."
+#~ msgstr ""
+#~ "這是 Konqueror 做網頁瀏覽器時，按下「首頁」按鈕會前往的網址。做為檔案管理"
+#~ "員時，按下首頁鍵則會跳到您的家目錄。"
+
+#~ msgid "Maximum number of Closed Items"
+#~ msgstr "關閉項目的最大數量"
+
+#~ msgid ""
+#~ "This sets the maximum number of closed items that will be stored in "
+#~ "memory. This limit will not be surpassed."
+#~ msgstr "這個值設定會儲存在記憶體中的關閉項目的最大數量。此限制不能被超越。"
+
+#~ msgid "Open folders in separate windows"
+#~ msgstr "在不同的視窗中開啟資料夾"
+
+#~ msgid ""
+#~ "If this option is checked, Konqueror will open a new window when you open "
+#~ "a folder, rather than showing that folder's contents in the current "
+#~ "window."
+#~ msgstr "若勾選此選項，Konqueror 會在新視窗中開啟資料夾。"
+
+#~ msgid "Show file tips"
+#~ msgstr "顯示檔案提示"
+
+#~ msgid ""
+#~ "Here you can control if, when moving the mouse over a file, you want to "
+#~ "see a small popup window with additional information about that file"
+#~ msgstr ""
+#~ "選擇此選項時，將滑鼠移到檔案的上方，會顯示出關於此檔案的一些額外資訊。"
+
+#~ msgid "Show previews in file tips"
+#~ msgstr "在檔案提示中顯示預覽"
+
+#~ msgid ""
+#~ "Here you can control if you want the popup window to contain a larger "
+#~ "preview for the file, when moving the mouse over it"
+#~ msgstr "選擇此選項時，將滑鼠移到檔案的上方，會顯示出此檔案的預覽。"
+
+#~ msgid "Show 'Delete' menu entries which bypass the trashcan"
+#~ msgstr "在選單中顯示「刪除」，將物件移到資源回收筒"
+
+#~ msgid ""
+#~ "Check this if you want 'Delete' menu commands to be displayed on the "
+#~ "desktop and in the file manager's menus and context menus. You can always "
+#~ "delete files when hidden by holding the Shift key while calling 'Move to "
+#~ "Trash'."
+#~ msgstr ""
+#~ "取消此選項，則不會在桌面、檔案管理員與內文選單中顯示「刪除」。不過，即使沒"
+#~ "有「刪除」選項，您還是可以將物件移到資源回收筒的同時按住 Shift 鍵表示直接"
+#~ "刪除。"
+
+#~ msgid "Number of Open With items in the File menu"
+#~ msgstr "在檔案選單中的「開啟方式」項目數"
+
+#~ msgid "Standard font"
+#~ msgstr "標準字型"
+
+#~ msgid "This is the font used to display text in Konqueror windows."
+#~ msgstr "在 Konqueror 視窗中顯示文字用的字型。"
+
+#~ msgid "Maximum number of history items per view"
+#~ msgstr "每個檢視的最多歷史檢視項目數"
+
+#~ msgid "Ask confirmation for deleting a file."
+#~ msgstr "刪除檔案前先詢問以確認。"
+
+#~ msgid ""
+#~ "This option tells Konqueror whether to ask for a confirmation when you "
+#~ "delete a file without using the trash folder. Warning, deleted files can "
+#~ "not be recovered, so it is recommended to leave this confirmation enabled."
+#~ msgstr ""
+#~ "勾選此選項的話，當您刪除一個檔案而非移到資源回收筒時，Konqueror 會先詢問您"
+#~ "以確認。不過要警告您，被刪除的檔案無法被回復，因此建議將此選項保持開啟。"
+
+#~ msgid "Ask confirmation for move to trash"
+#~ msgstr "移到資源回收筒前先詢問以確認"
+
+#~ msgid ""
+#~ "This option tells Konqueror whether to ask for a confirmation when you "
+#~ "move the file to your trash folder, from where it can be recovered very "
+#~ "easily."
+#~ msgstr ""
+#~ "勾選此選項的話，當您將檔案移到資源回收筒時，Konqueror 會先詢問您以確認。"
+
+#~ msgid ""
+#~ "If true, when opening a session from within the sessions dialog the tabs "
+#~ "will be opened inside current window."
+#~ msgstr ""
+#~ "若此選項為真，則在工作階段對話框內開啟工作階段，會在目前的視窗中開啟。"
+
+#~ msgid "Hide %1"
+#~ msgstr "隱藏 %1"
+
+#~ msgid "SideBar Test Plugin"
+#~ msgstr "邊列測試外掛程式"
+
+#~ msgid "Bookmark This Location"
+#~ msgstr "將這個位址加入書籤"
+
+#~ msgid ""
+#~ "Malformed URL\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不正確的網址 \n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Protocol not supported\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不支援此協定\n"
+#~ "%1"
+
+#~ msgid "Cannot create the find part, check your installation."
+#~ msgstr "無法建立找尋組件，請檢查您的安裝。"
+
+#~ msgid "My Bookmarks"
+#~ msgstr "我的書籤"
+
+#~ msgid "Preload for later use"
+#~ msgstr "預先載入以供後續使用"
+
+#~ msgid "&Save View Profile \"%1\"..."
+#~ msgstr "儲存檢視設定檔\"%1\"(&S)..."
+
+#~ msgid "Configure Navigation Panel"
+#~ msgstr "設定導覽面板"
+
+#~ msgid "Close Navigation Panel"
+#~ msgstr "關閉導覽面板"
+
+#~ msgid "Select Type"
+#~ msgstr "選取類型"
+
+#~ msgid "Select type:"
+#~ msgstr "選取類型："
+
+#~ msgid "Web SideBar Plugin"
+#~ msgstr "Web SideBar Plugin"
+
+#~ msgid "<qt><b>%1</b> does not exist</qt>"
+#~ msgstr "<qt><b>%1</b> 不存在</qt>"
+
+#~ msgid "Minutes"
+#~ msgstr "分"
+
+#~ msgid "Days"
+#~ msgstr "日"
+
+#~ msgid "Your sidebar is not functional or unavailable."
+#~ msgstr "你的邊列沒有這樣的作用或無法使用。"
+
+#~ msgid "Cannot find running history plugin in your sidebar."
+#~ msgstr "在您的邊列找不到執行中的紀錄外掛程式。"
+
+#~ msgctxt "@action:inmenu Go"
+#~ msgid "Show History in Sidebar"
+#~ msgstr "在邊列中顯示歷史紀錄"
+
+#~ msgid "Select Remote Charset"
+#~ msgstr "選擇遠端字集"
+
+#~ msgid "Reload"
+#~ msgstr "重新載入"
+
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "@action:button Rename session"
+#~ msgid "Rename"
+#~ msgstr "重新命名"
+
+#~ msgid ""
+#~ "Konqueror is your file manager, web browser and universal document viewer."
+#~ msgstr "Konqueror 是您的檔案管理程式、網頁瀏覽器及通用文件檢視器。"
+
+#~ msgid "Joseph WENNINGER"
+#~ msgstr "Joseph WENNINGER"
+
+#~ msgid "G E N E R A L"
+#~ msgstr "一 般"
+
+#~ msgid "<img width='16' height='16' src=\"%1\"></img>"
+#~ msgstr "<img width='16' height='16' src=\"%1\"></img>"
+
+#~ msgid "Applications"
+#~ msgstr "應用程式"
+
+#~ msgid "Installed programs"
+#~ msgstr "已安裝的程式"
+
+#~ msgid "&Location"
+#~ msgstr "位置(&L)"

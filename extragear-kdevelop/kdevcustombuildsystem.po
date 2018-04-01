@@ -1,0 +1,419 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-06-15 02:58+0200\n"
+"PO-Revision-Date: 2013-01-22 12:46+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: configwidget.cpp:38
+#, kde-format
+msgid "Build"
+msgstr "編譯"
+
+#: configwidget.cpp:39
+#, kde-format
+msgid "Configure"
+msgstr "設定"
+
+#: configwidget.cpp:40
+#, kde-format
+msgid "Install"
+msgstr "安裝"
+
+#: configwidget.cpp:41
+#, kde-format
+msgid "Clean"
+msgstr "清除"
+
+#: configwidget.cpp:42
+#, kde-format
+msgid "Prune"
+msgstr "徹底移除"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configwidget.ui:19
+#, kde-format
+msgid "Build Directory:"
+msgstr "編譯目錄："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, buildDir)
+#: configwidget.ui:27
+#, kde-format
+msgid ""
+"Select the directory where the tools are being executed in.\n"
+"If this is the same as the source directory you can leave it empty."
+msgstr ""
+"選擇工具要執行於哪個目錄中。\n"
+"若是與源碼目錄相同，您可以不用輸入。"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, buildDir)
+#: configwidget.ui:30
+#, kde-format
+msgid "The directory where the tools are executed"
+msgstr "工具要執行的目錄"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configwidget.ui:42
+#, kde-format
+msgid "Build Tools"
+msgstr "編譯工具"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: configwidget.ui:48
+#, kde-format
+msgid "Action:"
+msgstr "動作："
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: configwidget.ui:58
+#, kde-format
+msgid "Enable:"
+msgstr "開啟："
+
+#. i18n: ectx: property (text), widget (QLabel, execLabel)
+#: configwidget.ui:75
+#, kde-format
+msgid "Executable:"
+msgstr "執行檔："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, actionExecutable)
+#: configwidget.ui:85
+#, kde-format
+msgid ""
+"This is the executable that should be executed when selecting the action "
+"from the Project menu"
+msgstr "這是從專案選單中選擇動作時要執行的執行檔"
+
+#. i18n: ectx: property (text), widget (QLabel, argLabel)
+#: configwidget.ui:95
+#, kde-format
+msgid "Arguments:"
+msgstr "引數："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, actionArguments)
+#: configwidget.ui:105
+#, kde-format
+msgid "The arguments that the tool needs to execute properly."
+msgstr "執行此工具時需要的引數。"
+
+#. i18n: ectx: property (text), widget (QLabel, envLabel)
+#: configwidget.ui:115
+#, kde-format
+msgid "Environment:"
+msgstr "環境："
+
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, actionEnvironment)
+#: configwidget.ui:125
+#, kde-format
+msgid "Choose a pre-configured environment for your tool"
+msgstr "選擇您的工具的預組態環境"
+
+#: custombuildjob.cpp:80
+#, fuzzy, kde-format
+#| msgid "Building:"
+msgctxt "Building: <command> <project item name>"
+msgid "Building: %1 %2"
+msgstr "編譯："
+
+#: custombuildjob.cpp:83
+#, fuzzy, kde-format
+#| msgid "Cleaning:"
+msgctxt "Cleaning: <command> <project item name>"
+msgid "Cleaning: %1 %2"
+msgstr "清除："
+
+#: custombuildjob.cpp:86
+#, fuzzy, kde-format
+#| msgid "Installing:"
+msgctxt "Installing: <command> <project item name>"
+msgid "Installing: %1 %2"
+msgstr "安裝："
+
+#: custombuildjob.cpp:87
+#, fuzzy, kde-format
+#| msgid "Installing:"
+msgctxt "Installing: <command> <project item name> <installPrefix>"
+msgid "Installing: %1 %2 %3"
+msgstr "安裝："
+
+#: custombuildjob.cpp:90
+#, fuzzy, kde-format
+#| msgid "Configuring:"
+msgctxt "Configuring: <command> <project item name>"
+msgid "Configuring: %1 %2"
+msgstr "組態："
+
+#: custombuildjob.cpp:93
+#, fuzzy, kde-format
+#| msgid "Pruning:"
+msgctxt "Pruning: <command> <project item name>"
+msgid "Pruning: %1 %2"
+msgstr "徹底清除："
+
+#: custombuildjob.cpp:108
+#, kde-format
+msgid "Undefined Build type"
+msgstr "未定義的編譯型態："
+
+#: custombuildjob.cpp:112
+#, kde-format
+msgid "No command given for custom %1 tool in project \"%2\"."
+msgstr ""
+
+#: custombuildjob.cpp:117
+#, kde-format
+msgid "The custom %1 tool in project \"%2\" is disabled"
+msgstr ""
+
+#: custombuildjob.cpp:129
+#, kde-format
+msgid ""
+"The given arguments would need a real shell, this is not supported currently."
+msgstr "指定的參數需要用 shell 執行，目前尚未支援。"
+
+#: custombuildjob.cpp:179
+#, kde-format
+msgid "Failed to start command."
+msgstr "啟動指令失敗。"
+
+#: custombuildjob.cpp:182
+#, kde-format
+msgid "Command crashed."
+msgstr "指令已崩潰。"
+
+#: custombuildjob.cpp:185
+#, kde-format
+msgid "Unknown error executing command."
+msgstr "處理指令時發生未知的錯誤。"
+
+#: custombuildjob.cpp:202
+#, kde-format
+msgid "*** Failed ***"
+msgstr "*** 已失敗 ***"
+
+#: custombuildjob.cpp:204
+#, kde-format
+msgid "*** Finished ***"
+msgstr "*** 已完成 ***"
+
+#: custombuildsystemconfig.cpp:27
+#, fuzzy, kde-format
+#| msgid "Build"
+msgctxt "Custom build tool"
+msgid "build"
+msgstr "編譯"
+
+#: custombuildsystemconfig.cpp:28
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "Custom build tool"
+msgid "configure"
+msgstr "設定"
+
+#: custombuildsystemconfig.cpp:29
+#, fuzzy, kde-format
+#| msgid "Install"
+msgctxt "Custom build tool"
+msgid "install"
+msgstr "安裝"
+
+#: custombuildsystemconfig.cpp:30
+#, fuzzy, kde-format
+#| msgid "Clean"
+msgctxt "Custom build tool"
+msgid "clean"
+msgstr "清除"
+
+#: custombuildsystemconfig.cpp:31
+#, fuzzy, kde-format
+#| msgid "Prune"
+msgctxt "Custom build tool"
+msgid "prune"
+msgstr "徹底移除"
+
+#: custombuildsystemconfig.cpp:32
+#, kde-format
+msgid "unknown"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: custombuildsystemconfigwidget.ui:19
+#, fuzzy, kde-format
+#| msgid "Build Configuration:"
+msgid "Build configuration:"
+msgstr "編譯組態："
+
+#. i18n: ectx: property (text), widget (QPushButton, addConfig)
+#: custombuildsystemconfigwidget.ui:42
+#, kde-format
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeConfig)
+#: custombuildsystemconfigwidget.ui:49
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#: kcm_custombuildsystem.cpp:65
+#, fuzzy, kde-format
+#| msgid "Custom Build System"
+msgid "Custom Build System"
+msgstr "自訂編譯系統"
+
+#: kcm_custombuildsystem.cpp:70
+#, kde-format
+msgid ""
+"Configure a projects custom build tool and includes/defines for the language "
+"support."
+msgstr ""
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "No command given"
+#~ msgstr "沒有給定指令"
+
+#~ msgid "This command is disabled"
+#~ msgstr "此指令已關閉"
+
+#~ msgid "Support for building and managing custom build systems"
+#~ msgstr "支援建立與管理自訂編譯系統"
+
+#~ msgid "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+#~ msgstr "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+
+#~ msgid "Path-specific language parameters"
+#~ msgstr "路徑指定語言參數"
+
+#~ msgid "Double-click here to insert a new define to be used for the path"
+#~ msgstr "雙擊此處以插入此路徑要使用的新定義"
+
+#~ msgid "Define"
+#~ msgstr "定義"
+
+#~ msgid "Value"
+#~ msgstr "數值"
+
+#~ msgid "Delete Define"
+#~ msgstr "刪除定義"
+
+#~ msgid "Delete Include Path"
+#~ msgstr "刪除引入路徑"
+
+#~ msgid "Are you sure you want to remove the selected include path '%1'?"
+#~ msgstr "您確定您要移除選取的引入路徑 '%1' 嗎？"
+
+#~ msgid ""
+#~ "Add the currently displayed URL to the list of includes if it is not in "
+#~ "the list yet."
+#~ msgstr "若是尚未列入，則將目前顯示的網址列入引入清單中。"
+
+#~ msgid "A new include path to use for parsing files under given directory"
+#~ msgstr "用來剖析指定目錄下的檔案的新的引入路徑"
+
+#~ msgid "Create a new include path entry from this URL."
+#~ msgstr "從此網址建立新的引入路徑項目"
+
+#~ msgid "Delete current include path entry."
+#~ msgstr "刪除目前的引入路徑項目。"
+
+#~ msgid "Are you sure you want to remove the configuration for the path '%1'?"
+#~ msgstr "您確定您要移除路徑 '%1' 的設定嗎？"
+
+#~ msgid "Add a new sub-project path entry."
+#~ msgstr "新增新的子專案路徑項目。"
+
+#~ msgid ""
+#~ "Replace the currently selected path with a new value keeping the includes "
+#~ "and defines currently set for the selected path."
+#~ msgstr ""
+#~ "用新的值取代目前選取的路徑，並且保留目前選取路徑所設定的引入與定義。"
+
+#~ msgid "Replace"
+#~ msgstr "取代"
+
+#~ msgid "Delete current sub-project path entry."
+#~ msgstr "刪除目前的子專案路徑項目。"
+
+#~ msgid "Includes/Imports"
+#~ msgstr "引入/匯入"
+
+#~ msgid "Defines"
+#~ msgstr "定義"
+
+#, fuzzy
+#~| msgid "Custom BuildSystem"
+#~ msgid "CustomBuildSystem Config Ui Test App"
+#~ msgstr "自訂編譯系統"
+
+#, fuzzy
+#~| msgid "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+#~ msgid "(C) 2012 Andreas Pakulat"
+#~ msgstr "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+
+#~ msgid "Delete Project Path"
+#~ msgstr "刪除專案路徑"
+
+#~ msgid "Includes/Imports and Defines for Project Directories/Files"
+#~ msgstr "專案目錄/檔案的引入/匯入與定義"
+
+#~ msgid "Directories/Files:"
+#~ msgstr "目錄/檔案："
+
+#~ msgid ""
+#~ "A list of paths specifying project directories or files, for which "
+#~ "includes and\n"
+#~ "defines should be set up. \"/\" denotes the top level project directory. "
+#~ "If the\n"
+#~ "path identifies a directory the includes/defines are active for that "
+#~ "directory\n"
+#~ "and all sub (and sub-sub)directories."
+#~ msgstr ""
+#~ "指定的專案引入檔與定義要設定的路徑清單。\"/\" 指的是專案目錄的最上層。若是"
+#~ "此路徑為一個目錄，則其下的所有子目錄都會被納入。"
+
+#~ msgid "Switch between configuring Includes/Imports and Defines"
+#~ msgstr "在設定引入/匯入與定義間切換"
+
+#~ msgid "List of include paths for the selected project item"
+#~ msgstr "選取的專案項目的引入路徑清單"
+
+#~ msgid ""
+#~ "A list of absolute include paths that the KDevelop parser should be "
+#~ "using\n"
+#~ "when parsing the project files in the given project path."
+#~ msgstr ""
+#~ "KDevelop 剖析器在剖析指定路徑內的專案檔時，要使用的絕對引入路徑清單。"
+
+#~ msgid ""
+#~ "Specify a list of pre-processor defines and their values that the "
+#~ "KDevelop parser should use when parsing the files in the given project "
+#~ "path."
+#~ msgstr ""
+#~ "指定 KDevelop 剖析器在剖析指定路徑中的專案檔案時，其預處理器定義與其數值的"
+#~ "清單。"
+
+#~ msgid ""
+#~ "Double-Click here to insert a new include path to be used for the path"
+#~ msgstr "雙擊此處以插入此路徑要使用的新的引入路徑"
+
+#~ msgid "Double-Click here to insert a new path to a directory or file."
+#~ msgstr "雙擊此處以插入目錄落檔案的新路徑。"

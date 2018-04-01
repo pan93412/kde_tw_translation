@@ -1,0 +1,3248 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: ring-kde\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-07 03:28+0100\n"
+"PO-Revision-Date: 2017-08-01 22:01+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "s8321414@gmail.com"
+
+#. i18n: ectx: Menu (Actions)
+#: data/ring-kdeui.rc:5
+#, kde-format
+msgid "Actions"
+msgstr "動作"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pViewCa)
+#. i18n: ectx: property (text), widget (QToolButton, m_pViewCert)
+#. i18n: ectx: Menu (View)
+#: data/ring-kdeui.rc:21 src/conf/accountpages/security.ui:392
+#: src/conf/accountpages/security.ui:406
+#, kde-format
+msgid "View"
+msgstr "檢視"
+
+#. i18n: ectx: Menu (Settings)
+#: data/ring-kdeui.rc:31
+#, kde-format
+msgid "Settings"
+msgstr "設定"
+
+#: src/accessibility.cpp:45
+#, kde-format
+msgid "List all current calls"
+msgstr "列出所有目前的通話"
+
+#: src/accessibility.cpp:53
+#, kde-format
+msgid "Get current call details"
+msgstr "取得目前的通話詳細資訊"
+
+#: src/accessibility.cpp:81
+#, kde-format
+msgid "You currently have <numid>%1</numid> call"
+msgid_plural "You currently have <numid>%1</numid> calls"
+msgstr[0] "您目前有 <numid>%1</numid> 個通話"
+
+#: src/accessibility.cpp:83
+#, kde-format
+msgid "Call from %1, number %2"
+msgstr "從 %1 而來的通話，號碼 %2"
+
+#: src/accessibility.cpp:87
+#, kde-format
+msgid "You currently have no call"
+msgstr "您目前沒有通話"
+
+#: src/accessibility.cpp:109
+#, kde-format
+msgid "The current call is %1"
+msgstr "目前的通話是 %1"
+
+#: src/accessibility.cpp:111
+#, kde-format
+msgid ",Your peer is %1"
+msgstr "，您的人物是 %1"
+
+#: src/accessibility.cpp:113
+#, kde-format
+msgid ", the peer phone number is %1 "
+msgstr "，人物的電話號碼是 %1"
+
+#: src/accessibility.cpp:115
+#, kde-format
+msgid ", the phone number is %1 "
+msgstr "，電話號碼是 %1"
+
+#: src/accessibility.cpp:119
+#, kde-format
+msgid " and you have been talking since %1 seconds"
+msgstr "且您已經通話了 %1 秒"
+
+#: src/accountview/qml/accountlist.qml:179
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "Delete an account"
+msgstr "加入新的帳號"
+
+#: src/accountview/qml/accountlist.qml:182
+#, fuzzy, kde-format
+#| msgid "Are you sure you wish to remove this call?"
+msgid "<center>Are you sure you want to delete the account called "
+msgstr "您確定您要移除這個通話？"
+
+#: src/accountview/qml/accountlist.qml:183
+#, kde-format
+msgid ""
+". <br><br> This cannot be undone and you will lose the account "
+"<b>permanently</b></center>"
+msgstr ""
+
+#: src/accountview/qml/accountlist.qml:209
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Status logs"
+msgstr "狀態"
+
+#: src/accountview/qml/accountlist.qml:216
+#, kde-format
+msgid "Share"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, delete_2)
+#: src/accountview/qml/accountlist.qml:223 src/configurator/recording.ui:65
+#: src/timeline/qml/phonenumbers.qml:155
+#, fuzzy, kde-format
+#| msgid "Delete call"
+msgid "Delete"
+msgstr "刪除通話"
+
+#: src/accountview/qml/accountlist.qml:234
+#, kde-format
+msgid "Reload"
+msgstr ""
+
+#: src/accountview/qml/accountlist.qml:252 src/conf/configurationdialog.cpp:116
+#, kde-format
+msgid "Accounts"
+msgstr "帳號"
+
+#: src/accountview/qml/accountlist.qml:261
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "Add an account"
+msgstr "加入新的帳號"
+
+#: src/actioncollection.cpp:85
+#, kde-format
+msgid "Accept"
+msgstr "接受"
+
+#: src/actioncollection.cpp:86
+#, kde-format
+msgid "Hold"
+msgstr "保留"
+
+#: src/actioncollection.cpp:87
+#, kde-format
+msgid "Transfer"
+msgstr "轉送"
+
+#: src/actioncollection.cpp:88
+#, kde-format
+msgid "Record"
+msgstr "紀錄"
+
+#: src/actioncollection.cpp:89 src/notification.cpp:91
+#, kde-format
+msgid "Hang up"
+msgstr "掛斷"
+
+#: src/actioncollection.cpp:107
+#, kde-format
+msgctxt "Mute the current audio capture device"
+msgid "Mute"
+msgstr "靜音"
+
+#: src/actioncollection.cpp:108
+#, kde-format
+msgctxt "Mute the current audio playback device"
+msgid "Mute Playback"
+msgstr "播放靜音"
+
+#: src/actioncollection.cpp:111
+#, kde-format
+msgid "Rotate left"
+msgstr "向左旋轉"
+
+#: src/actioncollection.cpp:112
+#, kde-format
+msgid "Rotate right"
+msgstr "向右旋轉"
+
+#: src/actioncollection.cpp:113 src/actioncollection.cpp:114
+#, kde-format
+msgid "Flip"
+msgstr "翻轉"
+
+#: src/actioncollection.cpp:115
+#, kde-format
+msgid "Mute"
+msgstr "靜音"
+
+#: src/actioncollection.cpp:116
+#, kde-format
+msgid "Preview"
+msgstr "預覽"
+
+#: src/actioncollection.cpp:117
+#, kde-format
+msgid "Keep aspect ratio"
+msgstr "保留外觀比例"
+
+#: src/actioncollection.cpp:118
+#, kde-format
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+#: src/actioncollection.cpp:163
+#, kde-format
+msgid "Configure Ring-KDE"
+msgstr "設定 Ring-KDE"
+
+#: src/actioncollection.cpp:170
+#, kde-format
+msgid "Display dialpad"
+msgstr "顯示撥號盤"
+
+#: src/actioncollection.cpp:171
+#, kde-format
+msgid "Display volume controls"
+msgstr "顯示音量控制"
+
+#: src/actioncollection.cpp:172
+#, kde-format
+msgid "Display account selector"
+msgstr "顯示帳號選擇器"
+
+#: src/actioncollection.cpp:173
+#, kde-format
+msgid "Raise Ring-KDE window"
+msgstr "提升 Ring-KDE 視窗"
+
+#: src/actioncollection.cpp:174
+#, kde-format
+msgid "Search history"
+msgstr "搜尋歷史"
+
+#: src/actioncollection.cpp:175
+#, kde-format
+msgid "Search call"
+msgstr "搜尋通話"
+
+#: src/actioncollection.cpp:176
+#, kde-format
+msgid "Search contact"
+msgstr "搜尋聯絡人"
+
+#: src/actioncollection.cpp:177
+#, kde-format
+msgid "Search bookmark"
+msgstr "搜尋書籤"
+
+#: src/actioncollection.cpp:178
+#, kde-format
+msgid "Show the phone directory"
+msgstr ""
+
+#: src/actioncollection.cpp:180
+#, fuzzy, kde-format
+#| msgid "New account"
+msgid "New account wizard"
+msgstr "新增帳戶"
+
+#: src/actioncollection.cpp:181
+#, kde-format
+msgid "Show the menu"
+msgstr ""
+
+#: src/actioncollection.cpp:182
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "New contact"
+msgstr "加入新聯絡人"
+
+#: src/actioncollection.cpp:183
+#, kde-format
+msgid "Paste"
+msgstr "貼上"
+
+#: src/actioncollection.cpp:184
+#, kde-format
+msgid "Display Person"
+msgstr "顯示人物"
+
+#: src/actioncollection.cpp:185
+#, kde-format
+msgid "Display history"
+msgstr "顯示歷史"
+
+#: src/actioncollection.cpp:186
+#, kde-format
+msgid "Display bookmark"
+msgstr "顯示書籤"
+
+#: src/actioncollection.cpp:187
+#, fuzzy, kde-format
+#| msgid "Display name*"
+msgid "Display timeline"
+msgstr "顯示名稱*"
+
+#: src/actioncollection.cpp:188
+#, fuzzy, kde-format
+#| msgid "Display Call Number"
+msgid "Display call manager"
+msgstr "顯示通話號碼"
+
+#: src/actioncollection.cpp:189
+#, kde-format
+msgid "Configure Toolbars"
+msgstr "設定工具列"
+
+#: src/actioncollection.cpp:190
+#, kde-format
+msgid "Add new contact"
+msgstr "加入新聯絡人"
+
+#: src/actioncollection.cpp:191
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut"
+msgid "Configure Shortcuts"
+msgstr "設定快捷鍵"
+
+#: src/actioncollection.cpp:192
+#, kde-format
+msgid "Configure Notifications"
+msgstr "設定通知"
+
+#: src/callview/qml/callbackground.qml:32
+#, kde-format
+msgid "[No video]"
+msgstr ""
+
+#: src/callview/qml/devicesetting.qml:34
+#, kde-format
+msgid "Device"
+msgstr ""
+
+#: src/callview/qml/devicesetting.qml:44
+#, kde-format
+msgid "Channel"
+msgstr ""
+
+#: src/callview/qml/devicesetting.qml:54
+#, kde-format
+msgid "Resolution"
+msgstr ""
+
+#: src/callview/qml/devicesetting.qml:64
+#, fuzzy, kde-format
+#| msgid "Sample rate:"
+msgid "Frame rate"
+msgstr "取樣頻率："
+
+#: src/callview/qml/screensharing.qml:31
+#, fuzzy, kde-format
+#| msgid "Fullscreen"
+msgid "Screen"
+msgstr "全螢幕"
+
+#: src/callview/qml/screensharing.qml:41
+#, kde-format
+msgid "X offset"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:52
+#, kde-format
+msgid "Y offset"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:63
+#, kde-format
+msgid "Width"
+msgstr ""
+
+#: src/callview/qml/screensharing.qml:74
+#, kde-format
+msgid "Height"
+msgstr ""
+
+#: src/cmd.cpp:61
+#, kde-format
+msgid "Place a call to a given number"
+msgstr "撥打指定電話號碼"
+
+#: src/cmd.cpp:62
+#, kde-format
+msgid ""
+"Send a text to &lt;number&gt;, use --message to set the content, then hangup"
+msgstr "傳送文字到 &lt;號碼&gt;，使用 --message 來設定內容，然後掛斷"
+
+#: src/cmd.cpp:63
+#, kde-format
+msgid "Used in combination with --send-text"
+msgstr "用來與 --send-text 結合"
+
+#: src/cmd.cpp:64
+#, kde-format
+msgid "Start in the system tray"
+msgstr "在系統匣中啟動"
+
+#: src/cmd.cpp:65
+#, fuzzy, kde-format
+#| msgid "Start in the system tray"
+msgid "Start with the phone interface"
+msgstr "在系統匣中啟動"
+
+#: src/cmd.cpp:66
+#, fuzzy, kde-format
+#| msgid "Start in the system tray"
+msgid "Start with the timeline interface"
+msgstr "在系統匣中啟動"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, button_accountAdd)
+#: src/conf/accountdlg.ui:75
+#, kde-format
+msgid "Add a new account"
+msgstr "加入新的帳號"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, button_accountAdd)
+#: src/conf/accountdlg.ui:78
+#, kde-format
+msgid ""
+"This button enables you to initialize a new account. You will then be able "
+"to edit it using the form on the right."
+msgstr "這個按鈕讓您可以初始化一個新帳號。您將可以使用在右邊的表單來編輯它。"
+
+#. i18n: ectx: property (text), widget (QToolButton, button_accountAdd)
+#: src/conf/accountdlg.ui:81
+#, kde-format
+msgctxt "Add new account"
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (whatsThis), widget (CategorizedTree, m_pAccountList)
+#: src/conf/accountdlg.ui:120
+#, kde-format
+msgid ""
+"By default, when you place a call, Ring will use the first account in this "
+"list which is \"registered\". Change the order of the accounts using the \"Up"
+"\" and \"Down\" arrows. Enable/disable them by checking/unchecking them on "
+"the left of the item. Add or remove some with \"Plus\" and \"Sub\" buttons. "
+"Edit the selected account with the form on the right."
+msgstr ""
+"預設情況下，當您撥出一通電話時，Ring 將會使用在清單中已「註冊」的第一個帳號。"
+"使用「上」或「下」方向鍵來變更帳號順序。透過在項目的左邊勾選／取消勾選它們來"
+"啟用／停用它們。使用「增加」或「移除」按鈕來新增或移除它們。使用右邊的表單來"
+"編輯選定的帳號。"
+
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, m_pMoveUp)
+#: src/conf/accountdlg.ui:160
+#, kde-format
+msgid "Get this account up"
+msgstr "將此帳號向上移"
+
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, m_pMoveUp)
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, m_pMoveDown)
+#: src/conf/accountdlg.ui:163 src/conf/accountdlg.ui:184
+#, kde-format
+msgid ""
+"By default, when you place a call, Ring will use the first account in this "
+"list which is \"registered\". Change the order of the accounts using the \"Up"
+"\" and \"Down\" arrows."
+msgstr ""
+"預設情況下，當您撥出一通電話時，Ring 將會使用在清單中已「註冊」的第一個帳號。"
+"使用「上」或「下」方向鍵來變更帳號順序。"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pMoveUp)
+#: src/conf/accountdlg.ui:166
+#, kde-format
+msgctxt "Move account up"
+msgid "Up"
+msgstr "上"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, m_pMoveDown)
+#: src/conf/accountdlg.ui:181
+#, kde-format
+msgid "Get this account down"
+msgstr "將此帳號向下移"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pMoveDown)
+#: src/conf/accountdlg.ui:187
+#, kde-format
+msgctxt "Move account down"
+msgid "Down"
+msgstr "下"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, m_pRemove)
+#: src/conf/accountdlg.ui:208
+#, kde-format
+msgid "Remove the selected account"
+msgstr "移除選取帳號"
+
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, m_pRemove)
+#: src/conf/accountdlg.ui:211
+#, kde-format
+msgid ""
+"This button will remove the selected account in the list below. Be sure you "
+"really don't need it anymore. If you think you might use it again later, "
+"just uncheck it."
+msgstr ""
+"這個按鈕將會移除在下列清單中選定的帳號。請確保您真的不需要它了。若您覺得您可"
+"能會在稍後再次使用它，請取消勾選它。"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
+#: src/conf/accountdlg.ui:217
+#, kde-format
+msgctxt "Remove selected account"
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_8)
+#. i18n: ectx: property (text), widget (QLabel, label_profile)
+#: src/conf/accountpages/account.cpp:93 src/conf/accountpages/basic.ui:186
+#: src/conf/accountpages/tabs.ui:101 src/model/extendedprotocolmodel.cpp:48
+#, kde-format
+msgid "Profile"
+msgstr "設定檔"
+
+#. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
+#. i18n: ectx: property (title), widget (QGroupBox, lrcfg_ringtoneEnabled)
+#: src/conf/accountpages/account.cpp:97 src/conf/accountpages/ringtone.ui:27
+#: src/conf/dlgaudiobase.ui:130
+#, kde-format
+msgid "Ringtone"
+msgstr "鈴聲"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: src/conf/accountpages/account.cpp:98 src/conf/accountpages/tabs.ui:81
+#, kde-format
+msgid "Security"
+msgstr "安全性"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_7)
+#: src/conf/accountpages/account.cpp:99 src/conf/accountpages/tabs.ui:71
+#, kde-format
+msgid "Credentials"
+msgstr "認證資訊"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: src/conf/accountpages/account.cpp:100 src/conf/accountpages/tabs.ui:61
+#, kde-format
+msgid "Codecs"
+msgstr "編解碼器"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_9)
+#: src/conf/accountpages/account.cpp:101 src/conf/accountpages/tabs.ui:51
+#, kde-format
+msgid "Devices"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: src/conf/accountpages/account.cpp:102 src/conf/accountpages/tabs.ui:41
+#, kde-format
+msgid "Network"
+msgstr "網路"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/conf/accountpages/account.cpp:103 src/conf/accountpages/tabs.ui:31
+#: src/timeline/qml/contactinfo.qml:148
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/conf/accountpages/account.cpp:104 src/conf/accountpages/tabs.ui:21
+#, kde-format
+msgid "Basic"
+msgstr "基本"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:425
+#, kde-format
+msgid "Registration"
+msgstr "註冊"
+
+#. i18n: ectx: property (text), widget (QLabel, label_regExpire)
+#: src/conf/accountpages/advanced.ui:25
+#, fuzzy, kde-format
+#| msgid "Registration expire"
+msgid "Re&gistration expire"
+msgstr "註冊過期"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, lrcfg_registrationExpire)
+#. i18n: ectx: property (suffix), widget (QSpinBox, lrcfg_tlsNegotiationTimeoutSec)
+#: src/conf/accountpages/advanced.ui:35 src/conf/accountpages/security.ui:446
+#, kde-format
+msgid " seconds"
+msgstr " 秒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasCustomUserAgent)
+#: src/conf/accountpages/advanced.ui:45
+#, kde-format
+msgid "Use custom user agent"
+msgstr "使用自訂的使用者代理"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromUnknown)
+#: src/conf/accountpages/advanced.ui:61
+#, kde-format
+msgid "Allow calls from unknown peers"
+msgstr "允許從未知的人接收通話"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromHistory)
+#: src/conf/accountpages/advanced.ui:71
+#, kde-format
+msgid "Allow calls if that person has been contacted in the past"
+msgstr "若對方曾經在過去聯絡過您則允許通話"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_allowIncomingFromContact)
+#: src/conf/accountpages/advanced.ui:81
+#, kde-format
+msgid "Allow calls from your contacts"
+msgstr "允許從您的聯絡人而來的通話"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/accountpages/advanced.ui:91
+#, kde-format
+msgid "Negotiation"
+msgstr "協商"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasProxy)
+#: src/conf/accountpages/advanced.ui:100
+#, kde-format
+msgid "Use a proxy"
+msgstr "使用代理伺服器"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_proxy)
+#: src/conf/accountpages/advanced.ui:110
+#, kde-format
+msgid "SIP proxy server (if none, leave blank)"
+msgstr "SIP 代理伺服器（若無請留空）"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_sipStunEnabled)
+#: src/conf/accountpages/advanced.ui:117
+#, kde-format
+msgid "Enable STUN"
+msgstr "啟用 STUN"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_sipStunServer)
+#: src/conf/accountpages/advanced.ui:127
+#, kde-format
+msgid "Choose STUN server (example: stunserver.org)"
+msgstr "選擇 STUN 伺服器（範例：stunserver.org）"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_turnEnabled)
+#: src/conf/accountpages/advanced.ui:134
+#, kde-format
+msgid "TURN server"
+msgstr "TURN 伺服器"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_turnServer)
+#: src/conf/accountpages/advanced.ui:144
+#, kde-format
+msgid "Choose TURN server (example: turnserver.org)"
+msgstr "選擇 TURN 伺服器（範例：turnserver.org）"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_upnpEnabled)
+#: src/conf/accountpages/advanced.ui:151
+#, kde-format
+msgid "Enable UPnP"
+msgstr "啟用 UPnP"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/accountpages/advanced.ui:164
+#, kde-format
+msgid "Feature"
+msgstr "功能"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_presenceEnabled)
+#: src/conf/accountpages/advanced.ui:173
+#, kde-format
+msgid "Enable presence support"
+msgstr "啟用出席支援"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_isVideoEnabled)
+#: src/conf/accountpages/advanced.ui:180
+#, kde-format
+msgid "Enable video when supported"
+msgstr "當支援時啟用視訊"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasActiveCallLimit)
+#: src/conf/accountpages/advanced.ui:187
+#, kde-format
+msgid "Limit the number of concurrent incoming calls"
+msgstr "限制同時存在的來電數"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pDTMF_GB)
+#: src/conf/accountpages/advanced.ui:220
+#, kde-format
+msgid "DTMF"
+msgstr "DTMF"
+
+#. i18n: ectx: property (text), widget (QRadioButton, auto_2)
+#: src/conf/accountpages/advanced.ui:226
+#, fuzzy, kde-format
+#| msgid "Over RTP"
+msgid "Over R&TP"
+msgstr "透過 RTP"
+
+#. i18n: ectx: property (text), widget (QRadioButton, lrcfg_dTMFType)
+#: src/conf/accountpages/advanced.ui:233
+#, kde-format
+msgid "Over SIP"
+msgstr "透過 SIP"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alias)
+#: src/conf/accountpages/basic.ui:19
+#, kde-format
+msgid "Alias*"
+msgstr "別名*"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_alias)
+#: src/conf/accountpages/basic.ui:41
+#, kde-format
+msgid "Anything, used only to select the account"
+msgstr "任何東西，僅用於選取帳號"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
+#: src/conf/accountpages/basic.ui:48
+#, kde-format
+msgid "Protocol"
+msgstr "協定"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/accountpages/basic.ui:78
+#, kde-format
+msgid "&Display Name*"
+msgstr "顯示名稱*(&D)"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_displayName)
+#: src/conf/accountpages/basic.ui:88
+#, kde-format
+msgid "The name as seen by the peer"
+msgstr "對方看到的名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, lrcfg_registeredNameBuddy2)
+#: src/conf/accountpages/basic.ui:95
+#, kde-format
+msgid "Re&gistered Name*"
+msgstr "註冊名稱*(&G)"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_registeredName)
+#: src/conf/accountpages/basic.ui:107
+#, kde-format
+msgid "The name seen by your peers"
+msgstr "對方看到的名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, lrcfg_registeredNameBuddy)
+#: src/conf/accountpages/basic.ui:114
+#, kde-format
+msgid "A"
+msgstr "A"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_server)
+#: src/conf/accountpages/basic.ui:123
+#, kde-format
+msgctxt "SIP server"
+msgid "Server*"
+msgstr "伺服器*"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_hostname)
+#: src/conf/accountpages/basic.ui:139
+#, kde-format
+msgid "Example: sip.sring.cx or 192.168.0.2"
+msgstr "範例：sip.sring.cx 或 192.168.0.2"
+
+#. i18n: ectx: property (text), widget (QLabel, label4_user)
+#: src/conf/accountpages/basic.ui:149
+#, kde-format
+msgctxt "Account username"
+msgid "&Username*"
+msgstr "使用者名稱*(&U)"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_auth_2)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_username)
+#: src/conf/accountpages/basic.ui:159 src/conf/accountpages/credentials.ui:149
+#, kde-format
+msgid "Usually your extension number"
+msgstr "通常是您的分機號碼"
+
+#. i18n: ectx: property (text), widget (QLabel, label5_password)
+#: src/conf/accountpages/basic.ui:166
+#, kde-format
+msgctxt "Account password"
+msgid "Password*"
+msgstr "密碼*"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_password_2)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_password)
+#: src/conf/accountpages/basic.ui:179 src/conf/accountpages/credentials.ui:165
+#, kde-format
+msgid "SIP password, ask your network administrator"
+msgstr "SIP 密碼，請詢問您的網路管理員"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pDisplayLog)
+#: src/conf/accountpages/basic.ui:236
+#, kde-format
+msgid "Availability log"
+msgstr "可用性紀錄"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_hasCustomBootstrap)
+#: src/conf/accountpages/basic.ui:269
+#, kde-format
+msgid "Use custom bootstrap nodes"
+msgstr "使用自定義的 bootstrap 節點"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_autoAnswer)
+#: src/conf/accountpages/basic.ui:276
+#, kde-format
+msgid "Auto answer"
+msgstr "自動回覆"
+
+#. i18n: ectx: property (text), widget (QLabel, label7_state)
+#: src/conf/accountpages/basic.ui:296
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, button_audiocodecUp)
+#: src/conf/accountpages/codecs.ui:22
+#, kde-format
+msgid "Increase codec priority"
+msgstr "增加編解碼器優先權"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, button_audiocodecUp)
+#. i18n: ectx: property (whatsThis), widget (QToolButton, button_audiocodecDown)
+#: src/conf/accountpages/codecs.ui:25 src/conf/accountpages/codecs.ui:44
+#, kde-format
+msgid ""
+"By default, when you place a call, sflphone will use the first account in "
+"this list which is \"registered\". Change the order of the accounts using "
+"the \"Up\" and \"Down\" arrows."
+msgstr ""
+"預設情況下，當您撥出一通電話時，sflphone 將會使用在清單中已「註冊」的第一個帳"
+"號。使用「上」或「下」方向鍵來變更帳號順序。"
+
+#. i18n: ectx: property (text), widget (QToolButton, button_audiocodecUp)
+#: src/conf/accountpages/codecs.ui:28
+#, kde-format
+msgctxt "Move audio codec up"
+msgid "Up"
+msgstr "上"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, button_audiocodecDown)
+#: src/conf/accountpages/codecs.ui:41
+#, kde-format
+msgid "Decrease codec priority"
+msgstr "降低編解碼器的優先權"
+
+#. i18n: ectx: property (text), widget (QToolButton, button_audiocodecDown)
+#: src/conf/accountpages/codecs.ui:47
+#, kde-format
+msgctxt "Move audio codec down"
+msgid "Down"
+msgstr "下"
+
+#. i18n: ectx: property (text), widget (QLabel, label_bitrate)
+#: src/conf/accountpages/codecs.ui:62
+#, kde-format
+msgid "Bitrate:"
+msgstr "位元速率："
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency)
+#: src/conf/accountpages/codecs.ui:69
+#, kde-format
+msgid "Sample rate:"
+msgstr "取樣頻率："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/accountpages/codecs.ui:76
+#, kde-format
+msgid ""
+"Move the codecs up and down to alter the priority. Ring recommend Opus for "
+"audio and H264 for video. In case of problems, PCMA is the most widely "
+"supported audio codec and H263 the most supported video codec."
+msgstr ""
+"將編解碼器向上或下移動取代優先權。Ring 建議音訊使用 Opus，視訊使用 H264。遇到"
+"問題時，PCMA 是最廣泛支援的音訊解編碼器，H263 則是支援最廣泛的視訊解編碼器。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/accountpages/credentials.ui:42
+#, kde-format
+msgid ""
+"This tab help manage accounts with multiple credentials. If you have "
+"multiple accounts. Do not use this feature, just create multiple accounts in "
+"Ring-KDE. Nor use this dialog if you only have one set of credentials. In "
+"that case, the \"Basic\" tab will provide everything you need."
+msgstr ""
+"這個分頁協助管理有多個憑證的帳號。若您有多個帳號，請不要使用此功能，只要在 "
+"Ring-KDE 中建立多個帳號就好了。若您僅有一套憑證，也請不要使用此對話框。在這種"
+"情況下，「基本」分頁將會提供任何您需要的東西。"
+
+#. i18n: ectx: property (text), widget (QToolButton, button_add_credential)
+#: src/conf/accountpages/credentials.ui:79
+#, kde-format
+msgctxt "Add new credential"
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QToolButton, button_remove_credential)
+#: src/conf/accountpages/credentials.ui:90
+#, kde-format
+msgctxt "Remove selected credential"
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_credential)
+#: src/conf/accountpages/credentials.ui:109
+#: src/timeline/qml/contactinfo.qml:173
+#, kde-format
+msgid "Details"
+msgstr "詳細資料"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_realm_2)
+#: src/conf/accountpages/credentials.ui:115
+#, kde-format
+msgid "Realm"
+msgstr "領域"
+
+#. i18n: ectx: property (text), widget (QLabel, labe_credential_auth_2)
+#: src/conf/accountpages/credentials.ui:122
+#, kde-format
+msgid "Auth. name"
+msgstr "授權名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_password_2)
+#: src/conf/accountpages/credentials.ui:129
+#, kde-format
+msgid "Password"
+msgstr "密碼"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edit_credential_realm_2)
+#: src/conf/accountpages/credentials.ui:139
+#, kde-format
+msgid "Usually *"
+msgstr "通常是*"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/accountpages/network.ui:17
+#, kde-format
+msgid "Network Interface"
+msgstr "網路介面"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_address)
+#: src/conf/accountpages/network.ui:23
+#, kde-format
+msgid "Local address"
+msgstr "本機位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_port)
+#: src/conf/accountpages/network.ui:40
+#, kde-format
+msgid "Local port"
+msgstr "本機連接埠"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pPublishedGB)
+#. i18n: ectx: property (text), widget (QLabel, label_published_address)
+#: src/conf/accountpages/network.ui:57 src/conf/accountpages/network.ui:80
+#, kde-format
+msgid "Published address"
+msgstr "公開位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, lrcfg_publishedSameAsLocal)
+#: src/conf/accountpages/network.ui:63
+#, fuzzy, kde-format
+#| msgid "Same as local parameters"
+msgid "Same as &local parameters"
+msgstr "與本機參數相同"
+
+#. i18n: ectx: property (text), widget (QRadioButton, auto_2)
+#: src/conf/accountpages/network.ui:73
+#, fuzzy, kde-format
+#| msgid "Set published address and port"
+msgid "Set p&ublished address and port"
+msgstr "設定公開位置與埠"
+
+#. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
+#: src/conf/accountpages/network.ui:87
+#, kde-format
+msgid "Published port"
+msgstr "公開埠"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_publishedAddress)
+#: src/conf/accountpages/network.ui:107
+#, kde-format
+msgid "IP address or hostname"
+msgstr "IP 位置或主機名稱"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pPortGroup)
+#: src/conf/accountpages/network.ui:130
+#, kde-format
+msgid "RTP configuration"
+msgstr "RTP 設定"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinAudioPortL)
+#: src/conf/accountpages/network.ui:156
+#, kde-format
+msgid "Minimum audio port"
+msgstr "最小音訊埠"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinVideoPortL)
+#: src/conf/accountpages/network.ui:184
+#, kde-format
+msgid "Minimum video port"
+msgstr "最小視訊埠"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxAudioPortL)
+#: src/conf/accountpages/network.ui:191
+#, kde-format
+msgid "Maximum audio port"
+msgstr "最大音訊埠"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxVideoPortL)
+#: src/conf/accountpages/network.ui:198
+#, kde-format
+msgid "Maximum video port"
+msgstr "最大視訊埠"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/accountpages/network.ui:205
+#, kde-format
+msgid ""
+"Note that this is only used as a fallback when ICE negotiation failed "
+"(autodetected)."
+msgstr "注意，這個僅當 ICE 協商失敗時用做退回機制（自動偵測）。"
+
+#: src/conf/accountpages/ringtone.cpp:29
+#, kde-format
+msgid "Select a new ringtone"
+msgstr "選擇新鈴聲"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pPlay)
+#: src/conf/accountpages/ringtone.ui:65
+#, kde-format
+msgid "Play"
+msgstr "播放"
+
+#. i18n: ectx: property (title), widget (QGroupBox, lrcfg_srtpEnabled)
+#: src/conf/accountpages/security.ui:74
+#, kde-format
+msgid "Encr&ypt media streams (SRTP)"
+msgstr "加密媒體串流 (SRTP)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_srtpRtpFallback)
+#: src/conf/accountpages/security.ui:93
+#, kde-format
+msgid "Fallback on RTP on SDES failure"
+msgstr "在 SDES 失敗時退回 RTP"
+
+#. i18n: ectx: property (title), widget (QGroupBox, lrcfg_tlsEnabled)
+#: src/conf/accountpages/security.ui:109
+#, kde-format
+msgid "Encrypt negotiation (&TLS)"
+msgstr "加密協商 (TLS) (&T)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
+#: src/conf/accountpages/security.ui:121
+#, kde-format
+msgid "Authority certificate list"
+msgstr "機構證書清單"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
+#: src/conf/accountpages/security.ui:182
+#, kde-format
+msgid ""
+"Your certificates access are too permissive. Certificates should only be "
+"readable by the owner."
+msgstr "您的證書存取權限過於寬鬆。證書應該只能被擁有者讀取。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
+#: src/conf/accountpages/security.ui:196
+#, kde-format
+msgid "Fix the permissions"
+msgstr "修復權限"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
+#: src/conf/accountpages/security.ui:207 src/conf/accountpages/security.ui:302
+#, kde-format
+msgid "No thanks"
+msgstr "不了，謝謝"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
+#: src/conf/accountpages/security.ui:277
+#, kde-format
+msgid ""
+"A good security practice is to move the certificates to a common directory. "
+"SELinux recommend ~/.cert for this. Do you wish to move the certificate "
+"there?"
+msgstr ""
+"良好的安全措施是將證書移動到一般目錄。SELinux 為此建議 ~/.cert。您想將證書移"
+"動到那邊去嗎？"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
+#: src/conf/accountpages/security.ui:291
+#, kde-format
+msgid "Move to ~/.cert"
+msgstr "移動到 ~/.cert"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
+#: src/conf/accountpages/security.ui:318
+#, kde-format
+msgid "Negotiation timeout"
+msgstr "協商逾時"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyServer)
+#: src/conf/accountpages/security.ui:325
+#, kde-format
+msgid "Verify incoming certificates (server side)"
+msgstr "驗證連入證書（伺服器端）"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
+#: src/conf/accountpages/security.ui:332
+#, kde-format
+msgid "Public endpoint certificate"
+msgstr "公開端點證書"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_tlsPassword)
+#: src/conf/accountpages/security.ui:368
+#, kde-format
+msgid "Only necessary if the key have a password"
+msgstr "僅在金鑰有密碼時需要"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
+#: src/conf/accountpages/security.ui:375
+#, kde-format
+msgid "Private key"
+msgstr "私密金鑰"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, lrcfg_tlsServerName)
+#: src/conf/accountpages/security.ui:382
+#, kde-format
+msgid "Usually the SIP server hostname"
+msgstr "通常為 SIP 伺服器主機名稱"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCa)
+#: src/conf/accountpages/security.ui:389
+#, kde-format
+msgid "View the certificate authority"
+msgstr "檢視證書機構"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_pViewCert)
+#: src/conf/accountpages/security.ui:403
+#, kde-format
+msgid "View the certificate"
+msgstr "檢視證書"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
+#: src/conf/accountpages/security.ui:417
+#, kde-format
+msgid "Private key password"
+msgstr "私密金鑰密碼"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsRequireClientCertificate)
+#: src/conf/accountpages/security.ui:427
+#, kde-format
+msgid "Require a certificate for incoming TLS connections"
+msgstr "連入的 TLS 連線需要證書"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
+#: src/conf/accountpages/security.ui:459
+#, kde-format
+msgid "Outgoing TLS server name"
+msgstr "傳出 TLS 伺服器名稱"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lrcfg_tlsVerifyClient)
+#: src/conf/accountpages/security.ui:466
+#, kde-format
+msgid "Verify answer certificates (client side)"
+msgstr "驗證回應證書（客戶端）"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_method)
+#: src/conf/accountpages/security.ui:492
+#, kde-format
+msgid "TLS protocol method"
+msgstr "TLS 協定方法"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultCiphers)
+#: src/conf/accountpages/security.ui:499
+#, kde-format
+msgid "Use default ciphers"
+msgstr "使用預設加密法"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/conf/accountpages/security.ui:513
+#, kde-format
+msgid "Allowed certificates"
+msgstr "允許的證書"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/conf/accountpages/security.ui:523
+#, kde-format
+msgid "Banned certificates"
+msgstr "禁止的證書"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: src/conf/accountpages/security.ui:533
+#, kde-format
+msgid "Known certificates"
+msgstr "已知的證書"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_6)
+#: src/conf/accountpages/tabs.ui:91
+#, kde-format
+msgid "Ringtones"
+msgstr "鈴聲"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_10)
+#: src/conf/accountpages/tabs.ui:111
+#, kde-format
+msgid "Wizard"
+msgstr ""
+
+#: src/conf/configurationdialog.cpp:126
+#, kde-format
+msgctxt "User interterface settings"
+msgid "Display"
+msgstr "顯示"
+
+#: src/conf/configurationdialog.cpp:135
+#, kde-format
+msgid "Audio"
+msgstr "音效"
+
+#: src/conf/configurationdialog.cpp:144
+#, kde-format
+msgid "Personal data"
+msgstr "個人資料"
+
+#: src/conf/configurationdialog.cpp:153
+#, kde-format
+msgid "Accessibility"
+msgstr "無障礙輔助"
+
+#: src/conf/configurationdialog.cpp:163
+#, kde-format
+msgctxt "Video conversation"
+msgid "Video"
+msgstr "影片"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgAccessibility)
+#: src/conf/dlgaccessibility.ui:14
+#, kde-format
+msgid "Accessibility settings"
+msgstr "無障礙設定"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pT2SBG)
+#: src/conf/dlgaccessibility.ui:23
+#, kde-format
+msgid "Text to Speech"
+msgstr "文字轉語音"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableVoiceFeedback)
+#. i18n: ectx: label, entry (enableVoiceFeedback), group (main)
+#. i18n: ectx: label, entry (displayContactDock), group (main)
+#. i18n: ectx: label, entry (displayHistoryDock), group (main)
+#. i18n: ectx: label, entry (displayBookmarkDock), group (main)
+#: src/conf/dlgaccessibility.ui:29 src/klib/ring-kde.kcfg:190
+#: src/klib/ring-kde.kcfg:231 src/klib/ring-kde.kcfg:235
+#: src/klib/ring-kde.kcfg:239
+#, kde-format
+msgid "Enable audio feedback from common actions"
+msgstr "啟用從一般動作而來的音訊回饋"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadLabel)
+#. i18n: ectx: label, entry (enableReadLabel), group (main)
+#: src/conf/dlgaccessibility.ui:36 src/klib/ring-kde.kcfg:194
+#, kde-format
+msgid "Automatically read label when an overlay is being displayed"
+msgstr "當覆蓋層顯示時自動讀取標籤"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadDetails)
+#. i18n: ectx: label, entry (enableReadDetails), group (main)
+#: src/conf/dlgaccessibility.ui:43 src/klib/ring-kde.kcfg:198
+#, kde-format
+msgid "Automatically read the call details when it is selected"
+msgstr "當通話詳細資訊被選取時自動讀取它"
+
+#: src/conf/dlgaccount.cpp:117 src/conf/dlgaccount.cpp:137
+#, kde-format
+msgid "Are you sure you want to remove %1?"
+msgstr "您確定要移除 %1 嗎？"
+
+#: src/conf/dlgaccount.cpp:120
+#, kde-format
+msgid "Remove profile"
+msgstr "刪除設定檔"
+
+#: src/conf/dlgaccount.cpp:140
+#, kde-format
+msgid "Remove account"
+msgstr "移除帳號"
+
+#: src/conf/dlgaccount.cpp:175
+#, kde-format
+msgid "Import accounts"
+msgstr "匯入帳號"
+
+#: src/conf/dlgaccount.cpp:179
+#, kde-format
+msgid "Enter the password"
+msgstr "請輸入密碼"
+
+#: src/conf/dlgaccount.cpp:193
+#, kde-format
+msgid "New account%1"
+msgstr "新增帳戶 %1"
+
+#: src/conf/dlgaccount.cpp:194
+#, kde-format
+msgid "New account"
+msgstr "新增帳戶"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayAllCollections)
+#: src/conf/dlgaddressbookbase.ui:68
+#, kde-format
+msgid "Display all"
+msgstr "顯示所有"
+
+#. i18n: ectx: property (text), widget (QLabel, label_interface)
+#: src/conf/dlgaudiobase.ui:32
+#, kde-format
+msgid "Sound manager"
+msgstr "音效管理員"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_alsa)
+#: src/conf/dlgaudiobase.ui:64
+#, kde-format
+msgid "ALSA Settings"
+msgstr "ALSA 設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alsaPugin)
+#: src/conf/dlgaudiobase.ui:79
+#, kde-format
+msgid "ALSA plugin"
+msgstr "ALSA 外掛程式"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_in)
+#: src/conf/dlgaudiobase.ui:96
+#, kde-format
+msgid "Input"
+msgstr "輸入"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_out)
+#: src/conf/dlgaudiobase.ui:113
+#, kde-format
+msgid "Output"
+msgstr "輸出"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_pulseAudio)
+#: src/conf/dlgaudiobase.ui:153
+#, kde-format
+msgid "PulseAudio Settings"
+msgstr "PulseAudio 設定"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_pulseAudioVolumeAlter)
+#: src/conf/dlgaudiobase.ui:162
+#, kde-format
+msgid "Mute other applications during a call"
+msgstr "在通話時將其他應用程式設定為靜音"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaudiobase.ui:176
+#, kde-format
+msgid "Audio settings"
+msgstr "音訊設定"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pSuppressNoise)
+#: src/conf/dlgaudiobase.ui:182
+#, kde-format
+msgid "Enable noise reduction"
+msgstr "啟用減少雜訊"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableRoomTone)
+#: src/conf/dlgaudiobase.ui:189
+#, kde-format
+msgid "Enable dial tone"
+msgstr "啟用撥號鈴聲"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCPlayDTMFCk)
+#: src/conf/dlgaudiobase.ui:196
+#, kde-format
+msgid "Mute DTMF"
+msgstr "DTMF 靜音"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
+#: src/conf/dlgaudiorecording.ui:23
+#, kde-format
+msgid "Recording"
+msgstr "錄製"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, KUrlRequester_destinationFolder)
+#: src/conf/dlgaudiorecording.ui:35
+#, kde-format
+msgid "Destination folder"
+msgstr "目標檔案夾"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAlwaysRecordCK)
+#: src/conf/dlgaudiorecording.ui:42
+#, kde-format
+msgid "Always record calls"
+msgstr "總是錄製通話"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgdisplaybase.ui:26
+#, kde-format
+msgid "Display Main Window"
+msgstr "顯示主視窗"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
+#: src/conf/dlgdisplaybase.ui:35
+#, kde-format
+msgid "On start"
+msgstr "在開始時"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
+#: src/conf/dlgdisplaybase.ui:45
+#, kde-format
+msgid "On incoming calls"
+msgstr "在來電時"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoStart)
+#: src/conf/dlgdisplaybase.ui:52
+#, kde-format
+msgid "On boot (auto start)"
+msgstr "在開機時（自動開始）"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/dlgdisplaybase.ui:72
+#, kde-format
+msgid "Visible contacts Details"
+msgstr "可見的聯絡人詳細資訊"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideUnreachable)
+#. i18n: ectx: label, entry (hideUnreachable), group (main)
+#: src/conf/dlgdisplaybase.ui:78 src/klib/ring-kde.kcfg:158
+#, kde-format
+msgid "Hide unreachable contacts"
+msgstr "隱藏無法連絡的連絡人"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hidePersonWithoutPhone)
+#: src/conf/dlgdisplaybase.ui:85
+#, kde-format
+msgid "Hide contacts without phone numbers"
+msgstr "隱藏沒有電話號碼的聯絡人"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgfallbackperson.ui:17
+#, kde-format
+msgid ""
+"<html><head/><body><p>Akonadi 2, the version compatible with the KDE "
+"frameworks 5 is not released yet. Therefore, at this point, Ring-KDE cannot "
+"be integrated with KAddressBook.</p><p>However, it is possible to integrate "
+"the <span style=\" font-weight:600;\">KDE4</span> version KAddressbook with "
+"Ring-KDE. To do this:</p><p>(1) Open <span style=\" font-weight:600;"
+"\">KAddressBook </span>and File-&gt;New-&gt;Add Address Book</p><p>(2) "
+"Select \"vCard directory\"</p><p>(3) Select the \"/home/<span style=\" font-"
+"style:italic;\">your_user_name</span>/.local/share/ring-kde/vCard\" folder</"
+"p><p>(4) Press OK</p><p>It will now be possible to access and edit your "
+"contacts from KAddressBook</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Akonadi 2，相容於 KDE Frameworks 5 的版本尚未釋出。因"
+"此，在這個時候，Ring-KDE 無法與 KAddressBook 整合。</p><p>然而，其可以與 "
+"<span style=\" font-weight:600;\">KDE4</span> 版本的 KAddressbook 整合。 要做"
+"到這件事：</p><p>(1) 開啟 <span style=\" font-weight:600;\">KAddressBook </"
+"span>與檔案-&gt;新-&gt;新增通訊錄</p><p>(2) 選取「vCard 目錄」</p><p>(3) 選取"
+"「/home/<span style=\" font-style:italic;\">您的使用者名稱</span>/.local/"
+"share/ring-kde/vCard」資料夾</p><p>(4) 按下確定</p><p>這樣就可以存取並編輯您"
+"在 KAddressBook 中的聯絡人</p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pHistoryGB)
+#: src/conf/dlggeneralbase.ui:38
+#, kde-format
+msgid "Ca&ll History"
+msgstr "通話歷史(&L)"
+
+#. i18n: ectx: property (text), widget (QPushButton, toolButton_historyClear)
+#: src/conf/dlggeneralbase.ui:49
+#, kde-format
+msgid "Clear History"
+msgstr "清除歷史"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pKeepHistory)
+#: src/conf/dlggeneralbase.ui:93
+#, kde-format
+msgid "Keep history forever"
+msgstr "永遠保留歷史"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/conf/dlggeneralbase.ui:103
+#, kde-format
+msgid "Automatically remove calls after"
+msgstr "在多久之後自動移除通話"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlggeneralbase.ui:148
+#, kde-format
+msgid "days"
+msgstr "天"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlggeneralbase.ui:158
+#, kde-format
+msgid "Display"
+msgstr "顯示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_mergeSameDayPeer)
+#: src/conf/dlggeneralbase.ui:164
+#, kde-format
+msgid "Merge calls with the same day and peer"
+msgstr "合併同一天與同一個人的通話"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
+#: src/conf/dlggeneralbase.ui:171
+#, kde-format
+msgid "Display incoming, outgoing and missed for history items"
+msgstr "顯示來電、去電與錯過的歷史項目"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedOutgoingCalls)
+#: src/conf/dlggeneralbase.ui:178
+#, kde-format
+msgid "Highlight missed outgoing calls"
+msgstr "突顯錯過的去電"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedIncomingCalls)
+#: src/conf/dlggeneralbase.ui:185
+#, kde-format
+msgid "Highlight missed incoming calls"
+msgstr "突顯錯過的來電"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/conf/dlggeneralbase.ui:192
+#, kde-format
+msgid "Those settings only take effect after restarting Ring-KDE"
+msgstr "那些設定僅在重新啟動 Ring-KDE 後生效"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pDown)
+#: src/conf/dlgpresence.ui:51
+#, kde-format
+msgid "Move Down"
+msgstr "下移"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pUp)
+#: src/conf/dlgpresence.ui:64
+#, kde-format
+msgid "Move Up"
+msgstr "上移"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
+#: src/conf/dlgpresence.ui:77
+#, kde-format
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
+#: src/conf/dlgpresence.ui:90
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
+#: src/conf/dlgpresence.ui:102
+#, kde-format
+msgid "Track bookmarked number presence"
+msgstr "追蹤存在的書籤號碼"
+
+#: src/conf/dlgvideo.cpp:46 src/conf/dlgvideo.cpp:85
+#, kde-format
+msgid "Stop preview"
+msgstr "停止預覽"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
+#: src/conf/dlgvideo.cpp:88 src/conf/dlgvideobase.ui:36
+#, kde-format
+msgid "Start preview"
+msgstr "開始預覽"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgVideoBase)
+#: src/conf/dlgvideobase.ui:14
+#, kde-format
+msgid "Video settings"
+msgstr "影像設定"
+
+#: src/conf/qml/devices.qml:127
+#, kde-format
+msgid "Enter your account password to confirm:"
+msgstr ""
+
+#: src/conf/qml/devices.qml:134
+#, fuzzy, kde-format
+#| msgid "Enter the password"
+msgid "Enter your Ring account password"
+msgstr "請輸入密碼"
+
+#: src/conf/qml/devices.qml:193
+#, kde-format
+msgid "Enter a name for this device"
+msgstr ""
+
+#: src/conf/qml/devices.qml:234
+#, kde-format
+msgid "Revokation in progress"
+msgstr ""
+
+#: src/conf/qml/devices.qml:317
+#, kde-format
+msgid "Link another device to the account"
+msgstr ""
+
+#: src/configurator/audiorecordingconfigurator.cpp:40
+#: src/configurator/bookmarkconfigurator.cpp:42
+#: src/configurator/peerprofileconfigurator.cpp:53
+#, fuzzy, kde-format
+#| msgid "Audio recording configurator"
+msgid "Peer profile configurator"
+msgstr "音效錄製設定器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPopularAsBookmark)
+#: src/configurator/bookmark.ui:17
+#, kde-format
+msgid "Display the most popular contacts as bookmarks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: src/configurator/bookmark.ui:24 src/photoselector/qml/editor.qml:199
+#, kde-format
+msgid "Clear"
+msgstr ""
+
+#: src/configurator/fallbackpersonconfigurator.cpp:35
+#, kde-format
+msgid "Fallback person configurator"
+msgstr "後備人物配置器"
+
+#: src/configurator/localhistoryconfigurator.cpp:39
+#, kde-format
+msgid "Local history configurator"
+msgstr "本機歷史配置器"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/configurator/peerprofile.ui:17
+#, kde-format
+msgid ""
+"This entry holds all the contact information sent to you by your peers "
+"during calls or contact requests. If a contact already exists for a person, "
+"the options below will help merge entries."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/configurator/peerprofile.ui:27
+#, kde-format
+msgid "Mode"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pNewContact)
+#: src/configurator/peerprofile.ui:33
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "Create a new contact"
+msgstr "加入新聯絡人"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pIgnore)
+#: src/configurator/peerprofile.ui:40
+#, kde-format
+msgid "Ignore the new contact informations"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAddMissing)
+#: src/configurator/peerprofile.ui:47
+#, kde-format
+msgid "Onl&y add the missing information fields"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAlwaysAsk)
+#: src/configurator/peerprofile.ui:54
+#, fuzzy, kde-format
+#| msgid "Always record calls"
+msgid "Always as&k"
+msgstr "總是錄製通話"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pCustom)
+#: src/configurator/peerprofile.ui:61
+#, kde-format
+msgid "Overwrite some fields"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/configurator/peerprofile.ui:74
+#, kde-format
+msgid "Contact fields to overwrite"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_formattedName)
+#: src/configurator/peerprofile.ui:80
+#, kde-format
+msgid "Formatted name"
+msgstr "格式化名稱"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_nickname)
+#: src/configurator/peerprofile.ui:87
+#, kde-format
+msgid "Nickname"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_primaryName)
+#: src/configurator/peerprofile.ui:94
+#, fuzzy, kde-format
+#| msgid "Display name*"
+msgid "Primary name"
+msgstr "顯示名稱*"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_lastName)
+#: src/configurator/peerprofile.ui:101
+#, fuzzy, kde-format
+#| msgid "Last Name"
+msgid "Last name"
+msgstr "姓"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_email)
+#: src/configurator/peerprofile.ui:108
+#, fuzzy, kde-format
+#| msgid "Mailbox"
+msgid "eMail"
+msgstr "信箱"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_org)
+#: src/configurator/peerprofile.ui:115
+#, kde-format
+msgid "Organization"
+msgstr "組織"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
+#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:436
+#, fuzzy, kde-format
+#| msgid "Address"
+msgid "Addresses"
+msgstr "地址"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:176
+#: src/timeline/qml/contactinfo.qml:425
+#, fuzzy, kde-format
+#| msgid "Phone number"
+msgid "Phone numbers"
+msgstr "電話號碼"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/configurator/recording.ui:36
+#, kde-format
+msgid "Length:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/configurator/recording.ui:77
+#, fuzzy, kde-format
+#| msgid "Last Name"
+msgid "Last updated:"
+msgstr "姓"
+
+#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, lineEdit)
+#: src/configurator/recording.ui:91
+#, kde-format
+msgid "Search"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:68
+#, kde-format
+msgid "This contact has no known phone number or GNU Ring account"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:75
+#, kde-format
+msgid ""
+"Sending text messages can only happen during an audio call in SIP accounts"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:77
+#, kde-format
+msgid "This account doesn't support all media"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:79
+#, kde-format
+msgid "Video isn't available because it's disabled for this account"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:81
+#, kde-format
+msgid "There is no account capable of reaching this person"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:83
+#, kde-format
+msgid "All video codecs are disabled, video call isn't possible"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:85
+#, kde-format
+msgid "All accounts capable of reaching this person are currently unavailable"
+msgstr ""
+
+#: src/contactview/qml/mediaavailability.qml:87
+#, kde-format
+msgid "Ring-KDE is experiencing a network issue, please try later"
+msgstr ""
+
+#: src/contactview/qml/vcardform.qml:94
+#, fuzzy, kde-format
+#| msgid "Formatted name"
+msgid "Formatted name:"
+msgstr "格式化名稱"
+
+#: src/contactview/qml/vcardform.qml:106
+#, fuzzy, kde-format
+#| msgid "Display name*"
+msgid "Primary name:"
+msgstr "顯示名稱*"
+
+#: src/contactview/qml/vcardform.qml:118
+#, fuzzy, kde-format
+#| msgid "Last Name"
+msgid "Last name:"
+msgstr "姓"
+
+#: src/contactview/qml/vcardform.qml:130
+#, fuzzy, kde-format
+#| msgid "Email"
+msgid "Email:"
+msgstr "電子郵件"
+
+#: src/contactview/qml/vcardform.qml:160
+#, kde-format
+msgid "Add a field"
+msgstr ""
+
+#: src/desktopview/qml/desktopwindow.qml:75
+#, kde-format
+msgid "Hide"
+msgstr ""
+
+#: src/dialview/qml/addcall.qml:27
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "Create a call"
+msgstr "加入新聯絡人"
+
+#: src/dialview/qml/mergecall.qml:61
+#, kde-format
+msgid "Merge all calls"
+msgstr ""
+
+#: src/dialview/qml/mergecall.qml:121
+#, fuzzy, kde-format
+#| msgid "Search call"
+msgid "Detach all calls"
+msgstr "搜尋通話"
+
+#: src/dialview/qml/missedcall.qml:46
+#, kde-format
+msgid "<center><b>Missed call</b></center> <br />from: "
+msgstr ""
+
+#: src/errormessage.cpp:22
+#, kde-format
+msgid ""
+"An unknown error occurred. Ring KDE will now exit. If the problem persist, "
+"please report a bug.\n"
+"\n"
+"It is known that this message can be caused by trying to open Ring KDE while "
+"the Ring daemon is exiting. If so, waiting 15 seconds and trying again will "
+"solve the issue."
+msgstr ""
+"遇到未知的錯誤。Ring KDE 現在將會結束。若問題仍持續，請回報臭蟲。\n"
+"\n"
+"已知這個訊息可能是在 Ring 幕後程式正在結束時嘗試開啟Ring KDE 時所造成。若可以"
+"的話，請等待15秒後再試一次，應該可以解決這個問題。"
+
+#: src/errormessage.cpp:27
+#, kde-format
+msgid ""
+"The Ring daemon (dring) is not available. Please be sure it is installed "
+"correctly or launch it manually. \n"
+"\n"
+"Check in your distribution repository if the Ring daemon (sometime called "
+"\"ring-daemon\") is available.\n"
+"Help for building Ring daemon from source are present at https://projects."
+"savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
+msgstr ""
+"Ring 幕後程式 (dring) 不可用。請確保它已正確安裝，或是手動啟動。\n"
+"\n"
+"在您的散佈版軟體倉庫中檢查 Ring 幕後程式（有時被稱為「ring-daemon」）是否可"
+"用。\n"
+"從原始碼建構 Ring 幕後程式的說明可以在這裡看到：\n"
+"https://projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
+
+#: src/eventmanager.cpp:165 src/eventmanager.cpp:185
+#, kde-format
+msgid "Remove the call from the conference, the call will be put on hold"
+msgstr "從會議中移除通話，通話將會被置於保留中"
+
+#: src/eventmanager.cpp:170 src/eventmanager.cpp:190
+#, kde-format
+msgid "Call %1 using %2"
+msgstr "使用 %2 的通話 %1"
+
+#: src/eventmanager.cpp:176 src/eventmanager.cpp:180 src/eventmanager.cpp:196
+#: src/eventmanager.cpp:200
+#, kde-format
+msgid "Call %1"
+msgstr "通話 %1"
+
+#: src/eventmanager.cpp:471
+#, kde-format
+msgid "Missed"
+msgstr "錯過的"
+
+#: src/eventmanager.cpp:473
+#, kde-format
+msgid "Cancelled"
+msgstr "已取消"
+
+#: src/eventmanager.cpp:476
+#, kde-format
+msgid "Call ended"
+msgstr "通話結束"
+
+#: src/eventmanager.cpp:542
+#, kde-format
+msgid "%1 is not unregistered"
+msgstr "%1 並非未註冊"
+
+#: src/implementation.cpp:268
+#, kde-format
+msgid "Are you sure you want to permanently delete %1?"
+msgstr "您確定您想要永久刪除 %1？"
+
+#: src/implementation.cpp:269
+#, kde-format
+msgid "Delete contact"
+msgstr "刪除聯絡人"
+
+#: src/implementation.cpp:279
+#, kde-format
+msgid "Are you sure you wish to remove this call?"
+msgstr "您確定您要移除這個通話？"
+
+#: src/implementation.cpp:279
+#, kde-format
+msgid "Delete call"
+msgstr "刪除通話"
+
+#: src/klib/akonadibackend.cpp:271
+#, kde-format
+msgid "Contact"
+msgstr "聯絡人"
+
+#. i18n: ectx: label, entry (enableWizard), group (main)
+#: src/klib/ring-kde.kcfg:12
+#, kde-format
+msgid "Show the first run wizard"
+msgstr "顯示首次執行精靈"
+
+#. i18n: ectx: label, entry (enableHistory), group (main)
+#. i18n: ectx: label, entry (requireLegacyHistoryImport), group (main)
+#: src/klib/ring-kde.kcfg:16 src/klib/ring-kde.kcfg:19
+#, kde-format
+msgid "Defines whether Ring-KDE should keep a history of calls."
+msgstr ""
+
+#. i18n: ectx: label, entry (historyMax), group (main)
+#: src/klib/ring-kde.kcfg:23
+#, kde-format
+msgid "Defines the number of days the history has to be kept."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayHistoryStatus), group (main)
+#: src/klib/ring-kde.kcfg:29
+#, kde-format
+msgid "Display incoming, outgoing or missed"
+msgstr ""
+
+#. i18n: ectx: label, entry (showSplash), group (main)
+#: src/klib/ring-kde.kcfg:36
+#, fuzzy, kde-format
+#| msgid "Display department"
+msgid "Display the splashscreen."
+msgstr "顯示部門"
+
+#. i18n: ectx: label, entry (notifOnCalls), group (main)
+#: src/klib/ring-kde.kcfg:40
+#, kde-format
+msgid "Defines whether user should be notified when receiving a call."
+msgstr ""
+
+#. i18n: ectx: label, entry (notifOnMessages), group (main)
+#: src/klib/ring-kde.kcfg:44
+#, kde-format
+msgid "Defines whether user should be notified when receiving a message."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayOnStart), group (main)
+#. i18n: ectx: label, entry (autoStart), group (main)
+#. i18n: ectx: label, entry (autoStartOverride), group (main)
+#: src/klib/ring-kde.kcfg:48 src/klib/ring-kde.kcfg:52
+#: src/klib/ring-kde.kcfg:56
+#, kde-format
+msgid "Defines whether the main window should be displayed on start."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayOnCalls), group (main)
+#: src/klib/ring-kde.kcfg:60
+#, kde-format
+msgid ""
+"Defines whether the main window should be displayed when receiving a message."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayOnNewCalls), group (main)
+#: src/klib/ring-kde.kcfg:64
+#, kde-format
+msgid ""
+"Defines whether the main window should be displayed when a call is created"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayDialpad), group (main)
+#: src/klib/ring-kde.kcfg:68
+#, kde-format
+msgid "Defines whether the dialpad is being shown by default"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayAccountBox), group (main)
+#: src/klib/ring-kde.kcfg:72
+#, kde-format
+msgid ""
+"Defines whether the statusbar account combobox is being shown by default"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayMessageBox), group (main)
+#: src/klib/ring-kde.kcfg:76
+#, kde-format
+msgid "Defines whether the text message box is visible"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayVolume), group (main)
+#: src/klib/ring-kde.kcfg:80
+#, kde-format
+msgid "Defines whether the volume widgets are visible by default"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayMenu), group (main)
+#: src/klib/ring-kde.kcfg:84
+#, kde-format
+msgid ""
+"Defines whether the main menu is visible by default, it can be restored with "
+"\"Ctrl+m\""
+msgstr ""
+
+#. i18n: ectx: label, entry (displayPopularAsBookmark), group (main)
+#: src/klib/ring-kde.kcfg:88
+#, kde-format
+msgid ""
+"Defines whether or not to display the 10 most popular phone number as "
+"bookmark automagically"
+msgstr ""
+
+#. i18n: ectx: label, entry (historySortMode), group (main)
+#: src/klib/ring-kde.kcfg:92
+#, kde-format
+msgid "Define sorting order for history list"
+msgstr ""
+
+#. i18n: ectx: label, entry (contactSortMode), group (main)
+#: src/klib/ring-kde.kcfg:95
+#, kde-format
+msgid "Define sorting order for contact list"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayPersonCallHistory), group (main)
+#: src/klib/ring-kde.kcfg:98
+#, kde-format
+msgid "Defines if the individual contact history list is visible"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompletionHeight), group (main)
+#: src/klib/ring-kde.kcfg:102
+#, kde-format
+msgid "The auto completion popup height"
+msgstr ""
+
+#. i18n: ectx: label, entry (keepVideoAspectRatio), group (main)
+#. i18n: ectx: label, entry (displayVideoPreview), group (main)
+#: src/klib/ring-kde.kcfg:108 src/klib/ring-kde.kcfg:112
+#, kde-format
+msgid "Enforce video aspect ratio or allow stretching"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoHideDiapadForVideo), group (main)
+#: src/klib/ring-kde.kcfg:116
+#, kde-format
+msgid "Save main window space by hiding the dialpad when the video is docked"
+msgstr ""
+
+#. i18n: ectx: label, entry (recentStreamedFiles), group (main)
+#: src/klib/ring-kde.kcfg:120
+#, kde-format
+msgid "Files recently streamed"
+msgstr ""
+
+#. i18n: ectx: label, entry (enableRoomTone), group (main)
+#: src/klib/ring-kde.kcfg:127
+#, kde-format
+msgid "Enable or disables the \"buzzzzz\" sound"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayAllCollections), group (main)
+#: src/klib/ring-kde.kcfg:134
+#, kde-format
+msgid "Display non manageable collections"
+msgstr ""
+
+#. i18n: ectx: label, entry (disabledCollectionList), group (main)
+#: src/klib/ring-kde.kcfg:139
+#, kde-format
+msgid "List of disabled address book collections"
+msgstr ""
+
+#. i18n: ectx: label, entry (phoneTypeList), group (main)
+#: src/klib/ring-kde.kcfg:143
+#, kde-format
+msgid "Defines whether the search in KDE Address Book is enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (hidePersonWithoutPhone), group (main)
+#: src/klib/ring-kde.kcfg:148
+#, kde-format
+msgid "Defines whether to display the organisation of the contact list item"
+msgstr ""
+
+#. i18n: ectx: label, entry (defaultPeerProfileMode), group (main)
+#: src/klib/ring-kde.kcfg:153
+#, kde-format
+msgid "Defines how peer profiles are merged with existing contacts"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (hideUnreachable), group (main)
+#: src/klib/ring-kde.kcfg:159
+#, kde-format
+msgid "Hide a contact if there is no enabled accounts that can reach him/her"
+msgstr ""
+
+#. i18n: ectx: label, entry (defaultAccountId), group (main)
+#: src/klib/ring-kde.kcfg:164
+#, kde-format
+msgid ""
+"Default account used for contact lookup if only partial (only extension) "
+"contacts info is available"
+msgstr ""
+
+#. i18n: ectx: label, entry (bookmarkList), group (main)
+#: src/klib/ring-kde.kcfg:185
+#, kde-format
+msgid "List of bookmarked clients"
+msgstr ""
+
+#. i18n: ectx: label, entry (enableAutoCompletion), group (main)
+#: src/klib/ring-kde.kcfg:204
+#, kde-format
+msgid "Enable auto completion widget"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompleteMergeNumbers), group (main)
+#: src/klib/ring-kde.kcfg:208
+#, kde-format
+msgid ""
+"If there is multiple instance of the same number, merge them and use the "
+"default account"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompleteUseAccount), group (main)
+#: src/klib/ring-kde.kcfg:212
+#, kde-format
+msgid ""
+"Call numbers back with their original account instead of the default one"
+msgstr ""
+
+#. i18n: ectx: label, entry (trackBookmarkPresence), group (main)
+#: src/klib/ring-kde.kcfg:218
+#, kde-format
+msgid "Track bookmarked contacts presence"
+msgstr ""
+
+#. i18n: ectx: label, entry (presenceStatusList), group (main)
+#: src/klib/ring-kde.kcfg:223
+#, kde-format
+msgid "List of presence status"
+msgstr ""
+
+#. i18n: ectx: label, entry (presenceAutoTrackedCollections), group (main)
+#: src/klib/ring-kde.kcfg:226
+#, kde-format
+msgid "List of item collections automatically tracked"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayRecentDock), group (main)
+#. i18n: ectx: label, entry (displayDialDock), group (main)
+#: src/klib/ring-kde.kcfg:243 src/klib/ring-kde.kcfg:247
+#, kde-format
+msgid "Display the recently used contacts"
+msgstr ""
+
+#: src/main.cpp:50
+#, kde-format
+msgid "ring-kde"
+msgstr ""
+
+#: src/main.cpp:52
+#, kde-format
+msgid "RING, a secured and distributed communication software"
+msgstr ""
+
+#: src/main.cpp:54
+#, kde-format
+msgid ""
+"(C) 2004-2015 Savoir-faire Linux\n"
+"2016-2017 Emmanuel Lepage Vallee"
+msgstr ""
+
+#: src/main.cpp:62
+#, kde-format
+msgid "Emmanuel Lepage-Vallée"
+msgstr ""
+
+#: src/main.cpp:63
+#, kde-format
+msgid "Alexandre Lision"
+msgstr ""
+
+#: src/main.cpp:64
+#, kde-format
+msgid "Based on the SFLphone teamworks"
+msgstr ""
+
+#: src/model/extendedprotocolmodel.cpp:50
+#, kde-format
+msgid "Import"
+msgstr "匯入"
+
+#: src/notification.cpp:81
+#, kde-format
+msgid "New incoming call"
+msgstr ""
+
+#: src/notification.cpp:83
+#, kde-format
+msgid ""
+"New call from <b>%1</b>\n"
+"<i>(%2)</i>"
+msgstr ""
+
+#: src/notification.cpp:90
+#, kde-format
+msgid "Answer"
+msgstr ""
+
+#: src/notification.cpp:141
+#, kde-format
+msgid "Message from %1"
+msgstr ""
+
+#: src/notification.cpp:182
+#, kde-format
+msgid "Add %1 to contacts?"
+msgstr ""
+
+#: src/notification.cpp:184
+#, kde-format
+msgid "Do you wish to add %1 to your addressbook?"
+msgstr ""
+
+#: src/notification.cpp:188
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#: src/notification.cpp:189
+#, kde-format
+msgid "No"
+msgstr ""
+
+#: src/notification.cpp:190
+#, kde-format
+msgid "Do not ask again"
+msgstr ""
+
+#: src/photoselector/photoselector.cpp:73
+#, kde-format
+msgid "Open Image"
+msgstr "開啟影像"
+
+#: src/photoselector/photoselector.cpp:75
+#, kde-format
+msgid "Image Files (*.png *.jpg *.gif)"
+msgstr "影像檔 (*.png *.jpg *.gif)"
+
+#: src/photoselector/qml/editor.qml:58
+#, kde-format
+msgid "Either select a file or take a selfie"
+msgstr ""
+
+#: src/photoselector/qml/editor.qml:172
+#, fuzzy, kde-format
+#| msgid "Profile"
+msgid "From file"
+msgstr "設定檔"
+
+#: src/photoselector/qml/editor.qml:181
+#, kde-format
+msgid "From camera"
+msgstr ""
+
+#: src/ringapplication.cpp:252
+#, kde-format
+msgid "Home"
+msgstr ""
+
+#: src/ringapplication.cpp:253
+#, kde-format
+msgid "Work"
+msgstr ""
+
+#: src/ringapplication.cpp:254
+#, kde-format
+msgid "Msg"
+msgstr ""
+
+#: src/ringapplication.cpp:255
+#, kde-format
+msgid "Pref"
+msgstr ""
+
+#: src/ringapplication.cpp:256
+#, kde-format
+msgid "Voice"
+msgstr ""
+
+#: src/ringapplication.cpp:257
+#, kde-format
+msgid "Fax"
+msgstr ""
+
+#: src/ringapplication.cpp:258
+#, kde-format
+msgid "Cell"
+msgstr ""
+
+#: src/ringapplication.cpp:259 src/timeline/qml/mediabuttons.qml:120
+#, kde-format
+msgid "Video"
+msgstr "影片"
+
+#: src/ringapplication.cpp:260
+#, kde-format
+msgid "Bbs"
+msgstr ""
+
+#: src/ringapplication.cpp:261
+#, kde-format
+msgid "Modem"
+msgstr ""
+
+#: src/ringapplication.cpp:262
+#, kde-format
+msgid "Car"
+msgstr ""
+
+#: src/ringapplication.cpp:263
+#, kde-format
+msgid "Isdn"
+msgstr ""
+
+#: src/ringapplication.cpp:264
+#, kde-format
+msgid "Pcs"
+msgstr ""
+
+#: src/ringapplication.cpp:265
+#, kde-format
+msgid "Pager"
+msgstr ""
+
+#: src/ringapplication.cpp:266
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: src/ringapplication.cpp:314
+#, kde-format
+msgid "System root certificates"
+msgstr ""
+
+#: src/timeline/qml/chatbox.qml:179
+#, kde-format
+msgid "Write a message and press enter..."
+msgstr ""
+
+#: src/timeline/qml/contactheader.qml:117
+#, kde-format
+msgid ""
+"Add\n"
+"Photo"
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:88
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:91
+#, kde-format
+msgid "<b>Last contacted on:</b> "
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:95
+#, kde-format
+msgid "<b>Called:</b> "
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:100
+#, kde-format
+msgid "<b>Texted:</b> "
+msgstr ""
+
+#: src/timeline/qml/contactinfo.qml:183 src/timeline/qml/contactinfo.qml:383
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Statistics"
+msgstr "狀態"
+
+#: src/timeline/qml/contactinfo.qml:396
+#, fuzzy, kde-format
+#| msgid "Search history"
+msgid "View history"
+msgstr "搜尋歷史"
+
+#: src/timeline/qml/contactinfo.qml:406
+#, fuzzy, kde-format
+#| msgid "Open Image"
+msgid "Open chat"
+msgstr "開啟影像"
+
+#: src/timeline/qml/contactinfo.qml:414
+#, fuzzy, kde-format
+#| msgid "Visible contacts Details"
+msgid "Contact details"
+msgstr "可見的聯絡人詳細資訊"
+
+#: src/timeline/qml/mediabuttons.qml:73 src/timeline/qml/phonenumbers.qml:169
+#, kde-format
+msgid "Call"
+msgstr "通話"
+
+#: src/timeline/qml/mediabuttons.qml:166
+#, kde-format
+msgid "Screen sharing"
+msgstr ""
+
+#: src/timeline/qml/mediabuttons.qml:202
+#, kde-format
+msgid "Chat"
+msgstr ""
+
+#: src/timeline/qml/peerstimeline.qml:123
+#, kde-format
+msgid ""
+"To begin using Ring-KDE, enter an username in the box above and press enter "
+"or add new contacts"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:68
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:91
+#, fuzzy, kde-format
+#| msgid "Cancelled"
+msgid "Cancel"
+msgstr "已取消"
+
+#: src/timeline/qml/phonenumbers.qml:116
+#, kde-format
+msgid "Add a phone number or GNU Ring identity"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:162
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:175
+#, fuzzy, kde-format
+#| msgid "Video"
+msgid "Video call"
+msgstr "影片"
+
+#: src/timeline/qml/phonenumbers.qml:181
+#, fuzzy, kde-format
+#| msgid "Fullscreen"
+msgid "Share screen"
+msgstr "全螢幕"
+
+#: src/timeline/qml/phonenumbers.qml:233
+#, kde-format
+msgid "Never used"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:234
+#, kde-format
+msgid "Used "
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:234
+#, kde-format
+msgid " time (Last used on: "
+msgstr ""
+
+#: src/timeline/qml/searchbox.qml:109
+#, kde-format
+msgid "Find someone"
+msgstr ""
+
+#: src/timeline/qml/searchoverlay.qml:110
+#, kde-format
+msgid "Scan a QR Code"
+msgstr ""
+
+#: src/timeline/qml/searchoverlay.qml:118
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: src/timeline/qml/viewcontact.qml:140
+#, kde-format
+msgid "Chat/Timeline"
+msgstr ""
+
+#: src/timeline/qml/viewcontact.qml:143
+#, fuzzy, kde-format
+#| msgid "Audio"
+msgid "Audio/Video"
+msgstr "音效"
+
+#: src/timeline/qml/viewcontact.qml:146
+#, fuzzy, kde-format
+#| msgid "Recording"
+msgid "Calls/Recordings"
+msgstr "錄製"
+
+#: src/timeline/qml/viewcontact.qml:149
+#, fuzzy, kde-format
+#| msgid "Configuration"
+msgid "Information"
+msgstr "設定"
+
+#: src/widgets/fileselector.cpp:35
+#, fuzzy, kde-format
+#| msgid "Open Image"
+msgid "Open File"
+msgstr "開啟影像"
+
+#: src/widgets/kphonenumberselector.cpp:48
+#, kde-format
+msgid "Select phone number"
+msgstr ""
+
+#: src/widgets/kphonenumberselector.cpp:48
+#, kde-format
+msgid ""
+"This contact has many phone numbers, please select the one you wish to call"
+msgstr ""
+
+#: src/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "None"
+msgstr "無"
+
+#: src/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Weak"
+msgstr "弱"
+
+#: src/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Medium"
+msgstr "中"
+
+#: src/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Acceptable"
+msgstr "可接受"
+
+#: src/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Strong"
+msgstr "強"
+
+#: src/widgets/securityprogress.cpp:65
+#, kde-format
+msgid "Complete"
+msgstr "完成"
+
+#: src/widgets/securityprogress.cpp:275
+#, kde-format
+msgid "%1 tip"
+msgid_plural "%1 tips"
+msgstr[0] "%1 個提示"
+
+#: src/widgets/securityprogress.cpp:276
+#, kde-format
+msgid "%1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] "%1 個警告"
+
+#: src/widgets/securityprogress.cpp:277
+#, kde-format
+msgid "%1 issue"
+msgid_plural "%1 issues"
+msgstr[0] "%1 個問題"
+
+#: src/widgets/securityprogress.cpp:278
+#, kde-format
+msgid "%1 error"
+msgid_plural "%1 errors"
+msgstr[0] "%1 個錯誤"
+
+#. i18n: ectx: property (text), widget (QLabel, confirmPasswordLabel)
+#: src/widgets/ui/accountcreator.ui:17
+#, kde-format
+msgid "&Confirm password:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: src/widgets/ui/accountcreator.ui:37
+#, kde-format
+msgid "&Password:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, signUpCheckBox)
+#: src/widgets/ui/accountcreator.ui:50
+#, kde-format
+msgid "Register public username (experimental)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: src/widgets/ui/accountcreator.ui:76
+#, kde-format
+msgid "Choose your username:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, createAccountButton)
+#: src/widgets/ui/accountcreator.ui:86
+#, kde-format
+msgid "Create an account"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: src/widgets/ui/accountcreator.ui:122
+#, kde-format
+msgid "Create your account"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, searchingStateLabel)
+#: src/widgets/ui/accountcreator.ui:167
+#, kde-format
+msgid "Searching..."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DirectoryView)
+#: src/widgets/ui/directoryview.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "對話框"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/directoryview.ui:53
+#, kde-format
+msgid ""
+"This dialog is an overview of Ring-KDE phonebook. Some elements may exist "
+"multiple times if they are associated with multiple accounts or contacts. "
+"The elements present in this table come from the history, contacts and other "
+"sources."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pOpenFile)
+#: src/widgets/ui/fileselect.ui:24
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#: src/wizard/qml/ButtonBar.qml:48
+#, kde-format
+msgid "Back"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:66
+#, kde-format
+msgid "Please fill the required fields"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:76
+#, kde-format
+msgid "Next"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:83
+#, kde-format
+msgid "Skip"
+msgstr ""
+
+#: src/wizard/qml/ButtonBar.qml:125
+#, kde-format
+msgid "Please wait"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:81
+#, kde-format
+msgid "Register public username (experimental)*"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:94
+#, kde-format
+msgid "Enter an username"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:153
+#, kde-format
+msgid "Please enter an username"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:170
+#, fuzzy, kde-format
+#| msgid "Enter the password"
+msgid "Enter an archive password"
+msgstr "請輸入密碼"
+
+#: src/wizard/qml/CreateRing.qml:186
+#, fuzzy, kde-format
+#| msgid "Enter the password"
+msgid "Repeat the new password"
+msgstr "請輸入密碼"
+
+#: src/wizard/qml/CreateRing.qml:201
+#, kde-format
+msgid "Passwords don't match"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:236
+#, kde-format
+msgid ""
+"(*) registered usernames can be reached by their username-string instead of "
+"their generated ring-id number only."
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:266
+#, fuzzy, kde-format
+#| msgid "New account"
+msgid "Creating account"
+msgstr "新增帳戶"
+
+#: src/wizard/qml/CreateRing.qml:293 src/wizard/qml/ImportRing.qml:163
+#, kde-format
+msgid "Timeout"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:361
+#, fuzzy, kde-format
+#| msgid "I am available"
+msgid "The username is available"
+msgstr "我有空"
+
+#: src/wizard/qml/CreateRing.qml:365
+#, kde-format
+msgid "Please enter an username (3 characters minimum)"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:370
+#, kde-format
+msgid "The registered name lookup failed, ignoring"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:374
+#, fuzzy, kde-format
+#| msgid "I am available"
+msgid "The username is not available"
+msgstr "我有空"
+
+#: src/wizard/qml/CreateRing.qml:397
+#, kde-format
+msgid "Success"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:402
+#, fuzzy, kde-format
+#| msgid "Password"
+msgid "Password mismatch"
+msgstr "密碼"
+
+#: src/wizard/qml/CreateRing.qml:405
+#, kde-format
+msgid "Invalid name"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:408
+#, kde-format
+msgid "Already taken"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:411
+#, fuzzy, kde-format
+#| msgid "Network"
+msgid "Network error"
+msgstr "網路"
+
+#: src/wizard/qml/CreateRing.qml:430
+#, fuzzy, kde-format
+#| msgid "%1 is not unregistered"
+msgid "Can't register"
+msgstr "%1 並非未註冊"
+
+#: src/wizard/qml/ImportRing.qml:63
+#, kde-format
+msgid "Link this device"
+msgstr ""
+
+#: src/wizard/qml/ImportRing.qml:83
+#, kde-format
+msgid "Enter your main Ring account password"
+msgstr ""
+
+#: src/wizard/qml/ImportRing.qml:101
+#, kde-format
+msgid ""
+"Enter the PIN number from another configured Ring account. Use the \"Export "
+"account on Ring\" feature to obtain a PIN."
+msgstr ""
+
+#: src/wizard/qml/ImportRing.qml:136
+#, fuzzy, kde-format
+#| msgid "Import accounts"
+msgid "Importing account"
+msgstr "匯入帳號"
+
+#: src/wizard/qml/ImportRing.qml:187
+#, kde-format
+msgid "Importing failed"
+msgstr ""
+
+#: src/wizard/qml/Page1Form.ui.qml:47
+#, kde-format
+msgid ""
+"Welcome to Ring-KDE. Before you can contact your friend, you have to have an "
+"account. Don't worry, creating one is easy and doesn't require sharing any "
+"personal information. If you are in an office or your phone service provider "
+"offers a SIP account, you can also configure Ring-KDE to take your \"real\" "
+"phone calls."
+msgstr ""
+
+#: src/wizard/qml/Page1Form.ui.qml:57
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "Create a new GNU Ring account"
+msgstr "加入新聯絡人"
+
+#: src/wizard/qml/Page1Form.ui.qml:64
+#, fuzzy, kde-format
+#| msgid "Import accounts"
+msgid "Import an existing account"
+msgstr "匯入帳號"
+
+#: src/wizard/qml/Page1Form.ui.qml:71
+#, kde-format
+msgid "Use an anonymous account"
+msgstr ""
+
+#: src/wizard/qml/Page1Form.ui.qml:79 src/wizard/qml/wizard.qml:217
+#, fuzzy, kde-format
+#| msgid "Import accounts"
+msgid "Import a SIP account"
+msgstr "匯入帳號"
+
+#: src/wizard/qml/Page1Form.ui.qml:87
+#, kde-format
+msgid "Use on local network"
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:104
+#, kde-format
+msgid ""
+"Ring-KDE allows you to communicate privately with your friends. It uses peer "
+"to peer technologies popularised by BitTorrent to create a decentralized "
+"network of users. There is no central server and all communications are end-"
+"to-end encrypted."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:121
+#, kde-format
+msgid ""
+"Ring-KDE stores all data locally using standard formats such as JSON, vCard, "
+"MIME, PCM/WAV, INI and X-509. No data is ever uploaded to external servers."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:138
+#, kde-format
+msgid ""
+"Ring-KDE supports your office phone account. Answers, transfer and record "
+"your phone calls directly from KDE."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:155
+#, kde-format
+msgid ""
+"Ring is based on open standards and it can interoperate with other SIP "
+"compliant systems."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:172
+#, kde-format
+msgid ""
+"Ring offers an user friendly DBus API to automate all aspects of the "
+"application."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:189
+#, kde-format
+msgid ""
+"Ring-KDE can call real phone numbers. Cheap credits are available from "
+"thousand of providers worldwide. Use your favorite search engine to locate a "
+"local SIP phone provider."
+msgstr ""
+
+#: src/wizard/qml/StartingPageForm.ui.qml:199
+#, kde-format
+msgid "Press anywhere to begin"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Organization"
+#~ msgid "Organization:"
+#~ msgstr "組織"
+
+#~ msgid "Online"
+#~ msgstr "上線"
+
+#~ msgid "I am available"
+#~ msgstr "我有空"
+
+#~ msgid "Away"
+#~ msgstr "離開"
+
+#~ msgid "I am away"
+#~ msgstr "離開"
+
+#~ msgid "Busy"
+#~ msgstr "忙碌"
+
+#~ msgid "I am busy"
+#~ msgstr "忙碌"
+
+#~ msgid "DND"
+#~ msgstr "DND"
+
+#~ msgid "Please do not disturb me"
+#~ msgstr "請不要打擾我"
+
+#, fuzzy
+#~| msgid " seconds"
+#~ msgid "Second"
+#~ msgstr " 秒"
+
+#~ msgid "No registered accounts"
+#~ msgstr "未註冊的帳號"
+
+#, fuzzy
+#~| msgid "Raise Ring-KDE window"
+#~ msgid "Ring-KDE wizard"
+#~ msgstr "提升 Ring-KDE 視窗"
+
+#~ msgid ""
+#~ "In this table, it is possible to manage different presence states. The "
+#~ "\"Message\" and \"Present\" values will be exported to the server for "
+#~ "every accounts that support it. The other fields are designed to make "
+#~ "presence status management easier. Please note that some SIP registrar "
+#~ "have incomplete presence status (publishing) support."
+#~ msgstr ""
+#~ "在這個表格中，可以管理不同的存在狀態。「訊息」與「存在」值將會被匯出至伺服"
+#~ "器給每個支援的帳號。其他的欄位被設計為讓狀態管理更簡單。請注意有一些 SIP "
+#~ "註冊器僅有不完整的狀態（公開）支援。"
+
+#~ msgid "Conference"
+#~ msgstr "會議"
+
+#~ msgctxt "Contact tab"
+#~ msgid "Contact"
+#~ msgstr "聯絡人"
+
+#~ msgctxt "History tab"
+#~ msgid "History"
+#~ msgstr "歷史"
+
+#~ msgctxt "Bookmark tab"
+#~ msgid "Bookmark"
+#~ msgstr "書籤"
+
+#~ msgid "Bookmark"
+#~ msgstr "書籤"
+
+#~ msgid "History"
+#~ msgstr "歷史"
+
+#, fuzzy
+#~| msgid "Add new contact"
+#~ msgctxt "View contact tab"
+#~ msgid "View contact"
+#~ msgstr "加入新聯絡人"
+
+#~ msgid "Phone number"
+#~ msgstr "電話號碼"
+
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgid "The name you send to your peer"
+#~ msgstr "您要傳送給對方的名稱"
+
+#~ msgid "Peers lookup"
+#~ msgstr "查詢對方"
+
+#~ msgid "Bootstrap"
+#~ msgstr "Bootstrap"
+
+#~ msgid "Automatically add nodes"
+#~ msgstr "自動新增節點"
+
+#~ msgid "Only allow incoming calls from known peers"
+#~ msgstr "僅允許從已知人物的來電"
+
+#~ msgid "For your friends to be able to call you, send them your hash:"
+#~ msgstr "讓您的朋友可以打電話給您，寄送您的雜湊碼給他們："
+
+#~ msgid "Your hash will be generated once the account is saved"
+#~ msgstr "您的雜湊值將會在帳號儲存時生成一次"
+
+#~ msgid "Fields marked with \"*\" are compulsory and required"
+#~ msgstr "標有「*」的欄位是必填欄位"
+
+#~ msgid "Display text message box"
+#~ msgstr "顯示文字訊息框"
+
+#~ msgctxt "Account voice mail address"
+#~ msgid "Voicemail"
+#~ msgstr "音訊郵件"
+
+#~ msgid "Usually the same as the username"
+#~ msgstr "通常與使用者名稱相同"
+
+#~ msgid "Select..."
+#~ msgstr "選取..."
+
+#~ msgid "Street, number..."
+#~ msgstr "街，編號..."
+
+#~ msgid "City..."
+#~ msgstr "城市..."
+
+#~ msgid "State..."
+#~ msgstr "州..."
+
+#~ msgid "WORK"
+#~ msgstr "工作"
+
+#~ msgid "HOME"
+#~ msgstr "家"
+
+#~ msgid "OTHER"
+#~ msgstr "其他"
+
+#~ msgid "ZIP..."
+#~ msgstr "郵遞區號..."
+
+#~ msgid "Country..."
+#~ msgstr "國家..."
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Family name..."
+#~ msgstr "姓氏..."
+
+#~ msgid "Custom field..."
+#~ msgstr "自訂欄位..."
+
+#~ msgid "First name..."
+#~ msgstr "名..."
+
+#~ msgid "A pseudonym or a full name"
+#~ msgstr "化名或全名"
+
+#~ msgid "Hooks"
+#~ msgstr "掛鉤"
+
+#~ msgid ""
+#~ "This page allows to create macros that can then be called using keyboard "
+#~ "shortcuts or added to the toolbar. To create one, assign a name and a "
+#~ "character sequence. The sequence can be numeric or any character than can "
+#~ "be interpreted as one (ex: \"A\" would be interpreted as 2)"
+#~ msgstr ""
+#~ "這個頁面讓您可以建立可以使用鍵盤快捷鍵或是新增到工具列的方式建立巨集。要建"
+#~ "立一個，指派名稱與字元序列。序列可以是數字或任何其他可以被解譯的字元（例"
+#~ "如：\"A\" 會被解譯為 2）"
+
+#~ msgid "Auto completion"
+#~ msgstr "文字補完"
+
+#~ msgid "Merge numbers from different accounts"
+#~ msgstr "從不同的帳號合併號碼"
+
+#~ msgid "Call number using their original accounts"
+#~ msgstr "使用他們原本的帳號撥號"
+
+#~ msgid "Macro"
+#~ msgstr "巨集"
+
+#~ msgid "Name*"
+#~ msgstr "名稱*"
+
+#~ msgid "Identifier for this macro (toolbar text)"
+#~ msgstr "此巨集的標識符（工具列文字）"
+
+#~ msgid "Category*"
+#~ msgstr "類別*"
+
+#~ msgid "Sequence*"
+#~ msgstr "序列*"
+
+#~ msgid "The key sequence to be executed"
+#~ msgstr "要被執行的按鍵序列"
+
+#~ msgid "Delay"
+#~ msgstr "延遲"
+
+#~ msgid "ms"
+#~ msgstr "毫秒"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "A description for this macro"
+#~ msgstr "此巨集的描述"
+
+#~ msgid "Shortcut"
+#~ msgstr "快捷鍵"
+
+#~ msgid "Info"
+#~ msgstr "資訊"
+
+#~ msgid "Add collection"
+#~ msgstr "加入收藏"
+
+#~ msgid "Extensions"
+#~ msgstr "副檔名"
+
+#~ msgid "Content"
+#~ msgstr "內容"
+
+#~ msgid "Display Icon"
+#~ msgstr "顯示圖示"
+
+#~ msgid "Display Security"
+#~ msgstr "顯示安全性"
+
+#~ msgid "Display Peer Name"
+#~ msgstr "顯示對方名稱"
+
+#~ msgid "Display organisation"
+#~ msgstr "顯示組織"
+
+#~ msgid "Display e-mail"
+#~ msgstr "顯示電子郵件"
+
+#~ msgid "Notifications"
+#~ msgstr "通知"
+
+#~ msgid "On messages"
+#~ msgstr "在訊息時"
+
+#~ msgid "Display email address"
+#~ msgstr "顯示電子郵件地址"
+
+#~ msgid "Visible Call Details"
+#~ msgstr "可見的通話詳細資訊"
+
+#~ msgid "Minimum item height"
+#~ msgstr "最小項目高度"
+
+#~ msgid "URL Argument"
+#~ msgstr "URL 參數"
+
+#~ msgid "Custom commands on incoming calls with URL"
+#~ msgstr "在有 URL 的來電上的自訂指令"
+
+#~ msgid "Trigger on specific SIP header"
+#~ msgstr "在特定的 SIP 標頭上觸發"
+
+#~ msgid "Trigger on IAX2 URL"
+#~ msgstr "在 IAX2 URL 上觸發"
+
+#~ msgid "Command to run"
+#~ msgstr "要執行的指令"
+
+#~ msgid "%s will be replaced with the passed URL."
+#~ msgstr "%s 將會被傳遞的 URL 取代。"
+
+#~ msgid "Phone Number Rewriting"
+#~ msgstr "重寫電話號碼"
+
+#~ msgid "Prefix dialed numbers with"
+#~ msgstr "撥號前綴"
+
+#~ msgid "Device Configuration"
+#~ msgstr "裝置設定"

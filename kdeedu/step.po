@@ -1,0 +1,2887 @@
+# translation of step.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: step\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-19 03:23+0100\n"
+"PO-Revision-Date: 2015-02-15 23:25+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: step/configure_controller.ui:28 step/configure_graph.ui:28
+#: step/configure_meter.ui:28
+#, kde-format
+msgid "Data Source"
+msgstr "資料來源"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: step/configure_controller.ui:47
+#, kde-format
+msgid "Range"
+msgstr "範圍"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: step/configure_controller.ui:59 step/configure_graph.ui:83
+#, kde-format
+msgid "min:"
+msgstr "最小："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: step/configure_controller.ui:75 step/configure_graph.ui:99
+#, kde-format
+msgid "max:"
+msgstr "最大："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMin)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMinX)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMinY)
+#: step/configure_controller.ui:97 step/configure_graph.ui:135
+#: step/configure_graph.ui:187
+#, kde-format
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMass)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMax)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditBodyMass)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMaxX)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMaxY)
+#: step/configure_controller.ui:119 step/configure_graph.ui:151
+#: step/configure_graph.ui:203 step/create_gas_particles.ui:125
+#: step/create_softbody_items.ui:78
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: step/configure_controller.ui:132
+#, kde-format
+msgid "Shortcuts"
+msgstr "捷徑"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/configure_controller.ui:138
+#, kde-format
+msgid "Decrease:"
+msgstr "遞減："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: step/configure_controller.ui:148
+#, kde-format
+msgid "Increase:"
+msgstr "遞增："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/configure_controller.ui:179
+#, kde-format
+msgid "Increment:"
+msgstr "增加量："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditIncrement)
+#: step/configure_controller.ui:192
+#, kde-format
+msgid "0.1"
+msgstr "0.1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/configure_graph.ui:34 step/configure_graph.ui:109
+#, kde-format
+msgid "X :"
+msgstr "X："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: step/configure_graph.ui:51 step/configure_graph.ui:161
+#, kde-format
+msgid "Y :"
+msgstr "Y："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: step/configure_graph.ui:71
+#, kde-format
+msgid "Ranges"
+msgstr "範圍"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxAutoX)
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxAutoY)
+#: step/configure_graph.ui:122 step/configure_graph.ui:174
+#, kde-format
+msgid "auto"
+msgstr "自動"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: step/configure_graph.ui:216 step/configure_meter.ui:47
+#: step/create_gas_particles.ui:28 step/create_softbody_items.ui:28
+#, kde-format
+msgid "Options"
+msgstr "選項"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxShowLines)
+#: step/configure_graph.ui:222
+#, kde-format
+msgid "Show lines"
+msgstr "顯示線"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxShowPoints)
+#: step/configure_graph.ui:229
+#, kde-format
+msgid "Show points"
+msgstr "顯示點"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/configure_meter.ui:53
+#, kde-format
+msgid "Number of digits:"
+msgstr "位數："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/configure_step_general.ui:16
+#, kde-format
+msgid "Display precision:"
+msgstr "顯示精確度："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showAxes)
+#: step/configure_step_general.ui:52
+#, kde-format
+msgid "Show scene axes"
+msgstr "顯示場軸"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showCreationTips)
+#: step/configure_step_general.ui:59
+#, kde-format
+msgid "Show tips when creating objects"
+msgstr "建立物件時顯示提示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableOpenGL)
+#: step/configure_step_general.ui:66
+#, kde-format
+msgid "Enable OpenGL (EXPERIMENTAL)"
+msgstr "開啟 OpenGL（實驗性質）"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wikiExternal)
+#: step/configure_step_general.ui:73
+#, kde-format
+msgid "Open wikipedia in external browser"
+msgstr "在外部瀏覽器開啟維基百科"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: step/create_gas_particles.ui:34
+#, kde-format
+msgid "Area"
+msgstr "面積"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditVolume)
+#: step/create_gas_particles.ui:41
+#, kde-format
+msgid "The area the gas takes"
+msgstr "氣體面積"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/create_gas_particles.ui:61
+#, kde-format
+msgid "Particle count:"
+msgstr "粒子數："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditCount)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, lineEditCount)
+#: step/create_gas_particles.ui:68 step/create_gas_particles.ui:71
+#, kde-format
+msgid "The number of particles of this gas."
+msgstr "此氣體的粒子數。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditCount)
+#: step/create_gas_particles.ui:74
+#, kde-format
+msgid "20"
+msgstr "20"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: step/create_gas_particles.ui:91
+#, kde-format
+msgid "Concentration:"
+msgstr "濃縮："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: step/create_gas_particles.ui:112
+#, kde-format
+msgid "Particle mass:"
+msgstr "粒子質量："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditMass)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, lineEditMass)
+#: step/create_gas_particles.ui:119 step/create_gas_particles.ui:122
+#, kde-format
+msgid "The mass of one particle"
+msgstr "一顆粒子的質量"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/create_gas_particles.ui:142
+#, kde-format
+msgid "Temperature:"
+msgstr "溫度："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditTemperature)
+#: step/create_gas_particles.ui:149
+#, kde-format
+msgid "1e21"
+msgstr "1e21"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: step/create_gas_particles.ui:166
+#, kde-format
+msgid "Mean velocity:"
+msgstr "平均速率："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMeanVelocity)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditPosition)
+#: step/create_gas_particles.ui:173 step/create_softbody_items.ui:44
+#, kde-format
+msgid "(0,0)"
+msgstr "(0,0)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: step/create_softbody_items.ui:37
+#, kde-format
+msgid "Position:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/create_softbody_items.ui:54
+#, kde-format
+msgid "Body size:"
+msgstr "本體大小："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditSize)
+#: step/create_softbody_items.ui:61
+#, kde-format
+msgid "(1,1)"
+msgstr "(1,1)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: step/create_softbody_items.ui:71
+#, kde-format
+msgid "Body mass:"
+msgstr "本體質量："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/create_softbody_items.ui:88
+#, kde-format
+msgid "Young's modulus:"
+msgstr "楊氏係數（Young's modulus）："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditYoungModulus)
+#: step/create_softbody_items.ui:95
+#, kde-format
+msgid "15"
+msgstr "15"
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: step/create_softbody_items.ui:105
+#, kde-format
+msgid "Body damping:"
+msgstr "本體阻尼："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditBodyDamping)
+#: step/create_softbody_items.ui:112
+#, kde-format
+msgid "0.3"
+msgstr "0.3"
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: step/create_softbody_items.ui:122
+#, kde-format
+msgid "Body split counts:"
+msgstr "本體分裂計數："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditSplit)
+#: step/create_softbody_items.ui:129
+#, kde-format
+msgid "(4,4)"
+msgstr "(4,4)"
+
+#: step/gascreationdialog.cc:43
+#, kde-format
+msgid "Create gas particles"
+msgstr "建立氣體粒子"
+
+#: step/gasgraphics.cc:41
+#, kde-format
+msgid ""
+"Press left mouse button to position\n"
+"top left corner of a region for %1"
+msgstr "按下滑鼠左鍵來決定 %1 的左上角位置"
+
+#: step/gasgraphics.cc:53 step/motorgraphics.cc:41 step/motorgraphics.cc:222
+#: step/polygongraphics.cc:171 step/polygongraphics.cc:305
+#: step/polygongraphics.cc:450 step/softbodygraphics.cc:62
+#: step/worldgraphics.cc:68 step/worldgraphics.cc:118
+#, kde-format
+msgid "Create %1"
+msgstr "建立 %1"
+
+#: step/gasgraphics.cc:69
+#, kde-format
+msgid ""
+"Move mouse and release left mouse button to position\n"
+"bottom right corner of the region for %1"
+msgstr "拖曳滑鼠左鍵來決定 %1 的右下角位置"
+
+#: step/gasgraphics.cc:95
+#, kde-format
+msgid "Please fill in the parameters for the gas particles."
+msgstr "請填入氣體粒子的參數。"
+
+#: step/gasgraphics.cc:104 step/polygongraphics.cc:206
+#: step/polygongraphics.cc:345 step/polygongraphics.cc:500
+#: step/softbodygraphics.cc:79 step/worldgraphics.cc:85
+#: step/worldgraphics.cc:132 step/worldgraphics.cc:167
+#, kde-format
+msgid "%1 named '%2' created"
+msgstr "名為 %2 的 %1 已建立"
+
+#: step/gasgraphics.cc:292
+#, kde-format
+msgid "Create particles..."
+msgstr "建立粒子..."
+
+#: step/gasgraphics.cc:362
+#, kde-format
+msgid ""
+"You are trying to create a very large number of particles. This will make "
+"simulation very slow. Do you want to continue?"
+msgstr "您正試圖建立非常大量的粒子。它可能會讓模擬變得非常慢。您確定要繼續嗎？"
+
+#: step/gasgraphics.cc:364 step/mainwindow.cc:368 step/mainwindow.cc:426
+#, kde-format
+msgid "Warning - Step"
+msgstr "警告─Step"
+
+#: step/gasgraphics.cc:375
+#, kde-format
+msgid "Create particles for %1"
+msgstr "建立 %1 的粒子"
+
+#: step/infobrowser.cc:39
+#, kde-format
+msgid "Context info"
+msgstr "內文資訊"
+
+#: step/infobrowser.cc:57
+#, kde-format
+msgid "Back"
+msgstr "返回"
+
+#: step/infobrowser.cc:59
+#, kde-format
+msgid "Forward"
+msgstr "往後"
+
+#: step/infobrowser.cc:63
+#, kde-format
+msgid "Sync selection"
+msgstr "同步選取"
+
+#: step/infobrowser.cc:65
+#, kde-format
+msgid "Follow selection"
+msgstr "跟隨選取"
+
+#: step/infobrowser.cc:70
+#, kde-format
+msgid "Open in browser"
+msgstr "在瀏覽器開啟"
+
+#: step/infobrowser.cc:155
+#, kde-format
+msgid "Documentation"
+msgstr "文件"
+
+#: step/infobrowser.cc:160
+#, kde-format
+msgid "No current object."
+msgstr "沒有目前的物件。"
+
+#: step/infobrowser.cc:180
+#, kde-format
+msgid "Documentation error"
+msgstr "文件錯誤"
+
+#: step/infobrowser.cc:185
+#, kde-format
+msgid "Documentation for %1 not available. "
+msgstr "找不到 %1 的文件"
+
+#: step/infobrowser.cc:186
+#, kde-format
+msgid ""
+"You can help <a href=\"http://edu.kde.org/step\">Step</a> by writing it!"
+msgstr "您可以協助 <a href=\"http://edu.kde.org/step\">Step</a> 撰寫文件。"
+
+#: step/infobrowser.cc:201
+#, kde-format
+msgid "Wikipedia"
+msgstr "維基百科"
+
+#: step/infobrowser.cc:205
+#, kde-format
+msgid "Fetching Wikipedia Information..."
+msgstr "讀取維基百科資訊中..."
+
+#: step/infobrowser.cc:299
+#, kde-format
+msgid "Wikipedia error"
+msgstr "維基百科錯誤"
+
+#: step/infobrowser.cc:303
+#, kde-format
+msgid ""
+"Information could not be retrieved because the server was not reachable."
+msgstr "無法拮取資訊，因為無法連線到伺服器。"
+
+#: step/infobrowser.cc:397
+#, kde-format
+msgid "Wikipedia Information"
+msgstr "維基百科資訊"
+
+#: step/infobrowser.cc:410
+#, kde-format
+msgid "Wikipedia Other Languages"
+msgstr "其他語言的維基百科"
+
+#: step/itempalette.cc:191
+#, kde-format
+msgid "Palette"
+msgstr "調色盤"
+
+#: step/itempalette.cc:210
+#, kde-format
+msgid "Pointer"
+msgstr "指標"
+
+#: step/itempalette.cc:211
+#, kde-format
+msgid "Selection pointer"
+msgstr "選取指標"
+
+#: step/itempalette.cc:234
+#, kde-format
+msgid "Show text"
+msgstr "顯示文字"
+
+#: step/jointgraphics.cc:170 step/springgraphics.cc:40
+#, kde-format
+msgid "Move end of %1"
+msgstr "移動 %1 的一端"
+
+#: step/latexformula.cc:40
+#, kde-format
+msgid "can not launch %1"
+msgstr "無法啟動 %1"
+
+#: step/latexformula.cc:50
+#, kde-format
+msgid "error running %1"
+msgstr "執行 %1 發生錯誤"
+
+#: step/latexformula.cc:54
+#, kde-format
+msgid ""
+"%1 reported an error (exit status %2):\n"
+"%3"
+msgstr ""
+"%1 回報了一個錯誤（離開狀態為 %2）\n"
+"%3"
+
+#: step/latexformula.cc:59
+#, kde-format
+msgid "%1 did not create output file"
+msgstr "%1 沒有建立輸出檔"
+
+#: step/latexformula.cc:91
+#, kde-format
+msgid "can not open temporary file"
+msgstr "無法開啟暫存檔"
+
+#: step/latexformula.cc:125
+#, kde-format
+msgid "can not open result file"
+msgstr "無法開啟結果檔"
+
+#: step/main.cc:34
+#, kde-format
+msgid "Interactive physical simulator"
+msgstr "互動式物理模擬器"
+
+#: step/main.cc:46 step/main.cc:54
+#, kde-format
+msgid "Step"
+msgstr "Step"
+
+#: step/main.cc:58
+#, kde-format
+msgid "(C) 2007 Vladimir Kuznetsov"
+msgstr "(C) 2007 Vladimir Kuznetsov"
+
+#: step/main.cc:59
+#, kde-format
+msgid "http://edu.kde.org/step"
+msgstr "http://edu.kde.org/step"
+
+#: step/main.cc:64
+#, kde-format
+msgid "Original author"
+msgstr "原始作者"
+
+#: step/main.cc:65
+#, kde-format
+msgid "ks.vladimir@gmail.com"
+msgstr "ks.vladimir@gmail.com"
+
+#: step/main.cc:70
+#, kde-format
+msgid "Code contributions"
+msgstr "貢獻程式碼"
+
+#: step/main.cc:71
+#, kde-format
+msgid "cniehaus@kde.org"
+msgstr "cniehaus@kde.org"
+
+#: step/main.cc:80
+#, kde-format
+msgid "Document to open"
+msgstr "要開啟的文件"
+
+#: step/mainwindow.cc:151
+#, kde-format
+msgid "&Open Tutorial..."
+msgstr "開啟教學(&O)..."
+
+#: step/mainwindow.cc:156
+#, kde-format
+msgid "&Open Example..."
+msgstr "開啟範例(&O)..."
+
+#: step/mainwindow.cc:161
+#, kde-format
+msgid "Open Down&loaded Example..."
+msgstr "開啟已下載的範例(&L)..."
+
+#: step/mainwindow.cc:166
+#, kde-format
+msgid "Share C&urrent Experiment..."
+msgstr "分享目前的實驗(&U)..."
+
+#: step/mainwindow.cc:171
+#, kde-format
+msgid "&Download New Experiments..."
+msgstr "下載新實驗(&D)..."
+
+#: step/mainwindow.cc:178
+#, kde-format
+msgid "Redo"
+msgstr "重做"
+
+#: step/mainwindow.cc:178
+#, kde-format
+msgid "Undo"
+msgstr "復原"
+
+#: step/mainwindow.cc:200
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#: step/mainwindow.cc:210
+#, kde-format
+msgid "&Run"
+msgstr "執行(&R)"
+
+#: step/mainwindow.cc:215
+#, kde-format
+msgid "Execute the program"
+msgstr "執行程式"
+
+#: step/mainwindow.cc:216
+#, kde-format
+msgid "Run: Execute the program"
+msgstr "執行：執行程式"
+
+#: step/mainwindow.cc:218
+#, kde-format
+msgctxt "@option:radio"
+msgid "1x Speed"
+msgstr "一倍速"
+
+#: step/mainwindow.cc:226
+#, kde-format
+msgctxt "@option:radio choose the slow speed"
+msgid "2x Speed"
+msgstr "兩倍速"
+
+#: step/mainwindow.cc:233
+#, kde-format
+msgctxt "@option:radio"
+msgid "4x Speed"
+msgstr "四倍速"
+
+#: step/mainwindow.cc:240
+#, kde-format
+msgctxt "@option:radio"
+msgid "8x Speed"
+msgstr "八倍速"
+
+#: step/mainwindow.cc:247
+#, kde-format
+msgctxt "@option:radio"
+msgid "16x Speed"
+msgstr "十六倍速"
+
+#: step/mainwindow.cc:277
+#, kde-format
+msgctxt "filename"
+msgid "untitled.step"
+msgstr "untitled.step"
+
+#: step/mainwindow.cc:303
+#, kde-format
+msgid "<new file>"
+msgstr "<新檔案>"
+
+#: step/mainwindow.cc:317 step/mainwindow.cc:362
+#, kde-format
+msgid "*.step|Step files (*.step)"
+msgstr "*.step|Step 檔案(*.step)"
+
+#: step/mainwindow.cc:332 step/mainwindow.cc:385 step/toolgraphics.cc:651
+#, kde-format
+msgid "Cannot open file '%1'"
+msgstr "無法開啟檔案 %1"
+
+#: step/mainwindow.cc:338
+#, kde-format
+msgid "Cannot parse file '%1': %2"
+msgstr "無法剖析檔案 %1：%2"
+
+#: step/mainwindow.cc:350
+#, kde-format
+msgid "<open file: %1>"
+msgstr "<開啟檔案：%1>"
+
+#: step/mainwindow.cc:366
+#, kde-format
+msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+msgstr "檔案 %1 已存在。您希望覆寫它嗎？"
+
+#: step/mainwindow.cc:391
+#, kde-format
+msgid "Cannot save file '%1': %2"
+msgstr "無法儲存檔案 %1：%2"
+
+#: step/mainwindow.cc:425
+#, kde-format
+msgid ""
+"The experiment has been modified.\n"
+"Do you want to save your changes?"
+msgstr ""
+"實驗已被變更。\n"
+"您要儲存您的變更嗎？"
+
+#: step/mainwindow.cc:473
+#, kde-format
+msgid "Uploading is still not implemented in kdelibs."
+msgstr "上傳功能尚未在 kdelibs 中實作。"
+
+#: step/mainwindow.cc:474
+#, kde-format
+msgid "Sorry - Step"
+msgstr "抱歉─Step"
+
+#: step/mainwindow.cc:508
+#, kde-format
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#: step/mainwindow.cc:518
+#, kde-format
+msgid "&Simulate"
+msgstr "模擬(&S)"
+
+#: step/mainwindow.cc:523
+#, kde-format
+msgid ""
+"Cannot finish this step because local error is greater than local "
+"tolerance.\n"
+"Please check solver settings and try again."
+msgstr ""
+"無法完成此步驟，因為本地端發生的誤差超過可容忍範圍。\n"
+"請檢查計算器設定並再試一次。"
+
+#: step/mainwindow.cc:528
+#, kde-format
+msgid ""
+"Cannot finish this step because there are collisions which cannot be "
+"resolved automatically.\n"
+"Please move colliding objects apart and try again."
+msgstr ""
+"無法完成此步驟，因為發生無法自動解決的衝突。\n"
+"請移動衝突的物件並再試一次。"
+
+#: step/mainwindow.cc:532
+#, kde-format
+msgid "Cannot finish this step because of an unknown error."
+msgstr "無法完成此步驟，因為發生未知的錯誤。"
+
+#: step/mainwindow.cc:565
+#, kde-format
+msgid "&Undo"
+msgstr "復原(&U)"
+
+#: step/mainwindow.cc:566
+#, kde-format
+msgid "&Undo: %1"
+msgstr "復原(&U)：%1"
+
+#: step/mainwindow.cc:571
+#, kde-format
+msgid "Re&do"
+msgstr "重做(&D)"
+
+#: step/mainwindow.cc:572
+#, kde-format
+msgid "Re&do: %1"
+msgstr "重做(&D)：%1"
+
+#: step/mainwindow.cc:603
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: step/motorgraphics.cc:111 step/motorgraphics.cc:289
+#: step/stepgraphicsitem.cc:204 step/stepgraphicsitem.cc:216
+#, kde-format
+msgid "Move %1"
+msgstr "移動 %1"
+
+#: step/polygongraphics.cc:159
+#, kde-format
+msgid "Press left mouse button to position a center of a %1"
+msgstr "按下滑鼠左鍵來放置 %1 的圓心"
+
+#: step/polygongraphics.cc:180
+#, kde-format
+msgid "Move mouse and release left mouse button to define a radius of the %1"
+msgstr "拖曳滑鼠左鍵來決定 %1 的半徑"
+
+#: step/polygongraphics.cc:293
+#, kde-format
+msgid ""
+"Press left mouse button to position\n"
+"top left corner of a %1"
+msgstr "按下滑鼠左鍵來決定 %1 的左上角位置"
+
+#: step/polygongraphics.cc:315
+#, kde-format
+msgid ""
+"Move mouse and release left mouse button to position\n"
+"bottom right corner of the %1"
+msgstr "拖曳滑鼠左鍵來決定 %1 的右下角位置"
+
+#: step/polygongraphics.cc:438
+#, kde-format
+msgid "Click on the scene to create a first vertex of %1"
+msgstr "在場中點擊來建立 %1 的第一個向量"
+
+#: step/polygongraphics.cc:486
+#, kde-format
+msgid "Click on the scene to add new vertex or press Enter to finish"
+msgstr "在場中點擊來新增向量，或按 Enter 完成"
+
+#: step/propertiesbrowser.cc:275
+#, kde-format
+msgid "Change solver type"
+msgstr "變更計算器型態"
+
+#: step/propertiesbrowser.cc:290 step/propertiesbrowser.cc:296
+#: step/propertiesbrowser.cc:303 step/propertiesbrowser.cc:312
+#: step/propertiesbrowser.cc:396 step/propertiesbrowser.cc:413
+#: step/stepgraphicsitem.cc:399 step/stepgraphicsitem.cc:544
+#, kde-format
+msgid "Change %1.%2"
+msgstr "變更 %1.%2"
+
+#: step/propertiesbrowser.cc:310
+#, kde-format
+msgid "Rename %1 to %2"
+msgstr "將 %1 重新命名為 %2"
+
+#: step/propertiesbrowser.cc:460
+#, kde-format
+msgid "Property"
+msgstr "屬性"
+
+#: step/propertiesbrowser.cc:461
+#, kde-format
+msgid "Value"
+msgstr "數值"
+
+#: step/propertiesbrowser.cc:526
+#, kde-format
+msgid "false"
+msgstr "偽"
+
+#: step/propertiesbrowser.cc:527
+#, kde-format
+msgid "true"
+msgstr "真"
+
+#: step/propertiesbrowser.cc:671
+#, kde-format
+msgid "Properties"
+msgstr "屬性"
+
+#: step/softbodygraphics.cc:49 step/worldgraphics.cc:60
+#: step/worldgraphics.cc:104
+#, kde-format
+msgid "Click on the scene to create a %1"
+msgstr "在場珠點擊以建立 %1"
+
+#: step/softbodygraphics.cc:66
+#, kde-format
+msgid "Please fill in the parameters for %1"
+msgstr "請填入 %1 的參數"
+
+#: step/softbodygraphics.cc:126
+#, kde-format
+msgid "Create soft body items"
+msgstr "建立軟本體項目"
+
+#: step/softbodygraphics.cc:187
+#, kde-format
+msgid "Create items for %1"
+msgstr "建立 %1 的項目"
+
+#. i18n: ectx: label, entry (showCreationTips), group (General)
+#. i18n: ectx: whatsthis, entry (showCreationTips), group (General)
+#: step/step.kcfg:9 step/step.kcfg:10
+#, kde-format
+msgid "Show tips when creating items"
+msgstr "建立項目時顯示提示"
+
+#. i18n: ectx: label, entry (showAxes), group (General)
+#. i18n: ectx: whatsthis, entry (showAxes), group (General)
+#: step/step.kcfg:14 step/step.kcfg:15
+#, kde-format
+msgid "Show axes on the scene"
+msgstr "在場中的顯示座標軸"
+
+#. i18n: ectx: label, entry (floatDisplayPrecision), group (General)
+#. i18n: ectx: whatsthis, entry (floatDisplayPrecision), group (General)
+#: step/step.kcfg:19 step/step.kcfg:20
+#, kde-format
+msgid "Display precision of double numbers"
+msgstr "顯示雙精確度："
+
+#. i18n: ectx: label, entry (enableOpenGL), group (General)
+#. i18n: ectx: whatsthis, entry (enableOpenGL), group (General)
+#: step/step.kcfg:26 step/step.kcfg:27
+#, kde-format
+msgid "Use OpenGL to accelerate drawing whenever possible"
+msgstr "使用 OpenGL 來加速"
+
+#. i18n: ectx: label, entry (wikiExternal), group (InfoBrowser)
+#. i18n: ectx: whatsthis, entry (wikiExternal), group (InfoBrowser)
+#: step/step.kcfg:33 step/step.kcfg:34
+#, kde-format
+msgid "Browse wikipedia in external browser"
+msgstr "在外部瀏覽器開啟維基百科"
+
+#. i18n: ectx: label, entry (showButtonText), group (ItemPalette)
+#. i18n: ectx: whatsthis, entry (showButtonText), group (ItemPalette)
+#: step/step.kcfg:40 step/step.kcfg:41
+#, kde-format
+msgid "Show text beside icon"
+msgstr "圖示旁顯示文字"
+
+#: step/stepgraphicsitem.cc:216
+#, kde-format
+msgid "several objects"
+msgstr "一些物件"
+
+#: step/stepgraphicsitem.cc:400 step/stepgraphicsitem.cc:546
+#, kde-format
+msgid "Change %1"
+msgstr "變更 %1"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: step/stepui.rc:7
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#. i18n: ectx: ToolBar (simulationToolBar)
+#: step/stepui.rc:12
+#, kde-format
+msgid "Simulation Toolbar"
+msgstr "模擬工具"
+
+#. i18n: ectx: Menu (examples)
+#: step/stepui.rc:21
+#, kde-format
+msgid "&Examples"
+msgstr "範例(&E)"
+
+#. i18n: ectx: Menu (simulation)
+#: step/stepui.rc:32
+#, kde-format
+msgid "&Simulation"
+msgstr "模擬(&S)"
+
+#. i18n: ectx: Menu (speed)
+#: step/stepui.rc:35
+#, kde-format
+msgid "&Run Speed"
+msgstr "執行速度(&R)"
+
+#. i18n: ectx: Menu (panels)
+#: step/stepui.rc:45
+#, kde-format
+msgid "&Panels"
+msgstr "面板(&P)"
+
+#: step/toolgraphics.cc:264
+#, kde-format
+msgid "Click to enter text"
+msgstr "點擊以輸入文字"
+
+#: step/toolgraphics.cc:389
+#, kde-format
+msgid "&Color"
+msgstr "顏色(&C)"
+
+#: step/toolgraphics.cc:391
+#, kde-format
+msgid "&Bold"
+msgstr "粗體(&B)"
+
+#: step/toolgraphics.cc:393
+#, kde-format
+msgid "&Italic"
+msgstr "斜體(&I)"
+
+#: step/toolgraphics.cc:395
+#, kde-format
+msgid "&Underline"
+msgstr "底線(&U)"
+
+#: step/toolgraphics.cc:398
+#, kde-format
+msgid "Align &Left"
+msgstr "置左(&L)"
+
+#: step/toolgraphics.cc:400
+#, kde-format
+msgid "Align C&enter"
+msgstr "置中(&E)"
+
+#: step/toolgraphics.cc:402
+#, kde-format
+msgid "Align &Right"
+msgstr "置右(&R)"
+
+#: step/toolgraphics.cc:404
+#, kde-format
+msgid "Align &Justify"
+msgstr "兩邊對齊(&J)"
+
+#: step/toolgraphics.cc:407
+#, kde-format
+msgid "&Align"
+msgstr "排列(&A)"
+
+#: step/toolgraphics.cc:416
+#, kde-format
+msgid "&Font"
+msgstr "字型(&F)"
+
+#: step/toolgraphics.cc:417
+#, kde-format
+msgid "Font &Size"
+msgstr "字型大小(&S)"
+
+#: step/toolgraphics.cc:419
+#, kde-format
+msgid "Insert &Image"
+msgstr "插入影像(&I)"
+
+#: step/toolgraphics.cc:424
+#, kde-format
+msgid "Insert &Formula"
+msgstr "插入公式(&F)"
+
+#: step/toolgraphics.cc:535
+#, kde-format
+msgid "Edit %1"
+msgstr "編輯 %1"
+
+#: step/toolgraphics.cc:662
+#, kde-format
+msgid "Cannot parse file '%1'"
+msgstr "無法剖析檔案 %1"
+
+#: step/toolgraphics.cc:706
+#, kde-format
+msgid ""
+"Cannot find latex installation. You need 'latex', 'dvips' and 'gs' "
+"executables installed and accessible from $PATH"
+msgstr ""
+"找不到 latex。您需要 latex、dvips 與 gs 執行檔，並且要在 $PATH 路徑之中"
+
+#: step/toolgraphics.cc:712
+#, kde-format
+msgid "LaTex Formula - Step"
+msgstr "Latex 公式─Step"
+
+#: step/toolgraphics.cc:713
+#, kde-format
+msgid "Enter LaTeX formula string"
+msgstr "請輸入 LaTeX 公式字串"
+
+#: step/toolgraphics.cc:722
+#, kde-format
+msgid "Cannot compile LaTeX formula: %1"
+msgstr "無法編譯 LaTeX 公式：%1"
+
+#: step/toolgraphics.cc:728
+#, kde-format
+msgid "Cannot parse result image"
+msgstr "無法剖析結果影像"
+
+#: step/toolgraphics.cc:789
+#, kde-format
+msgid "Object name"
+msgstr "物件名稱"
+
+#: step/toolgraphics.cc:794
+#, kde-format
+msgid "Property name"
+msgstr "屬性名稱"
+
+#: step/toolgraphics.cc:800
+#, kde-format
+msgid "Vector index"
+msgstr "向量索引"
+
+#: step/toolgraphics.cc:989 step/toolgraphics.cc:997 step/toolgraphics.cc:1490
+#, kde-format
+msgid "%1.%2"
+msgstr "%1.%2"
+
+#: step/toolgraphics.cc:990 step/toolgraphics.cc:998 step/toolgraphics.cc:1491
+#, kde-format
+msgid "[%1]"
+msgstr "【%1】"
+
+#: step/toolgraphics.cc:994 step/toolgraphics.cc:1002 step/toolgraphics.cc:1495
+#, kde-format
+msgid "[not configured]"
+msgstr "【未設定】"
+
+#: step/toolgraphics.cc:1090
+#, kde-format
+msgid "Clear graph"
+msgstr "清除圖形"
+
+#: step/toolgraphics.cc:1091
+#, kde-format
+msgid "Configure graph..."
+msgstr "設定圖形..."
+
+#: step/toolgraphics.cc:1109
+#, kde-format
+msgid "Configure graph"
+msgstr "設定圖形"
+
+#: step/toolgraphics.cc:1185 step/toolgraphics.cc:1384
+#: step/toolgraphics.cc:1722
+#, kde-format
+msgid "Edit properties of %1"
+msgstr "編輯 %1 的屬性"
+
+#: step/toolgraphics.cc:1237
+#, kde-format
+msgid "Clear graph %1"
+msgstr "清除圖形 %1"
+
+#: step/toolgraphics.cc:1318
+#, kde-format
+msgid "Configure meter..."
+msgstr "設定公尺..."
+
+#: step/toolgraphics.cc:1336
+#, kde-format
+msgid "Configure meter"
+msgstr "設定公尺"
+
+#: step/toolgraphics.cc:1433 step/toolgraphics.cc:1630
+#, kde-format
+msgid "Increase value"
+msgstr "遞增數值"
+
+#: step/toolgraphics.cc:1434 step/toolgraphics.cc:1631
+#, kde-format
+msgid "Decrease value"
+msgstr "遞減數值"
+
+#: step/toolgraphics.cc:1464 step/toolgraphics.cc:1759
+#, kde-format
+msgid "Decrease controller %1"
+msgstr "遞減控制器 %1"
+
+#: step/toolgraphics.cc:1473 step/toolgraphics.cc:1768
+#, kde-format
+msgid "Increase controller %1"
+msgstr "遞增控制器 %1"
+
+#: step/toolgraphics.cc:1607
+#, kde-format
+msgid "Change controller %1"
+msgstr "變更控制器 %1"
+
+#: step/toolgraphics.cc:1633
+#, kde-format
+msgid "Configure controller..."
+msgstr "設定控制器..."
+
+#: step/toolgraphics.cc:1651
+#, kde-format
+msgid "Configure controller"
+msgstr "設定控制器"
+
+#: step/toolgraphics.cc:1912
+#, kde-format
+msgid "Clear trace"
+msgstr "清除追蹤"
+
+#: step/toolgraphics.cc:1921
+#, kde-format
+msgid "Clear tracer %1"
+msgstr "清除追蹤 %1"
+
+#: step/undobrowser.cc:28
+#, kde-format
+msgid "Undo history"
+msgstr "復原歷史"
+
+#: step/worldbrowser.cc:60
+#, kde-format
+msgctxt "Object list"
+msgid "World"
+msgstr "世界"
+
+#: step/worldgraphics.cc:100
+#, kde-format
+msgid ""
+"Press left mouse button to position first end of a %1\n"
+"then drag and release it to position the second end"
+msgstr ""
+"點擊滑鼠左鍵來擺放 %1 的一端\n"
+"然後按住並拖曳到另一端後放開"
+
+#: step/worldgraphics.cc:128
+#, kde-format
+msgid "Release left mouse button to position second end of the %1"
+msgstr "放開滑鼠左鍵來決定 %1 的另一端位置"
+
+#: step/worldmodel.cc:621
+#, kde-format
+msgid "Delete %1"
+msgstr "刪除 %1"
+
+#: step/worldmodel.cc:622
+#, kde-format
+msgid "Delete several items"
+msgstr "刪除一些項目"
+
+#: step/worldmodel.cc:693 step/worldmodel.cc:700
+#, kde-format
+msgid "<no object>"
+msgstr "<沒有物件>"
+
+#: step/worldmodel.cc:695
+#, kde-format
+msgid "<unnamed>"
+msgstr "<未命名>"
+
+#: step/worldmodel.cc:701
+#, kde-format
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: step/worldmodel.cc:773
+#, kde-format
+msgid "<nobr><h4><u>%1</u></h4></nobr>"
+msgstr "<nobr><h4><u>%1</u></h4></nobr>"
+
+#: step/worldmodel.cc:801
+#, kde-format
+msgid "<tr><td>%1&nbsp;&nbsp;</td><td>%2</td></tr>"
+msgstr "<tr><td>%1&nbsp;&nbsp;</td><td>%2</td></tr>"
+
+#: step/worldmodel.cc:999
+#, kde-format
+msgid "Simulate %1 → %2"
+msgstr "模擬 %1 → %2"
+
+#: step/worldmodel.cc:1052
+#, kde-format
+msgid "Cut %1"
+msgstr "剪下 %1"
+
+#: step/worldmodel.cc:1053
+#, kde-format
+msgid "Cut several items"
+msgstr "剪下一些項目"
+
+#: step/worldmodel.cc:1075
+#, kde-format
+msgid "Pasted %1"
+msgstr "已貼上 %1"
+
+#: step/worldmodel.cc:1076
+#, kde-format
+msgid "Pasted several items"
+msgstr "貼上一些項目"
+
+#: step/worldscene.cc:259
+#, kde-format
+msgid "Objects under mouse:"
+msgstr "滑鼠下的物件："
+
+#: step/worldscene.cc:264
+#, kde-format
+msgid "... (1 more item)"
+msgid_plural "... (%1 more items)"
+msgstr[0] "...（還有 %1 個項目）"
+
+#~ msgid "Vladimir Kuznetsov"
+#~ msgstr "Vladimir Kuznetsov"
+
+#~ msgid "Carsten Niehaus"
+#~ msgstr "Carsten Niehaus"
+
+#~ msgid "Create items..."
+#~ msgstr "建立項目..."
+
+#~ msgctxt "ObjectClass"
+#~ msgid "RigidBody"
+#~ msgstr "RigidBody"
+
+#~ msgid "Generic rigid body"
+#~ msgstr "一般固態主體"
+
+#~ msgctxt "PropertyName"
+#~ msgid "position"
+#~ msgstr "position"
+
+#~ msgctxt "Units"
+#~ msgid "m"
+#~ msgstr "m"
+
+#~ msgid "Position of the center of mass"
+#~ msgstr "質量中心位置"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angle"
+#~ msgstr "angle"
+
+#~ msgctxt "Units"
+#~ msgid "rad"
+#~ msgstr "rad"
+
+#~ msgid "Rotation angle"
+#~ msgstr "旋轉角度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "velocity"
+#~ msgstr "velocity"
+
+#~ msgctxt "Units"
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "Velocity of the center of mass"
+#~ msgstr "質量中心速率"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angularVelocity"
+#~ msgstr "angularVelocity"
+
+#~ msgctxt "Units"
+#~ msgid "rad/s"
+#~ msgstr "rad/s"
+
+#~ msgid "Angular velocity of the body"
+#~ msgstr "主體角速率"
+
+#~ msgctxt "PropertyName"
+#~ msgid "acceleration"
+#~ msgstr "acceleration"
+
+#~ msgctxt "Units"
+#~ msgid "m/s²"
+#~ msgstr "m/s²"
+
+#~ msgid "Acceleration of the center of mass"
+#~ msgstr "質量中心加速度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angularAcceleration"
+#~ msgstr "angularAcceleration"
+
+#~ msgctxt "Units"
+#~ msgid "rad/s²"
+#~ msgstr "rad/s²"
+
+#~ msgid "Angular acceleration of the body"
+#~ msgstr "主體的角加速度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "force"
+#~ msgstr "force"
+
+#~ msgctxt "Units"
+#~ msgid "N"
+#~ msgstr "N（牛頓）"
+
+#~ msgid "Force that acts upon the body"
+#~ msgstr "對主體上施加的力"
+
+#~ msgctxt "PropertyName"
+#~ msgid "torque"
+#~ msgstr "torque"
+
+#~ msgctxt "Units"
+#~ msgid "N m"
+#~ msgstr "N m"
+
+#~ msgid "Torque that acts upon the body"
+#~ msgstr "施加在主體上的力矩"
+
+#~ msgctxt "PropertyName"
+#~ msgid "mass"
+#~ msgstr "mass"
+
+#~ msgctxt "Units"
+#~ msgid "kg"
+#~ msgstr "kg"
+
+#~ msgid "Total mass of the body"
+#~ msgstr "主體總質量"
+
+#~ msgctxt "PropertyName"
+#~ msgid "inertia"
+#~ msgstr "inertia"
+
+#~ msgctxt "Units"
+#~ msgid "kg m²"
+#~ msgstr "kg m²"
+
+#~ msgid "Inertia \"tensor\" of the body"
+#~ msgstr "主體的慣性張量"
+
+#~ msgctxt "PropertyName"
+#~ msgid "momentum"
+#~ msgstr "momentum"
+
+#~ msgctxt "Units"
+#~ msgid "kg m/s"
+#~ msgstr "kg m/s"
+
+#~ msgid "momentum"
+#~ msgstr "動量"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angularMomentum"
+#~ msgstr "angularMomentum"
+
+#~ msgctxt "Units"
+#~ msgid "kg m² rad/s"
+#~ msgstr "kg m² rad/s"
+
+#~ msgid "angular momentum"
+#~ msgstr "角動量"
+
+#~ msgctxt "PropertyName"
+#~ msgid "kineticEnergy"
+#~ msgstr "kineticEnergy"
+
+#~ msgctxt "Units"
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgid "kinetic energy"
+#~ msgstr "動能"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "RigidBodyErrors"
+#~ msgstr "RigidBodyErrors"
+
+#~ msgid "Errors class for RigidBody"
+#~ msgstr "RigidBody 誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "positionVariance"
+#~ msgstr "positionVariance"
+
+#~ msgid "position variance"
+#~ msgstr "位置變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angleVariance"
+#~ msgstr "angleVariance"
+
+#~ msgid "angle variance"
+#~ msgstr "角變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "velocityVariance"
+#~ msgstr "velocityVariance"
+
+#~ msgid "velocity variance"
+#~ msgstr "速度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angularVelocityVariance"
+#~ msgstr "angularVelocityVariance"
+
+#~ msgid "angularVelocity variance"
+#~ msgstr "角速度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "accelerationVariance"
+#~ msgstr "accelerationVariance"
+
+#~ msgid "acceleration variance"
+#~ msgstr "加速度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angularAccelerationVariance"
+#~ msgstr "angularAccelerationVariance"
+
+#~ msgid "angularAcceleration variance"
+#~ msgstr "角加速度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "forceVariance"
+#~ msgstr "forceVariance"
+
+#~ msgid "force variance"
+#~ msgstr "力變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "torqueVariance"
+#~ msgstr "torqueVariance"
+
+#~ msgid "torque variance"
+#~ msgstr "力矩變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "massVariance"
+#~ msgstr "massVariance"
+
+#~ msgid "mass variance"
+#~ msgstr "質量變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "inertiaVariance"
+#~ msgstr "inertiaVariance"
+
+#~ msgid "inertia variance"
+#~ msgstr "慣性力變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "momentumVariance"
+#~ msgstr "momentumVariance"
+
+#~ msgid "momentum variance"
+#~ msgstr "動量變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "angularMomentumVariance"
+#~ msgstr "angularMomentumVariance"
+
+#~ msgid "angular momentum variance"
+#~ msgstr "角動量變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "kineticEnergyVariance"
+#~ msgstr "kineticEnergyVariance"
+
+#~ msgid "kinetic energy variance"
+#~ msgstr "動能變化"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Disk"
+#~ msgstr "Disk"
+
+#~ msgid "Rigid disk"
+#~ msgstr "固態碟型"
+
+#~ msgctxt "PropertyName"
+#~ msgid "radius"
+#~ msgstr "radius"
+
+#~ msgid "Radius of the disk"
+#~ msgstr "碟的半徑"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "BasePolygon"
+#~ msgstr "BasePolygon"
+
+#~ msgid "Base polygon body"
+#~ msgstr "多邊形底的主體"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Box"
+#~ msgstr "Box"
+
+#~ msgid "Rigid box"
+#~ msgstr "固態盒"
+
+#~ msgctxt "PropertyName"
+#~ msgid "size"
+#~ msgstr "size"
+
+#~ msgid "Size of the box"
+#~ msgstr "盒的大小"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Polygon"
+#~ msgstr "Polygon"
+
+#~ msgid "Rigid polygon body"
+#~ msgstr "固態多邊形主體"
+
+#~ msgctxt "PropertyName"
+#~ msgid "vertexes"
+#~ msgstr "vertexes"
+
+#~ msgid "Vertex list"
+#~ msgstr "頂點清單"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Plane"
+#~ msgstr "Plane"
+
+#~ msgid "Unmovable rigid plane"
+#~ msgstr "無法移動的平面"
+
+#~ msgctxt "PropertyName"
+#~ msgid "point1"
+#~ msgstr "point1"
+
+#~ msgid "First point which defines the plane"
+#~ msgstr "定義此平面的第一點"
+
+#~ msgctxt "PropertyName"
+#~ msgid "point2"
+#~ msgstr "point2"
+
+#~ msgid "Second point which defines the plane"
+#~ msgstr "定義此平面的第二點"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "SoftBodyParticle"
+#~ msgstr "SoftBodyParticle"
+
+#~ msgid "SoftBody particle"
+#~ msgstr "柔軟體粒子"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "SoftBodySpring"
+#~ msgstr "SoftBodySpring"
+
+#~ msgid "SoftBody spring"
+#~ msgstr "柔軟體彈簧"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "SoftBody"
+#~ msgstr "SoftBody"
+
+#~ msgid "Deformable SoftBody"
+#~ msgstr "可變形柔軟體"
+
+#~ msgctxt "PropertyName"
+#~ msgid "showInternalItems"
+#~ msgstr "showInternalItems"
+
+#~ msgid "Show internal items"
+#~ msgstr "顯示內部項目"
+
+#~ msgctxt "Units"
+#~ msgid "kg m²/s"
+#~ msgstr "kg m²/s"
+
+#~ msgid "Angular momentum of the body"
+#~ msgstr "主體角動量"
+
+#~ msgctxt "PropertyName"
+#~ msgid "borderParticleNames"
+#~ msgstr "borderParticleNames"
+
+#~ msgid "Border particle names (temporal property)"
+#~ msgstr "邊框粒子名稱（暫時性的屬性）"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Solver"
+#~ msgstr "Solver"
+
+#~ msgid "Solver"
+#~ msgstr "計算器"
+
+#~ msgctxt "PropertyName"
+#~ msgid "solverType"
+#~ msgstr "solverType"
+
+#~ msgid "Solver type"
+#~ msgstr "計算器型態"
+
+#~ msgctxt "PropertyName"
+#~ msgid "stepSize"
+#~ msgstr "stepSize"
+
+#~ msgctxt "Units"
+#~ msgid "s"
+#~ msgstr "s"
+
+#~ msgid "Step size"
+#~ msgstr "單步大小"
+
+#~ msgctxt "PropertyName"
+#~ msgid "toleranceAbs"
+#~ msgstr "toleranceAbs"
+
+#~ msgid "Allowed absolute tolerance"
+#~ msgstr "允許的絕對容忍值"
+
+#~ msgctxt "PropertyName"
+#~ msgid "toleranceRel"
+#~ msgstr "toleranceRel"
+
+#~ msgid "Allowed relative tolerance"
+#~ msgstr "允許的相對容忍值"
+
+#~ msgctxt "PropertyName"
+#~ msgid "dimension"
+#~ msgstr "dimension"
+
+#~ msgid "Count of dynamic variables"
+#~ msgstr "動態變數個數"
+
+#~ msgctxt "PropertyName"
+#~ msgid "localError"
+#~ msgstr "localError"
+
+#~ msgid "Maximal local error during last step"
+#~ msgstr "最後步驟中的最大本地誤差"
+
+#~ msgctxt "PropertyName"
+#~ msgid "localErrorRatio"
+#~ msgstr "localErrorRatio"
+
+#~ msgid "Maximal local error ratio during last step"
+#~ msgstr "最後步驟中的最大本地誤差比例"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "CollisionSolver"
+#~ msgstr "CollisionSolver"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GJKCollisionSolver"
+#~ msgstr "GJKCollisionSolver"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Particle"
+#~ msgstr "Particle"
+
+#~ msgid "Simple zero-size particle"
+#~ msgstr "簡單的無大小的粒子"
+
+#~ msgid "position"
+#~ msgstr "位置"
+
+#~ msgid "velocity"
+#~ msgstr "速率"
+
+#~ msgid "acceleration"
+#~ msgstr "加速度"
+
+#~ msgid "force"
+#~ msgstr "力"
+
+#~ msgid "mass"
+#~ msgstr "質量"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ParticleErrors"
+#~ msgstr "ParticleErrors"
+
+#~ msgid "Errors class for Particle"
+#~ msgstr "Particle 的誤差類別"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ChargedParticle"
+#~ msgstr "ChargedParticle"
+
+#~ msgid "Charged zero-size particle"
+#~ msgstr "變更的無大小粒子"
+
+#~ msgctxt "PropertyName"
+#~ msgid "charge"
+#~ msgstr "charge"
+
+#~ msgctxt "Units"
+#~ msgid "C"
+#~ msgstr "C"
+
+#~ msgid "charge"
+#~ msgstr "電量"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ChargedParticleErrors"
+#~ msgstr "ChargedParticleErrors"
+
+#~ msgid "Errors class for ChargedParticle"
+#~ msgstr "ChargedParticle 的誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "chargeVariance"
+#~ msgstr "chargeVariance"
+
+#~ msgid "charge variance"
+#~ msgstr "電量變化"
+
+#~ msgid "Wrong ID attribute value for %1"
+#~ msgstr "%1 的代碼屬性值錯誤"
+
+#~ msgid "Non-unique ID attribute value for %1"
+#~ msgstr "%1 的代碼屬性值非唯一"
+
+#~ msgid "The file is not a StepCoreXML file."
+#~ msgstr "檔案不是 StepCoreXML 檔。"
+
+#~ msgid "Unknown item type \"%1\""
+#~ msgstr "未知的項目型態 %1"
+
+#~ msgid "Unknown solver type \"%1\""
+#~ msgstr "未知的計算器型態 %1"
+
+#~ msgid "Unknown collisionSolver type \"%1\""
+#~ msgstr "未知的衝突計算器型態 %1"
+
+#~ msgid "Unknown constraintSolver type \"%1\""
+#~ msgstr "未知的強制計算器型態 %1"
+
+#~ msgid "Item \"%1\" has no stored property named \"%2\""
+#~ msgstr "項目 %1 沒有儲存名為 %2 的屬性"
+
+#~ msgid "Unexpected tag \"%1\""
+#~ msgstr "未預期的標籤 %1"
+
+#~ msgid "Property \"%1\" of \"%2\" has illegal value"
+#~ msgstr "%2 的屬性 %1 有不合法的值"
+
+#~ msgid "\"world\" tag not found"
+#~ msgstr "找不到 \"world\" 標籤"
+
+#~ msgid "Error parsing file at line %1: %2"
+#~ msgstr "剖析檔案時發生錯誤：行 %1：%2"
+
+#~ msgid "File is not writable."
+#~ msgstr "檔案無法寫入"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ConstraintSolver"
+#~ msgstr "ConstraintSolver"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "CGConstraintSolver"
+#~ msgstr "CGConstraintSolver"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GasParticle"
+#~ msgstr "GasParticle"
+
+#~ msgid "Gas particle"
+#~ msgstr "氣體粒子"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GasLJForce"
+#~ msgstr "GasLJForce"
+
+#~ msgid "Lennard-Jones force"
+#~ msgstr "蘭納-瓊斯力（Lennard-Jones force）"
+
+#~ msgctxt "PropertyName"
+#~ msgid "depth"
+#~ msgstr "depth"
+
+#~ msgid "Potential depth"
+#~ msgstr "勢能深度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rmin"
+#~ msgstr "rmin"
+
+#~ msgid "Distance at which the force is zero"
+#~ msgstr "此力為 0 的距離"
+
+#~ msgctxt "PropertyName"
+#~ msgid "cutoff"
+#~ msgstr "cutoff"
+
+#~ msgid "Cut-off distance"
+#~ msgstr "切斷距離"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GasLJForceErrors"
+#~ msgstr "GasLJForceErrors"
+
+#~ msgid "Errors class for GasLJForce"
+#~ msgstr "GasLJForce 的誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "depthVariance"
+#~ msgstr "depthVariance"
+
+#~ msgid "Potential depth variance"
+#~ msgstr "勢能深度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rminVariance"
+#~ msgstr "rminVariance"
+
+#~ msgid "Variance of the distance at which the force is zero"
+#~ msgstr "此力為 0 時的距離變化"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Gas"
+#~ msgstr "Gas"
+
+#~ msgid "Particle gas"
+#~ msgstr "氣體粒子"
+
+#~ msgctxt "PropertyName"
+#~ msgid "measureRectCenter"
+#~ msgstr "measureRectCenter"
+
+#~ msgid "Center of the rect for measurements"
+#~ msgstr "測量矩形的中心"
+
+#~ msgctxt "PropertyName"
+#~ msgid "measureRectSize"
+#~ msgstr "measureRectSize"
+
+#~ msgid "Size of the rect for measurements"
+#~ msgstr "測量矩形的大小"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectVolume"
+#~ msgstr "rectVolume"
+
+#~ msgctxt "Units"
+#~ msgid "m²"
+#~ msgstr "m²"
+
+#~ msgid "Volume of the measureRect"
+#~ msgstr "測量矩形的面積"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectParticleCount"
+#~ msgstr "rectParticleCount"
+
+#~ msgid "Count of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子數"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectConcentration"
+#~ msgstr "rectConcentration"
+
+#~ msgctxt "Units"
+#~ msgid "1/m²"
+#~ msgstr "1/m²"
+
+#~ msgid "Concentration of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子濃度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectPressure"
+#~ msgstr "rectPressure"
+
+#~ msgctxt "Units"
+#~ msgid "Pa"
+#~ msgstr "Pa"
+
+#~ msgid "Pressure of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子壓力"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectTemperature"
+#~ msgstr "rectTemperature"
+
+#~ msgctxt "Units"
+#~ msgid "K"
+#~ msgstr "K"
+
+#~ msgid "Temperature of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子溫度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMeanKineticEnergy"
+#~ msgstr "rectMeanKineticEnergy"
+
+#~ msgid "Mean kinetic energy of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子平均動能"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMeanVelocity"
+#~ msgstr "rectMeanVelocity"
+
+#~ msgid "Mean velocity of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子平均速率"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMeanParticleMass"
+#~ msgstr "rectMeanParticleMass"
+
+#~ msgid "Mean mass of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子平均質量"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMass"
+#~ msgstr "rectMass"
+
+#~ msgid "Total mass of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子總質量"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GasErrors"
+#~ msgstr "GasErrors"
+
+#~ msgid "Errors class for Gas"
+#~ msgstr "Gas 的誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectPressureVariance"
+#~ msgstr "rectPressureVariance"
+
+#~ msgid "Variance of pressure of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子壓力變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectTemperatureVariance"
+#~ msgstr "rectTemperatureVariance"
+
+#~ msgid "Variance of temperature of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子溫度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMeanKineticEnergyVariance"
+#~ msgstr "rectMeanKineticEnergyVariance"
+
+#~ msgid "Variance of mean kinetic energy of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子平均動能變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMeanVelocityVariance"
+#~ msgstr "rectMeanVelocityVariance"
+
+#~ msgid "Variance of mean velocity of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子平均速率變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMeanParticleMassVariance"
+#~ msgstr "rectMeanParticleMassVariance"
+
+#~ msgid "Variance of mean mass of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子平均質量變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "rectMassVariance"
+#~ msgstr "rectMassVariance"
+
+#~ msgid "Variance of total mass of particles in the measureRect"
+#~ msgstr "測量矩形中的粒子總質量變化"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "NoteImage"
+#~ msgstr "NoteImage"
+
+#~ msgid "NoteImage: an image embedded in Note"
+#~ msgstr "NoteImage：嵌入 Note 中的影像"
+
+#~ msgctxt "PropertyName"
+#~ msgid "image"
+#~ msgstr "image"
+
+#~ msgid "Image data"
+#~ msgstr "影像資料"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "NoteFormula"
+#~ msgstr "NoteFormula"
+
+#~ msgid "NoteFormula: a formula embedded in Note"
+#~ msgstr "NoteFormula: Note 中嵌入的公式"
+
+#~ msgctxt "PropertyName"
+#~ msgid "code"
+#~ msgstr "code"
+
+#~ msgid "Formula code"
+#~ msgstr "公式碼"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Note"
+#~ msgstr "Note"
+
+#~ msgid "Note: displays a textual note on the scene"
+#~ msgstr "Note：在場中顯示文字備忘"
+
+#~ msgid "Note position on the scene"
+#~ msgstr "場中的備忘位置"
+
+#~ msgctxt "PropertyName"
+#~ msgid "text"
+#~ msgstr "text"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Graph"
+#~ msgstr "Graph"
+
+#~ msgid "Graph: plots a graph of any properties"
+#~ msgstr "Graph：繪製任一屬性的圖形"
+
+#~ msgid "Graph position on the scene"
+#~ msgstr "場中的圖形位置"
+
+#~ msgid "Graph size on the scene"
+#~ msgstr "場中的圖形大小"
+
+#~ msgctxt "PropertyName"
+#~ msgid "objectX"
+#~ msgstr "objectX"
+
+#~ msgid "X axis: object"
+#~ msgstr "X 軸：物件"
+
+#~ msgctxt "PropertyName"
+#~ msgid "propertyX"
+#~ msgstr "propertyX"
+
+#~ msgid "X axis: object property"
+#~ msgstr "X 軸：物件屬性"
+
+#~ msgctxt "PropertyName"
+#~ msgid "indexX"
+#~ msgstr "indexX"
+
+#~ msgid "X axis: vector index"
+#~ msgstr "X 軸：向量索引"
+
+#~ msgctxt "PropertyName"
+#~ msgid "objectY"
+#~ msgstr "objectY"
+
+#~ msgid "Y axis: object"
+#~ msgstr "Y 軸：物件"
+
+#~ msgctxt "PropertyName"
+#~ msgid "propertyY"
+#~ msgstr "propertyY"
+
+#~ msgid "Y axis: property"
+#~ msgstr "Y 軸：屬性"
+
+#~ msgctxt "PropertyName"
+#~ msgid "indexY"
+#~ msgstr "indexY"
+
+#~ msgid "Y axis: vector index"
+#~ msgstr "Y 軸：向量索引"
+
+#~ msgctxt "PropertyName"
+#~ msgid "autoLimitsX"
+#~ msgstr "autoLimitsX"
+
+#~ msgid "Auto-limits along X axis"
+#~ msgstr "沿著 X 軸的自動限制"
+
+#~ msgctxt "PropertyName"
+#~ msgid "autoLimitsY"
+#~ msgstr "autoLimitsY"
+
+#~ msgid "Auto-limits along Y axis"
+#~ msgstr "沿著 Y 軸的自動限制"
+
+#~ msgctxt "PropertyName"
+#~ msgid "limitsX"
+#~ msgstr "limitsX"
+
+#~ msgid "Limits along X axis"
+#~ msgstr "沿著 X 軸的限制"
+
+#~ msgctxt "PropertyName"
+#~ msgid "limitsY"
+#~ msgstr "limitsY"
+
+#~ msgid "Limits along Y axis"
+#~ msgstr "沿著 Y 軸的限制"
+
+#~ msgctxt "PropertyName"
+#~ msgid "showPoints"
+#~ msgstr "showPoints"
+
+#~ msgid "Show points on the graph"
+#~ msgstr "在圖形中顯示點"
+
+#~ msgctxt "PropertyName"
+#~ msgid "showLines"
+#~ msgstr "showLines"
+
+#~ msgid "Show lines on the graph"
+#~ msgstr "在圖形中顯示線"
+
+#~ msgid "currentValue"
+#~ msgstr "currentValue"
+
+#~ msgid "Current value"
+#~ msgstr "目前的值"
+
+#~ msgctxt "PropertyName"
+#~ msgid "points"
+#~ msgstr "points"
+
+#~ msgid "points"
+#~ msgstr "點"
+
+#~ msgid "unitsX"
+#~ msgstr "unitsX"
+
+#~ msgid "Units along X axis"
+#~ msgstr "X 軸的單位"
+
+#~ msgid "unitsY"
+#~ msgstr "unitsY"
+
+#~ msgid "Units along Y axis"
+#~ msgstr "Y 軸的單位"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Meter"
+#~ msgstr "Meter"
+
+#~ msgid "Meter: displays any property on the scene"
+#~ msgstr "Meter：計量器，在場中顯示任何屬性"
+
+#~ msgid "Meter position on the scene"
+#~ msgstr "場中的計量器位置"
+
+#~ msgid "Meter size on the scene"
+#~ msgstr "場中的計量器大小"
+
+#~ msgctxt "PropertyName"
+#~ msgid "object"
+#~ msgstr "物件"
+
+#~ msgid "Observed object"
+#~ msgstr "觀測物件"
+
+#~ msgctxt "PropertyName"
+#~ msgid "property"
+#~ msgstr "屬性"
+
+#~ msgid "Observed property"
+#~ msgstr "觀測屬性"
+
+#~ msgctxt "PropertyName"
+#~ msgid "index"
+#~ msgstr "index"
+
+#~ msgctxt "PropertyName"
+#~ msgid "digits"
+#~ msgstr "digits"
+
+#~ msgid "Display digits"
+#~ msgstr "顯示位數"
+
+#~ msgid "value"
+#~ msgstr "value"
+
+#~ msgid "units"
+#~ msgstr "units"
+
+#~ msgid "Units of measured property"
+#~ msgstr "測量屬性的單位"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Controller"
+#~ msgstr "Controller"
+
+#~ msgid "Controller: allows to easily control any property"
+#~ msgstr "Controller：讓您輕鬆控制屬性"
+
+#~ msgid "Controller position on the scene"
+#~ msgstr "場中的控制器位置"
+
+#~ msgid "Controller size on the scene"
+#~ msgstr "場中的控制器大小"
+
+#~ msgid "Controlled object"
+#~ msgstr "控制的物件"
+
+#~ msgid "Controlled property property"
+#~ msgstr "控制的屬性"
+
+#~ msgctxt "PropertyName"
+#~ msgid "limits"
+#~ msgstr "limits"
+
+#~ msgid "Limits"
+#~ msgstr "限制"
+
+#~ msgctxt "PropertyName"
+#~ msgid "increaseShortcut"
+#~ msgstr "increaseShortcut"
+
+#~ msgid "Shortcut to increase the value"
+#~ msgstr "遞增數值的捷徑"
+
+#~ msgctxt "PropertyName"
+#~ msgid "decreaseShortcut"
+#~ msgstr "decreaseShortcut"
+
+#~ msgid "Shortcut to decrease the value"
+#~ msgstr "遞減數值的捷徑"
+
+#~ msgctxt "PropertyName"
+#~ msgid "increment"
+#~ msgstr "increment"
+
+#~ msgid "Increment value"
+#~ msgstr "遞增數值"
+
+#~ msgctxt "PropertyName"
+#~ msgid "value"
+#~ msgstr "value"
+
+#~ msgid "Units of controlled property"
+#~ msgstr "控制屬性的單位"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Tracer"
+#~ msgstr "Tracer"
+
+#~ msgid "Tracer: traces trajectory of a point on a body"
+#~ msgstr "Tracer：追蹤主體上某一點的軌道"
+
+#~ msgctxt "PropertyName"
+#~ msgid "body"
+#~ msgstr "body"
+
+#~ msgid "Traced body"
+#~ msgstr "追蹤的主體"
+
+#~ msgctxt "PropertyName"
+#~ msgid "localPosition"
+#~ msgstr "localPosition"
+
+#~ msgid "Local position"
+#~ msgstr "本地位置"
+
+#~ msgid "Position"
+#~ msgstr "位置"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "LinearMotor"
+#~ msgstr "LinearMotor"
+
+#~ msgid ""
+#~ "Linear motor: applies a constant force to a given position of the body"
+#~ msgstr "Linear motor：加一常數力在主體上的指定位置"
+
+#~ msgid "Body"
+#~ msgstr "主體"
+
+#~ msgid "Position of the motor on a body"
+#~ msgstr "此力施於主體上的位置"
+
+#~ msgctxt "PropertyName"
+#~ msgid "forceValue"
+#~ msgstr "forceValue"
+
+#~ msgid "Value of the force, acting on the body"
+#~ msgstr "對主體上施加的力的值"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "CircularMotor"
+#~ msgstr "CircularMotor"
+
+#~ msgid "Circular motor: applies a constant torque to the body"
+#~ msgstr "Circular motor：加一常數力矩在主體上"
+
+#~ msgctxt "PropertyName"
+#~ msgid "torqueValue"
+#~ msgstr "torqueValue"
+
+#~ msgid "Value of the torque, acting on the body"
+#~ msgstr "對主體上施加的力矩的值"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Item"
+#~ msgstr "Item"
+
+#~ msgid "Item"
+#~ msgstr "項目"
+
+#~ msgctxt "PropertyName"
+#~ msgid "color"
+#~ msgstr "color"
+
+#~ msgid "Item color"
+#~ msgstr "項目顏色"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Body"
+#~ msgstr "Body"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Force"
+#~ msgstr "Force"
+
+#~ msgid "Force"
+#~ msgstr "力"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Joint"
+#~ msgstr "Joint"
+
+#~ msgid "Joint"
+#~ msgstr "接點"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Tool"
+#~ msgstr "Tool"
+
+#~ msgid "Tool"
+#~ msgstr "工具"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ObjectErrors"
+#~ msgstr "ObjectErrors"
+
+#~ msgid "ObjectErrors"
+#~ msgstr "物件錯誤"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "ItemGroup"
+#~ msgstr "ItemGroup"
+
+#~ msgid "ItemGroup"
+#~ msgstr "項目群組"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "World"
+#~ msgstr "World"
+
+#~ msgid "World"
+#~ msgstr "世界"
+
+#~ msgctxt "PropertyName"
+#~ msgid "time"
+#~ msgstr "time"
+
+#~ msgid "Current time"
+#~ msgstr "目前時間"
+
+#~ msgid "timeScale"
+#~ msgstr "timeScale"
+
+#~ msgid "Simulation speed scale"
+#~ msgstr "模擬速度刻度"
+
+#~ msgid "errorsCalculation"
+#~ msgstr "errorsCalculation"
+
+#~ msgid "Enable global errors calculation"
+#~ msgstr "開啟全域誤差計算"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Anchor"
+#~ msgstr "Anchor"
+
+#~ msgid "Anchor: fixes position of the body"
+#~ msgstr "Anchor：固定主體位置"
+
+#~ msgid "Angle"
+#~ msgstr "角度"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Pin"
+#~ msgstr "Pin"
+
+#~ msgid "Pin: fixes position of a given point on the body"
+#~ msgstr "Pin：固定主體中某點的位置"
+
+#~ msgid "Position on the body"
+#~ msgstr "主體中的位置"
+
+#~ msgid "Position in the world"
+#~ msgstr "世界裡的位置"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Stick"
+#~ msgstr "Stick"
+
+#~ msgid "Massless stick which can be connected to bodies"
+#~ msgstr "可以將多個主體相連，無質量的棒子"
+
+#~ msgctxt "PropertyName"
+#~ msgid "restLength"
+#~ msgstr "restLength"
+
+#~ msgid "Rest length of the stick"
+#~ msgstr "棒子的剩餘長度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "body1"
+#~ msgstr "body1"
+
+#~ msgid "Body1"
+#~ msgstr "主體 1"
+
+#~ msgctxt "PropertyName"
+#~ msgid "body2"
+#~ msgstr "body2"
+
+#~ msgid "Body2"
+#~ msgstr "主體 2"
+
+#~ msgctxt "PropertyName"
+#~ msgid "localPosition1"
+#~ msgstr "localPosition1"
+
+#~ msgid "Local position 1"
+#~ msgstr "本地位置 1"
+
+#~ msgctxt "PropertyName"
+#~ msgid "localPosition2"
+#~ msgstr "localPosition2"
+
+#~ msgid "Local position 2"
+#~ msgstr "本地位置 2"
+
+#~ msgctxt "PropertyName"
+#~ msgid "position1"
+#~ msgstr "position1"
+
+#~ msgid "Position1"
+#~ msgstr "位置 1"
+
+#~ msgctxt "PropertyName"
+#~ msgid "position2"
+#~ msgstr "position2"
+
+#~ msgid "Position2"
+#~ msgstr "位置 2"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Rope"
+#~ msgstr "Rope"
+
+#~ msgid "Massless rope which can be connected to bodies"
+#~ msgstr "可以將多個主體相連，無質量的繩子"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Object"
+#~ msgstr "Object"
+
+#~ msgid "Object"
+#~ msgstr "物件"
+
+#~ msgctxt "PropertyName"
+#~ msgid "name"
+#~ msgstr "name"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GravitationForce"
+#~ msgstr "GravitationForce"
+
+#~ msgid "Gravitation force"
+#~ msgstr "重力"
+
+#~ msgctxt "PropertyName"
+#~ msgid "gravitationConst"
+#~ msgstr "gravitationConst"
+
+#~ msgctxt "Units"
+#~ msgid "N m²/kg²"
+#~ msgstr "N m²/kg²"
+
+#~ msgid "Gravitation constant"
+#~ msgstr "重力常數"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GravitationForceErrors"
+#~ msgstr "GravitationForceErrors"
+
+#~ msgid "Errors class for GravitationForce"
+#~ msgstr "GravitationForce 的誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "gravitationConstVariance"
+#~ msgstr "gravitationConstVariance"
+
+#~ msgid "Gravitation constant variance"
+#~ msgstr "重力常數變化"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "WeightForce"
+#~ msgstr "WeightForce"
+
+#~ msgid "Weight force"
+#~ msgstr "重量力"
+
+#~ msgctxt "PropertyName"
+#~ msgid "weightConst"
+#~ msgstr "weightConst"
+
+#~ msgid "Weight constant"
+#~ msgstr "重量常數"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "WeightForceErrors"
+#~ msgstr "WeightForceErrors"
+
+#~ msgid "Errors class for WeightForce"
+#~ msgstr "WeightForce 的誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "weightConstVariance"
+#~ msgstr "weightConstVariance"
+
+#~ msgid "Weight constant variance"
+#~ msgstr "重量常數變化"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "Spring"
+#~ msgstr "Spring"
+
+#~ msgid "Massless spring which can be connected to bodies"
+#~ msgstr "可以將多個主體相連，無質量的彈簧"
+
+#~ msgid "Rest length"
+#~ msgstr "剩餘長度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "length"
+#~ msgstr "length"
+
+#~ msgid "Current length"
+#~ msgstr "目前長度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "stiffness"
+#~ msgstr "stiffness"
+
+#~ msgctxt "Units"
+#~ msgid "N/m"
+#~ msgstr "N/m"
+
+#~ msgid "Stiffness"
+#~ msgstr "堅硬程度"
+
+#~ msgctxt "PropertyName"
+#~ msgid "damping"
+#~ msgstr "damping"
+
+#~ msgctxt "Units"
+#~ msgid "N s/m"
+#~ msgstr "N s/m"
+
+#~ msgid "Damping"
+#~ msgstr "阻尼"
+
+#~ msgid "Spring tension force"
+#~ msgstr "彈簧拉力"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "SpringErrors"
+#~ msgstr "SpringErrors"
+
+#~ msgid "Errors class for Spring"
+#~ msgstr "Spring 的誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "restLengthVariance"
+#~ msgstr "restLengthVariance"
+
+#~ msgid "Rest length variance"
+#~ msgstr "剩餘長度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "lengthVariance"
+#~ msgstr "lengthVariance"
+
+#~ msgid "Current length variance"
+#~ msgstr "目前長度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "stiffnessVariance"
+#~ msgstr "stiffnessVariance"
+
+#~ msgid "Stiffness variance"
+#~ msgstr "堅硬程度變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "dampingVariance"
+#~ msgstr "dampingVariance"
+
+#~ msgid "Damping variance"
+#~ msgstr "阻尼變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "localPosition1Variance"
+#~ msgstr "localPosition1Variance"
+
+#~ msgid "Local position 1 variance"
+#~ msgstr "本地位置 1 變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "localPosition2Variance"
+#~ msgstr "localPosition2Variance"
+
+#~ msgid "Local position 2 variance"
+#~ msgstr "本地位置 2 變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "position1Variance"
+#~ msgstr "position1Variance"
+
+#~ msgid "Position1 variance"
+#~ msgstr "位置 1 變化"
+
+#~ msgctxt "PropertyName"
+#~ msgid "position2Variance"
+#~ msgstr "position2Variance"
+
+#~ msgid "Position2 variance"
+#~ msgstr "位置 2 變化"
+
+#~ msgid "Spring tension force variance"
+#~ msgstr "彈簧拉力變化"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslGenericSolver"
+#~ msgstr "GslGenericSolver"
+
+#~ msgid "GSL generic solver"
+#~ msgstr "GSL 一般計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslSolver"
+#~ msgstr "GslSolver"
+
+#~ msgid "GSL non-adaptive solver"
+#~ msgstr "GSL Non-Adaptive 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveSolver"
+#~ msgstr "GslAdaptiveSolver"
+
+#~ msgid "GSL adaptive solver"
+#~ msgstr "GSL Adaptive 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslRK2Solver"
+#~ msgstr "GslRK2Solver"
+
+#~ msgid "Runge-Kutta second-order solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Runge-Kutta second-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveRK2Solver"
+#~ msgstr "GslAdaptiveRK2Solver"
+
+#~ msgid "Adaptive Runge-Kutta second-order solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta second-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslRK4Solver"
+#~ msgstr "GslRK4Solver"
+
+#~ msgid "Runge-Kutta classical fourth-order solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Runge-Kutta classical fourth-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveRK4Solver"
+#~ msgstr "GslAdaptiveRK4Solver"
+
+#~ msgid "Adaptive Runge-Kutta classical fourth-order solver from GSL library"
+#~ msgstr ""
+#~ "從 GSL 函式庫取得的 Adaptive Runge-Kutta classical fourth-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslRKF45Solver"
+#~ msgstr "GslRKF45Solver"
+
+#~ msgid "Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Runge-Kutta-Fehlberg (4,5) 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveRKF45Solver"
+#~ msgstr "GslAdaptiveRKF45Solver"
+
+#~ msgid "Adaptive Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta-Fehlberg (4,5) 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslRKCKSolver"
+#~ msgstr "GslRKCKSolver"
+
+#~ msgid "Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Runge-Kutta Cash-Karp (4,5) 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveRKCKSolver"
+#~ msgstr "GslAdaptiveRKCKSolver"
+
+#~ msgid "Adaptive Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Adaptive Runge-Kutta Cash-Karp (4,5) 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslRK8PDSolver"
+#~ msgstr "GslRK8PDSolver"
+
+#~ msgid "Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Runge-Kutta Prince-Dormand (8,9) 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveRK8PDSolver"
+#~ msgstr "GslAdaptiveRK8PDSolver"
+
+#~ msgid "Adaptive Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+#~ msgstr ""
+#~ "從 GSL 函式庫取得的 Adaptive Runge-Kutta Prince-Dormand (8,9) 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslRK2IMPSolver"
+#~ msgstr "GslRK2IMPSolver"
+
+#~ msgid "Runge-Kutta implicit second-order solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Runge-Kutta implicit second-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveRK2IMPSolver"
+#~ msgstr "GslAdaptiveRK2IMPSolver"
+
+#~ msgid "Adaptive Runge-Kutta implicit second-order solver from GSL library"
+#~ msgstr ""
+#~ "從 GSL 函式庫取得的 Adaptive Runge-Kutta implicit second-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslRK4IMPSolver"
+#~ msgstr "GslRK4IMPSolver"
+
+#~ msgid "Runge-Kutta implicit fourth-order solver from GSL library"
+#~ msgstr "從 GSL 函式庫取得的 Runge-Kutta implicit fourth-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GslAdaptiveRK4IMPSolver"
+#~ msgstr "GslAdaptiveRK4IMPSolver"
+
+#~ msgid "Adaptive Runge-Kutta implicit fource-order solver from GSL library"
+#~ msgstr ""
+#~ "從 GSL 函式庫取得的 Adaptive Runge-Kutta implicit fourth-order 計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "GenericEulerSolver"
+#~ msgstr "GenericEulerSolver"
+
+#~ msgid "Generic Euler solver"
+#~ msgstr "一般型尤拉計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "EulerSolver"
+#~ msgstr "EulerSolver"
+
+#~ msgid "Non-adaptive Euler solver"
+#~ msgstr "Non-adaptive 尤拉計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "AdaptiveEulerSolver"
+#~ msgstr "AdaptiveEulerSolver"
+
+#~ msgid "Adaptive Euler solver"
+#~ msgstr "Adaptive 尤拉計算器"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "CoulombForce"
+#~ msgstr "CoulombForce"
+
+#~ msgid "Coulomb force"
+#~ msgstr "庫侖力"
+
+#~ msgctxt "PropertyName"
+#~ msgid "coulombConst"
+#~ msgstr "coulombConst"
+
+#~ msgctxt "Units"
+#~ msgid "N m²/C²"
+#~ msgstr "N m²/C²"
+
+#~ msgid "Coulomb constant"
+#~ msgstr "庫侖常數"
+
+#~ msgctxt "ObjectClass"
+#~ msgid "CoulombForceErrors"
+#~ msgstr "CoulombForceErrors"
+
+#~ msgid "Errors class for CoulombForce"
+#~ msgstr "CoulombForce 的誤差類別"
+
+#~ msgctxt "PropertyName"
+#~ msgid "coulombConstVariance"
+#~ msgstr "coulombConstVariance"
+
+#~ msgid "Coulomb constant variance"
+#~ msgstr "庫侖常數變異"

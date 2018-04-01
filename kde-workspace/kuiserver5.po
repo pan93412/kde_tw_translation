@@ -1,0 +1,213 @@
+# translation of kuiserver.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kuiserver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"PO-Revision-Date: 2010-05-30 11:00+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
+#: configdialog.ui:31
+#, kde-format
+msgid "Finished Jobs"
+msgstr "已完成的工作"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
+#: configdialog.ui:43
+#, kde-format
+msgid "Move them to a different list"
+msgstr "將它們移到不同的清單上"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
+#: configdialog.ui:50
+#, kde-format
+msgid "Remove them"
+msgstr "將它們移除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
+#: configdialog.ui:60
+#, kde-format
+msgid "Appearance"
+msgstr "外觀"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
+#: configdialog.ui:72
+#, kde-format
+msgid "Show all jobs in a list"
+msgstr "顯示清單中的所有工作"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
+#: configdialog.ui:79
+#, kde-format
+msgid "Show all jobs in a tree"
+msgstr "以樹狀圖顯示所有工作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
+#: configdialog.ui:86
+#, kde-format
+msgid "Show separate windows"
+msgstr "以不同的視窗顯示"
+
+#: jobview.cpp:125 jobview.cpp:153
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 個檔案"
+
+#: jobview.cpp:128 jobview.cpp:156
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 個資料夾"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:8
+#, kde-format
+msgid "Move them to a different list."
+msgstr "將它們移到不同的清單上。"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:12
+#, kde-format
+msgid "Remove them."
+msgstr "將它們移除。"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:16
+#, kde-format
+msgid "Show all jobs in a list."
+msgstr "顯示清單中的所有工作。"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:20
+#, kde-format
+msgid "Show all jobs in a tree."
+msgstr "以樹狀圖顯示所有工作。"
+
+#. i18n: ectx: label, entry, group (Configuration)
+#: kuiserversettings.kcfg:24
+#, kde-format
+msgid "Show separate windows."
+msgstr "在不同的視窗顯示。"
+
+#: progresslistdelegate.cpp:145
+#, kde-format
+msgid "%1 of %2 processed at %3/s"
+msgstr "已處理 %1 個（共 %2 個），速度 %3/秒"
+
+#: progresslistdelegate.cpp:147
+#, kde-format
+msgid "%1 of %2 processed"
+msgstr "已處理 %1 個（共 %2 個）"
+
+#: progresslistdelegate.cpp:149
+#, kde-format
+msgid "%1 processed at %2/s"
+msgstr "已處理 %1 個，速度 %2/秒"
+
+#: progresslistdelegate.cpp:151
+#, kde-format
+msgid "%1 processed"
+msgstr "已處理 %1 個"
+
+#: progresslistdelegate.cpp:240
+#, kde-format
+msgid "Clear"
+msgstr "清除"
+
+#: progresslistdelegate.cpp:268
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: progresslistdelegate.cpp:287
+#, kde-format
+msgid "Pause"
+msgstr "暫停"
+
+#: progresslistdelegate.cpp:291
+#, kde-format
+msgid "Resume"
+msgstr "恢復"
+
+#: uiserver.cpp:44
+#, kde-format
+msgid "Configure..."
+msgstr "設定..."
+
+#: uiserver.cpp:79
+#, kde-format
+msgid "List of running file transfers/jobs (kuiserver)"
+msgstr "執行中的檔案傳輸/工作清單（kuiserver）"
+
+#: uiserver.cpp:125
+#, kde-format
+msgid "Behavior"
+msgstr "行為"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Job Manager"
+#~ msgstr "工作管理員"
+
+#~ msgid "KDE Job Manager"
+#~ msgstr "KDE 工作管理員"
+
+#~ msgid "(C) 2000-2009, KDE Team"
+#~ msgstr "(C) 2000-2009, KDE 開發團隊"
+
+#~ msgid "Shaun Reich"
+#~ msgstr "Shaun Reich"
+
+#~ msgid "Maintainer"
+#~ msgstr "維護者"
+
+#~ msgid "Rafael Fernández López"
+#~ msgstr "Rafael Fernández López"
+
+#~ msgid "Former Maintainer"
+#~ msgstr "前任維護者"
+
+#~ msgid "David Faure"
+#~ msgstr "David Faure"
+
+#~ msgid "Former maintainer"
+#~ msgstr "前任維護者"
+
+#~ msgid "Matej Koss"
+#~ msgstr "Matej Koss"
+
+#~ msgid "Developer"
+#~ msgstr "開發者"
+
+#~ msgid "Search"
+#~ msgstr "搜尋"
+
+#~ msgid "In Progress"
+#~ msgstr "處理中"
+
+#~ msgid "Finished"
+#~ msgstr "已完成"
+
+#~ msgid "KDE Progress Information UI Server"
+#~ msgstr "KDE 進度資訊使用者介面伺服器"

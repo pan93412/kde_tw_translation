@@ -1,0 +1,177 @@
+# translation of kcmsmserver.po to Chinese Traditional
+# Traditional Chinese Translation of kcmsmsserver
+# Copyright (C) 2002, 2008 Free Software Foundation, Inc.
+#
+# Jing-Jong Shyue <shyue@sonoma.com.tw>, 2001.
+# Paladin Liu <paladin@ms1.hinet.net>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsmserver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"PO-Revision-Date: 2009-02-10 12:18+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: kcmsmserver.cpp:50
+#, kde-format
+msgid ""
+"<h1>Session Manager</h1> You can configure the session manager here. This "
+"includes options such as whether or not the session exit (logout) should be "
+"confirmed, whether the session should be restored again when logging in and "
+"whether the computer should be automatically shut down after session exit by "
+"default."
+msgstr ""
+"<h1>工作階段管理員</h1>您可以在這邊組態工作階段管理員。 這包含了登出時是否要"
+"經過確認、是否要在登出時儲存工作階段，以及是否要在工作階段結束後自動關機。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, topBox)
+#: smserverconfigdlg.ui:17
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:23
+#, kde-format
+msgid ""
+"Check this option if you want the session manager to display a logout "
+"confirmation dialog box."
+msgstr "選取這個選項如果您希望工作階段管理員顯示燈出確認對話窗."
+
+#. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:26
+#, kde-format
+msgid "Conf&irm logout"
+msgstr "確認登出 (&i)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
+#: smserverconfigdlg.ui:33
+#, kde-format
+msgid "O&ffer shutdown options"
+msgstr "提供關機選項(&F)"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:43
+#, kde-format
+msgid ""
+"Here you can choose what should happen by default when you log out. This "
+"only has meaning, if you logged in through KDM."
+msgstr ""
+"在這裡您可以選擇在您登出時所要執行的動作。不過這只有在您使用 KDM 來登入系統時"
+"才會生效。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:46
+#, kde-format
+msgid "Default Leave Option"
+msgstr "預設離開選項"
+
+#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
+#: smserverconfigdlg.ui:52
+#, kde-format
+msgid "&End current session"
+msgstr "結束目前的工作階段(&E)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: smserverconfigdlg.ui:59
+#, kde-format
+msgid "&Turn off computer"
+msgstr "關閉電腦 (&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
+#: smserverconfigdlg.ui:66
+#, kde-format
+msgid "&Restart computer"
+msgstr "重新啟動電腦 (&R)"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:80
+#, kde-format
+msgid ""
+"<ul>\n"
+"<li><b>Restore previous session:</b> Will save all applications running on "
+"exit and restore them when they next start up</li>\n"
+"<li><b>Restore manually saved session: </b> Allows the session to be saved "
+"at any time via \"Save Session\" in the K-Menu. This means the currently "
+"started applications will reappear when they next start up.</li>\n"
+"<li><b>Start with an empty session:</b> Do not save anything. Will come up "
+"with an empty desktop on next start.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li><b>恢復前一個工作階段：</b> 會在離開時儲存所有執行的應用程式並在下次啟動"
+"時將他們恢復</li>\n"
+"<li><b>恢復手動儲存的工作階段：</b> 可以在任何時候透過 K-選單中的「儲存工作階"
+"段」來儲存工作階段。這表示目前啟動的應用程式會在下次啟動時恢復。</li>\n"
+"<li><b>以空的工作階段啟動：</b> 不要儲存任何東西。下次啟動時會看到的空無一物"
+"的桌面。</li>\n"
+"</ul>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:83
+#, kde-format
+msgid "On Login"
+msgstr "正在登入"
+
+#. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
+#: smserverconfigdlg.ui:89
+#, kde-format
+msgid "Restore &previous session"
+msgstr "回復先前的工作階段 (&P)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
+#: smserverconfigdlg.ui:96
+#, kde-format
+msgid "Restore &manually saved session"
+msgstr "回復手動存入的工作階段 (&M)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
+#: smserverconfigdlg.ui:103
+#, kde-format
+msgid "Start with an empty &session"
+msgstr "使用空白的工作階段來啟動(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: smserverconfigdlg.ui:110
+#, kde-format
+msgid "Applications to be e&xcluded from sessions:"
+msgstr "要自工作階段排除的應用程式(&X):"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
+#: smserverconfigdlg.ui:123
+#, kde-format
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"您可以在這裡輸入不想儲存在工作階段中的應用程式清單(以逗號或冒號分隔)，這樣下"
+"次恢復工作階段時它們就不會被啟動。例如「xterm,konsole」或「xterm:konsole」。"
+
+#~ msgid "Session Manager"
+#~ msgstr "工作階段管理員"
+
+#~ msgid "Advanced"
+#~ msgstr "進階的"
+
+#~ msgid ""
+#~ "The new window manager will be used when KDE is started the next time."
+#~ msgstr "新的視窗管理員會用於下次啟動 KDE 時。"
+
+#~ msgid "Window manager change"
+#~ msgstr "視窗管理員變更"
+
+#~ msgid "KWin (KDE default)"
+#~ msgstr "KWin（KDE 預設）"
+
+#~ msgid "Window Manager"
+#~ msgstr "視窗管理員"

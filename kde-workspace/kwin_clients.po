@@ -1,0 +1,989 @@
+# translation of kwin_clients.po to Chinese Traditional
+# traditional Chinese translation of kwin_clients.po
+# Using some zh_TW translation from KDE_3_3_BRANCH kwin_*_config.po
+# thanks for their authors!
+#
+#
+# Wong King Chi <stanley18fan0k@yahoo.com.hk>, 2005.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwin_clients\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-02 03:16+0100\n"
+"PO-Revision-Date: 2015-02-15 19:49+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: aurorae/src/aurorae.cpp:722
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Tiny"
+msgstr "極小"
+
+#: aurorae/src/aurorae.cpp:723
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Normal"
+msgstr "一般"
+
+#: aurorae/src/aurorae.cpp:724
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Large"
+msgstr "大"
+
+#: aurorae/src/aurorae.cpp:725
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Very Large"
+msgstr "非常大"
+
+#: aurorae/src/aurorae.cpp:726
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Huge"
+msgstr "巨大"
+
+#: aurorae/src/aurorae.cpp:727
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Very Huge"
+msgstr "非常巨大"
+
+#: aurorae/src/aurorae.cpp:728
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Oversized"
+msgstr "超過大小"
+
+#: aurorae/src/aurorae.cpp:731
+#, kde-format
+msgid "Button size:"
+msgstr "按鍵大小："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlastikConfigDialog)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:14
+#, kde-format
+msgid "Config Dialog"
+msgstr "設定對話框"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, titleAlign)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:23
+#, kde-format
+msgid "Title &Alignment"
+msgstr "標題對齊(&A)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignLeft)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:29
+#, kde-format
+msgid "Left"
+msgstr "置左"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignCenter)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:36
+#, kde-format
+msgid "Center"
+msgstr "置中"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignRight)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:43
+#, kde-format
+msgid "Right"
+msgstr "置右"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_coloredBorder)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:53
+#, kde-format
+msgid ""
+"Check this option if the window border should be painted in the titlebar "
+"color. Otherwise it will be painted in the background color."
+msgstr ""
+"如果您希望視窗裝飾的顏色跟標題列一樣，請選擇這個選項，否則會跟背景顏色一樣。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_coloredBorder)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:56
+#, kde-format
+msgid "Colored window border"
+msgstr "彩色的視窗邊框"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_titleShadow)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:66
+#, kde-format
+msgid ""
+"Check this option if you want the titlebar text to have a 3D look with a "
+"shadow behind it."
+msgstr "如果您想標題列的文字有著3D陰影效果，請選擇這個選項。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_titleShadow)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:69
+#, kde-format
+msgid "Use shadowed &text"
+msgstr "使用陰影文字(&T)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_animateButtons)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:76
+#, kde-format
+msgid ""
+"Check this option if you want the buttons to fade in when the mouse pointer "
+"hovers over them and fade out again when it moves away."
+msgstr "如果您希望按鈕在滑鼠上經過時有淡入和淡出的效果，請選擇這個選項。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_animateButtons)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:79
+#, kde-format
+msgid "Animate buttons"
+msgstr "按鈕動畫效果"
+
+#~ msgid "Button mouseover transition"
+#~ msgstr "滑鼠覆蓋按鈕轉變"
+
+#~ msgid "Configure window buttons' mouseover highlight animation"
+#~ msgstr "設定視窗按鈕在滑鼠覆蓋其上時的突顯動畫"
+
+#~ msgid "Title transitions"
+#~ msgstr "標頭轉變"
+
+#~ msgid "Configure fading transitions when window title is changed"
+#~ msgstr "設定視窗標頭變更時的淡出轉變"
+
+#~ msgid "Window active state change transitions"
+#~ msgstr "視窗狀態變更時的轉變"
+
+#~ msgid ""
+#~ "Configure fading between window shadow and glow when window's active "
+#~ "state is changed"
+#~ msgstr "設定視窗陰影間的淡化效果，及視窗狀態改變時的閃爍效果"
+
+#~ msgid "Window grouping animations"
+#~ msgstr "視窗群組動畫"
+
+#~ msgid ""
+#~ "Configure window titlebar animations when windows are grouped/ungrouped"
+#~ msgstr "設定視窗被群組起來或解除群組時的標題列動畫"
+
+#~ msgid "Hide Advanced Configuration Options"
+#~ msgstr "隱藏進階設定選項"
+
+#~ msgid "Show Advanced Configuration Options"
+#~ msgstr "顯示進階設定選項"
+
+#~ msgid "Animations"
+#~ msgstr "動畫"
+
+#~ msgid "Question - Oxygen Settings"
+#~ msgstr "問題 - Oxygen 設定"
+
+#~ msgid "Remove selected exception?"
+#~ msgstr "要移除選取的例外嗎？"
+
+#~ msgid "Warning - Oxygen Settings"
+#~ msgstr "警告 - Oxygen 設定"
+
+#~ msgid "Regular Expression syntax is incorrect"
+#~ msgstr "正規表示式語法不正確"
+
+#~ msgid "Exception Type"
+#~ msgstr "例外型態"
+
+#~ msgid "Regular Expression"
+#~ msgstr "正規表示式"
+
+#~ msgid "Window Title"
+#~ msgstr "視窗標題"
+
+#~ msgid "Window Class Name"
+#~ msgstr "視窗類別名稱"
+
+#~ msgid "Enable/disable this exception"
+#~ msgstr "開啟/關閉此例外"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Border si&ze:"
+#~ msgstr "邊界大小(&Z)："
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "No Border"
+#~ msgstr "沒有外框"
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "No Side Borders"
+#~ msgstr "沒有邊框"
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "Normal"
+#~ msgstr "一般"
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "Very Large"
+#~ msgstr "非常大"
+
+#~ msgctxt "@item:inlistbox Border size:"
+#~ msgid "Huge"
+#~ msgstr "巨大"
+
+#~ msgid "Tit&le alignment:"
+#~ msgstr "標題對齊(&L)："
+
+#~ msgid "Center (Full Width)"
+#~ msgstr "置中（完整寬度）"
+
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Enable animations"
+#~ msgstr "開啟動畫"
+
+#~ msgid "Fine Tuning"
+#~ msgstr "微調"
+
+#~ msgid "Close windows by double clicking the menu button"
+#~ msgstr "雙擊視窗選單按鈕時關閉視窗"
+
+#~ msgid "Never Draw Separator"
+#~ msgstr "永不繪製分隔器"
+
+#~ msgid "Draw Separator When Window is Active"
+#~ msgstr "當視窗在作用中時繪製分隔器"
+
+#~ msgid "Always Draw Separator"
+#~ msgstr "永遠繪製分隔器"
+
+#~ msgid "Separator disp&lay:"
+#~ msgstr "分隔器顯示(&L)："
+
+#~ msgid "Outline active window title"
+#~ msgstr "標記作用中視窗標題"
+
+#~ msgid "Use narrow space between decoration buttons"
+#~ msgstr "在裝飾按鍵間使用窄空間"
+
+#~ msgid "Add handle to resize windows with no border"
+#~ msgstr "新增把手來調整沒有邊框的視窗"
+
+#~ msgid "Display window borders for maximized windows"
+#~ msgstr "在最大化視窗上顯示邊框"
+
+#~ msgid "Shadows"
+#~ msgstr "陰影"
+
+#~ msgid "Window Drop-Down Shadow"
+#~ msgstr "視窗下拉時的陰影"
+
+#~ msgid "Active Window Glow"
+#~ msgstr "作用中視窗發光"
+
+#~ msgid "Window-Specific Overrides"
+#~ msgstr "視窗指定覆寫"
+
+#~ msgid "Dialog"
+#~ msgstr "對話框"
+
+#~ msgid "Information about Selected Window"
+#~ msgstr "選取的視窗的資訊"
+
+#~ msgid "Class: "
+#~ msgstr "類別："
+
+#~ msgid "Title: "
+#~ msgstr "標題："
+
+#~ msgid "Window Property Selection"
+#~ msgstr "視窗屬性選擇"
+
+#~ msgid "Use window class (whole application)"
+#~ msgstr "使用視窗類別（整個應用程式）"
+
+#~ msgid "Use window title"
+#~ msgstr "使用視窗標題"
+
+#~ msgid "Window Identification"
+#~ msgstr "視窗識別"
+
+#~ msgid "Matching window property: "
+#~ msgstr "比對視窗屬性："
+
+#~ msgid "Regular expression to match: "
+#~ msgstr "要比對的正規表示式："
+
+#~ msgid "Detect Window Properties"
+#~ msgstr "偵測視窗屬性"
+
+#~ msgid "Decoration Options"
+#~ msgstr "裝飾選項"
+
+#~ msgctxt "outline window title"
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgctxt "outline window title"
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgid "Border size:"
+#~ msgstr "邊界大小："
+
+#~ msgid "Outline active window title:"
+#~ msgstr "標記作用中視窗標題："
+
+#~ msgid "Separator display:"
+#~ msgstr "分隔器顯示："
+
+#~ msgid "Hide window title bar"
+#~ msgstr "隱藏視窗標題列"
+
+#~ msgctxt "Add handle to resize windows with no border"
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgctxt "Add handle to resize windows with no border"
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgid "Move Up"
+#~ msgstr "上移"
+
+#~ msgid "Move Down"
+#~ msgstr "下移"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "Oxygen Shadow Demo"
+#~ msgstr "Oxygen 陰影範例"
+
+#~ msgid "Draw window background"
+#~ msgstr "繪製視窗背景"
+
+#~ msgid "Inactive Windows"
+#~ msgstr "非作用中視窗"
+
+#~ msgid "Active Windows"
+#~ msgstr "作用中視窗"
+
+#~ msgid "Oxygen"
+#~ msgstr "Oxygen"
+
+#~ msgid "Window Actions Menu"
+#~ msgstr "視窗動作選單"
+
+#~ msgid "Application Menu"
+#~ msgstr "應用程式選單"
+
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgid "Minimize"
+#~ msgstr "最小化"
+
+#~ msgid "Maximize"
+#~ msgstr "最大化"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Keep Above Others"
+#~ msgstr "最上層顯示"
+
+#~ msgid "Keep Below Others"
+#~ msgstr "最下層顯示"
+
+#~ msgid "On All Desktops"
+#~ msgstr "在所有桌面"
+
+#~ msgid "Shade Button"
+#~ msgstr "遮蔽按鍵"
+
+#~ msgid "Menu"
+#~ msgstr "選單"
+
+#~ msgid "Not on all desktops"
+#~ msgstr "不在所有桌面"
+
+#~ msgid "On all desktops"
+#~ msgstr "在所有桌面"
+
+#~ msgid "Unshade"
+#~ msgstr "展開"
+
+#~ msgid "Shade"
+#~ msgstr "遮蔽"
+
+#~ msgid "Resize"
+#~ msgstr "調整視窗大小"
+
+#~ msgid "<b><center>B II preview</center></b>"
+#~ msgstr "<b><center>B II 預覧</center></b>"
+
+#~ msgid "Restore"
+#~ msgstr "回復"
+
+#~ msgctxt "Help button label, one character"
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Draw window frames using &titlebar colors"
+#~ msgstr "以標題列顏色來描繪視窗框架(&T)"
+
+#~ msgid ""
+#~ "When selected, the window borders are drawn using the titlebar colors; "
+#~ "otherwise, they are drawn using normal border colors."
+#~ msgstr ""
+#~ "選擇後，視窗裝飾將使用標題列的顏色繪製，否則，將取而代之使用正常的邊界顏色"
+#~ "繪製。"
+
+#~ msgid "Draw &resize handle"
+#~ msgstr "顯示改變大小的手把(&R)"
+
+#~ msgid ""
+#~ "When selected, decorations are drawn with a \"grab handle\" in the bottom "
+#~ "right corner of the windows; otherwise, no grab handle is drawn."
+#~ msgstr "選取時，裝飾中的拖動手把將會顯示於視窗右下方。要不然就是不顯示。"
+
+#~ msgid "Auto-move titlebar"
+#~ msgstr "自動移動標題列"
+
+#~ msgid ""
+#~ "When selected, titlebars are automatically relocated to visible "
+#~ "positions; otherwise, they are only moved manually using shift+drag."
+#~ msgstr ""
+#~ "選取此選項的話，標題列會自動移動到可見的位置，否則需要用 shift 加拖曳來手"
+#~ "動移動。"
+
+#~ msgid "Actions Settings"
+#~ msgstr "動作設定"
+
+#~ msgid "Double click on menu button:"
+#~ msgstr "雙擊視窗選單按鈕時："
+
+#~ msgid "Do Nothing"
+#~ msgstr "不做任何事"
+
+#~ msgid "Minimize Window"
+#~ msgstr "最小化視窗"
+
+#~ msgid "Shade Window"
+#~ msgstr "遮蔽視窗"
+
+#~ msgid "Close Window"
+#~ msgstr "關閉視窗"
+
+#~ msgid ""
+#~ "An action can be associated to a double click of the menu button. Leave "
+#~ "it to none if in doubt."
+#~ msgstr "您可以使雙擊選單按鈕時有所動作。不確定的話可不選。"
+
+#~ msgid "Laptop"
+#~ msgstr "筆記型電腦"
+
+#~ msgid "Bac&kground style: "
+#~ msgstr "背景樣式(&K)："
+
+#~ msgid "Solid Color"
+#~ msgstr "實心顏色"
+
+#~ msgid "Radial Gradient"
+#~ msgstr "輻射狀漸層"
+
+#~ msgid "Follow Style Hint"
+#~ msgstr "跟隨樣式提示"
+
+#~ msgid "Background style:"
+#~ msgstr "背景樣式："
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Oxygen decoration shadows demonstration"
+#~ msgstr "Oxygen 裝飾陰影範例"
+
+#~ msgid "(c) 2011, Hugo Pereira Da Costa"
+#~ msgstr "(c) 2011, Hugo Pereira Da Costa"
+
+#~ msgid "Hugo Pereira Da Costa"
+#~ msgstr "Hugo Pereira Da Costa"
+
+#~ msgid "Save"
+#~ msgstr "儲存"
+
+#~ msgid "Save shadows as pixmaps in provided directory"
+#~ msgstr "將陰影儲存成像素圖，放在提供的目錄中"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Extra size grip display: "
+#~ msgstr "額外大小格線顯示："
+
+#~ msgid "Extra size grip display:"
+#~ msgstr "額外大小格線顯示："
+
+#~ msgid "Inner Color:"
+#~ msgstr "內顏色："
+
+#~ msgid "Outer Color:"
+#~ msgstr "外顏色："
+
+#~ msgid "Vertical Offset:"
+#~ msgstr "垂直位移："
+
+#~ msgid "Size: "
+#~ msgstr "大小："
+
+#~ msgid "px"
+#~ msgstr "像素"
+
+#~ msgid "Always Hide Extra Size Grip"
+#~ msgstr "總是隱藏額外大小格線"
+
+#~ msgid "Show Extra Size Grip When Needed"
+#~ msgstr "需要時顯示額外大小格線"
+
+#~ msgid ""
+#~ "Check this option if you want windows to be closed when you double click "
+#~ "the menu button, similar to Microsoft Windows."
+#~ msgstr ""
+#~ "如果您希望雙擊視窗選單按鈕時關閉視窗，請選擇這個選項。(如 Microsoft "
+#~ "Windows 一樣)"
+
+#~ msgid "Plastik"
+#~ msgstr "Plastik"
+
+#~ msgid "All Desktops"
+#~ msgstr "所有桌面"
+
+#~ msgid "Above"
+#~ msgstr "上方"
+
+#~ msgid "Below"
+#~ msgstr "下方"
+
+#~ msgid "Close Item"
+#~ msgstr "關閉項目"
+
+#~ msgid "Tabstrip"
+#~ msgstr "Tabstrip"
+
+#~ msgid "&Left"
+#~ msgstr "靠左(&L)"
+
+#~ msgid "&Center"
+#~ msgstr "置中(&C)"
+
+#~ msgid "&Right"
+#~ msgstr "靠右(&R)"
+
+#~ msgid "Display window icons"
+#~ msgstr "顯示視窗圖示"
+
+#~ msgid "O&utline Color:"
+#~ msgstr "外框顏色(&U)："
+
+#~ msgid "Do not keep above others"
+#~ msgstr "不要置於最上層"
+
+#~ msgid "Keep above others"
+#~ msgstr "最上層顯示"
+
+#~ msgid "Do not keep below others"
+#~ msgstr "不要置於最下層"
+
+#~ msgid "Keep below others"
+#~ msgstr "最下層顯示"
+
+#~ msgid "Enable title transition animations"
+#~ msgstr "開啟標題轉變動畫"
+
+#~ msgid "Variable"
+#~ msgstr "變數"
+
+#~ msgid "Maximum"
+#~ msgstr "最大"
+
+#~ msgid "Enable window grouping"
+#~ msgstr "開啟視窗群組"
+
+#~ msgid "Shadow caching:"
+#~ msgstr "陰影快取："
+
+#~ msgid "TextLabel"
+#~ msgstr "文字標籤"
+
+#~ msgid "Use Oxygen Shadows"
+#~ msgstr "使用 Oxygen 陰影"
+
+#~ msgid "Use Desktop Effects Shadows"
+#~ msgstr "使用桌面效果陰影"
+
+#~ msgid "Do Not Draw Shadows"
+#~ msgstr "不要繪製陰影"
+
+#~ msgid "Shadow style:"
+#~ msgstr "陰影樣式："
+
+#~ msgctxt "draw separator"
+#~ msgid "Enabled"
+#~ msgstr "已開啟"
+
+#~ msgctxt "draw separator"
+#~ msgid "Disabled"
+#~ msgstr "已關閉"
+
+#~ msgid "Draw separator between title bar and window contents: "
+#~ msgstr "在標題列與視窗內容中加上分隔器："
+
+#~ msgid "Draw Separator between title bar and active window contents "
+#~ msgstr "在標題列與作用中視窗內容中加上分隔器"
+
+#~ msgid "Installs a KWM theme"
+#~ msgstr "安裝一個 KWM 佈景主題"
+
+#~ msgid "Path to a theme config file"
+#~ msgstr "佈景主題設定檔的路徑"
+
+#~ msgid "<center><b>KWMTheme</b></center>"
+#~ msgstr "<center><b>KWMTheme</b></center>"
+
+#~ msgid "Sticky"
+#~ msgstr "黏附"
+
+#~ msgid "Unsticky"
+#~ msgstr "取消黏附"
+
+#~ msgid "<center><b>Keramik preview</b></center>"
+#~ msgstr "<center><b>Keramik 預覧</b></center>"
+
+#~ msgid "Draw titlebar &stipple effect"
+#~ msgstr "描繪標題列刻點效果(&S)"
+
+#~ msgid ""
+#~ "When selected, active titlebars are drawn with a stipple (dotted) effect; "
+#~ "otherwise, they are drawn without the stipple."
+#~ msgstr "當選用時，活動標題列將會描繪出刻點的效果。要不然，就是不描繪刻點。"
+
+#~ msgid "Draw g&rab bar below windows"
+#~ msgstr "在視窗下面顯示拖動拉條(&R)"
+
+#~ msgid ""
+#~ "When selected, decorations are drawn with a \"grab bar\" below windows; "
+#~ "otherwise, no grab bar is drawn."
+#~ msgstr "選取時，裝飾中的拖動拉條將會放置顯示於視窗下方。要不然就是不顯示。"
+
+#~ msgid "Draw &gradients"
+#~ msgstr "繪製梯度色彩(&G)"
+
+#~ msgid ""
+#~ "When selected, decorations are drawn with gradients for high-color "
+#~ "displays; otherwise, no gradients are drawn."
+#~ msgstr "當選取時，裝飾將會使用高彩梯度顯示，要不然就是不使用梯度顯示。"
+
+#~ msgid "KDE 2"
+#~ msgstr "KDE 2"
+
+#~ msgid ""
+#~ "When selected, the window decoration borders are drawn using the titlebar "
+#~ "colors; otherwise, they are drawn using normal border colors instead."
+#~ msgstr ""
+#~ "選擇後，視窗裝飾將使用標題列的顏色繪製，否則，將取而代之使用正常的邊界顏色"
+#~ "繪製。"
+
+#~ msgid "Quartz &extra slim"
+#~ msgstr "Quartz &extra slim"
+
+#~ msgid "Quartz window decorations with extra-small title bar."
+#~ msgstr "Quartz 視窗裝飾+極細的標題列。"
+
+#~ msgid "Quartz"
+#~ msgstr "Quartz"
+
+#~ msgid "Redmond"
+#~ msgstr "Redmond"
+
+#~ msgid "&Show window resize handle"
+#~ msgstr "顯示視窗大小調整手把(&S)"
+
+#~ msgid ""
+#~ "When selected, all windows are drawn with a resize handle at the lower "
+#~ "right corner. This makes window resizing easier, especially for "
+#~ "trackballs and other mouse replacements on laptops."
+#~ msgstr ""
+#~ "若選擇了此項目，則每一個視窗的右下角都會有一個調整視窗大小用的手把。"
+
+#~ msgid "Here you can change the size of the resize handle."
+#~ msgstr "您可以在這邊改變調整視窗大小的手把大小。"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "Modern System"
+#~ msgstr "Modern System"
+
+#~ msgid "Web"
+#~ msgstr "Web"
+
+#~ msgid "Keramik"
+#~ msgstr "Keramik"
+
+#~ msgid "Display the window &icon in the caption bubble"
+#~ msgstr "在標題圓中顯示視窗圖示 (&I)"
+
+#~ msgid ""
+#~ "Check this option if you want the window icon to be displayed in the "
+#~ "caption bubble next to the titlebar text."
+#~ msgstr "如果您想讓標題圓中的圖示顯示在文字旁邊， 請選擇這個選項。"
+
+#~ msgid "Draw &small caption bubbles on active windows"
+#~ msgstr "讓使用中的視窗使用小的標題圓(&S)"
+
+#~ msgid ""
+#~ "Check this option if you want the caption bubble to have the same size on "
+#~ "active windows that it has on inactive ones. This option is useful for "
+#~ "laptops or low resolution displays where you want maximize the amount of "
+#~ "space available to the window contents."
+#~ msgstr ""
+#~ "如果您想讓作用中的視窗擁有與非作用中視窗相同大小的標題圓，請選擇這個選"
+#~ "項。 當您希望螢幕能容納更多視窗時(如筆記型電腦或者低解析度顯示)，這個選項"
+#~ "非常有用."
+
+#~ msgid "Draw g&rab bars below windows"
+#~ msgstr "將擷取列置於視窗下(&R)"
+
+#~ msgid ""
+#~ "Check this option if you want a grab bar to be drawn below windows. When "
+#~ "this option is not selected only a thin border will be drawn in its place."
+#~ msgstr ""
+#~ "如果您想讓擷取列置於視窗下，請選擇這個選項。 當這個選項未被選取時，將只有"
+#~ "一個細邊在它的位置上。"
+
+#~ msgid "Aurorae Theme Engine"
+#~ msgstr "Aurorae 主題引擎"
+
+#~ msgid "Drag or Type Theme URL"
+#~ msgstr "拖放或輸入主題的網址"
+
+#~ msgid "Unable to find the theme archive %1."
+#~ msgstr "找不到主題檔 %1。"
+
+#~ msgid ""
+#~ "Unable to download theme archive;\n"
+#~ "please check that address %1 is correct."
+#~ msgstr ""
+#~ "無法下載主題檔。\n"
+#~ "請檢查此位址 %1 是否正確。"
+
+#~ msgid "Theme:"
+#~ msgstr "主題："
+
+#~ msgid "Get New Themes..."
+#~ msgstr "取得新主題..."
+
+#~ msgid "Install New Theme..."
+#~ msgstr "安裝新主題..."
+
+#~ msgid "Glow active window"
+#~ msgstr "作用中視窗發光"
+
+#, fuzzy
+#~| msgid "Normal"
+#~ msgid "Form"
+#~ msgstr "一般"
+
+#~ msgid ""
+#~ "Select here the window property used to identify windows \n"
+#~ "to which the specific decoration options apply."
+#~ msgstr "在此選擇用於辨識要套用指定的視窗裝飾選項的視窗。"
+
+#~ msgid ""
+#~ "Type here the regular expression used to identify windows \n"
+#~ "to which the specific decoration options apply."
+#~ msgstr "在此輸入用於辨識要套用指定裝飾的視窗的正規表示式。"
+
+#~ msgid ""
+#~ "If checked, specified frame border is used in place of default value."
+#~ msgstr "勾選此選項的話，會用此值取代指定邊框的預設值。"
+
+#~ msgid ""
+#~ "If checked, specified blending color is used in title bar in place of "
+#~ "default value."
+#~ msgstr "勾選此選項的話，會用此值取代標題列混合顏色的預設值。"
+
+#~ msgid "Draw separator between title bar and active window contents:"
+#~ msgstr "在標題列與作用中視窗內容中加上分隔器："
+
+#~ msgid "Additional window decoration configuration options"
+#~ msgstr "進階視窗裝飾設定選項"
+
+#~ msgid ""
+#~ "The extra size grip is a small triangle, shown in the bottom-right corner "
+#~ "of a window,\n"
+#~ "which allows the window to be resized. This option controls in which "
+#~ "cases the size grip \n"
+#~ "is shown."
+#~ msgstr ""
+#~ "開啟此選項的話，會在視窗右下角繪製一個小三角形，讓您可以調整視窗大小。此選"
+#~ "項控制此大小格線何時要顯示。"
+
+#~ msgid ""
+#~ "When enabled, an additional frame is shown around the active window as "
+#~ "well as its title."
+#~ msgstr "開啟此選項的話，會顯示一個額外的框線在作用中視窗與其標題外。"
+
+#~ msgid ""
+#~ "When enabled, this option makes an horizontal separator appear between "
+#~ "the window title bar and the window contents."
+#~ msgstr "開啟此選項的話，會在標題列與視窗內容中加上一個水平列。"
+
+#~ msgid "Configure shadow colors for active and inactive windows"
+#~ msgstr "設定作用中與非作用中視窗的陰影顏色"
+
+#~ msgid ""
+#~ "When this option is enabled, the oxygen signature blue glow is used for "
+#~ "the active window shadow."
+#~ msgstr "開啟此選項的話，作用中視窗的陰影會發藍光。"
+
+#~ msgid "Configure window decoration option overrides for specific windows"
+#~ msgstr "設定指定視窗要覆寫的裝飾選項"
+
+#~ msgid "Extra Size grip display:"
+#~ msgstr "額外大小格線顯示："
+
+#~ msgid "Nitrogen"
+#~ msgstr "Nitrogen"
+
+#~ msgid "Oxygen based Window decoration for KDE"
+#~ msgstr "由 Oxygen 修改過來的 KDE 視窗裝飾"
+
+#~ msgid "Developer"
+#~ msgstr "開發者"
+
+#~ msgid "Oxygen team"
+#~ msgstr "Oxygen 開發團隊"
+
+#~ msgid ""
+#~ "When enabled, this option increases the visibility of the window titlebar "
+#~ "by showing stripes"
+#~ msgstr "開啟此選項的話，會以顯示條紋的方式增加視窗標題列的可見度"
+
+#~ msgid "Show stripes next to the title"
+#~ msgstr "在標題後顯示條紋"
+
+#~ msgid ""
+#~ "When enabled, this option increases the visibility of the window titlebar "
+#~ "by adding an horizontal bar between the title bar and the window contents"
+#~ msgstr ""
+#~ "開啟此選項的話，會在標題列與視窗內容中加上一個水平列以增加視窗標題列的可見"
+#~ "度。"
+
+#~ msgid "Draw separator between title bar and window contents"
+#~ msgstr "在標題列與視窗內容中加上分隔器"
+
+#~ msgid "Definition"
+#~ msgstr "定義"
+
+#~ msgid "Exception type: "
+#~ msgstr "例外型態："
+
+#, fuzzy
+#~| msgid "&Add"
+#~ msgid "&Advanced"
+#~ msgstr "新增(&A)"
+
+#~ msgid "nitrogen"
+#~ msgstr "Nitrogen"
+
+#~ msgid "Show stripes next to the title:"
+#~ msgstr "在標題後顯示條紋："
+
+#~ msgid "Blend title bar colors with window content:"
+#~ msgstr "標題列使用視窗內容的顏色："
+
+#~ msgid "Blend title bar colors with window contents"
+#~ msgstr "標題列使用視窗內容的顏色"
+
+#~ msgid ""
+#~ "When enabled, window colors are used in place of default title bar colors "
+#~ "to draw the decoration"
+#~ msgstr "開啟此選項的話，會用視窗顏色繪製裝飾，而不會用預設的標題列顏色"
+
+#~ msgid "Button style:"
+#~ msgstr "按鍵樣式："
+
+#~ msgid "Draw size grip in bottom-right corner of windows:"
+#~ msgstr "在視窗角落繪製調整大小的元件："
+
+#~ msgid "Draw size grip widget in bottom-right corner of windows"
+#~ msgstr "在視窗角落繪製調整大小的元件"
+
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgid "Layout"
+#~ msgstr "佈局"
+
+#~ msgid "Flags"
+#~ msgstr "旗標"
+
+#~ msgid "Exceptions ..."
+#~ msgstr "例外..."
+
+#~ msgid ""
+#~ "Raise a dialog to store blending type exceptions based on window title."
+#~ msgstr "叫出對話框以儲存基於視窗標題混合型態的例外。"
+
+#~ msgid "Ozone"
+#~ msgstr "Ozone"
+
+#~ msgid "Title bar blending:"
+#~ msgstr "標題列混合："
+
+#~ msgid "Show stripes :"
+#~ msgstr "顯示條紋："
+
+#~ msgid "Overwrite default title bar colors:"
+#~ msgstr "覆寫預設的標題列顏色："
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid ""
+#~ "When enabled, this option makes the window title bar use the same colors "
+#~ "as the window contents, instead of using the system title bar colors."
+#~ msgstr ""
+#~ "開啟此選項的話，會讓視窗的標題列使用與視窗內容相同的顏色，而不使用系統設定"
+#~ "的標題列顏色。"
+
+#~ msgid "Use thin borders"
+#~ msgstr "使用細邊框"

@@ -1,0 +1,185 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-24 02:38+0100\n"
+"PO-Revision-Date: 2013-06-11 15:30+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: plasmoidexecutionconfig.cpp:128
+#, kde-format
+msgid "Configure Plasmoid Execution"
+msgstr "設定 Plasmoid 執行"
+
+#: plasmoidexecutionconfig.cpp:138
+#, kde-format
+msgid "Display a plasmoid"
+msgstr "顯示 plasmoid"
+
+#: plasmoidexecutionconfig.cpp:148 plasmoidexecutionconfig.cpp:238
+#, kde-format
+msgid "Plasmoid Launcher"
+msgstr "Plasmoid 啟動器"
+
+#: plasmoidexecutionconfig.cpp:195
+#, fuzzy, kde-format
+#| msgid "Couldn't resolve the dependency: %1"
+msgid "Could not resolve the dependency: %1"
+msgstr "無法解決此相依性問題：%1"
+
+#: plasmoidexecutionconfig.cpp:309
+#, kde-format
+msgid "Plasmoids"
+msgstr "小元件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plasmoidexecutionconfig.ui:17
+#, kde-format
+msgid "Plasmoid"
+msgstr "Plasmoid"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plasmoidexecutionconfig.ui:23
+#, kde-format
+msgid "Path or name:"
+msgstr "路徑或名稱："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plasmoidexecutionconfig.ui:55
+#, kde-format
+msgid "Behavior"
+msgstr "行為"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plasmoidexecutionconfig.ui:61
+#, fuzzy, kde-format
+#| msgid "Form Factor"
+msgid "Form factor:"
+msgstr "表單因子"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formFactor)
+#: plasmoidexecutionconfig.ui:72
+#, kde-format
+msgid "planar"
+msgstr "平面"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formFactor)
+#: plasmoidexecutionconfig.ui:77
+#, kde-format
+msgid "horizontal"
+msgstr "水平"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formFactor)
+#: plasmoidexecutionconfig.ui:82
+#, kde-format
+msgid "vertical"
+msgstr "垂直"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formFactor)
+#: plasmoidexecutionconfig.ui:87
+#, kde-format
+msgid "mediacenter"
+msgstr "媒體中心"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plasmoidexecutionconfig.ui:95
+#, fuzzy, kde-format
+#| msgid "Theme"
+msgid "Theme:"
+msgstr "主題"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: plasmoidexecutionconfig.ui:111
+#, kde-format
+msgid "Dependencies"
+msgstr "相依性"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: plasmoidexecutionconfig.ui:120
+#, fuzzy, kde-format
+#| msgid "Targets:"
+msgid "&Targets:"
+msgstr "目標："
+
+#: plasmoidexecutionjob.cpp:48
+#, kde-format
+msgid "Plasmoid Viewer"
+msgstr "Plasmoid 檢視器"
+
+#: plasmoidexecutionjob.cpp:83
+#, kde-format
+msgid "** Killed **"
+msgstr "** 已砍掉 **"
+
+#: plasmoidexecutionjob.cpp:96 plasmoidexecutionjob.cpp:108
+#, kde-format
+msgid "*** Failed ***"
+msgstr "*** 已失敗 ***"
+
+#: plasmoidexecutionjob.cpp:98
+#, kde-format
+msgid "*** Finished ***"
+msgstr "*** 已完成 ***"
+
+#: plasmoidexecutionjob.cpp:107
+#, kde-format
+msgid "Plasmoid failed to execute on %1"
+msgstr ""
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Franklin Weng"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Enter a dependency to add to the list"
+#~ msgstr "輸入相依性加入清單中"
+
+#~ msgid "Adds the listed target to the dependency list."
+#~ msgstr "將列出的目標加入相依性清單。"
+
+#~ msgid "List of indirect dependent targets."
+#~ msgstr "間接相依目標清單。"
+
+#~ msgid ""
+#~ "This list should contain targets that the application does not directly "
+#~ "depend on, but for which an action needs to be taken before running the "
+#~ "application."
+#~ msgstr "這份清單中包含應用程式不直接相依，但是需要在啟動前執行的動作。"
+
+#~ msgid "Removes the selected dependencies from the list."
+#~ msgstr "從清單中移除選取的相依性。"
+
+#~ msgid "Move a dependency up in the list."
+#~ msgstr "在清單中將相依性上移。"
+
+#~ msgid "Moves the selected dependency down in the list."
+#~ msgstr "在清單中將相依性下移。"
+
+#~ msgid "Ninja failed to compile %1"
+#~ msgstr "Ninja 編譯 %1 失敗"
+
+#~ msgid "Execute plasmoid support"
+#~ msgstr "執行 plasmoid 支援"
+
+#~ msgid "Allows running of plasmoids"
+#~ msgstr "允許執行 plasmoids"
+
+#~ msgid "Aleix Pol Gonzalez"
+#~ msgstr "Aleix Pol Gonzalez"
+
+#~ msgid "Author"
+#~ msgstr "作者"

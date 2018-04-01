@@ -1,0 +1,235 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevgit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-24 02:56+0100\n"
+"PO-Revision-Date: 2014-02-27 11:06+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gitmessagehighlighter.cpp:79
+#, kde-format
+msgid "Try to keep summary length below %1 characters."
+msgstr "試著保持摘要長度少於 %1 個字元。"
+
+#: gitmessagehighlighter.cpp:95
+#, kde-format
+msgid "Separate summary from details with one empty line."
+msgstr "用一個空白行來分隔摘要與詳情。"
+
+#: gitmessagehighlighter.cpp:105
+#, kde-format
+msgid "Try to keep line length below %1 characters."
+msgstr "試著保持行長度少於 %1 個字元。"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, GitNameEmailDialog)
+#: gitnameemaildialog.ui:17
+#, kde-format
+msgid "Configure Name and Email for Git"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#: gitnameemaildialog.ui:23
+#, kde-format
+msgid ""
+"<html><head/><body><p>You have not yet configured the name and email to be "
+"associated with your Git commits.<br/>The values you enter here will be "
+"written to the Git configuration, either locally for the current project "
+"only, or globally for all Git projects.</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gitnameemaildialog.ui:35
+#, kde-format
+msgid "&Name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: gitnameemaildialog.ui:48
+#, kde-format
+msgid "Emai&l:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, globalCheckBox)
+#: gitnameemaildialog.ui:78
+#, kde-format
+msgid "Write to global config"
+msgstr ""
+
+#: gitplugin.cpp:182
+#, kde-format
+msgid "Unable to find git executable. Is it installed on the system?"
+msgstr ""
+
+#: gitplugin.cpp:231
+#, kde-format
+msgid "Git Stashes"
+msgstr "Git Stashes"
+
+#: gitplugin.cpp:232 stashmanagerdialog.cpp:42
+#, kde-format
+msgid "Stash Manager"
+msgstr "Stash 管理者"
+
+#: gitplugin.cpp:233
+#, kde-format
+msgid "Push Stash"
+msgstr "Push Stash"
+
+#: gitplugin.cpp:234
+#, kde-format
+msgid "Pop Stash"
+msgstr "Pop Stash"
+
+#: gitplugin.cpp:260
+#, kde-format
+msgid "error: %1"
+msgstr "錯誤：%1"
+
+#: gitplugin.cpp:359 gitplugin.cpp:370
+#, kde-format
+msgid "Did not specify the list of files"
+msgstr "未指定檔案列表"
+
+#: gitplugin.cpp:427
+#, kde-format
+msgid "Could not revert changes"
+msgstr "無法回復變更"
+
+#: gitplugin.cpp:437
+#, kde-format
+msgid ""
+"The following files have uncommitted changes, which will be lost. Continue?"
+msgstr ""
+
+#: gitplugin.cpp:460
+#, kde-format
+msgid "No files or message specified"
+msgstr "沒有指定檔案或訊息"
+
+#: gitplugin.cpp:464
+#, kde-format
+msgid "Email or name for Git not specified"
+msgstr ""
+
+#: gitplugin.cpp:537
+#, kde-format
+msgid "No files to remove"
+msgstr "沒有可移除的檔案"
+
+#: gitplugin.cpp:717
+#, kde-format
+msgid "There are pending changes, do you want to stash them first?"
+msgstr "有暫停中的變更。您要先 stash 嗎？"
+
+#: stashmanagerdialog.cpp:114
+#, kde-format
+msgid "Are you sure you want to drop the stash '%1'?"
+msgstr "您確定要丟棄 stash %1 嗎？"
+
+#: stashmanagerdialog.cpp:122
+#, kde-format
+msgid "KDevelop - Git Stash"
+msgstr "KDevelop - Git Stash"
+
+#: stashmanagerdialog.cpp:122
+#, kde-format
+msgid "Select a name for the new branch:"
+msgstr "請選擇新分支的名稱："
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, apply)
+#: stashmanagerdialog.ui:17
+#, kde-format
+msgid "Applies stash's patch"
+msgstr "套用 stash 的修補"
+
+#. i18n: ectx: property (text), widget (QPushButton, apply)
+#: stashmanagerdialog.ui:20
+#, kde-format
+msgid "Apply"
+msgstr "套用"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pop)
+#: stashmanagerdialog.ui:27
+#, kde-format
+msgid "Applies stash's patch and drops the stash"
+msgstr "套用 stash 的修補，然後丟棄 stash"
+
+#. i18n: ectx: property (text), widget (QPushButton, pop)
+#: stashmanagerdialog.ui:30
+#, kde-format
+msgid "Pop"
+msgstr "Pop"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, branch)
+#: stashmanagerdialog.ui:37
+#, kde-format
+msgid ""
+"Creates a new branch and applies the stash there, then it drops the stash."
+msgstr "建立新的分支，套用 stash，然後丟棄 stash"
+
+#. i18n: ectx: property (text), widget (QPushButton, branch)
+#: stashmanagerdialog.ui:40
+#, kde-format
+msgid "Branch"
+msgstr "分支"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, drop)
+#: stashmanagerdialog.ui:60
+#, kde-format
+msgid "Removes the selected branch"
+msgstr "移除選取的分支"
+
+#. i18n: ectx: property (text), widget (QPushButton, drop)
+#: stashmanagerdialog.ui:63
+#, kde-format
+msgid "Drop"
+msgstr "丟棄"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, show)
+#: stashmanagerdialog.ui:70
+#, kde-format
+msgid "Show the contents of the stash"
+msgstr "顯示 stash 內容"
+
+#. i18n: ectx: property (text), widget (QPushButton, show)
+#: stashmanagerdialog.ui:73
+#, kde-format
+msgid "Show"
+msgstr "顯示"
+
+#~ msgid "git is not installed"
+#~ msgstr "未安裝 git"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Git"
+#~ msgstr "Git"
+
+#~ msgid "A plugin to support git version control systems"
+#~ msgstr "支援 Git 版本控制系統的外掛程式"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Git"
+#~ msgstr "Git"
+
+#~ msgid "Thanks for the translation! Have a nice day, mr. translator!"
+#~ msgstr "感謝您使用 KDE 正體中文系統 :p"

@@ -1,0 +1,168 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2012, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-26 03:27+0100\n"
+"PO-Revision-Date: 2018-03-25 11:54+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: abstractlocker.cpp:53
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock it either ConsoleKit or LoginD is needed, none of\n"
+"which could be found on your system."
+msgstr ""
+"螢幕鎖定程式已損壞，無法再解除鎖定。\n"
+"要解鎖的話，必須要有 ConsoleKit 或 LoginD，\n"
+"而這些都沒辦法在你的電腦上找到。"
+
+#: abstractlocker.cpp:56
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F2),\n"
+"log in as root and execute the command:\n"
+"\n"
+"# ck-unlock-session <session-name>\n"
+"\n"
+msgstr ""
+"螢幕鎖定程式已損壞，無法再解除鎖定。\n"
+"要解鎖的話，請切換到虛擬終端機（比方說 Ctrl+Alt+F2），\n"
+"以管理員方式登入自己帳號後執行以下指令：\n"
+"\n"
+"# ck-unlock-session <session-name>\n"
+"\n"
+
+#: abstractlocker.cpp:60
+#, kde-format
+msgid ""
+"The screen locker is broken and unlocking is not possible anymore.\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F2),\n"
+"log in and execute the command:\n"
+"\n"
+"loginctl unlock-session %1\n"
+"\n"
+"Afterwards switch back to the running session (Ctrl+Alt+F%2)."
+msgstr ""
+"螢幕鎖定程式已損壞，無法再解除鎖定。\n"
+"要解鎖的話，請切換到虛擬終端機（比方說 Ctrl+Alt+F2），\n"
+"登入自己帳號後執行以下指令：\n"
+"\n"
+"loginctl unlock-sessions %1\n"
+"\n"
+"再切回目前執行的工作階段（Ctrl+Alt+F%2）。"
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: kcfg/kscreenlockersettings.kcfg:10
+#, kde-format
+msgid "Screen lock enabled"
+msgstr "螢幕鎖定已開啟"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: kcfg/kscreenlockersettings.kcfg:11
+#, kde-format
+msgid "Sets whether the screen will be locked after the specified time."
+msgstr "設定螢幕多久之後要鎖定。"
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: kcfg/kscreenlockersettings.kcfg:16
+#, kde-format
+msgid "Screen saver timeout"
+msgstr "螢幕保護程式逾時"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: kcfg/kscreenlockersettings.kcfg:17
+#, kde-format
+msgid "Sets the minutes after which the screen is locked."
+msgstr "設定螢幕鎖定的執行時間（分）。"
+
+#: ksldapp.cpp:175
+#, kde-format
+msgid "Lock Session"
+msgstr "鎖定工作階段"
+
+#: ksldapp.cpp:377
+#, kde-format
+msgid "Screen locked"
+msgstr "螢幕已鎖定"
+
+#: ksldapp.cpp:533
+#, kde-format
+msgid "Screen unlocked"
+msgstr "螢幕已解除鎖定"
+
+#: logind.cpp:196
+#, kde-format
+msgid "Screen Locker"
+msgstr "螢幕鎖定器"
+
+#: logind.cpp:197
+#, kde-format
+msgid "Ensuring that the screen gets locked before going to sleep"
+msgstr "進入睡眠模式前確定螢幕已鎖定"
+
+#~ msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+#~ msgstr "<qt><nobr><b>自動登出</b></nobr></qt>"
+
+#~ msgid ""
+#~ "<qt>To prevent being logged out, resume using this session by moving the "
+#~ "mouse or pressing a key.</qt>"
+#~ msgstr "<qt>要避免被強制登出，請移動滑鼠或按下一鍵來恢復工作階段。</qt>"
+
+#~ msgid "Time Remaining:"
+#~ msgstr "剩餘時間："
+
+#~ msgid ""
+#~ "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+#~ msgid_plural ""
+#~ "<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+#~ msgstr[0] "<qt><nobr>您將在 %1 秒內自動登出</nobr></qt>"
+
+#~ msgid "Enable screen saver"
+#~ msgstr "啟動螢幕保護程式"
+
+#~ msgid "Enables the screen saver."
+#~ msgstr "啟動螢幕保護程式。"
+
+#~ msgid "Suspend screen saver when DPMS kicks in"
+#~ msgstr "當 DPMS 關閉時暫停螢幕保護程式"
+
+#~ msgid ""
+#~ "Usually the screen saver is suspended when display power saving kicks "
+#~ "in,\n"
+#~ "       as nothing can be seen on the screen anyway, obviously. However, "
+#~ "some screen savers\n"
+#~ "       actually perform useful computations, so it is not desirable to "
+#~ "suspend them."
+#~ msgstr ""
+#~ "通常螢幕保護程式在螢幕進入省電模式時會關閉，因為反正螢幕會變空白，什麼也看"
+#~ "不到。不過，有些螢幕保護程式實際上是有在執行一些必要的運算，所以可能不能暫"
+#~ "停。"
+
+#~ msgid "Enable legacy X screen saver"
+#~ msgstr "開啟傳統 X 螢幕保護程式"
+
+#~ msgid "Uses an X screensaver with the screen locker."
+#~ msgstr "使用 X screensaver 做為螢幕鎖定程式。"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"

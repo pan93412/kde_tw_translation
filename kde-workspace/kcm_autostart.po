@@ -1,0 +1,202 @@
+# translation of kcm_autostart.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2010, 2012.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-07 03:32+0100\n"
+"PO-Revision-Date: 2018-03-25 11:36+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin), Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: addscriptdialog.cpp:40
+#, kde-format
+msgid "Shell script path:"
+msgstr "Shell 文稿路徑："
+
+#: addscriptdialog.cpp:44
+#, kde-format
+msgid "Create as symlink"
+msgstr "以符號連結建立"
+
+#: addscriptdialog.cpp:79
+#, kde-format
+msgid "\"%1\" is not an absolute path."
+msgstr "\"%1\" 不是絕對路徑。"
+
+#: addscriptdialog.cpp:82
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "\"%1\" 不存在。"
+
+#: addscriptdialog.cpp:85
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "\"%1\" 不是檔案"
+
+#: addscriptdialog.cpp:88
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "\"%1\" 無法讀取。"
+
+#: advanceddialog.cpp:32
+#, kde-format
+msgid "Autostart only in Plasma"
+msgstr "只在 Plasma 自動啟動"
+
+#: autostart.cpp:53
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: autostart.cpp:54
+#, kde-format
+msgid "Command"
+msgstr "指令"
+
+#: autostart.cpp:55
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#: autostart.cpp:56
+#, kde-format
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"session startup, on session shutdown, etc"
+msgid "Run On"
+msgstr "執行於"
+
+#: autostart.cpp:75
+#, kde-format
+msgid "Session Autostart Manager"
+msgstr "工作階段自啟管理員"
+
+#: autostart.cpp:77
+#, kde-format
+msgid "Session Autostart Manager Control Panel Module"
+msgstr "工作階段自啟管理員控制面板模組"
+
+#: autostart.cpp:79
+#, kde-format
+msgid "Copyright © 2006–2010 Autostart Manager team"
+msgstr "Copyright © 2006–2010 自動啟動管理員開發團隊"
+
+#: autostart.cpp:80
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Maintainer"
+msgstr "維護者"
+
+#: autostart.cpp:108 autostart.cpp:122
+#, kde-format
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "已關閉"
+
+#: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
+#, kde-format
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "已開啟"
+
+#: autostart.cpp:156
+#, kde-format
+msgid "Startup"
+msgstr "啟動"
+
+#: autostart.cpp:157
+#, kde-format
+msgid "Logout"
+msgstr "登出"
+
+#: autostart.cpp:158
+#, kde-format
+msgid "Before session startup"
+msgstr "在工作階段啟動前"
+
+#: autostart.cpp:163
+#, kde-format
+msgid "Desktop File"
+msgstr "桌面檔案"
+
+#: autostart.cpp:171
+#, kde-format
+msgid "Script File"
+msgstr "文稿檔案"
+
+#: autostart.cpp:447
+#, kde-format
+msgid ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+msgstr "KDE 只會讀取副檔名為 \".sh\" 的檔案來設定環境。"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:17
+#, kde-format
+msgid "&Properties..."
+msgstr "屬性(&P)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+#, kde-format
+msgid "Add Script..."
+msgstr "新增文稿..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+#, kde-format
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:53
+#, kde-format
+msgid "Advanced..."
+msgstr "進階..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+#, kde-format
+msgid "Add Program..."
+msgstr "新增程式..."
+
+#~ msgid "Pre-KDE startup"
+#~ msgstr "KDE 前預先啟動"
+
+#~ msgid "Shutdown"
+#~ msgstr "關閉"
+
+#~ msgid "1"
+#~ msgstr "1"

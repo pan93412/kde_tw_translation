@@ -1,0 +1,208 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-06-02 03:07+0200\n"
+"PO-Revision-Date: 2017-06-29 21:22+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: openconnectauth.cpp:301
+#, kde-format
+msgid "Contacting host, please wait..."
+msgstr "聯繫主機中，請稍候..."
+
+#: openconnectauth.cpp:494
+#, kde-format
+msgid "Login"
+msgstr "登入"
+
+#: openconnectauth.cpp:551
+#, kde-format
+msgid ""
+"Check failed for certificate from VPN server \"%1\".\n"
+"Reason: %2\n"
+"Accept it anyway?"
+msgstr ""
+"檢查從 VPN 伺服器 %1 的憑證失敗。\n"
+"理由：%2\n"
+"還是要接受嗎？"
+
+#: openconnectauth.cpp:645
+#, kde-format
+msgid "Connection attempt was unsuccessful."
+msgstr "試圖連線不成功。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, OpenconnectAuth)
+#: openconnectauth.ui:26
+#, kde-format
+msgid "OpenConnect VPN Authentication"
+msgstr "OpenConnect VPN 認證"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: openconnectauth.ui:55
+#, kde-format
+msgid "VPN Host"
+msgstr "VPN 主機"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnConnect)
+#: openconnectauth.ui:71
+#, kde-format
+msgid "Connect"
+msgstr "連線"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoconnect)
+#: openconnectauth.ui:92
+#, kde-format
+msgid "Automatically start connecting next time"
+msgstr "下次自動開始連線"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkStorePasswords)
+#: openconnectauth.ui:99
+#, kde-format
+msgid "Store passwords"
+msgstr "儲存密碼"
+
+#. i18n: ectx: property (text), widget (QCheckBox, viewServerLog)
+#: openconnectauth.ui:143
+#, kde-format
+msgid "View Log"
+msgstr "檢視紀錄"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLogLevel)
+#: openconnectauth.ui:153
+#, kde-format
+msgid "Log Level:"
+msgstr "紀錄等級："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLogLevel)
+#: openconnectauth.ui:164
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLogLevel)
+#: openconnectauth.ui:169
+#, kde-format
+msgid "Info"
+msgstr "資訊"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLogLevel)
+#: openconnectauth.ui:174
+#, kde-format
+msgctxt "like in Debug log level"
+msgid "Debug"
+msgstr "除錯"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLogLevel)
+#: openconnectauth.ui:179
+#, kde-format
+msgid "Trace"
+msgstr "追蹤"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, OpenconnectProp)
+#: openconnectprop.ui:14
+#, kde-format
+msgid "OpenConnect Settings"
+msgstr "OpenConnect 設定"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_general)
+#: openconnectprop.ui:20
+#, kde-format
+msgctxt "like in General settings"
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: openconnectprop.ui:32
+#, kde-format
+msgid "Gateway:"
+msgstr "閘道："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: openconnectprop.ui:45
+#, kde-format
+msgid "CA Certificate:"
+msgstr "CA 憑證："
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, leCaCertificate)
+#. i18n: ectx: property (filter), widget (KUrlRequester, leUserCert)
+#. i18n: ectx: property (filter), widget (KUrlRequester, leUserPrivateKey)
+#: openconnectprop.ui:55 openconnectprop.ui:154 openconnectprop.ui:161
+#, kde-format
+msgid "*.pem *.crt *.key"
+msgstr "*.pem *.crt *.key"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: openconnectprop.ui:62
+#, kde-format
+msgid "Proxy:"
+msgstr "代理伺服器："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: openconnectprop.ui:75
+#, kde-format
+msgid "CSD Wrapper Script:"
+msgstr "CSD 包裝文稿："
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAllowTrojan)
+#: openconnectprop.ui:85
+#, kde-format
+msgid "Allow Cisco Secure Desktop trojan"
+msgstr "允許 Cisco 安全桌面的特洛依木馬"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: openconnectprop.ui:95
+#, kde-format
+msgid "VPN Protocol:"
+msgstr "VPN 協定："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbProtocol)
+#: openconnectprop.ui:109
+#, kde-format
+msgid "Cisco AnyConnect"
+msgstr "Cisco AnyConnect"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbProtocol)
+#: openconnectprop.ui:114
+#, kde-format
+msgid "Juniper/Pulse Network Connect"
+msgstr "Juniper/Pulse 網路連線"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: openconnectprop.ui:125
+#, kde-format
+msgid "Certificate Authentication"
+msgstr "憑證認證"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: openconnectprop.ui:134
+#, kde-format
+msgid "User Certificate:"
+msgstr "使用者憑證："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: openconnectprop.ui:144
+#, kde-format
+msgid "Private Key:"
+msgstr "私密金鑰："
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseFsid)
+#: openconnectprop.ui:168
+#, kde-format
+msgid "Use FSID for key passphrase"
+msgstr "使用 FSID 做金鑰密碼片語"
+
+#~ msgid "&Show password"
+#~ msgstr "顯示密碼(&S)"

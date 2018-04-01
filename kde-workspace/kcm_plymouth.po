@@ -1,0 +1,140 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-05-28 03:05+0200\n"
+"PO-Revision-Date: 2017-06-29 21:03+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "s8321414@gmail.com"
+
+#: helper.cpp:45
+#, kde-format
+msgid "No theme specified in helper parameters."
+msgstr "在助手程式中未指定主題。"
+
+#: helper.cpp:64 helper.cpp:242 helper.cpp:306
+#, kde-format
+msgid "Theme corrupted: .plymouth file not found inside theme."
+msgstr "主題已損毀：在主題中找不到 .plymouth 檔案。"
+
+#: helper.cpp:74 helper.cpp:101 helper.cpp:124 helper.cpp:250 helper.cpp:315
+#, kde-format
+msgid "Cannot start update-alternatives."
+msgstr "無法啟動 update-alternatives。"
+
+#: helper.cpp:79 helper.cpp:106 helper.cpp:129 helper.cpp:255 helper.cpp:320
+#, kde-format
+msgid "update-alternatives failed to run."
+msgstr "update-alternatives 執行失敗。"
+
+#: helper.cpp:90 helper.cpp:114 helper.cpp:137 helper.cpp:263 helper.cpp:328
+#, kde-format
+msgid "update-alternatives returned with error condition %1."
+msgstr "update-alternatives 傳回錯誤代碼 %1。"
+
+#: helper.cpp:150
+#, kde-format
+msgid "Cannot start initramfs."
+msgstr "無法啟動 initramfs。"
+
+#: helper.cpp:155
+#, kde-format
+msgid "Initramfs failed to run."
+msgstr "initramfs 執行失敗。"
+
+#: helper.cpp:165
+#, kde-format
+msgid "Initramfs returned with error condition %1."
+msgstr "Initramfs 傳回錯誤代碼 %1。"
+
+#: helper.cpp:290
+#, kde-format
+msgid "Theme folder %1 does not exist."
+msgstr "主題資料夾 %1 不存在。"
+
+#: helper.cpp:296
+#, kde-format
+msgid "Theme %1 does not exist."
+msgstr "主題 %1 不存在。"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Configure Plymouth Splash Screen"
+msgstr "設定 Plymouth 啟動畫面"
+
+#: kcm.cpp:64
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:88
+#, kde-format
+msgid "Download New Splash Screens"
+msgstr "下載新啟動畫面"
+
+#: kcm.cpp:191 kcm.cpp:208 kplymouththemeinstaller.cpp:124
+#, kde-format
+msgid "Unable to authenticate/execute the action: %1, %2"
+msgstr "無法認證/執行此動作：%1，%2"
+
+#: kplymouththemeinstaller.cpp:45
+#, kde-format
+msgid "Plymouth theme installer"
+msgstr "Plymouth 主題安裝程式"
+
+#: kplymouththemeinstaller.cpp:52
+#, kde-format
+msgid "Install a theme."
+msgstr "安裝主題。"
+
+#: kplymouththemeinstaller.cpp:53
+#, kde-format
+msgid "Uninstall a theme."
+msgstr "解除安裝主題。"
+
+#: kplymouththemeinstaller.cpp:55
+#, kde-format
+msgid "The theme to install, must be an existing archive file."
+msgstr "要安裝的主題，必須是既存的壓縮檔。"
+
+#: package/contents/ui/main.qml:36
+#, kde-format
+msgid ""
+"This module lets you configure the look of the whole workspace with some "
+"ready to go presets."
+msgstr "這個模組讓您設定整個工作空間的外觀。"
+
+#: package/contents/ui/main.qml:43
+#, kde-format
+msgid "Select a global splash screen for the system"
+msgstr "為系統選擇一個全域的啟動畫面"
+
+#: package/contents/ui/main.qml:156
+#, kde-format
+msgid "Uninstall"
+msgstr "解除安裝"
+
+#: package/contents/ui/main.qml:180
+#, kde-format
+msgid "Get New Boot Splash Screens..."
+msgstr "取得新啟動畫面..."

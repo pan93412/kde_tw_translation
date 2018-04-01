@@ -1,0 +1,395 @@
+# translation of kcmstyle.po to Chinese Traditional
+# Copyright (C) 2001, 2002, 2007, 2008 Free Software Foundation, Inc.
+# Paladin Liu <paladin@ms1.hinet.net>, 2002.
+# Kenduest Lee <kenduest@i18n.linux.org.tw>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2009.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
+# Jeff Huang <s8321414@gmail.com>, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-15 03:23+0100\n"
+"PO-Revision-Date: 2018-03-25 11:48+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Paladin Liu,Kenduest Lee, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "paladin@ms1.hinet.net,kenduest@i18n.linux.org.tw, s8321414@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: finetuning.ui:44
+#, kde-format
+msgid "Show icons in b&uttons:"
+msgstr "在按鍵內顯示圖示 (&B)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: finetuning.ui:57
+#, kde-format
+msgid "Toolbars"
+msgstr "工具列"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: finetuning.ui:63
+#, kde-format
+msgid "Main &toolbar text location:"
+msgstr "主工具列文字位置 (&T)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:77 finetuning.ui:114
+#, kde-format
+msgid "No Text"
+msgstr "沒有文字"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:82 finetuning.ui:119
+#, kde-format
+msgid "Text Only"
+msgstr "只有文字"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:87 finetuning.ui:124
+#, kde-format
+msgid "Text Beside Icons"
+msgstr "文字在圖示旁邊"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (KComboBox, comboSecondaryToolbarIcons)
+#: finetuning.ui:92 finetuning.ui:129
+#, kde-format
+msgid "Text Below Icons"
+msgstr "文字在圖示下方"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: finetuning.ui:100
+#, kde-format
+msgid "Secondary toolbar text &location:"
+msgstr "第二工具列文字位置 (&L)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: finetuning.ui:153
+#, kde-format
+msgid "Show icons in menus:"
+msgstr "在選單上顯示圖示："
+
+#: kcmstyle.cpp:161
+#, kde-format
+msgid ""
+"<h1>Style</h1>This module allows you to modify the visual appearance of user "
+"interface elements, such as the widget style and effects."
+msgstr ""
+"<h1>風格</h1>這個模組允許您修改使用者介面元件的視覺外觀，例如 Widget 的風格及"
+"特效。"
+
+#: kcmstyle.cpp:173
+#, kde-format
+msgid "KDE Style Module"
+msgstr "KDE 風格模組"
+
+#: kcmstyle.cpp:175
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
+
+#: kcmstyle.cpp:177
+#, kde-format
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmstyle.cpp:178
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmstyle.cpp:179
+#, kde-format
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"
+
+#: kcmstyle.cpp:204
+#, kde-format
+msgid "Widget style:"
+msgstr "元件樣式："
+
+#: kcmstyle.cpp:214
+#, kde-format
+msgid "Con&figure..."
+msgstr "設定(&F)..."
+
+#: kcmstyle.cpp:223
+#, kde-format
+msgid "Preview"
+msgstr "預視"
+
+#: kcmstyle.cpp:251
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Applications"
+msgstr "應用程式(&A)"
+
+#: kcmstyle.cpp:252
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Fine Tuning"
+msgstr "微調(&F)"
+
+#: kcmstyle.cpp:282 kcmstyle.cpp:293
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "載入此風格的組態對話盒時發生錯誤。"
+
+#: kcmstyle.cpp:284 kcmstyle.cpp:295
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "無法載入對話盒"
+
+#: kcmstyle.cpp:517 kcmstyle.cpp:628
+#, kde-format
+msgid "No description available."
+msgstr "沒有描述存在"
+
+#: kcmstyle.cpp:628
+#, kde-format
+msgid "Description: %1"
+msgstr "描述：%1"
+
+#: kcmstyle.cpp:731
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"您可以在這邊選擇一系列預先定義的介面工具樣式 (例如扭曲的按鈕). 這可能合併於主"
+"題中(額外的資訊如大理石紋等)。"
+
+#: kcmstyle.cpp:735
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"這個區域讓您可以預視您所選擇的風格，而不需要將它 套用到到整個桌面才能夠檢視。"
+
+#: kcmstyle.cpp:738
+#, kde-format
+msgid "This page allows you to choose details about the widget style options"
+msgstr "此頁面讓您選擇關於元件樣式的詳細選項"
+
+#: kcmstyle.cpp:739
+#, kde-format
+msgid ""
+"<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text Below Icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>沒有文字：</b>在工具列上只以圖示顯示按鍵。在低解析度的環境下，這是個不"
+"錯的選擇。</p><p><b>只顯示文字：</b>在工具列上只以文字顯示按鍵。</p><p><b>文"
+"字顯示在圖示旁：</b>在工具列上同時顯示文字和圖示，而文字就顯示在圖示的旁邊。"
+"</p><p><b>文字顯示在圖示上：</b>在工具列上同時顯示文字和圖示，而文字就顯示在"
+"圖示之上。</p>"
+
+#: kcmstyle.cpp:746
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"some important buttons."
+msgstr ""
+"如果您開啟了這個選項，那麼 KDE 的應用程式將會有某些重要的按鍵旁顯示小圖示。"
+
+#: kcmstyle.cpp:748
+#, kde-format
+msgid ""
+"If you enable this option, KDE Applications will show small icons alongside "
+"most menu items."
+msgstr ""
+"如果您開啟了這個選項，那麼 KDE 的應用程式將會在大部份選單項目旁顯示小圖示。"
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "設定 %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: stylepreview.ui:19
+#, kde-format
+msgid "Tab 1"
+msgstr "Tab 1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: stylepreview.ui:29
+#, kde-format
+msgid "Group Box"
+msgstr "群組盒"
+
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton2)
+#: stylepreview.ui:35 stylepreview.ui:45
+#, kde-format
+msgid "Radio button"
+msgstr "RadioButton"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: stylepreview.ui:62
+#, kde-format
+msgid "Checkbox"
+msgstr "CheckBox"
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: stylepreview.ui:115
+#, kde-format
+msgid "Button"
+msgstr "按鍵"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ComboBox1)
+#: stylepreview.ui:125
+#, kde-format
+msgid "Combobox"
+msgstr "ComboBox"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: stylepreview.ui:155
+#, kde-format
+msgid "Tab 2"
+msgstr "Tab 2"
+
+#~ msgid "Menubar"
+#~ msgstr "選單列"
+
+#~ msgid "Menubar style:"
+#~ msgstr "選單列樣式："
+
+#~ msgid "In application"
+#~ msgstr "應用程式內"
+
+#~ msgid "Title bar button"
+#~ msgstr "標題列按鍵"
+
+#, fuzzy
+#~| msgid "Application Menu widget"
+#~ msgid "Global Menu widget"
+#~ msgstr "應用程式選單元件"
+
+#~ msgid "Your changes will take effect only on application restart."
+#~ msgstr "您的設定變更會在下次應用程式啟動時生效。"
+
+#~ msgid ""
+#~ "<p>Changes to the visibility of menu icons will only affect newly started "
+#~ "applications.</p>"
+#~ msgstr "<p>改變選單圖示的可見度只會影響新開啟的應用程式。</p>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Menu Icons Changed"
+#~ msgstr "選單圖示已變更"
+
+#~ msgid "Top screen menubar"
+#~ msgstr "螢幕頂端選單列"
+
+#~ msgid "Only export"
+#~ msgstr "只匯出"
+
+#~ msgid "Graphical effects:"
+#~ msgstr "圖形效果："
+
+#~ msgid "Low display resolution and Low CPU"
+#~ msgstr "低解析度顯示與低 CPU"
+
+#~ msgid "High display resolution and Low CPU"
+#~ msgstr "高解析度顯示與低 CPU"
+
+#~ msgid "Low display resolution and High CPU"
+#~ msgstr "低解析度顯示與高 CPU"
+
+#~ msgid "High display resolution and High CPU"
+#~ msgstr "高解析度顯示與高 CPU"
+
+#~ msgid "Low display resolution and Very High CPU"
+#~ msgstr "低解析度顯示與非常高 CPU"
+
+#~ msgid "High display resolution and Very High CPU"
+#~ msgstr "高解析度顯示與非常高 CPU"
+
+#~ msgid ""
+#~ "If you enable this option, KDE Applications will run internal animations."
+#~ msgstr "如果您開啟了這個選項，那麼 KDE 的應用程式將會執行內部動畫。"
+
+#~ msgid "kcmstyle"
+#~ msgstr "kcmstyle"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Workspace"
+#~ msgstr "工作空間(&W)"
+
+#~ msgid "Get New Themes..."
+#~ msgstr "取得新主題..."
+
+#~ msgid "Icons Only"
+#~ msgstr "只有圖示"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Text pos&ition of toolbar elements:"
+#~ msgstr "工具列元素的文字位置 (&I)："
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Desktop"
+#~ msgstr "桌面(&D)"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Style"
+#~ msgstr "樣式(&S)"
+
+#~ msgid ""
+#~ "This page allows you to enable various widget style effects. For best "
+#~ "performance, it is advisable to disable all effects."
+#~ msgstr ""
+#~ "這個頁面允許您啟動各種 Widget 的風格效果。為了得到更好的執行效率，您可以選"
+#~ "擇關閉所有的特效。"
+
+#~ msgctxt "@option:check"
+#~ msgid "High&light buttons under mouse"
+#~ msgstr "反白在滑鼠下的按鈕(&L)"
+
+#~ msgctxt "@option:check"
+#~ msgid "E&nable tooltips"
+#~ msgstr "啟動工具提示 (&N)"
+
+#~ msgid ""
+#~ "If this option is selected, toolbar buttons will change their color when "
+#~ "the mouse cursor is moved over them."
+#~ msgstr "如果選擇這個選項, 當滑鼠經過時, 工具列按鈕將會改變其顏色."
+
+#~ msgid ""
+#~ "If you check this option, the KDE application will offer tooltips when "
+#~ "the cursor remains over items in the toolbar."
+#~ msgstr ""
+#~ "如果您選擇了這個選項，那麼當滑鼠停留在 KDE 應用程式工具列上的某個物件時，"
+#~ "顯示出該物件的提示。"
+
+#~ msgid "&Smooth scrolling on item views"
+#~ msgstr "項目檢視時使用平滑捲動(&S)"
+
+#~ msgid "&Effects"
+#~ msgstr "特效選項 (&E)"
+
+#~ msgid "If this option is enabled, all item views will scroll smoothly."
+#~ msgstr "開啟此選項的話，所有項目檢視會使用平滑捲動。"

@@ -1,0 +1,268 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2013, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_systemloadviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-29 03:31+0200\n"
+"PO-Revision-Date: 2017-03-27 09:31+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: package/contents/config/config.qml:27
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: package/contents/config/config.qml:32
+#, kde-format
+msgid "Colors"
+msgstr "顏色"
+
+#: package/contents/ui/ColorSettings.qml:42
+#, kde-format
+msgid "Set colors manually"
+msgstr "手動設定顏色"
+
+#: package/contents/ui/ColorSettings.qml:55
+#: package/contents/ui/SystemLoadViewer.qml:484
+#, kde-format
+msgid "CPU"
+msgstr "CPU"
+
+#: package/contents/ui/ColorSettings.qml:61
+#, kde-format
+msgid "User:"
+msgstr "使用者："
+
+#: package/contents/ui/ColorSettings.qml:70
+#, kde-format
+msgid "IOWait:"
+msgstr "輸出入等待："
+
+#: package/contents/ui/ColorSettings.qml:79
+#, kde-format
+msgid "Sys:"
+msgstr "系統："
+
+#: package/contents/ui/ColorSettings.qml:88
+#, kde-format
+msgid "Nice:"
+msgstr "優先權："
+
+#: package/contents/ui/ColorSettings.qml:97
+#: package/contents/ui/SystemLoadViewer.qml:504
+#, kde-format
+msgid "Memory"
+msgstr "記憶體"
+
+#: package/contents/ui/ColorSettings.qml:104
+#, kde-format
+msgid "Application:"
+msgstr "應用程式："
+
+#: package/contents/ui/ColorSettings.qml:113
+#, kde-format
+msgid "Buffers:"
+msgstr "緩衝區："
+
+#: package/contents/ui/ColorSettings.qml:122
+#, kde-format
+msgid "Cached:"
+msgstr "已快取："
+
+#: package/contents/ui/ColorSettings.qml:131
+#: package/contents/ui/SystemLoadViewer.qml:524
+#, kde-format
+msgid "Swap"
+msgstr "置換空間"
+
+#: package/contents/ui/ColorSettings.qml:138
+#, kde-format
+msgid "Used swap:"
+msgstr "已使用置換空間："
+
+#: package/contents/ui/ColorSettings.qml:147
+#: package/contents/ui/SystemLoadViewer.qml:544
+#, kde-format
+msgid "Cache"
+msgstr "快取"
+
+#: package/contents/ui/ColorSettings.qml:153
+#, kde-format
+msgid "Dirty memory:"
+msgstr "已更改，正等待寫入時碟的記憶體："
+
+#: package/contents/ui/ColorSettings.qml:162
+#, kde-format
+msgid "Writeback memory:"
+msgstr "正寫入磁碟但尚未完成的記憶體："
+
+#: package/contents/ui/GeneralSettings.qml:57
+#, kde-format
+msgid "Show:"
+msgstr "顯示："
+
+#: package/contents/ui/GeneralSettings.qml:65
+#, kde-format
+msgid "CPU monitor"
+msgstr "CPU 監視器"
+
+#: package/contents/ui/GeneralSettings.qml:73
+#, kde-format
+msgid "CPUs separately"
+msgstr "個別 CPU"
+
+#: package/contents/ui/GeneralSettings.qml:80
+#, kde-format
+msgid "Memory monitor"
+msgstr "記憶體監視器"
+
+#: package/contents/ui/GeneralSettings.qml:85
+#, kde-format
+msgid "Swap monitor"
+msgstr "置換空間監視器"
+
+#: package/contents/ui/GeneralSettings.qml:90
+#, kde-format
+msgid "Cache monitor"
+msgstr "快取監視器"
+
+#: package/contents/ui/GeneralSettings.qml:94
+#, kde-format
+msgid "Monitor type:"
+msgstr "監視器型態："
+
+#: package/contents/ui/GeneralSettings.qml:103
+#, kde-format
+msgid "Bar"
+msgstr "條狀"
+
+#: package/contents/ui/GeneralSettings.qml:110
+#, kde-format
+msgid "Circular"
+msgstr "圓形"
+
+#: package/contents/ui/GeneralSettings.qml:117
+#, kde-format
+msgid "Compact Bar"
+msgstr "簡潔長條"
+
+#: package/contents/ui/GeneralSettings.qml:122
+#, kde-format
+msgid "Update interval:"
+msgstr "更新間隔："
+
+#: package/contents/ui/GeneralSettings.qml:131
+#, kde-format
+msgctxt "Abbreviation for seconds"
+msgid "s"
+msgstr "秒"
+
+#: package/contents/ui/SystemLoadViewer.qml:237
+#, kde-format
+msgid "CPU%1: %2% @ %3 Mhz"
+msgstr "CPU%1: %2% @ %3 Mhz"
+
+#: package/contents/ui/SystemLoadViewer.qml:245
+#, kde-format
+msgid "CPU: %1%"
+msgstr "CPU: %1%"
+
+#: package/contents/ui/SystemLoadViewer.qml:246
+#, kde-format
+msgid "Average clock: %1 MHz"
+msgstr "平均時脈：%1 MHz"
+
+#: package/contents/ui/SystemLoadViewer.qml:252
+#, kde-format
+msgid "Memory: %1/%2 MiB"
+msgstr "記憶體：%1/%2 MiB"
+
+#: package/contents/ui/SystemLoadViewer.qml:257
+#, kde-format
+msgid "Swap: %1/%2 MiB"
+msgstr "置換空間：%1/%2 MB"
+
+#: package/contents/ui/SystemLoadViewer.qml:261
+#, kde-format
+msgid "Cache Dirty, Writeback: %1 MiB, %2 MiB"
+msgstr "尚未寫入及正在寫入磁碟的快取：%1MiB, %2MiB"
+
+#: package/contents/ui/SystemLoadViewer.qml:374
+#, kde-format
+msgid "System load"
+msgstr "系統負載"
+
+#: package/contents/ui/SystemLoadViewer.qml:453
+#, kde-format
+msgid "CPU %1"
+msgstr "CPU %1"
+
+#~ msgid "Background"
+#~ msgstr "背景"
+
+#~ msgid "Color:"
+#~ msgstr "顏色："
+
+#~ msgid "Translucency:"
+#~ msgstr "透明度："
+
+#~ msgid "System:"
+#~ msgstr "系統："
+
+#~ msgid "General Config"
+#~ msgstr "一般設定"
+
+#~ msgid "Show vertically in panel:"
+#~ msgstr "在面板裡垂直顯示："
+
+#~ msgid "Show usage of all processors:"
+#~ msgstr "顯示所有處理器的用量："
+
+#~ msgid " ms"
+#~ msgstr " 毫秒"
+
+#~ msgctxt "@title:group"
+#~ msgid "Colors"
+#~ msgstr "顏色"
+
+#~ msgid "CPU %1 Usage: %2%<br />"
+#~ msgstr "CPU %1 用量：%2%<br />"
+
+#~ msgid "CPU Usage: %1% at %2 MHz/CPU<br />"
+#~ msgstr "CPU 用量：%1% 頻率 %2 MHz/CPU<br />"
+
+#~ msgid "CPU Usage: %1% at %2 MHz<br />"
+#~ msgstr "CPU 用量：%1% 頻率 %2 MHz<br />"
+
+#~ msgid "CPU Usage: %1%<br />"
+#~ msgstr "CPU 用量：%1%<br />"
+
+#~ msgid "Ram Usage: %1% of %2 MiB<br />"
+#~ msgstr "記憶體用量：%2MB 的 %1%<br />"
+
+#~ msgctxt "not available means the system does not have swap"
+#~ msgid "Swap: not available"
+#~ msgstr "置換：沒有"
+
+#~ msgid "Apperance"
+#~ msgstr "外觀"
+
+#~ msgid "CPU Usage: %1%<br />Ram Usage: %2%<br />Swap Usage: %3%"
+#~ msgstr "CPU 使用量：%1%<br /> 記憶體使用量：%2%<br /> 置換空間使用量：%3%"
+
+#~ msgctxt "not available means the system does not have swap"
+#~ msgid "CPU Usage: %1%<br />Ram Usage: %2%<br />Swap: not available"
+#~ msgstr ""
+#~ "CPU 使用量：%1%<br /> 記憶體使用量：%2%<br /> 置換空間使用量：無法取得"

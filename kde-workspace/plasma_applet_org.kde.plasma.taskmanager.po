@@ -1,0 +1,508 @@
+# translation of plasma_applet_tasks.po to Chinese Traditional
+# translation of plasma_applet_tasks.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2008.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2013, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_tasks\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-09 03:26+0100\n"
+"PO-Revision-Date: 2018-03-25 13:44+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: package/contents/ui/Badge.qml:48
+#, kde-format
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "—"
+
+#: package/contents/ui/Badge.qml:50
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9,999+"
+
+#: package/contents/ui/ConfigGeneral.qml:58
+#, kde-format
+msgid "Arrangement"
+msgstr "安排"
+
+#: package/contents/ui/ConfigGeneral.qml:66
+#, kde-format
+msgid "Maximum columns:"
+msgstr "最大欄數："
+
+#: package/contents/ui/ConfigGeneral.qml:66
+#, kde-format
+msgid "Maximum rows:"
+msgstr "最大列數："
+
+#: package/contents/ui/ConfigGeneral.qml:79
+#, kde-format
+msgid "Always arrange tasks in rows of as many columns"
+msgstr "總是以列安排事件"
+
+#: package/contents/ui/ConfigGeneral.qml:79
+#, kde-format
+msgid "Always arrange tasks in columns of as many rows"
+msgstr "總是以欄安排事件"
+
+#: package/contents/ui/ConfigGeneral.qml:86
+#, kde-format
+msgid "Icon size:"
+msgstr "圖示大小："
+
+#: package/contents/ui/ConfigGeneral.qml:91
+#, kde-format
+msgid "Small"
+msgstr "小"
+
+#: package/contents/ui/ConfigGeneral.qml:108
+#, kde-format
+msgid "Large"
+msgstr "大"
+
+#: package/contents/ui/ConfigGeneral.qml:117
+#, kde-format
+msgid "Behavior"
+msgstr "行為"
+
+#: package/contents/ui/ConfigGeneral.qml:125
+#, kde-format
+msgid "Show tooltips"
+msgstr "顯示工具提示"
+
+#: package/contents/ui/ConfigGeneral.qml:130
+#, kde-format
+msgid "Cycle through tasks with mouse wheel"
+msgstr "使用滑鼠滾輪循環切換工作"
+
+#: package/contents/ui/ConfigGeneral.qml:135
+#, kde-format
+msgid "Highlight windows"
+msgstr "突顯視窗"
+
+#: package/contents/ui/ConfigGeneral.qml:141
+#, kde-format
+msgid "Show progress and status information in task buttons"
+msgstr "在工具按鍵裡顯示進度與狀態資訊"
+
+#: package/contents/ui/ConfigGeneral.qml:147
+#, kde-format
+msgid "Mark applications that play audio"
+msgstr "標記播放音訊的應用程式"
+
+#: package/contents/ui/ConfigGeneral.qml:155
+#, kde-format
+msgid "On middle-click:"
+msgstr "點擊滑鼠中鍵："
+
+#: package/contents/ui/ConfigGeneral.qml:162
+#, kde-format
+msgctxt "The click action"
+msgid "None"
+msgstr "無"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Close Window or Group"
+msgstr "關閉視窗或群組"
+
+#: package/contents/ui/ConfigGeneral.qml:164
+#, kde-format
+msgid "New Instance"
+msgstr "新的實體"
+
+#: package/contents/ui/ConfigGeneral.qml:165
+#, kde-format
+msgid "Minimize/Restore Window or Group"
+msgstr "最小化/復原視窗"
+
+#: package/contents/ui/ConfigGeneral.qml:166
+#, kde-format
+msgctxt "When clicking it would toggle grouping windows of a specific app"
+msgid "Group/Ungroup"
+msgstr "分組／取消分組"
+
+#: package/contents/ui/ConfigGeneral.qml:176
+#, kde-format
+msgid "Grouping and Sorting"
+msgstr "群組與排序"
+
+#: package/contents/ui/ConfigGeneral.qml:186
+#, kde-format
+msgid "Sorting:"
+msgstr "排序："
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "Do Not Sort"
+msgstr "不排序"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "Manually"
+msgstr "手動"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "Alphabetically"
+msgstr "依字母順序"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "By Desktop"
+msgstr "依桌面"
+
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "By Activity"
+msgstr "依活動"
+
+#: package/contents/ui/ConfigGeneral.qml:201
+#, kde-format
+msgid "Keep launchers separate"
+msgstr "讓啟動器保持獨立"
+
+#: package/contents/ui/ConfigGeneral.qml:209
+#, kde-format
+msgid "Grouping:"
+msgstr "群組："
+
+#: package/contents/ui/ConfigGeneral.qml:218
+#, kde-format
+msgid "Do Not Group"
+msgstr "不要分組"
+
+#: package/contents/ui/ConfigGeneral.qml:218
+#, kde-format
+msgid "By Program Name"
+msgstr "依程式名稱"
+
+#: package/contents/ui/ConfigGeneral.qml:226
+#, kde-format
+msgid "Open groups in popups"
+msgstr "在彈出式視窗中開啟群組"
+
+#: package/contents/ui/ConfigGeneral.qml:242
+#, kde-format
+msgid "Only group when the task manager is full"
+msgstr "只在工作管理員已滿時分組"
+
+#: package/contents/ui/ConfigGeneral.qml:254
+#, kde-format
+msgid "Filters"
+msgstr "過濾器"
+
+#: package/contents/ui/ConfigGeneral.qml:262
+#, kde-format
+msgid "Show only tasks from the current screen"
+msgstr "只顯示目前螢幕上的工作"
+
+#: package/contents/ui/ConfigGeneral.qml:267
+#, kde-format
+msgid "Show only tasks from the current desktop"
+msgstr "只顯示目前桌面上的工作"
+
+#: package/contents/ui/ConfigGeneral.qml:272
+#, kde-format
+msgid "Show only tasks from the current activity"
+msgstr "只顯示目前活動裡的工作"
+
+#: package/contents/ui/ConfigGeneral.qml:280
+#, kde-format
+msgid "Show only tasks that are minimized"
+msgstr "只顯示縮到最小的工作"
+
+#: package/contents/ui/ContextMenu.qml:123
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "前一軌"
+
+#: package/contents/ui/ContextMenu.qml:137
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "暫停"
+
+#: package/contents/ui/ContextMenu.qml:137
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "播放"
+
+#: package/contents/ui/ContextMenu.qml:155
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "下一軌"
+
+#: package/contents/ui/ContextMenu.qml:166
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "停止"
+
+#: package/contents/ui/ContextMenu.qml:186
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "離開"
+
+#: package/contents/ui/ContextMenu.qml:201
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "回復"
+
+#: package/contents/ui/ContextMenu.qml:227
+#, kde-format
+msgid "Mute"
+msgstr "靜音"
+
+#: package/contents/ui/ContextMenu.qml:245
+#, kde-format
+msgid "Move To &Desktop"
+msgstr "移動到桌面(&D)"
+
+#: package/contents/ui/ContextMenu.qml:267
+#, kde-format
+msgid "Move &To Current Desktop"
+msgstr "移到目前桌面(&T)"
+
+#: package/contents/ui/ContextMenu.qml:276
+#, kde-format
+msgid "&All Desktops"
+msgstr "所有的桌面(&A)"
+
+#: package/contents/ui/ContextMenu.qml:290
+#, kde-format
+msgctxt "1 = number of desktop, 2 = desktop name"
+msgid "&%1 %2"
+msgstr "%1 %2(&%1)"
+
+#: package/contents/ui/ContextMenu.qml:304
+#, kde-format
+msgid "&New Desktop"
+msgstr "新增桌面(&N)"
+
+#: package/contents/ui/ContextMenu.qml:323
+#, kde-format
+msgid "Move To &Activity"
+msgstr "移動到活動(&A)"
+
+#: package/contents/ui/ContextMenu.qml:344
+#, kde-format
+msgid "Add To Current Activity"
+msgstr "新增到目前活動"
+
+#: package/contents/ui/ContextMenu.qml:354
+#, kde-format
+msgid "All Activities"
+msgstr "所有的活動"
+
+#: package/contents/ui/ContextMenu.qml:415
+#, kde-format
+msgid "Mi&nimize"
+msgstr "最小化(&N)"
+
+#: package/contents/ui/ContextMenu.qml:428
+#, kde-format
+msgid "Ma&ximize"
+msgstr "最大化(&X)"
+
+#: package/contents/ui/ContextMenu.qml:439
+#, kde-format
+msgid "Start New Instance"
+msgstr "開啟新的實體"
+
+#: package/contents/ui/ContextMenu.qml:458
+#, kde-format
+msgctxt ""
+"Toggle action for showing a launcher button while the application is not "
+"running"
+msgid "&Pin"
+msgstr "釘選(&P)"
+
+#: package/contents/ui/ContextMenu.qml:472
+#, kde-format
+msgid "&Pin"
+msgstr "釘選(&P)"
+
+#: package/contents/ui/ContextMenu.qml:524
+#, kde-format
+msgid "On All Activities"
+msgstr "在所有活動上"
+
+#: package/contents/ui/ContextMenu.qml:530
+#, kde-format
+msgid "On The Current Activity"
+msgstr "在目前的活動上"
+
+#: package/contents/ui/ContextMenu.qml:551
+#, kde-format
+msgctxt "Remove launcher button for application shown while it is not running"
+msgid "Unpin"
+msgstr "取消釘選"
+
+#: package/contents/ui/ContextMenu.qml:566
+#, kde-format
+msgid "More Actions"
+msgstr "更多動作"
+
+#: package/contents/ui/ContextMenu.qml:574
+#, kde-format
+msgid "&Move"
+msgstr "移動(&M)"
+
+#: package/contents/ui/ContextMenu.qml:583
+#, kde-format
+msgid "Re&size"
+msgstr "調整大小(&S)"
+
+#: package/contents/ui/ContextMenu.qml:592
+#, kde-format
+msgid "Keep &Above Others"
+msgstr "維持在其它項目之上(&A)"
+
+#: package/contents/ui/ContextMenu.qml:602
+#, kde-format
+msgid "Keep &Below Others"
+msgstr "維持在其它項目之下(&B)"
+
+#: package/contents/ui/ContextMenu.qml:614
+#, kde-format
+msgid "&Fullscreen"
+msgstr "全螢幕(&F)"
+
+#: package/contents/ui/ContextMenu.qml:626
+#, kde-format
+msgid "&Shade"
+msgstr "隱藏(&S)"
+
+#: package/contents/ui/ContextMenu.qml:641
+#, kde-format
+msgid "Allow this program to be grouped"
+msgstr "允許此程式被歸類"
+
+#: package/contents/ui/ContextMenu.qml:672
+#, kde-format
+msgid "&Close"
+msgstr "關閉(&C)"
+
+#: package/contents/ui/ToolTipInstance.qml:445
+#, kde-format
+msgid "On %1"
+msgstr "於 %1"
+
+#: package/contents/ui/ToolTipInstance.qml:455
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "所有活動都可使用"
+
+#: package/contents/ui/ToolTipInstance.qml:477
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "也可在 %1 上使用"
+
+#: package/contents/ui/ToolTipInstance.qml:481
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "於 %1 上使用"
+
+#: plugin/backend.cpp:278
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place"
+msgid_plural "%1 more Places"
+msgstr[0] "%1 個更多位置"
+
+#: plugin/backend.cpp:357
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "忘掉最近的文件"
+
+#~ msgctxt "Go to previous song"
+#~ msgid "Previous"
+#~ msgstr "前一個"
+
+#~ msgctxt "Pause player"
+#~ msgid "Pause"
+#~ msgstr "暫停"
+
+#~ msgctxt "Start player"
+#~ msgid "Play"
+#~ msgstr "播放"
+
+#~ msgctxt "Go to next song"
+#~ msgid "Next"
+#~ msgstr "下一個"
+
+#~ msgctxt "close this window"
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "&Show A Launcher When Not Running"
+#~ msgstr "未執行時顯示啟動器(&S)"
+
+#~ msgid "Remove Launcher"
+#~ msgstr "移除啟動器"
+
+#, fuzzy
+#~| msgid "Recent Documents for %1"
+#~ msgid "Recent Documents"
+#~ msgstr "%1 最近的文件"
+
+#~ msgid "Appearance"
+#~ msgstr "外觀"
+
+#~ msgid "Force row settings"
+#~ msgstr "強制列設定"
+
+#~ msgctxt "@title:group Name of a group of windows"
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "Collapse Group"
+#~ msgstr "收起群組"
+
+#~ msgid "Expand Group"
+#~ msgstr "展開群組"
+
+#~ msgid "Edit Group"
+#~ msgstr "編輯群組"
+
+#~ msgid "New Group Name: "
+#~ msgstr "新群組名稱："
+
+#~ msgid "Collapse Parent Group"
+#~ msgstr "收起父群組"
+
+#~ msgid "Sorting Strategy"
+#~ msgstr "排序策略"
+
+#~ msgid "Configure Taskbar"
+#~ msgstr "設定工作列"

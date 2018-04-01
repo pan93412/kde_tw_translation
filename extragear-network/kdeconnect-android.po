@@ -1,0 +1,904 @@
+# Translations template for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# liueigi <liueigi@gmail.com>, 2016.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-android\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-03-29 03:21+0200\n"
+"PO-Revision-Date: 2016-10-14 07:59+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Generated-By: Babel 2.2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "pref_plugin_telephony"
+msgid "Telephony notifier"
+msgstr "電話通知器"
+
+msgctxt "pref_plugin_telephony_desc"
+msgid "Send notifications for SMS and calls"
+msgstr "發送短訊與電話的通知"
+
+msgctxt "pref_plugin_battery"
+msgid "Battery report"
+msgstr "電池報告"
+
+msgctxt "pref_plugin_battery_desc"
+msgid "Periodically report battery status"
+msgstr "定期回報電池狀態"
+
+msgctxt "pref_plugin_sftp"
+msgid "Filesystem expose"
+msgstr "顯示檔案系統"
+
+msgctxt "pref_plugin_sftp_desc"
+msgid "Allows to browse this device's filesystem remotely"
+msgstr "同意讓遠端可以瀏覽檔案系統"
+
+msgctxt "pref_plugin_clipboard"
+msgid "Clipboard sync"
+msgstr "同步剪貼板"
+
+msgctxt "pref_plugin_clipboard_desc"
+msgid "Share the clipboard content"
+msgstr "分享剪貼板的內容"
+
+msgctxt "pref_plugin_mousepad"
+msgid "Remote input"
+msgstr "遠端輸入"
+
+msgctxt "pref_plugin_mousepad_desc"
+msgid "Use your phone or tablet as a touchpad and keyboard"
+msgstr "使用您的智慧型手機或者平板來模擬觸碰板與鍵盤"
+
+msgctxt "pref_plugin_remotekeyboard"
+msgid "Receive remote keypresses"
+msgstr ""
+
+msgctxt "pref_plugin_remotekeyboard_desc"
+msgid "Receive keypress events from remote devices"
+msgstr ""
+
+msgctxt "pref_plugin_mpris"
+msgid "Multimedia controls"
+msgstr "多媒體控制"
+
+msgctxt "pref_plugin_mpris_desc"
+msgid "Provides a remote control for your media player"
+msgstr "成為您多媒體播放器的遙控器"
+
+msgctxt "pref_plugin_runcommand"
+msgid "Run Command"
+msgstr "執行指令"
+
+msgctxt "pref_plugin_runcommand_desc"
+msgid "Trigger remote commands from your phone or tablet"
+msgstr "從您的智慧型手機或者平板當中觸發遠端設備上的命令"
+
+msgctxt "pref_plugin_ping"
+msgid "Ping"
+msgstr "Ping回應封包"
+
+msgctxt "pref_plugin_ping_desc"
+msgid "Send and receive pings"
+msgstr "傳送與接收Ping回應封包"
+
+msgctxt "pref_plugin_notifications"
+msgid "Notification sync"
+msgstr "同步通知"
+
+msgctxt "pref_plugin_notifications_desc"
+msgid "Access your notifications from other devices"
+msgstr "存取其他設備上的通知"
+
+msgctxt "pref_plugin_receive_notifications"
+msgid "Receive notifications"
+msgstr "接收通知"
+
+msgctxt "pref_plugin_receive_notifications_desc"
+msgid "Receive notifications from the other device and display them on Android"
+msgstr "在Android上顯示從其他裝置收到的通知"
+
+msgctxt "pref_plugin_sharereceiver"
+msgid "Share and receive"
+msgstr "分享與接收"
+
+msgctxt "pref_plugin_sharereceiver_desc"
+msgid "Share files and URLs between devices"
+msgstr "在兩個設備當中互相分享URL網址與檔案"
+
+msgctxt "plugin_not_available"
+msgid "This feature is not available in your Android version"
+msgstr "這個功能無法在您的Android版本上執行。"
+
+msgctxt "device_list_empty"
+msgid "No devices"
+msgstr "沒有裝置"
+
+msgctxt "ok"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "cancel"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "open_settings"
+msgid "Open settings"
+msgstr "開啟設定"
+
+msgctxt "no_permissions"
+msgid "You need to grant permission to access notifications"
+msgstr "您需要授予存取通知的權限"
+
+msgctxt "send_ping"
+msgid "Send ping"
+msgstr "傳送Ping回應封包"
+
+msgctxt "open_mpris_controls"
+msgid "Multimedia control"
+msgstr "多媒體控制"
+
+msgctxt "remotekeyboard_editing_only_title"
+msgid "Handle remote keys only when editing"
+msgstr ""
+
+msgctxt "remotekeyboard_not_connected"
+msgid ""
+"There is no active remote keyboard connection, establish one in kdeconnect"
+msgstr ""
+
+msgctxt "remotekeyboard_connected"
+msgid "Remote keyboard connection is active"
+msgstr ""
+
+msgctxt "remotekeyboard_multiple_connections"
+msgid ""
+"There is more than one remote keyboard connection, select the device to "
+"configure"
+msgstr ""
+
+msgctxt "open_mousepad"
+msgid "Remote input"
+msgstr "遠端輸入"
+
+#, fuzzy
+#| msgctxt "mousepad_info"
+#| msgid ""
+#| "Move a finger on the screen to move the mouse cursor. Tap for a click, "
+#| "and use two/three fingers for right and middle buttons. Use a long press "
+#| "to drag'n drop."
+msgctxt "mousepad_info"
+msgid ""
+"Move a finger on the screen to move the mouse cursor. Tap for a click, and "
+"use two/three fingers for right and middle buttons. Use 2 fingers to scroll. "
+"Use a long press to drag'n drop."
+msgstr ""
+"在您的智慧型手機的螢幕上移動手指頭，用來控制電腦螢幕的鼠標。點擊表示滑鼠的左"
+"鍵，使用兩隻/三隻手指頭點擊來表示滑鼠的右鍵/中鍵。長按則表示要拖拉。"
+
+msgctxt "mousepad_double_tap_settings_title"
+msgid "Set two finger tap action"
+msgstr "設定兩隻手指頭點擊的動作"
+
+msgctxt "mousepad_triple_tap_settings_title"
+msgid "Set three finger tap action"
+msgstr "設定三隻手指頭點擊的動作"
+
+msgctxt "mousepad_sensitivity_settings_title"
+msgid "Set touchpad sensitivity"
+msgstr "設定觸碰板的靈敏度"
+
+msgctxt "mousepad_scroll_direction_title"
+msgid "Reverse Scrolling Direction"
+msgstr "滾動方向相反"
+
+msgctxt "mousepad_tap_entries:0"
+msgid "Right click"
+msgstr "右鍵點擊"
+
+msgctxt "mousepad_tap_entries:1"
+msgid "Middle click"
+msgstr "中鍵點擊"
+
+msgctxt "mousepad_tap_entries:2"
+msgid "Nothing"
+msgstr "無"
+
+msgctxt "mousepad_sensitivity_entries:0"
+msgid "Slowest"
+msgstr "慢"
+
+msgctxt "mousepad_sensitivity_entries:1"
+msgid "Above Slowest"
+msgstr "最慢"
+
+msgctxt "mousepad_sensitivity_entries:2"
+msgid "Default"
+msgstr "預設"
+
+msgctxt "mousepad_sensitivity_entries:3"
+msgid "Above Default"
+msgstr "高於預設值"
+
+msgctxt "mousepad_sensitivity_entries:4"
+msgid "Fastest"
+msgstr "最快"
+
+msgctxt "category_connected_devices"
+msgid "Connected devices"
+msgstr "已連接的設備"
+
+msgctxt "category_not_paired_devices"
+msgid "Available devices"
+msgstr "可連接的設備"
+
+msgctxt "category_remembered_devices"
+msgid "Remembered devices"
+msgstr "已記住的設備"
+
+msgctxt "plugins_failed_to_load"
+msgid "Plugins failed to load (tap for more info):"
+msgstr "擴展插件讀取錯誤（點擊查看更多資訊）"
+
+msgctxt "device_menu_plugins"
+msgid "Plugin settings"
+msgstr "擴展插件設定"
+
+msgctxt "device_menu_unpair"
+msgid "Unpair"
+msgstr "取消配對"
+
+msgctxt "device_not_reachable"
+msgid "Paired device not reachable"
+msgstr "配對的設備無法連接"
+
+msgctxt "pair_new_device"
+msgid "Pair new device"
+msgstr "配對新設備"
+
+msgctxt "unknown_device"
+msgid "Unknown device"
+msgstr "不明的設備"
+
+msgctxt "error_not_reachable"
+msgid "Device not reachable"
+msgstr "設備無法連接"
+
+msgctxt "error_already_requested"
+msgid "Pairing already requested"
+msgstr "已請求配對"
+
+msgctxt "error_already_paired"
+msgid "Device already paired"
+msgstr "裝置已經配對"
+
+msgctxt "error_could_not_send_package"
+msgid "Could not send package"
+msgstr "無法傳送封包"
+
+msgctxt "error_timed_out"
+msgid "Timed out"
+msgstr "逾時"
+
+msgctxt "error_canceled_by_user"
+msgid "Canceled by user"
+msgstr "使用者中斷"
+
+msgctxt "error_canceled_by_other_peer"
+msgid "Canceled by other peer"
+msgstr "被其他同等功能應用中斷"
+
+msgctxt "error_invalid_key"
+msgid "Invalid key received"
+msgstr "接收的密鑰無效"
+
+msgctxt "encryption_info_title"
+msgid "Encryption Info"
+msgstr "加密資訊"
+
+msgctxt "encryption_info_msg_no_ssl"
+msgid ""
+"The other device doesn't use a recent version of KDE Connect, using the "
+"legacy encryption method."
+msgstr "其他的設備沒有使用新版本的KDE連線，使用傳統的加密模式。"
+
+msgctxt "my_device_fingerprint"
+msgid "SHA1 fingerprint of your device certificate is:"
+msgstr "您設備上的SHA1指紋辨識認證是："
+
+msgctxt "remote_device_fingerprint"
+msgid "SHA1 fingerprint of remote device certificate is:"
+msgstr "您遠端設備上的SHA1指紋辨識認證是："
+
+msgctxt "pair_requested"
+msgid "Pair requested"
+msgstr "已請求配對"
+
+#, c-format
+msgctxt "pairing_request_from"
+msgid "Pairing request from %1s"
+msgstr "從 %1s 來的配對請求"
+
+#, c-format
+msgctxt "received_url_title"
+msgid "Received link from %1s"
+msgstr "已從 %1s 連線接收"
+
+#, c-format
+msgctxt "received_url_text"
+msgid "Tap to open '%1s'"
+msgstr "點擊開啟 '%1s'"
+
+#, c-format
+msgctxt "incoming_file_title"
+msgid "Incoming file from %1s"
+msgstr "從 %1s 傳來的檔案"
+
+#, c-format
+msgctxt "incoming_file_text"
+msgid "%1s"
+msgstr "%1s"
+
+#, c-format
+msgctxt "outgoing_file_title"
+msgid "Sending file to %1s"
+msgstr "正在將檔案發送到 %1s"
+
+#, fuzzy, c-format
+#| msgctxt "outgoing_file_title"
+#| msgid "Sending file to %1s"
+msgctxt "outgoing_files_title"
+msgid "Sending files to %1s"
+msgstr "正在將檔案發送到 %1s"
+
+#, fuzzy, c-format
+#| msgctxt "send_files"
+#| msgid "Send files"
+msgctxt "outgoing_files_text"
+msgid "Sent %1$d file"
+msgid_plural "Sent %1$d out of %2$d files"
+msgstr[0] "傳送檔案"
+
+#, c-format
+msgctxt "received_file_title"
+msgid "Received file from %1s"
+msgstr "已從 %1s 接收檔案"
+
+#, c-format
+msgctxt "received_file_fail_title"
+msgid "Failed receiving file from %1s"
+msgstr "從 %1s 接收檔案失敗"
+
+#, c-format
+msgctxt "received_file_text"
+msgid "Tap to open '%1s'"
+msgstr "點擊開啟 '%1s'"
+
+#, c-format
+msgctxt "sent_file_title"
+msgid "Sent file to %1s"
+msgstr "將檔案傳送到 %1s"
+
+#, c-format
+msgctxt "sent_file_text"
+msgid "%1s"
+msgstr "%1s"
+
+#, fuzzy, c-format
+#| msgctxt "sent_file_failed_title"
+#| msgid "Failed to send file %1s"
+msgctxt "sent_file_failed_title"
+msgid "Failed to send file to %1s"
+msgstr "傳送到 %1s 的檔案失敗"
+
+#, c-format
+msgctxt "sent_file_failed_text"
+msgid "%1s"
+msgstr "%1s"
+
+msgctxt "tap_to_answer"
+msgid "Tap to answer"
+msgstr "點擊即可應答"
+
+msgctxt "reconnect"
+msgid "Reconnect"
+msgstr "重新連線"
+
+msgctxt "right_click"
+msgid "Send Right Click"
+msgstr "傳送右鍵點擊"
+
+msgctxt "middle_click"
+msgid "Send Middle Click"
+msgstr "傳送中鍵點擊"
+
+msgctxt "show_keyboard"
+msgid "Show Keyboard"
+msgstr "顯示鍵盤"
+
+msgctxt "device_not_paired"
+msgid "Device not paired"
+msgstr "裝置未配對"
+
+msgctxt "request_pairing"
+msgid "Request pairing"
+msgstr "請求配對"
+
+msgctxt "pairing_accept"
+msgid "Accept"
+msgstr "同意"
+
+msgctxt "pairing_reject"
+msgid "Reject"
+msgstr "回絕"
+
+msgctxt "device"
+msgid "Device"
+msgstr "裝置"
+
+msgctxt "pair_device"
+msgid "Pair device"
+msgstr "配對裝置"
+
+msgctxt "remote_control"
+msgid "Remote control"
+msgstr "遠端控制"
+
+msgctxt "settings"
+msgid "KDE Connect Settings"
+msgstr "KDE連線設定"
+
+msgctxt "mpris_play"
+msgid "Play"
+msgstr "播放"
+
+msgctxt "mpris_pause"
+msgid "Pause"
+msgstr ""
+
+msgctxt "mpris_previous"
+msgid "Previous"
+msgstr "往前"
+
+msgctxt "mpris_rew"
+msgid "Rewind"
+msgstr "往後"
+
+msgctxt "mpris_ff"
+msgid "Fast-forward"
+msgstr "快轉"
+
+msgctxt "mpris_next"
+msgid "Next"
+msgstr "下一首"
+
+msgctxt "mpris_volume"
+msgid "Volume"
+msgstr "音量"
+
+msgctxt "mpris_settings"
+msgid "Multimedia Settings"
+msgstr "多媒體設定"
+
+msgctxt "mpris_time_settings_title"
+msgid "Forward/rewind buttons"
+msgstr "往前/往後按鍵"
+
+msgctxt "mpris_time_settings_summary"
+msgid "Adjust the time to fast forward/rewind when pressed."
+msgstr "調整按下時往前/往後的時間。"
+
+msgctxt "mpris_time_entries:0"
+msgid "10 seconds"
+msgstr "10秒鐘"
+
+msgctxt "mpris_time_entries:1"
+msgid "20 seconds"
+msgstr "20秒鐘"
+
+msgctxt "mpris_time_entries:2"
+msgid "30 seconds"
+msgstr "30秒鐘"
+
+msgctxt "mpris_time_entries:3"
+msgid "1 minute"
+msgstr "1分鐘"
+
+msgctxt "mpris_time_entries:4"
+msgid "2 minutes"
+msgstr "2分鐘"
+
+msgctxt "mpris_notification_settings_title"
+msgid "Show media control notification"
+msgstr ""
+
+msgctxt "mpris_notification_settings_summary"
+msgid "Allows controlling your media players without opening KDE Connect."
+msgstr ""
+
+msgctxt "share_to"
+msgid "Share To..."
+msgstr "分享給"
+
+msgctxt "protocol_version_older"
+msgid "This device uses an old protocol version"
+msgstr "這個裝置使用舊版本的通訊協定"
+
+msgctxt "protocol_version_newer"
+msgid "This device uses a newer protocol version"
+msgstr "此設備使用較新的通訊協定"
+
+msgctxt "general_settings"
+msgid "General Settings"
+msgstr "通用設定"
+
+msgctxt "plugin_settings"
+msgid "Settings"
+msgstr "設定"
+
+#, c-format
+msgctxt "plugin_settings_with_name"
+msgid "%s settings"
+msgstr "%s 設定"
+
+msgctxt "device_name"
+msgid "Device name"
+msgstr "設備名稱"
+
+#, c-format
+msgctxt "device_name_preference_summary"
+msgid "%s"
+msgstr "%s"
+
+msgctxt "invalid_device_name"
+msgid "Invalid device name"
+msgstr "無效的設備名稱"
+
+msgctxt "shareplugin_text_saved"
+msgid "Received text, saved to clipboard"
+msgstr "已接收文字，並且儲存到剪貼簿"
+
+msgctxt "custom_devices_settings"
+msgid "Custom device list"
+msgstr "自定義設備列表"
+
+msgctxt "pair_device_action"
+msgid "Pair a new device"
+msgstr "配對新設備"
+
+#, c-format
+msgctxt "unpair_device_action"
+msgid "Unpair %s"
+msgstr "未配對 %s"
+
+msgctxt "custom_device_list"
+msgid "Add devices by IP"
+msgstr "以IP來新增設備"
+
+msgctxt "share_notification_preference"
+msgid "Noisy notifications"
+msgstr "通知方式"
+
+msgctxt "share_notification_preference_summary"
+msgid "Vibrate and play a sound when receiving a file"
+msgstr "當接收檔案時發出振動以及播放聲音"
+
+msgctxt "share_destination_customize"
+msgid "Customize destination directory"
+msgstr ""
+
+msgctxt "share_destination_customize_summary_disabled"
+msgid "Received files will appear in Downloads"
+msgstr ""
+
+msgctxt "share_destination_customize_summary_enabled"
+msgid "Files will be stored in the directory below"
+msgstr ""
+
+msgctxt "share_destination_folder_preference"
+msgid "Destination directory"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "share_to"
+#| msgid "Share To..."
+msgctxt "share"
+msgid "Share"
+msgstr "分享給"
+
+#, c-format
+msgctxt "share_received_file"
+msgid "Share \"%s\""
+msgstr ""
+
+msgctxt "title_activity_notification_filter"
+msgid "Notification filter"
+msgstr "通知過濾器"
+
+msgctxt "filter_apps_info"
+msgid "Notifications will be synchronized for the selected apps."
+msgstr "將會以您選擇的App應用程式啟用同步通知"
+
+msgctxt "sftp_internal_storage"
+msgid "Internal storage"
+msgstr "內部儲存空間"
+
+msgctxt "sftp_all_files"
+msgid "All files"
+msgstr "全部檔案"
+
+#, c-format
+msgctxt "sftp_sdcard_num"
+msgid "SD card %d"
+msgstr "SD卡 %d"
+
+msgctxt "sftp_sdcard"
+msgid "SD card"
+msgstr "SD卡"
+
+msgctxt "sftp_readonly"
+msgid "(read only)"
+msgstr "（唯讀）"
+
+msgctxt "sftp_camera"
+msgid "Camera pictures"
+msgstr "相機圖片"
+
+msgctxt "add_host"
+msgid "Add host/IP"
+msgstr "增加 host/IP"
+
+msgctxt "add_host_hint"
+msgid "Hostname or IP"
+msgstr "Hostname或者IP"
+
+msgctxt "no_players_connected"
+msgid "No players found"
+msgstr "沒有發現播放器"
+
+msgctxt "custom_dev_list_help"
+msgid ""
+"Use this option only if your device is not automatically detected. Enter IP "
+"address or hostname below and touch the button to add it to the list. Touch "
+"an existing item to remove it from the list."
+msgstr ""
+"能夠在您的裝置沒有自動偵測到裝置時使用這個選項。輸入IP位址或者是Hostname在下"
+"面，並且按下按鈕來增加進入列表當中。觸碰以從列表中刪除現有項目。"
+
+#, c-format
+msgctxt "mpris_player_on_device"
+msgid "%1$s on %2$s"
+msgstr "%1$s on %2$s"
+
+msgctxt "send_files"
+msgid "Send files"
+msgstr "傳送檔案"
+
+msgctxt "pairing_title"
+msgid "KDE Connect Devices"
+msgstr "KDE連線裝置"
+
+msgctxt "pairing_description"
+msgid ""
+"Other devices running KDE Connect in your same network should appear here."
+msgstr "在您相同網域當中，有其他有執行KDE連線的裝置會出現在這裡。"
+
+msgctxt "device_paired"
+msgid "Device paired"
+msgstr "裝置已配對"
+
+msgctxt "device_rename_title"
+msgid "Rename device"
+msgstr "更改裝置名稱"
+
+msgctxt "device_rename_confirm"
+msgid "Rename"
+msgstr "更改名稱"
+
+msgctxt "refresh"
+msgid "Refresh"
+msgstr "刷新"
+
+msgctxt "unreachable_description"
+msgid ""
+"This paired device is not reachable. Make sure it is connected to your same "
+"network."
+msgstr "此配對的裝置無法連接。 請確保它連接到與您相同的網域。"
+
+msgctxt "on_data_message"
+msgid ""
+"It looks like you are on a mobile data connection. KDE Connect only works on "
+"local networks."
+msgstr ""
+
+msgctxt "no_file_browser"
+msgid "There are no file browsers installed."
+msgstr "沒有安裝此檔案的瀏覽程式"
+
+msgctxt "pref_plugin_telepathy"
+msgid "Send SMS"
+msgstr "傳送簡訊"
+
+msgctxt "pref_plugin_telepathy_desc"
+msgid "Send text messages from your desktop"
+msgstr "傳送文字簡訊到您的電腦桌面"
+
+msgctxt "plugin_not_supported"
+msgid "This plugin is not supported by the device"
+msgstr "這個擴充插件並不支援您的手機"
+
+msgctxt "findmyphone_title"
+msgid "Find my phone"
+msgstr "找尋我的手機"
+
+msgctxt "findmyphone_title_tablet"
+msgid "Find my tablet"
+msgstr "找尋我的平板"
+
+msgctxt "findmyphone_description"
+msgid "Rings this device so you can find it"
+msgstr "讓這個裝置發出聲響讓您能找到它"
+
+msgctxt "findmyphone_found"
+msgid "Found"
+msgstr "找到"
+
+msgctxt "open"
+msgid "Open"
+msgstr "開啟"
+
+msgctxt "close"
+msgid "Close"
+msgstr "關閉"
+
+#, fuzzy
+#| msgctxt "no_permissions"
+#| msgid "You need to grant permission to access notifications"
+msgctxt "no_permissions_storage"
+msgid "You need to grant permissions to access the storage"
+msgstr "您需要授予存取通知的權限"
+
+#, fuzzy
+#| msgctxt "plugins_failed_to_load"
+#| msgid "Plugins failed to load (tap for more info):"
+msgctxt "plugins_need_permission"
+msgid "Some Plugins need permissions to work (tap for more info):"
+msgstr "擴展插件讀取錯誤（點擊查看更多資訊）"
+
+msgctxt "permission_explanation"
+msgid "This plugin needs permissions to work"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "no_permissions"
+#| msgid "You need to grant permission to access notifications"
+msgctxt "optional_permission_explanation"
+msgid "You need to grant extra permissions to enable all functions"
+msgstr "您需要授予存取通知的權限"
+
+#, fuzzy
+#| msgctxt "plugins_failed_to_load"
+#| msgid "Plugins failed to load (tap for more info):"
+msgctxt "plugins_need_optional_permission"
+msgid ""
+"Some plugins have features disabled because of lack of permission (tap for "
+"more info):"
+msgstr "擴展插件讀取錯誤（點擊查看更多資訊）"
+
+msgctxt "sftp_permission_explanation"
+msgid ""
+"To access your files from your PC the app needs permission to access your "
+"phone's storage"
+msgstr ""
+
+msgctxt "share_optional_permission_explanation"
+msgid ""
+"To share files between your phone and your desktop you need to give access "
+"to the phone's storage"
+msgstr ""
+
+msgctxt "telepathy_permission_explanation"
+msgid ""
+"To read and write SMS from your desktop you need to give permission to SMS"
+msgstr ""
+
+msgctxt "telephony_permission_explanation"
+msgid ""
+"To see phone calls and SMS from the desktop you need to give permission to "
+"phone calls and SMS"
+msgstr ""
+
+msgctxt "telephony_optional_permission_explanation"
+msgid ""
+"To see a contact name instead of a phone number you need to give access to "
+"the phone's contacts"
+msgstr ""
+
+msgctxt "select_ringtone"
+msgid "Select a ringtone"
+msgstr ""
+
+msgctxt "telephony_pref_blocked_title"
+msgid "Blocked numbers"
+msgstr ""
+
+msgctxt "telephony_pref_blocked_dialog_desc"
+msgid ""
+"Don't show calls and SMS from these numbers. Please specify one number per "
+"line"
+msgstr ""
+
+msgctxt "mpris_coverart_description"
+msgid "Cover art of current media"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "device_name"
+#| msgid "Device name"
+msgctxt "device_icon_description"
+msgid "Device icon"
+msgstr "設備名稱"
+
+#, fuzzy
+#| msgctxt "plugin_settings"
+#| msgid "Settings"
+msgctxt "settings_icon_description"
+msgid "Settings icon"
+msgstr "設定"
+
+msgctxt "add_command"
+msgid "Add a command"
+msgstr ""
+
+msgctxt "addcommand_name"
+msgid "Name"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "pref_plugin_runcommand"
+#| msgid "Run Command"
+msgctxt "addcommand_command"
+msgid "Command"
+msgstr "執行指令"
+
+msgctxt "command_confirm_needed"
+msgid "You will need to confirm the command on the desktop"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "no_file_browser"
+#| msgid "There are no file browsers installed."
+msgctxt "addcommand_explanation"
+msgid "There are no commands registered"
+msgstr "沒有安裝此檔案的瀏覽程式"
+
+msgctxt "addcommand_explanation2"
+msgid "You can add new commands in the KDE Connect System Settings"
+msgstr ""
+
+#~ msgctxt "outgoing_file_text"
+#~ msgid "%1s"
+#~ msgstr "%1s"
+
+#~ msgctxt "mousepad_double_default"
+#~ msgid "right"
+#~ msgstr "右"
+
+#~ msgctxt "mousepad_triple_default"
+#~ msgid "middle"
+#~ msgstr "中"
+
+#~ msgctxt "mousepad_sensitivity_default"
+#~ msgid "default"
+#~ msgstr "預設"

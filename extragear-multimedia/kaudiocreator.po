@@ -1,0 +1,1742 @@
+# translation of kaudiocreator.po to Chinese Traditional
+# traditional Chinese translation for kaudiocreator.
+# Copyright (C) 2002, 2006, 2007 Free Software Foundation, Inc.
+#
+# Tse-Chun Ho <saviro.tw@yahoo.com.tw>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Yi-Shun Wang <dnextstep@gmail.com>, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kaudiocreator\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-07-06 03:02+0200\n"
+"PO-Revision-Date: 2011-07-28 09:43+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tse-Chun Ho, Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "saviro.tw@yahoo.com.tw, franklin@goodhorse.idv.tw"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_performCDDBauto)
+#: cdconfig.ui:28
+#, kde-format
+msgid "&Perform CDDB lookup automatically"
+msgstr "自動進行 CDDB 查詢(&P)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoRip)
+#: cdconfig.ui:35
+#, kde-format
+msgid "&Automatically rip all tracks upon a successful CDDB retrieval"
+msgstr "自 CDDB 取得資訊成功後，自動擷取每個音軌(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, addFilesButton)
+#: encodefile.ui:51
+#, kde-format
+msgid "Add Files"
+msgstr "加入檔案"
+
+#. i18n: ectx: property (text), widget (QPushButton, addDirectoryButton)
+#: encodefile.ui:58
+#, kde-format
+msgid "Add Directory"
+msgstr "新增目錄"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeSelectedButton)
+#: encodefile.ui:65
+#, kde-format
+msgid "Remove Selected"
+msgstr "移除選取的項目"
+
+#. i18n: ectx: property (text), widget (QPushButton, clearButton)
+#: encodefile.ui:72
+#, kde-format
+msgid "Clear List"
+msgstr "清除清單"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: encodefile.ui:85
+#, kde-format
+msgid "Edit Selected Tracks"
+msgstr "編輯選取的音軌"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: encodefile.ui:91 infodialog.ui:72 infodialog.ui:103 tracks.ui:164
+#, kde-format
+msgid "Artist:"
+msgstr "演(唱/奏)者："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, artistEdit)
+#: encodefile.ui:101
+#, kde-format
+msgid "Set the artist for the selected tracks."
+msgstr "設定選取的音軌的演出者。"
+
+#. i18n: ectx: property (text), widget (QPushButton, assignArtistButton)
+#. i18n: ectx: property (text), widget (QPushButton, assignAlbumButton)
+#. i18n: ectx: property (text), widget (QPushButton, assignCommentButton)
+#. i18n: ectx: property (text), widget (QPushButton, assignGenreButton)
+#. i18n: ectx: property (text), widget (QPushButton, assignTrackButton)
+#. i18n: ectx: property (text), widget (QPushButton, assignYearButton)
+#. i18n: ectx: property (text), widget (QPushButton, assignEncoderButton)
+#: encodefile.ui:108 encodefile.ui:132 encodefile.ui:156 encodefile.ui:189
+#: encodefile.ui:228 encodefile.ui:258 encodefile.ui:288
+#, kde-format
+msgid "Assign"
+msgstr "指定"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: encodefile.ui:115 infodialog.ui:116 tracks.ui:181
+#, kde-format
+msgid "Album:"
+msgstr "專輯："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, albumEdit)
+#: encodefile.ui:125
+#, kde-format
+msgid "Set the album for the selected tracks."
+msgstr "設定選取的音軌的專輯。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: encodefile.ui:139 infodialog.ui:40 infodialog.ui:168 tracks.ui:191
+#, kde-format
+msgid "Comment:"
+msgstr "註解："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, commentEdit)
+#: encodefile.ui:149
+#, kde-format
+msgid "Set the comment for the selected tracks."
+msgstr "設定選取的音軌的註解。"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: encodefile.ui:163 infodialog.ui:152 tracks.ui:231
+#, kde-format
+msgid "Genre:"
+msgstr "流派："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, genreBox)
+#: encodefile.ui:179
+#, kde-format
+msgid "Set the genre for the selected tracks."
+msgstr "設定選取的音軌的流派。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: encodefile.ui:196
+#, kde-format
+msgid "Track counting starts at:"
+msgstr "音軌編號計數開始於："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, trackStart)
+#: encodefile.ui:212
+#, kde-format
+msgid ""
+"Set the track numbers for the selected tracks. This is the number for the "
+"first track."
+msgstr "設定選取的音軌的編號。這個數字是第一個音軌的編號。"
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, trackStart)
+#: encodefile.ui:221 encodefileimp.cpp:76
+#, kde-format
+msgid "empty"
+msgstr "空白"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: encodefile.ui:235 infodialog.ui:139 tracks.ui:208
+#, kde-format
+msgid "Year:"
+msgstr "年份："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, yearInput)
+#: encodefile.ui:251
+#, kde-format
+msgid "Set the year for the selected tracks."
+msgstr "設定選取的音軌的年份。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: encodefile.ui:265
+#, kde-format
+msgid "Encoder:"
+msgstr "編碼器："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, encoderBox)
+#: encodefile.ui:281
+#, kde-format
+msgid "Set the encoder to use for the selected tracks."
+msgstr "設定選取的音軌的編碼器。"
+
+#. i18n: ectx: property (text), widget (QPushButton, assignAllButton)
+#: encodefile.ui:298
+#, kde-format
+msgid "Assign all to selected tracks"
+msgstr "指定給所有的音軌"
+
+#: encodefileimp.cpp:62
+#, kde-format
+msgid "Encode Files"
+msgstr "編碼檔"
+
+#: encodefileimp.cpp:65
+#, kde-format
+msgid "Fit Columns to Content"
+msgstr "將欄位調整為符合內容"
+
+#: encodefileimp.cpp:66
+#, kde-format
+msgid "&Add to queue"
+msgstr "新增到佇列(&A)"
+
+#: encodefileimp.cpp:67
+#, kde-format
+msgid "&Add to queue and close"
+msgstr "新增到佇列並關閉(&A)"
+
+#: encodefileimp.cpp:68
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: encodefileimp.cpp:233 encodefileimp.cpp:262 encodefileimp.cpp:273
+#, kde-format
+msgid "track_%1"
+msgstr "音軌_%1"
+
+#: encodefileimp.cpp:237 encodefileimp.cpp:241 encodefileimp.cpp:249
+#: encodefileimp.cpp:263 encodefileimp.cpp:264 encodefileimp.cpp:274
+#: encodefileimp.cpp:275
+#, kde-format
+msgid "unknown"
+msgstr "未知"
+
+#: encodefileimp.cpp:412 tracksimp.cpp:537
+#, kde-format
+msgid ""
+"%1 Job(s) have been started.  You can watch their progress in the jobs "
+"section."
+msgstr "%1 個工作已經開始。您可以在工作欄內看到進度"
+
+#: encodefileimp.cpp:414 tracksimp.cpp:539
+#, kde-format
+msgid "Jobs have started"
+msgstr "工作已經開始"
+
+#: encodefilemodel.cpp:29
+#, kde-format
+msgid "File"
+msgstr "檔案"
+
+#: encodefilemodel.cpp:29 tracksimp.cpp:51 tracksimp.cpp:167 tracksimp.cpp:179
+#: tracksimp.cpp:608
+#, kde-format
+msgid "Title"
+msgstr "標題"
+
+#: encodefilemodel.cpp:29 tracksimp.cpp:51 tracksimp.cpp:167 tracksimp.cpp:179
+#: tracksimp.cpp:608
+#, kde-format
+msgid "Artist"
+msgstr "演出者"
+
+#: encodefilemodel.cpp:30
+#, kde-format
+msgctxt "@title:column"
+msgid "Album"
+msgstr "專輯"
+
+#: encodefilemodel.cpp:30 tracksimp.cpp:51 tracksimp.cpp:167 tracksimp.cpp:179
+#: tracksimp.cpp:608
+#, kde-format
+msgid "Comment"
+msgstr "註解"
+
+#: encodefilemodel.cpp:30
+#, kde-format
+msgid "Genre"
+msgstr "流派"
+
+#: encodefilemodel.cpp:31 tracksimp.cpp:51 tracksimp.cpp:167 tracksimp.cpp:179
+#: tracksimp.cpp:608
+#, kde-format
+msgid "Track"
+msgstr "音軌"
+
+#: encodefilemodel.cpp:31
+#, kde-format
+msgid "Year"
+msgstr "年份"
+
+#: encodefilemodel.cpp:31
+#, kde-format
+msgctxt "@title:column"
+msgid "Encoder"
+msgstr "編碼器"
+
+#: encoder.cpp:76 encoderconfigimp.cpp:150 encoderconfigimp.cpp:189
+#: encoderconfigimp.cpp:230
+#, kde-format
+msgid "No Encoder Selected"
+msgstr "沒有選擇編碼器"
+
+#: encoder.cpp:76
+#, kde-format
+msgid ""
+"No encoder has been selected.\n"
+"Please select an encoder in the configuration."
+msgstr ""
+"沒有選擇編碼器。\n"
+"請在設定中選擇編碼器。"
+
+#: encoder.cpp:161
+#, kde-format
+msgid "Encoding (%1): %2 - %3"
+msgstr "編碼（%1）：%2 - %3"
+
+#: encoder.cpp:199
+#, kde-format
+msgid "File Already Exists"
+msgstr "檔案已存在"
+
+#: encoder.cpp:220
+#, kde-format
+msgid "Cannot place file, unable to make directories."
+msgstr "無法產生目錄與檔案。"
+
+#: encoder.cpp:220 encoder.cpp:322 encoder.cpp:327 encoder.cpp:344
+#, kde-format
+msgid "Encoding Failed"
+msgstr "編碼失敗"
+
+#: encoder.cpp:322
+#, kde-format
+msgid ""
+"The selected encoder was not found.\n"
+"The wav file has been removed. Command was: %1"
+msgstr ""
+"找不到所選擇的編碼器。\n"
+"wav 檔已經移除，指令是：%1"
+
+#: encoder.cpp:327
+#, kde-format
+msgid ""
+"The encoder exited with a error.  Please check that the file was created.\n"
+"Do you want to see the full encoder output?"
+msgstr ""
+"編碼器發生錯誤而結束。請檢查檔案是否已產生。\n"
+"您要看編碼器產生的完整輸出嗎？"
+
+#: encoder.cpp:327 encoder.cpp:344
+#, kde-format
+msgid "Show Output"
+msgstr "顯示輸出"
+
+#: encoder.cpp:327 encoder.cpp:344
+#, kde-format
+msgid "Skip Output"
+msgstr "略過輸出"
+
+#: encoder.cpp:344
+#, kde-format
+msgid ""
+"The encoded file was not created.\n"
+"Please check the encoder options.\n"
+"The wav file has been removed.\n"
+"Do you want to see the full encoder output?"
+msgstr ""
+"編碼檔未建立。\n"
+"請檢查你的編碼選項。\n"
+"wav 檔已經移除。您要看編碼器產生的完整輸出嗎？"
+
+#. i18n: ectx: property (text), widget (QLabel, currentEncoderText)
+#: encoderconfig.ui:23
+#, kde-format
+msgid "Current default encoder:"
+msgstr "目前預設的編碼器："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addEncoder)
+#: encoderconfig.ui:61
+#, kde-format
+msgid "Add a new encoder configuration."
+msgstr "增加新的編碼器設置。"
+
+#. i18n: ectx: property (text), widget (QPushButton, addEncoder)
+#: encoderconfig.ui:64
+#, kde-format
+msgid "&Add..."
+msgstr "新增(&A)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, copyEncoder)
+#: encoderconfig.ui:71
+#, kde-format
+msgid "Copy..."
+msgstr "複製..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeEncoder)
+#: encoderconfig.ui:78
+#, kde-format
+msgid "Remove encoder from list."
+msgstr "從清單刪除編碼器。"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEncoder)
+#: encoderconfig.ui:81
+#, kde-format
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, configureEncoder)
+#: encoderconfig.ui:88
+#, kde-format
+msgid "Set encoder details."
+msgstr "設定編碼器細節。"
+
+#. i18n: ectx: property (text), widget (QPushButton, configureEncoder)
+#: encoderconfig.ui:91
+#, kde-format
+msgid "&Configure..."
+msgstr "設定(&C)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultButton)
+#: encoderconfig.ui:98
+#, kde-format
+msgid "Set as default"
+msgstr "設為預設"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: encoderconfig.ui:133
+#, kde-format
+msgid "Encoded File Location"
+msgstr "編碼檔案位置"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#: encoderconfig.ui:139
+#, kde-format
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QPushButton, encoderWizardButton)
+#: encoderconfig.ui:152
+#, kde-format
+msgid "&Wizard"
+msgstr "精靈(&W)"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: encoderconfig.ui:162
+#, kde-format
+msgid "&Number of wav files to encode at a time:"
+msgstr "一次編碼的 wav 檔數目(&N)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, niceLevelBox)
+#: encoderconfig.ui:185
+#, kde-format
+msgid "Encoder nice level"
+msgstr "編碼品質層級"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: encoderconfig.ui:218
+#, kde-format
+msgid "-19"
+msgstr "-19"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: encoderconfig.ui:244
+#, kde-format
+msgid "Current:"
+msgstr "目前的："
+
+#. i18n: ectx: property (text), widget (QLabel, niceLevelLabel)
+#: encoderconfig.ui:257
+#, kde-format
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: encoderconfig.ui:283
+#, kde-format
+msgid "19"
+msgstr "19"
+
+#: encoderconfigimp.cpp:101
+#, kde-format
+msgid "The default encoder has to accept wav as input."
+msgstr "預設編碼器必須接受 wav 格式輸入。"
+
+#: encoderconfigimp.cpp:101 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
+#, kde-format
+msgid "Not Allowed"
+msgstr "不允許"
+
+#: encoderconfigimp.cpp:128
+#, kde-format
+msgid "Add Encoder"
+msgstr "新增編碼器"
+
+#: encoderconfigimp.cpp:150 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#, kde-format
+msgid "Please select an encoder."
+msgstr "請選擇編碼器。"
+
+#: encoderconfigimp.cpp:173
+#, kde-format
+msgid "Copy Encoder"
+msgstr "複製編碼器"
+
+#: encoderconfigimp.cpp:194
+#, kde-format
+msgid "WAV is not allowed to be removed."
+msgstr "不允許移除 WAV 格式。"
+
+#: encoderconfigimp.cpp:198
+#, kde-format
+msgid "Delete encoder?"
+msgstr "要刪除編碼器嗎？"
+
+#: encoderconfigimp.cpp:198
+#, kde-format
+msgid "Delete Encoder"
+msgstr "刪除編碼器"
+
+#: encoderconfigimp.cpp:235
+#, kde-format
+msgid ""
+"WAV is not allowed to be changed.\n"
+"You can copy it to adjust it to your needs."
+msgstr ""
+"WAV 編碼器不能變更。\n"
+"您可以複製一份後再依您的需求調整。"
+
+#: encoderconfigimp.cpp:250
+#, kde-format
+msgid "Configure Encoder"
+msgstr "設定編碼器"
+
+#: encoderconfigimp.cpp:383 kaudiocreator.cpp:426
+#, kde-format
+msgid "Encoder Configuration"
+msgstr "編碼器設定"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: encoderedit.ui:16
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_encoderName)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_encoderName)
+#: encoderedit.ui:32 encoderedit.ui:35
+#, kde-format
+msgid "An unique and descriptive name for the encoder."
+msgstr "編碼器的名稱，必須唯一並且夠明確。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_encoderName)
+#: encoderedit.ui:38
+#, kde-format
+msgid "Unknown Encoder"
+msgstr "未知的編碼器"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: encoderedit.ui:45
+#, kde-format
+msgid "Command line:"
+msgstr "命令列："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_commandLine)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_commandLine)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_extension)
+#: encoderedit.ui:55 encoderedit.ui:58 encoderedit.ui:81
+#, kde-format
+msgid "The command line for the encoder."
+msgstr "編碼器的命令列指令。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_commandLine)
+#: encoderedit.ui:61
+#, no-c-format, kde-format
+msgid "app.exe %f %o"
+msgstr "app.exe %f %o"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: encoderedit.ui:68
+#, kde-format
+msgid "Extension:"
+msgstr "延伸："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extension)
+#: encoderedit.ui:78
+#, kde-format
+msgid "The extension for output files."
+msgstr "輸出檔的副檔名。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_extension)
+#: encoderedit.ui:84
+#, kde-format
+msgid "ext"
+msgstr "ext"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: encoderedit.ui:91
+#, kde-format
+msgid "Input types:"
+msgstr "輸入型態："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_inputTypes)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_inputTypes)
+#: encoderedit.ui:98 encoderedit.ui:101
+#, kde-format
+msgid "A comma separated list of supported input types."
+msgstr "支援的輸入型態的清單，以逗號分隔。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: encoderedit.ui:108
+#, kde-format
+msgid "Percent length"
+msgstr "百分比長度"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkOutput)
+#: encoderedit.ui:135
+#, no-c-format, kde-format
+msgid ""
+"Check if output files should be checked for existence if possible (if you "
+"use %o)."
+msgstr "勾選此項目的話，在可能的狀況下（使用 %o）會檢查輸出檔是否存在。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_checkOutput)
+#: encoderedit.ui:138
+#, kde-format
+msgid ""
+"Check if output files should be checked for existence, if the files are "
+"placed by the encoder itself, not kaudiocreator leave this unchecked."
+msgstr ""
+"勾選此項目的話，則會在可能的狀況下檢查輸出檔存在與否。若是檔案會被編碼器本身"
+"直接取代，而不是被 kaudiocreator 取代，則不要勾選此選項。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkOutput)
+#: encoderedit.ui:141
+#, kde-format
+msgid "Check output files if possible"
+msgstr "可以的話檢查輸出檔"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, EncoderOutput)
+#: encoderoutput.ui:13
+#, kde-format
+msgid "Encoder Output"
+msgstr "編碼器輸出"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
+#: encoderoutput.ui:65 infodialog.ui:222 wizard.ui:232
+#, kde-format
+msgid "&OK"
+msgstr "確定(&O)"
+
+#: general.cpp:61
+#, kde-format
+msgid ""
+"The replacement string still contains incompatible characters (%1).\n"
+"Copying to FAT32 might not work as expected."
+msgstr ""
+"用來取代的字串仍然有不相容的字元（%1）。\n"
+"複製到 FAT32 磁區的動作可能無法得到預期的結果。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, General)
+#: general.ui:14 kaudiocreator.cpp:403
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeCompletedJobs)
+#: general.ui:20
+#, kde-format
+msgid "&Automatically remove jobs when finished"
+msgstr "自動移除已完成的工作(&A)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptIfIncompleteInfo)
+#. i18n: ectx: label, entry (promptIfIncompleteInfo), group (CD)
+#: general.ui:27 kaudiocreator.kcfg:24
+#, kde-format
+msgid "Prompt if information is not complete"
+msgstr "資訊不完整時提示使用者"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: general.ui:34
+#, kde-format
+msgid "File Regular Expression Replacement"
+msgstr "檔案正規表示取代"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: general.ui:41
+#, kde-format
+msgid ""
+"Regular expression used on all file names. For example using selection \" \" "
+"and replace with \"_\" would replace all the spaces with underlines.\n"
+msgstr ""
+"對所有檔名使用正規表示式。例如選擇 \" \" 並取代為 \"_\" 會將所有的空白換成底"
+"線。\n"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: general.ui:56
+#, kde-format
+msgid "Selection:"
+msgstr "選擇："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: general.ui:69
+#, kde-format
+msgid "Replace with:"
+msgstr "取代為："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: general.ui:87
+#, kde-format
+msgid "Example"
+msgstr "範例："
+
+#. i18n: ectx: property (text), widget (QLabel, inputlabel)
+#: general.ui:93
+#, kde-format
+msgid "Input:"
+msgstr "輸入："
+
+#. i18n: ectx: property (text), widget (QLineEdit, example)
+#. i18n: ectx: property (text), widget (QLabel, exampleOutput)
+#: general.ui:103 general.ui:120
+#, kde-format
+msgid "Cool artist - example audio file.wav"
+msgstr "酷演唱者 - example audio file.wav"
+
+#. i18n: ectx: property (text), widget (QLabel, outputLabel)
+#: general.ui:110
+#, kde-format
+msgid "Output:"
+msgstr "輸出："
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, kcfg_fat32compatible)
+#: general.ui:133
+#, kde-format
+msgid "Check if you want FAT32-incompatible characters to be replaced."
+msgstr "若是您要換掉與 FAT32 不相容的字元，則勾選此選項。"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, kcfg_fat32compatible)
+#: general.ui:136
+#, no-c-format, kde-format
+msgid ""
+"Check if you want FAT32-incompatible characters to be replaced. Of course "
+"this only works if the output is created by this program (%f), not the "
+"encoder itself."
+msgstr ""
+"若是您要換掉與 FAT32 不相容的字元，則勾選此選項。當然這只有在輸出檔是由此程式"
+"（%f）產生，而不是由編碼器自己產生的時候才能生效。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_fat32compatible)
+#: general.ui:139
+#, kde-format
+msgid "Use FAT32-compatible Filenames"
+msgstr "使用與 FAT32 相容的檔名"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: general.ui:150
+#, kde-format
+msgid "Replace incompatible characters with:"
+msgstr "將不相容的字元取代為："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_replaceFatIncompatible)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_replaceFatIncompatible)
+#: general.ui:157 general.ui:160
+#, kde-format
+msgid "Replace FAT32-incompatible characters with that text."
+msgstr "將與 FAT32 不相容的檔名字元以此文字取代："
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_seperateMultiArtist)
+#: general.ui:172
+#, kde-format
+msgid "Automatically Separate Multi-Artist CDDB Entries"
+msgstr "自動分隔多演唱者的 CDDB 項目"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup)
+#: general.ui:184
+#, kde-format
+msgid "Format"
+msgstr "格式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_format_titleArtist)
+#: general.ui:190
+#, kde-format
+msgid "Title - Artist"
+msgstr "標題 - 演唱者"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_format_artistTitle)
+#: general.ui:197
+#, kde-format
+msgid "Artist - Title"
+msgstr "演唱者 - 標題"
+
+#. i18n: ectx: property (text), widget (QLabel, delimiterLabel)
+#: general.ui:215
+#, kde-format
+msgid "Delimiter:"
+msgstr "分隔符號："
+
+#. i18n: ectx: property (text), widget (QLabel, genArtistLabel)
+#: general.ui:225
+#, kde-format
+msgid "Generic artist:"
+msgstr "一般演(唱/奏)者："
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, AlbumEditor)
+#: infodialog.ui:16
+#, kde-format
+msgid "Album Editor"
+msgstr "專輯編輯器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: infodialog.ui:31
+#, kde-format
+msgid "Current Track"
+msgstr "目前的音軌"
+
+#. i18n: ectx: property (text), widget (QLabel, trackLabel)
+#: infodialog.ui:56
+#, kde-format
+msgid "Title:"
+msgstr "標題："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: infodialog.ui:91
+#, kde-format
+msgid "Album"
+msgstr "專輯"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonPrevious)
+#: infodialog.ui:208
+#, kde-format
+msgid "&Previous Track"
+msgstr "前一個音軌(&P)"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNext)
+#: infodialog.ui:215
+#, kde-format
+msgid "&Next Track"
+msgstr "下一個音軌(&N)"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#: infodialog.ui:235 wizard.ui:245
+#, kde-format
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: job.h:35
+#, kde-format
+msgid "Other"
+msgstr "其他"
+
+#: jobdelegate.cpp:47
+#, kde-format
+msgid "Queued"
+msgstr "已放入佇列"
+
+#: jobdelegate.cpp:49
+#, kde-format
+msgid "Running"
+msgstr "執行中"
+
+#: jobdelegate.cpp:51
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#: jobdelegate.cpp:53 jobqueimp.cpp:119 jobqueimp.cpp:212
+#, kde-format
+msgid "Done"
+msgstr "完成"
+
+#. i18n: ectx: property (text), widget (QLabel, queLabel)
+#: jobque.ui:17 jobqueimp.cpp:159 jobqueimp.cpp:220
+#, kde-format
+msgid "No jobs are in the queue"
+msgstr "在佇列中沒有工作"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeDoneJobs)
+#: jobque.ui:76
+#, kde-format
+msgid "Remove Completed Jobs"
+msgstr "移除已完成工作"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeAll)
+#: jobque.ui:83
+#, kde-format
+msgid "Remove All Jobs"
+msgstr "移除所有的工作"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeSelected)
+#: jobque.ui:90
+#, kde-format
+msgid "Remove Selected Jobs"
+msgstr "移除選擇的工作"
+
+#: jobqueimp.cpp:51
+#, kde-format
+msgid "Job"
+msgstr "工作"
+
+#: jobqueimp.cpp:51
+#, kde-format
+msgid "Progress"
+msgstr "進度"
+
+#: jobqueimp.cpp:51
+#, kde-format
+msgid "Description"
+msgstr "描述"
+
+#: jobqueimp.cpp:84 jobqueimp.cpp:162 jobqueimp.cpp:223
+#, kde-format
+msgid "Number of jobs in the queue: %1"
+msgstr "在佇列的工作數：%1"
+
+#: jobqueimp.cpp:145
+#, kde-format
+msgid "KAudioCreator has not finished %1. Remove anyway?"
+msgstr "KAudioCreator 尚未結束 %1。確定要移除嗎？"
+
+#: jobqueimp.cpp:145 jobqueimp.cpp:197
+#, kde-format
+msgid "Unfinished Job in Queue"
+msgstr "在佇列有未完成的工作"
+
+#: jobqueimp.cpp:145 jobqueimp.cpp:197
+#, kde-format
+msgid "Keep"
+msgstr "保留"
+
+#: jobqueimp.cpp:197
+#, kde-format
+msgid "KAudioCreator has not finished all of the jobs. Remove them anyway?"
+msgstr "KAudioCreator 尚未完成所有工作。確定要移除它們嗎？"
+
+#: kaudiocreator.cpp:63
+#, kde-format
+msgid "&CD Tracks"
+msgstr "光碟音軌(&C)"
+
+#: kaudiocreator.cpp:73
+#, kde-format
+msgid "&Jobs"
+msgstr "工作(&J)"
+
+#: kaudiocreator.cpp:102
+#, kde-format
+msgid "&Eject CD"
+msgstr "跳出光碟(&E)"
+
+#: kaudiocreator.cpp:106
+#, kde-format
+msgid "&Configure KAudioCreator..."
+msgstr "設定 KAudioCreator(&C)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAllTracksButton)
+#: kaudiocreator.cpp:110 tracks.ui:38
+#, kde-format
+msgid "Select &All Tracks"
+msgstr "選擇所有音軌(&A)"
+
+#: kaudiocreator.cpp:115
+#, kde-format
+msgid "Deselect &All Tracks"
+msgstr "取消選擇所有音軌(&A)"
+
+#: kaudiocreator.cpp:122
+#, kde-format
+msgid "&Rip"
+msgstr "擷取(&R)"
+
+#: kaudiocreator.cpp:132
+#, kde-format
+msgid "Rip &Selection"
+msgstr "擷取選擇(&S)"
+
+#: kaudiocreator.cpp:140
+#, kde-format
+msgid "Remove &Completed Jobs"
+msgstr "移除已完成工作(&C)"
+
+#: kaudiocreator.cpp:144
+#, kde-format
+msgid "&Edit Album..."
+msgstr "編輯專輯(&E)..."
+
+#: kaudiocreator.cpp:156
+#, kde-format
+msgid "Encode &Files from disk"
+msgstr "編碼磁碟中的檔案(&F)"
+
+#: kaudiocreator.cpp:160
+#, kde-format
+msgid "&CDDB Lookup"
+msgstr "CDDB 查詢(&C)"
+
+#: kaudiocreator.cpp:176
+#, kde-format
+msgid "Searching"
+msgstr "搜尋"
+
+#: kaudiocreator.cpp:207 kaudiocreator.cpp:245
+#, kde-format
+msgid "WAV"
+msgstr "WAV"
+
+#: kaudiocreator.cpp:215
+#, kde-format
+msgid "Ogg Default"
+msgstr "Ogg 預設值"
+
+#: kaudiocreator.cpp:223
+#, kde-format
+msgid "MP3 Lame Standard"
+msgstr "MP3 Lame 標準"
+
+#: kaudiocreator.cpp:231
+#, kde-format
+msgid "FLAC Best"
+msgstr "FLAC 最佳"
+
+#: kaudiocreator.cpp:296
+#, kde-format
+msgid "No CD drive"
+msgstr "沒有光碟機"
+
+#: kaudiocreator.cpp:301 tracksimp.cpp:665
+#, kde-format
+msgid "No disc"
+msgstr "沒有碟片"
+
+#: kaudiocreator.cpp:306
+#, kde-format
+msgid "Loading disc"
+msgstr "載入碟片中"
+
+#: kaudiocreator.cpp:310
+#, kde-format
+msgid "Audio CD inserted"
+msgstr "已插入音效光碟"
+
+#: kaudiocreator.cpp:315
+#, kde-format
+msgid "Disc inserted - No Audio"
+msgstr "碟片已插入 ─ 無音效"
+
+#: kaudiocreator.cpp:325
+#, kde-format
+msgid "Default encoder: %1"
+msgstr "預設的編碼器：%1"
+
+#: kaudiocreator.cpp:330
+#, kde-format
+msgid "Idle"
+msgstr "閒置"
+
+#: kaudiocreator.cpp:339
+#, kde-format
+msgid "Ripping (%1 active, %2 queued)"
+msgstr "擷取中（%1 進行中 %2 在佇列中）"
+
+#: kaudiocreator.cpp:343
+#, kde-format
+msgid "Encoding (%1 active, %2 queued)"
+msgstr "編碼（%1 進行中 %2 在佇列中）"
+
+#: kaudiocreator.cpp:353
+#, kde-format
+msgid "Jobs:"
+msgstr "工作："
+
+#: kaudiocreator.cpp:361
+#, kde-format
+msgid "There are unfinished jobs in the queue. Would you like to quit anyway?"
+msgstr "在佇列中尚有未完成的工作。您確定要離開嗎？"
+
+#: kaudiocreator.cpp:361
+#, kde-format
+msgid "Unfinished Jobs in Queue"
+msgstr "在佇列有未完成的工作"
+
+#: kaudiocreator.cpp:404
+#, kde-format
+msgid "General Configuration"
+msgstr "一般設定"
+
+#: kaudiocreator.cpp:406
+#, kde-format
+msgid "CD"
+msgstr "光碟"
+
+#: kaudiocreator.cpp:407
+#, kde-format
+msgid "CD Configuration"
+msgstr "光碟設定"
+
+#: kaudiocreator.cpp:417
+#, kde-format
+msgid "CDDB"
+msgstr "CDDB"
+
+#: kaudiocreator.cpp:417
+#, kde-format
+msgid "CDDB Configuration"
+msgstr "CDDB 設定"
+
+#: kaudiocreator.cpp:423
+#, kde-format
+msgid "Ripper"
+msgstr "擷取器(Ripper)"
+
+#: kaudiocreator.cpp:423
+#, kde-format
+msgid "Ripper Configuration"
+msgstr "擷取器設定"
+
+#: kaudiocreator.cpp:426
+#, kde-format
+msgid "Encoder"
+msgstr "編碼器"
+
+#. i18n: ectx: label, entry (performCDDBauto), group (CD)
+#: kaudiocreator.kcfg:12
+#, kde-format
+msgid "Perform automatic CDDB lookups."
+msgstr "自動進行 CDDB 查詢。"
+
+#. i18n: ectx: label, entry (autoRip), group (CD)
+#: kaudiocreator.kcfg:16
+#, kde-format
+msgid "Automatically rip all tracks upon a successful CDDB retrieval"
+msgstr "自 CDDB 取得資訊成功後，自動擷取每個音軌"
+
+#. i18n: ectx: label, entry (lastUsedDevice), group (CD)
+#: kaudiocreator.kcfg:20
+#, kde-format
+msgid "Last used CD device"
+msgstr "最後使用的光碟裝置"
+
+#. i18n: ectx: label, entry (removeCompletedJobs), group (General)
+#: kaudiocreator.kcfg:30
+#, kde-format
+msgid "Automatically remove jobs when finished"
+msgstr "自動將已完成的工作移除"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeRippedWavs)
+#. i18n: ectx: label, entry (removeRippedWavs), group (General)
+#: kaudiocreator.kcfg:34 ripconfig.ui:101
+#, kde-format
+msgid "Remove ripped wav files after encoding"
+msgstr "在編碼後移除擷取下來的 wav 檔"
+
+#. i18n: ectx: label, entry (replaceInput), group (General)
+#: kaudiocreator.kcfg:38
+#, kde-format
+msgid "Regexp to match file names with"
+msgstr "要比對的檔名正規表示樣式"
+
+#. i18n: ectx: label, entry (replaceOutput), group (General)
+#: kaudiocreator.kcfg:41
+#, kde-format
+msgid "String used to replace the parts that match the selection regexp"
+msgstr "用於取代的字串"
+
+#: kaudiocreator.kcfg:53
+#, kde-format
+msgid "Various Artists"
+msgstr "不同的演出者"
+
+#. i18n: ectx: label, entry (defaultEncoder), group (Encoder)
+#: kaudiocreator.kcfg:67
+#, kde-format
+msgid "Current default encoder"
+msgstr "目前預設的編碼器"
+
+#. i18n: ectx: label, entry (inputTypesList), group (Encoder)
+#: kaudiocreator.kcfg:71
+#, kde-format
+msgid "List of available input types"
+msgstr "可用的輸入型態的清單"
+
+#. i18n: ectx: label, entry (numberOfCpus), group (Encoder)
+#: kaudiocreator.kcfg:74
+#, kde-format
+msgid "Number of files to encode at a time"
+msgstr "一次編碼的檔案數目"
+
+#. i18n: ectx: label, entry (fileFormat), group (Encoder)
+#: kaudiocreator.kcfg:78
+#, kde-format
+msgid "Location pattern for encoded files"
+msgstr "編碼檔案的位置樣式"
+
+#. i18n: ectx: label, entry (NiceLevel), group (Encoder)
+#: kaudiocreator.kcfg:82
+#, kde-format
+msgid "Encoder priority"
+msgstr "編碼器優先順序"
+
+#. i18n: ectx: label, entry (FullDecoderDebug), group (Encoder)
+#: kaudiocreator.kcfg:88
+#, kde-format
+msgid "Enable full decoder debugging"
+msgstr "開啟完整的解碼器除錯功能"
+
+#. i18n: ectx: label, entry (beepAfterRip), group (Ripper)
+#: kaudiocreator.kcfg:94
+#, kde-format
+msgid "Beep after rip"
+msgstr "在每次擷取完後嗶一聲"
+
+#. i18n: ectx: label, entry (autoEjectAfterRip), group (Ripper)
+#: kaudiocreator.kcfg:98
+#, kde-format
+msgid "Eject CD after last track is ripped"
+msgstr "在最後一個音軌擷取完後自動跳出光碟"
+
+#. i18n: ectx: label, entry (autoEjectDelay), group (Ripper)
+#: kaudiocreator.kcfg:102
+#, kde-format
+msgid "Auto-eject delay"
+msgstr "自動跳出延遲"
+
+#. i18n: ectx: label, entry (enableTempDir), group (Ripper)
+#: kaudiocreator.kcfg:106
+#, kde-format
+msgid "Specify temporary directory"
+msgstr "指定暫存目錄"
+
+#. i18n: ectx: label, entry (tempDir), group (Ripper)
+#: kaudiocreator.kcfg:110
+#, kde-format
+msgid "Location of temporary directory to use"
+msgstr "使用的暫存目錄位置"
+
+#. i18n: ectx: label, entry (encoderName), group ($(encoder))
+#: kaudiocreator_encoders.kcfg:12
+#, kde-format
+msgid "Name of the encoder"
+msgstr "編碼器名稱"
+
+#. i18n: ectx: label, entry (commandLine), group ($(encoder))
+#: kaudiocreator_encoders.kcfg:16
+#, kde-format
+msgid "Command line to invoke encoder"
+msgstr "呼叫編碼器的命令列"
+
+#. i18n: ectx: label, entry (extension), group ($(encoder))
+#: kaudiocreator_encoders.kcfg:20
+#, kde-format
+msgid "File extension"
+msgstr "副檔名"
+
+#. i18n: ectx: label, entry (inputTypes), group ($(encoder))
+#: kaudiocreator_encoders.kcfg:24
+#, kde-format
+msgid "Input Types"
+msgstr "輸入型態"
+
+#. i18n: ectx: label, entry (checkOutput), group ($(encoder))
+#: kaudiocreator_encoders.kcfg:32
+#, kde-format
+msgid "Check output files"
+msgstr "檢查輸出檔"
+
+#. i18n: ectx: Menu (file)
+#: kaudiocreatorui.rc:17
+#, kde-format
+msgid "&Program"
+msgstr "程式(&P)"
+
+#: main.cpp:33
+#, kde-format
+msgid "KAudioCreator"
+msgstr "KAudioCreator"
+
+#: main.cpp:34
+#, kde-format
+msgid "CD ripper and audio encoder frontend"
+msgstr "光碟擷取器與音效編碼器的前端"
+
+#: main.cpp:35
+#, fuzzy, kde-format
+#| msgid ""
+#| "(c) 2003-2005, Benjamin Meyer\n"
+#| "(c) 2008-2011, Gerd Fleischer"
+msgid ""
+"(c) 2003-2005, Benjamin Meyer\n"
+"(c) 2008-2011, Gerd Fleischer\n"
+"(c) 2016, Leslie Zhai"
+msgstr ""
+"(c) 2003-2005, Benjamin Meyer\n"
+"(c) 2008-2011, Gerd Fleischer"
+
+#: main.cpp:37
+#, kde-format
+msgid "Gerd Fleischer"
+msgstr "Gerd Fleischer"
+
+#: main.cpp:37
+#, fuzzy, kde-format
+#| msgid "Maintainer"
+msgid "Former maintainer"
+msgstr "維護者"
+
+#: main.cpp:38
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:38
+#, kde-format
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:47
+#, kde-format
+msgid "CD device path"
+msgstr "CD 裝置路徑"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_beepAfterRip)
+#: ripconfig.ui:17
+#, kde-format
+msgid "&Beep after each rip is done"
+msgstr "在每次擷取完後嗶一聲(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoEjectAfterRip)
+#: ripconfig.ui:24
+#, kde-format
+msgid "&Auto-eject CD after last track is ripped"
+msgstr "在最後的音軌擷取完後自動跳出 CD(&A)"
+
+#. i18n: ectx: property (text), widget (QLabel, autoEjectLabel)
+#: ripconfig.ui:42
+#, kde-format
+msgid "Auto-&eject delay:"
+msgstr "自動跳出延遲(&E)："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_autoEjectDelay)
+#: ripconfig.ui:58
+#, kde-format
+msgid " seconds"
+msgstr " 秒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableTempDir)
+#: ripconfig.ui:70
+#, kde-format
+msgid "Use custom temporary directory"
+msgstr "使用自訂的暫存目錄"
+
+#. i18n: ectx: property (text), widget (QLabel, temporaryDirectoryLabel)
+#: ripconfig.ui:82
+#, kde-format
+msgid "Temporary directory:"
+msgstr "暫存目錄："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_removeRippedWavs)
+#: ripconfig.ui:98
+#, kde-format
+msgid ""
+"After encoding, remove wav files that were ripped from CD (files encoded "
+"from disk are always kept)."
+msgstr ""
+"編碼後，將從 CD 擷取下來的 wav 檔移除（但從磁碟中的檔案編碼而來的話，則該檔會"
+"保留）。"
+
+#: ripper.cpp:140
+#, kde-format
+msgid "Ripping: %1 - %2"
+msgstr "擷取中：%1 - %2"
+
+#: ripper.cpp:176
+#, kde-format
+msgid ""
+"There is a problem with the custom temporary directory.\n"
+"Please check existence and permissions of \"%1\".\n"
+"The KDE standard temporary directory will be used instead."
+msgstr ""
+"自訂暫存目錄發生問題。\n"
+"請檢查 %1 是否存在，權限是否正確。\n"
+"將改用 KDE 標準的暫存目錄。"
+
+#: ripper.cpp:179
+#, kde-format
+msgid "Problem with the temporary directory"
+msgstr "暫存目錄發生問題"
+
+#: ripper.cpp:197 ripper.cpp:202
+#, kde-format
+msgid "Track %1"
+msgstr "音軌 %1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Tracks)
+#: tracks.ui:14
+#, kde-format
+msgid "Tracks"
+msgstr "音軌"
+
+#. i18n: ectx: property (text), widget (QPushButton, deselectAllTracksButton)
+#: tracks.ui:45
+#, kde-format
+msgid "&Deselect All Tracks"
+msgstr "取消選擇所有音軌(&D)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: tracks.ui:62
+#, kde-format
+msgid "Device:"
+msgstr "裝置："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, deviceCombo)
+#: tracks.ui:82
+#, kde-format
+msgid "/dev/cdrom"
+msgstr "/dev/cdrom"
+
+#. i18n: ectx: property (text), widget (QLabel, albumInfoLabel)
+#: tracks.ui:114
+#, kde-format
+msgid "Unknown Artist - Unknown Album"
+msgstr "未知的作者 - 未知的專輯"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: tracks.ui:158
+#, kde-format
+msgid "Album properties"
+msgstr "專輯屬性"
+
+#. i18n: ectx: property (text), widget (QPushButton, artistEditButton)
+#. i18n: ectx: property (text), widget (QPushButton, commentEditButton)
+#: tracks.ui:174 tracks.ui:201
+#, kde-format
+msgid "Assign to all tracks"
+msgstr "指定給所有的音軌"
+
+#: tracksimp.cpp:51 tracksimp.cpp:167 tracksimp.cpp:179 tracksimp.cpp:608
+#, kde-format
+msgctxt "@title:column"
+msgid "Rip"
+msgstr "擷取"
+
+#: tracksimp.cpp:51 tracksimp.cpp:167 tracksimp.cpp:179 tracksimp.cpp:608
+#, kde-format
+msgid "Length"
+msgstr "長度"
+
+#: tracksimp.cpp:116 tracksimp.cpp:269 tracksimp.cpp:284
+#, kde-format
+msgid "none detected"
+msgstr "沒有偵測到"
+
+#: tracksimp.cpp:163 tracksimp.cpp:175
+#, kde-format
+msgid "Unknown Artist"
+msgstr "未知演唱者"
+
+#: tracksimp.cpp:163 tracksimp.cpp:175
+#, kde-format
+msgid "Unknown Album"
+msgstr "未知專輯"
+
+#: tracksimp.cpp:295
+#, kde-format
+msgid "Please insert a disk."
+msgstr "請插入光碟。"
+
+#: tracksimp.cpp:296 tracksimp.cpp:322
+#, kde-format
+msgid "CDDB Failed"
+msgstr "CDDB 失敗"
+
+#: tracksimp.cpp:322
+#, kde-format
+msgid "Unable to retrieve CDDB information."
+msgstr "無法取得 CDDB 資訊。"
+
+#: tracksimp.cpp:343
+#, kde-format
+msgid "Select CDDB entry"
+msgstr "選擇 CDDB 項目"
+
+#: tracksimp.cpp:344
+#, kde-format
+msgid "Select a CDDB entry:"
+msgstr "選擇 CDDB 項目："
+
+#: tracksimp.cpp:434
+#, kde-format
+msgid "CD Editor"
+msgstr "光碟編輯器"
+
+#: tracksimp.cpp:481
+#, kde-format
+msgid "No tracks have been selected.  Would you like to rip the entire CD?"
+msgstr "沒有選擇音軌。您要擷取整片光碟嗎？"
+
+#: tracksimp.cpp:482
+#, kde-format
+msgid "No Tracks Selected"
+msgstr "沒有選擇音軌"
+
+#: tracksimp.cpp:482
+#, kde-format
+msgid "Rip CD"
+msgstr "擷取(Rip)光碟"
+
+#: tracksimp.cpp:491
+#, kde-format
+msgid "Could not find audiocd:/ protocol. Please install the audiocd ioslave"
+msgstr "找不到 audiocd:/ 協定。請安裝 audiocd ioslave。"
+
+#: tracksimp.cpp:492
+#, kde-format
+msgid "Protocol Not Found"
+msgstr "找不到協定"
+
+#: tracksimp.cpp:507
+#, kde-format
+msgid ""
+"Part of the album is not set: %1.\n"
+" (To change album information click the \"Edit Information\" button.)\n"
+" Would you like to rip the selected tracks anyway?"
+msgstr ""
+"專輯部份未設： %1。\n"
+"(欲改變專輯資訊，請點選「編輯資訊」鈕。)\n"
+"您確定要擷取所選的音軌嗎？"
+
+#: tracksimp.cpp:507
+#, kde-format
+msgid "Album Information Incomplete"
+msgstr "專輯資訊不完全"
+
+#: tracksimp.cpp:507
+#, kde-format
+msgid "Rip"
+msgstr "擷取(Rip)"
+
+#: tracksimp.cpp:663
+#, kde-format
+msgid " - "
+msgstr " - "
+
+#: wizard.cpp:126
+#, kde-format
+msgid "Example: %1"
+msgstr "範例：%1"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, fileWizard)
+#: wizard.ui:20
+#, kde-format
+msgid "File Location Wizard"
+msgstr "檔案位置精靈"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel8)
+#: wizard.ui:38
+#, no-c-format, kde-format
+msgid ""
+"When files have finished being processed, they are saved based upon the "
+"<i>File Location</i>.  Information about the track should be used within "
+"that text.  There are eleven special words starting with a % that will be "
+"replaced with the corresponding track's information.  Each of the buttons "
+"below will insert its replacement word into the <i>File Location</i> where "
+"the cursor is.  Use at least one replacement string to make sure that the "
+"<i>File Location</i> is unique."
+msgstr ""
+"當檔案處理完成之後，會儲存到「檔案位置」中。關於音軌的資訊應該放在那些文字"
+"中。有十一個以 % 開頭的符號可以被取代為音軌的資訊。下方的每個按鈕會插入這些符"
+"號到「檔案位置」欄位中。請至少使用一種符號，以便保證檔案位置不會重複。"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel9)
+#: wizard.ui:78
+#, kde-format
+msgid "&File location:"
+msgstr "檔案位置(&F)："
+
+#. i18n: ectx: property (text), widget (QLineEdit, fileFormat)
+#: wizard.ui:88
+#, no-c-format, kde-format
+msgid "~/%{extension}/%{artist}/%{album}/%{artist} - %{album}.m3u"
+msgstr "~/%{extension}/%{artist}/%{album}/%{artist} - %{album}.m3u"
+
+#. i18n: ectx: property (text), widget (QLabel, exampleLabel)
+#: wizard.ui:97
+#, kde-format
+msgid "Example: ~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
+msgstr "例：~/mp3/Staind/Lost Love/Staind - Lost Love.m3u"
+
+#. i18n: ectx: property (text), widget (QPushButton, artistButton)
+#: wizard.ui:112
+#, kde-format
+msgid "&Artist"
+msgstr "演(唱/奏)者(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, homeDirButton)
+#: wizard.ui:119
+#, kde-format
+msgid "&Home Folder"
+msgstr "家目錄(&H)"
+
+#. i18n: ectx: property (text), widget (QPushButton, trackNumberButton)
+#: wizard.ui:126
+#, kde-format
+msgid "&Track Number"
+msgstr "音軌數量(&T)"
+
+#. i18n: ectx: property (text), widget (QPushButton, extensionButton)
+#: wizard.ui:133
+#, kde-format
+msgid "&Extension"
+msgstr "延伸(&E)"
+
+#. i18n: ectx: property (text), widget (QPushButton, trackTitleButton)
+#: wizard.ui:140
+#, kde-format
+msgid "Track T&itle"
+msgstr "音軌標題(&I)"
+
+#. i18n: ectx: property (text), widget (QPushButton, trackCommentButton)
+#: wizard.ui:147
+#, kde-format
+msgid "T&rack Comment"
+msgstr "音軌註解(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, genreButton)
+#: wizard.ui:154
+#, kde-format
+msgid "&Genre"
+msgstr "流派(&G)"
+
+#. i18n: ectx: property (text), widget (QPushButton, yearButton)
+#: wizard.ui:161
+#, kde-format
+msgid "&Year"
+msgstr "年(&Y)"
+
+#. i18n: ectx: property (text), widget (QPushButton, albumButton)
+#: wizard.ui:168
+#, kde-format
+msgid "Al&bum"
+msgstr "專輯(&B)"
+
+#. i18n: ectx: property (text), widget (QPushButton, trackArtistButton)
+#: wizard.ui:175
+#, kde-format
+msgid "Trac&k Artist"
+msgstr "演(唱/奏)者(&K)"
+
+#. i18n: ectx: property (text), widget (QPushButton, commentButton)
+#: wizard.ui:182
+#, kde-format
+msgid "Co&mment"
+msgstr "註解(&M)"
+
+#. i18n: ectx: property (text), widget (QPushButton, artistInitialButton)
+#: wizard.ui:189
+#, kde-format
+msgid "Arti&st's Initial"
+msgstr "演唱者的縮寫(&S)"
+
+#, fuzzy
+#~| msgid "Temporary directory:"
+#~ msgid "Temporary directory not found."
+#~ msgstr "暫存目錄："
+
+#~ msgid "No Audio CD detected"
+#~ msgstr "沒有偵測到音樂光碟"
+
+#~ msgid "CD device, can be a path or a media:/ URL"
+#~ msgstr "光碟裝置，可以是個路徑或是 media:/ 的網址"
+
+#~ msgid ""
+#~ "CDROM read or access error (or no audio disk in drive).\n"
+#~ "Please make sure you have access permissions to:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "光碟機讀取權限錯誤（或光碟機中沒有音樂光碟）。\n"
+#~ "請確定您對以下的裝置有讀寫權限：\n"
+#~ "%1"
+
+#~ msgid "Number of tracks to rip at a time"
+#~ msgstr "一次擷取音軌數目"
+
+#~ msgid "&Number of tracks to rip at a time:"
+#~ msgstr "一次擷取音軌數目(&N)："
+
+#, fuzzy
+#~| msgid "Select &All Tracks"
+#~ msgid "Edit &Track"
+#~ msgstr "選擇所有音軌(&A)"
+
+#~ msgid "Currently selected encoder"
+#~ msgstr "目前選擇的編碼器"
+
+#~ msgid "Track:"
+#~ msgstr "音軌："
+
+#~ msgid "At least one encoder must exist."
+#~ msgstr "至少要存在一個編碼器。"
+
+#~ msgid "Can Not Remove"
+#~ msgstr "無法移除"
+
+#, fuzzy
+#~| msgid "Encoder nice level"
+#~ msgid "Encoder exists already"
+#~ msgstr "編碼品質層級"
+
+#~ msgid "Last encoder in the list"
+#~ msgstr "清單中最後一個編碼器"
+
+#~ msgid "Sorry, file already exists. Please pick a new name:"
+#~ msgstr "抱歉，檔案已存在。請另外輸入新的檔名："
+
+#~ msgid "&Encode File"
+#~ msgstr "編碼檔(&E)"
+
+#~ msgid "Ogg Vorbis"
+#~ msgstr "Ogg Vorbis"
+
+#~ msgid "MP3"
+#~ msgstr "MP3"
+
+#~ msgid "Encode &File..."
+#~ msgstr "編碼檔案(&F)..."
+
+#~ msgid "&File to encode:"
+#~ msgstr "要編碼的檔案(&F)："
+
+#~ msgid "wav"
+#~ msgstr "wav"
+
+#~ msgid "Encoder Priority"
+#~ msgstr "編碼器優先順序"
+
+#~ msgid "Highest"
+#~ msgstr "最高"
+
+#~ msgid "Lowest"
+#~ msgstr "最低"
+
+#~ msgid "Normal"
+#~ msgstr "正常"
+
+#~ msgid "The output...."
+#~ msgstr "輸出..."

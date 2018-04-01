@@ -1,0 +1,7178 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010, 2012.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2010, 2011, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevplatform\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-28 03:23+0200\n"
+"PO-Revision-Date: 2014-04-23 15:00+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: debugger/breakpoint/breakpoint.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Error"
+msgstr "錯誤"
+
+#: debugger/breakpoint/breakpoint.cpp:160
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dirty"
+msgstr "Dirty"
+
+#: debugger/breakpoint/breakpoint.cpp:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pending"
+msgstr "暫停"
+
+#: debugger/breakpoint/breakpoint.cpp:164
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clean"
+msgstr "清除"
+
+#: debugger/breakpoint/breakpoint.cpp:196
+#, fuzzy, kde-format
+#| msgctxt "project name (branch name)"
+#| msgid "%1 (%2)"
+msgctxt "location (address)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: debugger/breakpoint/breakpointdetails.cpp:61
+#: debugger/breakpoint/breakpointdetails.cpp:136
+#, kde-format
+msgid "Not hit yet"
+msgstr "尚未遇到"
+
+#: debugger/breakpoint/breakpointdetails.cpp:65
+#, kde-format
+msgid "Ignore"
+msgstr "忽略"
+
+#: debugger/breakpoint/breakpointdetails.cpp:73
+#, kde-format
+msgid "next hits"
+msgstr "下次遇到"
+
+#: debugger/breakpoint/breakpointdetails.cpp:121
+#, kde-format
+msgid "Breakpoint is <a href=\"pending\">pending</a>"
+msgstr "中斷點<a href=\"pending\">暫停中</a>"
+
+#: debugger/breakpoint/breakpointdetails.cpp:124
+#, kde-format
+msgid "Breakpoint is <a href=\"dirty\">dirty</a>"
+msgstr "中斷點<a href=\"dirty\">未更新</a>"
+
+#: debugger/breakpoint/breakpointdetails.cpp:127
+#, kde-format
+msgid "Breakpoint is active"
+msgstr "中斷點已啟動"
+
+#: debugger/breakpoint/breakpointdetails.cpp:134
+#, kde-format
+msgid "Hit %1 time"
+msgid_plural "Hit %1 times"
+msgstr[0] "經過 %1 次"
+
+#: debugger/breakpoint/breakpointdetails.cpp:138
+#, fuzzy, kde-format
+#| msgid "Breakpoint has errors"
+msgid "Breakpoint has errors"
+msgstr "中斷點為 %1"
+
+#: debugger/breakpoint/breakpointdetails.cpp:149
+#, kde-format
+msgid ""
+"<b>Breakpoint is pending</b><p>Pending breakpoints are those that have been "
+"passed to GDB, but which are not yet installed in the target, because GDB "
+"cannot find the function or file to which the breakpoint refers. The most "
+"common case is a breakpoint in a shared library: GDB will insert this "
+"breakpoint only when the library is loaded.</p>"
+msgstr ""
+"<b>中斷點暫停中</b> <p>暫停的中斷點為已傳送到 GDB，但尚未安裝在目標區，因為 "
+"GDB 找不到該中斷點指向的檔案與函式。大部份的原因是因為該中斷點是未在分享函式"
+"庫中。GDB 只會在該函式庫載入時插入此中斷點。</p>"
+
+#: debugger/breakpoint/breakpointdetails.cpp:162
+#, kde-format
+msgid ""
+"<b>Breakpoint is dirty</b><p>The breakpoint has not yet been passed to the "
+"debugger.</p>"
+msgstr "<b>中斷點不準確</b><p>此中斷點尚未傳送到 GDB。</p>"
+
+#: debugger/breakpoint/breakpointmodel.cpp:117
+#, kde-format
+msgid "Breakpoint"
+msgstr "中斷點"
+
+#: debugger/breakpoint/breakpointmodel.cpp:150
+#, fuzzy, kde-format
+#| msgid "Breakpoint hit: %1"
+msgid "Breakpoint not found"
+msgstr "遇到中斷點：%1"
+
+#: debugger/breakpoint/breakpointmodel.cpp:150
+#, kde-format
+msgid "Couldn't find breakpoint at %1:%2"
+msgstr ""
+
+#: debugger/breakpoint/breakpointmodel.cpp:156
+#, fuzzy, kde-format
+#| msgid "Breakpoint"
+msgid "&Breakpoint"
+msgstr "中斷點"
+
+#: debugger/breakpoint/breakpointmodel.cpp:162
+#, kde-format
+msgid "&Disable Breakpoint"
+msgstr "關閉中斷點(&D)"
+
+#: debugger/breakpoint/breakpointmodel.cpp:163
+#, kde-format
+msgid "&Enable Breakpoint"
+msgstr "開啟中斷點(&D)"
+
+#: debugger/breakpoint/breakpointmodel.cpp:166
+#, kde-format
+msgid "&Bookmark"
+msgstr ""
+
+#: debugger/breakpoint/breakpointmodel.cpp:217
+#: debugger/variable/variablecollection.cpp:421
+#: debugger/variable/variabletooltip.cpp:96
+#, kde-format
+msgid "Type"
+msgstr "類型"
+
+#: debugger/breakpoint/breakpointmodel.cpp:218
+#: vcs/models/vcsitemeventmodel.cpp:98
+#, kde-format
+msgid "Location"
+msgstr "位置"
+
+#: debugger/breakpoint/breakpointmodel.cpp:219
+#, kde-format
+msgid "Condition"
+msgstr "條件"
+
+#: debugger/breakpoint/breakpointmodel.cpp:223
+#, kde-format
+msgid "Active status"
+msgstr "啟用狀態"
+
+#: debugger/breakpoint/breakpointmodel.cpp:224 shell/sessioncontroller.cpp:562
+#, kde-format
+msgid "State"
+msgstr "狀態"
+
+#: debugger/breakpoint/breakpointwidget.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "Debugger Breakpoints"
+msgstr "除錯器中斷點"
+
+#: debugger/breakpoint/breakpointwidget.cpp:74
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Displays a list of breakpoints with their current status. Clicking on a "
+"breakpoint item allows you to change the breakpoint and will take you to the "
+"source in the editor window."
+msgstr ""
+"顯示中斷點的列表，以及它們目前的狀態。點選任一個中斷點您可以變更它的設定，並"
+"會將您帶到該處的程式源碼。"
+
+#: debugger/breakpoint/breakpointwidget.cpp:86
+#, fuzzy, kde-format
+#| msgid "Breakpoints"
+msgid "Breakpoint Details"
+msgstr "中斷點"
+
+#: debugger/breakpoint/breakpointwidget.cpp:95
+#, kde-format
+msgid "New code breakpoint ..."
+msgstr "新增中斷點..."
+
+#: debugger/breakpoint/breakpointwidget.cpp:96
+#, kde-format
+msgid "Enter condition ..."
+msgstr "輸入條件..."
+
+#: debugger/breakpoint/breakpointwidget.cpp:126
+#, kde-format
+msgctxt "New breakpoint"
+msgid "&New"
+msgstr "新增(&N)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:130
+#, kde-format
+msgctxt "Code breakpoint"
+msgid "&Code"
+msgstr "代碼(&C)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:139
+#, kde-format
+msgctxt "Data breakpoint"
+msgid "Data &Write"
+msgstr "資料寫入(&W)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:142
+#, kde-format
+msgctxt "Data read breakpoint"
+msgid "Data &Read"
+msgstr "資料讀取(&R)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:145
+#, kde-format
+msgctxt "Data access breakpoint"
+msgid "Data &Access"
+msgstr "資料存取(&A)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:150
+#, kde-format
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:159
+#, kde-format
+msgid "Disable &All"
+msgstr "全部關閉(&A)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:160
+#, kde-format
+msgid "&Enable All"
+msgstr "全部開啟(&E)"
+
+#: debugger/breakpoint/breakpointwidget.cpp:161
+#, kde-format
+msgid "&Remove All"
+msgstr "全部移除(&R)"
+
+#: debugger/framestack/framestackmodel.cpp:178
+#, fuzzy, kde-format
+#| msgid "%1 has crashed"
+msgctxt "#thread-id at function-name or address"
+msgid "#%1 at %2 (crashed)"
+msgstr "%1 已崩潰"
+
+#: debugger/framestack/framestackmodel.cpp:180
+#, kde-format
+msgctxt "#thread-id at function-name or address"
+msgid "#%1 at %2"
+msgstr "#%1 於 %2"
+
+#: debugger/framestack/framestackmodel.cpp:275
+#, kde-format
+msgid "Depth"
+msgstr "深度"
+
+#: debugger/framestack/framestackmodel.cpp:277
+#: language/duchain/navigation/abstractnavigationcontext.cpp:471
+#, kde-format
+msgid "Function"
+msgstr "函式"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sourceBox)
+#: debugger/framestack/framestackmodel.cpp:279 shell/projectsourcepage.ui:66
+#, kde-format
+msgid "Source"
+msgstr "源碼"
+
+#: debugger/framestack/framestackwidget.cpp:81
+#, kde-format
+msgid ""
+"<b>Frame stack</b>Often referred to as the \"call stack\", this is a list "
+"showing which function is currently active, and what called each function to "
+"get to this point in your program. By clicking on an item you can see the "
+"values in any of the previous calling functions."
+msgstr ""
+"<b>框架堆疊</b>通常又稱為「呼叫堆疊」。這是一份清單，指出目前執行的函式，以及"
+"由誰呼叫。點選其中的項目您可以看到在之前呼叫的函式裡的數值。"
+
+#: debugger/framestack/framestackwidget.cpp:117
+#, kde-format
+msgid "Threads:"
+msgstr "執行緒："
+
+#: debugger/framestack/framestackwidget.cpp:238
+#, fuzzy, kde-format
+#| msgctxt "#thread-id at function-name or address"
+#| msgid "#%1 at %2"
+msgctxt "#frame function() at file"
+msgid "#%1 %2() at %3\n"
+msgstr "#%1 於 %2"
+
+#: debugger/framestack/framestackwidget.cpp:241
+#, kde-format
+msgctxt "#frame function() at file:line"
+msgid "#%1 %2() at %3:%4\n"
+msgstr ""
+
+#: debugger/interfaces/ibreakpointcontroller.cpp:86
+#, kde-format
+msgid "Breakpoint hit: %1"
+msgstr "遇到中斷點：%1"
+
+#: debugger/interfaces/ibreakpointcontroller.cpp:92
+#, kde-format
+msgid "Watchpoint hit: %1"
+msgstr "遇到監看點：%1"
+
+#: debugger/util/pathmappings.cpp:100
+#, kde-format
+msgid "Remote Path"
+msgstr "遠端路徑"
+
+#: debugger/util/pathmappings.cpp:102
+#, kde-format
+msgid "Local Path"
+msgstr "本地端路徑"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnDelStyle)
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: debugger/util/pathmappings.cpp:231 shell/sourceformatterselectionedit.ui:154
+#: shell/workingsets/workingsettooltipwidget.cpp:105
+#: vcs/dvcs/ui/branchmanager.ui:44
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: debugger/variable/variablecollection.cpp:224
+#: language/duchain/problem.cpp:203 shell/filteredproblemstore.cpp:170
+#: shell/problem.cpp:154
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#: debugger/variable/variablecollection.cpp:248
+#, kde-format
+msgid "Auto"
+msgstr "自動"
+
+#. i18n: ectx: property (text), widget (QLabel, configName)
+#: debugger/variable/variablecollection.cpp:421
+#: debugger/variable/variabletooltip.cpp:96
+#: shell/launchconfigurationdialog.ui:114
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: debugger/variable/variablecollection.cpp:421
+#: debugger/variable/variabletooltip.cpp:96
+#: shell/settings/environmentprofilemodel.cpp:106
+#, kde-format
+msgid "Value"
+msgstr "值"
+
+#: debugger/variable/variablecollection.cpp:503
+#, kde-format
+msgid "Locals"
+msgstr "本地端"
+
+#: debugger/variable/variabletooltip.cpp:135
+#, fuzzy, kde-format
+#| msgid "Watch this"
+msgid "Watch This"
+msgstr "監控此項"
+
+#: debugger/variable/variabletooltip.cpp:137
+#, kde-format
+msgid "Stop on Change"
+msgstr "變更時停止"
+
+#: debugger/variable/variablewidget.cpp:78
+#, kde-format
+msgid "Debugger Variables"
+msgstr "除錯器變數"
+
+#: debugger/variable/variablewidget.cpp:100
+#, kde-format
+msgid ""
+"<b>Variable tree</b>The variable tree allows you to see the values of local "
+"variables and arbitrary expressions.<br />Local variables are displayed "
+"automatically and are updated as you step through your program. For each "
+"expression you enter, you can either evaluate it once, or \"watch\" it (make "
+"it auto-updated). Expressions that are not auto-updated can be updated "
+"manually from the context menu. Expressions can be renamed to more "
+"descriptive names by clicking on the name column.<br />To change the value "
+"of a variable or an expression, click on the value.<br />"
+msgstr ""
+"<b>變數樹</b>變數樹讓您可以看到本地變數與任意表示式的值。<br/>本地變數會自動"
+"顯示，並且在執行時更新其值。對您輸入的表示式，您也可以去計算它一次，或是監看"
+"它（讓它自動更新計算結果）。沒有自動更新的表示式也可以在選單中手動更新。另外"
+"表示式也可以重新命名為較好辨識的名稱。要改變變數或是表示式的值，直接在值上面"
+"點擊即可。"
+
+#: debugger/variable/variablewidget.cpp:114
+#, kde-format
+msgid "<b>Expression entry</b>Type in expression to watch."
+msgstr "<b>表示式項目</b>輸入要計算的表示式。"
+
+#: debugger/variable/variablewidget.cpp:201
+#, kde-format
+msgid "&Format"
+msgstr "格式(&F)"
+
+#: debugger/variable/variablewidget.cpp:206
+#, kde-format
+msgid "&Natural"
+msgstr "自然數(&N)"
+
+#: debugger/variable/variablewidget.cpp:211
+#, kde-format
+msgid "&Binary"
+msgstr "二進制(&B)"
+
+#: debugger/variable/variablewidget.cpp:216
+#, kde-format
+msgid "&Octal"
+msgstr "八進制(&O)"
+
+#: debugger/variable/variablewidget.cpp:221
+#, kde-format
+msgid "&Decimal"
+msgstr "十進制(&D)"
+
+#: debugger/variable/variablewidget.cpp:226
+#, kde-format
+msgid "&Hexadecimal"
+msgstr "十六進制(&H)"
+
+#: debugger/variable/variablewidget.cpp:241
+#, kde-format
+msgid "Remove Watch Variable"
+msgstr "移除監看的變數"
+
+#: debugger/variable/variablewidget.cpp:248
+#, kde-format
+msgid "&Copy Value"
+msgstr "複製數值(&C)"
+
+#: debugger/variable/variablewidget.cpp:253
+#, kde-format
+msgid "&Stop on Change"
+msgstr "變更時停止(&S)"
+
+#: debugger/variable/variablewidget.cpp:333
+#, kde-format
+msgid "Recent Expressions"
+msgstr "最近的表示式"
+
+#: debugger/variable/variablewidget.cpp:334
+#: shell/workingsets/workingsettooltipwidget.cpp:148
+#, kde-format
+msgid "Remove All"
+msgstr "全部移除"
+
+#: debugger/variable/variablewidget.cpp:335
+#, kde-format
+msgid "Re-evaluate All"
+msgstr "全部重新計算"
+
+#: debugger/variable/variablewidget.cpp:381
+#, kde-format
+msgid "Remember Value"
+msgstr "記住數值"
+
+#: debugger/variable/variablewidget.cpp:386
+#, kde-format
+msgid "Watch Variable"
+msgstr "監看變數"
+
+#: debugger/variable/variablewidget.cpp:391
+#, kde-format
+msgid "Reevaluate Expression"
+msgstr "重新計算表示式"
+
+#: debugger/variable/variablewidget.cpp:393
+#, kde-format
+msgid "Remove Expression"
+msgstr "移除表示式"
+
+#: debugger/variable/variablewidget.cpp:399
+#, kde-format
+msgid "Data write breakpoint"
+msgstr "資料寫入中斷點"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: documentation/documentationfindwidget.ui:43
+#, kde-format
+msgid "Find:"
+msgstr "尋找："
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, nextButton)
+#: documentation/documentationfindwidget.ui:57
+#, kde-format
+msgid "Jump to next match"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, previousButton)
+#: documentation/documentationfindwidget.ui:71
+#, kde-format
+msgid "Jump to previous match"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, matchCase)
+#: documentation/documentationfindwidget.ui:85
+#, fuzzy, kde-format
+#| msgid "Match case"
+msgid "Match case sensitive"
+msgstr "符合大小寫"
+
+#: documentation/documentationview.cpp:48 shell/documentationcontroller.cpp:127
+#: shell/documentationcontroller.cpp:225
+#: shell/settings/documentationpreferences.cpp:39
+#, kde-format
+msgid "Documentation"
+msgstr "文件"
+
+#: documentation/documentationview.cpp:79
+#, kde-format
+msgid "Back"
+msgstr "返回"
+
+#: documentation/documentationview.cpp:84
+#, kde-format
+msgid "Forward"
+msgstr "向前"
+
+#: documentation/documentationview.cpp:89
+#, kde-format
+msgid "Home"
+msgstr "首頁"
+
+#: documentation/documentationview.cpp:102
+#, fuzzy, kde-format
+#| msgid "Search"
+msgid "Search..."
+msgstr "搜尋"
+
+#: documentation/documentationview.cpp:120
+#, kde-format
+msgid "Find in Text..."
+msgstr ""
+
+#: documentation/documentationview.cpp:121
+#, fuzzy, kde-format
+#| msgid "Show Annotate on current document"
+msgid "Find in text of current documentation page."
+msgstr "顯示目前文件的註記"
+
+#: interfaces/contextmenuextension.cpp:136 shell/debugcontroller.cpp:384
+#: shell/runcontroller.cpp:100 shell/uicontroller.cpp:100
+#, kde-format
+msgid "Debug"
+msgstr "除錯"
+
+#: interfaces/contextmenuextension.cpp:137
+#, kde-format
+msgid "Refactor"
+msgstr "重構"
+
+#: interfaces/contextmenuextension.cpp:139
+#, kde-format
+msgid "Analyze Current File With"
+msgstr ""
+
+#: interfaces/contextmenuextension.cpp:140
+#, fuzzy, kde-format
+#| msgid "Commit Current Project..."
+msgid "Analyze Current Project With"
+msgstr "提交目前的專案..."
+
+#: interfaces/isourceformatter.cpp:190
+#, kde-format
+msgid ""
+"The executable %1 cannot be found. Please make sure it is installed and can "
+"be executed. <br />The plugin will not work until you fix this problem."
+msgstr ""
+"找不到執行檔 %1。請確定它已安裝，並且可執行。<br /> 在您修正此問題前，外掛程"
+"式將無法運作。"
+
+#: language/assistant/renameaction.cpp:75
+#, fuzzy, kde-format
+#| msgid "Renaming \"%1\" to \"%2\""
+msgid "Rename \"%1\" to \"%2\""
+msgstr "將 %1 重新命名為 %2"
+
+#: language/assistant/renameaction.cpp:109
+#: language/assistant/renamefileaction.cpp:81
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Failed to Lock Session %1"
+msgid "Failed to apply changes: %1"
+msgstr "鎖定工作階段 %1 失敗"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameDialog)
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#: language/assistant/renameassistant.cpp:118
+#: language/codegen/basicrefactoring.ui:14 vcs/dvcs/ui/branchmanager.ui:51
+#, kde-format
+msgid "Rename"
+msgstr "重新命名"
+
+#: language/assistant/renamefileaction.cpp:57
+#, fuzzy, kde-format
+#| msgid "Renaming \"%1\" to \"%2\""
+msgid "Rename file from \"%1\" to \"%2\"."
+msgstr "將 %1 重新命名為 %2"
+
+#: language/backgroundparser/backgroundparser.cpp:291
+#, kde-format
+msgid "Parsing: %1"
+msgstr "剖析中：%1"
+
+#: language/backgroundparser/backgroundparser.cpp:545
+#: shell/settings/bgpreferences.cpp:81
+#, kde-format
+msgid "Background Parser"
+msgstr "背景剖析器"
+
+#: language/backgroundparser/parsejob.cpp:277
+#, kde-format
+msgctxt "%1: filename"
+msgid "Skipped file that is too large: '%1'"
+msgstr "被略過的過大檔案：'%1'"
+
+#: language/backgroundparser/parsejob.cpp:279
+#, kde-format
+msgctxt "%1: file size, %2: limit file size"
+msgid "The file is %1 and exceeds the limit of %2."
+msgstr "此檔案大小為 %1，限制為 %2。"
+
+#: language/backgroundparser/parsejob.cpp:292
+#, kde-format
+msgid "Could not open file '%1'"
+msgstr "無法開啟檔案 %1"
+
+#: language/backgroundparser/parsejob.cpp:295
+#, kde-format
+msgid "File could not be read from disk."
+msgstr "無法從磁碟中讀取檔案。"
+
+#: language/backgroundparser/parsejob.cpp:298
+#, kde-format
+msgid "File could not be opened."
+msgstr "無法開啟檔案。"
+
+#: language/backgroundparser/parsejob.cpp:301
+#, kde-format
+msgid "File could not be read from disk due to permissions."
+msgstr "因為權限問題，無法從磁碟中讀取檔案。"
+
+#: language/backgroundparser/parseprojectjob.cpp:88
+#, kde-format
+msgid "Process 1 file in %2"
+msgid_plural "Process %1 files in %2"
+msgstr[0] "在 %2 中處理 %1 個檔案"
+
+#: language/classmodel/allclassesfolder.cpp:37
+#, fuzzy, kde-format
+#| msgid "%1|All Project Files (%1)"
+msgid "All projects classes"
+msgstr "%1 | 所有專案檔（%1）"
+
+#: language/classmodel/classmodelnode.cpp:385
+#, kde-format
+msgid "Base classes"
+msgstr ""
+
+#: language/classmodel/classmodelnode.cpp:420
+#, kde-format
+msgid "Derived classes"
+msgstr ""
+
+#: language/classmodel/projectfolder.cpp:30
+#, fuzzy, kde-format
+#| msgid "Loading Project %1"
+msgid "Classes in project %1"
+msgstr "載入專案 %1 中"
+
+#: language/codecompletion/codecompletionitem.cpp:123
+#, fuzzy, kde-format
+#| msgid "create implementation"
+msgid "not implemented"
+msgstr "建立實作"
+
+#: language/codegen/basicrefactoring.cpp:108
+#, kde-format
+msgid "Rename \"%1\"..."
+msgstr "重新命名 \"%1\"..."
+
+#: language/codegen/basicrefactoring.cpp:231
+#, kde-format
+msgid "No declaration under cursor"
+msgstr "在游標下沒有宣告"
+
+#: language/codegen/basicrefactoring.cpp:237
+#, kde-format
+msgid "Declaration is located in non-writeable file %1."
+msgstr "宣告位於一個無法寫入的檔案 %1。"
+
+#: language/codegen/basicrefactoring.cpp:297
+#, kde-format
+msgctxt "Renaming some declaration"
+msgid "Rename \"%1\""
+msgstr "重新命名 \"%1\""
+
+#: language/codegen/basicrefactoring.cpp:301
+#, kde-format
+msgid "Uses"
+msgstr "使用"
+
+#: language/codegen/basicrefactoring.cpp:303
+#, kde-format
+msgid "Declaration Info"
+msgstr "宣告資訊"
+
+#: language/codegen/basicrefactoring.cpp:310
+#, kde-format
+msgid "Renaming \"%1\" to \"%2\""
+msgstr "將 %1 重新命名為 %2"
+
+#: language/codegen/basicrefactoring.cpp:335
+#: language/codegen/basicrefactoring.cpp:343
+#: language/codegen/basicrefactoring.cpp:356
+#, kde-format
+msgid "Applying changes failed: %1"
+msgstr "套用變更失敗：%1"
+
+#. i18n: ectx: property (text), widget (QLabel, newNameLabel)
+#: language/codegen/basicrefactoring.ui:22
+#, kde-format
+msgid "&New name:"
+msgstr "新名稱(&N)："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, goButton)
+#: language/codegen/basicrefactoring.ui:35
+#, kde-format
+msgid ""
+"<html><head/><body><p>\"Note: All overloaded functions, overloads, forward-"
+"declarations, etc. will be renamed too\"</p></body></html>"
+msgstr ""
+"<html><head/><body><p>「注意：所有過載函式，前置宣告等都會跟著重新命名」</"
+"p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, goButton)
+#: language/codegen/basicrefactoring.ui:38
+#, kde-format
+msgid "&Rename"
+msgstr "重新命名(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: language/codegen/basicrefactoring.ui:45
+#, kde-format
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: language/codegen/codegenerator.cpp:133
+#, kde-format
+msgid "Could not find an open document"
+msgstr "找不到開啟的文件"
+
+#: language/codegen/codegenerator.cpp:152
+#, fuzzy, kde-format
+#| msgid "Could not find an open document"
+msgid "Could not find the chain for the selected document: %1"
+msgstr "找不到開啟的文件"
+
+#: language/codegen/codegenerator.cpp:172
+#, kde-format
+msgid "Error finding context for selection range"
+msgstr "尋找選取區範圍的內文時發生錯誤"
+
+#: language/codegen/codegenerator.cpp:178
+#, kde-format
+msgid "Error checking conditions to generate code: %1"
+msgstr "檢查產生代碼的狀況時發生錯誤：%1"
+
+#: language/codegen/codegenerator.cpp:187
+#, kde-format
+msgid "Error Gathering user information: %1"
+msgstr "收集使用者資訊時發生錯誤：%1"
+
+#: language/codegen/codegenerator.cpp:195
+#, kde-format
+msgid "Error generating code: %1"
+msgstr "產生代碼時發生錯誤：%1"
+
+#: language/codegen/documentchangeset.cpp:127
+#, kde-format
+msgctxt "text range line:column->line:column"
+msgid "%1:%2->%3:%4"
+msgstr ""
+
+#: language/codegen/documentchangeset.cpp:251
+#, kde-format
+msgid "Could not rename '%1' to '%2'"
+msgstr "無法將 %1 重新命名為 %2"
+
+#: language/codegen/documentchangeset.cpp:338
+#, kde-format
+msgctxt ""
+"Inconsistent change in <filename> between <range>, found <oldText> "
+"(encountered <foundText>) -> <newText>"
+msgid ""
+"Inconsistent change in %1 between %2, found %3 (encountered \"%4\") -> \"%5\""
+msgstr ""
+
+#: language/codegen/documentchangeset.cpp:358
+#, fuzzy, kde-format
+#| msgid "Could not create the directory: %1"
+msgid "Could not replace text in the document: %1"
+msgstr "無法建立目錄：%1"
+
+#: language/codegen/documentchangeset.cpp:462
+#, kde-format
+msgctxt ""
+"Inconsistent change in <document> at <range> = <oldText> (encountered "
+"<encountered>) -> <newText>"
+msgid "Inconsistent change in %1 at %2 = \"%3\"(encountered \"%4\") -> \"%5\""
+msgstr ""
+
+#: language/codegen/documentchangeset.cpp:534
+#, kde-format
+msgctxt ""
+"Inconsistent change-request at <document>:intersecting changes: <previous-"
+"oldText> -> <previous-newText> @<range> & <new-oldText> -> <new-newText> "
+"@<range>"
+msgid ""
+"Inconsistent change-request at %1; intersecting changes: \"%2\"->\"%3\"@%4 & "
+"\"%5\"->\"%6\"@%7 "
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RefactoringDialog)
+#: language/codegen/progressdialogs/refactoringdialog.ui:14
+#, kde-format
+msgid "Refactoring"
+msgstr "重構"
+
+#. i18n: ectx: property (text), widget (QPushButton, abortButton)
+#: language/codegen/progressdialogs/refactoringdialog.ui:27
+#, kde-format
+msgid "&Abort"
+msgstr "中止(&A)"
+
+#: language/duchain/aliasdeclaration.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "#thread-id at function-name or address"
+#| msgid "#%1 at %2"
+msgid "Alias %1 as %2"
+msgstr "#%1 於 %2"
+
+#: language/duchain/aliasdeclaration.cpp:60
+#, kde-format
+msgid "Lost alias %1"
+msgstr ""
+
+#: language/duchain/classfunctiondeclaration.cpp:98
+#, kde-format
+msgid "invalid member-function %1 type %2"
+msgstr ""
+
+#: language/duchain/declarationid.cpp:233
+#, kde-format
+msgid "(unknown direct declaration)"
+msgstr ""
+
+#: language/duchain/declarationid.cpp:236
+#, kde-format
+msgid "(missing)"
+msgstr ""
+
+#: language/duchain/forwarddeclaration.cpp:60
+#, kde-format
+msgid "context-free forward-declaration %1"
+msgstr "非關內文的前置宣告 %1"
+
+#: language/duchain/namespacealiasdeclaration.cpp:107
+#, kde-format
+msgid "Import %1 as %2"
+msgstr ""
+
+#: language/duchain/namespacealiasdeclaration.cpp:109
+#, fuzzy, kde-format
+#| msgid "Import"
+msgid "Import %1"
+msgstr "匯入"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:96
+#, kde-format
+msgid "<br /> lost declaration <br />"
+msgstr "<br />遺失宣告<br />"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:103
+#, kde-format
+msgid "Back to %1<br />"
+msgstr "返回到 %1<br />"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:119
+#, kde-format
+msgid "enumerator "
+msgstr "列舉器"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:145
+#, kde-format
+msgid "namespace %1 "
+msgstr "命名空間 %1"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:152
+#, kde-format
+msgid "enumeration %1 "
+msgstr "列舉 %1"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:159
+#, fuzzy, kde-format
+#| msgid "( resolved forward-declaration: "
+msgid "(resolved forward-declaration: "
+msgstr "（已解析的前置宣告："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:161
+#, kde-format
+msgid ") "
+msgstr "）"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:163
+#, kde-format
+msgid "(unresolved forward-declaration) "
+msgstr "（未解析的前置宣告）"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:182
+#, kde-format
+msgid "possible resolution from"
+msgstr "可能的解析來源"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:194
+#, kde-format
+msgid "Returns: "
+msgstr "返回："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:196
+#, kde-format
+msgid "Type: "
+msgstr "型態："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:216
+#, kde-format
+msgid "Enum: "
+msgstr "列舉："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:218
+#, kde-format
+msgid "Container: "
+msgstr "容器："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:225
+#, kde-format
+msgid "Scope: %1 "
+msgstr "範圍：%1"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:244
+#, kde-format
+msgid "Access: %1 "
+msgstr "存取：%1"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:264
+#, kde-format
+msgid "Kind: %1 %2 "
+msgstr "種類：%1 %2"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:266
+#, kde-format
+msgid "Kind: %1 "
+msgstr "種類：%1"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:270
+#, kde-format
+msgid "Deprecated"
+msgstr ""
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:270
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Status: %1 "
+msgstr "狀態"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:280
+#, kde-format
+msgid "Def.: "
+msgstr "定義："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:282
+#, kde-format
+msgid "Decl.: "
+msgstr "宣告："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:289
+#, kde-format
+msgid " Def.: "
+msgstr "  定義："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:296
+#, kde-format
+msgid " Decl.: "
+msgstr "  宣告："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:302
+#, kde-format
+msgid "Show uses"
+msgstr "顯示使用"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:334
+#, kde-format
+msgid "Show documentation for "
+msgstr "顯示文件給"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:436
+#, kde-format
+msgctxt "An anonymous declaration (class, function, etc.)"
+msgid "<anonymous>"
+msgstr ""
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:451
+#, kde-format
+msgid "Overrides a "
+msgstr "覆寫"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:452
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:470
+#, kde-format
+msgid "function"
+msgstr "函式"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:453
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:473
+#, kde-format
+msgid " from "
+msgstr "從"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:469
+#, kde-format
+msgid "Hides a "
+msgstr "隱藏"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:492
+#, kde-format
+msgid "Overridden in "
+msgstr "被覆寫於"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:506
+#, kde-format
+msgid "Overriders possible, show all"
+msgstr "可能的覆寫者，全部顯示"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:506
+#, kde-format
+msgid "More overriders possible, show all"
+msgstr "可能更多的覆寫者，全部顯示"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:516
+#, kde-format
+msgid "Inherited by "
+msgstr "繼承者："
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:530
+#, kde-format
+msgid "Inheriters possible, show all"
+msgstr "可能的繼承者，全部顯示"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:530
+#, kde-format
+msgid "More inheriters possible, show all"
+msgstr "可能更多的繼承者，全部顯示"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:717
+#, kde-format
+msgctxt "A declaration that is unknown"
+msgid "Unknown"
+msgstr "未知"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:743
+#, kde-format
+msgctxt "tells if a declaration is defining the variable's value"
+msgid "definition"
+msgstr "定義"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:748
+#, kde-format
+msgctxt "as in c++ forward declaration"
+msgid "forward"
+msgstr "向前"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:753
+#, kde-format
+msgctxt "a variable that won't change, const"
+msgid "constant"
+msgstr "常數"
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:94
+#, kde-format
+msgid "Declarations:"
+msgstr "宣告："
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:100
+#, kde-format
+msgid "not parsed yet"
+msgstr "尚未剖析"
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:111
+#, kde-format
+msgctxt "Files included into this file"
+msgid "Includes"
+msgstr "引入檔"
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:111
+#, kde-format
+msgctxt "Count of files this file was included into"
+msgid "Included by"
+msgstr "引用者"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:453
+#, kde-format
+msgid "Typedef"
+msgstr "型態定義"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:456
+#, kde-format
+msgid "Class"
+msgstr "類別"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:458
+#: shell/settings/environmentprofilemodel.cpp:104
+#, kde-format
+msgid "Variable"
+msgstr "變數"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:460
+#, kde-format
+msgid "Namespace"
+msgstr "命名空間"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:465
+#, kde-format
+msgid "Namespace import"
+msgstr "命名空間匯入"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:467
+#, kde-format
+msgid "Namespace alias"
+msgstr "命名空間別名"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:474
+#, kde-format
+msgid "Forward Declaration"
+msgstr "前置宣告"
+
+#: language/duchain/navigation/abstractnavigationwidget.cpp:190
+#, kde-format
+msgid ""
+"(Hold <em>Alt</em> to show. Navigate via arrow keys, activate by pressing "
+"<em>Enter</em>)"
+msgstr ""
+
+#: language/duchain/navigation/abstractnavigationwidget.cpp:192
+#, kde-format
+msgid "(Hold <em>Alt</em> to show this tooltip)"
+msgstr ""
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:106
+#, kde-format
+msgid "Problem"
+msgstr "問題"
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:137
+#, fuzzy, kde-format
+#| msgid "Problem in <b>%1</b>:<br/>"
+msgid "Problem in <i>%1</i>"
+msgstr "在 <b>%1</b> 內的問題：<br/>"
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:141
+#, fuzzy, kde-format
+#| msgid "Location"
+msgid "Location: "
+msgstr "位置"
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:178
+#: language/duchain/navigation/problemnavigationcontext.cpp:188
+#, kde-format
+msgid "<br>See: "
+msgstr ""
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:180
+#, kde-format
+msgid " in "
+msgstr " 於 "
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:213
+#, fuzzy, kde-format
+#| msgctxt ""
+#| msgid "configuring"
+msgid "Solution (%1)"
+msgstr "設定"
+
+#: language/duchain/navigation/usescollector.cpp:380
+#, kde-format
+msgid "%1 still needs an update!"
+msgstr "%1 仍需要更新！"
+
+#: language/duchain/navigation/usesnavigationcontext.cpp:48
+#, kde-format
+msgid "Uses of "
+msgstr "此項使用處："
+
+#: language/duchain/navigation/usesnavigationcontext.cpp:53
+#, kde-format
+msgid "Uses of %1"
+msgstr "%1 的使用處"
+
+#: language/duchain/navigation/useswidget.cpp:137
+#, kde-format
+msgctxt "refers to a line in source code"
+msgid "Line <b>%1</b>:"
+msgstr "第 <b>%1</b> 行："
+
+#: language/duchain/navigation/useswidget.cpp:216
+#: language/duchain/navigation/useswidget.cpp:222
+#, fuzzy, kde-format
+#| msgctxt "refers to a line in source code"
+#| msgid "Line <b>%1</b>:"
+msgctxt "Refers to a line in source code"
+msgid "Line <b>%1</b>:"
+msgstr "第 <b>%1</b> 行："
+
+#: language/duchain/navigation/useswidget.cpp:382
+#, kde-format
+msgid "Unknown context"
+msgstr "未知的內文"
+
+#: language/duchain/navigation/useswidget.cpp:389
+#: shell/launchconfigurationdialog.cpp:492
+#, kde-format
+msgid "Global"
+msgstr "全域"
+
+#: language/duchain/navigation/useswidget.cpp:412
+#, kde-format
+msgctxt "%1: source file"
+msgid "In %1"
+msgstr "於 %1"
+
+#: language/duchain/navigation/useswidget.cpp:441
+#, kde-format
+msgid "Definition"
+msgstr "定義"
+
+#: language/duchain/navigation/useswidget.cpp:441
+#, kde-format
+msgid "Declaration"
+msgstr "宣告"
+
+#: language/duchain/navigation/useswidget.cpp:477
+#, kde-format
+msgctxt "%1: number of uses, %2: filename with uses"
+msgid "%2: 1 use"
+msgid_plural "%2: %1 uses"
+msgstr[0] "%2：%1 處使用"
+
+#: language/duchain/navigation/useswidget.cpp:481
+#: language/duchain/navigation/useswidget.cpp:515
+#, kde-format
+msgctxt "Refers to closing a UI element"
+msgid "Collapse"
+msgstr "折疊"
+
+#: language/duchain/navigation/useswidget.cpp:512
+#, kde-format
+msgctxt "Refers to opening a UI element"
+msgid "Expand"
+msgstr "展開"
+
+#: language/duchain/navigation/useswidget.cpp:593
+#, kde-format
+msgid "1 use found"
+msgid_plural "%1 uses found"
+msgstr[0] "找到 %1 處使用"
+
+#: language/duchain/navigation/useswidget.cpp:594
+#, kde-format
+msgid "Expand all"
+msgstr "全部展開"
+
+#: language/duchain/navigation/useswidget.cpp:595
+#, kde-format
+msgid "Collapse all"
+msgstr "全部折疊"
+
+#: language/duchain/problem.cpp:205 shell/filteredproblemstore.cpp:171
+#: shell/problem.cpp:153
+#, kde-format
+msgid "Warning"
+msgstr "警告"
+
+#: language/duchain/problem.cpp:207 shell/filteredproblemstore.cpp:172
+#: shell/problem.cpp:152
+#, kde-format
+msgid "Hint"
+msgstr "提示"
+
+#: language/duchain/problem.cpp:216 shell/problem.cpp:83
+#, kde-format
+msgid "Disk"
+msgstr "磁碟"
+
+#: language/duchain/problem.cpp:218 shell/problem.cpp:84
+#, kde-format
+msgid "Preprocessor"
+msgstr "前置處理器"
+
+#: language/duchain/problem.cpp:220 shell/problem.cpp:85
+#, kde-format
+msgid "Lexer"
+msgstr "Lexer"
+
+#: language/duchain/problem.cpp:222 shell/problem.cpp:86
+#, kde-format
+msgid "Parser"
+msgstr "剖析器"
+
+#: language/duchain/problem.cpp:224
+#, kde-format
+msgid "Definition-Use Chain"
+msgstr "定義使用鍊"
+
+#: language/duchain/problem.cpp:226 shell/problem.cpp:88
+#, fuzzy, kde-format
+#| msgid "Semantic Analysis"
+msgid "Semantic analysis"
+msgstr "語意分析"
+
+#: language/duchain/problem.cpp:228
+#, kde-format
+msgid "To-do"
+msgstr ""
+
+#: language/duchain/problem.cpp:231 shell/problem.cpp:82
+#, kde-format
+msgid "Unknown"
+msgstr "未知"
+
+#: language/duchain/problem.cpp:238
+#, kde-format
+msgctxt ""
+"<severity>: <description> in <url>:[<range>]: <explanation> (found by "
+"<source>)"
+msgid "%1: %2 in %3:[(%4,%5),(%6,%7)]: %8 (found by %9)"
+msgstr ""
+
+#: language/duchain/problem.cpp:246
+#, kde-format
+msgid "<no explanation>"
+msgstr ""
+
+#: language/duchain/types/containertypes.cpp:87
+#, kde-format
+msgid "%1 of %2"
+msgstr "%2 的 %1"
+
+#: language/duchain/types/containertypes.cpp:97
+#: language/duchain/types/containertypes.cpp:98
+#, kde-format
+msgid "unknown"
+msgstr "未知"
+
+#: language/duchain/types/containertypes.cpp:100
+#, kde-format
+msgid "%1 of %2 : %3"
+msgstr "%2 的 %1：%3"
+
+#: language/util/debuglanguageparserhelper.h:195
+#, kde-format
+msgid ""
+"files or - to read from STDIN, the latter is the default if nothing is "
+"provided"
+msgstr "檔案，或是用 - 表示從標準輸入讀取。若未提供檔案則預設使用標準輸入"
+
+#: language/util/debuglanguageparserhelper.h:197
+#, kde-format
+msgid "print generated AST tree"
+msgstr "印出產生的 AST 樹"
+
+#: language/util/debuglanguageparserhelper.h:198
+#, kde-format
+msgid "print generated token stream"
+msgstr "印出產生的 token stream"
+
+#: language/util/debuglanguageparserhelper.h:199
+#, kde-format
+msgid "code to parse"
+msgstr "要剖析的代碼"
+
+#: outputview/outputexecutejob.cpp:180
+#, kde-format
+msgid "No build directory specified for a builder job."
+msgstr "編譯工作未指定編譯目錄。"
+
+#: outputview/outputexecutejob.cpp:182
+#, kde-format
+msgid "No working directory specified for a process."
+msgstr "行程未指定工作目錄。"
+
+#: outputview/outputexecutejob.cpp:193
+#, kde-format
+msgid "Invalid build directory '%1'"
+msgstr "不合法的編譯目錄 %1"
+
+#: outputview/outputexecutejob.cpp:195
+#, kde-format
+msgid "Invalid working directory '%1'"
+msgstr "不合法的工作目錄 '%1'"
+
+#: outputview/outputexecutejob.cpp:201
+#, kde-format
+msgid "Build directory '%1' is not a local path"
+msgstr "編譯目錄 '%1' 不是本地端路徑"
+
+#: outputview/outputexecutejob.cpp:203
+#, kde-format
+msgid "Working directory '%1' is not a local path"
+msgstr "工作目錄 '%1' 不是本地端路徑"
+
+#: outputview/outputexecutejob.cpp:221
+#, kde-format
+msgid "Build directory '%1' does not exist or is not a directory"
+msgstr "編譯目錄 '%1' 不存在或不是目錄"
+
+#: outputview/outputexecutejob.cpp:223
+#, kde-format
+msgid "Working directory '%1' does not exist or is not a directory"
+msgstr "工作目錄 '%1' 不存在或不是目錄"
+
+#: outputview/outputexecutejob.cpp:282
+#, kde-format
+msgid "Failed to specify program to start: %1"
+msgstr ""
+
+#: outputview/outputexecutejob.cpp:283
+#, fuzzy, kde-format
+#| msgid "*** Failure: %1 ***"
+msgid "*** %1 ***"
+msgstr "*** 失敗： %1 ***"
+
+#: outputview/outputexecutejob.cpp:307
+#, fuzzy, kde-format
+#| msgid "*** Warning: could not kill the process ***"
+msgid "*** Killed process ***"
+msgstr "*** 警告：無法中斷此行程 ***"
+
+#: outputview/outputexecutejob.cpp:311
+#, kde-format
+msgid "*** Warning: could not kill the process ***"
+msgstr "*** 警告：無法中斷此行程 ***"
+
+#: outputview/outputexecutejob.cpp:328
+#, kde-format
+msgid "%1 has failed to start"
+msgstr "%1 啟動失敗"
+
+#: outputview/outputexecutejob.cpp:332
+#, kde-format
+msgid "%1 has crashed"
+msgstr "%1 已崩潰"
+
+#: outputview/outputexecutejob.cpp:336
+#, kde-format
+msgid "Read error"
+msgstr "讀取錯誤"
+
+#: outputview/outputexecutejob.cpp:340
+#, kde-format
+msgid "Write error"
+msgstr "寫入錯誤"
+
+#: outputview/outputexecutejob.cpp:344
+#, kde-format
+msgid "Waiting for the process has timed out"
+msgstr "等待行程的動作已逾時"
+
+#: outputview/outputexecutejob.cpp:348
+#, kde-format
+msgid "Exit code %1"
+msgstr "離開代碼 %1"
+
+#: outputview/outputexecutejob.cpp:361
+#, kde-format
+msgid "*** Failure: %1 ***"
+msgstr "*** 失敗： %1 ***"
+
+#: outputview/outputexecutejob.cpp:377
+#, kde-format
+msgid "*** Finished ***"
+msgstr "*** 已完成 ***"
+
+#: project/abstractfilemanagerplugin.cpp:338
+#, kde-format
+msgid ""
+"The base folder of project <b>%1</b> got deleted or moved outside of "
+"KDevelop.\n"
+"The project has to be closed."
+msgstr ""
+"專案 <b>%1</b> 的基底目錄已被刪除，或被移到 KDevelop 之外。\n"
+"此專案必須被關閉。"
+
+#: project/abstractfilemanagerplugin.cpp:341
+#, kde-format
+msgid "Project Folder Deleted"
+msgstr "專案目錄已刪除"
+
+#: project/abstractfilemanagerplugin.cpp:365
+#, kde-format
+msgid ""
+"You tried to rename '%1' to '%2', but the latter is filtered and will be "
+"hidden.\n"
+"Do you want to continue?"
+msgstr ""
+"您試著將 %1 重新命名為 %2，但是後者被過濾，因此會被隱藏起來。\n"
+"您確定要繼續嗎？"
+
+#: project/builderjob.cpp:90
+#, kde-format
+msgctxt "@info:status"
+msgid "build"
+msgstr "編譯"
+
+#: project/builderjob.cpp:92
+#, kde-format
+msgctxt "@info:status"
+msgid "clean"
+msgstr "清除"
+
+#: project/builderjob.cpp:94
+#, kde-format
+msgctxt "@info:status"
+msgid "configure"
+msgstr "設定"
+
+#: project/builderjob.cpp:96
+#, kde-format
+msgctxt "@info:status"
+msgid "install"
+msgstr "安裝"
+
+#: project/builderjob.cpp:98
+#, kde-format
+msgctxt "@info:status"
+msgid "prune"
+msgstr "徹底移除"
+
+#: project/builderjob.cpp:239
+#, kde-format
+msgctxt "Unspecified set of build items (e. g. projects, targets)"
+msgid "Various items"
+msgstr "各種項目"
+
+#: project/helper.cpp:78
+#, kde-format
+msgid "Cannot remove folder <i>%1</i>."
+msgstr "無法移除資料夾 <i>%1</i>。"
+
+#: project/helper.cpp:79
+#, kde-format
+msgid "Cannot remove file <i>%1</i>."
+msgstr "無法移除檔案 <i>%1</i>。"
+
+#: project/helper.cpp:96
+#, kde-format
+msgid "The file <i>%1</i> already exists."
+msgstr "檔案 <i>%1</i> 已存在。"
+
+#: project/helper.cpp:105
+#, kde-format
+msgid "Cannot create file <i>%1</i>."
+msgstr "無法建立檔案 <i>%1</i>。"
+
+#: project/helper.cpp:122
+#, kde-format
+msgid "Cannot create folder <i>%1</i>."
+msgstr "無法建立資料夾 <i>%1</i>。"
+
+#: project/importprojectjob.cpp:65
+#, kde-format
+msgid "Project Import: %1"
+msgstr "專案匯入：%1"
+
+#: project/importprojectjob.cpp:97
+#, fuzzy, kde-format
+#| msgid "Project import canceled."
+msgid "Project import canceled."
+msgstr "專案匯入已取消：%1"
+
+#: project/projectbuildsetmodel.cpp:289
+#, kde-format
+msgctxt "@title:column buildset item name"
+msgid "Name"
+msgstr "名稱"
+
+#: project/projectbuildsetmodel.cpp:292
+#, kde-format
+msgctxt "@title:column buildset item path"
+msgid "Path"
+msgstr "路徑"
+
+#: project/projectchangesmodel.cpp:279
+#, kde-format
+msgid "no branch"
+msgstr "沒有分支"
+
+#: project/projectchangesmodel.cpp:280
+#, kde-format
+msgctxt "project name (branch name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: project/projectitemlineedit.cpp:168
+#, kde-format
+msgid "Enter the path to an item from the projects tree"
+msgstr "請從專案樹中為項目輸入路徑"
+
+#: project/projectitemlineedit.cpp:170
+#, kde-format
+msgid "Select..."
+msgstr "選擇..."
+
+#: project/projectitemlineedit.cpp:192
+#, kde-format
+msgid "Select an item..."
+msgstr "選取項目..."
+
+#: project/projectitemlineedit.cpp:202
+#, kde-format
+msgid "Select the item you want to get the path from."
+msgstr "選擇您要從哪個項目取得路徑。"
+
+#. i18n: ectx: property (toolTip), widget (ProjectItemLineEdit, targetDependency)
+#. i18n: ectx: property (placeholderText), widget (ProjectItemLineEdit, targetDependency)
+#: project/widgets/dependencieswidget.ui:32
+#: project/widgets/dependencieswidget.ui:35
+#, kde-format
+msgid "Enter a dependency to add to the list"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addDependency)
+#: project/widgets/dependencieswidget.ui:55
+#, kde-format
+msgid "Adds the listed target to the dependency list."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, dependencies)
+#: project/widgets/dependencieswidget.ui:68
+#, kde-format
+msgid "List of indirect dependent targets."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, dependencies)
+#: project/widgets/dependencieswidget.ui:71
+#, kde-format
+msgid ""
+"This list should contain targets that the application does not directly "
+"depend on, but for which an action needs to be taken before running the "
+"application."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeDependency)
+#: project/widgets/dependencieswidget.ui:87
+#, kde-format
+msgid "Removes the selected dependencies from the list."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, moveDepUp)
+#: project/widgets/dependencieswidget.ui:103
+#, kde-format
+msgid "Moves the selected dependency up in the list."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, moveDepDown)
+#: project/widgets/dependencieswidget.ui:119
+#, kde-format
+msgid "Moves the selected dependency down in the list."
+msgstr ""
+
+#: serialization/itemrepository.h:219 serialization/itemrepository.h:1949
+#, kde-format
+msgid "Failed writing to %1, probably the disk is full"
+msgstr "寫入 %1 時失敗，可能磁碟已滿"
+
+#: serialization/itemrepositoryregistry.cpp:81
+#, kde-format
+msgid "The previous session crashed"
+msgid_plural "Session crashed %1 times in a row"
+msgstr[0] "工作階段已經連續 %1 次崩潰。"
+
+#: serialization/itemrepositoryregistry.cpp:82
+#, kde-format
+msgctxt "@action"
+msgid "Clear cache"
+msgstr "清除快取"
+
+#: serialization/itemrepositoryregistry.cpp:83
+#, kde-format
+msgctxt "@title"
+msgid "Session crashed"
+msgstr "工作階段已崩潰"
+
+#: serialization/itemrepositoryregistry.cpp:84
+#, fuzzy, kde-format
+#| msgid ""
+#| "The crash may be caused by a corruption of cached data.\n"
+#| "\n"
+#| "Press OK if you want KDevelop to clear the cache, otherwise press Cancel "
+#| "if you are sure the crash has another origin."
+msgid ""
+"The crash may be caused by a corruption of cached data.\n"
+"\n"
+"Press Clear if you want KDevelop to clear the cache, otherwise press "
+"Continue if you are sure the crash has another origin."
+msgstr ""
+"程式崩潰有可能是因為快取資料損毀所引起。\n"
+"\n"
+"若您要讓 KDevelop 清除快取，請按「確定」。若是您確定這次崩潰是別的原因引起，"
+"請按下「取消」。"
+
+#: serialization/itemrepositoryregistry.cpp:86
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Clear cache"
+msgctxt "@action"
+msgid "Clear Cache"
+msgstr "清除快取"
+
+#: serialization/itemrepositoryregistry.cpp:87
+#, fuzzy, kde-format
+#| msgid "&Continue"
+msgid "Continue"
+msgstr "繼續(&C)"
+
+#: shell/areadisplay.cpp:55
+#, fuzzy, kde-format
+#| msgid ""
+#| "Execute actions to change the area.<br />An area is a toolview "
+#| "configuration for a specific use case. From here you can also navigate "
+#| "back to the default code area."
+msgid ""
+"Execute actions to change the area.<br />An area is a tool view "
+"configuration for a specific use case. From here you can also navigate back "
+"to the default code area."
+msgstr ""
+"執行動作來變更區域。<br />區域是特定用途的工具檢視設定。在此您也可以回到預設"
+"的源碼區域。"
+
+#: shell/areadisplay.cpp:81
+#, kde-format
+msgid "Back to code"
+msgstr "返回源碼區"
+
+#: shell/checkerstatus.cpp:50
+#, fuzzy, kde-format
+#| msgid "Running"
+msgctxt "@info:progress"
+msgid "Running %1"
+msgstr "執行中"
+
+#: shell/colorschemechooser.cpp:59
+#, kde-format
+msgid "&Color Theme"
+msgstr ""
+
+#: shell/configdialog.cpp:45
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "configure"
+msgid "Configure"
+msgstr "設定"
+
+#: shell/configdialog.cpp:93
+#, kde-format
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+
+#: shell/configdialog.cpp:94
+#, fuzzy, kde-format
+#| msgid "Run Settings"
+msgid "Apply Settings"
+msgstr "執行設定"
+
+#: shell/core.cpp:95
+#, kde-format
+msgid "KDevelop Platform"
+msgstr "KDevelop 平台"
+
+#: shell/core.cpp:96
+#, kde-format
+msgid "Development Platform for IDE-like Applications"
+msgstr "整合開發介面應用程式開發平台"
+
+#: shell/core.cpp:97
+#, fuzzy, kde-format
+#| msgid "Copyright 2004-2014, The KDevelop developers"
+msgid "Copyright 2004-2017, The KDevelop developers"
+msgstr "(C) 2004-2014，KDevelop 開發團隊"
+
+#: shell/core.cpp:100
+#, kde-format
+msgid "Andreas Pakulat"
+msgstr "Andreas Pakulat"
+
+#: shell/core.cpp:100
+#, kde-format
+msgid ""
+"Architecture, VCS Support, Project Management Support, QMake Projectmanager"
+msgstr "架構設計，VCS 支援，專案管理支援，QMake 專案管理員"
+
+#: shell/core.cpp:101
+#, kde-format
+msgid "Alexander Dymo"
+msgstr "Alexander Dymo"
+
+#: shell/core.cpp:101
+#, kde-format
+msgid "Architecture, Sublime UI, Ruby support"
+msgstr "架構，傑出的使用者介面，Ruby 支援"
+
+#: shell/core.cpp:102
+#, kde-format
+msgid "David Nolden"
+msgstr "David Nolden"
+
+#: shell/core.cpp:102
+#, kde-format
+msgid "Definition-Use Chain, C++ Support"
+msgstr "定義使用鍊，C++ 支援"
+
+#: shell/core.cpp:103
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#: shell/core.cpp:103
+#, fuzzy, kde-format
+#| msgid "Co-Maintainer, CMake Support, Run Support, Kross Support"
+msgid "CMake Support, Run Support, Kross Support"
+msgstr "協同維護者，CMake 支援，Run 支援，Kross 支援"
+
+#: shell/core.cpp:104
+#, kde-format
+msgid "Vladimir Prus"
+msgstr "Vladimir Prus"
+
+#: shell/core.cpp:104
+#, kde-format
+msgid "GDB integration"
+msgstr "GDB 整合"
+
+#: shell/core.cpp:105
+#, kde-format
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: shell/core.cpp:105
+#, kde-format
+msgid "Text editor integration, definition-use chain"
+msgstr "文字編輯器整合，定義使用鍊"
+
+#: shell/core.cpp:107
+#, kde-format
+msgid "Matt Rogers"
+msgstr "Matt Rogers"
+
+#: shell/core.cpp:108
+#, kde-format
+msgid "Cédric Pasteur"
+msgstr "Cédric Pasteur"
+
+#: shell/core.cpp:108
+#, kde-format
+msgid "astyle and indent support"
+msgstr "astyle 與 indent 支援"
+
+#: shell/core.cpp:109
+#, kde-format
+msgid "Evgeniy Ivanov"
+msgstr "Evgeniy Ivanov"
+
+#: shell/core.cpp:109
+#, kde-format
+msgid "Distributed VCS, Git, Mercurial"
+msgstr "分散式 VCS，Git，Mercurial"
+
+#. i18n("Manuel Breugelmanns"), i18n( "Veritas, QTest integraton"), "mbr.nxi@gmail.com" );
+#: shell/core.cpp:112
+#, kde-format
+msgid "Robert Gruber"
+msgstr "Robert Gruber"
+
+#: shell/core.cpp:112
+#, kde-format
+msgid "SnippetPart, debugger and usability patches"
+msgstr "SnippetPart、除錯器與可用性修補"
+
+#: shell/core.cpp:113
+#, kde-format
+msgid "Dukju Ahn"
+msgstr "Dukju Ahn"
+
+#: shell/core.cpp:113
+#, kde-format
+msgid "Subversion plugin, Custom Make Manager, Overall improvements"
+msgstr "Subversion 外掛程式，自訂 Make 管理員，整體改進"
+
+#: shell/core.cpp:114
+#, kde-format
+msgid "Niko Sams"
+msgstr "Niko Sams"
+
+#: shell/core.cpp:114
+#, kde-format
+msgid "GDB integration, Webdevelopment Plugins"
+msgstr "GDB 整合，Webdevelopment 外掛程式"
+
+#: shell/core.cpp:115
+#, kde-format
+msgid "Milian Wolff"
+msgstr "Milian Wolff"
+
+#: shell/core.cpp:115
+#, fuzzy, kde-format
+#| msgid ""
+#| "Co-Maintainer, Generic manager, Webdevelopment Plugins, Snippets, "
+#| "Performance"
+msgid "Generic manager, Webdevelopment Plugins, Snippets, Performance"
+msgstr "協同維護者，一般管理員，Webdevelopment 外掛程式，片段，效能"
+
+#: shell/core.cpp:116
+#, kde-format
+msgid "Kevin Funk"
+msgstr ""
+
+#: shell/core.cpp:116
+#, kde-format
+msgid "Co-maintainer, C++/Clang, QA, Windows Support, Performance, Website"
+msgstr ""
+
+#: shell/core.cpp:117
+#, kde-format
+msgid "Sven Brauch"
+msgstr ""
+
+#: shell/core.cpp:117
+#, kde-format
+msgid "Co-maintainer, AppImage, Python Support, User Interface improvements"
+msgstr ""
+
+#: shell/core.cpp:154
+#, fuzzy, kde-format
+#| msgid "Could not find an open document"
+msgid "Could not find any plugins"
+msgstr "找不到開啟的文件"
+
+#: shell/core.cpp:155
+#, kde-format
+msgid ""
+"<p>Could not find any plugins during startup.<br/>Please make sure "
+"QT_PLUGIN_PATH is set correctly.</p>Refer to <a href=\"https://community.kde."
+"org/Guidelines_and_HOWTOs/Build_from_source#Set_up_the_runtime_environment"
+"\">this article</a> for more information."
+msgstr ""
+
+#: shell/debugcontroller.cpp:111
+#, fuzzy, kde-format
+#| msgid "Debugger:"
+msgid "Debugger"
+msgstr "除錯器："
+
+#: shell/debugcontroller.cpp:129
+#, kde-format
+msgid "Frame Stack"
+msgstr "框架堆疊"
+
+#: shell/debugcontroller.cpp:135
+#, kde-format
+msgid "Breakpoints"
+msgstr "中斷點"
+
+#: shell/debugcontroller.cpp:141
+#, kde-format
+msgid "Variables"
+msgstr "變數"
+
+#: shell/debugcontroller.cpp:205
+#, kde-format
+msgid "&Restart"
+msgstr "重新啟動 (&R)"
+
+#: shell/debugcontroller.cpp:206
+#, kde-format
+msgid "Restart program"
+msgstr "重新開始執行程式"
+
+#: shell/debugcontroller.cpp:207
+#, kde-format
+msgid "Restarts applications from the beginning."
+msgstr "重新開始執行應用程式。"
+
+#: shell/debugcontroller.cpp:213
+#, kde-format
+msgid "Interrupt"
+msgstr "中斷"
+
+#: shell/debugcontroller.cpp:214
+#, kde-format
+msgid "Interrupt application"
+msgstr "中斷應用程式"
+
+#: shell/debugcontroller.cpp:215
+#, kde-format
+msgid "Interrupts the debugged process or current debugger command."
+msgstr "中斷已除錯的行程或目前執行的除錯器指令。"
+
+#: shell/debugcontroller.cpp:219
+#, kde-format
+msgid "Run to &Cursor"
+msgstr "執行到游標處(&C)"
+
+#: shell/debugcontroller.cpp:220
+#, kde-format
+msgid "Run to cursor"
+msgstr "執行到游標處"
+
+#: shell/debugcontroller.cpp:221
+#, kde-format
+msgid "Continues execution until the cursor position is reached."
+msgstr "繼續執行到游標位置所在。"
+
+#: shell/debugcontroller.cpp:226
+#, kde-format
+msgid "Set E&xecution Position to Cursor"
+msgstr "將執行位置設到游標處(&X)"
+
+#: shell/debugcontroller.cpp:227
+#, kde-format
+msgid "Jump to cursor"
+msgstr "跳到游標處"
+
+#: shell/debugcontroller.cpp:228
+#, kde-format
+msgid "Continue execution from the current cursor position."
+msgstr "從目前游標位置繼續執行。"
+
+#: shell/debugcontroller.cpp:232
+#, kde-format
+msgid "Step &Over"
+msgstr "單步執行(&O)"
+
+#: shell/debugcontroller.cpp:234
+#, kde-format
+msgid "Step over the next line"
+msgstr "單步執行到下一行"
+
+#: shell/debugcontroller.cpp:235
+#, kde-format
+msgid ""
+"Executes one line of source in the current source file. If the source line "
+"is a call to a function the whole function is executed and the app will stop "
+"at the line following the function call."
+msgstr ""
+"執行一行源碼。如果該行源碼是呼叫函式，則會把整個函式執行完畢後停在下一行。"
+
+#: shell/debugcontroller.cpp:243
+#, kde-format
+msgid "Step over Ins&truction"
+msgstr "單步執行指令(&T)"
+
+#: shell/debugcontroller.cpp:244
+#, kde-format
+msgid "Step over instruction"
+msgstr "單步執行指令"
+
+#: shell/debugcontroller.cpp:245
+#, kde-format
+msgid "Steps over the next assembly instruction."
+msgstr "單步執行到下一個組譯指令。"
+
+#: shell/debugcontroller.cpp:250
+#, kde-format
+msgid "Step &Into"
+msgstr "單步跳入(&I)"
+
+#: shell/debugcontroller.cpp:252
+#, kde-format
+msgid "Step into the next statement"
+msgstr "單步跳入下一個敘述"
+
+#: shell/debugcontroller.cpp:253
+#, kde-format
+msgid ""
+"Executes exactly one line of source. If the source line is a call to a "
+"function then execution will stop after the function has been entered."
+msgstr "執行源碼中一行敘述。如果程式碼是呼叫某個函式，則會停在進入函式的點。"
+
+#: shell/debugcontroller.cpp:260
+#, kde-format
+msgid "Step into I&nstruction"
+msgstr "單步跳入指令(&N)"
+
+#: shell/debugcontroller.cpp:261
+#, kde-format
+msgid "Step into instruction"
+msgstr "單步跳入指令"
+
+#: shell/debugcontroller.cpp:262
+#, kde-format
+msgid "Steps into the next assembly instruction."
+msgstr "單步跳入下一個組譯指令。"
+
+#: shell/debugcontroller.cpp:266
+#, kde-format
+msgid "Step O&ut"
+msgstr "單步跳出(&U)"
+
+#: shell/debugcontroller.cpp:268
+#, kde-format
+msgid "Step out of the current function"
+msgstr "單步跳出目前的函式"
+
+#: shell/debugcontroller.cpp:269
+#, kde-format
+msgid ""
+"Executes the application until the currently executing function is "
+"completed. The debugger will then display the line after the original call "
+"to that function. If program execution is in the outermost frame (i.e. in "
+"main()) then this operation has no effect."
+msgstr ""
+"執行應用程式，直到目前的函式執行完畢。除錯器會顯示呼叫該函式的地方。如果是在"
+"最外層的框架（也就是 main()），則這個操作不會發生作用。"
+
+#: shell/debugcontroller.cpp:277
+#, kde-format
+msgid "Toggle Breakpoint"
+msgstr "切換中斷點"
+
+#: shell/debugcontroller.cpp:278
+#, kde-format
+msgid "Ctrl+Alt+B"
+msgstr "Ctrl+Alt+B"
+
+#: shell/debugcontroller.cpp:279
+#, kde-format
+msgid "Toggle breakpoint"
+msgstr "切換中斷點"
+
+#: shell/debugcontroller.cpp:280
+#, kde-format
+msgid "Toggles the breakpoint at the current line in editor."
+msgstr "對編輯器中目前的行切換中斷點。"
+
+#: shell/debugcontroller.cpp:434 shell/runcontroller.cpp:449
+#, kde-format
+msgid "Debug Launch"
+msgstr "除錯啟動"
+
+#: shell/debugcontroller.cpp:436 shell/runcontroller.cpp:453
+#, kde-format
+msgid "Debug current launch"
+msgstr "除錯目前的啟動"
+
+#: shell/debugcontroller.cpp:437
+#, fuzzy, kde-format
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "Executes the target or the program specified in currently active launch "
+#| "configuration inside a Debugger."
+msgid ""
+"Executes the target or the program specified in currently active launch "
+"configuration inside a Debugger."
+msgstr "在除錯器內執行目前作用中的目標，或是目前啟動設定裡指定的程式。"
+
+#: shell/debugcontroller.cpp:440
+#, kde-format
+msgid "&Continue"
+msgstr "繼續(&C)"
+
+#: shell/debugcontroller.cpp:442
+#, kde-format
+msgid "Continue application execution"
+msgstr "繼續執行應用程式"
+
+#: shell/debugcontroller.cpp:443
+#, kde-format
+msgid ""
+"Continues the execution of your application in the debugger. This only takes "
+"effect when the application has been halted by the debugger (i.e. a "
+"breakpoint has been activated or the interrupt was pressed)."
+msgstr ""
+"繼續在除錯器中執行您的應用程式。這只在應用程式被除錯器暫停時才有作用（也就是"
+"被中斷點中斷，或是使用者按下中斷時）。"
+
+#. i18n: ectx: ToolBar (debugToolBar)
+#: shell/debugger/kdevdebuggershellui.rc:25
+#, kde-format
+msgid "Debugger Toolbar"
+msgstr "除錯器工具列"
+
+#: shell/documentationcontroller.cpp:120
+#, kde-format
+msgid "Show Documentation"
+msgstr "顯示文件"
+
+#: shell/documentcontroller.cpp:71 sublime/urldocument.cpp:63
+#, kde-format
+msgid "Untitled"
+msgstr "未命名"
+
+#: shell/documentcontroller.cpp:129
+#, kde-format
+msgid "Open File"
+msgstr "開啟檔案"
+
+#: shell/documentcontroller.cpp:130
+#, kde-format
+msgid "*|Text File\n"
+msgstr "*.*|文字檔\n"
+
+#: shell/documentcontroller.cpp:321
+#, kde-format
+msgid ""
+"KDevelop could not find the editor for file '%1' of type %2.\n"
+"Do you want to open it as plain text?"
+msgstr ""
+"KDevelop 找不到編輯器編輯型態為 %2 的檔案 %1。\n"
+"您要以純文字模式開啟嗎？"
+
+#: shell/documentcontroller.cpp:321
+#, kde-format
+msgctxt "@title:window"
+msgid "Could Not Find Editor"
+msgstr "找不到編輯器"
+
+#: shell/documentcontroller.cpp:599
+#, kde-format
+msgid "&Open..."
+msgstr "開啟(&O)..."
+
+#: shell/documentcontroller.cpp:601
+#, kde-format
+msgid "Open file"
+msgstr "開啟檔案"
+
+#: shell/documentcontroller.cpp:602
+#, kde-format
+msgid "Opens a file for editing."
+msgstr "開啟檔案以編輯。"
+
+#: shell/documentcontroller.cpp:606
+#, kde-format
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr "這是您最近開啟的檔案清單，並且讓您可以很容易的再次開啟它們。"
+
+#: shell/documentcontroller.cpp:611
+#, kde-format
+msgid "Save Al&l"
+msgstr "全部儲存(&L)"
+
+#: shell/documentcontroller.cpp:613
+#, kde-format
+msgid "Save all open documents"
+msgstr "儲存所有開啟的文件"
+
+#: shell/documentcontroller.cpp:614
+#, kde-format
+msgid ""
+"Save all open documents, prompting for additional information when necessary."
+msgstr "儲存所有開啟的文件，若需要的話會提示詢問更多資訊。"
+
+#: shell/documentcontroller.cpp:620 shell/mainwindow_p.cpp:381
+#, kde-format
+msgid "Reload All"
+msgstr "全部重新載入"
+
+#: shell/documentcontroller.cpp:622
+#, kde-format
+msgid "Revert all open documents"
+msgstr "回復所有開啟的文件"
+
+#: shell/documentcontroller.cpp:623
+#, kde-format
+msgid "Revert all open documents, returning to the previously saved state."
+msgstr "回復所有開啟的文件，回到先前未變更的狀態。"
+
+#: shell/documentcontroller.cpp:629
+#, kde-format
+msgid "&Close"
+msgstr "關閉(&C)"
+
+#: shell/documentcontroller.cpp:631
+#, kde-format
+msgid "Close file"
+msgstr "關閉檔案"
+
+#: shell/documentcontroller.cpp:632
+#, kde-format
+msgid "Closes current file."
+msgstr "關閉目前的檔案。"
+
+#: shell/documentcontroller.cpp:637
+#, kde-format
+msgid "Clos&e All"
+msgstr "全部關閉(&C)"
+
+#: shell/documentcontroller.cpp:639
+#, kde-format
+msgid "Close all open documents"
+msgstr "關閉所有開啟的文件。"
+
+#: shell/documentcontroller.cpp:640
+#, kde-format
+msgid ""
+"Close all open documents, prompting for additional information when "
+"necessary."
+msgstr "關閉所有開啟的文件，若需要的話會提示詢問更多資訊。"
+
+#: shell/documentcontroller.cpp:646
+#, kde-format
+msgid "Close All Ot&hers"
+msgstr "關閉所有其它的文件(&H)"
+
+#: shell/documentcontroller.cpp:648
+#, kde-format
+msgid "Close all other documents"
+msgstr "關閉所有其它的文件"
+
+#: shell/documentcontroller.cpp:649
+#, kde-format
+msgid ""
+"Close all open documents, with the exception of the currently active "
+"document."
+msgstr "關閉所有開啟的文件，只留下目前編輯中的文件。"
+
+#: shell/documentcontroller.cpp:654
+#, kde-format
+msgid "Show Annotate on current document"
+msgstr "顯示目前文件的註記"
+
+#: shell/documentcontroller.cpp:655
+#, kde-format
+msgid "Annotate"
+msgstr "最後狀態註記"
+
+#: shell/documentcontroller.cpp:1227
+#, kde-format
+msgid ""
+"Could not annotate the document because it is not part of a version-"
+"controlled project."
+msgstr "無法註記此文件，因為它並非版本控制專案的一部份。"
+
+#: shell/editorconfigpage.cpp:101
+#, kde-format
+msgid "Editor"
+msgstr "編輯器"
+
+#: shell/editorconfigpage.cpp:111
+#, fuzzy, kde-format
+#| msgid "Configure Editor..."
+msgid "Configure Text Editor"
+msgstr "設定編輯器..."
+
+#: shell/environmentconfigurebutton.cpp:88
+#, kde-format
+msgid "Configure environment variables"
+msgstr "設定環境變數"
+
+#: shell/launchconfigurationdialog.cpp:61
+#, kde-format
+msgid "Launch Configurations"
+msgstr "啟動設定"
+
+#: shell/launchconfigurationdialog.cpp:71
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a new launch configuration."
+msgstr "新增啟動設定。"
+
+#: shell/launchconfigurationdialog.cpp:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete selected launch configuration."
+msgstr "刪除選取的啟動設定。"
+
+#: shell/launchconfigurationdialog.cpp:188
+#, kde-format
+msgid ""
+"No launch configurations available. (Is any of the Execute plugins loaded?)"
+msgstr ""
+
+#: shell/launchconfigurationdialog.cpp:209
+#, kde-format
+msgid "Rename configuration"
+msgstr "重新命名設定"
+
+#: shell/launchconfigurationdialog.cpp:210
+#, kde-format
+msgid "Delete configuration"
+msgstr "刪除設定"
+
+#: shell/launchconfigurationdialog.cpp:264
+#, kde-format
+msgid ""
+"Selected Launch Configuration has unsaved changes. Do you want to save it?"
+msgstr "選取的啟動設定有未儲存的變更。您要儲存它嗎？"
+
+#: shell/launchconfigurationdialog.cpp:264
+#, kde-format
+msgid "Unsaved Changes"
+msgstr "未儲存的改變"
+
+#: shell/launchconfigurationdialog.cpp:336
+#, kde-format
+msgctxt "%1 is a launcher name"
+msgid "No configuration is needed for '%1'"
+msgstr "%1 不需要設定"
+
+#: shell/launchconfigurationdialog.cpp:380
+#, fuzzy, kde-format
+#| msgid ""
+#| "<i>Select a configuration to edit from the left,<br>or click the \"Add New"
+#| "\" button to add a new one.</i>"
+msgid ""
+"<i>Select a configuration to edit from the left,<br>or click the \"Add\" "
+"button to add a new one.</i>"
+msgstr "<i>從左方選擇要編輯的設定，<br>或是點擊「新增」來新增設定。</i>"
+
+#: shell/launchconfigurationdialog.cpp:448
+#, kde-format
+msgid "Editing %2: <b>%1</b>"
+msgstr "編輯 %2：<b>%1</b>"
+
+#: shell/launchconfigurationdialog.cpp:721
+#, kde-format
+msgctxt "Name of the Launch Configurations"
+msgid "Name"
+msgstr "名稱"
+
+#: shell/launchconfigurationdialog.cpp:724
+#, kde-format
+msgctxt ""
+"The type of the Launch Configurations (i.e. Python Application, C++ "
+"Application)"
+msgid "Type"
+msgstr "類型"
+
+#. i18n: ectx: property (text), widget (QPushButton, addConfig)
+#: shell/launchconfigurationdialog.ui:29 vcs/vcspluginhelper.cpp:85
+#, kde-format
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteConfig)
+#: shell/launchconfigurationdialog.ui:41
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QLabel, debugLabel)
+#: shell/launchconfigurationdialog.ui:88
+#, kde-format
+msgid "Debugger:"
+msgstr "除錯器："
+
+#: shell/loadedpluginsdialog.cpp:287 shell/mainwindow_p.cpp:248
+#, kde-format
+msgid "Loaded Plugins"
+msgstr "已載入的外掛程式"
+
+#: shell/loadedpluginsdialog.cpp:294
+#, kde-format
+msgid "<html><font size=\"4\">Plugins loaded for <b>%1</b></font></html>"
+msgstr "<html><font size=\"4\"><b>%1</b> 的外掛程式已載入</font></html>"
+
+#: shell/mainwindow.cpp:432
+#, kde-format
+msgid " (read only)"
+msgstr ""
+
+#: shell/mainwindow_p.cpp:233
+#, kde-format
+msgctxt "%1 = application name"
+msgid "Configure %1"
+msgstr "設定 %1"
+
+#: shell/mainwindow_p.cpp:234
+#, kde-format
+msgid "Lets you customize %1."
+msgstr "讓您自訂：%1。"
+
+#: shell/mainwindow_p.cpp:237
+#, kde-format
+msgid "Configure Notifications..."
+msgstr "設定通知..."
+
+#: shell/mainwindow_p.cpp:238
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure notifications"
+msgstr "設定通知"
+
+#: shell/mainwindow_p.cpp:239
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Shows a dialog that lets you configure notifications."
+msgstr "顯示對話框讓您設定通知。"
+
+#: shell/mainwindow_p.cpp:242
+#, kde-format
+msgid "About KDevelop Platform"
+msgstr "關於 KDevelop 平台"
+
+#: shell/mainwindow_p.cpp:244
+#, kde-format
+msgid "Show Information about KDevelop Platform"
+msgstr "顯示關於 KDevelop 平台的資訊"
+
+#: shell/mainwindow_p.cpp:245
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Shows a dialog with information about KDevelop Platform."
+msgstr "顯示關於 KDevelop 平台的資訊"
+
+#: shell/mainwindow_p.cpp:249
+#, kde-format
+msgid "Show a list of all loaded plugins"
+msgstr "顯示所有已載入的外掛程式的清單"
+
+#: shell/mainwindow_p.cpp:250
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Shows a dialog with information about all loaded plugins."
+msgstr "顯示關於所有已載入外掛程式的資訊"
+
+#: shell/mainwindow_p.cpp:253
+#, kde-format
+msgid "&Next Window"
+msgstr "下一個視窗(&N)"
+
+#: shell/mainwindow_p.cpp:256
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Next window"
+msgstr "下一個視窗"
+
+#: shell/mainwindow_p.cpp:257
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the next window."
+msgstr "切換到下一個視窗。"
+
+#: shell/mainwindow_p.cpp:261
+#, kde-format
+msgid "&Previous Window"
+msgstr "前一個視窗(&P)"
+
+#: shell/mainwindow_p.cpp:264
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Previous window"
+msgstr "前一個視窗"
+
+#: shell/mainwindow_p.cpp:265
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the previous window."
+msgstr "切換到前一個視窗。"
+
+#: shell/mainwindow_p.cpp:269
+#, kde-format
+msgid "Jump to Next Outputmark"
+msgstr ""
+
+#: shell/mainwindow_p.cpp:275
+#, kde-format
+msgid "Jump to Previous Outputmark"
+msgstr ""
+
+#: shell/mainwindow_p.cpp:282
+#, kde-format
+msgid "Split View &Top/Bottom"
+msgstr "分裂檢視上/下(&T)"
+
+#: shell/mainwindow_p.cpp:285
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Split horizontal"
+msgstr "水平分割"
+
+#: shell/mainwindow_p.cpp:286
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Splits the current view horizontally."
+msgstr "水平分割目前的檢視。"
+
+#: shell/mainwindow_p.cpp:290
+#, kde-format
+msgid "Split View &Left/Right"
+msgstr "分裂檢視 左/右(&L)"
+
+#: shell/mainwindow_p.cpp:293
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Split vertical"
+msgstr "垂直分割"
+
+#: shell/mainwindow_p.cpp:294
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Splits the current view vertically."
+msgstr "垂直分割目前的檢視。"
+
+#: shell/mainwindow_p.cpp:297
+#, kde-format
+msgid "&Next Split View"
+msgstr "下個分割檢視(&N)"
+
+#: shell/mainwindow_p.cpp:300
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Next split view"
+msgstr "下個分割檢視"
+
+#: shell/mainwindow_p.cpp:301
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the next split view."
+msgstr "切換到下一個分割檢視。"
+
+#: shell/mainwindow_p.cpp:305
+#, kde-format
+msgid "&Previous Split View"
+msgstr "前個分割檢視(&N)"
+
+#: shell/mainwindow_p.cpp:308
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Previous split view"
+msgstr "前個分割檢視"
+
+#: shell/mainwindow_p.cpp:309
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the previous split view."
+msgstr "切換到前一個分割檢視。"
+
+#: shell/mainwindow_p.cpp:317
+#, kde-format
+msgid "&New"
+msgstr "新增(&N)"
+
+#: shell/mainwindow_p.cpp:318
+#, kde-format
+msgctxt "Shorter Text for 'New File' shown in the toolbar"
+msgid "New"
+msgstr "新增"
+
+#: shell/mainwindow_p.cpp:320
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "New file"
+msgstr "新增檔案"
+
+#: shell/mainwindow_p.cpp:321
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Creates an empty file."
+msgstr "建立一個空的檔案。"
+
+#: shell/mainwindow_p.cpp:326
+#, kde-format
+msgid "&Add Tool View..."
+msgstr "新增工具檢視(&A)..."
+
+#: shell/mainwindow_p.cpp:328
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add tool view"
+msgstr "新增工具檢視"
+
+#: shell/mainwindow_p.cpp:329
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Adds a new tool view to this window."
+msgstr "在此視窗新增工具檢視。"
+
+#: shell/mainwindow_p.cpp:365
+#, kde-format
+msgid "Split View Top/Bottom"
+msgstr "分裂檢視 上/下"
+
+#: shell/mainwindow_p.cpp:368
+#, kde-format
+msgid "Split View Left/Right"
+msgstr "分裂檢視 左/右"
+
+#: shell/mainwindow_p.cpp:372
+#, kde-format
+msgid "New File"
+msgstr "新增檔案"
+
+#: shell/mainwindow_p.cpp:378
+#, kde-format
+msgid "Reload"
+msgstr "重新載入"
+
+#: shell/mainwindow_p.cpp:421
+#, kde-format
+msgid "Add Tool View"
+msgstr "新增工具檢視"
+
+#: shell/mainwindow_p.cpp:444
+#, kde-format
+msgid "Lock the Panel from Hiding"
+msgstr ""
+
+#: shell/openprojectdialog.cpp:110
+#, kde-format
+msgid "%1|All Project Files (%1)"
+msgstr "%1 | 所有專案檔（%1）"
+
+#: shell/openprojectdialog.cpp:119
+#, kde-format
+msgid "Select Source"
+msgstr "選擇來源"
+
+#: shell/openprojectdialog.cpp:127
+#, kde-format
+msgid ""
+"Select a build system setup file, existing KDevelop project, or any folder "
+"to open as a project"
+msgstr "選擇編譯系統設定檔，現有的 KDevelop 專案，或是任何資料夾來開啟成專案"
+
+#: shell/openprojectdialog.cpp:134 shell/openprojectdialog.cpp:154
+#, kde-format
+msgid "Open Project"
+msgstr "開啟專案"
+
+#: shell/openprojectdialog.cpp:142
+#, kde-format
+msgid "Project Information"
+msgstr "專案資訊"
+
+#: shell/openprojectdialog.cpp:203
+#, fuzzy, kde-format
+#| msgid "open %1 as project"
+msgid "Open \"%1\" as project"
+msgstr "以專案開啟 %1"
+
+#: shell/openprojectdialog.cpp:207
+#, fuzzy, kde-format
+#| msgid "Selected URL is invalid."
+msgid "Selected URL is invalid"
+msgstr "選取的網址不合法。"
+
+#: shell/openprojectdialog.cpp:252
+#, fuzzy, kde-format
+#| msgid "Open Existing File"
+msgid "Open existing file \"%1\""
+msgstr "開啟現有的檔案"
+
+#: shell/partcontroller.cpp:269
+#, kde-format
+msgid "Use this command to show or hide the view's statusbar"
+msgstr ""
+
+#: shell/partdocument.cpp:108
+#, kde-format
+msgid "The document \"%1\" has unsaved changes. Would you like to save them?"
+msgstr "文件 %1 有未儲存的變更。您要儲存它嗎？"
+
+#: shell/partdocument.cpp:109 shell/partdocument.cpp:117
+#, kde-format
+msgid "Close Document"
+msgstr "關閉文件"
+
+#: shell/partdocument.cpp:115
+#, kde-format
+msgid ""
+"The document \"%1\" has unsaved changes and was modified by an external "
+"process.\n"
+"Do you want to override the external changes?"
+msgstr ""
+"文件 \"%1\" 裡有未儲存的變更，同時原檔案又已被外部行程所改變。\n"
+"您要直接把外部所做的變更覆蓋掉嗎？"
+
+#: shell/problem.cpp:53
+#, fuzzy, kde-format
+#| msgid "Loaded Plugins"
+msgid "Plugin"
+msgstr "已載入的外掛程式"
+
+#: shell/problem.cpp:87
+#, kde-format
+msgid "DuchainBuilder"
+msgstr ""
+
+#: shell/problem.cpp:89
+#, kde-format
+msgid "Todo"
+msgstr ""
+
+#: shell/problemmodel.cpp:70
+#, fuzzy, kde-format
+#| msgid "Close all other documents"
+msgctxt "@info:tooltip"
+msgid "Re-parse all watched documents"
+msgstr "關閉所有其它的文件"
+
+#: shell/problemmodel.cpp:329
+#, fuzzy, kde-format
+#| msgid "Source"
+msgctxt "@title:column source of problem"
+msgid "Source"
+msgstr "源碼"
+
+#: shell/problemmodel.cpp:331
+#, fuzzy, kde-format
+#| msgid "Problem"
+msgctxt "@title:column problem description"
+msgid "Problem"
+msgstr "問題"
+
+#: shell/problemmodel.cpp:333
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "@title:column file where problem was found"
+msgid "File"
+msgstr "檔案"
+
+#: shell/problemmodel.cpp:335
+#, fuzzy, kde-format
+#| msgid "Line"
+msgctxt "@title:column line number with problem"
+msgid "Line"
+msgstr "列"
+
+#: shell/problemmodel.cpp:337
+#, fuzzy, kde-format
+#| msgid "Column"
+msgctxt "@title:column column number with problem"
+msgid "Column"
+msgstr "欄"
+
+#: shell/progresswidget/progressdialog.cpp:168
+#, kde-format
+msgid "Cancel this operation."
+msgstr "取消這個動作"
+
+#: shell/progresswidget/progressmanager.cpp:107
+#, kde-format
+msgid "Aborting..."
+msgstr "取消中..."
+
+#: shell/progresswidget/statusbarprogresswidget.cpp:124
+#, kde-format
+msgid "Open detailed progress dialog"
+msgstr "開啟詳情進度視窗"
+
+#: shell/progresswidget/statusbarprogresswidget.cpp:359
+#, kde-format
+msgid "Hide detailed progress window"
+msgstr "隱藏詳情進度視窗"
+
+#: shell/progresswidget/statusbarprogresswidget.cpp:363
+#, kde-format
+msgid "Show detailed progress window"
+msgstr "顯示詳情進度對視窗"
+
+#: shell/project.cpp:110
+#, kde-format
+msgid "Loading Project %1"
+msgstr "載入專案 %1 中"
+
+#: shell/project.cpp:118
+#, kde-format
+msgctxt "%1: Project name"
+msgid "Loading %1"
+msgstr "載入 %1 中"
+
+#: shell/project.cpp:232
+#, kde-format
+msgid ""
+"Unable to load the project file %1.<br>The project has been removed from the "
+"session."
+msgstr "無法載入專案檔 %1。<br>專案已從此工作階段移除。"
+
+#: shell/project.cpp:257
+#, kde-format
+msgid "Unable to create hidden dir (%1) for developer file"
+msgstr "無法為開發者檔案建立隱藏目錄 %1"
+
+#: shell/project.cpp:273
+#, kde-format
+msgid "Unable to get project file: %1"
+msgstr "無法取得專案檔：%1"
+
+#: shell/project.cpp:312
+#, kde-format
+msgid "Could not load %1, a project with the same name '%2' is already open."
+msgstr "無法載入 %1，因為有同名的專案 %2 已開啟。"
+
+#: shell/project.cpp:342
+#, kde-format
+msgid ""
+"Could not load project management plugin <b>%1</b>.<br> Check that the "
+"required programs are installed, or see console output for more information."
+msgstr ""
+
+#: shell/project.cpp:351
+#, kde-format
+msgid ""
+"project importing plugin (%1) does not support the IProjectFileManager "
+"interface."
+msgstr "專案匯入外掛程式（%1）不支援 IProjectFileManager 介面。"
+
+#: shell/project.cpp:404
+#, kde-format
+msgid "Could not open project"
+msgstr "無法開啟專案"
+
+#: shell/project.cpp:542
+#, kde-format
+msgid ""
+"Could not store developer specific project configuration.\n"
+"Attention: The project settings you changed will be lost."
+msgstr ""
+"無法儲存開發者指定專案設定。\n"
+"注意：您對此專案所做的設定變更將遺失。"
+
+#: shell/projectcontroller.cpp:164
+#, kde-format
+msgid "Configure Project %1"
+msgstr "設定專案 %1"
+
+#: shell/projectcontroller.cpp:301
+#, kde-format
+msgid "Invalid Location: %1"
+msgstr "不合法的位置：%1"
+
+#: shell/projectcontroller.cpp:308
+#, kde-format
+msgid "Project already being opened"
+msgstr "專案已開啟"
+
+#: shell/projectcontroller.cpp:309
+#, kde-format
+msgid "Already opening %1, not opening again"
+msgstr "已開啟 %1，不用再開了"
+
+#: shell/projectcontroller.cpp:466
+#, kde-format
+msgid "Override"
+msgstr "覆寫"
+
+#: shell/projectcontroller.cpp:467
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Continue to open the project and use the just provided project configuration."
+msgstr "繼續使用剛剛提供的專案設定來開啟專案。"
+
+#: shell/projectcontroller.cpp:470
+#, kde-format
+msgid "Open Existing File"
+msgstr "開啟現有的檔案"
+
+#: shell/projectcontroller.cpp:471
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Continue to open the project but use the existing project configuration."
+msgstr "使用現有的專案設定來開啟專案。"
+
+#: shell/projectcontroller.cpp:474
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel and do not open the project."
+msgstr "取消，不要開啟專案。"
+
+#: shell/projectcontroller.cpp:476
+#, kde-format
+msgid ""
+"There already exists a project configuration file at %1.\n"
+"Do you want to override it or open the existing file?"
+msgstr ""
+"已經有個專案設定檔在 %1。\n"
+"您要覆寫它，還是要開啟現有的檔案？"
+
+#: shell/projectcontroller.cpp:478
+#, kde-format
+msgid "Override existing project configuration"
+msgstr "覆蓋現有的專案設定"
+
+#: shell/projectcontroller.cpp:499
+#, kde-format
+msgid "Unable to create configuration file %1"
+msgstr "無法建立設定檔 %1"
+
+#: shell/projectcontroller.cpp:511
+#, kde-format
+msgid "Reopen the current project?"
+msgstr "要重新開啟目前的專案嗎？"
+
+#: shell/projectcontroller.cpp:548
+#, kde-format
+msgctxt "@action"
+msgid "Open / Import Project..."
+msgstr "開啟 / 匯入專案..."
+
+#: shell/projectcontroller.cpp:549
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open or import project"
+msgstr "開啟 / 匯入專案"
+
+#: shell/projectcontroller.cpp:550
+#, fuzzy, kde-format
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "Open an existing KDevelop 4 project or import an existing Project into "
+#| "KDevelop 4. This entry allows to select a KDevelop4 project file or an "
+#| "existing directory to open it in KDevelop. When opening an existing "
+#| "directory that does not yet have a KDevelop4 project file, the file will "
+#| "be created."
+msgctxt "@info:whatsthis"
+msgid ""
+"Open an existing KDevelop 4 project or import an existing Project into "
+"KDevelop 4. This entry allows one to select a KDevelop4 project file or an "
+"existing directory to open it in KDevelop. When opening an existing "
+"directory that does not yet have a KDevelop4 project file, the file will be "
+"created."
+msgstr ""
+"開啟現有的 KDevelop 4 專案，或匯入現有的專案到 KDevelop4 中。它能讓您選取 "
+"KDevelop4 專案檔或讓您在 KDevelop 中開啟現有的專案目錄。開啟的目錄中若沒有 "
+"KDevelop4 專案檔，則會建立新的專案檔。"
+
+#: shell/projectcontroller.cpp:561
+#, kde-format
+msgctxt "@action"
+msgid "Fetch Project..."
+msgstr "抓取專案..."
+
+#: shell/projectcontroller.cpp:563
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Fetch project"
+msgstr "抓取專案"
+
+#: shell/projectcontroller.cpp:564
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Guides the user through the project fetch and then imports it into KDevelop "
+"4."
+msgstr "引導使用者抓取專案，並匯入 KDevelop 4。"
+
+#: shell/projectcontroller.cpp:578
+#, kde-format
+msgctxt "@action"
+msgid "Close Project(s)"
+msgstr "關閉專案"
+
+#: shell/projectcontroller.cpp:580
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Closes all currently selected projects"
+msgstr "關閉所有目前選取的專案"
+
+#: shell/projectcontroller.cpp:585
+#, kde-format
+msgid "Open Configuration..."
+msgstr "開啟設定..."
+
+#: shell/projectcontroller.cpp:591
+#, kde-format
+msgid "Commit Current Project..."
+msgstr "提交目前的專案..."
+
+#: shell/projectcontroller.cpp:592 vcs/vcspluginhelper.cpp:83
+#, kde-format
+msgid "Commit..."
+msgstr "提交..."
+
+#: shell/projectcontroller.cpp:603
+#, kde-format
+msgid "Open Recent Project"
+msgstr "開啟最近的專案"
+
+#: shell/projectcontroller.cpp:604
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Opens recently opened project."
+msgstr "開啟最近的專案。"
+
+#: shell/projectcontroller.cpp:609
+#, kde-format
+msgid "Open Project for Current File"
+msgstr "為目前檔案開啟專案"
+
+#: shell/projectcontroller.cpp:742
+#, kde-format
+msgid "Project already open: %1"
+msgstr "專案已開啟：%1"
+
+#: shell/projectcontroller.cpp:745
+#, kde-format
+msgid "No active document"
+msgstr "沒有目前的文件。"
+
+#: shell/projectcontroller.cpp:819
+#, kde-format
+msgid "Project Already Open"
+msgstr "專案已開啟"
+
+#: shell/projectcontroller.cpp:822
+#, kde-format
+msgid ""
+"The project you're trying to open is already open in at least one other "
+"session.<br>What do you want to do?"
+msgstr "您要開啟的專案已經在另一個工作階段中開啟了。<br>您要怎麼做？"
+
+#: shell/projectcontroller.cpp:826
+#, kde-format
+msgid "Add project to current session"
+msgstr "將專案加入目前的工作階段"
+
+#: shell/projectcontroller.cpp:830
+#, kde-format
+msgid "Open session %1"
+msgstr "開啟工作階段 %1"
+
+#: shell/projectcontroller.cpp:888
+#, kde-format
+msgid "No enabled plugin supports this repository URL: %1"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#. i18n: ectx: property (toolTip), widget (QComboBox, managerCombo)
+#: shell/projectinfopage.ui:17 shell/projectinfopage.ui:44
+#, kde-format
+msgid "Select the Management Plugin to use for this project"
+msgstr "選擇此專案要使用的管理外掛程式"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/projectinfopage.ui:20
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Project Management"
+msgid "Project manager:"
+msgstr "專案管理"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, nameEdit)
+#: shell/projectinfopage.ui:27 shell/projectinfopage.ui:37
+#, kde-format
+msgid "Provide a name for the project"
+msgstr "輸入專案名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/projectinfopage.ui:30 shell/settings/environmentwidget.cpp:188
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#: shell/projectsourcepage.cpp:50
+#, kde-format
+msgid "From File System"
+msgstr "從檔案系統"
+
+#: shell/projectsourcepage.cpp:185
+#, kde-format
+msgid "Could not create the directory: %1"
+msgstr "無法建立目錄：%1"
+
+#: shell/projectsourcepage.cpp:215
+#, kde-format
+msgctxt "Format of the progress bar text. progress and info"
+msgid "%1 : %p%"
+msgstr "%1：%p%"
+
+#: shell/projectsourcepage.cpp:256
+#, kde-format
+msgid ""
+"You need to specify a valid or nonexistent directory to check out a project"
+msgstr "您需要指定合法的或不存在的目錄才能取出專案"
+
+#: shell/projectsourcepage.cpp:258
+#, fuzzy, kde-format
+#| msgid ""
+#| "You need to specify a valid or nonexistent directory to check out a "
+#| "project"
+msgid "You need to specify the source for your remote project"
+msgstr "您需要指定合法的或不存在的目錄才能取出專案"
+
+#: shell/projectsourcepage.cpp:260
+#, fuzzy, kde-format
+#| msgid "You need to specify a valid project location"
+msgid "You need to specify an empty folder as your project destination"
+msgstr "您需要指定合法的專案位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/projectsourcepage.ui:25
+#, kde-format
+msgid "Source:"
+msgstr "來源："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/projectsourcepage.ui:37
+#, kde-format
+msgid "Destination"
+msgstr "目的地"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/projectsourcepage.ui:43
+#, kde-format
+msgid "Directory:"
+msgstr "目錄："
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, workingDir)
+#: shell/projectsourcepage.ui:50
+#, kde-format
+msgid "Select the directory to use..."
+msgstr "選擇要使用的目錄..."
+
+#. i18n: ectx: property (text), widget (QPushButton, get)
+#: shell/projectsourcepage.ui:80
+#, kde-format
+msgid "Get"
+msgstr "抓取"
+
+#: shell/runcontroller.cpp:109
+#, kde-format
+msgid "Profile"
+msgstr "設定檔"
+
+#: shell/runcontroller.cpp:118
+#, kde-format
+msgid "Execute"
+msgstr "執行"
+
+#: shell/runcontroller.cpp:415
+#, kde-format
+msgid "The current launch configuration does not support the '%1' mode."
+msgstr "目前的啟動設定不支援 %1 模式。"
+
+#: shell/runcontroller.cpp:432
+#, kde-format
+msgid "Configure Launches..."
+msgstr "設定啟動器..."
+
+#: shell/runcontroller.cpp:435
+#, kde-format
+msgid "Open Launch Configuration Dialog"
+msgstr "開啟啟動設定對話框"
+
+#: shell/runcontroller.cpp:436
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open Launch Configuration Dialog"
+msgstr "開啟啟動設定對話框"
+
+#: shell/runcontroller.cpp:437
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Opens a dialog to setup new launch configurations, or to change the existing "
+"ones."
+msgstr "開啟對話框以設定新的啟動設定，或是變更目前的啟動設定。"
+
+#: shell/runcontroller.cpp:440
+#, kde-format
+msgid "Execute Launch"
+msgstr "執行啟動"
+
+#: shell/runcontroller.cpp:441
+#, kde-format
+msgctxt "Short text for 'Execute launch' used in the toolbar"
+msgid "Execute"
+msgstr "執行"
+
+#: shell/runcontroller.cpp:443
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Execute current launch"
+msgstr "執行目前的啟動"
+
+#: shell/runcontroller.cpp:444
+#, kde-format
+msgid "Execute current launch"
+msgstr "執行目前的啟動"
+
+#: shell/runcontroller.cpp:445
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Executes the target or the program specified in currently active launch "
+"configuration."
+msgstr "執行目前作用中的目標，或是目前啟動設定裡指定的程式。"
+
+#: shell/runcontroller.cpp:451
+#, kde-format
+msgctxt "Short text for 'Debug launch' used in the toolbar"
+msgid "Debug"
+msgstr "除錯"
+
+#: shell/runcontroller.cpp:452
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Debug current launch"
+msgstr "除錯目前的啟動"
+
+#: shell/runcontroller.cpp:454
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Executes the target or the program specified in currently active launch "
+"configuration inside a Debugger."
+msgstr "在除錯器內執行目前作用中的目標，或是目前啟動設定裡指定的程式。"
+
+#. i18n("Profile Launch"), this);
+#. profileAction->setToolTip(i18nc("@info:tooltip", "Profile current launch"));
+#. profileAction->setStatusTip(i18n("Profile current launch"));
+#. profileAction->setWhatsThis(i18nc("@info:whatsthis", "Executes the target or the program specified in currently active launch configuration inside a Profiler."));
+#. ac->addAction("run_profile", profileAction);
+#. connect(profileAction, SIGNAL(triggered(bool)), this, SLOT(slotProfile()));
+#: shell/runcontroller.cpp:467
+#, kde-format
+msgid "Stop All Jobs"
+msgstr "停止所有的工作"
+
+#: shell/runcontroller.cpp:468
+#, kde-format
+msgctxt "Short text for 'Stop All Jobs' used in the toolbar"
+msgid "Stop All"
+msgstr "全部停止"
+
+#: shell/runcontroller.cpp:471
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Stop all currently running jobs"
+msgstr "停止所有執行中的工作"
+
+#: shell/runcontroller.cpp:472
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Requests that all running jobs are stopped."
+msgstr "要求所有執行中的工作停止。"
+
+#: shell/runcontroller.cpp:478
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: shell/runcontroller.cpp:479
+#, kde-format
+msgctxt "Short text for 'Stop' used in the toolbar"
+msgid "Stop"
+msgstr "停止"
+
+#: shell/runcontroller.cpp:480
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Menu allowing to stop individual jobs"
+msgstr "允許停止個別工作的選單"
+
+#: shell/runcontroller.cpp:481
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "List of jobs that can be stopped individually."
+msgstr "可以被個別停止的工作清單。"
+
+#: shell/runcontroller.cpp:485
+#, kde-format
+msgid "Current Launch Configuration"
+msgstr "目前的啟動設定"
+
+#: shell/runcontroller.cpp:486
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Current launch configuration"
+msgstr "目前的啟動設定"
+
+#: shell/runcontroller.cpp:487
+#, kde-format
+msgid "Current launch Configuration"
+msgstr "目前的啟動設定"
+
+#: shell/runcontroller.cpp:488
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select which launch configuration to run when run is invoked."
+msgstr "請選擇執行被撤銷時要執行哪個啟動設定。"
+
+#: shell/runcontroller.cpp:587
+#, kde-format
+msgid "<%1> Unnamed job"
+msgstr "<%1>未命名工作"
+
+#: shell/runcontroller.cpp:709
+#, kde-format
+msgid "Process Error"
+msgstr "行程錯誤"
+
+#: shell/runcontroller.cpp:939
+#, kde-format
+msgid "New %1 Launcher"
+msgstr "新增 %1 啟動器"
+
+#: shell/runcontroller.cpp:973
+#, kde-format
+msgid "%1 As..."
+msgstr "%1 為..."
+
+#: shell/runtimecontroller.cpp:35
+#, kde-format
+msgid "Host System"
+msgstr ""
+
+#: shell/runtimecontroller.cpp:93
+#, kde-format
+msgid "Allows to select a runtime"
+msgstr ""
+
+#: shell/runtimecontroller.cpp:97
+#, kde-format
+msgid "Runtime: %1"
+msgstr ""
+
+#: shell/savedialog.cpp:57
+#, kde-format
+msgid "Save Modified Files?"
+msgstr "要儲存已變更的檔案嗎？"
+
+#: shell/savedialog.cpp:60
+#, kde-format
+msgid "The following files have been modified. Save them?"
+msgstr "以下的檔案已變更。要儲存嗎？"
+
+#: shell/savedialog.cpp:77
+#, kde-format
+msgid "Save &None"
+msgstr "不儲存(&N)"
+
+#: shell/savedialog.cpp:78
+#, kde-format
+msgid "Discard all modifications"
+msgstr "丟棄所有的變更"
+
+#: shell/session.cpp:169
+#, kde-format
+msgid "(no projects)"
+msgstr "（沒有專案）"
+
+#: shell/sessionchooserdialog.cpp:51
+#, kde-format
+msgctxt "@info"
+msgid "Delete session"
+msgstr "刪除工作階段..."
+
+#: shell/sessionchooserdialog.cpp:64
+#, kde-format
+msgid "Pick a Session"
+msgstr "選擇工作階段"
+
+#: shell/sessionchooserdialog.cpp:77
+#, kde-format
+msgid "Run"
+msgstr "執行"
+
+#: shell/sessionchooserdialog.cpp:109
+#, kde-format
+msgid ""
+"Active session.\n"
+"pid %1, app %2, host %3"
+msgstr ""
+"執行中的工作階段。\n"
+"pid %1，應用程式 %2，主機 %3"
+
+#: shell/sessionchooserdialog.cpp:111
+#, kde-format
+msgid "Running"
+msgstr "執行中"
+
+#: shell/sessionchooserdialog.cpp:204
+#, kde-format
+msgctxt "@title"
+msgid "Cannot Delete Session"
+msgstr "無法刪除工作階段"
+
+#: shell/sessionchooserdialog.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid "<p>Cannot delete a locked session."
+msgstr "<p>無法刪除鎖定的工作階段。"
+
+#: shell/sessionchooserdialog.cpp:208
+#, kde-format
+msgctxt "@info"
+msgid "<p>The session is locked by %1 on %2 (PID %3)."
+msgstr "此工作階段被 %1 於 %2 鎖定（行程代碼 %3）。"
+
+#: shell/sessionchooserdialog.cpp:216
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The session and all contained settings will be deleted. The projects will "
+"stay unaffected. Do you really want to continue?"
+msgstr "此作業階段與所有的設定將被刪除。此專案則不受影響。您確定要繼續嗎？"
+
+#: shell/sessionchooserdialog.cpp:217
+#, kde-format
+msgctxt "@title"
+msgid "Delete Session"
+msgstr "刪除工作階段"
+
+#: shell/sessioncontroller.cpp:140
+#, kde-format
+msgid ""
+"The current session and all contained settings will be deleted. The projects "
+"will stay unaffected. Do you really want to continue?"
+msgstr "目前的作業階段與所有的設定將被刪除。此專案則不受影響。您確定要繼續嗎？"
+
+#: shell/sessioncontroller.cpp:153
+#, kde-format
+msgid "Rename Session"
+msgstr "重新命名工作階段"
+
+#: shell/sessioncontroller.cpp:153
+#, fuzzy, kde-format
+#| msgid "New Session Name"
+msgid "New Session Name:"
+msgstr "新的作業階段名稱"
+
+#: shell/sessioncontroller.cpp:257
+#, fuzzy, kde-format
+#| msgid "Kross Manager"
+msgid "Session Manager"
+msgstr "Kross 管理員"
+
+#: shell/sessioncontroller.cpp:268
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start New Session"
+msgstr "開始新的作業階段"
+
+#: shell/sessioncontroller.cpp:269
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Start a new KDevelop instance with an empty session"
+msgstr "使用空白的工作階段來啟動新的 KDevelop 實體"
+
+#: shell/sessioncontroller.cpp:274
+#, kde-format
+msgid "Rename Current Session..."
+msgstr "重新命名目前的工作階段..."
+
+#: shell/sessioncontroller.cpp:279
+#, kde-format
+msgid "Delete Current Session..."
+msgstr "刪除目前的工作階段..."
+
+#: shell/sessioncontroller.cpp:283
+#, kde-format
+msgid "Quit"
+msgstr "離開"
+
+#: shell/sessioncontroller.cpp:475
+#, kde-format
+msgid "Copy of %1"
+msgstr "複製 %1"
+
+#: shell/sessioncontroller.cpp:537
+#, kde-format
+msgid "Search"
+msgstr "搜尋"
+
+#: shell/sessioncontroller.cpp:560
+#, kde-format
+msgid "Identity"
+msgstr "身份"
+
+#: shell/sessioncontroller.cpp:561
+#, kde-format
+msgid "Contents"
+msgstr "內容"
+
+#: shell/sessioncontroller.cpp:568
+#, kde-format
+msgid "Filter:"
+msgstr "過濾器："
+
+#: shell/sessioncontroller.cpp:599
+#, kde-format
+msgid "Create New Session"
+msgstr "建立新的作業階段"
+
+#: shell/sessionlock.cpp:171
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Running %1 instance (PID: %2) detected, making this one visible instead of "
+"starting a new one"
+msgstr ""
+
+#: shell/sessionlock.cpp:174
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "running %1 instance (PID: %2) is apparently hung"
+msgctxt "@info:shell"
+msgid "Running %1 instance (PID: %2) is apparently hung"
+msgstr "執行中的 %1 實體（行程代碼：%2）顯然已卡住"
+
+#: shell/sessionlock.cpp:175
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "running %1 instance (PID: %2) is apparently hung"
+msgctxt "@info:shell"
+msgid "running %1 instance (PID: %2) is apparently hung"
+msgstr "執行中的 %1 實體（行程代碼：%2）顯然已卡住"
+
+#: shell/sessionlock.cpp:181
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The given application did not respond to a DBUS call, it may have crashed or "
+"is hanging."
+msgstr "指定的應用程式未回應 DBUS 呼叫。可能已經崩潰或是卡住。"
+
+#: shell/sessionlock.cpp:186
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failed to lock the session <em>%1</em>, already locked by %2 on %3 (PID %4)."
+msgstr ""
+"鎖定工作階段 <em>%1</em> 失敗，因為已經由 %2 於 %3 鎖定（行程代碼 %4）。"
+
+#: shell/sessionlock.cpp:190
+#, kde-format
+msgctxt "@info"
+msgid "Failed to lock the session <em>%1</em> (lock-file unavailable)."
+msgstr "鎖定工作階段 <em>%1</em> 失敗（無法取得鎖定檔）。"
+
+#: shell/sessionlock.cpp:194
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<p>Please, close the offending application instance or choose another "
+"session to launch.</p>"
+msgstr "<p>請關掉此應用程式實體並選擇啟動另一個工作階段。</p>"
+
+#: shell/sessionlock.cpp:200
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry startup"
+msgstr "重新嘗試啟動"
+
+#: shell/sessionlock.cpp:203
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose another session"
+msgstr "關閉其它工作階段"
+
+#: shell/sessionlock.cpp:206
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to Lock Session %1"
+msgstr "鎖定工作階段 %1 失敗"
+
+#: shell/sessionlock.cpp:214
+#, kde-format
+msgctxt "@info"
+msgid "The session %1 is already active in another running instance."
+msgstr "工作階段 %1 已在另一個實體執行中。"
+
+#: shell/settings/analyzerspreferences.cpp:39
+#, kde-format
+msgid "Analyzers"
+msgstr ""
+
+#: shell/settings/analyzerspreferences.cpp:49
+#, fuzzy, kde-format
+#| msgid "Configure Launches..."
+msgid "Configure Analyzers"
+msgstr "設定啟動器..."
+
+#: shell/settings/bgpreferences.cpp:86
+#, fuzzy, kde-format
+#| msgid "Enable Background Parser"
+msgid "Configure Background Parser"
+msgstr "開啟背景剖析器"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, kcfg_enable)
+#: shell/settings/bgpreferences.ui:20
+#, kde-format
+msgid ""
+"<p>Enables or disables the background parser.<br>If unsure, leave it "
+"enabled. Disabling the background parser will disable large parts of "
+"KDevelop's functionality.</p>"
+msgstr ""
+"<p>開啟或關閉背景剖析器。<br>如果不確定，請保持開啟。關閉此選項會同時關掉大部"
+"份 KDevelop 的功能。</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_enable)
+#: shell/settings/bgpreferences.ui:23
+#, kde-format
+msgid "Enable Background Parser"
+msgstr "開啟背景剖析器"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_delay)
+#: shell/settings/bgpreferences.ui:35 shell/settings/bgpreferences.ui:45
+#, kde-format
+msgid "The time to wait before the document is re-analyzed when you edit it."
+msgstr "文件在編輯時重新分析前等待的時間。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/settings/bgpreferences.ui:38
+#, kde-format
+msgid "Delay:"
+msgstr "延遲："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_delay)
+#: shell/settings/bgpreferences.ui:48
+#, kde-format
+msgid " ms"
+msgstr " 毫秒"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_threads)
+#: shell/settings/bgpreferences.ui:61 shell/settings/bgpreferences.ui:71
+#, kde-format
+msgid ""
+"The maximum number of parallel instances the background parser uses. If "
+"unsure, select 1 or 2."
+msgstr "同時使用的背景剖析器的最大數量。如果不確定，請選擇 1 或 2。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: shell/settings/bgpreferences.ui:64
+#, kde-format
+msgid "Maximum number of threads:"
+msgstr "執行緒的最大數量："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_threads)
+#: shell/settings/bgpreferences.ui:74
+#, kde-format
+msgid " threads"
+msgstr " 個執行緒"
+
+#: shell/settings/documentationpreferences.cpp:49
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Configure notifications"
+msgid "Configure Documentation"
+msgstr "設定通知"
+
+#: shell/settings/editstyledialog.cpp:113
+#, kde-format
+msgid "No Source Formatter available"
+msgstr "沒有可用的源碼格式器"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPreview)
+#. i18n: ectx: property (text), widget (QLabel, previewLabel)
+#: shell/settings/editstyledialog.ui:40
+#: shell/sourceformatterselectionedit.ui:83
+#, kde-format
+msgid "Preview:"
+msgstr "預覽："
+
+#: shell/settings/environmentpreferences.cpp:82
+#, kde-format
+msgid "Environment"
+msgstr "環境"
+
+#: shell/settings/environmentpreferences.cpp:87
+#, fuzzy, kde-format
+#| msgid "Configure environment variables"
+msgid "Configure Environment Variables"
+msgstr "設定環境變數"
+
+#: shell/settings/environmentprofilelistmodel.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Use default profile (currently: %1)"
+msgid "%1 (default profile)"
+msgstr "使用預設設定檔（目前為：%1）"
+
+#: shell/settings/environmentwidget.cpp:94
+#, fuzzy, kde-format
+#| msgid "Enter variable ..."
+msgid "Enter variable..."
+msgstr "輸入變數..."
+
+#: shell/settings/environmentwidget.cpp:182
+#, fuzzy, kde-format
+#| msgid "New Environment Variable"
+msgid "Enter Name of New Environment Profile"
+msgstr "新增環境變數"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, batchModeEditButton)
+#: shell/settings/environmentwidget.cpp:246
+#: shell/settings/environmentwidget.ui:130
+#, kde-format
+msgid "Batch Edit Mode"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/settings/environmentwidget.ui:22
+#, fuzzy, kde-format
+#| msgid "Environment group:"
+msgid "Environment profile:"
+msgstr "環境群組："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addProfileButton)
+#: shell/settings/environmentwidget.ui:39
+#, fuzzy, kde-format
+#| msgid "Add New..."
+msgid "Add profile..."
+msgstr "新增..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, cloneProfileButton)
+#: shell/settings/environmentwidget.ui:49
+#, fuzzy, kde-format
+#| msgid "Close file"
+msgid "Clone profile..."
+msgstr "關閉檔案"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeProfileButton)
+#: shell/settings/environmentwidget.ui:59
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Remove lock file"
+msgid "Remove profile"
+msgstr "移除鎖定檔"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultProfileButton)
+#: shell/settings/environmentwidget.ui:69
+#, fuzzy, kde-format
+#| msgid "Set As Default Group"
+msgid "Set as default"
+msgstr "設為預設群組"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeVariableButton)
+#: shell/settings/environmentwidget.ui:114
+#, kde-format
+msgid "Remove variable"
+msgstr "移除監看的變數"
+
+#: shell/settings/languagepreferences.cpp:49
+#, fuzzy, kde-format
+#| msgid " files"
+msgid " file"
+msgid_plural " files"
+msgstr[0] " 個檔案"
+
+#: shell/settings/languagepreferences.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Language Support"
+msgid "Language Support"
+msgstr "語言支援"
+
+#: shell/settings/languagepreferences.cpp:88
+#, kde-format
+msgid "Configure Code-Completion and Semantic Highlighting"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shell/settings/languagepreferences.ui:20
+#, kde-format
+msgid "Code Completion"
+msgstr "源碼補完"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_automaticInvocation)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#: shell/settings/languagepreferences.ui:26
+#: shell/settings/languagepreferences.ui:81
+#, kde-format
+msgid "If disabled, the code completion widget will never show automatically."
+msgstr "如果關閉此選項，源碼補完元件就永遠不會自動顯示。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showMultiLineSelectionInformation)
+#: shell/settings/languagepreferences.ui:36
+#, kde-format
+msgid ""
+"Choose whether to display additional information for the currently selected "
+"code completion item."
+msgstr "選擇是否要顯示目前選取的源碼補完項目的額外資訊。"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_completionDetail)
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: shell/settings/languagepreferences.ui:46
+#: shell/settings/languagepreferences.ui:71
+#, kde-format
+msgid ""
+"<p>The code completion UI has a minimal mode and a detailed mode.<br>Choose "
+"in what cases full code completion will be displayed.</p>"
+msgstr ""
+"<p>源碼補完使用者介面有一個最小模式與詳細模式。<br>請選擇在哪種狀況下要顯示完"
+"整的源碼補完功能。</p>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_completionDetail)
+#: shell/settings/languagepreferences.ui:53
+#, kde-format
+msgid "Never"
+msgstr "永遠不要"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_completionDetail)
+#: shell/settings/languagepreferences.ui:58
+#, kde-format
+msgid "When Invoked Manually"
+msgstr "手動撤銷時"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_completionDetail)
+#: shell/settings/languagepreferences.ui:63
+#, kde-format
+msgid "Always"
+msgstr "總是"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/settings/languagepreferences.ui:74
+#, kde-format
+msgid "Detailed completion:"
+msgstr "詳細源碼補完："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: shell/settings/languagepreferences.ui:84
+#, kde-format
+msgid "Enable automatic invocation:"
+msgstr "開啟自動援引（invocation）："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_7)
+#: shell/settings/languagepreferences.ui:91
+#, kde-format
+msgid ""
+"Choose whether to display additional information for the currently selected "
+"codecompletion item."
+msgstr "選擇是否要顯示目前選取的源碼補完項目的額外資訊。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: shell/settings/languagepreferences.ui:94
+#, kde-format
+msgid "Additional information for current item:"
+msgstr "目前項目的額外資訊："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/settings/languagepreferences.ui:104
+#, kde-format
+msgid "Semantic Code Highlighting"
+msgstr "語意源碼突顯"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, localColorizationLabel)
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_localColorization)
+#: shell/settings/languagepreferences.ui:113
+#: shell/settings/languagepreferences.ui:126
+#, kde-format
+msgid ""
+"<p>This setting decides about the intensity of colors for local variables, "
+"for example function arguments, variables and the like.</p>"
+msgstr "<p>此設定決定本地變數的顏色密度，例如函式參數、變數等等。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, localColorizationLabel)
+#: shell/settings/languagepreferences.ui:116
+#, kde-format
+msgid "Local colorization intensity:"
+msgstr "本地型態顏色密度："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, globalColorizationLabel)
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_globalColorization)
+#: shell/settings/languagepreferences.ui:148
+#: shell/settings/languagepreferences.ui:161
+#, kde-format
+msgid ""
+"<p>This settings lets you change the intensity of globally accessible types, "
+"for example classes, methods, functions etc.</p>"
+msgstr "<p>此設定讓您變更全域型態，如類別、方法、函式等的顏色密度</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, globalColorizationLabel)
+#: shell/settings/languagepreferences.ui:151
+#, kde-format
+msgid "Global colorization intensity:"
+msgstr "全域型態顏色密度："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_4)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_highlightSemanticProblems)
+#: shell/settings/languagepreferences.ui:183
+#: shell/settings/languagepreferences.ui:193
+#, kde-format
+msgid ""
+"<p>Highlight semantic problems, such as non-existent or inaccessible "
+"declarations.</p>"
+msgstr "<p>突顯語意上的問題，如找不到或無法存取的宣告。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: shell/settings/languagepreferences.ui:186
+#, kde-format
+msgid "Highlight semantic problems:"
+msgstr "突顯語意問題："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_highlightProblematicLines)
+#: shell/settings/languagepreferences.ui:203
+#: shell/settings/languagepreferences.ui:213
+#, kde-format
+msgid ""
+"<p>When enabled, lines with errors will get additionally highlighted and "
+"their positions get marked in the scrollbar.</p>"
+msgstr ""
+"<p>開啟此選項的話，有錯誤的行會被突顯出來，並且在捲軸列中標示出這些行的位置。"
+"</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: shell/settings/languagepreferences.ui:206
+#, kde-format
+msgid "Highlight problematic lines:"
+msgstr "突顯有問題的行："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#: shell/settings/languagepreferences.ui:223
+#, kde-format
+msgid "Space-separated list of words that make a comment represent a TODO item"
+msgstr "用空白分隔的單字清單，這些單字會讓註解表達待辦項目"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: shell/settings/languagepreferences.ui:226
+#, kde-format
+msgid "TODO marker words:"
+msgstr "待辦項目標記單字："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_todoMarkerWords)
+#: shell/settings/languagepreferences.ui:233
+#, kde-format
+msgid ""
+"Space-separated list of words that make a comment represent a TODO item."
+msgstr "用空白分隔的單字清單，這些單字會讓註解表達待辦項目。"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, boldDeclarationsLabel)
+#: shell/settings/languagepreferences.ui:243
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body><p>\"Note: All overloaded functions, overloads, "
+#| "forward-declarations, etc. will be renamed too\"</p></body></html>"
+msgid ""
+"<html><head/><body><p>Use bold font for declarations such as classes, "
+"functions, local variables, etc.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>「注意：所有過載函式，前置宣告等都會跟著重新命名」</"
+"p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, boldDeclarationsLabel)
+#: shell/settings/languagepreferences.ui:246
+#, fuzzy, kde-format
+#| msgid "( resolved forward-declaration: "
+msgid "Bold font for declarations:"
+msgstr "（已解析的前置宣告："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: shell/settings/languagepreferences.ui:271
+#, kde-format
+msgid "Project Parsing"
+msgstr "專案剖析"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox, kcfg_minFilesForSimplifiedParsing)
+#: shell/settings/languagepreferences.ui:281
+#: shell/settings/languagepreferences.ui:298
+#, kde-format
+msgid ""
+"<p>When a project contains more files than this number, the project will be\n"
+"parsed in simplified mode, increasing the efficiency by gathering less "
+"information. Global code navigation and quickopen capabilities will be "
+"reduced.</p>"
+msgstr ""
+"<p>當專案檔案數大於此數量時，專案會以簡化模式（不收集那麼多資訊）來剖析，以增"
+"加效率。全域代碼導覽與快速開啟相容將被省略。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/settings/languagepreferences.ui:284
+#, kde-format
+msgid "Minimum project size for simplified parsing:"
+msgstr "簡化剖析的最小專案大小："
+
+#: shell/settings/pluginpreferences.cpp:47
+#, kde-format
+msgctxt "@title:group"
+msgid "Core"
+msgstr "核心"
+
+#: shell/settings/pluginpreferences.cpp:48
+#, kde-format
+msgctxt "@title:group"
+msgid "Project Management"
+msgstr "專案管理"
+
+#: shell/settings/pluginpreferences.cpp:49
+#, kde-format
+msgctxt "@title:group"
+msgid "Version Control"
+msgstr "版本控制"
+
+#: shell/settings/pluginpreferences.cpp:50
+#, kde-format
+msgctxt "@title:group"
+msgid "Utilities"
+msgstr "實用工具"
+
+#: shell/settings/pluginpreferences.cpp:51
+#, kde-format
+msgctxt "@title:group"
+msgid "Documentation"
+msgstr "文件"
+
+#: shell/settings/pluginpreferences.cpp:52
+#, kde-format
+msgctxt "@title:group"
+msgid "Language Support"
+msgstr "語言支援"
+
+#: shell/settings/pluginpreferences.cpp:53
+#, kde-format
+msgctxt "@title:group"
+msgid "Debugging"
+msgstr "除錯"
+
+#: shell/settings/pluginpreferences.cpp:54
+#, kde-format
+msgctxt "@title:group"
+msgid "Testing"
+msgstr "測試"
+
+#: shell/settings/pluginpreferences.cpp:55
+#, kde-format
+msgctxt "@title:group"
+msgid "Analyzers"
+msgstr ""
+
+#: shell/settings/pluginpreferences.cpp:56
+#, kde-format
+msgctxt "@title:group"
+msgid "Runtimes"
+msgstr ""
+
+#: shell/settings/pluginpreferences.cpp:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Other"
+msgstr "其他"
+
+#: shell/settings/pluginpreferences.h:40
+#, fuzzy, kde-format
+#| msgid "Loaded Plugins"
+msgid "Plugins"
+msgstr "已載入的外掛程式"
+
+#: shell/settings/pluginpreferences.h:41
+#, fuzzy, kde-format
+#| msgid "Configure Sessions"
+msgid "Configure Plugins"
+msgstr "設定工作階段"
+
+#. i18n: ectx: label, entry (parseAllProjectSources), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:11
+#, kde-format
+msgid ""
+"Schedule all project source code to be parsed by the language support in the "
+"background"
+msgstr "在背景排程依語言支援剖析所有專案源碼。"
+
+#. i18n: ectx: whatsthis, entry (parseAllProjectSources), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:15
+#, kde-format
+msgid ""
+"If this option is set, KDevelop will schedule all source code\n"
+"        found by the current build system for parsing by the appropriate "
+"language\n"
+"        support part.  This will enable more complete language support, but "
+"may\n"
+"        be slower."
+msgstr ""
+"開啟此選項的話，KDevelop 會將所有目前編譯系統找到的源碼，在背景排程依語言支援"
+"做剖析。這樣可以讓語言支援更完整，但是可能會比較慢。"
+
+#. i18n: ectx: whatsthis, entry (projectsBaseDirectory), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:19
+#, kde-format
+msgid "Chooses the base directory where new projects are created."
+msgstr "選擇新專案要建立的基底目錄。"
+
+#. i18n: ectx: label, entry (saveDocuments), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:23
+#, kde-format
+msgid "Save all open documents before building anything"
+msgstr "在編譯前先儲存所有開啟的文件"
+
+#. i18n: ectx: whatsthis, entry (saveDocuments), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:24
+#, kde-format
+msgid ""
+"If this option is set all open documents will be automatically saved before "
+"any build is started."
+msgstr "若設定此選項，會在編譯前先自動儲存所有開啟的文件。"
+
+#: shell/settings/projectpreferences.cpp:57
+#, fuzzy, kde-format
+#| msgid "Project %1"
+msgid "Projects"
+msgstr "專案 %1"
+
+#: shell/settings/projectpreferences.cpp:62
+#, fuzzy, kde-format
+#| msgid "Configure Project %1"
+msgid "Configure Projects"
+msgstr "設定專案 %1"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_projectsBaseDirectory)
+#: shell/settings/projectpreferences.ui:22
+#: shell/settings/projectpreferences.ui:35
+#, kde-format
+msgid "Select the base directory where new projects are to be created."
+msgstr "選擇新專案要建立的基底目錄。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: shell/settings/projectpreferences.ui:25
+#, kde-format
+msgid "Projects base directory:"
+msgstr "專案基底目錄："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_parseAllProjectSources)
+#: shell/settings/projectpreferences.ui:47
+#, kde-format
+msgid "Parse all files in a project after the project has been opened."
+msgstr "在開啟專案後剖析專案裡所有的檔案。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_parseAllProjectSources)
+#: shell/settings/projectpreferences.ui:50
+#, kde-format
+msgid "Schedule all project files for parsing"
+msgstr "將所有專案檔案排入剖析排程"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_saveDocuments)
+#: shell/settings/projectpreferences.ui:57
+#, kde-format
+msgid "Save all modified documents when the \"build\" action is triggered."
+msgstr "在啟動「編譯」動作前先儲存所有已變更的文件。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_saveDocuments)
+#: shell/settings/projectpreferences.ui:60
+#, kde-format
+msgid "Save all documents before building"
+msgstr "在編譯前先儲存所有文件"
+
+#: shell/settings/runtimespreferences.cpp:37
+#, kde-format
+msgid "Runtimes"
+msgstr ""
+
+#: shell/settings/runtimespreferences.cpp:47
+#, fuzzy, kde-format
+#| msgid "Configure Sessions"
+msgid "Configure Runtimes"
+msgstr "設定工作階段"
+
+#: shell/settings/sourceformattersettings.cpp:83
+#: shell/sourceformattercontroller.cpp:123
+#, fuzzy, kde-format
+#| msgid "No Source Formatter available"
+msgid "Source Formatter"
+msgstr "沒有可用的源碼格式器"
+
+#: shell/settings/sourceformattersettings.cpp:88
+#, fuzzy, kde-format
+#| msgid "No Source Formatter available"
+msgid "Configure Source Formatter"
+msgstr "沒有可用的源碼格式器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/settings/sourceformattersettings.ui:20
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkKateOverrideIndentation)
+#: shell/settings/sourceformattersettings.ui:26
+#, kde-format
+msgid ""
+"Override the editor indentation mode according to the formatting style for "
+"documents without Kate modeline."
+msgstr "根據文件的格式化樣式，不考慮 Kate 的模式行來覆寫編輯器的縮排模式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkKateOverrideIndentation)
+#: shell/settings/sourceformattersettings.ui:29
+#, kde-format
+msgid "Override Kate Indentation Mode"
+msgstr "覆寫 Kate 的縮排模式"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkKateModelines)
+#: shell/settings/sourceformattersettings.ui:36
+#, kde-format
+msgid ""
+"Add a Kate modeline according to the formatting style to formatted documents."
+msgstr "根據文件的格式化樣式新增 Kate 編輯器的模式行"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkKateModelines)
+#: shell/settings/sourceformattersettings.ui:39
+#, kde-format
+msgid "Add Kate Modeline"
+msgstr "新增 Kate 模式行"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shell/settings/sourceformattersettings.ui:55
+#, kde-format
+msgid "Formatting Styles"
+msgstr "格式化樣式中"
+
+#: shell/settings/templateconfig.cpp:53
+#, fuzzy, kde-format
+#| msgid "Share Templates"
+msgid "Templates"
+msgstr "分享樣本"
+
+#: shell/settings/templateconfig.cpp:58
+#, fuzzy, kde-format
+#| msgid "Configure Launches..."
+msgid "Configure Templates"
+msgstr "設定啟動器..."
+
+#. i18n: ectx: property (text), widget (QPushButton, loadButton)
+#: shell/settings/templatepage.ui:26
+#, kde-format
+msgid "Load Template From File"
+msgstr "從檔案載入樣本"
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: shell/settings/templatepage.ui:38
+#, kde-format
+msgid "Get More Templates"
+msgstr "取得更多樣本"
+
+#. i18n: ectx: property (text), widget (QPushButton, shareButton)
+#: shell/settings/templatepage.ui:50
+#, kde-format
+msgid "Share Templates"
+msgstr "分享樣本"
+
+#. i18n: ectx: property (text), widget (QPushButton, extractButton)
+#: shell/settings/templatepage.ui:62
+#, kde-format
+msgid "Clone Template"
+msgstr "複製樣本"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, UiConfig)
+#: shell/settings/uiconfig.ui:14 shell/settings/uipreferences.cpp:57
+#, kde-format
+msgid "User Interface"
+msgstr "使用者介面"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shell/settings/uiconfig.ui:23
+#, kde-format
+msgid "Dock Window Behavior"
+msgstr "嵌入式視窗行為"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_4)
+#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_BottomLeftCornerOwner)
+#: shell/settings/uiconfig.ui:29 shell/settings/uiconfig.ui:49
+#, kde-format
+msgid ""
+"<p>Controls whether the bottom left corner is occupied by the dock at the "
+"left, or by the dock at the bottom.</p>"
+msgstr "<p>控制嵌入左方或下方時，是否要佔用左下角。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: shell/settings/uiconfig.ui:32
+#, kde-format
+msgid "Bottom left corner occupied by:"
+msgstr "佔用左下角的項目："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_BottomRightCornerOwner)
+#: shell/settings/uiconfig.ui:39 shell/settings/uiconfig.ui:66
+#, kde-format
+msgid ""
+"<p>Controls whether the bottom right corner is occupied by the dock at the "
+"right, or by the dock at the bottom.</p>"
+msgstr "<p>控制嵌入右方或下方時，是否要佔用右下角。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: shell/settings/uiconfig.ui:42
+#, kde-format
+msgid "Bottom right corner occupied by:"
+msgstr "佔用右下角的項目："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_BottomLeftCornerOwner)
+#: shell/settings/uiconfig.ui:53
+#, kde-format
+msgid "Left Dock"
+msgstr "左端嵌入"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_BottomLeftCornerOwner)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_BottomRightCornerOwner)
+#: shell/settings/uiconfig.ui:58 shell/settings/uiconfig.ui:75
+#, kde-format
+msgid "Bottom Dock"
+msgstr "底端嵌入"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_BottomRightCornerOwner)
+#: shell/settings/uiconfig.ui:70
+#, kde-format
+msgid "Right Dock"
+msgstr "右端嵌入"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/settings/uiconfig.ui:86
+#, kde-format
+msgid "Tabbed Browsing"
+msgstr "分頁瀏覽"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TabBarOpenAfterCurrent)
+#: shell/settings/uiconfig.ui:92
+#, kde-format
+msgid "Controls whether to open new tabs next to the active one."
+msgstr "控制開啟新分頁時是否要開在目前作用中的分頁的隔壁。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabBarOpenAfterCurrent)
+#: shell/settings/uiconfig.ui:95
+#, kde-format
+msgid "Open new tab after current"
+msgstr "在目前的分頁後開啟新分頁"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TabBarArrangeBuddies)
+#: shell/settings/uiconfig.ui:106
+#, kde-format
+msgid ""
+"When enabled, plugins can group related files side by side.\n"
+"For example, a header file will be opened next to the implementation file."
+msgstr ""
+"開啟此選項的話，外掛程式可以將相關的檔案一個個群組起來放在一起。\n"
+"例如，標頭檔會放在實作檔之後。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabBarArrangeBuddies)
+#: shell/settings/uiconfig.ui:109
+#, kde-format
+msgid "Arrange related documents side by side"
+msgstr "安排相關的文件放在一起"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TabBarVisibility)
+#: shell/settings/uiconfig.ui:116
+#, kde-format
+msgid ""
+"Enables or disables the display of the tab bar at the top of the editor "
+"window."
+msgstr "開啟或關閉編輯器視窗上方的分頁列。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabBarVisibility)
+#: shell/settings/uiconfig.ui:119
+#, kde-format
+msgid "Show tabs"
+msgstr "顯示分頁"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: shell/settings/uiconfig.ui:132
+#, kde-format
+msgid "Coloring"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ColorizeByProject)
+#: shell/settings/uiconfig.ui:138
+#, kde-format
+msgid ""
+"When enabled, tabs and other widgets are colored based on the project "
+"affiliation"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ColorizeByProject)
+#: shell/settings/uiconfig.ui:141
+#, kde-format
+msgid "Color widgets based on the project affiliation"
+msgstr ""
+
+#: shell/settings/uipreferences.cpp:67
+#, fuzzy, kde-format
+#| msgid "User Interface"
+msgid "Configure User Interface"
+msgstr "使用者介面"
+
+#: shell/sourceformattercontroller.cpp:129
+#, kde-format
+msgid "&Reformat Source"
+msgstr "重新格式化源碼(&R)"
+
+#: shell/sourceformattercontroller.cpp:130
+#, kde-format
+msgid "Reformat source using AStyle"
+msgstr "使用 AStyle 重新格式化源碼"
+
+#: shell/sourceformattercontroller.cpp:131
+#, kde-format
+msgid "Source reformatting functionality using <b>astyle</b> library."
+msgstr "使用 <b>astyle</b> 函式庫來重新編排源碼。"
+
+#: shell/sourceformattercontroller.cpp:136
+#, kde-format
+msgid "Reformat Line"
+msgstr "重新格式化源碼行"
+
+#: shell/sourceformattercontroller.cpp:137
+#, kde-format
+msgid "Reformat current line using AStyle"
+msgstr "使用 AStyle 重新格式化源碼行"
+
+#: shell/sourceformattercontroller.cpp:138
+#, kde-format
+msgid "Source reformatting of line under cursor using <b>astyle</b> library."
+msgstr "使用 <b>astyle</b> 函式庫來重新編排源碼。"
+
+#: shell/sourceformattercontroller.cpp:143
+#, fuzzy, kde-format
+#| msgid "Reformat Line"
+msgid "Reformat Files..."
+msgstr "重新格式化源碼行"
+
+#: shell/sourceformattercontroller.cpp:144
+#, kde-format
+msgid "Format file(s) using the current theme"
+msgstr "使用目前的主題來格式化檔案"
+
+#: shell/sourceformattercontroller.cpp:145
+#, kde-format
+msgid "Formatting functionality using <b>astyle</b> library."
+msgstr "使用 <b>astyle</b> 函式庫來格式化函式。"
+
+#: shell/sourceformattercontroller.cpp:653
+#, fuzzy, kde-format
+#| msgid "Reformat Line"
+msgid "Reformat files?"
+msgstr "重新格式化源碼行"
+
+#: shell/sourceformattercontroller.cpp:654
+#, kde-format
+msgid "Reformat all files in the selected folder?"
+msgstr ""
+
+#: shell/sourceformattercontroller.cpp:658
+#, fuzzy, kde-format
+#| msgid "Reformat Line"
+msgid "Reformat"
+msgstr "重新格式化源碼行"
+
+#: shell/sourceformatterjob.cpp:53
+#, fuzzy, kde-format
+#| msgid "Reformat Line"
+msgid "Reformatting"
+msgstr "重新格式化源碼行"
+
+#: shell/sourceformatterjob.cpp:64
+#, fuzzy, kde-format
+#| msgid "Reformat Line"
+msgid "Reformat Files"
+msgstr "重新格式化源碼行"
+
+#: shell/sourceformatterjob.cpp:75
+#, fuzzy, kde-format
+#| msgid "Reformat Line"
+msgid "Reformatting one file"
+msgid_plural "Reformatting %1 files"
+msgstr[0] "重新格式化源碼行"
+
+#: shell/sourceformatterselectionedit.cpp:442
+#, kde-format
+msgid ""
+"The style %1 is also used for the following languages:\n"
+"%2.\n"
+"Are you sure you want to delete it?"
+msgstr ""
+"樣式 %1 也會用於以下的語言：\n"
+"%2\n"
+"您確定要刪除它嗎？"
+
+#: shell/sourceformatterselectionedit.cpp:443
+#, kde-format
+msgid "Style being deleted"
+msgstr "準備刪除樣式"
+
+#: shell/sourceformatterselectionedit.cpp:494
+#, kde-format
+msgid "New %1"
+msgstr "新增 %1"
+
+#: shell/sourceformatterselectionedit.cpp:497
+#, kde-format
+msgid "New Style"
+msgstr "新增樣式"
+
+#: shell/sourceformatterselectionedit.cpp:572
+#, fuzzy, kde-format
+#| msgid "No Language selected"
+msgid "No language selected"
+msgstr "沒有選取語言"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/sourceformatterselectionedit.ui:29
+#, kde-format
+msgid "Language:"
+msgstr "語言："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: shell/sourceformatterselectionedit.ui:102
+#, kde-format
+msgid "Formatter:"
+msgstr "格式器："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/sourceformatterselectionedit.ui:122
+#, kde-format
+msgid "Style:"
+msgstr "樣式："
+
+#. i18n: ectx: property (text), widget (QPushButton, btnNewStyle)
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
+#: shell/sourceformatterselectionedit.ui:140 vcs/dvcs/ui/branchmanager.ui:34
+#, kde-format
+msgid "New"
+msgstr "新信"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnEditStyle)
+#: shell/sourceformatterselectionedit.ui:147
+#, kde-format
+msgid "Edit..."
+msgstr "編輯..."
+
+#: shell/textdocument.cpp:404
+#, kde-format
+msgid ""
+"The file \"%1\" is modified on disk.\n"
+"\n"
+"Are you sure you want to overwrite it? (External changes will be lost.)"
+msgstr ""
+"檔案 %1 已被別人變更。\n"
+"\n"
+"您確定要覆寫它嗎？（別人所做的變更將會遺失）"
+
+#: shell/textdocument.cpp:407
+#, kde-format
+msgctxt "@title:window"
+msgid "Document Externally Modified"
+msgstr "文件已被別人變更"
+
+#: shell/textdocument.cpp:646
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr " 行: %1 欄: %2 "
+
+#: shell/uicontroller.cpp:89
+#, kde-format
+msgid "Code"
+msgstr "程式碼"
+
+#: shell/uicontroller.cpp:109
+#, kde-format
+msgid "Review"
+msgstr "重新檢視"
+
+#: shell/uicontroller.cpp:437
+#, kde-format
+msgid "Select Tool View to Add"
+msgstr "選擇要新增的工具檢視"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:86
+#, kde-format
+msgid "<b>Active Working Set</b>"
+msgstr "<b>作用中的工作集</b>"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:88
+#, kde-format
+msgid "<b>Working Set</b>"
+msgstr "<b>工作集</b>"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:106
+#, kde-format
+msgid "Remove this working set. The contained documents are not affected."
+msgstr "移除此工作集。裡面包含的文件不受影響。"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:132
+#, kde-format
+msgid "Documents:"
+msgstr "文件："
+
+#: shell/workingsets/workingsettooltipwidget.cpp:140
+#, kde-format
+msgid "Add All"
+msgstr "全部新增"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:141
+#, kde-format
+msgid ""
+"Add all documents that are part of this working set to the currently active "
+"working set."
+msgstr "將包含於此工作集中的所有文件新增到目前使用的工作集。"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:149
+#, kde-format
+msgid ""
+"Remove all documents that are part of this working set from the currently "
+"active working set."
+msgstr "將包含於此工作集中的所有文件從目前使用的工作集中移除。"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:181
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to open and activate this document."
+msgstr "點擊以開啟此文件。"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:292
+#, kde-format
+msgid "Remove this file from the current working set"
+msgstr "從目前工作集中移除此檔案"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:297
+#, kde-format
+msgid "Add this file to the current working set"
+msgstr "將此檔案加入目前工作集"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:326
+#, kde-format
+msgid "Stash"
+msgstr "Stash"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:332
+#, kde-format
+msgid "Load"
+msgstr "載入"
+
+#: sublime/container.cpp:294
+#, kde-format
+msgid "Line: 00000 Col: 000"
+msgstr "行: 00000 欄: 000"
+
+#: sublime/container.cpp:325
+#, kde-format
+msgid "Show sorted list of opened documents"
+msgstr "顯示所有開啟的文件的順序清單"
+
+#: sublime/container.cpp:337
+#, kde-format
+msgid "(Press Ctrl+Tab to switch)"
+msgstr ""
+
+#: sublime/container.cpp:664
+#, fuzzy, kde-format
+#| msgid "Filename"
+msgid "Copy Filename"
+msgstr "檔案名稱"
+
+#: sublime/container.cpp:667
+#, kde-format
+msgid "Close"
+msgstr "關閉"
+
+#: sublime/container.cpp:669
+#, fuzzy, kde-format
+#| msgid "Close All Ot&hers"
+msgid "Close All Other"
+msgstr "關閉所有其它的文件(&H)"
+
+#: sublime/container.cpp:671
+#, fuzzy, kde-format
+#| msgid "Clos&e All"
+msgid "Close All"
+msgstr "全部關閉(&C)"
+
+#: sublime/idealbuttonbarwidget.cpp:51
+#, kde-format
+msgid "Toggle '%1' tool view."
+msgstr "切換 %1 工具檢視。"
+
+#: sublime/idealbuttonbarwidget.cpp:110
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Right click to add new tool views."
+msgstr "點右鍵以新增工具檢視。"
+
+#: sublime/idealcontroller.cpp:111
+#, fuzzy, kde-format
+#| msgid "%1 Tool Bar"
+msgid "%1 Toolbar"
+msgstr "%1 工具列"
+
+#: sublime/idealdockwidget.cpp:121
+#, fuzzy, kde-format
+#| msgid "Toolview Position"
+msgid "Tool View Position"
+msgstr "工具檢視位置"
+
+#: sublime/idealdockwidget.cpp:125
+#, fuzzy, kde-format
+#| msgctxt "toolview position"
+#| msgid "Left"
+msgctxt "tool view position"
+msgid "Left"
+msgstr "左"
+
+#: sublime/idealdockwidget.cpp:126
+#, fuzzy, kde-format
+#| msgctxt "toolview position"
+#| msgid "Bottom"
+msgctxt "tool view position"
+msgid "Bottom"
+msgstr "底端"
+
+#: sublime/idealdockwidget.cpp:127
+#, fuzzy, kde-format
+#| msgctxt "toolview position"
+#| msgid "Right"
+msgctxt "tool view position"
+msgid "Right"
+msgstr "右"
+
+#: sublime/idealdockwidget.cpp:128
+#, fuzzy, kde-format
+#| msgctxt "toolview position"
+#| msgid "Detached"
+msgctxt "tool view position"
+msgid "Detached"
+msgstr "脫離"
+
+#: sublime/idealdockwidget.cpp:146
+#, kde-format
+msgid "Assign Shortcut..."
+msgstr "指定捷徑..."
+
+#: sublime/idealdockwidget.cpp:147
+#, fuzzy, kde-format
+#| msgid "Use this shortcut to trigger visibility of the toolview."
+msgid "Use this shortcut to trigger visibility of the tool view."
+msgstr "使用此捷徑來觸發工具檢視的可見度。"
+
+#: sublime/idealdockwidget.cpp:150
+#, fuzzy, kde-format
+#| msgid "Remove Toolview"
+msgid "Remove Tool View"
+msgstr "移除工具檢視"
+
+#: sublime/idealdockwidget.cpp:161
+#, kde-format
+msgid "Assign Shortcut For '%1' Tool View"
+msgstr "指定 %1 工作檢視的捷徑"
+
+#: sublime/mainwindow_p.cpp:85
+#, fuzzy, kde-format
+#| msgid "Documentation"
+msgid "Concentration Mode"
+msgstr "文件"
+
+#: sublime/mainwindow_p.cpp:87
+#, kde-format
+msgid "Removes most of the controls so you can focus on what matters."
+msgstr ""
+
+#: sublime/mainwindow_p.cpp:94
+#, kde-format
+msgid "Show Left Dock"
+msgstr "顯示左端嵌入"
+
+#: sublime/mainwindow_p.cpp:101
+#, kde-format
+msgid "Show Right Dock"
+msgstr "顯示右端嵌入"
+
+#: sublime/mainwindow_p.cpp:107
+#, kde-format
+msgid "Show Bottom Dock"
+msgstr "顯示底端嵌入"
+
+#: sublime/mainwindow_p.cpp:113
+#, kde-format
+msgctxt "@action"
+msgid "Focus Editor"
+msgstr "焦點編輯器"
+
+#: sublime/mainwindow_p.cpp:118
+#, kde-format
+msgid "Hide/Restore Docks"
+msgstr "隱藏/回復嵌入"
+
+#: sublime/mainwindow_p.cpp:123
+#, kde-format
+msgid "Next Tool View"
+msgstr "下一個工具檢視"
+
+#: sublime/mainwindow_p.cpp:129
+#, kde-format
+msgid "Previous Tool View"
+msgstr "前一個工具檢視"
+
+#: sublime/mainwindow_p.cpp:135
+#, kde-format
+msgid "Tool Views"
+msgstr "工具檢視"
+
+#: sublime/mainwindow_p.cpp:140
+#, kde-format
+msgid "Left Button Bar"
+msgstr "左側按鍵列"
+
+#: sublime/mainwindow_p.cpp:143
+#, kde-format
+msgid "Right Button Bar"
+msgstr "右側按鍵列"
+
+#: sublime/mainwindow_p.cpp:146
+#, kde-format
+msgid "Bottom Button Bar"
+msgstr "底部按鍵列"
+
+#: util/duchainify/main.cpp:276
+#, kde-format
+msgid "duchainify"
+msgstr "duchainify"
+
+#: util/duchainify/main.cpp:277
+#, fuzzy, kde-format
+#| msgid "Duchain builder application"
+msgid "DUChain builder application"
+msgstr "Duchain 建立器應用程式"
+
+#: util/duchainify/main.cpp:278
+#, kde-format
+msgid "(c) 2009 David Nolden"
+msgstr "(c) 2009 David Nolden"
+
+#: util/duchainify/main.cpp:289
+#, fuzzy, kde-format
+#| msgid "directory"
+msgid "file or directory"
+msgstr "目錄"
+
+#: util/duchainify/main.cpp:291
+#, kde-format
+msgid "Show warnings"
+msgstr "顯示警告"
+
+#: util/duchainify/main.cpp:292
+#, kde-format
+msgid "Show warnings and debug output"
+msgstr "顯示警告與除錯輸出"
+
+#: util/duchainify/main.cpp:293
+#, kde-format
+msgid "Enforce an update of the top-contexts corresponding to the given files"
+msgstr "強制更新與指定檔案相關的頂端內文"
+
+#: util/duchainify/main.cpp:294
+#, kde-format
+msgid ""
+"Enforce an update of the top-contexts corresponding to the given files and "
+"all included files"
+msgstr "強制更新與指定檔案與所有引入檔相關的頂端內文"
+
+#: util/duchainify/main.cpp:295
+#, kde-format
+msgid "Number of threads to use"
+msgstr "使用執行緒的數量"
+
+#: util/duchainify/main.cpp:296
+#, kde-format
+msgid ""
+"Features to build. Options: empty, simplified-visible-declarations, visible-"
+"declarations (default), all-declarations, all-declarations-and-uses, all-"
+"declarations-and-uses-and-AST"
+msgstr ""
+"建立的功能。選項包括：empty, simplified-visible-declarations, visible-"
+"declarations (預設), all-declarations, all-declarations-and-uses, all-"
+"declarations-and-uses-and-AST"
+
+#: util/duchainify/main.cpp:298
+#, kde-format
+msgid "Print complete Definition-Use Chain on successful parse"
+msgstr "剖析成功時印出完整的「定義-使用」鍊"
+
+#: util/duchainify/main.cpp:299
+#, fuzzy, kde-format
+#| msgid "Print complete Definition-Use Chain on successful parse"
+msgid "Print complete DUChain Definitions repository on successful parse"
+msgstr "剖析成功時印出完整的「定義-使用」鍊"
+
+#: util/duchainify/main.cpp:300
+#, fuzzy, kde-format
+#| msgid "Print complete Definition-Use Chain on successful parse"
+msgid ""
+"Print complete DUChain PersistentSymbolTable repository on successful parse"
+msgstr "剖析成功時印出完整的「定義-使用」鍊"
+
+#: util/duchainify/main.cpp:301
+#, kde-format
+msgid "Number defining the maximum depth where declaration details are printed"
+msgstr ""
+
+#: util/duchainify/main.cpp:302
+#, kde-format
+msgid "Dump DUChain graph (in .dot format)"
+msgstr ""
+
+#: util/duchainify/main.cpp:303
+#, kde-format
+msgid "Print problems encountered during parsing"
+msgstr "印出在分析時遇到的問題"
+
+#: util/duchainify/main.cpp:304
+#, kde-format
+msgid "Recursively dump errors from imported contexts."
+msgstr ""
+
+#: util/environmentselectionmodel.cpp:54
+#, kde-format
+msgctxt "@title:column"
+msgid "Profile"
+msgstr "設定檔"
+
+#: util/environmentselectionmodel.cpp:65
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Use default profile (currently: %1)"
+msgstr "使用預設設定檔（目前為：%1）"
+
+#: util/environmentselectionmodel.cpp:69
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 (does not exist)"
+msgstr "%1（不存在）"
+
+#: util/jobstatus.cpp:63
+#, kde-format
+msgid "Task aborted"
+msgstr ""
+
+#: util/projecttestjob.cpp:95
+#, kde-format
+msgid "Run all tests in %1"
+msgstr "已經於 %1 執行所有測試"
+
+#: util/shellutils.cpp:96
+#, kde-format
+msgid ""
+"You don't have write permissions for the following files; add write "
+"permissions for owner before saving?"
+msgstr ""
+
+#: util/shellutils.cpp:97
+#, kde-format
+msgid "Some files are write-protected"
+msgstr ""
+
+#: util/shellutils.cpp:109
+#, kde-format
+msgid "Failed adding write permissions for some files."
+msgstr ""
+
+#: util/shellutils.cpp:109
+#, kde-format
+msgid "Failed setting permissions"
+msgstr ""
+
+#: vcs/dvcs/dvcsjob.cpp:160
+#, kde-format
+msgid "Working Directory does not exist: %1"
+msgstr "工作目錄不存在：%1"
+
+#: vcs/dvcs/dvcsjob.cpp:169
+#, kde-format
+msgid "Working Directory is not absolute: %1"
+msgstr "工作目錄非絕對路徑：%1"
+
+#: vcs/dvcs/dvcsjob.cpp:213
+#, kde-format
+msgid ""
+"Process '%1' exited with status %2\n"
+"%3"
+msgstr ""
+"行程 '%1' 已離開，狀態為 %2\n"
+"%3"
+
+#: vcs/dvcs/dvcsjob.cpp:244
+#, kde-format
+msgid "Command finished with error %1."
+msgstr "指令已結束，但是有錯誤 %1。"
+
+#: vcs/dvcs/dvcsjob.cpp:256
+#, kde-format
+msgid "Command exited with value %1."
+msgstr "指令已離開，狀態為 %1。"
+
+#: vcs/dvcs/dvcsplugin.cpp:107
+#, kde-format
+msgid "Branches..."
+msgstr "分支..."
+
+#: vcs/dvcs/ui/branchmanager.cpp:50
+#, kde-format
+msgid "Branch Manager"
+msgstr "分支管理員"
+
+#: vcs/dvcs/ui/branchmanager.cpp:105
+#, kde-format
+msgid ""
+"You must select a base branch from the list before creating a new branch."
+msgstr "您必須從清單中選擇基礎分支來建立新的分支。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:110
+#, kde-format
+msgid "New branch"
+msgstr "新增分支"
+
+#: vcs/dvcs/ui/branchmanager.cpp:110
+#, kde-format
+msgid "Name of the new branch:"
+msgstr "新分支名稱："
+
+#: vcs/dvcs/ui/branchmanager.cpp:118
+#, kde-format
+msgid ""
+"Branch \"%1\" already exists.\n"
+"Please, choose another name."
+msgstr ""
+"分支 %1 已存在。\n"
+"請選擇其它名稱。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:133
+#, kde-format
+msgid ""
+"Currently at the branch \"%1\".\n"
+"To remove it, please change to another branch."
+msgstr ""
+"您目前在分支 %1 上。\n"
+"若要移除的話，請變更到其它的分支。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:140
+#, kde-format
+msgid "Are you sure you want to irreversibly remove the branch '%1'?"
+msgstr "您確定要刪除此分支 '%1' 嗎？此動作無法回復。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:160 vcs/dvcs/ui/branchmanager.cpp:241
+#, kde-format
+msgid "Already on branch \"%1\"\n"
+msgstr "已經在分支 %1 上\n"
+
+#: vcs/dvcs/ui/branchmanager.cpp:181
+#, fuzzy, kde-format
+#| msgid ""
+#| "Branch \"%1\" already exists.\n"
+#| "Please, choose another name."
+msgid ""
+"Branch \"%1\" doesn't exists.\n"
+"Please, choose another name."
+msgstr ""
+"分支 %1 已存在。\n"
+"請選擇其它名稱。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:191
+#, fuzzy, kde-format
+#| msgid ""
+#| "You must select a base branch from the list before creating a new branch."
+msgid "You must select a branch to merge into current one from the list."
+msgstr "您必須從清單中選擇基礎分支來建立新的分支。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:229 vcs/widgets/vcsdiffpatchsources.cpp:305
+#, kde-format
+msgid "Could not create a patch for the current version."
+msgstr "無法建立目前版本的修補。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:264
+#, fuzzy, kde-format
+#| msgid "Unable to get difference."
+msgid "Unable to retrieve diff."
+msgstr "無法取得差異"
+
+#: vcs/dvcs/ui/branchmanager.cpp:271
+#, fuzzy, kde-format
+#| msgid "There are no differences."
+msgid "There are no committed differences."
+msgstr "沒有差異。"
+
+#: vcs/dvcs/ui/branchmanager.cpp:272 vcs/vcspluginhelper.cpp:280
+#, kde-format
+msgid "VCS support"
+msgstr "VCS 支援"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newButton)
+#: vcs/dvcs/ui/branchmanager.ui:31
+#, kde-format
+msgid "Creates new branch based on the selected branch"
+msgstr "依所選取的分支來建立新分支"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#: vcs/dvcs/ui/branchmanager.ui:41
+#, kde-format
+msgid "The same as git branch -D"
+msgstr "與使用 git branch -D 相同"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, diffButton)
+#: vcs/dvcs/ui/branchmanager.ui:74
+#, kde-format
+msgid ""
+"<p>Show changes between the current branch (or staging area, if not empty) "
+"and the last commit on the selected branch.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, diffButton)
+#: vcs/dvcs/ui/branchmanager.ui:77
+#, fuzzy, kde-format
+#| msgid "Compare to Base..."
+msgid "Compare to Branch"
+msgstr "與 Base 比較..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, checkoutButton)
+#: vcs/dvcs/ui/branchmanager.ui:100
+#, kde-format
+msgid "Checkout to the selected branch"
+msgstr "取出選取的分支"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkoutButton)
+#: vcs/dvcs/ui/branchmanager.ui:103
+#, kde-format
+msgid "Checkout"
+msgstr "取出"
+
+#. i18n: ectx: property (text), widget (QPushButton, mergeButton)
+#: vcs/dvcs/ui/branchmanager.ui:110
+#, kde-format
+msgid "Merge"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DvcsImportMetadataWidget)
+#: vcs/dvcs/ui/dvcsimportmetadatawidget.ui:13
+#, kde-format
+msgid "Import"
+msgstr "匯入"
+
+#. i18n: ectx: property (text), widget (QLabel, labelUrl)
+#: vcs/dvcs/ui/dvcsimportmetadatawidget.ui:22
+#, fuzzy, kde-format
+#| msgid "Source Directory:"
+msgid "Source directory:"
+msgstr "程式源碼目錄："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: vcs/dvcs/ui/dvcsimportmetadatawidget.ui:32
+#: vcs/models/vcsannotationmodel.cpp:131
+#, fuzzy, kde-format
+#| msgid "Commit Message:"
+msgid "Commit message:"
+msgstr "提交訊息："
+
+#: vcs/models/brancheslistmodel.cpp:77
+#, kde-format
+msgid "Branch \"%1\" already exists."
+msgstr "分支 %1 已存在。"
+
+#: vcs/models/brancheslistmodel.cpp:82
+#, kde-format
+msgid "Are you sure you want to rename \"%1\" to \"%2\"?"
+msgstr "您確定要將 \"%1\" 重新命名為 \"%2\" 嗎？"
+
+#: vcs/models/vcsannotationmodel.cpp:129
+#, fuzzy, kde-format
+#| msgid "Author"
+msgid "Author:"
+msgstr "作者"
+
+#: vcs/models/vcsannotationmodel.cpp:130
+#, fuzzy, kde-format
+#| msgid "Date"
+msgid "Date:"
+msgstr "日期"
+
+#: vcs/models/vcseventmodel.cpp:97
+#, kde-format
+msgid "Revision"
+msgstr "版本"
+
+#: vcs/models/vcseventmodel.cpp:99
+#, kde-format
+msgid "Message"
+msgstr "訊息"
+
+#: vcs/models/vcseventmodel.cpp:101
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#: vcs/models/vcseventmodel.cpp:103
+#, kde-format
+msgid "Date"
+msgstr "日期"
+
+#: vcs/models/vcsfilechangesmodel.cpp:45
+#, kde-format
+msgctxt "file was added to versioncontrolsystem"
+msgid "Added"
+msgstr "已增加"
+
+#: vcs/models/vcsfilechangesmodel.cpp:47
+#, kde-format
+msgctxt "file was deleted from versioncontrolsystem"
+msgid "Deleted"
+msgstr "已刪除"
+
+#: vcs/models/vcsfilechangesmodel.cpp:49
+#, kde-format
+msgctxt "file is confilicting (versioncontrolsystem)"
+msgid "Has Conflicts"
+msgstr "有衝突"
+
+#: vcs/models/vcsfilechangesmodel.cpp:51
+#, kde-format
+msgctxt "version controlled file was modified"
+msgid "Modified"
+msgstr "已修改"
+
+#: vcs/models/vcsfilechangesmodel.cpp:53
+#, kde-format
+msgctxt "file is up to date in versioncontrolsystem"
+msgid "Up To Date"
+msgstr "已是最新"
+
+#: vcs/models/vcsfilechangesmodel.cpp:56
+#, kde-format
+msgctxt "file is not known to versioncontrolsystem"
+msgid "Unknown"
+msgstr "未知"
+
+#: vcs/models/vcsfilechangesmodel.cpp:58
+#, kde-format
+msgctxt "Unknown VCS file status, probably a backend error"
+msgid "?"
+msgstr "?"
+
+#: vcs/models/vcsfilechangesmodel.cpp:143
+#, kde-format
+msgid "Filename"
+msgstr "檔案名稱"
+
+#: vcs/models/vcsfilechangesmodel.cpp:144
+#, kde-format
+msgid "Status"
+msgstr "狀態"
+
+#: vcs/models/vcsitemeventmodel.cpp:60
+#, kde-format
+msgid "Added"
+msgstr "已增加"
+
+#: vcs/models/vcsitemeventmodel.cpp:62
+#, kde-format
+msgid "Deleted"
+msgstr "已刪除"
+
+#: vcs/models/vcsitemeventmodel.cpp:64
+#, kde-format
+msgid "Modified"
+msgstr "已修改"
+
+#: vcs/models/vcsitemeventmodel.cpp:66
+#, kde-format
+msgid "Copied"
+msgstr "已複製"
+
+#: vcs/models/vcsitemeventmodel.cpp:68
+#, kde-format
+msgid "Replaced"
+msgstr "已取代"
+
+#: vcs/models/vcsitemeventmodel.cpp:75
+#, kde-format
+msgctxt "separes an action list"
+msgid ", "
+msgstr ", "
+
+#: vcs/models/vcsitemeventmodel.cpp:99
+#, kde-format
+msgid "Actions"
+msgstr "動作"
+
+#: vcs/models/vcsitemeventmodel.cpp:100
+#, kde-format
+msgid "Source Location"
+msgstr "源碼位置"
+
+#: vcs/models/vcsitemeventmodel.cpp:101
+#, kde-format
+msgid "Source Revision"
+msgstr "源碼版本"
+
+#: vcs/vcspluginhelper.cpp:84
+#, kde-format
+msgid "Update"
+msgstr "更新"
+
+#: vcs/vcspluginhelper.cpp:86
+#, kde-format
+msgid "Show Differences..."
+msgstr "顯示差異..."
+
+#: vcs/vcspluginhelper.cpp:87
+#, kde-format
+msgid "Revert"
+msgstr "返轉"
+
+#: vcs/vcspluginhelper.cpp:88 vcs/vcspluginhelper.cpp:438
+#, kde-format
+msgid "History..."
+msgstr "歷史..."
+
+#: vcs/vcspluginhelper.cpp:89
+#, kde-format
+msgid "Annotation..."
+msgstr "最後狀態註記..."
+
+#: vcs/vcspluginhelper.cpp:90
+#, kde-format
+msgid "Show Diff..."
+msgstr "顯示差異..."
+
+#: vcs/vcspluginhelper.cpp:91
+#, kde-format
+msgid "Show Diff (all files)..."
+msgstr "顯示差異（所有檔案）..."
+
+#: vcs/vcspluginhelper.cpp:92
+#, kde-format
+msgid "Push"
+msgstr "傳回上游"
+
+#: vcs/vcspluginhelper.cpp:93
+#, kde-format
+msgid "Pull"
+msgstr "從上游合併"
+
+#: vcs/vcspluginhelper.cpp:279
+#, kde-format
+msgid "There are no differences."
+msgstr "沒有差異。"
+
+#: vcs/vcspluginhelper.cpp:286
+#, kde-format
+msgid "Unable to get difference."
+msgstr "無法取得差異"
+
+#: vcs/vcspluginhelper.cpp:342
+#, kde-format
+msgctxt "%1: path or URL, %2: name of a version control system"
+msgid "%2 History (%1)"
+msgstr "%2 歷史（%1）"
+
+#: vcs/vcspluginhelper.cpp:403
+#, kde-format
+msgid ""
+"Cannot display annotations, missing interface KTextEditor::"
+"AnnotationInterface for the editor."
+msgstr ""
+"無法顯示最後狀態註記，因為找不到編輯器介面 KTextEditor::AnnotationInterface。"
+
+#: vcs/vcspluginhelper.cpp:407
+#, kde-format
+msgid ""
+"Cannot execute annotate action because the document was not found, or was "
+"not a text document:\n"
+"%1"
+msgstr ""
+"無法執行最後狀態註記的動作，因為找不到文件，或不是文字文件。\n"
+"%1"
+
+#: vcs/vcspluginhelper.cpp:433 vcs/widgets/vcseventwidget.cpp:60
+#, fuzzy, kde-format
+#| msgid "Copy Revision"
+msgid "Copy Revision Id"
+msgstr "複製版本"
+
+#: vcs/widgets/standardvcslocationwidget.cpp:34
+#, fuzzy, kde-format
+#| msgid "Introduce the repository URL..."
+msgid "Enter the repository URL..."
+msgstr "導入主目錄網址..."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, VcsCommitDialog)
+#: vcs/widgets/vcscommitdialog.ui:17
+#, kde-format
+msgid "Select Files to commit"
+msgstr "選擇要提交的檔案"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: vcs/widgets/vcscommitdialog.ui:23
+#, fuzzy, kde-format
+#| msgid "Commit Files:"
+msgid "Commit files:"
+msgstr "提交檔案："
+
+#. i18n: ectx: property (text), widget (QCheckBox, recursiveChk)
+#: vcs/widgets/vcscommitdialog.ui:33
+#, kde-format
+msgid "Recursive"
+msgstr "遞迴"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:61
+#, kde-format
+msgid "Commit Message:"
+msgstr "提交訊息："
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:65
+#, kde-format
+msgid "Old Messages"
+msgstr "舊訊息"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:118
+#, fuzzy, kde-format
+#| msgid ""
+#| "For more detailed information please see the Version Control toolview"
+msgid "For more detailed information please see the Version Control tool view."
+msgstr "詳情請參考版本控制工具檢視"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:120
+#, kde-format
+msgid "Unable to commit"
+msgstr "無法提交"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:120
+#, kde-format
+msgid "Commit unsuccessful"
+msgstr "提交不成功"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:232
+#, kde-format
+msgctxt "@action:button To make a commit"
+msgid "Commit"
+msgstr "提交"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:263
+#, kde-format
+msgid ""
+"<qt>Files will be committed:\n"
+"<ul>%1</ul>\n"
+"With message:\n"
+" <pre>%2</pre></qt>"
+msgstr ""
+"<qt>將被提交的檔案：\n"
+"<ul>%1</ul>\n"
+"提交訊息：\n"
+"<pre>%2</pre></qt>"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:265
+#, kde-format
+msgid "About to commit to repository"
+msgstr "準備提交主目錄"
+
+#: vcs/widgets/vcsdiffwidget.cpp:93
+#, kde-format
+msgid "Difference between revision %1 and %2:"
+msgstr "版本 %1 與 %2 的差異："
+
+#. i18n: ectx: property (text), widget (QLabel, revLabel)
+#: vcs/widgets/vcsdiffwidget.ui:28
+#, kde-format
+msgid "Difference between revisions"
+msgstr "版本間的差異"
+
+#: vcs/widgets/vcseventwidget.cpp:92
+#, kde-format
+msgid "Diff to previous revision"
+msgstr "與前一個版本比較"
+
+#: vcs/widgets/vcseventwidget.cpp:95
+#, kde-format
+msgid "Diff between revisions"
+msgstr "在版本之間比較"
+
+#: vcs/widgets/vcseventwidget.cpp:152
+#, kde-format
+msgid "Difference To Previous"
+msgstr "與前一個版本的差異"
+
+#: vcs/widgets/vcseventwidget.cpp:181
+#, kde-format
+msgid "Difference between Revisions"
+msgstr "版本之間的差異"
+
+#~ msgid "Logview"
+#~ msgstr "紀錄檢視"
+
+#~ msgid "Copy revision number"
+#~ msgstr "複製版本號"
+
+#~ msgid "Find"
+#~ msgstr "尋找"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Next"
+#~ msgstr "下一個"
+
+#~ msgid "Previous"
+#~ msgstr "前一個"
+
+#~ msgid "Documentation Tool Bar"
+#~ msgstr "文件工具列"
+
+#~ msgid "Preview"
+#~ msgstr "預覽"
+
+#~ msgid "Format Files"
+#~ msgstr "格式化檔案"
+
+#~ msgid "Close File"
+#~ msgstr "關閉檔案"
+
+#~ msgid "Close Other Files"
+#~ msgstr "關閉其它檔案"
+
+#~ msgid "Close All Files"
+#~ msgstr "關閉全部檔案"
+
+#~ msgid "&Delete Breakpoint"
+#~ msgstr "刪除中斷點(&D)"
+
+#~ msgid "Folder %1"
+#~ msgstr "資料夾 %1"
+
+#~ msgid "Project %1"
+#~ msgstr "專案 %1"
+
+#~ msgid ""
+#~ "Author: %1\n"
+#~ "Date: %2\n"
+#~ "Commit Message: %3"
+#~ msgstr ""
+#~ "作者：%1\n"
+#~ "日期：%2\n"
+#~ "提交訊息：%3"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Run"
+#~ msgstr "執行"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Session"
+#~ msgstr "工作階段"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "Version Control"
+#~ msgstr "版本控制"
+
+#, fuzzy
+#~| msgctxt "project name (branch name)"
+#~| msgid "%1 (%2)"
+#~ msgctxt "a copy of the existing environment was created"
+#~ msgid "%1 (Cloned %2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "Add Group"
+#~ msgstr "新增群組"
+
+#, fuzzy
+#~| msgid "Remove Group"
+#~ msgid "Clone Group"
+#~ msgstr "移除群組"
+
+#~ msgid "Remove Group"
+#~ msgstr "移除群組"
+
+#~ msgid "Remove Selected"
+#~ msgstr "移除選取的項目"
+
+#, fuzzy
+#~| msgid "Enum: "
+#~ msgid "Bb Enum"
+#~ msgstr "列舉："
+
+#~ msgid "Revision Graph..."
+#~ msgstr "修訂版圖形"
+
+#~ msgid ""
+#~ "The installed Kate version does not support the MovingInterface which is "
+#~ "crucial for KDevelop starting from version 4.2.\n"
+#~ "\n"
+#~ "To use KDevelop with KDE SC prior to 4.6, where the SmartInterface is "
+#~ "used instead of the MovingInterface, you need KDevelop 4.1 or lower."
+#~ msgstr ""
+#~ "安裝的 Kate 版本不支援 MovingInterface，但是 KDevelop 4.2 版以後這個外掛程"
+#~ "式是必要的。\n"
+#~ "\n"
+#~ "在 KDE SC 4.6 之前的版本中執行的 KDevelop，使用的是 SmartInterface 而不是 "
+#~ "MovingInterface。您需要改用 KDevelop 4.1 版以前的版本。"
+
+#~ msgctxt "@info:shell"
+#~ msgid "made running %1 instance (PID: %2) visible"
+#~ msgstr "讓執行 %1 的實體（行程代碼：%2）可見"
+
+#~ msgid "Could not load project management plugin %1."
+#~ msgstr "無法載入專案管理外掛程式 %1。"
+
+#~ msgctxt "Refers to a line in source code"
+#~ msgid "Line <b>%1</b>"
+#~ msgstr "第 <b>%1</b> 行"
+
+#~ msgid "Solve: %1"
+#~ msgstr "解決：%1"
+
+#~ msgid "Solve"
+#~ msgstr "解決"
+
+#~ msgid "Hide"
+#~ msgstr "隱藏"
+
+#, fuzzy
+#~| msgid "%1|All Project Files (%1)"
+#~ msgid "All Project Files (%1)"
+#~ msgstr "%1 | 所有專案檔（%1）"
+
+#~ msgid "Build System:"
+#~ msgstr "編譯系統："
+
+#~ msgid "Configure Sessions..."
+#~ msgstr "設定工作階段..."
+
+#~ msgid "Create/Delete/Activate Sessions"
+#~ msgstr "建立/刪除/啟動工作階段"
+
+#~ msgid ""
+#~ "Shows a dialog to Create/Delete Sessions and set a new active session."
+#~ msgstr "顯示對話框以建立、刪除或設定新的工作階段。"
+
+#~ msgid "Configure Sessions"
+#~ msgstr "設定工作階段"
+
+#~ msgid "Clone"
+#~ msgstr "複製"
+
+#~ msgid "Make Active"
+#~ msgstr "啟動"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "*** Aborted ***"
+#~ msgstr "*** 已中止 ***"
+
+#, fuzzy
+#~| msgctxt ""
+#~| msgid "compiling"
+#~ msgctxt "compiling a file: %1 file %2 compiler"
+#~ msgid "compiling %1 (%2)"
+#~ msgstr "編譯中"
+
+#, fuzzy
+#~| msgid "enumeration %1 "
+#~ msgctxt "generating a file: %1 file %2 generator tool"
+#~ msgid "generating %1 (%2)"
+#~ msgstr "列舉 %1"
+
+#, fuzzy
+#~| msgctxt "project name (branch name)"
+#~| msgid "%1 (%2)"
+#~ msgctxt ""
+#~ "Linking object files into a library or executable: %1 target, %2 linker"
+#~ msgid "linking %1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#, fuzzy
+#~| msgctxt "project name (branch name)"
+#~| msgid "%1 (%2)"
+#~ msgctxt ""
+#~ "Linking object files into a library or executable: %1 file, %2 linker"
+#~ msgid "linking %1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#, fuzzy
+#~| msgctxt "project name (branch name)"
+#~| msgid "%1 (%2)"
+#~ msgctxt ""
+#~ "Linking object files into a library or executable: %1 file, %2 compiler"
+#~ msgid "linking %1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#, fuzzy
+#~| msgctxt ""
+#~| msgid "built"
+#~ msgctxt "finished building a target: %1 target name"
+#~ msgid "built %1"
+#~ msgstr "已建置"
+
+#, fuzzy
+#~| msgctxt "Linking object files into a library or executable"
+#~| msgid "linking"
+#~ msgctxt "Linking object files into a library or executable: %1 target"
+#~ msgid "linking %1"
+#~ msgstr "連結中"
+
+#, fuzzy
+#~| msgctxt ""
+#~| msgid "installing"
+#~ msgctxt "installing a file: %1 file"
+#~ msgid "installing %1"
+#~ msgstr "安裝中"
+
+#, fuzzy
+#~| msgctxt ""
+#~| msgid "creating"
+#~ msgctxt "creating a folder: %1 path"
+#~ msgid "creating %1"
+#~ msgstr "建立中"
+
+#, fuzzy
+#~| msgid "enumeration %1 "
+#~ msgctxt "change directory: %1: path"
+#~ msgid "entering %1 (%2)"
+#~ msgstr "列舉 %1"
+
+#~ msgid "New Environment Variables"
+#~ msgstr "新增環境變數"
+
+#~ msgid "Add Multiple Variables"
+#~ msgstr "新增多重變數"
+
+#~ msgctxt "@title:window"
+#~ msgid "Close Document"
+#~ msgstr "關閉文件"
+
+#~ msgid "Recover"
+#~ msgstr "修復"
+
+#~ msgctxt "%1: date of the last snapshot"
+#~ msgid ""
+#~ "The session crashed the last time it was used. The following modified "
+#~ "files can be recovered from a backup from %1."
+#~ msgstr ""
+#~ "此工作階段在上次使用時發生崩潰。以下已變更的檔案可以從 %1 所做的備份中回"
+#~ "復。"
+
+#~ msgid "Crash Recovery"
+#~ msgstr "崩潰修復"
+
+#~ msgid "Could not recover %1, the recovery file is empty"
+#~ msgstr "無法修復 %1，修復備份檔是空的"
+
+#~ msgid "Recovery"
+#~ msgstr "修復"
+
+#~ msgid ""
+#~ "Failed to write recovery copies to %1. Please make sure that your home "
+#~ "directory is writable and not full. This application requires available "
+#~ "space in the home directory to run stable. You may experience application "
+#~ "crashes until you free up some space."
+#~ msgstr ""
+#~ "寫入修復複本到 %1 時失敗。請確定您的家目錄可寫入，並且磁碟空間足夠。此應用"
+#~ "程式需要在家目錄中有足夠的空間才能穩定執行。在您釋放空間的過程中可能會造成"
+#~ "應用程式當掉。"
+
+#~ msgid "Recovery Error"
+#~ msgstr "修復錯誤"
+
+#~ msgctxt ""
+#~ msgid "generating"
+#~ msgstr "產生中"
+
+#~ msgid ""
+#~ "Plugin '%1' could not be loaded correctly and was disabled.\n"
+#~ "Reason: %2."
+#~ msgstr ""
+#~ "外掛程式 %1 無法正確載入，因此已被關閉。\n"
+#~ "理由：%2。"
+
+#~ msgid "Cannot create temporary file to create <i>%1</i>."
+#~ msgstr "建立 <i>%1</i> 時無法建立暫存檔。"
+
+#~ msgid "Save &Selected"
+#~ msgstr "儲存選取(&S)"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Saves all selected files"
+#~ msgstr "儲存所有選取的檔案"
+
+#~ msgid "Example 1"
+#~ msgstr "範例 1"
+
+#~ msgid "(c) 2007, Alexander Dymo"
+#~ msgstr "(c) 2007, Alexander Dymo"
+
+#~ msgid "Example 2"
+#~ msgstr "範例 2"
+
+#~ msgid "Simple KDE ssh client provider"
+#~ msgstr "提供簡單的 KDE ssh 客戶端程式"
+
+#~ msgid ""
+#~ "Displays a KDE Password Dialog and establishes an ssh connection using "
+#~ "libssh. After connecting it executes 'svnserve -t' to provide tunneling."
+#~ msgstr ""
+#~ "顯示 KDE 密碼對話框，並建立 ssh 連線。連線後執行 svnserve -t 並提供通道。"
+
+#~ msgid "(c) 2009"
+#~ msgstr "(c) 2009"
+
+#~ msgid ""
+#~ "Use this client instead of standard ssh when using subversion to provide "
+#~ "a KDE Password Dialog instead of a command-line ssh password prompt."
+#~ msgstr ""
+#~ "若是用 subversion 提供 KDE 密碼對話框而不使用命令列 ssh 密碼提示的話，則選"
+#~ "擇使用此客戶端程式而不使用標準的 ssh。"
+
+#~ msgid "Hostname to connect"
+#~ msgstr "要連線的主機"
+
+#~ msgid "Subversion command to call"
+#~ msgstr "要呼叫的 Subversion 指令"
+
+#~ msgid "svnserve option"
+#~ msgstr "svnserve 選項"
+
+#~ msgid "Cannot create socket, operation aborted."
+#~ msgstr "無法建立 socket，操作中止。"
+
+#~ msgid "Get host by name failed, operation aborted."
+#~ msgstr "查詢主機名稱失敗，操作中止。"
+
+#~ msgid "Cannot connect to host, operation aborted."
+#~ msgstr "無法連線到主機，操作中止。"
+
+#~ msgid "Cannot start an ssh session, operation aborted."
+#~ msgstr "無法啟動 ssh 作業階段，操作中止。"
+
+#~ msgid "SSH connection failed, operation aborted."
+#~ msgstr "SSH 連線失敗，操作中止。"
+
+#~ msgid ""
+#~ "Server does not support any authentication methods for the user, "
+#~ "operation aborted."
+#~ msgstr "伺服器並未提供任何認證方法給使用者，操作中止。"
+
+#~ msgid "ssh auth"
+#~ msgstr "ssh 認證"
+
+#~ msgid ""
+#~ "Unsupported authentication type, could possibly be a bug. Operation "
+#~ "aborted."
+#~ msgstr "未支援的認證型態，可能是程式的問題，操作中止。"
+
+#~ msgid "Authentication failed, operation aborted."
+#~ msgstr "認證失敗，操作中止。"
+
+#~ msgid "Cannot open ssh channel, operation aborted."
+#~ msgstr "無法開啟 ssh 通道，操作中止。"
+
+#~ msgid "Failed to launch 'svnserve -t', operation aborted."
+#~ msgstr "執行 svnserve -t 失敗，操作中止。"
+
+#~ msgid "Cannot set non-blocking mode for stdin, operation aborted."
+#~ msgstr "無法設定標準輸出的非阻斷性模式，操作中止。"
+
+#~ msgid "&Username:"
+#~ msgstr "使用者名稱(&U)："
+
+#~ msgid "&Password or passphrase:"
+#~ msgstr "密碼或密碼片語(&P)："
+
+#~ msgid "Publi&c key:"
+#~ msgstr "公開金鑰(&C)："
+
+#~ msgid "P&rivate key:"
+#~ msgstr "私密金鑰(&R)："
+
+#~ msgid "Password auth"
+#~ msgstr "密碼認證"
+
+#~ msgid "Public key auth"
+#~ msgstr "公開金鑰認證"
+
+#~ msgid "No auth type supported by server"
+#~ msgstr "伺服器未支援認證型態"
+
+#~ msgid "Select keys"
+#~ msgstr "選取金鑰"
+
+#~ msgid "Language Support Settings"
+#~ msgstr "語言支援設定"
+
+#~ msgid "Environment Settings"
+#~ msgstr "環境設定"
+
+#~ msgid "Projects Settings"
+#~ msgstr "專案設定"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Configure various aspects of this editor."
+#~ msgstr "設定這個編輯器的各方面選項。"
+
+#~ msgid ""
+#~ "Could not find KTextEditor::Factory, check your installation:\n"
+#~ "Make sure that Kate is installed, KDEDIRS is set properly and that you "
+#~ "ran kbuildsycoca4."
+#~ msgstr ""
+#~ "找不到 KTextEditor::Factory，請檢查您的安裝。\n"
+#~ "請確定 Kate 已安裝，KDEDIRS 環境變數設定正確，然後執行過 kbuildsycoca4。"
+
+#~ msgid "System Configuration Error"
+#~ msgstr "系統設定錯誤"
+
+#~ msgid "Parser Background Settings"
+#~ msgstr "剖析器背景設定"
+
+#~ msgid ""
+#~ "A KDE text-editor component could not be found.\n"
+#~ "Please check your KDE installation."
+#~ msgstr ""
+#~ "找不到 KDE 文字編輯器元件；\n"
+#~ "請檢查您的 KDE 安裝。"
+
+#~ msgid "Plugin Selection"
+#~ msgstr "外掛程式選取"
+
+#~ msgid "User Interface Settings"
+#~ msgstr "使用者介面設定"
+
+#~ msgid "Unable to read %1"
+#~ msgstr "無法讀取 %1"
+
+#~ msgid "Unable to write to %1"
+#~ msgstr "無法寫入 %1"
+
+#~ msgid "Modifiers: %1 "
+#~ msgstr "變更子：%1"
+
+#~ msgid "TODO"
+#~ msgstr "TODO"
+
+#~ msgid "'%1' + '%2'"
+#~ msgstr "'%1' + '%2'"
+
+#~ msgid "<a href=\"add_watch\">Watch this</a>"
+#~ msgstr "<a href=\"add_watch\">監控此項</a>"
+
+#~ msgid "<a href=\"watchpoint\">Stop on change</a>"
+#~ msgstr "<a href=\"watchpoint\">變更時停止</a>"
+
+#~ msgctxt "toolview position"
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgid "duchaintokross"
+#~ msgstr "duchaintokross"
+
+#~ msgid "Wrapper generator from C++ to Kross"
+#~ msgstr "tooo booring"
+
+#~ msgid "(c) 2008, The KDevelop developers"
+#~ msgstr "(C) 2008，KDevelop 開發團隊"
+
+#~ msgid "input .cpp file"
+#~ msgstr "輸入 .cpp 檔"
+
+#~ msgid "include directories for the parser (colon separated)"
+#~ msgstr "引入檔目錄（以冒號區隔）"
+
+#~ msgid ""
+#~ "include directories that the generated implementation file will have "
+#~ "(colon separated)"
+#~ msgstr "產生的實作檔中會加入的引入檔目錄（以冒號區隔）"
+
+#~ msgid "build dir where the Makefile for the input is added"
+#~ msgstr "編譯目錄，Makefile 會放在這裡"
+
+#~ msgid "filename to be used for the .moc and the .h file"
+#~ msgstr ".moc 與 .h 檔要使用的檔名"
+
+#~ msgid "directory where to put the .h output"
+#~ msgstr "放置 .h 檔輸出的目錄"
+
+#~ msgid "directory where to put the code output"
+#~ msgstr "放置程式檔輸出的目錄"
+
+#~ msgid "Verbose output"
+#~ msgstr "詳細輸出"
+
+#~ msgid ""
+#~ "Cannot execute annotate action because the document was not found, it was "
+#~ "not versioned or it was not a text document:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法執行最後狀態註記的動作，因為找不到文件，文件未納入版本管控，或不是文字"
+#~ "文件。\n"
+#~ "%1"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "error"
+#~ msgstr "錯誤"
+
+#~ msgid "Double-click to create new code breakpoint"
+#~ msgstr "雙擊以建立新的中斷點"
+
+#~ msgid "&Remove all"
+#~ msgstr "全部移除(&R)"
+
+#~ msgid "Session crashed %1 time in a row"
+#~ msgid_plural "Session crashed %1 times in a row"
+#~ msgstr[0] "工作階段已經連續 %1 次崩潰"
+
+#~ msgctxt "Name of an environment variable"
+#~ msgid "Variable Name:"
+#~ msgstr "變數名稱："
+
+#~ msgctxt "Value of an environment variable"
+#~ msgid "Variable Value:"
+#~ msgstr "變數值："
+
+#~ msgid "Subtract All"
+#~ msgstr "全部減去"
+
+#~ msgid "Edit Document"
+#~ msgstr "編輯文件"
+
+#~ msgid "View Differences"
+#~ msgstr "檢視差異處"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Action"
+#~ msgstr "動作"
+
+#~ msgid "Change"
+#~ msgstr "變更"
+
+#~ msgid "Insert"
+#~ msgstr "插入"
+
+#~ msgid "Unable to load the project file %1"
+#~ msgstr "無法載入專案檔 %1"
+
+#~ msgid "%1 (%2 hidden)"
+#~ msgstr "%1（%2 個已隱藏）"
+
+#~ msgid "Events:"
+#~ msgstr "事件："
+
+#~ msgid "Event Details:"
+#~ msgstr "事件詳情："
+
+#~ msgid "Message:"
+#~ msgstr "訊息："
+
+#~ msgid "Profile Launch"
+#~ msgstr "分析檔啟動"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Profile current launch"
+#~ msgstr "分析目前的啟動"
+
+#~ msgid "Profile current launch"
+#~ msgstr "分析目前的啟動"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Executes the target or the program specified in currently active launch "
+#~ "configuration inside a Profiler."
+#~ msgstr "在分析器內執行目前作用中的目標，或是目前啟動設定裡指定的程式。"
+
+#~ msgid "Area Switcher"
+#~ msgstr "區域切換器"
+
+#~ msgid "Show text"
+#~ msgstr "顯示文字"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "Disable"
+#~ msgstr "關閉"
+
+#~ msgid "Enable"
+#~ msgstr "開啟"
+
+#~ msgctxt "@info"
+#~ msgid "The session lock-file is stale."
+#~ msgstr "此工作階段的鎖定檔已過時。"
+
+#~ msgctxt "@info"
+#~ msgid "Error while taking the session lock-file."
+#~ msgstr "取得工作階段鎖定檔時發生錯誤。"
+
+#~ msgctxt "@info"
+#~ msgid "The session lock-file is owned."
+#~ msgstr "已取得此工作階段的鎖定檔。"
+
+#~ msgctxt "@info %1 is program name"
+#~ msgid ""
+#~ "<p>Do you want to remove the lock file and force a new %1 instance?<br/"
+#~ "><strong>Beware:</strong> Only do this if you are sure there is no "
+#~ "running process using this session.</p><p>Otherwise, close the offending "
+#~ "application instance or choose another session to launch.</p>"
+#~ msgstr ""
+#~ "<p>您要移除鎖定檔並強制啟動一個新的 %1 實體嗎？<br/><strong>請小心：</"
+#~ "strong>除非您非常確定該工作階段沒有其他行程正在執行，不然請不要這樣做。</"
+#~ "p><p>否則，請關掉此應用程式實體並選擇啟動另一個工作階段。</p>"
+
+#~ msgid "Do not obtain"
+#~ msgstr "不要取得"
+
+#~ msgid "Open Recent"
+#~ msgstr "開啟最近的"
+
+#~ msgid "Working Directory:"
+#~ msgstr "工作目錄："
+
+#~ msgid "Close Working Set (Left Click)"
+#~ msgstr "關閉工作集（點擊左鍵）"
+
+#~ msgid "Duplicate Working Set"
+#~ msgstr "複製工作集"
+
+#~ msgid "Load Working Set (Left Click)"
+#~ msgstr "載入工作集（點擊左鍵）"
+
+#~ msgid "Delete Working Set"
+#~ msgstr "刪除工作集"
+
+#, fuzzy
+#~| msgid "Annotation..."
+#~ msgid "Hide annotation"
+#~ msgstr "最後狀態註記..."
+
+#~ msgid "Could not show the Branch Manager, current branch is unavailable."
+#~ msgstr "無法顯示分支管理員，因為無法取得目前的分支。"
+
+#~ msgid "<i>Solve:</i> %1"
+#~ msgstr "<i>解決</i>：%1"
+
+#~ msgid "<i>Solve</i>"
+#~ msgstr "<i>解決</i>"
+
+#~ msgid "Job exited normally"
+#~ msgstr "工作已正常結束"
+
+#~ msgid "Listing the log of the files failed"
+#~ msgstr "列出檔案的紀錄失敗"
+
+#~ msgid "No log information found"
+#~ msgstr "沒有找到紀錄資訊"
+
+#~ msgctxt "The term for commit (not action)"
+#~ msgid "Commit"
+#~ msgstr "提交"
+
+#~ msgid "Log"
+#~ msgstr "紀錄"
+
+#~ msgid "No Version Control support for this project."
+#~ msgstr "此專案沒有版本控制支援。"
+
+#~ msgid "Git"
+#~ msgstr "Git"
+
+#~ msgid "DVCS"
+#~ msgstr "DVCS"
+
+#~ msgid "Select the project"
+#~ msgstr "選擇專案"
+
+#~ msgid "<b>Close File</b><p>Closes current file.</p>"
+#~ msgstr "<b>關閉檔案</b><p>關閉目前的檔案。</p>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<b>About KDevelop Platform</b><p>Shows a dialog with information about "
+#~ "KDevelop Platform.</p>"
+#~ msgstr "<b>關於 KDevelop 平台</b><p>顯示關於 KDevelop 平台的資訊</p>"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "<b>Open recent project</b><p>Opens recently opened project.</p>"
+#~ msgstr "<b>開啟最近的專案</b><p>開啟最近使用過的專案。</p>"
+
+#~ msgctxt "Short text for 'Execute Launch' used in the toolbar"
+#~ msgid "Execute"
+#~ msgstr "執行"
+
+#~ msgctxt "Short text for 'Debug Launch' used in the toolbar"
+#~ msgid "Debug"
+#~ msgstr "除錯"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Current Launch Configuration"
+#~ msgstr "目前的啟動設定"
+
+#~ msgid "Files will be committed:\n"
+#~ msgstr "要提交的檔案：\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "With message:\n"
+#~ " %1"
+#~ msgstr ""
+#~ "\n"
+#~ "提交訊息：\n"
+#~ "%1"
+
+#~ msgid "<a href='open'>Line <b>%1</b></a> %2"
+#~ msgstr "<a href='open'>第 <b>%1</b> 行</a> %2"
+
+#~ msgid "Context"
+#~ msgstr "內容"
+
+#~ msgid "<i>(1 use)</i>"
+#~ msgid_plural "<i>(%1 uses)</i>"
+#~ msgstr[0] "<i>（%1 個使用）</i>"
+
+#~ msgid "<b>File:</b> %2&nbsp;<i>(1 use)</i>"
+#~ msgid_plural "<b>File:</b> %2&nbsp;<i>(%1 uses)</i>"
+#~ msgstr[0] "<b>檔案：</b> %2 &nbsp; <i>（%1 個使用）</i>"
+
+#~ msgid "Delay in Milliseconds"
+#~ msgstr "延遲時間，以毫秒為單位"
+
+#~ msgid "Level"
+#~ msgstr "等級"
+
+#~ msgid ""
+#~ "Use minimal completion when the completion is automatic, and full "
+#~ "completion when it is triggered manually"
+#~ msgstr "自動補完時使用最小等級，手動補完則使用最大等級"
+
+#~ msgid "Minimal Automatic Completion"
+#~ msgstr "最小自動補完"
+
+#~ msgid ""
+#~ "When this is enabled, the completion-box will always show full type-"
+#~ "information and argument-hints"
+#~ msgstr "開啟此選項的話，補完盒會永遠使用完整的型態資訊與參數提示"
+
+#~ msgid "Always Full Completion"
+#~ msgstr "總是使用最大補完"
+
+#~ msgid "Do not show type-information or argument-hints"
+#~ msgstr "不要顯示型態資訊或參數提示"
+
+#~ msgid "Always Minimal Completion"
+#~ msgstr "總是使用最小補完"
+
+#~ msgid "Bottom Left Owner"
+#~ msgstr "左下的擁有者"
+
+#~ msgid "Path Mappings"
+#~ msgstr "路徑映射"
+
+#~ msgid "Create New Class in %1"
+#~ msgstr "在 %1 建立新類別"
+
+#~ msgid "Class Basics"
+#~ msgstr "類別基本"
+
+#~ msgid "Override Methods"
+#~ msgstr "覆寫方法"
+
+#~ msgid "License"
+#~ msgstr "版權"
+
+#~ msgid "Output"
+#~ msgstr "輸出"
+
+#~ msgid "Could not load previous license"
+#~ msgstr "無法載入前一個授權"
+
+#~ msgid ""
+#~ "The specified license already exists. Please provide a different name."
+#~ msgstr "指定的授權檔已存在，請另外指定新名稱。"
+
+#~ msgid "There was an error writing the file."
+#~ msgstr "寫入檔案時發生錯誤。"
+
+#~ msgid "Public"
+#~ msgstr "公開（public）"
+
+#~ msgid "Protected"
+#~ msgstr "保護（protected）"
+
+#~ msgid "Private"
+#~ msgstr "私有（private）"
+
+#~ msgid "Class Options"
+#~ msgstr "類別選項"
+
+#~ msgid "Abstract class (allow pure virtuals)"
+#~ msgstr "抽象類別（允許純虛擬方法）"
+
+#~ msgid "Disable copy"
+#~ msgstr "關閉複製"
+
+#~ msgid "Implicit Sharing"
+#~ msgstr "隱式分享"
+
+#~ msgid "D-Pointer"
+#~ msgstr "D 指標"
+
+#~ msgid "Qt-style shared d-pointer"
+#~ msgstr "Qt 式的分享 D 指標"
+
+#~ msgid "Virtual Hook"
+#~ msgstr "虛擬勾"
+
+#~ msgid "Group by access specifier (public / private etc)"
+#~ msgstr "依存取型態（如 public、private 等）分組"
+
+#~ msgid "Choose the license under which to place the new class."
+#~ msgstr "選擇新類別要放在哪個授權下。"
+
+#~ msgid "License type:"
+#~ msgstr "授權型態："
+
+#~ msgid "Click here if you want to save this license for future use"
+#~ msgstr "若您要儲存此授權以便將來使用，請點擊此處"
+
+#~ msgid "Save License"
+#~ msgstr "儲存授權"
+
+#~ msgid "Identify the class and any classes from which it is to inherit."
+#~ msgstr "類別的身份，以及其繼承的類別。"
+
+#~ msgid "&Identifier:"
+#~ msgstr "辨識子(&I)"
+
+#~ msgid "In&heritance:"
+#~ msgstr "繼承(&H)："
+
+#~ msgid "Move Up"
+#~ msgstr "上移"
+
+#~ msgid "Move Down"
+#~ msgstr "下移"
+
+#~ msgid "Choose where to save the new class."
+#~ msgstr "選擇新類別要儲存在哪裡。"
+
+#~ msgid "Output file(s)"
+#~ msgstr "輸出檔案"
+
+#~ msgid "&Header:"
+#~ msgstr "標頭(&H)："
+
+#~ msgid "&Implementation:"
+#~ msgstr "實作(&I)："
+
+#~ msgid "Low case file names"
+#~ msgstr "小寫檔名"
+
+#~ msgid "Location within existing file(s)"
+#~ msgstr "在現有檔案中的位置"
+
+#~ msgid "Select any methods you would like to override in the new class."
+#~ msgstr "選取您要在新類別中覆寫的方法。"
+
+#~ msgid "Superclass -> Function"
+#~ msgstr "超類別 => 函式"
+
+#~ msgid "Access"
+#~ msgstr "存取"
+
+#~ msgid "Signal"
+#~ msgstr "信號"
+
+#~ msgid "Slot"
+#~ msgstr "信號槽"
+
+#~ msgid "Select &All"
+#~ msgstr "全部選取(&A)"
+
+#~ msgid "&Deselect All"
+#~ msgstr "全不選(&D)"
+
+#~ msgid "... hide %1 filtered"
+#~ msgstr "... 隱藏 %1 個已過濾項目"
+
+#~ msgid "New %1 Configuration"
+#~ msgstr "新增 %1 設定"
+
+#~ msgctxt "@action:button"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid ""
+#~ "The session %1 is already active in another running instance. Choose "
+#~ "another session or close the running instance."
+#~ msgstr ""
+#~ "工作階段 %1 已在另一個實體中啟動。請選擇另一個工作階段，或是關閉目前執行中"
+#~ "的實體。"
+
+#~ msgid ""
+#~ "Failed to lock the session %1, probably it is already active in another "
+#~ "running instance"
+#~ msgstr ""
+#~ "鎖定工作階段 %1 時失敗。也許是因為選取的工作階段已在另一個實體執行中"
+
+#~ msgid "Revision History"
+#~ msgstr "版本歷史"
+
+#~ msgid "Launch Configurations:"
+#~ msgstr "啟動設定："
+
+#~ msgid "New Class"
+#~ msgstr "新增類別"
+
+#~ msgid "Override virtual functions"
+#~ msgstr "覆寫虛擬函式"
+
+#~ msgid "@info:whatsthis"
+#~ msgstr "@info:whatsthis"
+
+#~ msgid "Rever&t All"
+#~ msgstr "全部回復(&T)"
+
+#~ msgid "Relative Path"
+#~ msgstr "相關路徑"
+
+#~ msgid "Lock the tool"
+#~ msgstr "鎖定工具"
+
+#~ msgid ""
+#~ "<b>Lock the tool</b><p>When a tool is unlocked, it will be automatically "
+#~ "hidden when you click outside it. A locked tool will remain visible until "
+#~ "you explicitly hide it, or switch to a different tool.</p>"
+#~ msgstr ""
+#~ "<b>鎖定工具</b><p>當工具解除鎖定時，它在您點擊外面時會自動隱藏。將工具鎖定"
+#~ "則會保持可見，除非您特別去隱藏，或是切換到別的工具。</p>"
+
+#~ msgid "Remove the tool"
+#~ msgstr "移除工具"
+
+#~ msgid ""
+#~ "<b>Remove the tool</b><p>Removes this tool completely. You can add the "
+#~ "tool again by using the <tt>View->Add Tool View</tt> command.</p>"
+#~ msgstr ""
+#~ "<b>移除工具</b><p>完全移除此工具。您可以用「檢視」─「新增工具檢視」來重新"
+#~ "加入。</p>"
+
+#~ msgid "Unlock Toolview"
+#~ msgstr "解除鎖定工具檢視"
+
+#~ msgid "Lock Toolview"
+#~ msgstr "鎖定工具檢視"
+
+#~ msgid "Show Top Dock"
+#~ msgstr "顯示頂端嵌入"
+
+#~ msgid "Remove view"
+#~ msgstr "移除檢視"
+
+#~ msgid "Anchor Current Dock"
+#~ msgstr "定錨目前的嵌入"
+
+#~ msgid "Maximize Current Dock"
+#~ msgstr "最大化目前的嵌入"
+
+#~ msgid "Top Left Owner"
+#~ msgstr "左上的擁有者"
+
+#~ msgid "Top Right Owner"
+#~ msgstr "右上的擁有者"
+
+#~ msgid "Top Dock"
+#~ msgstr "頂端嵌入"
+
+#~ msgid "Compare to Head..."
+#~ msgstr "與 Head 比較..."
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; "
+#~ "font-size:9pt;\">Insert commit message here</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; "
+#~ "font-size:9pt;\">請在此寫入提交訊息</p></body></html>"
+
+#~ msgid "Previous Messages:"
+#~ msgstr "前一個訊息："
+
+#~ msgid "Mimetype:"
+#~ msgstr "Mime 型態："
+
+#~ msgid "Session"
+#~ msgstr "工作階段"
+
+#~ msgid "Navigation"
+#~ msgstr "導覽"
+
+#~ msgid "Window"
+#~ msgstr "視窗"
+
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgid ""
+#~ "Launcher could not be found for the name '%1'. Check the launch "
+#~ "configuration."
+#~ msgstr "找不到名為 %1 的啟動器。請檢查啟動設定。"
+
+#~ msgid ""
+#~ "This session crashed at %1, but recovery copies of the following modified "
+#~ "files are available.\n"
+#~ "\n"
+#~ "Push Continue to recover the modified files.\n"
+#~ "\n"
+#~ "Push Cancel to lose the modifications."
+#~ msgstr ""
+#~ "此工作階段於 %1 崩潰，但是以下的已變更檔案還有可用於修復的備份。\n"
+#~ "\n"
+#~ "按「繼續」來修復這些已變更的檔案。\n"
+#~ "\n"
+#~ "按「取消」則會丟棄這些變更。"
+
+#~ msgid "No project"
+#~ msgstr "沒有專案"
+
+#~ msgid "Plugin for unit-tests"
+#~ msgstr "單位測試的外掛程式"
+
+#~ msgid "&Assistant Action 1"
+#~ msgstr "小助手動作 1 (&A)"
+
+#~ msgid "&Assistant Action 2"
+#~ msgstr "小助手動作 2 (&A)"
+
+#~ msgid "&Assistant Action 3"
+#~ msgstr "小助手動作 3 (&A)"
+
+#~ msgid "&Assistant Action 4"
+#~ msgstr "小助手動作 4 (&A)"
+
+#~ msgid "&Hide Assistant"
+#~ msgstr "隱藏小助手"
+
+#~ msgid "[running, process %1]"
+#~ msgstr "[執行中，行程 %1]"
+
+#~ msgid "Unlock"
+#~ msgstr "解除鎖定"
+
+#~ msgid "Lock"
+#~ msgstr "鎖定"
+
+#, fuzzy
+#~| msgid "Edit Document"
+#~ msgid "Next Document"
+#~ msgstr "編輯文件"
+
+#, fuzzy
+#~| msgid "Close Document"
+#~ msgid "Previous Document"
+#~ msgstr "關閉文件"
+
+#, fuzzy
+#~| msgid "Could not find an open document"
+#~ msgid "Could not find any modifications to commit."
+#~ msgstr "找不到開啟的文件"
+
+#~ msgid "Horses are forbidden to eat fire hydrants in Marshalltown, Iowa."
+#~ msgstr "我想誰都不會看到這一個訊息，是吧？"
+
+#~ msgid ""
+#~ "The branch is going to be renamed from\n"
+#~ "%1 to %2.\n"
+#~ "Are you sure?"
+#~ msgstr ""
+#~ "此分支的名稱將從\n"
+#~ "%1 改為 %2。\n"
+#~ "您確定嗎？"
+
+#~ msgid ""
+#~ "About to remove the branch \"%1\".\n"
+#~ "Once removed, it cannot be restored.\n"
+#~ "Are you sure?"
+#~ msgstr ""
+#~ "您打算移除分支 %1。\n"
+#~ "此動作將無法回復。\n"
+#~ "您確定嗎？"
+
+#~ msgid "Character"
+#~ msgstr "字元"
+
+#~ msgid "&Add"
+#~ msgstr "加入(&A)"
+
+#~ msgid "&Remove"
+#~ msgstr "移除(&R)"
+
+#~ msgctxt "New breakpoint"
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgid "Delete all"
+#~ msgstr "全部刪除"
+
+#, fuzzy
+#~| msgid "Target '%1' could not be found."
+#~ msgid "The name for '%1' could not be changed"
+#~ msgstr "找不到目標 %1。"
+
+#~ msgid "Add Comment Characters"
+#~ msgstr "新增註解字元"
+
+#~ msgid "Undo"
+#~ msgstr "復原"
+
+#~ msgid "Redo"
+#~ msgstr "重做"
+
+#~ msgid "Cut"
+#~ msgstr "剪下"
+
+#~ msgid "Copy"
+#~ msgstr "複製"
+
+#~ msgid "Paste"
+#~ msgstr "貼上"
+
+#~ msgid "Advanced"
+#~ msgstr "進階"
+
+#~ msgid "Lets you toggle the menubar on/off."
+#~ msgstr "讓您切換是否顯示選單列。"
+
+#~ msgid "Delete style"
+#~ msgstr "刪除樣式"
+
+#~ msgid "Please enter a name for the new style"
+#~ msgstr "請輸入新樣式的名稱"
+
+#~ msgid "Custom Style"
+#~ msgstr "自訂樣式"
+
+#~ msgid ""
+#~ "Automatically Add Opened\n"
+#~ "Projects to the Buildset"
+#~ msgstr "自動將已開啟專案加入編譯集"
+
+#~ msgid "Automatically add opened projects to the Buildset"
+#~ msgstr "自動將已開啟專案加入編譯集內"
+
+#~ msgid ""
+#~ "If this option is enabled then any project that is opened will "
+#~ "automatically be added to the buildset."
+#~ msgstr "若開啟此選項，則所有開啟的專案會自動加入編譯集內。"
+
+#~ msgid "Enter a name for the target"
+#~ msgstr "輸入目標名稱"
+
+#~ msgid "Executable"
+#~ msgstr "執行檔"
+
+#~ msgid "Arguments"
+#~ msgstr "參數"
+
+#~ msgid "Start In Terminal"
+#~ msgstr "在終端機啟動"
+
+#~ msgid "Before Execute"
+#~ msgstr "執行前"
+
+#~ msgid "Item to run"
+#~ msgstr "要執行的項目"
+
+#~ msgid "Run Targets:"
+#~ msgstr "執行目標："
+
+#~ msgid "Run Options"
+#~ msgstr "執行選項"
+
+#~ msgid "Target"
+#~ msgstr "目標訊息"
+
+#~ msgid "Enter the target path here"
+#~ msgstr "在此輸入目標路徑"
+
+#~ msgid "Enter the target here..."
+#~ msgstr "在此輸入目標"
+
+#~ msgid "Behavior"
+#~ msgstr "行為"
+
+#~ msgid "&Environment:"
+#~ msgstr "環境(&E)"
+
+#~ msgid "Start the main program in an external terminal"
+#~ msgstr "在外部終端機啟動主程式"
+
+#~ msgid "Start in external terminal:"
+#~ msgstr "在外部終端機啟動："
+
+#~ msgid "Arg&uments:"
+#~ msgstr "程式參數(&U)："
+
+#~ msgid "The command line arguments passed to the main program when run"
+#~ msgstr "執行時要傳給主程式的命令列參數"
+
+#~ msgid "Dependencies"
+#~ msgstr "相依性"
+
+#~ msgid "Targets:"
+#~ msgstr "目標："
+
+#~ msgid "Enter the compilation dependency you need here..."
+#~ msgstr "在此輸入您需要的編譯相依性..."
+
+#~ msgid "Up"
+#~ msgstr "上"
+
+#~ msgid "Down"
+#~ msgstr "下"
+
+#~ msgid "Before Execution:"
+#~ msgstr "執行前："
+
+#~ msgid "Build & Install (as Super User)"
+#~ msgstr "使用 root 身份編譯並安裝"
+
+#~ msgid "Sto&p"
+#~ msgstr "停止(&P)"
+
+#~ msgid "Stop debugger"
+#~ msgstr "停止除錯器"
+
+#~ msgid ""
+#~ "<b>Stop debugger</b><p>Kills the executable and exits the debugger.</p>"
+#~ msgstr "<b>停止除錯器</b><p>停止執行並離開除錯器。</p>"
+
+#~ msgid ""
+#~ "The file \"%1\" is modified in memory. Are you sure you want to reload "
+#~ "it? (Local changes will be lost.)"
+#~ msgstr "檔案 %1 已變更。您確定要重新載入嗎？（您的變更將會遺失）"
+
+#~ msgid "Document is Modified"
+#~ msgstr "文件已變更"
+
+#~ msgid ""
+#~ "Trying to apply changes to a temporary that is not in this change set: %1"
+#~ msgstr "試著套用變更於一個暫時性，不在此變更集的：%1"
+
+#~ msgid "Did not select anything, not adding to a target."
+#~ msgstr "並未選擇任何東西，因此未加入目標。"
+
+#~ msgid "Close Working Set"
+#~ msgstr "關閉工作集"
+
+#~ msgid "Plugin Name: <b>%1</b><br />Plugin Description: %2<br/>"
+#~ msgstr "外掛程式名稱：<b>%1</b><br />外掛程式描述：%2<br/>"
+
+#~ msgid "<html>%1</html>"
+#~ msgstr "<html>%1</html>"
+
+#~ msgctxt "file was added to index"
+#~ msgid "Added (in index)"
+#~ msgstr "已新增至索引"
+
+#~ msgctxt "file was deleted from index"
+#~ msgid "Deleted (in index)"
+#~ msgstr "已自索引刪除"
+
+#~ msgctxt "file was modified in index"
+#~ msgid "Modified (in index)"
+#~ msgstr "已變更索引"
+
+#~ msgid "Could not reset files. %1 returned no job to execute."
+#~ msgstr "無法重置檔案。傳回 %1，未執行任何動作。"
+
+#~ msgid "Could not add files to commit list. %1 returned no job to execute."
+#~ msgstr "無法將檔案新增至提交清單。傳回 %1，未執行任何動作。"
+
+#~ msgid "Failed to add files to commit"
+#~ msgstr "新增檔案到提交列表中失敗"
+
+#~ msgid "Could not remove files. %1 returned no job to execute."
+#~ msgstr "無法移除檔案。傳回 %1，未執行任何動作。"
+
+#~ msgid "Failed to remove files"
+#~ msgstr "移除檔案失敗"
+
+#~ msgid "%1 Area"
+#~ msgstr "%1 區域"
+
+#~ msgid "Close All Projects"
+#~ msgstr "關閉所有專案"
+
+#~ msgid "Close all currently open projects"
+#~ msgstr "關閉所有目前開啟的專案"
+
+#~ msgid ""
+#~ "<b>Close all projects</b><p>Closes all of the currently open projects.</p>"
+#~ msgstr "<b>關閉所有專案</b><p>關閉所有目前開啟的專案。</p>"
+
+#~ msgid "Reopen projects on startup:"
+#~ msgstr "啟動時重新開啟專案："
+
+#~ msgid ""
+#~ "Automatically re-open all projects that were open when KDevelop shutdown "
+#~ "on the next startup."
+#~ msgstr "在啟動時自動重新開啟上次結束時仍開啟的所有專案。"
+
+#~ msgid "Open the last project(s) that were loaded on startup"
+#~ msgstr "啟動時開啟上次載入的專案"
+
+#~ msgid ""
+#~ "If this option is set, KDevelop will reopen the project(s) that\n"
+#~ "        were open when KDevelop was closed. If this option is not set, no "
+#~ "project\n"
+#~ "        will be loaded during KDevelop startup"
+#~ msgstr "開啟此選項的話，KDevelop 會在啟動時開啟上次的專案。"
+
+#~ msgid "&New Window"
+#~ msgstr "新視窗(&N)"
+
+#~ msgid ""
+#~ "<b>New Window</b><p>Creates a new window with a duplicate of the current "
+#~ "area.</p>"
+#~ msgstr "<b>新視窗</b><p>複製目前區域的視窗，建立一個新的。<>"
+
+#~ msgid "There is no documentation selected yet"
+#~ msgstr "尚未選取任何文件"
+
+#~ msgid "Show &Status Bar"
+#~ msgstr "顯示狀態列(&S)"
+
+#~ msgid "Show status bar"
+#~ msgstr "顯示狀態列"
+
+#~ msgid "<b>Show status bar</b><p>Hides or shows the status bar.</p>"
+#~ msgstr "<b>顯示狀態列</b><p>隱藏或顯示狀態列。</p>"
+
+#~ msgid "&New File"
+#~ msgstr "新增檔案(&N)"
+
+#~ msgid "&Close File"
+#~ msgstr "關閉檔案(&C)"
+
+#~ msgid "Cannot Load Projects View plugin, aborting."
+#~ msgstr "無法載入專案檢視外掛程式，動作中止。"
+
+#~ msgid "Manuel Breugelmanns"
+#~ msgstr "Manuel Breugelmanns"
+
+#~ msgid "Veritas, QTest integraton"
+#~ msgstr "Veritas，QTest 整合"
+
+#~ msgid "Test Name"
+#~ msgstr "測試名稱"
+
+#~ msgid "Line Number"
+#~ msgstr "行號"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Deselect Item"
+#~ msgstr "反選取項目"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Verbose Output"
+#~ msgstr "詳細輸出"
+
+#~ msgid "QxRunner"
+#~ msgstr "QxRunner"
+
+#~ msgid "Ru&nner Toolbar"
+#~ msgstr "執行器工具列(&N)"
+
+#~ msgid "&Start"
+#~ msgstr "開始(&S)"
+
+#~ msgid "S&top"
+#~ msgstr "停止(&T)"
+
+#~ msgid "E&xit"
+#~ msgstr "離開(&X)"
+
+#~ msgid "Launch Mode:"
+#~ msgstr "啟動模式："
+
+#~ msgid "Frames"
+#~ msgstr "框架"
+
+#~ msgid "Could not fetch information for remote url: %1"
+#~ msgstr "無法抓取遠端網址的資訊：%1"
+
+#~ msgid "<b>Open project</b><p>Opens a KDevelop 4 project.</p>"
+#~ msgstr "<b>開啟專案</b><p>開啟一個 KDevelop 4 專案。</p>"
+
+#~ msgid "&Start (not yet working)"
+#~ msgstr "啟動（尚未運作）(&S)"
+
+#~ msgid "Start in debugger"
+#~ msgstr "在除錯器中開始"
+
+#~ msgid ""
+#~ "<b>Start in debugger</b><p>Starts the debugger with the project's main "
+#~ "executable. You may set some breakpoints before this, or you can "
+#~ "interrupt the program while it is running, in order to get information "
+#~ "about variables, frame stack, and so on.</p>"
+#~ msgstr ""
+#~ "<b>在除錯器中開始</b><p>在除錯器裡啟動專案的主執行檔。您可以在此之前先設定"
+#~ "中斷點，或是在執行時將它中斷以取得關於變數或堆疊等資訊。</p>"
+
+#~ msgid "Runs the program in the debugger"
+#~ msgstr "在除錯器中執行程式"
+
+#~ msgid "Execute program"
+#~ msgstr "執行程式"
+
+#~ msgid "Current Run Target"
+#~ msgstr "目前執行的目標"
+
+#~ msgid "Target '%1' is not executable."
+#~ msgstr "目標 %1 無法執行。"
+
+#~ msgid ""
+#~ "No run target was selected. Please select a run target in the Run menu."
+#~ msgstr "沒有選擇執行目標。請在「執行」選單中設定。"
+
+#~ msgid "Execution failed: no plugin found for requested instrumentor \"%1\""
+#~ msgstr "執行失敗：請求的指令器 %1 找不到需要的外掛程式"
+
+#, fuzzy
+#~| msgid "Focus Editor"
+#~ msgid "Raise &Editor"
+#~ msgstr "焦點編輯器"
+
+#, fuzzy
+#~| msgid "Focus Editor"
+#~ msgid "Raise Editor"
+#~ msgstr "焦點編輯器"
+
+#, fuzzy
+#~| msgid "<b>Previous window</b><p>Switches to the previous window.</p>"
+#~ msgid "<b>Raise Editor</b><p>Focuses the previously active editor.</p>"
+#~ msgstr "<b>前一個視窗</b><p>切換到前一個視窗。</p>"
+
+#~ msgid "Select Previous Dock"
+#~ msgstr "選擇前一個嵌入"
+
+#~ msgid "Enable Semantic Code Highlighting"
+#~ msgstr "開啟語意源碼突顯"
+
+#, fuzzy
+#~| msgid "+"
+#~ msgctxt "KDE:DoNotExtract"
+#~ msgid "+"
+#~ msgstr "+"
+
+#, fuzzy
+#~| msgid "-"
+#~ msgctxt "KDE:DoNotExtract"
+#~ msgid "-"
+#~ msgstr "-"
+
+#, fuzzy
+#~| msgid "RanPlaceHolder"
+#~ msgctxt "KDE:DoNotExtract"
+#~ msgid "RanPlaceHolder"
+#~ msgstr "RanPlaceHolder"
+
+#~ msgid "Log View"
+#~ msgstr "紀錄檢視"
+
+#~ msgid "&Last Accessed Window"
+#~ msgstr "上次存取的視窗(&L)"
+
+#~ msgid "Last accessed window"
+#~ msgstr "上次存取的視窗"
+
+#~ msgid ""
+#~ "<b>Last accessed window</b><p>Switches to the last viewed window (Hold "
+#~ "the Alt key pressed and walk on by repeating the Up key).</p>"
+#~ msgstr ""
+#~ "<b>上次存取的視窗</b><p>切換到上次檢視的視窗（按住 Alt 鍵並重覆按上鍵可以"
+#~ "在清單中選取）"
+
+#~ msgid "&First Accessed Window"
+#~ msgstr "第一個存取的視窗(&F)"
+
+#~ msgid "First accessed window"
+#~ msgstr "第一個存取的視窗"
+
+#~ msgid ""
+#~ "<b>First accessed window</b><p>Switches to the first accessed window "
+#~ "(Hold the Alt key pressed and walk on by repeating the Down key).</p>"
+#~ msgstr ""
+#~ "<b>第一個存取的視窗</b> <p>切換到第一次檢視的視窗（按住 Alt 鍵並重覆按下鍵"
+#~ "可以在清單中選取）"
+
+#~ msgid "Reloading %1..."
+#~ msgstr "重新載入 %1..."
+
+#~ msgctxt "number of a line in a file"
+#~ msgid "Line"
+#~ msgstr "列"
+
+#~ msgid "Code Completion Settings"
+#~ msgstr "源碼補完設定"
+
+#~ msgid "Project Progress"
+#~ msgstr "專案進度"
+
+#, fuzzy
+#~| msgid "Run"
+#~ msgid "Ran"
+#~ msgstr "執行"
+
+#~ msgid "<i>(%1 uses)</i>"
+#~ msgstr "<i>（%1 個使用）</i>"

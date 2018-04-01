@@ -1,0 +1,2175 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: ChartShape\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-23 03:17+0100\n"
+"PO-Revision-Date: 2011-12-01 12:40+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: ChartConfigWidget.cpp:345
+#, kde-format
+msgid "Bar Chart"
+msgstr "長條圖"
+
+#: ChartConfigWidget.cpp:346 ChartConfigWidget.cpp:352
+#: ChartConfigWidget.cpp:358 ChartConfigWidget.cpp:372
+#: ChartConfigWidget.cpp:411 ChartConfigWidget.cpp:416
+#: ChartConfigWidget.cpp:421 ChartConfigWidget.cpp:429
+#, kde-format
+msgid "Normal"
+msgstr "一般"
+
+#: ChartConfigWidget.cpp:347 ChartConfigWidget.cpp:353
+#: ChartConfigWidget.cpp:359 ChartConfigWidget.cpp:412
+#: ChartConfigWidget.cpp:417 ChartConfigWidget.cpp:422
+#, kde-format
+msgid "Stacked"
+msgstr "已堆疊"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowPercent)
+#: ChartConfigWidget.cpp:348 ChartConfigWidget.cpp:354
+#: ChartConfigWidget.cpp:360 ChartConfigWidget.cpp:413
+#: ChartConfigWidget.cpp:418 ChartConfigWidget.cpp:423 ChartConfigWidget.ui:625
+#, kde-format
+msgid "Percent"
+msgstr "百分比"
+
+#: ChartConfigWidget.cpp:351
+#, kde-format
+msgid "Line Chart"
+msgstr "線條圖"
+
+#: ChartConfigWidget.cpp:357
+#, kde-format
+msgid "Area Chart"
+msgstr "面積圖"
+
+#: ChartConfigWidget.cpp:365 ChartConfigWidget.cpp:425
+#, kde-format
+msgid "Pie Chart"
+msgstr "圓餅圖"
+
+#: ChartConfigWidget.cpp:366 ChartConfigWidget.cpp:426
+#, kde-format
+msgid "Ring Chart"
+msgstr "環形圖"
+
+#: ChartConfigWidget.cpp:371
+#, kde-format
+msgid "Polar Chart"
+msgstr "極座標圖"
+
+#: ChartConfigWidget.cpp:373 ChartConfigWidget.cpp:430
+#, kde-format
+msgid "Filled"
+msgstr "已充填"
+
+#: ChartConfigWidget.cpp:378 ChartConfigWidget.cpp:439
+#, kde-format
+msgid "Scatter Chart"
+msgstr "散佈圖"
+
+#: ChartConfigWidget.cpp:379 ChartConfigWidget.cpp:437
+#, kde-format
+msgid "Bubble Chart"
+msgstr "泡泡圖"
+
+#: ChartConfigWidget.cpp:384
+#, kde-format
+msgid "Stock Chart"
+msgstr "股票圖"
+
+#: ChartConfigWidget.cpp:385 ChartConfigWidget.cpp:433
+#, kde-format
+msgid "HighLowClose"
+msgstr ""
+
+#: ChartConfigWidget.cpp:387 ChartConfigWidget.cpp:434
+#, kde-format
+msgid "OpenHighLowClose"
+msgstr ""
+
+#: ChartConfigWidget.cpp:389 ChartConfigWidget.cpp:435
+#, kde-format
+msgid "Candlestick"
+msgstr ""
+
+#: ChartConfigWidget.cpp:392
+#, kde-format
+msgid "Surface Chart"
+msgstr "表面圖"
+
+#: ChartConfigWidget.cpp:394
+#, kde-format
+msgid "Gantt Chart"
+msgstr "甘特圖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: ChartConfigWidget.cpp:455 dialogs/FormatErrorBarDialog.ui:89
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, automaticStepWidth)
+#. i18n: ectx: property (text), widget (QCheckBox, automaticSubStepWidth)
+#: ChartConfigWidget.cpp:456 dialogs/AxisScalingDialog.ui:49
+#: dialogs/AxisScalingDialog.ui:85
+#, kde-format
+msgid "Automatic"
+msgstr "自動"
+
+#: ChartConfigWidget.cpp:458
+#, kde-format
+msgid "Select"
+msgstr ""
+
+#: ChartConfigWidget.cpp:641
+#, kde-format
+msgid "Data Ranges..."
+msgstr "資料範圍..."
+
+#: ChartConfigWidget.cpp:1093
+#, kde-format
+msgid "Axis %1"
+msgstr "%1 軸："
+
+#: ChartConfigWidget.cpp:1237
+#, kde-format
+msgid "Data Set %1"
+msgstr "%1 資料集"
+
+#. i18n: ectx: property (text), widget (QCheckBox, threeDLook)
+#: ChartConfigWidget.ui:18
+#, kde-format
+msgid "3D"
+msgstr "立體"
+
+#. i18n: ectx: property (text), widget (QPushButton, editData)
+#: ChartConfigWidget.ui:25
+#, kde-format
+msgid "Edit Data..."
+msgstr "編輯資料..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ChartConfigWidget.ui:42
+#, kde-format
+msgid "Plot Area"
+msgstr "繪製區域"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showTitle)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ChartConfigWidget.ui:56 ChartConfigWidget.ui:672 ChartShape.cpp:485
+#, kde-format
+msgid "Title"
+msgstr "標題"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showSubTitle)
+#: ChartConfigWidget.ui:69 ChartShape.cpp:511
+#, kde-format
+msgid "Subtitle"
+msgstr "副標題"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showFooter)
+#: ChartConfigWidget.ui:82 ChartShape.cpp:539
+#, kde-format
+msgid "Footer"
+msgstr "頁尾"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ChartConfigWidget.ui:95
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><span style="
+"\" font-weight:600;\">Labels</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><span style="
+"\" font-weight:600;\">標籤</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ChartConfigWidget.ui:116
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Axes</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">軸</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, axisShowTitle)
+#: ChartConfigWidget.ui:142
+#, kde-format
+msgid "Label"
+msgstr "標籤"
+
+#. i18n: ectx: property (text), widget (QCheckBox, axisShowGridLines)
+#: ChartConfigWidget.ui:154
+#, kde-format
+msgid "Show Grid Lines"
+msgstr "顯示格線"
+
+#. i18n: ectx: property (text), widget (QPushButton, axisScalingButton)
+#: ChartConfigWidget.ui:163
+#, kde-format
+msgid "Scaling..."
+msgstr "調整比例..."
+
+#. i18n: ectx: property (text), widget (QPushButton, axisEditFontButton)
+#. i18n: ectx: property (text), widget (QPushButton, legendEditFontButton)
+#: ChartConfigWidget.ui:170 ChartConfigWidget.ui:740
+#, fuzzy, kde-format
+#| msgid "Edit Data..."
+msgid "Edit Fonts..."
+msgstr "編輯資料..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: ChartConfigWidget.ui:196
+#, kde-format
+msgid "Data Sets"
+msgstr "資料集"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, dataSets)
+#: ChartConfigWidget.ui:202
+#, kde-format
+msgid "Select a data set"
+msgstr "選擇資料集"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dataSetHasChartType)
+#: ChartConfigWidget.ui:214
+#, kde-format
+msgid "Custom Type"
+msgstr "自訂型態"
+
+#. i18n: ectx: property (text), widget (QLabel, gapBetweenBarsLabel)
+#: ChartConfigWidget.ui:266
+#, kde-format
+msgid "Gap Between Bars"
+msgstr "長條間隔"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, gapBetweenBars)
+#. i18n: ectx: property (suffix), widget (QSpinBox, gapBetweenSets)
+#. i18n: ectx: property (suffix), widget (QSpinBox, pieExplodeFactor)
+#: ChartConfigWidget.ui:279 ChartConfigWidget.ui:308 ChartConfigWidget.ui:370
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, gapBetweenSetsLabel)
+#: ChartConfigWidget.ui:301
+#, kde-format
+msgid "Gap Between Sets"
+msgstr "集合間隔"
+
+#. i18n: ectx: property (text), widget (QLabel, barPropertiesLabel)
+#: ChartConfigWidget.ui:328
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Bar Properties</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">長條屬性</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ChartConfigWidget.ui:389
+#, kde-format
+msgid "Explode Factor"
+msgstr "觸發因數"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ChartConfigWidget.ui:400
+#, fuzzy, kde-format
+#| msgid ""
+#| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#| "REC-html40/strict.dtd\">\n"
+#| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#| "css\">\n"
+#| "p, li { white-space: pre-wrap; }\n"
+#| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#| "font-weight:400; font-style:normal;\">\n"
+#| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#| "size:8pt; font-weight:600;\">Pie Properties</span></p></body></html>"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-size:8pt; font-weight:600;\">Pie Properties</"
+"span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">圓餅屬性</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ChartConfigWidget.ui:429
+#, kde-format
+msgid "Attached Axis"
+msgstr "附加軸"
+
+#. i18n: ectx: property (text), widget (QLabel, datasetMarkerLabel)
+#: ChartConfigWidget.ui:438
+#, kde-format
+msgid "Marker"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, datasetPenLabel)
+#: ChartConfigWidget.ui:464
+#, kde-format
+msgid "Stroke"
+msgstr "劃線"
+
+#. i18n: ectx: property (text), widget (QLabel, datasetColorLabel)
+#: ChartConfigWidget.ui:505
+#, kde-format
+msgid "Fill"
+msgstr "充填"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowErrorBar)
+#: ChartConfigWidget.ui:566
+#, kde-format
+msgid "Error Bars"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, formatErrorBar)
+#: ChartConfigWidget.ui:591
+#, fuzzy, kde-format
+#| msgid "Insert Rows"
+msgid "Insert"
+msgstr "插入列"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowCategory)
+#: ChartConfigWidget.ui:604
+#, kde-format
+msgid "Category"
+msgstr "類別"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowSymbol)
+#: ChartConfigWidget.ui:611
+#, kde-format
+msgid "Symbol"
+msgstr "符號"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dataSetShowNumber)
+#: ChartConfigWidget.ui:618
+#, kde-format
+msgid "Number"
+msgstr "編號"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: ChartConfigWidget.ui:643
+#, kde-format
+msgid "Legend"
+msgstr "圖例"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showLegend)
+#: ChartConfigWidget.ui:649
+#, kde-format
+msgid "Show Legend"
+msgstr "顯示圖例"
+
+#. i18n: ectx: property (text), widget (QCheckBox, legendShowFrame)
+#: ChartConfigWidget.ui:689
+#, kde-format
+msgid "Show Frame"
+msgstr "顯示框架"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ChartConfigWidget.ui:696
+#, kde-format
+msgid "Orientation"
+msgstr "方向"
+
+#. i18n: ectx: property (text), widget (QRadioButton, legendOrientationIsVertical)
+#: ChartConfigWidget.ui:703
+#, kde-format
+msgid "v"
+msgstr "垂直"
+
+#. i18n: ectx: property (text), widget (QRadioButton, legendOrientationIsHorizontal)
+#: ChartConfigWidget.ui:716
+#, kde-format
+msgid "h"
+msgstr "水平"
+
+#: ChartShape.cpp:458
+#, kde-format
+msgid ""
+"The plugin needed for displaying text labels in a chart is not available."
+msgstr "找不到顯示文字標籤需要的外掛程式。"
+
+#: ChartShape.cpp:459
+#, kde-format
+msgid "Plugin Missing"
+msgstr "找不到外掛程式"
+
+#: ChartShape.cpp:463
+#, kde-format
+msgid ""
+"The plugin needed for displaying text labels is not compatible with the "
+"current version of the chart Flake shape."
+msgstr "顯示文字標籤需要的外掛程式與目前的元件不相容。"
+
+#: ChartShape.cpp:464
+#, kde-format
+msgid "Plugin Incompatible"
+msgstr "外掛程式不相容"
+
+#: ChartShape.cpp:924
+#, kde-format
+msgid ""
+"This document contains an external link to a remote document\n"
+"%1"
+msgstr "此文件包含連接遠端文件 %1 的外部連結"
+
+#: ChartShape.cpp:925
+#, kde-format
+msgid "Confirmation Required"
+msgstr "需要確認"
+
+#: ChartShape.cpp:925
+#, kde-format
+msgid "Download"
+msgstr "下載"
+
+#: ChartShape.cpp:925
+#, kde-format
+msgid "Skip"
+msgstr "略過"
+
+#: ChartShapeFactory.cpp:69
+#, kde-format
+msgid "Chart"
+msgstr "圖表"
+
+#: ChartShapeFactory.cpp:72
+#, kde-format
+msgid "Business charts"
+msgstr "商業圖表"
+
+#: ChartShapeFactory.cpp:140
+#, kde-format
+msgid "January"
+msgstr "一月"
+
+#: ChartShapeFactory.cpp:141
+#, kde-format
+msgid "July"
+msgstr "七月"
+
+#: ChartShapeFactory.cpp:142
+#, kde-format
+msgid "December"
+msgstr "十二月"
+
+#: ChartShapeFactory.cpp:145 ChartShapeFactory.cpp:146
+#: ChartShapeFactory.cpp:147 ChartShapeFactory.cpp:148
+#, kde-format
+msgid "Column %1"
+msgstr "欄位 %1"
+
+#: ChartShapeFactory.cpp:172
+#, kde-format
+msgid "Month"
+msgstr "月"
+
+#: ChartShapeFactory.cpp:173
+#, kde-format
+msgid "Growth in %"
+msgstr "成長率（%）"
+
+#: ChartTool.cpp:105
+#, kde-format
+msgid "Do something"
+msgstr "做某事"
+
+#: ChartTool.cpp:110
+#, kde-format
+msgid "Do something else"
+msgstr "做另外的某事"
+
+#: ChartTool.cpp:895
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Show Legend"
+msgstr "顯示圖例"
+
+#: ChartTool.cpp:897
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Hide Legend"
+msgstr "顯示圖例"
+
+#: ChartToolFactory.cpp:42
+#, fuzzy, kde-format
+#| msgid "Chart Editing Tool"
+msgid "Chart editing"
+msgstr "圖表編輯工具"
+
+#: commands/AddRemoveAxisCommand.cpp:48
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Add Axis"
+msgstr "附加軸"
+
+#: commands/AddRemoveAxisCommand.cpp:51
+#, fuzzy
+#| msgid "New Axis"
+msgctxt "(qtundo-format)"
+msgid "Remove Axis"
+msgstr "新增軸"
+
+#: commands/AxisCommand.cpp:109
+#, fuzzy
+#| msgid "Show Grid Lines"
+msgctxt "(qtundo-format)"
+msgid "Show Axis Title"
+msgstr "顯示格線"
+
+#: commands/AxisCommand.cpp:111
+#, fuzzy
+#| msgid "Show Grid Lines"
+msgctxt "(qtundo-format)"
+msgid "Hide Axis Title"
+msgstr "顯示格線"
+
+#: commands/AxisCommand.cpp:123
+#, fuzzy
+#| msgid "Show Grid Lines"
+msgctxt "(qtundo-format)"
+msgid "Set Axis Title"
+msgstr "顯示格線"
+
+#: commands/AxisCommand.cpp:131
+#, fuzzy
+#| msgid "Show Grid Lines"
+msgctxt "(qtundo-format)"
+msgid "Show Axis Gridlines"
+msgstr "顯示格線"
+
+#: commands/AxisCommand.cpp:133
+#, fuzzy
+#| msgid "Show Grid Lines"
+msgctxt "(qtundo-format)"
+msgid "Hide Axis Gridlines"
+msgstr "顯示格線"
+
+#: commands/AxisCommand.cpp:142
+#, fuzzy
+#| msgid "Logarithmic Scaling"
+msgctxt "(qtundo-format)"
+msgid "Logarithmic Scaling"
+msgstr "對數調整"
+
+#: commands/AxisCommand.cpp:144
+#, fuzzy
+#| msgid "Logarithmic Scaling"
+msgctxt "(qtundo-format)"
+msgid "Linear Scaling"
+msgstr "對數調整"
+
+#: commands/AxisCommand.cpp:152
+#, fuzzy
+#| msgid "Step Width:"
+msgctxt "(qtundo-format)"
+msgid "Set Axis Step Width"
+msgstr "單步寬度："
+
+#: commands/AxisCommand.cpp:159
+#, fuzzy
+#| msgid "Substep Width:"
+msgctxt "(qtundo-format)"
+msgid "Set Axis Substep Width"
+msgstr "子步驟寬度："
+
+#: commands/AxisCommand.cpp:167
+#, fuzzy
+#| msgid "Substep Width:"
+msgctxt "(qtundo-format)"
+msgid "Set Automatic Step Width"
+msgstr "子步驟寬度："
+
+#: commands/AxisCommand.cpp:169
+#, fuzzy
+#| msgid "Substep Width:"
+msgctxt "(qtundo-format)"
+msgid "Set Manual Step Width"
+msgstr "子步驟寬度："
+
+#: commands/AxisCommand.cpp:178
+#, fuzzy
+#| msgid "Substep Width:"
+msgctxt "(qtundo-format)"
+msgid "Automatic Substep Width"
+msgstr "子步驟寬度："
+
+#: commands/AxisCommand.cpp:180
+#, fuzzy
+#| msgid "Substep Width:"
+msgctxt "(qtundo-format)"
+msgid "Manual Substep Width"
+msgstr "子步驟寬度："
+
+#: commands/AxisCommand.cpp:188
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Set Axis Label Font"
+msgstr "顯示圖例"
+
+#: commands/ChartTextShapeCommand.cpp:51
+msgctxt "(qtundo-format)"
+msgid "Show Text Shape"
+msgstr ""
+
+#: commands/ChartTextShapeCommand.cpp:53
+msgctxt "(qtundo-format)"
+msgid "Hide Text Shape"
+msgstr ""
+
+#: commands/ChartTypeCommand.cpp:93
+#, fuzzy
+#| msgid "Polar Chart"
+msgctxt "(qtundo-format)"
+msgid "Normal Bar Chart"
+msgstr "極座標圖"
+
+#: commands/ChartTypeCommand.cpp:96
+#, fuzzy
+#| msgid "Stock Chart"
+msgctxt "(qtundo-format)"
+msgid "Stacked Bar Chart"
+msgstr "股票圖"
+
+#: commands/ChartTypeCommand.cpp:99
+#, fuzzy
+#| msgid "Bar Chart"
+msgctxt "(qtundo-format)"
+msgid "Percent Bar Chart"
+msgstr "長條圖"
+
+#: commands/ChartTypeCommand.cpp:108
+#, fuzzy
+#| msgid "Line Chart"
+msgctxt "(qtundo-format)"
+msgid "Normal Line Chart"
+msgstr "線條圖"
+
+#: commands/ChartTypeCommand.cpp:111
+#, fuzzy
+#| msgid "Line Chart"
+msgctxt "(qtundo-format)"
+msgid "Stacked Line Chart"
+msgstr "線條圖"
+
+#: commands/ChartTypeCommand.cpp:114
+#, fuzzy
+#| msgid "Line Chart"
+msgctxt "(qtundo-format)"
+msgid "Percent Line Chart"
+msgstr "線條圖"
+
+#: commands/ChartTypeCommand.cpp:123
+#, fuzzy
+#| msgid "Area Chart"
+msgctxt "(qtundo-format)"
+msgid "Normal Area Chart"
+msgstr "面積圖"
+
+#: commands/ChartTypeCommand.cpp:126
+#, fuzzy
+#| msgid "Area Chart"
+msgctxt "(qtundo-format)"
+msgid "Stacked Area Chart"
+msgstr "面積圖"
+
+#: commands/ChartTypeCommand.cpp:129
+#, fuzzy
+#| msgid "Area Chart"
+msgctxt "(qtundo-format)"
+msgid "Percent Area Chart"
+msgstr "面積圖"
+
+#: commands/ChartTypeCommand.cpp:136
+#, fuzzy
+#| msgid "Pie Chart"
+msgctxt "(qtundo-format)"
+msgid "Circle Chart"
+msgstr "圓餅圖"
+
+#: commands/ChartTypeCommand.cpp:139
+#, fuzzy
+#| msgid "Ring Chart"
+msgctxt "(qtundo-format)"
+msgid "Ring Chart"
+msgstr "環形圖"
+
+#: commands/ChartTypeCommand.cpp:142
+#, fuzzy
+#| msgid "Scatter Chart"
+msgctxt "(qtundo-format)"
+msgid "Scatter Chart"
+msgstr "散佈圖"
+
+#: commands/ChartTypeCommand.cpp:145
+#, fuzzy
+#| msgid "Bar Chart"
+msgctxt "(qtundo-format)"
+msgid "Radar Chart"
+msgstr "長條圖"
+
+#: commands/ChartTypeCommand.cpp:148
+#, fuzzy
+#| msgid "Polar Chart"
+msgctxt "(qtundo-format)"
+msgid "Filled Radar Chart"
+msgstr "極座標圖"
+
+#: commands/ChartTypeCommand.cpp:151
+#, fuzzy
+#| msgid "Stock Chart"
+msgctxt "(qtundo-format)"
+msgid "Stock Chart"
+msgstr "股票圖"
+
+#: commands/ChartTypeCommand.cpp:154
+#, fuzzy
+#| msgid "Bubble Chart"
+msgctxt "(qtundo-format)"
+msgid "Bubble Chart"
+msgstr "泡泡圖"
+
+#: commands/ChartTypeCommand.cpp:157
+#, fuzzy
+#| msgid "Surface Chart"
+msgctxt "(qtundo-format)"
+msgid "Surface Chart"
+msgstr "表面圖"
+
+#: commands/ChartTypeCommand.cpp:160
+#, fuzzy
+#| msgid "Gantt Chart"
+msgctxt "(qtundo-format)"
+msgid "Gantt Chart"
+msgstr "甘特圖"
+
+#: commands/DatasetCommand.cpp:113
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Set Dataset Chart Type"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:121
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Show Dataset Category"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:123
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Hide Dataset Category"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:132
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Show Dataset Number"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:134
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Hide Dataset Number"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:143
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Show Dataset Percent"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:145
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Hide Dataset Percent"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:154
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Show Dataset Symbol"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:156
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Hide Dataset Symbol"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:164
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Set Dataset Brush Color"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:171
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Set Dataset Pen Color"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:178
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Set Dataset Marker Style"
+msgstr "附加軸"
+
+#: commands/DatasetCommand.cpp:185
+#, fuzzy
+#| msgid "Attached Axis"
+msgctxt "(qtundo-format)"
+msgid "Set Dataset Axis"
+msgstr "附加軸"
+
+#: commands/LegendCommand.cpp:107
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Set Legend Title"
+msgstr "顯示圖例"
+
+#: commands/LegendCommand.cpp:115
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Set Legend Font"
+msgstr "顯示圖例"
+
+#: commands/LegendCommand.cpp:122
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Set Legend Font size"
+msgstr "顯示圖例"
+
+#: commands/LegendCommand.cpp:129
+#, fuzzy
+#| msgid "Orientation"
+msgctxt "(qtundo-format)"
+msgid "Set Legend Orientation"
+msgstr "方向"
+
+#: commands/LegendCommand.cpp:137
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Show Legend Frame"
+msgstr "顯示圖例"
+
+#: commands/LegendCommand.cpp:139
+#, fuzzy
+#| msgid "Show Legend"
+msgctxt "(qtundo-format)"
+msgid "Hide Legend Frame"
+msgstr "顯示圖例"
+
+#: DataSet.cpp:273
+#, kde-format
+msgid "Series %1"
+msgstr "序列 %1"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, AxisScalingDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, CellRegionDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, ChartTableEditor)
+#: dialogs/AxisScalingDialog.ui:13 dialogs/CellRegionDialog.ui:13
+#: dialogs/ChartTableEditor.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "對話盒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, logarithmicScaling)
+#: dialogs/AxisScalingDialog.ui:19
+#, kde-format
+msgid "Logarithmic Scaling"
+msgstr "對數調整"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/AxisScalingDialog.ui:32
+#, kde-format
+msgid "Step Width:"
+msgstr "單步寬度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/AxisScalingDialog.ui:65
+#, kde-format
+msgid "Substep Width:"
+msgstr "子步驟寬度："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/CellRegionDialog.ui:48
+#, kde-format
+msgid "Y Values:"
+msgstr "Y 值："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/CellRegionDialog.ui:58
+#, kde-format
+msgid "X Values:"
+msgstr "X 值："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/CellRegionDialog.ui:71
+#, kde-format
+msgid "<b>Choose a Data Set</b>"
+msgstr "<b>選擇資料集</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/CellRegionDialog.ui:81
+#, kde-format
+msgid "Categories:"
+msgstr "類別："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/CellRegionDialog.ui:95
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-weight:600;\">Name:</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-weight:600;\">名稱：</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/ChartTableEditor.ui:23
+#, kde-format
+msgid "Data Format"
+msgstr "資料格式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, dataSetsInRows)
+#: dialogs/ChartTableEditor.ui:29
+#, kde-format
+msgid "Data sets in rows"
+msgstr "列的資料集"
+
+#. i18n: ectx: property (text), widget (QRadioButton, dataSetsInColumns)
+#: dialogs/ChartTableEditor.ui:36
+#, kde-format
+msgid "Data sets in columns"
+msgstr "欄的資料集"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: dialogs/ChartTableEditor.ui:46
+#, kde-format
+msgid "Actions"
+msgstr "動作"
+
+#. i18n: ectx: property (text), widget (QPushButton, insertRow)
+#: dialogs/ChartTableEditor.ui:52 dialogs/TableEditorDialog.cpp:66
+#, kde-format
+msgid "Insert Rows"
+msgstr "插入列"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteRow)
+#: dialogs/ChartTableEditor.ui:62 dialogs/TableEditorDialog.cpp:67
+#, kde-format
+msgid "Delete Rows"
+msgstr "刪除列"
+
+#. i18n: ectx: property (text), widget (QPushButton, insertColumn)
+#: dialogs/ChartTableEditor.ui:72 dialogs/TableEditorDialog.cpp:68
+#, kde-format
+msgid "Insert Columns"
+msgstr "插入欄"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteColumn)
+#: dialogs/ChartTableEditor.ui:82 dialogs/TableEditorDialog.cpp:69
+#, kde-format
+msgid "Delete Columns"
+msgstr "刪除欄"
+
+#: dialogs/FontEditorDialog.cpp:33
+#, fuzzy, kde-format
+#| msgid "Show Legend"
+msgid "Select Font"
+msgstr "顯示圖例"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatErrorBarDialog)
+#: dialogs/FormatErrorBarDialog.ui:29
+#, kde-format
+msgid "Format Error Bars"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/FormatErrorBarDialog.ui:69
+#, fuzzy, kde-format
+#| msgid ""
+#| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#| "REC-html40/strict.dtd\">\n"
+#| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#| "css\">\n"
+#| "p, li { white-space: pre-wrap; }\n"
+#| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#| "font-weight:400; font-style:normal;\">\n"
+#| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#| "size:8pt; font-weight:600;\">Axes</span></p></body></html>"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Error Category</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"weight:600;\"></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">軸</span></p></body></html>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:94
+#, kde-format
+msgid "Constant"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:99
+#, fuzzy, kde-format
+#| msgid "Percent"
+msgid "Percentage"
+msgstr "百分比"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:104
+#, kde-format
+msgid "Error Margin"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:109
+#, kde-format
+msgid "Standard Deviation"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:114
+#, kde-format
+msgid "Variance"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:119
+#, fuzzy, kde-format
+#| msgid "Data Values"
+msgid "From Data table"
+msgstr "資料數值"
+
+#. i18n: ectx: property (text), widget (QLabel, valueLabel)
+#: dialogs/FormatErrorBarDialog.ui:144
+#, fuzzy, kde-format
+#| msgid "Position"
+msgid "Positive "
+msgstr "位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QRadioButton, negIndicator)
+#: dialogs/FormatErrorBarDialog.ui:173 dialogs/FormatErrorBarDialog.ui:338
+#, kde-format
+msgid "Negative"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, sameValueForBoth)
+#: dialogs/FormatErrorBarDialog.ui:207
+#, kde-format
+msgid "Same for both"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/FormatErrorBarDialog.ui:226
+#, fuzzy, kde-format
+#| msgid "Y Values:"
+msgid "Value"
+msgstr "Y 值："
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, percentageValue)
+#: dialogs/FormatErrorBarDialog.ui:233
+#, fuzzy, no-c-format, kde-format
+#| msgid "%"
+msgid " %"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/FormatErrorBarDialog.ui:303
+#, fuzzy, kde-format
+#| msgid ""
+#| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#| "REC-html40/strict.dtd\">\n"
+#| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#| "css\">\n"
+#| "p, li { white-space: pre-wrap; }\n"
+#| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#| "font-weight:400; font-style:normal;\">\n"
+#| "<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+#| "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+#| "style=\" font-weight:600;\">Name:</span></p></body></html>"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Error Indicator</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-weight:600;\">名稱：</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, posIndicator)
+#: dialogs/FormatErrorBarDialog.ui:325
+#, fuzzy, kde-format
+#| msgid "Position"
+msgid "Positive"
+msgstr "位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, posAndNegIndicator)
+#: dialogs/FormatErrorBarDialog.ui:351
+#, kde-format
+msgid "Both"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, NewAxisDialog)
+#: dialogs/NewAxisDialog.ui:20
+#, kde-format
+msgid "New Axis"
+msgstr "新增軸"
+
+#. i18n: ectx: property (text), widget (QRadioButton, dimensionIsX)
+#: dialogs/NewAxisDialog.ui:46
+#, kde-format
+msgctxt "Axis dimension"
+msgid "&X"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, dimensionIsY)
+#: dialogs/NewAxisDialog.ui:56
+#, kde-format
+msgctxt "Axis dimension"
+msgid "&Y"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/NewAxisDialog.ui:72
+#, kde-format
+msgid "Title:"
+msgstr "標題："
+
+#~ msgid ""
+#~ "Are you sure you want to remove this axis? All settings specific to this "
+#~ "axis will be lost."
+#~ msgstr "您確定要移除此軸嗎？所有跟此軸的設定都將消失。"
+
+#~ msgid "Axis Removal Confirmation"
+#~ msgstr "確認移除軸"
+
+#, fuzzy
+#~| msgid "Dialog"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Dialog"
+#~ msgstr "對話盒"
+
+#, fuzzy
+#~| msgid "Step Width:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Step Width:"
+#~ msgstr "單步寬度："
+
+#, fuzzy
+#~| msgid "Substep Width:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Substep Width:"
+#~ msgstr "子步驟寬度："
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~| "font-weight:400; font-style:normal;\">\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "size:8pt; font-weight:600;\">Axes</span></p></body></html>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+#~ "weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Error Category</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-weight:600;\"></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:8pt; font-weight:600;\">軸</span></p></body></html>"
+
+#, fuzzy
+#~| msgid "Percent"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Percentage"
+#~ msgstr "百分比"
+
+#, fuzzy
+#~| msgid "Data Values"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "From Data table"
+#~ msgstr "資料數值"
+
+#, fuzzy
+#~| msgid "Position"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Positive "
+#~ msgstr "位置"
+
+#, fuzzy
+#~| msgid "Y Values:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Value"
+#~ msgstr "Y 值："
+
+#, fuzzy
+#~| msgid "%"
+#~ msgctxt "(qtundo-format)"
+#~ msgid " %"
+#~ msgstr "%"
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~| "font-weight:400; font-style:normal;\">\n"
+#~| "<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+#~| "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+#~| "style=\" font-weight:600;\">Name:</span></p></body></html>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+#~ "weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Error Indicator</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+#~ "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+#~ "style=\" font-weight:600;\">名稱：</span></p></body></html>"
+
+#, fuzzy
+#~| msgid "Position"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Positive"
+#~ msgstr "位置"
+
+#, fuzzy
+#~| msgid "New Axis"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "New Axis"
+#~ msgstr "新增軸"
+
+#, fuzzy
+#~| msgid "Title:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Title:"
+#~ msgstr "標題："
+
+#, fuzzy
+#~| msgid "Y Values:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Y Values:"
+#~ msgstr "Y 值："
+
+#, fuzzy
+#~| msgid "X Values:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "X Values:"
+#~ msgstr "X 值："
+
+#, fuzzy
+#~| msgid "<b>Choose a Data Set</b>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "<b>Choose a Data Set</b>"
+#~ msgstr "<b>選擇資料集</b>"
+
+#, fuzzy
+#~| msgid "Categories:"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Categories:"
+#~ msgstr "類別："
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~| "font-weight:400; font-style:normal;\">\n"
+#~| "<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+#~| "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+#~| "style=\" font-weight:600;\">Name:</span></p></body></html>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+#~ "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+#~ "style=\" font-weight:600;\">Name:</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+#~ "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+#~ "style=\" font-weight:600;\">名稱：</span></p></body></html>"
+
+#, fuzzy
+#~| msgid "Data Format"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Data Format"
+#~ msgstr "資料格式"
+
+#, fuzzy
+#~| msgid "Data sets in rows"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Data sets in rows"
+#~ msgstr "列的資料集"
+
+#, fuzzy
+#~| msgid "Data sets in columns"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Data sets in columns"
+#~ msgstr "欄的資料集"
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Actions"
+#~ msgstr "動作"
+
+#, fuzzy
+#~| msgid "3D"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "3D"
+#~ msgstr "立體"
+
+#, fuzzy
+#~| msgid "Edit Data..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Edit Data..."
+#~ msgstr "編輯資料..."
+
+#, fuzzy
+#~| msgid "Plot Area"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Plot Area"
+#~ msgstr "繪製區域"
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~| "font-weight:400; font-style:normal;\">\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><span "
+#~| "style=\" font-weight:600;\">Labels</span></p></body></html>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><span "
+#~ "style=\" font-weight:600;\">Labels</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><span "
+#~ "style=\" font-weight:600;\">標籤</span></p></body></html>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~| "font-weight:400; font-style:normal;\">\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "size:8pt; font-weight:600;\">Axes</span></p></body></html>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:8pt; font-weight:600;\">Axes</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:8pt; font-weight:600;\">軸</span></p></body></html>"
+
+#, fuzzy
+#~| msgid "Label"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Label"
+#~ msgstr "標籤"
+
+#, fuzzy
+#~| msgid "Show Grid Lines"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Grid Lines"
+#~ msgstr "顯示格線"
+
+#, fuzzy
+#~| msgid "Scaling..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Scaling..."
+#~ msgstr "調整比例..."
+
+#, fuzzy
+#~| msgid "Edit Data..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Edit Fonts..."
+#~ msgstr "編輯資料..."
+
+#, fuzzy
+#~| msgid "Data Sets"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Data Sets"
+#~ msgstr "資料集"
+
+#, fuzzy
+#~| msgid "Select a data set"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Select a data set"
+#~ msgstr "選擇資料集"
+
+#, fuzzy
+#~| msgid "Custom Type"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Custom Type"
+#~ msgstr "自訂型態"
+
+#, fuzzy
+#~| msgid "Gap Between Bars"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Gap Between Bars"
+#~ msgstr "長條間隔"
+
+#, fuzzy
+#~| msgid "%"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "%"
+#~ msgstr "%"
+
+#, fuzzy
+#~| msgid "Gap Between Sets"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Gap Between Sets"
+#~ msgstr "集合間隔"
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~| "font-weight:400; font-style:normal;\">\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "size:8pt; font-weight:600;\">Bar Properties</span></p></body></html>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:8pt; font-weight:600;\">Bar Properties</span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:8pt; font-weight:600;\">長條屬性</span></p></body></html>"
+
+#, fuzzy
+#~| msgid "Explode Factor"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Explode Factor"
+#~ msgstr "觸發因數"
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~| "font-weight:400; font-style:normal;\">\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "size:8pt; font-weight:600;\">Pie Properties</span></p></body></html>"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+#~ "weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Sans Serif'; font-size:8pt; font-weight:600;\">Pie Properties</"
+#~ "span></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:8pt; font-weight:600;\">圓餅屬性</span></p></body></html>"
+
+#, fuzzy
+#~| msgid "Attached Axis"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Attached Axis"
+#~ msgstr "附加軸"
+
+#, fuzzy
+#~| msgid "Stroke"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Stroke"
+#~ msgstr "劃線"
+
+#, fuzzy
+#~| msgid "Fill"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Fill"
+#~ msgstr "充填"
+
+#, fuzzy
+#~| msgid "Insert Rows"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert"
+#~ msgstr "插入列"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Category"
+#~ msgstr "類別"
+
+#, fuzzy
+#~| msgid "Symbol"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Symbol"
+#~ msgstr "符號"
+
+#, fuzzy
+#~| msgid "Number"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Number"
+#~ msgstr "編號"
+
+#, fuzzy
+#~| msgid "Legend"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Legend"
+#~ msgstr "圖例"
+
+#, fuzzy
+#~| msgid "Show Frame"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Frame"
+#~ msgstr "顯示框架"
+
+#, fuzzy
+#~| msgid "Orientation"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Orientation"
+#~ msgstr "方向"
+
+#, fuzzy
+#~| msgid "v"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "v"
+#~ msgstr "垂直"
+
+#, fuzzy
+#~| msgid "h"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "h"
+#~ msgstr "水平"
+
+#, fuzzy
+#~| msgid "Bar Chart"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Bar Chart"
+#~ msgstr "長條圖"
+
+#, fuzzy
+#~| msgid "Normal"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Normal"
+#~ msgstr "一般"
+
+#, fuzzy
+#~| msgid "Stacked"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Stacked"
+#~ msgstr "已堆疊"
+
+#, fuzzy
+#~| msgid "Percent"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Percent"
+#~ msgstr "百分比"
+
+#, fuzzy
+#~| msgid "Line Chart"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Line Chart"
+#~ msgstr "線條圖"
+
+#, fuzzy
+#~| msgid "Area Chart"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Area Chart"
+#~ msgstr "面積圖"
+
+#, fuzzy
+#~| msgid "Pie Chart"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Pie Chart"
+#~ msgstr "圓餅圖"
+
+#, fuzzy
+#~| msgid "Polar Chart"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Polar Chart"
+#~ msgstr "極座標圖"
+
+#, fuzzy
+#~| msgid "Filled"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Filled"
+#~ msgstr "已充填"
+
+#, fuzzy
+#~| msgid "Automatic"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#, fuzzy
+#~| msgid "Show Legend"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Select"
+#~ msgstr "顯示圖例"
+
+#, fuzzy
+#~| msgid "Data Ranges..."
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Data Ranges..."
+#~ msgstr "資料範圍..."
+
+#, fuzzy
+#~| msgid "Axis %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Axis %1"
+#~ msgstr "%1 軸："
+
+#, fuzzy
+#~| msgid "Data Set %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Data Set %1"
+#~ msgstr "%1 資料集"
+
+#, fuzzy
+#~| msgid ""
+#~| "Are you sure you want to remove this axis? All settings specific to this "
+#~| "axis will be lost."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "Are you sure you want to remove this axis? All settings specific to this "
+#~ "axis will be lost."
+#~ msgstr "您確定要移除此軸嗎？所有跟此軸的設定都將消失。"
+
+#, fuzzy
+#~| msgid "Axis Removal Confirmation"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Axis Removal Confirmation"
+#~ msgstr "確認移除軸"
+
+#, fuzzy
+#~| msgid ""
+#~| "The plugin needed for displaying text labels in a chart is not available."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "The plugin needed for displaying text labels in a chart is not available."
+#~ msgstr "找不到顯示文字標籤需要的外掛程式。"
+
+#, fuzzy
+#~| msgid "Plugin Missing"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Plugin Missing"
+#~ msgstr "找不到外掛程式"
+
+#, fuzzy
+#~| msgid ""
+#~| "The plugin needed for displaying text labels is not compatible with the "
+#~| "current version of the chart Flake shape."
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "The plugin needed for displaying text labels is not compatible with the "
+#~ "current version of the chart Flake shape."
+#~ msgstr "顯示文字標籤需要的外掛程式與目前的元件不相容。"
+
+#, fuzzy
+#~| msgid "Plugin Incompatible"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Plugin Incompatible"
+#~ msgstr "外掛程式不相容"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Title"
+#~ msgstr "標題"
+
+#, fuzzy
+#~| msgid "Subtitle"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Subtitle"
+#~ msgstr "副標題"
+
+#, fuzzy
+#~| msgid "Footer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Footer"
+#~ msgstr "頁尾"
+
+#, fuzzy
+#~| msgid ""
+#~| "This document contains an external link to a remote document\n"
+#~| "%1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid ""
+#~ "This document contains an external link to a remote document\n"
+#~ "%1"
+#~ msgstr "此文件包含連接遠端文件 %1 的外部連結"
+
+#, fuzzy
+#~| msgid "Confirmation Required"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Confirmation Required"
+#~ msgstr "需要確認"
+
+#, fuzzy
+#~| msgid "Download"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Download"
+#~ msgstr "下載"
+
+#, fuzzy
+#~| msgid "Skip"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Skip"
+#~ msgstr "略過"
+
+#, fuzzy
+#~| msgid "Chart"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Chart"
+#~ msgstr "圖表"
+
+#, fuzzy
+#~| msgid "Business charts"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Business charts"
+#~ msgstr "商業圖表"
+
+#, fuzzy
+#~| msgid "January"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "January"
+#~ msgstr "一月"
+
+#, fuzzy
+#~| msgid "July"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "July"
+#~ msgstr "七月"
+
+#, fuzzy
+#~| msgid "December"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "December"
+#~ msgstr "十二月"
+
+#, fuzzy
+#~| msgid "Column %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Column %1"
+#~ msgstr "欄位 %1"
+
+#, fuzzy
+#~| msgid "Month"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Month"
+#~ msgstr "月"
+
+#, fuzzy
+#~| msgid "Growth in %"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Growth in %"
+#~ msgstr "成長率（%）"
+
+#, fuzzy
+#~| msgid "Do something"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Do something"
+#~ msgstr "做某事"
+
+#, fuzzy
+#~| msgid "Do something else"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Do something else"
+#~ msgstr "做另外的某事"
+
+#, fuzzy
+#~| msgid "Chart Editing Tool"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Chart editing"
+#~ msgstr "圖表編輯工具"
+
+#, fuzzy
+#~| msgid "Series %1"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Series %1"
+#~ msgstr "序列 %1"
+
+#, fuzzy
+#~| msgid "Show Legend"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Select Font"
+#~ msgstr "顯示圖例"
+
+#, fuzzy
+#~| msgid "Insert Rows"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Rows"
+#~ msgstr "插入列"
+
+#, fuzzy
+#~| msgid "Delete Rows"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Rows"
+#~ msgstr "刪除列"
+
+#, fuzzy
+#~| msgid "Insert Columns"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Columns"
+#~ msgstr "插入欄"
+
+#, fuzzy
+#~| msgid "Delete Columns"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Columns"
+#~ msgstr "刪除欄"
+
+#~ msgid "Labels"
+#~ msgstr "標籤"
+
+#~ msgid "Top"
+#~ msgstr "頂端"
+
+#~ msgid "Bottom"
+#~ msgstr "底端"
+
+#~ msgid "Left"
+#~ msgstr "左端"
+
+#~ msgid "Right"
+#~ msgstr "右端"
+
+#~ msgid "Color"
+#~ msgstr "顏色"
+
+#~ msgid "sdf"
+#~ msgstr "sdf"
+
+#~ msgid "Data Area"
+#~ msgstr "資料區域"
+
+#~ msgid "Use first row for labels"
+#~ msgstr "第一列做為標籤"
+
+#~ msgid "Use first column for labels"
+#~ msgstr "第一欄做為標籤"
+
+#~ msgid "Chart Tool"
+#~ msgstr "圖表工具"
+
+#~ msgid "Cut Rows"
+#~ msgstr "剪下列"
+
+#~ msgid "Cut Columns"
+#~ msgstr "剪下欄"
+
+#~ msgid "Cut Cells"
+#~ msgstr "剪下儲存格"
+
+#~ msgid "Copy Rows"
+#~ msgstr "複製列"
+
+#~ msgid "Copy Columns"
+#~ msgstr "複製欄"
+
+#~ msgid "Copy Cells"
+#~ msgstr "複製儲存格"
+
+#~ msgid "Delete Cells"
+#~ msgstr "刪除儲存格"
+
+#~ msgid "Insert Cells"
+#~ msgstr "插入儲存格"
+
+#~ msgid "Position and Alignment..."
+#~ msgstr "位置與對齊"

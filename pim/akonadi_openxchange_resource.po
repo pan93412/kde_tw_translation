@@ -1,0 +1,262 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2010, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-05 03:11+0100\n"
+"PO-Revision-Date: 2012-06-25 13:57+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigDialog)
+#: configdialog.cpp:52 configdialog.ui:14
+#, kde-format
+msgid "Open-Xchange Configuration"
+msgstr "Open-Xchange 設定"
+
+#: configdialog.cpp:57
+#, kde-format
+msgid "Enter the http or https URL to your Open-Xchange installation here."
+msgstr "在此輸入您的 Open-Xchange 安裝的 http 或 https 網址。"
+
+#: configdialog.cpp:58
+#, kde-format
+msgid "Enter the username of your Open-Xchange account here."
+msgstr "在此輸入您的 Open-Xchange 帳號。"
+
+#: configdialog.cpp:59
+#, kde-format
+msgid "Enter the password of your Open-Xchange account here."
+msgstr "在此輸入您的 Open-Xchange 帳號的密碼。"
+
+#: configdialog.cpp:103
+#, kde-format
+msgid "Unable to connect: %1"
+msgstr "無法連線：%1"
+
+#: configdialog.cpp:103
+#, kde-format
+msgid "Connection error"
+msgstr "連線錯誤"
+
+#: configdialog.cpp:105
+#, kde-format
+msgid "Tested connection successfully."
+msgstr "測試連線成功。"
+
+#: configdialog.cpp:105
+#, kde-format
+msgid "Connection success"
+msgstr "連線成功"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configdialog.ui:32
+#, kde-format
+msgid "Connection"
+msgstr "連線"
+
+#. i18n: ectx: property (text), widget (QLabel, label_BaseUrl)
+#: configdialog.ui:53
+#, kde-format
+msgid "Server URL:"
+msgstr "伺服器網址："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_BaseUrl)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_BaseUrl)
+#. i18n: ectx: tooltip, entry (BaseUrl), group (General)
+#. i18n: ectx: whatsthis, entry (BaseUrl), group (General)
+#: configdialog.ui:60 configdialog.ui:63 openxchangeresource.kcfg:11
+#: openxchangeresource.kcfg:12
+#, kde-format
+msgid ""
+"The URL of the Open-Xchange server, should be something like https://"
+"myserver.org/"
+msgstr "Open-Xchange 伺服器的網址，應該是像 https://myserver.org/"
+
+#. i18n: ectx: property (text), widget (QLabel, label_Username)
+#: configdialog.ui:85
+#, kde-format
+msgid "Username:"
+msgstr "使用者名稱："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_Username)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_Username)
+#. i18n: ectx: tooltip, entry (Username), group (General)
+#. i18n: ectx: whatsthis, entry (Username), group (General)
+#: configdialog.ui:92 configdialog.ui:95 openxchangeresource.kcfg:16
+#: openxchangeresource.kcfg:17
+#, kde-format
+msgid "The username that is used to log into the Open-Xchange server"
+msgstr "用於登入 Open-Xchange 伺服器的使用者名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, label_Password)
+#: configdialog.ui:114
+#, kde-format
+msgid "Password:"
+msgstr "密碼："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_Password)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_Password)
+#. i18n: ectx: tooltip, entry (Password), group (General)
+#. i18n: ectx: whatsthis, entry (Password), group (General)
+#: configdialog.ui:121 configdialog.ui:124 openxchangeresource.kcfg:21
+#: openxchangeresource.kcfg:22
+#, kde-format
+msgid "The password that is used to log into the Open-Xchange server"
+msgstr "用於登入 Open-Xchange 伺服器的密碼"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkConnectionButton)
+#: configdialog.ui:137
+#, kde-format
+msgid "Test Connection..."
+msgstr "測試連線..."
+
+#: openxchangeresource.cpp:264
+#, kde-format
+msgid "Open-Xchange"
+msgstr "Open-Xchange"
+
+#: openxchangeresource.cpp:292
+#, kde-format
+msgid "Private Folder"
+msgstr "私人資料夾"
+
+#: openxchangeresource.cpp:300
+#, kde-format
+msgid "Public Folder"
+msgstr "公開資料夾"
+
+#: openxchangeresource.cpp:308
+#, kde-format
+msgid "Shared Folder"
+msgstr "共享資料夾"
+
+#: openxchangeresource.cpp:316
+#, kde-format
+msgid "System Folder"
+msgstr "系統資料夾"
+
+#: openxchangeresource.cpp:640
+#, kde-format
+msgid "Unable to connect to server"
+msgstr "無法連線到伺服器"
+
+#: openxchangeresource.cpp:828
+#, kde-format
+msgid ""
+"The object was edited by another participant in the meantime. Please check."
+msgstr "此物件目前正被另一個參與者編輯中。請確認。"
+
+#: openxchangeresource.cpp:831
+#, kde-format
+msgid ""
+"Object not found. Maybe it was deleted by another participant in the "
+"meantime."
+msgstr "找不到物件。它可能同時被另一個參與者刪除了。"
+
+#: openxchangeresource.cpp:834
+#, kde-format
+msgid "You don't have the permission to perform this action on this object."
+msgstr "您沒有權限對此物件執行此動作。"
+
+#: openxchangeresource.cpp:837
+#, kde-format
+msgid ""
+"A conflict detected. Please check if there are other objects in conflict "
+"with this one."
+msgstr "偵測到衝突。請確認是否有另一個物件與此物件衝突。"
+
+#: openxchangeresource.cpp:840
+#, kde-format
+msgid ""
+"A mandatory data field is missing. Please check. Otherwise contact your "
+"administrator."
+msgstr "缺少了一個必要的資料欄位。請確認，否則請聯繫您的管理員。"
+
+#: openxchangeresource.cpp:843
+#, kde-format
+msgid ""
+"An appointment conflict detected.\n"
+"Please check if there are other appointments in conflict with this one."
+msgstr ""
+"偵測到一個約會衝突。\n"
+"請檢查是否有另一個約會與此約會衝突。"
+
+#: openxchangeresource.cpp:846
+#, kde-format
+msgid "Internal server error. Please contact your administrator."
+msgstr "內部伺服器錯誤。請聯繫您的管理員。"
+
+#. i18n: ectx: label, entry (BaseUrl), group (General)
+#: openxchangeresource.kcfg:10
+#, kde-format
+msgid "Server URL"
+msgstr "伺服器網址"
+
+#. i18n: ectx: label, entry (Username), group (General)
+#: openxchangeresource.kcfg:15
+#, kde-format
+msgctxt "the username to login on server"
+msgid "Username"
+msgstr "使用者名稱"
+
+#. i18n: ectx: label, entry (Password), group (General)
+#: openxchangeresource.kcfg:20
+#, kde-format
+msgid "Password"
+msgstr "密碼"
+
+#. i18n: ectx: label, entry (UseIncrementalUpdates), group (General)
+#: openxchangeresource.kcfg:26
+#, kde-format
+msgid "Use incremental updates"
+msgstr "使用漸進式更新"
+
+#. i18n: ectx: tooltip, entry (UseIncrementalUpdates), group (General)
+#. i18n: ectx: whatsthis, entry (UseIncrementalUpdates), group (General)
+#: openxchangeresource.kcfg:27 openxchangeresource.kcfg:28
+#, kde-format
+msgid ""
+"Use incremental updates instead of reloading all data from the server each "
+"time"
+msgstr "使用漸進式更新，而不是每次都重新從伺服器上載入所有的資料"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "About..."
+#~ msgstr "關於..."
+
+#~ msgid "Akonadi Open-Xchange Resource"
+#~ msgstr "Akonadi Open-Xchange 資源"
+
+#~ msgid "(c) 2009 by Tobias Koenig (credativ GmbH)"
+#~ msgstr "(c) 2009 by Tobias Koenig (credativ GmbH)"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"
+
+#~ msgid "Current maintainer"
+#~ msgstr "目前維護者"
+
+#~ msgid "credativ GmbH"
+#~ msgstr "credativ GmbH"
+
+#~ msgid "Funded and supported"
+#~ msgstr "資助與支援"

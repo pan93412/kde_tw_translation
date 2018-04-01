@@ -1,0 +1,268 @@
+# translation of kio_sieve.po to Chinese Traditional
+# translation of kio_sieve.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-07-31 03:28+0200\n"
+"PO-Revision-Date: 2009-03-19 08:53+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: sieve.cpp:330
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "連線到 %1..."
+
+#: sieve.cpp:333
+#, kde-format
+msgid "The connection to the server was lost."
+msgstr "與伺服器的連線已遺失。"
+
+#: sieve.cpp:345
+#, kde-format
+msgid "Server identification failed."
+msgstr "伺服器認證失敗。"
+
+#: sieve.cpp:351
+#, kde-format
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr "無法使用 TLS，因為底層的 Qt 函式庫不支援。"
+
+#: sieve.cpp:358
+#, kde-format
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+"要求 TLS 加密，但您的 Sieve 伺服器並未宣稱支援 TLS。\n"
+"您可以選擇還是啟動 TLS，或是取消操作。"
+
+#: sieve.cpp:360
+#, kde-format
+msgid "Server Does Not Advertise TLS"
+msgstr "伺服器未宣稱支援 TLS"
+
+#: sieve.cpp:360
+#, kde-format
+msgid "&Start TLS nonetheless"
+msgstr "還是啟動 TLS(&S)"
+
+#: sieve.cpp:360
+#, kde-format
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: sieve.cpp:361
+#, kde-format
+msgid "TLS encryption requested, but not supported by server."
+msgstr "要求 TLS 加密，但是伺服器並未支援"
+
+#: sieve.cpp:382
+#, kde-format
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr "您的 Sieve 伺服器宣稱支援 TLS，但是初始化溝通未成功。"
+
+#: sieve.cpp:384
+#, kde-format
+msgid "Connection Failed"
+msgstr "連線失敗"
+
+#: sieve.cpp:391
+#, kde-format
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr "此伺服器似乎不支援 TLS。若您不打算使用加密連線，請關閉 TLS。"
+
+#: sieve.cpp:403
+#, kde-format
+msgid "Authenticating user..."
+msgstr "認證使用者..."
+
+#: sieve.cpp:406
+#, kde-format
+msgid "Authentication failed."
+msgstr "認證失敗。"
+
+#: sieve.cpp:470
+#, kde-format
+msgctxt "special command completed"
+msgid "Done."
+msgstr "完成。"
+
+#: sieve.cpp:483
+#, kde-format
+msgid "Activating script..."
+msgstr "啟動文稿..."
+
+#: sieve.cpp:500
+#, kde-format
+msgid "There was an error activating the script."
+msgstr "啟動文稿時發生錯誤。"
+
+#: sieve.cpp:520
+#, kde-format
+msgid "There was an error deactivating the script."
+msgstr "關閉文稿時發生錯誤。"
+
+#: sieve.cpp:552
+#, kde-format
+msgid "Sending data..."
+msgstr "送出資料中..."
+
+#: sieve.cpp:569
+#, kde-format
+msgid "KIO data supply error."
+msgstr "KIO 提供資料錯誤。"
+
+#: sieve.cpp:620 sieve.cpp:1153
+#, kde-format
+msgid "Network error."
+msgstr "網路錯誤。"
+
+#: sieve.cpp:632
+#, kde-format
+msgid "Verifying upload completion..."
+msgstr "檢查上傳完成度..."
+
+#: sieve.cpp:656 sieve.cpp:663
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"文稿未能成功上傳。\n"
+"這可能是因為文稿的錯誤。\n"
+"伺服器回應：\n"
+"%1"
+
+#: sieve.cpp:667 sieve.cpp:671
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"文稿未能成功上傳。\n"
+"文稿可能內含錯誤。"
+
+#: sieve.cpp:679
+#, kde-format
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "完成。"
+
+#: sieve.cpp:711
+#, kde-format
+msgid "Retrieving data..."
+msgstr "取得資料中..."
+
+#: sieve.cpp:761
+#, kde-format
+msgid "Finishing up..."
+msgstr "完成中..."
+
+#: sieve.cpp:770
+#, kde-format
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "取得文稿下載時發生通訊協定錯誤。"
+
+#: sieve.cpp:775
+#, kde-format
+msgctxt "data retrival complete"
+msgid "Done."
+msgstr "完成。"
+
+#: sieve.cpp:782
+#, kde-format
+msgid "Folders are not supported."
+msgstr "不支援資料夾。"
+
+#: sieve.cpp:791
+#, kde-format
+msgid "Deleting file..."
+msgstr "刪除檔案中..."
+
+#: sieve.cpp:807
+#, kde-format
+msgid "The server would not delete the file."
+msgstr "伺服器將不刪除此檔案。"
+
+#: sieve.cpp:811
+#, kde-format
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "完成。"
+
+#: sieve.cpp:826
+#, kde-format
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr "只能將模式變更為 0700（啟動文稿）或 0600 （關閉文稿）。"
+
+#: sieve.cpp:986
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "認證時發生錯誤：%1"
+
+#: sieve.cpp:1010
+#, kde-format
+msgid "Sieve Authentication Details"
+msgstr "Sieve 認證詳情"
+
+#: sieve.cpp:1011
+#, kde-format
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr "請輸入您的 Sieve 帳號的認證詳情（通常就是您的郵件密碼）："
+
+#: sieve.cpp:1084
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"認證時發生通訊協定錯誤。\n"
+"請選擇不同的認證方式給 %1。"
+
+#: sieve.cpp:1123
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"認證失敗。\n"
+"有可能是密碼錯誤。\n"
+"伺服器回應：\n"
+"%1"
+
+#: sieve.cpp:1208
+#, kde-format
+msgid "A protocol error occurred."
+msgstr "通訊協定錯誤。"
+
+#~ msgid "Quota exceeded"
+#~ msgstr "限額已滿"
+
+#~ msgid "No authentication details supplied."
+#~ msgstr "沒有支援的驗證詳細資訊。"

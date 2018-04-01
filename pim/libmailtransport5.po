@@ -1,0 +1,817 @@
+# translation of libmailtransport.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: libmailtransport\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-12 03:23+0100\n"
+"PO-Revision-Date: 2015-02-20 23:02+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: label, entry (id), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:12
+#, kde-format
+msgid "Unique identifier"
+msgstr "唯一身份"
+
+#. i18n: ectx: label, entry (name), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:16
+#, kde-format
+msgid "User-visible transport name"
+msgstr "使用者可見的傳送名撐"
+
+#. i18n: ectx: whatsthis, entry (name), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:17
+#, kde-format
+msgid "The name that will be used when referring to this server."
+msgstr "這個伺服器的名稱"
+
+#: kmailtransport/mailtransport.kcfg:18
+#, kde-format
+msgid "Unnamed"
+msgstr "未命名"
+
+#. i18n: ectx: label, entry (host), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:24
+#, kde-format
+msgid "Host name of the server"
+msgstr "伺服器主機名稱"
+
+#. i18n: ectx: whatsthis, entry (host), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:25
+#, kde-format
+msgid "The domain name or numerical address of the SMTP server."
+msgstr "SMTP 伺服器的網域名稱或 IP 位址。"
+
+#. i18n: ectx: label, entry (port), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:28
+#, kde-format
+msgid "Port number of the server"
+msgstr "伺服器連接埠號"
+
+#. i18n: ectx: whatsthis, entry (port), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:29
+#, kde-format
+msgid ""
+"The port number that the SMTP server is listening on. The default port is 25."
+msgstr "SMTP 伺服器使用的埠號。預設值為 25。"
+
+#. i18n: ectx: label, entry (userName), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:33
+#, kde-format
+msgid "User name needed for login"
+msgstr "登入的帳號"
+
+#. i18n: ectx: whatsthis, entry (userName), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:34
+#, kde-format
+msgid "The user name to send to the server for authorization."
+msgstr "要送給伺服器做認證的使用者名稱。"
+
+#. i18n: ectx: label, entry (precommand), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:37
+#, kde-format
+msgid "Command to execute before sending a mail"
+msgstr "送出信件前執行的指令"
+
+#. i18n: ectx: whatsthis, entry (precommand), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:38
+#, kde-format
+msgid ""
+"A command to run locally, prior to sending email. This can be used to set up "
+"SSH tunnels, for example. Leave it empty if no command should be run."
+msgstr ""
+"在送信前執行的命令。例如可以設定 ssh 通道。如果沒有要執行的命令就請留白。"
+
+#. i18n: ectx: label, entry (requiresAuthentication), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:41
+#, kde-format
+msgid "Server requires authentication"
+msgstr "伺服器需要通過認證"
+
+#. i18n: ectx: whatsthis, entry (requiresAuthentication), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:42
+#, kde-format
+msgid ""
+"Check this option if your SMTP server requires authentication before "
+"accepting mail. This is known as 'Authenticated SMTP' or simply ASMTP."
+msgstr ""
+"如果您的 SMTP 伺服器需要身份認證，請勾選這個選項。這就是所謂的 Authenticated "
+"SMTP 或 ASMTP。"
+
+#. i18n: ectx: label, entry (storePassword), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:46
+#, kde-format
+msgid "Store password"
+msgstr "儲存密碼"
+
+#. i18n: ectx: whatsthis, entry (storePassword), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:49
+#, kde-format
+msgid ""
+"Check this option to have your password stored.\n"
+"If KWallet is available the password will be stored there, which is "
+"considered safe.\n"
+"However, if KWallet is not available, the password will be stored in the "
+"configuration file. The password is stored in an obfuscated format, but "
+"should not be considered secure from decryption efforts if access to the "
+"configuration file is obtained."
+msgstr ""
+"勾選這個選項，KMail 會將您的密碼儲存下來。\n"
+"如果您的系統中有使用 KWallet，密碼將會儲存在 KWallet以提供較安全的保護。\n"
+"如果沒有 KWallet 的話，密碼將會儲存在 KMail 的設定檔中，並做簡單的加密。但是"
+"這仍然不保證密碼可以安全地不被破解。"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:53
+#, kde-format
+msgid "Encryption method used for communication"
+msgstr "通訊時使用的加密方法"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:56
+#, kde-format
+msgid "No encryption"
+msgstr "不加密"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:59
+#, kde-format
+msgid "SSL encryption"
+msgstr "SSL 加密"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:62
+#, kde-format
+msgid "TLS encryption"
+msgstr "TLS 加密"
+
+#. i18n: ectx: label, entry (authenticationType), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:67
+#, kde-format
+msgid "Authentication method"
+msgstr "認證方法"
+
+#. i18n: ectx: label, entry (specifyHostname), group (Transport $(transportId))
+#. i18n: ectx: label, entry (localHostname), group (Transport $(transportId))
+#. i18n: ectx: label, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
+#. i18n: ectx: label, entry (senderOverwriteAddress), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:84 kmailtransport/mailtransport.kcfg:89
+#: kmailtransport/mailtransport.kcfg:93 kmailtransport/mailtransport.kcfg:98
+#, kde-format
+msgid "<!-- TODO -->"
+msgstr "<!-- TODO -->"
+
+#. i18n: ectx: whatsthis, entry (specifyHostname), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:85
+#, kde-format
+msgid ""
+"Check this option to use a custom hostname when identifying to the mail "
+"server. This is useful when your system's hostname may not be set correctly "
+"or to mask your system's true hostname."
+msgstr ""
+"這個選項讓 KMail 在與伺服器溝通時，使用不同的主機名稱。如果您的系統主機設定不"
+"正確，或是您不想讓其他人知道您的主機名稱時，可以使用這個選項。   "
+
+#. i18n: ectx: whatsthis, entry (localHostname), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:90
+#, kde-format
+msgid "Enter the hostname that should be used when identifying to the server."
+msgstr "請輸入 KMail 與伺服器溝通時使用的主機名稱。"
+
+#. i18n: ectx: whatsthis, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:94
+#, kde-format
+msgid ""
+"Check this option to use a custom sender address when identifying to the "
+"mail server. If not checked, the address from the identity is used."
+msgstr ""
+"這個選項讓您在與伺服器溝通時，使用不同的寄件者位址。若未勾選，則使用此身份的"
+"電子郵件地址。"
+
+#. i18n: ectx: whatsthis, entry (senderOverwriteAddress), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:99
+#, kde-format
+msgid ""
+"Enter the address that should be used to overwrite the default sender "
+"address."
+msgstr "請輸入與伺服器溝通時使用的電子郵件地址。"
+
+#. i18n: ectx: label, entry (useProxy), group (Transport $(transportId))
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxy)
+#: kmailtransport/mailtransport.kcfg:102
+#: kmailtransport/plugins/smtp/smtpsettings.ui:288
+#, kde-format
+msgid "Connect using the system proxy settings"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (useProxy), group (Transport $(transportId))
+#: kmailtransport/mailtransport.kcfg:103
+#, kde-format
+msgid ""
+"If checked, the system proxy settings will be used to connect to the mail "
+"server."
+msgstr ""
+
+#: kmailtransport/plugins/smtp/smtpconfigwidget.cpp:153
+#, kde-format
+msgid "The password to send to the server for authorization."
+msgstr "要送到伺服器認證用的密碼。"
+
+#: kmailtransport/plugins/smtp/smtpconfigwidget.cpp:273
+#, kde-format
+msgid ""
+"Failed to check capabilities. Please verify port and authentication mode."
+msgstr "檢查容量時失敗。請檢查連接埠與認證模式。"
+
+#: kmailtransport/plugins/smtp/smtpconfigwidget.cpp:273
+#, kde-format
+msgid "Check Capabilities Failed"
+msgstr "檢查容量失敗"
+
+#: kmailtransport/plugins/smtp/smtpjob.cpp:203
+#, kde-format
+msgid "You need to supply a username and a password to use this SMTP server."
+msgstr "您必須提供此 SMTP 伺服器使用的帳號與密碼。"
+
+#: kmailtransport/plugins/smtp/smtpmailtransportplugin.cpp:42
+#, kde-format
+msgctxt "@option SMTP transport"
+msgid "SMTP"
+msgstr "SMTP"
+
+#: kmailtransport/plugins/smtp/smtpmailtransportplugin.cpp:43
+#, kde-format
+msgid "An SMTP server on the Internet"
+msgstr "網際網路上的 SMTP 伺服器"
+
+#: kmailtransport/plugins/smtp/smtpmailtransportplugin.cpp:54
+#, kde-format
+msgid "Configure account"
+msgstr "設定帳號"
+
+#. i18n: ectx: attribute (title), widget (QWidget, smptTab)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:34
+#, kde-format
+msgctxt "general smtp settings"
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:40
+#, kde-format
+msgid "Account Information"
+msgstr "帳號資訊"
+
+#. i18n: ectx: property (text), widget (QLabel, hostLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:46
+#, fuzzy, kde-format
+#| msgid "Outgoing mail &server:"
+msgid "Outgoing &mail server:"
+msgstr "外寄信件伺服器(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:69
+#, kde-format
+msgid "&Login:"
+msgstr "帳號(&L)："
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:95
+#, kde-format
+msgid "P&assword:"
+msgstr "密碼(&A)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_storePassword)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:118
+#, kde-format
+msgid "&Store SMTP password"
+msgstr "儲存 SMTP 密碼(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_requiresAuthentication)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:125
+#, kde-format
+msgid "Server &requires authentication"
+msgstr "伺服器需要認證(&R)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:149
+#, kde-format
+msgctxt "advanced smtp settings"
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: ectx: property (title), widget (QGroupBox, encryptionGroup)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:158
+#, kde-format
+msgid "Connection Settings"
+msgstr "連線設定"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkCapabilities)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:171
+#, kde-format
+msgid "Auto Detect"
+msgstr "自動偵測"
+
+#. i18n: ectx: property (text), widget (QLabel, noAuthPossible)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:205
+#, kde-format
+msgid "This server does not support authentication"
+msgstr "此伺服器不支援認證"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:220
+#, kde-format
+msgid "Encryption:"
+msgstr "加密："
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:229
+#, kde-format
+msgid "&None"
+msgstr "無(&N)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionSsl)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:236
+#, kde-format
+msgid "&SSL"
+msgstr "SSL(&S)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionTls)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:243
+#, kde-format
+msgid "&TLS"
+msgstr "TLS(&T)"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:252
+#, kde-format
+msgid "&Port:"
+msgstr "連接埠(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, authLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:278
+#, kde-format
+msgid "Authentication:"
+msgstr "認證："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:300
+#, kde-format
+msgid "SMTP Settings"
+msgstr "SMTP 設定"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifyHostname)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:306
+#, kde-format
+msgid "Sen&d custom hostname to server"
+msgstr "送出不同的主機名稱到伺服器上(&D)"
+
+#. i18n: ectx: property (text), widget (QLabel, hostnameLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:316
+#, fuzzy, kde-format
+#| msgid "&Host:"
+msgid "Hostna&me:"
+msgstr "主機(&H)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifySenderOverwriteAddress)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:339
+#, kde-format
+msgid "Use custom sender address"
+msgstr "使用自訂的寄件者位址"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:349
+#, kde-format
+msgid "Sender Address:"
+msgstr "寄件者位址："
+
+#. i18n: ectx: property (text), widget (QLabel, precommandLabel)
+#: kmailtransport/plugins/smtp/smtpsettings.ui:366
+#, kde-format
+msgid "Precommand:"
+msgstr "前置命令："
+
+#: kmailtransport/precommandjob.cpp:86
+#, kde-format
+msgid "Executing precommand"
+msgstr "執行前置命令"
+
+#: kmailtransport/precommandjob.cpp:87
+#, kde-format
+msgid "Executing precommand '%1'."
+msgstr "執行前置命令 %1。"
+
+#: kmailtransport/precommandjob.cpp:94
+#, kde-format
+msgid "Unable to start precommand '%1'."
+msgstr "無法啟動前置命令：%1。"
+
+#: kmailtransport/precommandjob.cpp:96
+#, kde-format
+msgid "Error while executing precommand '%1'."
+msgstr "執行前置命令 %1 時發生錯誤。"
+
+#: kmailtransport/precommandjob.cpp:112
+#, kde-format
+msgid "The precommand crashed."
+msgstr "執行前置命令失敗。"
+
+#: kmailtransport/precommandjob.cpp:115
+#, kde-format
+msgid "The precommand exited with code %1."
+msgstr "前置命令結束傳回碼 %1。"
+
+#: kmailtransport/transport.cpp:92
+#, kde-format
+msgctxt ""
+"%1: name; %2: number appended to it to make it unique among a list of names"
+msgid "%1 #%2"
+msgstr "%1 #%2"
+
+#: kmailtransport/transport.cpp:139
+#, kde-format
+msgctxt "Authentication method"
+msgid "Clear text"
+msgstr "明碼"
+
+#: kmailtransport/transport.cpp:143
+#, kde-format
+msgctxt "Authentication method"
+msgid "Anonymous"
+msgstr "匿名"
+
+#: kmailtransport/transport.cpp:172
+#, kde-format
+msgctxt "An unknown transport type"
+msgid "Unknown"
+msgstr "未知"
+
+#: kmailtransport/transport.cpp:226
+#, kde-format
+msgid ""
+"KWallet is not available. It is strongly recommended to use KWallet for "
+"managing your passwords.\n"
+"However, the password can be stored in the configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
+msgstr ""
+"無法使用 KWallet。強烈建議您使用 KWallet 來管理您的密碼。\n"
+"如果沒有 KWallet 的話，密碼將會保存在 KMail 的設定檔中，並做簡單的加密。但是"
+"這仍然不保證密碼可以安全地不被破解。\n"
+"您確定要將帳號 %1 的密碼存在設定檔中嗎？"
+
+#: kmailtransport/transport.cpp:234
+#, kde-format
+msgid "KWallet Not Available"
+msgstr "無法使用 KWallet"
+
+#: kmailtransport/transport.cpp:235
+#, kde-format
+msgid "Store Password"
+msgstr "儲存密碼"
+
+#: kmailtransport/transport.cpp:236
+#, kde-format
+msgid "Do Not Store Password"
+msgstr "不要儲存"
+
+#: kmailtransport/transportjob.cpp:131
+#, kde-format
+msgid "The outgoing account \"%1\" is not correctly configured."
+msgstr "外送帳號 %1 未正確設定。"
+
+#: kmailtransport/transportmanager.cpp:251
+#, kde-format
+msgid "Default Transport"
+msgstr "預設傳送設定"
+
+#: kmailtransport/transportmanager.cpp:270
+#, kde-format
+msgid "You must create an outgoing account before sending."
+msgstr "您必須建立外送郵件帳號才能傳送信件。"
+
+#: kmailtransport/transportmanager.cpp:271
+#, kde-format
+msgid "Create Account Now?"
+msgstr "要現在建立帳號嗎？"
+
+#: kmailtransport/transportmanager.cpp:272
+#, kde-format
+msgid "Create Account Now"
+msgstr "現在建立帳號"
+
+#: kmailtransport/transportmanager.cpp:698
+#, kde-format
+msgid ""
+"The following mail transports store their passwords in an unencrypted "
+"configuration file.\n"
+"For security reasons, please consider migrating these passwords to KWallet, "
+"the KDE Wallet management tool,\n"
+"which stores sensitive data for you in a strongly encrypted file.\n"
+"Do you want to migrate your passwords to KWallet?"
+msgstr ""
+"以下的傳送設定將密碼存在一個未加密的設定檔中。\n"
+"強烈建議使用 KWallet 來儲存密碼，因為有較高的安全性。\n"
+"您要將您的密碼移到 KWallet 中嗎？"
+
+#: kmailtransport/transportmanager.cpp:704
+#, kde-format
+msgid "Question"
+msgstr "問題"
+
+#: kmailtransport/transportmanager.cpp:705
+#, kde-format
+msgid "Migrate"
+msgstr "請幫我移動"
+
+#: kmailtransport/transportmanager.cpp:705
+#, kde-format
+msgid "Keep"
+msgstr "保持現狀"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AddTransportDialog)
+#: kmailtransport/ui/addtransportdialog.ui:20
+#, kde-format
+msgid "Step One: Select Transport Type"
+msgstr "步驟 1：選擇傳輸型態"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmailtransport/ui/addtransportdialog.ui:38
+#, kde-format
+msgctxt "The name of a mail transport"
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (text), widget (QCheckBox, setDefault)
+#: kmailtransport/ui/addtransportdialog.ui:48
+#, kde-format
+msgid "Make this the default outgoing account."
+msgstr "將此設為預設的外寄帳號。"
+
+#. i18n: ectx: property (text), widget (QLabel, descLabel)
+#: kmailtransport/ui/addtransportdialog.ui:61
+#, kde-format
+msgid "Select an account type from the list below:"
+msgstr "從以下清單中選擇帳號型態："
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: kmailtransport/ui/addtransportdialog.ui:81
+#, kde-format
+msgid "Type"
+msgstr "型態"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: kmailtransport/ui/addtransportdialog.ui:86
+#, kde-format
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:17
+#, kde-format
+msgid "Remo&ve"
+msgstr "移除(&V)"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:24
+#, kde-format
+msgid "&Set as Default"
+msgstr "設為預設(&S)"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:51
+#, kde-format
+msgid "A&dd..."
+msgstr "新增(&D)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:58
+#, kde-format
+msgid "&Rename"
+msgstr "重新命名(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: kmailtransport/ui/transportmanagementwidget.ui:65
+#, kde-format
+msgid "&Modify..."
+msgstr "變更(&M)..."
+
+#: kmailtransport/widgets/addtransportdialogng.cpp:107
+#, kde-format
+msgid "Create Outgoing Account"
+msgstr "建立外送帳號"
+
+#: kmailtransport/widgets/addtransportdialogng.cpp:110
+#, kde-format
+msgctxt "create and configure a mail transport"
+msgid "Create and Configure"
+msgstr "建立並設定"
+
+#: kmailtransport/widgets/transportlistview.cpp:41
+#, kde-format
+msgctxt "@title:column email transport name"
+msgid "Name"
+msgstr "名稱"
+
+#: kmailtransport/widgets/transportlistview.cpp:42
+#, kde-format
+msgctxt "@title:column email transport type"
+msgid "Type"
+msgstr "型態"
+
+#: kmailtransport/widgets/transportlistview.cpp:113
+#, kde-format
+msgctxt "@label the default mail transport"
+msgid " (Default)"
+msgstr "（預設）"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:150
+#, kde-format
+msgid "Do you want to remove outgoing account '%1'?"
+msgstr "您確定要移除外送帳號 %1 嗎？"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:152
+#, kde-format
+msgid "Remove outgoing account?"
+msgstr "要移除外送帳號嗎？"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:174
+#, kde-format
+msgid "Add..."
+msgstr "新增..."
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:179
+#, kde-format
+msgid "Modify..."
+msgstr "變更..."
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:182
+#, kde-format
+msgid "Rename"
+msgstr "重新命名"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:185
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#: kmailtransport/widgets/transportmanagementwidget.cpp:190
+#, kde-format
+msgid "Set as Default"
+msgstr "設成預設值"
+
+#: kmailtransportakonadi/messagequeuejob.cpp:77
+#, kde-format
+msgid "Empty message."
+msgstr "空白的信件。"
+
+#: kmailtransportakonadi/messagequeuejob.cpp:85
+#, kde-format
+msgid "Message has no recipients."
+msgstr "信件沒有收件人。"
+
+#: kmailtransportakonadi/messagequeuejob.cpp:93
+#, kde-format
+msgid "Message has invalid transport."
+msgstr "信件的傳輸不正確。"
+
+#: kmailtransportakonadi/messagequeuejob.cpp:101
+#, kde-format
+msgid "Message has invalid sent-mail folder."
+msgstr "信件有一個不合法的寄件備份資料夾。"
+
+#~ msgid "Unable to create SMTP job."
+#~ msgstr "無法建立 SMTP 工作。"
+
+#~ msgid "SMTP Server"
+#~ msgstr "SMTP 伺服器"
+
+#~ msgid "Akonadi Resource"
+#~ msgstr "Akonadi 資源"
+
+#~ msgid "Transport type"
+#~ msgstr "傳送型態"
+
+#~ msgid "This outgoing account cannot be configured."
+#~ msgstr "此外送帳號無法被設定。"
+
+#, fuzzy
+#~| msgctxt "@option SMTP transport"
+#~| msgid "SMTP"
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgid "Hos&tname:"
+#~ msgstr "主機名稱(&T)："
+
+#~ msgid "Local sendmail"
+#~ msgstr "本地端的 sendmail"
+
+#~ msgid "Failed to execute mailer program %1"
+#~ msgstr "執行發信程式 %1 失敗"
+
+#~ msgid "Sendmail exited abnormally."
+#~ msgstr "Sendmail 不正常結束。"
+
+#~ msgid "Sendmail exited abnormally: %1"
+#~ msgstr "Sendmail 不正常結束：%1"
+
+#~ msgctxt "@option sendmail transport"
+#~ msgid "Sendmail"
+#~ msgstr "Sendmail"
+
+#~ msgid "A local sendmail installation"
+#~ msgstr "本地端的 sendmail"
+
+#~ msgid "Sendmail &Location:"
+#~ msgstr "Sendmail 位置(&L)："
+
+#~ msgid "Mail &server:"
+#~ msgstr "郵件伺服器(&S)："
+
+#~ msgid "Edit..."
+#~ msgstr "編輯..."
+
+#~ msgid "text"
+#~ msgstr "文字"
+
+#~ msgid "Check &What the Server Supports"
+#~ msgstr "檢查伺服器支援的協定(&W)"
+
+#~ msgid "Authentication Method"
+#~ msgstr "認證方法"
+
+#~ msgid "&LOGIN"
+#~ msgstr "LOGIN(&L)"
+
+#~ msgid "&PLAIN"
+#~ msgstr "PLAIN(&P)"
+
+#~ msgid "CRAM-MD&5"
+#~ msgstr "CRAM-MD5(&5)"
+
+#~ msgid "&DIGEST-MD5"
+#~ msgstr "DIGEST-MD5(&D)"
+
+#~ msgid "&GSSAPI"
+#~ msgstr "GSSAPI(&G)"
+
+#~ msgid "&NTLM"
+#~ msgstr "NTLM(&N)"
+
+#~ msgid "Message has invalid due date."
+#~ msgstr "信件的到期日不正確。"
+
+#~ msgid "Transport: Sendmail"
+#~ msgstr "傳送：Sendmail"
+
+#~ msgid "&Location:"
+#~ msgstr "位置(&L)："
+
+#~ msgid "Choos&e..."
+#~ msgstr "選擇(&E)..."
+
+#~ msgid "Transport: SMTP"
+#~ msgstr "傳送：SMTP"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Use Sendmail"
+#~ msgstr "使用 Sendmail"
+
+#~ msgid "Only local files allowed."
+#~ msgstr "只允許本地檔案。"
+
+#~ msgctxt "@title:window"
+#~ msgid "Add Transport"
+#~ msgstr "新增傳送設定"
+
+#~ msgctxt "@title:window"
+#~ msgid "Modify Transport"
+#~ msgstr "變更傳送設定"
+
+#~ msgid "SM&TP"
+#~ msgstr "SMTP(&T)"
+
+#~ msgid "&Sendmail"
+#~ msgstr "Sendmail(&S)"
+
+#~ msgid "Add Transport"
+#~ msgstr "新增傳送設定"

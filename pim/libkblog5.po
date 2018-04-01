@@ -1,0 +1,169 @@
+# translation of libkblog.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkblog\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-14 03:26+0200\n"
+"PO-Revision-Date: 2009-11-09 13:38+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: blogger1.cpp:243
+#, kde-format
+msgid ""
+"Could not fetch user's info out of the result from the server, not a map."
+msgstr "無法從伺服器傳回的結果抓取使用者資訊，因為並非映射。"
+
+#: blogger1.cpp:270
+#, kde-format
+msgid "Could not fetch blogs out of the result from the server, not a list."
+msgstr "無法從伺服器傳回的結果抓取部落格，因為並非列表。"
+
+#: blogger1.cpp:307
+#, kde-format
+msgid ""
+"Could not fetch list of posts out of the result from the server, not a list."
+msgstr "無法從伺服器傳回的結果抓取文章列表，因為並非列表。"
+
+#: blogger1.cpp:326
+#, kde-format
+msgid "Could not read post."
+msgstr "無法讀取文章。"
+
+#: blogger1.cpp:355 blogger1.cpp:358 movabletype.cpp:280 movabletype.cpp:283
+#, kde-format
+msgid "Could not fetch post out of the result from the server."
+msgstr "無法從伺服器傳回的結果抓取文章。"
+
+#: blogger1.cpp:377 movabletype.cpp:241
+#, kde-format
+msgid "Could not read the postId, not a string or an integer."
+msgstr "無法讀取文章代碼，因為並非字串或整數。"
+
+#: blogger1.cpp:410 blogger1.cpp:435 movabletype.cpp:316
+#, kde-format
+msgid "Could not read the result, not a boolean."
+msgstr "無法讀取結果，因為並非布林值。"
+
+#: gdata.cpp:214 gdata.cpp:277 gdata.cpp:337 gdata.cpp:382 gdata.cpp:438
+#, kde-format
+msgid "Authentication failed."
+msgstr "認證失敗。"
+
+#: gdata.cpp:529
+#, kde-format
+msgid "Could not regexp the Profile ID."
+msgstr "無法用正規表示式表示 Profile ID。"
+
+#: gdata.cpp:550
+#, kde-format
+msgid "Could not get blogs."
+msgstr "無法讀取部落格。"
+
+#: gdata.cpp:572 gdata.cpp:778
+#, kde-format
+msgid "Could not regexp the blog id path."
+msgstr "無法用正規表示式表示 blog id 路徑。"
+
+#: gdata.cpp:593 gdata.cpp:635
+#, kde-format
+msgid "Could not get comments."
+msgstr "無法取得評論。"
+
+#: gdata.cpp:607 gdata.cpp:649
+#, kde-format
+msgid "Could not regexp the comment id path."
+msgstr "無法用正規表示式表示評論的代碼路徑。"
+
+#: gdata.cpp:678 gdata.cpp:749
+#, kde-format
+msgid "Could not get posts."
+msgstr "無法讀取文章。"
+
+#: gdata.cpp:698
+#, kde-format
+msgid "Could not regexp the post id path."
+msgstr "無法用正規表示式表示 posting id 路徑。"
+
+#: gdata.cpp:807 gdata.cpp:861 gdata.cpp:942 wordpressbuggy.cpp:330
+#: wordpressbuggy.cpp:378
+#, kde-format
+msgid "Could not regexp the id out of the result."
+msgstr "無法用正規表示式表示結果 id。"
+
+#: gdata.cpp:816 gdata.cpp:870 gdata.cpp:951
+#, kde-format
+msgid "Could not regexp the published time out of the result."
+msgstr "無法用正規表示式表示結果的發布時間。"
+
+#: gdata.cpp:825 gdata.cpp:879 gdata.cpp:960
+#, kde-format
+msgid "Could not regexp the update time out of the result."
+msgstr "無法用正規表示式表示結果的更新時間。"
+
+#: livejournal.cpp:343 livejournal.cpp:452 livejournal.cpp:477
+#, kde-format
+msgid "Could not read the post ID, result not a map."
+msgstr "無法讀取文章代碼，因為並非映射。"
+
+#: livejournal.cpp:490
+#, kde-format
+msgid "The returned post ID did not match the sent one: "
+msgstr "傳回來的文章代碼與送出的不符："
+
+#: metaweblog.cpp:79
+#, kde-format
+msgid "Media is a null pointer."
+msgstr "媒體是空指標。"
+
+#: metaweblog.cpp:187
+#, kde-format
+msgid "Could not list categories out of the result from the server."
+msgstr "無法從伺服器傳回的結果列出類別。"
+
+#: metaweblog.cpp:246
+#, kde-format
+msgid "Could not read the result, not a map."
+msgstr "無法讀取結果，因為並非映射。"
+
+#: movabletype.cpp:381
+#, kde-format
+msgid "Could not read the result - is not a list. Category fetching failed."
+msgstr "無法讀取結果，因為並非清單。取得類別失敗。"
+
+#: movabletype.cpp:415
+#, kde-format
+msgid ""
+"Could not read the result - is not a boolean value. Category setting "
+"failed.  Will still publish now if necessary."
+msgstr ""
+"無法讀取結果，因為不是一個布林值。類別設定失敗。若有需要我們還是會發布。"
+
+#: movabletype.cpp:536
+#, kde-format
+msgid ""
+"Could not fetch list of trackback pings out of the result from the server."
+msgstr "無法從伺服器傳回的結果抓取文章回溯追蹤。"
+
+#: wordpressbuggy.cpp:74 wordpressbuggy.cpp:186
+#, kde-format
+msgid "Post is a null pointer."
+msgstr "文章指標是空指標。"
+
+#~ msgid "Could not fetch the homepage data."
+#~ msgstr "無法抓取首頁資料。"
+
+#~ msgid "Could not fetch post out of the resultfrom the server."
+#~ msgstr "無法從伺服器傳回的結果抓取文章。"

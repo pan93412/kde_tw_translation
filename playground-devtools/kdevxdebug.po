@@ -1,0 +1,139 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevxdebug\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-12-15 03:16+0100\n"
+"PO-Revision-Date: 2009-06-06 11:02+0800\n"
+"Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
+"dot tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: breakpointcontroller.cpp:79
+#, kde-format
+msgid "breakpoint type is not supported"
+msgstr ""
+
+#: debugjob.cpp:111
+#, kde-format
+msgid ""
+"No environment group specified, looks like a broken configuration, please "
+"check run configuration '%1'. Using default environment group."
+msgstr ""
+
+#: debugjob.cpp:215
+#, kde-format
+msgid "Starting: %1"
+msgstr ""
+
+#: debugjob.cpp:243
+#, kde-format
+msgid "*** Exited normally ***"
+msgstr ""
+
+#: debugjob.cpp:246
+#, kde-format
+msgid "*** Exited with return code: %1 ***"
+msgstr ""
+
+#: debugjob.cpp:249
+#, kde-format
+msgid "*** Process aborted ***"
+msgstr ""
+
+#: debugjob.cpp:251
+#, kde-format
+msgid "*** Crashed with return code: %1 ***"
+msgstr ""
+
+#: debugjob.cpp:265 debugjob.cpp:365
+#, kde-format
+msgid ""
+"Could not start program '%1'. Make sure that the path is specified correctly."
+msgstr ""
+
+#: debugsession.cpp:79
+#, kde-format
+msgid "Opening port %1 failed: %2."
+msgstr ""
+
+#: launchconfig.cpp:67
+#, kde-format
+msgid "XDebug"
+msgstr "XDebug"
+
+#: launchconfig.cpp:90
+#, kde-format
+msgid "Executes a PHP script with XDebug enabled"
+msgstr ""
+
+#: launchconfigurationpage.cpp:67
+#, kde-format
+msgid "XDebug Configuration"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: launchconfigurationpage.ui:17
+#, kde-format
+msgid "Path Mappings"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: launchconfigurationpage.ui:29
+#, kde-format
+msgid "Advanced Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: launchconfigurationpage.ui:38
+#, kde-format
+msgid "xdebug.remote_host"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, remoteHost)
+#: launchconfigurationpage.ui:48
+#, kde-format
+msgid "yourhost"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: launchconfigurationpage.ui:55
+#, kde-format
+msgid "xdebug.remote_port"
+msgstr ""
+
+#, fuzzy
+#~| msgid "XDebug"
+#~ msgid "XDebug Support"
+#~ msgstr "XDebug"
+
+#~ msgid "&Start with XDebug"
+#~ msgstr "在 XDebug 開始(&S)"
+
+#~ msgid "Start in debugger"
+#~ msgstr "在除錯器中開始"
+
+#~ msgid ""
+#~ "<b>Start in debugger</b><p>Starts the debugger with the project's main "
+#~ "executable. You may set some breakpoints before this, or you can "
+#~ "interrupt the program while it is running, in order to get information "
+#~ "about variables, frame stack, and so on."
+#~ msgstr ""
+#~ "<b>在除錯器中開始</b><p>在除錯器裡啟動專案的主執行檔。您可以在此之前先設定"
+#~ "中斷點，或是在執行時將它中斷以取得關於變數或堆疊等資訊。"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Run"
+#~ msgstr "執行"
+
+#~ msgid "XDebug Debugger Toolbar"
+#~ msgstr "XDebug 除錯器工具列"

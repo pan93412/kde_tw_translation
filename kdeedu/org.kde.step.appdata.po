@@ -1,0 +1,148 @@
+# Franklin, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-06-30 12:05+0000\n"
+"PO-Revision-Date: 2014-08-17 16:59+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. (itstool) path: component/name
+#: org.kde.step.appdata.xml:6
+msgid "Step"
+msgstr "物理_Step"
+
+#. (itstool) path: component/summary
+#: org.kde.step.appdata.xml:7
+msgid "Interactive Physical Simulator"
+msgstr "互動式物理模擬器"
+
+#. (itstool) path: description/p
+#: org.kde.step.appdata.xml:9
+msgid ""
+"Step is an interactive physical simulator. It allows you to explore the "
+"physical world through simulations. It works like this: you place some "
+"bodies on the scene, add some forces such as gravity or springs, then click "
+"Simulate and Step shows you how your scene will evolve according to the laws "
+"of physics. You can change every property of the bodies/forces in your "
+"experiment (even during simulation) and see how this will change evolution "
+"of the experiment. With Step you cannot only learn but feel how physics "
+"works!"
+msgstr ""
+"Step 是一套互動式的物理模擬器。它可以讓您透過模擬探索物理的世界。它的運作方式"
+"是這樣的：您在場景中放入一些主體，加上一些力，如重力或彈力等，然後按下模擬"
+"鍵，Step 就會顯示出在您的場景中，根據物理定律產生的結果。您可以改變每個主體與"
+"力的屬性（甚至實驗中也可比改變），並看看它所造成的變化。有了 Step 您不只可以"
+"學習，更可以直接感受物理！"
+
+#. (itstool) path: description/p
+#: org.kde.step.appdata.xml:10
+msgid "Features:"
+msgstr "功能："
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:12
+msgid "Classical mechanical simulation in two dimensions"
+msgstr "傳統的二維機械模擬"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:13
+msgid "Particles, springs with damping, gravitational and coulomb forces"
+msgstr "粒子，有阻力的彈力，重力與庫倫力等"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:14
+msgid "Rigid bodies"
+msgstr "堅固主體"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:15
+msgid "Collision detection (currently only discrete) and handling"
+msgstr "碰撞偵測（目前只有不連接的）與處理"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:16
+msgid ""
+"Soft (deformable) bodies simulated as user-editable particles-springs "
+"system, sound waves"
+msgstr "軟性（可變形）主體，模擬成使用者可編輯的粒子彈性系統，聲波"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:17
+msgid ""
+"Molecular dynamics (currently using Lennard-Jones potential): gas and "
+"liquid, condensation and evaporation, calculation of macroscopic quantities "
+"and their variances"
+msgstr ""
+"分子動態（目前使用雷納德-瓊斯勢能，Lennard-Jones potential）：氣體與液體，濃"
+"縮與蒸發，可見質量與變異的計算"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:18
+msgid ""
+"Units conversion and expression calculation: you can enter something like "
+"\"(2 days + 3 hours) * 80 km/h\" and it will be accepted as distance value "
+"(requires libqalculate)"
+msgstr ""
+"單位轉換與表示式計算：您可以輸入像是 \"(2 days + 3 hours) * 80 km/h\" 它會接"
+"受並做距離計算（需要 libqalculate）"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:19
+msgid ""
+"Errors calculation and propagation: you can enter values like \"1.3 ± 0.2\" "
+"for any property and errors for all dependent properties will be calculated "
+"using statistical formulas"
+msgstr ""
+"計算與增殖誤差：您可以對每個屬性輸入像是 \"1.3 ± 0.2\" 允許誤差值，它會使用統"
+"計公式來計算"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:20
+msgid ""
+"Solver error estimation: errors introduced by the solver is calculated and "
+"added to user-entered errors"
+msgstr "計算器誤差估計：由計算器造成的誤差會被計算，並加入使用者輸入的誤差"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:21
+msgid ""
+"Several different solvers: up to 8th order, explicit and implicit, with or "
+"without adaptive timestep (most of the solvers require GSL library)"
+msgstr ""
+"數種不同的計算器：最高到八階，外顯與內含的，包含與不包含時間（大部份的計算器"
+"都需要 GSL 函式庫）"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:22
+msgid ""
+"Controller tool to easily control properties during simulation (even with "
+"custom keyboard shortcuts)"
+msgstr "用於在模擬實驗時控制變因的控制工具（還有鍵盤捷徑）"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:23
+msgid "Tools to visualize results: graph, meter, tracer"
+msgstr "視覺化結果的工具：圖形、尺、追蹤器"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:24
+msgid "Context information for all objects, integrated wikipedia browser"
+msgstr "所有物件的內文資訊，整合的維基瀏覽器"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:25
+msgid ""
+"Collection of example experiments, more can be downloaded with KNewStuff"
+msgstr "範例實驗的收藏。可以透過 KNewStuff 下載更多"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:26
+msgid "Integrated tutorials"
+msgstr "整合教學"

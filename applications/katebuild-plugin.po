@@ -1,0 +1,484 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: katebuild-plugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-01-23 03:14+0100\n"
+"PO-Revision-Date: 2015-05-13 16:38+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: attribute (title), widget (QWidget, errs)
+#: build.ui:27
+#, kde-format
+msgid "Output"
+msgstr "輸出"
+
+#. i18n: ectx: property (text), widget (QLabel, showLabel)
+#: build.ui:35
+#, kde-format
+msgid "Show:"
+msgstr "顯示："
+
+#. i18n: ectx: property (text), widget (QPushButton, buildAgainButton)
+#. i18n: ectx: property (text), widget (QPushButton, buildAgainButton2)
+#: build.ui:100 build.ui:125
+#, kde-format
+msgid "Build again"
+msgstr "再次編譯"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelBuildButton)
+#. i18n: ectx: property (text), widget (QPushButton, cancelBuildButton2)
+#: build.ui:107 build.ui:132
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, errTreeWidget)
+#: build.ui:163
+#, kde-format
+msgctxt "Header for the file name column"
+msgid "File"
+msgstr "檔案"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, errTreeWidget)
+#: build.ui:168
+#, kde-format
+msgctxt "Header for the line number column"
+msgid "Line"
+msgstr "行"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, errTreeWidget)
+#: build.ui:173
+#, kde-format
+msgctxt "Header for the error message column"
+msgid "Message"
+msgstr "訊息"
+
+#: plugin_katebuild.cpp:99
+#, kde-format
+msgid "Kate Build Plugin"
+msgstr "Kate 編譯外掛程式"
+
+#: plugin_katebuild.cpp:105
+#, kde-format
+msgid "Build Output"
+msgstr "編譯輸出"
+
+#: plugin_katebuild.cpp:108
+#, kde-format
+msgid "Select Target..."
+msgstr "選擇目標..."
+
+#: plugin_katebuild.cpp:112
+#, kde-format
+msgid "Build Default Target"
+msgstr "編譯預設目標"
+
+#: plugin_katebuild.cpp:116
+#, kde-format
+msgid "Build Previous Target"
+msgstr "編譯上次的目標"
+
+#: plugin_katebuild.cpp:120
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: plugin_katebuild.cpp:125
+#, kde-format
+msgid "Next Error"
+msgstr "下一個錯誤"
+
+#: plugin_katebuild.cpp:131
+#, kde-format
+msgid "Previous Error"
+msgstr "前一個錯誤"
+
+#: plugin_katebuild.cpp:140
+#, kde-format
+msgctxt "Tab label"
+msgid "Target Settings"
+msgstr "目標設定"
+
+#: plugin_katebuild.cpp:217 plugin_katebuild.cpp:829
+#, kde-format
+msgid "Target Set"
+msgstr "目標集"
+
+#: plugin_katebuild.cpp:218 plugin_katebuild.cpp:239 plugin_katebuild.cpp:244
+#: plugin_katebuild.cpp:984
+#, kde-format
+msgid "build"
+msgstr "編譯"
+
+#: plugin_katebuild.cpp:219 plugin_katebuild.cpp:240 plugin_katebuild.cpp:987
+#, kde-format
+msgid "clean"
+msgstr "清除"
+
+#: plugin_katebuild.cpp:220
+#, kde-format
+msgid "config"
+msgstr "設定"
+
+#: plugin_katebuild.cpp:224 plugin_katebuild.cpp:242 plugin_katebuild.cpp:990
+#, kde-format
+msgid "quick"
+msgstr "快速"
+
+#: plugin_katebuild.cpp:272 plugin_katebuild.cpp:928 plugin_katebuild.cpp:939
+#: plugin_katebuild.cpp:960 plugin_katebuild.cpp:962
+#, kde-format
+msgid "Project Plugin Targets"
+msgstr "專案外掛程式目標"
+
+#: plugin_katebuild.cpp:389
+#, kde-format
+msgctxt "The same word as 'make' uses to mark an error."
+msgid "error"
+msgstr "錯誤"
+
+#: plugin_katebuild.cpp:391
+#, kde-format
+msgctxt "The same word as 'ld' uses to mark an ..."
+msgid "undefined reference"
+msgstr "未定義的參照"
+
+#: plugin_katebuild.cpp:400
+#, kde-format
+msgctxt "The same word as 'make' uses to mark a warning."
+msgid "warning"
+msgstr "警告"
+
+#: plugin_katebuild.cpp:452
+#, kde-format
+msgid "There is no file or directory specified for building."
+msgstr "找不到編譯需要的檔案或目錄。"
+
+#: plugin_katebuild.cpp:456
+#, kde-format
+msgid ""
+"The file \"%1\" is not a local file. Non-local files cannot be compiled."
+msgstr "檔案 %1 不是本地檔案。無法編譯。"
+
+#: plugin_katebuild.cpp:502
+#, kde-format
+msgid "Failed to run \"%1\". exitStatus = %2"
+msgstr "無法執行 %1。離開狀態為：%2"
+
+#: plugin_katebuild.cpp:520
+#, kde-format
+msgid "Building <b>%1</b> cancelled"
+msgstr "已取消 <b>%1</b> 的編譯"
+
+#: plugin_katebuild.cpp:579
+#, kde-format
+msgid "Already building..."
+msgstr "已經在編譯了..."
+
+#: plugin_katebuild.cpp:588
+#, kde-format
+msgid "No target available for building."
+msgstr "沒有可編譯的目標。"
+
+#: plugin_katebuild.cpp:601
+#, kde-format
+msgid "There is no local file or directory specified for building."
+msgstr "找不到編譯需要的本地端檔案或目錄。"
+
+#: plugin_katebuild.cpp:623
+#, kde-format
+msgid "Building target <b>%1</b> ..."
+msgstr "編譯目標 <b>%1</b> 中..."
+
+#: plugin_katebuild.cpp:636
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<title>Make Results:</title><nl/>%1"
+msgstr "<title>Make 結果：</title><nl/>%1"
+
+#: plugin_katebuild.cpp:654
+#, kde-format
+msgid "Building <b>%1</b> completed."
+msgstr "編譯 <b>%1</b> 已完成。"
+
+#: plugin_katebuild.cpp:673
+#, kde-format
+msgid "Found one error."
+msgid_plural "Found %1 errors."
+msgstr[0] "找到 %1 個錯誤。"
+
+#: plugin_katebuild.cpp:674
+#, kde-format
+msgid "Building <b>%1</b> had errors."
+msgstr "編譯 <b>%1</b> 時發生錯誤。"
+
+#: plugin_katebuild.cpp:677
+#, kde-format
+msgid "Found one warning."
+msgid_plural "Found %1 warnings."
+msgstr[0] "找到 %1 個警告。"
+
+#: plugin_katebuild.cpp:678
+#, kde-format
+msgid "Building <b>%1</b> had warnings."
+msgstr "編譯 <b>%1</b> 時發生警告。"
+
+#: plugin_katebuild.cpp:683
+#, kde-format
+msgid "Build failed."
+msgstr "編譯失敗。"
+
+#: plugin_katebuild.cpp:686
+#, kde-format
+msgid "Build completed without problems."
+msgstr "編譯已順利完成。"
+
+#: plugin_katebuild.cpp:830
+#, kde-format
+msgid "Build"
+msgstr "編譯"
+
+#: plugin_katebuild.cpp:831
+#, kde-format
+msgid "Clean"
+msgstr "清除"
+
+#: plugin_katebuild.cpp:832
+#, kde-format
+msgid "Config"
+msgstr "設定"
+
+#: plugin_katebuild.cpp:833
+#, kde-format
+msgid "ConfigClean"
+msgstr "設定清除"
+
+#: plugin_katebuild.cpp:871
+#, kde-format
+msgid "Only Errors"
+msgstr "只有錯誤"
+
+#: plugin_katebuild.cpp:874
+#, kde-format
+msgid "Errors and Warnings"
+msgstr "錯誤與警告"
+
+#: plugin_katebuild.cpp:877
+#, kde-format
+msgid "Parsed Output"
+msgstr "已剖析的輸出"
+
+#: plugin_katebuild.cpp:880
+#, kde-format
+msgid "Full Output"
+msgstr "完整的輸出"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectTargetUi)
+#: SelectTargetUi.ui:14
+#, kde-format
+msgid "Select build target"
+msgstr "選擇編譯目標"
+
+#. i18n: ectx: property (text), widget (QLabel, u_label)
+#: SelectTargetUi.ui:29
+#, kde-format
+msgid "Filter"
+msgstr "過濾器"
+
+#: TargetHtmlDelegate.cpp:57
+#, kde-format
+msgctxt "T as in Target set"
+msgid "<B>T:</B> %1"
+msgstr "<B>T:</B> %1"
+
+#: TargetHtmlDelegate.cpp:60
+#, kde-format
+msgctxt "D as in working Directory"
+msgid "<B>Dir:</B> %1"
+msgstr "<B>Dir:</B> %1"
+
+#: TargetHtmlDelegate.cpp:117
+#, kde-format
+msgid "Leave empty to use the directory of the current document."
+msgstr "空白表示使用目前文件的目錄。"
+
+#: TargetHtmlDelegate.cpp:122
+#, kde-format
+msgid ""
+"Use:\n"
+"\"%f\" for current file\n"
+"\"%d\" for directory of current file\n"
+"\"%n\" for current file name without suffix"
+msgstr ""
+"使用：\n"
+"\"%f\" 表示目前的檔案\n"
+"\"%d\" 表示目前檔案所在的目錄\n"
+"\"%n\" 表示目前的檔名，不含後置字串"
+
+#: TargetModel.cpp:294
+#, kde-format
+msgid "Check the check-box to make the command the default for the target-set."
+msgstr "勾選指令做為目標集的預設指令。"
+
+#: TargetModel.cpp:354
+#, kde-format
+msgid "Command/Target-set Name"
+msgstr "指令/目標集名稱"
+
+#: TargetModel.cpp:357
+#, kde-format
+msgid "Working Directory / Command"
+msgstr "工作目錄 / 指令"
+
+#: targets.cpp:30
+#, kde-format
+msgid "Active target-set:"
+msgstr "作用中的目標集："
+
+#: targets.cpp:32
+#, kde-format
+msgid "Select active target set"
+msgstr "選取作用中的目標集"
+
+#: targets.cpp:37
+#, kde-format
+msgid "Create new set of targets"
+msgstr "建立新的目標集"
+
+#: targets.cpp:41
+#, kde-format
+msgid "Copy command or target set"
+msgstr "複製指令或目標集"
+
+#: targets.cpp:45
+#, kde-format
+msgid "Delete current set of targets"
+msgstr "刪除目前的目標集"
+
+#: targets.cpp:50
+#, kde-format
+msgid "Add new target"
+msgstr "新增目標"
+
+#: targets.cpp:54
+#, kde-format
+msgid "Build selected target"
+msgstr "編譯選取的目標"
+
+#. i18n: ectx: Menu (Build Menubar)
+#: ui.rc:6
+#, kde-format
+msgid "&Build"
+msgstr "編譯(&B)"
+
+#: UrlInserter.cpp:42
+#, kde-format
+msgid "Insert path"
+msgstr "插入路徑"
+
+#: UrlInserter.cpp:64
+#, kde-format
+msgid "Select directory to insert"
+msgstr "選擇要插入的目錄"
+
+#~ msgid "Next Set of Targets"
+#~ msgstr "下一個目標集"
+
+#~ msgid "No previous target to build."
+#~ msgstr "沒有前一個目標可編譯。"
+
+#~ msgid "No target set as default target."
+#~ msgstr "沒有設定預設目標。"
+
+#~ msgid "No target set as clean target."
+#~ msgstr "沒有任何目標設定為清除目標。"
+
+#~ msgid "Target \"%1\" not found for building."
+#~ msgstr "編譯時找不到目標 \"%1\"。"
+
+#~ msgid "Really delete target %1?"
+#~ msgstr "確定要刪除目標 %1 嗎？"
+
+#~ msgid "Nothing built yet."
+#~ msgstr "尚未編譯任何東西。"
+
+#~ msgid "Target Set %1"
+#~ msgstr "目標集 %1"
+
+#~ msgid "Target"
+#~ msgstr "目標"
+
+#~ msgid "Target:"
+#~ msgstr "目標："
+
+#~ msgid "from"
+#~ msgstr "從"
+
+#~ msgid "Command:"
+#~ msgstr "指令："
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Sets of Targets"
+#~ msgstr "目標集"
+
+#~ msgid "Make Results"
+#~ msgstr "Make 結果"
+
+#~ msgid "Warnings"
+#~ msgstr "警告"
+
+#~ msgid "Others"
+#~ msgstr "其他"
+
+#~ msgid "Quick Compile"
+#~ msgstr "快速編譯"
+
+#~ msgid "The custom command is empty."
+#~ msgstr "自訂指令是空白的。"
+
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgid "Copy"
+#~ msgstr "複製"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Quick compile"
+#~ msgstr "快速編譯"
+
+#~ msgid "Run make"
+#~ msgstr "執行 make"
+
+#~ msgid "Build command:"
+#~ msgstr "編譯指令："
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Break"
+#~ msgstr "中斷"
+
+#~ msgid "There is no file to compile."
+#~ msgstr "沒有要編譯的檔案。"

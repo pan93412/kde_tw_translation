@@ -1,0 +1,480 @@
+# translation of plasma_applet_comic.po to Chinese Traditional
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2008.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
+# Goodhorse <franklin@goodhorse.idv.tw>, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_comic\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-01 03:29+0100\n"
+"PO-Revision-Date: 2015-06-09 17:34+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: comic.cpp:107
+#, kde-format
+msgctxt "here strip means comic strip"
+msgid "&Next Tab with a new Strip"
+msgstr "下一則新漫畫(&N)"
+
+#: comic.cpp:114
+#, kde-format
+msgid "Jump to &first Strip"
+msgstr "跳到第一篇(&F)"
+
+#: comic.cpp:119
+#, kde-format
+msgid "Jump to &current Strip"
+msgstr "跳到目前這一篇(&C)"
+
+#: comic.cpp:124 package/contents/ui/ComicBottomInfo.qml:71
+#, kde-format
+msgid "Jump to Strip ..."
+msgstr "跳到其他篇..."
+
+#: comic.cpp:128
+#, kde-format
+msgid "Visit the shop &website"
+msgstr "造訪商店網站(&W)"
+
+#: comic.cpp:134
+#, kde-format
+msgid "&Save Comic As..."
+msgstr "另存漫畫為(&S)..."
+
+#: comic.cpp:139
+#, kde-format
+msgid "&Create Comic Book Archive..."
+msgstr "建立漫畫歸檔(&C)..."
+
+#: comic.cpp:144
+#, kde-format
+msgctxt "@option:check Context menu of comic image"
+msgid "&Actual Size"
+msgstr "實際大小(&A)"
+
+#: comic.cpp:151
+#, kde-format
+msgctxt "@option:check Context menu of comic image"
+msgid "Store current &Position"
+msgstr "商店目前位置(&P)"
+
+#: comic.cpp:249
+#, kde-format
+msgid "Download Comics"
+msgstr "下載漫畫"
+
+#: comic.cpp:478
+#, kde-format
+msgid "Archiving comic failed"
+msgstr "歸檔漫畫失敗"
+
+#: comicarchivedialog.cpp:33
+#, kde-format
+msgid "Create %1 Comic Book Archive"
+msgstr "建立 %1 漫畫歸檔"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: comicarchivedialog.ui:23
+#, kde-format
+msgid "Destination:"
+msgstr "目的地："
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, dest)
+#: comicarchivedialog.ui:30
+#, kde-format
+msgid "*.cbz|Comic Book Archive (Zip)"
+msgstr "*.cbz|漫畫歸檔 (Zip)"
+
+#. i18n: ectx: property (statusTip), widget (QLabel, label)
+#: comicarchivedialog.ui:56
+#, kde-format
+msgid "The range of comic strips to archive."
+msgstr "要歸檔的漫畫集數範圍。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: comicarchivedialog.ui:59
+#, kde-format
+msgid "Range:"
+msgstr "範圍："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:67
+#, kde-format
+msgid "All"
+msgstr "全部"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:72
+#, kde-format
+msgid "From beginning to ..."
+msgstr "開始於..."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:77
+#, kde-format
+msgid "From end to ..."
+msgstr "結束於..."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:82
+#, kde-format
+msgid "Manual range"
+msgstr "手動設定範圍"
+
+#. i18n: ectx: property (text), widget (QLabel, fromDateLabel)
+#. i18n: ectx: property (text), widget (QLabel, fromNumberLabel)
+#. i18n: ectx: property (text), widget (QLabel, fromStringLabel)
+#: comicarchivedialog.ui:100 comicarchivedialog.ui:141
+#: comicarchivedialog.ui:176
+#, kde-format
+msgctxt "in a range: from to"
+msgid "From:"
+msgstr "從："
+
+#. i18n: ectx: property (text), widget (QLabel, toDateLabel)
+#. i18n: ectx: property (text), widget (QLabel, toNumberLabel)
+#. i18n: ectx: property (text), widget (QLabel, toStringLabel)
+#: comicarchivedialog.ui:107 comicarchivedialog.ui:148
+#: comicarchivedialog.ui:183
+#, kde-format
+msgctxt "in a range: from to"
+msgid "To:"
+msgstr "到："
+
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, fromDate)
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, toDate)
+#: comicarchivedialog.ui:114 comicarchivedialog.ui:124
+#, kde-format
+msgid "dd.MM.yyyy"
+msgstr "dd.MM.yyyy"
+
+#: comicarchivejob.cpp:136
+#, kde-format
+msgid "No zip file is existing, aborting."
+msgstr "沒有 zip 檔，中止運作。"
+
+#: comicarchivejob.cpp:161
+#, kde-format
+msgid "An error happened for identifier %1."
+msgstr "辨識器 %1 發生錯誤。"
+
+#: comicarchivejob.cpp:234
+#, kde-format
+msgid "Failed creating the file with identifier %1."
+msgstr "建立辨識器 %1 的檔案時失敗。"
+
+#: comicarchivejob.cpp:338
+#, kde-format
+msgid "Creating Comic Book Archive"
+msgstr "建立漫畫歸檔"
+
+#: comicarchivejob.cpp:366
+#, kde-format
+msgid "Failed adding a file to the archive."
+msgstr "新增檔案到歸檔中時失敗"
+
+#: comicarchivejob.cpp:386
+#, kde-format
+msgid "Could not create the archive at the specified location."
+msgstr "無法在指定的位置上建立歸檔。"
+
+#: comicdata.cpp:107
+#, kde-format
+msgctxt "an abbreviation for Number"
+msgid "# %1"
+msgstr "# %1"
+
+#: comicdata.cpp:136
+#, kde-format
+msgid "Getting comic strip failed:"
+msgstr "取得漫畫失敗："
+
+#: comicdata.cpp:138
+#, kde-format
+msgid ""
+"Maybe there is no Internet connection.\n"
+"Maybe the comic plugin is broken.\n"
+"Another reason might be that there is no comic for this day/number/string, "
+"so choosing a different one might work."
+msgstr ""
+"可能網路連線有問題。\n"
+"可能漫畫外掛程式有問題。 也可能今天或這個數字/字串沒有漫畫，另外選一個可能就"
+"好了。"
+
+#: comicdata.cpp:146
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Choose the previous strip to go to the last cached strip."
+msgstr ""
+"\n"
+"\n"
+"選擇前一則漫畫，進入上次快取的漫畫。"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: package/contents/config/config.qml:30
+#: package/contents/ui/configAppearance.qml:58
+#, kde-format
+msgid "Appearance"
+msgstr "外觀"
+
+#: package/contents/config/config.qml:35
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#: package/contents/ui/ComicBottomInfo.qml:111
+#, kde-format
+msgid "Visit the comic website"
+msgstr "造訪漫畫網站"
+
+#: package/contents/ui/configAdvanced.qml:53
+#, kde-format
+msgid "Cache"
+msgstr "快取"
+
+#: package/contents/ui/configAdvanced.qml:59
+#, kde-format
+msgid "Comic cache:"
+msgstr "漫畫快取："
+
+#: package/contents/ui/configAdvanced.qml:64
+#, kde-format
+msgid "strips per comic"
+msgstr " 則/每個漫畫"
+
+#: package/contents/ui/configAdvanced.qml:73
+#, kde-format
+msgid "Error Handling"
+msgstr "錯誤處理"
+
+#: package/contents/ui/configAdvanced.qml:79
+#, kde-format
+msgid "Display error when getting comic failed"
+msgstr "取得漫畫失敗時顯示錯誤："
+
+#: package/contents/ui/configAppearance.qml:64
+#, kde-format
+msgid "Show arrows only on mouse over"
+msgstr "只有停留其上時顯示箭頭"
+
+#: package/contents/ui/configAppearance.qml:72
+#, kde-format
+msgid "Information"
+msgstr "資訊"
+
+#: package/contents/ui/configAppearance.qml:78
+#, kde-format
+msgid "Show comic title"
+msgstr "顯示漫畫標題"
+
+#: package/contents/ui/configAppearance.qml:83
+#, kde-format
+msgid "Show comic identifier"
+msgstr "顯示漫畫辨識碼"
+
+#: package/contents/ui/configAppearance.qml:88
+#, kde-format
+msgid "Show comic author"
+msgstr "顯示漫畫作者"
+
+#: package/contents/ui/configAppearance.qml:93
+#, kde-format
+msgid "Show comic URL"
+msgstr "顯示漫畫網址"
+
+#: package/contents/ui/configGeneral.qml:63
+#, kde-format
+msgid "Comic"
+msgstr "漫畫"
+
+#: package/contents/ui/configGeneral.qml:90
+#, kde-format
+msgid "Get New Comics..."
+msgstr "取得新漫畫..."
+
+#: package/contents/ui/configGeneral.qml:95
+#, kde-format
+msgid "Middle-click on the comic to show it at its original size"
+msgstr "在漫畫上點儀中鍵可以顯示原始大小"
+
+#: package/contents/ui/configGeneral.qml:103
+#, kde-format
+msgid "Update"
+msgstr "更新"
+
+#: package/contents/ui/configGeneral.qml:110
+#, kde-format
+msgid "Automatically update comic plugins:"
+msgstr "自動更新漫畫外掛程式："
+
+#: package/contents/ui/configGeneral.qml:115
+#, kde-format
+msgid "days"
+msgstr " 天"
+
+#: package/contents/ui/configGeneral.qml:123
+#, kde-format
+msgid "Check for new comic strips:"
+msgstr "檢查有沒有新漫畫："
+
+#: package/contents/ui/configGeneral.qml:128
+#, kde-format
+msgid "minutes"
+msgstr " 分"
+
+#: package/contents/ui/main.qml:191
+#, kde-format
+msgid "Configure..."
+msgstr "設定..."
+
+#: stripselector.cpp:44 stripselector.cpp:114
+#, kde-format
+msgid "Go to Strip"
+msgstr "跳到某一篇"
+
+#: stripselector.cpp:52
+#, kde-format
+msgid "&Strip Number:"
+msgstr "篇數(&S)："
+
+#: stripselector.cpp:114
+#, kde-format
+msgid "Strip identifier:"
+msgstr "集數辨識器："
+
+#~ msgid "No size limit"
+#~ msgstr "沒有大小限制"
+
+#~ msgid "every "
+#~ msgstr "每 "
+
+#~ msgid "never"
+#~ msgstr "永不"
+
+#~ msgid "Maximum &Size of Widget"
+#~ msgstr "元件的最大大小(&S)"
+
+#~ msgid "Tabbar"
+#~ msgstr "分頁列"
+
+#~ msgctxt "Tabbar will show text only"
+#~ msgid "Text only"
+#~ msgstr "只有文字"
+
+#~ msgctxt "Tabbar will show icons only"
+#~ msgid "Icons only"
+#~ msgstr "只有圖示"
+
+#~ msgctxt "Tabbar will show both text and icons"
+#~ msgid "Text and Icons"
+#~ msgstr "文字與圖示"
+
+#~ msgid ""
+#~ "Show at actual size in a different view.  Alternatively, click with the "
+#~ "middle mouse button on the comic."
+#~ msgstr "在不同檢視中顯示實際大小。另外，您也可以在漫畫上點擊滑鼠中鍵。"
+
+#~ msgid "Press the \"Get New Comics ...\" button to install comics."
+#~ msgstr "按下「取得新漫畫」來安裝漫畫。"
+
+#~ msgid "Limit number of cached strips per comic:"
+#~ msgstr "每個漫畫快取數量："
+
+#~ msgid "Tabs"
+#~ msgstr "分頁"
+
+#~ msgid "Use &tabs:"
+#~ msgstr "使用分頁(&T)："
+
+#~ msgctxt "number of days"
+#~ msgid " days"
+#~ msgstr " 天"
+
+#~ msgctxt "1"
+#~ msgid "daily"
+#~ msgstr "每天"
+
+#~ msgid "Update:"
+#~ msgstr "更新："
+
+#~ msgid "daily"
+#~ msgstr "每天"
+
+#~ msgid "Pressing Ctrl and scrolling also changes the tabs."
+#~ msgstr "按住 Ctrl 並捲軸會更換分頁。"
+
+#~ msgid "&Hide Tabbar:"
+#~ msgstr "隱藏分頁列(&H)："
+
+#~ msgid "Interacting with the comic widget restarts the timer."
+#~ msgstr "對元件做動作時重設計時器。"
+
+#~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+#~ msgstr "hh '小時' mm '分' ss '秒'"
+
+#~ msgid "Automatically &switch tabs:"
+#~ msgstr "自動切換分頁(&S)："
+
+#~ msgid "Ch&ange the Tabs:"
+#~ msgstr "變更分頁(&A)："
+
+#~ msgid "&Number of Tabs:"
+#~ msgstr "分頁數量(&N)："
+
+#~| msgid "Sm&ooth Scaling"
+#~ msgid "Sm&ooth Scaling:"
+#~ msgstr "平滑調整(&O)："
+
+#~ msgid "&Periodically change the tabs"
+#~ msgstr "定期更新分頁(&P)"
+
+#~ msgid "Stored positions are not ignored."
+#~ msgstr "儲存位置未被忽略。"
+
+#~ msgid "&Reload recent comic each ..."
+#~ msgstr "重新載入最新漫畫的間隔(&R)..."
+
+#~ msgid "Scale to &Content"
+#~ msgstr "依內容調整(&C)"
+
+#~ msgid "Make comic resizable"
+#~ msgstr "讓漫畫可調整大小"
+
+#~ msgid "Comic Configuration"
+#~ msgstr "漫畫設定"
+
+#~ msgid "Userfriendly"
+#~ msgstr "Userfriendly"
+
+#~ msgid "Dilbert"
+#~ msgstr "呆伯特"
+
+#~ msgid "Garfield"
+#~ msgstr "加菲貓"
+
+#~ msgid "Snoopy"
+#~ msgstr "史努比"
+
+#~ msgid "XKCD"
+#~ msgstr "XKCD"
+
+#~ msgid "OsNews Focus Shift"
+#~ msgstr "OsNews Focus Shift"

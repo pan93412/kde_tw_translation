@@ -1,0 +1,324 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-11-05 03:11+0100\n"
+"PO-Revision-Date: 2016-11-14 21:16+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: gmailconfigdialog.cpp:61
+#, kde-format
+msgid "Archive Folder"
+msgstr "歸檔資料夾"
+
+#: gmailconfigdialog.cpp:63
+#, kde-format
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分鐘"
+
+#: gmailconfigdialog.cpp:192
+#, kde-format
+msgid ""
+"Could not access KWallet. If you want to use Gmail resource, you have to "
+"activate it."
+msgstr "無法存取 KWallet。若您要使用 Gmail 資源，您必須開啟 KWallet。"
+
+#: gmailconfigdialog.cpp:236
+#, kde-format
+msgid "Serverside Subscription"
+msgstr "伺服器端訂閱"
+
+#. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#: gmailconfigdialog.ui:21
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#. i18n: ectx: property (title), widget (QGroupBox, currentAccountBox)
+#: gmailconfigdialog.ui:29
+#, kde-format
+msgid "Account"
+msgstr "帳號"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: gmailconfigdialog.ui:35
+#, kde-format
+msgid "Authenticated as:"
+msgstr "認證為："
+
+#. i18n: ectx: property (text), widget (QPushButton, changeAuthButton)
+#: gmailconfigdialog.ui:55
+#, kde-format
+msgid "Change..."
+msgstr "變更..."
+
+#. i18n: ectx: property (text), widget (QPushButton, authenticateButton)
+#: gmailconfigdialog.ui:67
+#, kde-format
+msgid "Authenticate"
+msgstr "認證"
+
+#. i18n: ectx: property (title), widget (QGroupBox, mailCheckBox)
+#: gmailconfigdialog.ui:74
+#, kde-format
+msgid "Mail Checking Options"
+msgstr "郵件檢查選項"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
+#: gmailconfigdialog.ui:80
+#, kde-format
+msgid "&Download all messages for offline use"
+msgstr "下載所有信件以便離線檢視(&D)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableMailCheckBox)
+#: gmailconfigdialog.ui:90
+#, kde-format
+msgid "Enable &interval mail checking"
+msgstr "啟動間隔信件檢查(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: gmailconfigdialog.ui:102
+#, kde-format
+msgid "Check mail interval:"
+msgstr "郵件檢查間隔："
+
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: gmailconfigdialog.ui:138
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: gmailconfigdialog.ui:144
+#, kde-format
+msgid "IMAP Settings"
+msgstr "IMAP 設定"
+
+#. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
+#: gmailconfigdialog.ui:150
+#, kde-format
+msgid "&Synchronize only selected folders"
+msgstr "只同步選取的資料夾(&S)"
+
+#. i18n: ectx: property (text), widget (QPushButton, subscriptionButton)
+#: gmailconfigdialog.ui:157
+#, kde-format
+msgid "Select folders to synchronize..."
+msgstr "選擇要同步的資料夾..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
+#: gmailconfigdialog.ui:164
+#, kde-format
+msgid "Automatical&ly compact folders (expunge deleted messages)"
+msgstr "自動壓縮資料夾（除去刪除的信件）(&L)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, identityBox)
+#: gmailconfigdialog.ui:177
+#, kde-format
+msgid "Identity Settings"
+msgstr "身份設定"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useDefaultIdentityCheck)
+#: gmailconfigdialog.ui:183
+#, kde-format
+msgid "Use &default identity"
+msgstr "使用預設身份(&D)"
+
+#. i18n: ectx: property (text), widget (QLabel, identityLabel)
+#: gmailconfigdialog.ui:195
+#, kde-format
+msgid "Identity:"
+msgstr "身份："
+
+#: gmaillinkitemstask.cpp:72
+#, kde-format
+msgid "Linking emails to labels"
+msgstr "將電子郵件連結到標籤"
+
+#: gmailresource.cpp:74
+#, kde-format
+msgid "Gmail Resource"
+msgstr "Gmail 資源"
+
+#: gmailresource.cpp:119
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving folders"
+msgstr "取得資料夾中"
+
+#. i18n: ectx: label, entry (ImapServer), group (network)
+#: gmailresource.kcfg:10
+#, kde-format
+msgid "IMAP server"
+msgstr "IMAP 伺服器"
+
+#. i18n: ectx: label, entry (ImapPort), group (network)
+#: gmailresource.kcfg:14
+#, kde-format
+msgid "Defines the port the IMAP service is running on"
+msgstr "定義 IMAP 服務的連接埠"
+
+#. i18n: ectx: label, entry (UserName), group (network)
+#: gmailresource.kcfg:18
+#, kde-format
+msgid "Username"
+msgstr "使用者名稱"
+
+#. i18n: ectx: label, entry (Safety), group (network)
+#: gmailresource.kcfg:21
+#, kde-format
+msgid "Defines the encryption type to use"
+msgstr "定義要使用的加密型態"
+
+#. i18n: ectx: label, entry (OverrideEncryption), group (network)
+#: gmailresource.kcfg:25
+#, kde-format
+msgid "Override configured encryption mode"
+msgstr "覆寫已設定加密模式"
+
+#. i18n: ectx: label, entry (Authentication), group (network)
+#: gmailresource.kcfg:29
+#, kde-format
+msgid "Defines the authentication type to use"
+msgstr "定義要使用的認證型態"
+
+#. i18n: ectx: label, entry (SubscriptionEnabled), group (network)
+#: gmailresource.kcfg:33
+#, kde-format
+msgid "Defines if the server side subscription is enabled"
+msgstr "定義伺服器端的訂閱是否已開啟"
+
+#. i18n: ectx: label, entry (DisconnectedModeEnabled), group (cache)
+#: gmailresource.kcfg:42
+#, kde-format
+msgid "Defines if all the IMAP data should be cached locally all the time"
+msgstr "定義是否所有 IMAP 資料都要快取在本地端。"
+
+#. i18n: ectx: label, entry (IntervalCheckEnabled), group (cache)
+#: gmailresource.kcfg:46
+#, kde-format
+msgid "Defines if interval checking is enabled."
+msgstr "定義是否要開啟間隔檢查。"
+
+#. i18n: ectx: label, entry (IntervalCheckTime), group (cache)
+#: gmailresource.kcfg:50
+#, kde-format
+msgid "Check interval in minutes"
+msgstr "檢查間隔（分）"
+
+#. i18n: ectx: label, entry (RetrieveMetadataOnFolderListing), group (cache)
+#: gmailresource.kcfg:55
+#, kde-format
+msgid ""
+"Defines if the annotations, ACLs and quota information of mailboxes should\n"
+"             also be retrieved when the mailboxes get listed."
+msgstr ""
+"定義是否在列出信箱時，同時要取得信箱的註記、權限控制清單與大小限制資訊。"
+
+#. i18n: ectx: label, entry (AutomaticExpungeEnabled), group (cache)
+#: gmailresource.kcfg:60
+#, kde-format
+msgid ""
+"Defines if the expunge command is issued automatically, otherwise it should "
+"be\n"
+"             triggered manually through the D-Bus interface."
+msgstr "定義是否要自動產生 expunge 指令，否則應該手動透過 D-Bus 介面觸發。"
+
+#. i18n: ectx: label, entry (TrashCollection), group (cache)
+#: gmailresource.kcfg:64
+#, kde-format
+msgid "Define which folder is used for trash"
+msgstr "定義資源回收筒的資料夾"
+
+#. i18n: ectx: label, entry (TrashCollectionMigrated), group (cache)
+#: gmailresource.kcfg:68
+#, kde-format
+msgid "Define if the trash collection received the special attribute"
+msgstr "定義是否資源回收桶接收了特定屬性"
+
+#. i18n: ectx: label, entry (UseDefaultIdentity), group (cache)
+#: gmailresource.kcfg:72
+#, kde-format
+msgid "Define if account uses the default identity"
+msgstr "定義此帳號是否使用預設身份"
+
+#. i18n: ectx: label, entry (AccountIdentity), group (cache)
+#: gmailresource.kcfg:76
+#, kde-format
+msgid "Identity account"
+msgstr "身份帳號"
+
+#. i18n: ectx: label, entry (KnownMailBoxes), group (cache)
+#: gmailresource.kcfg:79
+#, kde-format
+msgid "List of mailbox names reported by the server the last time"
+msgstr "上次伺服器回報的郵箱名稱"
+
+#. i18n: ectx: label, entry (IdleRidPath), group (idle)
+#: gmailresource.kcfg:84
+#, kde-format
+msgid "RID path to the mailbox to watch for changes"
+msgstr "要查看變更的信箱的 RID 路徑"
+
+#. i18n: ectx: label, entry (SieveSupport), group (siever)
+#: gmailresource.kcfg:89
+#, kde-format
+msgid "Define if server supports sieve"
+msgstr "定義伺服器端是否支援過濾"
+
+#. i18n: ectx: label, entry (SieveReuseConfig), group (siever)
+#: gmailresource.kcfg:93
+#, kde-format
+msgid "Define if we reuse host and login configuration"
+msgstr "定義是否重複使用主機與登入設定"
+
+#. i18n: ectx: label, entry (SievePort), group (siever)
+#: gmailresource.kcfg:97
+#, kde-format
+msgid "Define sieve port"
+msgstr "定義過濾（sieve）連接埠"
+
+#. i18n: ectx: label, entry (SieveAlternateUrl), group (siever)
+#: gmailresource.kcfg:101
+#, kde-format
+msgid "Define alternate URL"
+msgstr "定義不同的網址"
+
+#. i18n: ectx: label, entry (SieveVacationFilename), group (siever)
+#: gmailresource.kcfg:104
+#, kde-format
+msgid "Define default sieve vacation filename"
+msgstr "定義預設過濾假期檔名"
+
+#. i18n: ectx: label, entry (SieveCustomUsername), group (siever)
+#: gmailresource.kcfg:108
+#, kde-format
+msgid "Define username used from custom server sieve url"
+msgstr "定義自訂 sieve 伺服器網址要用的使用者名稱"
+
+#. i18n: ectx: label, entry (SieveCustomAuthentification), group (siever)
+#: gmailresource.kcfg:112
+#, kde-format
+msgid "Defines the type of identification used by custom sieve server"
+msgstr "定義自訂的 sieve 伺服器使用的認證型態"
+
+#: gmailretrievecollectionstask.cpp:130
+#, kde-format
+msgid "Inbox"
+msgstr "收件匣"
+
+#~ msgid "Folder Archive"
+#~ msgstr "資料夾歸檔"

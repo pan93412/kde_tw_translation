@@ -1,0 +1,7241 @@
+# translation of koffice.po to Chinese Traditional
+# translation of koffice.po to
+# traditional Chinese translation of kword
+# Copyright (C) 2001-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Translator: Eric Cheng <ericc@shinewave.com.tw>, 2001.
+#             Chao-Hsiung Liao <pesder.liao@msa.hinet.net>, 2002.
+#             Ben Wu <hpwu@redhat.com>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2007, 2008, 2010, 2012.
+# Goodhorse <franklin@goodhorse.idv.tw>, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2015-05-22 01:56+0000\n"
+"PO-Revision-Date: 2013-06-14 13:20+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Qt-Contexts: true\n"
+
+#: common/KReportDesign.cpp:151
+#, fuzzy
+#| msgid "Could not create the file for saving"
+msgctxt "KReportDesign|"
+msgid "Could not parse XML document."
+msgstr "無法建立檔案以儲存"
+
+#: common/KReportDesign.cpp:160
+#, fuzzy
+#| msgid "Error in embedded document"
+msgctxt "KReportDesign|"
+msgid "Error in XML document."
+msgstr "嵌入式文件錯誤"
+
+#: common/KReportItemBase.cpp:75
+#, fuzzy
+#| msgid "Name"
+msgctxt "KReportItemBase|"
+msgid "Name"
+msgstr "名稱"
+
+#: common/KReportItemBase.cpp:75
+#, fuzzy
+#| msgid "Object Name"
+msgctxt "KReportItemBase|"
+msgid "Object Name"
+msgstr "物件名稱"
+
+#: common/KReportItemBase.cpp:78
+#, fuzzy
+#| msgid "Position"
+msgctxt "ItemPosition|"
+msgid "Position"
+msgstr "位置"
+
+#: common/KReportItemBase.cpp:79
+#, fuzzy
+#| msgid "Size"
+msgctxt "ItemSize|"
+msgid "Size"
+msgstr "大小"
+
+#: common/KReportItemBase.cpp:112
+#, fuzzy
+#| msgid "Data Source"
+msgctxt "KReportItemBase|"
+msgid "Data Source"
+msgstr "資料來源"
+
+#: common/KReportItemLine.cpp:80
+#, fuzzy
+#| msgid "&Set Position..."
+msgctxt "StartPosition|"
+msgid "Start Position"
+msgstr "設定位置(&S)"
+
+#: common/KReportItemLine.cpp:81
+#, fuzzy
+#| msgid "Position"
+msgctxt "EndPosition|"
+msgid "End Position"
+msgstr "位置"
+
+#: common/KReportItemLine.cpp:83
+#, fuzzy
+#| msgid "Line Weight"
+msgctxt "KReportItemLine|"
+msgid "Line Weight"
+msgstr "線條粗細"
+
+#: common/KReportItemLine.cpp:85
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemLine|"
+msgid "Line Color"
+msgstr "線條顏色"
+
+#: common/KReportItemLine.cpp:86
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemLine|"
+msgid "Line Style"
+msgstr "線條樣式"
+
+#: common/KReportPageSize.cpp:31
+msgctxt "KReportPageFormat|"
+msgid "A3"
+msgstr ""
+
+#: common/KReportPageSize.cpp:32
+msgctxt "KReportPageFormat|"
+msgid "A4"
+msgstr ""
+
+#: common/KReportPageSize.cpp:33
+msgctxt "KReportPageFormat|"
+msgid "A5"
+msgstr ""
+
+#: common/KReportPageSize.cpp:34
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "US Letter"
+msgctxt ""
+"KReportPageFormat|Usually don't translate literally, use \"US Letter\""
+msgid "US Letter"
+msgstr "US Letter"
+
+#: common/KReportPageSize.cpp:37
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "US Legal"
+msgctxt "KReportPageFormat|Usually don't translate literally, use \"US Legal\""
+msgid "US Legal"
+msgstr "US Legal"
+
+#: common/KReportPageSize.cpp:40
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "Custom"
+msgctxt "KReportPageFormat|"
+msgid "Custom"
+msgstr "自訂"
+
+#: common/KReportPageSize.cpp:41
+#, fuzzy
+#| msgid "B"
+msgctxt "KReportPageFormat|"
+msgid "B6"
+msgstr "B"
+
+#: common/KReportPageSize.cpp:42
+#, fuzzy
+#| msgid "B"
+msgctxt "KReportPageFormat|"
+msgid "B5"
+msgstr "B"
+
+#: common/KReportPageSize.cpp:43
+#, fuzzy
+#| msgid "B"
+msgctxt "KReportPageFormat|"
+msgid "B4"
+msgstr "B"
+
+#: common/KReportPageSize.cpp:44
+#, fuzzy
+#| msgid "Execute"
+msgctxt "KReportPageFormat|"
+msgid "Executive"
+msgstr "執行utive"
+
+#: common/KReportPageSize.cpp:45
+msgctxt "KReportPageFormat|"
+msgid "A0"
+msgstr ""
+
+#: common/KReportPageSize.cpp:46
+msgctxt "KReportPageFormat|"
+msgid "A1"
+msgstr ""
+
+#: common/KReportPageSize.cpp:47
+msgctxt "KReportPageFormat|"
+msgid "A2"
+msgstr ""
+
+#: common/KReportPageSize.cpp:48
+msgctxt "KReportPageFormat|"
+msgid "A6"
+msgstr ""
+
+#: common/KReportPageSize.cpp:49
+msgctxt "KReportPageFormat|"
+msgid "A7"
+msgstr ""
+
+#: common/KReportPageSize.cpp:50
+msgctxt "KReportPageFormat|"
+msgid "A8"
+msgstr ""
+
+#: common/KReportPageSize.cpp:51
+msgctxt "KReportPageFormat|"
+msgid "A9"
+msgstr ""
+
+#: common/KReportPageSize.cpp:52
+#, fuzzy
+#| msgid "B"
+msgctxt "KReportPageFormat|"
+msgid "B0"
+msgstr "B"
+
+#: common/KReportPageSize.cpp:53
+#, fuzzy
+#| msgid "B"
+msgctxt "KReportPageFormat|"
+msgid "B1"
+msgstr "B"
+
+#: common/KReportPageSize.cpp:54
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "ISO B10"
+msgctxt "KReportPageFormat|"
+msgid "B10"
+msgstr "ISO B10"
+
+#: common/KReportPageSize.cpp:55
+#, fuzzy
+#| msgid "B"
+msgctxt "KReportPageFormat|"
+msgid "B2"
+msgstr "B"
+
+#: common/KReportPageSize.cpp:56
+#, fuzzy
+#| msgid "B"
+msgctxt "KReportPageFormat|"
+msgid "B3"
+msgstr "B"
+
+#: common/KReportPageSize.cpp:57
+msgctxt "KReportPageFormat|"
+msgid "C5E"
+msgstr ""
+
+#: common/KReportPageSize.cpp:58
+#, fuzzy
+#| msgid "Comma"
+msgctxt "KReportPageFormat|"
+msgid "Comm10"
+msgstr "逗號"
+
+#: common/KReportPageSize.cpp:59
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "ISO DL"
+msgctxt "KReportPageFormat|"
+msgid "ISO DL"
+msgstr "ISO DL"
+
+#: common/KReportPageSize.cpp:60
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "US Folio"
+msgctxt "KReportPageFormat|"
+msgid "US Folio"
+msgstr "US Folio"
+
+#: common/KReportPageSize.cpp:61
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "US Ledger"
+msgctxt "KReportPageFormat|"
+msgid "US Ledger"
+msgstr "US Ledger"
+
+#: common/KReportPageSize.cpp:62
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "US Tabloid"
+msgctxt "KReportPageFormat|"
+msgid "US Tabloid"
+msgstr "US Tabloid"
+
+#: common/KReportPageSize.cpp:63
+msgctxt "KReportPageFormat|"
+msgid "DL Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:64
+msgctxt "KReportPageFormat|"
+msgid "C6 Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:65
+msgctxt "KReportPageFormat|"
+msgid "C6/5 Envolope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:66
+msgctxt "KReportPageFormat|"
+msgid "C5 Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:67
+msgctxt "KReportPageFormat|"
+msgid "C4 Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:68
+msgctxt "KReportPageFormat|"
+msgid "Monarch Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:69
+msgctxt "KReportPageFormat|"
+msgid "Personal Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:70
+msgctxt "KReportPageFormat|"
+msgid "9 Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:71
+msgctxt "KReportPageFormat|"
+msgid "10 Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:72
+msgctxt "KReportPageFormat|"
+msgid "11 Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:73
+msgctxt "KReportPageFormat|"
+msgid "12 Envelope"
+msgstr ""
+
+#: common/KReportPageSize.cpp:74
+#, fuzzy
+#| msgid "Postal code:"
+msgctxt "KReportPageFormat|"
+msgid "Postcard"
+msgstr "郵遞區號："
+
+#: common/KReportPageSize.cpp:75
+msgctxt "KReportPageFormat|"
+msgid "Double Postcard"
+msgstr ""
+
+#: common/KReportSectionData.cpp:164
+#, fuzzy
+#| msgid "Group Sections"
+msgctxt "KReportSectionData|Report section"
+msgid "Section"
+msgstr "群組選擇"
+
+#: common/KReportSectionData.cpp:166
+#, fuzzy
+#| msgid "Height"
+msgctxt "KReportSectionData|"
+msgid "Height"
+msgstr "高度"
+
+#: common/KReportSectionData.cpp:170
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportSectionData|"
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: common/KReportUnit.cpp:136
+#, fuzzy
+#| msgid "Invalid Type"
+msgctxt "KReportUnit|"
+msgid "Invalid"
+msgstr "不合法的型態"
+
+#: common/KReportUnit.cpp:138
+#, fuzzy
+#| msgid "Millimeters (mm)"
+msgctxt "KReportUnit|"
+msgid "Millimeters (mm)"
+msgstr "公釐（mm）"
+
+#: common/KReportUnit.cpp:140
+#, fuzzy
+#| msgid "Centimeters (cm)"
+msgctxt "KReportUnit|"
+msgid "Centimeters (cm)"
+msgstr "公分（cm）"
+
+#: common/KReportUnit.cpp:142
+#, fuzzy
+#| msgid "Decimeters (dm)"
+msgctxt "KReportUnit|"
+msgid "Decimeters (dm)"
+msgstr "公寸（dm）"
+
+#: common/KReportUnit.cpp:144
+#, fuzzy
+#| msgid "Inches (in)"
+msgctxt "KReportUnit|"
+msgid "Inches (in)"
+msgstr "英吋（in）"
+
+#: common/KReportUnit.cpp:146
+#, fuzzy
+#| msgid "Pica (pi)"
+msgctxt "KReportUnit|"
+msgid "Pica (pi)"
+msgstr "Pica（pi）"
+
+#: common/KReportUnit.cpp:148
+#, fuzzy
+#| msgid "Cicero (cc)"
+msgctxt "KReportUnit|"
+msgid "Cicero (cc)"
+msgstr "Cicero (cc)"
+
+#: common/KReportUnit.cpp:150
+#, fuzzy
+#| msgid "Points (pt)"
+msgctxt "KReportUnit|"
+msgid "Points (pt)"
+msgstr "點（pt）"
+
+#: common/KReportUnit.cpp:152
+#, fuzzy
+#| msgid "Pixels (px)"
+msgctxt "KReportUnit|"
+msgid "Pixels (px)"
+msgstr "像素（px）"
+
+#: common/KReportUnit.cpp:154
+msgctxt "KReportUnit|"
+msgid "Unsupported unit"
+msgstr ""
+
+#: items/check/KReportItemCheck.cpp:79
+#, fuzzy
+#| msgid "Cross"
+msgctxt "KReportItemCheckBox|"
+msgid "Cross"
+msgstr "十字型"
+
+#: items/check/KReportItemCheck.cpp:79
+#, fuzzy
+#| msgid "Tick"
+msgctxt "KReportItemCheckBox|"
+msgid "Tick"
+msgstr "刻度"
+
+#: items/check/KReportItemCheck.cpp:79
+#, fuzzy
+#| msgid "Dot"
+msgctxt "KReportItemCheckBox|"
+msgid "Dot"
+msgstr "點"
+
+#: items/check/KReportItemCheck.cpp:80
+#, fuzzy
+#| msgid "Style"
+msgctxt "KReportItemCheckBox|"
+msgid "Style"
+msgstr "樣式"
+
+#: items/check/KReportItemCheck.cpp:84
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemCheckBox|"
+msgid "Foreground Color"
+msgstr "前景顏色"
+
+#: items/check/KReportItemCheck.cpp:86
+#, fuzzy
+#| msgid "Line Weight"
+msgctxt "KReportItemCheckBox|"
+msgid "Line Weight"
+msgstr "線條粗細"
+
+#: items/check/KReportItemCheck.cpp:88
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemCheckBox|"
+msgid "Line Color"
+msgstr "線條顏色"
+
+#: items/check/KReportItemCheck.cpp:89
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemCheckBox|"
+msgid "Line Style"
+msgstr "線條樣式"
+
+#: items/check/KReportItemCheck.cpp:90
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemCheckBox|"
+msgid "Value"
+msgstr "數值"
+
+#: items/check/KReportItemCheck.cpp:90
+msgctxt "KReportItemCheckBox|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#: items/field/KReportItemField.cpp:91
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemField|"
+msgid "Value"
+msgstr "數值"
+
+#: items/field/KReportItemField.cpp:91
+msgctxt "KReportItemField|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#: items/field/KReportItemField.cpp:95
+#, fuzzy
+#| msgid "Left"
+msgctxt "KReportItemField|"
+msgid "Left"
+msgstr "置左"
+
+#: items/field/KReportItemField.cpp:95 items/field/KReportItemField.cpp:101
+#, fuzzy
+#| msgid "Center"
+msgctxt "KReportItemField|"
+msgid "Center"
+msgstr "置中"
+
+#: items/field/KReportItemField.cpp:95
+#, fuzzy
+#| msgid "Right"
+msgctxt "KReportItemField|"
+msgid "Right"
+msgstr "置右"
+
+#: items/field/KReportItemField.cpp:97
+#, fuzzy
+#| msgid "Horizontal Alignment"
+msgctxt "KReportItemField|"
+msgid "Horizontal Alignment"
+msgstr "水平對齊"
+
+#: items/field/KReportItemField.cpp:101
+#, fuzzy
+#| msgid "Top"
+msgctxt "KReportItemField|"
+msgid "Top"
+msgstr "置頂"
+
+#: items/field/KReportItemField.cpp:101
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "KReportItemField|"
+msgid "Bottom"
+msgstr "置底"
+
+#: items/field/KReportItemField.cpp:103
+#, fuzzy
+#| msgid "Vertical Alignment"
+msgctxt "KReportItemField|"
+msgid "Vertical Alignment"
+msgstr "垂直對齊"
+
+#: items/field/KReportItemField.cpp:105
+#, fuzzy
+#| msgid "Font"
+msgctxt "KReportItemField|"
+msgid "Font"
+msgstr "字型"
+
+#: items/field/KReportItemField.cpp:107
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportItemField|"
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: items/field/KReportItemField.cpp:108
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemField|"
+msgid "Foreground Color"
+msgstr "前景顏色"
+
+#: items/field/KReportItemField.cpp:110
+#, fuzzy
+#| msgid "Background tool"
+msgctxt "KReportItemField|"
+msgid "Background Opacity"
+msgstr "背景工具"
+
+#: items/field/KReportItemField.cpp:115
+#, fuzzy
+#| msgid "Line Weight"
+msgctxt "KReportItemField|"
+msgid "Line Weight"
+msgstr "線條粗細"
+
+#: items/field/KReportItemField.cpp:117
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemField|"
+msgid "Line Color"
+msgstr "線條顏色"
+
+#: items/field/KReportItemField.cpp:118
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemField|"
+msgid "Line Style"
+msgstr "線條樣式"
+
+#: items/field/KReportItemField.cpp:120
+#, fuzzy
+#| msgid "Word Wrap"
+msgctxt "KReportItemField|"
+msgid "Word Wrap"
+msgstr "文字折行"
+
+#: items/field/KReportItemField.cpp:121
+#, fuzzy
+#| msgid "Can Grow"
+msgctxt "KReportItemField|"
+msgid "Can Grow"
+msgstr "可以成長"
+
+#: items/image/KReportItemImage.cpp:119
+#, fuzzy
+#| msgid "Clip"
+msgctxt "KReportItemImage|"
+msgid "Clip"
+msgstr "修剪"
+
+#: items/image/KReportItemImage.cpp:119
+#, fuzzy
+#| msgid "Stretch"
+msgctxt "KReportItemImage|"
+msgid "Stretch"
+msgstr "延伸"
+
+#: items/image/KReportItemImage.cpp:120
+#, fuzzy
+#| msgid "Resize Mode"
+msgctxt "KReportItemImage|"
+msgid "Resize Mode"
+msgstr "更改模式大小"
+
+#: items/image/KReportItemImage.cpp:121
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemImage|"
+msgid "Value"
+msgstr "數值"
+
+#: items/image/KReportItemImage.cpp:121
+msgctxt "KReportItemImage|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#: items/label/KReportItemLabel.cpp:91
+#, fuzzy
+#| msgid "Caption"
+msgctxt "KReportItemLabel|"
+msgid "Caption"
+msgstr "標題"
+
+#: items/label/KReportItemLabel.cpp:94
+#, fuzzy
+#| msgid "Left"
+msgctxt "KReportItemLabel|"
+msgid "Left"
+msgstr "置左"
+
+#: items/label/KReportItemLabel.cpp:94 items/label/KReportItemLabel.cpp:100
+#, fuzzy
+#| msgid "Center"
+msgctxt "KReportItemLabel|"
+msgid "Center"
+msgstr "置中"
+
+#: items/label/KReportItemLabel.cpp:94
+#, fuzzy
+#| msgid "Right"
+msgctxt "KReportItemLabel|"
+msgid "Right"
+msgstr "置右"
+
+#: items/label/KReportItemLabel.cpp:96
+#, fuzzy
+#| msgid "Horizontal Alignment"
+msgctxt "KReportItemLabel|"
+msgid "Horizontal Alignment"
+msgstr "水平對齊"
+
+#: items/label/KReportItemLabel.cpp:100
+#, fuzzy
+#| msgid "Top"
+msgctxt "KReportItemLabel|"
+msgid "Top"
+msgstr "置頂"
+
+#: items/label/KReportItemLabel.cpp:100
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "KReportItemLabel|"
+msgid "Bottom"
+msgstr "置底"
+
+#: items/label/KReportItemLabel.cpp:102
+#, fuzzy
+#| msgid "Vertical Alignment"
+msgctxt "KReportItemLabel|"
+msgid "Vertical Alignment"
+msgstr "垂直對齊"
+
+#: items/label/KReportItemLabel.cpp:104
+#, fuzzy
+#| msgid "Font"
+msgctxt "KReportItemLabel|"
+msgid "Font"
+msgstr "字型"
+
+#: items/label/KReportItemLabel.cpp:106
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportItemLabel|"
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: items/label/KReportItemLabel.cpp:107
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemLabel|"
+msgid "Foreground Color"
+msgstr "前景顏色"
+
+#: items/label/KReportItemLabel.cpp:109
+#, fuzzy
+#| msgid "Background tool"
+msgctxt "KReportItemLabel|"
+msgid "Background Opacity"
+msgstr "背景工具"
+
+#: items/label/KReportItemLabel.cpp:114
+#, fuzzy
+#| msgid "Line Weight"
+msgctxt "KReportItemLabel|"
+msgid "Line Weight"
+msgstr "線條粗細"
+
+#: items/label/KReportItemLabel.cpp:116
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemLabel|"
+msgid "Line Color"
+msgstr "線條顏色"
+
+#: items/label/KReportItemLabel.cpp:117
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemLabel|"
+msgid "Line Style"
+msgstr "線條樣式"
+
+#: items/text/KReportItemText.cpp:113
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemText|"
+msgid "Value"
+msgstr "數值"
+
+#: items/text/KReportItemText.cpp:113
+msgctxt "KReportItemText|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#: items/text/KReportItemText.cpp:117
+#, fuzzy
+#| msgid "Left"
+msgctxt "KReportItemText|"
+msgid "Left"
+msgstr "置左"
+
+#: items/text/KReportItemText.cpp:117 items/text/KReportItemText.cpp:123
+#, fuzzy
+#| msgid "Center"
+msgctxt "KReportItemText|"
+msgid "Center"
+msgstr "置中"
+
+#: items/text/KReportItemText.cpp:117
+#, fuzzy
+#| msgid "Right"
+msgctxt "KReportItemText|"
+msgid "Right"
+msgstr "置右"
+
+#: items/text/KReportItemText.cpp:119
+#, fuzzy
+#| msgid "Horizontal Alignment"
+msgctxt "KReportItemText|"
+msgid "Horizontal Alignment"
+msgstr "水平對齊"
+
+#: items/text/KReportItemText.cpp:123
+#, fuzzy
+#| msgid "Top"
+msgctxt "KReportItemText|"
+msgid "Top"
+msgstr "置頂"
+
+#: items/text/KReportItemText.cpp:123
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "KReportItemText|"
+msgid "Bottom"
+msgstr "置底"
+
+#: items/text/KReportItemText.cpp:125
+#, fuzzy
+#| msgid "Vertical Alignment"
+msgctxt "KReportItemText|"
+msgid "Vertical Alignment"
+msgstr "垂直對齊"
+
+#: items/text/KReportItemText.cpp:127
+#, fuzzy
+#| msgid "Font"
+msgctxt "KReportItemText|"
+msgid "Font"
+msgstr "字型"
+
+#: items/text/KReportItemText.cpp:129
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportItemText|"
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: items/text/KReportItemText.cpp:130
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemText|"
+msgid "Foreground Color"
+msgstr "前景顏色"
+
+#: items/text/KReportItemText.cpp:132
+#, fuzzy
+#| msgid "Line Weight"
+msgctxt "KReportItemText|"
+msgid "Line Weight"
+msgstr "線條粗細"
+
+#: items/text/KReportItemText.cpp:134
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemText|"
+msgid "Line Color"
+msgstr "線條顏色"
+
+#: items/text/KReportItemText.cpp:135
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemText|"
+msgid "Line Style"
+msgstr "線條樣式"
+
+#: items/text/KReportItemText.cpp:136
+#, fuzzy
+#| msgid "Background tool"
+msgctxt "KReportItemText|"
+msgid "Background Opacity"
+msgstr "背景工具"
+
+#: renderer/scripting/KReportScriptHandler.cpp:170
+#, qt-format
+msgctxt "KReportScriptHandler|"
+msgid ""
+"Cannot evaluate script. Error: %1\n"
+"\n"
+"Do you want to suppress further messages?\n"
+"(messages will be restored next time the report is opened)"
+msgstr ""
+
+#: renderer/scripting/KReportScriptHandler.cpp:171
+#, fuzzy, qt-format
+#| msgid "Script File"
+msgctxt "KReportScriptHandler|"
+msgid ""
+"Script code:\n"
+"%1"
+msgstr "文稿檔案"
+
+#: renderer/scripting/KReportScriptHandler.cpp:187
+#, fuzzy
+#| msgid "Syntax Error"
+msgctxt "KReportScriptHandler|"
+msgid "Script Error"
+msgstr "語法錯誤"
+
+#: wrtembed/KReportDesigner.cpp:310
+#, qt-format
+msgctxt "KReportDesigner|"
+msgid ""
+"This report contains scripts of type \"%1\". Only scripts written in "
+"JavaScript language are supported. To prevent losing the scripts, their type "
+"and content will not be changed unless you change these scripts."
+msgstr ""
+
+#: wrtembed/KReportDesigner.cpp:315
+msgctxt "KReportDesigner|"
+msgid "Unsupported Script Type"
+msgstr ""
+
+#: wrtembed/KReportDesigner.cpp:675
+#, fuzzy
+#| msgid "Page Header (Any)"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Any)"
+msgstr "頁面標頭（任一頁）"
+
+#: wrtembed/KReportDesigner.cpp:679
+#, fuzzy
+#| msgid "Page Header (Even)"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Even)"
+msgstr "頁面標頭（雙數頁）"
+
+#: wrtembed/KReportDesigner.cpp:683
+#, fuzzy
+#| msgid "Page Header (Odd)"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Odd)"
+msgstr "頁面標頭（單數頁）"
+
+#: wrtembed/KReportDesigner.cpp:687
+#, fuzzy
+#| msgid "Page Header (First)"
+msgctxt "KReportDesigner|"
+msgid "Page Header (First)"
+msgstr "頁面標頭（第一頁）"
+
+#: wrtembed/KReportDesigner.cpp:691
+#, fuzzy
+#| msgid "Page Header (Last)"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Last)"
+msgstr "頁面標頭（最末頁）"
+
+#: wrtembed/KReportDesigner.cpp:695
+#, fuzzy
+#| msgid "Page Footer (Any)"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Any)"
+msgstr "頁面註腳（任一頁）"
+
+#: wrtembed/KReportDesigner.cpp:699
+#, fuzzy
+#| msgid "Page Footer (Even)"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Even)"
+msgstr "頁面註腳（雙數頁）"
+
+#: wrtembed/KReportDesigner.cpp:703
+#, fuzzy
+#| msgid "Page Footer (Odd)"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Odd)"
+msgstr "頁面註腳（單數頁）"
+
+#: wrtembed/KReportDesigner.cpp:707
+#, fuzzy
+#| msgid "Page Footer (First)"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (First)"
+msgstr "頁面註腳（第一頁）"
+
+#: wrtembed/KReportDesigner.cpp:711
+#, fuzzy
+#| msgid "Page Footer (Last)"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Last)"
+msgstr "頁面註腳（最末頁）"
+
+#: wrtembed/KReportDesigner.cpp:715
+#, fuzzy
+#| msgid "Report Header"
+msgctxt "KReportDesigner|"
+msgid "Report Header"
+msgstr "報告標頭"
+
+#: wrtembed/KReportDesigner.cpp:719
+#, fuzzy
+#| msgid "Report Footer"
+msgctxt "KReportDesigner|"
+msgid "Report Footer"
+msgstr "報告註腳"
+
+#: wrtembed/KReportDesigner.cpp:807
+#, fuzzy
+#| msgid "Export"
+msgctxt "KReportDesigner|Main report element"
+msgid "Report"
+msgstr "匯出"
+
+#: wrtembed/KReportDesigner.cpp:812
+#, fuzzy
+#| msgid "Title"
+msgctxt "KReportDesigner|"
+msgid "Title"
+msgstr "標題"
+
+#: wrtembed/KReportDesigner.cpp:812
+#, fuzzy
+#| msgid "Report Title"
+msgctxt "KReportDesigner|"
+msgid "Report Title"
+msgstr "報告標題"
+
+#: wrtembed/KReportDesigner.cpp:817
+#, fuzzy
+#| msgid "Page Size"
+msgctxt "KReportDesigner|"
+msgid "Page Size"
+msgstr "紙張大小"
+
+#: wrtembed/KReportDesigner.cpp:820
+#, fuzzy
+#| msgid "Page Size"
+msgctxt "KReportDesigner|"
+msgid "Custom Page Size"
+msgstr "紙張大小"
+
+#: wrtembed/KReportDesigner.cpp:824
+#, fuzzy
+#| msgid "Portrait"
+msgctxt "KReportDesigner|"
+msgid "Portrait"
+msgstr "縱向"
+
+#: wrtembed/KReportDesigner.cpp:824
+#, fuzzy
+#| msgid "Landscape"
+msgctxt "KReportDesigner|"
+msgid "Landscape"
+msgstr "橫向"
+
+#: wrtembed/KReportDesigner.cpp:826
+#, fuzzy
+#| msgid "Page Orientation"
+msgctxt "KReportDesigner|"
+msgid "Page Orientation"
+msgstr "頁面方向"
+
+#: wrtembed/KReportDesigner.cpp:831
+#, fuzzy
+#| msgid "Page Unit"
+msgctxt "KReportDesigner|"
+msgid "Page Unit"
+msgstr "頁面單位"
+
+#: wrtembed/KReportDesigner.cpp:832
+#, fuzzy
+#| msgid "Show Grid"
+msgctxt "KReportDesigner|"
+msgid "Show Grid"
+msgstr "顯示格線"
+
+#: wrtembed/KReportDesigner.cpp:833
+#, fuzzy
+#| msgid "Snap to Grid"
+msgctxt "KReportDesigner|"
+msgid "Snap to Grid"
+msgstr "貼齊格線"
+
+#: wrtembed/KReportDesigner.cpp:834
+#, fuzzy
+#| msgid "Grid Divisions"
+msgctxt "KReportDesigner|"
+msgid "Grid Divisions"
+msgstr "網格分界"
+
+#: wrtembed/KReportDesigner.cpp:840
+#, fuzzy
+#| msgid "Left Margin"
+msgctxt "KReportDesigner|"
+msgid "Left Margin"
+msgstr "左緣"
+
+#: wrtembed/KReportDesigner.cpp:842
+#, fuzzy
+#| msgid "Right Margin"
+msgctxt "KReportDesigner|"
+msgid "Right Margin"
+msgstr "右緣"
+
+#: wrtembed/KReportDesigner.cpp:844
+#, fuzzy
+#| msgid "Top Margin"
+msgctxt "KReportDesigner|"
+msgid "Top Margin"
+msgstr "上緣"
+
+#: wrtembed/KReportDesigner.cpp:846
+#, fuzzy
+#| msgid "Bottom Margin"
+msgctxt "KReportDesigner|"
+msgid "Bottom Margin"
+msgstr "下緣"
+
+#: wrtembed/KReportDesigner.cpp:868
+#, fuzzy
+#| msgid "Object Script"
+msgctxt "KReportDesigner|"
+msgid "Object Script"
+msgstr "物件文稿"
+
+#: wrtembed/KReportDesigner.cpp:1066
+#, fuzzy
+#| msgid "Cut"
+msgctxt "KReportDesigner|"
+msgid "Cut"
+msgstr "剪下"
+
+#: wrtembed/KReportDesigner.cpp:1070
+#, fuzzy
+#| msgid "Copy"
+msgctxt "KReportDesigner|"
+msgid "Copy"
+msgstr "複製"
+
+#: wrtembed/KReportDesigner.cpp:1075
+#, fuzzy
+#| msgid "Paste"
+msgctxt "KReportDesigner|"
+msgid "Paste"
+msgstr "貼上"
+
+#: wrtembed/KReportDesigner.cpp:1086
+#, fuzzy
+#| msgid "Delete"
+msgctxt "KReportDesigner|"
+msgid "Delete"
+msgstr "刪除"
+
+#: wrtembed/KReportDesigner.cpp:1128
+#, fuzzy
+#| msgid "Line"
+msgctxt "KReportDesigner|Report line element"
+msgid "Line"
+msgstr "線條"
+
+#: wrtembed/KReportDesigner.cpp:1475
+#, fuzzy
+#| msgid "Line"
+msgctxt "KReportDesigner|"
+msgid "Line"
+msgstr "線條"
+
+#: wrtembed/KReportDesigner.cpp:1518
+msgctxt "KReportDesigner|"
+msgid "Cu&t"
+msgstr ""
+
+#: wrtembed/KReportDesigner.cpp:1520
+msgctxt "KReportDesigner|"
+msgid "Cut selection to clipboard"
+msgstr ""
+
+#: wrtembed/KReportDesigner.cpp:1524
+#, fuzzy
+#| msgid "Copy"
+msgctxt "KReportDesigner|"
+msgid "&Copy"
+msgstr "複製"
+
+#: wrtembed/KReportDesigner.cpp:1526
+msgctxt "KReportDesigner|"
+msgid "Copy selection to clipboard"
+msgstr ""
+
+#: wrtembed/KReportDesigner.cpp:1530
+#, fuzzy
+#| msgid "Paste"
+msgctxt "KReportDesigner|"
+msgid "&Paste"
+msgstr "貼上"
+
+#: wrtembed/KReportDesigner.cpp:1532
+msgctxt "KReportDesigner|"
+msgid "Paste clipboard content"
+msgstr ""
+
+#: wrtembed/KReportDesigner.cpp:1543
+#, fuzzy
+#| msgid "Collection"
+msgctxt "KReportDesigner|"
+msgid "Edit Sections"
+msgstr "收藏"
+
+#: wrtembed/KReportDesigner.cpp:1546
+msgctxt "KReportDesigner|"
+msgid "Raise"
+msgstr ""
+
+#: wrtembed/KReportDesigner.cpp:1548
+#, fuzzy
+#| msgid "Lower Roman"
+msgctxt "KReportDesigner|"
+msgid "Lower"
+msgstr "小寫羅馬字母"
+
+#: wrtembed/KReportDesignerSection.cpp:126
+#, fuzzy
+#| msgid "Detail"
+msgctxt "KReportDesignerSection|"
+msgid "Detail"
+msgstr "細節"
+
+#: wrtembed/KReportDetailGroupSectionDialog.cpp:35
+#, fuzzy
+#| msgid "Group Section Editor"
+msgctxt "KReportDetailGroupSectionDialog|"
+msgid "Group Section Editor"
+msgstr "群組選擇編輯器"
+
+#: wrtembed/KReportDetailGroupSectionDialog.ui:34
+#, fuzzy
+#| msgid "Column:"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Column:"
+msgstr "欄："
+
+#: wrtembed/KReportDetailGroupSectionDialog.ui:51
+#, fuzzy
+#| msgid "Sort:"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Sort:"
+msgstr "排序："
+
+#: wrtembed/KReportDetailGroupSectionDialog.ui:68
+#, fuzzy
+#| msgid "Show Group Header"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Show group header:"
+msgstr "顯示群組標頭"
+
+#: wrtembed/KReportDetailGroupSectionDialog.ui:85
+#, fuzzy
+#| msgid "Show Group Footer"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Show group footer:"
+msgstr "顯示群組註腳"
+
+#: wrtembed/KReportDetailGroupSectionDialog.ui:105
+#, fuzzy
+#| msgid "Insert Page Break After this Footer"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Insert page break after group footer:"
+msgstr "在此註腳後插入頁面中斷標記"
+
+#: wrtembed/KReportPropertiesButton.cpp:26
+msgctxt "KReportPropertiesButton|"
+msgid "Select entire report"
+msgstr ""
+
+#: wrtembed/KReportPropertiesButton.cpp:27
+#, fuzzy
+#| msgid ""
+#| "A button that allows a report's surface to be selected, allowing its "
+#| "properties to be seen."
+msgctxt "KReportPropertiesButton|"
+msgid ""
+"A button that allows a report's surface to be selected, allowing its "
+"properties to be seen."
+msgstr "可以選取報告表面的按鍵，以便觀看它的屬性。"
+
+#: wrtembed/KReportRuler_p.cpp:1473
+#, fuzzy
+#| msgid "First line indent"
+msgctxt "KReportRuler|"
+msgid "First line indent"
+msgstr "首行縮排"
+
+#: wrtembed/KReportRuler_p.cpp:1474
+#, fuzzy
+#| msgid "Left indent"
+msgctxt "KReportRuler|"
+msgid "Left indent"
+msgstr "往左縮排"
+
+#: wrtembed/KReportRuler_p.cpp:1475
+#, fuzzy
+#| msgid "Right indent"
+msgctxt "KReportRuler|"
+msgid "Right indent"
+msgstr "往右縮排"
+
+#: wrtembed/KReportSectionEditor.cpp:72
+#, fuzzy
+msgctxt "KReportSectionEditor|"
+msgid "Add..."
+msgstr "新增..."
+
+#: wrtembed/KReportSectionEditor.cpp:74
+#, fuzzy
+#| msgid "Edit..."
+msgctxt "KReportSectionEditor|"
+msgid "Edit..."
+msgstr "編輯..."
+
+#: wrtembed/KReportSectionEditor.cpp:76
+#, fuzzy
+#| msgid "Delete"
+msgctxt "KReportSectionEditor|"
+msgid "Delete"
+msgstr "刪除"
+
+#: wrtembed/KReportSectionEditor.cpp:78
+#, fuzzy
+#| msgid "Move Up"
+msgctxt "KReportSectionEditor|"
+msgid "Move Up"
+msgstr "上移"
+
+#: wrtembed/KReportSectionEditor.cpp:80
+#, fuzzy
+#| msgid "Move Down"
+msgctxt "KReportSectionEditor|"
+msgid "Move Down"
+msgstr "下移"
+
+#: wrtembed/KReportSectionEditor.cpp:311
+#, fuzzy
+#| msgid "Ascending"
+msgctxt "KReportSectionEditor|"
+msgid "Ascending"
+msgstr "遞增"
+
+#: wrtembed/KReportSectionEditor.cpp:312
+#, fuzzy
+#| msgid "Descending"
+msgctxt "KReportSectionEditor|"
+msgid "Descending"
+msgstr "遞減"
+
+#: wrtembed/KReportSectionEditor.ui:29
+#, fuzzy
+#| msgid "Show Group Header"
+msgctxt "SectionEditor|"
+msgid "Show report header"
+msgstr "顯示群組標頭"
+
+#: wrtembed/KReportSectionEditor.ui:36
+#, fuzzy
+#| msgid "Show Group Footer"
+msgctxt "SectionEditor|"
+msgid "Show report footer"
+msgstr "顯示群組註腳"
+
+#: wrtembed/KReportSectionEditor.ui:43
+#, fuzzy
+#| msgid "Page Header"
+msgctxt "SectionEditor|"
+msgid "Page Header"
+msgstr "頁面標頭"
+
+#: wrtembed/KReportSectionEditor.ui:51 wrtembed/KReportSectionEditor.ui:138
+#, fuzzy
+#| msgid "First page:"
+msgctxt "SectionEditor|"
+msgid "First page:"
+msgstr "第一頁："
+
+#: wrtembed/KReportSectionEditor.ui:65 wrtembed/KReportSectionEditor.ui:152
+#, fuzzy
+#| msgid "Even Page(s)"
+msgctxt "SectionEditor|"
+msgid "Even pages:"
+msgstr "平整頁數"
+
+#: wrtembed/KReportSectionEditor.ui:79 wrtembed/KReportSectionEditor.ui:166
+#, fuzzy
+#| msgid "Any Page(s)"
+msgctxt "SectionEditor|"
+msgid "Any pages:"
+msgstr "任一頁"
+
+#: wrtembed/KReportSectionEditor.ui:97 wrtembed/KReportSectionEditor.ui:184
+#, fuzzy
+#| msgid "Last Page"
+msgctxt "SectionEditor|"
+msgid "Last page:"
+msgstr "最後一頁"
+
+#: wrtembed/KReportSectionEditor.ui:111 wrtembed/KReportSectionEditor.ui:198
+#, fuzzy
+#| msgid "Odd Page(s)"
+msgctxt "SectionEditor|"
+msgid "Odd pages:"
+msgstr "奇數頁"
+
+#: wrtembed/KReportSectionEditor.ui:130
+#, fuzzy
+#| msgid "Page Footer"
+msgctxt "SectionEditor|"
+msgid "Page Footer"
+msgstr "頁面註腳"
+
+#: wrtembed/KReportSectionEditor.ui:217
+#, fuzzy
+#| msgid "Group Sections"
+msgctxt "SectionEditor|"
+msgid "Group Sections"
+msgstr "群組選擇"
+
+#: wrtembed/KReportZoomMode_p.cpp:28
+#, fuzzy, qt-format
+#| msgid "%1%"
+msgctxt "KReportZoomMode|"
+msgid "%1%"
+msgstr "%1%"
+
+#: wrtembed/KReportZoomMode_p.cpp:29
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "KReportZoomMode|"
+msgid "Fit Page Width"
+msgstr "配合頁面寬度"
+
+#: wrtembed/KReportZoomMode_p.cpp:30
+#, fuzzy
+#| msgid "Fit Page"
+msgctxt "KReportZoomMode|"
+msgid "Fit Page"
+msgstr "配合頁面"
+
+#: wrtembed/KReportZoomMode_p.cpp:32
+#, fuzzy
+#| msgid "Actual Pixels"
+msgctxt "KReportZoomMode|"
+msgid "Actual Pixels"
+msgstr "實際像素"
+
+#: wrtembed/KReportZoomMode_p.cpp:36
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "KReportZoomMode|"
+msgid "Fit Text Width"
+msgstr "配合頁面寬度"
+
+#, fuzzy
+#~| msgid "Data Source"
+#~ msgctxt "KReportItemField|"
+#~ msgid "Data Source"
+#~ msgstr "資料來源"
+
+#, fuzzy
+#~| msgid "Data Source"
+#~ msgctxt "KReportItemImage|"
+#~ msgid "Data Source"
+#~ msgstr "資料來源"
+
+#, fuzzy
+#~| msgid "Data Source"
+#~ msgctxt "KReportItemText|"
+#~ msgid "Data Source"
+#~ msgstr "資料來源"
+
+#, fuzzy
+#~| msgid "Screen"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "Screen"
+#~ msgstr "螢幕"
+
+#, fuzzy
+#~| msgid "Height"
+#~ msgctxt "KReportSection|"
+#~ msgid "Height"
+#~ msgstr "高度"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgctxt "KReportSection|"
+#~ msgid "Background Color"
+#~ msgstr "背景顏色"
+
+#, fuzzy
+#~| msgid "Position"
+#~ msgctxt "KReportPosition|"
+#~ msgid "Position"
+#~ msgstr "位置"
+
+#, fuzzy
+#~| msgid "Size"
+#~ msgctxt "KReportSize|"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A3"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A3"
+#~ msgstr "ISO A3"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A4"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A4"
+#~ msgstr "ISO A4"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A5"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A5"
+#~ msgstr "ISO A5"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO B5"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO B5"
+#~ msgstr "ISO B5"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "US Executive"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "US Executive"
+#~ msgstr "US Executive"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A0"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A0"
+#~ msgstr "ISO A0"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A1"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A1"
+#~ msgstr "ISO A1"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A2"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A2"
+#~ msgstr "ISO A2"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A6"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A6"
+#~ msgstr "ISO A6"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A7"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A7"
+#~ msgstr "ISO A7"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A8"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A8"
+#~ msgstr "ISO A8"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO A9"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO A9"
+#~ msgstr "ISO A9"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO B0"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO B0"
+#~ msgstr "ISO B0"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO B1"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO B1"
+#~ msgstr "ISO B1"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO B2"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO B2"
+#~ msgstr "ISO B2"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO B3"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO B3"
+#~ msgstr "ISO B3"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO B4"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO B4"
+#~ msgstr "ISO B4"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO B6"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO B6"
+#~ msgstr "ISO B6"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "ISO C5"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "ISO C5"
+#~ msgstr "ISO C5"
+
+#, fuzzy
+#~| msgctxt "Page size"
+#~| msgid "US Common 10"
+#~ msgctxt "KReportPageFormat|"
+#~ msgid "US Common 10"
+#~ msgstr "US Common 10"
+
+#, fuzzy
+#~| msgid "Height"
+#~ msgctxt "KRSectionData|"
+#~ msgid "Height"
+#~ msgstr "高度"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgctxt "KRSectionData|"
+#~ msgid "Background Color"
+#~ msgstr "背景顏色"
+
+#, fuzzy
+#~| msgid "Line Weight"
+#~ msgctxt "KoReportItemCheck|"
+#~ msgid "Line Weight"
+#~ msgstr "線條粗細"
+
+#, fuzzy
+#~| msgid "Line Color"
+#~ msgctxt "KoReportItemCheck|"
+#~ msgid "Line Color"
+#~ msgstr "線條顏色"
+
+#, fuzzy
+#~| msgid "Line Style"
+#~ msgctxt "KoReportItemCheck|"
+#~ msgid "Line Style"
+#~ msgstr "線條樣式"
+
+#, fuzzy
+#~| msgid "Data Source"
+#~ msgctxt "KoReportItemField|"
+#~ msgid "Data Source"
+#~ msgstr "資料來源"
+
+#, fuzzy
+#~| msgid "Value"
+#~ msgctxt "KoReportItemField|"
+#~ msgid "Value"
+#~ msgstr "數值"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgctxt "KoReportItemField|"
+#~ msgid "Background Color"
+#~ msgstr "背景顏色"
+
+#, fuzzy
+#~| msgid "Foreground Color"
+#~ msgctxt "KoReportItemField|"
+#~ msgid "Foreground Color"
+#~ msgstr "前景顏色"
+
+#, fuzzy
+#~| msgid "Line Weight"
+#~ msgctxt "KoReportItemField|"
+#~ msgid "Line Weight"
+#~ msgstr "線條粗細"
+
+#, fuzzy
+#~| msgid "Line Color"
+#~ msgctxt "KoReportItemField|"
+#~ msgid "Line Color"
+#~ msgstr "線條顏色"
+
+#, fuzzy
+#~| msgid "Line Style"
+#~ msgctxt "KoReportItemField|"
+#~ msgid "Line Style"
+#~ msgstr "線條樣式"
+
+#, fuzzy
+#~| msgid "Data Source"
+#~ msgctxt "KoReportItemImage|"
+#~ msgid "Data Source"
+#~ msgstr "資料來源"
+
+#, fuzzy
+#~| msgid "Value"
+#~ msgctxt "KoReportItemImage|"
+#~ msgid "Value"
+#~ msgstr "數值"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Left"
+#~ msgstr "置左"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Center"
+#~ msgstr "置中"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Right"
+#~ msgstr "置右"
+
+#, fuzzy
+#~| msgid "Horizontal Alignment"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Horizontal Alignment"
+#~ msgstr "水平對齊"
+
+#, fuzzy
+#~| msgid "Top"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Top"
+#~ msgstr "置頂"
+
+#, fuzzy
+#~| msgid "Bottom"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Bottom"
+#~ msgstr "置底"
+
+#, fuzzy
+#~| msgid "Vertical Alignment"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Vertical Alignment"
+#~ msgstr "垂直對齊"
+
+#, fuzzy
+#~| msgid "Font"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Font"
+#~ msgstr "字型"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Background Color"
+#~ msgstr "背景顏色"
+
+#, fuzzy
+#~| msgid "Foreground Color"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Foreground Color"
+#~ msgstr "前景顏色"
+
+#, fuzzy
+#~| msgid "Background tool"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Background Opacity"
+#~ msgstr "背景工具"
+
+#, fuzzy
+#~| msgid "Line Weight"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Line Weight"
+#~ msgstr "線條粗細"
+
+#, fuzzy
+#~| msgid "Line Color"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Line Color"
+#~ msgstr "線條顏色"
+
+#, fuzzy
+#~| msgid "Line Style"
+#~ msgctxt "KoReportItemLabel|"
+#~ msgid "Line Style"
+#~ msgstr "線條樣式"
+
+#, fuzzy
+#~| msgid "Data Source"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Data Source"
+#~ msgstr "資料來源"
+
+#, fuzzy
+#~| msgid "Value"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Value"
+#~ msgstr "數值"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Left"
+#~ msgstr "置左"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Center"
+#~ msgstr "置中"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Right"
+#~ msgstr "置右"
+
+#, fuzzy
+#~| msgid "Horizontal Alignment"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Horizontal Alignment"
+#~ msgstr "水平對齊"
+
+#, fuzzy
+#~| msgid "Top"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Top"
+#~ msgstr "置頂"
+
+#, fuzzy
+#~| msgid "Bottom"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Bottom"
+#~ msgstr "置底"
+
+#, fuzzy
+#~| msgid "Vertical Alignment"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Vertical Alignment"
+#~ msgstr "垂直對齊"
+
+#, fuzzy
+#~| msgid "Font"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Font"
+#~ msgstr "字型"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Background Color"
+#~ msgstr "背景顏色"
+
+#, fuzzy
+#~| msgid "Foreground Color"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Foreground Color"
+#~ msgstr "前景顏色"
+
+#, fuzzy
+#~| msgid "Line Weight"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Line Weight"
+#~ msgstr "線條粗細"
+
+#, fuzzy
+#~| msgid "Line Color"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Line Color"
+#~ msgstr "線條顏色"
+
+#, fuzzy
+#~| msgid "Line Style"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Line Style"
+#~ msgstr "線條樣式"
+
+#, fuzzy
+#~| msgid "Background tool"
+#~ msgctxt "KoReportItemText|"
+#~ msgid "Background Opacity"
+#~ msgstr "背景工具"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "SectionEditor|"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#, fuzzy
+#~| msgid "Script Interpreter"
+#~ msgctxt "KoReportDesigner|"
+#~ msgid "Script Interpreter"
+#~ msgstr "文稿直譯器"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frank Weng (a.k.a. Franklin)"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Break subpath"
+#~ msgid "Draw path"
+#~ msgstr "中斷子路徑"
+
+#, fuzzy
+#~| msgid "Freehand Path Drawing Tool"
+#~ msgid "Freehand path"
+#~ msgstr "手繪路徑工具"
+
+#~ msgid "Angle snapping delta:"
+#~ msgstr "角度變量："
+
+#~ msgid "Activate angle snap:"
+#~ msgstr "啟用角度變量："
+
+#~ msgid "Angle Constraints"
+#~ msgstr "角度限制"
+
+#~ msgid "Precision:"
+#~ msgstr "精確度："
+
+#~ msgctxt "The raw line data"
+#~ msgid "Raw"
+#~ msgstr "原始"
+
+#~ msgid "Curve"
+#~ msgstr "曲線"
+
+#~ msgid "Straight"
+#~ msgstr "直線"
+
+#~ msgid "Optimize"
+#~ msgstr "最佳化"
+
+#~ msgid "Exactness:"
+#~ msgstr "精確度："
+
+#~ msgid "Combine angle:"
+#~ msgstr "組合角度："
+
+#~ msgid "Pencil"
+#~ msgstr "鉛筆"
+
+#~ msgid "Invalid database contents. "
+#~ msgstr "不合法的資料庫內容。"
+
+#~ msgid "It is a system object."
+#~ msgstr "這是系統物件。"
+
+#~ msgid "Connection already established."
+#~ msgstr "連線已建立。"
+
+#~ msgid "Could not open \"%1\" project file."
+#~ msgstr "無法開啟 \"%1\" 專案檔。"
+
+#~ msgid "Could not connect to \"%1\" database server."
+#~ msgstr "無法連線到 \"%1\" 資料庫伺服器。"
+
+#~ msgid "Not connected to the database server."
+#~ msgstr "未連線到資料庫伺服器。"
+
+#~ msgid "Currently no database is used."
+#~ msgstr "目前沒有使用任何資料庫。"
+
+#~ msgid "The database \"%1\" does not exist."
+#~ msgstr "資料庫 %1 不存在。"
+
+#, fuzzy
+#~| msgid "The database \"%1\" does not exist."
+#~ msgid "The database file \"%1\" does not exist."
+#~ msgstr "資料庫 %1 不存在。"
+
+#~ msgid "Database file \"%1\" is not readable."
+#~ msgstr "資料庫檔案 \"%1\" 無法讀取。"
+
+#~ msgid "Database file \"%1\" is not writable."
+#~ msgstr "資料庫檔案 \"%1\" 無法寫入。"
+
+#~ msgid "Database \"%1\" created but could not be closed after creation."
+#~ msgstr "資料庫 \"%1\" 已建立，但是建立後無法關閉。"
+
+#~ msgid "Database \"%1\" already exists."
+#~ msgstr "資料庫 \"%1\" 已存在。"
+
+#~ msgid ""
+#~ "Cannot create database \"%1\". This name is reserved for system database."
+#~ msgstr "無法建立資料庫 \"%1\"。此名稱是保留給系統資料庫使用的。"
+
+#~ msgid "Error creating database \"%1\" on the server."
+#~ msgstr "在伺服器上建立資料庫 \"%1\" 時發生錯誤。"
+
+#~ msgid "Database \"%1\" created but could not be opened."
+#~ msgstr "資料庫 \"%1\" 已建立，但是無法被開啟。"
+
+#~ msgid "Opening database \"%1\" failed."
+#~ msgstr "開啟資料庫 \"%1\" 失敗。"
+
+#~ msgid "Database version (%1) does not match Kexi application's version (%2)"
+#~ msgstr "資料庫版本（%1）不符合 Kexi 應用程式版本（%2）"
+
+#~ msgid "Cannot find any database for temporary connection."
+#~ msgstr "找不到任何資料庫做暫時連線。"
+
+#~ msgid ""
+#~ "Error during starting temporary connection using \"%1\" database name."
+#~ msgstr "使用 \"%1\" 資料庫名稱啟動暫時連線時發生錯誤。"
+
+#~ msgid "Cannot delete database - name not specified."
+#~ msgstr "無法刪除資料庫 -- 未指定名稱。"
+
+#~ msgid "Cannot delete system database \"%1\"."
+#~ msgstr "無法刪除系統資料庫 \"%1\"。"
+
+#~ msgid "Error while executing SQL statement."
+#~ msgstr "執行 SQL 敘述時發生錯誤。"
+
+#~ msgid "Creating table failed."
+#~ msgstr "建立表格時失敗。"
+
+#~ msgid "Cannot create table without fields."
+#~ msgstr "無法建立沒有欄位的表格。"
+
+#~ msgid "System name \"%1\" cannot be used as table name."
+#~ msgstr "系統名稱 \"%1\" 不能用做表格名稱。"
+
+#~ msgid "System name \"%1\" cannot be used as one of fields in \"%2\" table."
+#~ msgstr "系統名稱 \"%1\" 不能在 \"%2\" 表格中做為欄位名稱。"
+
+#~ msgid "Could not create the same table \"%1\" twice."
+#~ msgstr "不能重覆建立表格 \"%1\"。"
+
+#~ msgid "Table \"%1\" already exists."
+#~ msgstr "表格 %1 已存在。"
+
+#~ msgid "Table \"%1\" does not exist."
+#~ msgstr "表格 %1 不存在。"
+
+#~ msgid "Could not remove object's data."
+#~ msgstr "無法移除物件資料。"
+
+#~ msgid "Table \"%1\" cannot be removed.\n"
+#~ msgstr "表格 \"%1\" 無法移除。\n"
+
+#~ msgid "Unexpected name or identifier."
+#~ msgstr "未預期的名稱或識別子。"
+
+#, fuzzy
+#~| msgid "Could not alter table \"%1\" using the same table."
+#~ msgid "Could not alter table \"%1\" using the same table as destination."
+#~ msgstr "無法用相同的表格來變更表格 \"%1\"。"
+
+#, fuzzy
+#~| msgid "Unknown table \"%1\""
+#~ msgid "Unknown table \"%1\"."
+#~ msgstr "未知的表格 \"%1\""
+
+#, fuzzy
+#~| msgid "Invalid table name \"%1\""
+#~ msgid "Invalid table name \"%1\"."
+#~ msgstr "不合法的表格名稱 \"%1\""
+
+#~ msgid "Could not rename table \"%1\" using the same name."
+#~ msgstr "重新命名表格 \"%1\" 時不能指定相同的名稱。"
+
+#~ msgid ""
+#~ "Could not rename table \"%1\" to \"%2\". Table \"%3\" already exists."
+#~ msgstr "無法將表格 \"%1\" 重新命名為 \"%2\"。因為表格 \"%3\" 已存在。"
+
+#~ msgid "Query \"%1\" does not exist."
+#~ msgstr "查詢 \"%1\" 不存在。"
+
+#~ msgid "Transactions are not supported for \"%1\" driver."
+#~ msgstr "\"%1\" 驅動程式不支援交易。"
+
+#, fuzzy
+#~| msgid "Begin transaction failed"
+#~ msgid "Begin transaction failed."
+#~ msgstr "開始交易失敗"
+
+#~ msgid "Transaction already started."
+#~ msgstr "交易已啟動。"
+
+#~ msgid "Transaction not started."
+#~ msgstr "交易未啟動。"
+
+#, fuzzy
+#~| msgid "Error on commit transaction"
+#~ msgid "Error on commit transaction."
+#~ msgstr "提交交易時發生錯誤"
+
+#, fuzzy
+#~| msgid "Error on rollback transaction"
+#~ msgid "Error on rollback transaction."
+#~ msgstr "滾回（rollback）交易時發生錯誤"
+
+#, fuzzy
+#~| msgid "Invalid object name \"%1\""
+#~ msgid "Invalid object name \"%1\"."
+#~ msgstr "不合法的物件名稱 \"%1\""
+
+#, fuzzy
+#~| msgid "Column %1 does not exist for the query."
+#~ msgid "Column <resource>%1</resource> does not exist in the query."
+#~ msgstr "欄位 %1 不存在無法查詢。"
+
+#, fuzzy
+#~| msgid "Error while loading extended table schema information."
+#~ msgctxt "Extended schema for a table: loading error"
+#~ msgid "Error while loading extended table schema."
+#~ msgstr "載入延伸表格機制資訊時發生錯誤。"
+
+#, fuzzy
+#~| msgid "Invalid XML data: "
+#~ msgid "Invalid XML data: %1"
+#~ msgstr "不合法的 XML 資料："
+
+#, fuzzy
+#~| msgid ""
+#~| "Error in XML data: \"%1\" in line %2, column %3.\n"
+#~| "XML data: "
+#~ msgid ""
+#~ "Error in XML data: \"%1\" in line %2, column %3.\n"
+#~ "XML data: %4"
+#~ msgstr ""
+#~ "XML 資料錯誤：\"%1\" 於第 %2 行第 %3 欄。\n"
+#~ "XML 資料："
+
+#~ msgid "Table has no fields defined."
+#~ msgstr "表格沒有定義欄位。"
+
+#~ msgid ""
+#~ "Could not find definition for query \"%1\". Removing this query is "
+#~ "recommended."
+#~ msgstr "找不到查詢 \"%1\" 的定義。建議移除此查詢。"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>Could not load definition for query \"%1\". SQL statement for this "
+#~| "query is invalid:<br><tt>%2</tt></p>\n"
+#~| "<p>You can open this query in Text View and correct it.</p>"
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>Could not load definition for query \"%1\". SQL statement for this "
+#~ "query is invalid: <message>%2</message></para>\n"
+#~ "<para>You can open this query in Text View and correct it.</para>"
+#~ msgstr ""
+#~ "<p>無法載入查詢 \"%1\" 的定義。此查詢的 SQL 敘述不合法：<br><tt>%2</tt></"
+#~ "p>\n"
+#~ "<p>您可以在文字檢視中開啟並修正此查詢。</p>"
+
+#~ msgid "Could not update record because there is no master table defined."
+#~ msgstr "無法更新紀錄，因為沒有定義主表格。"
+
+#~ msgid ""
+#~ "Could not update record because master table has no primary key defined."
+#~ msgstr "無法更新紀錄，因為主表格中沒有定義主鍵。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not update record because it does not contain entire master "
+#~| "table's primary key."
+#~ msgid ""
+#~ "Could not update record because it does not contain entire primary key of "
+#~ "master table."
+#~ msgstr "無法更新紀錄，因為它並未包含整個主表格的主鍵。"
+
+#~ msgid "Primary key's field \"%1\" cannot be empty."
+#~ msgstr "主鍵欄位 \"%1\" 不能是空的。"
+
+#~ msgid "Record updating on the server failed."
+#~ msgstr "伺服器上更新紀錄失敗。"
+
+#, fuzzy
+#~| msgid "Could not insert record because there is no master table defined."
+#~ msgid "Could not insert record because there is no master table specified."
+#~ msgstr "無法插入紀錄，因為沒有定義主表格。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not insert record because master table has no primary key defined."
+#~ msgid ""
+#~ "Could not insert record because master table has no primary key specified."
+#~ msgstr "無法插入紀錄，因為主表格中沒有定義主鍵。"
+
+#~ msgid ""
+#~ "Could not insert record because it does not contain entire master table's "
+#~ "primary key."
+#~ msgstr "無法插入紀錄，因為它並未包含整個主表格的主鍵。"
+
+#~ msgid "Record inserting on the server failed."
+#~ msgstr "伺服器上插入紀錄失敗。"
+
+#, fuzzy
+#~| msgid "Could not delete record because there is no master table defined."
+#~ msgid "Could not delete record because there is no master table specified."
+#~ msgstr "無法刪除紀錄，因為沒有定義主表格。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not delete record because there is no primary key for master table "
+#~| "defined."
+#~ msgid ""
+#~ "Could not delete record because there is no primary key for master table "
+#~ "specified."
+#~ msgstr "無法刪除紀錄，因為沒有定義主表格。"
+
+#~ msgid ""
+#~ "Could not delete record because it does not contain entire master table's "
+#~ "primary key."
+#~ msgstr "無法刪除紀錄，因為它並未包含整個主表格的主鍵。"
+
+#~ msgid "Record deletion on the server failed."
+#~ msgstr "伺服器上刪除紀錄失敗。"
+
+#, fuzzy
+#~| msgid "Unknown error"
+#~ msgid "Unknown error."
+#~ msgstr "未知的錯誤"
+
+#, fuzzy
+#~| msgid "file"
+#~ msgctxt "@info"
+#~ msgid "file: %1"
+#~ msgstr "檔案"
+
+#~ msgid "No query statement or schema defined."
+#~ msgstr "沒有定義查詢敘述或機制。"
+
+#~ msgid "Query statement is empty."
+#~ msgstr "查詢敘述是空的。"
+
+#~ msgid "Error opening database cursor."
+#~ msgstr "開啟資料庫游標時發生錯誤。"
+
+#~ msgid "Cannot fetch next record."
+#~ msgstr "無法抓取下一筆紀錄。"
+
+#~ msgid "Could not set value of database property \"%1\"."
+#~ msgstr "無法設定資料庫屬性 \"%1\" 的值。"
+
+#~ msgid "Could not set caption for database property \"%1\"."
+#~ msgstr "無法設定資料庫屬性 \"%1\" 的標題。"
+
+#~ msgid "Could not read database property \"%1\"."
+#~ msgstr "無法讀取資料庫屬性 \"%1\"。"
+
+#~ msgid "Could not read database properties."
+#~ msgstr "無法讀取資料庫屬性。"
+
+#~ msgid "Invalid database driver's \"%1\" implementation:\n"
+#~ msgstr "資料庫驅動程式的 \"%1\" 實作不合法：\n"
+
+#~ msgid "Value of \"%1\" is not initialized for the driver."
+#~ msgstr "\"%1\" 的值在驅動程式中未初始化。"
+
+#~ msgid "File name expected for file-based database driver."
+#~ msgstr "預期以檔案為基底的資料庫驅動程式的檔名。"
+
+#~ msgid "Client library version"
+#~ msgstr "客戶端函式庫版本"
+
+#~ msgid "Default character encoding on server"
+#~ msgstr "伺服器上預設字元編碼"
+
+#~ msgid "File-based database driver"
+#~ msgstr "檔案為基底的資料庫驅動程式"
+
+#~ msgid "File-based database's MIME type"
+#~ msgstr "檔案為基底的資料庫驅動程式的 MIME 型態"
+
+#~ msgid "Single transactions support"
+#~ msgstr "單一交易支援"
+
+#~ msgid "Multiple transactions support"
+#~ msgstr "多重交易支援"
+
+#~ msgid "Nested transactions support"
+#~ msgstr "巢狀交易支援"
+
+#~ msgid "KexiDB driver version"
+#~ msgstr "KexiDB 驅動程式版本"
+
+#~ msgid "Could not find any database drivers."
+#~ msgstr "無法找到任何資料庫驅動程式。"
+
+#~ msgid "Could not find database driver \"%1\"."
+#~ msgstr "無法找到資料庫驅動程式 \"%1\"。"
+
+#~ msgid ""
+#~ "Incompatible database driver's \"%1\" version: found version %2, expected "
+#~ "version %3."
+#~ msgstr "不相容的資料庫驅動程式版本 %1：版本應為 %3，但是找到 %2。"
+
+#~ msgid "Could not load database driver \"%1\"."
+#~ msgstr "無法載入資料庫驅動程式 \"%1\"。"
+
+#, fuzzy
+#~| msgid "Could not find database driver \"%1\"."
+#~ msgid "Could not find service <resource>%1</resource>."
+#~ msgstr "無法找到資料庫驅動程式 \"%1\"。"
+
+#~ msgid "Ambiguous field name"
+#~ msgstr "不明的欄位名稱"
+
+#, fuzzy
+#~| msgid ""
+#~| "Both table \"%1\" and \"%2\" have defined \"%3\" field. Use "
+#~| "\"<tableName>.%4\" notation to specify table name."
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Both table <resource>%1</resource> and <resource>%2</resource> have "
+#~ "defined <resource>%3</resource> field. Use "
+#~ "<resource><placeholder>tableName</placeholder>.%4</resource> notation to "
+#~ "specify table name."
+#~ msgstr ""
+#~ "表格 \"%1\" 與 \"%2\" 都定義了欄位 \"%3\"。請用 \"<表格名稱>.%4\" 來區分。"
+
+#~ msgid "Field not found"
+#~ msgstr "找不到欄位"
+
+#, fuzzy
+#~| msgid "Table containing \"%1\" field not found"
+#~ msgid "Table containing \"%1\" field not found."
+#~ msgstr "找不到包含 \"%1\" 欄位的表格"
+
+#~ msgid "Could not access the table directly using its name"
+#~ msgstr "無法直接用表格的名稱來存取"
+
+#, fuzzy
+#~| msgid ""
+#~| "Table \"%1\" is covered by aliases. Instead of \"%2\", you can write "
+#~| "\"%3\""
+#~ msgid ""
+#~ "Table name <resource>%1</resource> is covered by aliases. Instead of "
+#~ "<resource>%2</resource>, you can write <resource>%3</resource>."
+#~ msgstr "表格 \"%1\" 已被別名給覆蓋了。您可以寫 \"%3\" 而不要用 \"%2\""
+
+#~ msgid "Table not found"
+#~ msgstr "找不到表格"
+
+#~ msgid "Ambiguous \"%1.*\" expression"
+#~ msgstr "不明的 \"%1.*\" 表示式"
+
+#, fuzzy
+#~| msgid "More than one \"%1\" table or alias defined"
+#~ msgid "More than one \"%1\" table or alias defined."
+#~ msgstr "定義了一個以上的 \"%1\" 表格或別名"
+
+#, fuzzy
+#~| msgid "Table \"%1\" has no \"%2\" field"
+#~ msgid "Table \"%1\" has no \"%2\" field."
+#~ msgstr "表格 \"%1\" 沒有 \"%2\" 欄位"
+
+#~ msgid "Ambiguous \"%1.%2\" expression"
+#~ msgstr "不明的 \"%1.%2\" 表示式"
+
+#, fuzzy
+#~| msgid "More than one \"%1\" table or alias defined containing \"%2\" field"
+#~ msgid "More than one \"%1\" table or alias defined containing \"%2\" field."
+#~ msgstr "一個以上的 \"%1\" 表格或別名定義包含了 \"%2\" 欄位"
+
+#~ msgid "Byte"
+#~ msgstr "位元組"
+
+#~ msgid "Short Integer Number"
+#~ msgstr "短整數"
+
+#~ msgid "Integer Number"
+#~ msgstr "整數"
+
+#~ msgid "Big Integer Number"
+#~ msgstr "長整數"
+
+#~ msgid "Yes/No Value"
+#~ msgstr "是/否"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Date and Time"
+#~ msgstr "日期與時間"
+
+#~ msgid "Time"
+#~ msgstr "時間"
+
+#~ msgid "Single Precision Number"
+#~ msgstr "單倍精確數"
+
+#~ msgid "Double Precision Number"
+#~ msgstr "雙倍精確數"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Long Text"
+#~ msgstr "長文字"
+
+#~ msgid "Object"
+#~ msgstr "物件"
+
+#~ msgid "Invalid Group"
+#~ msgstr "不合法的群組"
+
+#~ msgid "Floating Point Number"
+#~ msgstr "浮點數"
+
+#~ msgid "Yes/No"
+#~ msgstr "是/否"
+
+#~ msgid "Date/Time"
+#~ msgstr "日期/時間"
+
+#~ msgid ""
+#~ "You can correct data in this record or use \"Cancel record changes\" "
+#~ "function."
+#~ msgstr "您可以修正此紀錄的資料，或是用「取消紀錄改變」功能。"
+
+#~ msgid "Unspecified error encountered"
+#~ msgstr "遇到不明確的錯誤"
+
+#~ msgid "identifier was expected"
+#~ msgstr "預期要是個識別子"
+
+#, fuzzy
+#~| msgid "\"%1\" is a reserved keyword"
+#~ msgid "\"%1\" is a reserved keyword."
+#~ msgstr "\"%1\" 是保留的關鍵字"
+
+#, fuzzy
+#~| msgid "Syntax Error"
+#~ msgid "Syntax error."
+#~ msgstr "語法錯誤"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#, fuzzy
+#~| msgid "Syntax Error near \"%1\""
+#~ msgid "Error near \"%1\"."
+#~ msgstr "在 \"%1\" 附近有語法錯誤"
+
+#, fuzzy
+#~| msgid "No query statement or schema defined."
+#~ msgid "No query statement specified."
+#~ msgstr "沒有定義查詢敘述或機制。"
+
+#, fuzzy
+#~| msgid "\"*\" could not be used if no tables are specified"
+#~ msgid "\"*\" could not be used if no tables are specified."
+#~ msgstr "未指定表格時不能使用 \"*\" "
+
+#, fuzzy
+#~| msgctxt ""
+#~| "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
+#~| msgid "expr"
+#~ msgctxt ""
+#~ "short for 'expression' word, e.g. 'expr' (only latin letters, please, no "
+#~ "'.')"
+#~ msgid "expr"
+#~ msgstr "expr"
+
+#, fuzzy
+#~| msgid "Revision number:"
+#~ msgid "Server's port number"
+#~ msgstr "版本號："
+
+#~ msgid "\"%1\" column requires a value to be entered."
+#~ msgstr "欄位 %1 需要輸入值。"
+
+#~ msgid "The column's constraint is declared as NOT NULL."
+#~ msgstr "這個欄位的條件約數設定為 NOT NULL。"
+
+#~ msgid "The column's constraint is declared as NOT EMPTY."
+#~ msgstr "這個欄位的條件約數設定為 NOT EMPTY。"
+
+#~ msgid "Record inserting failed."
+#~ msgstr "插入紀錄失敗。"
+
+#~ msgid "Record changing failed."
+#~ msgstr "變更紀錄失敗。"
+
+#~ msgid "Record deleting failed."
+#~ msgstr "刪除紀錄失敗。"
+
+#~ msgid "Test Connection"
+#~ msgstr "測試連線"
+
+#, fuzzy
+#~| msgid "Not connected to the database server."
+#~ msgid "Testing connection to <resource>%1</resource> database server..."
+#~ msgstr "未連線到資料庫伺服器。"
+
+#, fuzzy
+#~| msgid "&Phone Number:"
+#~ msgid "Number"
+#~ msgstr "數字"
+
+#~ msgid "Image"
+#~ msgstr "影像"
+
+#~ msgid "\"%1\" value has to be entered."
+#~ msgstr "必須輸入數值 %1。"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Connection"
+#~ msgstr "改變連線"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change parameter"
+#~ msgstr "改變參數"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Convert to Path"
+#~ msgstr "轉換為路徑"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Break subpath at points"
+#~ msgstr "中斷子路徑"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Combine paths"
+#~ msgstr "組合路徑"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move control point"
+#~ msgstr "移動控制點"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set fill rule"
+#~ msgstr "設定填充規則"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert points"
+#~ msgstr "插入點"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Merge points"
+#~ msgstr "合併點"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move points"
+#~ msgstr "移動點"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Remove points"
+#~ msgstr "移除點"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set point type"
+#~ msgstr "設定點型態"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Reverse paths"
+#~ msgstr "反向路徑"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Break subpath"
+#~ msgstr "中斷子路徑"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change segments to curves"
+#~ msgstr "改變線段為曲線"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change segments to lines"
+#~ msgstr "改變線段為直線"
+
+#, fuzzy
+#~| msgid "Set marker"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set marker"
+#~ msgstr "設定標記"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Align shapes"
+#~ msgstr "對齊元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set background"
+#~ msgstr "設定背景"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Clip Shape"
+#~ msgstr "修剪元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create shape"
+#~ msgstr "建立元件"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Delete shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete shape"
+#~ msgid_plural "Delete shapes"
+#~ msgstr[0] "刪除元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Distribute shapes"
+#~ msgstr "分布元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Group shapes"
+#~ msgstr "群組元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Add shapes to group"
+#~ msgstr "新增元件到群組"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Keep Aspect Ratio"
+#~ msgstr "保持長寬比例"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Lock shapes"
+#~ msgstr "鎖定元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move shapes"
+#~ msgstr "移動元件"
+
+#, fuzzy
+#~| msgid "Rename Shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Shape"
+#~ msgstr "重新命名元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Reorder shapes"
+#~ msgstr "重新排序元件"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Change page layout"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Shape RunAround"
+#~ msgstr "改變頁面佈局"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Shadow"
+#~ msgstr "設定陰影"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shear shapes"
+#~ msgstr "剪下元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Resize shapes"
+#~ msgstr "調整元件大小"
+
+#, fuzzy
+#~| msgid "Set marker"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set stroke"
+#~ msgstr "設定標記"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set opacity"
+#~ msgstr "設定不透明度"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Unclip Shape"
+#~ msgstr "反修剪元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Unclip Shapes"
+#~ msgstr "反修剪元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Ungroup shapes"
+#~ msgstr "取消元件群組"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Close subpath"
+#~ msgstr "關閉子路徑"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Join subpaths"
+#~ msgstr "合併子路徑"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Remove subpath"
+#~ msgstr "移除子路徑"
+
+#~ msgid "Standard"
+#~ msgstr "標準"
+
+#~ msgid "Lines"
+#~ msgstr "線條"
+
+#~ msgid "Type:"
+#~ msgstr "型態："
+
+#~ msgid "Tie"
+#~ msgstr "相連"
+
+#~ msgid "A connection between two other shapes"
+#~ msgstr "將兩個元件連線在一起的元件"
+
+#~ msgid "Shows or hides grid"
+#~ msgstr "顯示或隱藏格線"
+
+#~ msgid "Simple path shape"
+#~ msgstr "簡單的路徑元件"
+
+#~ msgid "A simple path shape"
+#~ msgstr "簡單的路徑元件"
+
+#~ msgid "%1 Options"
+#~ msgstr "%1 選項"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste Shapes"
+#~ msgstr "貼上元件"
+
+#~ msgid "Active tool: %1"
+#~ msgstr "使用工具：%1"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Paste Page"
+#~| msgid_plural "Paste Pages"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste Image"
+#~ msgstr "貼上頁面"
+
+#~ msgid "Nodes"
+#~ msgstr "節點"
+
+#~ msgid "Extension of lines"
+#~ msgstr "直線的延伸"
+
+#~ msgid "Bounding box of shape"
+#~ msgstr "元件的邊界盒"
+
+#~ msgid "Proximity distance where snapping happens"
+#~ msgstr "貼齊的大概距離"
+
+#~ msgid " px"
+#~ msgstr " 像素"
+
+#~ msgid "Orthogonal"
+#~ msgstr "垂直"
+
+#~ msgid "Intersection of lines"
+#~ msgstr "線條的交錯"
+
+#~ msgid "Guide lines"
+#~ msgstr "導線"
+
+#~ msgid "Embedded svg shape"
+#~ msgstr "嵌入式 svg 元件"
+
+#~ msgid "Create object"
+#~ msgstr "建立物件"
+
+#~ msgid "Pan"
+#~ msgstr "轉動"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Segment"
+#~ msgstr "變更段落"
+
+#~ msgid "Corner point"
+#~ msgstr "角落點"
+
+#~ msgid "Smooth point"
+#~ msgstr "平滑點"
+
+#~ msgid "Symmetric Point"
+#~ msgstr "對稱點"
+
+#~ msgid "Make curve point"
+#~ msgstr "產生曲線點"
+
+#~ msgid "Make line point"
+#~ msgstr "產生線點"
+
+#~ msgid "Segment to Line"
+#~ msgstr "線段"
+
+#~ msgid "Segment to Curve"
+#~ msgstr "曲線線段"
+
+#~ msgid "Insert point"
+#~ msgstr "插入點"
+
+#~ msgid "Remove point"
+#~ msgstr "移除點"
+
+#~ msgid "Break at point"
+#~ msgstr "中斷點"
+
+#~ msgid "Break at segment"
+#~ msgstr "中斷線段"
+
+#~ msgid "Join with segment"
+#~ msgstr "合併線段"
+
+#~ msgid "Merge points"
+#~ msgstr "合併點"
+
+#~ msgid "To Path"
+#~ msgstr "到路徑"
+
+#~ msgid "Line/Curve"
+#~ msgstr "直線/曲線"
+
+#~ msgid "Drag to move handle."
+#~ msgstr "拖曳以移動把手。"
+
+#~ msgid "Drag to move point. Shift click to change point type."
+#~ msgstr "拖曳以移動點。按住 Shift 再點擊可以改變點的型態。"
+
+#~ msgid "Drag to move control point."
+#~ msgstr "拖曳以移動控制點。"
+
+#~ msgid "Press B to break path at selected point."
+#~ msgstr "按下 B 中斷路徑於選取的點。"
+
+#~ msgid "Press B to break path at selected segments."
+#~ msgstr "按下 B 中斷路徑於選取的線段。"
+
+#, fuzzy
+#~| msgid "Path editing tool"
+#~ msgid "Path editing"
+#~ msgstr "路徑編輯時間："
+
+#~ msgid "Zoom"
+#~ msgstr "縮放"
+
+#~ msgid "Zoom In"
+#~ msgstr "放大"
+
+#~ msgid "Zoom Out"
+#~ msgstr "縮小"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Convert To Path"
+#~ msgstr "轉換為路徑"
+
+#~ msgid "Scripts"
+#~ msgstr "命令文稿"
+
+#~ msgid "Script Manager"
+#~ msgstr "文稿管理者"
+
+#~ msgid "Execute Script File..."
+#~ msgstr "執行命令文稿..."
+
+#~ msgid "Script Manager..."
+#~ msgstr "文稿管理者..."
+
+#~ msgid "Execute Script File"
+#~ msgstr "執行文稿檔案"
+
+#~ msgid "Install Script Package"
+#~ msgstr "安裝文稿套件"
+
+#~ msgid "Could not read the package \"%1\"."
+#~ msgstr "無法讀取套件 %1。"
+
+#~ msgid "The package \"%1\" does not contain a valid install.rc file."
+#~ msgstr "套件 %1 並未包含合法的 install.rc 檔。"
+
+#~ msgid "Failed to parse the install.rc file at package \"%1\"."
+#~ msgstr "剖析套件 %1 的 install.rc 檔失敗。"
+
+#~ msgid ""
+#~ "Failed to determinate location where the package \"%1\" should be "
+#~ "installed to."
+#~ msgstr "無法決定套件 %1 要安裝在哪裡。"
+
+#~ msgid ""
+#~ "A script package with the name \"%1\" already exists. Replace this "
+#~ "package?"
+#~ msgstr "名稱 %1 的文稿套件已存在。要取代嗎？"
+
+#~ msgid "Replace"
+#~ msgstr "取代"
+
+#~ msgid ""
+#~ "Could not uninstall this script package. You may not have sufficient "
+#~ "permissions to delete the folder \"%1\"."
+#~ msgstr "無法解除安裝此文稿套件。您可能沒有足夠的權限刪除資料夾 %1。"
+
+#~ msgid ""
+#~ "Could not uninstall the script package \"%1\" since the script is not "
+#~ "installed."
+#~ msgstr "無法解除安裝此文稿套件 %1，因為尚未安裝。"
+
+#~ msgid ""
+#~ "Could not uninstall the script package \"%1\". You may not have "
+#~ "sufficient permissions to delete the folder \"%1\"."
+#~ msgstr "無法解除安裝此文稿套件 %1。您可能沒有足夠的權限刪除資料夾 %1。"
+
+#~ msgid "Save"
+#~ msgstr "儲存"
+
+#~ msgid ""
+#~ "<qt>This wizard will guide you through the proccess of adding a new "
+#~ "resource to your scripts.</qt>"
+#~ msgstr "<qt>此精靈會導引您新增資源到您的文稿。</qt>"
+
+#~ msgid "Add script file"
+#~ msgstr "新增文稿檔案"
+
+#~ msgid "Add collection folder"
+#~ msgstr "新增收藏資料夾"
+
+#~ msgid "Install script package file"
+#~ msgstr "安裝文稿套件檔"
+
+#~ msgid "Install online script package"
+#~ msgstr "安裝線上文稿套件"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Script"
+#~ msgstr "命令文稿"
+
+#~ msgid "Collection"
+#~ msgstr "收藏"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change master slide"
+#~ msgstr "改變主投影片"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change master page"
+#~ msgstr "改變主頁面"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Page Layout"
+#~ msgstr "設定頁面佈局"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Display master background"
+#~ msgstr "顯示主要背景"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Display slide background"
+#~ msgstr "顯示投影片背景"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Display page background"
+#~ msgstr "顯示頁面背景"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show master shapes"
+#~ msgstr "顯示主元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Hide master shapes"
+#~ msgstr "隱藏主元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete slide"
+#~ msgid_plural "Delete slides"
+#~ msgstr[0] "刪除投影片"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete page"
+#~ msgid_plural "Delete pages"
+#~ msgstr[0] "刪除頁面"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert slide"
+#~ msgstr "插入投影片"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert page"
+#~ msgstr "插入頁面"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move slide"
+#~ msgid_plural "Move slides"
+#~ msgstr[0] "移動投影片"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move page"
+#~ msgid_plural "Move pages"
+#~ msgstr[0] "移動頁面"
+
+#~ msgid "Configure"
+#~ msgstr "設定"
+
+#~ msgid "Misc"
+#~ msgstr "雜項"
+
+#~ msgid "Grid"
+#~ msgstr "網格"
+
+#~ msgctxt "@title:tab Document settings page"
+#~ msgid "Document"
+#~ msgstr "文件"
+
+#~ msgid "Document Settings"
+#~ msgstr "文件設定"
+
+#~ msgctxt "@title:tab Author page"
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Select a master slide design:"
+#~ msgstr "選擇主投影片設計："
+
+#~ msgid "Master Slide"
+#~ msgstr "主投影片"
+
+#~ msgid "Select a master page design:"
+#~ msgstr "選擇主頁面設計："
+
+#~ msgid "Master Page"
+#~ msgstr "主頁面"
+
+#~ msgid "Slide %1"
+#~ msgstr "投影片 %1"
+
+#~ msgid "Page  %1"
+#~ msgstr "第 %1 頁"
+
+#~ msgid "Layer"
+#~ msgstr "層次"
+
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgid "Shape"
+#~ msgstr "元件"
+
+#, fuzzy
+#~| msgid "Rename Slide"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Slide"
+#~ msgstr "重新命名投影片"
+
+#, fuzzy
+#~| msgid "Rename Page"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Page"
+#~ msgstr "重新命名此頁"
+
+#, fuzzy
+#~| msgid "Rename Layer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Layer"
+#~ msgstr "重新命名層次"
+
+#~ msgid "Slide"
+#~ msgstr "投影片"
+
+#~ msgid "Visible"
+#~ msgstr "可見"
+
+#~ msgid "Locked"
+#~ msgstr "鎖定"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Reparent shapes"
+#~ msgstr "重設元件的父元件"
+
+#~ msgid "&Move Here"
+#~ msgstr "移到這裡(&M)"
+
+#~ msgid "&Copy Here"
+#~ msgstr "複製到這裡(&C)"
+
+#~ msgid "C&ancel"
+#~ msgstr "取消(&A)"
+
+#~ msgid "Document"
+#~ msgstr "文件"
+
+#~ msgid "Add a new slide or layer"
+#~ msgstr "新增投影片或層次"
+
+#~ msgid "Add a new page or layer"
+#~ msgstr "新增頁面或層次"
+
+#~ msgid "Page"
+#~ msgstr "頁面"
+
+#~ msgid "Delete selected objects"
+#~ msgstr "刪除選取的物件"
+
+#~ msgid "Raise selected objects"
+#~ msgstr "提升選取的物件"
+
+#~ msgid "Lower selected objects"
+#~ msgstr "降低選取的物件"
+
+#~ msgid "Minimal View"
+#~ msgstr "最小檢視"
+
+#~ msgid "Detailed View"
+#~ msgstr "詳細檢視"
+
+#~ msgid "Thumbnail View"
+#~ msgstr "縮圖檢視"
+
+#~ msgid "View mode"
+#~ msgstr "檢視模式"
+
+#~ msgid "Enter the name of the new layer:"
+#~ msgstr "輸入新層次的名稱："
+
+#~ msgid "New Layer"
+#~ msgstr "新階層"
+
+#~ msgid "New layer"
+#~ msgstr "新層次"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Layer"
+#~ msgstr "建立層次"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Layer"
+#~ msgstr "刪除層次"
+
+#~ msgid "Could not delete all layers. At least one layer is required."
+#~ msgstr "無法刪除所有的層次，至少要留一個。"
+
+#~ msgid "Error deleting layers"
+#~ msgstr "刪除層次發生錯誤"
+
+#~ msgid "Add a new slide"
+#~ msgstr "新增投影片"
+
+#~ msgid "Add a new page"
+#~ msgstr "新增頁面"
+
+#~ msgid "Page %1"
+#~ msgstr "第 %1 頁"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste Slide"
+#~ msgid_plural "Paste Slides"
+#~ msgstr[0] "貼上投影片"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste Page"
+#~ msgid_plural "Paste Pages"
+#~ msgstr[0] "貼上頁面"
+
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#~ msgid "D&elete"
+#~ msgstr "刪除(&E)"
+
+#~ msgid "Show Master Pages"
+#~ msgstr "顯示主頁面"
+
+#~ msgid "Show Rulers"
+#~ msgstr "顯示尺規"
+
+#~ msgid "Show/hide the view's rulers"
+#~ msgstr "顯示/隱藏檢視的尺規"
+
+#~ msgid "Insert Page"
+#~ msgstr "插入頁面"
+
+#~ msgid "Insert a new page after the current one"
+#~ msgstr "在目前頁面之後插入新頁面"
+
+#~ msgid "Copy Page"
+#~ msgstr "複製頁面"
+
+#~ msgid "Copy the current page"
+#~ msgstr "複製目前的頁面"
+
+#~ msgid "Delete Page"
+#~ msgstr "刪除頁面"
+
+#~ msgid "Delete the current page"
+#~ msgstr "刪除目前的頁面"
+
+#~ msgid "Master Page..."
+#~ msgstr "主頁面..."
+
+#~ msgid "Page Layout..."
+#~ msgstr "頁面佈局..."
+
+#~ msgid "Variable"
+#~ msgstr "變數"
+
+#~ msgid "Import Document..."
+#~ msgstr "匯入文件..."
+
+#~ msgid "Configure..."
+#~ msgstr "設定..."
+
+#~ msgid "Import Slideshow"
+#~ msgstr "匯入投影秀"
+
+#~ msgid "Import Document"
+#~ msgstr "匯入文件"
+
+#~ msgid ""
+#~ "Could not import\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法匯入\n"
+#~ "%1"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change page layout"
+#~ msgstr "改變頁面佈局"
+
+#, fuzzy
+#~| msgid "Set background image ..."
+#~ msgid "Set image ..."
+#~ msgstr "設定背景影像..."
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Set background"
+#~ msgid "Background"
+#~ msgstr "設定背景"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Set background"
+#~ msgid "Page Background"
+#~ msgstr "設定背景"
+
+#, fuzzy
+#~| msgid "Page edge:"
+#~ msgid "Page Design"
+#~ msgstr "頁面邊緣："
+
+#, fuzzy
+#~| msgid "Slide %1"
+#~ msgid "Slide Design"
+#~ msgstr "投影片 %1"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Change background image"
+#~ msgid "Use background of master page"
+#~ msgstr "變更背景影像"
+
+#, fuzzy
+#~| msgid "Set background image ..."
+#~ msgid "Use background of master slide"
+#~ msgstr "設定背景影像..."
+
+#, fuzzy
+#~| msgid "Display shapes of master"
+#~ msgid "Display shapes of master page"
+#~ msgstr "顯示主要元件"
+
+#, fuzzy
+#~| msgid "Display shapes of master"
+#~ msgid "Display shapes of master slide"
+#~ msgstr "顯示主要元件"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Change background image"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change slide background image"
+#~ msgstr "變更背景影像"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Change background image"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change page background image"
+#~ msgstr "變更背景影像"
+
+#, fuzzy
+#~| msgid "Master Slide"
+#~ msgid "Master Slide %1/%2"
+#~ msgstr "主投影片"
+
+#, fuzzy
+#~| msgid "Slide %1"
+#~ msgid "Slide %1/%2"
+#~ msgstr "投影片 %1"
+
+#, fuzzy
+#~| msgid "Master Page"
+#~ msgid "Master Page %1/%2"
+#~ msgstr "主頁面"
+
+#, fuzzy
+#~| msgid "Page %1"
+#~ msgid "Page %1/%2"
+#~ msgstr "頁面"
+
+#, fuzzy
+#~| msgid "Check"
+#~ msgid "Check Box"
+#~ msgstr "勾選"
+
+#~ msgid "Field"
+#~ msgstr "欄位"
+
+#~ msgid "Label"
+#~ msgstr "標籤"
+
+#~ msgctxt "<data-source>: <object>"
+#~ msgid "%1: %2"
+#~ msgstr "%1: %2"
+
+#~ msgid "Section Editor"
+#~ msgstr "區段編輯器"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change List"
+#~ msgstr "變更列表"
+
+#, fuzzy
+#~| msgid "Change Filetype"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Styles"
+#~ msgstr "改變檔案類型"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Key Press"
+#~ msgstr "按鍵"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Column"
+#~ msgstr "刪除欄"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Row"
+#~ msgstr "刪除列"
+
+#, fuzzy
+#~| msgid "Insert Footnote"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Footnote"
+#~ msgstr "插入註腳"
+
+#, fuzzy
+#~| msgid "Insert Endnote"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Endnote"
+#~ msgstr "插入尾註"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Column Right"
+#~ msgstr "在右方插入欄"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Column Left"
+#~ msgstr "在左方插入欄"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Row Below"
+#~ msgstr "在下方插入列"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Row Above"
+#~ msgstr "在上方插入列"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change List Numbering"
+#~ msgstr "變更列表編號"
+
+#, fuzzy
+#~| msgid "Format"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Formatting"
+#~ msgstr "格式"
+
+#, fuzzy
+#~| msgid "Set Paragraph Style"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Direct Paragraph Formatting"
+#~ msgstr "設定段落樣式"
+
+#, fuzzy
+#~| msgid "Rename Shape"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Section"
+#~ msgstr "重新命名元件"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Adjust Column Width"
+#~ msgstr "調整欄寬"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Adjust Row Height"
+#~ msgstr "調整列高"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste As Text"
+#~ msgstr "貼上為純文字"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste"
+#~ msgstr "貼上"
+
+#~ msgid "Index Reference"
+#~ msgstr "索引參考"
+
+#~ msgid "Text Reference"
+#~ msgstr "文字參考"
+
+#~ msgid "Please create an index to reference first."
+#~ msgstr "請先建立您要參考的索引。"
+
+#~ msgid "Select the index you want to reference"
+#~ msgstr "選擇您要參考的索引"
+
+#~ msgid "Found 1 match"
+#~ msgid_plural "Found %1 matches"
+#~ msgstr[0] "找到 %1 筆符合"
+
+#~ msgid "Found no match"
+#~ msgstr "找不到符合的"
+
+#~ msgid ""
+#~ "Found no match\n"
+#~ "\n"
+#~ "No text was replaced"
+#~ msgstr ""
+#~ "找不到符合的\n"
+#~ "\n"
+#~ "所以沒有取代任何文字"
+
+#~ msgid "1 replacement made"
+#~ msgid_plural "%1 replacements made"
+#~ msgstr[0] "取代了 %1 個地方"
+
+#~ msgid "Replace %1 with %2?"
+#~ msgstr "要用 %2 取代 %1 嗎？"
+
+#, fuzzy
+#~| msgid "Group Sections"
+#~ msgctxt "new numbered section name"
+#~ msgid "New section %1"
+#~ msgstr "群組選擇"
+
+#~ msgctxt "Underline Style"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgctxt "Underline Style"
+#~ msgid "Single"
+#~ msgstr "單行"
+
+#~ msgctxt "Underline Style"
+#~ msgid "Double"
+#~ msgstr "雙行"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "New Paragraph"
+#~ msgstr "新段落"
+
+#, fuzzy
+#~| msgid "Add Bookmark"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Add Bookmark"
+#~ msgstr "加入書籤"
+
+#, fuzzy
+#~| msgid "Add Citation"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Add Annotation"
+#~ msgstr "新增引用"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Index"
+#~ msgstr "插入索引"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Variable"
+#~ msgstr "插入變數"
+
+#, fuzzy
+#~| msgid "Key Press"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Key Press"
+#~ msgstr "按鍵"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Break"
+#~ msgstr "插入中斷點"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Table"
+#~ msgstr "插入表格"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Merge Cells"
+#~ msgstr "合併儲存格"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Split Cells"
+#~ msgstr "分割儲存格"
+
+#, fuzzy
+#~| msgid "Fit Page Width"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Adjust Table Width"
+#~ msgstr "配合頁面寬度"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Border Formatting"
+#~ msgstr "變更邊框格式"
+
+#, fuzzy
+#~| msgid "Insert Table Of Contents"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Table Of Contents"
+#~ msgstr "插入目次"
+
+#, fuzzy
+#~| msgid "Modify Table Of Contents"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Modify Table Of Contents"
+#~ msgstr "變更目次"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Bibliography"
+#~ msgstr "插入參考書目"
+
+#, fuzzy
+#~| msgid "Add Citation"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Add Citation"
+#~ msgstr "新增引用"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Typing"
+#~ msgstr "輸入中"
+
+#, fuzzy
+#~| msgid "Bold"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Bold"
+#~ msgstr "粗體"
+
+#, fuzzy
+#~| msgid "Italic"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Italic"
+#~ msgstr "斜體"
+
+#, fuzzy
+#~| msgid "Underline"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Underline"
+#~ msgstr "底線"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Strike Out"
+#~ msgstr "刪除線"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Change Segment"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Alignment"
+#~ msgstr "變更段落"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Vertical Alignment"
+#~ msgstr "設定垂直對齊"
+
+#, fuzzy
+#~| msgid "Decrease Indent"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Decrease Indent"
+#~ msgstr "遞減縮排"
+
+#, fuzzy
+#~| msgid "Increase Indent"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Increase Indent"
+#~ msgstr "遞增縮排"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Decrease font size"
+#~ msgstr "字型變小"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Increase font size"
+#~ msgstr "字型變大"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Font"
+#~ msgstr "設定字型"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Font Size"
+#~ msgstr "設定字型大小"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Background Color"
+#~ msgstr "設定背景顏色"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Text Color"
+#~ msgstr "設定文字顏色"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Character Style"
+#~ msgstr "設定字元樣式"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Paragraph Style"
+#~ msgstr "設定段落樣式"
+
+#, fuzzy
+#~| msgid "Format"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgctxt "Default text for undo action"
+#~ msgid "Undo"
+#~ msgstr "復原"
+
+#~ msgid "Undo %1"
+#~ msgstr "復原 %1"
+
+#~ msgctxt "Default text for redo action"
+#~ msgid "Redo"
+#~ msgstr "重做"
+
+#~ msgid "Redo %1"
+#~ msgstr "重做 %1"
+
+#, fuzzy
+#~| msgid "Empty"
+#~ msgid "<empty>"
+#~ msgstr "空白"
+
+#~ msgid "Redo"
+#~ msgstr "重做"
+
+#~ msgid "Undo"
+#~ msgstr "復原"
+
+#~ msgid "&File"
+#~ msgstr "檔案(&F)"
+
+#~ msgid "&Settings"
+#~ msgstr "設定(&S)"
+
+#~ msgid "File"
+#~ msgstr "檔案"
+
+#, fuzzy
+#~| msgid "Delete the current page"
+#~ msgid "Delete the author profile"
+#~ msgstr "刪除目前的頁面"
+
+#, fuzzy
+#~| msgid "name of the output file"
+#~ msgid "Name of Profile"
+#~ msgstr "輸出檔名稱"
+
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgid "Initials:"
+#~ msgstr "縮寫："
+
+#~ msgid "Title:"
+#~ msgstr "標題："
+
+#~ msgid "Position:"
+#~ msgstr "位置："
+
+#~ msgid "Company:"
+#~ msgstr "公司："
+
+#~ msgid "Email:"
+#~ msgstr "電子郵件："
+
+#~ msgid "Telephone (home):"
+#~ msgstr "電話（住家）："
+
+#~ msgid "Telephone (work):"
+#~ msgstr "電話（工作）："
+
+#~ msgid "Fax:"
+#~ msgstr "傳真："
+
+#~ msgid "Street:"
+#~ msgstr "街："
+
+#~ msgid "City:"
+#~ msgstr "城市："
+
+#~ msgid "Country:"
+#~ msgstr "國家："
+
+#~ msgid "No autosave"
+#~ msgstr "不自動儲存"
+
+#, fuzzy
+#~ msgctxt "unit symbol for minutes, leading space as separator"
+#~ msgid " min"
+#~ msgstr " 分鐘"
+
+#~ msgid "Autosave interval:"
+#~ msgstr "自動儲存間隔："
+
+#, fuzzy
+#~| msgid "Create backup file"
+#~ msgid "Create backup file:"
+#~ msgstr "建立備份檔"
+
+#~ msgid "Show grid:"
+#~ msgstr "顯示格線："
+
+#~ msgid "Snap to grid:"
+#~ msgstr "貼齊格線："
+
+#~ msgid "Grid color:"
+#~ msgstr "格子顏色："
+
+#~ msgid "Spacing"
+#~ msgstr "間隔"
+
+#~ msgctxt "Horizontal grid spacing"
+#~ msgid "&Horizontal:"
+#~ msgstr "水平(&H)："
+
+#~ msgctxt "Vertical grid spacing"
+#~ msgid "&Vertical:"
+#~ msgstr "垂直(&V)："
+
+#~ msgid "Units:"
+#~ msgstr "單位："
+
+#~ msgid "Handle radius:"
+#~ msgstr "握把半徑："
+
+#~ msgid "Grab sensitivity:"
+#~ msgstr "擷取靈敏度："
+
+#~ msgid "Paste offset:"
+#~ msgstr "貼上位移："
+
+#, fuzzy
+#~| msgid "Paste at Cursor"
+#~ msgid "Paste at Cursor:"
+#~ msgstr "在游標處貼上"
+
+#~ msgid "Only print and exit"
+#~ msgstr "只做列印然後離開"
+
+#~ msgid "Open a new document with a template"
+#~ msgstr "使用樣本開啟新文件"
+
+#~ msgid "Override display DPI"
+#~ msgstr "覆蓋顯示的 DPI"
+
+#~ msgid "Only export to PDF and exit"
+#~ msgstr "只匯出到 PDF 然後離開"
+
+#~ msgid "Filename for export-pdf"
+#~ msgstr "要匯出成 pdf 的檔名"
+
+#~ msgid "just load the file and then exit"
+#~ msgstr "只載入檔案就離開"
+
+#~ msgid "load the file, show the window and progressbar and then exit"
+#~ msgstr "載入檔案，顯示視窗與進度列，然後離開"
+
+#~ msgid "Filename to write profiling information into."
+#~ msgstr "要寫入設定資訊的檔名。"
+
+#~ msgid "Load a file and save it as an ODF file. Meant for debugging."
+#~ msgstr "載入檔案，並將它存成 ODF 檔。主要為除錯用。"
+
+#~ msgid "Calligra"
+#~ msgstr "Calligra"
+
+#, fuzzy
+#~| msgid "Creation error"
+#~ msgid "%1: Critical Error"
+#~ msgstr "建立錯誤"
+
+#~ msgid "No template found for: %1"
+#~ msgstr "找不到 %1 的樣本"
+
+#~ msgid "Too many templates found for: %1"
+#~ msgstr "找到太多 %1 的樣本"
+
+#~ msgid "Template %1 failed to load."
+#~ msgstr "樣本 %1 載入失敗。"
+
+#~ msgid "Always use this template at application start up"
+#~ msgstr "在應用程式啟動時永遠使用此樣本"
+
+#~ msgid "Always use this template"
+#~ msgstr "永遠使用此樣本"
+
+#~ msgid "Making backup..."
+#~ msgstr "產生備份中..."
+
+#~ msgid "Saving..."
+#~ msgstr "儲存中..."
+
+#~ msgid ""
+#~ "Could not save\n"
+#~ "%1"
+#~ msgstr "無法儲存 %1"
+
+#~ msgid ""
+#~ "Could not save %1\n"
+#~ "Reason: %2"
+#~ msgstr ""
+#~ "無法儲存 %1\n"
+#~ "原因： %2"
+
+#~ msgid "Document <i>%1</i> saved"
+#~ msgstr "文件 <i>%1</i> 已儲存"
+
+#~ msgid ""
+#~ "The password of this encrypted document is not known. Autosave aborted! "
+#~ "Please save your work manually."
+#~ msgstr "此加密文件的密碼未知。自動儲存將中止！請手動儲存您的工作。"
+
+#~ msgid "Autosaving..."
+#~ msgstr "自動儲存中..."
+
+#~ msgid "Error during autosave! Partition full?"
+#~ msgstr "自動儲存時發生錯誤。硬碟分割區滿了嗎？"
+
+#~ msgid "Could not create the file for saving"
+#~ msgstr "無法建立檔案以儲存"
+
+#~ msgid "Not able to write '%1'. Partition full?"
+#~ msgstr "無法寫入 %1。磁碟分割區滿了嗎？"
+
+#~ msgid "Not able to write RDF metadata. Partition full?"
+#~ msgstr "無法寫入 RDF 中繼資料。磁碟分割區滿了嗎？"
+
+#~ msgid "Error while trying to write '%1'. Partition full?"
+#~ msgstr "寫入 %1 時發生錯誤。磁碟分割區滿了嗎？"
+
+#~ msgid ""
+#~ "Malformed URL\n"
+#~ "%1"
+#~ msgstr ""
+#~ "錯誤的網址\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "An autosaved file exists for this document.\n"
+#~ "Do you want to open it instead?"
+#~ msgstr ""
+#~ "此文件中含有自動儲存的檔案。\n"
+#~ "您要開啟它來取代這個文件嗎？"
+
+#~ msgid "The file %1 does not exist."
+#~ msgstr "檔案 %1 不存在。"
+
+#, fuzzy
+#~| msgid "Open Document"
+#~ msgid "Opening Document"
+#~ msgstr "開啟文件"
+
+#, fuzzy
+#~| msgid "Could not create the file for saving"
+#~ msgid "Could not create the filter plugin"
+#~ msgstr "無法建立檔案以儲存"
+
+#~ msgid "File not found"
+#~ msgstr "找不到檔案"
+
+#~ msgid "Cannot create storage"
+#~ msgstr "無法建立儲存"
+
+#~ msgid "Bad MIME type"
+#~ msgstr "錯誤的 MIME 型態"
+
+#~ msgid "Format not recognized"
+#~ msgstr "格式無法辨認"
+
+#~ msgid "Not implemented"
+#~ msgstr "尚未實作"
+
+#~ msgid "Parsing error"
+#~ msgstr "剖析錯誤"
+
+#~ msgid "Document is password protected"
+#~ msgstr "文件以密碼保護"
+
+#~ msgid "Invalid file format"
+#~ msgstr "無效的檔案格式"
+
+#~ msgid "Internal error"
+#~ msgstr "內部錯誤"
+
+#~ msgid "Out of memory"
+#~ msgstr "記憶體不足"
+
+#~ msgid "Unknown error"
+#~ msgstr "未知的錯誤"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open\n"
+#~| "%2.\n"
+#~| "Reason: %1"
+#~ msgid ""
+#~ "Could not open %2.\n"
+#~ "Reason: %1.\n"
+#~ "%3"
+#~ msgstr ""
+#~ "無法開啟 %2。\n"
+#~ "原因：%1"
+
+#~ msgid "Document <i>%1</i> loaded"
+#~ msgstr "文件 <i>%1</i> 已載入"
+
+#~ msgid "Could not find %1"
+#~ msgstr "找不到 %1"
+
+#~ msgid ""
+#~ "Parsing error in %1 at line %2, column %3\n"
+#~ "Error message: %4"
+#~ msgstr ""
+#~ "剖析錯誤於 %1 中的第 %2 行，第 %3 個位置\n"
+#~ "錯誤訊息：%4"
+
+#~ msgid "%1 is not a file."
+#~ msgstr "%1 不是檔案"
+
+#~ msgid "Could not open the file for reading (check read permissions)."
+#~ msgstr "無法開啟檔案以讀取（請檢查讀取權限）。"
+
+#~ msgid "Could not read the beginning of the file."
+#~ msgstr "無法讀取檔案的開頭。"
+
+#~ msgid ""
+#~ "parsing error in the main document at line %1, column %2\n"
+#~ "Error message: %3"
+#~ msgstr ""
+#~ "剖析錯誤於主文件第 %1 行，第 %2 個位置。\n"
+#~ "錯誤訊息：%3"
+
+#~ msgid "Not a valid Calligra file: %1"
+#~ msgstr "不是合法的 Calligra 檔案：%1"
+
+#~ msgid "Invalid document: no file 'maindoc.xml'."
+#~ msgstr "不合法的文件：沒有檔案 maindoc.xml。"
+
+#~ msgid ""
+#~ "Document <i>%1</i> contains several versions. Go to File->Versions to "
+#~ "open an old version."
+#~ msgstr ""
+#~ "文件 <i>%1</i> 包含了幾個版本。請到「檔案」─「版本」中去開啟舊的版本。"
+
+#~ msgid "Untitled"
+#~ msgstr "未命名"
+
+#~ msgid ""
+#~ "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save "
+#~ "it?</p>"
+#~ msgstr "<p>文件 <b>%1</b> 已被修改。</p><p>您是否要儲存？</p>"
+
+#~ msgid "Internal error: saveXML not implemented"
+#~ msgstr "內部錯誤：沒有實作 saveXML"
+
+#~ msgid ""
+#~ "Could not open\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法開啟\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Could not open %1\n"
+#~ "Reason: %2"
+#~ msgstr ""
+#~ "無法開啟 %1\n"
+#~ "原因： %2"
+
+#~ msgid "a word processing"
+#~ msgstr "文字處理"
+
+#~ msgid "a spreadsheet"
+#~ msgstr "試算表"
+
+#~ msgid "a presentation"
+#~ msgstr "簡報文件"
+
+#~ msgid "a chart"
+#~ msgstr "流程圖"
+
+#~ msgid "a drawing"
+#~ msgstr "繪圖"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save "
+#~| "it?</p>"
+#~ msgid ""
+#~ "The document \"%1\" has been modified.\n"
+#~ "Do you want to save your changes or discard them?"
+#~ msgstr "<p>文件 <b>%1</b> 已被修改。</p><p>您是否要儲存？</p>"
+
+#, fuzzy
+#~| msgid "Custom Document"
+#~ msgid "Close Document"
+#~ msgstr "自訂文件"
+
+#~ msgid "%1 %"
+#~ msgstr "%1 %"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "Could not export file."
+#~ msgstr "無法匯出檔案。"
+
+#~ msgid "Missing Export Filter"
+#~ msgstr "遺失匯出過濾器"
+
+#~ msgid ""
+#~ "Could not import file of type\n"
+#~ "%1"
+#~ msgstr "無法匯入此類型的檔案：%1"
+
+#~ msgid "Missing Import Filter"
+#~ msgstr "遺失匯入過濾器"
+
+#~ msgid "Choose Filter"
+#~ msgstr "選擇過濾器"
+
+#~ msgid "Case Sensitive"
+#~ msgstr "區分大小寫"
+
+#~ msgid "Match cases when searching"
+#~ msgstr "搜尋時要符合大小寫"
+
+#~ msgid "Match only whole words"
+#~ msgstr "必須符合整個單字"
+
+#~ msgid "Whole Words Only"
+#~ msgstr "必須符合整個單字"
+
+#, fuzzy
+#~| msgctxt "Mouse Cursor Shape"
+#~| msgid "No Cursor"
+#~ msgid "Find from Cursor"
+#~ msgstr "沒有游標"
+
+#~ msgctxt "Label for the Find text input box"
+#~ msgid "Find:"
+#~ msgstr "尋找："
+
+#~ msgctxt "Next search result"
+#~ msgid "Next"
+#~ msgstr "下一個"
+
+#~ msgctxt "Previous search result"
+#~ msgid "Previous"
+#~ msgstr "前一個"
+
+#~ msgctxt "Search options"
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgctxt "Label for the Replace text input box"
+#~ msgid "Replace:"
+#~ msgstr "取代："
+
+#~ msgctxt "Replace the current match"
+#~ msgid "Replace"
+#~ msgstr "取代"
+
+#~ msgctxt "Replace all found matches"
+#~ msgid "Replace All"
+#~ msgstr "全部取代"
+
+#~ msgctxt "Total number of matches"
+#~ msgid "1 match found"
+#~ msgid_plural "%1 matches found"
+#~ msgstr[0] "找到了 %1 個相符項目"
+
+#~ msgid "No matches found"
+#~ msgstr "找不到符合的。"
+
+#~ msgid "Search hit bottom, continuing from top."
+#~ msgstr "搜尋到底部了，從頂端繼續搜尋。"
+
+#~ msgid "Search hit top, continuing from bottom."
+#~ msgstr "搜尋到頂端了，從底部繼續搜尋。"
+
+#~ msgid "%1 unsaved document (%2)"
+#~ msgstr "%1 未儲存的文件（%2）"
+
+#~ msgid "Export as PDF..."
+#~ msgstr "匯出為 PDF 檔..."
+
+#~ msgid "Reload"
+#~ msgstr "重新載入"
+
+#~ msgid "Versions..."
+#~ msgstr "版本..."
+
+#~ msgid "E&xport..."
+#~ msgstr "匯出(&X)..."
+
+#, fuzzy
+#~| msgid "Import Document"
+#~ msgid "En&crypt Document"
+#~ msgstr "匯入文件"
+
+#~ msgid "&New View"
+#~ msgstr "新增檢視(&N)"
+
+#~ msgid "Document Information"
+#~ msgstr "文件資訊"
+
+#~ msgid "Full Screen Mode"
+#~ msgstr "全螢幕模式"
+
+#~ msgid "Show Dockers"
+#~ msgstr "顯示嵌入器"
+
+#, fuzzy
+#~| msgid "Show Dockers"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show Docker Titlebars"
+#~ msgstr "顯示嵌入器"
+
+#~ msgid "Dockers"
+#~ msgstr "嵌入元件"
+
+#~ msgid "(write protected)"
+#~ msgstr "（寫入保護）"
+
+#~ msgid "Save as %1"
+#~ msgstr "另存為 %1"
+
+#~ msgid "%1 (unknown file type)"
+#~ msgstr "%1（未知檔案型態）"
+
+#~ msgid ""
+#~ "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
+#~ "want to save in this format?</qt>"
+#~ msgstr ""
+#~ "<qt>儲存為 %1 可能導致一些格式遺失。<p>您還是要以這個格式儲存嗎？</qt>"
+
+#~ msgid "Confirm Save"
+#~ msgstr "確認儲存"
+
+#~ msgid ""
+#~ "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you "
+#~ "still want to export to this format?</qt>"
+#~ msgstr ""
+#~ "<qt>匯出為 %1 可能導致一些格式遺失。<p>您還是要以這個格式匯出嗎？</qt>"
+
+#~ msgid "Confirm Export"
+#~ msgstr "確認匯出"
+
+#, fuzzy
+#~| msgid "Untitled"
+#~ msgid "untitled"
+#~ msgstr "未命名"
+
+#~ msgid "Open Document"
+#~ msgstr "開啟文件"
+
+#, fuzzy
+#~| msgid "Export as PDF..."
+#~ msgid "Export as PDF"
+#~ msgstr "匯出為 PDF 檔..."
+
+#~ msgid "Document - %1"
+#~ msgstr "文件 - %1"
+
+#~ msgid ""
+#~ "You will lose all changes made since your last save\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "您將遺失上次儲存後所有的變更！\n"
+#~ "您要繼續嗎？"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid "Show %1 Toolbar"
+#~ msgstr "顯示 %1 工具列"
+
+#~ msgid "Hide %1 Toolbar"
+#~ msgstr "隱藏 %1 工具列"
+
+#, fuzzy
+#~| msgid "Open This Document"
+#~ msgid "Open Existing Document"
+#~ msgstr "開啟此文件"
+
+#~ msgid "Recent Documents"
+#~ msgstr "最近的文件"
+
+#~ msgid "Custom Document"
+#~ msgstr "自訂文件"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#, fuzzy
+#~| msgid "Printing done"
+#~ msgid "Printing"
+#~ msgstr "列印完成"
+
+#~ msgid "Printing done"
+#~ msgstr "列印完成"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Stopped"
+#~ msgstr "已停止"
+
+#~ msgid "Open This Document"
+#~ msgstr "開啟此文件"
+
+#~ msgctxt "File modification date and time. %1 is date time"
+#~ msgid "<tr><td><b>Modified:</b></td><td>%1</td></tr>"
+#~ msgstr "<tr><td><b>修改時間：</b></td><td>%1</td></tr>"
+
+#~ msgctxt "File access date and time. %1 is date time"
+#~ msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
+#~ msgstr "<tr><td><b>存取時間：</b></td><td>%1</td></tr>"
+
+#~ msgid "Show Guides"
+#~ msgstr "顯示導線"
+
+#~ msgid "Shows or hides guides"
+#~ msgstr "顯示或隱藏導線"
+
+#~ msgid "Create Template"
+#~ msgstr "建立範本"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "Template name"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgid "Group:"
+#~ msgstr "群組："
+
+#~ msgid "&Add Group..."
+#~ msgstr "新增群組(&A)..."
+
+#~ msgid "&Remove"
+#~ msgstr "移除(&R)"
+
+#~ msgid "Picture"
+#~ msgstr "圖片"
+
+#~ msgid "&Preview"
+#~ msgstr "預覽(&P)"
+
+#~ msgid "Custom:"
+#~ msgstr "自訂："
+
+#~ msgid "&Select..."
+#~ msgstr "選取(&S)..."
+
+#~ msgid "Use the new template as default"
+#~ msgstr "使用新樣本做為預設"
+
+#~ msgid "Use the new template every time %1 starts"
+#~ msgstr "每次啟動 %1 時均使用此新樣本"
+
+#~ msgid "Do you really want to overwrite the existing '%1' template?"
+#~ msgstr "您確定要覆寫現有的樣本 %1 嗎？"
+
+#~ msgid "Add Group"
+#~ msgstr "新增群組"
+
+#~ msgid "Enter group name:"
+#~ msgstr "輸入群組名稱："
+
+#~ msgid "This name is already used."
+#~ msgstr "這個名稱已經被使用。"
+
+#~ msgid "Do you really want to remove that group?"
+#~ msgstr "您確定要移除該群組？"
+
+#~ msgid "Remove Group"
+#~ msgstr "移除群組"
+
+#~ msgid "Do you really want to remove that template?"
+#~ msgstr "您確定要移除該樣本？"
+
+#~ msgid "Remove Template"
+#~ msgstr "移除樣本"
+
+#~ msgid "&Delete"
+#~ msgstr "刪除(&D)"
+
+#~ msgid "Could not load picture."
+#~ msgstr "無法載入圖片。"
+
+#~ msgid "No picture available."
+#~ msgstr "沒有可用的圖片。"
+
+#~ msgid "Use This Template"
+#~ msgstr "使用此樣本"
+
+#~ msgid "Version"
+#~ msgstr "版本"
+
+#~ msgid "Date & Time"
+#~ msgstr "日期與時間"
+
+#~ msgid "Saved By"
+#~ msgstr "已儲存，由"
+
+#~ msgid "Comment"
+#~ msgstr "備註"
+
+#~ msgid "&Add"
+#~ msgstr "新增(&A)"
+
+#~ msgid "&Modify"
+#~ msgstr "修改(&M)"
+
+#~ msgid "&Open"
+#~ msgstr "開啟(&O)"
+
+#~ msgid "A new version could not be added"
+#~ msgstr "無法新增新版本"
+
+#~ msgid "Date: %1"
+#~ msgstr "日期：%1"
+
+#, fuzzy
+#~| msgid "Active tool: %1"
+#~ msgid "Active Author Profile"
+#~ msgstr "使用工具：%1"
+
+#~ msgctxt "choice for author profile"
+#~ msgid "Anonymous"
+#~ msgstr "匿名"
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid ""
+#~ "This document contains an unknown checksum. When you give a password it "
+#~ "might not be verified."
+#~ msgstr "文件的檢查碼不正確。當您輸入密碼時，有可能無法檢查。"
+
+#~ msgid ""
+#~ "This document contains an unknown encryption method. Some parts may be "
+#~ "unreadable."
+#~ msgstr "此文件的加密方法未知。有些部份可能無法讀取。"
+
+#~ msgid ""
+#~ "This document contains incomplete encryption data. Some parts may be "
+#~ "unreadable."
+#~ msgstr "此文件包含不完整的加密資料。有些部份可能無法讀取。"
+
+#~ msgid ""
+#~ "QCA has currently no support for SHA1 or PBKDF2 using SHA1. The document "
+#~ "can not be opened."
+#~ msgstr "QCA 目前不支援 SHA1 或 使用 SHA1 的 PBKDF2。此文件無法被開啟。"
+
+#~ msgid ""
+#~ "The manifest file seems to be corrupted. It cannot be modified and the "
+#~ "document will remain unreadable. Please try and save the document again "
+#~ "to prevent losing your work."
+#~ msgstr ""
+#~ "清單檔似乎已損毀。文件無法被變更，可能會造成文件無法讀取。請試著再次儲存檔"
+#~ "案，以避免您的辛苦成果流失。"
+
+#~ msgid ""
+#~ "The manifest file cannot be written. The document will remain unreadable. "
+#~ "Please try and save the document again to prevent losing your work."
+#~ msgstr ""
+#~ "清單檔無法被寫入，可能會造成文件無法讀取。請試著再次儲存檔案，以避免您的辛"
+#~ "苦成果流失。"
+
+#~ msgid "Please enter the password to open this file."
+#~ msgstr "請輸入密碼以開啟此檔。"
+
+#~ msgid "Please enter the password to encrypt the document with."
+#~ msgstr "請輸入此文件的加密密碼。"
+
+#~ msgid "Do you want to save the password?"
+#~ msgstr "您確定要儲存密碼嗎？"
+
+#~ msgid "No store backend"
+#~ msgstr "沒有儲存後端介面"
+
+#~ msgid ""
+#~ "Parsing error in the main document at line %1, column %2\n"
+#~ "Error message: %3"
+#~ msgstr ""
+#~ "主文件剖析錯誤於行 %1，位置 %2。\n"
+#~ "錯誤訊息：%3"
+
+#~ msgctxt "Page size"
+#~ msgid "Screen"
+#~ msgstr "螢幕"
+
+#~ msgid "The directory mode is not supported for remote locations."
+#~ msgstr "目錄模式不支援遠端位置。"
+
+#~ msgid "Calligra Storage"
+#~ msgstr "Calligra 儲存"
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "Subtract"
+#~ msgstr "相減"
+
+#~ msgid "Multiply"
+#~ msgstr "乘"
+
+#~ msgid "Alpha mask"
+#~ msgstr "Alpha 遮罩"
+
+#~ msgid "Alpha"
+#~ msgstr "Alpha"
+
+#~ msgid "Undefined operation in the alpha color space"
+#~ msgstr "在 alpha 色彩空間中未定義的操作"
+
+#~ msgid "L*a*b* (16-bit integer/channel, unmanaged)"
+#~ msgstr "L*a*b（16 位元整數/色頻，未管理）"
+
+#~ msgid "Lightness"
+#~ msgstr "亮度"
+
+#~ msgid "a*"
+#~ msgstr "a*"
+
+#~ msgid "b*"
+#~ msgstr "b*"
+
+#~ msgid "RGB (16-bit integer/channel, unmanaged)"
+#~ msgstr "RGB（16 位元整數/色頻，未管理）"
+
+#~ msgid "RGB (8-bit integer/channel, unmanaged)"
+#~ msgstr "RGB（8 位元整數/色頻，未管理）"
+
+#~ msgid "Blue"
+#~ msgstr "藍"
+
+#~ msgid "Green"
+#~ msgstr "綠"
+
+#~ msgid "Red"
+#~ msgstr "紅"
+
+#~ msgid "Undefined operation in the %1 space"
+#~ msgstr "在 %1 空間中未定義的操作"
+
+#~ msgid "Undefined operation in the %1 color space"
+#~ msgstr "在 %1 色彩空間中未定義的操作"
+
+#~ msgid "Simple Color Conversion Engine"
+#~ msgstr "簡單色彩轉換引擎"
+
+#~ msgid "Alpha darken"
+#~ msgstr "Alpha 變暗"
+
+#~ msgid "Dissolve"
+#~ msgstr "溶解"
+
+#~ msgid "Erase"
+#~ msgstr "擦除"
+
+#~ msgid "Normal"
+#~ msgstr "一般"
+
+#~ msgid "Overlay"
+#~ msgstr "輪廓"
+
+#~ msgid "Grain Merge"
+#~ msgstr "微量合併"
+
+#~ msgid "Grain Extract"
+#~ msgstr "微量展開"
+
+#~ msgid "Hard Mix"
+#~ msgstr "強力混合"
+
+#~ msgid "Geometric Mean"
+#~ msgstr "幾何平均"
+
+#~ msgid "Parallel"
+#~ msgstr "平行線"
+
+#~ msgid "Allanon"
+#~ msgstr "亞拉農"
+
+#~ msgid "Color Dodge"
+#~ msgstr "顏色減淡"
+
+#~ msgid "Linear Dodge"
+#~ msgstr "線性減淡"
+
+#~ msgid "Lighten"
+#~ msgstr "變淺"
+
+#~ msgid "Hard Light"
+#~ msgstr "強光"
+
+#, fuzzy
+#~| msgid "Soft Light"
+#~ msgid "Soft Light (SVG)"
+#~ msgstr "柔光"
+
+#, fuzzy
+#~| msgid "Soft Light"
+#~ msgid "Soft Light (Photoshop)"
+#~ msgstr "柔光"
+
+#~ msgid "Gamma Light"
+#~ msgstr "Gamma 光"
+
+#~ msgid "Vivid Light"
+#~ msgstr "強烈光"
+
+#~ msgid "Pin Light"
+#~ msgstr "金屬光"
+
+#~ msgid "Linear Light"
+#~ msgstr "線性光"
+
+#~ msgid "Color Burn"
+#~ msgstr "顏色燃燒"
+
+#~ msgid "Linear Burn"
+#~ msgstr "線性燃燒"
+
+#~ msgid "Darken"
+#~ msgstr "變深"
+
+#~ msgid "Gamma Dark"
+#~ msgstr "Gamma 暗"
+
+#~ msgid "Addition"
+#~ msgstr "加"
+
+#~ msgid "Inversed-Subtract"
+#~ msgstr "反相減"
+
+#~ msgid "Divide"
+#~ msgstr "除"
+
+#~ msgid "Arcus Tangent"
+#~ msgstr "反正切"
+
+#~ msgid "Difference"
+#~ msgstr "差異處"
+
+#~ msgid "Exclusion"
+#~ msgstr "排除"
+
+#~ msgid "Equivalence"
+#~ msgstr "等值"
+
+#, fuzzy
+#~| msgid "Additive-Substractive"
+#~ msgid "Additive-Subtractive"
+#~ msgstr "Additive-Substractive"
+
+#~ msgid "Copy Red"
+#~ msgstr "複製紅"
+
+#~ msgid "Copy Green"
+#~ msgstr "複製綠"
+
+#~ msgid "Copy Blue"
+#~ msgstr "複製藍"
+
+#~ msgid "Color"
+#~ msgstr "顏色"
+
+#~ msgid "Hue"
+#~ msgstr "色調"
+
+#~ msgid "Saturation"
+#~ msgstr "彩度"
+
+#~ msgid "Increase Saturation"
+#~ msgstr "遞增彩度"
+
+#~ msgid "Decrease Saturation"
+#~ msgstr "遞減彩度"
+
+#~ msgid "Luminosity"
+#~ msgstr "明亮度"
+
+#~ msgid "Increase Luminosity"
+#~ msgstr "遞增明亮度"
+
+#~ msgid "Decrease Luminosity"
+#~ msgstr "遞減明亮度"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Darker Color"
+#~ msgstr "背景顏色"
+
+#, fuzzy
+#~| msgid "Line Color"
+#~ msgid "Lighter Color"
+#~ msgstr "線條顏色"
+
+#~ msgid "Color HSI"
+#~ msgstr "顏色 HSI"
+
+#~ msgid "Hue HSI"
+#~ msgstr "色調 HSI"
+
+#~ msgid "Saturation HSI"
+#~ msgstr "彩度 HSI"
+
+#~ msgid "Increase Saturation HSI"
+#~ msgstr "遞增彩度 HSI"
+
+#~ msgid "Decrease Saturation HSI"
+#~ msgstr "遞減彩度 HSI"
+
+#~ msgid "Intensity"
+#~ msgstr "強度"
+
+#~ msgid "Increase Intensity"
+#~ msgstr "遞增強度"
+
+#~ msgid "Decrease Intensity"
+#~ msgstr "遞減強度"
+
+#~ msgid "Color HSL"
+#~ msgstr "顏色 HSL"
+
+#~ msgid "Hue HSL"
+#~ msgstr "色調 HSL"
+
+#~ msgid "Saturation HSL"
+#~ msgstr "彩度 HSL"
+
+#~ msgid "Increase Saturation HSL"
+#~ msgstr "遞增彩度 HSL"
+
+#~ msgid "Decrease Saturation HSL"
+#~ msgstr "遞減彩度 HSL"
+
+#~ msgid "Increase Lightness"
+#~ msgstr "遞增亮度"
+
+#~ msgid "Decrease Lightness"
+#~ msgstr "遞減亮度"
+
+#~ msgid "Color HSV"
+#~ msgstr "顏色 HSV"
+
+#~ msgid "Hue HSV"
+#~ msgstr "色調 HSV"
+
+#~ msgid "Saturation HSV"
+#~ msgstr "彩度 HSV"
+
+#~ msgid "Increase Saturation HSV"
+#~ msgstr "遞增彩度 HSV"
+
+#~ msgid "Decrease Saturation HSV"
+#~ msgstr "遞減彩度 HSV"
+
+#~ msgid "Increase Value"
+#~ msgstr "遞增數值"
+
+#~ msgid "Decrease Value"
+#~ msgstr "遞減數值"
+
+#~ msgid "Generic RGB Histogram"
+#~ msgstr "一般 RGB 直方圖"
+
+#~ msgid "R"
+#~ msgstr "R"
+
+#~ msgid "G"
+#~ msgstr "G"
+
+#~ msgid "L*a*b* Histogram"
+#~ msgstr "L*a*b 直方圖"
+
+#~ msgid "L*"
+#~ msgstr "L*"
+
+#~ msgid "Generic L*a*b* Histogram"
+#~ msgstr "一般 L*a*b 直方圖"
+
+#~ msgid "XYZ"
+#~ msgstr "XYZ"
+
+#~ msgid "Grayscale"
+#~ msgstr "灰階"
+
+#~ msgid "Grayscale (without transparency)"
+#~ msgstr "灰階（無透明度）"
+
+#~ msgid "YCbCr"
+#~ msgstr "YCbCr"
+
+#~ msgid "8 Bits"
+#~ msgstr "8 位元"
+
+#~ msgid "16 Bits"
+#~ msgstr "16 位元"
+
+#~ msgid "16 Bits Float"
+#~ msgstr "16 位元浮點數"
+
+#~ msgid "32 Bits Float"
+#~ msgstr "32 位元浮點數"
+
+#, fuzzy
+#~| msgid "16 Bits Float"
+#~ msgid "64 Bits Float"
+#~ msgstr "16 位元浮點數"
+
+#~ msgid "Arithmetic"
+#~ msgstr "運算"
+
+#~ msgid "Negative"
+#~ msgstr "負數"
+
+#~ msgid "HSY"
+#~ msgstr "HSY"
+
+#~ msgid "HSI"
+#~ msgstr "HSI"
+
+#~ msgid "HSL"
+#~ msgstr "HSL"
+
+#~ msgid "HSV"
+#~ msgstr "HSV"
+
+#~ msgid "Mix"
+#~ msgstr "混合"
+
+#~ msgid "Inverse Subtract"
+#~ msgstr "反相減"
+
+#~ msgid "Burn"
+#~ msgstr "燃燒"
+
+#, fuzzy
+#~| msgid "Additive Substractive"
+#~ msgid "Additive Subtractive"
+#~ msgstr "Additive Substractive"
+
+#~ msgid "Alpha Darken"
+#~ msgstr "Alpha 變暗"
+
+#~ msgid "Bumpmap"
+#~ msgstr "凹凸"
+
+#~ msgid "SVG Gradient"
+#~ msgstr "SVG 漸層"
+
+#~ msgid "Select the object you want to reference"
+#~ msgstr "選擇您要參考的物件"
+
+#~ msgid "Reference"
+#~ msgstr "參考"
+
+#~ msgid "Set For All Existing"
+#~ msgstr "設定所有現有的"
+
+#~ msgctxt "statement is an Rdf related term"
+#~ msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
+#~ msgid_plural ""
+#~ "<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
+#~ msgstr[0] "<qt>您編輯的資料會遺失。<p>還有 %1 個不合法的敘述。</qt>"
+
+#~ msgctxt "statement is an Rdf related term"
+#~ msgid "Discard invalid statements?"
+#~ msgstr "要丟棄不合法的敘述嗎？"
+
+#~ msgid "Rdf"
+#~ msgstr "Rdf"
+
+#~ msgid "Triples"
+#~ msgstr "三聯"
+
+#~ msgid "new"
+#~ msgstr "新增"
+
+#~ msgid "copy"
+#~ msgstr "複製"
+
+#~ msgid "delete"
+#~ msgstr "刪除"
+
+#~ msgid "Namespaces"
+#~ msgstr "命名空間"
+
+#~ msgid "Prefix"
+#~ msgstr "前置字串"
+
+#~ msgid "Namespace"
+#~ msgstr "命名空間"
+
+#~ msgid "Semantic"
+#~ msgstr "語意"
+
+#~ msgid "SPARQL"
+#~ msgstr "SPARQL"
+
+#, fuzzy
+#~| msgid ""
+#~| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/"
+#~| "TR/REC-html40/strict.dtd\">\n"
+#~| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~| "css\">\n"
+#~| "p, li { white-space: pre-wrap; }\n"
+#~| "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+#~| "size:9pt; font-weight:400; font-style:normal;\">\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br /"
+#~| "># Results are shown below.</span></p>\n"
+#~| "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~| "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~| "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3."
+#~| "org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/"
+#~| "foaf/0.1/&gt; </span></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-"
+#~| "open.org/opendocument/meta/package/common#&gt; </span></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3."
+#~| "org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
+#~| "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~| "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~| "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
+#~| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~| "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~| "family:'Verdana'; font-size:13pt;\">}</span></p>\n"
+#~| "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~| "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~| "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~| "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~| "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~| "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~| "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~| "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~| "font-family:'Verdana'; font-size:13pt;\"></p></body></html>"
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+#~ "size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br /"
+#~ "># Results are shown below.</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3."
+#~ "org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/"
+#~ "foaf/0.1/&gt; </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-"
+#~ "open.org/ns/office/1.2/meta/pkg#&gt; </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3."
+#~ "org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">}</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+#~ "size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\"># 在此輸入您的 SPARQL 查詢<br /># 結果"
+#~ "會顯示在下方。</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3."
+#~ "org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/"
+#~ "foaf/0.1/&gt; </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-"
+#~ "open.org/opendocument/meta/package/common#&gt; </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3."
+#~ "org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "family:'Verdana'; font-size:13pt;\">}</span></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'Verdana'; font-size:13pt;\"></p></body></html>"
+
+#~ msgid "Stylesheets"
+#~ msgstr "樣式表單"
+
+#~ msgid ""
+#~ "Set the default stylesheet for Semantic objects in this document. New RDF "
+#~ "objects will use this stylesheet automatically. The buttons allow you to "
+#~ "set the stylesheet for all existing semantic objects to the new default "
+#~ "stylesheet as well."
+#~ msgstr ""
+#~ "設定此文件內的語意物件的預設樣式表。新的 RDF 物件會自動使用此樣式表。按鍵"
+#~ "能讓您將所有現有的語意物件設定使用新的預設樣式表。"
+
+#~ msgid "Apply Stylesheet"
+#~ msgstr "套用樣式表"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgid "User"
+#~ msgstr "使用者"
+
+#~ msgid "Reapply Current"
+#~ msgstr "重新套用目前的"
+
+#~ msgid "Disassociate"
+#~ msgstr "分離"
+
+#~ msgid "Edit %1"
+#~ msgstr "編輯 %1"
+
+#~ msgid "Stylesheet Definition"
+#~ msgstr "樣式表定義"
+
+#~ msgid "Variables Available"
+#~ msgstr "可用的變數"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Stylesheet Name"
+#~ msgstr "樣式表名稱"
+
+#~ msgid "Empty"
+#~ msgstr "空白"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "Literal"
+#~ msgstr "常數"
+
+#~ msgid "Blank"
+#~ msgstr "空白"
+
+#~ msgid "Valid"
+#~ msgstr "合法"
+
+#~ msgid "Subject"
+#~ msgstr "主題"
+
+#~ msgid "Predicate"
+#~ msgstr "預測"
+
+#~ msgid "Obj Type"
+#~ msgstr "物件型態"
+
+#~ msgid "DataType"
+#~ msgstr "資料型態"
+
+#~ msgid "Stored In"
+#~ msgstr "儲存於"
+
+#, fuzzy
+#~| msgid "Invalid file format"
+#~ msgid "Invalid identifier"
+#~ msgstr "無效的檔案格式"
+
+#~ msgid "Identifiers should start with a letter or '_' character"
+#~ msgstr "識別代碼應該以 _ 或字母開頭"
+
+#~ msgctxt "Text list-style"
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "Small Bullet"
+#~ msgstr "小圓鈕"
+
+#~ msgid "Circle Bullet"
+#~ msgstr "圓形"
+
+#~ msgid "Square Bullet"
+#~ msgstr "方塊"
+
+#~ msgid "Rhombus Bullet"
+#~ msgstr "菱形"
+
+#~ msgid "Check Mark Bullet"
+#~ msgstr "勾選符號"
+
+#~ msgid "Rightwards Arrow Bullet"
+#~ msgstr "右箭頭"
+
+#~ msgid "Arabic"
+#~ msgstr "阿拉伯語"
+
+#~ msgid "Lower Alphabetical"
+#~ msgstr "小寫字母"
+
+#~ msgid "Upper Alphabetical"
+#~ msgstr "大寫字母"
+
+#~ msgid "Upper Roman"
+#~ msgstr "大寫羅馬字母"
+
+#~ msgid "Large Bullet"
+#~ msgstr "大圓鈕"
+
+#~ msgid "Ballot X Bullet"
+#~ msgstr "投票用的 X 符號"
+
+#~ msgid "Rightwards Arrow Head Bullet"
+#~ msgstr "右箭頭"
+
+#~ msgid "Bengali"
+#~ msgstr "孟加拉語"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujarati"
+
+#~ msgid "Gurumukhi"
+#~ msgstr "Gurumukhi"
+
+#~ msgid "Kannada"
+#~ msgstr "坎那達語"
+
+#~ msgid "Malayalam"
+#~ msgstr "馬來亞拉姆語"
+
+#~ msgid "Oriya"
+#~ msgstr "Oriya"
+
+#~ msgid "Tamil"
+#~ msgstr "坦米爾文"
+
+#~ msgid "Telugu"
+#~ msgstr "特拉古語"
+
+#~ msgid "Tibetan"
+#~ msgstr "藏語"
+
+#~ msgid "Thai"
+#~ msgstr "泰語"
+
+#~ msgid "Abjad"
+#~ msgstr "Abjad"
+
+#~ msgid "AbjadMinor"
+#~ msgstr "AbjadMinor"
+
+#~ msgid "ArabicAlphabet"
+#~ msgstr "阿拉伯字母"
+
+#~ msgid "Opacity"
+#~ msgstr "不透明度"
+
+#~ msgid "Recent:"
+#~ msgstr "最近的檔案："
+
+#~ msgid "Add / Remove Colors..."
+#~ msgstr "新增/移除顏色..."
+
+#~ msgid "Import Data"
+#~ msgstr "匯入資料"
+
+#~ msgctxt "Descriptive encoding name"
+#~ msgid "Recommended ( %1 )"
+#~ msgstr "建議（%1）"
+
+#~ msgctxt "Descriptive encoding name"
+#~ msgid "Locale ( %1 )"
+#~ msgstr "地域（%1）"
+
+#~ msgctxt "Descriptive encoding name"
+#~ msgid "Other ( %1 )"
+#~ msgstr "其它（%1）"
+
+#~ msgid "Generic"
+#~ msgstr "一般"
+
+#~ msgid "Currency"
+#~ msgstr "貨幣"
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid ""
+#~ "Please check the ranges you specified. The start value must be lower than "
+#~ "the end value."
+#~ msgstr "請檢查您指定的範圍。啟始值必須小於結束值。"
+
+#~ msgid "Cannot find encoding: %1"
+#~ msgstr "找不到編碼：%1"
+
+#~ msgid "Data"
+#~ msgstr "資料"
+
+#~ msgid "E&ncoding:"
+#~ msgstr "編碼(&N)："
+
+#~ msgid "First row contains headers"
+#~ msgstr "第一列包含標頭"
+
+#~ msgid "First column contains headers"
+#~ msgstr "第一欄包含標頭"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "Delimiter"
+#~ msgstr "分隔符"
+
+#~ msgid "Semicolon"
+#~ msgstr "分號"
+
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#~ msgid "Tabulator"
+#~ msgstr "定位點"
+
+#~ msgid "Space"
+#~ msgstr "空白鍵"
+
+#~ msgid "Text&quote:"
+#~ msgstr "文字引號(&Q)："
+
+#~ msgid "\""
+#~ msgstr "\""
+
+#~ msgid "'"
+#~ msgstr "'"
+
+#~ msgid "Decimal symbol:"
+#~ msgstr "數字符號："
+
+#~ msgid "Thousands separator:"
+#~ msgstr "千位點："
+
+#~ msgid "Ignore duplicate delimiters"
+#~ msgstr "忽略重覆的分隔符"
+
+#~ msgid "&Format:"
+#~ msgstr "格式(&F)："
+
+#~ msgid "Ranges"
+#~ msgstr "範圍"
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid "Import columns:"
+#~ msgstr "匯入欄位："
+
+#~ msgid "Import lines:"
+#~ msgstr "匯入行："
+
+#~ msgid "to"
+#~ msgstr "到"
+
+#, fuzzy
+#~| msgid "Show Dockers"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Float Docker"
+#~ msgstr "顯示嵌入器"
+
+#, fuzzy
+#~| msgid "Custom Document"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Close Docker"
+#~ msgstr "自訂文件"
+
+#, fuzzy
+#~| msgid "Tool Bars Docker"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Collapse Docker"
+#~ msgstr "工具列嵌入器"
+
+#, fuzzy
+#~| msgid "Show Dockers"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Lock Docker"
+#~ msgstr "顯示嵌入器"
+
+#~ msgid "&Encrypt"
+#~ msgstr "加密(&E)"
+
+#~ msgid "Keywords:"
+#~ msgstr "關鍵字："
+
+#~ msgid "Subject:"
+#~ msgstr "主旨："
+
+#~ msgid "Last printed:"
+#~ msgstr "最後列印："
+
+#~ msgid "Total editing time:"
+#~ msgstr "總計編輯時間："
+
+#~ msgid "Encryption:"
+#~ msgstr "加密："
+
+#, fuzzy
+#~| msgid "Title:"
+#~ msgctxt "Document title"
+#~ msgid "Title:"
+#~ msgstr "標題："
+
+#~ msgid "Revision number:"
+#~ msgstr "版本號："
+
+#~ msgid "Modified:"
+#~ msgstr "修改時間："
+
+#~ msgid "Comments:"
+#~ msgstr "註解："
+
+#~ msgid "Created:"
+#~ msgstr "建立時間："
+
+#~ msgid "Path:"
+#~ msgstr "路徑："
+
+#~ msgid "&Reset"
+#~ msgstr "重置(&R)"
+
+#, fuzzy
+#~| msgid "Last Page"
+#~ msgid "Language:"
+#~ msgstr "最後一頁"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#, fuzzy
+#~| msgid "Last Page"
+#~ msgid "Last saved by"
+#~ msgstr "最後一頁"
+
+#~ msgid "Use ';' (Example: Office;KDE;Calligra)"
+#~ msgstr "使用 ; （如：Office;KDE;Calligra）"
+
+#~ msgid "This document will be decrypted"
+#~ msgstr "此文件將被解密"
+
+#~ msgid "Do not decrypt"
+#~ msgstr "不要解密"
+
+#~ msgid "This document is encrypted"
+#~ msgstr "此文件將被加密"
+
+#~ msgid "D&ecrypt"
+#~ msgstr "解密(&E)"
+
+#~ msgid "This document will be encrypted."
+#~ msgstr "此文件將被加密。"
+
+#~ msgid "Do not encrypt"
+#~ msgstr "不要加密"
+
+#~ msgid "This document is not encrypted"
+#~ msgstr "此文件將不會被加密"
+
+#~ msgid "This document does not support encryption"
+#~ msgstr "此文件未支援加密"
+
+#~ msgid ""
+#~ "<qt>Decrypting the document will remove the password protection from it."
+#~ "<p>Do you still want to decrypt the file?</qt>"
+#~ msgstr "<qt>解密此文件會移除它的密碼保護。 <p>您還是要解密此檔案嗎？</qt>"
+
+#~ msgid "Confirm Decrypt"
+#~ msgstr "確認解密"
+
+#~ msgid "Decrypt"
+#~ msgstr "解密"
+
+#~ msgid ""
+#~ "<qt>Your document could not be saved automatically.<p>To complete the "
+#~ "decryption, please save the document.</qt>"
+#~ msgstr "<qt>您的文件無法自動儲存。 <p>要完成解密，請儲存此文件。</qt>"
+
+#~ msgid "Save Document"
+#~ msgstr "儲存文件"
+
+#~ msgid ""
+#~ "<qt>The document has been changed since it was opened. To complete the "
+#~ "decryption the document needs to be saved.<p>Do you want to save the "
+#~ "document now?</qt>"
+#~ msgstr ""
+#~ "<qt>文件開啟後被變更了。要完成文件的解密，必須要儲存它。 <p>您要現在儲存文"
+#~ "件嗎？</qt>"
+
+#~ msgid ""
+#~ "<qt>The document is currently saved as %1. The document needs to be "
+#~ "changed to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to "
+#~ "change the file to OASIS OpenDocument?</qt>"
+#~ msgstr ""
+#~ "<qt>文件目前儲存為 %1。此文件需要被變更為 OASIS OpenDocument 的格式才能被"
+#~ "加密。 <p>您要將檔案格式轉換為 OASIS OpenDocument 嗎？</qt>"
+
+#~ msgid "Change Filetype"
+#~ msgstr "改變檔案類型"
+
+#~ msgid "Change"
+#~ msgstr "改變"
+
+#~ msgid ""
+#~ "<qt>Your document could not be saved automatically.<p>To complete the "
+#~ "encryption, please save the document.</qt>"
+#~ msgstr "<qt>您的文件無法自動儲存。 <p>要完成加密，請儲存此文件。</qt>"
+
+#~ msgid ""
+#~ "<qt>The document has been changed since it was opened. To complete the "
+#~ "encryption the document needs to be saved.<p>Do you want to save the "
+#~ "document now?</qt>"
+#~ msgstr ""
+#~ "<qt>此文件開啟後已變更。要完成加密，必須儲存此文件。 <p>您要現在儲存此文件"
+#~ "嗎？</qt>"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Open palette"
+#~ msgstr "開啟調色盤"
+
+#~ msgid "Save palette"
+#~ msgstr "儲存調色盤"
+
+#~ msgid "Add Color To Palette"
+#~ msgstr "新增顏色到調色盤"
+
+#~ msgid "Color name:"
+#~ msgstr "顏色名稱："
+
+#, fuzzy
+#~| msgid "Add Color To Palette"
+#~ msgid "Gimp Color Palette (*.gpl)"
+#~ msgstr "新增顏色到調色盤"
+
+#~ msgid "Cannot write to palette file %1. Maybe it is read-only. "
+#~ msgstr "無法寫入調色盤檔案 %1。也許該檔案是唯讀的。"
+
+#~ msgid "Palette"
+#~ msgstr "調色盤"
+
+#~ msgid "Add/Remove Colors"
+#~ msgstr "新增/移除顏色"
+
+#, fuzzy
+#~| msgid "Open palette"
+#~ msgid "Testing: OpenFile"
+#~ msgstr "開啟調色盤"
+
+#, fuzzy
+#~| msgid "Missing Import Filter"
+#~ msgid "Testing: ImportFile"
+#~ msgstr "遺失匯入過濾器"
+
+#, fuzzy
+#~| msgid "Missing Import Filter"
+#~ msgid "Testing: ImportFiles"
+#~ msgstr "遺失匯入過濾器"
+
+#, fuzzy
+#~| msgid "Import Resource"
+#~ msgid "Testing: Import Directory"
+#~ msgstr "匯入資源"
+
+#, fuzzy
+#~| msgid "Save palette"
+#~ msgid "Testing: SaveFile"
+#~ msgstr "儲存調色盤"
+
+#, fuzzy
+#~| msgid "Open palette"
+#~ msgid "Open File"
+#~ msgstr "開啟調色盤"
+
+#, fuzzy
+#~| msgid "Open palette"
+#~ msgid "Open Files"
+#~ msgstr "開啟調色盤"
+
+#, fuzzy
+#~| msgid "Choose Filter"
+#~ msgid "Filter:"
+#~ msgstr "選擇過濾器"
+
+#, fuzzy
+#~| msgid "Label"
+#~ msgid "TextLabel"
+#~ msgstr "標籤"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Named"
+#~ msgstr "名稱"
+
+#, fuzzy
+#~| msgid "Set default format"
+#~ msgid "Set default filter"
+#~ msgstr "設定預設格式"
+
+#, fuzzy
+#~| msgid "Save palette"
+#~ msgid "Save File"
+#~ msgstr "儲存調色盤"
+
+#, fuzzy
+#~| msgid "Import lines:"
+#~ msgid "Import Files"
+#~ msgstr "匯入行："
+
+#, fuzzy
+#~| msgid "Import lines:"
+#~ msgid "Import File"
+#~ msgstr "匯入行："
+
+#, fuzzy
+#~| msgid "Import Resource"
+#~ msgid "Import Directory"
+#~ msgstr "匯入資源"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "No stroke or fill"
+#~ msgid "None"
+#~ msgstr "無"
+
+#, fuzzy
+#~ msgctxt "Solid color stroke or fill"
+#~ msgid "Solid"
+#~ msgstr "實心"
+
+#~ msgid "Gradient"
+#~ msgstr "漸層"
+
+#, fuzzy
+#~ msgid "Pattern"
+#~ msgstr "樣式"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Change master slide"
+#~ msgid "Change the filling gradient"
+#~ msgstr "改變主投影片"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "Icon and Text"
+#~ msgstr "文字"
+
+#, fuzzy
+#~| msgid "Bottom"
+#~ msgid "Bottom side"
+#~ msgstr "置底"
+
+#, fuzzy
+#~| msgid "Left indent"
+#~ msgid "Left side"
+#~ msgstr "往左縮排"
+
+#, fuzzy
+#~| msgid "Right indent"
+#~ msgid "Right side"
+#~ msgstr "往右縮排"
+
+#~ msgid "Page Layout"
+#~ msgstr "頁面配置"
+
+#~ msgid "Apply to document"
+#~ msgstr "套用到文件"
+
+#~ msgid "Left Edge:"
+#~ msgstr "左邊緣："
+
+#~ msgid "Right Edge:"
+#~ msgstr "右邊緣："
+
+#~ msgid "Binding Edge:"
+#~ msgstr "裝訂邊緣："
+
+#~ msgid "Page Edge:"
+#~ msgstr "頁面邊緣："
+
+#~ msgid "Facing Pages:"
+#~ msgstr "封面頁："
+
+#~ msgid "Facing pages"
+#~ msgstr "封面頁"
+
+#~ msgid "Page Layout:"
+#~ msgstr "頁面配置："
+
+#~ msgid "Page spread"
+#~ msgstr "頁面展開"
+
+#~ msgid "Unit:"
+#~ msgstr "單位："
+
+#~ msgid "Follow style:"
+#~ msgstr "跟隨樣式："
+
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgid "Width:"
+#~ msgstr "寬度："
+
+#~ msgid "Height:"
+#~ msgstr "高度："
+
+#~ msgid "Orientation:"
+#~ msgstr "方向："
+
+#~ msgid "Facing pages:"
+#~ msgstr "封面頁："
+
+#~ msgid "Single sided"
+#~ msgstr "單頁"
+
+#~ msgid "Text direction:"
+#~ msgstr "文字方向："
+
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgid "Left to right"
+#~ msgstr "左到右"
+
+#~ msgid "Right to left"
+#~ msgstr "右到左"
+
+#~ msgid "Margins"
+#~ msgstr "邊界"
+
+#~ msgid "Top:"
+#~ msgstr "頂端："
+
+#~ msgid "Binding edge:"
+#~ msgstr "裝訂邊緣："
+
+#~ msgid "Page edge:"
+#~ msgstr "頁面邊緣："
+
+#~ msgid "Bottom:"
+#~ msgstr "底端："
+
+#, fuzzy
+#~| msgid "Import Resource"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Import resource"
+#~ msgstr "匯入資源"
+
+#, fuzzy
+#~| msgid "Delete Resource"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Delete resource"
+#~ msgstr "刪除資源"
+
+#, fuzzy
+#~| msgid "Download Resource"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Download resource"
+#~ msgstr "下載資源"
+
+#, fuzzy
+#~| msgid "Share Resource"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Share Resource"
+#~ msgstr "分享資源"
+
+#, fuzzy
+#~| msgid "Choose File to Add"
+#~ msgctxt "@title:window"
+#~ msgid "Choose File to Add"
+#~ msgstr "選擇要加入的檔案"
+
+#, fuzzy
+#~| msgid "New Layer"
+#~ msgid "New tag"
+#~ msgstr "新階層"
+
+#, fuzzy
+#~| msgid "Remove point"
+#~ msgid "Remove from this tag"
+#~ msgstr "移除點"
+
+#, fuzzy
+#~| msgid "Table has no fields defined."
+#~ msgid "Tag was not undeleted."
+#~ msgstr "表格沒有定義欄位。"
+
+#, fuzzy
+#~| msgid "Allanon"
+#~ msgid "All"
+#~ msgstr "亞拉農"
+
+#~ msgid "Blur:"
+#~ msgstr "模糊："
+
+#~ msgid "Distance:"
+#~ msgstr "距離："
+
+#~ msgid "Butt cap"
+#~ msgstr "靶形頂點"
+
+#~ msgid "Round cap"
+#~ msgstr "圓形頂點"
+
+#~ msgid "Square cap"
+#~ msgstr "方形頂點"
+
+#~ msgid "Miter join"
+#~ msgstr "斜接合"
+
+#~ msgid "Round join"
+#~ msgstr "圓接合"
+
+#~ msgid "Bevel join"
+#~ msgstr "斜角接合"
+
+#, fuzzy
+#~| msgid "Miter limit:"
+#~ msgid "Miter limit"
+#~ msgstr "斜接限制："
+
+#~ msgid "Thickness:"
+#~ msgstr "厚度："
+
+#~ msgid "Set line width of actual selection"
+#~ msgstr "設定實際選取的線條寬度"
+
+#, fuzzy
+#~| msgid "Rename Page"
+#~ msgid "Rename tag"
+#~ msgstr "重新命名此頁"
+
+#, fuzzy
+#~| msgid "Delete Page"
+#~ msgid "Delete this tag"
+#~ msgstr "刪除頁面"
+
+#, fuzzy
+#~| msgid "delete"
+#~ msgid "Undelete"
+#~ msgstr "刪除"
+
+#~ msgid "Tool Options"
+#~ msgstr "工具選項"
+
+#, fuzzy
+#~| msgid "Toggles organising the options in tabs or not"
+#~ msgid "Toggles organizing the options in tabs or not"
+#~ msgstr "切換是否能在分頁內組織選項"
+
+#, fuzzy
+#~| msgctxt "@info:tooltip"
+#~| msgid "Deselect Item"
+#~ msgid "deselect item"
+#~ msgstr "取相選擇項目"
+
+#, fuzzy
+#~| msgctxt "@info:tooltip"
+#~| msgid "Deselect Item"
+#~ msgid "select item"
+#~ msgstr "選擇項目..."
+
+#~ msgid "Use same aspect as pixels"
+#~ msgstr "使用同樣的像素比例"
+
+#~ msgid "Zoom to Selection"
+#~ msgstr "縮放到選取區"
+
+#~ msgid "Zoom to All"
+#~ msgstr "縮放到全部"
+
+#, fuzzy
+#~| msgid "%1%"
+#~ msgctxt "@info:tooltip of custom triple button"
+#~ msgid "%1"
+#~ msgstr "%1%"
+
+#, fuzzy
+#~| msgid "Key Press"
+#~ msgid "All Presets"
+#~ msgstr "按鍵"
+
+#, fuzzy
+#~| msgid "Static Image"
+#~ msgctxt "Static Image"
+#~ msgid "Static"
+#~ msgstr "靜態影像"
+
+#~ msgid "Value (brightness)"
+#~ msgstr "數值（亮度）"
+
+#~ msgid "Cyan"
+#~ msgstr "青綠色"
+
+#~ msgid "Magenta"
+#~ msgstr "品紅色"
+
+#~ msgid "Yellow"
+#~ msgstr "黃色"
+
+#~ msgid "Black"
+#~ msgstr "黑"
+
+#~ msgid "Green to magenta*"
+#~ msgstr "綠到紅"
+
+#~ msgid "Blue to yellow"
+#~ msgstr "藍到黃"
+
+#~ msgid "Opacity:"
+#~ msgstr "不透明度："
+
+#, fuzzy
+#~ msgid "&Themes"
+#~ msgstr "佈景主題(&T)"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgctxt "default theme name"
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#, fuzzy
+#~| msgid "Configure..."
+#~ msgid "Configuration..."
+#~ msgstr "設定"
+
+#~ msgid ""
+#~ "Cannot start Colors Settings panel from KDE Control Center. Please check "
+#~ "your system..."
+#~ msgstr "無法從 KDE 控制中心啟動顏色設定面板。請檢查您的系統..."
+
+#~ msgid "&Tools"
+#~ msgstr "工具(&T)"
+
+#~ msgid ""
+#~ "The manifest file seems to be corrupted. The document could not be opened."
+#~ msgstr "清單檔似乎已損毀。文件無法被開啟。"
+
+#~ msgid "Color Selector"
+#~ msgstr "顏色選擇器"
+
+#~ msgid "Database file \"%1\" does not exist."
+#~ msgstr "資料庫檔案 \"%1\" 不存在。"
+
+#~ msgid "Cannot drop database - name not specified."
+#~ msgstr "無法丟棄資料庫 -- 未指定名稱。"
+
+#~ msgid "Table \"%1\" does not exist in the database."
+#~ msgstr "表格 %1 不存在於資料庫中。"
+
+#~ msgid "Single transactions"
+#~ msgstr "單一交易"
+
+#~ msgid "Multiple transactions"
+#~ msgstr "多重交易"
+
+#~ msgid "Nested transactions"
+#~ msgstr "巢狀交易"
+
+#~ msgid "Ignored"
+#~ msgstr "已忽略"
+
+#~ msgid "No such driver service: \"%1\"."
+#~ msgstr "沒有此驅動程式服務：\"%1\"。"
+
+#~ msgid "Could not compact database \"%1\"."
+#~ msgstr "無法壓縮資料庫 \"%1\"。"
+
+#~ msgid "Do you want to open file \"%1\" as read-only?"
+#~ msgstr "您要以唯讀模式開啟檔案 \"%1\" 嗎？"
+
+#~ msgid "The file is probably already open on this or another computer."
+#~ msgstr "這個檔可能已經被另一台電腦開啟了。"
+
+#~ msgid "Could not gain exclusive access for writing the file."
+#~ msgstr "無法取得寫入檔案的存取權限。"
+
+#~ msgid "Open As Read-Only"
+#~ msgstr "以唯讀模式開啟"
+
+#~ msgid "Could not close busy database."
+#~ msgstr "無法關閉忙碌中的資料庫。"
+
+#~ msgid "Could not remove file \"%1\"."
+#~ msgstr "無法移除檔案 \"%1\"。"
+
+#~ msgid ""
+#~ "Check the file's permissions and whether it is already opened and locked "
+#~ "by another application."
+#~ msgstr "請檢查檔案的權限以及是否已經被其他應用程式開啟並鎖定。"
+
+#~ msgid "Compacting database"
+#~ msgstr "壓縮資料庫中"
+
+#~ msgid "Compacting database \"%1\"..."
+#~ msgstr "壓縮資料庫 \"%1\" 中..."
+
+#~ msgid ""
+#~ "The database has been compacted. Current size decreased by %1% to %2."
+#~ msgstr "此資料庫已被壓縮。目前的大小減少了 %1% 來到 %2。"
+
+#~ msgid "No query specified"
+#~ msgstr "沒有指定查詢"
+
+#, fuzzy
+#~| msgid "The file %1 does not exist."
+#~ msgid "Table \"%1\" does not exist"
+#~ msgstr "檔案 %1 不存在。"
+
+#~ msgid "Track Total"
+#~ msgstr "總共軌跡"
+
+#~ msgid "Track Builtin Format"
+#~ msgstr "內建軌跡格式"
+
+#~ msgid "Use Sub Total"
+#~ msgstr "使用子總數"
+
+#~ msgid "Track Total Format"
+#~ msgstr "軌跡總數格式"
+
+#~ msgid "Grid Snap"
+#~ msgstr "網格貼齊"
+
+#, fuzzy
+#~ msgid "                Language:"
+#~ msgstr "語言"
+
+#, fuzzy
+#~| msgid "Format"
+#~ msgid "Formatting"
+#~ msgstr "格式"
+
+#, fuzzy
+#~| msgid "Import Resource"
+#~ msgid "Testing: OpenDirectories"
+#~ msgstr "匯入資源"
+
+#, fuzzy
+#~| msgid "Import Resource"
+#~ msgid "Testing: ImportDirectories"
+#~ msgstr "匯入資源"
+
+#, fuzzy
+#~| msgid "Save palette"
+#~ msgid "Testing: SaveFiles"
+#~ msgstr "儲存調色盤"
+
+#, fuzzy
+#~| msgid "Import Resource"
+#~ msgid "Import Directories"
+#~ msgstr "匯入資源"
+
+#, fuzzy
+#~| msgid "Save palette"
+#~ msgid "Save Files"
+#~ msgstr "儲存調色盤"
+
+#~ msgid "Create Path"
+#~ msgstr "建立路徑"
+
+#~ msgid "Red Green Blue"
+#~ msgstr "RGB"
+
+#~ msgid "L a* b*"
+#~ msgstr "L a*b*"
+
+#~ msgid "Cyan Magenta Yellow Black"
+#~ msgstr "CMYB"
+
+#~ msgid "Error!"
+#~ msgstr "錯誤！"
+
+#~ msgid "Contacts"
+#~ msgstr "聯絡人"
+
+#~ msgid "Events"
+#~ msgstr "事件"
+
+#~ msgid "Locations"
+#~ msgstr "位置"
+
+#~ msgid "Area"
+#~ msgstr "面積"
+
+#~ msgid "Region"
+#~ msgstr "區域"
+
+#~ msgid ""
+#~ "Could not add entry\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法新增項目\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Could not save iCal file\n"
+#~ "%1"
+#~ msgstr ""
+#~ "無法儲存 iCal 檔\n"
+#~ "%1"
+
+#~ msgid "&Summary:"
+#~ msgstr "摘要(&S)："
+
+#~ msgid "&Location:"
+#~ msgstr "位置(&L)："
+
+#~ msgid "&Start:"
+#~ msgstr "開始(&S)："
+
+#~ msgid "&End:"
+#~ msgstr "結束(&E)："
+
+#~ msgid "Time and Date"
+#~ msgstr "時間與日期"
+
+#~ msgid "Timezone"
+#~ msgstr "時區"
+
+#~ msgid "Calendar Event"
+#~ msgstr "行事曆事件"
+
+#~ msgid "Import event to Calendar"
+#~ msgstr "將事件匯入行事曆"
+
+#~ msgid "Export event to iCal file..."
+#~ msgstr "將事件匯出到 iCal 檔..."
+
+#~ msgid "&Name:"
+#~ msgstr "名稱(&N)："
+
+#~ msgid "&Nick:"
+#~ msgstr "暱稱(&N)："
+
+#~ msgid "&Phone Number:"
+#~ msgstr "電話號碼(&P)："
+
+#~ msgid "&Home Page:"
+#~ msgstr "首頁(&H)："
+
+#~ msgid "Contact Information"
+#~ msgstr "聯絡人資訊"
+
+#~ msgid "Import contact"
+#~ msgstr "匯入聯絡人"
+
+#~ msgid "Export as vcard..."
+#~ msgstr "匯出為 vcard 檔..."
+
+#~ msgid "&Name"
+#~ msgstr "名稱(&N)"
+
+#~ msgid "The Earth"
+#~ msgstr "地球"
+
+#~ msgid "The Marble widget displays a virtual globe."
+#~ msgstr "顯示虛擬地球的大理石元件"
+
+#~ msgid "Navigation Control"
+#~ msgstr "導覽控制"
+
+#~ msgid "Use this control to navigate."
+#~ msgstr "用於導覽。"
+
+#~ msgid "Latitude"
+#~ msgstr "緯度"
+
+#~ msgid "Longitude"
+#~ msgstr "經度"
+
+#~ msgid "Location Information"
+#~ msgstr "位置資訊"
+
+#~ msgid "People"
+#~ msgstr "人物"
+
+#~ msgid ""
+#~ "A document with this name already exists.\n"
+#~ "Do you want to overwrite it?"
+#~ msgstr ""
+#~ "使用此名稱的文件已存在。\n"
+#~ "您是否要覆寫它？"
+
+#~ msgid "Unknown Calligra MimeType %1. Check your installation."
+#~ msgstr "未知的 Calligra Mime 型態 %1。請檢查您的安裝。"
+
+#~ msgid "%1 (Uncompressed XML Files)"
+#~ msgstr "%1（未壓縮的 XML 檔）"
+
+#~ msgid "%1 (Flat XML File)"
+#~ msgstr "%1（普通 XML 檔案）"
+
+#~ msgid "%1 (Encrypted)"
+#~ msgstr "%1（已加密）"
+
+#~ msgid "%1 (%2 Compatible)"
+#~ msgstr "%1 （與 %2 相容）"
+
+#~ msgid "Save Document As"
+#~ msgstr "另存文件為"
+
+#~ msgid "Export Document As"
+#~ msgstr "匯出文件為"
+
+#~ msgid "Export to PDF"
+#~ msgstr "匯出為 PDF"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Set background"
+#~ msgid "Slide Background"
+#~ msgstr "設定背景"
+
+#, fuzzy
+#~| msgctxt "(qtundo-format)"
+#~| msgid "Set background"
+#~ msgid "Document background"
+#~ msgstr "設定背景"
+
+#~ msgid "&OK"
+#~ msgstr "確定(&O)"
+
+#~ msgid "&Cancel"
+#~ msgstr "取消(&C)"
+
+#~ msgid "Error Encountered"
+#~ msgstr "遇到錯誤"
+
+#~ msgid "Unable to add a new group because its name would not be unique"
+#~ msgstr "無法加入新的群組，因為名稱重覆。"
+
+#~ msgid "First Page"
+#~ msgstr "第一頁"
+
+#~ msgid "Even Pages(s)"
+#~ msgstr "雙數頁"
+
+#~ msgid "Any Pages(s)"
+#~ msgstr "任一頁"
+
+#~ msgid "&Edit"
+#~ msgstr "編輯(&E)"
+
+#~ msgid "&Close"
+#~ msgstr "關閉(&C)"
+
+#~ msgid "Snapping"
+#~ msgstr "貼齊"
+
+#~ msgid "Dodge"
+#~ msgstr "閃躲"
+
+#~ msgid "Hard light"
+#~ msgstr "強光"
+
+#~ msgid "Soft light"
+#~ msgstr "柔光"
+
+#~ msgid "Show Shadow"
+#~ msgstr "顯示陰影"
+
+#, fuzzy
+#~| msgctxt "Underline Style"
+#~| msgid "Single"
+#~ msgid "Angle:"
+#~ msgstr "單行"
+
+#, fuzzy
+#~| msgid "Shadow Offset:"
+#~ msgid "Offset:"
+#~ msgstr "陰影位移："
+
+#, fuzzy
+#~| msgid "&Color:"
+#~ msgid "Color:"
+#~ msgstr "顏色(&C)："
+
+#~ msgid "Blur radius:"
+#~ msgstr "模糊半徑："
+
+#~ msgid "Style:"
+#~ msgstr "樣式："
+
+#~ msgid "Cap:"
+#~ msgstr "頂點："
+
+#~ msgid "Join:"
+#~ msgstr "接合："
+
+#~ msgid "Set miter limit"
+#~ msgstr "設定斜接限制"
+
+#, fuzzy
+#~| msgid "Insert Bookmark"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert Bookmark"
+#~ msgstr "插入書籤"
+
+#~ msgid "Insert Table"
+#~ msgstr "插入表格"
+
+#~ msgid "Insert Row Above"
+#~ msgstr "在上方插入列"
+
+#~ msgid "Insert Column Left"
+#~ msgstr "在左方插入欄"
+
+#~ msgid "Insert Column Right"
+#~ msgstr "在右方插入欄"
+
+#~ msgid "Delete Column"
+#~ msgstr "刪除欄"
+
+#~ msgid "Delete Row"
+#~ msgstr "刪除列"
+
+#~ msgid "Insert Table Of Contents"
+#~ msgstr "插入目次"
+
+#~ msgid "Insert Bibliography"
+#~ msgstr "插入參考書目"
+
+#~ msgid "min"
+#~ msgstr "分"
+
+#~ msgid "DetailsPaneBase"
+#~ msgstr "DetailsPaneBase"
+
+#~ msgid "Embedding Object"
+#~ msgstr "嵌入式物件"
+
+#~ msgid "I&mport..."
+#~ msgstr "匯入(&M)..."
+
+#~ msgid "&Default"
+#~ msgstr "預設(&D)"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Select Item"
+#~ msgstr "選取項目"
+
+#~ msgid "Background Tool"
+#~ msgstr "背景工具"
+
+#~ msgid "Use the styles docker to manipulate the background."
+#~ msgstr "使用此樣式嵌入來操作背景。"
+
+#~ msgid "Background editing tool"
+#~ msgstr "背景編輯工具"
+
+#~ msgid "Use master background"
+#~ msgstr "使用主要背景"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Separate paths"
+#~ msgstr "分離路徑"
+
+#~ msgid ""
+#~ "An autosaved file for an unnamed document exists in %1.\n"
+#~ "This file is dated %2\n"
+#~ "Do you want to open it?"
+#~ msgstr ""
+#~ "在 %1 中有未命名文件的自動儲存檔案。\n"
+#~ "這個檔案的日期是 %2\n"
+#~ "您是否要開啟它？"
+
+#~ msgid "&Delete Personal Data"
+#~ msgstr "刪除個人資料(&D)"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete shapes"
+#~ msgstr "刪除元件"
+
+#~ msgid "Substract"
+#~ msgstr "減"
+
+#~ msgid "Inverse Substract"
+#~ msgstr "反相減"
+
+#~ msgid ""
+#~ "No personal contact data set, please use the "
+#~ "option                                     \"Set as Personal Contact Data"
+#~ "\" from the \"Edit\"     menu in KAddressbook to set one."
+#~ msgstr ""
+#~ "沒有設定個人資料，請在 KAddressbook 選單中的「編輯」─「設定成個人資料」設"
+#~ "定。"
+
+#~ msgid "Hide colors with bad contrast"
+#~ msgstr "隱藏不好對比的顏色"
+
+#~ msgid "&Load From Address Book"
+#~ msgstr "從通訊錄載入(&L)"
+
+#~ msgid "Shadow Angle:"
+#~ msgstr "陰影角度："
+
+#~ msgid "Shadow Color:"
+#~ msgstr "陰影顏色："
+
+#~ msgid "Toggles showing a title bar"
+#~ msgstr "切換顯示標題列"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set border"
+#~ msgstr "設定邊框"
+
+#~ msgid "Ellipse Shape"
+#~ msgstr "橢圓元件"
+
+#~ msgid "Set Horizontal Alignment"
+#~ msgstr "設定水平對齊"
+
+#~ msgid "Line Break"
+#~ msgstr "行中斷"
+
+#~ msgid "Hide Grid"
+#~ msgstr "隱藏格線"
+
+#~ msgid "Hide Guides"
+#~ msgstr "隱藏導線"
+
+#~ msgid "&Close All Views"
+#~ msgstr "關閉全部檢視(&C)"
+
+#~ msgid "&Split View"
+#~ msgstr "分割檢視(&S)"
+
+#~ msgid "&Remove View"
+#~ msgstr "移除檢視(&R)"
+
+#~ msgid "Splitter &Orientation"
+#~ msgstr "分割器定位(&O)"
+
+#~ msgid "&Horizontal"
+#~ msgstr "水平(&H)"
+
+#~ msgid "&Vertical"
+#~ msgstr "垂直(&V)"
+
+#~ msgid "End"
+#~ msgstr "結束"
+
+#~ msgid "Printing page %1"
+#~ msgstr "列印頁面 %1"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "Import"
+#~ msgstr "匯入"
+
+#~ msgid "Share"
+#~ msgstr "元件"
+
+#~ msgid "Copy Opacy"
+#~ msgstr "複製不透明"
+
+#~ msgid "Copy Alpha"
+#~ msgstr "複製 Alpha"
+
+#~ msgid "Light"
+#~ msgstr "輕"
+
+#~ msgid "Write PDF"
+#~ msgstr "寫入 PDF 檔"
+
+#~ msgid "Control Source"
+#~ msgstr "控制來源"
+
+#~ msgid "Hide Dockers"
+#~ msgstr "隱藏嵌入元件"
+
+#, fuzzy
+#~| msgid "Stop"
+#~ msgid "Atop"
+#~ msgstr "停止"
+
+#~ msgid "KOffice"
+#~ msgstr "KOffice"
+
+#~ msgid "KOffice Storage"
+#~ msgstr "KOffice 儲存"
+
+#~ msgid "CCSGraph"
+#~ msgstr "CCSGraph"
+
+#~ msgid "Output the graph of color conversion of pigment's Color Conversion"
+#~ msgstr "色料顏色轉換的輸出圖"
+
+#~ msgid "(c) 2007 Cyrille Berger"
+#~ msgstr "(c) 2007 Cyrille Berger"
+
+#~ msgid "return the list of available graphs"
+#~ msgstr "傳回可用圖形的清單"
+
+#~ msgid ""
+#~ "specify the type of graph (see --graphs to get the full list, the default "
+#~ "is full)"
+#~ msgstr "指定圖形型態（請參考 --graphs 以取得完整的清單。預設為全部）"
+
+#~ msgid "specify the key of the source color space"
+#~ msgstr "指定來源顏色空間鍵值"
+
+#~ msgid "specify the key of the destination color space"
+#~ msgstr "指定目標顏色空間鍵值"
+
+#~ msgid "specify the output (can be ps or dot, the default is ps)"
+#~ msgstr "指定輸出（可以為 ps 或 dot，預設為 ps）"
+
+#~ msgid "Barcode"
+#~ msgstr "條碼"
+
+#~ msgid "Barcode Format"
+#~ msgstr "條碼格式"
+
+#~ msgid "Max Length"
+#~ msgstr "最大長度"
+
+#~ msgid "Maximum Barcode Length"
+#~ msgstr "最大條碼長度"
+
+#~ msgid "Chart"
+#~ msgstr "圖表"
+
+#~ msgid "Field Font"
+#~ msgstr "欄位字型"
+
+#~ msgid "Bar"
+#~ msgstr "長條"
+
+#~ msgid "Pie"
+#~ msgstr "圓餅"
+
+#~ msgid "Ring"
+#~ msgstr "環狀"
+
+#~ msgid "Polar"
+#~ msgstr "極性圖"
+
+#~ msgid "Chart Type"
+#~ msgstr "圖表型態"
+
+#~ msgid "Stacked"
+#~ msgstr "已堆疊"
+
+#~ msgid "Percent"
+#~ msgstr "百分比"
+
+#~ msgid "Rows"
+#~ msgstr "列"
+
+#~ msgid "Chart Sub Type"
+#~ msgstr "圖表子型態"
+
+#~ msgid "Subdued"
+#~ msgstr "柔和"
+
+#~ msgid "Color Scheme"
+#~ msgstr "顏色機制"
+
+#~ msgctxt "Three dimensions"
+#~ msgid "3D"
+#~ msgstr "立體"
+
+#~ msgid "Antialiased"
+#~ msgstr "反鋸齒"
+
+#~ msgid "X Axis Title"
+#~ msgstr "X 軸標題"
+
+#~ msgid "Y Axis Title"
+#~ msgstr "Y 軸標題"
+
+#~ msgid "Display Legend"
+#~ msgstr "顯示圖例"
+
+#~ msgid "Link Master"
+#~ msgstr "連結主要資料"
+
+#~ msgid "Fields from master data source"
+#~ msgstr "主要資料來源的欄位"
+
+#~ msgid "Link Child"
+#~ msgstr "連結子資料"
+
+#~ msgid "Fields from child data source"
+#~ msgstr "子資料來源的欄位"
+
+#~ msgid "Loose invalid triples?"
+#~ msgstr "要允許不合法的三聯嗎？"
+
+#~ msgid "QXml"
+#~ msgstr "QXml"
+
+#~ msgid "Zoom Tool"
+#~ msgstr "縮放工具"
+
+#~ msgid "Pan Tool"
+#~ msgstr "轉動工具"
+
+#~ msgid "Path tool"
+#~ msgstr "路徑工具"
+
+#~ msgid "In"
+#~ msgstr "內"
+
+#~ msgid "Out"
+#~ msgstr "外"
+
+#~ msgid "Diff"
+#~ msgstr "比較"
+
+#~ msgid "ICC Engine"
+#~ msgstr "ICC 引擎"
+
+#~ msgid "RGB8 Histogram"
+#~ msgstr "RGB8 直方圖"
+
+#~ msgid "Insert Linebreak"
+#~ msgstr "插入換行中斷"
+
+#~ msgid "&Insert"
+#~ msgstr "插入(&I)"
+
+#~ msgid "Insert the selected character in the text"
+#~ msgstr "將選取的字元插入文字中"
+
+#~ msgid "Resize Panel Forward"
+#~ msgstr "正向調整面板大小"
+
+#~ msgid "Resize Panel Reverse"
+#~ msgstr "反向調整面板大小"
+
+#~ msgid "Access Keys"
+#~ msgstr "存取鍵"
+
+#~ msgid "Enable word completion"
+#~ msgstr "開啟文字補完"
+
+#~ msgid ""
+#~ "Toggle autocompletion on and off: if this is checked then autocompletion "
+#~ "will be enabled."
+#~ msgstr "切換自動補完功能。如果勾選的話則會開啟自動補完功能。"
+
+#~ msgid ""
+#~ "Suggestion list for autocompletion: contains all the words that will be "
+#~ "autocompleted."
+#~ msgstr "自動補完建議清單：包含所有會被自動補完的單字。"
+
+#~ msgid ""
+#~ "By clicking this button you can add manually an individual word to the "
+#~ "completion list."
+#~ msgstr "按下此鍵您可以在補完清單中手動新增單字。"
+
+#~ msgid ""
+#~ "To remove words from the completion list, select the word with the left "
+#~ "mouse button from the list, then click this button."
+#~ msgstr "要從補完清單中移除單字，用左鍵選擇該單字，然後按此鍵。"
+
+#~ msgid "Automatically add new words to suggestion list"
+#~ msgstr "自動新增單字到建議清單中"
+
+#~ msgid ""
+#~ "If this option is enabled, any word equal to or longer than the "
+#~ "\"Characters needed\" typed in this document will automatically be added "
+#~ "to the list of words used by the completion."
+#~ msgstr ""
+#~ "開啟此選項的話，任何比此文件中設定的「需要字元數」長或等長的單字，都會自動"
+#~ "加入文字補完清單中。"
+
+#~ msgid "Completion Options"
+#~ msgstr "自動補完選項"
+
+#~ msgid "Show words in tooltip"
+#~ msgstr "在工具提示內顯示單字"
+
+#~ msgid ""
+#~ "If this option is enabled, a tool tip box will appear when you type the "
+#~ "beginning of a word that exists in the completion list. To complete the "
+#~ "word, press the key you set to accept suggestions in the \"Key to accept "
+#~ "suggestion\" drop-down list."
+#~ msgstr ""
+#~ "開啟此選項的話，當您輸入一個字的開頭，而這個開頭符合文字補完清單中的某些單"
+#~ "字時，會跳出一個工具提示。您接著可以按下您所設定的「接受建議的按鍵」即補完"
+#~ "該單字。"
+
+#~ msgid ""
+#~ "This sets the maximum number of words in the completion list. All "
+#~ "additional words will not be included in the list. You can select any "
+#~ "value from 1 to 500. This option keeps the list from becoming too "
+#~ "cumbersome.\n"
+#~ "This option is most important when Automatically add words to completion "
+#~ "list is enabled."
+#~ msgstr ""
+#~ "這裡設定文字補完清單中最多單字數，再多就不會被列入此清單中，避免此清單變得"
+#~ "太冗長。尤其是在您開啟「自動新增單字到建議清單中」的功能的話，這個選項就特"
+#~ "別重要。您可以設定 1 到 500 之間的數值。"
+
+#~ msgid "Characters needed:"
+#~ msgstr "需要字元數："
+
+#~ msgid "Suggest words:"
+#~ msgstr "建議單字："
+
+#~ msgid ""
+#~ "Use this spinbox/slider combination to prevent automatically adding short "
+#~ "words to the completion list. You can select any value from 5-100 and the "
+#~ "words will need to be at least the number of characters set here to be "
+#~ "added to the list."
+#~ msgstr ""
+#~ "這個選項讓您避免自動加入過短的單字到補完清單中。您可以選擇 5 到 100 間的數"
+#~ "值，單字的長度必須至少要有這麼多字元才會列入清單中。"
+
+#~ msgid "Append space"
+#~ msgstr "附加空白(&P)"
+
+#~ msgid ""
+#~ "If checked, it adds a single space to the end of a word after "
+#~ "autocompletion, this means it is not necessary to add the space manually "
+#~ "for the next word."
+#~ msgstr ""
+#~ "勾選此選項的話，在文字補完之後會在後面加上一個空白字元。這表示您打下一個字"
+#~ "的時候就不需要再打一個空白。"
+
+#~ msgid "Key to accept suggestion:"
+#~ msgstr "接受建議的按鍵："
+
+#~ msgid ""
+#~ "Set the key you want to use when an autocompleted word is suggested to "
+#~ "you and you want to accept it. You can choose Enter, Tab, Space, End or "
+#~ "Right."
+#~ msgstr ""
+#~ "設定您要用於接受自動補完建議的按鍵。您可以選擇 Enter，Tab，空白鍵，End 或"
+#~ "右鍵。"
+
+#~ msgid "Make Default"
+#~ msgstr "設為預設"
+
+#~ msgid ""
+#~ "Completion is configured per document. Making this list the default will "
+#~ "allow you to use it for new documents automatically. A dialog will appear "
+#~ "to inform you that the list will be used for all documents from now on."
+#~ msgstr ""
+#~ "文字補完功能是依每個文件而設定。您可以將此清單設為預設，則任何新文件都會套"
+#~ "用此清單。若您設定為預設，會跳出一個對話框請您確認。"
+
+#~ msgid "C&ustom"
+#~ msgstr "自訂(&U)"
+
+#~ msgid "&Insert:"
+#~ msgstr "插入(&I)："
+
+#~ msgid "Paragraph Background Color"
+#~ msgstr "段落背景顏色"
+
+#~ msgid ""
+#~ "<p>Paragraph Background Color</p>\n"
+#~ "\n"
+#~ "<p>The paragraph background color appears\n"
+#~ "between the left and right margins of a\n"
+#~ "paragraph.</p>\n"
+#~ "\n"
+#~ "<p>If the text has a background color set, then\n"
+#~ "the text background will appear 'on top' of the\n"
+#~ "paragraph background.  In this case, the paragraph\n"
+#~ "background will still show on parts of the paragraph\n"
+#~ "that have no text (usually on the last line, between\n"
+#~ "the end of the text and the margin).</p>"
+#~ msgstr ""
+#~ "<p>段落背景顏色</p>\n"
+#~ "\n"
+#~ "<p>段落背景顏色會在一個段落的左邊與右邊邊界之間顯現。</p>\n"
+#~ "\n"
+#~ "<p>如果文字有設定背景顏色，則文字背景顏色會蓋在段落背景顏色之上。在這種狀"
+#~ "況下，段落背景顏色還是會在某些沒有文字的地方顯示出來（通常像是最後一行沒有"
+#~ "文字的地方）。</p>"
+
+#~ msgid "Borders"
+#~ msgstr "框線"
+
+#~ msgid ""
+#~ "<p>Paragraph Borders</p>\n"
+#~ "\n"
+#~ "<p>The preview shows what the currently \n"
+#~ "selected paragraph borders will look like.</p>\n"
+#~ "\n"
+#~ "<p>To <i>add</i> a new border: Select the desired style,\n"
+#~ "width and color.  Click the toggle button that corresponds\n"
+#~ "to that border.</p>\n"
+#~ "\n"
+#~ "<p>To <i>remove</i> an existing border: Either click on the\n"
+#~ "border to be removed in the preview, or click the\n"
+#~ "toggle button corresponding to that border.</p>\n"
+#~ "\n"
+#~ "<p>To <i>modify</i> a border: Select the desired style,\n"
+#~ "width and color, then click on the border to be\n"
+#~ "modified in the preview.</p>"
+#~ msgstr ""
+#~ "<p>段落框線</p>\n"
+#~ "\n"
+#~ "<p>預覽會顯示目前選取的段落框線長什麼樣子。</p>\n"
+#~ "\n"
+#~ "<p>要<i>新增</i>新的框線：選擇想要的樣式、寬度和顏色。點選在您想要設定的邊"
+#~ "界框線上，或是點選該框線的切換按鍵即可。</p>\n"
+#~ "\n"
+#~ "<p>要<i>移除</i>框線：只要在預覽中點選該框線，或是點選該框線的切換按鍵即"
+#~ "可。</p>\n"
+#~ "\n"
+#~ "<p>要<i>變更</i>框線：選擇想要的樣式、寬度和顏色，然後點選該框線。</p>"
+
+#~ msgid "&Width:"
+#~ msgstr "寬度(&W)："
+
+#~ msgid "Add/remove left paragraph border"
+#~ msgstr "新增/移除左邊的段落框線"
+
+#~ msgid "Toggles the left paragraph border on or off."
+#~ msgstr "切換左邊的段落框線開關"
+
+#~ msgid "Add/remove right paragraph border"
+#~ msgstr "新增/移除右邊的段落框線"
+
+#~ msgid "Toggles the right paragraph border on or off."
+#~ msgstr "切換右邊的段落框線開關"
+
+#~ msgid "Add/remove top paragraph border"
+#~ msgstr "新增/移除頂端的段落框線"
+
+#~ msgid "Toggles the top paragraph border on or off."
+#~ msgstr "切換頂端的段落框線開關"
+
+#~ msgid "Add/remove bottom paragraph border"
+#~ msgstr "新增/移除底端的段落框線"
+
+#~ msgid "Toggles the bottom paragraph border on or off."
+#~ msgstr "切換底端的段落框線開關"
+
+#~ msgid "&Merge with next paragraph"
+#~ msgstr "與下一段合併(&M)"
+
+#~ msgid ""
+#~ "Merges the border style of the current paragraph with the next paragraph"
+#~ msgstr "將目前段落與下一段的框線樣式合併"
+
+#~ msgid ""
+#~ "<p>Merge with next paragraph</p>\n"
+#~ "\n"
+#~ "<p>When this option is checked, no top or bottom borders\n"
+#~ "will appear between consecutive paragraphs with the\n"
+#~ "same style.  Top and Bottom borders will only appear between\n"
+#~ "paragraphs with different styles.</p>\n"
+#~ "\n"
+#~ "<p>When this option is unchecked, top and bottom borders\n"
+#~ "always appear at the top and bottom of paragraphs with this style,\n"
+#~ "regardless of the style of the preceding and subsequent paragraphs.</p>"
+#~ msgstr ""
+#~ "<p>與下一段合併</p>\n"
+#~ "\n"
+#~ "<p>勾選此選項的話，相鄰的兩個段落間使用相同的樣式時，不會出現頂端或底端的"
+#~ "框線。頂端或底端的框線只在相鄰的段落使用了不同的樣式時才會出現。</p>\n"
+#~ "\n"
+#~ "<p>沒有勾選此選項的話，則每一段都會分別被框線框起來。</p>"
+
+#~ msgid "String:"
+#~ msgstr "字串："
+
+#~ msgid "Boolean:"
+#~ msgstr "布林值："
+
+#~ msgid "true"
+#~ msgstr "真"
+
+#~ msgid "false"
+#~ msgstr "假"
+
+#~ msgid "Date:"
+#~ msgstr "日期："
+
+#~ msgid "Set Guide Line Position"
+#~ msgstr "設定頁面指導位置"
+
+#~ msgid "Add Guide Line"
+#~ msgstr "新增頁面指導"
+
+#~ msgid "Horizontal"
+#~ msgstr "水平"
+
+#~ msgid "Vertical"
+#~ msgstr "垂直"
+
+#~ msgid "&Position:"
+#~ msgstr "位置(&P)："
+
+#~ msgid "Guide Line"
+#~ msgstr "頁面指導"
+
+#~ msgid "Guide Lines"
+#~ msgstr "頁面指導"
+
+#~ msgid "No handler found for %1"
+#~ msgstr "找不到可處理 %1 的程式"
+
+#~ msgid ""
+#~ "Error loading %1:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "載入 %1 時發生錯誤：\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "This document contains an external link to a remote document\n"
+#~ "%1"
+#~ msgstr "此文件包含連接遠端文件 %1 的外部連結"
+
+#~ msgid "Confirmation Required"
+#~ msgstr "需要確認"
+
+#~ msgid "Skip"
+#~ msgstr "略過"
+
+#~ msgid ""
+#~ "Could not load external document %1:\n"
+#~ "%2"
+#~ msgstr "無法載入外部文件 %1：%2"
+
+#~ msgid "Error while saving embedded documents"
+#~ msgstr "當儲存嵌入式文件時發生錯誤"
+
+#~ msgid "Na&me:"
+#~ msgstr "名稱(&M)："
+
+#~ msgid "Protect si&ze and position"
+#~ msgstr "保護大小和位置(&Z)"
+
+#~ msgid "Keep &aspect ratio"
+#~ msgstr "保持長寬比例(&A)"
+
+#~ msgid "&Height:"
+#~ msgstr "高度(&H)："
+
+#~ msgid "&Top:"
+#~ msgstr "頂端(&T)："
+
+#~ msgid "&Left:"
+#~ msgstr "左邊(&L)："
+
+#~ msgid "Context Help"
+#~ msgstr "內容說明"
+
+#~ msgid "Here will be shown help according to your actions"
+#~ msgstr "這裡會根據您的動作顯示說明"
+
+#~ msgid "All values are given in %1."
+#~ msgstr "所有值皆以 %1 為單位。"
+
+#~ msgid "&Size:"
+#~ msgstr "大小(&S)："
+
+#~ msgid "&Portrait"
+#~ msgstr "縱向(&P)"
+
+#~ msgid "La&ndscape"
+#~ msgstr "橫向(&N)"
+
+#~ msgid "The page width is smaller than the left and right margins."
+#~ msgstr "頁面寬度比左邊與右邊邊界值還小"
+
+#~ msgid "Page Layout Problem"
+#~ msgstr "頁面佈局問題"
+
+#~ msgid "The page height is smaller than the top and bottom margins."
+#~ msgstr "頁面高度比頂端跟底端的邊界值還小。"
+
+#~ msgctxt "Custom size"
+#~ msgid "Custom"
+#~ msgstr "自訂大小"
+
+#~ msgid "Show &Grid"
+#~ msgstr "顯示格線(&G)"
+
+#, fuzzy
+#~| msgid "Delete slide"
+#~ msgid "Delete slides"
+#~ msgstr "刪除投影片"
+
+#, fuzzy
+#~| msgid "Delete page"
+#~ msgid "Delete pages"
+#~ msgstr "刪除頁面"
+
+#~ msgid "Insert Object"
+#~ msgstr "插入物件"
+
+#~ msgid "Column spacing:"
+#~ msgstr "欄位間距："
+
+#~ msgid "Footnote/ Endnote"
+#~ msgstr "註腳/尾註"
+
+#~ msgid "Spacing between footnote and body:"
+#~ msgstr "註腳與本文的間距："
+
+#~ msgid "Different footer for even and odd pages"
+#~ msgstr "奇數和偶數頁使用不同頁尾"
+
+#~ msgid "Different footer for the first page"
+#~ msgstr "第一頁使用不同頁尾"
+
+#~ msgid "Spacing between footer and body:"
+#~ msgstr "頁尾與本文的間距："
+
+#~ msgid "Spacing between header and body:"
+#~ msgstr "標頭與本文間距："
+
+#~ msgid "Different header for even and odd pages"
+#~ msgstr "奇數和偶數頁使用不同頁首"
+
+#~ msgid "Different header for the first page"
+#~ msgstr "第一頁使用不同頁首"
+
+#~ msgid "Page Preview"
+#~ msgstr "頁面預覽"
+
+#~ msgid "Page Size && &Margins"
+#~ msgstr "頁面大小與邊界(&M)"
+
+#~ msgid "H&eader && Footer"
+#~ msgstr "標頭與頁尾(&E)"
+
+#~ msgid "Head Line"
+#~ msgstr "首行"
+
+#~ msgid "Foot Line"
+#~ msgstr "末行"
+
+#~ msgid "You can insert several tags in the text:"
+#~ msgstr "您可以在文字中插入許多標籤："
+
+#~ msgid ""
+#~ "<qt><ul><li>&lt;sheet&gt; The sheet name</li><li>&lt;page&gt; The current "
+#~ "page</li><li>&lt;pages&gt; The total number of pages</li><li>&lt;name&gt; "
+#~ "The filename or URL</li><li>&lt;file&gt; The filename with complete path "
+#~ "or the URL</li></ul></qt>"
+#~ msgstr ""
+#~ "<qt><ul><li>&lt;sheet&gt; 工作表名稱</li><li>&lt;page&gt; 目前的 頁面</"
+#~ "li><li>&lt;pages&gt; 全部頁數</li><li>&lt;name&gt; 檔案名稱或 URL</"
+#~ "li><li>&lt;file&gt; 有完整路徑的檔案名稱或網址</li></ul></qt>"
+
+#~ msgid ""
+#~ "<qt><ul><li>&lt;time&gt; The current time</li><li>&lt;date&gt; The "
+#~ "current date</li><li>&lt;author&gt; Your full name</li><li>&lt;org&gt; "
+#~ "Your organization</li><li>&lt;email&gt; Your email address</li></ul></qt>"
+#~ msgstr ""
+#~ "<qt><ul><li>&lt;time&gt; 目前的時間</li><li>&lt;date&gt; 目前的日期</"
+#~ "li><li>&lt;author&gt; 您的姓名</li><li>&lt;org&gt; 您的組織</li><li>&lt;"
+#~ "email&gt; 您的電子郵件地址</li></ul></qt>"
+
+#~ msgid "Col&umns"
+#~ msgstr "欄(&U)"
+
+#~ msgid "&Help"
+#~ msgstr "說明(&H)"
+
+#~ msgid "Delete a new page after the current one"
+#~ msgstr "在目前頁面之後刪除新頁面"
+
+#~ msgid "Storage Test"
+#~ msgstr "儲存測試"
+
+#~ msgid "A test for the KoStore classes"
+#~ msgstr "KoStore 類別測試"
+
+#~ msgid "Storage Test 2"
+#~ msgstr "儲存測試 2"
+
+#~ msgid ""
+#~ "A test for the KoStore classes, in particular a Krita-induced bug testcase"
+#~ msgstr "KoStore 類別測試，特別是 Krita 錯誤測試"
+
+#~ msgid "Master page"
+#~ msgstr "主頁面"
+
+#~ msgid "Rotate"
+#~ msgstr "旋轉"
+
+#~ msgid "Shear"
+#~ msgstr "剪下"
+
+#~ msgid "KoProperty Test"
+#~ msgstr "KoProperty 測試"
+
+#~ msgid "(C) 2005 Cedric Pasteur"
+#~ msgstr "(C) 2005 Cedric Pasteur"
+
+#~ msgid "Cedric Pasteur"
+#~ msgstr "Cedric Pasteur"
+
+#~ msgid ""
+#~ "Flat display: don't display groups\n"
+#~ "(useful for testing)"
+#~ msgstr "平面顯示：不要顯示群組"
+
+#~ msgid ""
+#~ "Set all properties as read-only:\n"
+#~ "(useful for testing read-only mode)"
+#~ msgstr ""
+#~ "將所有屬性設為唯讀：\n"
+#~ "（測試唯讀模式時使用）"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Arrow"
+#~ msgstr "箭頭"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Up Arrow"
+#~ msgstr "上箭型"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Waiting"
+#~ msgstr "等待中"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Size Vertical"
+#~ msgstr "垂直大小"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Size Horizontal"
+#~ msgstr "水平大小"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Size Slash"
+#~ msgstr "斜線大小"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Size Backslash"
+#~ msgstr "反斜線大小"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Size All"
+#~ msgstr "全部大小"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Split Horizontal"
+#~ msgstr "水平分離"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Pointing Hand"
+#~ msgstr "指向手"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "Forbidden"
+#~ msgstr "被拒"
+
+#~ msgctxt "Mouse Cursor Shape"
+#~ msgid "What's This?"
+#~ msgstr "這是什麼？"
+
+#~ msgid "Click to show image preview"
+#~ msgstr "點選以顯示圖片預覽"
+
+#~ msgid "Insert image from file"
+#~ msgstr "從檔案插入圖片"
+
+#~ msgid "Insert Image From File (for \"%1\" property)"
+#~ msgstr "從檔案插入影像（%1 屬性）"
+
+#~ msgid ""
+#~ "Position: %1, %2\n"
+#~ "Size: %3 x %4"
+#~ msgstr ""
+#~ "位置：%1,%2\n"
+#~ "大小：%3 x %4"
+
+#~ msgid "Edit List of Items"
+#~ msgstr "編輯清單項目"
+
+#~ msgid "Contents of %1"
+#~ msgstr "%1 的內容"
+
+#~ msgid "Select Char"
+#~ msgstr "選擇字元"
+
+#~ msgctxt "Size Policy"
+#~ msgid "Minimum"
+#~ msgstr "最小"
+
+#~ msgctxt "Size Policy"
+#~ msgid "Maximum"
+#~ msgstr "最大"
+
+#~ msgctxt "Size Policy"
+#~ msgid "Preferred"
+#~ msgstr "預設"
+
+#~ msgctxt "Size Policy"
+#~ msgid "Expanding"
+#~ msgstr "擴展"
+
+#~ msgctxt "Size Policy"
+#~ msgid "Minimum Expanding"
+#~ msgstr "最小擴展"
+
+#~ msgctxt "General properties"
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Width"
+#~ msgstr "寬度"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Size Policy"
+#~ msgstr "大小政策"
+
+#~ msgid "Horz. Size Type"
+#~ msgstr "水平大小類型"
+
+#~ msgid "Horizontal Size Type"
+#~ msgstr "水平大小類型"
+
+#~ msgid "Vertical Size Type"
+#~ msgstr "垂直大小類型"
+
+#~ msgid "Horz. Stretch"
+#~ msgstr "水平延伸"
+
+#~ msgid "Horizontal Stretch"
+#~ msgstr "水平延伸"
+
+#~ msgid "Vert. Stretch"
+#~ msgstr "垂直延伸"
+
+#~ msgid "Vertical Stretch"
+#~ msgstr "垂直延伸"
+
+#~ msgid "Undo changes"
+#~ msgstr "復原改變"
+
+#~ msgid "Snap Guides"
+#~ msgstr "貼齊導線"
+
+#~ msgid "Use snap guides"
+#~ msgstr "使用貼齊導線"
+
+#~ msgid "Enable Nodes Guide"
+#~ msgstr "開啟點導線"
+
+#~ msgid "Enable Bounding Box Guide"
+#~ msgstr "開啟範圍盒指引"
+
+#~ msgid "Snap Distance (px)"
+#~ msgstr "貼齊距離（像素）"
+
+#~ msgid "Enable Guide Lines Guide "
+#~ msgstr "開啟頁面指導"
+
+#~ msgid "Tool Option"
+#~ msgstr "工具選項"
+
+#~ msgid "Configure Snap Guides"
+#~ msgstr "設定貼齊導線"
+
+#~ msgid "Connection Shape"
+#~ msgstr "連線元件"
+
+#~ msgid "Edit Guidelines"
+#~ msgstr "編輯頁面指導"
+
+#~ msgid "Edit guidelines"
+#~ msgstr "編輯頁面指導"

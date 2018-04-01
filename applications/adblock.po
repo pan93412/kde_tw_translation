@@ -1,0 +1,190 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: adblock\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:06+0100\n"
+"PO-Revision-Date: 2011-05-12 11:19+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: adblock.cpp:68
+#, kde-format
+msgid "Adblock"
+msgstr "AdBlock"
+
+#: adblock.cpp:74
+#, kde-format
+msgid "Show Blockable Elements..."
+msgstr "顯示可阻擋元素..."
+
+#: adblock.cpp:79 adblockdialog.cpp:102
+#, kde-format
+msgid "Configure Filters..."
+msgstr "設定過濾器..."
+
+#: adblock.cpp:88
+#, kde-format
+msgid "No blocking for this page"
+msgstr "此頁面不阻擋"
+
+#: adblock.cpp:93
+#, kde-format
+msgid "No blocking for this site"
+msgstr "此站台不阻擋"
+
+#: adblock.cpp:169
+#, kde-format
+msgid "Please enable Konqueror's Adblock"
+msgstr "請開啟 Konqueror 的 Adblock 功能"
+
+#: adblock.cpp:170
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock disabled"
+msgstr "Adblock 已關閉"
+
+#: adblock.cpp:201
+#, kde-format
+msgid "script"
+msgstr "文稿"
+
+#: adblock.cpp:202 adblock.cpp:203
+#, kde-format
+msgid "object"
+msgstr "物件"
+
+#: adblock.cpp:205
+#, kde-format
+msgid "frame"
+msgstr "框架"
+
+#: adblock.cpp:224
+#, kde-format
+msgid "image"
+msgstr "影像"
+
+#: adblock.cpp:280
+#, kde-format
+msgid "Blocked by %1"
+msgstr "被 %1 封鎖"
+
+#: adblock.cpp:282
+#, kde-format
+msgid "Allowed by %1"
+msgstr "被 %1 允許"
+
+#: adblockdialog.cpp:99
+#, kde-format
+msgctxt "@title:window"
+msgid "Blockable items on this page"
+msgstr "此頁面中可阻擋的項目"
+
+#: adblockdialog.cpp:104
+#, kde-format
+msgid "Add filter"
+msgstr "新增過濾器"
+
+#: adblockdialog.cpp:113
+#, kde-format
+msgid "Search:"
+msgstr "搜尋："
+
+#: adblockdialog.cpp:120
+#, kde-format
+msgid "Blockable items:"
+msgstr "可阻擋的項目："
+
+#: adblockdialog.cpp:129
+#, kde-format
+msgid "Source"
+msgstr "來源"
+
+#: adblockdialog.cpp:129
+#, kde-format
+msgid "Category"
+msgstr "分類"
+
+#: adblockdialog.cpp:129
+#, kde-format
+msgid "Tag"
+msgstr "標籤"
+
+#: adblockdialog.cpp:155
+#, kde-format
+msgid ""
+"New filter (can use *?[] wildcards, /RE/ for regular expression, prefix with "
+"@@ for white list):"
+msgstr ""
+"新過濾器（可以用 *?[] 等萬用字元，或是用 /RE/ 等正規表示式。前面加上 @@ 表示"
+"白名單）："
+
+#: adblockdialog.cpp:175
+#, kde-format
+msgid "Filter this item"
+msgstr "過濾此項目"
+
+#: adblockdialog.cpp:176
+#, kde-format
+msgid "Filter all items at same path"
+msgstr "過濾相同路徑下的所有項目"
+
+#: adblockdialog.cpp:177
+#, kde-format
+msgid "Filter all items from same host"
+msgstr "過濾相同主機下的所有項目"
+
+#: adblockdialog.cpp:178
+#, kde-format
+msgid "Filter all items from same domain"
+msgstr "過濾相同網域下的所有項目"
+
+#: adblockdialog.cpp:180
+#, kde-format
+msgid "Add this item to white list"
+msgstr "將此項目加入通過清單"
+
+#: adblockdialog.cpp:182
+#, kde-format
+msgid "Copy Link Address"
+msgstr "複製連結位址"
+
+#. i18n( "Highlight Element" ), this, SLOT(highLightElement()) );
+#: adblockdialog.cpp:185
+#, kde-format
+msgid "View item"
+msgstr "檢視項目"
+
+#. i18n: ectx: Menu (tools)
+#: plugin_adblock.rc:4
+#, kde-format
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: plugin_adblock.rc:8
+#, kde-format
+msgid "Extra Toolbar"
+msgstr "額外工具列"
+
+#~ msgid "Adblock dialog"
+#~ msgstr "Adblock 對話框"
+
+#~ msgid "Node Name"
+#~ msgstr "節點名稱"
+
+#~ msgid "New filter (use * as a wildcard):"
+#~ msgstr "新增過濾器（可用 * 做萬用字元）"
+
+#~ msgid "Show it"
+#~ msgstr "顯示出來"

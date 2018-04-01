@@ -1,0 +1,2147 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-31 03:33+0200\n"
+"PO-Revision-Date: 2015-06-14 13:22+0800\n"
+"Last-Translator: Franklin\n"
+"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:123
+#, kde-format
+msgid "LibreOffice Autocorrection"
+msgstr "LibreOffice 自動修正"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:127
+#, kde-format
+msgid "KMail/Calligra Autocorrection"
+msgstr "KMail/Calligra 自動修正"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:370
+#, kde-format
+msgid "\"Replace\" string is the same as \"Find\" string."
+msgstr "「取代」的字串與「尋找」的相同。"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:370
+#, kde-format
+msgid "Add Autocorrection Entry"
+msgstr "新增自動修正項目"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:449
+#, kde-format
+msgid "&Modify"
+msgstr "修改(&M)"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: ectx: property (text), widget (QPushButton, add1)
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:452
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:289
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:429
+#, kde-format
+msgid "&Add"
+msgstr "新增(&A)"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:560
+#, kde-format
+msgid "Import LibreOffice Autocorrection"
+msgstr "匯入 LibreOffice 自動修正"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:561
+#, kde-format
+msgid "LibreOffice Autocorrection File (*.data)"
+msgstr "LibreOffice 自動修正檔 (*.data)"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:564
+#, kde-format
+msgid "Import KMail Autocorrection"
+msgstr "匯入 KMail 自動修正"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:565
+#, kde-format
+msgid "KMail Autocorrection File (*.xml)"
+msgstr "KMail 自動修正檔 (*.xml)"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:614
+#, kde-format
+msgid "Language was changed, do you want to save config for previous language?"
+msgstr "語言已變更，您要儲存前一個語言的設定嗎？"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:614
+#, kde-format
+msgid "Save config"
+msgstr "儲存設定"
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:643
+#, kde-format
+msgid "Please save changes before exporting settings."
+msgstr ""
+
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:643
+#: pimcommon/autocorrection/autocorrectionwidget.cpp:646
+#, kde-format
+msgid "Export Autocorrection File"
+msgstr "匯入自動修正檔"
+
+#: pimcommon/autocorrection/import/importlibreofficeautocorrection.cpp:69
+#, kde-format
+msgid "Archive cannot be opened in read mode."
+msgstr "歸檔無法以讀取模式開啟。"
+
+#: pimcommon/autocorrection/import/importlibreofficeautocorrection.cpp:69
+#, kde-format
+msgid "Import LibreOffice Autocorrection File"
+msgstr "匯入 LibreOffice 自動修正檔"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enabledAutocorrection)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:17
+#, kde-format
+msgid "Enable autocorrection"
+msgstr "開啟自動修正"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:26
+#, kde-format
+msgid "Replacement and exception for language:"
+msgstr "取代與語言例外："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:42
+#, kde-format
+msgid "Si&mple Autocorrection"
+msgstr "簡單自動修正(&M)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, upperCase)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:48
+#, kde-format
+msgid ""
+"Detect when a new sentence is started and always ensure that the first "
+"character is an uppercase character"
+msgstr "偵測新句子何時開始，並確定第一個字元是大寫字元"
+
+#. i18n: ectx: property (text), widget (QCheckBox, upperCase)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:52
+#, kde-format
+msgid ""
+"Convert &first letter of a sentence automatically to uppercase\n"
+"(e.g. \"my house. in this town\" to \"my house. In this town\")"
+msgstr "將句子的第一個字母自動換成大寫(&F)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, upperUpper)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:62
+#, kde-format
+msgid ""
+"All words are checked for the common mistake of holding the shift key down a "
+"bit too long. If some words must have two uppercase characters, then those "
+"exceptions should be added in the 'Exceptions' tab."
+msgstr ""
+"檢查所有單字，看是否有經常發生的，Shift 鍵按得太久了一點的錯誤。如果有些單字"
+"必須使用兩個以上的大寫字母，可以把它們加入「例外」清單中。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, upperUpper)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:66
+#, kde-format
+msgid ""
+"Convert &two uppercase characters to one uppercase and one lowercase "
+"character\n"
+" (e.g. PErfect to Perfect)"
+msgstr "將兩個大寫字母轉換成一個大寫一個小寫(&T)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreDoubleSpace)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:73
+#, kde-format
+msgid ""
+"Make sure that more than one space cannot be typed, as this is a common "
+"mistake which is quite hard to find in formatted text."
+msgstr "確定不會連續輸入一個以上的空白。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreDoubleSpace)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:76
+#, kde-format
+msgid "&Suppress double spaces"
+msgstr "去掉多餘的空白(&S)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoReplaceNumber)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:83
+#, kde-format
+msgid "Most standard fraction notations will be converted when available"
+msgstr "當有標準常用的分數符號可用時自動轉換"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoReplaceNumber)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:86
+#, kde-format
+msgid "Re&place 1/2... with ½..."
+msgstr "用 ½ 取代 1/2 (&P)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, capitalizeDaysName)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:93
+#, kde-format
+msgid "Capitalize name of days"
+msgstr "天的名稱使用大寫"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoFormatUrl)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:100
+#, kde-format
+msgid ""
+"Detect when a URL (Uniform Resource Locator) is typed and provide formatting "
+"that matches the way an Internet browser would show a URL."
+msgstr "偵測是否輸入網址（URL），並提供符合網路瀏覽器顯示網址的格式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoFormatUrl)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:103
+#, kde-format
+msgid "Autoformat &URLs (HTML mode)"
+msgstr "自動格式化網址 (HTML 模式) (&U)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoChangeFormat)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:110
+#, kde-format
+msgid ""
+"When you use _underline_ or *bold*, the text between the underscores or "
+"asterisks will be converted to underlined or bold text."
+msgstr ""
+"當您使用_底線_或*粗體*時，在底線或星號內的文字會自動轉換加上底線或變成粗體。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoChangeFormat)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:113
+#, kde-format
+msgid "Automatically do &bold, strikeout and underline formatting (HTML mode)"
+msgstr "自動格式化粗體、刪除線與底線 (HTML 模式) (&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoSuperScript)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:120
+#, kde-format
+msgid "Replace 1st... with 1^st... (HTML mode)"
+msgstr "將 1st... 轉換為  1^st... （HTML 模式）"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:141
+#, kde-format
+msgid "Custom &Quotes"
+msgstr "自訂引號(&Q)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, typographicSingleQuotes)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:147
+#, kde-format
+msgid "Replace &single quotes with typographical quotes"
+msgstr "用印刷的引號取代單引號(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, typographicDoubleQuotes)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:154
+#, kde-format
+msgid "Replace &double quotes with typographical quotes"
+msgstr "用印刷的引號取代雙引號(&D)"
+
+#. i18n: ectx: property (text), widget (QPushButton, doubleDefault)
+#. i18n: ectx: property (text), widget (QPushButton, singleDefault)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:187
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:235
+#, kde-format
+msgid "Default"
+msgstr "預設"
+
+#. i18n: ectx: property (text), widget (QCheckBox, addNonBreakingSpaceInFrench)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:270
+#, kde-format
+msgid "Add non breaking space before specific punctuation marks in French text"
+msgstr "法文在特定標點符號前新增不中斷空白"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:278
+#, kde-format
+msgid "Ad&vanced Autocorrection"
+msgstr "進階自動修正(&V)"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#. i18n: ectx: property (text), widget (QPushButton, remove2)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:299
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:504
+#: pimcommon/templatewidgets/templatelistwidget.cpp:190
+#: pimcommon/widgets/simplestringlisteditor.cpp:285
+#: pimcommonakonadi/acl/aclmanager.cpp:298
+#: pimcommonakonadi/acl/aclmanager.cpp:305
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QCheckBox, advancedAutocorrection)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:321
+#, kde-format
+msgid "&Enable word replacement"
+msgstr "開啟單字取代(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, findLabel)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:330
+#, kde-format
+msgid "&Find"
+msgstr "尋找(&F)"
+
+#. i18n: ectx: property (text), widget (QLabel, replaceLabel)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:350
+#, kde-format
+msgid "Re&place"
+msgstr "取代(&P)"
+
+#. i18n: ectx: property (text), widget (PimCommon::AutoCorrectionTreeWidget, treeWidget)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:388
+#, kde-format
+msgid "Find"
+msgstr "尋找"
+
+#. i18n: ectx: property (text), widget (PimCommon::AutoCorrectionTreeWidget, treeWidget)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:393
+#, kde-format
+msgid "Replace"
+msgstr "取代"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:402
+#, kde-format
+msgid "E&xceptions"
+msgstr "例外(&X)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:410
+#, kde-format
+msgid "Do not treat as the end of a sentence:"
+msgstr "不要當做句子的結束："
+
+#. i18n: ectx: property (text), widget (QPushButton, remove1)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:436
+#, kde-format
+msgid "R&emove"
+msgstr "移除(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:478
+#, kde-format
+msgid "Accept two uppercase letters in:"
+msgstr "接受兩個大寫字母於："
+
+#. i18n: ectx: property (text), widget (QPushButton, add2)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:497
+#, kde-format
+msgid "Add"
+msgstr "新增"
+
+#. i18n: ectx: property (text), widget (QPushButton, exportAutoCorrection)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:550
+#: pimcommon/templatewidgets/templatelistwidget.cpp:197
+#, kde-format
+msgid "Export..."
+msgstr "匯出..."
+
+#. i18n: ectx: property (text), widget (QPushButton, importAutoCorrection)
+#: pimcommon/autocorrection/ui/autocorrectionwidget.ui:557
+#: pimcommon/templatewidgets/templatelistwidget.cpp:201
+#, kde-format
+msgid "Import..."
+msgstr "匯入..."
+
+#: pimcommon/configureplugins/configurepluginslistwidget.cpp:140
+#, fuzzy, kde-format
+#| msgid "Add..."
+msgid "..."
+msgstr "新增..."
+
+#: pimcommon/configureplugins/configurepluginslistwidget.cpp:142
+#, kde-format
+msgid "Configure"
+msgstr "設定"
+
+#: pimcommon/configureplugins/configurepluginswidget.cpp:56
+#, kde-format
+msgid "Restart is necessary for applying the changes."
+msgstr ""
+
+#: pimcommon/logactivities/logactivitiesdialog.cpp:36
+#: pimcommon/logactivities/logactivitiesdialog.cpp:44
+#, kde-format
+msgid "Log activities"
+msgstr ""
+
+#: pimcommon/logactivities/logactivitiesdialog.cpp:52
+#: pimcommon/translator/translatorwidget.cpp:257
+#: pimcommon/translator/translatorwidget.cpp:260
+#, kde-format
+msgid "Clear"
+msgstr "清除"
+
+#: pimcommon/logactivities/logactivitiesdialog.cpp:79
+#: pimcommon/translator/translatordebugdialog.cpp:80
+#, fuzzy, kde-format
+#| msgid "all files (*)"
+msgid "All Files (*)"
+msgstr "所有檔案 (*)"
+
+#: pimcommon/logactivities/logactivitiesdialog.cpp:81
+#, fuzzy, kde-format
+#| msgid "Save config"
+msgctxt "@title:window"
+msgid "Save Log"
+msgstr "儲存設定"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:47
+#, fuzzy, kde-format
+#| msgid "Share File..."
+msgid "Share On..."
+msgstr "分享檔案..."
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:50
+#, kde-format
+msgctxt "@action:inmenu Share On..."
+msgid "%1"
+msgstr ""
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:98
+#, kde-format
+msgid "Facebook"
+msgstr ""
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:101
+#, kde-format
+msgid "Twitter"
+msgstr ""
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:104
+#, fuzzy, kde-format
+#| msgid "Google"
+msgid "Google Plus"
+msgstr "Google"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:107
+#, kde-format
+msgid "Mail"
+msgstr ""
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:110
+#, kde-format
+msgid "LinkedIn"
+msgstr ""
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:113
+#, fuzzy, kde-format
+#| msgid "Private note"
+msgid "Evernote"
+msgstr "私人便條"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:116
+#, kde-format
+msgid "Pocket"
+msgstr ""
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:119
+#, kde-format
+msgid "LiveJournal"
+msgstr ""
+
+#: pimcommon/templatewidgets/templateeditdialog.cpp:39
+#, kde-format
+msgid "Default template"
+msgstr "預設樣本"
+
+#: pimcommon/templatewidgets/templateeditdialog.cpp:39
+#, kde-format
+msgid "Template"
+msgstr "樣本"
+
+#: pimcommon/templatewidgets/templateeditdialog.cpp:62
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:82
+#, kde-format
+msgid "Do you want to delete selected template?"
+msgstr "您要刪除選取的樣本嗎？"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:82
+#, kde-format
+msgid "Delete template"
+msgstr "刪除樣本"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:146
+#, fuzzy, kde-format
+#| msgid "Insert template"
+msgid "Import Template"
+msgstr "插入樣本"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:155
+#, fuzzy, kde-format
+#| msgid "Load Template"
+msgid "Export Template"
+msgstr "載入樣本"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:169
+#, kde-format
+msgid "Insert template"
+msgstr "插入樣本"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:175
+#, kde-format
+msgid "Add..."
+msgstr "新增..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:181
+#, kde-format
+msgid "Show..."
+msgstr "顯示..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:181
+#, kde-format
+msgid "Modify..."
+msgstr "變更..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:184
+#, kde-format
+msgid "Duplicate"
+msgstr "複製"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:208
+#, kde-format
+msgid "Download new Templates..."
+msgstr "下載新樣本..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:245
+#, kde-format
+msgid "'%1' is not a template file"
+msgstr "%1 不是樣本檔"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:245
+#, kde-format
+msgid "Load Template"
+msgstr "載入樣本"
+
+#: pimcommon/translator/googletranslator.cpp:154
+#, kde-format
+msgid "You used same language for from and to language."
+msgstr "您的來源與目標語言相同。"
+
+#: pimcommon/translator/translatordebugdialog.cpp:32
+#, kde-format
+msgid "Translator Debug"
+msgstr "翻譯除錯"
+
+#: pimcommon/translator/translatordebugdialog.cpp:40
+#, kde-format
+msgid "Save As..."
+msgstr "另存新檔..."
+
+#: pimcommon/translator/translatorutil.cpp:32
+#, kde-format
+msgid "Detect language"
+msgstr "偵測語言"
+
+#: pimcommon/translator/translatorutil.cpp:35
+#, kde-format
+msgid "English"
+msgstr "英語"
+
+#: pimcommon/translator/translatorutil.cpp:38
+#: pimcommon/translator/translatorutil.cpp:101
+#, kde-format
+msgid "Chinese (Simplified)"
+msgstr "簡體中文"
+
+#: pimcommon/translator/translatorutil.cpp:41
+#: pimcommon/translator/translatorutil.cpp:104
+#, kde-format
+msgid "Chinese (Traditional)"
+msgstr "正體中文"
+
+#: pimcommon/translator/translatorutil.cpp:44
+#, kde-format
+msgid "Dutch"
+msgstr "荷蘭語"
+
+#: pimcommon/translator/translatorutil.cpp:47
+#, kde-format
+msgid "French"
+msgstr "法文"
+
+#: pimcommon/translator/translatorutil.cpp:50
+#, kde-format
+msgid "German"
+msgstr "德文"
+
+#: pimcommon/translator/translatorutil.cpp:53
+#, kde-format
+msgid "Greek"
+msgstr "希臘文"
+
+#: pimcommon/translator/translatorutil.cpp:56
+#, kde-format
+msgid "Italian"
+msgstr "義大利文"
+
+#: pimcommon/translator/translatorutil.cpp:59
+#, kde-format
+msgid "Japanese"
+msgstr "日文"
+
+#: pimcommon/translator/translatorutil.cpp:62
+#, kde-format
+msgid "Korean"
+msgstr "韓文"
+
+#: pimcommon/translator/translatorutil.cpp:65
+#, kde-format
+msgid "Portuguese"
+msgstr "葡萄牙文"
+
+#: pimcommon/translator/translatorutil.cpp:68
+#, kde-format
+msgid "Russian"
+msgstr "俄文"
+
+#: pimcommon/translator/translatorutil.cpp:71
+#, kde-format
+msgid "Spanish"
+msgstr "西班牙文"
+
+#: pimcommon/translator/translatorutil.cpp:74
+#, kde-format
+msgid "Afrikaans"
+msgstr "南非荷蘭語"
+
+#: pimcommon/translator/translatorutil.cpp:77
+#, kde-format
+msgid "Albanian"
+msgstr "阿爾巴尼亞語"
+
+#: pimcommon/translator/translatorutil.cpp:80
+#, kde-format
+msgid "Arabic"
+msgstr "阿拉伯文"
+
+#: pimcommon/translator/translatorutil.cpp:83
+#, kde-format
+msgid "Armenian"
+msgstr "亞美尼亞語"
+
+#: pimcommon/translator/translatorutil.cpp:86
+#, kde-format
+msgid "Azerbaijani"
+msgstr "亞塞拜然語"
+
+#: pimcommon/translator/translatorutil.cpp:89
+#, kde-format
+msgid "Basque"
+msgstr "巴斯克語"
+
+#: pimcommon/translator/translatorutil.cpp:92
+#, kde-format
+msgid "Belarusian"
+msgstr "白俄羅斯語"
+
+#: pimcommon/translator/translatorutil.cpp:95
+#, kde-format
+msgid "Bulgarian"
+msgstr "保加利亞語"
+
+#: pimcommon/translator/translatorutil.cpp:98
+#, kde-format
+msgid "Catalan"
+msgstr "加泰羅尼亞語"
+
+#: pimcommon/translator/translatorutil.cpp:107
+#, kde-format
+msgid "Croatian"
+msgstr "克羅埃西亞語"
+
+#: pimcommon/translator/translatorutil.cpp:110
+#, kde-format
+msgid "Czech"
+msgstr "捷克語"
+
+#: pimcommon/translator/translatorutil.cpp:113
+#, kde-format
+msgid "Danish"
+msgstr "丹麥語"
+
+#: pimcommon/translator/translatorutil.cpp:116
+#, kde-format
+msgid "Estonian"
+msgstr "愛沙尼亞語"
+
+#: pimcommon/translator/translatorutil.cpp:119
+#, kde-format
+msgid "Filipino"
+msgstr "菲律賓文"
+
+#: pimcommon/translator/translatorutil.cpp:122
+#, kde-format
+msgid "Finnish"
+msgstr "芬蘭語"
+
+#: pimcommon/translator/translatorutil.cpp:125
+#, kde-format
+msgid "Galician"
+msgstr "加利西亞語"
+
+#: pimcommon/translator/translatorutil.cpp:128
+#, kde-format
+msgid "Georgian"
+msgstr "喬治亞語"
+
+#: pimcommon/translator/translatorutil.cpp:131
+#, kde-format
+msgid "Haitian Creole"
+msgstr "海地克里奧爾文"
+
+#: pimcommon/translator/translatorutil.cpp:134
+#, kde-format
+msgid "Hebrew"
+msgstr "希伯來文"
+
+#: pimcommon/translator/translatorutil.cpp:137
+#, kde-format
+msgid "Hindi"
+msgstr "北印度語"
+
+#: pimcommon/translator/translatorutil.cpp:140
+#, kde-format
+msgid "Hungarian"
+msgstr "匈牙利語"
+
+#: pimcommon/translator/translatorutil.cpp:143
+#, kde-format
+msgid "Icelandic"
+msgstr "冰島語"
+
+#: pimcommon/translator/translatorutil.cpp:146
+#, kde-format
+msgid "Indonesian"
+msgstr "印尼語"
+
+#: pimcommon/translator/translatorutil.cpp:149
+#, kde-format
+msgid "Irish"
+msgstr "愛爾蘭語"
+
+#: pimcommon/translator/translatorutil.cpp:152
+#, kde-format
+msgid "Latvian"
+msgstr "拉脫維亞語"
+
+#: pimcommon/translator/translatorutil.cpp:155
+#, kde-format
+msgid "Lithuanian"
+msgstr "立陶宛語"
+
+#: pimcommon/translator/translatorutil.cpp:158
+#, kde-format
+msgid "Macedonian"
+msgstr "馬其頓語"
+
+#: pimcommon/translator/translatorutil.cpp:161
+#, kde-format
+msgid "Malay"
+msgstr "馬來語"
+
+#: pimcommon/translator/translatorutil.cpp:164
+#, kde-format
+msgid "Maltese"
+msgstr "馬爾他語"
+
+#: pimcommon/translator/translatorutil.cpp:167
+#, kde-format
+msgid "Norwegian"
+msgstr "挪威文"
+
+#: pimcommon/translator/translatorutil.cpp:170
+#, kde-format
+msgid "Persian"
+msgstr "波斯語"
+
+#: pimcommon/translator/translatorutil.cpp:173
+#, kde-format
+msgid "Polish"
+msgstr "波蘭語"
+
+#: pimcommon/translator/translatorutil.cpp:176
+#, kde-format
+msgid "Romanian"
+msgstr "羅馬尼亞語"
+
+#: pimcommon/translator/translatorutil.cpp:179
+#, kde-format
+msgid "Serbian"
+msgstr "塞爾維亞語"
+
+#: pimcommon/translator/translatorutil.cpp:182
+#, kde-format
+msgid "Slovak"
+msgstr "斯洛伐克語"
+
+#: pimcommon/translator/translatorutil.cpp:185
+#, kde-format
+msgid "Slovenian"
+msgstr "斯洛伐尼亞文"
+
+#: pimcommon/translator/translatorutil.cpp:188
+#, kde-format
+msgid "Swahili"
+msgstr "斯華西里語"
+
+#: pimcommon/translator/translatorutil.cpp:191
+#, kde-format
+msgid "Swedish"
+msgstr "瑞典語"
+
+#: pimcommon/translator/translatorutil.cpp:194
+#, kde-format
+msgid "Thai"
+msgstr "泰語"
+
+#: pimcommon/translator/translatorutil.cpp:197
+#, kde-format
+msgid "Turkish"
+msgstr "土耳其語"
+
+#: pimcommon/translator/translatorutil.cpp:200
+#, kde-format
+msgid "Ukrainian"
+msgstr "烏克蘭語"
+
+#: pimcommon/translator/translatorutil.cpp:203
+#, kde-format
+msgid "Urdu"
+msgstr "烏都語"
+
+#: pimcommon/translator/translatorutil.cpp:206
+#, kde-format
+msgid "Vietnamese"
+msgstr "越南語"
+
+#: pimcommon/translator/translatorutil.cpp:209
+#, kde-format
+msgid "Welsh"
+msgstr "威爾斯語"
+
+#: pimcommon/translator/translatorutil.cpp:212
+#, kde-format
+msgid "Yiddish"
+msgstr "意第緒語"
+
+#: pimcommon/translator/translatorwidget.cpp:128
+#, kde-format
+msgid "Problem when connecting to the translator web site."
+msgstr "連線到翻譯者網站時發生問題。"
+
+#: pimcommon/translator/translatorwidget.cpp:225
+#: pimcommon/translator/translatorwidget.cpp:228
+#, kde-format
+msgid "Close"
+msgstr "關閉"
+
+#: pimcommon/translator/translatorwidget.cpp:234
+#, kde-format
+msgctxt "Translate from language"
+msgid "From:"
+msgstr "寄件者："
+
+#: pimcommon/translator/translatorwidget.cpp:240
+#, kde-format
+msgctxt "Translate to language"
+msgid "To:"
+msgstr "收件者："
+
+#: pimcommon/translator/translatorwidget.cpp:252
+#, kde-format
+msgctxt "Invert language choices so that from becomes to and to becomes from"
+msgid "Invert"
+msgstr "反轉"
+
+#: pimcommon/translator/translatorwidget.cpp:265
+#: pimcommon/translator/translatorwidget.cpp:268
+#, kde-format
+msgid "Translate"
+msgstr "翻譯"
+
+#: pimcommon/translator/translatorwidget.cpp:275
+#, kde-format
+msgid "Debug"
+msgstr "除錯"
+
+#: pimcommon/translator/translatorwidget.cpp:292
+#, kde-format
+msgid "Drag text that you want to translate."
+msgstr "拖曳您要翻譯的文字。"
+
+#: pimcommon/translator/translatorwidget.cpp:360
+#, kde-format
+msgid "No network connection detected, we cannot translate text."
+msgstr "沒有偵測到網路連線，無法翻譯文字。"
+
+#: pimcommon/translator/translatorwidget.cpp:360
+#, kde-format
+msgid "No network"
+msgstr "沒有網路"
+
+#: pimcommon/translator/translatorwidget.cpp:396
+#, kde-format
+msgid "Translate error"
+msgstr "翻譯錯誤"
+
+#: pimcommon/util/pimutil.cpp:78
+#, kde-format
+msgid ""
+"Could not write the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr ""
+"無法寫入檔案 %1：\n"
+"%2 中有錯誤描述。"
+
+#: pimcommon/util/pimutil.cpp:82
+#, kde-format
+msgid "Save File Error"
+msgstr "檔案儲存錯誤"
+
+#: pimcommon/util/pimutil.cpp:114
+#, kde-format
+msgid ""
+"Could not read the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr ""
+"無法讀取檔案 %1：\n"
+"\"%2\" 為詳細的錯誤描述。"
+
+#: pimcommon/util/pimutil.cpp:118
+#, kde-format
+msgid "Load File Error"
+msgstr "載入檔案時發生錯誤"
+
+#: pimcommon/widgets/configureimmutablewidgetutils.cpp:38
+#, kde-format
+msgid ""
+"<qt><p>This setting has been fixed by your administrator.</p><p>If you think "
+"this is an error, please contact him.</p></qt>"
+msgstr ""
+"<qt><p>這個設定已經被您的管理者修改過。</p><p>如果您覺得有問題，請與他聯絡。"
+"</p></qt>"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:40
+#, kde-format
+msgid "Change Case"
+msgstr "變更大小寫"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:41
+#, kde-format
+msgid "Uppercase"
+msgstr "大寫"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:44
+#, kde-format
+msgid "Sentence case"
+msgstr "句子的大小寫"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:47
+#, kde-format
+msgid "Lowercase"
+msgstr "小寫"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:50
+#, kde-format
+msgid "Reverse Case"
+msgstr "反轉大小寫"
+
+#: pimcommon/widgets/lineeditwithcompleterng.cpp:55
+#, kde-format
+msgid "Clear History"
+msgstr "清除歷史"
+
+#: pimcommon/widgets/renamefiledialog.cpp:126
+#, kde-format
+msgid "File Already Exists"
+msgstr "檔案已存在"
+
+#: pimcommon/widgets/renamefiledialog.cpp:129
+#, kde-kuit-format
+msgid ""
+"A file named <filename>%1</filename> already exists. Do you want to "
+"overwrite it?"
+msgstr "檔案 <filename>%1</filename> 已存在。您要覆寫它嗎？"
+
+#: pimcommon/widgets/renamefiledialog.cpp:139
+#, kde-format
+msgid "Suggest New &Name"
+msgstr "建議新的名稱(&N)"
+
+#: pimcommon/widgets/renamefiledialog.cpp:147
+#, kde-format
+msgid "&Ignore"
+msgstr "忽略(&I)"
+
+#: pimcommon/widgets/renamefiledialog.cpp:150
+#, kde-format
+msgid "&Rename"
+msgstr "重新命名(&R)"
+
+#: pimcommon/widgets/renamefiledialog.cpp:160
+#, kde-format
+msgid "Appl&y to All"
+msgstr "全部套用(&Y)"
+
+#: pimcommon/widgets/renamefiledialog.cpp:209
+#, kde-format
+msgid "This filename \"%1\" already exists."
+msgstr "檔名 \"%1\" 已存在。"
+
+#: pimcommon/widgets/renamefiledialog.cpp:209
+#, kde-format
+msgid "File already exists"
+msgstr "檔案已存在"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:97
+#, kde-format
+msgid "&Add..."
+msgstr "新增(&A)..."
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:108
+#, kde-format
+msgid "&Modify..."
+msgstr "變更(&M)..."
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:121
+#, kde-format
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:254
+#, kde-format
+msgid "New Value"
+msgstr "新的數值："
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:285
+#, fuzzy, kde-format
+#| msgid "Do you want to delete selected template?"
+msgid "Do you want to remove selected text?"
+msgstr "您要刪除選取的樣本嗎？"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:297
+#, kde-format
+msgid "Change Value"
+msgstr "改變值"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:336
+#, kde-format
+msgid "New entry:"
+msgstr "新的資料："
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:102
+#, kde-format
+msgid "&User identifier:"
+msgstr "使用者身份(&U)："
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:110
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The User Identifier is the login of the user on the IMAP server. This can be "
+"a simple user name or the full email address of the user; the login for your "
+"own account on the server will tell you which one it is."
+msgstr ""
+"使用者身份是要登入 IMAP 伺服器的身份。可以是簡單的使用者名稱，或是整個電子信"
+"件地址。您登入的 IMAP 伺服器會告訴你要用哪一個。"
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:114
+#, kde-format
+msgctxt "select an email address"
+msgid "Se&lect..."
+msgstr "選擇(&L)..."
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:117
+#, kde-format
+msgid "Permissions"
+msgstr "權限"
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:136
+#, kde-format
+msgid "<b>Note: </b>Renaming requires write permissions on the parent folder."
+msgstr "<b>注意：</b>要重新命名，您必須有父資料夾的寫入權限。"
+
+#: pimcommonakonadi/acl/acllistview.cpp:64
+#, kde-format
+msgid "Folder cannot be administrated."
+msgstr ""
+
+#: pimcommonakonadi/acl/aclmanager.cpp:173
+#, kde-format
+msgid "Add Entry..."
+msgstr "新增項目..."
+
+#: pimcommonakonadi/acl/aclmanager.cpp:178
+#, kde-format
+msgid "Edit Entry..."
+msgstr "編輯項目..."
+
+#: pimcommonakonadi/acl/aclmanager.cpp:184
+#, kde-format
+msgid "Remove Entry"
+msgstr "移除項目"
+
+#: pimcommonakonadi/acl/aclmanager.cpp:229
+#, kde-format
+msgid "Add ACL"
+msgstr "新增存取控制清單"
+
+#: pimcommonakonadi/acl/aclmanager.cpp:256
+#, kde-format
+msgid "Edit ACL"
+msgstr "編輯存取控制清單"
+
+#: pimcommonakonadi/acl/aclmanager.cpp:296
+#, kde-format
+msgid ""
+"Do you really want to remove your own permissions for this folder? You will "
+"not be able to access it afterwards."
+msgstr "您確定要移除您對這個資料夾的權限嗎？此後您就無法再存取這個資料夾了。"
+
+#: pimcommonakonadi/acl/aclmanager.cpp:304
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you really want to remove your own permissions for this folder? You "
+#| "will not be able to access it afterwards."
+msgid "Do you really want to remove these permissions for this folder?"
+msgstr "您確定要移除您對這個資料夾的權限嗎？此後您就無法再存取這個資料夾了。"
+
+#: pimcommonakonadi/acl/aclmodifyjob.cpp:237
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you really want to remove your own permissions for this folder? You "
+#| "will not be able to access it afterwards."
+msgid ""
+"Do you really want to apply the folder's permissions to these subfolders?"
+msgstr "您確定要移除您對這個資料夾的權限嗎？此後您就無法再存取這個資料夾了。"
+
+#: pimcommonakonadi/acl/aclmodifyjob.cpp:239
+#, fuzzy, kde-format
+#| msgid "Permissions"
+msgid "Apply Permissions"
+msgstr "權限"
+
+#: pimcommonakonadi/acl/aclutils.cpp:32
+#, kde-format
+msgctxt "Permissions"
+msgid "None"
+msgstr "無"
+
+#: pimcommonakonadi/acl/aclutils.cpp:37
+#, kde-format
+msgctxt "Permissions"
+msgid "Read"
+msgstr "讀取"
+
+#: pimcommonakonadi/acl/aclutils.cpp:43
+#, kde-format
+msgctxt "Permissions"
+msgid "Append"
+msgstr "附加"
+
+#: pimcommonakonadi/acl/aclutils.cpp:51
+#, kde-format
+msgctxt "Permissions"
+msgid "Write"
+msgstr "寫入"
+
+#: pimcommonakonadi/acl/aclutils.cpp:59
+#, kde-format
+msgctxt "Permissions"
+msgid "All"
+msgstr "全部"
+
+#: pimcommonakonadi/acl/aclutils.cpp:96
+#, kde-format
+msgid "Custom Permissions (%1)"
+msgstr "自訂權限 (%1)"
+
+#: pimcommonakonadi/acl/collectionaclpage.cpp:57
+#, kde-format
+msgid "Access Control"
+msgstr "權限控制"
+
+#: pimcommonakonadi/acl/collectionaclwidget.cpp:91
+#, kde-format
+msgid "Apply permissions on all &subfolders."
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:52
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:157
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:215
+#, kde-format
+msgctxt "type of folder content"
+msgid "Mail"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:54
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:160
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:194
+#, kde-format
+msgctxt "type of folder content"
+msgid "Calendar"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:56
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:163
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:197
+#, kde-format
+msgctxt "type of folder content"
+msgid "Contacts"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:58
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:166
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:200
+#, fuzzy, kde-format
+#| msgid "Add Note"
+msgctxt "type of folder content"
+msgid "Notes"
+msgstr "新增備忘"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:60
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:169
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:191
+#, kde-format
+msgctxt "type of folder content"
+msgid "Tasks"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:62
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:172
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:203
+#, kde-format
+msgctxt "type of folder content"
+msgid "Journal"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:64
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:175
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:206
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "type of folder content"
+msgid "Configuration"
+msgstr "設定"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:66
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:178
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:209
+#, kde-format
+msgctxt "type of folder content"
+msgid "Freebusy"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:68
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:181
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:212
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "type of folder content"
+msgid "Files"
+msgstr "檔案"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:70
+#, kde-format
+msgctxt "type of folder content"
+msgid "Unknown"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/contenttypewidget.cpp:48
+#, kde-format
+msgid "&Folder contents:"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:44
+#, kde-format
+msgid "Generate free/&busy and activate alarms for:"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:52
+#, kde-format
+msgid "Nobody"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:53
+#, kde-format
+msgid "Admins of This Folder"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:54
+#, kde-format
+msgid "All Readers of This Folder"
+msgstr ""
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:56
+#, kde-format
+msgid ""
+"This setting defines which users sharing this folder should get \"busy\" "
+"periods in their freebusy lists and should see the alarms for the events or "
+"tasks in this folder. The setting applies to Calendar and Task folders only "
+"(for tasks, this setting is only used for alarms).\n"
+"\n"
+"Example use cases: if the boss shares a folder with his secretary, only the "
+"boss should be marked as busy for his meetings, so he should select \"Admins"
+"\", since the secretary has no admin rights on the folder.\n"
+"On the other hand if a working group shares a Calendar for group meetings, "
+"all readers of the folders should be marked as busy for meetings.\n"
+"A company-wide folder with optional events in it would use \"Nobody\" since "
+"it is not known who will go to those events."
+msgstr ""
+
+#: pimcommonakonadi/folderdialog/checkedcollectionwidget.cpp:105
+#, kde-format
+msgid "Search..."
+msgstr "搜尋..."
+
+#: pimcommonakonadi/folderdialog/selectmulticollectiondialog.cpp:63
+#, kde-format
+msgid "Select Multiple Folders"
+msgstr "選擇多個資料夾"
+
+#: pimcommonakonadi/manageserversidesubscription/manageserversidesubscriptionjob.cpp:88
+#, kde-format
+msgid ""
+"IMAP server not configured yet. Please configure the server in the IMAP "
+"account before setting up server-side subscription."
+msgstr ""
+
+#: pimcommonakonadi/manageserversidesubscription/manageserversidesubscriptionjob.cpp:90
+#, kde-format
+msgid ""
+"Log in failed, please configure the IMAP account before setting up server-"
+"side subscription."
+msgstr ""
+
+#: pimcommonakonadi/util/createresource.cpp:78
+#, kde-format
+msgid "Resource type '%1' is not available."
+msgstr "無法取得資源型態 %1"
+
+#: pimcommonakonadi/util/createresource.cpp:89
+#, kde-format
+msgid "Resource '%1' is already set up."
+msgstr "資源 %1 早已設定。"
+
+#: pimcommonakonadi/util/createresource.cpp:95
+#, kde-format
+msgid "Creating resource instance for '%1'..."
+msgstr "建立 %1 的資源實體中..."
+
+#: pimcommonakonadi/util/createresource.cpp:101
+#, kde-format
+msgid "Configuring resource instance..."
+msgstr "設定資源實體中..."
+
+#: pimcommonakonadi/util/createresource.cpp:104
+#, kde-format
+msgid "Unable to configure resource instance."
+msgstr "無法設定資源實體。"
+
+#: pimcommonakonadi/util/createresource.cpp:119
+#, kde-format
+msgid "Could not convert value of setting '%1' to required type %2."
+msgstr "無法轉換設定 %1 的值為需要的型態 %2。"
+
+#: pimcommonakonadi/util/createresource.cpp:125
+#, kde-format
+msgid "Could not set setting '%1': %2"
+msgstr "無法設定 %1：%2"
+
+#: pimcommonakonadi/util/createresource.cpp:135
+#, kde-format
+msgid "Resource setup completed."
+msgstr "資源設定完成。"
+
+#: pimcommonakonadi/util/createresource.cpp:139
+#, kde-format
+msgid "Failed to create resource instance: %1"
+msgstr "建立資源實體失敗：%1"
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:75
+#, fuzzy, kde-format
+#| msgid "Edit Note"
+msgctxt "@title:window"
+msgid "Edit Note"
+msgstr "編輯備忘"
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:78
+#, fuzzy, kde-format
+#| msgid "Delete Note"
+msgctxt "@action:button"
+msgid "Delete Note"
+msgstr "刪除備忘"
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:82
+#, fuzzy, kde-format
+#| msgid "Add Note"
+msgctxt "@title:window"
+msgid "Add Note"
+msgstr "新增備忘"
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:87
+#, kde-format
+msgid "Enter the text that should be stored as a note to the mail:"
+msgstr "輸入要在郵件中存成備忘的文字："
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:97
+#, fuzzy, kde-format
+#| msgid "Note type:"
+msgctxt "@label:listbox"
+msgid "Note type:"
+msgstr "通知型態："
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:101
+#, fuzzy, kde-format
+#| msgid "Private note"
+msgctxt "@item:inlistbox"
+msgid "Private note"
+msgstr "私人便條"
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:102
+#, fuzzy, kde-format
+#| msgid "Shared note"
+msgctxt "@item:inlistbox"
+msgid "Shared note"
+msgstr "分享便條"
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:144
+#, kde-format
+msgid "Do you really want to delete this note?"
+msgstr "您確定要刪除此備忘嗎？"
+
+#: pimcommonakonadi/widgets/annotationdialog.cpp:145
+#, fuzzy, kde-format
+#| msgid "Delete Note?"
+msgctxt "@title:window"
+msgid "Delete Note?"
+msgstr "要刪除備忘嗎？"
+
+#~ msgid "Authorize"
+#~ msgstr "認證"
+
+#~ msgid "Username:"
+#~ msgstr "使用者名稱："
+
+#~ msgid "Password:"
+#~ msgstr "密碼："
+
+#~ msgid "Authorization canceled."
+#~ msgstr "認證已取消。"
+
+#~ msgid "Unknown Error \"%1\""
+#~ msgstr "未知的錯誤 \"%1\""
+
+#~ msgid "Box"
+#~ msgstr "Box"
+
+#~ msgid ""
+#~ "Box.com is a file hosting that offers cloud storage, file "
+#~ "synchronization, and client software."
+#~ msgstr "Box.com 是一個提供雲儲存，檔案同步與客戶端軟體的檔案伺服器。"
+
+#~ msgid "Folder"
+#~ msgstr "資料夾"
+
+#~ msgid "New name"
+#~ msgstr "新的名稱"
+
+#~ msgid "Some characters are not allowed."
+#~ msgstr "有些字元不能使用。"
+
+#~ msgid "New name:"
+#~ msgstr "新名稱："
+
+#~ msgid "Some characters (%1) are not allowed."
+#~ msgstr "有些字元（%1）不能使用。"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Delete File"
+#~ msgstr "刪除檔案"
+
+#~ msgid "Delete Folder"
+#~ msgstr "刪除資料夾"
+
+#~ msgid "Delete Files"
+#~ msgstr "刪除檔案"
+
+#~ msgid "Delete Folders"
+#~ msgstr "刪除資料夾"
+
+#~ msgid "Select file/folder to delete:"
+#~ msgstr "選擇要刪除的檔案/資料夾："
+
+#~ msgid "Download File"
+#~ msgstr "下載檔案"
+
+#~ msgid "Download"
+#~ msgstr "下載"
+
+#~ msgid "Select file to download:"
+#~ msgstr "選擇要下載的檔案："
+
+#~ msgid ""
+#~ "A download is still in progress. Do you want to cancel it and close "
+#~ "dialog?"
+#~ msgstr "下載仍在進行中。您要取消並關閉對話框嗎？"
+
+#~ msgid "Download in progress"
+#~ msgstr "下載進行中"
+
+#~ msgid "File was correctly downloaded."
+#~ msgstr "檔案已成功下載。"
+
+#, fuzzy
+#~| msgid "Download file"
+#~ msgctxt "@title:window"
+#~ msgid "Download file"
+#~ msgstr "下載檔案"
+
+#~ msgid "Error during download file."
+#~ msgstr "下載檔案時發生錯誤。"
+
+#~ msgid "Filename already exists. Do you want to overwrite it?"
+#~ msgstr "檔名已存在。您要覆寫它嗎？"
+
+#, fuzzy
+#~| msgid "Overwrite file"
+#~ msgctxt "@title:window"
+#~ msgid "Overwrite file"
+#~ msgstr "覆寫檔案"
+
+#, fuzzy
+#~| msgid "Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "Dropbox access is not authorized. Error message: %1"
+#~ msgstr "Dropbox 未通過認證。錯誤訊息：%1"
+
+#~ msgid "Dropbox"
+#~ msgstr "Dropbox"
+
+#~ msgid ""
+#~ "Dropbox is a file hosting service operated by Dropbox, Inc. that offers "
+#~ "cloud storage, file synchronization, and client software."
+#~ msgstr ""
+#~ "Dropbox 是一個提供雲儲存，檔案同步與客戶端軟體的檔案服務，由 Dropbox, "
+#~ "Inc. 營運。"
+
+#~ msgid "Storage path:"
+#~ msgstr "儲存路徑："
+
+#~ msgid "Hubic"
+#~ msgstr "Hubic"
+
+#~ msgid ""
+#~ "Hubic is a file hosting service operated by Ovh, Inc. that offers cloud "
+#~ "storage, file synchronization, and client software."
+#~ msgstr ""
+#~ "Hubic 是一個提供雲儲存，檔案同步與客戶端軟體的檔案服務，由 Ovh, Inc. 營"
+#~ "運。"
+
+#~ msgid "Request Token returns an error: %1"
+#~ msgstr "請求的標記回傳了錯誤：%1"
+
+#~ msgid "Access Token returns an error: %1"
+#~ msgstr "存取標記回傳了錯誤：%1"
+
+#~ msgid "Upload File returns an error: %1"
+#~ msgstr "上傳檔案回傳了錯誤：%1"
+
+#~ msgid "Create Folder returns an error: %1"
+#~ msgstr "建立資料夾回傳了錯誤：%1"
+
+#~ msgid "Get account info returns an error: %1"
+#~ msgstr "取得帳號資訊回傳了錯誤：%1"
+
+#~ msgid "List folder returns an error: %1"
+#~ msgstr "列出資料夾回傳了錯誤：%1"
+
+#~ msgid "Share Link returns an error: %1"
+#~ msgstr "分享連結回傳了錯誤：%1"
+
+#~ msgid "Create Service Folder returns an error: %1"
+#~ msgstr "建立服務資料夾回傳了錯誤：%1"
+
+#~ msgid "Download file returns an error: %1"
+#~ msgstr "下載檔案回傳了錯誤：%1"
+
+#~ msgid "Delete File returns an error: %1"
+#~ msgstr "刪除檔案回傳了錯誤：%1"
+
+#~ msgid "Delete Folder returns an error: %1"
+#~ msgstr "刪除資料夾回傳了錯誤：%1"
+
+#~ msgid "Rename Folder returns an error: %1"
+#~ msgstr "重新命名資料夾回傳了錯誤：%1"
+
+#~ msgid "Rename File returns an error: %1"
+#~ msgstr "重新命名檔案回傳了錯誤：%1"
+
+#~ msgid "Move File returns an error: %1"
+#~ msgstr "移動檔案回傳了錯誤：%1"
+
+#~ msgid "Move Folder returns an error: %1"
+#~ msgstr "移動資料夾回傳了錯誤：%1"
+
+#~ msgid "Copy File returns an error: %1"
+#~ msgstr "複製檔案回傳了錯誤：%1"
+
+#~ msgid "Copy Folder returns an error: %1"
+#~ msgstr "複製資料夾回傳了錯誤：%1"
+
+#~ msgid "Add Service"
+#~ msgstr "新增服務"
+
+#~ msgid "All services were added."
+#~ msgstr "所有服務均已加入。"
+
+#~ msgid "Authenticate"
+#~ msgstr "認證"
+
+#~ msgid "Unable to get account information."
+#~ msgstr "無法取得帳號資訊。"
+
+#~ msgid "Account size:"
+#~ msgstr "帳號大小："
+
+#~ msgid "Quota:"
+#~ msgstr "大小限制："
+
+#~ msgid "Shared:"
+#~ msgstr "共享："
+
+#~ msgid "Do you want to delete this service '%1'?"
+#~ msgstr "您要刪除此服務 '%1' 嗎？"
+
+#~ msgid "Delete Service"
+#~ msgstr "刪除服務"
+
+#~ msgid "Authentication Failed"
+#~ msgstr "認證失敗"
+
+#~ msgid "Name: %1"
+#~ msgstr "名稱：%1"
+
+#~ msgid "Account size: %1"
+#~ msgstr "帳號大小：%1"
+
+#~ msgid "Quota: %1"
+#~ msgstr "大小限制：%1"
+
+#~ msgid "Shared: %1"
+#~ msgstr "共享：%1"
+
+#~ msgid "Storage service"
+#~ msgstr "儲存服務"
+
+#~ msgid "No Storage service configured"
+#~ msgstr "沒有設定儲存服務"
+
+#~ msgid "Delete Folder..."
+#~ msgstr "刪除資料夾..."
+
+#~ msgid "Download File..."
+#~ msgstr "下載檔案..."
+
+#~ msgid "Upload File..."
+#~ msgstr "上傳檔案..."
+
+#~ msgid "Share File..."
+#~ msgstr "分享檔案..."
+
+#~ msgid "Delete File..."
+#~ msgstr "刪除檔案..."
+
+#~ msgid "Account Info..."
+#~ msgstr "帳號資訊..."
+
+#~ msgid "There is still an upload in progress."
+#~ msgstr "目前仍有上傳進行中。"
+
+#~ msgid "File to upload"
+#~ msgstr "要上傳的檔案"
+
+#~ msgid "Type:"
+#~ msgstr "型態："
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "Name of file or folder"
+#~ msgid "Name:"
+#~ msgstr "名稱："
+
+#~ msgid "Last Modified:"
+#~ msgstr "最後變更："
+
+#~ msgid "Created:"
+#~ msgstr "建立時間："
+
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgid "WebDav"
+#~ msgstr "WebDav"
+
+#~ msgid "WebDav Settings"
+#~ msgstr "WebDav 設定"
+
+#~ msgid "Service Location (e.g. https://dav.example.com/)"
+#~ msgstr "服務位置（例：https://dav.example.com/）"
+
+#~ msgid "Public location (Optional)"
+#~ msgstr "公開位置（選擇性）"
+
+#~ msgid "Directory"
+#~ msgstr "目錄"
+
+#~ msgid "Webdav"
+#~ msgstr "Webdav"
+
+#~ msgid ""
+#~ "The WebDAV service allows access to any Web application that uses the "
+#~ "WebDAV protocol, such as ownCloud, Kolab, and others."
+#~ msgstr ""
+#~ "WebDAV 服務允許存取任何使用 WebDAV 協定的網頁應用程式，如 ownCloud，Kolab "
+#~ "等等。"
+
+#~ msgid "Default Download Folder:"
+#~ msgstr "預設下載資料夾："
+
+#~ msgid "%1 on %2"
+#~ msgstr "%1 於 %2"
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Created"
+#~ msgstr "建立時間"
+
+#~ msgid "Last Modified"
+#~ msgstr "最後變更"
+
+#~ msgid "Up"
+#~ msgstr "上"
+
+#~ msgid "Properties"
+#~ msgstr "屬性"
+
+#~ msgid "YouSendIt"
+#~ msgstr "YouSendIt"
+
+#~ msgid "Email:"
+#~ msgstr "電子郵件："
+
+#~ msgid ""
+#~ "Authentication failed. Server returns this error:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "認證失敗。伺服器傳回了錯誤：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "YouSendIt is a file hosting that offers cloud storage, file "
+#~ "synchronization, and client software."
+#~ msgstr "YouSendIt 是一個提供雲儲存，檔案同步與客戶端軟體的檔案伺服器。"
+
+#~ msgid "writable:"
+#~ msgstr "可寫入："
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "GoogleDrive"
+#~ msgstr "Google 雲端硬碟"
+
+#~ msgid ""
+#~ "Googledrive is a file hosting that offers cloud storage, file "
+#~ "synchronization, and client software."
+#~ msgstr "Google 雲端硬碟是一個提供雲儲存，檔案同步與客戶端軟體的檔案伺服器。"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "@action:button"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "&Overwrite"
+#~ msgstr "覆寫(&O)"
+
+#~ msgid "Configure engine"
+#~ msgstr "設定引擎"
+
+#~ msgid "Select Short URL server:"
+#~ msgstr "選擇短網址產生伺服器："
+
+#~ msgid ""
+#~ "Error reported by server:\n"
+#~ "'%1'"
+#~ msgstr ""
+#~ "伺服器回報的錯誤：\n"
+#~ "'%1'"
+
+#~ msgid "In progress to generate short url..."
+#~ msgstr "產生短網址中..."
+
+#~ msgid "Configure..."
+#~ msgstr "設定..."
+
+#~ msgid "Convert"
+#~ msgstr "轉換"
+
+#, fuzzy
+#~| msgid "Insert Short Url"
+#~ msgid "Insert Short URL"
+#~ msgstr "插入短網址"
+
+#~ msgid "Original url:"
+#~ msgstr "原始網址："
+
+#~ msgid "Copy to clipboard"
+#~ msgstr "複製到剪貼簿"
+
+#~ msgid "Short url:"
+#~ msgstr "短網址："
+
+#, fuzzy
+#~| msgid "Open Short Url"
+#~ msgid "Open Short URL"
+#~ msgstr "開啟短網址"
+
+#~ msgid "No network connection detected, we cannot shorten url."
+#~ msgstr "沒有偵測到網路連線，無法縮短網址。"
+
+#~ msgid "An error occurs: \"%1\""
+#~ msgstr "發生錯誤：\"%1\""
+
+#, fuzzy
+#~| msgid "&Translator"
+#~ msgid "Translator"
+#~ msgstr "翻譯者(&T)"
+
+#, fuzzy
+#~| msgid "Generate Shorten Url"
+#~ msgid "Generate Shortened URL"
+#~ msgstr "產生短網址"
+
+#~ msgid "&Translator"
+#~ msgstr "翻譯者(&T)"
+
+#~ msgid "Authentication Canceled."
+#~ msgstr "認證已取消。"
+
+#~ msgid "Spell Checking Language"
+#~ msgstr "拼字檢查語言"
+
+#~ msgid ""
+#~ "End of message reached.\n"
+#~ "Phrase '%1' could not be found."
+#~ msgstr ""
+#~ "已達訊息結尾。\n"
+#~ "找不到「%1」。"
+
+#~ msgctxt "Replace text"
+#~ msgid "Replace:"
+#~ msgstr "取代："
+
+#~ msgid "Replace All"
+#~ msgstr "全部取代"
+
+#~ msgctxt "Find text"
+#~ msgid "F&ind:"
+#~ msgstr "尋找(&I)："
+
+#~ msgid "Text to search for"
+#~ msgstr "要搜尋的文字"
+
+#~ msgctxt "Find and go to the next search match"
+#~ msgid "Next"
+#~ msgstr "下一個"
+
+#~ msgid "Jump to next match"
+#~ msgstr "移至下一個符合"
+
+#~ msgctxt "Find and go to the previous search match"
+#~ msgid "Previous"
+#~ msgstr "前一個"
+
+#~ msgid "Jump to previous match"
+#~ msgstr "移至上一個符合。"
+
+#~ msgid "Options"
+#~ msgstr "選項"
+
+#~ msgid "Modify search behavior"
+#~ msgstr "變更搜尋行為"
+
+#~ msgid "Case sensitive"
+#~ msgstr "區分大小寫"
+
+#~ msgid "Whole word"
+#~ msgstr "整個單字"
+
+#~ msgid "Go to Line:"
+#~ msgstr "跳至行號："
+
+#~ msgid "Go"
+#~ msgstr "前往"
+
+#~ msgid "Replace..."
+#~ msgstr "取代..."
+
+#~ msgid "Check Spelling..."
+#~ msgstr "拼字檢查..."
+
+#~ msgid "Auto Spell Check"
+#~ msgstr "自動拼字檢查"
+
+#~ msgid "Speak Text"
+#~ msgstr "唸出文字"
+
+#~ msgid "Nothing to spell check."
+#~ msgstr "沒有要做拼字檢查的東西"
+
+#~ msgid "Allow Tabulations"
+#~ msgstr "允許跳格"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "Pause"
+#~ msgstr "暫停"
+
+#~ msgid "Play"
+#~ msgstr "遊戲"
+
+#~ msgid "Configure Text-To-Speech"
+#~ msgstr "設定文字轉語音"
+
+#~ msgid "Volume:"
+#~ msgstr "音量："
+
+#~ msgid "Rate:"
+#~ msgstr "頻率："
+
+#~ msgid "Pitch:"
+#~ msgstr "音準："
+
+#~ msgid "Language:"
+#~ msgstr "語言："
+
+#, fuzzy
+#~| msgid "Configure..."
+#~ msgid "Configure Web Shortcuts..."
+#~ msgstr "設定..."
+
+#~ msgid "Use Libravatar"
+#~ msgstr "使用 Libravatar 函式庫"
+
+#~ msgid "Fallback to Gravatar"
+#~ msgstr "回到 Gravatar 服務"
+
+#, fuzzy
+#~| msgid "Search..."
+#~ msgid "&Search"
+#~ msgstr "搜尋..."
+
+#, fuzzy
+#~| msgid "No gravatar found."
+#~ msgid "No Gravatar found."
+#~ msgstr "找不到 Gravatar 頭像。"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Tinyurl"
+#~ msgstr "Tinyurl"
+
+#~ msgid "Migre.Me"
+#~ msgstr "Migre.Me"
+
+#~ msgid "TriopAB"
+#~ msgstr "TriopAB"
+
+#~ msgid "Ur1Ca"
+#~ msgstr "Ur1Ca"
+
+#~ msgid "IsGd"
+#~ msgstr "IsGd"
+
+#~ msgid "Do you want to remove account '%1'?"
+#~ msgstr "您確定要移除帳號 %1 嗎？"
+
+#~ msgid "Remove account?"
+#~ msgstr "要移除帳號嗎？"
+
+#~ msgid "Incoming accounts (add at least one):"
+#~ msgstr "收信帳號（至少新增一個帳號）："
+
+#~ msgid "A&dd..."
+#~ msgstr "新增(&D)..."
+
+#~ msgid "Restart"
+#~ msgstr "重新啟動"
+
+#~ msgid "Open Address Book"
+#~ msgstr "開啟通訊錄..."
+
+#~ msgid "searchbutton"
+#~ msgstr "searchbutton"
+
+#~ msgid "No suggestions for %1"
+#~ msgstr "沒有對 %1 的建議"
+
+#~ msgid "Ignore"
+#~ msgstr "忽略"
+
+#~ msgid "Add to Dictionary"
+#~ msgstr "加到字典中"
+
+#, fuzzy
+#~| msgid "Add Autocorrection Entry"
+#~ msgid "AutoCorrectionTest_Gui"
+#~ msgstr "新增自動修正項目"
+
+#, fuzzy
+#~| msgid "Export Autocorrection File"
+#~ msgid "Test for autocorrection widget"
+#~ msgstr "匯入自動修正檔"
+
+#, fuzzy
+#~| msgid "Select Multiple Folders"
+#~ msgid "SelectMultiCollectiontest_Gui"
+#~ msgstr "選擇多個資料夾"
+
+#, fuzzy
+#~| msgid "&Rename"
+#~ msgid "Filename"
+#~ msgstr "重新命名(&R)"
+
+#, fuzzy
+#~| msgid "name:"
+#~ msgid "Filename:"
+#~ msgstr "名稱："
+
+#, fuzzy
+#~| msgid "Folder"
+#~ msgid "Folder Name"
+#~ msgstr "資料夾"
+
+#, fuzzy
+#~| msgid "Folder"
+#~ msgid "Folder:"
+#~ msgstr "資料夾"
+
+#, fuzzy
+#~| msgid "Storage service"
+#~ msgid "storageservice_Gui"
+#~ msgstr "儲存服務"
+
+#, fuzzy
+#~| msgid "Storage service"
+#~ msgid "Test for storageservice"
+#~ msgstr "儲存服務"
+
+#, fuzzy
+#~| msgid "Webdav"
+#~ msgid "webdav_Gui"
+#~ msgstr "Webdav"
+
+#, fuzzy
+#~| msgid "Translator Debug"
+#~ msgid "TranslatorTest_Gui"
+#~ msgstr "翻譯除錯"
+
+#, fuzzy
+#~| msgid "Short url:"
+#~ msgid "Short url"
+#~ msgstr "短網址："
+
+#~ msgid ""
+#~ "Beginning of message reached.\n"
+#~ "Phrase '%1' could not be found."
+#~ msgstr ""
+#~ "已達訊息開頭。\n"
+#~ "找不到「%1」。"
+
+#~ msgid "Starting Jovie Text-to-Speech Service Failed"
+#~ msgstr "啟動 Jovie 文字轉語音服務失敗"
+
+#~ msgid "UbuntuOne"
+#~ msgstr "UbuntuOne"
+
+#~ msgid "Ubuntu One"
+#~ msgstr "Ubuntu One"
+
+#~ msgid ""
+#~ "UbuntuOne is a file hosting service operated by Canonical. that offers "
+#~ "cloud storage, file synchronization, and client software."
+#~ msgstr ""
+#~ "UbuntuOne 是一個提供雲儲存，檔案同步與客戶端軟體的檔案服務，由 Canonical "
+#~ "營運。"
+
+#~ msgid "File is public:"
+#~ msgstr "檔案為公開："
+
+#~ msgid "Public link:"
+#~ msgstr "公開連結："
+
+#~ msgid "Modify"
+#~ msgstr "變更"
+
+#~ msgid "Last Changed:"
+#~ msgstr "最後變更："
+
+#~ msgid "Last Modifier:"
+#~ msgstr "最後變更者："
+
+#, fuzzy
+#~| msgid "Name: %1"
+#~ msgid "name: %1"
+#~ msgstr "名稱：%1"
+
+#~ msgid "Search with nepomukshow..."
+#~ msgstr "以 nepomukshow 搜尋..."
+
+#~ msgid "Nepomuk Debug"
+#~ msgstr "Nepomuk 除錯"
+
+#~ msgid "Search info with nepomukshow..."
+#~ msgstr "以 nepomukshow 搜尋資訊..."
+
+#~ msgid "Sorry you don't have \"nepomukshow\" installed on your computer."
+#~ msgstr "抱歉，您的系統中未安裝 \"nepomukshow\"。"
+
+#~ msgid "Sorry there is a problem with virtuoso."
+#~ msgstr "抱歉，virtuoso 發生問題。"
+
+#~ msgid "Error on fetching item"
+#~ msgstr "抓取項目時發生錯誤"
+
+#~ msgid "Search with nepomukshow"
+#~ msgstr "以 nepomukshow 搜尋"
+
+#~ msgid "Nepomuk id:"
+#~ msgstr "Nepomuk 代碼："
+
+#~ msgid "Nepomuk show result"
+#~ msgstr "Nepomuk 顯示結果"

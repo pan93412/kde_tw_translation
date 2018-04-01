@@ -1,0 +1,1088 @@
+# Copyright (C) 2015 Ragnar Thomsen
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.2.1\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:19+0100\n"
+"PO-Revision-Date: 2016-06-24 10:57+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "s8321414@gmail.com"
+
+#: src/confmodel.cpp:43
+#, kde-format
+msgid "Item"
+msgstr "項目"
+
+#: src/confmodel.cpp:45
+#, kde-format
+msgid "Value"
+msgstr "值"
+
+#: src/confmodel.cpp:62
+#, kde-format
+msgctxt "configuration name (unit)"
+msgid "%1 (%)"
+msgstr "%1 (%)"
+
+#: src/confmodel.cpp:65
+#, kde-format
+msgctxt "configuration name (unit)"
+msgid "%1 (MB)"
+msgstr "%1 (MB)"
+
+#: src/confmodel.cpp:68
+#, kde-format
+msgctxt "configuration name (unit)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/confparms.cpp:45
+#, kde-format
+msgid "<p>Set the level of log entries in systemd.</p>"
+msgstr "<p>設定在 systemd 中的日誌記錄等級。</p>"
+
+#: src/confparms.cpp:54
+#, kde-format
+msgid "<p>Set target for logs.</p>"
+msgstr "<p>設定記錄目標。</p>"
+
+#: src/confparms.cpp:62
+#, kde-format
+msgid "<p>Use color to highlight important log messages.</p>"
+msgstr "<p>使用顏色突顯重要的訊息記錄。</p>"
+
+#: src/confparms.cpp:70
+#, kde-format
+msgid "<p>Include code location in log messages.</p>"
+msgstr "<p>包含在訊息記錄中的代碼位置。</p>"
+
+#: src/confparms.cpp:78
+#, kde-format
+msgid "<p>Dump core on systemd crash.</p>"
+msgstr "<p>在 systemd 當掉時核心傾印。</p>"
+
+#: src/confparms.cpp:86
+#, kde-format
+msgid ""
+"<p>Spawn a shell when systemd crashes. Note: The shell is not password-"
+"protected.</p>"
+msgstr "<p>當 systemd 當掉時產生殼層。注意：這個殼層沒有密碼保護。</p>"
+
+#: src/confparms.cpp:95
+#, kde-format
+msgid "<p>Show terse service status information while booting.</p>"
+msgstr "<p>開機時顯示簡短的服務資訊。</p>"
+
+#: src/confparms.cpp:104
+#, kde-format
+msgid ""
+"<p>Activate the specified virtual terminal when systemd crashes (-1 to "
+"deactivate).</p>"
+msgstr "<p>當 systmed 當掉時啟動指定的虛擬終端機 （-1 為停用）。</p>"
+
+#: src/confparms.cpp:115
+#, kde-format
+msgid "<p>The initial CPU affinity for the systemd init process.</p>"
+msgstr "<p>systemd 初始行程的初始 CPU 親和性。</p>"
+
+#: src/confparms.cpp:123
+#, kde-format
+msgid ""
+"<p>Controllers that shall be mounted in a single hierarchy. Takes a space-"
+"separated list of comma-separated controller names, in order to allow "
+"multiple joined hierarchies. Pass an empty string to ensure that systemd "
+"mounts all controllers in separate hierarchies.</p>"
+msgstr ""
+"<p>控制器應該被掛載在單一的層次結構中。使用以逗點分隔的裝置名稱，並以空白分隔"
+"的列表， 以允許多個已加入的層次結構。傳送空字串給 systemd 以確保其掛載所有控"
+"制器到獨立的層次結構中。</p>"
+
+#: src/confparms.cpp:133
+#, kde-format
+msgid ""
+"<p>Configures in which control group hierarchies to create per-service "
+"cgroups automatically, in addition to the name=systemd named hierarchy. "
+"Takes a space-separated list of controller names. Pass the empty string to "
+"ensure that systemd does not touch any hierarchies but its own.</p>"
+msgstr ""
+"<p>在控制組的層次結構設定中，會自動建立每個服務的 cgroups，並額外加入 "
+"name=systemd 來命名層次結構。 需要以空白分隔的控制器名稱列表。傳遞空字串給 "
+"systemd 以確保其不會觸碰任何除了它本身以外的層次結構。</p>"
+
+#: src/confparms.cpp:142
+#, kde-format
+msgid ""
+"<p>The watchdog hardware (/dev/watchdog) will be programmed to automatically "
+"reboot the system if it is not contacted within the specified timeout "
+"interval. The system manager will ensure to contact it at least once in half "
+"the specified timeout interval. This feature requires a hardware watchdog "
+"device.</p>"
+msgstr ""
+"<p>Watchdog 硬體 (/dev/watchdog) 將會被設定為當 未在指定的延遲時間間隔內聯繫"
+"時自動重新啟動系統。 系統管理員將會確保至少在指定的逾時時間間隔的一半內 連繫"
+"至少一次。這個功能需要硬體 watchdog 裝置。</p>"
+
+#: src/confparms.cpp:151
+#, kde-format
+msgid ""
+"<p>This setting may be used to configure the hardware watchdog when the "
+"system is asked to reboot. It works as a safety net to ensure that the "
+"reboot takes place even if a clean reboot attempt times out. This feature "
+"requires a hardware watchdog device.</p>"
+msgstr ""
+"<p>這個設定將會用於設定硬體 watchdog 當 系統被要求重新啟動時。它是做為安全網"
+"以確保 即便乾淨的重新啟動超時的時候也能正確的重新啟動。 這個功能需要硬體 "
+"watchdog 裝置。</p>"
+
+#: src/confparms.cpp:159
+#, kde-format
+msgid "<p>Capabilities for the systemd daemon and its children.</p>"
+msgstr "<p>為 systemd 守護行程及其子行程之功能。</p>"
+
+#: src/confparms.cpp:169
+#, kde-format
+msgid ""
+"<p>Architectures of which system calls may be invoked on the system.</p>"
+msgstr "<p>某些系統呼叫的架構也許會在系統上被調用。</p>"
+
+#: src/confparms.cpp:181
+#, kde-format
+msgid ""
+"<p>Sets the timer slack for PID 1 which is then inherited to all executed "
+"processes, unless overridden individually. The timer slack controls the "
+"accuracy of wake-ups triggered by timers.</p>"
+msgstr ""
+"<p>設定計時器釋放為 PID 1 ，並除非有單獨覆蓋， 否則繼承所有已執行的行程。計時"
+"器釋放控制著 由計時器所觸發的喚醒的準確度。</p>"
+
+#: src/confparms.cpp:191
+#, kde-format
+msgid ""
+"<p>The default accuracy of timer units. Note that the accuracy of timer "
+"units is also affected by the configured timer slack for PID 1.</p>"
+msgstr ""
+"<p>計時器單位的預設準確度。注意：計時器單位的準確度 也會被設定好的 PID 1 計時"
+"器釋放所影響。</p>"
+
+#: src/confparms.cpp:203
+#, kde-format
+msgid "<p>Sets the default output for all services and sockets.</p>"
+msgstr "<p>為所有服務及通訊端設定預設的輸出。</p>"
+
+#: src/confparms.cpp:214
+#, kde-format
+msgid "<p>Sets the default error output for all services and sockets.</p>"
+msgstr "<p>為所有服務及通訊端設定預設的錯誤輸出。</p>"
+
+#: src/confparms.cpp:224
+#, kde-format
+msgid "<p>The default timeout for starting of units.</p>"
+msgstr "<p>單位啟動的預設延遲時間。</p>"
+
+#: src/confparms.cpp:232
+#, kde-format
+msgid "<p>The default timeout for stopping of units.</p>"
+msgstr "<p>單位停止的預設延遲時間。</p>"
+
+#: src/confparms.cpp:241
+#, kde-format
+msgid "<p>The default time to sleep between automatic restart of units.</p>"
+msgstr "<p>在每次重新啟動單位間的預設睡眠時間。</p>"
+
+#: src/confparms.cpp:249
+#, kde-format
+msgid "<p>Time interval used in start rate limit for services.</p>"
+msgstr "<p>用以限制服務的啟動速度的時間間隔。</p>"
+
+#: src/confparms.cpp:257
+#, kde-format
+msgid ""
+"<p>Services are not allowed to start more than this number of times within "
+"the time interval defined in DefaultStartLimitInterval.</p>"
+msgstr ""
+"<p>服務在 DefaultStartLimitInterval 中定義的時間範圍內不被允許啟動多於這個次"
+"數"
+
+#: src/confparms.cpp:268
+#, kde-format
+msgid ""
+"<p>Manager environment variables passed to all executed processes. Takes a "
+"space-separated list of variable assignments.</p>"
+msgstr ""
+"<p>管理員的環境變數會傳遞給所有已執行的行程。 需要以空格分隔的變量賦值列表。"
+"</p>"
+
+#: src/confparms.cpp:279
+#, kde-format
+msgid "<p>Default CPU usage accounting.</p>"
+msgstr "<p>預設的 CPU 使用量計算。</p>"
+
+#: src/confparms.cpp:287
+#, kde-format
+msgid "<p>Default block IO accounting.</p>"
+msgstr "<p>預設的區塊 IO 計算。</p>"
+
+#: src/confparms.cpp:295
+#, kde-format
+msgid "<p>Default process and kernel memory accounting.</p>"
+msgstr "<p>預設的行程及核心記憶體計算。</p>"
+
+#: src/confparms.cpp:313
+#, kde-format
+msgid "<p>Default resource limit for units. Set to -1 for no limit.</p>"
+msgstr "<p>預設的單位資源限制。設定為 -1 以取消限制。</p>"
+
+#: src/confparms.cpp:325
+#, kde-format
+msgid "<p>Where to store log files.</p>"
+msgstr "<p>存放記錄檔的地方。</p>"
+
+#: src/confparms.cpp:333
+#, kde-format
+msgid "<p>Compress log files.</p>"
+msgstr "<p>壓縮記錄檔。</p>"
+
+#: src/confparms.cpp:341
+#, kde-format
+msgid ""
+"<p>Enable Forward Secure Sealing (FSS) for all persistent journal files.</p>"
+msgstr ""
+"<p>為所有持續存在的日誌檔啟用轉發安全加密 (Forward Secure Sealing,FSS)。</p>"
+
+#: src/confparms.cpp:353
+#, kde-format
+msgid ""
+"<p>Whether and how to split log files. If <i>uid</i>, all users will get "
+"each their own journal files regardless of whether they possess a login "
+"session or not, however system users will log into the system journal. If "
+"<i>login</i>, actually logged-in users will get each their own journal "
+"files, but users without login session and system users will log into the "
+"system journal. If <i>none</i>, journal files are not split up by user and "
+"all messages are instead stored in the single system journal.</p>"
+msgstr ""
+"<p>是否以及如何拆解記錄檔。如果是 <i>uid</i>，所有使用者， 不管他們是否擁有一"
+"個登入的工作階段，都會取得他們自己所有 的日誌檔，但是系統使用者將會記錄至系統"
+"日誌中。 若為 <i>login</i>，實際登入的每個使用者將會取得她們自己所有 的記錄"
+"檔，但沒有登入工作階段或是系統的使用者將會記錄至 系統日誌中。若為 <i>none</"
+"i>，日誌檔將不會為使用者拆解， 且所有的訊息都會儲存在單一個系統日誌中。</p>"
+
+#: src/confparms.cpp:362
+#, kde-format
+msgid "<p>The timeout before synchronizing journal files to disk.</p>"
+msgstr "<p>在同步日誌檔到磁碟前的延遲時間。</p>"
+
+#: src/confparms.cpp:370
+#, kde-format
+msgid ""
+"<p>Time interval for rate limiting of log messages. Set to 0 to turn off "
+"rate-limiting.</p>"
+msgstr "<p>限制記錄訊息的時間間隔。設定為 0 以關閉 速率限制。</p>"
+
+#: src/confparms.cpp:378
+#, kde-format
+msgid ""
+"<p>Maximum number of messages logged for a unit in the interval specified in "
+"RateLimitInterval. Set to 0 to turn off rate-limiting.</p>"
+msgstr ""
+"<p>在 RateLimitInterval 中所指定的一個單位的間隔的訊息最大數量。設定為 0 以關"
+"閉速率限制。</p>"
+
+#: src/confparms.cpp:388
+#, no-c-format, kde-format
+msgid ""
+"<p>Maximum disk space the persistent journal may take up. Defaults to 10% of "
+"file system size.</p>"
+msgstr "<p>持續性日誌的最大可能需要磁碟空間。預設為檔案系統大小的 10%。</p>"
+
+#: src/confparms.cpp:398
+#, no-c-format, kde-format
+msgid ""
+"<p>Minimum disk space the persistent journal should keep free for other "
+"uses. Defaults to 15% of file system size.</p>"
+msgstr ""
+"<p>持續性日誌的最小需要維持給其他用途的磁碟空間。預設為檔案系統大小的 15%。</"
+"p>"
+
+#: src/confparms.cpp:407
+#, kde-format
+msgid ""
+"<p>Maximum size of individual journal files on persistent storage. Defaults "
+"to 1/8 of SystemMaxUse.</p>"
+msgstr "<p>單一日誌持續性儲存的最大大小。預設為 SystemMaxUse 的 1/8。</p>"
+
+#: src/confparms.cpp:417
+#, no-c-format, kde-format
+msgid ""
+"<p>Maximum disk space the volatile journal may take up. Defaults to 10% of "
+"file system size.</p>"
+msgstr "<p>易變型日誌的最大可能需要磁碟空間。預設為檔案系統大小的 10%。</p>"
+
+#: src/confparms.cpp:427
+#, no-c-format, kde-format
+msgid ""
+"<p>Minimum disk space the volatile journal should keep free for other uses. "
+"Defaults to 15% of file system size.</p>"
+msgstr ""
+"<p>易變型日誌的最小需要維持給其他用途的磁碟空間。預設為檔案系統大小的 15%。</"
+"p>"
+
+#: src/confparms.cpp:436
+#, kde-format
+msgid ""
+"<p>Maximum size of individual journal files on volatile storage. Defaults to "
+"1/8 of RuntimeMaxUse.</p>"
+msgstr "<p>單一日誌易變型儲存的最大大小。預設為 RuntimeMaxUse 的 1/8。</p>"
+
+#: src/confparms.cpp:445
+#, kde-format
+msgid "<p>Maximum time to store journal entries. Set to 0 to disable.</p>"
+msgstr "<p>儲存日誌項目的最大次數。設定為 0 以停用。</p>"
+
+#: src/confparms.cpp:454
+#, kde-format
+msgid ""
+"<p>Maximum time to store entries in a single journal file before rotating to "
+"the next one. Set to 0 to disable.</p>"
+msgstr ""
+"<p>在單一日誌檔案儲存日誌項目在下一次壓縮前的最大次數。設定為 0 以停用。</p>"
+
+#: src/confparms.cpp:462
+#, kde-format
+msgid "<p>Forward journal messages to syslog.</p>"
+msgstr "<p>轉發日誌訊息到 syslog。</p>"
+
+#: src/confparms.cpp:470
+#, kde-format
+msgid "<p>Forward journal messages to kernel log buffer</p>"
+msgstr "<p>轉發日誌訊息到核心日誌緩衝。</p>"
+
+#: src/confparms.cpp:478
+#, kde-format
+msgid ""
+"<p>Forward journal messages to the system console. The console can be "
+"changed with TTYPath.</p>"
+msgstr "<p>轉發日誌訊息到系統終端機中。終端機可使用 TTYPath 來變更。</p>"
+
+#: src/confparms.cpp:488
+#, kde-format
+msgid ""
+"<p>Forward journal messages as wall messages to all logged-in users.</p>"
+msgstr "<p>以 wall 訊息轉發日誌訊息給所有已登入的使用者。</p>"
+
+#: src/confparms.cpp:497
+#, kde-format
+msgid "<p>Forward journal messages to this TTY if ForwardToConsole is set.</p>"
+msgstr "<p>若 ForwardToConsole 已設定，轉發日誌訊息到該 TTY。</p>"
+
+#: src/confparms.cpp:521
+#, kde-format
+msgid "<p>Max log level to forward/store to the specified target.</p>"
+msgstr "<p>轉發/儲存到指定目標的最大記錄等級。</p>"
+
+#: src/confparms.cpp:533
+#, kde-format
+msgid ""
+"<p>Number of virtual terminals (VTs) to allocate by default and which will "
+"autospawn. Set to 0 to disable.</p>"
+msgstr "<p>預設分配及自動衍生的虛擬終端機 (VT) 數量。 設定為 0 以停用。</p>"
+
+#: src/confparms.cpp:542
+#, kde-format
+msgid ""
+"<p>Virtual terminal that shall unconditionally be reserved for autospawning. "
+"Set to 0 to disable.</p>"
+msgstr "<p>應無條件保留給自動衍生的虛擬終端機。 設定為 0 以停用。</p>"
+
+#: src/confparms.cpp:550
+#, kde-format
+msgid "<p>Kill the processes of a user when the user completely logs out.</p>"
+msgstr "<p>當使用者完整登出時，砍除該使用者的行程。</p>"
+
+#: src/confparms.cpp:557
+#, kde-format
+msgid ""
+"<p>Space-separated list of usernames for which only processes will be killed "
+"if KillUserProcesses is enabled.</p>"
+msgstr ""
+"<p>以空格分隔的使用者名稱列表，其中的行程將只會在 KillUserProcesses 啟用時被"
+"砍除。</p>"
+
+#: src/confparms.cpp:565
+#, kde-format
+msgid ""
+"<p>Space-separated list of usernames for which processes will be excluded "
+"from being killed if KillUserProcesses is enabled.</p>"
+msgstr ""
+"<p>以空格分隔的使用者名稱列表，其中的行程將會在 KillUserProcesses 啟用時被排"
+"除在砍除的名單外。</p>"
+
+#: src/confparms.cpp:573
+#, kde-format
+msgid ""
+"<p>Specifies the maximum time a system shutdown or sleep request is delayed "
+"due to an inhibitor lock of type delay being active before the inhibitor is "
+"ignored and the operation executes anyway.</p>"
+msgstr ""
+"<p>指定系統關機或睡眠請求因抑制鎖活躍 而延遲的在抑制器被忽略且動作無論如何都"
+"會執行前的最大時間。</p>"
+
+#: src/confparms.cpp:597
+#, kde-format
+msgid ""
+"<p>Controls whether logind shall handle the system power and sleep keys and "
+"the lid switch to trigger power actions.</p>"
+msgstr "<p>控制 logind 應該處理系統電源及睡眠鍵及 lid 切換以觸發電源動作。</p>"
+
+#: src/confparms.cpp:606
+#, kde-format
+msgid ""
+"<p>Controls whether actions triggered by the power key are subject to "
+"inhibitor locks.</p>"
+msgstr "<p>控制是否由受到抑制鎖的電源鍵 觸發動作。</p>"
+
+#: src/confparms.cpp:614
+#, kde-format
+msgid ""
+"<p>Controls whether actions triggered by the suspend key are subject to "
+"inhibitor locks.</p>"
+msgstr "<p>控制是否由受到抑制鎖的暫停鍵 觸發動作。</p>"
+
+#: src/confparms.cpp:622
+#, kde-format
+msgid ""
+"<p>Controls whether actions triggered by the hibernate key are subject to "
+"inhibitor locks.</p>"
+msgstr "<p>控制是否由受到抑制鎖的冬眠鍵 觸發動作。</p>"
+
+#: src/confparms.cpp:630
+#, kde-format
+msgid ""
+"<p>Controls whether actions triggered by the lid switch are subject to "
+"inhibitor locks.</p>"
+msgstr "<p>控制是否由受到抑制鎖的 lid 切換 觸發動作。</p>"
+
+#: src/confparms.cpp:640
+#, kde-format
+msgid ""
+"<p>Timeout after system startup or system resume in which systemd will hold "
+"off on reacting to lid events.</p>"
+msgstr "<p>系統啟動或系統回復後逾時，systemd將會暫停反應上蓋事件。</p>"
+
+#: src/confparms.cpp:650
+#, kde-format
+msgid "<p>Configures the action to take when the system is idle.</p>"
+msgstr "<p>設定在系統閒置時要做的動作。</p>"
+
+#: src/confparms.cpp:658
+#, kde-format
+msgid ""
+"<p>Configures the delay after which the action configured in IdleAction is "
+"taken after the system is idle.</p>"
+msgstr "<p>設定在 IdleAction 中被定義的動作後 系統閒置的延遲。</p>"
+
+#: src/confparms.cpp:669
+#, kde-format
+msgid ""
+"<p>Sets the size limit on the $XDG_RUNTIME_DIR runtime directory for each "
+"user who logs in. Percentage of physical RAM.</p>"
+msgstr ""
+"<p>為每個登入的使用者設定在 $XDG_RUNTIME_DIR上的執行時期函式庫目錄大小限制。"
+"實體記憶體的百分比。</p>"
+
+#: src/confparms.cpp:680
+#, kde-format
+msgid ""
+"<p>Controls whether System V and POSIX IPC objects belonging to the user "
+"shall be removed when the user fully logs out.</p>"
+msgstr ""
+"<p>控制屬於使用者的 System V 及 POSIX IPC 目標 是否應該在使用者完全登出時被移"
+"除。</p>"
+
+#: src/confparms.cpp:693
+#, kde-format
+msgid ""
+"<p>Controls where to store cores. When <i>none</i>, the coredumps will be "
+"logged but not stored permanently. When <i>external</i>, cores will be "
+"stored in /var/lib/systemd/coredump. When <i>journal</i>, cores will be "
+"stored in the journal and rotated following normal journal rotation patterns."
+"</p>"
+msgstr ""
+"<p>控制要在何處儲存核心。若為 <i>none</i>，核心傾印將會 被記錄但不會被永久儲"
+"存。若為 <i>external</i>，核心將會 被儲存在 /var/lib/systemd/coredump。若為 "
+"<i>journal</i>，核心將會 被儲存在日誌中並以一般的日誌壓縮方式壓縮。</p>"
+
+#: src/confparms.cpp:701
+#, kde-format
+msgid "<p>Controls compression for external storage.</p>"
+msgstr "<p>控制外部儲存的壓縮。</p>"
+
+#: src/confparms.cpp:710
+#, kde-format
+msgid ""
+"<p>The maximum size of a core which will be processed. Coredumps exceeding "
+"this size will be logged, but the backtrace will not be generated and the "
+"core will not be stored.</p>"
+msgstr ""
+"<p>一個核心將會被處理的最大大小。超過 該大小的核心傾印將會被記錄，但回溯記錄"
+"將不會產生， 且核心也將不會被儲存。</p>"
+
+#: src/confparms.cpp:719 src/confparms.cpp:728
+#, kde-format
+msgid "<p>The maximum (uncompressed) size of a core to be saved.</p>"
+msgstr "<p>要被儲存的最大（未壓縮）的核心大小。</p>"
+
+#: src/confparms.cpp:738
+#, no-c-format, kde-format
+msgid ""
+"<p>Old coredumps are removed as soon as the total disk space taken up by "
+"coredumps grows beyond this limit. Defaults to 10% of the total disk size.</"
+"p>"
+msgstr ""
+"<p>只要核心傾印所佔據的總磁碟容量超過這個限制，舊的核心傾印會盡快被移除。預設"
+"為總磁碟大小的 10%。</p>"
+
+#: src/confparms.cpp:748
+#, no-c-format, kde-format
+msgid ""
+"<p>Minimum disk space to keep free. Defaults to 15% of the total disk size.</"
+"p>"
+msgstr "<p>要維持空閒的最小磁碟空間。預設為總磁碟大小的 15%。</p>"
+
+#: src/kcmsystemd.cpp:41
+#, kde-format
+msgid "systemd-kcm"
+msgstr "systemd-kcm"
+
+#: src/kcmsystemd.cpp:43
+#, kde-format
+msgid "KDE Systemd Control Module"
+msgstr "KDE Systemd 控制模組"
+
+#: src/kcmsystemd.cpp:48
+#, kde-format
+msgid "Main Developer"
+msgstr "主要開發者"
+
+#: src/kcmsystemd.cpp:87
+#, kde-format
+msgid "Unable to find directory with systemd configuration files."
+msgstr "找不到 systemd 設定檔的所在目錄。"
+
+#: src/kcmsystemd.cpp:236
+#, kde-format
+msgid "All"
+msgstr "所有"
+
+#: src/kcmsystemd.cpp:236
+#, kde-format
+msgid "Targets"
+msgstr "目標"
+
+#: src/kcmsystemd.cpp:236
+#, kde-format
+msgid "Services"
+msgstr "服務"
+
+#: src/kcmsystemd.cpp:237
+#, kde-format
+msgid "Devices"
+msgstr "裝置"
+
+#: src/kcmsystemd.cpp:237
+#, kde-format
+msgid "Mounts"
+msgstr "掛載"
+
+#: src/kcmsystemd.cpp:237
+#, kde-format
+msgid "Automounts"
+msgstr "自動掛載"
+
+#: src/kcmsystemd.cpp:237
+#, kde-format
+msgid "Swaps"
+msgstr "交換區"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabTimers)
+#: src/kcmsystemd.cpp:238 ui/kcmsystemd.ui:366
+#, kde-format
+msgid "Timers"
+msgstr "時計"
+
+#: src/kcmsystemd.cpp:238
+#, kde-format
+msgid "Sockets"
+msgstr "通訊端"
+
+#: src/kcmsystemd.cpp:238
+#, kde-format
+msgid "Paths"
+msgstr "路徑"
+
+#: src/kcmsystemd.cpp:238
+#, kde-format
+msgid "Snapshots"
+msgstr "快照"
+
+#: src/kcmsystemd.cpp:239
+#, kde-format
+msgid "Slices"
+msgstr "分片"
+
+#: src/kcmsystemd.cpp:239
+#, kde-format
+msgid "Scopes"
+msgstr "觀測器"
+
+#: src/kcmsystemd.cpp:281
+#, kde-format
+msgid ""
+"\"%1\" is not a valid value for %2. Using default value for this parameter."
+msgstr "「%1」並非 %2 的一個有效的值。正在使用預設值。"
+
+#: src/kcmsystemd.cpp:291
+#, kde-format
+msgid "Failed to read %1/%2. Using default values."
+msgstr "讀取 %1/%2 失敗。正在使用預設值。"
+
+#: src/kcmsystemd.cpp:366
+#, kde-format
+msgid "Session ID"
+msgstr "工作階段 ID"
+
+#: src/kcmsystemd.cpp:367
+#, kde-format
+msgid "Session Object Path"
+msgstr "工作階段目標路徑"
+
+#: src/kcmsystemd.cpp:368
+#, kde-format
+msgid "State"
+msgstr "狀態"
+
+#: src/kcmsystemd.cpp:369
+#, kde-format
+msgid "User ID"
+msgstr "使用者 ID"
+
+#: src/kcmsystemd.cpp:370
+#, kde-format
+msgid "User Name"
+msgstr "使用者名稱"
+
+#: src/kcmsystemd.cpp:371
+#, kde-format
+msgid "Seat ID"
+msgstr "職位 ID"
+
+#: src/kcmsystemd.cpp:393
+#, kde-format
+msgid "Timer"
+msgstr "時計"
+
+#: src/kcmsystemd.cpp:394
+#, kde-format
+msgid "Next"
+msgstr "下一個"
+
+#: src/kcmsystemd.cpp:395
+#, kde-format
+msgid "Left"
+msgstr "剩餘"
+
+#: src/kcmsystemd.cpp:396
+#, kde-format
+msgid "Last"
+msgstr "上一個"
+
+#: src/kcmsystemd.cpp:397
+#, kde-format
+msgid "Passed"
+msgstr "已通過"
+
+#: src/kcmsystemd.cpp:398
+#, kde-format
+msgid "Activates"
+msgstr "活躍狀態"
+
+#: src/kcmsystemd.cpp:415
+#, kde-format
+msgid "Load default settings for all files?"
+msgstr "為所有檔案載入預設的設定？"
+
+#: src/kcmsystemd.cpp:470
+#, kde-format
+msgid "Unable to find directory for configuration files."
+msgstr "找不到設定檔的所在目錄。"
+
+#: src/kcmsystemd.cpp:491 src/kcmsystemd.cpp:875 src/kcmsystemd.cpp:1373
+#, kde-format
+msgid "Unable to authenticate/execute the action: %1"
+msgstr "無法驗證/執行動作： %1"
+
+#: src/kcmsystemd.cpp:494
+#, kde-format
+msgid "Configuration files successfully written to: %1"
+msgstr "設定檔成功寫入至： %1"
+
+#: src/kcmsystemd.cpp:835 src/kcmsystemd.cpp:844
+#, kde-format
+msgctxt "First part of 'Total: %1, %2, %3'"
+msgid "1 unit"
+msgid_plural "%1 units"
+msgstr[0] "%1 單位"
+
+#: src/kcmsystemd.cpp:837 src/kcmsystemd.cpp:846
+#, kde-format
+msgctxt "Second part of 'Total: %1, %2, %3'"
+msgid "1 active"
+msgid_plural "%1 active"
+msgstr[0] "%1 活躍"
+
+#: src/kcmsystemd.cpp:839 src/kcmsystemd.cpp:848
+#, kde-format
+msgctxt "Third part of 'Total: %1, %2, %3'"
+msgid "1 displayed"
+msgid_plural "%1 displayed"
+msgstr[0] "%1 已顯示"
+
+#: src/kcmsystemd.cpp:841 src/kcmsystemd.cpp:850
+#, kde-format
+msgctxt "%1 is '%1 units' and %2 is '%2 active' and %3 is '%3 displayed'"
+msgid "Total: %1, %2, %3"
+msgstr "總計：%1, %2, %3"
+
+#: src/kcmsystemd.cpp:912
+#, kde-format
+msgid "&Start unit"
+msgstr "啟動單位(&S)"
+
+#: src/kcmsystemd.cpp:913
+#, kde-format
+msgid "S&top unit"
+msgstr "停止單位(&T)"
+
+#: src/kcmsystemd.cpp:914
+#, kde-format
+msgid "&Restart unit"
+msgstr "重新啟動單位(&R)"
+
+#: src/kcmsystemd.cpp:915
+#, kde-format
+msgid "Re&load unit"
+msgstr "重新載入單位(&L)"
+
+#: src/kcmsystemd.cpp:917
+#, kde-format
+msgid "&Edit unit file"
+msgstr "編輯單位檔案(&E)"
+
+#: src/kcmsystemd.cpp:918
+#, kde-format
+msgid "&Isolate unit"
+msgstr "隔離單位(&I)"
+
+#: src/kcmsystemd.cpp:920
+#, kde-format
+msgid "En&able unit"
+msgstr "啟用單位(&A)"
+
+#: src/kcmsystemd.cpp:921
+#, kde-format
+msgid "&Disable unit"
+msgstr "停用單位(&D)"
+
+#: src/kcmsystemd.cpp:923
+#, kde-format
+msgid "&Mask unit"
+msgstr "遮蔽單位(&M)"
+
+#: src/kcmsystemd.cpp:924
+#, kde-format
+msgid "&Unmask unit"
+msgstr "解除遮蔽單位(&U)"
+
+#: src/kcmsystemd.cpp:926
+#, kde-format
+msgid "Rel&oad all unit files"
+msgstr "重新載入所有單位的檔案(&O)"
+
+#: src/kcmsystemd.cpp:927
+#, kde-format
+msgid "Ree&xecute systemd"
+msgstr "重新執行 systemd(&X)"
+
+#: src/kcmsystemd.cpp:1091
+#, kde-format
+msgid "&Activate session"
+msgstr "啟動工作階段(&A)"
+
+#: src/kcmsystemd.cpp:1092
+#, kde-format
+msgid "&Terminate session"
+msgstr "終止工作階段(&T)"
+
+#: src/kcmsystemd.cpp:1093
+#, kde-format
+msgid "&Lock session"
+msgstr "鎖定工作階段(&L)"
+
+#: src/kcmsystemd.cpp:1154
+#, kde-format
+msgid "<b>VT:</b> %1"
+msgstr "<b>虛擬終端機：</b> %1"
+
+#: src/kcmsystemd.cpp:1159
+#, kde-format
+msgid "<br><b>Remote host:</b> %1"
+msgstr "<br><b>遠端主機：</b> %1"
+
+#: src/kcmsystemd.cpp:1160
+#, kde-format
+msgid "<br><b>Remote user:</b> %1"
+msgstr "<br><b>遠端使用者：</b> %1"
+
+#: src/kcmsystemd.cpp:1162
+#, kde-format
+msgid "<br><b>Service:</b> %1"
+msgstr "<br><b>服務：</b> %1"
+
+#: src/kcmsystemd.cpp:1165
+#, kde-format
+msgid "<br><b>Type:</b> %1"
+msgstr "<br><b>類型：</b> %1"
+
+#: src/kcmsystemd.cpp:1167
+#, kde-format
+msgid " (display %1)"
+msgstr " (顯示 %1)"
+
+#: src/kcmsystemd.cpp:1177
+#, kde-format
+msgid "<br><b>Class:</b> %1"
+msgstr "<br><b>類別：</b> %1"
+
+#: src/kcmsystemd.cpp:1178
+#, kde-format
+msgid "<br><b>State:</b> %1"
+msgstr "<br><b>狀態：</b> %1"
+
+#: src/kcmsystemd.cpp:1179
+#, kde-format
+msgid "<br><b>Scope:</b> %1"
+msgstr "<br><b>觀測器：</b> %1"
+
+#: src/kcmsystemd.cpp:1182
+#, kde-format
+msgid "<br><b>Created: </b>"
+msgstr "<br><b>已建立： </b>"
+
+#: src/kcmsystemd.cpp:1272
+#, kde-format
+msgid "File to be written: %1/%2"
+msgstr "要被寫入的檔案： %1/%2"
+
+#: src/kcmsystemd.cpp:1332
+#, kde-format
+msgid "Editing %1"
+msgstr "正在編輯 %1"
+
+#: src/kcmsystemd.cpp:1351
+#, kde-format
+msgid ""
+"Failed to open the unit file:\n"
+"%1"
+msgstr ""
+"開啟單位檔案失敗：\n"
+"%1"
+
+#: src/kcmsystemd.cpp:1376
+#, kde-format
+msgid "Unit file successfully written."
+msgstr "單位檔成功寫入。"
+
+#: src/unitmodel.cpp:52
+#, kde-format
+msgid "Load State"
+msgstr "載入狀態"
+
+#: src/unitmodel.cpp:54
+#, kde-format
+msgid "Active State"
+msgstr "活躍狀態"
+
+#: src/unitmodel.cpp:56
+#, kde-format
+msgid "Unit State"
+msgstr "單位狀態"
+
+#: src/unitmodel.cpp:58
+#, kde-format
+msgid "Unit"
+msgstr "單位"
+
+#: src/unitmodel.cpp:123
+#, kde-format
+msgid "<b>Description: </b>"
+msgstr "<b>描述： </b>"
+
+#: src/unitmodel.cpp:125
+#, kde-format
+msgid "<br><b>Unit file: </b>"
+msgstr "<br><b>單位檔案： </b>"
+
+#: src/unitmodel.cpp:127 src/unitmodel.cpp:171
+#, kde-format
+msgid "<br><b>Unit file state: </b>"
+msgstr "<br><b>單位的檔案狀態： </b>"
+
+#: src/unitmodel.cpp:131
+#, kde-format
+msgid "<br><b>Activated: </b>"
+msgstr "<br><b>已啟用： </b>"
+
+#: src/unitmodel.cpp:142
+#, kde-format
+msgid "<br><b>Deactivated: </b>"
+msgstr "<br><b>已停用： </b>"
+
+#: src/unitmodel.cpp:167
+#, kde-format
+msgid "<b>Unit file: </b>"
+msgstr "<br><b>單位檔案： </b>"
+
+#: src/unitmodel.cpp:179
+#, kde-format
+msgid "<hr><b>Last log entries:</b>"
+msgstr "<hr><b>最後記錄項目：</b>"
+
+#: src/unitmodel.cpp:182
+#, kde-format
+msgid "<br><i>No log entries found for this unit.</i>"
+msgstr "<br><i>找不到此單位的記錄項目。</i>"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, kcmsystemd)
+#: ui/kcmsystemd.ui:29
+#, kde-format
+msgid "kcmsystemd"
+msgstr "kcmsystemd"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabUnits)
+#: ui/kcmsystemd.ui:79
+#, kde-format
+msgid "Units"
+msgstr "單元 "
+
+#. i18n: ectx: property (text), widget (QLabel, lblUnitCount)
+#. i18n: ectx: property (text), widget (QLabel, lblUserUnitCount)
+#: ui/kcmsystemd.ui:85 ui/kcmsystemd.ui:260
+#, kde-format
+msgid "Overall stats:"
+msgstr "總計："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbUnitTypes)
+#: ui/kcmsystemd.ui:100
+#, kde-format
+msgid "<html><head/><body><p>Filter unit types.</p></body></html>"
+msgstr "<html><head/><body><p>過濾單元類型。</p></body></html>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkInactiveUnits)
+#: ui/kcmsystemd.ui:110
+#, kde-format
+msgid "<html><head/><body><p>Toggle show inactive units.</p></body></html>"
+msgstr "<html><head/><body><p>切換顯示不活躍的單元。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkInactiveUnits)
+#. i18n: ectx: property (text), widget (QCheckBox, chkInactiveUserUnits)
+#: ui/kcmsystemd.ui:113 ui/kcmsystemd.ui:200
+#, kde-format
+msgid "Show inactive"
+msgstr "顯示不活躍的"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUnloadedUnits)
+#. i18n: ectx: property (text), widget (QCheckBox, chkUnloadedUserUnits)
+#: ui/kcmsystemd.ui:123 ui/kcmsystemd.ui:207
+#, kde-format
+msgid "Show unloaded"
+msgstr "顯示未載入的"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabUserUnits)
+#: ui/kcmsystemd.ui:189
+#, kde-format
+msgid "User units"
+msgstr "使用者單位 "
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabConf)
+#: ui/kcmsystemd.ui:268
+#, kde-format
+msgid "Conf"
+msgstr "設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ui/kcmsystemd.ui:279
+#, kde-format
+msgid "Configuration file:"
+msgstr "設定檔："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSessions)
+#: ui/kcmsystemd.ui:318
+#, kde-format
+msgid "Sessions"
+msgstr "工作階段"
+
+#. i18n: ectx: property (text), widget (QLabel, lblFailMessage)
+#: ui/kcmsystemd.ui:449
+#, kde-format
+msgid "Attempt to contact the systemd daemon through D-Bus system bus failed."
+msgstr "嘗試透過 D-Bus 系統接觸 systemd 守護行程失敗。"
+
+#~ msgid "Total: %1 units, %2 active, %3 displayed"
+#~ msgstr "總計： %1 個單位， %2 個活躍， %3 個已顯示"
+
+#~ msgid ""
+#~ "Unable to authenticate/execute the action.\n"
+#~ "Error code: %1\n"
+#~ "Error string: %2\n"
+#~ "Error text: %3"
+#~ msgstr ""
+#~ "無法驗證/執行動作。\n"
+#~ "錯誤代碼： %1\n"
+#~ "錯誤字串： %2\n"
+#~ "錯誤文字： %3"
+
+#~ msgid ""
+#~ "<html><head/><body><p>Reload the list of units from systemd.</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>從 systemd 重新載入單元列表。</p></body></html>"
+
+#~ msgid "Refresh"
+#~ msgstr "重新整理"
+
+#~ msgid "kdesu executable not found. Unable to start kwrite!"
+#~ msgstr "找不到 kdesu 可執行檔。無法啟動 kwrite！"
+
+#~ msgid "<br><b>Fragment path: </b>"
+#~ msgstr "<br><b>碎片路徑： </b>"
+
+#~ msgid "<b>Fragment path: </b>"
+#~ msgstr "<b>碎片路徑： </b>"

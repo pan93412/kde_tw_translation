@@ -1,0 +1,2828 @@
+# translation of ktouch.po to Chinese Traditional
+# Copyright (C) 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009, 2010.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015, 2017.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktouch\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-06-16 03:02+0200\n"
+"PO-Revision-Date: 2017-11-11 21:01+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: src/core/dbaccess.cpp:116
+#, kde-format
+msgid "Invalid database version '%1'."
+msgstr "不合法的資料庫版本 '%1'。"
+
+#: src/core/profiledataaccess.cpp:628
+#, kde-format
+msgid "Custom Lessons"
+msgstr "自訂課程"
+
+#: src/core/profiledataaccess.cpp:629
+#, kde-format
+msgid "A place to store personal lesson texts"
+msgstr "儲存個人課程文字的地方"
+
+#: src/core/userdataaccess.cpp:124
+#, kde-format
+msgid "No course with ID %1"
+msgstr "沒有代碼為 %1 的課程"
+
+#: src/core/userdataaccess.cpp:338
+#, kde-format
+msgid "No keyboard layout with ID %1"
+msgstr "沒有代碼為 %1 的鍵盤佈局"
+
+#: src/editor/charactersviewdelegate.cpp:84 src/models/charactersmodel.cpp:316
+#, kde-format
+msgid "Hidden"
+msgstr "隱藏"
+
+#: src/editor/charactersviewdelegate.cpp:85 src/models/charactersmodel.cpp:308
+#, kde-format
+msgid "Top left"
+msgstr "左上"
+
+#: src/editor/charactersviewdelegate.cpp:86 src/models/charactersmodel.cpp:310
+#, kde-format
+msgid "Top right"
+msgstr "右上"
+
+#: src/editor/charactersviewdelegate.cpp:87 src/models/charactersmodel.cpp:312
+#, kde-format
+msgid "Bottom left"
+msgstr "左下"
+
+#: src/editor/charactersviewdelegate.cpp:88 src/models/charactersmodel.cpp:314
+#, kde-format
+msgid "Bottom right"
+msgstr "右下"
+
+#: src/editor/courseeditor.cpp:92 src/editor/resourceeditor.cpp:176
+#: src/editor/resourceeditor.cpp:256
+#, kde-format
+msgid "Error while opening course"
+msgstr "開啟課程時發生錯誤"
+
+#: src/editor/courseeditor.cpp:99
+#, kde-format
+msgid "Built-in courses can only be viewed."
+msgstr "內建課程只能檢視。"
+
+#: src/editor/keyboardlayouteditor.cpp:99 src/editor/resourceeditor.cpp:199
+#: src/editor/resourceeditor.cpp:284
+#, kde-format
+msgid "Error while opening keyboard layout"
+msgstr "開啟鍵盤佈局時發生錯誤"
+
+#: src/editor/keyboardlayouteditor.cpp:106
+#, kde-format
+msgid "Built-in keyboard layouts can only be viewed."
+msgstr "內建鍵盤佈局只能檢視。"
+
+#: src/editor/keyboardlayouteditor.cpp:188
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: src/editor/lessontexteditor.cpp:74
+#, kde-format
+msgid "%1 Character"
+msgid_plural "%1 Characters"
+msgstr[0] "%1 個字元"
+
+#: src/editor/lessontexteditor.cpp:79
+#, kde-format
+msgid "Text files (*.txt)"
+msgstr "文字檔 (*.txt)"
+
+#: src/editor/lessontexteditor.cpp:88
+#, kde-format
+msgid "The selected file could not be opened"
+msgstr "選取的檔案無法開啟。"
+
+#: src/editor/newkeyboardlayoutwidget.cpp:94
+#, kde-format
+msgid "There is already a keyboard layout with the same name."
+msgstr "已經有同名的鍵盤佈局了。"
+
+#: src/editor/newresourceassistant.cpp:41
+#, kde-format
+msgid "New"
+msgstr "新增"
+
+#: src/editor/newresourceassistant.cpp:43
+#, kde-format
+msgid "New..."
+msgstr "新增..."
+
+#: src/editor/newresourceassistant.cpp:46
+#, kde-format
+msgid "New course"
+msgstr "新增課程"
+
+#: src/editor/newresourceassistant.cpp:50
+#, kde-format
+msgid "New keyboard layout"
+msgstr "新增鍵盤佈局"
+
+#: src/editor/newresourceassistant.cpp:54
+#, kde-format
+msgid "Template"
+msgstr "樣本"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_deleteKeyToolButton)
+#: src/editor/resourceeditor.cpp:60
+#: src/qml/homescreen/CustomLessonSelector.qml:182
+#: src/qml/homescreen/ProfileDetailsItem.qml:157
+#: src/qml/homescreen/ProfileDetailsItem.qml:215
+#: src/ui/keyboardlayouteditor.ui:70
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: src/editor/resourceeditor.cpp:63
+#, kde-format
+msgid "Import"
+msgstr "匯入"
+
+#: src/editor/resourceeditor.cpp:64
+#, kde-format
+msgid "Export"
+msgstr "匯出"
+
+#: src/editor/resourceeditor.cpp:74
+#, kde-format
+msgid "Course and Keyboard Layout Editor"
+msgstr "課程與鍵盤佈局編輯器"
+
+#: src/editor/resourceeditor.cpp:76
+#, kde-format
+msgid "Create a new course or keyboard layout"
+msgstr "建立新課程或鍵盤佈局"
+
+#: src/editor/resourceeditor.cpp:78
+#, kde-format
+msgid "Delete the current selected course or keyboard layout"
+msgstr "刪除目前選取的課程或鍵盤佈局"
+
+#: src/editor/resourceeditor.cpp:88
+#, kde-format
+msgid "Import a course or keyboard layout from a file"
+msgstr "從檔案匯入課程或鍵盤佈局"
+
+#: src/editor/resourceeditor.cpp:90
+#, kde-format
+msgid "Export the current selected course or keyboard layout to a file"
+msgstr "匯出目前選取的課程或鍵盤佈局"
+
+#: src/editor/resourceeditor.cpp:182
+#, kde-format
+msgid "Error while deleting course"
+msgstr "刪除課程時發生錯誤"
+
+#: src/editor/resourceeditor.cpp:204
+#, kde-format
+msgid "Error while deleting keyboard layout"
+msgstr "刪除鍵盤佈局時發生錯誤"
+
+#: src/editor/resourceeditor.cpp:221 src/editor/resourceeditor.cpp:261
+#: src/editor/resourceeditor.cpp:289
+#, kde-format
+msgid "XML files (*.xml)"
+msgstr "XML 檔 (*.xml)"
+
+#: src/editor/resourceeditor.cpp:233
+#, kde-format
+msgid "The selected file could not be imported."
+msgstr "選取的檔案無法匯入。"
+
+#: src/editor/resourceeditor.cpp:267
+#, kde-format
+msgid "Error while saving course"
+msgstr "儲存課程時發生錯誤"
+
+#: src/editor/resourceeditor.cpp:295
+#, kde-format
+msgid "Error while saving keyboard layout"
+msgstr "儲存鍵盤佈局時發生錯誤"
+
+#: src/editor/resourceeditor.cpp:380
+#, kde-format
+msgid "Course <b>%1</b> deleted"
+msgstr "課程 <b>%1</b> 已刪除"
+
+#: src/editor/resourceeditor.cpp:384
+#, kde-format
+msgid "Keyboard layout <b>%1</b> deleted"
+msgstr "鍵盤佈局 <b>%1</b> 已刪除"
+
+#: src/editor/resourceeditor.cpp:418
+#, kde-format
+msgid "Error while saving course to disk."
+msgstr "儲存課程到磁碟時發生錯誤"
+
+#: src/editor/resourceeditor.cpp:452
+#, kde-format
+msgid "Error while saving keyboard layout to disk."
+msgstr "儲存鍵盤佈局到磁碟時發生錯誤"
+
+#: src/editor/resourceeditor.cpp:521
+#, kde-format
+msgid "The selected course is already present as a built-in course."
+msgstr "選取的課程已經是內建的課程。"
+
+#: src/editor/resourceeditor.cpp:522 src/editor/resourceeditor.cpp:542
+#, kde-format
+msgid "Import as new course"
+msgstr "匯入成新課程"
+
+#: src/editor/resourceeditor.cpp:541
+#, kde-format
+msgid "The selected course is already present as a user course."
+msgstr "選取的課程已經是使用者課程。"
+
+#: src/editor/resourceeditor.cpp:589
+#, kde-format
+msgid ""
+"The selected keyboard layout is already present as a built-in keyboard "
+"layout."
+msgstr "選取的鍵盤佈局已經是內建的鍵盤佈局。"
+
+#: src/editor/resourceeditor.cpp:590 src/editor/resourceeditor.cpp:605
+#, kde-format
+msgid "Import as new keyboard layout"
+msgstr "匯入成新的鍵盤佈局"
+
+#: src/editor/resourceeditor.cpp:604
+#, kde-format
+msgid ""
+"The selected keyboard layout is already present as a user keyboard layout."
+msgstr "選取的鍵盤佈局已經是使用者的鍵盤佈局。"
+
+#: src/editor/resourceeditorwidget.cpp:31
+#, kde-format
+msgid "Restore"
+msgstr "回復"
+
+#: src/editor/resourceeditorwidget.cpp:32
+#: src/qml/homescreen/CustomLessonSelector.qml:222
+#, kde-format
+msgid "Dismiss"
+msgstr "解除"
+
+#: src/editor/resourcetemplatewidget.cpp:56
+#, kde-format
+msgid "Use another course as template"
+msgstr "使用另一個課程做為樣本"
+
+#: src/editor/resourcetemplatewidget.cpp:59
+#, kde-format
+msgid "Use another keyboard layout as template"
+msgstr "使用另一個鍵盤佈局做為樣本"
+
+#: src/editor/resourcetypeswidget.cpp:32
+#, kde-format
+msgid "Course"
+msgstr "課程"
+
+#: src/editor/resourcetypeswidget.cpp:36
+#, kde-format
+msgid "Keyboard layout"
+msgstr "鍵盤佈局"
+
+#: src/keyboardlayoutmenu.cpp:31
+#, kde-format
+msgid "Choose Keyboard Layout"
+msgstr "選擇鍵盤佈局"
+
+#. i18n: ectx: label, entry (KeyboardLayoutName), group (General)
+#: src/ktouch.kcfg:9
+#, kde-format
+msgid "The keyboard layout to use on non-X11 platforms"
+msgstr "在非 X11 平台上使用的鍵盤佈局"
+
+#. i18n: ectx: label, entry (EnforceTypingErrorCorrection), group (Training)
+#: src/ktouch.kcfg:15
+#, kde-format
+msgid "Controls whether typing errors have to be corrected or not."
+msgstr "決定打字錯誤是否需要修正。"
+
+#. i18n: ectx: label, entry (ShowKeyboard), group (Training)
+#: src/ktouch.kcfg:19
+#, kde-format
+msgid "Controls the visibility of the keyboard during training."
+msgstr "控制在訓練期間鍵盤的可見度。"
+
+#. i18n: ectx: label, entry (ShowStatistics), group (Training)
+#: src/ktouch.kcfg:23
+#, kde-format
+msgid "Controls the visibility of realtime statistics during training."
+msgstr "控制在訓練期間即時統計的可見度。"
+
+#. i18n: ectx: label, entry (NextLineWithReturn), group (Training)
+#: src/ktouch.kcfg:27
+#, kde-format
+msgid "Return key at the end of a line will switch to next line."
+msgstr "在行尾按下 Enter 會跳到下一行。"
+
+#. i18n: ectx: label, entry (NextLineWithSpace), group (Training)
+#: src/ktouch.kcfg:31
+#, kde-format
+msgid "Space key at the end of a line will switch to next line."
+msgstr "在行尾按下空白鍵會跳到下一行。"
+
+#. i18n: ectx: label, entry (RequiredStrokesPerMinute), group (Training)
+#: src/ktouch.kcfg:35
+#, kde-format
+msgid ""
+"The minimum required amount of strokes per minute to unlock the next lesson."
+msgstr "要將下一個階段解鎖，最小需要每分鐘敲擊幾次鍵盤。"
+
+#. i18n: ectx: label, entry (RequiredAccuracy), group (Training)
+#: src/ktouch.kcfg:41
+#, kde-format
+msgid ""
+"The minimum required typing accuracy in percent to unlock the next lesson."
+msgstr "要將下一個階段解鎖，最小需要多少的準確率。"
+
+#. i18n: ectx: label, entry (FingerColor$(Index)), group (Colors)
+#: src/ktouch.kcfg:50
+#, kde-format
+msgid "The keyboard tinting color to highlight keys for each finger."
+msgstr "突顯每個指頭的按鍵的顏色。"
+
+#. i18n: ectx: label, entry (LastUsedProfileId), group (Session)
+#: src/ktouch.kcfg:63
+#, kde-format
+msgid "The ID of the last used profile."
+msgstr "上次使用的設定檔代碼。"
+
+#: src/ktouchcontext.cpp:136
+#, kde-format
+msgid "Training"
+msgstr "訓練"
+
+#: src/ktouchcontext.cpp:136
+#, kde-format
+msgid "Training Settings"
+msgstr "訓練設定"
+
+#: src/ktouchcontext.cpp:137
+#, kde-format
+msgid "Colors"
+msgstr "顏色"
+
+#: src/ktouchcontext.cpp:137
+#, kde-format
+msgid "Color Settings"
+msgstr "顏色設定"
+
+#: src/ktouchcontext.cpp:150
+#, kde-format
+msgid "Configure Keyboard"
+msgstr "設定鍵盤"
+
+#: src/ktouchcontext.cpp:167
+#, kde-format
+msgid "Course and Keyboard Layout Editor..."
+msgstr "課程與鍵盤佈局編輯器..."
+
+#: src/ktouchcontext.cpp:179
+#, kde-format
+msgid "Configure Keyboard..."
+msgstr "設定鍵盤..."
+
+#: src/main.cpp:34
+#, kde-format
+msgid "Typewriting Trainer"
+msgstr "打字訓練程式"
+
+#: src/main.cpp:36
+#, kde-format
+msgid "Learn and practice typewriting"
+msgstr "學習與練習打字"
+
+#: src/main.cpp:39
+#, kde-format
+msgid ""
+"Copyright (C) 2011-2015 by Sebastian Gottfried\n"
+"Copyright (C) 2000-2007 by Håvard Frøiland and Andreas Nicolai"
+msgstr ""
+"Copyright (C) 2011-2015 by Sebastian Gottfried\n"
+"Copyright (C) 2000-2007 by Håvard Frøiland 與 Andreas Nicolai"
+
+#: src/main.cpp:46
+#, kde-format
+msgid "Sebastian Gottfried"
+msgstr "Sebastian Gottfried"
+
+#: src/main.cpp:46
+#, kde-format
+msgid "Current maintainer"
+msgstr "目前維護者"
+
+#: src/main.cpp:47
+#, kde-format
+msgid "Andreas Nicolai"
+msgstr "Andreas Nicolai"
+
+#: src/main.cpp:47
+#, kde-format
+msgid "Former maintainer and programmer"
+msgstr "前任維護者與開發者"
+
+#: src/main.cpp:48
+#, kde-format
+msgid "Håvard Frøiland"
+msgstr "Håvard Frøiland"
+
+#: src/main.cpp:48
+#, kde-format
+msgid "Original author"
+msgstr "原始作者"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "David Vignoni"
+msgstr "David Vignoni"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Creator of the SVG icon"
+msgstr "SVG 圖示建立者"
+
+#: src/main.cpp:51
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: src/main.cpp:51
+#, kde-format
+msgid "Lots of patches, fixes and updates"
+msgstr "很多修補與更新"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "All the creators of training and keyboard files"
+msgstr "所有訓練與鍵盤檔的建立者"
+
+#: src/main.cpp:69
+#, kde-format
+msgid "Launch the course and keyboard layout editor"
+msgstr "啟動課程與鍵盤佈局編輯器"
+
+#: src/main.cpp:71
+#, kde-format
+msgid "Prepend the path to the list of QML import paths"
+msgstr "加入為 QML 匯入路徑的前綴"
+
+#: src/mainwindow.cpp:70
+#, kde-format
+msgid "%1 has encountered a runtime error and has to be closed."
+msgstr "%1 遇到執行錯誤，必須關閉。"
+
+#: src/models/charactersmodel.cpp:210
+#, kde-format
+msgid "Character"
+msgstr "字元"
+
+#: src/models/charactersmodel.cpp:212
+#, kde-format
+msgid "Modifier ID"
+msgstr "組合鍵代碼"
+
+#: src/models/charactersmodel.cpp:214
+#, kde-format
+msgid "Position"
+msgstr "位置"
+
+#: src/models/lessonmodel.cpp:82
+#, kde-format
+msgid "<No title>"
+msgstr "<沒有標題>"
+
+#: src/models/lessonmodel.cpp:84
+#, kde-format
+msgid "<p>New characters: %1</p><p>%2</p>"
+msgstr "<p>新字元：%1</p><p>%2</p>"
+
+#: src/models/lessonmodel.cpp:138 src/models/resourcemodel.cpp:110
+#, kde-format
+msgid "Title"
+msgstr "標題"
+
+#: src/models/resourcemodel.cpp:191
+#, kde-format
+msgid "Courses"
+msgstr "課程"
+
+#: src/models/resourcemodel.cpp:225
+#, kde-format
+msgid "Keyboard Layouts"
+msgstr "鍵盤佈局"
+
+#: src/models/resourcemodel.cpp:229
+#, kde-format
+msgid "Name: %1"
+msgstr "名稱：%1"
+
+#: src/qml/common/LearningProgressChart.qml:51
+#: src/qml/meters/AccuracyMeter.qml:28
+#, kde-format
+msgid "Accuracy"
+msgstr "精準度"
+
+#: src/qml/common/LearningProgressChart.qml:60
+#: src/qml/meters/CharactersPerMinuteMeter.qml:31
+#, kde-format
+msgid "Characters per Minute"
+msgstr "每分鐘字元數"
+
+#: src/qml/homescreen/CustomLessonSelector.qml:154
+#, kde-format
+msgid "Create New Custom Lesson"
+msgstr "建立新的自訂課程"
+
+#: src/qml/homescreen/CustomLessonSelector.qml:177
+#: src/qml/homescreen/ProfileDetailsItem.qml:152
+#, kde-format
+msgid "Edit"
+msgstr "編輯"
+
+#: src/qml/homescreen/CustomLessonSelector.qml:208
+#, kde-format
+msgid "'%1' deleted."
+msgstr "'%1' 已刪除。"
+
+#: src/qml/homescreen/CustomLessonSelector.qml:217
+#, kde-format
+msgid "Undo"
+msgstr "復原"
+
+#: src/qml/homescreen/InitialProfileForm.qml:38
+#, kde-format
+msgid "Welcome to Typewriting Trainer"
+msgstr "歡迎使用打字訓練程式"
+
+#: src/qml/homescreen/InitialProfileForm.qml:51
+#: src/qml/homescreen/LessonSelectorBase.qml:74
+#, kde-format
+msgid "Start Training"
+msgstr "開始訓練"
+
+#: src/qml/homescreen/LessonLockedNotice.qml:84
+#, kde-format
+msgid "Complete Previous Lessons to Unlock"
+msgstr "完成前一個訓練階段以解鎖"
+
+#: src/qml/homescreen/ProfileDetailsItem.qml:126
+#, kde-format
+msgid "Lessons trained:"
+msgstr "已訓練的階段："
+
+#: src/qml/homescreen/ProfileDetailsItem.qml:130
+#, kde-format
+msgid "Total training time:"
+msgstr "總計訓練時間："
+
+#: src/qml/homescreen/ProfileDetailsItem.qml:134
+#, kde-format
+msgid "Last trained:"
+msgstr "上次訓練："
+
+#: src/qml/homescreen/ProfileDetailsItem.qml:135
+#, kde-format
+msgid "Never"
+msgstr "永不"
+
+#: src/qml/homescreen/ProfileDetailsItem.qml:204
+#, kde-format
+msgid "Do you really want to delete the profile \"<b>%1</b>\"?"
+msgstr "您確定要刪除設定檔 <b>%1</b> 嗎？"
+
+#: src/qml/homescreen/ProfileDetailsItem.qml:219
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: src/qml/homescreen/ProfileForm.qml:48
+#, kde-format
+msgid "Before you start training, please introduce yourself:"
+msgstr "開始訓練課程之前，請先自我介紹："
+
+#: src/qml/homescreen/ProfileForm.qml:54
+#, kde-format
+msgid "Name"
+msgstr "名字"
+
+#: src/qml/homescreen/ProfileForm.qml:61
+#, kde-format
+msgid "I have no or only very little experience in machine typing"
+msgstr "我對打字沒什麼經驗"
+
+#: src/qml/homescreen/ProfileForm.qml:62
+#, kde-format
+msgid "Lessons are unlocked as your typing skills improve over time."
+msgstr "訓練階段會依您的打字技巧進步的狀況而解除鎖定。"
+
+#: src/qml/homescreen/ProfileForm.qml:75
+#, kde-format
+msgid "I am an experienced machine typist and want to improve my skills"
+msgstr "我打字很有經驗，不過想再加強"
+
+#: src/qml/homescreen/ProfileForm.qml:76
+#, kde-format
+msgid "All lessons are unlocked immediately."
+msgstr "所有的訓練課程都會立即解除鎖定。"
+
+#: src/qml/homescreen/ProfileForm.qml:88
+#, kde-format
+msgid "Done"
+msgstr "完成"
+
+#: src/qml/homescreen/ProfileSelector.qml:69
+#, kde-format
+msgid "Create New Profile"
+msgstr "建立新設定檔"
+
+#: src/qml/homescreen/ProfileSelector.qml:110
+#, kde-format
+msgid "Use Selected Profile"
+msgstr "用選取的設定檔"
+
+#: src/qml/meters/ElapsedTimeMeter.qml:28
+#, kde-format
+msgid "Elapsed time"
+msgstr "經過時間"
+
+#: src/qml/scorescreen/ScoreScreen.qml:135
+#: src/qml/scorescreen/ScoreScreen.qml:467
+#, kde-format
+msgid "Progress"
+msgstr "進度"
+
+#: src/qml/scorescreen/ScoreScreen.qml:145
+#: src/qml/scorescreen/ScoreScreen.qml:499
+#: src/qml/scorescreen/ScoreScreen.qml:514
+#, kde-format
+msgid "Errors"
+msgstr "錯誤"
+
+#: src/qml/scorescreen/ScoreScreen.qml:165
+#, kde-format
+msgid "All Lessons"
+msgstr "所有的課程"
+
+#: src/qml/scorescreen/ScoreScreen.qml:175
+#, kde-format
+msgid "This Lesson"
+msgstr "這個課程"
+
+#: src/qml/scorescreen/ScoreScreen.qml:197
+#, kde-format
+msgid "<i>Unknown</i>"
+msgstr "<i>未知</i>"
+
+#: src/qml/scorescreen/ScoreScreen.qml:203
+#, kde-format
+msgctxt "Statistics on lesson:"
+msgid "On:"
+msgstr "於："
+
+#: src/qml/scorescreen/ScoreScreen.qml:207
+#, kde-format
+msgid "Accuracy:"
+msgstr "精確度："
+
+#: src/qml/scorescreen/ScoreScreen.qml:211
+#, kde-format
+msgid "Characters per Minute:"
+msgstr "每分鐘字元數："
+
+#: src/qml/scorescreen/ScoreScreen.qml:228
+#, kde-format
+msgid "Character:"
+msgstr "字元："
+
+#: src/qml/scorescreen/ScoreScreen.qml:232
+#, kde-format
+msgid "Errors:"
+msgstr "錯誤："
+
+#: src/qml/scorescreen/ScoreScreen.qml:260
+#: src/qml/trainingscreen/TrainingScreenMenuOverlay.qml:148
+#, kde-format
+msgid "Return to Home Screen"
+msgstr "回到首頁"
+
+#: src/qml/scorescreen/ScoreScreen.qml:273
+#, kde-format
+msgid "Repeat Lesson"
+msgstr "重覆課程"
+
+#: src/qml/scorescreen/ScoreScreen.qml:280
+#, kde-format
+msgid "Next Lesson"
+msgstr "下一個課程"
+
+#: src/qml/scorescreen/ScoreScreen.qml:329
+#, kde-format
+msgid "Congratulations! You have passed the lesson."
+msgstr "恭喜！您通過了這個課程。"
+
+#: src/qml/scorescreen/ScoreScreen.qml:330
+#, kde-format
+msgid "You have not passed the lesson."
+msgstr "您尚未通過此課程。"
+
+#: src/qml/scorescreen/ScoreScreen.qml:342
+#, kde-format
+msgid "Repeat the lesson. Your skills will improve automatically over time."
+msgstr "重覆課程。多加練習，您的技巧會一直進步。"
+
+#: src/qml/scorescreen/ScoreScreen.qml:344
+#, kde-format
+msgid "Next lesson unlocked"
+msgstr "下個課程已解鎖"
+
+#: src/qml/scorescreen/ScoreScreen.qml:382
+#, kde-format
+msgctxt "Show a specific type of statistic"
+msgid "Show"
+msgstr "顯示"
+
+#: src/qml/scorescreen/ScoreScreen.qml:407
+#, kde-format
+msgctxt "Show a statistic over one or more lessons"
+msgid "Over"
+msgstr "於"
+
+#: src/qml/trainingscreen/KeyboardUnavailableNotice.qml:49
+#, kde-format
+msgid "No visualization available for your keyboard layout."
+msgstr "您的鍵盤佈局沒有視覺化工具。"
+
+#: src/qml/trainingscreen/TrainingScreenMenuOverlay.qml:122
+#, kde-format
+msgid "Resume Training"
+msgstr "回復訓練"
+
+#: src/qml/trainingscreen/TrainingScreenMenuOverlay.qml:133
+#, kde-format
+msgid "Restart Lesson"
+msgstr "重新開始訓練課程"
+
+#: src/qml/trainingscreen/TrainingScreenToolbar.qml:37
+#, kde-format
+msgid "Training session started. Time begins running with the first keystroke."
+msgstr "訓練課程已開始。當您敲下第一個鍵時就開始計時。"
+
+#: src/qml/trainingscreen/TrainingScreenToolbar.qml:38
+#, kde-format
+msgid ""
+"Training session interrupted. Time begins running again with next keystroke."
+msgstr "訓練階段被中斷。時間會在按下一個鍵後繼續..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, fingersGroupBox)
+#: src/ui/colorsconfigwidget.ui:17
+#, kde-format
+msgid "Fingers"
+msgstr "指頭"
+
+#. i18n: ectx: property (text), widget (QLabel, leftHandLabel)
+#: src/ui/colorsconfigwidget.ui:44
+#, kde-format
+msgid "Left Hand"
+msgstr "左手"
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel3)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel4)
+#: src/ui/colorsconfigwidget.ui:72 src/ui/colorsconfigwidget.ui:218
+#, kde-format
+msgid "Index finger:"
+msgstr "食指："
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel2)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel5)
+#: src/ui/colorsconfigwidget.ui:88 src/ui/colorsconfigwidget.ui:234
+#, kde-format
+msgid "Middle finger:"
+msgstr "中指："
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel1)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel6)
+#: src/ui/colorsconfigwidget.ui:104 src/ui/colorsconfigwidget.ui:250
+#, kde-format
+msgid "Ring finger:"
+msgstr "無名指："
+
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel0)
+#. i18n: ectx: property (text), widget (QLabel, fingerLabel7)
+#: src/ui/colorsconfigwidget.ui:120 src/ui/colorsconfigwidget.ui:266
+#, kde-format
+msgid "Little finger:"
+msgstr "小指："
+
+#. i18n: ectx: property (text), widget (QLabel, rightHandLabel)
+#: src/ui/colorsconfigwidget.ui:190
+#, kde-format
+msgid "Right Hand"
+msgstr "右手"
+
+#. i18n: ectx: property (text), widget (QLabel, m_titleLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayouttTitleLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_lessonTitleLabel)
+#: src/ui/courseeditor.ui:40 src/ui/courseeditor.ui:303
+#: src/ui/customlessoneditordialog.ui:22 src/ui/customlessoneditorwidget.ui:25
+#: src/ui/keyboardlayoutpropertieswidget.ui:59 src/ui/newcoursewidget.ui:25
+#: src/ui/newkeyboardlayoutwidget.ui:51
+#, kde-format
+msgid "Title:"
+msgstr "標題："
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutLabel)
+#: src/ui/courseeditor.ui:53 src/ui/newcoursewidget.ui:38
+#, kde-format
+msgid "Keyboard layout:"
+msgstr "鍵盤佈局："
+
+#. i18n: ectx: property (text), widget (QLabel, m_descriptionLabel)
+#: src/ui/courseeditor.ui:73 src/ui/newcoursewidget.ui:58
+#, kde-format
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QLabel, m_lessonsLabel)
+#: src/ui/courseeditor.ui:153
+#, kde-format
+msgid "Lessons:"
+msgstr "課程："
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_addLessonButton)
+#: src/ui/courseeditor.ui:182
+#, kde-format
+msgid "Add new lesson"
+msgstr "新增課程"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_removeLessonButton)
+#: src/ui/courseeditor.ui:197 src/undocommands/coursecommands.cpp:178
+#, kde-format
+msgid "Remove lesson"
+msgstr "移除課程"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_moveLessonUpButton)
+#: src/ui/courseeditor.ui:228
+#, kde-format
+msgid "Move lesson up"
+msgstr "上移課程"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_moveLessonDownButton)
+#: src/ui/courseeditor.ui:243
+#, kde-format
+msgid "Move lesson down"
+msgstr "下移課程"
+
+#. i18n: ectx: property (text), widget (QLabel, m_newCharactersLabel)
+#: src/ui/courseeditor.ui:320
+#, kde-format
+msgid "New characters:"
+msgstr "新字元："
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, CustomLessonEditorDialog)
+#: src/ui/customlessoneditordialog.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "對話框"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_newKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:22
+#, kde-format
+msgid "Create new normal key"
+msgstr "建立新的一般按鍵"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_newKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:25
+#, kde-format
+msgid "Normal Key"
+msgstr "一般按鍵"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_newSpecialKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:43
+#, kde-format
+msgid "Create new special key"
+msgstr "建立新的特殊按鍵"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_newSpecialKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:46
+#, kde-format
+msgid "Special Key"
+msgstr "特殊按鍵"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_deleteKeyToolButton)
+#: src/ui/keyboardlayouteditor.ui:67
+#, kde-format
+msgid "Delete selected key"
+msgstr "刪除選取的按鍵"
+
+#. i18n: ectx: property (text), widget (QLabel, m_zoomFactorLabel)
+#: src/ui/keyboardlayouteditor.ui:135
+#, no-c-format, kde-format
+msgid "100%"
+msgstr "100%"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_keyboardGroupBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:36
+#, kde-format
+msgid "Keyboard"
+msgstr "鍵盤"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutNameLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_nameLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:79
+#: src/ui/newkeyboardlayoutwidget.ui:22
+#, kde-format
+msgid "Name:"
+msgstr "名稱："
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutWidthLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/ui/keyboardlayoutpropertieswidget.ui:109
+#: src/ui/keyboardlayoutpropertieswidget.ui:276
+#, kde-format
+msgid "Width:"
+msgstr "寬度："
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyboardLayoutHeightLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: src/ui/keyboardlayoutpropertieswidget.ui:138
+#: src/ui/keyboardlayoutpropertieswidget.ui:305
+#, kde-format
+msgid "Height:"
+msgstr "高度："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/ui/keyboardlayoutpropertieswidget.ui:185
+#, kde-format
+msgid "Geometry"
+msgstr "位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/ui/keyboardlayoutpropertieswidget.ui:211
+#, kde-format
+msgid "Left:"
+msgstr "左："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/ui/keyboardlayoutpropertieswidget.ui:221
+#, kde-format
+msgid "Top:"
+msgstr "上："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/ui/keyboardlayoutpropertieswidget.ui:361
+#: src/ui/keyboardlayoutpropertieswidget.ui:550
+#, kde-format
+msgid "Key"
+msgstr "按鍵"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyFingerLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:379
+#, kde-format
+msgid "Finger:"
+msgstr "指頭："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:396
+#, kde-format
+msgid "Left little finger"
+msgstr "左小指"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:401
+#, kde-format
+msgid "Left ring finger"
+msgstr "左無名指"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:406
+#, kde-format
+msgid "Left middle finger"
+msgstr "左中指"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:411
+#, kde-format
+msgid "Left index finger"
+msgstr "左食指"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:416
+#, kde-format
+msgid "Right index finger"
+msgstr "右食指"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:421
+#, kde-format
+msgid "Right middle finger"
+msgstr "右中指"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:426
+#, kde-format
+msgid "Right ring finger"
+msgstr "右無名指"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_keyFingerComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:431
+#, kde-format
+msgid "Right little finger"
+msgstr "右小指"
+
+#. i18n: ectx: property (text), widget (QLabel, m_keyHapticMarkerLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:439
+#, kde-format
+msgid "Haptic Marker:"
+msgstr "觸感(Haptic)標記："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/ui/keyboardlayoutpropertieswidget.ui:465
+#, kde-format
+msgid "Characters"
+msgstr "字元數"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_addCharacterButton)
+#: src/ui/keyboardlayoutpropertieswidget.ui:501
+#, kde-format
+msgid "Add new character"
+msgstr "新增字元"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_removeCharacterButton)
+#: src/ui/keyboardlayoutpropertieswidget.ui:513
+#, kde-format
+msgid "Remove character"
+msgstr "移除字元"
+
+#. i18n: ectx: property (text), widget (QLabel, m_specialKeyTypeLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:562
+#, kde-format
+msgid "Type:"
+msgstr "型態："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:579
+#, kde-format
+msgid "Tab"
+msgstr "Tab"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:584
+#, kde-format
+msgid "Capslock"
+msgstr "大寫鎖定"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:589
+#, kde-format
+msgid "Shift"
+msgstr "Shift"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:594
+#, kde-format
+msgid "Backspace"
+msgstr "Backspace"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:599
+#, kde-format
+msgid "Return"
+msgstr "Return"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:604
+#, kde-format
+msgid "Space"
+msgstr "空白鍵"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_specialKeyTypeComboBox)
+#: src/ui/keyboardlayoutpropertieswidget.ui:609
+#, kde-format
+msgid "Other"
+msgstr "其他"
+
+#. i18n: ectx: property (text), widget (QLabel, m_specialKeyLabelLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:617
+#, kde-format
+msgid "Label:"
+msgstr "標籤："
+
+#. i18n: ectx: property (text), widget (QLabel, m_specialKeyModifierIdLabel)
+#: src/ui/keyboardlayoutpropertieswidget.ui:630
+#, kde-format
+msgid "Modifier ID:"
+msgstr "組合鍵代碼："
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_openTextFileButton)
+#: src/ui/lessontexteditor.ui:31
+#, kde-format
+msgid "Open a text file..."
+msgstr "開啟文字檔..."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_reformatLessonTextButton)
+#: src/ui/lessontexteditor.ui:46
+#, kde-format
+msgid "Wrap lines automatically"
+msgstr "自動斷行"
+
+#. i18n: ectx: property (text), widget (QLabel, m_characterCountLabel)
+#: src/ui/lessontexteditor.ui:74
+#, kde-format
+msgid "0 Characters"
+msgstr "0 個字元"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_pasteCurrentNameButton)
+#: src/ui/newkeyboardlayoutwidget.ui:37
+#, kde-format
+msgid "Paste current system keyboard layout name"
+msgstr "貼上目前的系統鍵盤佈局名稱"
+
+#. i18n: ectx: property (text), widget (QLabel, trainingLabel)
+#: src/ui/trainingconfigwidget.ui:25
+#, kde-format
+msgid "During training:"
+msgstr "訓練期間："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnforceTypingErrorCorrection)
+#: src/ui/trainingconfigwidget.ui:32
+#, kde-format
+msgid "Enforce correction of typing errors"
+msgstr "強制修正打字錯誤"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowKeyboard)
+#: src/ui/trainingconfigwidget.ui:45
+#, kde-format
+msgid "Show keyboard"
+msgstr "顯示鍵盤"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStatistics)
+#: src/ui/trainingconfigwidget.ui:52
+#, kde-format
+msgid "Show real-time statistics"
+msgstr "顯示即時統計"
+
+#. i18n: ectx: property (text), widget (QLabel, nextLineLabel)
+#: src/ui/trainingconfigwidget.ui:75
+#, kde-format
+msgid "Go to next line with:"
+msgstr "跳到下一行的按鍵："
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_NextLineWithReturn)
+#: src/ui/trainingconfigwidget.ui:82
+#, kde-format
+msgid "Ret&urn"
+msgstr "Return(&U)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_NextLineWithSpace)
+#: src/ui/trainingconfigwidget.ui:89
+#, kde-format
+msgid "Spa&ce"
+msgstr "空白(&C)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/ui/trainingconfigwidget.ui:120
+#, kde-format
+msgid "Lesson unlocking limits"
+msgstr "課程解鎖限制"
+
+#. i18n: ectx: property (text), widget (QLabel, requiredStrokesPerMinuteLabel)
+#: src/ui/trainingconfigwidget.ui:126
+#, kde-format
+msgid "Minimum strokes &per minute:"
+msgstr "每分鐘最少敲擊次數(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, requiredAccuracyLabel)
+#: src/ui/trainingconfigwidget.ui:149
+#, kde-format
+msgid "Minimum accuracy:"
+msgstr "最小精確度："
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_RequiredAccuracy)
+#: src/ui/trainingconfigwidget.ui:162
+#, no-c-format, kde-format
+msgid " %"
+msgstr "%"
+
+#: src/undocommands/coursecommands.cpp:32
+#, kde-format
+msgid "Set title"
+msgstr "設定標題"
+
+#: src/undocommands/coursecommands.cpp:67
+#, kde-format
+msgid "Set keyboard layout"
+msgstr "設定鍵盤佈局"
+
+#: src/undocommands/coursecommands.cpp:102
+#, kde-format
+msgid "Edit description"
+msgstr "編輯描述"
+
+#: src/undocommands/coursecommands.cpp:137
+#, kde-format
+msgid "Add lesson"
+msgstr "新增課程"
+
+#: src/undocommands/coursecommands.cpp:229
+#, kde-format
+msgid "Move lesson"
+msgstr "移動課程"
+
+#: src/undocommands/coursecommands.cpp:293
+#, kde-format
+msgid "Set lesson title"
+msgstr "設定課程標題"
+
+#: src/undocommands/coursecommands.cpp:332
+#, kde-format
+msgid "Set new characters for lesson"
+msgstr "設定課程裡的新字元"
+
+#: src/undocommands/coursecommands.cpp:371
+#, kde-format
+msgid "Set lesson text"
+msgstr "設定課程文字"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:32
+#, kde-format
+msgid "Set keyboard layout title"
+msgstr "設定鍵盤佈局標題"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:67
+#, kde-format
+msgid "Set keyboard layout name"
+msgstr "設定鍵盤佈局名稱"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:102
+#, kde-format
+msgid "Set keyboard layout size"
+msgstr "設定鍵盤佈局大小"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:154
+#, kde-format
+msgid "Add key"
+msgstr "新增按鍵"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:209
+#, kde-format
+msgid "Remove key"
+msgstr "移除按鍵"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:271
+#, kde-format
+msgid "Set key geometry"
+msgstr "設定按鍵位置"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:309
+#, kde-format
+msgid "Set key finger"
+msgstr "設定按鍵指頭"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:355
+#, kde-format
+msgid "Set key haptic marker"
+msgstr "設定按鍵觸感標記"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:400
+#, kde-format
+msgid "Add key character"
+msgstr "新增按鍵字元"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:441
+#, kde-format
+msgid "Remove key character"
+msgstr "移除按鍵字元"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:498
+#, kde-format
+msgid "Set key character value"
+msgstr "設定按鍵字元值"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:545
+#, kde-format
+msgid "Set key character modifier"
+msgstr "設定按鍵字元組合鍵"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:592
+#, kde-format
+msgid "Set key character position"
+msgstr "設定按鍵字元位置"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:638
+#, kde-format
+msgid "Set special key type"
+msgstr "設定特殊鍵型態"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:681
+#, kde-format
+msgid "Set special key label"
+msgstr "設定特殊鍵標籤"
+
+#: src/undocommands/keyboardlayoutcommands.cpp:724
+#, kde-format
+msgid "Set special key modifier ID"
+msgstr "設定特殊鍵組合鍵代碼"
+
+#~ msgid "Use OpenGL for rendering (experimental)"
+#~ msgstr "使用 OpenGL 成像（實驗性質）"
+
+#~ msgid "Edit Custom Lesson"
+#~ msgstr "編輯自訂課程"
+
+#~ msgid "No Courses Available"
+#~ msgstr "沒有可用的課程檔"
+
+#~ msgid ""
+#~ "Typewriting Trainer has no courses for your keyboard layout. You may "
+#~ "create your own course with the keyboard layout and course editor."
+#~ msgstr ""
+#~ "打字訓練程式沒有您的鍵盤佈局適用的課程。您可以用課程與鍵盤佈局編輯器來建立"
+#~ "您自己的課程。"
+
+#~ msgid "Launch Editor"
+#~ msgstr "啟動編輯器"
+
+#~ msgid "Form"
+#~ msgstr "表單"
+
+#~ msgid "use a QGLWidget for the viewport"
+#~ msgstr "使用 QGLWidget 做檢視埠"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Arabic"
+#~ msgstr "阿拉伯文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Brazilian"
+#~ msgstr "巴西語"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Bulgarian"
+#~ msgstr "保加利亞語"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Czech qwerty"
+#~ msgstr "捷克文 qwerty"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Czech qwertz"
+#~ msgstr "捷克文 qwerty"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Danish"
+#~ msgstr "丹麥文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "English Colemak"
+#~ msgstr "英文 Colemak"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "English Dvorak"
+#~ msgstr "英文 Dvorak"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "English"
+#~ msgstr "英文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "AlphaGrip"
+#~ msgstr "AlphaGrip"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "English Dvorak (United Kingdom)"
+#~ msgstr "英文 Dvorak（英國）"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "English (United Kingdom)"
+#~ msgstr "英語（英國）"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Estonian"
+#~ msgstr "愛沙尼亞語"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "French Dvorak"
+#~ msgstr "法文 Dvorak"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "French"
+#~ msgstr "法文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "German Dvorak Type II"
+#~ msgstr "德文 Dvorak Type II"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "German"
+#~ msgstr "德文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "German Neo 2"
+#~ msgstr "德文 Neo 2"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Greek (English)"
+#~ msgstr "希臘文（英文）"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Hebrew"
+#~ msgstr "希伯來文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Hungarian"
+#~ msgstr "匈牙利文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Italian"
+#~ msgstr "義大利文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Kannada"
+#~ msgstr "坎那達語"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Latinoamerican"
+#~ msgstr "拉丁美洲"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Lithuanian standard"
+#~ msgstr "立陶宛文標準"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Norwegian"
+#~ msgstr "挪威文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Portuguese"
+#~ msgstr "葡萄牙文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Québec"
+#~ msgstr "魁北克"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Russian"
+#~ msgstr "俄文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Slovak qwerty"
+#~ msgstr "斯洛伐克文 qwerty"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Slovak qwertz"
+#~ msgstr "斯洛伐克文 qwertz"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Slovenian"
+#~ msgstr "斯洛伐尼亞文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Spanish Dvorak"
+#~ msgstr "西班牙文 Dvorak"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Spanish"
+#~ msgstr "西班牙文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Swedish Keyboard"
+#~ msgstr "瑞典鍵盤"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "German (Swiss)"
+#~ msgstr "德文（瑞士）"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "French Swiss"
+#~ msgstr "瑞士法文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Tamil Eng"
+#~ msgstr "坦米爾英文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Tamil"
+#~ msgstr "坦米爾文"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Turkish f (Türkçe F klavye)"
+#~ msgstr "土耳其文 f (Türkçe F klavye)"
+
+#~ msgctxt "Keyboard Layout Name"
+#~ msgid "Ukrainian (winkeys)"
+#~ msgstr "烏克蘭文（winkeys）"
+
+#~ msgid "Default User"
+#~ msgstr "預設使用者"
+
+#~ msgid ""
+#~ "*.txt *ktouch.xml|Text files\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.txt *ktouch.xml|文字檔\n"
+#~ "*|所有檔案"
+
+#~ msgid "Select Practice Text"
+#~ msgstr "選擇練習用的文字"
+
+#~ msgid "Imported text from file '%1'"
+#~ msgstr "從檔案 %1 匯入文字"
+
+#~ msgid "generated from text file"
+#~ msgstr "從文字檔產生"
+
+#~ msgid "all available"
+#~ msgstr "所有可用的"
+
+#~ msgid "*.ktouch.xml|Lecture files"
+#~ msgstr "*.ktouch.xml|課程檔"
+
+#~ msgid "Select Training Lecture File"
+#~ msgstr "選擇訓練課程檔案"
+
+#~ msgid ""
+#~ "Would you like to keep the current level for the new training session?"
+#~ msgstr "您要保存目前的等級並進入新的訓練階段嗎？"
+
+#~ msgid "Start new training session"
+#~ msgstr "開始新的訓練階段"
+
+#~ msgid "Keep current level"
+#~ msgstr "保留目前等級"
+
+#~ msgid "Start from first level"
+#~ msgstr "從第一級開始"
+
+#~ msgid "General Options"
+#~ msgstr "一般選項"
+
+#~ msgid "Keyboard Settings"
+#~ msgstr "鍵盤設定"
+
+#~ msgid "Level:  Correct/Total chars: %1/%2  Words: %3"
+#~ msgstr "等級：正確/總計字元：%1/%2  單字：%3"
+
+#~ msgid "Session: Correct/Total chars: %1/%2  Words: %3"
+#~ msgstr "訓練階段：正確/總計字元：%1/%2  單字：%3"
+
+#~ msgid ""
+#~ "Note that in different countries touch typing is taught slightly "
+#~ "different which usually affects only the top row of keys. For instance, "
+#~ "in the United States only the leftmost key and the key with the 1 are "
+#~ "pressed by the little finger of the left hand. In Germany the little "
+#~ "finger also presses the 2 key, and thus the fingers shift one key to the "
+#~ "right on the top row.\n"
+#~ "Normally this only makes a difference for split or ergonomic keyboards."
+#~ msgstr ""
+#~ "注意，在不同的國家中，打字的方式有可能不太一樣，通常是在最上面那一排按鍵。"
+#~ "例如，美國式的打字法，只有最左方的鍵與 1 鍵用左手小指來打，但是德國式的方"
+#~ "法則左手小指也會用來按 2 鍵，同時最上面那一排的按鍵，指頭的使用法都向右順"
+#~ "延一格。\n"
+#~ "通常這只對分離式或人體工學式鍵盤有差別。"
+
+#~ msgid "Could not find/open the lecture file '%1'."
+#~ msgstr "找不到/無法開啟課程檔 %1。"
+
+#~ msgid "Changing user to '%1'. Restarting training session at current level."
+#~ msgstr "改變使用者為 %1。重新以目前的等及啟動訓練階段。"
+
+#~ msgid "&Open Lecture..."
+#~ msgstr "開啟課程(&O)..."
+
+#~ msgid "&Edit Lecture..."
+#~ msgstr "編輯課程(&E)..."
+
+#~ msgid "&Edit Color Scheme..."
+#~ msgstr "編輯顏色機制(&E)："
+
+#~ msgid "&Edit Keyboard Layout..."
+#~ msgstr "編輯鍵盤佈局(&E)..."
+
+#~ msgid "&Pause Session"
+#~ msgstr "暫停訓練階段(&P)"
+
+#~ msgid "&Lecture Statistics"
+#~ msgstr "課程統計(&L)"
+
+#~ msgid "Default &Lectures"
+#~ msgstr "預設課程(&L)"
+
+#~ msgid "Keyboards &Color Schemes"
+#~ msgstr "鍵盤顏色機制(&C)"
+
+#~ msgid "&Setup Users..."
+#~ msgstr "設定使用者(&S)..."
+
+#~ msgid "&Current User"
+#~ msgstr "目前使用者(&C)"
+
+#~ msgid "untitled lecture"
+#~ msgstr "未命名課程"
+
+#~ msgid "The number of the current color scheme."
+#~ msgstr "目前顏色機制的數量。"
+
+#~ msgid "Use the same typing line colors independent of color scheme."
+#~ msgstr "使用同樣的輸入行顏色，不管顏色機制。"
+
+#~ msgid "The background color for the teacher's line."
+#~ msgstr "教師行的背景顏色。"
+
+#~ msgid "The text color for the teacher's line"
+#~ msgstr "教師行的文字顏色"
+
+#~ msgid "The background color for the student's line."
+#~ msgstr "學生行的背景顏色。"
+
+#~ msgid "The text color for the student's line"
+#~ msgstr "學生行的文字顏色"
+
+#~ msgid "Whether to use a different background for wrong text or not."
+#~ msgstr "錯誤的文字是否要使用不同的背景顏色。"
+
+#~ msgid "The background color for wrong text (students line)."
+#~ msgstr "錯誤文字的背景顏色（學生行）。"
+
+#~ msgid "The text color for wrong text (students line)."
+#~ msgstr "錯誤文字的文字顏色（學生行）。"
+
+#~ msgid "Emit a beep on each typing error"
+#~ msgstr "每個打字錯誤都發出一個嗶聲"
+
+#~ msgid "Play sounds for typing."
+#~ msgstr "播放打字的聲音。"
+
+#~ msgid "Play a sound on automatic level change"
+#~ msgstr "自動變更等級時播放音效"
+
+#~ msgid "The sliding speed"
+#~ msgstr "滑動速度"
+
+#~ msgid "The maximum height of the sliding widget"
+#~ msgstr "滑動元件的最大高度"
+
+#~ msgid "Override the default/predefined lecture fonts."
+#~ msgstr "覆寫預設/預定義的課程字型"
+
+#~ msgid "The font for the student and teacher lines"
+#~ msgstr "學生行與教師行的字型"
+
+#~ msgid "The currently loaded lecture file"
+#~ msgstr "目前載入的課程檔"
+
+#~ msgid "Whether we use right-to-left typing."
+#~ msgstr "是否使用右到左打字。"
+
+#~ msgid "Whether to use colors on the keys or not."
+#~ msgstr "是否在按鍵上使用顏色。"
+
+#~ msgid "Whether to show only the learned/known keys or always all keys."
+#~ msgstr "是否只顯示已學過的/已知的按鍵，還是顯示所有按鍵。"
+
+#~ msgid "Whether to show the keyboard display."
+#~ msgstr "是否顯示鍵盤。"
+
+#~ msgid "Whether to override the default/predefined keyboard fonts."
+#~ msgstr "是否覆寫預設/預定義的鍵盤字型。"
+
+#~ msgid "The font for the keys on the keyboard"
+#~ msgstr "鍵盤上按鍵的字型"
+
+#~ msgid "The currently loaded keyboard file"
+#~ msgstr "目前載入的鍵盤檔"
+
+#~ msgid "Requires user to press enter after the line is complete."
+#~ msgstr "一行結束後需要使用者按下 Enter。"
+
+#~ msgid "Allow automatic level adjustments"
+#~ msgstr "自動調整等級"
+
+#~ msgid "Disable manual level adjustments when auto-level change is enabled"
+#~ msgstr "開啟自動調整等級的話，將會關閉手動調整等級"
+
+#~ msgid "Remember the current level for the next KTouch start"
+#~ msgstr "記住目前的等級，下次啟動時使用"
+
+#~ msgid "The current training level"
+#~ msgstr "目前訓練等級"
+
+#~ msgid "Number of chars per minute to increase a level"
+#~ msgstr "升級限制：每分鐘多少字元"
+
+#~ msgid "Percentage of correctness to increase a level"
+#~ msgstr "升級限制：正確率"
+
+#~ msgid "Number of chars per minute to decrease a level"
+#~ msgstr "降級限制：每分鐘多少字元"
+
+#~ msgid "Percentage of correctness to decrease a level"
+#~ msgstr "降級限制：正確率"
+
+#~ msgid "How many lines that must be typed before level can change"
+#~ msgstr "要升級至少要打過多少行字"
+
+#~ msgid "Run minimum one complete level before going up"
+#~ msgstr "在升級前至少完成一個完整的等級"
+
+#~ msgid "Allow multiple KTouch users for single user account"
+#~ msgstr "允許多個 KTouch 使用者使用單一帳號"
+
+#~ msgid "The user name of the current user."
+#~ msgstr "目前使用者名稱。"
+
+#~ msgid "Save modified color schemes?"
+#~ msgstr "要儲存已變更的顏色機制嗎？"
+
+#~ msgid "untitled color scheme"
+#~ msgstr "未命名的顏色機制"
+
+#~ msgid "Black && White"
+#~ msgstr "黑與白"
+
+#~ msgid "Classic"
+#~ msgstr "傳統"
+
+#~ msgid "Deep Blue"
+#~ msgstr "深藍"
+
+#~ msgid "Stripy"
+#~ msgstr "條紋狀"
+
+#~ msgid "Could not open/download keyboard file '%1'"
+#~ msgstr "無法下載或開啟鍵盤佈局檔 %1。"
+
+#~ msgid ""
+#~ "%1 with display character '%2' and unicode '%3' has been already defined "
+#~ "and is skipped.\n"
+#~ msgstr "%1，其顯示字元為 %2，萬國碼為 %3 的按鍵已定義，因此將被跳過。\n"
+
+#~ msgid "Control key"
+#~ msgstr "Control 鍵"
+
+#~ msgid ""
+#~ "Unknown finger key with unicode '%1'. Normal key with display character "
+#~ "'%2' and unicode '%3' skipped.\n"
+#~ msgstr ""
+#~ "未知的指頭按鍵，萬國碼為 %1。一般按鍵顯示字元 %2，其萬國碼為 %3 者將被跳"
+#~ "過。\n"
+
+#~ msgid ""
+#~ "Unknown target key with unicode '%1'. Hidden key with display character "
+#~ "'%2' and unicode '%3' skipped.\n"
+#~ msgstr ""
+#~ "未知的目標按鍵，萬國碼為 %1。隱藏按鍵顯示字元 %2，其萬國碼為 %3 者將被跳"
+#~ "過。\n"
+
+#~ msgid ""
+#~ "Unknown finger key with unicode '%1'. Hidden key with display character "
+#~ "'%2' and unicode '%3' skipped.\n"
+#~ msgstr ""
+#~ "未知的指頭按鍵，萬國碼為 %1。隱藏按鍵顯示字元 %2，其萬國碼為 %3 者將被跳"
+#~ "過。\n"
+
+#~ msgid ""
+#~ "Unknown modifier/control key with unicode '%1'. Hidden key with display "
+#~ "character '%2' and unicode '%3' skipped.\n"
+#~ msgstr ""
+#~ "未知的組合按鍵，萬國碼為 %1。隱藏按鍵顯示字元 %2，其萬國碼為 %3 者將被跳"
+#~ "過。\n"
+
+#~ msgctxt "Num-lock"
+#~ msgid "Num"
+#~ msgstr "Num"
+
+#~ msgid ""
+#~ "*.keyboard.xml|KTouch Keyboard Files (*.keyboard.xml)\n"
+#~ "*|All Files"
+#~ msgstr ""
+#~ "*.keyboard.xml|KTouch 鍵盤檔 (*.keyboard.xml)\n"
+#~ "*|所有檔案"
+
+#~ msgid "Really delete this key?"
+#~ msgstr "確定要刪除此鍵嗎？"
+
+#~ msgid "KTouch keyboard editor"
+#~ msgstr "KTouch 鍵盤編輯器"
+
+#~ msgid ""
+#~ "This is not a valid unicode number. Please correct the number or enter a "
+#~ "character."
+#~ msgstr "這不是合法的萬國碼數值。請修正此數值，或輸入一個字元。"
+
+#~ msgid "Please enter either a character or a unicode number."
+#~ msgstr "請輸數一個字元或一個萬國碼數值。"
+
+#~ msgid "Delete all key connections for this key?"
+#~ msgstr "要刪除此鍵的所有連線嗎？"
+
+#~ msgid "KTouch keyboard editor error"
+#~ msgstr "KTouch 鍵盤編輯器錯誤"
+
+#~ msgid "<modifier key>"
+#~ msgstr "<組合鍵>"
+
+#~ msgid "Open Keyboard File"
+#~ msgstr "開啟鍵盤檔案"
+
+#~ msgid "Which keyboard file would you like to edit?"
+#~ msgstr "您要編輯哪一個鍵盤檔？"
+
+#~ msgid "Edit current keyboard:"
+#~ msgstr "編輯目前的鍵盤："
+
+#~ msgid "Open a default keyboard:"
+#~ msgstr "開啟預設的鍵盤："
+
+#~ msgid "Open a keyboard file:"
+#~ msgstr "開啟鍵盤檔案："
+
+#~ msgid "<no keyboard files available>"
+#~ msgstr "<沒有可用的鍵盤檔>"
+
+#~ msgid "Could not open the keyboard file, creating a new one instead."
+#~ msgstr "無法開啟此鍵盤檔。重新建立新的鍵盤檔。"
+
+#~ msgid ""
+#~ "There were warnings while reading the keyboard file '%1':\n"
+#~ "%2"
+#~ msgstr ""
+#~ "讀取鍵盤檔 %1 時發生警告：\n"
+#~ "%2"
+
+#~ msgid " (modified)"
+#~ msgstr "（已修改）"
+
+#~ msgid "KTouch Keyboard Editor - %1 %2"
+#~ msgstr "KTouch 鍵盤編輯器─ %1 %2"
+
+#~ msgid "KTouch Keyboard Editor - %1"
+#~ msgstr "KTouch 鍵盤編輯器─%1"
+
+#~ msgid "<unnamed keyboard file>"
+#~ msgstr "<未命名的鍵盤檔>"
+
+#~ msgid "The keyboard has been changed. Do you want to save the changes?"
+#~ msgstr "此鍵盤已被變更。您要儲存這些變更嗎？"
+
+#~ msgid "Could not read the keyboard layout file '%1'. %2"
+#~ msgstr "無法讀取鍵盤佈局檔案 %1。%2"
+
+#~ msgid "Could not download/open keyboard layout file from '%1'."
+#~ msgstr "無法從 %1 下載/開啟鍵盤佈局檔。"
+
+#~ msgid ""
+#~ "Error reading the keyboard layout; the default number keypad will be "
+#~ "created instead. You can choose another keyboard layout in the "
+#~ "preferences dialog."
+#~ msgstr ""
+#~ "讀取鍵盤佈局時發生錯誤；將會改建立預設的數字鍵。您可以在喜好設定中選擇其他"
+#~ "的鍵盤佈局。"
+
+#~ msgid "A default lecture..."
+#~ msgstr "預設課程..."
+
+#~ msgid "Save Training Lecture"
+#~ msgstr "儲存訓練課程"
+
+#~ msgid "KTouch Lecture Editor - "
+#~ msgstr "KTouch 課程編輯器─"
+
+#~ msgid "<new unnamed lecture file>"
+#~ msgstr "<新的未命名課程檔>"
+
+#~ msgid "Data of Level %1"
+#~ msgstr "等級 %1 的資料"
+
+#~ msgid "abcdefghijklmnopqrstuvwxyz"
+#~ msgstr "abcdefghijklmnopqrstuvwxyz"
+
+#~ msgid "Enter your lines here..."
+#~ msgstr "請在此輸入行數..."
+
+#~ msgid "Open Lecture File"
+#~ msgstr "開啟課程檔案"
+
+#~ msgid "Which Lecture File Would You Like to Edit?"
+#~ msgstr "您想要編輯哪個課程檔？"
+
+#~ msgid "Edit current lecture:"
+#~ msgstr "編輯目前的課程："
+
+#~ msgid "Open a default lecture:"
+#~ msgstr "開啟預設的課程："
+
+#~ msgid "Could not open the lecture file, creating a new one instead."
+#~ msgstr "無法開啟課程檔。重新建立新的課程檔。"
+
+#~ msgid "The lecture has been changed. Do you want to save the changes?"
+#~ msgstr "課程已變更。您要儲存變更嗎？"
+
+#~ msgid "Quite a lot"
+#~ msgstr "很多很多"
+
+#~ msgid ""
+#~ "This is a small default text. If you want\n"
+#~ "to start practicing touch typing, open\n"
+#~ "a lecture/training file from the main menu.\n"
+#~ "If you press Enter after the next line you have\n"
+#~ "successfully completed the default lecture. Hurray!!!"
+#~ msgstr ""
+#~ "This is a small default text. If you want\n"
+#~ "to start practicing touch typing, open\n"
+#~ "a lecture/training file from the main menu.\n"
+#~ "If you press Enter after the next line you have\n"
+#~ "successfully completed the default lecture. Hurray!!!"
+
+#~ msgctxt "basically all characters on the keyboard"
+#~ msgid "abcdefghijklmnopqrstuvwxyz"
+#~ msgstr "abcdefghijklmnopqrstuvwxyz"
+
+#~ msgid "<no default files available>"
+#~ msgstr "<沒有可用的預設檔>"
+
+#~ msgid "Please select or enter a file name."
+#~ msgstr "請選擇或輸入檔名。"
+
+#~ msgid "The URL seems to be malformed; please correct it."
+#~ msgstr "此網址不正確。"
+
+#~ msgid "***current***  "
+#~ msgstr "***目前***  "
+
+#~ msgid "No statistics data available yet."
+#~ msgstr "尚未有任何統計資料。"
+
+#~ msgid ""
+#~ "Erase all statistics data for the current user?\n"
+#~ "The training session will restart at the current level."
+#~ msgstr ""
+#~ "要清除目前使用者的所有統計資料嗎？\n"
+#~ "訓練課程會以目前的等級重新開始。"
+
+#~ msgid "Words per minute"
+#~ msgstr "每分鐘字數"
+
+#~ msgid "Correctness"
+#~ msgstr "正確度"
+
+#~ msgid "Skill"
+#~ msgstr "技能"
+
+#~ msgid "Time since first practice session in days"
+#~ msgstr "第一次訓練階段到目前的時間，以天為單位"
+
+#~ msgid "Sessions"
+#~ msgstr "訓練階段"
+
+#~ msgid "Starting training session: Waiting for first keypress..."
+#~ msgstr "開始訓練階段：等待按下第一個鍵..."
+
+#~ msgid ""
+#~ "You have finished this training exercise.\n"
+#~ "This training session will start from the beginning."
+#~ msgstr ""
+#~ "您已完成此次練習。\n"
+#~ "此訓練階段將從頭開始。"
+
+#~ msgid "You rock!"
+#~ msgstr "完成！"
+
+#~ msgid "S&tatistics"
+#~ msgstr "統計(&T)"
+
+#~ msgid "&Settings"
+#~ msgstr "設定(&S)"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具列"
+
+#~ msgid "New User"
+#~ msgstr "新使用者"
+
+#~ msgid "Please enter a unique user name:"
+#~ msgstr "請輸入使用者名稱："
+
+#~ msgid "This is not a valid (unique) user name!"
+#~ msgstr "這不是合法的使用者名稱（或此名稱已存在）！"
+
+#~ msgid "Save user list?"
+#~ msgstr "要儲存使用者清單嗎？"
+
+#~ msgid "A program that helps you to learn and practice touch typing"
+#~ msgstr "讓您學習並練習打字的程式"
+
+#~ msgid "KTouch"
+#~ msgstr "KTouch"
+
+#~ msgid "Training file to open"
+#~ msgstr "要開啟的訓練檔"
+
+#~ msgid "Color Scheme Editor"
+#~ msgstr "顏色機制編輯器"
+
+#~ msgid "User Defined Color Schemes"
+#~ msgstr "使用者定義的顏色機制"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Edit Color Scheme"
+#~ msgstr "編輯顏色機制"
+
+#~ msgid "Name of color scheme:"
+#~ msgstr "顏色機制名稱："
+
+#~ msgid "&Store Data"
+#~ msgstr "儲存資料(&S)"
+
+#~ msgid "Slide Line Colors"
+#~ msgstr "滑動線顏色"
+
+#~ msgid "Teacher background:"
+#~ msgstr "教師行背景："
+
+#~ msgid "Teacher text:"
+#~ msgstr "教師行文字："
+
+#~ msgid "Student background:"
+#~ msgstr "學生行背景："
+
+#~ msgid "Student text on error:"
+#~ msgstr "學生行錯字："
+
+#~ msgid "Student background on error:"
+#~ msgstr "學生行錯字背景："
+
+#~ msgid "Keyboard Colors"
+#~ msgstr "鍵盤顏色"
+
+#~ msgid "Background colors for normal keys:"
+#~ msgstr "一般鍵的背景顏色："
+
+#~ msgid "Highlighted background:"
+#~ msgstr "突顯背景："
+
+#~ msgid "Normal key colors:"
+#~ msgstr "一般鍵顏色："
+
+#~ msgid "Highlighted text color:"
+#~ msgstr "突顯文字顏色："
+
+#~ msgid "Text color:"
+#~ msgstr "文字顏色："
+
+#~ msgid "Key frame:"
+#~ msgstr "按鍵框架："
+
+#~ msgid "Modifier/other keys:"
+#~ msgstr "組合鍵/其它鍵："
+
+#~ msgid "Text color"
+#~ msgstr "文字顏色"
+
+#~ msgid "Background:"
+#~ msgstr "背景："
+
+#~ msgid "Keyboard Identification Data"
+#~ msgstr "鍵盤辨識資料"
+
+#~ msgid "Keyboard title:"
+#~ msgstr "鍵盤標題"
+
+#~ msgid "Language id:"
+#~ msgstr "語言代碼："
+
+#~ msgid "Comments:"
+#~ msgstr "註解："
+
+#~ msgid "Key Properties"
+#~ msgstr "按鍵屬性"
+
+#~ msgid "Key type:"
+#~ msgstr "按鍵型態："
+
+#~ msgid "Key text:"
+#~ msgstr "按鍵文字："
+
+#~ msgid "Keyboard Edit Options"
+#~ msgstr "鍵盤編輯選項"
+
+#~ msgid "Set Keyboard Font..."
+#~ msgstr "設定鍵盤字型..."
+
+#~ msgid "Save Keyboard As..."
+#~ msgstr "另存鍵盤..."
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Key connectors"
+#~ msgstr "按鍵連接器"
+
+#~ msgid "or unicode"
+#~ msgstr "或萬國碼"
+
+#~ msgid "Clear connectors"
+#~ msgstr "清除連接器"
+
+#~ msgid "Add/update connector"
+#~ msgstr "新增/更新連接器"
+
+#~ msgid "< modifier key>"
+#~ msgstr "<組合鍵>"
+
+#~ msgid "Keyboard Layout (click to activate keys for editing or drag keys)"
+#~ msgstr "鍵盤佈局（點擊以啟動編輯或拖曳）"
+
+#~ msgid "KTouch Lecture Editor"
+#~ msgstr "KTouch 課程編輯器"
+
+#~ msgid "Lecture Properties"
+#~ msgstr "課程編輯器"
+
+#~ msgid "Comment:"
+#~ msgstr "註解："
+
+#~ msgid "Level Data of Level 10"
+#~ msgstr "等級 10 的資料"
+
+#~ msgid "New characters in this level:"
+#~ msgstr "此等級的新字元："
+
+#~ msgid "Level comment (optional):"
+#~ msgstr "等級註解（選擇性的）："
+
+#~ msgid "Level data:"
+#~ msgstr "等級資料："
+
+#~ msgid "Training level summary"
+#~ msgstr "訓練課程摘要"
+
+#~ msgid "Summary"
+#~ msgstr "摘要"
+
+#~ msgid "High scores for this level"
+#~ msgstr "此等級的高分榜"
+
+#~ msgid "1."
+#~ msgstr "1."
+
+#~ msgid "2."
+#~ msgstr "2."
+
+#~ msgid "3."
+#~ msgstr "3."
+
+#~ msgid "4."
+#~ msgstr "4."
+
+#~ msgid "5."
+#~ msgstr "5."
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Score"
+#~ msgstr "分數"
+
+#~ msgid "Characters per second"
+#~ msgstr "每分鐘字元數"
+
+#~ msgid "All users high scores for this level"
+#~ msgstr "此等級的所有使用者分數榜"
+
+#~ msgid "&Retry level"
+#~ msgstr "重試此等級(&R)"
+
+#~ msgid "&Continue to next level"
+#~ msgstr "繼續到下一等級(&C)"
+
+#~ msgid "Browse..."
+#~ msgstr "瀏覽..."
+
+#~ msgid "&OK"
+#~ msgstr "確定(&O)"
+
+#~ msgid "Use custom color for typing line"
+#~ msgstr "使用輸入行的自訂顏色"
+
+#~ msgid "The color for the teacher's line"
+#~ msgstr "教師行的顏色"
+
+#~ msgid "Teacher's line"
+#~ msgstr "教師行"
+
+#~ msgid "Text:"
+#~ msgstr "文字："
+
+#~ msgid "Change the text color for the student line"
+#~ msgstr "變更學生行的文字顏色"
+
+#~ msgid ""
+#~ "Here you can change the color of the text you type in the student line."
+#~ msgstr "您可以在此變更您在學生行輸入文字的顏色。"
+
+#~ msgid "The background for the teacher's line"
+#~ msgstr "教師行的背景顏色"
+
+#~ msgid ""
+#~ "Here you can change the background color for the teacher's line (the line "
+#~ "of letters you have to type.)"
+#~ msgstr "您可以在此變更教師行的背景顏色（也就是顯示您要輸入的字母的那一行）"
+
+#~ msgid "Use different color on missed typing"
+#~ msgstr "少打字時使用不同的顏色"
+
+#~ msgid "Choose the background color for error in typing line"
+#~ msgstr "選擇在打字行中有錯誤時的背景顏色"
+
+#~ msgid ""
+#~ "When you have checked 'Use different color on error in the typing line', "
+#~ "you can then choose a color for the background of errors. You make an "
+#~ "error when you type a wrong letter in the student line. This is a way to "
+#~ "make your errors more visible."
+#~ msgstr ""
+#~ "若您勾選了「打錯字時使用不同的顏色」這個選項，您就可以選擇打錯字時要顯示的"
+#~ "背景顏色。這樣當您在學生行打錯字母的時候就可以馬上知道。"
+
+#~ msgid "Choose the text color for error in typing line"
+#~ msgstr "選擇在打字行中有錯誤時的文字顏色"
+
+#~ msgid ""
+#~ "When you have checked 'Use different color on error in the typing line', "
+#~ "you can then choose a color for the text of errors. You make an error "
+#~ "when you type a wrong letter in the student line. This is a way to make "
+#~ "your errors more visible."
+#~ msgstr ""
+#~ "若您勾選了「打錯字時使用不同的顏色」這個選項，您就可以選擇打錯字時要顯示的"
+#~ "文字顏色。這樣當您在學生行打錯字母的時候就可以馬上知道。"
+
+#~ msgid "Text Line Settings"
+#~ msgstr "文字行設定"
+
+#~ msgid "Fast"
+#~ msgstr "快"
+
+#~ msgid "Slow"
+#~ msgstr "慢"
+
+#~ msgid "Sliding speed:"
+#~ msgstr "滑動速度："
+
+#~ msgid "Override lecture font"
+#~ msgstr "覆寫課程字型"
+
+#~ msgid "Font for displayed/typed text:"
+#~ msgstr "已顯示/已輸入文字字型："
+
+#~ msgid ""
+#~ "This button will display a font dialog where you can change the font for "
+#~ "the student and the teacher lines. When you leave the font dialog, the "
+#~ "new font is previewed in the line below and only applied when you click "
+#~ "the Apply button below."
+#~ msgstr ""
+#~ "此按鍵會顯示字型對話框，您可以選擇學生行與教師行使用的字型。離開時新字型會"
+#~ "在底下預覽，並且只有在按下「套用」鍵時才會生效。"
+
+#~ msgid "Show on the keyboards the keys you have to type"
+#~ msgstr "顯示您用於打字的鍵盤"
+
+#~ msgid ""
+#~ "This highlights on the keyboard the key you have to type next. It is "
+#~ "easier to type when this is checked."
+#~ msgstr "勾選此選項的話，會將您下一個應該按的按鍵突顯出來。"
+
+#~ msgid "Highlight &keys on keyboard"
+#~ msgstr "在鍵盤上突顯按鍵(&K)"
+
+#~ msgid "Hide/dim not yet learned keys "
+#~ msgstr "隱藏或關閉尚未學習的按鍵"
+
+#~ msgid ""
+#~ "If checked you can specify your own keyboard font instead of the "
+#~ "predefined one of the keyboard layout."
+#~ msgstr ""
+#~ "勾選此選項的話，您可以指定您的鍵盤的字型，而不使用鍵盤佈局定義的字型。"
+
+#~ msgid ""
+#~ "Every keyboard layout may specify its own font. If the predefined font of "
+#~ "a certain keyboard layout does not work or you would like to have your "
+#~ "own, check this button. You may then choose your own font that will be "
+#~ "used to draw the characters on the keys."
+#~ msgstr ""
+#~ "每個鍵盤佈局都會指定自己的字型。如果該字型在您的系統上無法使用，或是您喜歡"
+#~ "用自己的字型，您可以勾選此選項。然後您就可以選擇自己使用的字型。"
+
+#~ msgid "Override keyboard fonts"
+#~ msgstr "覆寫鍵盤字型"
+
+#~ msgid "Font for keys on keyboard:"
+#~ msgstr "鍵盤上按鍵的字型："
+
+#~ msgid "Sound"
+#~ msgstr "音效"
+
+#~ msgid ""
+#~ "If checked (default) this will emit a beep each time you make a typing "
+#~ "error."
+#~ msgstr "勾選的話會在您打字錯誤時發出嗶聲（預設開啟）"
+
+#~ msgid "&Beep on error"
+#~ msgstr "錯誤時發出嗶聲(&B)"
+
+#~ msgid "Make a typewriter sound for each key pressed"
+#~ msgstr "按鍵時發生打字機音效"
+
+#~ msgid "If checked this will play a typewriter sound for every key pressed."
+#~ msgstr "勾選此項目的話，在按下每個鍵都會發出打字機的音效。"
+
+#~ msgid "&Typewriter sound when typing"
+#~ msgstr "打字時發出打字機音效(&T)"
+
+#~ msgid "Play a sound when the level automatically changes."
+#~ msgstr "自動變更等級時播放音效。"
+
+#~ msgid ""
+#~ "If this is checked (default) a sound will be played each time you "
+#~ "automatically change of level."
+#~ msgstr "勾選此選項的話，會在您自動變更等級時發出音效。預設是開啟。"
+
+#~ msgid "&Sound on automatic level change"
+#~ msgstr "自動變更等級時播放音效(&S)"
+
+#~ msgid "A&utomatic level adjustment"
+#~ msgstr "自動調整等級(&U)"
+
+#~ msgid "chars/minute"
+#~ msgstr "每分鐘字元數"
+
+#~ msgid "Typing speed:"
+#~ msgstr "打字速度："
+
+#~ msgid "Correctness:"
+#~ msgstr "正確度："
+
+#~ msgid "Workload:"
+#~ msgstr "工作量："
+
+#~ msgid "Complete whole training level before proceeding"
+#~ msgstr "繼續進行前完成整個訓練課程"
+
+#~ msgid "lines"
+#~ msgstr "行"
+
+#~ msgid "Limits to increase a level"
+#~ msgstr "升級限制"
+
+#~ msgid "Limits to decrease a level"
+#~ msgstr "降級限制"
+
+#~ msgid "Disable manual level change buttons"
+#~ msgstr "關閉手動調整等級按鍵"
+
+#~ msgid "&Typewriter mode (user must confirm line with Enter)"
+#~ msgstr "打字機模式（使用者必須用 Enter 來確認該行已完成）(&T)"
+
+#~ msgid "&Remember level for next program start"
+#~ msgstr "記住目前的等級，下次啟動時使用(&R)"
+
+#~ msgid "Current Training Session"
+#~ msgstr "目前的訓練階段"
+
+#~ msgid "Current Training Session Statistics"
+#~ msgstr "目前的訓練階段統計"
+
+#~ msgid "Lecture:"
+#~ msgstr "課程："
+
+#~ msgid "Levels in this session:"
+#~ msgstr "此階段的等級："
+
+#~ msgid "Time (seconds) elapsed:"
+#~ msgstr "經過時間（秒）："
+
+#~ msgid ""
+#~ "This shows the number of seconds you have typed in this training session."
+#~ msgstr "這裡顯示您在此訓練階段已過了多少時間。"
+
+#~ msgid "Characters typed:"
+#~ msgstr "輸入字元數："
+
+#~ msgid ""
+#~ "The number of characters (correct and wrong) that you have typed so far."
+#~ msgstr "目前您輸入的總字元數（包含正確與錯誤）。"
+
+#~ msgid "Mistyped characters:"
+#~ msgstr "打錯字元："
+
+#~ msgid "Shows how many wrong characters you did type."
+#~ msgstr "顯示您打錯的字元數。"
+
+#~ msgid "Words typed:"
+#~ msgstr "輸入單字："
+
+#~ msgid "The number of words typed so far."
+#~ msgstr "目前為止輸入的單字數。"
+
+#~ msgid ""
+#~ "The ratio of correctly typed characters versus total number of characters "
+#~ "typed."
+#~ msgstr "輸入字元的正確率。"
+
+#~ msgid "Typing Rate"
+#~ msgstr "輸入速率"
+
+#~ msgid "The number of correct characters you typed per minute."
+#~ msgstr "您每分鐘輸入的正確字元數。"
+
+#~ msgid "The number of words you typed per minute."
+#~ msgstr "您每分鐘輸入的單字數。"
+
+#~ msgid ""
+#~ "Here the characters are listed that you have missed during the typing "
+#~ "test. The percentage shows the ratio of how often a key was missed versus "
+#~ "how often the key was pressed in total. Large numbers indicate that the "
+#~ "key was missed a lot."
+#~ msgstr ""
+#~ "這裡列出您在打字測驗中錯誤的字元。百分比表示該按鍵相對於整體出錯的比率。數"
+#~ "字越大，表示出錯的機率越大。"
+
+#~ msgid "Character Statistics (characters you need to focus on)"
+#~ msgstr "字元統計（您必須注意的字元）"
+
+#~ msgid "a:"
+#~ msgstr "a:"
+
+#~ msgid "e:"
+#~ msgstr "e:"
+
+#~ msgid "b:"
+#~ msgstr "b:"
+
+#~ msgid "f:"
+#~ msgstr "f:"
+
+#~ msgid "c:"
+#~ msgstr "c:"
+
+#~ msgid "g:"
+#~ msgstr "g:"
+
+#~ msgid "d:"
+#~ msgstr "d："
+
+#~ msgid "h:"
+#~ msgstr "h:"
+
+#~ msgid "Current Level Statistics"
+#~ msgstr "目前等級統計"
+
+#~ msgid "lectureLabel2"
+#~ msgstr "課程標籤2"
+
+#~ msgid "Level:"
+#~ msgstr "等級："
+
+#~ msgid "levelLabel2"
+#~ msgstr "等級標籤2"
+
+#~ msgid ""
+#~ "Here the characters are listed that you have missed during the typing "
+#~ "test. The percentage shows the ratio of how often a key was missed versus "
+#~ "how often the key was pressed correctly. Large numbers indicate that the "
+#~ "key was missed a lot."
+#~ msgstr ""
+#~ "這裡列出您在打字測驗中錯誤的字元。百分比表示該按鍵相對於整體出錯的比率。數"
+#~ "字越大，表示出錯的機率越大。"
+
+#~ msgid "Your Typing Progress"
+#~ msgstr "您的打字進度"
+
+#~ msgid "Show progress in lecture:"
+#~ msgstr "顯示課程進度："
+
+#~ msgid "Here you can select the lecture you want to obtain statistics for."
+#~ msgstr "您可以選擇您要統計的課程。"
+
+#~ msgid "Progress Chart Options"
+#~ msgstr "進度圖表選項"
+
+#~ msgid "Chart Data"
+#~ msgstr "圖表資料"
+
+#~ msgid "Session stats"
+#~ msgstr "階段統計"
+
+#~ msgid "Level stats"
+#~ msgstr "等級統計"
+
+#~ msgid "Chart Type"
+#~ msgstr "圖表型態"
+
+#~ msgid "Time Axis Scaling"
+#~ msgstr "時間軸調整"
+
+#~ msgid "Time scaled"
+#~ msgstr "時間已調整"
+
+#~ msgid "Constant spacing"
+#~ msgstr "固定間隔"
+
+#~ msgid ""
+#~ "Pressing this button will erase the whole training statistics for the "
+#~ "current user."
+#~ msgstr "按下此鍵會刪除目前使用者的所有訓練統計。"
+
+#~ msgid "Clear History"
+#~ msgstr "清除歷史"
+
+#~ msgid "Level"
+#~ msgstr "等級"
+
+#~ msgid "Current level"
+#~ msgstr "目前等級"
+
+#~ msgid "This shows which level you are at."
+#~ msgstr "這裡顯示您目前的等級。"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Speed"
+#~ msgstr "速度"
+
+#~ msgid "Characters/Minute"
+#~ msgstr "每分鐘字元數"
+
+#~ msgid ""
+#~ "This shows how fast you are typing. It measures the typing speed in "
+#~ "characters per minute."
+#~ msgstr "這裡顯示您打字的速度，以每分鐘多少字元為單位。"
+
+#~ msgid "How much are you typing correctly?"
+#~ msgstr "您打字的正確度如何？"
+
+#~ msgid "This shows how correctly you are typing."
+#~ msgstr "這裡顯示您打字的正確度。"
+
+#~ msgid "New Characters in This Level"
+#~ msgstr "此等級的新字元"
+
+#~ msgid "Setup Users"
+#~ msgstr "設定使用者"
+
+#~ msgid "&Add"
+#~ msgstr "新增(&A)"
+
+#~ msgid "Ins, Alt+A"
+#~ msgstr "Ins，Alt+A"
+
+#~ msgid "Del, Alt+R"
+#~ msgstr "Del，Alt+R"
+
+#~ msgid "&Close"
+#~ msgstr "關閉(&C)"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Arabic"
+#~ msgstr "阿拉伯文"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "BR-Nativo"
+#~ msgstr "BR-Nativo"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Bulgarian (auto-generated)"
+#~ msgstr "比利時文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Bulgarian (auto-generated-long)"
+#~ msgstr "比利時文（自動產生，長）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Catalan (auto-generated)"
+#~ msgstr "加泰隆文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Czech (auto-generated)"
+#~ msgstr "捷克（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Danish (auto-generated)"
+#~ msgstr "丹麥文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Danish (complete course)"
+#~ msgstr "丹麥文（完整課程）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Nederlands Junior (Nederlands for Kids)"
+#~ msgstr "荷蘭文兒童版"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Nederlands (auto-generated)"
+#~ msgstr "荷蘭文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Colemak (auto-generated)"
+#~ msgstr "Colemak（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Dvorak (auto-generated)"
+#~ msgstr "Dvorak（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Dvorak - ABCD"
+#~ msgstr "Dvorak - ABCD"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "English (auto-generated)"
+#~ msgstr "英文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "English (for AlphaGrip)"
+#~ msgstr "英文（AlphaGrip 使用）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Finnish For Kids"
+#~ msgstr "芬蘭文兒童版"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Finnish (auto-generated)"
+#~ msgstr "芬蘭文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "French (auto-generated) 2"
+#~ msgstr "法文（自動產生）2"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "French (auto-generated) 1"
+#~ msgstr "法文（自動產生）1"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Dvorak French (Part 1)"
+#~ msgstr "Dvorak 法文（第一部份）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Dvorak French (Part 2)"
+#~ msgstr "Dvorak 法文（第二部份）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "German (in 9 levels)"
+#~ msgstr "德文（九個等級）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "German (from Tipptrainer)"
+#~ msgstr "德文（從 Tipptrainer）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "German (auto-generated)"
+#~ msgstr "德文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "German (Dvorak keyboard layout)"
+#~ msgstr "德文（Dvorak 鍵盤佈局）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "German (Number Pad)"
+#~ msgstr "德文（數字鍵）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Hellenic"
+#~ msgstr "希臘文"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Hungarian Expert++"
+#~ msgstr "匈牙利文專家++"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Hungarian (auto-generated)"
+#~ msgstr "匈牙利文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Italian (auto-generated)"
+#~ msgstr "義大利文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Latin"
+#~ msgstr "拉丁文"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Lithuanian (sdt)"
+#~ msgstr "立陶宛文（sdt）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Norwegian"
+#~ msgstr "挪威文"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Polish (from TTCoach)"
+#~ msgstr "波蘭文（從 TTCoach）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Russian (auto-generated)"
+#~ msgstr "俄文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Russian 2"
+#~ msgstr "俄文 2"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Russian (long auto-generated)"
+#~ msgstr "俄文（長，自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Slovak (auto-generated)"
+#~ msgstr "斯洛伐克（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Slovenian"
+#~ msgstr "斯洛伐尼亞文"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Spanish (auto-generated)"
+#~ msgstr "西班牙文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Spanish (auto-generated) 1"
+#~ msgstr "西班牙文（自動產生）1"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Spanish (auto-generated) 2"
+#~ msgstr "西班牙文（自動產生）2"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Dvorak Spanish"
+#~ msgstr "Dvorak 西班牙文"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Turkish (auto-generated)"
+#~ msgstr "土耳其文（自動產生）"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Ukrainian"
+#~ msgstr "烏克蘭文"
+
+#~ msgid "F&ile"
+#~ msgstr "檔案(&I)"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "Magyar gépírótanfolyam (Expert++)"
+#~ msgstr "Magyar gépírótanfolyam (Expert++)"
+
+#~ msgctxt "Lesson Name"
+#~ msgid "German (NEO-Schnellschreiblayout)"
+#~ msgstr "德文（NEO-Schnellschreiblayout）"
+
+#~ msgid "Open Something in Editor"
+#~ msgstr "在編輯器中開啟某些東西"
+
+#~ msgid "Title Question..."
+#~ msgstr "標題問題..."
+
+#~ msgid "Current something"
+#~ msgstr "目前的某些東西"
+
+#~ msgid "Preset something:"
+#~ msgstr "預設的某些東西："
+
+#~ msgid "Open file:"
+#~ msgstr "開啟檔案："
+
+#~ msgid "New something"
+#~ msgstr "新的某些東西"

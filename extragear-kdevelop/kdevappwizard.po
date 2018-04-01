@@ -1,0 +1,293 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevappwizard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-15 03:16+0100\n"
+"PO-Revision-Date: 2014-04-23 14:33+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: appwizarddialog.cpp:26
+#, kde-format
+msgid "Create New Project"
+msgstr "建立新專案"
+
+#: appwizarddialog.cpp:40
+#, kde-format
+msgctxt "Page for general configuration options"
+msgid "General"
+msgstr "一般"
+
+#: appwizarddialog.cpp:42
+#, kde-format
+msgctxt "Page for version control options"
+msgid "Version Control"
+msgstr "版本控制"
+
+#: appwizardplugin.cpp:72
+#, kde-format
+msgid "New From Template..."
+msgstr "由樣本建立(&T)..."
+
+#: appwizardplugin.cpp:74
+#, kde-format
+msgid "Generate a new project from a template"
+msgstr "從樣本產生新的專案"
+
+#: appwizardplugin.cpp:75
+#, kde-format
+msgid ""
+"This starts KDevelop's application wizard. It helps you to generate a "
+"skeleton for your application from a set of templates."
+msgstr ""
+"啟動 KDevelop 的應用程式精靈。它能幫助您從許多樣本建立您的應用程式的基本框"
+"架。"
+
+#: appwizardplugin.cpp:108
+#, kde-format
+msgid "Could not create project from template\n"
+msgstr "無法從樣本建立新專案\n"
+
+#: appwizardplugin.cpp:108
+#, kde-format
+msgid "Failed to create project"
+msgstr "無法建立新專案"
+
+#: appwizardplugin.cpp:134
+#, fuzzy, kde-format
+#| msgid "Please see the Version Control toolview"
+msgid "Please see the Version Control tool view."
+msgstr "請參考版本控制工具檢視"
+
+#: appwizardplugin.cpp:136
+#, kde-format
+msgid "Version Control System Error"
+msgstr "版本控制系統發生錯誤"
+
+#: appwizardplugin.cpp:152
+#, kde-format
+msgid "Could not initialize DVCS repository"
+msgstr "無法初始化 DVCS 主目錄"
+
+#: appwizardplugin.cpp:160
+#, kde-format
+msgid "Could not add files to the DVCS repository"
+msgstr "無法新增檔案到 DVCS 主目錄"
+
+#: appwizardplugin.cpp:167
+#, kde-format
+msgid "Could not import project into %1."
+msgstr "無法匯入專案到 %1。"
+
+#: appwizardplugin.cpp:184
+#, kde-format
+msgid "Could not import project"
+msgstr "無法匯入專案"
+
+#: appwizardplugin.cpp:192
+#, kde-format
+msgid "Could not checkout imported project"
+msgstr "無法取出已匯入的專案"
+
+#: appwizardplugin.cpp:316
+#, kde-format
+msgid "Could not create new project"
+msgstr "無法建立新專案"
+
+#: appwizardplugin.cpp:451
+#, kde-format
+msgid "The file %1 cannot be created."
+msgstr "檔案 %1 無法被建立。"
+
+#: appwizardplugin.cpp:551
+#, kde-format
+msgid "Project Templates"
+msgstr "專案樣本"
+
+#: projectselectionpage.cpp:59
+#, kde-format
+msgid "Category"
+msgstr "分類"
+
+#: projectselectionpage.cpp:59
+#, kde-format
+msgid "Project Type"
+msgstr "專案型態"
+
+#: projectselectionpage.cpp:68
+#, kde-format
+msgid "Get More Templates"
+msgstr "取得更多樣本"
+
+#: projectselectionpage.cpp:75 projectselectionpage.cpp:305
+#, kde-format
+msgid "Load Template From File"
+msgstr "從檔案載入樣本"
+
+#: projectselectionpage.cpp:171
+#, kde-format
+msgid "Invalid location"
+msgstr "不合法的位置"
+
+#: projectselectionpage.cpp:178
+#, kde-format
+msgid "Empty project name"
+msgstr "空白專案名稱"
+
+#: projectselectionpage.cpp:199
+#, kde-format
+msgid "Invalid project name"
+msgstr "不合法的專案名稱"
+
+#: projectselectionpage.cpp:217
+#, kde-format
+msgid "Unable to create subdirectories, missing permissions on: %1"
+msgstr "無法建立子目錄，因為對 %1 的權限不足。"
+
+#: projectselectionpage.cpp:232
+#, kde-format
+msgid "Invalid project template, please choose a leaf item"
+msgstr "不合法的專案樣本，請選擇一個終端項目"
+
+#: projectselectionpage.cpp:245
+#, fuzzy, kde-format
+#| msgid "Path already exists and contains files"
+msgid "Path already exists and contains files. Open it as a project."
+msgstr "路徑已存在，並且不是空的。"
+
+#: projectselectionpage.cpp:290
+#, kde-format
+msgid ""
+"The specified path already exists and contains files. Are you sure you want "
+"to proceed?"
+msgstr "指定的路徑已存在，而且裡面有檔案。您確定要進行嗎？"
+
+#. i18n: ectx: property (title), widget (QGroupBox, propertiesBox)
+#: projectselectionpage.ui:26
+#, kde-format
+msgid "Properties"
+msgstr "屬性"
+
+#. i18n: ectx: property (text), widget (QLabel, projectNameLabel)
+#: projectselectionpage.ui:32
+#, fuzzy, kde-format
+#| msgid "Project &name:"
+msgid "Project name:"
+msgstr "專案名稱(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#: projectselectionpage.ui:42
+#, kde-format
+msgid "Location:"
+msgstr "位置："
+
+#: projectvcspage.cpp:47
+#, kde-format
+msgctxt "No Version Control Support chosen"
+msgid "None"
+msgstr "無"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: projectvcspage.ui:18
+#, fuzzy, kde-format
+#| msgid "Version Control System:"
+msgid "Version control system:"
+msgstr "版本控制系統："
+
+#~ msgctxt "@title:menu"
+#~ msgid "Project"
+#~ msgstr "專案"
+
+#, fuzzy
+#~| msgid "Application Name:"
+#~ msgid "Application Wizard"
+#~ msgstr "應用程式名稱："
+
+#~ msgid "KSqueezedTextLabel"
+#~ msgstr "KSqueezedTextLabel"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Franklin Weng"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "franklin@goodhorse.idv.tw"
+
+#~ msgid "Project Wizard"
+#~ msgstr "專案精靈"
+
+#~ msgid "Support for creating and importing projects"
+#~ msgstr "支援建立與匯入專案"
+
+#~ msgid "&Import Existing Project..."
+#~ msgstr "匯入現有的專案(&I)..."
+
+#~ msgid "Import existing project"
+#~ msgstr "匯入現有的專案"
+
+#~ msgid ""
+#~ "The given name is used by an already opened project. Choose a different "
+#~ "name"
+#~ msgstr "此名稱已被某個已開啟的專案使用。請選擇其它名稱。"
+
+#~ msgid "Please choose an existing folder."
+#~ msgstr "請選擇現有的目錄。"
+
+#~ msgid "Please choose a project name."
+#~ msgstr "請選擇專案名稱。"
+
+#~ msgid ""
+#~ "Cannot create project file.<p><b>Suggestion</b>: check permissions on the "
+#~ "selected directory"
+#~ msgstr "無法建立專案檔。<p><b>建議</b>：請檢查選取的目錄權限是否正確。"
+
+#~ msgid "Project import error"
+#~ msgstr "專案匯入錯誤"
+
+#~ msgid "Could not create temporary file to upload."
+#~ msgstr "無法建立上傳暫存檔。"
+
+#~ msgid "Import Existing Project"
+#~ msgstr "匯入現有的專案"
+
+#~ msgid "&Directory:"
+#~ msgstr "目錄(&D)："
+
+#~ msgid "Choose directory to import"
+#~ msgstr "選擇要匯入的目錄"
+
+#~ msgid "&Fetch from:"
+#~ msgstr "抓取來源(&F)："
+
+#~ msgid "Fetch &Module"
+#~ msgstr "抓取模組(&M)"
+
+#~ msgid "&Build System:"
+#~ msgstr "編譯系統(&B)："
+
+#~ msgid "CMake"
+#~ msgstr "CMake"
+
+#~ msgid "QMake"
+#~ msgstr "QMake"
+
+#~ msgid "Custom Makefiles"
+#~ msgstr "自訂 Makefile"
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "(invalid)"
+#~ msgstr "（不合法）"

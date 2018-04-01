@@ -1,0 +1,592 @@
+# translation of katomic.po to Chinese Traditional
+# Hydonsingore Sie <hydonsingore@mail.educities.edu.tw>, 2003.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: katomic\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:05+0200\n"
+"PO-Revision-Date: 2010-08-29 14:26+0800\n"
+"Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Hydonsingore Sie, Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "hydonsingore@mail.educities.edu.tw, franklin@goodhorse.idv.tw"
+
+#: chooselevelsetdialog.cpp:44
+#, kde-format
+msgid "Level Sets"
+msgstr "關卡集"
+
+#: gamewidget.cpp:96
+#, kde-format
+msgid ""
+"Failed to load level set \"%1\". Check if it is installed on your computer."
+msgstr "載入關卡集 %1 時失敗。請檢查是否已安裝在您的電腦中。"
+
+#: gamewidget.cpp:152
+#, kde-format
+msgid "Level %1 finished. "
+msgstr "已完成第 %1 關"
+
+#: gamewidget.cpp:156
+#, kde-format
+msgid "Congratulations! You have a new highscore!"
+msgstr "恭喜！您破了最高分紀錄！"
+
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: katomic.kcfg:9
+#, kde-format
+msgid "The speed of the animations."
+msgstr "動畫速度"
+
+#. i18n: ectx: label, entry (SavedBackgroundWidth), group (General)
+#: katomic.kcfg:20
+#, kde-format
+msgid "Width of saved background"
+msgstr "儲存的背景寬度"
+
+#. i18n: ectx: label, entry (SavedBackgroundHeight), group (General)
+#: katomic.kcfg:24
+#, kde-format
+msgid "Height of saved background"
+msgstr "儲存的背景高度"
+
+#. i18n: ectx: label, entry (LastPlayedLevelSet), group (General)
+#: katomic.kcfg:28
+#, kde-format
+msgid "Last played levelset"
+msgstr "上次玩的關卡"
+
+#. i18n: ectx: Menu (settings)
+#: katomicui.rc:16
+#, kde-format
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: katomicui.rc:25
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: levelset.cpp:284
+#, kde-format
+msgid "Noname"
+msgstr "無名氏"
+
+#: levelsetdelegate.cpp:95
+#, kde-format
+msgid "by %1"
+msgstr "由：%1"
+
+#: levelsetdelegate.cpp:101
+#, kde-format
+msgid ", contains 1 level"
+msgid_plural ", contains %1 levels"
+msgstr[0] "，包含 %1 個關卡"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: levelsetwidget.ui:20
+#, kde-format
+msgid "Choose a level set to play:"
+msgstr "選擇要玩的關卡集："
+
+#. i18n: ectx: property (text), widget (KNS3::Button, m_pbNewStuff)
+#: levelsetwidget.ui:45
+#, kde-format
+msgid "Get new levels"
+msgstr "取得新關卡"
+
+#: main.cpp:39
+#, kde-format
+msgid "KDE Atomic Entertainment Game"
+msgstr "KDE 原子學娛樂遊戲"
+
+#: main.cpp:56
+#, kde-format
+msgid "KAtomic"
+msgstr "KAtomic"
+
+#: main.cpp:58
+#, kde-format
+msgid ""
+"(c) 1998, Andreas Wuest\n"
+"(c) 2007-2009 Dmitry Suzdalev"
+msgstr ""
+"(c) 1998, Andreas Wuest\n"
+"(c) 2007-2009 Dmitry Suzdalev"
+
+#: main.cpp:59
+#, kde-format
+msgid "Andreas Wuest"
+msgstr "Andreas Wuest"
+
+#: main.cpp:59
+#, kde-format
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:60
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: main.cpp:60
+#, kde-format
+msgid "Porting to KDE4. Current maintainer"
+msgstr "移植到 KDE4，目前維護者"
+
+#: main.cpp:61
+#, kde-format
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:62
+#, kde-format
+msgid "Cristian Tibirna"
+msgstr "Cristian Tibirna"
+
+#: main.cpp:63
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:64
+#, kde-format
+msgid "Dave Corrie"
+msgstr "Dave Corrie"
+
+#: main.cpp:65
+#, kde-format
+msgid "Kai Jung"
+msgstr "Kai Jung"
+
+#: main.cpp:65
+#, kde-format
+msgid "6 new levels"
+msgstr "6個新關卡"
+
+#: main.cpp:66
+#, kde-format
+msgid "Danny Allen"
+msgstr "Danny Allen"
+
+#: main.cpp:66
+#, kde-format
+msgid "Game graphics and application icon"
+msgstr "遊戲畫面與應用程式圖示"
+
+#: main.cpp:67
+#, kde-format
+msgid "Johann Ollivier Lapeyre"
+msgstr "Johann Ollivier Lapeyre"
+
+#: main.cpp:67
+#, kde-format
+msgid "New great SVG artwork for KDE4"
+msgstr "KDE 4 全新的 SVG 外觀介面"
+
+#: main.cpp:68
+#, kde-format
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:68
+#, kde-format
+msgid "Port to use KGameRenderer"
+msgstr "修改程式碼，使用 KGameRenderer"
+
+#: main.cpp:74
+#, kde-format
+msgid "Enable access to all levels"
+msgstr "開啟所有關卡"
+
+#: main.cpp:85
+#, kde-format
+msgid ""
+"KAtomic failed to find its default level set and will quit. Please check "
+"your installation."
+msgstr "KAtomic 找不到它的預設關卡集，因此將離開。請檢查您的安裝。"
+
+#: toplevel.cpp:55
+#, kde-format
+msgid "Level:"
+msgstr "關卡："
+
+#: toplevel.cpp:56
+#, kde-format
+msgid "Current score:"
+msgstr "目前分數："
+
+#: toplevel.cpp:57
+#, kde-format
+msgid "Highscore:"
+msgstr "最高分："
+
+#: toplevel.cpp:104
+#, kde-format
+msgid "Previous Level"
+msgstr "前一關"
+
+#: toplevel.cpp:111
+#, kde-format
+msgid "Next Level"
+msgstr "下一關"
+
+#: toplevel.cpp:117
+#, kde-format
+msgid "Choose level set..."
+msgstr "請選擇關卡集..."
+
+#: toplevel.cpp:121
+#, kde-format
+msgid "Animation Speed"
+msgstr "動畫速度"
+
+#: toplevel.cpp:124
+#, kde-format
+msgid "Slow"
+msgstr "慢"
+
+#: toplevel.cpp:124
+#, kde-format
+msgid "Normal"
+msgstr "正常"
+
+#: toplevel.cpp:124
+#, kde-format
+msgid "Fast"
+msgstr "快"
+
+#: toplevel.cpp:130
+#, kde-format
+msgid "Undo All"
+msgstr "全部回復"
+
+#: toplevel.cpp:135
+#, kde-format
+msgid "Redo All"
+msgstr "全部重做"
+
+#: toplevel.cpp:149
+#, kde-format
+msgid "Atom Up"
+msgstr "上移原子"
+
+#: toplevel.cpp:155
+#, kde-format
+msgid "Atom Down"
+msgstr "下移原子"
+
+#: toplevel.cpp:161
+#, kde-format
+msgid "Atom Left"
+msgstr "左移原子"
+
+#: toplevel.cpp:167
+#, kde-format
+msgid "Atom Right"
+msgstr "右移原子"
+
+#: toplevel.cpp:173
+#, kde-format
+msgid "Next Atom"
+msgstr "下個原子"
+
+#: toplevel.cpp:179
+#, kde-format
+msgid "Previous Atom"
+msgstr "前一原子"
+
+#: toplevel.cpp:200
+#, kde-format
+msgid "Level: %1 (%2)"
+msgstr "關卡：%1（%2）"
+
+#: toplevel.cpp:201
+#, kde-format
+msgid "Current score: %1"
+msgstr "目前分數：%1"
+
+#: toplevel.cpp:207
+#, kde-format
+msgid "Highscore: %1"
+msgstr "最高分：%1"
+
+#~ msgid ""
+#~ "Level %1 can not be found. Please check your installation. Now switching "
+#~ "to Level 1"
+#~ msgstr "找不到第 %1 關。請檢查您的安裝。將會切換回第 1 關。"
+
+#~ msgid ""
+#~ "Level 1 data can not be found. Please check your installation. KAtomic "
+#~ "will quit now."
+#~ msgstr "找不到第 1 關的資料。KAtomic 將被迫離開。請檢查您的安裝。"
+
+#~ msgid "You must solve level %1 before advancing to the next one!"
+#~ msgstr "您必須先通過第 %1 關才能進到下一關。"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid "Water"
+#~ msgstr "水"
+
+#~ msgid "Formic Acid"
+#~ msgstr "甲酸"
+
+#~ msgid "Acetic Acid"
+#~ msgstr "乙酸"
+
+#~ msgid "trans-Butene"
+#~ msgstr "反丁烯"
+
+#~ msgid "cis-Butene"
+#~ msgstr "順丁烯"
+
+#~ msgid "Dimethyl ether"
+#~ msgstr "二甲醚(乙醚)"
+
+#~ msgid "Butanol"
+#~ msgstr "丁醇"
+
+#~ msgid "2-Methyl-2-Propanol"
+#~ msgstr "2-甲基-2-丙醇"
+
+#~ msgid "Glycerin"
+#~ msgstr "甘油"
+
+#~ msgid "Poly-Tetra-Fluoro-Ethene"
+#~ msgstr "聚四氟乙烷"
+
+#~ msgid "Oxalic Acid"
+#~ msgstr "蘋果酸"
+
+#~ msgid "Methane"
+#~ msgstr "甲烷"
+
+#~ msgid "Formaldehyde"
+#~ msgstr "甲醛"
+
+#~ msgid "Crystal 1"
+#~ msgstr "結晶 1"
+
+#~ msgid "Acetic acid ethyl ester"
+#~ msgstr "乙酸乙酯"
+
+#~ msgid "Ammonia"
+#~ msgstr "氨"
+
+#~ msgid "3-Methyl-Pentane"
+#~ msgstr "3-甲基戊烷"
+
+#~ msgid "Propanal"
+#~ msgstr "丙醛"
+
+#~ msgid "Propyne"
+#~ msgstr "丙炔"
+
+#~ msgid "Furanal"
+#~ msgstr "呋喃醛"
+
+#~ msgid "Pyran"
+#~ msgstr "吡喃"
+
+#~ msgid "Cyclo-Pentane"
+#~ msgstr "環戊烷"
+
+#~ msgid "Methanol"
+#~ msgstr "甲醇"
+
+#~ msgid "Nitro-Glycerin"
+#~ msgstr "硝基甘油"
+
+#~ msgid "Ethane"
+#~ msgstr "乙烷"
+
+#~ msgid "Crystal 2"
+#~ msgstr "結晶 2"
+
+#~ msgid "Ethylene-Glycol"
+#~ msgstr "乙二醇"
+
+#~ msgid "L-Alanine"
+#~ msgstr "L-丙胺酸"
+
+#~ msgid "Cyanoguanidine"
+#~ msgstr "1-氰胍"
+
+#~ msgid "Prussic Acid (Cyanic Acid)"
+#~ msgstr "氰酸"
+
+#~ msgid "Anthracene"
+#~ msgstr "蒽"
+
+#~ msgid "Thiazole"
+#~ msgstr "噻唑"
+
+#~ msgid "Saccharin"
+#~ msgstr "糖精"
+
+#~ msgid "Ethylene"
+#~ msgstr "乙烯"
+
+#~ msgid "Styrene"
+#~ msgstr "苯乙烯"
+
+#~ msgid "Melamine"
+#~ msgstr "三聚氰胺"
+
+#~ msgid "Cyclobutane"
+#~ msgstr "環丁烷"
+
+#~ msgid "Nicotine"
+#~ msgstr "尼古丁"
+
+#~ msgid "Acetyle salicylic acid"
+#~ msgstr "乙醯水楊酸"
+
+#~ msgid "Meta-Di-Nitro-Benzene"
+#~ msgstr "間二硝基苯"
+
+#~ msgid "Malonic Acid"
+#~ msgstr "酒石酸"
+
+#~ msgid "2,2-Dimethylpropane"
+#~ msgstr "2,2-二甲基丙烷"
+
+#~ msgid "Ethyl-Benzene"
+#~ msgstr "乙基苯"
+
+#~ msgid "Propene"
+#~ msgstr "丙烯"
+
+#~ msgid "L-Asparagine"
+#~ msgstr "L-天門冬醯胺"
+
+#~ msgid "1,3,5,7-Cyclooctatetraene"
+#~ msgstr "1,3,5,7-環辛四烯"
+
+#~ msgid "Vanillin"
+#~ msgstr "香草精"
+
+#~ msgid "Crystal 3"
+#~ msgstr "結晶 3"
+
+#~ msgid "Uric Acid"
+#~ msgstr "尿酸"
+
+#~ msgid "Thymine"
+#~ msgstr "胸腺嘧啶"
+
+#~ msgid "Aniline"
+#~ msgstr "苯胺"
+
+#~ msgid "Chloroform"
+#~ msgstr "三氯甲烷"
+
+#~ msgid "Carbonic acid"
+#~ msgstr "碳酸"
+
+#~ msgid "Crystal 4"
+#~ msgstr "結晶 4"
+
+#~ msgid "Ethanol"
+#~ msgstr "乙醇"
+
+#~ msgid "Acrylo-Nitril"
+#~ msgstr "丙烯晴"
+
+#~ msgid "Furan"
+#~ msgstr "呋喃"
+
+#~ msgid "l-Lactic acid"
+#~ msgstr "乳酸"
+
+#~ msgid "Maleic Acid"
+#~ msgstr "順丁烯二酸"
+
+#~ msgid "meso-Tartaric acid"
+#~ msgstr "酒石酸"
+
+#~ msgid "Crystal 5"
+#~ msgstr "結晶 5"
+
+#~ msgid "Formic acid ethyl ester"
+#~ msgstr "甲酸乙酯"
+
+#~ msgid "1,4-Cyclohexadiene"
+#~ msgstr "1,4-環己二烯"
+
+#~ msgid "Squaric acid"
+#~ msgstr "方酸"
+
+#~ msgid "Ascorbic acid"
+#~ msgstr "抗壞血酸(維生素C)"
+
+#~ msgid "Isopropanol"
+#~ msgstr "異丙醇"
+
+#~ msgid "Phosgene"
+#~ msgstr "光氣(碳氧二氯)"
+
+#~ msgid "Thiophene"
+#~ msgstr "噻吩"
+
+#~ msgid "Urea"
+#~ msgstr "尿素"
+
+#~ msgid "Pyruvic Acid"
+#~ msgstr "丙酮酸"
+
+#~ msgid "Ethylene oxide"
+#~ msgstr "環氧乙烷"
+
+#~ msgid "Phosphoric Acid"
+#~ msgstr "磷酸"
+
+#~ msgid "Diacetyl"
+#~ msgstr "二乙醯"
+
+#~ msgid "trans-Dichloroethene"
+#~ msgstr "反二氯乙烯"
+
+#~ msgid "Allylisothiocyanate"
+#~ msgstr "異硫氰酸丙烯酯"
+
+#~ msgid "Diketene"
+#~ msgstr "二烯酮"
+
+#~ msgid "Ethanal"
+#~ msgstr "乙醛"
+
+#~ msgid "Acroleine"
+#~ msgstr "丙烯醛"
+
+#~ msgid "Uracil"
+#~ msgstr "尿嘧啶"
+
+#~ msgid "Caffeine"
+#~ msgstr "咖啡因"
+
+#~ msgid "Acetone"
+#~ msgstr "丙酮"
+
+#~ msgid "Highest level player is allowed to play"
+#~ msgstr "目前玩家可以玩的最高關卡"

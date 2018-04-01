@@ -1,0 +1,3679 @@
+# Traditional Chinese translation for smb4k.
+# Copyright (C) 2004, 05, 06 Free Software Foundation, Inc.
+# This file is distributed under the same license as the smb4k package.
+# root <root@nick>, 2004.
+# bamfox <bamfox@163.com>, 2004.
+# Jack Liu <chuany@chuany.net>, 2005.
+# Wei-Lun Chao <william.chao@ossii.com.tw>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: smb4k 0.7.1\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-18 03:14+0100\n"
+"PO-Revision-Date: 2006-06-28 17:47+0800\n"
+"Last-Translator: Wei-Lun Chao <william.chao@ossii.com.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, fuzzy, kde-format
+#| msgid "Show hidden shares"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "顯示隱藏的共享"
+
+#: helpers/smb4kmounthelper.cpp:157
+#, fuzzy, kde-format
+msgid "The mount process crashed."
+msgstr "掛載字首："
+
+#: helpers/smb4kmounthelper.cpp:174
+#, fuzzy, kde-format
+msgid "The mount process could not be started."
+msgstr "目錄 %1 無法建立。"
+
+#: helpers/smb4kmounthelper.cpp:235
+#, fuzzy, kde-format
+msgid "The mountpoint %1 is invalid."
+msgstr "顯示掛載點，而非共享名稱。"
+
+#: helpers/smb4kmounthelper.cpp:285
+#, kde-format
+msgid "The unmount process crashed."
+msgstr ""
+
+#: helpers/smb4kmounthelper.cpp:302
+#, fuzzy, kde-format
+msgid "The unmount process could not be started."
+msgstr "目錄 %1 無法建立。"
+
+#: smb4k/main.cpp:151 smb4k/smb4ksystemtray.cpp:71
+#, kde-format
+msgid "Smb4K"
+msgstr "Smb4K"
+
+#: smb4k/main.cpp:152
+#, fuzzy, kde-format
+msgid "Advanced network neighborhood browser and Samba share mounting utility"
+msgstr "網路芳鄰"
+
+#: smb4k/main.cpp:153
+#, fuzzy, kde-format
+msgid "© 2003-2018 Alexander Reinholdt"
+msgstr "(c) 2003-2006, Alexander Reinholdt & Smb4K 團隊"
+
+#: smb4k/main.cpp:160
+#, kde-format
+msgid "Alexander Reinholdt"
+msgstr ""
+
+#: smb4k/main.cpp:160
+#, kde-format
+msgid "Developer"
+msgstr "開發人員"
+
+#: smb4k/main.cpp:165
+#, kde-format
+msgid "Wolfgang Geisendörfer"
+msgstr ""
+
+#: smb4k/main.cpp:165
+#, kde-format
+msgid "Donator"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: smb4k/smb4k_shell.rc:4
+#, fuzzy, kde-format
+msgid "&File"
+msgstr "檔案："
+
+#. i18n: ectx: Menu (network)
+#: smb4k/smb4k_shell.rc:9 smb4k/smb4knetworkbrowser_part.rc:4
+#, kde-format
+msgid "&Network"
+msgstr "網路(&N)"
+
+#. i18n: ectx: Menu (search)
+#: smb4k/smb4k_shell.rc:11 smb4k/smb4knetworksearch_part.cpp:153
+#, kde-format
+msgid "&Search"
+msgstr "搜尋(&S)"
+
+#. i18n: ectx: Menu (shares)
+#: smb4k/smb4k_shell.rc:13
+#, kde-format
+msgid "Sh&ares"
+msgstr "共享(&A)"
+
+#. i18n: ectx: Menu (bookmarks)
+#: smb4k/smb4k_shell.rc:15
+#, fuzzy, kde-format
+msgid "&Bookmarks"
+msgstr "書籤"
+
+#. i18n: ectx: Menu (settings)
+#: smb4k/smb4k_shell.rc:17
+#, fuzzy, kde-format
+msgid "&Settings"
+msgstr "一般選項"
+
+#. i18n: ectx: ToolBar (networkToolBar)
+#: smb4k/smb4k_shell.rc:29
+#, fuzzy, kde-format
+msgid "Network Toolbar"
+msgstr "網路搜尋"
+
+#. i18n: ectx: ToolBar (searchToolBar)
+#: smb4k/smb4k_shell.rc:31
+#, fuzzy, kde-format
+msgid "Search Toolbar"
+msgstr "網路搜尋"
+
+#. i18n: ectx: ToolBar (sharesViewToolBar)
+#: smb4k/smb4k_shell.rc:33
+#, fuzzy, kde-format
+msgid "Shares Toolbar"
+msgstr "跳至共享檢視"
+
+#. i18n: ectx: ToolBar (altMainToolBar)
+#: smb4k/smb4k_shell.rc:35
+#, fuzzy, kde-format
+msgid "Alternative Main Toolbar"
+msgstr "跳至共享檢視"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: smb4k/smb4k_shell.rc:46
+#, fuzzy, kde-format
+msgid "Main Toolbar"
+msgstr "跳至共享檢視"
+
+#: smb4k/smb4kbookmarkmenu.cpp:52 smb4k/smb4kconfigpageuserinterface.cpp:164
+#, fuzzy, kde-format
+msgid "Bookmarks"
+msgstr "書籤"
+
+#: smb4k/smb4kbookmarkmenu.cpp:164 smb4k/smb4kbookmarkmenu.cpp:186
+#, kde-format
+msgid "&Edit Bookmarks"
+msgstr "編輯書籤(&E)"
+
+#: smb4k/smb4kbookmarkmenu.cpp:173 smb4k/smb4kmainwindow.cpp:131
+#: smb4k/smb4knetworkbrowser_part.cpp:207 smb4k/smb4ksharesview_part.cpp:233
+#, fuzzy, kde-format
+msgid "Add &Bookmark"
+msgstr "編輯書籤(&E)"
+
+#: smb4k/smb4kbookmarkmenu.cpp:215 smb4k/smb4kbookmarkmenu.cpp:281
+#, fuzzy, kde-format
+msgid "Mount All Bookmarks"
+msgstr "編輯書籤(&E)"
+
+#: smb4k/smb4kconfigdialog.cpp:163
+#, kde-format
+msgid "User Interface"
+msgstr ""
+
+#: smb4k/smb4kconfigdialog.cpp:164 smb4k/smb4knetworkbrowser.cpp:68
+#: smb4k/smb4knetworkbrowser_part.cpp:267
+#: smb4k/smb4knetworkbrowser_part.cpp:407
+#, kde-format
+msgid "Network"
+msgstr "網路"
+
+#: smb4k/smb4kconfigdialog.cpp:165 smb4k/smb4ksharesview_part.cpp:274
+#: smb4k/smb4ksharesview_part.cpp:375
+#, kde-format
+msgid "Shares"
+msgstr "共享"
+
+#: smb4k/smb4kconfigdialog.cpp:166 smb4k/smb4kconfigpagenetwork.cpp:92
+#: smb4k/smb4kconfigpagesamba.cpp:103
+#, kde-format
+msgid "Authentication"
+msgstr "身分驗證"
+
+#: smb4k/smb4kconfigdialog.cpp:167 smb4k/smb4kconfigpagecustomoptions.cpp:306
+#: smb4k/smb4kconfigpagecustomoptions.cpp:516
+#: smb4k/smb4kconfigpagecustomoptions.cpp:693
+#, kde-format
+msgid "Samba"
+msgstr "Samba"
+
+#: smb4k/smb4kconfigdialog.cpp:169
+#, fuzzy, kde-format
+msgid "Mounting"
+msgstr "掛載(&M)"
+
+#: smb4k/smb4kconfigdialog.cpp:171
+#, kde-format
+msgid "Synchronization"
+msgstr "同步化"
+
+#: smb4k/smb4kconfigdialog.cpp:172
+#, fuzzy, kde-format
+msgid "Custom Options"
+msgstr "Samba 選項"
+
+#: smb4k/smb4kconfigdialog.cpp:173 smb4k/smb4kconfigpageprofiles.cpp:70
+#: smb4k/smb4kprofilesmenu.cpp:44
+#, fuzzy, kde-format
+msgid "Profiles"
+msgstr "列印檔案(&P)"
+
+#: smb4k/smb4kconfigdialog.cpp:280 smb4k/smb4kconfigdialog.cpp:319
+#: smb4k/smb4kconfigdialog.cpp:342 smb4k/smb4kconfigdialog.cpp:379
+#, kde-format
+msgid ""
+"<qt>An incorrect setting has been found. You are now taken to the "
+"corresponding configuration page to fix it.</qt>"
+msgstr ""
+
+#: smb4k/smb4kconfigdialog.cpp:818
+#, kde-format
+msgid "Enter the default login information."
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:69
+#, kde-format
+msgid "Password Storage"
+msgstr "密碼儲藏"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:81
+#: smb4k/smb4kconfigpageauthentication.cpp:271
+#: smb4k/smb4kconfigpageauthentication.cpp:405
+#: smb4k/smb4kconfigpageauthentication.cpp:485
+#: smb4k/smb4kconfigpageauthentication.cpp:521
+#: smb4k/smb4kconfigpageauthentication.cpp:638
+#, kde-format
+msgid "Default Login"
+msgstr "預設登入"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:108
+#: smb4k/smb4kconfigpagenetwork.cpp:135 smb4k/smb4kconfigpagesamba.cpp:151
+#, fuzzy, kde-format
+msgid "General Settings"
+msgstr "一般選項"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:127
+#, fuzzy, kde-format
+msgid "Load"
+msgstr "就緒。"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:128
+#, fuzzy, kde-format
+msgid "Load the entries stored in the wallet."
+msgstr "請為 %1 輸入驗證資料。"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:129
+#, kde-format
+msgid ""
+"The login information that was stored by Smb4K will be loaded from the "
+"wallet. If you chose to not use the wallet, pressing this button will have "
+"no effect."
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:135
+#, fuzzy, kde-format
+#| msgid "Share:"
+msgid "Save"
+msgstr "共享："
+
+#: smb4k/smb4kconfigpageauthentication.cpp:136
+#, fuzzy, kde-format
+msgid "Save the entries to the wallet."
+msgstr "請為 %1 輸入驗證資料。"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:137
+#, kde-format
+msgid "All modifications you applied are saved to the wallet."
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:141
+#, fuzzy, kde-format
+#| msgid "Show hidden shares"
+msgid "Show details"
+msgstr "顯示隱藏的共享"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:142
+#, fuzzy, kde-format
+msgid "Show the details of the selected entry."
+msgstr "顯示 IP 位址"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:143
+#, kde-format
+msgid ""
+"Marking this check box will show the details of the selected login "
+"information below."
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:162
+#: smb4k/smb4kconfigpagecustomoptions.cpp:98
+#: smb4k/smb4kconfigpagecustomoptions.cpp:358
+#: smb4k/smb4kconfigpagecustomoptions.cpp:568
+#, fuzzy, kde-format
+msgid "Remove"
+msgstr "全部删除"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:163
+#: smb4k/smb4kconfigpagecustomoptions.cpp:101
+#: smb4k/smb4kconfigpagecustomoptions.cpp:361
+#: smb4k/smb4kconfigpagecustomoptions.cpp:571
+#, kde-format
+msgid "Clear List"
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:164
+#: smb4k/smb4kconfigpagecustomoptions.cpp:95
+#: smb4k/smb4kconfigpagecustomoptions.cpp:355
+#: smb4k/smb4kconfigpagecustomoptions.cpp:565
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:165
+#: smb4k/smb4kconfigpageauthentication.cpp:166
+#, kde-format
+msgid "Undo"
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:236
+#, fuzzy, kde-format
+#| msgid "Remove Entries"
+msgid "Wallet Entries"
+msgstr "移除項目"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:365
+#: smb4k/smb4kconfigpageauthentication.cpp:401
+#, kde-format
+msgid "Entry"
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:373 smb4k/smb4ktooltip.cpp:339
+#: smb4k/smb4ktooltip.cpp:414
+#, fuzzy, kde-format
+msgid "Workgroup"
+msgstr "工作群組："
+
+#: smb4k/smb4kconfigpageauthentication.cpp:377
+#: smb4k/smb4kconfigpageauthentication.cpp:409 smb4k/smb4ktooltip.cpp:579
+#, fuzzy, kde-format
+msgid "Login"
+msgstr "鏈結"
+
+#: smb4k/smb4kconfigpageauthentication.cpp:381
+#: smb4k/smb4kconfigpageauthentication.cpp:413
+#, fuzzy, kde-format
+#| msgid "Password:"
+msgid "Password"
+msgstr "密碼："
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:121
+#: smb4k/smb4kconfigpagecustomoptions.cpp:381
+#: smb4k/smb4kconfigpagecustomoptions.cpp:591
+#: smb4k/smb4kconfigpagesynchronization.cpp:78
+#: smb4k/smb4kconfigpagesynchronization.cpp:341
+#: smb4k/smb4kconfigpagesynchronization.cpp:438
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:130
+#: smb4k/smb4kconfigpagecustomoptions.cpp:390
+#: smb4k/smb4kconfigpagecustomoptions.cpp:600
+#, fuzzy, kde-format
+#| msgid "IP Address:"
+msgid "UNC Address:"
+msgstr "IP 位址："
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:137
+#: smb4k/smb4kconfigpagecustomoptions.cpp:397
+#: smb4k/smb4kconfigpagecustomoptions.cpp:607
+#, kde-format
+msgid "IP Address:"
+msgstr "IP 位址："
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:144
+#: smb4k/smb4kconfigpagecustomoptions.cpp:404
+#, fuzzy, kde-format
+msgid "Always remount this share"
+msgstr "掛載的共享(&S)"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:179
+#, fuzzy, kde-format
+msgid "Filesystem Port:"
+msgstr "檔案系統："
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:188
+#, kde-format
+msgid "Write Access:"
+msgstr ""
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:198
+#, fuzzy, kde-format
+#| msgid "Use default network write size"
+msgid "Security Mode:"
+msgstr "使用預設網路寫入大小"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:223
+#: smb4k/smb4kconfigpagecustomoptions.cpp:439
+#, fuzzy, kde-format
+msgid "User ID:"
+msgstr "使用者："
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:236
+#: smb4k/smb4kconfigpagecustomoptions.cpp:452
+#, kde-format
+msgid "Group ID:"
+msgstr ""
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:284
+#: smb4k/smb4kconfigpagecustomoptions.cpp:494
+#: smb4k/smb4kconfigpagecustomoptions.cpp:671
+#, fuzzy, kde-format
+#| msgid "IP address:"
+msgid "MAC address:"
+msgstr "IP 位址："
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:293
+#: smb4k/smb4kconfigpagecustomoptions.cpp:503
+#: smb4k/smb4kconfigpagecustomoptions.cpp:680
+#, kde-format
+msgid "Send magic package before scanning the network neighborhood"
+msgstr ""
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:295
+#: smb4k/smb4kconfigpagecustomoptions.cpp:505
+#: smb4k/smb4kconfigpagecustomoptions.cpp:682
+#, kde-format
+msgid "Send magic package before mounting a share"
+msgstr ""
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:307
+#: smb4k/smb4kconfigpagecustomoptions.cpp:517
+#: smb4k/smb4kconfigpagecustomoptions.cpp:694
+#: smb4k/smb4kconfigpagenetwork.cpp:170
+#, kde-format
+msgid "Wake-On-LAN"
+msgstr ""
+
+#: smb4k/smb4kconfigpagemounting.cpp:85 smb4k/smb4kconfigpagemounting.cpp:426
+#, fuzzy, kde-format
+msgid "Common Options"
+msgstr "Samba 選項"
+
+#: smb4k/smb4kconfigpagemounting.cpp:105 smb4k/smb4kconfigpagemounting.cpp:446
+#, kde-format
+msgid "Choose a different user"
+msgstr ""
+
+#: smb4k/smb4kconfigpagemounting.cpp:149 smb4k/smb4kconfigpagemounting.cpp:490
+#, kde-format
+msgid "Choose a different group"
+msgstr ""
+
+#: smb4k/smb4kconfigpagemounting.cpp:281
+#, fuzzy, kde-format
+msgid "Common Settings"
+msgstr "Samba 選項"
+
+#: smb4k/smb4kconfigpagemounting.cpp:291
+#, fuzzy, kde-format
+msgid "Advanced Options"
+msgstr "Rsync 選項"
+
+#: smb4k/smb4kconfigpagemounting.cpp:382
+#, kde-format
+msgid "Edit the additional CIFS options."
+msgstr ""
+
+#: smb4k/smb4kconfigpagemounting.cpp:406 smb4k/smb4kconfigpagenetwork.cpp:217
+#: smb4k/smb4kconfigpagesynchronization.cpp:542
+#, fuzzy, kde-format
+msgid "Advanced Settings"
+msgstr "Rsync 選項"
+
+#: smb4k/smb4kconfigpagemounting.cpp:736
+#, kde-format
+msgid "Additional CIFS Options"
+msgstr ""
+
+#: smb4k/smb4kconfigpagemounting.cpp:737
+#, kde-format
+msgid "<qt>Enter the desired options as a comma separated list:</qt>"
+msgstr ""
+
+#: smb4k/smb4kconfigpagemounting.cpp:773
+#, kde-format
+msgid ""
+"<qt>The following entry is going to be removed from the additional options: "
+"%2. Please read the handbook for details.</qt>"
+msgid_plural ""
+"<qt>The following %1 entries are going to be removed from the additional "
+"options: %2. Please read the handbook for details.</qt>"
+msgstr[0] ""
+
+#: smb4k/smb4kconfigpagenetwork.cpp:64
+#, kde-format
+msgid "Browse List"
+msgstr "瀏覽清單"
+
+#: smb4k/smb4kconfigpagenetwork.cpp:102 smb4k/smb4kconfigpageshares.cpp:76
+#: smb4k/smb4kconfigpageuserinterface.cpp:62
+#, kde-format
+msgid "Behavior"
+msgstr ""
+
+#: smb4k/smb4kconfigpagenetwork.cpp:146
+#, kde-format
+msgid "Periodic Scanning"
+msgstr ""
+
+#: smb4k/smb4kconfigpagenetwork.cpp:158 smb4k/smb4kconfigpageshares.cpp:96
+#, kde-format
+msgid " min"
+msgstr ""
+
+#: smb4k/smb4kconfigpagenetwork.cpp:182
+#, kde-format
+msgid " s"
+msgstr ""
+
+#: smb4k/smb4kconfigpagenetwork.cpp:198
+#, kde-format
+msgid ""
+"<qt>Define the hosts that should be woken up via the custom options dialog.</"
+"qt>"
+msgstr ""
+
+#: smb4k/smb4kconfigpageprofiles.cpp:53
+#, fuzzy, kde-format
+msgid "Settings"
+msgstr "一般選項"
+
+#: smb4k/smb4kconfigpagesamba.cpp:60
+#, kde-format
+msgid "General Options"
+msgstr "一般選項"
+
+#: smb4k/smb4kconfigpagesamba.cpp:121
+#, kde-format
+msgid "Security"
+msgstr ""
+
+#: smb4k/smb4kconfigpagesamba.cpp:163
+#, fuzzy, kde-format
+msgid "smbclient"
+msgstr "使用 smbclient"
+
+#: smb4k/smb4kconfigpagesamba.cpp:179
+#, kde-format
+msgid " Bytes"
+msgstr ""
+
+#: smb4k/smb4kconfigpagesamba.cpp:190
+#, kde-format
+msgid "nmblookup"
+msgstr ""
+
+#: smb4k/smb4kconfigpagesamba.cpp:210
+#, kde-format
+msgid "smbtree"
+msgstr ""
+
+#: smb4k/smb4kconfigpagesamba.cpp:225
+#, fuzzy, kde-format
+msgid "Utility Programs"
+msgstr "程式"
+
+#: smb4k/smb4kconfigpageshares.cpp:56
+#, kde-format
+msgid "Directories"
+msgstr "目錄"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:60
+#, kde-format
+msgid "Default Destination"
+msgstr "預設目的"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:125
+#, kde-format
+msgid "Links"
+msgstr "鏈結"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:162
+#, kde-format
+msgid "File Permissions, etc."
+msgstr "檔案權限…等等。"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:206
+#, kde-format
+msgid "Copying"
+msgstr "複製中"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:218
+#, kde-format
+msgid "File Deletion"
+msgstr "檔案刪除"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:265
+#, kde-format
+msgid "Restrictions"
+msgstr "限制"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:281
+#, kde-format
+msgid "File Transfer"
+msgstr "檔案轉送"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:292
+#: smb4k/smb4kconfigpagesynchronization.cpp:300
+#, kde-format
+msgid " kB"
+msgstr ""
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:329
+#, fuzzy, kde-format
+msgid "File Deletion && Transfer"
+msgstr "檔案刪除 && 轉送"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:391
+#, kde-format
+msgid "Filter Rules"
+msgstr "過濾器規則"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:404
+#, fuzzy, kde-format
+msgid "Special filter rules:"
+msgstr "過濾器規則"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:426
+#, kde-format
+msgid "Filtering"
+msgstr "過濾"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:475
+#, kde-format
+msgid "Backup"
+msgstr "備份"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:506
+#, kde-format
+msgid "Checksums"
+msgstr "總和檢查碼"
+
+#: smb4k/smb4kconfigpageuserinterface.cpp:73
+#, kde-format
+msgid "Columns"
+msgstr ""
+
+#: smb4k/smb4kconfigpageuserinterface.cpp:92
+#: smb4k/smb4kconfigpageuserinterface.cpp:136
+#, kde-format
+msgid "Tooltips"
+msgstr "工具提示"
+
+#: smb4k/smb4kconfigpageuserinterface.cpp:107 smb4k/smb4kmainwindow.cpp:253
+#, fuzzy, kde-format
+msgid "Network Neighborhood"
+msgstr "網路芳鄰"
+
+#: smb4k/smb4kconfigpageuserinterface.cpp:119
+#, kde-format
+msgid "View Mode"
+msgstr ""
+
+#: smb4k/smb4kconfigpageuserinterface.cpp:152 smb4k/smb4kmainwindow.cpp:352
+#: smb4k/smb4ksharesmenu.cpp:55
+#, fuzzy, kde-format
+msgid "Mounted Shares"
+msgstr "掛載的共享(&S)"
+
+#: smb4k/smb4kconfigpageuserinterface.cpp:177
+#, fuzzy, kde-format
+msgid "Miscellaneous Settings"
+msgstr "一般選項"
+
+#: smb4k/smb4kmainwindow.cpp:121
+#, fuzzy, kde-format
+msgid "Dock Widgets"
+msgstr "停駐視窗元件(&D)"
+
+#: smb4k/smb4kmainwindow.cpp:273
+#, fuzzy, kde-format
+msgid "The network browser could not be created."
+msgstr "目錄 %1 無法建立。"
+
+#: smb4k/smb4kmainwindow.cpp:302
+#, kde-format
+msgid "Network Search"
+msgstr "網路搜尋"
+
+#: smb4k/smb4kmainwindow.cpp:322
+#, fuzzy, kde-format
+msgid "The search dialog could not be created."
+msgstr "目錄 %1 無法建立。"
+
+#: smb4k/smb4kmainwindow.cpp:372
+#, fuzzy, kde-format
+msgid "The shares view could not be created."
+msgstr "目錄 %1 無法建立。"
+
+#: smb4k/smb4kmainwindow.cpp:560
+#, fuzzy, kde-format
+msgid ""
+"<qt>Closing the main window will keep Smb4K running in the system tray. Use "
+"<i>Quit</i> from the <i>File</i> menu to quit the application.</qt>"
+msgstr ""
+"關閉主視窗後 Smb4K 將在系統匣中繼續執行。可用檔案選單中的離開來退出程式。"
+
+#: smb4k/smb4kmainwindow.cpp:562
+#, fuzzy, kde-format
+msgid "Docking"
+msgstr "停駐視窗元件(&D)"
+
+#: smb4k/smb4kmainwindow.cpp:579
+#, fuzzy, kde-format
+msgid "There are currently no shares mounted."
+msgstr "目錄 %1 無法建立。"
+
+#: smb4k/smb4kmainwindow.cpp:584
+#, fuzzy, kde-format
+msgid "There is currently %1 share mounted."
+msgid_plural "There are currently %1 shares mounted."
+msgstr[0] "目錄 %1 無法建立。"
+
+#: smb4k/smb4kmainwindow.cpp:681
+#, fuzzy, kde-format
+#| msgid "The wallet \"%1\" could not be opened."
+msgid "The wallet is used."
+msgstr "密碼包「%1」無法開啟。"
+
+#: smb4k/smb4kmainwindow.cpp:687
+#, fuzzy, kde-format
+#| msgid "The password is not correct. "
+msgid "The password dialog is used."
+msgstr "密碼不正確。"
+
+#: smb4k/smb4kmainwindow.cpp:700 smb4k/smb4knetworkbrowser_part.cpp:1484
+#, fuzzy, kde-format
+msgid "Looking for workgroups and domains..."
+msgstr "查詢此主機以取回瀏覽清單："
+
+#: smb4k/smb4kmainwindow.cpp:706 smb4k/smb4knetworkbrowser_part.cpp:1497
+#, fuzzy, kde-format
+msgid "Looking for hosts in domain %1..."
+msgstr "查詢此主機以取回瀏覽清單："
+
+#: smb4k/smb4kmainwindow.cpp:712 smb4k/smb4knetworkbrowser_part.cpp:1510
+#, kde-format
+msgid "Looking for shares provided by host %1..."
+msgstr ""
+
+#: smb4k/smb4kmainwindow.cpp:717
+#, kde-format
+msgid "Waking up remote hosts..."
+msgstr ""
+
+#: smb4k/smb4kmainwindow.cpp:743 smb4k/smb4kmainwindow.cpp:796
+#: smb4k/smb4kmainwindow.cpp:973 smb4k/smb4kmainwindow.cpp:1003
+#: smb4k/smb4kmainwindow.cpp:1033 smb4k/smb4kmainwindow.cpp:1065
+#: smb4k/smb4knetworkbrowser_part.cpp:1568
+#: smb4k/smb4knetworksearch_part.cpp:604 smb4k/smb4ksharesview_part.cpp:741
+#, kde-format
+msgid "Done."
+msgstr "完成。"
+
+#: smb4k/smb4kmainwindow.cpp:760 smb4k/smb4ksharesview_part.cpp:723
+#, fuzzy, kde-format
+msgid "Mounting..."
+msgstr "掛載(&M)"
+
+#: smb4k/smb4kmainwindow.cpp:765 smb4k/smb4ksharesview_part.cpp:728
+#, fuzzy, kde-format
+#| msgid "Unmounting share..."
+msgid "Unmounting..."
+msgstr "正在卸載共享…"
+
+#: smb4k/smb4kmainwindow.cpp:770
+#, fuzzy, kde-format
+#| msgid "Opening host..."
+msgid "Waking up host..."
+msgstr "開啟主機…"
+
+#: smb4k/smb4kmainwindow.cpp:813
+#, kde-format
+msgid "%1 has been mounted successfully."
+msgstr ""
+
+#: smb4k/smb4kmainwindow.cpp:867
+#, kde-format
+msgid "%1 has been unmounted successfully."
+msgstr ""
+
+#: smb4k/smb4kmainwindow.cpp:954 smb4k/smb4knetworksearch_part.cpp:576
+#, fuzzy, kde-format
+#| msgid "Searching for host..."
+msgid "Searching for \"%1\"..."
+msgstr "正在搜尋主機…"
+
+#: smb4k/smb4kmainwindow.cpp:984
+#, fuzzy, kde-format
+#| msgid "Sending file to printer..."
+msgid "Sending file to printer %1..."
+msgstr "發送檔案到印表機…"
+
+#: smb4k/smb4kmainwindow.cpp:1014
+#, fuzzy, kde-format
+#| msgid "Synchronizing data..."
+msgid "Synchronizing %1"
+msgstr "同步資料…"
+
+#: smb4k/smb4kmainwindow.cpp:1046
+#, fuzzy, kde-format
+msgid "Retrieving preview from %1..."
+msgstr "取回預覽…"
+
+#: smb4k/smb4knetworkbrowser.cpp:69 smb4k/smb4ktooltip.cpp:335
+#: smb4k/smb4ktooltip.cpp:376 smb4k/smb4ktooltip.cpp:439
+#, kde-format
+msgid "Type"
+msgstr "類型"
+
+#: smb4k/smb4knetworkbrowser.cpp:70 smb4k/smb4ktooltip.cpp:398
+#: smb4k/smb4ktooltip.cpp:491
+#, kde-format
+msgid "IP Address"
+msgstr "IP 位址"
+
+#: smb4k/smb4knetworkbrowser.cpp:71 smb4k/smb4ktooltip.cpp:382
+#: smb4k/smb4ktooltip.cpp:445
+#, kde-format
+msgid "Comment"
+msgstr "註解"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:190
+#: smb4k/smb4knetworkbrowser_part.cpp:535
+#: smb4k/smb4knetworkbrowser_part.cpp:548
+#: smb4k/smb4knetworkbrowser_part.cpp:572
+#, kde-format
+msgid "Scan Netwo&rk"
+msgstr "掃描網路(&R)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:191
+#, kde-format
+msgid "&Abort"
+msgstr "放棄(&A)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:198 smb4k/smb4ksystemtray.cpp:87
+#, kde-format
+msgid "&Open Mount Dialog"
+msgstr ""
+
+#: smb4k/smb4knetworkbrowser_part.cpp:201
+#, kde-format
+msgid "Au&thentication"
+msgstr "驗證(&T)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:204
+#, fuzzy, kde-format
+msgid "&Custom Options"
+msgstr "Samba 選項"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:210
+#, kde-format
+msgid "Pre&view"
+msgstr "預覽(&V)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:213
+#, fuzzy, kde-format
+msgid "&Print File"
+msgstr "列印檔案"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:217 smb4k/smb4knetworksearch_part.cpp:166
+#, kde-format
+msgid "&Mount"
+msgstr "掛載(&M)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:218 smb4k/smb4knetworksearch_part.cpp:167
+#: smb4k/smb4ksharesview_part.cpp:213
+#, kde-format
+msgid "&Unmount"
+msgstr "卸載(&U)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:340
+#, fuzzy, kde-format
+msgid "Smb4KNetworkBrowserPart"
+msgstr "網路瀏覽器"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:341
+#, fuzzy, kde-format
+msgid "The network neighborhood browser KPart of Smb4K"
+msgstr "網路芳鄰"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:342 smb4k/smb4knetworksearch_part.cpp:203
+#: smb4k/smb4ksharesview_part.cpp:310
+#, fuzzy, kde-format
+msgid "© 2007-2015, Alexander Reinholdt"
+msgstr "(c) 2003-2006, Alexander Reinholdt & Smb4K 團隊"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:431
+#: smb4k/smb4knetworkbrowser_part.cpp:447
+#, kde-format
+msgid "Scan Compute&r"
+msgstr "掃描電腦(&R)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:492
+#, kde-format
+msgid "Scan Wo&rkgroup"
+msgstr "掃描工作群組(&R)"
+
+#: smb4k/smb4knetworkbrowser_part.cpp:1522
+#, kde-format
+msgid "Waking up remote servers..."
+msgstr ""
+
+#: smb4k/smb4knetworksearch.cpp:56
+#, fuzzy, kde-format
+msgid "Search item:"
+msgstr "搜尋"
+
+#: smb4k/smb4knetworksearch.cpp:59
+#, fuzzy, kde-format
+msgid "Enter the search string here."
+msgstr "進入主機"
+
+#: smb4k/smb4knetworksearch_part.cpp:154
+#, fuzzy, kde-format
+msgid "Abort"
+msgstr "放棄(&A)"
+
+#: smb4k/smb4knetworksearch_part.cpp:162
+#, fuzzy, kde-format
+msgid "&Clear"
+msgstr "搜尋(&S)"
+
+#: smb4k/smb4knetworksearch_part.cpp:201
+#, fuzzy, kde-format
+msgid "Smb4KNetworkSearchPart"
+msgstr "網路瀏覽器"
+
+#: smb4k/smb4knetworksearch_part.cpp:202
+#, kde-format
+msgid "The network search KPart of Smb4K"
+msgstr ""
+
+#: smb4k/smb4knetworksearch_part.cpp:537 smb4k/smb4knetworksearch_part.cpp:545
+#, fuzzy, kde-format
+msgid "Search Results"
+msgstr "搜尋結果"
+
+#. i18n: ectx: Menu (search)
+#: smb4k/smb4knetworksearch_part.rc:4
+#, kde-format
+msgid "Search"
+msgstr "搜尋"
+
+#: smb4k/smb4knetworksearchitem.cpp:86
+#, kde-format
+msgid "The search returned no results."
+msgstr ""
+
+#: smb4k/smb4ksharesmenu.cpp:122 smb4k/smb4ksharesview_part.cpp:216
+#, fuzzy, kde-format
+msgid "U&nmount All"
+msgstr "全部卸載(&N)"
+
+#: smb4k/smb4ksharesmenu.cpp:163
+#, fuzzy, kde-format
+#| msgid "&Unmount"
+msgid "Unmount"
+msgstr "卸載(&U)"
+
+#: smb4k/smb4ksharesmenu.cpp:178
+#, fuzzy, kde-format
+msgid "Add Bookmark"
+msgstr "編輯書籤(&E)"
+
+#: smb4k/smb4ksharesmenu.cpp:189
+#, fuzzy, kde-format
+msgid "Synchronize"
+msgstr "同步(&Y)"
+
+#: smb4k/smb4ksharesmenu.cpp:204
+#, fuzzy, kde-format
+msgid "Open with Konsole"
+msgstr "&Konqueror"
+
+#: smb4k/smb4ksharesmenu.cpp:216
+#, fuzzy, kde-format
+msgid "Open with File Manager"
+msgstr "&Konqueror"
+
+#: smb4k/smb4ksharesview_part.cpp:179
+#, kde-format
+msgid "View Modes"
+msgstr ""
+
+#: smb4k/smb4ksharesview_part.cpp:185
+#, fuzzy, kde-format
+msgid "Icon View"
+msgstr "跳至共享檢視"
+
+#: smb4k/smb4ksharesview_part.cpp:190
+#, fuzzy, kde-format
+msgid "List View"
+msgstr "跳至共享檢視"
+
+#: smb4k/smb4ksharesview_part.cpp:219
+#, kde-format
+msgid "S&ynchronize"
+msgstr "同步(&Y)"
+
+#: smb4k/smb4ksharesview_part.cpp:222
+#, fuzzy, kde-format
+msgid "Open With"
+msgstr "&Konqueror"
+
+#: smb4k/smb4ksharesview_part.cpp:224
+#, fuzzy, kde-format
+msgid "Open with Konso&le"
+msgstr "&Konqueror"
+
+#: smb4k/smb4ksharesview_part.cpp:227
+#, fuzzy, kde-format
+msgid "Open with F&ile Manager"
+msgstr "&Konqueror"
+
+#: smb4k/smb4ksharesview_part.cpp:308
+#, fuzzy, kde-format
+msgid "Smb4KSharesViewPart"
+msgstr "跳至共享檢視"
+
+#: smb4k/smb4ksharesview_part.cpp:309
+#, kde-format
+msgid "The shares view KPart of Smb4K"
+msgstr ""
+
+#: smb4k/smb4ksharesview_part.cpp:492
+#, kde-format
+msgid ""
+"<qt>There is no active connection to the share <b>%1</b>! You cannot drop "
+"any files here.</qt>"
+msgstr ""
+
+#. i18n: ectx: Menu (shares)
+#: smb4k/smb4ksharesview_part.rc:4
+#, fuzzy, kde-format
+msgid "&Shares"
+msgstr "共享"
+
+#: smb4k/smb4ktooltip.cpp:187 smb4k/smb4ktooltip.cpp:470
+#: smb4k/smb4ktooltip.cpp:751
+#, kde-format
+msgid "yes"
+msgstr ""
+
+#: smb4k/smb4ktooltip.cpp:191 smb4k/smb4ktooltip.cpp:475
+#: smb4k/smb4ktooltip.cpp:755
+#, kde-format
+msgid "no"
+msgstr ""
+
+#: smb4k/smb4ktooltip.cpp:223
+#, fuzzy, kde-format
+#| msgid "%1 %2 out of %3 %4 (%5\\% used)"
+msgid "%1 of %2 free (%3 used)"
+msgstr "%3 %4 之中的 %1 %2 (%5\\% 已使用)"
+
+#: smb4k/smb4ktooltip.cpp:230 smb4k/smb4ktooltip.cpp:590
+#: smb4k/smb4ktooltip.cpp:598 smb4k/smb4ktooltip.cpp:599
+#: smb4k/smb4ktooltip.cpp:625 smb4k/smb4ktooltip.cpp:805
+#: smb4k/smb4ktooltip.cpp:820
+#, fuzzy, kde-format
+msgid "unknown"
+msgstr "不明的"
+
+#: smb4k/smb4ktooltip.cpp:341
+#, fuzzy, kde-format
+#| msgid "Master browser:"
+msgid "Master browser"
+msgstr "主伺服器："
+
+#: smb4k/smb4ktooltip.cpp:380 smb4k/smb4ktooltip.cpp:485
+#, fuzzy, kde-format
+#| msgid "Host:"
+msgid "Host"
+msgstr "主機："
+
+#: smb4k/smb4ktooltip.cpp:443
+#, fuzzy, kde-format
+#| msgid "Share:"
+msgid "Share (%1)"
+msgstr "共享："
+
+#: smb4k/smb4ktooltip.cpp:461
+#, fuzzy, kde-format
+#| msgid "Mounted:"
+msgid "Mounted"
+msgstr "掛載："
+
+#: smb4k/smb4ktooltip.cpp:507 smb4k/smb4ktooltip.cpp:567
+#, kde-format
+msgid "UNC"
+msgstr ""
+
+#: smb4k/smb4ktooltip.cpp:573
+#, fuzzy, kde-format
+#| msgid "Mount point:"
+msgid "Mountpoint"
+msgstr "掛載點："
+
+#: smb4k/smb4ktooltip.cpp:593
+#, kde-format
+msgid "Owner"
+msgstr ""
+
+#: smb4k/smb4ktooltip.cpp:604
+#, fuzzy, kde-format
+#| msgid "File system:"
+msgid "File system"
+msgstr "檔案系統："
+
+#: smb4k/smb4ktooltip.cpp:610
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgid "Size"
+msgstr "大小："
+
+#: smb4k/smb4ktooltip.cpp:617 smb4k/smb4ktooltip.cpp:813
+#, fuzzy, kde-format
+#| msgid "%1 %2 out of %3 %4 (%5\\% used)"
+msgid "%1 free of %2 (%3 used)"
+msgstr "%3 %4 之中的 %1 %2 (%5\\% 已使用)"
+
+#, fuzzy
+#~ msgid "Advanced Network Neighborhood Browser"
+#~ msgstr "網路芳鄰"
+
+#~ msgid "Checks"
+#~ msgstr "檢查"
+
+#, fuzzy
+#~ msgid "Looking for more information about host %1..."
+#~ msgstr "查詢此主機以取回瀏覽清單："
+
+#, fuzzy
+#~| msgid "Mounting share..."
+#~ msgid "Mounting share..."
+#~ msgstr "正在掛載共享…"
+
+#, fuzzy
+#~| msgid "WINS server"
+#~ msgid "Server"
+#~ msgstr "WINS 伺服器"
+
+#, fuzzy
+#~| msgid "Operating system:"
+#~ msgid "Operating system"
+#~ msgstr "作業系統："
+
+#, fuzzy
+#~ msgid "Mounting %1 failed."
+#~ msgstr "列印檔案"
+
+# "正在卸載共享..."
+#, fuzzy
+#~| msgid "Unmounting all shares..."
+#~ msgid "Unmounting %1 failed."
+#~ msgstr "正在卸載所有共享…"
+
+#, fuzzy
+#~ msgid "Shares View"
+#~ msgstr "跳至共享檢視"
+
+#~ msgid "File System"
+#~ msgstr "檔案系統"
+
+#, fuzzy
+#~ msgid "Free"
+#~ msgstr "檔案："
+
+#, fuzzy
+#~ msgid "Used"
+#~ msgstr "使用者："
+
+#, fuzzy
+#~ msgid "Usage"
+#~ msgstr "使用者："
+
+#, fuzzy
+#~ msgid "Protocol Hint:"
+#~ msgstr "協定提示"
+
+#, fuzzy
+#~ msgid "Remote Ports"
+#~ msgstr "掛載的共享(&S)"
+
+#, fuzzy
+#~ msgid ""
+#~ "The directory where partially transferred files should\n"
+#~ "be stored has not been filled in.\n"
+#~ "Please enter it now."
+#~ msgstr "放置部份已轉送的檔案進入"
+
+#, fuzzy
+#~ msgid "Mounting && Unmounting"
+#~ msgstr "掛載/卸載"
+
+#, fuzzy
+#~ msgid "Remote Shares"
+#~ msgstr "掛載的共享(&S)"
+
+#, fuzzy
+#~ msgid "Hidden Files && Directories"
+#~ msgstr "強制刪除非空目錄"
+
+#, fuzzy
+#~ msgid "Preview Dialog"
+#~ msgstr "預覽"
+
+#, fuzzy
+#~| msgid "Restrictions"
+#~ msgid "Notifications"
+#~ msgstr "限制"
+
+#, fuzzy
+#~| msgid "Authentication"
+#~ msgid "Show notifications"
+#~ msgstr "身分驗證"
+
+#, fuzzy
+#~ msgid "Show mounted shares in an icon view"
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#, fuzzy
+#~ msgid "The mounted shares will be displayed in an icon view."
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#, fuzzy
+#~ msgid "Show mounted shares in a list view"
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#, fuzzy
+#~ msgid "The mounted shares will be displayed in a list view."
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#~ msgid "Show printer shares"
+#~ msgstr "顯示印表機共享"
+
+#, fuzzy
+#~ msgid "Printer shares will be displayed in the network browser."
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#~ msgid "Show hidden shares"
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Show hidden IPC$ shares"
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Hidden IPC$ shares will be displayed in the network browser."
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#, fuzzy
+#~ msgid "Show hidden ADMIN$ shares"
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Hidden ADMIN$ shares will be displayed in the network browser."
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#, fuzzy
+#~ msgid "Show the type of the share"
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Show the IP address of the server"
+#~ msgstr "顯示 IP 位址"
+
+#, fuzzy
+#~ msgid "Show the comment"
+#~ msgstr "顯示註解"
+
+#, fuzzy
+#~ msgid "Show a tooltip with information about the network item"
+#~ msgstr "顯示附有關於網路項目資訊的工具提示"
+
+#, fuzzy
+#~ msgid ""
+#~ "The tooltip shows various information about the current network item."
+#~ msgstr "顯示附有關於網路項目資訊的工具提示"
+
+#, fuzzy
+#~ msgid "Show the mount point instead of the share name"
+#~ msgstr "顯示掛載點，而非共享名稱。"
+
+#~ msgid "Show all shares that are mounted on the system"
+#~ msgstr "顯示掛載於系統上的全部共享。"
+
+#, fuzzy
+#~ msgid "Show a tooltip with information about the share"
+#~ msgstr "顯示附有關於共享資訊的工具提示"
+
+#, fuzzy
+#~ msgid "The tooltip shows various information about the current share."
+#~ msgstr "顯示附有關於共享資訊的工具提示"
+
+#, fuzzy
+#~ msgid "Show the owner and group"
+#~ msgstr "使用者和群組"
+
+#, fuzzy
+#~ msgid "Show the login name"
+#~ msgstr "顯示註解"
+
+#, fuzzy
+#~ msgid "Show the file system"
+#~ msgstr "檔案系統："
+
+#, fuzzy
+#~ msgid "Show the file system that was used for mounting the share."
+#~ msgstr "顯示掛載於系統上的全部共享。"
+
+#, fuzzy
+#~ msgid "Show the free disk space"
+#~ msgstr "可用磁碟空間："
+
+#, fuzzy
+#~ msgid "Show the free disk space that is left on the share."
+#~ msgstr "顯示掛載於系統上的全部共享。"
+
+#, fuzzy
+#~ msgid "Show the used disk space"
+#~ msgstr "可用磁碟空間："
+
+#, fuzzy
+#~ msgid "Show the disk space that is already used on the share."
+#~ msgstr "顯示掛載於系統上的全部共享。"
+
+#, fuzzy
+#~ msgid "Show the total disk space"
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Show the total disk space of the share."
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Show the disk usage"
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Show the space that is used on the share (as a percentage.)"
+#~ msgstr "顯示掛載於系統上的全部共享。"
+
+#, fuzzy
+#~ msgid "Preview hidden files and directories"
+#~ msgstr "強制刪除非空目錄"
+
+#, fuzzy
+#~ msgid "Scan the network neighborhood for available workgroups and domains"
+#~ msgstr "網路芳鄰"
+
+#, fuzzy
+#~ msgid "Query the current workgroup master browser"
+#~ msgstr "查詢目前工作群組主機以取回瀏覽清單"
+
+#, fuzzy
+#~ msgid ""
+#~ "This method queries the current master browser of your workgroup or "
+#~ "domain to retrieve the initial browse list."
+#~ msgstr "掃描網路以取得瀏覽列表。"
+
+#, fuzzy
+#~ msgid "Query this custom master browser:"
+#~ msgstr "虛擬主伺服器："
+
+#, fuzzy
+#~ msgid ""
+#~ "This method queries a custom master browser to retrieve the initial "
+#~ "browse list."
+#~ msgstr "掃描網路以取得瀏覽列表。"
+
+#, fuzzy
+#~ msgid "A custom master browser that is to be queried"
+#~ msgstr "無法讀取檔案 %1。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter the name or IP address of a master browser here that should be "
+#~ "queried to compile the initial browse list."
+#~ msgstr "掃描網路以取得瀏覽列表。"
+
+#, fuzzy
+#~ msgid "Scan these broadcast areas:"
+#~ msgstr "廣播位址："
+
+#, fuzzy
+#~ msgid "The master browsers require authentication to return the browse list"
+#~ msgstr "在嘗試取得瀏覽列表時，發生錯誤。"
+
+#, fuzzy
+#~ msgid "Scan the network neighborhood periodically"
+#~ msgstr "網路芳鄰"
+
+#, fuzzy
+#~ msgid ""
+#~ "Scan the network neighborhood periodically for all available workgroups, "
+#~ "hosts and shares."
+#~ msgstr "網路芳鄰"
+
+#, fuzzy
+#~| msgid "Interval between checks:"
+#~ msgid "Interval between scans:"
+#~ msgstr "檢查之間的間隔："
+
+#~ msgid "Mount prefix:"
+#~ msgstr "掛載字首："
+
+#~ msgid "Force generated subdirectories to be lower case"
+#~ msgstr "强制產生的子目錄為小寫。"
+
+#, fuzzy
+#~ msgid ""
+#~ "All names of the subdirectories created by Smb4K below the mount prefix "
+#~ "will be lowercase."
+#~ msgstr "强制產生的子目錄為小寫。"
+
+#, fuzzy
+#~ msgid "Unmount all personal shares on exit"
+#~ msgstr "離開時卸載使用者 %1 的全部共享。"
+
+#~ msgid "Remount recently used shares on program start"
+#~ msgstr "程式啟動時重新掛載最近使用過的共享。"
+
+#, fuzzy
+#~| msgid "Interval between checks:"
+#~ msgid "Number of remount attempts:"
+#~ msgstr "檢查之間的間隔："
+
+#, fuzzy
+#~| msgid "Interval between checks:"
+#~ msgid "Interval between remount attempts:"
+#~ msgstr "檢查之間的間隔："
+
+#~ msgid "Allow the unmounting of shares that are owned by other users"
+#~ msgstr "允許卸載其它使用者所擁有的共享"
+
+#, fuzzy
+#~| msgid "Allow the unmounting of shares that are owned by other users"
+#~ msgid ""
+#~ "Allow the unmounting of shares that were mounted by other users. Please "
+#~ "think before you enable this option."
+#~ msgstr "允許卸載其它使用者所擁有的共享"
+
+#, fuzzy
+#~ msgid "Force the unmounting of inaccessible shares"
+#~ msgstr "使用超級使用者權限掛載或卸載共享"
+
+#~ msgid "Interval between checks:"
+#~ msgstr "檢查之間的間隔："
+
+#, fuzzy
+#~ msgid "Save logins in a wallet"
+#~ msgstr "儲存登入資訊於密碼包中"
+
+#, fuzzy
+#~ msgid "Use a default login"
+#~ msgstr "使用預設登入"
+
+#~ msgid "NetBIOS name:"
+#~ msgstr "NetBIOS 名稱："
+
+#, fuzzy
+#~ msgid "Domain:"
+#~ msgstr "位置："
+
+#~ msgid "Socket options:"
+#~ msgstr "通訊端選項："
+
+#, fuzzy
+#~ msgid "NetBIOS scope:"
+#~ msgstr "NetBIOS 名稱："
+
+#, fuzzy
+#~ msgid "SMB port:"
+#~ msgstr "遠端 SMB 連接埠："
+
+#, fuzzy
+#~ msgid "File system port:"
+#~ msgstr "檔案系統："
+
+#~ msgid "Try to authenticate with Kerberos"
+#~ msgstr "試圖使用 Kerberos 認證身分。"
+
+#, fuzzy
+#~ msgid "Authenticate with local machine account"
+#~ msgstr "做為機器帳號驗證"
+
+#, fuzzy
+#~ msgid "Use Winbind ccache for authentication"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#, fuzzy
+#~ msgid "Client character set:"
+#~ msgstr "Linux 字元集："
+
+#~ msgid "default"
+#~ msgstr "預設"
+
+#~ msgid "Server codepage:"
+#~ msgstr "伺服器編碼頁："
+
+#~ msgid "File mask:"
+#~ msgstr "檔案遮罩："
+
+#~ msgid "Directory mask:"
+#~ msgstr "目錄遮罩："
+
+#~ msgid "read-write"
+#~ msgstr "讀寫"
+
+#~ msgid "read-only"
+#~ msgstr "唯讀"
+
+#, fuzzy
+#~ msgid "Do permission checks"
+#~ msgstr "權限"
+
+#, fuzzy
+#~ msgid "Protocol hint:"
+#~ msgstr "協定提示"
+
+#, fuzzy
+#~ msgid "Automatic detection"
+#~ msgstr "身分驗證"
+
+#, fuzzy
+#~ msgid "RPC: Modern operating systems"
+#~ msgstr "作業系統："
+
+#, fuzzy
+#~ msgid "RAP: Older operating systems"
+#~ msgstr "作業系統："
+
+#, fuzzy
+#~ msgid "ADS: Active Directory environment (LDAP/Kerberos)"
+#~ msgstr "作用中目錄 (LDAP/Kerberos)"
+
+#, fuzzy
+#~ msgid "Name resolve order:"
+#~ msgstr "取消序列："
+
+#~ msgid "Buffer size:"
+#~ msgstr "緩衝區大小："
+
+#~ msgid "Broadcast address:"
+#~ msgstr "廣播位址："
+
+#, fuzzy
+#~ msgid "Try and bind to UDP port 137 to send and receive UDP datagrams"
+#~ msgstr "試著連結到 UDP 連接埠 137 以發送和接收 UDP 資料包"
+
+#, fuzzy
+#~| msgid "Use default network write size"
+#~ msgid "Security mode:"
+#~ msgstr "使用預設網路寫入大小"
+
+#, fuzzy
+#~ msgid "Kerberos 5 authentication"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid "Kerberos 5 authentication and packet signing"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid "NTLM protocol"
+#~ msgstr "協定提示"
+
+#, fuzzy
+#~ msgid "NTLM protocol and packet signing"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid "NTLMv2 protocol"
+#~ msgstr "協定提示"
+
+#, fuzzy
+#~ msgid "NTLMv2 protocol and packet signing"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid "NTLMSSP protocol"
+#~ msgstr "協定提示"
+
+#, fuzzy
+#~ msgid "NTLMSSP protocol and packet signing"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid "Synchronization prefix:"
+#~ msgstr "同步化"
+
+#~ msgid "Archive mode"
+#~ msgstr "歸檔模式"
+
+#, fuzzy
+#~ msgid "Recurse into subdirectories"
+#~ msgstr "遞迴進入目錄"
+
+#, fuzzy
+#~ msgid "Recurse into directories (-r, --recursive)."
+#~ msgstr "遞迴進入目錄"
+
+#, fuzzy
+#~ msgid "Update files"
+#~ msgstr "就地更新目的檔案"
+
+#, fuzzy
+#~ msgid "Update files in place"
+#~ msgstr "就地更新目的檔案"
+
+#, fuzzy
+#~ msgid "Use relative path names"
+#~ msgstr "使用相對路徑名稱(-R)"
+
+#, fuzzy
+#~ msgid "Do not send implied directories"
+#~ msgstr "不要藉由 -R 來發送隱含的目錄"
+
+#~ msgid "Transfer directories without recursing"
+#~ msgstr "不用遞迴來轉送目錄"
+
+#~ msgid "Compress data during transfer"
+#~ msgstr "在轉送期間壓縮資料"
+
+#~ msgid "Preserve symlinks"
+#~ msgstr "保留符號連結"
+
+#~ msgid "Transform symlinks"
+#~ msgstr "變換符號連結"
+
+#, fuzzy
+#~ msgid "Only transform unsafe symlinks"
+#~ msgstr "只有變換不安全的鏈結"
+
+#, fuzzy
+#~ msgid "Ignore unsafe symlinks"
+#~ msgstr "保留符號連結"
+
+#~ msgid "Preserve hard links"
+#~ msgstr "保留硬式鏈結"
+
+#~ msgid "Keep directory symlinks"
+#~ msgstr "保持目錄的符號連結"
+
+#~ msgid "Preserve permissions"
+#~ msgstr "保留權限"
+
+#~ msgid "Preserve group"
+#~ msgstr "保留群組"
+
+#, fuzzy
+#~ msgid "Preserve owner"
+#~ msgstr "保留群組"
+
+#, fuzzy
+#~ msgid "Preserve device and special files"
+#~ msgstr "保留符號連結"
+
+#~ msgid "Preserve times"
+#~ msgstr "保留時間"
+
+#~ msgid "Omit directories when preserving times"
+#~ msgstr "當保留時間時省略目錄"
+
+#, fuzzy
+#~ msgid "Delete extraneous files"
+#~ msgstr "也刪除在目的上被排除的檔案"
+
+#, fuzzy
+#~ msgid "Delete files before transfer"
+#~ msgstr "刪除在轉送之前目的上的檔案"
+
+#, fuzzy
+#~ msgid "Delete files after transfer"
+#~ msgstr "刪除在轉送之後目的上的檔案"
+
+#, fuzzy
+#~ msgid "Delete files during transfer"
+#~ msgstr "刪除在轉送期間目的上的檔案"
+
+#, fuzzy
+#~ msgid "Also delete excluded files"
+#~ msgstr "也刪除在目的上被排除的檔案"
+
+#~ msgid "Delete even if I/O errors occur"
+#~ msgstr "即使 I/O 錯誤發生也要刪除"
+
+#~ msgid "Force deletion of non-void directories"
+#~ msgstr "強制刪除非空目錄"
+
+#, fuzzy
+#~| msgid "Don't delete more than this many files:"
+#~ msgid "Do not delete more than this many files:"
+#~ msgstr "刪除檔案數目不超過："
+
+#, fuzzy
+#~ msgid "Do not transfer any file smaller than:"
+#~ msgstr "不轉送任何檔案小於"
+
+#, fuzzy
+#~ msgid "Do not transfer any file larger than:"
+#~ msgstr "不轉送任何檔案大於"
+
+#~ msgid "Keep partially transferred files"
+#~ msgstr "保持部份已轉送的檔案"
+
+#, fuzzy
+#~ msgid "Put partially transferred files into:"
+#~ msgstr "放置部份已轉送的檔案進入"
+
+#~ msgid "Auto-ignore files in the same way CVS does"
+#~ msgstr "以與 CVS 相同的方式自動忽略檔案"
+
+#~ msgid "Exclude files matching this pattern:"
+#~ msgstr "排除符合此一式樣的檔案："
+
+#, fuzzy
+#~ msgid "Read exclude patterns from:"
+#~ msgstr "讀取排除式樣來自"
+
+#, fuzzy
+#~| msgid "Don't exclude files matching this pattern:"
+#~ msgid "Do not exclude files matching this pattern:"
+#~ msgstr "不排除符合此一式樣的檔案："
+
+#, fuzzy
+#~ msgid "Read include patterns from:"
+#~ msgstr "讀取包含式樣來自"
+
+#, fuzzy
+#~ msgid "Custom filter rules:"
+#~ msgstr "過濾器規則"
+
+#, fuzzy
+#~ msgid "Use --filter='dir-merge /.rsync-filter' filter rule"
+#~ msgstr "使用「--filter ='-.rsync-filter'」過濾器規則"
+
+#, fuzzy
+#~ msgid "Use --filter='exclude .rsync-filter' filter rule"
+#~ msgstr "使用「--filter ='-.rsync-filter'」過濾器規則"
+
+#~ msgid "Handle sparse files efficiently"
+#~ msgstr "有效率地處理稀疏檔案"
+
+#~ msgid "Copy files whole (no rsync algorithm)"
+#~ msgstr "複製整個檔案 (無 rsync 演算法)"
+
+#, fuzzy
+#~ msgid "Do not cross file system boundaries"
+#~ msgstr "不超越檔案系統邊界"
+
+#~ msgid "Only update files that already exist"
+#~ msgstr "只有更新已經存在的檔案"
+
+#~ msgid "Ignore files that already exist"
+#~ msgstr "忽略已經存在的檔案"
+
+#, fuzzy
+#~ msgid "Delay updates until the end of transfer"
+#~ msgstr "刪除在轉送之後目的上的檔案"
+
+#~ msgid "Make backups"
+#~ msgstr "製作備份"
+
+#~ msgid "Backup suffix:"
+#~ msgstr "備份字尾："
+
+#, fuzzy
+#~ msgid "Backup suffix"
+#~ msgstr "備份字尾："
+
+#~ msgid "Backup directory:"
+#~ msgstr "備份目錄："
+
+#, fuzzy
+#~ msgid "Backup directory"
+#~ msgstr "備份目錄："
+
+#~ msgid "Force fixed checksum block size:"
+#~ msgstr "強制固定的總和檢查碼區段大小："
+
+#~ msgid "Set block/file checksum seed:"
+#~ msgstr "設定區塊/檔案總和檢查碼種子："
+
+#, fuzzy
+#~ msgid "The checksum seed"
+#~ msgstr "設定區塊/檔案總和檢查碼種子："
+
+#, fuzzy
+#~ msgid "Skip files based on checksum"
+#~ msgstr "基於總和檢查碼而跳過"
+
+#, fuzzy
+#~ msgid "Unmount all shares when the sleep button is pressed"
+#~ msgstr "離開時卸載使用者 %1 的全部共享。"
+
+#, fuzzy
+#~ msgid "Unmount all shares when the lid is closed"
+#~ msgstr "離開時卸載使用者 %1 的全部共享。"
+
+#, fuzzy
+#~ msgid "Unmount all shares when the power button is pressed"
+#~ msgstr "離開時卸載使用者 %1 的全部共享。"
+
+#, fuzzy
+#~ msgid "Unmount all shares when the network is disconnected"
+#~ msgstr "離開時卸載使用者 %1 的全部共享。"
+
+#, fuzzy
+#~| msgid "The net command '%1' is not supported by Smb4K."
+#~ msgid "The format of %1 is not supported."
+#~ msgstr "Smb4K 並不支援網路命令 '%1'。"
+
+#, fuzzy
+#~ msgid "Add Bookmarks"
+#~ msgstr "編輯書籤(&E)"
+
+#, fuzzy
+#~| msgid "Workgroup:"
+#~ msgid "Group:"
+#~ msgstr "工作群組："
+
+#, fuzzy
+#~| msgid "&Edit Bookmarks"
+#~ msgid "Edit Bookmarks"
+#~ msgstr "編輯書籤(&E)"
+
+#, fuzzy
+#~ msgid "Clear Bookmarks"
+#~ msgstr "書籤"
+
+#, fuzzy
+#~ msgid "Login:"
+#~ msgstr "鏈結"
+
+#, fuzzy
+#~ msgid "<p>Define custom options for share <b>%1</b> at host <b>%2</b>.</p>"
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "SMB Port:"
+#~ msgstr "遠端 SMB 連接埠："
+
+#, fuzzy
+#~| msgid "IP address:"
+#~ msgid "MAC Address:"
+#~ msgstr "IP 位址："
+
+#~ msgid "Specify User"
+#~ msgstr "指定使用者"
+
+#, fuzzy
+#~| msgid "Please specify a user name."
+#~ msgid "Please specify a username."
+#~ msgstr "請指定使用者名稱。"
+
+#~ msgid "User:"
+#~ msgstr "使用者："
+
+#, fuzzy
+#~| msgid "Mount Share"
+#~ msgid "Foreign Share"
+#~ msgstr "掛載共享"
+
+#, fuzzy
+#~| msgid "Unmounting share..."
+#~ msgid "Remounting shares. Please wait."
+#~ msgstr "正在卸載共享…"
+
+#, fuzzy
+#~| msgid "Unmounting share..."
+#~ msgid "Unmounting shares. Please wait."
+#~ msgstr "正在卸載共享…"
+
+#~ msgid "Mount Share"
+#~ msgstr "掛載共享"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Uniform Naming Convention (UNC) address describes the location of the "
+#~ "share. It has the following syntax: //[USER@]HOST/SHARE. The username is "
+#~ "optional."
+#~ msgstr "共享路徑輸入錯誤，應遵循以下形式//HOST/SHARE。"
+
+#~ msgid "Workgroup:"
+#~ msgstr "工作群組："
+
+#~ msgid "Add this share to the bookmarks"
+#~ msgstr "將該共享加入書籤"
+
+#, fuzzy
+#~ msgid "<p>The share <b>%1</b> has been mounted to <b>%2</b>.</p>"
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "<p>The share <b>%1</b> has been unmounted from <b>%2</b>.</p>"
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "<p>%1 share out of %2 has been mounted.</p>"
+#~ msgid_plural "<p>%1 shares out of %2 have been mounted.</p>"
+#~ msgstr[0] "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "<p>All shares have been mounted.</p>"
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "<p>%1 share out of %2 has been unmounted.</p>"
+#~ msgid_plural "<p>%1 shares out of %2 have been unmounted.</p>"
+#~ msgstr[0] "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "<p>All shares have been unmounted.</p>"
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "<p>Opening the wallet <b>%1</b> failed.</p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>The mimetype <b>%1</b> is not supported for printing. Please convert "
+#~ "the file to PDF or Postscript and try again.</p>"
+#~ msgstr "不支援 MIME 類型 \"%1\"。請把檔案轉換成 PostScript 或者 PDF。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Retrieving the list of available domains failed:</p><p><tt>%1</tt></p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid "<p>Retrieving the list of available domains failed.</p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Scanning the defined broadcast area(s) failed:</p><p><tt>%1</tt></p>"
+#~ msgstr "廣播位址："
+
+#, fuzzy
+#~ msgid "<p>Scanning the defined broadcast area(s) failed.</p>"
+#~ msgstr "廣播位址："
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Retrieving the list of servers belonging to domain <b>%1</b> failed.</"
+#~ "p><p><tt>%2</tt></p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Retrieving the list of servers belonging to domain <b>%1</b> failed.</"
+#~ "p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Retrieving the list of shares from <b>%1</b> failed:</p><p><tt>%2</"
+#~ "tt></p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid "<p>Retrieving the list of shares from <b>%1</b> failed.</p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid "<p>Retrieving the preview of <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+#~ msgstr "取回預覽…"
+
+#, fuzzy
+#~ msgid "<p>Retrieving the preview of <b>%1</b> failed.</p>"
+#~ msgstr "取回預覽…"
+
+#, fuzzy
+#~ msgid "<p>Mounting the share <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>Mounting the share <b>%1</b> failed.</p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Unmounting the share <b>%1</b> from <b>%2</b> failed:</p><p><tt>%3</"
+#~ "tt></p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>Unmounting the share <b>%1</b> from <b>%2</b> failed.</p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>You are not allowed to unmount the share <b>%1</b> from <b>%2</b>. It "
+#~ "is owned by the user <b>%3</b>.</p>"
+#~ msgstr "您不允許卸載此共享。"
+
+#, fuzzy
+#~ msgid "<p>Printing on printer <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>Printing on printer <b>%1</b> failed.</p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Synchronizing <b>%1</b> with <b>%2</b> failed:</p><p><tt>%3</tt></p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>Synchronizing <b>%1</b> with <b>%2</b> failed.</p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Searching the network neighborhood for the search item <b>%1</b> "
+#~ "failed:</p><p><tt>%2</tt></p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Searching the network neighborhood for the search item <b>%1</b> "
+#~ "failed.</p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>The command <b>%1</b> could not be found. Please check your "
+#~ "installation.</p>"
+#~ msgstr "找不到命令 %1。"
+
+#, fuzzy
+#~ msgid "<p>The share <b>%1</b> is a printer and cannot be bookmarked.</p>"
+#~ msgstr "不能將印表機加入書籤！"
+
+#, fuzzy
+#~ msgid "<p>The file <b>%1</b> could not be found.</p>"
+#~ msgstr "找不到命令 %1。"
+
+#, fuzzy
+#~ msgid "<p>Opening the file <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>Opening the file <b>%1</b> failed.</p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>Reading from file <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>Reading from file <b>%1</b> failed.</p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "<p>The system call <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~| msgid "The permission was denied. "
+#~ msgid ""
+#~ "<p>Executing an action with root privileges failed (error code:<tt>%1</"
+#~ "tt>).</p>"
+#~ msgstr "權限不足"
+
+#, fuzzy
+#~ msgid "<p>Executing an action with root privileges failed.</p>"
+#~ msgstr "重試開啟主機…"
+
+#, fuzzy
+#~ msgid "<p>There are no broadcast areas defined.</p>"
+#~ msgstr "目錄 %1 無法建立。"
+
+#~ msgid "Preview"
+#~ msgstr "預覽"
+
+#, fuzzy
+#~ msgid "Reload"
+#~ msgstr "就緒。"
+
+#, fuzzy
+#~ msgid "Back"
+#~ msgstr "備份"
+
+#~ msgid "Up"
+#~ msgstr "向上"
+
+#~ msgid "Print File"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "動作"
+
+#~ msgid "Printer"
+#~ msgstr "印表機"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "檔案："
+
+#~ msgid "File:"
+#~ msgstr "檔案："
+
+#~ msgid "Copies:"
+#~ msgstr "份數："
+
+#~ msgid "Disk"
+#~ msgstr "磁碟"
+
+#, fuzzy
+#~| msgid "Synchronizing data..."
+#~ msgid "Synchronizing"
+#~ msgstr "同步資料…"
+
+#, fuzzy
+#~| msgid "Source:"
+#~ msgid "Source"
+#~ msgstr "來源："
+
+#, fuzzy
+#~| msgid "Destination:"
+#~ msgid "Destination"
+#~ msgstr "目的："
+
+#~ msgid "Swap Paths"
+#~ msgstr "交換路徑"
+
+#~ msgid "Swap source and destination"
+#~ msgstr "交換來源和目的"
+
+#~ msgid "Source:"
+#~ msgstr "來源："
+
+#~ msgid "Destination:"
+#~ msgstr "目的："
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Please enter a username and a password for the host <b>%1</b>.</qt>"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Please enter a username and a password for the share <b>%1</b>.</qt>"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid "Mount Dialog"
+#~ msgstr "掛載(&M)"
+
+#, fuzzy
+#~ msgid "Unmount All"
+#~ msgstr "全部卸載(&N)"
+
+#, fuzzy
+#~| msgid "Unmounting share..."
+#~ msgid "Retrying to mount shares. Please wait."
+#~ msgstr "正在卸載共享…"
+
+#, fuzzy
+#~| msgid "Use default network write size"
+#~ msgid "Use default security mode"
+#~ msgstr "使用預設網路寫入大小"
+
+#~ msgid "IP address:"
+#~ msgstr "IP 位址："
+
+#, fuzzy
+#~ msgid "Mount"
+#~ msgstr "掛載(&M)"
+
+#, fuzzy
+#~ msgid "<p>Some required programs could not be found:</p><p><tt>%1</tt></p>"
+#~ msgstr "目錄 %1 無法找到。"
+
+#~ msgid "Advanced"
+#~ msgstr "進階"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>Do you really want to force the unmounting of the share <b>%1</b> "
+#~ "from <b>%2</b>?</p></qt>"
+#~ msgstr "您真的要強制卸載此共享嗎？"
+
+#, fuzzy
+#~ msgid "Force Unmounting"
+#~ msgstr "强制卸載(&F)"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>Do you really want to force the unmounting of all inaccessible "
+#~ "shares?</p></qt>"
+#~ msgstr "您真的要強制卸載此共享嗎？"
+
+#, fuzzy
+#~ msgid ""
+#~ "\\u00A9 2003-2011 Alexander Reinholdt\n"
+#~ "\\u00A9 2004-2007 Massimo Callegari"
+#~ msgstr "(c) 2003-2006, Alexander Reinholdt & Smb4K 團隊"
+
+#, fuzzy
+#~ msgid "&Force Unmounting"
+#~ msgstr "强制卸載(&F)"
+
+#, fuzzy
+#~ msgid "<qt>Please enter a username and a password.</qt>"
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~| msgid "IP Address:"
+#~ msgid "UNC Address"
+#~ msgstr "IP 位址："
+
+#, fuzzy
+#~ msgid "User ID"
+#~ msgstr "使用者："
+
+#, fuzzy
+#~ msgid "SMB Port"
+#~ msgstr "遠端 SMB 連接埠："
+
+#, fuzzy
+#~ msgid "File System Port"
+#~ msgstr "檔案系統："
+
+#, fuzzy
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#, fuzzy
+#~ msgid "automatic"
+#~ msgstr "自動"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The format of the UNC address you entered is not correct. It must "
+#~ "have the form //[USER@]HOST/SHARE."
+#~ msgstr "共享路徑輸入錯誤，應遵循以下形式//HOST/SHARE。"
+
+#, fuzzy
+#~ msgid "M&ount Manually"
+#~ msgstr "手動掛載(M&)"
+
+#, fuzzy
+#~| msgid "Share:"
+#~ msgid "Share"
+#~ msgstr "共享："
+
+#~ msgid "Bookmark Editor"
+#~ msgstr "書籤編輯器"
+
+#~ msgid "Bookmark"
+#~ msgstr "書籤"
+
+#, fuzzy
+#~| msgid "Print File"
+#~ msgid "Printing"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~| msgid "Converting file to Postscript..."
+#~ msgid "Converting File to PostScript"
+#~ msgstr "轉換檔案為 Postscript…"
+
+#, fuzzy
+#~| msgid "Print File"
+#~ msgid "Input File"
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~| msgid "Restrictions"
+#~ msgid "Location"
+#~ msgstr "限制"
+
+#~ msgid "Files transferred:"
+#~ msgstr "已傳送的檔案："
+
+#~ msgid "Transfer rate:"
+#~ msgstr "轉送速率："
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgid "NoSuchAction"
+#~ msgstr "動作"
+
+#, fuzzy
+#~| msgid "The permission was denied. "
+#~ msgid ""
+#~ "<p>The execution of the unmount action failed (error code: <tt>%1</tt>).</"
+#~ "p>"
+#~ msgstr "權限不足"
+
+#, fuzzy
+#~| msgid "The permission was denied. "
+#~ msgid "The authentication action was denied."
+#~ msgstr "權限不足"
+
+#, fuzzy
+#~| msgid "The permission was denied. "
+#~ msgid "The authentication was denied."
+#~ msgstr "權限不足"
+
+#, fuzzy
+#~ msgid "The directory <b>%1</b> could not be created."
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~| msgid "Links"
+#~ msgid "List"
+#~ msgstr "鏈結"
+
+#, fuzzy
+#~ msgid "A system call failed."
+#~ msgstr "搜尋 %1 失敗。"
+
+#, fuzzy
+#~ msgid "\\u00A9 2007-2009, Alexander Reinholdt"
+#~ msgstr "(c) 2003-2006, Alexander Reinholdt & Smb4K 團隊"
+
+#~ msgid "Share:"
+#~ msgstr "共享："
+
+#, fuzzy
+#~ msgid "Free:"
+#~ msgstr "檔案："
+
+#, fuzzy
+#~ msgid "Used:"
+#~ msgstr "使用者："
+
+#, fuzzy
+#~ msgid "Usage:"
+#~ msgstr "使用者："
+
+#~ msgid "Pseudo master browser:"
+#~ msgstr "虛擬主伺服器："
+
+#~ msgid "Comment:"
+#~ msgstr "註解："
+
+#~ msgid "Server string:"
+#~ msgstr "伺服器字串："
+
+#~ msgid "Type:"
+#~ msgstr "類型："
+
+#, fuzzy
+#~| msgid "Italian translation"
+#~ msgid "Invalid action"
+#~ msgstr "義大利語翻譯"
+
+#, fuzzy
+#~ msgid "Smb4KSearchDialogPart"
+#~ msgstr "搜尋對話框"
+
+#~ msgid "Remove Entries"
+#~ msgstr "移除項目"
+
+#~ msgid "Super User"
+#~ msgstr "超級使用者"
+
+#, fuzzy
+#~ msgid "Writing to the <b>sudoers</b> file failed."
+#~ msgstr "列印檔案"
+
+#, fuzzy
+#~ msgid "(C) 2010, Alexander Reinholdt"
+#~ msgstr "(c) 2003-2006, Alexander Reinholdt & Smb4K 團隊"
+
+#, fuzzy
+#~| msgid "Try to authenticate with Kerberos"
+#~ msgid "Username to authenticate with"
+#~ msgstr "試圖使用 Kerberos 認證身分。"
+
+#, fuzzy
+#~ msgid "The UNC of the remote share"
+#~ msgstr "顯示 IP 位址"
+
+#, fuzzy
+#~ msgid "The mountpoint for the remote share"
+#~ msgstr "顯示掛載點，而非共享名稱。"
+
+#, fuzzy
+#~ msgid "Aborting."
+#~ msgstr "放棄中…"
+
+#, fuzzy
+#~| msgid "An error occurred."
+#~ msgid "An error occurred:"
+#~ msgstr "發生了錯誤。"
+
+#, fuzzy
+#~ msgid "(C) 2008-2010, Alexander Reinholdt"
+#~ msgstr "(c) 2003-2006, Alexander Reinholdt & Smb4K 團隊"
+
+#, fuzzy
+#~ msgid "The lock file could not be created."
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "The sudoers file is currently being edited."
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "The mountpoint of the share"
+#~ msgstr "顯示掛載點，而非共享名稱。"
+
+#~ msgid "Use super user privileges to mount and unmount shares"
+#~ msgstr "使用超級使用者權限掛載或卸載共享"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The name of your computer could not be determined by using the "
+#~ "gethostname() system call.</p><p>Detailed information cannot be provided "
+#~ "because there was no error message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The name of your computer could not be determined by using the "
+#~ "gethostname() system call.</p><p>Read the error message under \"Details\" "
+#~ "to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid "<qt>This feature has not been enabled.</qt>"
+#~ msgstr "此功能未被啟用。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while parsing the XML file \"%1\".</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while parsing the XML file \"%1\".</p><p>Read "
+#~ "the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An unknown error occurred.</p><p>Detailed information cannot be "
+#~ "provided because there was no error message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An unknown error occurred.</p><p>Read the error message under "
+#~ "\"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid "<qt>The file \"%1\" could not be found.</qt>"
+#~ msgstr "無法找到檔案 %1。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>Either your PATH environment variable is not set properly or there "
+#~ "are the following programs missing on your system:</p><p>%1</p><p>Please "
+#~ "correct this and restart Smb4K.</p></qt>"
+#~ msgstr ""
+#~ "若非您的路徑環境變數設定不正確，或是您的系統缺少下面的程式：\n"
+#~ " %1\n"
+#~ "請修正該錯誤並重新啟動 Smb4K。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while writing to the sudoers file.</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while writing to the sudoers file.</p><p>Read "
+#~ "the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The temporary file could not be created.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The temporary file could not be created.</p><p>Read the error "
+#~ "message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid "<qt>The file \"%1\" could not be opened.</qt>"
+#~ msgstr "檔案 %1 無法開啟。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The file \"%1\" could not be opened.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be unmounted.</p><p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be unmounted.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The file \"%1\" could not be printed.</p></p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The file \"%1\" could not be printed.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt></p>The synchronization could not be finished successfully.</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The synchronization could not be finished successfully.</p><p>Read "
+#~ "the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The search could not be finished successfully.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The search could not be finished successfully.</p><p>Read the "
+#~ "error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of registered IP addresses within the given broadcast "
+#~ "areas could not be retrieved.</p><p>Detailed information cannot be "
+#~ "provided because there was no error message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of registered IP addresses within the given broadcast "
+#~ "areas could not be retrieved.</p><p>Read the error message under \"Details"
+#~ "\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of servers could not be retrieved.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of servers could not be retrieved.</p><p>Read the error "
+#~ "message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of shares could not be retrieved.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of shares could not be retrieved.</p><p>Read the error "
+#~ "message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The preview could not be compiled.</p><p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The preview could not be compiled.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be mounted.</p><p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be mounted.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The share could not be unmounted, because the mount point string was "
+#~ "empty.</qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of mounted shares could not be imported.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of mounted shares could not be imported.</p><p>Read the "
+#~ "error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The list of arguments for the \"net\" command could not be assembled."
+#~ "</qt>"
+#~ msgstr "不能確定磁碟使用狀態。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of workgroups and domains could not be retrieved.</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of workgroups and domains could not be retrieved.</"
+#~ "p><p>Read the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>You previously chose to use \"%1\", but now it is missing on your "
+#~ "system. Smb4K will disable this feature.</qt>"
+#~ msgstr "您之前選擇使用 %1，但它在您現有系統上不存在。Smb4K 將關閉該功能。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The wallet \"%1\" could not be opened. KWallet support will be "
+#~ "disabled for this session.</qt>"
+#~ msgstr "開啟密碼包失敗！KWallet 的支援將停用。"
+
+#, fuzzy
+#~ msgid "System Tray"
+#~ msgstr "停駐在系統匣中"
+
+#, fuzzy
+#~ msgid "Main Window && System Tray"
+#~ msgstr "停駐在系統匣中"
+
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "無"
+
+#, fuzzy
+#~ msgid "on"
+#~ msgstr "無"
+
+#, fuzzy
+#~| msgid "Preview"
+#~ msgid "The preview"
+#~ msgstr "預覽"
+
+#, fuzzy
+#~ msgid "The source directory"
+#~ msgstr "備份目錄："
+
+#, fuzzy
+#~| msgid "Recurse into directories"
+#~ msgid "The destination directory"
+#~ msgstr "遞迴進入目錄"
+
+#, fuzzy
+#~| msgid "Keep partially transferred files"
+#~ msgid "The currently transferred file"
+#~ msgstr "保持部份已轉送的檔案"
+
+#, fuzzy
+#~ msgid "The progress of the current file transfer"
+#~ msgstr "刪除在轉送之後目的上的檔案"
+
+#, fuzzy
+#~ msgid "The workgroup where the host is located"
+#~ msgstr "目錄 %1 無法建立。"
+
+#, fuzzy
+#~ msgid "The UNC address of the host"
+#~ msgstr "顯示 IP 位址"
+
+#, fuzzy
+#~ msgid "The port used for communicating with servers"
+#~ msgstr "與伺服器通訊時使用萬國碼"
+
+#, fuzzy
+#~ msgid "The user ID"
+#~ msgstr "使用者："
+
+#, fuzzy
+#~| msgid "Show IP address"
+#~ msgid "The IPv4 or IPv6 address"
+#~ msgstr "顯示 IP 位址"
+
+#, fuzzy
+#~| msgid "Bookmark Editor"
+#~ msgid "Bookmark this share"
+#~ msgstr "書籤編輯器"
+
+#, fuzzy
+#~ msgid "Protocol:"
+#~ msgstr "協定提示"
+
+#, fuzzy
+#~ msgid "Try to authenticate with Kerberos (Active Directory)"
+#~ msgstr "試圖使用 Kerberos 認證身分。"
+
+#, fuzzy
+#~ msgid "Port"
+#~ msgstr "放棄(&A)"
+
+#, fuzzy
+#~ msgid "[Shares] The mount prefix is empty."
+#~ msgstr "掛載字首："
+
+#, fuzzy
+#~ msgid "[Samba] The file mask is empty."
+#~ msgstr "掛載字首："
+
+#, fuzzy
+#~ msgid "[Synchronization] The rsync prefix is empty."
+#~ msgstr "掛載字首："
+
+#, fuzzy
+#~ msgid "[Synchronization] The path of the exclude file is empty."
+#~ msgstr "放置部份已轉送的檔案進入"
+
+#, fuzzy
+#~ msgid "[Synchronization] The path of the include file is empty."
+#~ msgstr "放置部份已轉送的檔案進入"
+
+#, fuzzy
+#~ msgid "There are currently %1 shares mounted."
+#~ msgstr "目錄 %1 無法建立。"
+
+#~ msgid "Catalan translation"
+#~ msgstr "加泰羅尼亞語翻譯"
+
+#~ msgid "Polish translation"
+#~ msgstr "波蘭語翻譯"
+
+#~ msgid "Chinese Simplified translation"
+#~ msgstr "簡體中文翻譯"
+
+#~ msgid "Russian translation"
+#~ msgstr "俄語翻譯"
+
+#~ msgid "Swedish translation and intensive testing"
+#~ msgstr "瑞典語翻譯"
+
+#~ msgid "Brazilian Portuguese translation"
+#~ msgstr "巴西葡萄牙語翻譯"
+
+#~ msgid "Ukrainian translation"
+#~ msgstr "烏克蘭語翻譯"
+
+#~ msgid "Hungarian translation"
+#~ msgstr "匈牙利語翻譯"
+
+#~ msgid "Spanish translation"
+#~ msgstr "西班牙語翻譯"
+
+#~ msgid "Slovak translation"
+#~ msgstr "斯洛伐克語翻譯"
+
+#~ msgid "French translation"
+#~ msgstr "法語翻譯"
+
+#~ msgid "Japanese translation"
+#~ msgstr "日語翻譯"
+
+#~ msgid "Bulgarian translation"
+#~ msgstr "保加利亞語翻譯"
+
+#~ msgid "Norwegian translations"
+#~ msgstr "挪威語翻譯"
+
+#~ msgid "Czech translation"
+#~ msgstr "捷克語翻譯"
+
+#~ msgid "Turkish translation"
+#~ msgstr "土耳其語翻譯"
+
+#~ msgid "Chinese Traditional translation"
+#~ msgstr "繁體中文翻譯"
+
+#~ msgid "Icelandic translation"
+#~ msgstr "冰島語翻譯"
+
+#~ msgid "Danish translation"
+#~ msgstr "丹麥語翻譯"
+
+#~ msgid "Dutch translation"
+#~ msgstr "荷蘭語翻譯"
+
+#~ msgid "Testing of Smb4K under FreeBSD"
+#~ msgstr "FreeBSD 下的 Smb4k 測試"
+
+#~ msgid "Don't cross file system boundaries"
+#~ msgstr "不超越檔案系統邊界"
+
+#~ msgid "The access was denied. "
+#~ msgstr "存取被拒"
+
+#~ msgid "An authentication error occurred. "
+#~ msgstr "發生了驗證錯誤。"
+
+#~ msgid "The logon failed. "
+#~ msgstr "登錄失敗。"
+
+#, fuzzy
+#~ msgid "Please enter authentication data for server %1."
+#~ msgstr "請為 %1 輸入驗證資料。"
+
+#, fuzzy
+#~ msgid "Scan Network"
+#~ msgstr "掃描網路(&R)"
+
+#~ msgid "Samba Browser"
+#~ msgstr "Samba 瀏覽器"
+
+#~ msgid "Search Dialog"
+#~ msgstr "搜尋對話框"
+
+#~ msgid "You haven't specified a file."
+#~ msgstr "您尚未指定檔案。"
+
+#, fuzzy
+#~ msgid "Querying master browser for workgroups and domains..."
+#~ msgstr "查詢此主機以取回瀏覽清單："
+
+#, fuzzy
+#~ msgid "Scanning broadcast areas for workgroups and domains..."
+#~ msgstr "查詢此主機以取回瀏覽清單："
+
+#, fuzzy
+#~ msgid "Looking for workgroup members..."
+#~ msgstr "查詢此主機以取回瀏覽清單："
+
+#, fuzzy
+#~ msgid "Querying host for list of shares..."
+#~ msgstr "在嘗試取得共享列表時，發生錯誤。"
+
+#, fuzzy
+#~ msgid "Querying host for additional information..."
+#~ msgstr "取回資訊…"
+
+#, fuzzy
+#~ msgid "Generating preview..."
+#~ msgstr "取回預覽…"
+
+#, fuzzy
+#~ msgid "Searching..."
+#~ msgstr "搜尋網路…"
+
+#, fuzzy
+#~ msgid "Buffer size exceeded"
+#~ msgstr "緩衝區大小："
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Some file permissions could not be determined.\n"
+#~ "Detailed information cannot be provided because there was no error "
+#~ "message.</qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Some file permissions could not be determined.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The file \"%1\" is currently being edited by user %2. To avoid any "
+#~ "problems, access to this file is denied at the moment. Please try again "
+#~ "later.</qt>"
+#~ msgstr "使用者 %2 正在編輯檔案 %1。請稍後重試。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The temporary file \"%1\" could not be created.\n"
+#~ "Detailed information cannot be provided because there was no error "
+#~ "message.</qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The temporary file \"%1\" could not be created.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid "<qt>The directory \"%1\" could not be found.</qt>"
+#~ msgstr "目錄 %1 無法找到。"
+
+#, fuzzy
+#~ msgid "<qt>The file \"%1\" could not be closed.</qt>"
+#~ msgstr "檔案 %1 無法開啟。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The file \"%1\" could not be closed.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The list of supplementary group IDs could not be determined.</qt>"
+#~ msgstr "不能確定磁碟使用狀態。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The list of supplementary group IDs could not be determined.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#~ msgid "Use the following program to gain super user privileges:"
+#~ msgstr "使用下面的程式來取得超級使用者權限："
+
+#, fuzzy
+#~ msgid "super"
+#~ msgstr "使用者："
+
+#~ msgid "Programs"
+#~ msgstr "程式"
+
+#~ msgid "Network Browser"
+#~ msgstr "網路瀏覽器"
+
+#, fuzzy
+#~ msgid "Port:"
+#~ msgstr "印表機："
+
+#~ msgid "Caching time of directory listings:"
+#~ msgstr "快取目錄列表的時間："
+
+#, fuzzy
+#~ msgid "Use large file support"
+#~ msgstr "使用大型檔案系統支援"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>NOTE: You might need to enable support for either <i>sudo</i> or "
+#~ "<i>super</i> in the Super User page.</qt>"
+#~ msgstr ""
+#~ "注意：如果您選擇 CIFS 檔案系統，您也許需要在超級使用者分頁中，啟用"
+#~ "<i>super</i>或<i>sudo</i>的支援。"
+
+#, fuzzy
+#~ msgid "User && Group"
+#~ msgstr "使用者和群組"
+
+#, fuzzy
+#~ msgid "Charset && Codepage"
+#~ msgstr "字元集和編碼頁"
+
+#~ msgid "Permissions"
+#~ msgstr "權限"
+
+#, fuzzy
+#~ msgid "Allow dragging of shares"
+#~ msgstr "顯示印表機共享"
+
+#, fuzzy
+#~ msgid "Drag && Drop"
+#~ msgstr "使用者和群組"
+
+#, fuzzy
+#~ msgid "auto"
+#~ msgstr "自動"
+
+#, fuzzy
+#~ msgid "Open with &Konqueror"
+#~ msgstr "&Konqueror"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "繁體中文翻譯小組"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "zh-l10n@linux.org.tw"
+
+#, fuzzy
+#~ msgid "Remove &All"
+#~ msgstr "全部删除"
+
+#~ msgid ""
+#~ "Up to KDE 3.3.x, KIO and Konqueror cannot handle CIFS shares. Konqueror "
+#~ "will hang if you try to access it.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "至少到 KDE 3.3.1 為止，KIO 和 Konqueror 都不能處裡 CIFS 共享。\n"
+#~ "如果您試圖存取 CIFS 共享，Konqueror 將會當掉。您想繼續嗎？"
+
+#, fuzzy
+#~ msgid "Show the comment of a share"
+#~ msgstr "顯示隱藏的共享"
+
+#, fuzzy
+#~ msgid "Show the mount point of a share instead of its name"
+#~ msgstr "顯示掛載點，而非共享名稱。"
+
+#, fuzzy
+#~ msgid "Allow the dragging of share icons"
+#~ msgstr "顯示印表機共享"
+
+#, fuzzy
+#~ msgid "Show hidden files and directories when previewing a share"
+#~ msgstr "強制刪除非空目錄"
+
+#, fuzzy
+#~ msgid "Force the subdirectories created by Smb4K to be lowercase"
+#~ msgstr "强制產生的子目錄為小寫。"
+
+#, fuzzy
+#~ msgid "Allow the unmounting of shares owned by other users"
+#~ msgstr "允許卸載其它使用者所擁有的共享"
+
+#, fuzzy
+#~ msgid "The socket options"
+#~ msgstr "通訊端選項："
+
+#, fuzzy
+#~ msgid "The NetBIOS scope"
+#~ msgstr "NetBIOS 名稱："
+
+#, fuzzy
+#~ msgid "The remote SMB port"
+#~ msgstr "遠端 SMB 連接埠："
+
+#, fuzzy
+#~ msgid "Use machine account for login"
+#~ msgstr "使用預設登入"
+
+#, fuzzy
+#~ msgid "Long file support"
+#~ msgstr "使用大型檔案系統支援"
+
+#, fuzzy
+#~ msgid "Prefix for synchronization"
+#~ msgstr "預設目的"
+
+#, fuzzy
+#~ msgid "Use archive mode"
+#~ msgstr "歸檔模式"
+
+#, fuzzy
+#~ msgid "Skip files that are newer in the target directory"
+#~ msgstr "跳過在目標目錄中比較新的檔案"
+
+#, fuzzy
+#~ msgid "Don't send implied directories with --relative"
+#~ msgstr "不要藉由 -R 來發送隱含的目錄"
+
+#, fuzzy
+#~ msgid "Preserve owner (super user only)"
+#~ msgstr "保留擁有人(只有 root)"
+
+#, fuzzy
+#~ msgid "Also delete excluded files from destination directory"
+#~ msgstr "也刪除在目的上被排除的檔案"
+
+#, fuzzy
+#~ msgid "Don't transfer any file smaller than SIZE"
+#~ msgstr "不轉送任何檔案小於"
+
+#, fuzzy
+#~ msgid "The directory where to put a partially transferred file into."
+#~ msgstr "放置部份已轉送的檔案進入"
+
+#, fuzzy
+#~ msgid "Exclude files that match a certain pattern"
+#~ msgstr "排除符合此一式樣的檔案："
+
+#, fuzzy
+#~ msgid "Read exclude patterns from a file"
+#~ msgstr "讀取排除式樣來自"
+
+#, fuzzy
+#~ msgid "Do not exclude files matching a certain pattern"
+#~ msgstr "不排除符合此一式樣的檔案："
+
+#, fuzzy
+#~ msgid "Read include patterns from a file"
+#~ msgstr "讀取包含式樣來自"
+
+#, fuzzy
+#~ msgid "Use -FF filter rule"
+#~ msgstr "過濾器規則"
+
+#, fuzzy
+#~ msgid "Delay updates until the end of the transfer"
+#~ msgstr "刪除在轉送之後目的上的檔案"
+
+#, fuzzy
+#~ msgid "Force a fixed checksum block-size"
+#~ msgstr "強制固定的總和檢查碼區段大小："
+
+#, fuzzy
+#~ msgid "Set block/file checksum seed"
+#~ msgstr "設定區塊/檔案總和檢查碼種子："
+
+#, fuzzy
+#~ msgid "Skip files based on a checksum"
+#~ msgstr "基於總和檢查碼而跳過"
+
+#, fuzzy
+#~ msgid "The program that should be used to gain super user privileges"
+#~ msgstr "使用下面的程式來取得超級使用者權限："
+
+#, fuzzy
+#~ msgid "Use super user privileges to unmount inaccessible shares"
+#~ msgstr "使用超級使用者權限掛載或卸載共享"
+
+#, fuzzy
+#~ msgid ""
+#~ "The browse list could not be retrieved.\n"
+#~ "Read the error message under \"Details\" to find out more."
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid "The file \"%1\" could not be read."
+#~ msgstr "無法讀取檔案 %1。"
+
+#, fuzzy
+#~ msgid ""
+#~ "The file \"%1\" could not be read.\n"
+#~ "Read the error message under \"Details\" to find out more."
+#~ msgstr "無法卸載該共享！掛載點為空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "IP addresses are not supported with this search method. Please choose "
+#~ "\"Use nmblookup\" in the configuration dialog and try again."
+#~ msgstr ""
+#~ "您選擇的搜尋方法（smbclient）不能正確處理 IP 位址，請在設定對話框中選擇"
+#~ "「使用nmblookup」並重試。"
+
+#, fuzzy
+#~ msgid "Shares Vie&w"
+#~ msgstr "跳至共享檢視"
+
+#, fuzzy
+#~ msgid "List Vie&w"
+#~ msgstr "跳至共享檢視"
+
+#, fuzzy
+#~ msgid "Jump to shares view"
+#~ msgstr "跳至共享檢視"
+
+#, fuzzy
+#~ msgid "Jump to network browser"
+#~ msgstr "跳至網路瀏覽器"
+
+#, fuzzy
+#~ msgid "Jump to search dialog"
+#~ msgstr "跳至搜尋對話框"
+
+#~ msgid "Docking in System Tray"
+#~ msgstr "停駐在系統匣中"
+
+#~ msgid "Exiting..."
+#~ msgstr "離開中…"
+
+#, fuzzy
+#~ msgid "Querying current master browser..."
+#~ msgstr "查詢此主機以取回瀏覽清單："
+
+#, fuzzy
+#~ msgid "Querying master browser %1..."
+#~ msgstr "查詢此主機以取回瀏覽清單："
+
+#, fuzzy
+#~ msgid "Scanning broadcast areas..."
+#~ msgstr "廣播位址："
+
+#~ msgid "Opening workgroup..."
+#~ msgstr "開啟工作群組…"
+
+#, fuzzy
+#~ msgid "If no wallet is used, remember authentication data during run time"
+#~ msgstr "如果沒有使用密碼包，請在運行期間記住密碼"
+
+#~ msgid "Use default login"
+#~ msgstr "使用預設登入"
+
+#~ msgid "Show IPC$ shares"
+#~ msgstr "顯示 IPC$ 共享"
+
+#~ msgid "Show ADMIN$ shares"
+#~ msgstr "顯示 ADMIN$ 共享"
+
+#~ msgid "Show type"
+#~ msgstr "顯示類型"
+
+#~ msgid "Show tooltip with information about a network item"
+#~ msgstr "顯示附有關於網路項目資訊的工具提示"
+
+#~ msgid "Show tooltip with information about a share"
+#~ msgstr "顯示附有關於共享資訊的工具提示"
+
+#, fuzzy
+#~ msgid ""
+#~ "Smb4K uses \"nmblookup\" by default to search for remote hosts. This "
+#~ "method is very reliable but fails sometimes if your network neighborhood "
+#~ "is configured uncommonly. In this case you should try to use \"smbclient"
+#~ "\"."
+#~ msgstr ""
+#~ "Smb4K 預設使用<i>nmblookup</i>來進行網路搜尋。該方法非常可靠，當如果您的網"
+#~ "路芳鄰使用了非一般設定，可能導致其失敗；在這種情况下，您應嘗試使用"
+#~ "<i>smbclient</i>。"
+
+#~ msgid "Use nmblookup (recommended)"
+#~ msgstr "使用 nmblookup (建議)"
+
+#~ msgid "Rsync prefix:"
+#~ msgstr "Rsync 字首："
+
+#~ msgid "Skip files that are newer in target directory"
+#~ msgstr "跳過在目標目錄中比較新的檔案"
+
+#, fuzzy
+#~ msgid ""
+#~ "The rules defined below will be added to the \"rsync\" command as they "
+#~ "are. Thus, you have to start with the --filter=... argument."
+#~ msgstr ""
+#~ "以上定義的規則將會以其原貌加入至<i>rsync</i>命令。因而，您必須以 '--"
+#~ "filter =' 引數啟動。您應該也要先閱讀 rsync 的線上手冊。"
+
+#, fuzzy
+#~ msgid ""
+#~ "NOTE: You might need to enable support for either \"super\" or \"sudo\" "
+#~ "in the Super User page."
+#~ msgstr ""
+#~ "注意：如果您選擇 CIFS 檔案系統，您也許需要在超級使用者分頁中，啟用"
+#~ "<i>super</i>或<i>sudo</i>的支援。"
+
+#, fuzzy
+#~ msgid "Use large file system support"
+#~ msgstr "使用大型檔案系統支援"
+
+#, fuzzy
+#~ msgid "Custom"
+#~ msgstr "自動"
+
+#, fuzzy
+#~ msgid "Querying %1..."
+#~ msgstr "搜尋網路…"
+
+#, fuzzy
+#~ msgid "Retrieving browse list from current master browser..."
+#~ msgstr "取回預覽…"
+
+#, fuzzy
+#~ msgid "Querying %1 to compose browse list..."
+#~ msgstr "查詢此主機以取回瀏覽清單："
+
+#, fuzzy
+#~ msgid "Scanning network to retrieve browse list..."
+#~ msgstr "掃描網路以取得瀏覽列表。"
+
+#~ msgid "Show shares as list instead of as icons"
+#~ msgstr "將共享顯示為列表，而非圖示。"
+
+#~ msgid ""
+#~ "Smb4K is an SMB/CIFS share browser for KDE.\n"
+#~ "It uses Samba to access the local network neighborhood."
+#~ msgstr ""
+#~ "Smb4K 是一個用於 KDE 的 SMB/CIFS 共享瀏覽器。\n"
+#~ "它使用 Samba 存取本地網路芳鄰。"
+
+#, fuzzy
+#~ msgid "0 / 0"
+#~ msgstr "0 之 0"
+
+#, fuzzy
+#~ msgid "Scan netwo&rk"
+#~ msgstr "掃描網路(&R)"
+
+#, fuzzy
+#~ msgid "&Custom options"
+#~ msgstr "Samba 選項"
+
+#, fuzzy
+#~ msgid "Broadcast addresses for IP scan:"
+#~ msgstr "廣播位址："
+
+#, fuzzy
+#~ msgid ""
+#~ "Smb4K uses <i>nmblookup</i> by default to do network searches. This "
+#~ "method is very reliable but fails sometimes if your network neighborhood "
+#~ "is configured uncommonly. In this case you should try to use "
+#~ "<i>smbclient</i>."
+#~ msgstr ""
+#~ "Smb4K 預設使用<i>nmblookup</i>來進行網路搜尋。該方法非常可靠，當如果您的網"
+#~ "路芳鄰使用了非一般設定，可能導致其失敗；在這種情况下，您應嘗試使用"
+#~ "<i>smbclient</i>。"
+
+#~ msgid ""
+#~ "Use super user privileges to force the unmounting of (broken) shares\n"
+#~ "(Requires Linux kernel 2.4.11 or later)"
+#~ msgstr ""
+#~ "使用超級使用者權限强制卸載已不存在(斷線)的共享。\n"
+#~ "(需要 Linux kernel 2.4.11 或更高版本。)"
+
+#~ msgid "Samba Options"
+#~ msgstr "Samba 選項"
+
+#~ msgid "Super User Privileges"
+#~ msgstr "超級使用者特權"
+
+#~ msgid ""
+#~ "You forgot to enter the host you want to query to retrieve the browse "
+#~ "list.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您還没有輸入要查詢的瀏覽列表主機名稱。\n"
+#~ "您要現在輸入它嗎？"
+
+#, fuzzy
+#~ msgid ""
+#~ "You forgot to enter the broadcast address(es) for the IP scan.\n"
+#~ "Do you want to enter them now?"
+#~ msgstr ""
+#~ "您還没有輸入預設密碼。\n"
+#~ "您現在要輸入嗎？"
+
+#, fuzzy
+#~ msgid ""
+#~ "You forgot to enter the mount prefix.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您還没有輸入預設的登入帳號。\n"
+#~ "您現在要輸入嗎？"
+
+#~ msgid "Use relative path names (-R)"
+#~ msgstr "使用相對路徑名稱(-R)"
+
+#, fuzzy
+#~ msgid "Don't send implied directories with -R"
+#~ msgstr "不要藉由 -R 來發送隱含的目錄"
+
+#~ msgid "Only transform unsafe links"
+#~ msgstr "只有變換不安全的鏈結"
+
+#~ msgid "Ignore symlinks that point outside the tree"
+#~ msgstr "忽略指到樹狀圖以外的符號連結"
+
+#~ msgid "Preserve owner (root only)"
+#~ msgstr "保留擁有人(只有 root)"
+
+#~ msgid "Preserve devices (root only)"
+#~ msgstr "保留裝置(只有 root)"
+
+#~ msgid "Remove sent files/symlinks from source"
+#~ msgstr "從來源移除已發送的檔案/符號連結"
+
+#~ msgid "Delete files that don't exist in source"
+#~ msgstr "刪除在來源中不存在的檔案"
+
+#~ msgid "Delete files on destination before transfer"
+#~ msgstr "刪除在轉送之前目的上的檔案"
+
+#~ msgid "Delete files on destination after transfer"
+#~ msgstr "刪除在轉送之後目的上的檔案"
+
+#~ msgid "Delete files on destination during transfer"
+#~ msgstr "刪除在轉送期間目的上的檔案"
+
+#, fuzzy
+#~ msgid "Also delete excluded files on destination"
+#~ msgstr "也刪除在目的上被排除的檔案"
+
+#, fuzzy
+#~ msgid "Don't transfer any file smaller than"
+#~ msgstr "不轉送任何檔案小於"
+
+#, fuzzy
+#~ msgid "Don't transfer any file larger than"
+#~ msgstr "不轉送任何檔案大於"
+
+#, fuzzy
+#~ msgid "Put a partially transferred file into"
+#~ msgstr "放置部份已轉送的檔案進入"
+
+#, fuzzy
+#~ msgid "Read exclude patterns from"
+#~ msgstr "讀取排除式樣來自"
+
+#, fuzzy
+#~ msgid "Read include patterns from"
+#~ msgstr "讀取包含式樣來自"
+
+#, fuzzy
+#~ msgid ""
+#~ "The rules defined above will be added to the <i>rsync</i> command as they "
+#~ "are. Thus, you have to start with the '--filter=' argument. You should "
+#~ "also read rsync's manual page first."
+#~ msgstr ""
+#~ "以上定義的規則將會以其原貌加入至<i>rsync</i>命令。因而，您必須以 '--"
+#~ "filter =' 引數啟動。您應該也要先閱讀 rsync 的線上手冊。"
+
+#~ msgid "Use \"--filter=': /.rsync-filter'\" filter rule"
+#~ msgstr "使用「--filter =':/.rsync-filter'」過濾器規則"
+
+#, fuzzy
+#~ msgid "Use \"--filter='- .rsync-filter'\" filter rule"
+#~ msgstr "使用「--filter =':/.rsync-filter'」過濾器規則"
+
+#~ msgid "Put all updated files into place at end"
+#~ msgstr "放置所有更新的檔案進入結束位置"
+
+#~ msgid "Skip based on checksum"
+#~ msgstr "基於總和檢查碼而跳過"
+
+#~ msgid "Domain (workgroup):"
+#~ msgstr "網域(工作群組)："
+
+#~ msgid "Scope (Read manual page):"
+#~ msgstr "範圍 (讀取線上手冊)："
+
+#~ msgid "Active Directory"
+#~ msgstr "作用中目錄"
+
+#, fuzzy
+#~ msgid "Linux charset:"
+#~ msgstr "Linux 字元集："
+
+#, fuzzy
+#~ msgid "Use unicode when communicating with the server"
+#~ msgstr "與伺服器通訊時使用萬國碼"
+
+#~ msgid "Use default network read size"
+#~ msgstr "使用預設網路讀取大小"
+
+#~ msgid "Auto"
+#~ msgstr "自動"
+
+#, fuzzy
+#~ msgid "Active Directory (LDAP/Kerberos)"
+#~ msgstr "作用中目錄 (LDAP/Kerberos)"
+
+#~ msgid "DCE-RPC"
+#~ msgstr "DCE-RPC"
+
+#~ msgid "RAP (older systems)"
+#~ msgstr "RAP (舊的系統)"
+
+#, fuzzy
+#~ msgid "Resolve order:"
+#~ msgstr "取消序列："
+
+#, fuzzy
+#~ msgid ""
+#~ "The lock file '%1' is a symbolic link.\n"
+#~ "It looks like someone is trying to exploit your system. Please inform "
+#~ "your system administrator. Smb4K will not perform any action on a system "
+#~ "file as long as this problem is not solved."
+#~ msgstr ""
+#~ "鎖定檔案 (%1) 為符號連結。由於這也許暗示某個人試著要剝削您的系統，請通報您"
+#~ "的系統管理員。沒有實施任何動作。"
+
+#, fuzzy
+#~ msgid "The user IDs present on the system"
+#~ msgstr "顯示掛載於系統上的全部共享。"
+
+#~ msgid "This login will be used, if none has been defined for a share."
+#~ msgstr "如果没有設定共享，將使用它來登錄。"
+
+#~ msgid ""
+#~ "You forgot to enter the default login and password.\n"
+#~ "Do you want to enter them now?"
+#~ msgstr ""
+#~ "您還没有輸入預設的登入帳號和密碼。\n"
+#~ "您現在要輸入嗎？"
+
+#~ msgid ""
+#~ "You forgot to enter the default login.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您還没有輸入預設的登入帳號。\n"
+#~ "您現在要輸入嗎？"
+
+#~ msgid ""
+#~ "You forgot to enter the default password.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您還没有輸入預設密碼。\n"
+#~ "您現在要輸入嗎？"
+
+#~ msgid "Printer:"
+#~ msgstr "印表機："
+
+#~ msgid "Copies"
+#~ msgstr "份數"
+
+#~ msgid "Preparing Synchronization ..."
+#~ msgstr "準備同步化…"
+
+#, fuzzy
+#~ msgid "Preserve device files (super user only)"
+#~ msgstr "保留裝置(只有 root)"
+
+#~ msgid "Smb4K - The SMB/CIFS Share Browser"
+#~ msgstr "Smb4K- SMB/CIFS 共享瀏覽器"
+
+#, fuzzy
+#~ msgid "Jump to Search Dialog (Alternative)"
+#~ msgstr "跳至搜尋對話框"
+
+#~ msgid "Browse list retrieval"
+#~ msgstr "瀏覽取得的列表"
+
+#~ msgid "Version"
+#~ msgstr "版本"
+
+#~ msgid "Master"
+#~ msgstr "主伺服器"
+
+#~ msgid "Mounted &Shares"
+#~ msgstr "掛載的共享(&S)"
+
+#, fuzzy
+#~ msgid "The kernel (%1) does not support this operation."
+#~ msgstr "您的內核 (%1) 不支援此操作。"
+
+#~ msgid "This share went offline!"
+#~ msgstr "此共享已離線！"
+
+#, fuzzy
+#~ msgid ""
+#~ "You forgot to enter the IP address ranges you want to scan to retrieve "
+#~ "the browse list.\n"
+#~ "Do you want to enter them now?"
+#~ msgstr ""
+#~ "您還没有輸入要查詢的瀏覽列表主機名稱。\n"
+#~ "您要現在輸入它嗎？"
+
+#~ msgid "Set the UID to:"
+#~ msgstr "設定 UID 為："
+
+#~ msgid "Set the GID to:"
+#~ msgstr "設定 GID 為："
+
+#~ msgid "An error occurred while trying to get the list of workgroup members."
+#~ msgstr "在嘗試取得工作群組成員列表時，發生錯誤。"
+
+#~ msgid "An error occurred while trying to get the preview."
+#~ msgstr "在嘗試預覽時，發生錯誤。"
+
+#~ msgid "An error occurred while trying to mount the share."
+#~ msgstr "在嘗試掛載共享時，發生錯誤。"
+
+#~ msgid "An error occurred while trying to unmount the share."
+#~ msgstr "在嘗試卸載共享時，發生錯誤。"
+
+#~ msgid "An error occurred while trying to unmount all shares."
+#~ msgstr "在嘗試卸載全部共享時，發生錯誤。"
+
+#~ msgid "The hostname could not be determined."
+#~ msgstr "無法確定主機名稱。"
+
+#~ msgid "The file %1 could not be written successfully."
+#~ msgstr "不能成功寫入檔案 %1。"
+
+#~ msgid "An error occurred while trying to print."
+#~ msgstr "在嘗試列印時，發生錯誤。"
+
+#~ msgid "An error occurred while trying to create a temporary directory."
+#~ msgstr "在嘗試建立暫存目錄時，發生錯誤。"
+
+#~ msgid "An error occurred while trying to create a temporary file."
+#~ msgstr "在嘗試建立暫存檔案時，發生錯誤。"
+
+#~ msgid "An error occurred while determining file permissions."
+#~ msgstr "決定檔案權限時，發生錯誤。"
+
+#~ msgid "An error occurred during synchronization."
+#~ msgstr "同步化時，發生錯誤。"
+
+#~ msgid "Workgroup/Domain"
+#~ msgstr "工作群組/網域"
+
+#~ msgid ""
+#~ "You forgot to enter the path where Smb4K will mount the shares to.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您還没有輸入將 Smb4K 的共享掛載到什麼路徑下。\n"
+#~ "您要現在輸入嗎？"
+
+#~ msgid "Mount shares:"
+#~ msgstr "掛載共享："
