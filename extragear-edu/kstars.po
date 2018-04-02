@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-29 03:19+0200\n"
+"POT-Creation-Date: 2018-04-02 03:20+0200\n"
 "PO-Revision-Date: 2018-03-29 13:29+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -16548,45 +16548,45 @@ msgstr "不支援 %1 影像深度。"
 msgid "Image has invalid dimensions %1x%2"
 msgstr "影像的尺寸 %1x%2 不正確"
 
-#: fitsviewer/fitsdata.cpp:282 fitsviewer/fitsdata.cpp:3183
+#: fitsviewer/fitsdata.cpp:282 fitsviewer/fitsdata.cpp:3167
 #, kde-format
 msgid "Error reading image: %1"
 msgstr "讀取影像發生錯誤：%1"
 
-#: fitsviewer/fitsdata.cpp:2220 fitsviewer/fitsdata.cpp:2227
-#: fitsviewer/fitsdata.cpp:2284 fitsviewer/fitsdata.cpp:2291
-#: fitsviewer/fitsdata.cpp:2356 fitsviewer/fitsdata.cpp:2393
+#: fitsviewer/fitsdata.cpp:2204 fitsviewer/fitsdata.cpp:2211
+#: fitsviewer/fitsdata.cpp:2268 fitsviewer/fitsdata.cpp:2275
+#: fitsviewer/fitsdata.cpp:2340 fitsviewer/fitsdata.cpp:2377
 #, fuzzy, kde-format
 #| msgid "Use horizontal coordinate system?"
 msgid "No world coordinate systems found."
 msgstr "要使用水平座標系統嗎？"
 
-#: fitsviewer/fitsdata.cpp:3126
+#: fitsviewer/fitsdata.cpp:3110
 #, kde-format
 msgid "Only 8 and 16 bits bayered images supported."
 msgstr "只支援 8 或 16 位元的 debayered 影像。"
 
-#: fitsviewer/fitsdata.cpp:3126 fitsviewer/fitsdata.cpp:3143
-#: fitsviewer/fitsdata.cpp:3183 fitsviewer/fitsdata.cpp:3212
-#: fitsviewer/fitsdata.cpp:3235 fitsviewer/fitsdata.cpp:3249
-#: fitsviewer/fitsdata.cpp:3286 fitsviewer/fitsdata.cpp:3309
-#: fitsviewer/fitsdata.cpp:3323
+#: fitsviewer/fitsdata.cpp:3110 fitsviewer/fitsdata.cpp:3127
+#: fitsviewer/fitsdata.cpp:3167 fitsviewer/fitsdata.cpp:3196
+#: fitsviewer/fitsdata.cpp:3219 fitsviewer/fitsdata.cpp:3233
+#: fitsviewer/fitsdata.cpp:3270 fitsviewer/fitsdata.cpp:3293
+#: fitsviewer/fitsdata.cpp:3307
 #, kde-format
 msgid "Debayer error"
 msgstr "Debayer 錯誤"
 
-#: fitsviewer/fitsdata.cpp:3143
+#: fitsviewer/fitsdata.cpp:3127
 #, kde-format
 msgid "Unsupported bayer pattern %1."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3212 fitsviewer/fitsdata.cpp:3249
-#: fitsviewer/fitsdata.cpp:3286 fitsviewer/fitsdata.cpp:3323
+#: fitsviewer/fitsdata.cpp:3196 fitsviewer/fitsdata.cpp:3233
+#: fitsviewer/fitsdata.cpp:3270 fitsviewer/fitsdata.cpp:3307
 #, kde-format
 msgid "Unable to allocate memory for temporary bayer buffer."
 msgstr "無法為 bayer 暫存緩衝區配置記憶體。"
 
-#: fitsviewer/fitsdata.cpp:3235 fitsviewer/fitsdata.cpp:3309
+#: fitsviewer/fitsdata.cpp:3219 fitsviewer/fitsdata.cpp:3293
 #, kde-format
 msgid "Debayer failed (%1)"
 msgstr "Debayer 錯誤(%1)"
