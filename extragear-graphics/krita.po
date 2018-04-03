@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-01 03:28+0200\n"
+"POT-Creation-Date: 2018-04-03 03:26+0200\n"
 "PO-Revision-Date: 2018-01-04 20:03+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -7389,6 +7389,7 @@ msgstr "改變參數"
 
 #: libs/flake/commands/KoParameterToPathCommand.cpp:44
 #: libs/flake/commands/KoParameterToPathCommand.cpp:53
+#: libs/flake/tools/KoPathTool.cpp:390
 #: plugins/flake/artistictextshape/ArtisticTextTool.cpp:610
 msgctxt "(qtundo-format)"
 msgid "Convert to Path"
@@ -7719,7 +7720,7 @@ msgstr "使用工具：%1"
 msgid "Embedded svg shape"
 msgstr "嵌入式 svg 物件"
 
-#: libs/flake/text/KoSvgTextShape.cpp:492
+#: libs/flake/text/KoSvgTextShape.cpp:567
 #: plugins/flake/textshape/TextShapeFactory.cpp:44
 #: plugins/flake/textshape/TextShapeFactory.cpp:54
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:62
@@ -7728,13 +7729,13 @@ msgstr "嵌入式 svg 物件"
 msgid "Text"
 msgstr "文字"
 
-#: libs/flake/text/KoSvgTextShape.cpp:494
-#: libs/flake/text/KoSvgTextShape.cpp:502
+#: libs/flake/text/KoSvgTextShape.cpp:569
+#: libs/flake/text/KoSvgTextShape.cpp:577
 #, kde-format
 msgid "SVG Text Shape"
 msgstr "SVG 文字物件"
 
-#: libs/flake/text/KoSvgTextShape.cpp:500
+#: libs/flake/text/KoSvgTextShape.cpp:575
 #, kde-format
 msgid "SVG Text"
 msgstr "SVG 文字"
@@ -7770,37 +7771,37 @@ msgctxt "(qtundo-format)"
 msgid "Change Segment"
 msgstr "變更段落"
 
-#: libs/flake/tools/KoPathTool.cpp:211
+#: libs/flake/tools/KoPathTool.cpp:214
 #, kde-format
 msgid "Edit Shape"
 msgstr "編輯物件"
 
-#: libs/flake/tools/KoPathTool.cpp:624
+#: libs/flake/tools/KoPathTool.cpp:673
 #, kde-format
 msgid "Drag to move handle."
 msgstr "拖曳以移動把手。"
 
-#: libs/flake/tools/KoPathTool.cpp:688
+#: libs/flake/tools/KoPathTool.cpp:737
 #, kde-format
 msgid "Drag to move point. Shift click to change point type."
 msgstr "拖曳以移動點。按住 Shift 再點擊可以改變點的型態。"
 
-#: libs/flake/tools/KoPathTool.cpp:690
+#: libs/flake/tools/KoPathTool.cpp:739
 #, kde-format
 msgid "Drag to move control point."
 msgstr "拖曳以移動控制點。"
 
-#: libs/flake/tools/KoPathTool.cpp:718
+#: libs/flake/tools/KoPathTool.cpp:767
 #, kde-format
 msgid "Drag to change curve directly. Double click to insert new path point."
 msgstr "拖動改變曲線。雙擊插入新的路徑點。"
 
-#: libs/flake/tools/KoPathTool.cpp:726
+#: libs/flake/tools/KoPathTool.cpp:775
 #, kde-format
 msgid "Press B to break path at selected point."
 msgstr "按下 B 中斷路徑於選取的點。"
 
-#: libs/flake/tools/KoPathTool.cpp:728
+#: libs/flake/tools/KoPathTool.cpp:777
 #, kde-format
 msgid "Press B to break path at selected segments."
 msgstr "按下 B 中斷路徑於選取的線段。"
@@ -15348,7 +15349,7 @@ msgstr "流動："
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #: libs/ui/kis_paintop_box.cc:246 libs/ui/kis_paintop_box.cc:251
 #: plugins/filters/halftone/wdg_halftone_filter.ui:42
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:188
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:205
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1930
 #, kde-format
 msgid "Size:"
@@ -15688,7 +15689,7 @@ msgid "Ants"
 msgstr "螞蟻"
 
 #: libs/ui/kis_statusbar.cc:355
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:337
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:339
 #, kde-format
 msgid "Mask"
 msgstr "遮罩"
@@ -19870,7 +19871,7 @@ msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: libs/widgets/KoToolBoxDocker.cpp:29
+#: libs/widgets/KoToolBoxDocker.cpp:32
 #, kde-format
 msgid "Toolbox"
 msgstr "工具箱"
@@ -24826,7 +24827,7 @@ msgid "List"
 msgstr "清單"
 
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:59
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:335
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:337
 #, kde-format
 msgid "Invalid"
 msgstr "不合法"
@@ -26053,7 +26054,7 @@ msgstr "半徑："
 #. i18n: ectx: property (text), widget (QLabel, axisRotationLabel)
 #: plugins/filters/blur/wdg_lens_blur.ui:102
 #: plugins/filters/blur/wdg_lens_blur.ui:124
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:164
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:191
 #: plugins/tools/basictools/wdgmultihandtool.ui:118
 #, kde-format
 msgid "Rotation:"
@@ -29460,7 +29461,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:110
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:96
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:81
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:171
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:198
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:148
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:32
 #: plugins/paintops/spray/wdgsprayoptions.ui:138
@@ -33274,17 +33275,24 @@ msgstr "目前筆刷提示"
 msgid "Brush Details"
 msgstr "筆刷細節"
 
+#. i18n: ectx: property (text), widget (QPushButton, resetBrushButton)
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:164
+#, kde-format
+msgid "Reset Predefined Tip"
+msgstr "重設預先定義的筆尖"
+
 #. i18n: ectx: property (text), widget (QCheckBox, useColorAsMaskCheckbox)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:215
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:212
 #, kde-format
 msgid "Use Color as Mask"
 msgstr "使用顏色作為遮罩"
 
-#. i18n: ectx: property (text), widget (QPushButton, resetBrushButton)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:222
-#, kde-format
-msgid "Reset Predefined Tip"
-msgstr "重設預先定義的筆尖"
+#. i18n: ectx: property (text), widget (QCheckBox, preserveBrushPresetSettings)
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:229
+#, fuzzy, kde-format
+#| msgid "Save Brush Preset"
+msgid "Preserve Brush Preset Settings"
+msgstr "保存筆刷預設"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:25
@@ -33402,17 +33410,17 @@ msgstr ""
 "將縮放設定為 1.0\n"
 "將旋轉設定為 0.0"
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:339
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:341
 #, fuzzy, kde-format
 msgid "GBR"
 msgstr "RGB"
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:341
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:343
 #, kde-format
 msgid "Animated Mask"
 msgstr "動畫遮罩"
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:350
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:352
 #, kde-format
 msgid "Animated Image"
 msgstr "動畫影像"

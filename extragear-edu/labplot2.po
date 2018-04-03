@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-01 03:27+0200\n"
+"POT-Creation-Date: 2018-04-03 03:25+0200\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -42,9 +42,9 @@ msgstr "專案屬性"
 #: src/backend/datapicker/DatapickerCurve.cpp:528
 #: src/backend/datapicker/DatapickerImage.cpp:553
 #: src/backend/datapicker/DatapickerPoint.cpp:470
-#: src/backend/datasources/filters/AsciiFilter.cpp:1428
+#: src/backend/datasources/filters/AsciiFilter.cpp:1464
 #: src/backend/datasources/filters/BinaryFilter.cpp:560
-#: src/backend/datasources/LiveDataSource.cpp:899
+#: src/backend/datasources/LiveDataSource.cpp:903
 #: src/backend/matrix/Matrix.cpp:1043 src/backend/note/Note.cpp:153
 #: src/backend/worksheet/plots/cartesian/Axis.cpp:2004
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:2538
@@ -84,7 +84,7 @@ msgstr ""
 #: src/backend/datapicker/DatapickerCurve.cpp:630
 #: src/backend/datapicker/DatapickerImage.cpp:815
 #: src/backend/datapicker/DatapickerPoint.cpp:549
-#: src/backend/datasources/LiveDataSource.cpp:1025
+#: src/backend/datasources/LiveDataSource.cpp:1029
 #: src/backend/matrix/Matrix.cpp:1185
 #: src/backend/spreadsheet/Spreadsheet.cpp:741
 #: src/backend/worksheet/plots/cartesian/Axis.cpp:2277
@@ -973,7 +973,7 @@ msgstr ""
 msgid "%1: draw points over segment"
 msgstr ""
 
-#: src/backend/datasources/filters/AsciiFilter.cpp:1424
+#: src/backend/datasources/filters/AsciiFilter.cpp:1460
 #, kde-format
 msgid "no ascii filter element found"
 msgstr ""
@@ -1280,166 +1280,166 @@ msgstr ""
 msgid "Flexible Image Transport System Data Format (FITS)"
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:668
 #: src/backend/datasources/LiveDataSource.cpp:672
 #: src/backend/datasources/LiveDataSource.cpp:676
 #: src/backend/datasources/LiveDataSource.cpp:680
 #: src/backend/datasources/LiveDataSource.cpp:684
 #: src/backend/datasources/LiveDataSource.cpp:688
 #: src/backend/datasources/LiveDataSource.cpp:692
-#: src/backend/datasources/LiveDataSource.cpp:704
+#: src/backend/datasources/LiveDataSource.cpp:696
+#: src/backend/datasources/LiveDataSource.cpp:708
 #, kde-format
 msgid "Serial Port Error"
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:669
+#: src/backend/datasources/LiveDataSource.cpp:673
 #, fuzzy, kde-format
 #| msgid "Failed to open"
 msgid "Failed to open the device."
 msgstr "開啟失敗"
 
-#: src/backend/datasources/LiveDataSource.cpp:673
+#: src/backend/datasources/LiveDataSource.cpp:677
 #, kde-format
 msgid ""
 "Failed to open the device. Please check your permissions on this device."
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:677
+#: src/backend/datasources/LiveDataSource.cpp:681
 #, fuzzy, kde-format
 msgid "Device already opened."
 msgstr "無法開啟檔案 %1 以讀取"
 
-#: src/backend/datasources/LiveDataSource.cpp:681
+#: src/backend/datasources/LiveDataSource.cpp:685
 #, kde-format
 msgid "The device is not opened."
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:685
+#: src/backend/datasources/LiveDataSource.cpp:689
 #, fuzzy, kde-format
 #| msgid "Failed to open"
 msgid "Failed to read data."
 msgstr "開啟失敗"
 
-#: src/backend/datasources/LiveDataSource.cpp:689
+#: src/backend/datasources/LiveDataSource.cpp:693
 #, kde-format
 msgid "Failed to read data. The device is removed."
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:693
+#: src/backend/datasources/LiveDataSource.cpp:697
 #, kde-format
 msgid "The device timed out."
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:705
+#: src/backend/datasources/LiveDataSource.cpp:709
 #, kde-format
 msgid "The following error occurred: %1."
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:766
-#: src/backend/datasources/LiveDataSource.cpp:767
-#: src/backend/datasources/LiveDataSource.cpp:768
+#: src/backend/datasources/LiveDataSource.cpp:770
+#: src/backend/datasources/LiveDataSource.cpp:771
+#: src/backend/datasources/LiveDataSource.cpp:772
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:463
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:467
 #, kde-format
 msgid "no"
 msgstr "否"
 
-#: src/backend/datasources/LiveDataSource.cpp:766
-#: src/backend/datasources/LiveDataSource.cpp:767
-#: src/backend/datasources/LiveDataSource.cpp:768
+#: src/backend/datasources/LiveDataSource.cpp:770
+#: src/backend/datasources/LiveDataSource.cpp:771
+#: src/backend/datasources/LiveDataSource.cpp:772
 #, fuzzy, kde-format
 msgid "yes"
 msgstr "是"
 
-#: src/backend/datasources/LiveDataSource.cpp:766
+#: src/backend/datasources/LiveDataSource.cpp:770
 #, fuzzy, kde-format
 msgid "Readable: %1"
 msgstr "可讀取："
 
-#: src/backend/datasources/LiveDataSource.cpp:767
+#: src/backend/datasources/LiveDataSource.cpp:771
 #, fuzzy, kde-format
 msgid "Writable: %1"
 msgstr "可寫入："
 
-#: src/backend/datasources/LiveDataSource.cpp:768
+#: src/backend/datasources/LiveDataSource.cpp:772
 #, fuzzy, kde-format
 msgid "Executable: %1"
 msgstr "執行檔："
 
-#: src/backend/datasources/LiveDataSource.cpp:770
+#: src/backend/datasources/LiveDataSource.cpp:774
 #, kde-format
 msgid "Created: %1"
 msgstr "建立時間：%1"
 
-#: src/backend/datasources/LiveDataSource.cpp:771
+#: src/backend/datasources/LiveDataSource.cpp:775
 #, kde-format
 msgid "Last modified: %1"
 msgstr "最後變更：%1"
 
-#: src/backend/datasources/LiveDataSource.cpp:772
+#: src/backend/datasources/LiveDataSource.cpp:776
 #, kde-format
 msgid "Last read: %1"
 msgstr ""
 
-#: src/backend/datasources/LiveDataSource.cpp:773
+#: src/backend/datasources/LiveDataSource.cpp:777
 #, kde-format
 msgid "Owner: %1"
 msgstr "擁有者：%1"
 
-#: src/backend/datasources/LiveDataSource.cpp:774
+#: src/backend/datasources/LiveDataSource.cpp:778
 #, kde-format
 msgid "Group: %1"
 msgstr "群組：%1"
 
-#: src/backend/datasources/LiveDataSource.cpp:775
+#: src/backend/datasources/LiveDataSource.cpp:779
 #, kde-format
 msgid "%1 cByte"
 msgid_plural "%1 cBytes"
 msgstr[0] ""
 
-#: src/backend/datasources/LiveDataSource.cpp:775
+#: src/backend/datasources/LiveDataSource.cpp:779
 #, fuzzy, kde-format
 msgid "Size: %1"
 msgstr "大小"
 
-#: src/backend/datasources/LiveDataSource.cpp:779
+#: src/backend/datasources/LiveDataSource.cpp:783
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Images: %1"
 msgstr "影像"
 
-#: src/backend/datasources/LiveDataSource.cpp:780
+#: src/backend/datasources/LiveDataSource.cpp:784
 #, fuzzy, kde-format
 msgid "Tables: %1"
 msgstr "可讀取："
 
-#: src/backend/datasources/LiveDataSource.cpp:792
-#: src/backend/datasources/LiveDataSource.cpp:816
+#: src/backend/datasources/LiveDataSource.cpp:796
+#: src/backend/datasources/LiveDataSource.cpp:820
 #, fuzzy, kde-format
 msgid "Could not open file %1 for reading."
 msgstr "無法開啟檔案 %1 以讀取"
 
-#: src/backend/datasources/LiveDataSource.cpp:795
+#: src/backend/datasources/LiveDataSource.cpp:799
 #, fuzzy, kde-format
 msgid "cannot open"
 msgstr "無法開啟 %1：%2"
 
-#: src/backend/datasources/LiveDataSource.cpp:801
+#: src/backend/datasources/LiveDataSource.cpp:805
 #, fuzzy, kde-format
 msgid "File type: %1"
 msgstr "檔案型態"
 
-#: src/backend/datasources/LiveDataSource.cpp:810
+#: src/backend/datasources/LiveDataSource.cpp:814
 #, fuzzy, kde-format
 msgid "Number of columns: %1"
 msgstr "欄數："
 
-#: src/backend/datasources/LiveDataSource.cpp:812
+#: src/backend/datasources/LiveDataSource.cpp:816
 #, fuzzy, kde-format
 msgid "Number of lines: %1"
 msgstr "行數："
 
-#: src/backend/datasources/LiveDataSource.cpp:892
+#: src/backend/datasources/LiveDataSource.cpp:896
 #, fuzzy, kde-format
 msgid "no liveDataSource element found"
 msgstr "專案屬性"
@@ -9268,14 +9268,14 @@ msgid "%1 xy-curves: template \"%2\" loaded"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/LiveDataDock.cpp:67
-#: src/kdefrontend/dockwidgets/LiveDataDock.cpp:194
+#: src/kdefrontend/dockwidgets/LiveDataDock.cpp:211
 #, kde-format
 msgid "Continue reading"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bPausePlayReading)
 #: src/kdefrontend/dockwidgets/LiveDataDock.cpp:70
-#: src/kdefrontend/dockwidgets/LiveDataDock.cpp:198
+#: src/kdefrontend/dockwidgets/LiveDataDock.cpp:215
 #: src/kdefrontend/ui/dockwidgets/livedatadock.ui:48
 #, kde-format
 msgid "Pause reading"
@@ -12424,7 +12424,7 @@ msgstr "垂直"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbUpdateType)
 #: src/kdefrontend/ui/datasources/importfilewidget.ui:568
-#: src/kdefrontend/ui/dockwidgets/livedatadock.ui:123
+#: src/kdefrontend/ui/dockwidgets/livedatadock.ui:128
 #, kde-format
 msgid "On new data"
 msgstr ""
@@ -12487,14 +12487,23 @@ msgstr "image"
 msgid "Till the end"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadType)
+#. i18n: ectx: property (text), item, widget (QComboBox, cbReadingType)
+#: src/kdefrontend/ui/datasources/importfilewidget.ui:646
+#: src/kdefrontend/ui/dockwidgets/livedatadock.ui:114
+#, fuzzy, kde-format
+#| msgid "Export to file"
+msgid "Read whole file"
+msgstr "匯出到檔案"
+
 #. i18n: ectx: property (text), widget (QLabel, lUpdateInterval)
-#: src/kdefrontend/ui/datasources/importfilewidget.ui:649
+#: src/kdefrontend/ui/datasources/importfilewidget.ui:654
 #, fuzzy, kde-format
 msgid "Update interval"
 msgstr "介面"
 
 #. i18n: ectx: property (text), widget (QLabel, lUpdateIntervalUnit)
-#: src/kdefrontend/ui/datasources/importfilewidget.ui:678
+#: src/kdefrontend/ui/datasources/importfilewidget.ui:683
 #, kde-format
 msgid "ms"
 msgstr ""
@@ -13354,7 +13363,7 @@ msgstr "設定佈局"
 
 #. i18n: ectx: property (text), widget (QLabel, lAutoSaveInterval)
 #. i18n: ectx: property (text), item, widget (QComboBox, cbUpdateType)
-#: src/kdefrontend/ui/dockwidgets/livedatadock.ui:118
+#: src/kdefrontend/ui/dockwidgets/livedatadock.ui:123
 #: src/kdefrontend/ui/settingsgeneralpage.ui:53
 #, kde-format
 msgid "Time interval"
