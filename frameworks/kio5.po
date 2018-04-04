@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-03 03:30+0200\n"
+"POT-Creation-Date: 2018-04-04 03:29+0200\n"
 "PO-Revision-Date: 2018-03-29 14:12+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -276,189 +276,179 @@ msgctxt "items: folders, files (size)"
 msgid "%1: %2"
 msgstr "%1：%2"
 
-#: core/job.cpp:117
+#: core/job.cpp:116
 #, kde-format
 msgctxt "@title job"
 msgid "Moving"
 msgstr "移動中"
 
-#: core/job.cpp:118 core/job.cpp:125 core/job.cpp:150
+#: core/job.cpp:117 core/job.cpp:124 core/job.cpp:149
 #: widgets/fileundomanager.cpp:140
 #, kde-format
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "來源"
 
-#: core/job.cpp:119 core/job.cpp:126 widgets/fileundomanager.cpp:141
+#: core/job.cpp:118 core/job.cpp:125 widgets/fileundomanager.cpp:141
 #, kde-format
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "目的地"
 
-#: core/job.cpp:124
+#: core/job.cpp:123
 #, kde-format
 msgctxt "@title job"
 msgid "Copying"
 msgstr "複製中"
 
-#: core/job.cpp:131
+#: core/job.cpp:130
 #, kde-format
 msgctxt "@title job"
 msgid "Creating directory"
 msgstr "建立目錄"
 
-#: core/job.cpp:132 widgets/fileundomanager.cpp:135
+#: core/job.cpp:131 widgets/fileundomanager.cpp:135
 #, kde-format
 msgid "Directory"
 msgstr "目錄"
 
-#: core/job.cpp:137
+#: core/job.cpp:136
 #, kde-format
 msgctxt "@title job"
 msgid "Deleting"
 msgstr "刪除中"
 
-#: core/job.cpp:138 core/job.cpp:144 widgets/fileundomanager.cpp:146
+#: core/job.cpp:137 core/job.cpp:143 widgets/fileundomanager.cpp:146
 #, kde-format
 msgid "File"
 msgstr "檔案"
 
-#: core/job.cpp:143
+#: core/job.cpp:142
 #, kde-format
 msgctxt "@title job"
 msgid "Examining"
 msgstr "檢視中"
 
-#: core/job.cpp:149
+#: core/job.cpp:148
 #, kde-format
 msgctxt "@title job"
 msgid "Transferring"
 msgstr "傳輸中"
 
-#: core/job.cpp:155
+#: core/job.cpp:154
 #, kde-format
 msgctxt "@title job"
 msgid "Mounting"
 msgstr "掛載中"
 
-#: core/job.cpp:156
+#: core/job.cpp:155
 #, kde-format
 msgid "Device"
 msgstr "裝置"
 
-#: core/job.cpp:157 core/job.cpp:163
+#: core/job.cpp:156 core/job.cpp:162
 #, kde-format
 msgid "Mountpoint"
 msgstr "掛載點"
 
-#: core/job.cpp:162
+#: core/job.cpp:161
 #, kde-format
 msgctxt "@title job"
 msgid "Unmounting"
 msgstr "卸載中"
 
-#: core/job.cpp:297
+#: core/job.cpp:279
 #, kde-format
 msgid "Change Attribute"
 msgstr "變更屬性"
 
-#: core/job.cpp:298
+#: core/job.cpp:280
 #, kde-format
 msgid ""
 "Root privileges are required to change file attributes. Do you want to "
 "continue?"
 msgstr "變更檔案屬性需要 root 權限。您想要繼續嗎？"
 
-#: core/job.cpp:302
+#: core/job.cpp:284
 #, kde-format
 msgid "Copy Files"
 msgstr "複製檔案"
 
-#: core/job.cpp:303
+#: core/job.cpp:285
 #, kde-format
 msgid ""
 "Root privileges are required to complete the copy operation. Do you want to "
 "continue?"
 msgstr "完成複製操作需要 root 權限。您想要繼續嗎？"
 
-#: core/job.cpp:307 widgets/jobuidelegate.cpp:231
+#: core/job.cpp:289 widgets/jobuidelegate.cpp:231
 #, kde-format
 msgid "Delete Files"
 msgstr "刪除檔案"
 
-#: core/job.cpp:308
+#: core/job.cpp:290
 #, kde-format
 msgid ""
 "Root privileges are required to complete the delete operation. However, "
 "doing so may damage your system. Do you want to continue?"
 msgstr "完成刪除操作需要 root 權限。不過，這可能會毀損您的系統。您想要繼續嗎？"
 
-#: core/job.cpp:312
+#: core/job.cpp:294
 #, kde-format
 msgid "Create Folder"
 msgstr "建立資料夾"
 
-#: core/job.cpp:313
+#: core/job.cpp:295
 #, kde-format
 msgid ""
 "Root privileges are required to create this folder. Do you want to continue?"
 msgstr "建立此資料夾需要 root 權限。您想要繼續嗎？"
 
-#: core/job.cpp:317
+#: core/job.cpp:299
 #, kde-format
 msgid "Move Items"
 msgstr "移動項目"
 
-#: core/job.cpp:318
+#: core/job.cpp:300
 #, kde-format
 msgid ""
 "Root privileges are required to complete the move operation. Do you want to "
 "continue?"
 msgstr "完成移動操作需要 root 權限。您想要繼續嗎？"
 
-#: core/job.cpp:322
+#: core/job.cpp:304
 #, kde-format
 msgid "Rename"
 msgstr "重新命名"
 
-#: core/job.cpp:323
+#: core/job.cpp:305
 #, kde-format
 msgid ""
 "Root privileges are required to complete renaming. Do you want to continue?"
 msgstr "完成重新命名需要 root 權限。您想要繼續嗎？"
 
-#: core/job.cpp:327 filewidgets/knewfilemenu.cpp:547
+#: core/job.cpp:309 filewidgets/knewfilemenu.cpp:547
 #, kde-format
 msgid "Create Symlink"
 msgstr "建立符號連結"
 
-#: core/job.cpp:328
+#: core/job.cpp:310
 #, kde-format
 msgid ""
 "Root privileges are required to create a symlink. Do you want to continue?"
 msgstr "建立符號連結需要 root 權限。您想要繼續嗎？"
 
-#: core/job.cpp:332
+#: core/job.cpp:314
 #, kde-format
 msgid "Transfer data"
 msgstr "傳輸資料"
 
-#: core/job.cpp:333
+#: core/job.cpp:315
 #, kde-format
 msgid ""
 "Root privileges are required to complete transferring data. Do you want to "
 "continue?"
 msgstr "完成傳輸資料需要 root 權限。您想要繼續嗎？"
-
-#: core/job.cpp:350
-#, kde-format
-msgid "Continue"
-msgstr "繼續"
-
-#: core/job.cpp:350
-#, kde-format
-msgid "Cancel"
-msgstr "取消"
 
 #: core/job_error.cpp:39
 #, kde-format
@@ -2054,7 +2044,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "伺服器太忙碌回應其他請求，所以暫時未能回應您的請求。"
 
-#: core/job_error.cpp:948 core/slavebase.cpp:1442
+#: core/job_error.cpp:948 core/slavebase.cpp:1465
 #, kde-format
 msgid "Unknown Error"
 msgstr "不明的錯誤"
@@ -2504,107 +2494,107 @@ msgstr "無法與 klauncher 交談：%1"
 msgid "klauncher said: %1"
 msgstr "klauncher 說：%1"
 
-#: core/slavebase.cpp:787
+#: core/slavebase.cpp:810
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "%1 通訊協定不支援開啟連線。"
 
-#: core/slavebase.cpp:789
+#: core/slavebase.cpp:812
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "%1 通訊協定不支援關閉連線。"
 
-#: core/slavebase.cpp:791
+#: core/slavebase.cpp:814
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "%1 通訊協定不支援存取檔案。"
 
-#: core/slavebase.cpp:793
+#: core/slavebase.cpp:816
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "不支援寫入 %1。"
 
-#: core/slavebase.cpp:795
+#: core/slavebase.cpp:818
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "%1 通訊協定沒有可用的特殊的動作。"
 
-#: core/slavebase.cpp:797
+#: core/slavebase.cpp:820
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "%1 通訊協定不支援列出資料夾內容。"
 
-#: core/slavebase.cpp:799
+#: core/slavebase.cpp:822
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "不支援從 %1 取回資料。"
 
-#: core/slavebase.cpp:801
+#: core/slavebase.cpp:824
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "不支援從 %1 取回 mime 類型資訊。"
 
-#: core/slavebase.cpp:803
+#: core/slavebase.cpp:826
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "不支援在 %1 裡重新命名或移動檔案。"
 
-#: core/slavebase.cpp:805
+#: core/slavebase.cpp:828
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "%1 通訊協定不支援建立符號連結。"
 
-#: core/slavebase.cpp:807
+#: core/slavebase.cpp:830
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "不支援在 %1 裡複製檔案。"
 
-#: core/slavebase.cpp:809
+#: core/slavebase.cpp:832
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "不支援由 %1 刪除檔案。"
 
-#: core/slavebase.cpp:811
+#: core/slavebase.cpp:834
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "%1 通訊協定不支援建立資料夾。"
 
-#: core/slavebase.cpp:813
+#: core/slavebase.cpp:836
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "%1 通訊協定不支援變更檔案屬性。"
 
-#: core/slavebase.cpp:815
+#: core/slavebase.cpp:838
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "%1 通訊協定不支援變更檔案屬性。"
 
-#: core/slavebase.cpp:817
+#: core/slavebase.cpp:840
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "%1 通訊協定不支援子 URL 的使用。"
 
-#: core/slavebase.cpp:819
+#: core/slavebase.cpp:842
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "%1 通訊協定不支援多重擷取。"
 
-#: core/slavebase.cpp:821
+#: core/slavebase.cpp:844
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "%1 通訊協定不支援開啟檔案。"
 
-#: core/slavebase.cpp:823
+#: core/slavebase.cpp:846
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "通訊協定 %1 不支援動作 %2。"
 
-#: core/slavebase.cpp:976
+#: core/slavebase.cpp:999
 #, kde-format
 msgid "&Yes"
 msgstr "是(&Y)"
 
-#: core/slavebase.cpp:977
+#: core/slavebase.cpp:1000
 #, kde-format
 msgid "&No"
 msgstr "否(&N)"
@@ -8946,6 +8936,12 @@ msgid ""
 msgstr ""
 "遠端主機並未送出任何 SSL 憑證。\n"
 "因為無法建立主機身份，因此將中止。"
+
+#~ msgid "Continue"
+#~ msgstr "繼續"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
 
 #~ msgid "Open File Manager"
 #~ msgstr "開啟檔案管理員"

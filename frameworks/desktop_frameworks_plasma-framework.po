@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-10 02:31+0000\n"
+"POT-Creation-Date: 2018-04-04 01:44+0000\n"
 "PO-Revision-Date: 2018-03-29 14:08+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -356,6 +356,7 @@ msgstr ""
 
 #: templates/cpp-plasmoid/src/package/metadata.desktop:2
 #: templates/plasma-wallpaper/package/metadata.desktop:2
+#: templates/plasma-wallpaper-with-qml-extension/package/metadata.desktop:2
 #: templates/qml-plasmoid/package/metadata.desktop:2
 #: templates/qml-plasmoid-with-qml-extension/package/metadata.desktop:2
 msgctxt "Name"
@@ -380,6 +381,26 @@ msgid ""
 "Simple Plasma Wallpaper template: a Plasma wallpaper template displaying a "
 "text"
 msgstr "簡易 Plasma 桌布範本：顯示了文字的一個 Plasma 桌布範本"
+
+#: templates/plasma-wallpaper-with-qml-extension/plasma-wallpaper-with-qml-extension.kdevtemplate:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plasma QML Applet with QML extension"
+msgctxt "Name"
+msgid "Simple Plasma Wallpaper with QML extension"
+msgstr "含有 QML 副檔名的 Plasma QML 小程式"
+
+#: templates/plasma-wallpaper-with-qml-extension/plasma-wallpaper-with-qml-extension.kdevtemplate:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid ""
+#| "A template for a Plasma applet which uses custom API provided by an own "
+#| "QML extension plugin"
+msgctxt "Comment"
+msgid ""
+"A Plasma wallpaper which uses custom API provided by an own QML extension "
+"plugin"
+msgstr "使用由自己的 QML 延伸元件提供的自訂 API 的 Plasma 小程式範本"
 
 #: templates/qml-plasmoid/qml-plasmoid.kdevtemplate:3
 msgctxt "Name"

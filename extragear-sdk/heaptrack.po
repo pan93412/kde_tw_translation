@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: heaptrack\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-23 03:22+0100\n"
+"POT-Creation-Date: 2018-04-04 03:27+0200\n"
 "PO-Revision-Date: 2016-09-22 20:30+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -736,8 +736,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "<qt><p>This field specifies the primary heaptrack data file. These files are "
-"called <tt>heaptrack.$APP.$PID.gz</tt>. You can produce such a file by "
-"profiling your application, e.g. via:</p>\n"
+"called <tt>heaptrack.$APP.$PID.gz</tt> or <tt>heaptrack.$APP.$PID.zst</tt>. "
+"You can produce such a file by profiling your application, e.g. via:</p>\n"
 "<pre><code>heaptrack &lt;yourapplication&gt; ...</code></pre>\n"
 "<p>Or, alternatively, you can attach to a running process via</p>\n"
 "<pre><code>heaptrack --pid $(pidof &lt;yourapplication&gt;)</code></pre></qt>"
@@ -747,14 +747,14 @@ msgstr ""
 #. i18n: ectx: property (filter), widget (KUrlRequester, compareTo)
 #: gui/mainwindow.ui:73 gui/mainwindow.ui:89
 #, kde-format
-msgid "heaptrack.*.*.gz"
+msgid "heaptrack.*.*.gz heaptrack.*.*.zst"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, openFile)
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, compareTo)
 #: gui/mainwindow.ui:76 gui/mainwindow.ui:92
 #, kde-format
-msgid "path/to/heaptrack.$APP.$PID.gz"
+msgid "path/to/heaptrack.$APP.$PID.{gz,zst}"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, compareTo)

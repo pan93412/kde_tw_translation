@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-03 03:25+0200\n"
+"POT-Creation-Date: 2018-04-04 03:23+0200\n"
 "PO-Revision-Date: 2018-03-29 13:11+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -10896,66 +10896,66 @@ msgstr "檔案不存在"
 msgid "A file or folder named %1 already exists in %2"
 msgstr "已存在一個名為 '%1' 的中繼資料範本。"
 
-#: core/libs/iojobs/iojob.cpp:115
+#: core/libs/iojobs/iojob.cpp:120
 #, fuzzy, kde-format
 msgid "Could not move folder %1 to album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:124
+#: core/libs/iojobs/iojob.cpp:129
 #, fuzzy, kde-format
 msgid ""
 "Could not move folder %1 to album %2. The folder %1 was copied as well to "
 "album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:137
+#: core/libs/iojobs/iojob.cpp:142
 #, fuzzy, kde-format
 msgid "Could not move file %1 to album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:154
+#: core/libs/iojobs/iojob.cpp:164
 #, fuzzy, kde-format
 msgid "Could not copy folder %1 to album %2"
 msgstr "無法儲存影像「%1」的圖示到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:166
+#: core/libs/iojobs/iojob.cpp:176
 #, fuzzy, kde-format
 msgid "Could not copy file %1 to album %2"
 msgstr "無法儲存影像「%1」的圖示到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:211
+#: core/libs/iojobs/iojob.cpp:221
 #, fuzzy, kde-format
 msgid "File/Folder %1 does not exist"
 msgstr "檔案不存在"
 
-#: core/libs/iojobs/iojob.cpp:224
+#: core/libs/iojobs/iojob.cpp:234
 #, fuzzy, kde-format
 msgid "Couldn't move folder %1 to collection trash"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:235
+#: core/libs/iojobs/iojob.cpp:245
 #, fuzzy, kde-format
 msgid "Couldn't move image %1 to collection trash"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:251
+#: core/libs/iojobs/iojob.cpp:261
 #, fuzzy, kde-format
 msgid "Album %1 could not be removed"
 msgstr "相簿名稱不可為空。"
 
-#: core/libs/iojobs/iojob.cpp:298
+#: core/libs/iojobs/iojob.cpp:308
 #, kde-format
 msgid "Image %1 could not be removed"
 msgstr ""
 
-#: core/libs/iojobs/iojob.cpp:371
+#: core/libs/iojobs/iojob.cpp:381
 #, fuzzy, kde-format
 msgid "Image with the same name %1 already there"
 msgstr ""
 "另一個相同名稱的標籤已經存在。\n"
 "請另選一個名稱。"
 
-#: core/libs/iojobs/iojob.cpp:388
+#: core/libs/iojobs/iojob.cpp:398
 #, kde-format
 msgid "Image %1 could not be renamed"
 msgstr ""
@@ -28564,7 +28564,7 @@ msgid "Could not open a temporary file in the folder \"%1\": %2 (%3)"
 msgstr "無法開啟在資料夾  \"%1\": %2 (%3) 的暫存檔"
 
 #: core/utilities/imageeditor/editor/editorwindow.cpp:2247
-#: core/utilities/kdesupport/ksane/scandialog.cpp:176
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:176
 #, kde-format
 msgid "New Image File Name"
 msgstr "新的影像檔案名稱"
@@ -28589,7 +28589,7 @@ msgstr ""
 
 #: core/utilities/imageeditor/editor/editorwindow.cpp:2694
 #: core/utilities/imageeditor/editor/editorwindow.cpp:2713
-#: core/utilities/kdesupport/ksane/scandialog.cpp:241
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:241
 #, kde-format
 msgid "Overwrite File?"
 msgstr "覆寫檔案嗎？"
@@ -28602,7 +28602,7 @@ msgid ""
 msgstr "您沒有寫入名稱為「%1」檔案的權限。您確定要覆寫嗎？"
 
 #: core/utilities/imageeditor/editor/editorwindow.cpp:2714
-#: core/utilities/kdesupport/ksane/scandialog.cpp:242
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:242
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -32603,58 +32603,53 @@ msgstr "沒有選擇任何文稿"
 msgid "Set here the script that is executed for every imported image."
 msgstr "在此設定對每個匯入影像執行的文稿。"
 
-#: core/utilities/kdesupport/akonadi/akonadiiface.cpp:78
+#: core/utilities/kdesupport/addressbook/akonadiiface.cpp:78
 #, kde-format
 msgid "Create Tag From Address Book"
 msgstr "從通訊錄建立標籤"
 
-#: core/utilities/kdesupport/akonadi/akonadiiface.cpp:81
+#: core/utilities/kdesupport/addressbook/akonadiiface.cpp:81
 #, kde-format
 msgid "No address book entries found"
 msgstr "沒有找到通訊錄條目"
 
-#: core/utilities/kdesupport/kfilemetadata/baloowrap.cpp:145
-#, kde-format
-msgid "BalooTags/"
-msgstr ""
-
-#: core/utilities/kdesupport/ksane/ksaneaction.cpp:54
+#: core/utilities/kdesupport/dscanner/ksaneaction.cpp:54
 #, kde-format
 msgid "Import from Scanner..."
 msgstr "從掃描器匯入..."
 
-#: core/utilities/kdesupport/ksane/ksaneaction.cpp:85
+#: core/utilities/kdesupport/dscanner/ksaneaction.cpp:85
 #, kde-format
 msgid "Cannot open scanner device."
 msgstr "無法開啟掃描器裝置。"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:78
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:78
 #, kde-format
 msgid "Scan Image"
 msgstr "掃描影像"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:88
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:88
 #, fuzzy, kde-format
 #| msgid "Scan Image"
 msgid "Scan Images"
 msgstr "掃描影像"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:218
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:218
 #, fuzzy, kde-format
 msgid "Unsupported Format"
 msgstr "未知格式"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:219
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:219
 #, kde-format
 msgid "The target image file format \"%1\" is unsupported."
 msgstr "不支援目標影像檔案格式「%1」。"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:228
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:228
 #, fuzzy, kde-format
 msgid "Cannot Save File"
 msgstr "無法儲存「%1」檔案"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:229
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:229
 #, kde-format
 msgid ""
 "Failed to save file\n"
@@ -32664,20 +32659,25 @@ msgstr ""
 "將檔案 \"%1\" 儲存\n"
 "到 \"%2\" 失敗。"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:277
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:277
 #, fuzzy, kde-format
 msgid "Saving file %1 -"
 msgstr "儲存於檔案"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:285
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:285
 #, fuzzy, kde-format
 msgid "File Not Saved"
 msgstr "要儲存的 XMP 檔案"
 
-#: core/utilities/kdesupport/ksane/scandialog.cpp:285
+#: core/utilities/kdesupport/dscanner/scandialog.cpp:285
 #, kde-format
 msgid "Cannot save \"%1\" file"
 msgstr "無法儲存「%1」檔案"
+
+#: core/utilities/kdesupport/filesindexer/baloowrap.cpp:144
+#, kde-format
+msgid "BalooTags/"
+msgstr ""
 
 #: core/utilities/lighttable/lighttablepreview.cpp:71
 #, kde-format

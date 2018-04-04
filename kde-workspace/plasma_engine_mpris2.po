@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-07 03:34+0100\n"
+"POT-Creation-Date: 2018-04-04 03:40+0200\n"
 "PO-Revision-Date: 2015-02-20 22:23+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -43,27 +43,37 @@ msgstr "播放前一首"
 msgid "Stop media playback"
 msgstr "停止媒體播放"
 
-#: playeractionjob.cpp:182
+#: multiplexedservice.cpp:151
+#, kde-format
+msgid "Media volume up"
+msgstr ""
+
+#: multiplexedservice.cpp:162
+#, kde-format
+msgid "Media volume down"
+msgstr ""
+
+#: playeractionjob.cpp:202
 #, kde-format
 msgid "The media player '%1' cannot perform the action '%2'."
 msgstr "媒體播放器 '%1' 無法執行動作 %2。"
 
-#: playeractionjob.cpp:184
+#: playeractionjob.cpp:204
 #, kde-format
 msgid "Attempting to perform the action '%1' failed with the message '%2'."
 msgstr "試著執行動作 %1 時失敗，訊息為 %2。"
 
-#: playeractionjob.cpp:187
+#: playeractionjob.cpp:207
 #, kde-format
 msgid "The argument '%1' for the action '%2' is missing or of the wrong type."
 msgstr "遺失了動作 %2 的參數 %1，或是參數型態不正確。"
 
-#: playeractionjob.cpp:189
+#: playeractionjob.cpp:209
 #, kde-format
 msgid "The operation '%1' is unknown."
 msgstr "未知的操作 %1。"
 
-#: playeractionjob.cpp:191
+#: playeractionjob.cpp:211
 #, kde-format
 msgid "Unknown error."
 msgstr "未知的錯誤。"
