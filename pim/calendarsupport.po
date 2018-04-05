@@ -4,19 +4,20 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: akonadi-kcal\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-02-15 03:19+0100\n"
-"PO-Revision-Date: 2015-06-14 13:17+0800\n"
-"Last-Translator: Franklin\n"
-"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-04-05 16:01+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: archivedialog.cpp:59
@@ -126,8 +127,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "The age of the events and to-dos to archive. All older items will be saved "
 "and deleted, the newer will be kept."
-msgstr ""
-"要歸檔多久以前的事件與待辦事項。所有舊的項目都會被歸檔並從行事曆中刪除。"
+msgstr "要歸檔多久以前的事件與待辦事項。所有舊的項目都會被歸檔並從行事曆中刪除。"
 
 #: archivedialog.cpp:170
 #, kde-format
@@ -264,8 +264,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Select this option to delete old events and to-dos without saving them. It "
 "is not possible to recover the events later."
-msgstr ""
-"選取此項的話，則舊的事件與待辦事項只會刪除，而不會歸檔。如此以後將無法回復。"
+msgstr "選取此項的話，則舊的事件與待辦事項只會刪除，而不會歸檔。如此以後將無法回復。"
 
 #: archivedialog.cpp:304
 #, kde-format
@@ -441,45 +440,45 @@ msgstr "事件歸檔中"
 #: freebusymodel/freebusycalendar.cpp:138
 #, kde-format
 msgid "Free"
-msgstr ""
+msgstr "空閒的"
 
 #: freebusymodel/freebusycalendar.cpp:141
 #, kde-format
 msgid "Busy"
-msgstr ""
+msgstr "忙碌的"
 
 #: freebusymodel/freebusycalendar.cpp:144
 #, kde-format
 msgid "Unavailable"
-msgstr ""
+msgstr "不支援的"
 
 #: freebusymodel/freebusycalendar.cpp:147
 #, kde-format
 msgid "Tentative"
-msgstr ""
+msgstr "測試中的"
 
 #: freebusymodel/freebusycalendar.cpp:150
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "unknown resource"
 #| msgid "Unknown"
 msgid "Unknown"
 msgstr "未知"
 
 #: freebusymodel/freebusyitemmodel.cpp:234
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Attendees"
 msgid "Attendee"
-msgstr "參加者(&A)"
+msgstr "參加者"
 
 #: freebusymodel/freeperiodmodel.cpp:146
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1%"
 msgctxt "@label Day of the week name, example: Monday,"
 msgid "%1,"
-msgstr "%1%"
+msgstr "%1,"
 
 #: freebusymodel/freeperiodmodel.cpp:162
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Date range: monthStart dayStart - monthEnd dayEnd"
 #| msgid "%1 %2 - %3 %4"
 msgctxt ""
@@ -487,39 +486,39 @@ msgctxt ""
 "orientation) by the name of the week, see the message above. example: 12 "
 "June, 8:00am to 9:30am"
 msgid "%1 %2, %3 to %4"
-msgstr "%1 %2 到 %3 %4"
+msgstr "%1 %2, %3 到 %4"
 
 #: freebusymodel/freeperiodmodel.cpp:183
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "starttime - endtime summary, location"
 #| msgid "%1-%2 %3, %4"
 msgctxt ""
 "@label A time period duration. KLocale is used to format the components. "
 "example: Monday, 12 June, 8:00am to 9:30am"
 msgid "%1, %2 %3, %4 to %5"
-msgstr "%1-%2 %3，%4"
+msgstr "%1, %2 %3, %4 到 %5"
 
 #: freebusymodel/freeperiodmodel.cpp:196
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Free Period"
-msgstr ""
+msgstr "免費時段"
 
 #: freebusymodel/freeperiodmodel.cpp:199
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Start date:"
 msgctxt "@info:tooltip period start time"
 msgid "Start:"
-msgstr "開始日期(&S)："
+msgstr "開始："
 
 #: freebusymodel/freeperiodmodel.cpp:203
 #, kde-format
 msgctxt "@info:tooltip period end time"
 msgid "End:"
-msgstr ""
+msgstr "結束"
 
 #: freebusymodel/freeperiodmodel.cpp:207
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Duration: "
 msgctxt "@info:tooltip period duration"
 msgid "Duration:"
@@ -531,8 +530,7 @@ msgctxt "@info"
 msgid ""
 "This model can only handle event, task, journal or free-busy list folders. "
 "The current collection holds mimetypes: %1"
-msgstr ""
-"此模式只能用於處理事件、工作、日誌或行程資料夾。目前的收藏處理 mimetypes：%1"
+msgstr "此模式只能用於處理事件、工作、日誌或行程資料夾。目前的收藏處理 mimetypes：%1"
 
 #: kcalmodel.cpp:189
 #, kde-format
@@ -780,10 +778,10 @@ msgstr ""
 
 #. i18n: ectx: label, entry (SendPolicy), group (Group Scheduling)
 #: kcalprefs.kcfg:104
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default Policy what to do with invitations to other users:"
 msgid "Default policy for invitations to other users:"
-msgstr "邀請其他使用者時要執行動作的預設政策："
+msgstr "邀請其他使用者的預設政策："
 
 #. i18n: ectx: label, entry (SendPolicy), group (Group Scheduling)
 #: kcalprefs.kcfg:107
@@ -799,14 +797,14 @@ msgstr "對每個參加者都詢問怎麼做。"
 
 #. i18n: ectx: label, entry (SendPolicy), group (Group Scheduling)
 #: kcalprefs.kcfg:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Do not send invitation mails at all (This can break group scheduling for "
 #| "iTip compliant clients)."
 msgid ""
 "Do not send invitation emails at all (this can break group scheduling for "
 "iTip compliant clients)."
-msgstr "完全不要傳送邀請電子郵件(但這可能會打破 iTip 客戶端的群組排程)"
+msgstr "完全不要傳送邀請郵件（但這可能會打破 iTip 客戶端的群組排程）"
 
 #. i18n: ectx: label, entry (ShowTimeZoneSelectorInIncidenceEditor), group (Hidden Options)
 #: kcalprefs.kcfg:126
@@ -1128,10 +1126,10 @@ msgstr "Filofax 格式會印出選取日期的資訊，但不會有時間線。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeFilofax)
 #: printing/calprintdayconfig_base.ui:223
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print date range as &Filofax format, all on one page"
 msgid "Print date &range as Filofax format, all on one page"
-msgstr "以 Filofax 格式列印日期範圍，全部在一頁內(&F)"
+msgstr "以 Filofax 格式列印日期範圍，全部在一頁內(&R)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, mPrintTypeTimetable)
 #: printing/calprintdayconfig_base.ui:230
@@ -1141,10 +1139,10 @@ msgstr "時間表列印檢視在頁面左方會有時間。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeTimetable)
 #: printing/calprintdayconfig_base.ui:233
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print as &timetable view, one page per day"
 msgid "Print as timeta&ble view, one page per day"
-msgstr "列印為時間表，一天一頁(&T)"
+msgstr "列印為時間表，一天一頁(&B)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, mPrintTypeSingleTimetable)
 #: printing/calprintdayconfig_base.ui:243
@@ -1152,15 +1150,14 @@ msgstr "列印為時間表，一天一頁(&T)"
 msgid ""
 "The timetable print view has the times to the left of the page, all days are "
 "printed as columns in one big timetable."
-msgstr ""
-"時間表列印檢視在頁面左方會有時間，一整天會列印在一個大的時間表中的一個欄位。"
+msgstr "時間表列印檢視在頁面左方會有時間，一整天會列印在一個大的時間表中的一個欄位。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeSingleTimetable)
 #: printing/calprintdayconfig_base.ui:246
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print as timetable view, all days on a single page"
 msgid "Print as timetable view, all da&ys on a single page"
-msgstr "列印為時間表，一天一頁"
+msgstr "列印為時間表，一天一頁(&Y)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, mSecurity)
 #: printing/calprintdayconfig_base.ui:259
@@ -2127,10 +2124,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, mFromDateLabel)
 #: printing/calprintmonthconfig_base.ui:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Start month:"
 msgid "Sta&rt month:"
-msgstr "開始月份(&S)："
+msgstr "開始月份(&R)："
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, mFromMonth)
 #: printing/calprintmonthconfig_base.ui:75
@@ -2447,10 +2444,10 @@ msgstr "列印全部的待辦事項(&A)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintUnfinished)
 #: printing/calprinttodoconfig_base.ui:90
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print &unfinished to-dos only"
 msgid "Print unfinished to-dos onl&y"
-msgstr "列印未完成的待辦事項(&U)"
+msgstr "列印未完成的待辦事項(&Y)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintDueRange)
 #: printing/calprinttodoconfig_base.ui:100
@@ -2587,10 +2584,10 @@ msgstr "Filofax 會每週印一頁，這樣每一天都能有較大的空間。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeFilofax)
 #: printing/calprintweekconfig_base.ui:246
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print as &Filofax page"
 msgid "P&rint as Filofax page"
-msgstr "列印為 Filofax (&F)"
+msgstr "列印為 Filofax (&R)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, mPrintTypeTimetable)
 #: printing/calprintweekconfig_base.ui:256
@@ -2603,10 +2600,10 @@ msgstr "這有點像是週覽表。每一週會橫向列印。您也可以使用
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeTimetable)
 #: printing/calprintweekconfig_base.ui:259
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print as &timetable view"
 msgid "Print as timeta&ble view"
-msgstr "列印為時間表(&T)"
+msgstr "列印為時間表(&B)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, mPrintTypeSplitWeek)
 #: printing/calprintweekconfig_base.ui:266
@@ -2621,10 +2618,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeSplitWeek)
 #: printing/calprintweekconfig_base.ui:269
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print as split week view"
 msgid "Print as split wee&k view"
-msgstr "將每週檢視分離列印"
+msgstr "將每週檢視分離列印(&K)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowNoteLines)
 #: printing/calprintweekconfig_base.ui:375
@@ -2644,8 +2641,7 @@ msgstr "在 Filofax 佈局上顯示備忘線(&L)"
 msgid ""
 "The timetable view supports colors. If you want to make use of colors you "
 "should check this option. The category colors will be used."
-msgstr ""
-"時間表檢視支援顏色。如果您要使用顏色，請勾選此選項。將會使用類別的顏色。"
+msgstr "時間表檢視支援顏色。如果您要使用顏色，請勾選此選項。將會使用類別的顏色。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: printing/calprintyearconfig_base.ui:31
@@ -2677,10 +2673,10 @@ msgstr "一般"
 
 #. i18n: ectx: property (text), widget (QLabel, mPagesLabel)
 #: printing/calprintyearconfig_base.ui:104
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Number of &pages:"
 msgid "Num&ber of pages:"
-msgstr "頁數(&P)："
+msgstr "頁數(&B)："
 
 #. i18n: ectx: property (text), widget (QLabel, mSubDaysLabel)
 #: printing/calprintyearconfig_base.ui:120

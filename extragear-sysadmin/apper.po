@@ -6,20 +6,21 @@
 # Max Lin <max7442@gmail.com>, 2011.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kpackagekit.pot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-02-21 03:19+0100\n"
-"PO-Revision-Date: 2018-03-29 14:05+0800\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-04-05 15:01+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Lokalize 2.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -87,10 +88,10 @@ msgid "Find"
 msgstr "尋找"
 
 #: Apper/ApperKCM.cpp:174
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Software Manager Messages"
 msgid "Some software changes were made"
-msgstr "軟體管理程式訊息"
+msgstr "部份軟體變更已經完成"
 
 #: Apper/ApperKCM.cpp:175 apperd/Updater.cpp:287
 #, kde-format
@@ -203,7 +204,7 @@ msgstr "過濾條件"
 
 #. i18n: ectx: property (text), widget (QPushButton, updatePB)
 #: Apper/ApperKCM.ui:299
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Updates"
 msgid "Update"
 msgstr "更新"
@@ -493,16 +494,16 @@ msgid "Show Sizes"
 msgstr "顯示大小"
 
 #: Apper/BrowseView.cpp:282
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Export Installed Package List..."
 msgid "Export installed packages"
-msgstr "匯出已安裝軟體包的清單..."
+msgstr "匯出已安裝軟體包"
 
 #: Apper/BrowseView.cpp:306
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Install Packages Catalogs"
 msgid "Install packages from catalog"
-msgstr "安裝軟體包型錄"
+msgstr "從型錄安裝軟體包"
 
 #. i18n: ectx: property (text), widget (QPushButton, exportInstalledPB)
 #: Apper/BrowseView.ui:140
@@ -687,7 +688,7 @@ msgid "Apper is an application to get and manage software"
 msgstr "Apper 是一套取得與管理軟體的應用程式"
 
 #: Apper/main.cpp:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(C) 2008-2013 Daniel Nicoletti"
 msgid "(C) 2008-2018 Daniel Nicoletti"
 msgstr "(C) 2008-2013 Daniel Nicoletti"
@@ -1088,8 +1089,7 @@ msgstr "此更新的分級為「不穩定」，這代表它不是針對工作生
 msgid ""
 "This is a test update, and is not designed for normal use. Please report any "
 "problems or regressions you encounter."
-msgstr ""
-"這是個測試性更新，並不是針對一般用途所設計的。請回報任何您所遭遇到的問題。"
+msgstr "這是個測試性更新，並不是針對一般用途所設計的。請回報任何您所遭遇到的問題。"
 
 #: Apper/Updater/UpdateDetails.cpp:284
 #, kde-format
@@ -1664,12 +1664,12 @@ msgid "Copying files"
 msgstr "正在複製檔案"
 
 #: libapper/PkStrings.cpp:164
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "transaction state, just started"
 #| msgid "Running task"
 msgctxt "we are running hooks pre or post transaction"
 msgid "Running hooks"
-msgstr "正在執行工作事項"
+msgstr "執行掛勾"
 
 #: libapper/PkStrings.cpp:179
 #, kde-format
@@ -1931,7 +1931,7 @@ msgid "Removing repository"
 msgstr "移除軟體庫中"
 
 #: libapper/PkStrings.cpp:284
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "The role of the transaction, in present tense"
 #| msgid "Upgrading system"
 msgctxt "The role of the transaction, in present tense"
@@ -2125,7 +2125,7 @@ msgid "Removed repository"
 msgstr "已移除軟體庫"
 
 #: libapper/PkStrings.cpp:363
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "The role of the transaction, in past tense"
 #| msgid "Upgraded system"
 msgctxt "The role of the transaction, in past tense"

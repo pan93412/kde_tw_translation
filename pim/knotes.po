@@ -8,20 +8,21 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2009, 2010.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2013, 2014, 2015.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-01-02 03:15+0100\n"
-"PO-Revision-Date: 2015-06-14 13:32+0800\n"
-"Last-Translator: Franklin\n"
-"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-04-05 15:04+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "dot tw>\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -40,10 +41,10 @@ msgid "Suppress creation of a new note on a non-unique instance."
 msgstr "抑止在非單一實體上建立新便條。"
 
 #: apps/knotesakonaditray.cpp:35 apps/knotestray.cpp:32
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "KNotes: Sticky notes for KDE"
 msgid "KNotes: Sticky notes by KDE"
-msgstr "KNotes: KDE便條紙"
+msgstr "KNotes：來自 KDE 的便條紙"
 
 #: apps/knotesapp.cpp:98
 #, kde-format
@@ -88,10 +89,10 @@ msgid "Select Text File"
 msgstr "選擇文字檔"
 
 #: apps/knotesapp.cpp:394 kontactplugin/knotes_part.cpp:875
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open Text File"
 msgid "Text File"
-msgstr "開啟文字檔"
+msgstr "文字檔案"
 
 #: apps/knotesapp.cpp:400 kontactplugin/knotes_part.cpp:882
 #, kde-format
@@ -132,10 +133,10 @@ msgid "KDE Notes"
 msgstr "KDE便條紙"
 
 #: apps/main.cpp:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Copyright © 1997–2015 KNotes authors"
 msgid "Copyright © 1997–2018 KNotes authors"
-msgstr "Copyright © 1997–2015 KNotes 作者群"
+msgstr "Copyright © 1997–2018 KNotes 作者群"
 
 #: apps/main.cpp:78 kontactplugin/kcmknotessummary.cpp:64
 #, kde-format
@@ -289,10 +290,10 @@ msgid "Select the folder where the note will be saved:"
 msgstr "選擇便條要儲存在哪個資料夾："
 
 #: configdialog/knotecollectionconfigwidget.cpp:208
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Note Actions"
 msgid "Notes accounts"
-msgstr "便利貼命令"
+msgstr "便利貼帳號"
 
 #: configdialog/knotecollectionconfigwidget.cpp:213
 #, kde-format
@@ -453,32 +454,32 @@ msgid "Note Actions"
 msgstr "便利貼命令"
 
 #: finddialog/knotefinddialog.cpp:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Search Notes"
 msgctxt "@title:window"
 msgid "Search Notes"
 msgstr "搜尋便條"
 
 #: finddialog/knotefinddialog.cpp:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Search notes:"
 msgctxt "@label:textbox"
 msgid "Search notes:"
 msgstr "搜尋便條："
 
 #: finddialog/knotefinddialog.cpp:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Search..."
 msgctxt "@action:button Search notes"
 msgid "Search..."
 msgstr "搜尋..."
 
 #: finddialog/knotefinddialog.cpp:149
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No Result found."
 msgctxt "@label"
 msgid "No Results found in search."
-msgstr "找不到符合的結果。"
+msgstr "在搜尋中找不到符合的結果。"
 
 #: knoteedit.cpp:56
 #, kde-format
@@ -586,10 +587,10 @@ msgid "Notes Summary Configuration Dialog"
 msgstr "便條摘要設定畫面"
 
 #: kontactplugin/kcmknotessummary.cpp:63
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Copyright © 2013-2015 Laurent Montel <montel@kde.org>"
 msgid "Copyright © 2013-2018 Laurent Montel <montel@kde.org>"
-msgstr "Copyright © 2013-2015 Laurent Montel <montel@kde.org>"
+msgstr "Copyright © 2013-2018 Laurent Montel <montel@kde.org>"
 
 #: kontactplugin/knotes_part.cpp:98
 #, kde-format
@@ -758,16 +759,16 @@ msgid "Show Note..."
 msgstr "顯示便條..."
 
 #: kontactplugin/knotes_part.cpp:742
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Rich text"
 msgid "Rich text (*.html)"
-msgstr "豐富文字樣式(&R)"
+msgstr "豐富文字樣式 (*.html)"
 
 #: kontactplugin/knotes_part.cpp:744
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Text File (*.txt)"
 msgid "Plain text (*.txt)"
-msgstr "文字檔案 (*.txt)"
+msgstr "純文字 (*.txt)"
 
 #: kontactplugin/knotes_part.cpp:747 notes/knote.cpp:516
 #, kde-format
@@ -779,8 +780,7 @@ msgstr "另存新檔"
 msgid ""
 "<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
 "overwrite it?</qt>"
-msgstr ""
-"<qt>已經有一個叫做<b>%1</b>的檔案。<br />您確定要覆蓋掉這個檔案嗎?</qt>"
+msgstr "<qt>已經有一個叫做<b>%1</b>的檔案。<br />您確定要覆蓋掉這個檔案嗎?</qt>"
 
 #: kontactplugin/knotes_plugin.cpp:62
 #, kde-format
@@ -808,12 +808,12 @@ msgid "Popup Notes"
 msgstr "彈出式便條"
 
 #: kontactplugin/knotes_plugin.cpp:103
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info:credit"
 #| msgid "Copyright © 2003–2014 Kontact authors"
 msgctxt "@info:credit"
 msgid "Copyright © 2003–2018 Kontact authors"
-msgstr "Copyright © 2003–2014 Kontact 作者群"
+msgstr "Copyright © 2003–2018 Kontact 作者群"
 
 #: kontactplugin/knotes_plugin.cpp:105
 #, kde-kuit-format
@@ -932,7 +932,7 @@ msgid "Popup Notes"
 msgstr "彈出式便條"
 
 #: kontactplugin/summarywidget.cpp:120
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No note found"
 msgid "No notes found"
 msgstr "找不到便條"
