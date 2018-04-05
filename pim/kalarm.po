@@ -8,19 +8,20 @@
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2010.
 # Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014, 2015.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-03-30 03:35+0200\n"
-"PO-Revision-Date: 2015-02-16 22:56+0800\n"
-"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
-"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-04-05 16:57+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -211,22 +212,24 @@ msgid "%1<nl/>(%2)"
 msgstr "%1<nl/>(%2)"
 
 #: akonadimodel.cpp:1179
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid "Failed to update alarm."
 msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
-msgstr "更新鬧鐘失敗。"
+msgstr "更新行事曆「%1」失敗。"
 
 #: akonadimodel.cpp:1181
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Holiday region, region language"
 #| msgid "%1 (%2)"
 msgctxt "@info"
 msgid ""
 "%1\n"
 "(%2)"
-msgstr "%1 (%2)"
+msgstr ""
+"%1\n"
+"(%2)"
 
 #: akonadimodel.cpp:1494
 #, kde-format
@@ -356,8 +359,7 @@ msgctxt "@info"
 msgid ""
 "If a recurrence is configured, the start date/time will be adjusted to the "
 "first recurrence on or after the entered date/time."
-msgstr ""
-"如果有設定循環，啟始日期與時間會被調整到第一次循環（或之後）的日期與時間。"
+msgstr "如果有設定循環，啟始日期與時間會被調整到第一次循環（或之後）的日期與時間。"
 
 #: alarmtimewidget.cpp:87
 #, kde-format
@@ -467,8 +469,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Choose a time zone for this alarm which is different from the default time "
 "zone set in KAlarm's configuration dialog."
-msgstr ""
-"若是此鬧鐘使用的時區與設定對話框中的預設時區不同，可以在這裡選取使用的時區。"
+msgstr "若是此鬧鐘使用的時區與設定對話框中的預設時區不同，可以在這裡選取使用的時區。"
 
 #: alarmtimewidget.cpp:214 prefdlg.cpp:618
 #, kde-format
@@ -769,8 +770,7 @@ msgctxt "@info"
 msgid ""
 "The calendar <resource>%1</resource> has been made read-only. This was the "
 "default calendar for active alarms."
-msgstr ""
-"行事曆 <resource>%1</resource> 已變成唯讀。這是作用中鬧鐘的預設行事曆。"
+msgstr "行事曆 <resource>%1</resource> 已變成唯讀。這是作用中鬧鐘的預設行事曆。"
 
 #: collectionmodel.cpp:879
 #, kde-kuit-format
@@ -1050,7 +1050,7 @@ msgstr ""
 msgctxt "@info:shell"
 msgid ""
 "<icode>%1</icode> requires KAlarm to be compiled with QTextToSpeech support"
-msgstr ""
+msgstr "<icode>%1</icode> 需要 KAlarm 編譯時使用 QTextToSpeech 支援"
 
 #: commandoptions.cpp:695
 #, kde-format
@@ -1174,7 +1174,7 @@ msgstr "鬧鐘【唯讀】"
 #, kde-format
 msgctxt "@action:button"
 msgid "Try"
-msgstr ""
+msgstr "嘗試"
 
 #: editdlg.cpp:244
 #, kde-format
@@ -1379,12 +1379,12 @@ msgid "You must select a calendar to save the alarm in"
 msgstr "選擇行事曆以儲存鬧鐘。"
 
 #: editdlg.cpp:1272
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Less Options <<"
 msgctxt "@action:Button"
 msgid "Less Options <<"
-msgstr "減少選項<<"
+msgstr "較少的選項<<"
 
 #: editdlg.cpp:1277
 #, kde-format
@@ -1505,8 +1505,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<para>Enter how long in advance of or after the main alarm to display a "
 "reminder alarm.</para><para>%1</para>"
-msgstr ""
-"<para>輸入在主要鬧鐘響鈴時間之前或之後多久要顯示提醒。</para> <para>%1</para>"
+msgstr "<para>輸入在主要鬧鐘響鈴時間之前或之後多久要顯示提醒。</para> <para>%1</para>"
 
 #: editdlgtypes.cpp:264
 #, kde-format
@@ -1654,7 +1653,7 @@ msgid ""
 msgstr "紀錄檔必須是本地端的檔案，並且具有寫入權限。"
 
 #: editdlgtypes.cpp:988
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>No 'From' email address is configured.</para><para>Please set it in "
@@ -1664,8 +1663,8 @@ msgid ""
 "<para>No terminal is selected for command alarms.</para><para>Please set it "
 "in the <application>KAlarm</application> Configuration dialog.</para>"
 msgstr ""
-"<para>寄件者尚未設定。</para><para>請在 <application>KAlarm</application> 設"
-"定對話框中設定。</para>"
+"<para>指令鬧鐘尚未指定終端。</para><para>請在 <application>KAlarm</application>"
+" 的設定對話框設定它。</para>"
 
 #: editdlgtypes.cpp:1007
 #, kde-kuit-format
@@ -2373,8 +2372,7 @@ msgctxt "@info"
 msgid ""
 "Do you want to start KAlarm at login?<nl/>(Note that alarms will be disabled "
 "if KAlarm is not started.)"
-msgstr ""
-"您要在登入時啟動 KAlarm 嗎？<nl/>（注意，若 KAlarm 未啟動，鬧鐘都將被關閉）"
+msgstr "您要在登入時啟動 KAlarm 嗎？<nl/>（注意，若 KAlarm 未啟動，鬧鐘都將被關閉）"
 
 #: kalarmapp.cpp:1209
 #, kde-kuit-format
@@ -2388,14 +2386,16 @@ msgstr ""
 "問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
 
 #: kalarmapp.cpp:2096
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid "Failed to execute command (shell access not authorized)"
 msgctxt "@info"
 msgid ""
 "Failed to execute command\n"
 "(no terminal selected for command alarms)"
-msgstr "執行指令失敗（無法存取 shell）："
+msgstr ""
+"執行指令失敗\n"
+"（指令鬧鐘尚未指定終端）"
 
 #: kalarmapp.cpp:2244
 #, kde-format
@@ -2573,7 +2573,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "Desktops without auto-hide in system tray"
-msgstr ""
+msgstr "沒有自動隱藏在系統通知圖示的桌面"
 
 #. i18n: ectx: whatsthis, entry (NoAutoHideSystemTrayDesktops), group (General)
 #: kalarmconfig.kcfg:110
@@ -2581,7 +2581,7 @@ msgstr ""
 msgctxt "@info:whatsthis"
 msgid ""
 "Desktops for which the auto-hide in system tray option is not available."
-msgstr ""
+msgstr "自動隱藏在系統通知圖示選項中的桌面無法使用。"
 
 #. i18n: ectx: label, entry (AutoStart), group (General)
 #: kalarmconfig.kcfg:114
@@ -2830,7 +2830,7 @@ msgstr "寄件者的電子郵件地址"
 
 #. i18n: ectx: whatsthis, entry (Base_EmailFrom), group (General)
 #: kalarmconfig.kcfg:194
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "Your email address, used to identify you as the sender when sending email "
@@ -2844,8 +2844,8 @@ msgid ""
 "KMail or System Settings, \"@KMail\" to allow choice of KMail identities, or "
 "enter the actual email address otherwise."
 msgstr ""
-"寄件者，也就是您的電子郵件地址。輸入 @SystemSettings 可以使用在控制中心裡設定"
-"的電子郵件地址，@KMail 可以選擇 KMail 中的身份，或是輸入實際的電子郵件地址。"
+"寄件者，也就是您的電子郵件地址。輸入 @SystemSettings 可以使用在 KMail 或控制中心裡設定"
+"預設電子郵件地址，@KMail 可以選擇 KMail 中的身份，或是輸入實際的電子郵件地址。"
 
 #. i18n: ectx: label, entry (Base_EmailBccAddress), group (General)
 #: kalarmconfig.kcfg:198
@@ -2856,7 +2856,7 @@ msgstr "密件副本的電子郵件地址"
 
 #. i18n: ectx: whatsthis, entry (Base_EmailBccAddress), group (General)
 #: kalarmconfig.kcfg:199
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "Your email address, used for blind copying email alarms to yourself. If "
@@ -2873,9 +2873,8 @@ msgid ""
 "enter the actual email address otherwise."
 msgstr ""
 "密件副本使用的電子郵件地址，用於將寄件副本暗地裡傳送給您自己。如果您要發送到"
-"本機上的帳號，只要填入帳號名稱即可。輸入 @SystemSettings 可以使用在控制中心裡"
-"設定的電子郵件地址，@KMail 可以選擇 KMail 中的身份，或是輸入實際的電子郵件地"
-"址。"
+"本機上的帳號，只要填入帳號名稱即可。輸入 @SystemSettings 可以使用在 KMail 或控制中心裡設定"
+"預設電子郵件地址，@KMail 可以選擇 KMail 中的身份，或是輸入實際的電子郵件地址。"
 
 #. i18n: ectx: label, entry (Base_CmdXTermCommand), group (General)
 #: kalarmconfig.kcfg:203
@@ -3055,8 +3054,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Default value in the alarm edit dialog for late cancellation time (in "
 "minutes). 0 for no late cancellation, >0 how many minutes before cancelling."
-msgstr ""
-"時間超過多少時間則取消鬧鐘，以分為單位。0 不取消，其他正值則為超過的時間。"
+msgstr "時間超過多少時間則取消鬧鐘，以分為單位。0 不取消，其他正值則為超過的時間。"
 
 #. i18n: ectx: label, entry (DefaultAutoClose), group (Defaults)
 #: kalarmconfig.kcfg:272
@@ -3591,7 +3589,7 @@ msgstr ""
 "application> 設定對話框中設定。</para>"
 
 #: kamail.cpp:138
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>No 'From' email address is configured.</para><para>Please set it in "
@@ -3603,8 +3601,9 @@ msgid ""
 "default address in <application>KMail</application> or KDE System Settings "
 "or in the <application>KAlarm</application> Configuration dialog.</para>"
 msgstr ""
-"<para>寄件者尚未設定。</para><para>請在 KDE 系統設定，或是在 "
-"<application>KAlarm</application> 設定對話框中設定。</para>"
+"<para>寄件者尚未設定。</para><para>請在 <application>KMail</application> 或"
+"KDE 系統設定、或是在 <application>KAlarm</application> 配置對話框中設定預設"
+"電子信箱位置。</para>"
 
 #: kamail.cpp:143
 #, kde-kuit-format
@@ -3617,12 +3616,12 @@ msgstr ""
 "定對話框中設定。</para>"
 
 #: kamail.cpp:176
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@text/plain"
 #| msgid "Could not run <command>%1</command> to set wake from suspend"
 msgctxt "@info"
 msgid "<command>%1</command> not found"
-msgstr "無法執行 <command>%1</command>來設定從休眠中喚醒功能"
+msgstr "<command>%1</command> 不存在"
 
 #: kamail.cpp:238
 #, kde-kuit-format
@@ -3814,21 +3813,21 @@ msgid "KAlarm"
 msgstr "KAlarm"
 
 #: main.cpp:52
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Personal alarm message, command and email scheduler for KDE"
 msgid "Personal alarm message, command and email scheduler by KDE"
-msgstr "KDE 之個人鬧鐘"
+msgstr "來自 KDE 的私人的鬧鐘訊息、指令與信箱排程器"
 
 #: main.cpp:54
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Copyright 2001-2014, David Jarvie"
 msgid "Copyright 2001-%1, David Jarvie"
-msgstr "Copyright 2001-2014, David Jarvie"
+msgstr "Copyright 2001-%1, David Jarvie"
 
 #: main.cpp:56
 #, kde-format
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: mainwindow.cpp:117
 #, kde-format
@@ -4282,7 +4281,7 @@ msgstr "無法用語音說出訊息"
 #, kde-format
 msgctxt "@info"
 msgid "Text-to-speech subsystem is not available"
-msgstr ""
+msgstr "文字轉語音子系統不支援"
 
 #: messagewin.cpp:1541
 #, kde-kuit-format
@@ -4295,8 +4294,7 @@ msgstr "無法開啟音效檔：<filename>%1</filename>"
 msgctxt "@info"
 msgid ""
 "<para>Error playing audio file: <filename>%1</filename></para><para>%2</para>"
-msgstr ""
-"<para>播放音效檔：<filename>%1</filename> 時發生錯誤</para> <para>%2</para>"
+msgstr "<para>播放音效檔：<filename>%1</filename> 時發生錯誤</para> <para>%2</para>"
 
 #: messagewin.cpp:1968
 #, kde-format
@@ -4516,7 +4514,7 @@ msgid ""
 msgstr "勾選此選項，在離開 <application>KAlarm</application> 前會出示警告。"
 
 #: prefdlg.cpp:429
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Delete"
 msgctxt "@title:group"
@@ -4917,16 +4915,16 @@ msgid ""
 msgstr "您的電子郵件地址，用於填在寄件者欄位中。"
 
 #: prefdlg.cpp:1067 prefdlg.cpp:1103
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@option:radio"
 #| msgid "Use <application>KMail</application> identities"
 msgctxt "@option:radio"
 msgid ""
 "Use default address from <application>KMail</application> or System Settings"
-msgstr "使用 <application>Kmail</application> 的寄件者身份"
+msgstr "使用 <application>KMail</application> 或系統設定的預設位址"
 
 #: prefdlg.cpp:1070
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "Check to use the email address set in KDE System Settings, to identify "
@@ -4936,7 +4934,8 @@ msgid ""
 "Check to use the default email address set in <application>KMail</"
 "application> or KDE System Settings, to identify you as the sender when "
 "sending email alarms."
-msgstr "勾選此選項的話，寄件者欄位將使用 KDE 系統設定裡設定的電子郵件地址。"
+msgstr ""
+"勾選此選項的話，寄件者欄位將使用 <application>KMail</application> 或 KDE 系統設定裡設定的預設電子郵件地址。"
 
 #: prefdlg.cpp:1074
 #, kde-kuit-format
@@ -4977,7 +4976,7 @@ msgstr ""
 "名稱即可。"
 
 #: prefdlg.cpp:1106
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "Check to use the email address set in KDE System Settings, for blind "
@@ -4987,7 +4986,7 @@ msgid ""
 "Check to use the default email address set in <application>KMail</"
 "application> or KDE System Settings, for blind copying email alarms to "
 "yourself."
-msgstr "將密件副本發送到 KDE 系統設定所設定的電子郵件地址。"
+msgstr "將密件副本發送到 <application>KMail</application> 或 KDE 系統設定所設定的預設電子郵件地址。"
 
 #: prefdlg.cpp:1188
 #, kde-format
@@ -5002,14 +5001,14 @@ msgid "<para>%1</para><para>Are you sure you want to save your changes?</para>"
 msgstr "<para>%1</para> <para>您確定您要儲存變更嗎？</para>"
 
 #: prefdlg.cpp:1201
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "No email address is currently set in KDE System Settings. %1"
 msgctxt "@info"
 msgid ""
 "No default email address is currently set in <application>KMail</"
 "application> or KDE System Settings. %1"
-msgstr "KDE 系統設定裡沒有設定電子郵件地址。%1"
+msgstr "<application>KMail</application> 或 KDE 系統設定裡沒有設定預設電子郵件地址。%1"
 
 #: prefdlg.cpp:1206
 #, kde-kuit-format
@@ -5171,8 +5170,7 @@ msgctxt "@info"
 msgid ""
 "You must enter a sound file when <interface>%1</interface> is selected as "
 "the default sound type"
-msgstr ""
-"當選擇 <interface>%1</interface> 為預設音效型態時，您應該輸入一個音效檔案。"
+msgstr "當選擇 <interface>%1</interface> 為預設音效型態時，您應該輸入一個音效檔案。"
 
 #: prefdlg.cpp:1643
 #, kde-format
@@ -6291,7 +6289,7 @@ msgid "Could not run <command>%1</command> to set wake from suspend"
 msgstr "無法執行 <command>%1</command>來設定從休眠中喚醒功能"
 
 #: rtcwakeaction.cpp:95
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@text/plain"
 #| msgid ""
 #| "Error setting wake from suspend.<nl/>Command was: <command>%1</"
@@ -6301,8 +6299,8 @@ msgid ""
 "Error setting wake from suspend.<nl/>Command was: <command>%1 %2</"
 "command><nl/>Error code: %3."
 msgstr ""
-"設定從休眠中喚醒功能時發生錯誤。<nl/>指令為：<command>%1</command><nl/>錯誤代"
-"碼：%2"
+"設定從休眠中喚醒功能時發生錯誤。<nl/>指令為：<command>%1 %2</command><nl/>錯誤代"
+"碼：%3。"
 
 #: sounddlg.cpp:55
 #, kde-format
