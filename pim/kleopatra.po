@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-04 03:36+0200\n"
+"POT-Creation-Date: 2018-04-05 03:38+0200\n"
 "PO-Revision-Date: 2015-02-16 22:58+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -7823,6 +7823,12 @@ msgstr "序號"
 msgid "Certificates:"
 msgstr "憑證"
 
+#: src/view/netkeywidget.cpp:100
+#, fuzzy, kde-format
+#| msgid "Good signature by unknown certificate %1."
+msgid "There are unknown certificates on this card."
+msgstr "未知的憑證 %1 所做的正常簽署。"
+
 #: src/view/netkeywidget.cpp:101
 #, fuzzy, kde-format
 #| msgid "Certificates"
@@ -8861,9 +8867,6 @@ msgstr ""
 
 #~ msgid "Bad signature by %1: %2"
 #~ msgstr "%1 的簽署不正常：%2"
-
-#~ msgid "Good signature by unknown certificate %1."
-#~ msgstr "未知的憑證 %1 所做的正常簽署。"
 
 #~ msgid "Good signature by an unknown certificate."
 #~ msgstr "未知的憑證所做的正常的簽署。"

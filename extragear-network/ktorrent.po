@@ -277,7 +277,8 @@ msgstr "目錄 %1 不存在，您要建立它嗎？"
 msgid ""
 "You have deselected the following existing files. You will lose all data in "
 "these files, are you sure you want to do this?"
-msgstr "您已取消選取以下的檔案。您將會失去所有這些檔案中的資料。您確定要這樣做嗎？"
+msgstr ""
+"您已取消選取以下的檔案。您將會失去所有這些檔案中的資料。您確定要這樣做嗎？"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:313
 #, kde-format
@@ -1283,7 +1284,6 @@ msgstr "顯示/隱藏 KTorrent"
 
 #: ktorrent/gui.cpp:452
 #, kde-format
-#| msgid "DHT: %1, %2"
 msgid "D: %1 | U: %2"
 msgstr "D: %1 | U: %2"
 
@@ -1439,7 +1439,6 @@ msgstr "KTorrent"
 
 #: ktorrent/main.cpp:118
 #, kde-format
-#| msgid "Bittorrent client for KDE"
 msgid "Bittorrent client by KDE"
 msgstr "來自 KDE 的 Bittorent 客戶端"
 
@@ -2286,7 +2285,8 @@ msgstr "追蹤器"
 msgid ""
 "Instead of allowing the tracker to determine your IP address, tell the "
 "tracker which IP address to use. Use this when you are behind a proxy."
-msgstr "直接指定 IP，而不讓追蹤器決定您的 IP 位址。當您使用代理伺服器時請使用此選項。"
+msgstr ""
+"直接指定 IP，而不讓追蹤器決定您的 IP 位址。當您使用代理伺服器時請使用此選項。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomIP)
 #: ktorrent/pref/btpref.ui:133
@@ -2848,7 +2848,8 @@ msgstr "佇列管理員"
 msgid ""
 "When enabled, the queue manager will be totally disabled, allowing you to "
 "fully control all torrents manually."
-msgstr "開啟此選項的話，佇列管理員會完全關閉，您可以手動完全控制所有的 torrent。"
+msgstr ""
+"開啟此選項的話，佇列管理員會完全關閉，您可以手動完全控制所有的 torrent。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_manuallyControlTorrents)
 #: ktorrent/pref/qmpref.ui:20
@@ -2960,7 +2961,8 @@ msgstr "停滯超過多久的 torrent 降低其優先權："
 msgid ""
 "<p>Time used for the stall timer. When a torrent is stalled longer than "
 "this, its priority will be decreased.</p>"
-msgstr "<p>停滯計時器的時間。當 torrent 停滯超過這個時間後，優先權會被降低。</p>"
+msgstr ""
+"<p>停滯計時器的時間。當 torrent 停滯超過這個時間後，優先權會被降低。</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: ktorrent/pref/qmpref.ui:159
@@ -3034,13 +3036,7 @@ msgid ""
 "will not be affected by changing this."
 msgstr ""
 "最大播種時間，以小時為單位。達到此時間之後，此 torrent 會停止播"
-"種。                                                                           "
-"                                                                             "
-"                                                                             "
-"                                                                             "
-"                                                                             "
-"                                                                             "
-"                           "
+"種。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "
 "這只會套用在新開啟的 torrent，目前已存在的 torrent 將不會被影響。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
@@ -3475,7 +3471,8 @@ msgstr "<b>%1</b> 已因以下錯誤停止: <br>%2"
 msgid ""
 "Corrupted data has been found in the torrent <b>%1</b><br>It would be a good "
 "idea to do a data integrity check on the torrent."
-msgstr "在 torrent <b>%1</b> 中找到損毀的資料。最好是對該 torrent 做資料完整度檢查。"
+msgstr ""
+"在 torrent <b>%1</b> 中找到損毀的資料。最好是對該 torrent 做資料完整度檢查。"
 
 #: ktorrent/trayicon.cpp:278
 #, kde-format
@@ -4100,7 +4097,6 @@ msgstr "KTorrent 的 UPnP 測試程式"
 
 #: ktupnptest/main.cpp:42
 #, kde-format
-#| msgid "(C) 2005 - 2007 Joris Guisson and Ivan Vasic"
 msgid "&copy; 2005 - 2007 Joris Guisson and Ivan Vasic"
 msgstr "&copy; 2005 - 2007 Joris Guisson 和 Ivan Vasic"
 
@@ -4473,7 +4469,8 @@ msgstr ""
 msgid ""
 "The torrent \"%1\" has reached its maximum share ratio and its maximum seed "
 "time. Ignore the limit and start seeding anyway?"
-msgstr "<b>%1</b> 已達最大分享比例已及最大播種時間。要忽略這些限制，並開始播種嗎？"
+msgstr ""
+"<b>%1</b> 已達最大分享比例已及最大播種時間。要忽略這些限制，並開始播種嗎？"
 
 #: libktcore/torrent/queuemanager.cpp:120
 #, kde-format
@@ -6602,7 +6599,8 @@ msgstr "載入後移除 torrent 檔"
 msgid ""
 "When a torrent file is loaded, move it to a subdirectory named loaded. If "
 "the folder does not exist, it will be created."
-msgstr "載入 torrent 檔後，將它移到名為 loaded 的子目錄。如果目錄不存在，就建立它。"
+msgstr ""
+"載入 torrent 檔後，將它移到名為 loaded 的子目錄。如果目錄不存在，就建立它。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_actionMove)
 #: plugins/scanfolder/scanfolderprefpage.ui:113
@@ -6901,7 +6899,6 @@ msgstr "目前的搜尋引擎"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxySettings)
 #: plugins/search/ktsearchplugin.kcfg:14 plugins/search/searchpref.ui:92
 #, kde-format
-#| msgid "Use KDE proxy settings"
 msgid "Use proxy settings for search"
 msgstr "為搜尋使用代理伺服器設定"
 
@@ -7005,7 +7002,6 @@ msgstr "在外部瀏覽器開啟搜尋"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useProxySettings)
 #: plugins/search/searchpref.ui:89
 #, kde-format
-#| msgid "Whether or not to use the HTTP proxy for webseed connections."
 msgid "Whether or not to use the HTTP proxy settings for search."
 msgstr "搜尋是否使用 HTTP 代理伺服器設定"
 
@@ -8030,10 +8026,6 @@ msgstr "<b>%1</b><br/><br/>下載失敗：<b>%2</b>"
 
 #: plugins/syndication/feedwidget.cpp:43
 #, kde-format
-#| msgid ""
-#| "    <html>    <body>    <div style=\"border-style:solid; border-"
-#| "width:1px; margin:5px; padding:5px\">    <b>Title:</b> %1<br/>    <b>Date:"
-#| "</b> %2<br/>    </div>    <p>%3</p>    </body>    </html>    "
 msgid ""
 "    <html>    <body style=\"color:%4\">    <div style=\"border-style:solid; "
 "border-width:1px; border-color:%4; margin:5px; padding:5px\">    <b>Title:</"
@@ -8263,7 +8255,8 @@ msgstr ""
 msgid ""
 "By default strings will use wildcard matching. If you want to use regular "
 "expressions, this needs to be enabled."
-msgstr "預設會使用萬用字元的方式來比對。若您要使用正規表示式，則需要開啟此選項。"
+msgstr ""
+"預設會使用萬用字元的方式來比對。若您要使用正規表示式，則需要開啟此選項。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_reg_exp_syntax)
 #. i18n: ectx: property (text), widget (QCheckBox, m_exclusion_reg_exp)
@@ -8578,7 +8571,8 @@ msgstr "連接埠已轉送"
 msgid ""
 "Model Name: <b>%1</b><br/>Manufacturer: <b>%2</b><br/>Model Description: <b>"
 "%3</b><br/>"
-msgstr "模組名稱：<b>%1</b><br /> 製造商：<b>%2</b><br /> 模組描述：<b>%3</b><br />"
+msgstr ""
+"模組名稱：<b>%1</b><br /> 製造商：<b>%2</b><br /> 模組描述：<b>%3</b><br />"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, UPnPWidget)
 #: plugins/upnp/upnpplugin.cpp:56 plugins/upnp/upnpplugin.cpp:60

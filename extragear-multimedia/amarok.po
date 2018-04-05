@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-26 03:16+0200\n"
+"POT-Creation-Date: 2018-04-05 03:27+0200\n"
 "PO-Revision-Date: 2018-03-29 13:28+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -381,7 +381,7 @@ msgstr "在目前曲目後停止：關閉"
 msgid "Stop after current track: On"
 msgstr "在目前曲目後停止：開啟"
 
-#: ActionClasses.cpp:497 EngineController.cpp:1313 mac/GrowlInterface.cpp:43
+#: ActionClasses.cpp:497 EngineController.cpp:1319 mac/GrowlInterface.cpp:43
 #: widgets/Osd.cpp:670
 #, kde-format
 msgid "No track playing"
@@ -1779,97 +1779,97 @@ msgctxt ""
 msgid "Play"
 msgstr "播放"
 
-#: App.cpp:355
+#: App.cpp:358
 #, kde-format
 msgid "Files/URLs to open"
 msgstr "要開啟的檔案/URL"
 
-#: App.cpp:356
+#: App.cpp:359
 #, kde-format
 msgid "Immediately start playing an audio cd"
 msgstr "立刻開始播放音樂光碟"
 
-#: App.cpp:357
+#: App.cpp:360
 #, kde-format
 msgid "Skip backwards in playlist"
 msgstr "在播放清單中往後略過"
 
-#: App.cpp:358
+#: App.cpp:361
 #, kde-format
 msgid "Start playing current playlist"
 msgstr "開始播放目前的播放清單"
 
-#: App.cpp:359
+#: App.cpp:362
 #, kde-format
 msgid "Play if stopped, pause if playing"
 msgstr "停止的話就開始播放，播放中的就暫停"
 
-#: App.cpp:360
+#: App.cpp:363
 #, kde-format
 msgid "Pause playback"
 msgstr "暫停播放"
 
-#: App.cpp:361
+#: App.cpp:364
 #, kde-format
 msgid "Stop playback"
 msgstr "停止播放"
 
-#: App.cpp:362
+#: App.cpp:365
 #, kde-format
 msgid "Skip forwards in playlist"
 msgstr "在播放清單中往前略過"
 
-#: App.cpp:364
+#: App.cpp:367
 #, kde-format
 msgid "Additional options:"
 msgstr "額外設定："
 
-#: App.cpp:365
+#: App.cpp:368
 #, kde-format
 msgid "Append files/URLs to playlist"
 msgstr "要附加到播放清單的檔案/URL"
 
-#: App.cpp:366
+#: App.cpp:369
 #, kde-format
 msgid "Queue URLs after the currently playing track"
 msgstr "目前曲目播放完後，仍在佇列中的 URL"
 
-#: App.cpp:367
+#: App.cpp:370
 #, kde-format
 msgid "Load URLs, replacing current playlist"
 msgstr "載入 URL，會取代掉目前的播放清單"
 
-#: App.cpp:368
+#: App.cpp:371
 #, kde-format
 msgid "Print verbose debugging information"
 msgstr "印出詳細除錯資訊"
 
-#: App.cpp:369
+#: App.cpp:372
 #, kde-format
 msgid "Print verbose debugging information from the audio system"
 msgstr "印出音效系統的詳細除錯資訊"
 
-#: App.cpp:370
+#: App.cpp:373
 #, kde-format
 msgid "Disable colorization for debug output."
 msgstr "關閉除錯輸出的色彩。"
 
-#: App.cpp:371
+#: App.cpp:374
 #, kde-format
 msgid "Allow running multiple Amarok instances"
 msgstr "允許執行多個 Amarok 實體"
 
-#: App.cpp:372
+#: App.cpp:375
 #, kde-format
 msgid "Base for relative filenames/URLs"
 msgstr "檔名/URL 為相對路徑時它們的基底目錄"
 
-#: App.cpp:508 configdialog/dialogs/DatabaseConfig.cpp:110
+#: App.cpp:515 configdialog/dialogs/DatabaseConfig.cpp:110
 #, kde-format
 msgid "Database Error"
 msgstr "資料庫錯誤"
 
-#: App.cpp:509
+#: App.cpp:516
 #, fuzzy, kde-format
 #| msgid ""
 #| "The amarok database reported the following errors:\n"
@@ -1886,12 +1886,12 @@ msgstr ""
 "%1\n"
 "大部份狀況下您需要解決這些錯誤，Amarok 才能正確執行。"
 
-#: App.cpp:576
+#: App.cpp:583
 #, kde-format
 msgid "Moving files to trash"
 msgstr "正在把檔案移至資源回收筒"
 
-#: App.cpp:642
+#: App.cpp:649
 #, kde-format
 msgid ""
 "A music path, %1, is set in System Settings.\n"
@@ -1910,12 +1910,12 @@ msgstr "媒體來源首頁"
 msgid "Filter Music Sources"
 msgstr "過濾音樂來源"
 
-#: browsers/BrowserDock.cpp:35
+#: browsers/BrowserDock.cpp:34
 #, kde-format
 msgid "&Media Sources"
 msgstr "媒體來源(&M)"
 
-#: browsers/BrowserDock.cpp:82
+#: browsers/BrowserDock.cpp:74
 #, kde-format
 msgid "Go Up in Media Sources Pane"
 msgstr "在媒體來源面板中往上"
@@ -2034,7 +2034,7 @@ msgid "Unknown"
 msgstr "未知"
 
 #: browsers/CollectionTreeItemModelBase.cpp:316
-#: core-impl/collections/db/sql/SqlMeta.cpp:408
+#: core-impl/collections/db/sql/SqlMeta.cpp:411
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:98
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:154
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:702
@@ -3886,7 +3886,7 @@ msgstr "佇列(&Q)"
 msgid "Edit Track Details"
 msgstr "編輯曲目詳細資訊"
 
-#: context/applets/currenttrack/plugin/CurrentEngine.cpp:258
+#: context/applets/currenttrack/plugin/CurrentEngine.cpp:259
 #: transcoding/TranscodingSelectConfigWidget.cpp:35
 #, kde-format
 msgid "Never"
@@ -5133,7 +5133,7 @@ msgstr "轉換格式中：%1"
 msgid "Removing: %1"
 msgstr "移除中：%1"
 
-#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:84
+#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:85
 #, kde-format
 msgid ""
 "<ul><li>%1</li></ul>In most cases this means that not all of your tracks "
@@ -5146,12 +5146,12 @@ msgstr ""
 "TroubleshootingAndCommonProblems#Duplicate_Tracks'>Amarok 手冊</a>尋找關於重"
 "複曲目的資訊。"
 
-#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:88
+#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:89
 #, kde-format
 msgid "Errors During Collection Scan"
 msgstr "掃描收藏時發生錯誤"
 
-#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:207
+#: core-impl/collections/db/sql/SqlScanResultProcessor.cpp:212
 #, kde-format
 msgid ""
 "Duplicates found, the second file will be ignored:\n"
@@ -5226,7 +5226,7 @@ msgstr "未知的演出者"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:184
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:93
-#: EngineController.cpp:1291
+#: EngineController.cpp:1297
 #, kde-format
 msgid "Unknown track"
 msgstr "未知的曲目"
@@ -6062,7 +6062,7 @@ msgstr "無法產生一個暫存檔到下載播放清單."
 msgid "Downloading remote playlist"
 msgstr "正在下載遠端播放清單 "
 
-#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:93
+#: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:92
 #, kde-format
 msgctxt "%1 is file path"
 msgid "Cannot read playlist from %1"
@@ -6953,7 +6953,7 @@ msgctxt "One word translation used in the collection filter"
 msgid "lyrics"
 msgstr "歌詞"
 
-#: core/meta/support/MetaUtility.cpp:415
+#: core/meta/support/MetaUtility.cpp:420
 #, kde-format
 msgctxt ""
 "the time format for a time length when the time is below 1 hour see QTime "
@@ -6961,14 +6961,14 @@ msgctxt ""
 msgid "m:ss"
 msgstr "m:ss"
 
-#: core/meta/support/MetaUtility.cpp:422
+#: core/meta/support/MetaUtility.cpp:427
 #, kde-format
 msgctxt "number of days with spacing for the pretty time"
 msgid "%1 day, "
 msgid_plural "%1 days, "
 msgstr[0] "%1 天，"
 
-#: core/meta/support/MetaUtility.cpp:423
+#: core/meta/support/MetaUtility.cpp:428
 #, kde-format
 msgctxt ""
 "the time format for a time length when the time is 1 hour or above see QTime "
@@ -6976,42 +6976,42 @@ msgctxt ""
 msgid "h:mm:ss"
 msgstr "h:mm:ss"
 
-#: core/meta/support/MetaUtility.cpp:437
+#: core/meta/support/MetaUtility.cpp:442
 #, kde-format
 msgctxt "number of years for the pretty time"
 msgid "%1 year"
 msgid_plural "%1 years"
 msgstr[0] "%1 年"
 
-#: core/meta/support/MetaUtility.cpp:439
+#: core/meta/support/MetaUtility.cpp:444
 #, kde-format
 msgctxt "number of months for the pretty time"
 msgid "%1 month"
 msgid_plural "%1 months"
 msgstr[0] "%1 個月"
 
-#: core/meta/support/MetaUtility.cpp:441
+#: core/meta/support/MetaUtility.cpp:446
 #, kde-format
 msgctxt "number of days for the pretty time"
 msgid "%1 day"
 msgid_plural "%1 days"
 msgstr[0] "%1 天"
 
-#: core/meta/support/MetaUtility.cpp:443
+#: core/meta/support/MetaUtility.cpp:448
 #, kde-format
 msgctxt "number of hours for the pretty time"
 msgid "%1 hour"
 msgid_plural "%1 hours"
 msgstr[0] "%1 小時"
 
-#: core/meta/support/MetaUtility.cpp:445
+#: core/meta/support/MetaUtility.cpp:450
 #, kde-format
 msgctxt "number of minutes for the pretty time"
 msgid "%1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] "%1 分鐘"
 
-#: core/meta/support/MetaUtility.cpp:447
+#: core/meta/support/MetaUtility.cpp:452
 #, kde-format
 msgctxt "number of seconds for the pretty time"
 msgid "%1 second"
@@ -7633,17 +7633,17 @@ msgstr "與封面提供者聯繫時發生錯誤：%1"
 msgid "Retrieved cover successfully for '%1'."
 msgstr "已成功從 %1 取得封面。"
 
-#: covermanager/CoverFetcher.cpp:421
+#: covermanager/CoverFetcher.cpp:420
 #, kde-format
 msgid "Fetching cover for '%1' failed."
 msgstr "取得 %1 的封面失敗。"
 
-#: covermanager/CoverFetcher.cpp:434
+#: covermanager/CoverFetcher.cpp:433
 #, kde-format
 msgid "Canceled fetching cover for '%1'."
 msgstr "已取消抓取 %1 的封面。"
 
-#: covermanager/CoverFetcher.cpp:443
+#: covermanager/CoverFetcher.cpp:442
 #, kde-format
 msgid "Unable to find a cover for '%1'."
 msgstr "找不到 %1 的封面。"
@@ -9978,30 +9978,30 @@ msgctxt "Name of a dynamic playlist"
 msgid "Rating"
 msgstr "評等"
 
-#: EngineController.cpp:1084
+#: EngineController.cpp:1087
 #, kde-format
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr "播放清單遇到太多錯誤。播放已停止。"
 
-#: EngineController.cpp:1281
+#: EngineController.cpp:1287
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> 由 <b>%2</b> 於 <b>%3</b>"
 
-#: EngineController.cpp:1283
+#: EngineController.cpp:1289
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> 由 <b>%2</b>"
 
-#: EngineController.cpp:1286
+#: EngineController.cpp:1292
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> 於 <b>%2</b>"
 
-#: EngineController.cpp:1298
+#: EngineController.cpp:1304
 #, kde-format
 msgctxt "track from source"
 msgid "from <b>%1</b>"
@@ -13649,7 +13649,7 @@ msgid ""
 "Amarok could not find any plugins. This indicates an installation problem."
 msgstr "Amarok 找不到任何外掛程式。這表示安裝有問題。"
 
-#: scanner/AbstractScanResultProcessor.cpp:67
+#: scanner/AbstractScanResultProcessor.cpp:66
 #, kde-format
 msgid "Scanning music"
 msgstr "掃瞄音樂中"

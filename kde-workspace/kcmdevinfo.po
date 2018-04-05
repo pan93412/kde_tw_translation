@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"POT-Creation-Date: 2018-04-05 03:41+0200\n"
 "PO-Revision-Date: 2016-11-03 16:18+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -156,345 +156,368 @@ msgctxt "Default device tooltip"
 msgid "A Device"
 msgstr "裝置"
 
-#: soldevicetypes.cpp:42
+#: soldevicetypes.cpp:44
 #, kde-format
 msgid "Processors"
 msgstr "處理器"
 
-#: soldevicetypes.cpp:58
+#: soldevicetypes.cpp:60
 #, kde-format
 msgid "Processor %1"
 msgstr "處理器 %1"
 
-#: soldevicetypes.cpp:75
+#: soldevicetypes.cpp:77
 #, kde-format
 msgid "Intel MMX"
 msgstr "Intel MMX"
 
-#: soldevicetypes.cpp:78
+#: soldevicetypes.cpp:80
 #, kde-format
 msgid "Intel SSE"
 msgstr "Intel SSE"
 
-#: soldevicetypes.cpp:81
+#: soldevicetypes.cpp:83
 #, kde-format
 msgid "Intel SSE2"
 msgstr "Intel SSE2"
 
-#: soldevicetypes.cpp:84
+#: soldevicetypes.cpp:86
 #, kde-format
 msgid "Intel SSE3"
 msgstr "Intel SSE3"
 
-#: soldevicetypes.cpp:87
+#: soldevicetypes.cpp:89
 #, kde-format
 msgid "Intel SSE4"
 msgstr "Intel SSE4"
 
-#: soldevicetypes.cpp:90
+#: soldevicetypes.cpp:92
 #, kde-format
 msgid "AMD 3DNow"
 msgstr "AMD 3DNow"
 
-#: soldevicetypes.cpp:93
+#: soldevicetypes.cpp:95
 #, kde-format
 msgid "ATI IVEC"
 msgstr "ATI IVEC"
 
-#: soldevicetypes.cpp:96
+#: soldevicetypes.cpp:98
 #, kde-format
 msgctxt "no instruction set extensions"
 msgid "None"
 msgstr "無"
 
-#: soldevicetypes.cpp:99
+#: soldevicetypes.cpp:101
 #, kde-format
 msgid "Processor Number: "
 msgstr "處理器編號："
 
-#: soldevicetypes.cpp:101
+#: soldevicetypes.cpp:103
 #, kde-format
 msgid "Max Speed: "
 msgstr "最大速率："
 
-#: soldevicetypes.cpp:103
+#: soldevicetypes.cpp:105
 #, kde-format
 msgid "Supported Instruction Sets: "
 msgstr "支援的指令集："
 
-#: soldevicetypes.cpp:131
+#: soldevicetypes.cpp:133
 #, kde-format
 msgid "Storage Drives"
 msgstr "儲存裝置"
 
-#: soldevicetypes.cpp:150
+#: soldevicetypes.cpp:152
 #, kde-format
 msgid "Hard Disk Drive"
 msgstr "硬碟機"
 
-#: soldevicetypes.cpp:153
+#: soldevicetypes.cpp:155
 #, kde-format
 msgid "Compact Flash Reader"
 msgstr "CF 卡讀取器"
 
-#: soldevicetypes.cpp:156
+#: soldevicetypes.cpp:158
 #, kde-format
 msgid "Smart Media Reader"
 msgstr "智慧型媒體讀取器"
 
-#: soldevicetypes.cpp:159
+#: soldevicetypes.cpp:161
 #, kde-format
 msgid "SD/MMC Reader"
 msgstr "SD/MMC 讀取器"
 
-#: soldevicetypes.cpp:162
+#: soldevicetypes.cpp:164
 #, kde-format
 msgid "Optical Drive"
 msgstr "光碟機"
 
-#: soldevicetypes.cpp:165
+#: soldevicetypes.cpp:167
 #, kde-format
 msgid "Memory Stick Reader"
 msgstr "記憶卡讀取器"
 
-#: soldevicetypes.cpp:168
+#: soldevicetypes.cpp:170
 #, kde-format
 msgid "xD Reader"
 msgstr "xD 讀取器"
 
-#: soldevicetypes.cpp:171
+#: soldevicetypes.cpp:173
 #, kde-format
 msgid "Unknown Drive"
 msgstr "未知的裝置"
 
-#: soldevicetypes.cpp:191
+#: soldevicetypes.cpp:193
 #, kde-format
 msgid "IDE"
 msgstr "IDE"
 
-#: soldevicetypes.cpp:194
+#: soldevicetypes.cpp:196
 #, kde-format
 msgid "USB"
 msgstr "USB"
 
-#: soldevicetypes.cpp:197
+#: soldevicetypes.cpp:199
 #, kde-format
 msgid "IEEE1394"
 msgstr "IEEE 1394"
 
-#: soldevicetypes.cpp:200
+#: soldevicetypes.cpp:202
 #, kde-format
 msgid "SCSI"
 msgstr "SCSI"
 
-#: soldevicetypes.cpp:203
+#: soldevicetypes.cpp:205
 #, kde-format
 msgid "SATA"
 msgstr "SATA"
 
-#: soldevicetypes.cpp:206
+#: soldevicetypes.cpp:208
 #, kde-format
 msgctxt "platform storage bus"
 msgid "Platform"
 msgstr "平台"
 
-#: soldevicetypes.cpp:209
+#: soldevicetypes.cpp:211
 #, kde-format
 msgctxt "unknown storage bus"
 msgid "Unknown"
 msgstr "未知"
 
-#: soldevicetypes.cpp:212
+#: soldevicetypes.cpp:214
 #, kde-format
 msgid "Bus: "
 msgstr "匯流排："
 
-#: soldevicetypes.cpp:214
+#: soldevicetypes.cpp:216
 #, kde-format
 msgid "Hotpluggable?"
 msgstr "可熱插拔嗎？"
 
-#: soldevicetypes.cpp:216
+#: soldevicetypes.cpp:218
 #, kde-format
 msgid "Removable?"
 msgstr "可移除嗎？"
 
-#: soldevicetypes.cpp:260
+#: soldevicetypes.cpp:262
 #, kde-format
 msgid "Unused"
 msgstr "未使用"
 
-#: soldevicetypes.cpp:263
+#: soldevicetypes.cpp:265
 #, kde-format
 msgid "File System"
 msgstr "檔案系統"
 
-#: soldevicetypes.cpp:266
+#: soldevicetypes.cpp:268
 #, kde-format
 msgid "Partition Table"
 msgstr "磁碟分割表"
 
-#: soldevicetypes.cpp:269
+#: soldevicetypes.cpp:271
 #, kde-format
 msgid "Raid"
 msgstr "Raid"
 
-#: soldevicetypes.cpp:272
+#: soldevicetypes.cpp:274
 #, kde-format
 msgid "Encrypted"
 msgstr "已加密"
 
-#: soldevicetypes.cpp:275
+#: soldevicetypes.cpp:277
 #, kde-format
 msgctxt "unknown volume usage"
 msgid "Unknown"
 msgstr "未知"
 
-#: soldevicetypes.cpp:278
+#: soldevicetypes.cpp:280
 #, kde-format
 msgid "File System Type: "
 msgstr "檔案系統型態："
 
-#: soldevicetypes.cpp:280
+#: soldevicetypes.cpp:282
 #, kde-format
 msgid "Label: "
 msgstr "標籤："
 
-#: soldevicetypes.cpp:281
+#: soldevicetypes.cpp:283
 #, kde-format
 msgid "Not Set"
 msgstr "未設定"
 
-#: soldevicetypes.cpp:282
+#: soldevicetypes.cpp:284
 #, kde-format
 msgid "Volume Usage: "
 msgstr "用量："
 
-#: soldevicetypes.cpp:284
+#: soldevicetypes.cpp:286
 #, kde-format
 msgid "UUID: "
 msgstr "UUID："
 
-#: soldevicetypes.cpp:289
+#: soldevicetypes.cpp:291
 #, kde-format
 msgid "Mounted At: "
 msgstr "掛載於："
 
-#: soldevicetypes.cpp:290
+#: soldevicetypes.cpp:292
 #, kde-format
 msgid "Not Mounted"
 msgstr "未掛載"
 
-#: soldevicetypes.cpp:296
+#: soldevicetypes.cpp:298
 #, kde-format
 msgid "Volume Space:"
 msgstr "容量大小："
 
-#: soldevicetypes.cpp:304
+#: soldevicetypes.cpp:306
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
 msgstr "剩餘 %1，共 %2 (%3% 已使用)"
 
-#: soldevicetypes.cpp:310
+#: soldevicetypes.cpp:312
 #, kde-format
 msgid "No data available"
 msgstr "沒有可用的資料"
 
-#: soldevicetypes.cpp:337
+#: soldevicetypes.cpp:339
 #, kde-format
 msgid "Multimedia Players"
 msgstr "多媒體播放器"
 
-#: soldevicetypes.cpp:356 soldevicetypes.cpp:398
+#: soldevicetypes.cpp:358 soldevicetypes.cpp:400
 #, kde-format
 msgid "Supported Drivers: "
 msgstr "支援的驅動程式："
 
-#: soldevicetypes.cpp:358 soldevicetypes.cpp:400
+#: soldevicetypes.cpp:360 soldevicetypes.cpp:402
 #, kde-format
 msgid "Supported Protocols: "
 msgstr "支援的協定："
 
-#: soldevicetypes.cpp:379
+#: soldevicetypes.cpp:381
 #, kde-format
 msgid "Cameras"
 msgstr "相機"
 
-#: soldevicetypes.cpp:421
+#: soldevicetypes.cpp:423
 #, kde-format
 msgid "Batteries"
 msgstr "電池"
 
-#: soldevicetypes.cpp:443
+#: soldevicetypes.cpp:445
 #, kde-format
 msgid "PDA"
 msgstr "PDA"
 
-#: soldevicetypes.cpp:446
+#: soldevicetypes.cpp:448
 #, kde-format
 msgid "UPS"
 msgstr "UPS"
 
-#: soldevicetypes.cpp:449
-#, kde-format
-msgid "Mouse"
-msgstr "滑鼠"
-
-#: soldevicetypes.cpp:452
+#: soldevicetypes.cpp:451
 #, kde-format
 msgid "Primary"
 msgstr "主要"
 
-#: soldevicetypes.cpp:455
+#: soldevicetypes.cpp:454
+#, kde-format
+msgid "Mouse"
+msgstr "滑鼠"
+
+#: soldevicetypes.cpp:457
 #, kde-format
 msgid "Keyboard"
 msgstr "鍵盤"
 
-#: soldevicetypes.cpp:458
+#: soldevicetypes.cpp:460
 #, kde-format
 msgid "Keyboard + Mouse"
 msgstr "鍵盤+滑鼠"
 
-#: soldevicetypes.cpp:461
+#: soldevicetypes.cpp:463
 #, kde-format
 msgid "Camera"
 msgstr "相機"
 
-#: soldevicetypes.cpp:464
+#: soldevicetypes.cpp:466
+#, kde-format
+msgid "Phone"
+msgstr ""
+
+#: soldevicetypes.cpp:469
+#, kde-format
+msgctxt "Screen"
+msgid "Monitor"
+msgstr ""
+
+#: soldevicetypes.cpp:472
+#, kde-format
+msgctxt "Wireless game pad or joystick battery"
+msgid "Gaming Input"
+msgstr ""
+
+#: soldevicetypes.cpp:475
 #, kde-format
 msgctxt "unknown battery type"
 msgid "Unknown"
 msgstr "未知"
 
-#: soldevicetypes.cpp:470
+#: soldevicetypes.cpp:481
 #, kde-format
 msgid "Charging"
 msgstr "充電中"
 
-#: soldevicetypes.cpp:473
+#: soldevicetypes.cpp:484
 #, kde-format
 msgid "Discharging"
 msgstr "放電中"
 
-#: soldevicetypes.cpp:476
+#: soldevicetypes.cpp:487
 #, kde-format
 msgid "Fully Charged"
 msgstr "已充飽"
 
-#: soldevicetypes.cpp:479
+#: soldevicetypes.cpp:490
 #, kde-format
 msgid "No Charge"
 msgstr "未充電"
 
-#: soldevicetypes.cpp:482
+#: soldevicetypes.cpp:493
 #, kde-format
 msgid "Battery Type: "
 msgstr "電池型態："
 
-#: soldevicetypes.cpp:484
+#: soldevicetypes.cpp:495
 #, kde-format
 msgid "Charge Status: "
+msgstr "充電狀態："
+
+#: soldevicetypes.cpp:497
+#, fuzzy, kde-format
+#| msgid "Charge Status: "
+msgid "Charge Percent: "
 msgstr "充電狀態："
 
 #~ msgid "Network Interfaces"

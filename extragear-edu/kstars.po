@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-02 03:20+0200\n"
+"POT-Creation-Date: 2018-04-05 03:25+0200\n"
 "PO-Revision-Date: 2018-03-29 13:29+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1300,7 +1300,7 @@ msgstr "物件詳細資料"
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
 #. i18n: ectx: property (title), widget (QGroupBox, generalGroup)
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabGeneral)
-#: dialogs/detaildialog.cpp:85 ekos/opsekos.ui:21 indi/opsindi.ui:17
+#: dialogs/detaildialog.cpp:85 ekos/opsekos.ui:21 indi/opsindi.ui:32
 #: kstarslite/qml/dialogs/DetailsDialog.qml:41 printing/detailstable.cpp:338
 #: xplanet/opsxplanet.ui:21
 #, kde-format, kde-kuit-format
@@ -8044,7 +8044,7 @@ msgid "FITS"
 msgstr "FITS 開啟"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showINDIMessages)
-#: ekos/auxiliary/opslogs.ui:382 indi/opsindi.ui:363
+#: ekos/auxiliary/opslogs.ui:382 indi/opsindi.ui:378
 #, kde-format
 msgid "Display INDI status messages in the status bar"
 msgstr "在狀態列中顯示 INDI 狀態訊息"
@@ -8052,13 +8052,13 @@ msgstr "在狀態列中顯示 INDI 狀態訊息"
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_showINDIMessages)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showINDIMessages)
 #: ekos/auxiliary/opslogs.ui:385 ekos/auxiliary/opslogs.ui:388
-#: indi/opsindi.ui:366 indi/opsindi.ui:369
+#: indi/opsindi.ui:381 indi/opsindi.ui:384
 #, kde-format
 msgid "Display incoming INDI status messages in KStars status bar"
 msgstr "在狀態列中顯示 INDI 狀態訊息"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showINDIMessages)
-#: ekos/auxiliary/opslogs.ui:391 indi/opsindi.ui:372
+#: ekos/auxiliary/opslogs.ui:391 indi/opsindi.ui:387
 #, kde-format
 msgid "INDI messages in status &bar"
 msgstr "狀態列中顯示 INDI 訊息(&B)"
@@ -13578,7 +13578,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowEkos)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowFITS)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowINDI)
-#: ekos/opsekos.ui:130 fitsviewer/opsfits.ui:107 indi/opsindi.ui:382
+#: ekos/opsekos.ui:130 fitsviewer/opsfits.ui:107 indi/opsindi.ui:397
 #, fuzzy, kde-format
 #| msgctxt "City in Kansas USA"
 #| msgid "Independence"
@@ -17388,7 +17388,7 @@ msgid "SNR:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, displayGroup)
-#: hips/hipsmanager.cpp:96 indi/opsindi.ui:338
+#: hips/hipsmanager.cpp:96 indi/opsindi.ui:353
 #, kde-format
 msgid "Display"
 msgstr "顯示"
@@ -17817,7 +17817,7 @@ msgid "INDI Server Message"
 msgstr "INDI 伺服器"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/indiproperty.cpp:234 indi/opsindi.ui:199 tools/observinglist.cpp:103
+#: indi/indiproperty.cpp:234 indi/opsindi.ui:214 tools/observinglist.cpp:103
 #, kde-format
 msgid "Time"
 msgstr "時間"
@@ -17978,37 +17978,38 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, videoLabel_2)
 #. i18n: ectx: property (toolTip), widget (QLabel, videoLabel_3)
-#: indi/opsindi.ui:32 indi/opsindi.ui:63
+#: indi/opsindi.ui:47 indi/opsindi.ui:78
 #, kde-format
 msgid "Default INDI video port"
 msgstr "預設 INDI 視訊連接埠"
 
 #. i18n: ectx: property (text), widget (QLabel, videoLabel_2)
-#: indi/opsindi.ui:35
+#: indi/opsindi.ui:50
 #, kde-format
 msgid "INDI Server:"
 msgstr "INDI 伺服器："
 
 #. i18n: ectx: property (text), widget (QLabel, videoLabel_3)
-#: indi/opsindi.ui:66
-#, kde-format
-msgid "INDI Drivers Directory:"
+#: indi/opsindi.ui:81
+#, fuzzy, kde-format
+#| msgid "INDI Drivers Directory:"
+msgid "INDI Drivers XML Directory:"
 msgstr "INDI 驅動程式目錄："
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, fitsLabel)
-#: indi/opsindi.ui:112
+#: indi/opsindi.ui:127
 #, kde-format
 msgid "Specify where new FITS images are saved once captured and downloaded"
 msgstr "指定抓到或下載 FITS 影像後要儲存到哪裡"
 
 #. i18n: ectx: property (text), widget (QLabel, fitsLabel)
-#: indi/opsindi.ui:115
+#: indi/opsindi.ui:130
 #, kde-format
 msgid "Default FITS directory:"
 msgstr "預設 FITS 目錄："
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, autoGroup)
-#: indi/opsindi.ui:159
+#: indi/opsindi.ui:174
 #, kde-format
 msgid ""
 "Select time and location synchronization settings between KStars and INDI "
@@ -18016,14 +18017,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, autoGroup)
-#: indi/opsindi.ui:162
+#: indi/opsindi.ui:177
 #, fuzzy, kde-format
 #| msgid "Date && Location"
 msgid "Time && Location Updates"
 msgstr "日期與位置"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useComputerSource)
-#: indi/opsindi.ui:170
+#: indi/opsindi.ui:185
 #, kde-format
 msgid ""
 "<html><head/><body><p>KStars is the master source for time and location "
@@ -18032,26 +18033,26 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useComputerSource)
-#: indi/opsindi.ui:173
+#: indi/opsindi.ui:188
 #, kde-format
 msgid "KStars Updates All Devices"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/opsindi.ui:193
+#: indi/opsindi.ui:208
 #, fuzzy, kde-format
 #| msgid "Load device configuration upon successful connection?"
 msgid "Enable time synchronization upon connection between KStars and INDI"
 msgstr "要依據成功的連線來載入裝置設定嗎？"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/opsindi.ui:196
+#: indi/opsindi.ui:211
 #, kde-format
 msgid "Synchronize KStars date and time automatically from the update source."
 msgstr "自動從更新來源來同步 KStars 的日期與時間。"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useDeviceSource)
-#: indi/opsindi.ui:209
+#: indi/opsindi.ui:224
 #, kde-format
 msgid ""
 "<html><head/><body><p>GPS/Mount devices are the master source of time and "
@@ -18060,13 +18061,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_useDeviceSource)
-#: indi/opsindi.ui:212
+#: indi/opsindi.ui:227
 #, kde-format
 msgid "GPS && Mount Updates KStars"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useGeographicUpdate)
-#: indi/opsindi.ui:219
+#: indi/opsindi.ui:234
 #, fuzzy, kde-format
 #| msgid "Update telescope geographical location upon connection"
 msgid ""
@@ -18075,20 +18076,20 @@ msgid ""
 msgstr "連線時更新望遠鏡的地理位置"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useGeographicUpdate)
-#: indi/opsindi.ui:222
+#: indi/opsindi.ui:237
 #, kde-format
 msgid "Synchronize KStars location settings from the update source"
 msgstr "從更新來源來同步 KStars 的位置設定"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useGeographicUpdate)
-#: indi/opsindi.ui:225
+#: indi/opsindi.ui:240
 #, fuzzy, kde-format
 #| msgid "Location:"
 msgid "Location"
 msgstr "位置："
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
-#: indi/opsindi.ui:253
+#: indi/opsindi.ui:268
 #, kde-format
 msgid ""
 "Specify range of ports that INDI Server will bind to when starting new "
@@ -18096,34 +18097,34 @@ msgid ""
 msgstr "指定 INDI 伺服器啟動新驅動程式時監聽的連接埠範圍"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: indi/opsindi.ui:256 kstarslite/qml/indi/INDIControlPanel.qml:192
+#: indi/opsindi.ui:271 kstarslite/qml/indi/INDIControlPanel.qml:192
 #, kde-format, kde-kuit-format
 msgid "Server Port"
 msgstr "伺服器連接埠"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: indi/opsindi.ui:279 tools/obslistwizard.ui:757
+#: indi/opsindi.ui:294 tools/obslistwizard.ui:757
 #, kde-format
 msgid "From:"
 msgstr "從："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: indi/opsindi.ui:286 tools/obslistwizard.ui:771
+#: indi/opsindi.ui:301 tools/obslistwizard.ui:771
 #, kde-format
 msgid "To:"
 msgstr "到："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:344
+#: indi/opsindi.ui:359
 #, kde-format
 msgid "Display the telescope position on the sky map"
 msgstr "在天體圖上顯示望遠鏡位置"
 
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_showTargetCrosshair)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:347 indi/opsindi.ui:350
+#: indi/opsindi.ui:362 indi/opsindi.ui:365
 #, kde-format
 msgid ""
 "Display a telescope marker on the sky map in order to track the telescope "
@@ -18131,26 +18132,26 @@ msgid ""
 msgstr "在天體圖中顯示望遠鏡的標記，以便追蹤望遠鏡的動作。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:353
+#: indi/opsindi.ui:368
 #, kde-format
 msgid "&Telescope crosshair"
 msgstr "(&T)望遠鏡十字線"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_messageNotificationINDI)
-#: indi/opsindi.ui:389
+#: indi/opsindi.ui:404
 #, kde-format
 msgid "Show INDI messages as desktop notifications instead of dialogs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_messageNotificationINDI)
-#: indi/opsindi.ui:392
+#: indi/opsindi.ui:407
 #, fuzzy, kde-format
 #| msgid "set location"
 msgid "Message notifications"
 msgstr "設定位置"
 
 #. i18n: ectx: property (text), widget (QPushButton, showLogsB)
-#: indi/opsindi.ui:415
+#: indi/opsindi.ui:430
 #, fuzzy, kde-format
 #| msgid "Show &long names"
 msgid "Show INDI Logs"
@@ -18255,25 +18256,25 @@ msgstr "停止"
 msgid "File name"
 msgstr "檔案名稱："
 
-#: indi/servermanager.cpp:93
+#: indi/servermanager.cpp:90
 #, kde-format
 msgid "Error making FIFO file %1: %2."
 msgstr "產生 FIFO 檔 %1 時發生錯誤：%2"
 
-#: indi/servermanager.cpp:132
+#: indi/servermanager.cpp:129
 #, fuzzy, kde-format
 #| msgid "INDI Server Final Port"
 msgid "INDI server failed to start: %1"
 msgstr "INDI 伺服器終止連接埠"
 
-#: indi/servermanager.cpp:196
+#: indi/servermanager.cpp:193
 #, kde-format
 msgid ""
 "Driver %1 was not found on the system. Please make sure the package that "
 "provides the '%1' binary is installed."
 msgstr "系統上找不到驅動程式 %1。請確認提供執行檔 %1 的軟體包是否已安裝。"
 
-#: indi/servermanager.cpp:312
+#: indi/servermanager.cpp:309
 #, kde-format
 msgid ""
 "KStars detected INDI driver %1 crashed. Please check INDI server log in the "

@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-04 03:23+0200\n"
+"POT-Creation-Date: 2018-04-05 03:25+0200\n"
 "PO-Revision-Date: 2018-03-29 13:11+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -486,14 +486,14 @@ msgstr "%1 %2"
 msgid "Reference Image"
 msgstr "參考："
 
-#: core/app/items/imageviewutilities.cpp:214
+#: core/app/items/imageviewutilities.cpp:217
 #, kde-format
 msgid ""
 "<p>Please select the destination album from the digiKam library to move the "
 "selected images into.</p>"
 msgstr "<p>請選擇要移動資料夾到 digiKam 相簿櫃之目的相簿。</p>"
 
-#: core/app/items/imageviewutilities.cpp:332
+#: core/app/items/imageviewutilities.cpp:335
 #: core/utilities/imageeditor/main/imagewindow.cpp:1525
 #: core/utilities/imageeditor/main/imagewindow.cpp:1549
 #: core/utilities/imageeditor/main/imagewindow.cpp:1580
@@ -1570,14 +1570,14 @@ msgstr "垂直"
 msgid "Auto Rotate/Flip Using Exif Information"
 msgstr "使用 Exif 資訊自動旋轉/翻轉"
 
-#: core/app/main/digikamapp.cpp:3411
+#: core/app/main/digikamapp.cpp:3412
 #, fuzzy, kde-format
 #| msgid "Main Toolbar"
 msgctxt "@title Main Tools"
 msgid "Main Tools"
 msgstr "主工具列"
 
-#: core/app/main/digikamapp.cpp:3419
+#: core/app/main/digikamapp.cpp:3420
 #: core/utilities/imageeditor/editor/editorwindow.cpp:3033
 #, fuzzy, kde-format
 #| msgid "Post Processing"
@@ -1585,7 +1585,7 @@ msgctxt "@title Post Processing Tools"
 msgid "Post-Processing"
 msgstr "後製"
 
-#: core/app/main/digikamapp.cpp:3444
+#: core/app/main/digikamapp.cpp:3445
 #: core/utilities/imageeditor/editor/editorwindow.cpp:3058
 #, fuzzy, kde-format
 #| msgid "Export"
@@ -1593,7 +1593,7 @@ msgctxt "@title Export Tools"
 msgid "Export"
 msgstr "匯出"
 
-#: core/app/main/digikamapp.cpp:3451
+#: core/app/main/digikamapp.cpp:3452
 #: core/utilities/imageeditor/editor/editorwindow.cpp:3065
 #, fuzzy, kde-format
 #| msgid "Import"
@@ -2269,7 +2269,7 @@ msgstr "大小："
 #: core/libs/imageproperties/cameraitempropertiestab.cpp:447
 #: core/libs/imageproperties/cameraitempropertiestab.cpp:559
 #: core/libs/imageproperties/imagepropertiessidebar.cpp:289
-#: core/libs/imageproperties/imagepropertiessidebardb.cpp:575
+#: core/libs/imageproperties/imagepropertiessidebardb.cpp:581
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:86
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:197
 #: core/utilities/importui/items/importtooltipfiller.cpp:84
@@ -2304,7 +2304,7 @@ msgid "Unknown"
 msgstr "不明"
 
 #: core/app/utils/tooltipfiller.cpp:121
-#: core/libs/imageproperties/imagepropertiessidebardb.cpp:528
+#: core/libs/imageproperties/imagepropertiessidebardb.cpp:534
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:106
 #: core/utilities/imageeditor/tools/transform/ratiocroptool.cpp:1039
 #: core/utilities/importui/items/importtooltipfiller.cpp:106
@@ -2375,7 +2375,7 @@ msgstr "光圈/焦距："
 #: core/libs/dialogs/imagedialog.cpp:209
 #: core/libs/imageproperties/cameraitempropertiestab.cpp:564
 #: core/libs/imageproperties/imagepropertiessidebar.cpp:294
-#: core/libs/imageproperties/imagepropertiessidebardb.cpp:580
+#: core/libs/imageproperties/imagepropertiessidebardb.cpp:586
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:211
 #: core/utilities/importui/items/importtooltipfiller.cpp:195
 #: core/utilities/slideshow/slideproperties.cpp:181
@@ -6122,8 +6122,8 @@ msgstr "資訊"
 #: core/libs/dialogs/libsinfodlg.cpp:191 core/libs/dmetadata/dmetadata.cpp:2840
 #: core/libs/imageproperties/imagepropertiessidebar.cpp:249
 #: core/libs/imageproperties/imagepropertiessidebar.cpp:253
-#: core/libs/imageproperties/imagepropertiessidebardb.cpp:522
-#: core/libs/imageproperties/imagepropertiessidebardb.cpp:536
+#: core/libs/imageproperties/imagepropertiessidebardb.cpp:528
+#: core/libs/imageproperties/imagepropertiessidebardb.cpp:542
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:353
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:388
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:420
@@ -10310,7 +10310,7 @@ msgstr "<i>未變更</i>"
 
 #: core/libs/imageproperties/cameraitempropertiestab.cpp:523
 #: core/libs/imageproperties/imagepropertiessidebar.cpp:205
-#: core/libs/imageproperties/imagepropertiessidebardb.cpp:498
+#: core/libs/imageproperties/imagepropertiessidebardb.cpp:504
 #, kde-format
 msgid "<i>unavailable</i>"
 msgstr "<i>無法使用</i>"
@@ -10764,7 +10764,7 @@ msgid "Uncalibrated"
 msgstr "未經校準"
 
 #: core/libs/imageproperties/imagepropertiessidebar.cpp:257
-#: core/libs/imageproperties/imagepropertiessidebardb.cpp:544
+#: core/libs/imageproperties/imagepropertiessidebardb.cpp:550
 #, kde-format
 msgid "%1 bpp"
 msgstr "%1 bpp"
@@ -10881,81 +10881,81 @@ msgctxt "@info:tooltip"
 msgid "Show item permanently"
 msgstr "永久顯示此項目"
 
-#: core/libs/iojobs/iojob.cpp:77
+#: core/libs/iojobs/iojob.cpp:76
 #, fuzzy, kde-format
 msgid "File/Folder %1 does not exist anymore"
 msgstr "檔案不存在"
 
-#: core/libs/iojobs/iojob.cpp:84
+#: core/libs/iojobs/iojob.cpp:83
 #, fuzzy, kde-format
 msgid "Album %1 does not exist anymore"
 msgstr "檔案不存在"
 
-#: core/libs/iojobs/iojob.cpp:96
+#: core/libs/iojobs/iojob.cpp:95
 #, fuzzy, kde-format
 msgid "A file or folder named %1 already exists in %2"
 msgstr "已存在一個名為 '%1' 的中繼資料範本。"
 
-#: core/libs/iojobs/iojob.cpp:120
+#: core/libs/iojobs/iojob.cpp:119
 #, fuzzy, kde-format
 msgid "Could not move folder %1 to album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:129
+#: core/libs/iojobs/iojob.cpp:128
 #, fuzzy, kde-format
 msgid ""
 "Could not move folder %1 to album %2. The folder %1 was copied as well to "
 "album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:142
+#: core/libs/iojobs/iojob.cpp:141
 #, fuzzy, kde-format
 msgid "Could not move file %1 to album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:164
+#: core/libs/iojobs/iojob.cpp:163
 #, fuzzy, kde-format
 msgid "Could not copy folder %1 to album %2"
 msgstr "無法儲存影像「%1」的圖示到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:176
+#: core/libs/iojobs/iojob.cpp:175
 #, fuzzy, kde-format
 msgid "Could not copy file %1 to album %2"
 msgstr "無法儲存影像「%1」的圖示到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:221
+#: core/libs/iojobs/iojob.cpp:220
 #, fuzzy, kde-format
 msgid "File/Folder %1 does not exist"
 msgstr "檔案不存在"
 
-#: core/libs/iojobs/iojob.cpp:234
+#: core/libs/iojobs/iojob.cpp:233
 #, fuzzy, kde-format
 msgid "Couldn't move folder %1 to collection trash"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:245
+#: core/libs/iojobs/iojob.cpp:244
 #, fuzzy, kde-format
 msgid "Couldn't move image %1 to collection trash"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:261
+#: core/libs/iojobs/iojob.cpp:260
 #, fuzzy, kde-format
 msgid "Album %1 could not be removed"
 msgstr "相簿名稱不可為空。"
 
-#: core/libs/iojobs/iojob.cpp:308
+#: core/libs/iojobs/iojob.cpp:307
 #, kde-format
 msgid "Image %1 could not be removed"
 msgstr ""
 
-#: core/libs/iojobs/iojob.cpp:381
+#: core/libs/iojobs/iojob.cpp:379
 #, fuzzy, kde-format
 msgid "Image with the same name %1 already there"
 msgstr ""
 "另一個相同名稱的標籤已經存在。\n"
 "請另選一個名稱。"
 
-#: core/libs/iojobs/iojob.cpp:398
+#: core/libs/iojobs/iojob.cpp:396
 #, kde-format
 msgid "Image %1 could not be renamed"
 msgstr ""
