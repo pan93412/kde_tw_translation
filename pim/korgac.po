@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-02 03:33+0200\n"
+"POT-Creation-Date: 2018-04-06 03:41+0200\n"
 "PO-Revision-Date: 2013-11-01 10:56+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -27,25 +27,25 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@nospam_goodhorse.idv.tw"
 
-#: alarmdialog.cpp:159
+#: alarmdialog.cpp:161
 #, kde-format
 msgctxt "@title:window"
 msgid "Reminders"
 msgstr "提醒"
 
-#: alarmdialog.cpp:176
+#: alarmdialog.cpp:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Dismiss Reminder"
 msgstr "解除提醒"
 
-#: alarmdialog.cpp:178
+#: alarmdialog.cpp:181
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Dismiss the reminders for the selected incidences"
 msgstr "解除選取的事件的提醒"
 
-#: alarmdialog.cpp:180
+#: alarmdialog.cpp:183
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -53,19 +53,19 @@ msgid ""
 "selected non-incidences will be unaffected."
 msgstr ""
 
-#: alarmdialog.cpp:183
+#: alarmdialog.cpp:186
 #, kde-format
 msgctxt "@action:button"
 msgid "Dismiss All"
 msgstr "全部解除"
 
-#: alarmdialog.cpp:185
+#: alarmdialog.cpp:188
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Dismiss the reminders for all listed incidences"
 msgstr "解除所有列出的事件的提醒"
 
-#: alarmdialog.cpp:187
+#: alarmdialog.cpp:190
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Dismiss the reminders for all listed incidences"
@@ -73,19 +73,19 @@ msgctxt "@info:whatsthis"
 msgid "Press this button to dismiss all the listed incidences."
 msgstr "解除所有列出的事件的提醒"
 
-#: alarmdialog.cpp:188
+#: alarmdialog.cpp:191
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit..."
 msgstr "編輯..."
 
-#: alarmdialog.cpp:190
+#: alarmdialog.cpp:193
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Edit the selected incidence"
 msgstr "編輯選取的提醒"
 
-#: alarmdialog.cpp:192
+#: alarmdialog.cpp:195
 #, kde-format
 msgctxt "@info::whatsthis"
 msgid ""
@@ -93,20 +93,20 @@ msgid ""
 "popup allowing you to edit the incidence."
 msgstr ""
 
-#: alarmdialog.cpp:194
+#: alarmdialog.cpp:197
 #, kde-format
 msgctxt "@action:button"
 msgid "Suspend"
 msgstr "暫停"
 
-#: alarmdialog.cpp:196
+#: alarmdialog.cpp:199
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Suspend the reminders for the selected incidences by the specified interval"
 msgstr "暫停所有選取的依固定時間間隔觸發事件的提醒"
 
-#: alarmdialog.cpp:199
+#: alarmdialog.cpp:202
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -114,49 +114,49 @@ msgid ""
 "interval is configurable by the Suspend duration settings."
 msgstr ""
 
-#: alarmdialog.cpp:212
+#: alarmdialog.cpp:215
 #, kde-format
 msgctxt "@label"
 msgid "Reminders: Click on a title to toggle the details viewer for that item"
 msgstr "提醒：點擊標題可以切換此項目的詳細檢視"
 
-#: alarmdialog.cpp:221
+#: alarmdialog.cpp:224
 #, kde-format
 msgctxt "@title:column reminder title"
 msgid "Title"
 msgstr "標題"
 
-#: alarmdialog.cpp:222
+#: alarmdialog.cpp:225
 #, kde-format
 msgctxt "@title:column happens at date/time"
 msgid "Date Time"
 msgstr "日期 時間"
 
-#: alarmdialog.cpp:223
+#: alarmdialog.cpp:226
 #, kde-format
 msgctxt "@title:column trigger date/time"
 msgid "Trigger Time"
 msgstr "觸發時間"
 
-#: alarmdialog.cpp:227
+#: alarmdialog.cpp:230
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The event or to-do title"
 msgstr "此事件或待辦事項的標題。"
 
-#: alarmdialog.cpp:230
+#: alarmdialog.cpp:233
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The reminder is set for this date/time"
 msgstr "已設定提醒於此日期/時間"
 
-#: alarmdialog.cpp:233
+#: alarmdialog.cpp:236
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The date/time the reminder was triggered"
 msgstr "提醒被觸發的日期與時間"
 
-#: alarmdialog.cpp:248
+#: alarmdialog.cpp:251
 #, kde-kuit-format
 msgctxt "@info default incidence details string"
 msgid ""
@@ -164,19 +164,19 @@ msgid ""
 "here.</emphasis>"
 msgstr "<emphasis>選取上面清單中的事件或待辦事項，可以檢視其詳情。</emphasis>"
 
-#: alarmdialog.cpp:260
+#: alarmdialog.cpp:263
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Suspend &duration:"
 msgstr "暫停期間(&D)："
 
-#: alarmdialog.cpp:269
+#: alarmdialog.cpp:272
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Suspend the reminders by this amount of time"
 msgstr "暫停所有在這段期間內的事件的提醒"
 
-#: alarmdialog.cpp:272
+#: alarmdialog.cpp:275
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -185,37 +185,37 @@ msgid ""
 "adjacent selector."
 msgstr "每個選取事件的提醒都會被推遲這麼久。您可以用旁邊的選擇器選擇時間單位。"
 
-#: alarmdialog.cpp:280
+#: alarmdialog.cpp:283
 #, kde-format
 msgctxt "@item:inlistbox suspend in terms of minutes"
 msgid "minute(s)"
 msgstr "分鐘"
 
-#: alarmdialog.cpp:281
+#: alarmdialog.cpp:284
 #, kde-format
 msgctxt "@item:inlistbox suspend in terms of hours"
 msgid "hour(s)"
 msgstr "小時"
 
-#: alarmdialog.cpp:282
+#: alarmdialog.cpp:285
 #, kde-format
 msgctxt "@item:inlistbox suspend in terms of days"
 msgid "day(s)"
 msgstr "天"
 
-#: alarmdialog.cpp:283
+#: alarmdialog.cpp:286
 #, kde-format
 msgctxt "@item:inlistbox suspend in terms of weeks"
 msgid "week(s)"
 msgstr "週"
 
-#: alarmdialog.cpp:286
+#: alarmdialog.cpp:289
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Suspend the reminders using this time unit"
 msgstr "暫停所有在這段期間內的事件的提醒"
 
-#: alarmdialog.cpp:289
+#: alarmdialog.cpp:292
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -224,74 +224,74 @@ msgid ""
 "input."
 msgstr "推遲提醒時間的單位。您可以用旁邊的選擇器選擇時間長度。"
 
-#: alarmdialog.cpp:298
+#: alarmdialog.cpp:301
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reset"
 msgstr ""
 
-#: alarmdialog.cpp:301
+#: alarmdialog.cpp:304
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Reset the suspend time to the default value"
-msgstr ""
-
-#: alarmdialog.cpp:303
-#, kde-format
-msgctxt "@info:whatsthis"
 msgid "Reset the suspend time to the default value"
 msgstr ""
 
 #: alarmdialog.cpp:306
 #, kde-format
+msgctxt "@info:whatsthis"
+msgid "Reset the suspend time to the default value"
+msgstr ""
+
+#: alarmdialog.cpp:309
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as Default"
 msgstr ""
 
-#: alarmdialog.cpp:309
+#: alarmdialog.cpp:312
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the current suspend time as the new default"
 msgstr ""
 
-#: alarmdialog.cpp:311
+#: alarmdialog.cpp:314
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Press this button to set the current suspend time as the new default value"
 msgstr ""
 
-#: alarmdialog.cpp:348
+#: alarmdialog.cpp:351
 #, kde-format
 msgctxt "@label an elipsis"
 msgid "..."
 msgstr "..."
 
-#: alarmdialog.cpp:505
+#: alarmdialog.cpp:508
 #, kde-format
 msgctxt "@info"
 msgid "\"%1\" is a read-only item so modifications are not possible."
 msgstr "%1 是唯讀的項目，因此無法改變。"
 
-#: alarmdialog.cpp:718
+#: alarmdialog.cpp:721
 #, kde-format
 msgctxt "@title"
 msgid "Reminder"
 msgstr "提醒"
 
-#: alarmdialog.cpp:720 alarmdialog.cpp:723
+#: alarmdialog.cpp:723 alarmdialog.cpp:726
 #, kde-format
 msgctxt "@title"
 msgid "Reminder: %1"
 msgstr "提醒：%1"
 
-#: alarmdialog.cpp:996
+#: alarmdialog.cpp:999
 #, kde-format
 msgctxt "@info"
 msgid "Could not start KOrganizer so editing is not possible."
 msgstr "無法啟動 KOrganizer，因此無法編輯。"
 
-#: alarmdialog.cpp:1009
+#: alarmdialog.cpp:1012
 #, kde-format
 msgctxt "@info"
 msgid "An internal KOrganizer error occurred attempting to modify \"%1\""

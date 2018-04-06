@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-21 03:42+0100\n"
+"POT-Creation-Date: 2018-04-06 03:45+0200\n"
 "PO-Revision-Date: 2015-02-15 20:06+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -28,26 +28,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, app_label)
-#: authdetails.ui:22 authdetails.ui:76
-#, kde-format
-msgid "Application:"
-msgstr "應用程式："
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (KUrlLabel, action_label)
-#: authdetails.ui:29 authdetails.ui:56
+#. i18n: ectx: property (text), widget (QLabel, action_label)
+#: authdetails.ui:23 authdetails.ui:30
 #, kde-format
 msgid "Action:"
 msgstr "動作："
 
-#. i18n: ectx: property (text), widget (QLabel, vendorL)
 #. i18n: ectx: property (text), widget (KUrlLabel, vendorUL)
-#: authdetails.ui:36 authdetails.ui:43
+#. i18n: ectx: property (text), widget (QLabel, vendorL)
+#: authdetails.ui:44 authdetails.ui:57
 #, kde-format
 msgid "Vendor:"
 msgstr "廠商："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, app_label)
+#: authdetails.ui:64 authdetails.ui:71
+#, kde-format
+msgid "Application:"
+msgstr "應用程式："
+
+#. i18n: ectx: property (text), widget (QLabel, action_id_label)
+#: authdetails.ui:81
+#, fuzzy, kde-format
+#| msgid "Action:"
+msgid "Action ID:"
+msgstr "動作："
 
 #: AuthDialog.cpp:73
 #, kde-format
@@ -119,12 +126,7 @@ msgctxt ""
 msgid "%1:"
 msgstr "%1:"
 
-#: AuthDialog.cpp:343
-#, kde-format
-msgid "Click to edit %1"
-msgstr "點擊以編輯 %1"
-
-#: AuthDialog.cpp:351 AuthDialog.cpp:355
+#: AuthDialog.cpp:349 AuthDialog.cpp:353
 #, kde-format
 msgid "Click to open %1"
 msgstr "點擊以開啟 %1"
@@ -169,6 +171,9 @@ msgstr "前任維護者"
 #, kde-format
 msgid "Another client is already authenticating, please try again later."
 msgstr "另一個客戶端已通過認證。請稍候再試。"
+
+#~ msgid "Click to edit %1"
+#~ msgstr "點擊以編輯 %1"
 
 #~ msgid "Switch to dialog"
 #~ msgstr "切換到對話框"

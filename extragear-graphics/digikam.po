@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-05 03:25+0200\n"
+"POT-Creation-Date: 2018-04-06 03:28+0200\n"
 "PO-Revision-Date: 2018-03-29 13:11+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -486,14 +486,14 @@ msgstr "%1 %2"
 msgid "Reference Image"
 msgstr "參考："
 
-#: core/app/items/imageviewutilities.cpp:217
+#: core/app/items/imageviewutilities.cpp:195
 #, kde-format
 msgid ""
 "<p>Please select the destination album from the digiKam library to move the "
 "selected images into.</p>"
 msgstr "<p>請選擇要移動資料夾到 digiKam 相簿櫃之目的相簿。</p>"
 
-#: core/app/items/imageviewutilities.cpp:335
+#: core/app/items/imageviewutilities.cpp:313
 #: core/utilities/imageeditor/main/imagewindow.cpp:1525
 #: core/utilities/imageeditor/main/imagewindow.cpp:1549
 #: core/utilities/imageeditor/main/imagewindow.cpp:1580
@@ -783,7 +783,7 @@ msgstr "新增(&E)..."
 
 #: core/app/main/digikamapp.cpp:911
 #: core/app/utils/editablesearchtreeview.cpp:67
-#: core/libs/database/utils/dio.cpp:462
+#: core/libs/database/utils/dio.cpp:502
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:356
 #, kde-format
 msgid "Delete"
@@ -2212,13 +2212,13 @@ msgid "Name exists"
 msgstr "名稱已存在"
 
 #: core/app/utils/searchmodificationhelper.cpp:151
-#: core/libs/album/albummodificationhelper.cpp:245
+#: core/libs/album/albummodificationhelper.cpp:226
 #, kde-format
 msgid "Rename Album (%1)"
 msgstr "重新命名相簿 (%1)"
 
 #: core/app/utils/searchmodificationhelper.cpp:152
-#: core/libs/album/albummodificationhelper.cpp:246
+#: core/libs/album/albummodificationhelper.cpp:227
 #, kde-format
 msgid "Enter new album name:"
 msgstr "輸入新的相簿名稱："
@@ -3659,7 +3659,7 @@ msgstr "歡迎使用 digiKam %1"
 msgid "Background Image Credits"
 msgstr "背景不透明度："
 
-#: core/libs/album/album.cpp:389 core/libs/database/utils/dio.cpp:459
+#: core/libs/album/album.cpp:389 core/libs/database/utils/dio.cpp:500
 #, kde-format
 msgid "Trash"
 msgstr ""
@@ -5726,13 +5726,13 @@ msgstr "綱要名稱"
 msgid "total"
 msgstr "總計"
 
-#: core/libs/database/utils/dio.cpp:453
+#: core/libs/database/utils/dio.cpp:494
 #, fuzzy, kde-format
 #| msgid "Copyright"
 msgid "Copy"
 msgstr "著作權"
 
-#: core/libs/database/utils/dio.cpp:457
+#: core/libs/database/utils/dio.cpp:498
 #, kde-format
 msgid "Move"
 msgstr "移動"
@@ -10943,19 +10943,19 @@ msgstr "無法儲存影像「%1」到「%2」"
 msgid "Album %1 could not be removed"
 msgstr "相簿名稱不可為空。"
 
-#: core/libs/iojobs/iojob.cpp:307
+#: core/libs/iojobs/iojob.cpp:273
 #, kde-format
 msgid "Image %1 could not be removed"
 msgstr ""
 
-#: core/libs/iojobs/iojob.cpp:379
+#: core/libs/iojobs/iojob.cpp:314
 #, fuzzy, kde-format
 msgid "Image with the same name %1 already there"
 msgstr ""
 "另一個相同名稱的標籤已經存在。\n"
 "請另選一個名稱。"
 
-#: core/libs/iojobs/iojob.cpp:396
+#: core/libs/iojobs/iojob.cpp:331
 #, kde-format
 msgid "Image %1 could not be renamed"
 msgstr ""

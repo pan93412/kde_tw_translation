@@ -89,7 +89,6 @@ msgstr "尋找"
 
 #: Apper/ApperKCM.cpp:174
 #, kde-format
-#| msgid "Software Manager Messages"
 msgid "Some software changes were made"
 msgstr "部份軟體變更已經完成"
 
@@ -205,7 +204,6 @@ msgstr "過濾條件"
 #. i18n: ectx: property (text), widget (QPushButton, updatePB)
 #: Apper/ApperKCM.ui:299
 #, kde-format
-#| msgid "Updates"
 msgid "Update"
 msgstr "更新"
 
@@ -495,13 +493,11 @@ msgstr "顯示大小"
 
 #: Apper/BrowseView.cpp:282
 #, kde-format
-#| msgid "Export Installed Package List..."
 msgid "Export installed packages"
 msgstr "匯出已安裝軟體包"
 
 #: Apper/BrowseView.cpp:306
 #, kde-format
-#| msgid "Install Packages Catalogs"
 msgid "Install packages from catalog"
 msgstr "從型錄安裝軟體包"
 
@@ -689,7 +685,6 @@ msgstr "Apper 是一套取得與管理軟體的應用程式"
 
 #: Apper/main.cpp:48
 #, kde-format
-#| msgid "(C) 2008-2013 Daniel Nicoletti"
 msgid "(C) 2008-2018 Daniel Nicoletti"
 msgstr "(C) 2008-2013 Daniel Nicoletti"
 
@@ -1089,7 +1084,8 @@ msgstr "此更新的分級為「不穩定」，這代表它不是針對工作生
 msgid ""
 "This is a test update, and is not designed for normal use. Please report any "
 "problems or regressions you encounter."
-msgstr "這是個測試性更新，並不是針對一般用途所設計的。請回報任何您所遭遇到的問題。"
+msgstr ""
+"這是個測試性更新，並不是針對一般用途所設計的。請回報任何您所遭遇到的問題。"
 
 #: Apper/Updater/UpdateDetails.cpp:284
 #, kde-format
@@ -1665,8 +1661,6 @@ msgstr "正在複製檔案"
 
 #: libapper/PkStrings.cpp:164
 #, kde-format
-#| msgctxt "transaction state, just started"
-#| msgid "Running task"
 msgctxt "we are running hooks pre or post transaction"
 msgid "Running hooks"
 msgstr "執行掛勾"
@@ -1932,8 +1926,6 @@ msgstr "移除軟體庫中"
 
 #: libapper/PkStrings.cpp:284
 #, kde-format
-#| msgctxt "The role of the transaction, in present tense"
-#| msgid "Upgrading system"
 msgctxt "The role of the transaction, in present tense"
 msgid "Upgrading the system"
 msgstr "更新系統中"
@@ -2126,8 +2118,6 @@ msgstr "已移除軟體庫"
 
 #: libapper/PkStrings.cpp:363
 #, kde-format
-#| msgctxt "The role of the transaction, in past tense"
-#| msgid "Upgraded system"
 msgctxt "The role of the transaction, in past tense"
 msgid "Upgraded the system"
 msgstr "已更新系統"

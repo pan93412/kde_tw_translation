@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-26 03:17+0100\n"
+"POT-Creation-Date: 2018-04-06 03:34+0200\n"
 "PO-Revision-Date: 2018-02-21 21:30+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -2124,12 +2124,12 @@ msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr "再試一次"
 
-#: document/katedocument.cpp:2179 document/katedocument.cpp:5988
+#: document/katedocument.cpp:2179 document/katedocument.cpp:5995
 #, kde-format
 msgid "&Close"
 msgstr "關閉(&C)"
 
-#: document/katedocument.cpp:2180 document/katedocument.cpp:5989
+#: document/katedocument.cpp:2180 document/katedocument.cpp:5996
 #, kde-format
 msgid "Close message"
 msgstr "關閉訊息"
@@ -2145,7 +2145,7 @@ msgstr ""
 "\n"
 "請檢查您是否有這個檔案的讀取權限。"
 
-#: document/katedocument.cpp:2308
+#: document/katedocument.cpp:2315
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters."
@@ -2157,7 +2157,7 @@ msgstr ""
 "唯讀模式，因為若是做儲存的動作可能會將其內容損毀。<br />請選用正確的編碼來重"
 "新開啟此檔案，或是在工具選單中開啟讀寫模式來編輯。"
 
-#: document/katedocument.cpp:2318
+#: document/katedocument.cpp:2325
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters. It "
@@ -2169,7 +2169,7 @@ msgstr ""
 "式，因為若是做儲存的動作可能會將其內容損毀。請選用正確的編碼來重新開啟此檔"
 "案，或是在工具選單中開啟讀寫模式來編輯。"
 
-#: document/katedocument.cpp:2329
+#: document/katedocument.cpp:2336
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2181,17 +2181,17 @@ msgstr ""
 ">這些行中最長的有 %3 個字元。<br/>這些行已被折行，文件已被設定為唯讀，因為若"
 "是做儲存該過長的行將會被修改成折行後的結果。"
 
-#: document/katedocument.cpp:2334
+#: document/katedocument.cpp:2341
 #, kde-format
 msgid "Temporarily raise limit and reload file"
 msgstr "暫時提高上限並重新載入檔案"
 
-#: document/katedocument.cpp:2337
+#: document/katedocument.cpp:2344
 #, kde-format
 msgid "Close"
 msgstr "關閉"
 
-#: document/katedocument.cpp:2343
+#: document/katedocument.cpp:2350
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2203,25 +2203,25 @@ msgstr ""
 "這些行中最長的有 %3 個字元。<br/>這些行已被折行，文件已被設定為唯讀，因為若是"
 "做儲存該過長的行將會被修改成折行後的結果。"
 
-#: document/katedocument.cpp:2366
+#: document/katedocument.cpp:2373
 #, kde-format
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
 "data in the file on disk."
 msgstr "您確定要儲存這個未修改的檔案？您可能會覆蓋磁碟上檔案裡已變更的資料。"
 
-#: document/katedocument.cpp:2366
+#: document/katedocument.cpp:2373
 #, kde-format
 msgid "Trying to Save Unmodified File"
 msgstr "嘗試儲存未更改檔案"
 
-#: document/katedocument.cpp:2366 document/katedocument.cpp:2371
-#: document/katedocument.cpp:2383
+#: document/katedocument.cpp:2373 document/katedocument.cpp:2378
+#: document/katedocument.cpp:2390
 #, kde-format
 msgid "Save Nevertheless"
 msgstr "不管，給我存就對了"
 
-#: document/katedocument.cpp:2371
+#: document/katedocument.cpp:2378
 #, kde-format
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
@@ -2230,13 +2230,13 @@ msgstr ""
 "您確定要儲存這個檔案？您所開啟的檔案與磁碟上的檔案都已變更。可能會有某些資料"
 "遺失。"
 
-#: document/katedocument.cpp:2371 document/katedocument.cpp:2383
-#: document/katedocument.cpp:2675
+#: document/katedocument.cpp:2378 document/katedocument.cpp:2390
+#: document/katedocument.cpp:2682
 #, kde-format
 msgid "Possible Data Loss"
 msgstr "可能會遺失資料"
 
-#: document/katedocument.cpp:2383
+#: document/katedocument.cpp:2390
 #, kde-format
 msgid ""
 "The selected encoding cannot encode every Unicode character in this "
@@ -2245,7 +2245,7 @@ msgstr ""
 "所選的編碼無法轉換這個文件中的每一個 unicode 字元。您確定要儲存它？可能會有某"
 "些資料遺失。"
 
-#: document/katedocument.cpp:2424 document/katedocument.cpp:4357
+#: document/katedocument.cpp:2431 document/katedocument.cpp:4364
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2257,7 +2257,7 @@ msgstr ""
 "\n"
 "請檢查您是否有此檔案的寫入權限或具有足夠的磁碟空間。"
 
-#: document/katedocument.cpp:2548
+#: document/katedocument.cpp:2555
 #, kde-format
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
@@ -2268,68 +2268,68 @@ msgstr ""
 "檔案 %1 儲存前沒有建立備份。如果儲存時發生問題，例如硬碟滿了，或是儲存的目錄"
 "您無法寫入，您可能會遺失檔案內的所有內容。"
 
-#: document/katedocument.cpp:2551
+#: document/katedocument.cpp:2558
 #, kde-format
 msgid "Failed to create backup copy."
 msgstr "建立備份失敗。"
 
-#: document/katedocument.cpp:2552
+#: document/katedocument.cpp:2559
 #, kde-format
 msgid "Try to Save Nevertheless"
 msgstr "不管，給我存就對了"
 
-#: document/katedocument.cpp:2674
+#: document/katedocument.cpp:2681
 #, kde-format
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr "您確定要繼續關閉這個檔案？可能發生資料的遺失。"
 
-#: document/katedocument.cpp:2675
+#: document/katedocument.cpp:2682
 #, kde-format
 msgid "Close Nevertheless"
 msgstr "關閉"
 
-#: document/katedocument.cpp:4127
+#: document/katedocument.cpp:4134
 #, kde-format
 msgid "Untitled"
 msgstr "未命名"
 
-#: document/katedocument.cpp:4168 document/katedocument.cpp:4322
-#: document/katedocument.cpp:4333 document/katedocument.cpp:5048
+#: document/katedocument.cpp:4175 document/katedocument.cpp:4329
+#: document/katedocument.cpp:4340 document/katedocument.cpp:5055
 #, kde-format
 msgid "Save File"
 msgstr "儲存檔案"
 
-#: document/katedocument.cpp:4172
+#: document/katedocument.cpp:4179
 #, kde-format
 msgid "Save failed"
 msgstr "儲存失敗"
 
-#: document/katedocument.cpp:4232
+#: document/katedocument.cpp:4239
 #, kde-format
 msgid "What do you want to do?"
 msgstr "您想要做什麼？"
 
-#: document/katedocument.cpp:4233
+#: document/katedocument.cpp:4240
 #, kde-format
 msgid "File Was Changed on Disk"
 msgstr "磁碟上的檔案改變"
 
-#: document/katedocument.cpp:4234
+#: document/katedocument.cpp:4241
 #, kde-format
 msgid "&Reload File"
 msgstr "重新載入檔案(&R)"
 
-#: document/katedocument.cpp:4235
+#: document/katedocument.cpp:4242
 #, kde-format
 msgid "&Ignore Changes"
 msgstr "忽略改變(&I)"
 
-#: document/katedocument.cpp:4345
+#: document/katedocument.cpp:4352
 #, kde-format
 msgid "Save Copy of File"
 msgstr "儲存檔案副本"
 
-#: document/katedocument.cpp:4593
+#: document/katedocument.cpp:4600
 #, kde-format
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
@@ -2340,7 +2340,7 @@ msgstr ""
 "modified;' 來取代。詳情請參考 http://docs.kde.org/stable/en/applications/"
 "kate/config-variables.html#variable-remove-trailing-spaces"
 
-#: document/katedocument.cpp:4598
+#: document/katedocument.cpp:4605
 #, kde-format
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
@@ -2351,33 +2351,33 @@ msgstr ""
 "spaces all;' 來取代。詳情請參考 http://docskde.org/stable/en/applications/"
 "kate/config-variables.html#variable-remove-trailing-spaces"
 
-#: document/katedocument.cpp:4935
+#: document/katedocument.cpp:4942
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "檔案「%1」已被另一個程式修改了。"
 
-#: document/katedocument.cpp:4938
+#: document/katedocument.cpp:4945
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "檔案「%1」已被另一個程式建立了。"
 
-#: document/katedocument.cpp:4941
+#: document/katedocument.cpp:4948
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "檔案「%1」已被另一個程式刪除了。"
 
-#: document/katedocument.cpp:5075
+#: document/katedocument.cpp:5082
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "已存在以「%1」為名的檔案。您確定要覆寫它嗎？"
 
-#: document/katedocument.cpp:5077
+#: document/katedocument.cpp:5084
 #, kde-format
 msgid "Overwrite File?"
 msgstr "覆寫檔案？"
 
-#: document/katedocument.cpp:5292
+#: document/katedocument.cpp:5299
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2386,17 +2386,17 @@ msgstr ""
 "文件 %1 已變更。\n"
 "您要儲存變更還是放棄變更？"
 
-#: document/katedocument.cpp:5294
+#: document/katedocument.cpp:5301
 #, kde-format
 msgid "Close Document"
 msgstr "關閉文件"
 
-#: document/katedocument.cpp:5427
+#: document/katedocument.cpp:5434
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr "檔案 <a href=\"%1\">%2</a> 仍在載入中。"
 
-#: document/katedocument.cpp:5434
+#: document/katedocument.cpp:5441
 #, kde-format
 msgid "&Abort Loading"
 msgstr "中止載入(&A)"

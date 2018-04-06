@@ -40,9 +40,9 @@ msgid ""
 "checking all your favorite web sites manually for updates, Akregator "
 "collects the content for you."
 msgstr ""
-"Feed 閱讀器提供了一個方便的方式來瀏覽不同類型的資訊，其中包含了"
-"網路上新聞、網誌與其他的資訊，Akregator 幫你匯集了這些資訊，"
-"以取代自己檢查你所有喜歡網站上面的更新。"
+"Feed 閱讀器提供了一個方便的方式來瀏覽不同類型的資訊，其中包含了網路上新聞、網"
+"誌與其他的資訊，Akregator 幫你匯集了這些資訊，以取代自己檢查你所有喜歡網站上"
+"面的更新。"
 
 #: src/about/introduction_akregator.html:19 src/html.cpp:4
 msgid ""
@@ -50,9 +50,9 @@ msgid ""
 "akregator.kde.org/'>Akregator website</a>. If you do not want to see this "
 "page anymore, <a href='config:/disable_introduction'>click here</a>."
 msgstr ""
-"取得使用 Akregator 的更多資訊，請查看 "
-"<a href='http://akregator.kde.org/'>Akregator 網站</a>。"
-"如果你不再希望看到這個頁面，<a href='config:/disable_introduction'>請點這</a>."
+"取得使用 Akregator 的更多資訊，請查看 <a href='http://akregator.kde."
+"org/'>Akregator 網站</a>。如果你不再希望看到這個頁面，<a href='config:/"
+"disable_introduction'>請點這</a>."
 
 #: src/about/introduction_akregator.html:20 src/html.cpp:6
 msgid "We hope that you will enjoy Akregator."
@@ -127,7 +127,6 @@ msgstr "設定 Feed"
 
 #: configuration/akregator_config_plugins.cpp:41
 #, kde-format
-#| msgid "Configure Feeds"
 msgid "Configure Plugins"
 msgstr "設定附加元件"
 
@@ -143,7 +142,6 @@ msgstr "Laurent Montel"
 
 #: configuration/akregatorconfigurepluginlistwidget.cpp:64
 #, kde-format
-#| msgid "Configure Feeds"
 msgid "Webengine Plugins"
 msgstr "Webengine 附加元件"
 
@@ -271,7 +269,6 @@ msgstr "預設文章收集設定"
 #. i18n: ectx: property (text), widget (QRadioButton, rb_DisableArchiving)
 #: configuration/ui/settings_archive.ui:36
 #, kde-format
-#| msgid "Disable archiving"
 msgid "Disa&ble archiving"
 msgstr "關閉文章收集(&B)"
 
@@ -286,7 +283,6 @@ msgstr "保存所有的文章(&K)"
 #. i18n: ectx: property (text), widget (QRadioButton, rb_LimitArticleNumber)
 #: configuration/ui/settings_archive.ui:64
 #, kde-format
-#| msgid "Limit feed archive size to:"
 msgid "Limit feed archi&ve size to:"
 msgstr "限制文章收集數量(&V)："
 
@@ -356,14 +352,12 @@ msgstr "firefox %u"
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseCustomCommand)
 #: configuration/ui/settings_browser.ui:90
 #, kde-format
-#| msgid "Use this command:"
 msgid "Use &this command:"
 msgstr "使用此指令(&T)："
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseKdeDefault)
 #: configuration/ui/settings_browser.ui:97
 #, kde-format
-#| msgid "Use default web browser"
 msgid "Use default web &browser"
 msgstr "使用預設的網頁瀏覽器(&B)"
 
@@ -421,7 +415,6 @@ msgstr "雜項"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
 #: configuration/ui/settings_browser.ui:169
 #, kde-format
-#| msgid "Keep Enabled"
 msgid "Access Key Enabled"
 msgstr "「存取金鑰」已啟用"
 
@@ -442,7 +435,6 @@ msgstr "顯示系統匣圖示(&Y)"
 #. i18n: ectx: label, entry, group (View)
 #: configuration/ui/settings_general.ui:43 interfaces/akregator.kcfg:9
 #, kde-format
-#| msgid "There are no unread articles"
 msgid "Hide feeds with no unread articles"
 msgstr "隱藏從不閱讀文章的 Feed"
 
@@ -450,7 +442,6 @@ msgstr "隱藏從不閱讀文章的 Feed"
 #. i18n: ectx: whatsthis, entry, group (View)
 #: configuration/ui/settings_general.ui:50 interfaces/akregator.kcfg:15
 #, kde-format
-#| msgid "There are no unread articles"
 msgid "Auto-expand folders containing unread articles"
 msgstr "自動展開包含未閱讀文章的資料夾"
 
@@ -516,14 +507,12 @@ msgstr "Akregator 為 %1 匯出"
 #. i18n: ectx: whatsthis, entry, group (View)
 #: interfaces/akregator.kcfg:10
 #, kde-format
-#| msgid "There are no unread articles"
 msgid "Hides feeds with no unread articles"
 msgstr "隱藏從不閱讀文章的 Feed"
 
 #. i18n: ectx: label, entry, group (View)
 #: interfaces/akregator.kcfg:14
 #, kde-format
-#| msgid "There are no unread articles"
 msgid "Auto-Expand folders with unread articles"
 msgstr "自動展開未閱讀文章的資料夾"
 
@@ -935,7 +924,6 @@ msgstr "KDE Feed 閱讀器"
 
 #: src/aboutdata.cpp:39
 #, kde-format
-#| msgid "Copyright © 2004–2015 Akregator authors"
 msgid "Copyright © 2004–2018 Akregator authors"
 msgstr "(C) 2004-2018 Akregator 開發團隊"
 
@@ -946,7 +934,6 @@ msgstr "維護者"
 
 #: src/aboutdata.cpp:45
 #, kde-format
-#| msgid "Maintainer"
 msgid "Former maintainer"
 msgstr "前任維護者"
 
@@ -1346,13 +1333,11 @@ msgstr "到樹狀圖下方"
 
 #: src/actions/actionmanagerimpl.cpp:543
 #, kde-format
-#| msgid "N&ext Unread Feed"
 msgid "Hide Read Feeds"
 msgstr "隱藏已閱讀的 Feed"
 
 #: src/actions/actionmanagerimpl.cpp:549
 #, kde-format
-#| msgid "There are no unread articles"
 msgid "Auto-expand folders with unread articles"
 msgstr "自動展開未閱讀文章的資料夾"
 
@@ -1499,7 +1484,6 @@ msgstr "巴西與葡萄牙的 Feed"
 
 #: src/akregator_part.cpp:140
 #, kde-format
-#| msgid "Planet KDE"
 msgid "Planet KDE Brazilian Portuguese"
 msgstr "Planet KDE 巴西與葡萄牙"
 
@@ -1555,7 +1539,8 @@ msgstr "讀取錯誤"
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for "
 "the current user."
-msgstr "無法讀取檔案 %1，請檢查該檔是否存在，或是該檔是否能被現在的使用者讀取。"
+msgstr ""
+"無法讀取檔案 %1，請檢查該檔是否存在，或是該檔是否能被現在的使用者讀取。"
 
 #: src/akregator_part.cpp:591
 #, kde-format
@@ -1564,7 +1549,6 @@ msgstr "存取被拒：無法寫入檔案 %1。請檢查您的權限。"
 
 #: src/akregator_part.cpp:606 src/akregator_part.cpp:615
 #, kde-format
-#| msgid "OPML Outlines (*.opml, *.xml);;All Files (*)"
 msgid "OPML Outlines (*.opml *.xml);;All Files (*)"
 msgstr "OPML 大綱 (*.opml *.xml);; 所有檔案 (*)"
 
@@ -1634,7 +1618,6 @@ msgstr "內容"
 
 #: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:118
 #, kde-format
-#| msgid "A KDE news feed reader."
 msgid "Akregator is a KDE news feed reader."
 msgstr "Akregator 是個 KDE 新聞 Feed 閱讀器"
 
@@ -1753,7 +1736,8 @@ msgstr "匯入資料夾名稱："
 msgid ""
 "<qt>The standard feed list is corrupted (invalid OPML). A backup was created:"
 "<p><b>%1</b></p></qt>"
-msgstr "<qt>標準的 feed 列表已損毀（錯誤的 OPML）。已產生備份：<p><b>%1</b></p></qt>"
+msgstr ""
+"<qt>標準的 feed 列表已損毀（錯誤的 OPML）。已產生備份：<p><b>%1</b></p></qt>"
 
 #: src/command/loadfeedlistcommand.cpp:82
 #, kde-format
@@ -1790,7 +1774,8 @@ msgstr ""
 msgid ""
 "<qt>The standard feed list is corrupted (invalid XML). A backup was created:"
 "<p><b>%1</b></p></qt>"
-msgstr "<qt>標準的 feed 列表已損毀（錯誤的 XML）。已產生備份：<p><b>%1</b></p></qt>"
+msgstr ""
+"<qt>標準的 feed 列表已損毀（錯誤的 XML）。已產生備份：<p><b>%1</b></p></qt>"
 
 #: src/command/loadfeedlistcommand.cpp:193
 #, kde-format
@@ -1813,13 +1798,11 @@ msgstr "回復工作階段"
 
 #: src/crashwidget/crashwidget.cpp:56
 #, kde-format
-#| msgid "Restore Session"
 msgid "Do Not Restore Session"
 msgstr "永不還原工作階段"
 
 #: src/crashwidget/crashwidget.cpp:62
 #, kde-format
-#| msgid "Ask Me Later"
 msgid "Ask me later"
 msgstr "稍後問我"
 
@@ -1942,43 +1925,36 @@ msgstr "刪除文章"
 
 #: src/formatter/articlegrantleeobject.cpp:158
 #, kde-format
-#| msgid "&Mark Feed as Read"
 msgid "Mark as Read"
 msgstr "標為已讀"
 
 #: src/formatter/articlegrantleeobject.cpp:166
 #, kde-format
-#| msgid "Mark selected article as unread"
 msgid "Mark as Unread"
 msgstr "標記為未讀"
 
 #: src/formatter/articlegrantleeobject.cpp:175
 #, kde-format
-#| msgid "Remove &Important Mark"
 msgid "Remove Important Status"
 msgstr "移除重要標記"
 
 #: src/formatter/articlegrantleeobject.cpp:180
 #, kde-format
-#| msgid "&Mark as Important"
 msgid "Mark as Important"
 msgstr "標示為重要"
 
 #: src/formatter/articlegrantleeobject.cpp:189
 #, kde-format
-#| msgid "Send &Link Address..."
 msgid "Send Link Address"
 msgstr "送出連結位址"
 
 #: src/formatter/articlegrantleeobject.cpp:197
 #, kde-format
-#| msgid "Send &Link Address..."
 msgid "Send File Address"
 msgstr "傳送檔案位址"
 
 #: src/formatter/articlegrantleeobject.cpp:205
 #, kde-format
-#| msgid "Open Link in External &Browser"
 msgid "Open Link in External Browser"
 msgstr "在外部瀏覽器中開啟連結"
 
@@ -1991,7 +1967,6 @@ msgstr "分享"
 #: src/formatter/articlegrantleeobject.cpp:221
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:125
 #, kde-format
-#| msgid "Open in Background Tab"
 msgid "Open In Background Tab"
 msgstr "在背景分頁開啟"
 
@@ -2010,7 +1985,6 @@ msgstr[0] " （%1 篇未讀文章）"
 
 #: src/formatter/grantleeviewformatter.cpp:96
 #, kde-format
-#| msgid "<b>Description:</b> %1<br /><br />"
 msgid "<b>Description:</b> %1<br />"
 msgstr "<b>描述：</b> %1<br />"
 
@@ -2026,7 +2000,6 @@ msgstr "日期"
 
 #: src/formatter/grantleeviewformatter.cpp:157
 #, kde-format
-#| msgid "Comments"
 msgid "Comment"
 msgstr "註解"
 
@@ -2281,28 +2254,24 @@ msgstr "關閉分頁"
 
 #: src/tabwidget.cpp:152
 #, kde-format
-#| msgid "Detach Tab"
 msgctxt "@action:inmenu"
 msgid "Detach Tab"
 msgstr "分離分頁"
 
 #: src/tabwidget.cpp:157
 #, kde-format
-#| msgid "Close Tab"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "關閉分頁"
 
 #: src/tabwidget.cpp:161
 #, kde-format
-#| msgid "Close the current tab"
 msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
 msgstr "關閉其他的分頁"
 
 #: src/tabwidget.cpp:165
 #, kde-format
-#| msgid "Close Tab"
 msgctxt "@action:inmenu"
 msgid "Close All Tabs"
 msgstr "關閉所有分頁"
@@ -2345,7 +2314,6 @@ msgstr "自定更新間隔(&S)"
 #. i18n: ectx: property (text), widget (QLabel, updateLabel)
 #: src/ui/feedpropertieswidgetbase.ui:115
 #, kde-format
-#| msgid "Update &every:"
 msgid "Update ever&y:"
 msgstr "更新間隔(&Y)："
 
@@ -2423,13 +2391,11 @@ msgstr "文章到達時標記為已讀(&K)"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:53
 #, kde-format
-#| msgid "Disable Introduction Page"
 msgid "Disable Introduction"
 msgstr "停用介紹"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:71
 #, kde-format
-#| msgid "Copy Link Address"
 msgid "&Copy Email Address"
 msgstr "複製電子郵箱位址(&C)"
 
@@ -2440,49 +2406,41 @@ msgstr "網址已經複製至剪貼簿"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:111
 #, kde-format
-#| msgid "Ma&rk All Feeds as Read"
 msgid "Mark Article as Read"
 msgstr "標記文章為已讀"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:113
 #, kde-format
-#| msgid "Mark selected article as unread"
 msgid "Mark Article as Unread"
 msgstr "將文章標示為未讀"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:115
 #, kde-format
-#| msgid "Remove &Important Mark"
 msgid "Change Important Flag"
 msgstr "修改重要標記"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:117
 #, kde-format
-#| msgid "Share Article"
 msgid "Send the URL of the article"
 msgstr "傳送此文章的連結"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:119
 #, kde-format
-#| msgid "Share Article"
 msgid "Send the Html Page of Article"
 msgstr "傳送此文章的 HTML 頁面"
 
 #: src/urlhandler/webengine/urlhandlerwebengine.cpp:121
 #, kde-format
-#| msgid "Open in External Browser"
 msgid "Open In External Browser"
 msgstr "在外部瀏覽器開啟"
 
 #: src/widgets/searchbar.cpp:73
 #, kde-format
-#| msgid " articles"
 msgid "Search articles..."
 msgstr "搜尋文章…"
 
 #: src/widgets/searchbar.cpp:148
 #, kde-format
-#| msgid " articles"
 msgid "Search articles...<%1>"
 msgstr "搜尋文章...<%1>"
 

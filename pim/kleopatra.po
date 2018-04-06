@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-05 03:38+0200\n"
+"POT-Creation-Date: 2018-04-06 03:41+0200\n"
 "PO-Revision-Date: 2015-02-16 22:58+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -1833,31 +1833,31 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: src/conf/cryptooperationsconfigwidget.cpp:227
+#: src/conf/cryptooperationsconfigwidget.cpp:233
 #, kde-format
 msgid "EMail Operations"
 msgstr "電子郵件操作"
 
-#: src/conf/cryptooperationsconfigwidget.cpp:229
+#: src/conf/cryptooperationsconfigwidget.cpp:235
 #, kde-format
 msgid ""
 "Don't confirm signing certificate if there is only one valid certificate for "
 "the identity"
 msgstr ""
 
-#: src/conf/cryptooperationsconfigwidget.cpp:230
+#: src/conf/cryptooperationsconfigwidget.cpp:236
 #, kde-format
 msgid ""
 "Don't confirm encryption certificates if there is exactly one valid "
 "certificate for each recipient"
 msgstr ""
 
-#: src/conf/cryptooperationsconfigwidget.cpp:236
+#: src/conf/cryptooperationsconfigwidget.cpp:242
 #, kde-format
 msgid "File Operations"
 msgstr "檔案"
 
-#: src/conf/cryptooperationsconfigwidget.cpp:238
+#: src/conf/cryptooperationsconfigwidget.cpp:244
 #, kde-format
 msgid ""
 "Create OpenPGP encrypted files with \".pgp\" file extensions instead of \"."
@@ -1865,14 +1865,14 @@ msgid ""
 msgstr "所建立的 OpenPGP 加密檔用 \".pgp\" 而不是用 \".gpg\" 做副檔名。"
 
 #. i18n: ectx: label, entry (AddASCIIArmor), group (FileOperations)
-#: src/conf/cryptooperationsconfigwidget.cpp:239
+#: src/conf/cryptooperationsconfigwidget.cpp:245
 #: src/kcfg/fileoperationspreferences.kcfg:25
 #, fuzzy, kde-format
 #| msgid "Sign and/or encrypt file(s)"
 msgid "Create signed or encrypted files as text files."
 msgstr "簽署/加密檔案"
 
-#: src/conf/cryptooperationsconfigwidget.cpp:240
+#: src/conf/cryptooperationsconfigwidget.cpp:246
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1882,7 +1882,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoDecryptVerify), group (FileOperations)
-#: src/conf/cryptooperationsconfigwidget.cpp:243
+#: src/conf/cryptooperationsconfigwidget.cpp:249
 #: src/kcfg/fileoperationspreferences.kcfg:15
 #, kde-format
 msgid ""
@@ -1890,26 +1890,26 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (DontUseTmpDir), group (FileOperations)
-#: src/conf/cryptooperationsconfigwidget.cpp:244
+#: src/conf/cryptooperationsconfigwidget.cpp:250
 #: src/kcfg/fileoperationspreferences.kcfg:30
 #, fuzzy, kde-format
 #| msgid "Sign and/or encrypt file(s)"
 msgid "Create temporary decrypted files in the folder of the encrypted file."
 msgstr "簽署/加密檔案"
 
-#: src/conf/cryptooperationsconfigwidget.cpp:245
+#: src/conf/cryptooperationsconfigwidget.cpp:251
 #, kde-format
 msgctxt "@info"
 msgid "Set this option to avoid using the users temporary directory."
 msgstr ""
 
-#: src/conf/cryptooperationsconfigwidget.cpp:253
+#: src/conf/cryptooperationsconfigwidget.cpp:259
 #, fuzzy, kde-format
 #| msgid "Checksum program to use:"
 msgid "Checksum program to use when creating checksum files:"
 msgstr "要使用的檢查碼程式："
 
-#: src/conf/cryptooperationsconfigwidget.cpp:258
+#: src/conf/cryptooperationsconfigwidget.cpp:264
 #, kde-format
 msgid "Archive command to use when archiving files:"
 msgstr ""

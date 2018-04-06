@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-28 03:32+0200\n"
+"POT-Creation-Date: 2018-04-06 03:39+0200\n"
 "PO-Revision-Date: 2018-03-28 23:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2283,7 +2283,7 @@ msgid "Rename"
 msgstr "重新命名"
 
 #: dialogs/pages/activitypage.cpp:189 toolbarstateother.cpp:280
-#: umlscene.cpp:3089 umlwidgets/statewidget.cpp:500
+#: umlscene.cpp:3088 umlwidgets/statewidget.cpp:500
 #, kde-format
 msgid "new activity"
 msgstr "新活動"
@@ -2294,7 +2294,7 @@ msgid "New Activity"
 msgstr "新活動"
 
 #: dialogs/pages/activitypage.cpp:191 toolbarstateother.cpp:280
-#: umlscene.cpp:3091 umlwidgets/activitywidget.cpp:375
+#: umlscene.cpp:3090 umlwidgets/activitywidget.cpp:375
 #: umlwidgets/statewidget.cpp:502
 #, kde-format
 msgid "Enter the name of the new activity:"
@@ -2560,16 +2560,16 @@ msgstr "新增實體屬性(&E)..."
 #: dialogs/pages/classifierlistpage.cpp:224
 #: dialogs/umlforeignkeyconstraintdialog.cpp:322
 #: dialogs/umlforeignkeyconstraintdialog.cpp:328
-#: dialogs/umloperationdialog.cpp:153 dialogs/umloperationdialog.cpp:161
+#: dialogs/umloperationdialog.cpp:159 dialogs/umloperationdialog.cpp:167
 #: dialogs/umluniqueconstraintdialog.cpp:117
-#: dialogs/umluniqueconstraintdialog.cpp:123 umldoc.cpp:1762 umlscene.cpp:3286
+#: dialogs/umluniqueconstraintdialog.cpp:123 umldoc.cpp:1762 umlscene.cpp:3285
 #, kde-format
 msgid "&Delete"
 msgstr "刪除(&D)"
 
 #: dialogs/pages/classifierlistpage.cpp:218
-#: dialogs/pages/classifierlistpage.cpp:226 dialogs/umloperationdialog.cpp:155
-#: dialogs/umloperationdialog.cpp:163 uml.cpp:552
+#: dialogs/pages/classifierlistpage.cpp:226 dialogs/umloperationdialog.cpp:161
+#: dialogs/umloperationdialog.cpp:169 uml.cpp:552
 #, kde-format
 msgid "&Properties"
 msgstr "屬性(&P)"
@@ -3677,56 +3677,67 @@ msgstr "抽象操作 (&A)"
 msgid "&Query (\"const\")"
 msgstr "查詢（\"const\"） (&Q)"
 
-#: dialogs/umloperationdialog.cpp:117
+#: dialogs/umloperationdialog.cpp:116
+#, kde-format
+msgid "&virtual"
+msgstr ""
+
+#: dialogs/umloperationdialog.cpp:119
+#, fuzzy, kde-format
+#| msgid "Spline"
+msgid "&inline"
+msgstr "曲線尺"
+
+#: dialogs/umloperationdialog.cpp:123
 #, kde-format
 msgid "&Override"
 msgstr "覆寫 (&O)"
 
-#: dialogs/umloperationdialog.cpp:126
+#: dialogs/umloperationdialog.cpp:132
 #, kde-format
 msgid "Parameters"
 msgstr "參數"
 
-#: dialogs/umloperationdialog.cpp:151 dialogs/umloperationdialog.cpp:159
+#: dialogs/umloperationdialog.cpp:157 dialogs/umloperationdialog.cpp:165
 #, kde-format
 msgid "Ne&w Parameter..."
 msgstr "新增參數(&W)..."
 
-#: dialogs/umloperationdialog.cpp:273
+#: dialogs/umloperationdialog.cpp:279
 #, kde-format
 msgid ""
 "The parameter name you have chosen\n"
 "is already being used in this operation."
 msgstr "您所選擇的參數名稱已經在此操作中使用。"
 
-#: dialogs/umloperationdialog.cpp:274 dialogs/umloperationdialog.cpp:320
+#: dialogs/umloperationdialog.cpp:280 dialogs/umloperationdialog.cpp:326
 #, kde-format
 msgid "Parameter Name Not Unique"
 msgstr "參數名稱不唯一"
 
-#: dialogs/umloperationdialog.cpp:319
+#: dialogs/umloperationdialog.cpp:325
 #, kde-format
 msgid ""
 "The parameter name you have chosen is already being used in this operation."
 msgstr "您所選擇的參數名稱已經在此操作中使用。"
 
-#: dialogs/umloperationdialog.cpp:404
+#: dialogs/umloperationdialog.cpp:410
 #, kde-format
 msgid "You have entered an invalid operation name."
 msgstr "您輸入的操作名稱無效。"
 
-#: dialogs/umloperationdialog.cpp:405 dialogs/umloperationdialog.cpp:417
+#: dialogs/umloperationdialog.cpp:411 dialogs/umloperationdialog.cpp:423
 #: refactoring/refactoringassistant.cpp:829
 #, kde-format
 msgid "Operation Name Invalid"
 msgstr "操作名稱無效"
 
-#: dialogs/umloperationdialog.cpp:414 refactoring/refactoringassistant.cpp:826
+#: dialogs/umloperationdialog.cpp:420 refactoring/refactoringassistant.cpp:826
 #, kde-format
 msgid "An operation with that signature already exists in %1.\n"
 msgstr "在 %1 已經有同樣簽名的操作。\n"
 
-#: dialogs/umloperationdialog.cpp:416 refactoring/refactoringassistant.cpp:828
+#: dialogs/umloperationdialog.cpp:422 refactoring/refactoringassistant.cpp:828
 #, kde-format
 msgid "Choose a different name or parameter list."
 msgstr "請選擇不同的名稱或參數列表。"
@@ -5199,7 +5210,7 @@ msgstr "關聯的用法不正確。"
 msgid "Association Error"
 msgstr "關聯錯誤"
 
-#: toolbarstateother.cpp:279 umlscene.cpp:3090
+#: toolbarstateother.cpp:279 umlscene.cpp:3089
 #: umlwidgets/activitywidget.cpp:374
 #, kde-format
 msgid "Enter Activity Name"
@@ -5250,17 +5261,17 @@ msgstr "輸入組合分段"
 msgid "new Combined Fragment"
 msgstr "新組合分段"
 
-#: toolbarstateother.cpp:308 umlscene.cpp:3055 umlwidgets/statewidget.cpp:487
+#: toolbarstateother.cpp:308 umlscene.cpp:3054 umlwidgets/statewidget.cpp:487
 #, kde-format
 msgid "Enter State Name"
 msgstr "輸入狀態名稱"
 
-#: toolbarstateother.cpp:309 umlscene.cpp:3056 umlwidgets/statewidget.cpp:488
+#: toolbarstateother.cpp:309 umlscene.cpp:3055 umlwidgets/statewidget.cpp:488
 #, kde-format
 msgid "Enter the name of the new state:"
 msgstr "輸入新狀態的名稱："
 
-#: toolbarstateother.cpp:309 umlscene.cpp:3054
+#: toolbarstateother.cpp:309 umlscene.cpp:3053
 #, kde-format
 msgid "new state"
 msgstr "新狀態"
@@ -7297,67 +7308,67 @@ msgstr "名稱無效"
 msgid "Diagram: %2 Page %1"
 msgstr "圖表：%2  頁：%1"
 
-#: umlscene.cpp:1307
+#: umlscene.cpp:1308
 #, kde-format
 msgid "Use fill color"
 msgstr "使用填充顏色"
 
-#: umlscene.cpp:1309
+#: umlscene.cpp:1310
 #, kde-format
 msgid "No fill color"
 msgstr "不填充顏色"
 
-#: umlscene.cpp:1324
+#: umlscene.cpp:1325
 #, kde-format
 msgid "Change font"
 msgstr "變更字型"
 
-#: umlscene.cpp:1338
+#: umlscene.cpp:1339
 #, kde-format
 msgid "Change line color"
 msgstr "改變線顏色"
 
-#: umlscene.cpp:1356
+#: umlscene.cpp:1357
 #, kde-format
 msgid "Change line width"
 msgstr "改變線寬度"
 
-#: umlscene.cpp:1376
+#: umlscene.cpp:1377
 #, kde-format
 msgid "Change fill color"
 msgstr "更改填充顏色"
 
-#: umlscene.cpp:1391
+#: umlscene.cpp:1392
 #, kde-format
 msgid "Change visual property"
 msgstr "改變可見屬性"
 
-#: umlscene.cpp:1428
+#: umlscene.cpp:1427
 #, kde-format
 msgid "Delete widgets"
 msgstr "刪除元件"
 
-#: umlscene.cpp:1481
+#: umlscene.cpp:1480
 #, kde-format
 msgid "Resize widgets"
 msgstr "改變元件大小"
 
-#: umlscene.cpp:3133
+#: umlscene.cpp:3132
 #, kde-format
 msgid "Enter Diagram Name"
 msgstr "輸入圖表名稱"
 
-#: umlscene.cpp:3134
+#: umlscene.cpp:3133
 #, kde-format
 msgid "Enter the new name of the diagram:"
 msgstr "輸入圖表的新名稱："
 
-#: umlscene.cpp:3150
+#: umlscene.cpp:3149
 #, kde-format
 msgid "Failed to import from file."
 msgstr "匯入堆疊追蹤失敗。"
 
-#: umlscene.cpp:3284
+#: umlscene.cpp:3283
 #, kde-format
 msgid ""
 "You are about to delete the entire diagram.\n"
@@ -7366,7 +7377,7 @@ msgstr ""
 "將要刪除整個圖表。\n"
 "您確定嗎？"
 
-#: umlscene.cpp:3285
+#: umlscene.cpp:3284
 #, kde-format
 msgid "Delete Diagram?"
 msgstr "刪除圖表？"
