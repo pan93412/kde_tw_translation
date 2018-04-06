@@ -5,14 +5,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 # liueigi <liueigi@gmail.com>, 2016.
 # Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-android\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-03-29 03:21+0200\n"
-"PO-Revision-Date: 2016-10-14 07:59+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-04-07 00:42+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,11 +64,11 @@ msgstr "使用您的智慧型手機或者平板來模擬觸碰板與鍵盤"
 
 msgctxt "pref_plugin_remotekeyboard"
 msgid "Receive remote keypresses"
-msgstr ""
+msgstr "接收遠端按鍵輸入"
 
 msgctxt "pref_plugin_remotekeyboard_desc"
 msgid "Receive keypress events from remote devices"
-msgstr ""
+msgstr "從遠端裝置接收按鍵輸入活動"
 
 msgctxt "pref_plugin_mpris"
 msgid "Multimedia controls"
@@ -151,28 +152,27 @@ msgstr "多媒體控制"
 
 msgctxt "remotekeyboard_editing_only_title"
 msgid "Handle remote keys only when editing"
-msgstr ""
+msgstr "當編輯時只處理遠端按鍵"
 
 msgctxt "remotekeyboard_not_connected"
 msgid ""
 "There is no active remote keyboard connection, establish one in kdeconnect"
-msgstr ""
+msgstr "這裡沒有建立在 kdeconnect 之上的使用中遠端鍵盤連線。"
 
 msgctxt "remotekeyboard_connected"
 msgid "Remote keyboard connection is active"
-msgstr ""
+msgstr "遠端鍵盤連線為啟用狀態"
 
 msgctxt "remotekeyboard_multiple_connections"
 msgid ""
 "There is more than one remote keyboard connection, select the device to "
 "configure"
-msgstr ""
+msgstr "這裡有兩個以上的遠端鍵盤連結，選擇一個裝置以設定。"
 
 msgctxt "open_mousepad"
 msgid "Remote input"
 msgstr "遠端輸入"
 
-#, fuzzy
 #| msgctxt "mousepad_info"
 #| msgid ""
 #| "Move a finger on the screen to move the mouse cursor. Tap for a click, "
@@ -185,7 +185,8 @@ msgid ""
 "Use a long press to drag'n drop."
 msgstr ""
 "在您的智慧型手機的螢幕上移動手指頭，用來控制電腦螢幕的鼠標。點擊表示滑鼠的左"
-"鍵，使用兩隻/三隻手指頭點擊來表示滑鼠的右鍵/中鍵。長按則表示要拖拉。"
+"鍵，使用兩隻/三隻手指頭點擊來表示滑鼠的右鍵/中鍵。使用兩隻手指頭捲動。"
+"長按則表示要拖拉。"
 
 msgctxt "mousepad_double_tap_settings_title"
 msgid "Set two finger tap action"
@@ -355,20 +356,20 @@ msgctxt "outgoing_file_title"
 msgid "Sending file to %1s"
 msgstr "正在將檔案發送到 %1s"
 
-#, fuzzy, c-format
+#, c-format
 #| msgctxt "outgoing_file_title"
 #| msgid "Sending file to %1s"
 msgctxt "outgoing_files_title"
 msgid "Sending files to %1s"
 msgstr "正在將檔案發送到 %1s"
 
-#, fuzzy, c-format
+#, c-format
 #| msgctxt "send_files"
 #| msgid "Send files"
 msgctxt "outgoing_files_text"
 msgid "Sent %1$d file"
 msgid_plural "Sent %1$d out of %2$d files"
-msgstr[0] "傳送檔案"
+msgstr[0] "傳送 %1$d 個檔案，共 %2$d 個檔案。"
 
 #, c-format
 msgctxt "received_file_title"
@@ -395,7 +396,7 @@ msgctxt "sent_file_text"
 msgid "%1s"
 msgstr "%1s"
 
-#, fuzzy, c-format
+#, c-format
 #| msgctxt "sent_file_failed_title"
 #| msgid "Failed to send file %1s"
 msgctxt "sent_file_failed_title"
@@ -465,7 +466,7 @@ msgstr "播放"
 
 msgctxt "mpris_pause"
 msgid "Pause"
-msgstr ""
+msgstr "暫停"
 
 msgctxt "mpris_previous"
 msgid "Previous"
@@ -521,11 +522,11 @@ msgstr "2分鐘"
 
 msgctxt "mpris_notification_settings_title"
 msgid "Show media control notification"
-msgstr ""
+msgstr "顯示媒體控制項通知"
 
 msgctxt "mpris_notification_settings_summary"
 msgid "Allows controlling your media players without opening KDE Connect."
-msgstr ""
+msgstr "允許控制您的媒體播放器而不需要開啟 KDE 連線。"
 
 msgctxt "share_to"
 msgid "Share To..."
@@ -596,31 +597,30 @@ msgstr "當接收檔案時發出振動以及播放聲音"
 
 msgctxt "share_destination_customize"
 msgid "Customize destination directory"
-msgstr ""
+msgstr "自訂目標路徑"
 
 msgctxt "share_destination_customize_summary_disabled"
 msgid "Received files will appear in Downloads"
-msgstr ""
+msgstr "接收到的檔案將會在 Downloads 上顯示。"
 
 msgctxt "share_destination_customize_summary_enabled"
 msgid "Files will be stored in the directory below"
-msgstr ""
+msgstr "檔案將會儲存在下方所示的資料夾"
 
 msgctxt "share_destination_folder_preference"
 msgid "Destination directory"
-msgstr ""
+msgstr "目標路徑"
 
-#, fuzzy
 #| msgctxt "share_to"
 #| msgid "Share To..."
 msgctxt "share"
 msgid "Share"
-msgstr "分享給"
+msgstr "分享"
 
 #, c-format
 msgctxt "share_received_file"
 msgid "Share \"%s\""
-msgstr ""
+msgstr "分享「%s」"
 
 msgctxt "title_activity_notification_filter"
 msgid "Notification filter"
@@ -720,7 +720,7 @@ msgctxt "on_data_message"
 msgid ""
 "It looks like you are on a mobile data connection. KDE Connect only works on "
 "local networks."
-msgstr ""
+msgstr "看起來你現在正使用行動數據連線。KDE 連線只在區域網路上運作。"
 
 msgctxt "no_file_browser"
 msgid "There are no file browsers installed."
@@ -762,130 +762,132 @@ msgctxt "close"
 msgid "Close"
 msgstr "關閉"
 
-#, fuzzy
 #| msgctxt "no_permissions"
 #| msgid "You need to grant permission to access notifications"
 msgctxt "no_permissions_storage"
 msgid "You need to grant permissions to access the storage"
-msgstr "您需要授予存取通知的權限"
+msgstr "您需要授予儲存權限"
 
-#, fuzzy
 #| msgctxt "plugins_failed_to_load"
 #| msgid "Plugins failed to load (tap for more info):"
 msgctxt "plugins_need_permission"
 msgid "Some Plugins need permissions to work (tap for more info):"
-msgstr "擴展插件讀取錯誤（點擊查看更多資訊）"
+msgstr "部份的附加元件需要權限才能運作（點擊以取得更多資訊）"
 
 msgctxt "permission_explanation"
 msgid "This plugin needs permissions to work"
-msgstr ""
+msgstr "這附加元件需要權限以運作"
 
-#, fuzzy
 #| msgctxt "no_permissions"
 #| msgid "You need to grant permission to access notifications"
 msgctxt "optional_permission_explanation"
 msgid "You need to grant extra permissions to enable all functions"
-msgstr "您需要授予存取通知的權限"
+msgstr "你需要授予延伸的權限以啟用所有的功能"
 
-#, fuzzy
 #| msgctxt "plugins_failed_to_load"
 #| msgid "Plugins failed to load (tap for more info):"
 msgctxt "plugins_need_optional_permission"
 msgid ""
 "Some plugins have features disabled because of lack of permission (tap for "
 "more info):"
-msgstr "擴展插件讀取錯誤（點擊查看更多資訊）"
+msgstr "部份的附加元件因為缺乏權限，而導致功能被停用。（點擊以了解更多資訊）："
 
 msgctxt "sftp_permission_explanation"
 msgid ""
 "To access your files from your PC the app needs permission to access your "
 "phone's storage"
 msgstr ""
+"為了要從您的個人電腦存取檔案，這個應用程式需要"
+"權限以存取您的手機儲存空間。"
 
 msgctxt "share_optional_permission_explanation"
 msgid ""
 "To share files between your phone and your desktop you need to give access "
 "to the phone's storage"
 msgstr ""
+"為了要在您的手機與電腦之間分享檔案，你需要"
+"同意存取手機的儲存空間。"
 
 msgctxt "telepathy_permission_explanation"
 msgid ""
 "To read and write SMS from your desktop you need to give permission to SMS"
 msgstr ""
+"為了要在您的個人電腦上讀取與撰寫簡訊，你需要提供"
+"簡訊的權限。"
 
 msgctxt "telephony_permission_explanation"
 msgid ""
 "To see phone calls and SMS from the desktop you need to give permission to "
 "phone calls and SMS"
 msgstr ""
+"為了要在您的電腦上檢視手機通話與簡訊，你需要提供手機通話與簡訊"
+"的權限。"
 
 msgctxt "telephony_optional_permission_explanation"
 msgid ""
 "To see a contact name instead of a phone number you need to give access to "
 "the phone's contacts"
 msgstr ""
+"為了要讓聯絡人名稱取代手機號碼，您需要提供手機"
+"通訊錄的權限。"
 
 msgctxt "select_ringtone"
 msgid "Select a ringtone"
-msgstr ""
+msgstr "選擇一個鈴聲"
 
 msgctxt "telephony_pref_blocked_title"
 msgid "Blocked numbers"
-msgstr ""
+msgstr "已封鎖號碼"
 
 msgctxt "telephony_pref_blocked_dialog_desc"
 msgid ""
 "Don't show calls and SMS from these numbers. Please specify one number per "
 "line"
-msgstr ""
+msgstr "不顯示這些號碼的來電與簡訊。請在一行指定一個電話號碼。"
 
 msgctxt "mpris_coverart_description"
 msgid "Cover art of current media"
-msgstr ""
+msgstr "目前媒體的專輯圖像"
 
-#, fuzzy
 #| msgctxt "device_name"
 #| msgid "Device name"
 msgctxt "device_icon_description"
 msgid "Device icon"
-msgstr "設備名稱"
+msgstr "裝置圖示"
 
-#, fuzzy
 #| msgctxt "plugin_settings"
 #| msgid "Settings"
 msgctxt "settings_icon_description"
 msgid "Settings icon"
-msgstr "設定"
+msgstr "設定圖示"
 
 msgctxt "add_command"
 msgid "Add a command"
-msgstr ""
+msgstr "增加一行指令"
 
 msgctxt "addcommand_name"
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
-#, fuzzy
 #| msgctxt "pref_plugin_runcommand"
 #| msgid "Run Command"
 msgctxt "addcommand_command"
 msgid "Command"
-msgstr "執行指令"
+msgstr "指令"
 
 msgctxt "command_confirm_needed"
 msgid "You will need to confirm the command on the desktop"
-msgstr ""
+msgstr "您將需要在桌面上確認指令"
 
-#, fuzzy
 #| msgctxt "no_file_browser"
 #| msgid "There are no file browsers installed."
 msgctxt "addcommand_explanation"
 msgid "There are no commands registered"
-msgstr "沒有安裝此檔案的瀏覽程式"
+msgstr "沒有指令被註冊"
 
 msgctxt "addcommand_explanation2"
 msgid "You can add new commands in the KDE Connect System Settings"
-msgstr ""
+msgstr "您現在可以在 KDE 連線系統設定增加新的指令"
 
 #~ msgctxt "outgoing_file_text"
 #~ msgid "%1s"
