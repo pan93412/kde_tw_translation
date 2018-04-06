@@ -2,20 +2,21 @@
 #
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2013, 2015.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: konsolekalendar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-09-14 03:26+0200\n"
-"PO-Revision-Date: 2015-02-16 23:13+0800\n"
-"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
-"Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-04-05 20:24+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "dot tw>\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: konsolekalendar.cpp:105
@@ -136,12 +137,12 @@ msgstr "失敗：%1 未插入"
 #: konsolekalendaradd.cpp:174
 #, kde-format
 msgid "Insert Event skipped, because UID \"%1\" is already known. <Verbose>"
-msgstr ""
+msgstr "已跳過插入活動，因為識別碼「%1」已經存在。<Verbose>"
 
 #: konsolekalendaradd.cpp:182
 #, kde-format
 msgid "Add Event with UID \"%1\". <Verbose>"
-msgstr ""
+msgstr "加入識別碼為「%1」的活動。<Verbose>"
 
 #: konsolekalendarchange.cpp:68
 #, kde-format
@@ -337,7 +338,7 @@ msgstr "  移除現有事件"
 #: main.cpp:128
 #, kde-format
 msgid "  Create new Akonadi Resource for file"
-msgstr ""
+msgstr "  加入新的 Akonadi 資源給檔案"
 
 #: main.cpp:130
 #, kde-format
@@ -445,7 +446,7 @@ msgid "  Print list of export types supported and exit"
 msgstr "  印出支援的匯出型態清單後離開"
 
 #: main.cpp:172
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Examples:\n"
 #| "  konsolekalendar --view\n"
@@ -468,7 +469,7 @@ msgstr ""
 "例如：\n"
 "  konsolekalendar --view\n"
 "  konsolekalendar --list-calendars\n"
-"  konsolekalendar --add --collection 42 --date 2003-06-04 --time 10:00 --end-"
+"  konsolekalendar --add --calendar 42 --date 2016-12-04 --time 10:00 --end-"
 "time 12:00 \\\n"
 "                       --summary \"看醫生\" --description \"健康檢查\"\n"
 "  konsolekalendar --delete --uid KOrganizer-1740326.803"
@@ -479,17 +480,18 @@ msgid ""
 "Without any options konsolekalendar will output today's events\n"
 "from 7am to 5pm or nothing at all if there aren't any"
 msgstr ""
+"當沒有任何選項，konsolekalender 會輸入今天從早上 7 點至晚上 5 點的活動\n"
+"或假如沒有任何東西，將不會輸出。"
 
 #: main.cpp:184
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "For more information visit the program home page at:\n"
 #| "  http://pim.kde.org/components/konsolekalendar.php"
 msgid ""
 "For more information visit the program home page at:\n"
 "  https://userbase.kde.org/KonsoleKalendar"
-msgstr ""
-"請參考 http://pim.kde.org/components/konsolekalendar.php 以取得更多資訊。"
+msgstr "請參考 https://userbase.kde.org/KonsoleKalendar 以取得更多資訊。"
 
 #: main.cpp:236
 #, kde-format
@@ -616,7 +618,7 @@ msgstr "無法開啟指定的匯出檔：%1"
 #: main.cpp:874
 #, kde-format
 msgid "Cannot create Akonadi resource from file: %1"
-msgstr ""
+msgstr "無法從檔案建立 Akonadi 資源：%1"
 
 #~ msgid "  Create new calendar file if one does not exist"
 #~ msgstr "  如果不存在的話就新建行事曆"
