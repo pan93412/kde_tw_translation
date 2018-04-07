@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-06 03:29+0200\n"
+"POT-Creation-Date: 2018-04-07 03:21+0200\n"
 "PO-Revision-Date: 2018-01-04 20:03+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -8233,7 +8233,7 @@ msgstr "大小"
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:63
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:64
 #: plugins/tools/basictools/kis_tool_multihand.cpp:305
-#: plugins/tools/basictools/wdgcolorpicker.ui:64
+#: plugins/tools/basictools/wdgcolorpicker.ui:176
 #: plugins/tools/basictools/wdgmovetool.ui:127
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:224
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:227
@@ -10400,7 +10400,7 @@ msgstr "遞減彩度 HSV"
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:69
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:34
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:80
-#: plugins/tools/basictools/wdgcolorpicker.ui:29
+#: plugins/tools/basictools/wdgcolorpicker.ui:116
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:164
 #, kde-format
 msgid "Value"
@@ -10625,7 +10625,7 @@ msgstr "組合法線貼圖"
 msgid "Untitled"
 msgstr "無標題"
 
-#: libs/pigment/resources/KoStopGradient.cpp:442
+#: libs/pigment/resources/KoStopGradient.cpp:454
 #, kde-format
 msgid "SVG Gradient"
 msgstr "SVG 漸層"
@@ -10834,56 +10834,56 @@ msgctxt "(qtundo-format)"
 msgid "Edit Guides"
 msgstr "編輯參考線"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:736
+#: libs/ui/canvas/kis_guides_manager.cpp:747
 #, kde-format
 msgid "Snap to:"
 msgstr "對齊："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: libs/ui/canvas/kis_guides_manager.cpp:737
+#: libs/ui/canvas/kis_guides_manager.cpp:748
 #: plugins/dockers/griddocker/grid_config_widget.ui:39
 #, kde-format
 msgid "Grid"
 msgstr "格線"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/canvas/kis_guides_manager.cpp:738
+#: libs/ui/canvas/kis_guides_manager.cpp:749
 #: plugins/dockers/griddocker/grid_config_widget.ui:564
 #, kde-format
 msgid "Guides"
 msgstr "參考線"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:739
+#: libs/ui/canvas/kis_guides_manager.cpp:750
 #, kde-format
 msgid "Orthogonal"
 msgstr "垂直"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:741
+#: libs/ui/canvas/kis_guides_manager.cpp:752
 #, kde-format
 msgid "Node"
 msgstr "節點"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:742
+#: libs/ui/canvas/kis_guides_manager.cpp:753
 #, kde-format
 msgid "Extension"
 msgstr "延伸"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:743
+#: libs/ui/canvas/kis_guides_manager.cpp:754
 #, kde-format
 msgid "Intersection"
 msgstr "交叉點"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:745
+#: libs/ui/canvas/kis_guides_manager.cpp:756
 #, kde-format
 msgid "Bounding Box"
 msgstr "邊界盒"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:746
+#: libs/ui/canvas/kis_guides_manager.cpp:757
 #, kde-format
 msgid "Image Bounds"
 msgstr "影像邊界"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:747
+#: libs/ui/canvas/kis_guides_manager.cpp:758
 #, kde-format
 msgid "Image Center"
 msgstr "影像中心"
@@ -11366,9 +11366,9 @@ msgstr "選擇一個背景圖"
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:203
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:276
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:280
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:216
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:221
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:263
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:206
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:211
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:253
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:824
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #, kde-format
@@ -12318,9 +12318,7 @@ msgid "Source:"
 msgstr "來源："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSource)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: libs/ui/forms/wdgcustompattern.ui:33
-#: plugins/tools/basictools/wdgcolorpicker.ui:146
 #, kde-format
 msgid "Current Layer"
 msgstr "目前圖層"
@@ -18085,7 +18083,7 @@ msgstr "加大筆刷尺寸"
 msgid "Decrease Brush Size"
 msgstr "減小筆刷尺寸"
 
-#: libs/ui/tool/kis_tool_utils.cpp:120
+#: libs/ui/tool/kis_tool_utils.cpp:134
 #: plugins/dockers/animation/kis_animation_utils.cpp:89
 msgctxt "(qtundo-format)"
 msgid "Clear"
@@ -34983,22 +34981,22 @@ msgstr "讓它只對齊一個輔助線，防止對齊其它輔助線。"
 msgid "Freehand Brush Tool"
 msgstr "筆刷工具"
 
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:216
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:206
 #, kde-format
 msgid "Cannot pick a color as no layer is active."
 msgstr "當沒有作用中的圖層時，無法挑選顏色。"
 
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:221
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:211
 #, kde-format
 msgid "Cannot pick a color as the active layer is not visible."
 msgstr "當作用中的圖層不是可看見的，就無法挑選顏色。"
 
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:263
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:253
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr "無法寫入調色盤檔案 %1。也許它是唯讀的。"
 
-#: plugins/tools/basictools/kis_tool_colorpicker.h:130
+#: plugins/tools/basictools/kis_tool_colorpicker.h:127
 #, kde-format
 msgid "Color Selector Tool"
 msgstr "取色工具"
@@ -35306,41 +35304,105 @@ msgstr "移動選取範圍"
 msgid "Color Picker"
 msgstr "取色器"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, listViewChannels)
-#: plugins/tools/basictools/wdgcolorpicker.ui:24
-#, kde-format
-msgid "Channel"
-msgstr "色版"
+#. i18n: ectx: property (text), widget (QLabel, blendLabel)
+#: plugins/tools/basictools/wdgcolorpicker.ui:25
+#, fuzzy, kde-format
+#| msgid "Blend"
+msgid "Blend: "
+msgstr "混合"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/tools/basictools/wdgcolorpicker.ui:54
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, blend)
+#: plugins/tools/basictools/wdgcolorpicker.ui:44
 #, kde-format
-msgid "Sample radius:"
-msgstr "取樣半徑："
+msgid ""
+"<nobr>Blending controls the percentage of color that is picked</nobr> and "
+"mixed with your current brush color. A full blending value picks colors "
+"completely, ignoring brush color."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbSources)
+#: plugins/tools/basictools/wdgcolorpicker.ui:71
+#, kde-format
+msgid ""
+"<nobr>Determines whether the color picker will sample</nobr> colors from all "
+"visible layers or only the currently selected layer."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
+#: plugins/tools/basictools/wdgcolorpicker.ui:78
+#, kde-format
+msgid "Sample All Visible Layers"
+msgstr "取樣所有可看見的圖層"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
+#: plugins/tools/basictools/wdgcolorpicker.ui:83
+#, fuzzy, kde-format
+#| msgid "Current Layer"
+msgid "Sample Current Layer"
+msgstr "目前圖層"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNormaliseValues)
+#: plugins/tools/basictools/wdgcolorpicker.ui:91
+#, kde-format
+msgid ""
+"Displays per-channel color information below as percentages instead of bytes."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbNormaliseValues)
-#: plugins/tools/basictools/wdgcolorpicker.ui:79
+#: plugins/tools/basictools/wdgcolorpicker.ui:94
 #, kde-format
 msgid "Show colors as percentages"
 msgstr "以百分比顯示顏色"
 
+#. i18n: ectx: property (text), widget (QTreeWidget, listViewChannels)
+#: plugins/tools/basictools/wdgcolorpicker.ui:111
+#, kde-format
+msgid "Channel"
+msgstr "色版"
+
+#. i18n: ectx: property (text), widget (QLabel, radiusLabel)
+#: plugins/tools/basictools/wdgcolorpicker.ui:154
+#, fuzzy, kde-format
+#| msgid "Radius:"
+msgid "Radius: "
+msgstr "半徑："
+
+#. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, radius)
+#: plugins/tools/basictools/wdgcolorpicker.ui:173
+#, kde-format
+msgid ""
+"<nobr>Radius controls the color picker's sampling area.</nobr> Pixel colors "
+"within this radius are mixed together."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbPalette)
+#: plugins/tools/basictools/wdgcolorpicker.ui:208
+#, kde-format
+msgid ""
+"<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
+"time you pick a color."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
-#: plugins/tools/basictools/wdgcolorpicker.ui:103
+#: plugins/tools/basictools/wdgcolorpicker.ui:211
 #, kde-format
 msgid "Add to palette:"
 msgstr "加入到調色盤："
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbUpdateCurrentColor)
-#: plugins/tools/basictools/wdgcolorpicker.ui:115
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbUpdateCurrentColor)
+#: plugins/tools/basictools/wdgcolorpicker.ui:225
 #, kde-format
-msgid "Update current color"
-msgstr "更新目前顏色"
+msgid ""
+"<nobr>Controls whether the color picker updates the</nobr> current "
+"foreground or not."
+msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
-#: plugins/tools/basictools/wdgcolorpicker.ui:141
-#, kde-format
-msgid "Sample All Visible Layers"
-msgstr "取樣所有可看見的圖層"
+#. i18n: ectx: property (text), widget (QCheckBox, cbUpdateCurrentColor)
+#: plugins/tools/basictools/wdgcolorpicker.ui:228
+#, fuzzy, kde-format
+#| msgid "Update current color"
+msgid "Update color"
+msgstr "更新目前顏色"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpSelectionMethod)
 #: plugins/tools/basictools/wdgmovetool.ui:23
@@ -37142,19 +37204,19 @@ msgctxt "floating message in transformation tool"
 msgid "Selected layer cannot be transformed with active transformation mode "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:846
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:850
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr "當編輯變形遮罩時，選取範圍沒有被使用"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:857
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:861
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
 msgstr "無法變形空的圖層"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:883
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:890
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -37581,6 +37643,9 @@ msgstr "顯示裝飾"
 #, kde-format
 msgid "Work Recursively"
 msgstr "遞回操作"
+
+#~ msgid "Sample radius:"
+#~ msgstr "取樣半徑："
 
 #~ msgctxt "action"
 #~ msgid "Sho&w Docker Titlebars"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-22 03:32+0100\n"
+"POT-Creation-Date: 2018-04-07 03:35+0200\n"
 "PO-Revision-Date: 2015-02-16 23:21+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -829,7 +829,7 @@ msgstr "變更..."
 msgid "<placeholder>unknown</placeholder>"
 msgstr "<placeholder>未知</placeholder>"
 
-#: ui/keyrequester.cpp:246 ui/keyselectiondialog.cpp:655
+#: ui/keyrequester.cpp:246 ui/keyselectiondialog.cpp:653
 #, kde-format
 msgid ""
 "<qt><p>An error occurred while fetching the keys from the backend:</p><p><b>"
@@ -837,7 +837,7 @@ msgid ""
 msgstr "<qt><p>從後端介面 <b>%1</b> 抓取金鑰時發生錯誤。</p></qt>"
 
 #: ui/keyrequester.cpp:251 ui/keyrequester.cpp:283 ui/keyrequester.cpp:306
-#: ui/keyselectiondialog.cpp:628 ui/keyselectiondialog.cpp:660
+#: ui/keyselectiondialog.cpp:626 ui/keyselectiondialog.cpp:658
 #, kde-format
 msgid "Key Listing Failed"
 msgstr "列出金鑰失敗"
@@ -974,73 +974,73 @@ msgstr "金鑰 ID"
 msgid "User ID"
 msgstr "使用者 ID"
 
-#: ui/keyselectiondialog.cpp:278
+#: ui/keyselectiondialog.cpp:276
 #, kde-format
 msgid "never"
 msgstr "絕不"
 
-#: ui/keyselectiondialog.cpp:288 ui/keyselectiondialog.cpp:290
-#: ui/keyselectiondialog.cpp:299 ui/keyselectiondialog.cpp:301
+#: ui/keyselectiondialog.cpp:286 ui/keyselectiondialog.cpp:288
+#: ui/keyselectiondialog.cpp:297 ui/keyselectiondialog.cpp:299
 #, kde-format
 msgid "unknown"
 msgstr "未知"
 
-#: ui/keyselectiondialog.cpp:288
+#: ui/keyselectiondialog.cpp:286
 #, kde-format
 msgid "OpenPGP key for <b>%1</b>"
 msgstr ""
 
-#: ui/keyselectiondialog.cpp:290
+#: ui/keyselectiondialog.cpp:288
 #, kde-format
 msgid "S/MIME key for <b>%1</b>"
 msgstr ""
 
-#: ui/keyselectiondialog.cpp:297
+#: ui/keyselectiondialog.cpp:295
 #, kde-format
 msgctxt "Key creation date"
 msgid "Created"
 msgstr ""
 
-#: ui/keyselectiondialog.cpp:298
+#: ui/keyselectiondialog.cpp:296
 #, kde-format
 msgctxt "Key Expiration date"
 msgid "Expiry"
 msgstr ""
 
-#: ui/keyselectiondialog.cpp:299
+#: ui/keyselectiondialog.cpp:297
 #, kde-format
 msgctxt "Key fingerprint"
 msgid "Fingerprint"
 msgstr ""
 
-#: ui/keyselectiondialog.cpp:301
+#: ui/keyselectiondialog.cpp:299
 #, kde-format
 msgctxt "Key issuer"
 msgid "Issuer"
 msgstr ""
 
-#: ui/keyselectiondialog.cpp:303
+#: ui/keyselectiondialog.cpp:301
 #, kde-format
 msgctxt "Key status"
 msgid "Status"
 msgstr ""
 
-#: ui/keyselectiondialog.cpp:454
+#: ui/keyselectiondialog.cpp:452
 #, kde-format
 msgid "Search for &External Certificates"
 msgstr "搜尋外部憑證(&E)"
 
-#: ui/keyselectiondialog.cpp:468
+#: ui/keyselectiondialog.cpp:466
 #, kde-format
 msgid "&Search for:"
 msgstr "搜尋(&S)："
 
-#: ui/keyselectiondialog.cpp:492
+#: ui/keyselectiondialog.cpp:490
 #, kde-format
 msgid "&Remember choice"
 msgstr "記住選擇(&R)"
 
-#: ui/keyselectiondialog.cpp:495
+#: ui/keyselectiondialog.cpp:493
 #, kde-format
 msgid ""
 "<qt><p>If you check this box your choice will be stored and you will not be "
@@ -1048,42 +1048,42 @@ msgid ""
 msgstr ""
 "<qt><p>如果勾選此選項，您的選擇會被儲存起來，並且不會再詢問您。</p></qt>"
 
-#: ui/keyselectiondialog.cpp:507
+#: ui/keyselectiondialog.cpp:505
 #, kde-format
 msgid "&Reread Keys"
 msgstr "重新讀取金鑰(&R)"
 
-#: ui/keyselectiondialog.cpp:508
+#: ui/keyselectiondialog.cpp:506
 #, kde-format
 msgid "&Start Certificate Manager"
 msgstr "啟動憑證管理員(&S)"
 
-#: ui/keyselectiondialog.cpp:626
+#: ui/keyselectiondialog.cpp:624
 #, kde-format
 msgid "No backends found for listing keys. Check your installation."
 msgstr "找不到可列出金鑰的後端介面。請檢查您的安裝。"
 
-#: ui/keyselectiondialog.cpp:642
+#: ui/keyselectiondialog.cpp:640
 #, kde-format
 msgid "Could not start certificate manager; please check your installation."
 msgstr "無法啟動憑證管理員。請檢查安裝是否完全！"
 
-#: ui/keyselectiondialog.cpp:644
+#: ui/keyselectiondialog.cpp:642
 #, kde-format
 msgid "Certificate Manager Error"
 msgstr "憑證管理員錯誤"
 
-#: ui/keyselectiondialog.cpp:698
+#: ui/keyselectiondialog.cpp:696
 #, kde-format
 msgid "Checking selected keys..."
 msgstr "檢查所選擇的金鑰中..."
 
-#: ui/keyselectiondialog.cpp:698
+#: ui/keyselectiondialog.cpp:696
 #, kde-format
 msgid "Fetching keys..."
 msgstr "抓取金鑰中..."
 
-#: ui/keyselectiondialog.cpp:729
+#: ui/keyselectiondialog.cpp:727
 #, kde-format
 msgid ""
 "<qt>One backend returned truncated output.<p>Not all available keys are "
@@ -1094,12 +1094,12 @@ msgid_plural ""
 msgstr[0] ""
 "<qt>%1 個後端介面傳回的輸出被截斷了。<p>所列出的金鑰並非所有的金鑰。</p></qt>"
 
-#: ui/keyselectiondialog.cpp:734
+#: ui/keyselectiondialog.cpp:732
 #, kde-format
 msgid "Key List Result"
 msgstr "列出金鑰結果"
 
-#: ui/keyselectiondialog.cpp:854
+#: ui/keyselectiondialog.cpp:852
 #, kde-format
 msgid "Recheck Key"
 msgstr "重新檢查金鑰"
