@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-01 03:30+0200\n"
+"POT-Creation-Date: 2018-04-08 03:28+0200\n"
 "PO-Revision-Date: 2011-09-27 08:55+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -1833,8 +1833,8 @@ msgstr "預測"
 msgid "List of properties"
 msgstr ""
 
-#: plugins/generic/skg_selectall/skgselectallplugin.cpp:72
-#: plugins/generic/skg_selectall/skgselectallplugin.cpp:82
+#: plugins/generic/skg_selectall/skgselectallplugin.cpp:74
+#: plugins/generic/skg_selectall/skgselectallplugin.cpp:84
 #, fuzzy, kde-format
 #| msgctxt "The title"
 #| msgid "Select all"
@@ -1842,15 +1842,21 @@ msgctxt "Select all objects in a list"
 msgid "Select all"
 msgstr "全部選取"
 
-#: plugins/generic/skg_selectall/skgselectallplugin.cpp:121
+#: plugins/generic/skg_selectall/skgselectallplugin.cpp:129
+#, fuzzy, kde-format
+#| msgid "Selection: 1 operation for %2"
+#| msgid_plural "Selection: %1 operations for %2"
+msgid "Selection: %1 lines for %2 (min: %3, average: %4, max: %5)"
+msgstr "選取：%2 的 %1 個操作"
+
+#: plugins/generic/skg_selectall/skgselectallplugin.cpp:136
 #, fuzzy, kde-format
 #| msgid "Selection: 1 operation for %2"
 #| msgid_plural "Selection: %1 operations for %2"
 msgid "Selection: %1 line for %2"
-msgid_plural "Selection: %1 lines for %2"
-msgstr[0] "選取：%2 的 %1 個操作"
+msgstr "選取：%2 的 %1 個操作"
 
-#: plugins/generic/skg_selectall/skgselectallplugin.cpp:121
+#: plugins/generic/skg_selectall/skgselectallplugin.cpp:138
 #, fuzzy, kde-format
 #| msgid "Selection: 1 operation for %2"
 #| msgid_plural "Selection: %1 operations for %2"
