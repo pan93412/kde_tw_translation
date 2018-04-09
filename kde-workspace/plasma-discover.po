@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-07 03:37+0200\n"
+"POT-Creation-Date: 2018-04-09 03:35+0200\n"
 "PO-Revision-Date: 2018-03-29 14:01+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -109,7 +109,7 @@ msgstr "可用的後端介面：\n"
 msgid "Available modes:\n"
 msgstr "可用的模式：\n"
 
-#: discover/qml/AddonsView.qml:24 discover/qml/ApplicationPage.qml:183
+#: discover/qml/AddonsView.qml:24 discover/qml/ApplicationPage.qml:195
 #, kde-format
 msgid "Addons"
 msgstr "外加功能"
@@ -145,112 +145,123 @@ msgstr "新增"
 msgid "Cancel"
 msgstr "取消"
 
+#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:126
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgid "%1 ratings"
+msgstr "評分"
+
+#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:126
+#, kde-format
+msgid "No ratings yet"
+msgstr ""
+
 #: discover/qml/ApplicationPage.qml:55
 #, kde-format
 msgid "Sources"
 msgstr "來源"
 
-#: discover/qml/ApplicationPage.qml:153
+#: discover/qml/ApplicationPage.qml:165
 #, kde-format
 msgid "What's New"
 msgstr "發掘新項目"
 
-#: discover/qml/ApplicationPage.qml:191
+#: discover/qml/ApplicationPage.qml:203
 #, kde-format
 msgid "Reviews"
 msgstr "評論"
 
-#: discover/qml/ApplicationPage.qml:217
+#: discover/qml/ApplicationPage.qml:229
 #, kde-format
 msgid "Be the first to write a review!"
 msgstr "當第一個撰寫評論的人吧！"
 
-#: discover/qml/ApplicationPage.qml:217
+#: discover/qml/ApplicationPage.qml:229
 #, kde-format
 msgid "Install this app and be the first to write a review!"
 msgstr "安裝這個應用程式，然後當第一個評論這個程式的人！"
 
-#: discover/qml/ApplicationPage.qml:225
+#: discover/qml/ApplicationPage.qml:237
 #, kde-format
 msgid "Show all %1 reviews..."
 msgstr "顯示 %1 的所有評論"
 
-#: discover/qml/ApplicationPage.qml:246
+#: discover/qml/ApplicationPage.qml:258
 #, kde-format
 msgid "Category:"
 msgstr "分類："
 
-#: discover/qml/ApplicationPage.qml:258
+#: discover/qml/ApplicationPage.qml:270
 #, kde-format
 msgid "Version:"
 msgstr "版本："
 
-#: discover/qml/ApplicationPage.qml:272
+#: discover/qml/ApplicationPage.qml:284
 #, kde-format
 msgid "Size:"
 msgstr "大小："
 
-#: discover/qml/ApplicationPage.qml:283
+#: discover/qml/ApplicationPage.qml:295
 #, kde-format
 msgid "Source:"
 msgstr "來源："
 
-#: discover/qml/ApplicationPage.qml:295
+#: discover/qml/ApplicationPage.qml:307
 #, kde-format
 msgid "License:"
 msgstr "授權："
 
-#: discover/qml/ApplicationPage.qml:312
+#: discover/qml/ApplicationPage.qml:324
 #, kde-format
 msgid "Homepage:"
 msgstr "首頁："
 
-#: discover/qml/ApplicationPage.qml:328
+#: discover/qml/ApplicationPage.qml:340
 #, kde-format
 msgid "User Guide:"
 msgstr "用戶指南："
 
-#: discover/qml/ApplicationPage.qml:344
+#: discover/qml/ApplicationPage.qml:356
 #, kde-format
 msgid "Donate:"
 msgstr "贊助："
 
-#: discover/qml/ApplicationPage.qml:360
+#: discover/qml/ApplicationPage.qml:372
 #, kde-format
 msgid "Report a Problem:"
 msgstr "回報問題："
 
-#: discover/qml/ApplicationsListPage.qml:68
+#: discover/qml/ApplicationsListPage.qml:69
 #, kde-format
 msgid "Sort: %1"
 msgstr "排序：%1"
 
-#: discover/qml/ApplicationsListPage.qml:71
+#: discover/qml/ApplicationsListPage.qml:72
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: discover/qml/ApplicationsListPage.qml:81
+#: discover/qml/ApplicationsListPage.qml:82
 #, kde-format
 msgid "Rating"
 msgstr "評分"
 
-#: discover/qml/ApplicationsListPage.qml:91
+#: discover/qml/ApplicationsListPage.qml:92
 #, kde-format
 msgid "Size"
 msgstr "大小"
 
-#: discover/qml/ApplicationsListPage.qml:101
+#: discover/qml/ApplicationsListPage.qml:102
 #, kde-format
 msgid "Release Date"
 msgstr "釋出日期"
 
-#: discover/qml/ApplicationsListPage.qml:140
+#: discover/qml/ApplicationsListPage.qml:142
 #, kde-format
 msgid "Sorry, nothing found..."
 msgstr "抱歉，找不到東西..."
 
-#: discover/qml/ApplicationsListPage.qml:187
+#: discover/qml/ApplicationsListPage.qml:189
 #, kde-format
 msgid "Still looking..."
 msgstr "依然在尋找中..."

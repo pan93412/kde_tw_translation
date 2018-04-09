@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-06 03:39+0200\n"
+"POT-Creation-Date: 2018-04-09 03:31+0200\n"
 "PO-Revision-Date: 2018-04-06 16:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -854,7 +854,6 @@ msgid "Private"
 msgstr "私有（private）"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_pProtectedRB)
-#. i18n: ectx: property (text), widget (QRadioButton, rb_protected)
 #. i18n: ectx: property (text), item, widget (KComboBox, m_accessorScopeCB)
 #. i18n: ectx: property (text), item, widget (KComboBox, m_assocFieldScopeCB)
 #: codegenerators/d/dcodegenerationformbase.ui:178
@@ -866,7 +865,6 @@ msgstr "私有（private）"
 #: dialogs/pages/classoptionspage.cpp:310
 #: dialogs/pages/classoptionspage.cpp:320
 #: dialogs/pages/umlrolepropertiesbase.ui:90
-#: dialogs/widgets/visibilityenumwidget.ui:37
 #, kde-format
 msgid "Protected"
 msgstr "保護（protected）"
@@ -3896,9 +3894,7 @@ msgstr "私有（private）(&R)"
 msgid "Imple&mentation"
 msgstr "實作(&M)"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/widgets/visibilityenumwidget.cpp:35
-#: dialogs/widgets/visibilityenumwidget.ui:17 listpopupmenu.cpp:1234
+#: dialogs/widgets/visibilityenumwidget.cpp:35 listpopupmenu.cpp:1234
 #: listpopupmenu.cpp:1277
 #, kde-format
 msgid "Visibility"
@@ -3961,24 +3957,6 @@ msgstr "實作"
 #, kde-format
 msgid "Role B Visibility"
 msgstr "角色 B 可見性"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_public)
-#: dialogs/widgets/visibilityenumwidget.ui:23
-#, kde-format
-msgid "Pub&lic"
-msgstr "公開(&L)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_private)
-#: dialogs/widgets/visibilityenumwidget.ui:30
-#, kde-format
-msgid "Pri&vate"
-msgstr "私有(&V)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_implementation)
-#: dialogs/widgets/visibilityenumwidget.ui:44
-#, kde-format
-msgid "I&mplementation"
-msgstr "實作(&M)"
 
 #: docgenerators/docbook2xhtmlgeneratorjob.cpp:73
 #, kde-format
@@ -7935,6 +7913,15 @@ msgstr "物件節點"
 #, kde-format
 msgid "Pre/Post condition"
 msgstr "先決/後續條件"
+
+#~ msgid "Pub&lic"
+#~ msgstr "公開(&L)"
+
+#~ msgid "Pri&vate"
+#~ msgstr "私有(&V)"
+
+#~ msgid "I&mplementation"
+#~ msgstr "實作(&M)"
 
 #~ msgid "Note Documentation"
 #~ msgstr "備忘文件"

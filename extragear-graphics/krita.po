@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-07 03:21+0200\n"
+"POT-Creation-Date: 2018-04-09 03:21+0200\n"
 "PO-Revision-Date: 2018-01-04 20:03+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -11182,8 +11182,8 @@ msgstr "選取 ASL 檔"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1355
 #: libs/ui/dialogs/kis_dlg_preferences.cc:689
 #: libs/ui/dialogs/kis_dlg_preferences.cc:693
-#: libs/ui/dialogs/kis_dlg_preferences.cc:697 libs/ui/kis_autogradient.cc:76
-#: libs/ui/kis_autogradient.cc:80
+#: libs/ui/dialogs/kis_dlg_preferences.cc:697 libs/ui/kis_autogradient.cc:77
+#: libs/ui/kis_autogradient.cc:81
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:134
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:51
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:58
@@ -18944,26 +18944,6 @@ msgstr "編輯..."
 msgid "unnamed"
 msgstr "未命名"
 
-#: libs/ui/widgets/kis_gradient_slider_widget.cc:48
-#, kde-format
-msgid "Split Segment"
-msgstr "分割區段"
-
-#: libs/ui/widgets/kis_gradient_slider_widget.cc:49
-#, kde-format
-msgid "Duplicate Segment"
-msgstr "複製區段"
-
-#: libs/ui/widgets/kis_gradient_slider_widget.cc:50
-#, kde-format
-msgid "Mirror Segment"
-msgstr "鏡射區段"
-
-#: libs/ui/widgets/kis_gradient_slider_widget.cc:52
-#, kde-format
-msgid "Remove Segment"
-msgstr "移除區段"
-
 #: libs/ui/widgets/kis_lod_availability_widget.cpp:40
 #, kde-format
 msgctxt "@label:slider"
@@ -19355,6 +19335,26 @@ msgstr "選取一檔案以載入..."
 #, kde-format
 msgid "Select a directory to load..."
 msgstr "選取一目錄以載入..."
+
+#: libs/widgets/KisGradientSliderWidget.cpp:48
+#, kde-format
+msgid "Split Segment"
+msgstr "分割區段"
+
+#: libs/widgets/KisGradientSliderWidget.cpp:49
+#, kde-format
+msgid "Duplicate Segment"
+msgstr "複製區段"
+
+#: libs/widgets/KisGradientSliderWidget.cpp:50
+#, kde-format
+msgid "Mirror Segment"
+msgstr "鏡射區段"
+
+#: libs/widgets/KisGradientSliderWidget.cpp:52
+#, kde-format
+msgid "Remove Segment"
+msgstr "移除區段"
 
 #: libs/widgets/KoColorSetWidget.cpp:224
 #, kde-format

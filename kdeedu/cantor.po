@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mathematik\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-08 03:32+0200\n"
+"POT-Creation-Date: 2018-04-09 03:27+0200\n"
 "PO-Revision-Date: 2018-03-29 12:59+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -535,7 +535,7 @@ msgid "Maxima crashed twice within a short time. Stopping to try starting"
 msgstr "Maxima 在短時間內發生錯誤兩次。將停止再次嘗試啟動"
 
 #: backends/maxima/maximasession.cpp:322 cantor_part.cpp:144
-#: cantor_part.cpp:853 worksheet.cpp:853 worksheet.cpp:878 worksheet.cpp:895
+#: cantor_part.cpp:855 worksheet.cpp:853 worksheet.cpp:878 worksheet.cpp:895
 #: worksheet.cpp:931 worksheet.cpp:943
 #, kde-format
 msgid "Error - Cantor"
@@ -1869,7 +1869,7 @@ msgstr "下載範例工作表"
 msgid "&Open Example"
 msgstr "開啟範例(&O)"
 
-#: cantor.cpp:178 cantor_part.cpp:456
+#: cantor.cpp:178 cantor_part.cpp:458
 #, kde-format
 msgid "Cantor Worksheet (*.cws)"
 msgstr "Cantor 工作表 (*.cws)"
@@ -1986,12 +1986,12 @@ msgstr "後端介面 %1 未安裝"
 msgid "Save Plain Text"
 msgstr "存成純文字檔"
 
-#: cantor_part.cpp:225 cantor_part.cpp:497
+#: cantor_part.cpp:225 cantor_part.cpp:499
 #, kde-format
 msgid "Export to LaTeX"
 msgstr "匯出到 Latex"
 
-#: cantor_part.cpp:239 cantor_part.cpp:543 worksheet.cpp:1122
+#: cantor_part.cpp:239 cantor_part.cpp:545 worksheet.cpp:1122
 #, kde-format
 msgid "Evaluate Worksheet"
 msgstr "計算工作表"
@@ -2080,7 +2080,7 @@ msgstr "插入影像"
 msgid "Remove current Entry"
 msgstr "移除目前的項目"
 
-#: cantor_part.cpp:328 cantor_part.cpp:765
+#: cantor_part.cpp:328 cantor_part.cpp:767
 #, kde-format
 msgid "Show %1 Help"
 msgstr "顯示 %1 說明"
@@ -2115,82 +2115,82 @@ msgstr "(C) 2009-2015 Alexander Rieder"
 msgid "Alexander Rieder"
 msgstr "Alexander Rieder"
 
-#: cantor_part.cpp:468
+#: cantor_part.cpp:470
 #, kde-format
 msgid "Save as"
 msgstr "另存新檔"
 
-#: cantor_part.cpp:487 panelplugins/variablemgr/variablemanagerwidget.cpp:135
+#: cantor_part.cpp:489 panelplugins/variablemgr/variablemanagerwidget.cpp:135
 #, kde-format
 msgid "Save"
 msgstr "儲存"
 
-#: cantor_part.cpp:495
+#: cantor_part.cpp:497
 #, kde-format
 msgid "*.tex|LaTeX Document"
 msgstr "*.tex|LaTeX 文件"
 
-#: cantor_part.cpp:536 worksheet.cpp:1125
+#: cantor_part.cpp:538 worksheet.cpp:1125
 #, kde-format
 msgid "Interrupt"
 msgstr "中斷"
 
-#: cantor_part.cpp:540
+#: cantor_part.cpp:542
 #, kde-format
 msgid "Calculating..."
 msgstr "計算中..."
 
-#: cantor_part.cpp:547 cantor_part.cpp:588
+#: cantor_part.cpp:549 cantor_part.cpp:590
 #, kde-format
 msgid "Ready"
 msgstr "已就緒"
 
-#: cantor_part.cpp:555
+#: cantor_part.cpp:557
 #, kde-format
 msgid "Session Error: %1"
 msgstr "工作階段錯誤: %1"
 
-#: cantor_part.cpp:578
+#: cantor_part.cpp:580
 #, kde-format
 msgid "Initialization complete"
 msgstr "初始化完成"
 
-#: cantor_part.cpp:583
+#: cantor_part.cpp:585
 #, kde-format
 msgid "Initializing..."
 msgstr "初始化中..."
 
-#: cantor_part.cpp:618
+#: cantor_part.cpp:620
 #, kde-format
 msgid "Unnamed"
 msgstr "未命名"
 
-#: cantor_part.cpp:620
+#: cantor_part.cpp:622
 #, kde-format
 msgid "%1: %2"
 msgstr "%1：%2"
 
-#: cantor_part.cpp:771
+#: cantor_part.cpp:773
 #, kde-format
 msgid "Do you want to upload current Worksheet to public web server?"
 msgstr "您要上傳目前的工作表到公開的網頁伺服器上嗎？"
 
-#: cantor_part.cpp:772
+#: cantor_part.cpp:774
 #, kde-format
 msgid "Question - Cantor"
 msgstr "問題 - Cantor"
 
-#: cantor_part.cpp:778
+#: cantor_part.cpp:780
 #, kde-format
 msgid "The Worksheet is not saved. You should save it before uploading."
 msgstr "工作表未儲存。請在上傳前先儲存。"
 
-#: cantor_part.cpp:779
+#: cantor_part.cpp:781
 #, kde-format
 msgid "Warning - Cantor"
 msgstr "警告 - Cantor"
 
-#: cantor_part.cpp:853
+#: cantor_part.cpp:855
 #, kde-format
 msgid "This backend does not support scripts."
 msgstr "後端介面未支援文稿。"
