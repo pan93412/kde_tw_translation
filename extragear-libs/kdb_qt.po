@@ -563,173 +563,178 @@ msgctxt "KDbConnection|"
 msgid "Could not retrieve list of object names."
 msgstr ""
 
-#: KDbConnection.cpp:1015
+#: KDbConnection.cpp:1016
 msgctxt "KDbConnection|"
 msgid "Could not retrieve list of table names."
 msgstr ""
 
-#: KDbConnection.cpp:1075
+#: KDbConnection.cpp:1024
+msgctxt "KDbConnection|"
+msgid "Could not retrieve list of physical table names."
+msgstr ""
+
+#: KDbConnection.cpp:1091
 msgctxt "KDbConnection|"
 msgid "Could not retrieve list of object identifiers."
 msgstr ""
 
-#: KDbConnection.cpp:1257
+#: KDbConnection.cpp:1273
 msgctxt "KDbConnection|"
 msgid "SQL statement for execution is invalid or empty."
 msgstr ""
 
-#: KDbConnection.cpp:1280
+#: KDbConnection.cpp:1296
 msgctxt "KDbConnection|"
 msgid "Error while executing SQL statement."
 msgstr ""
 
-#: KDbConnection.cpp:1377
+#: KDbConnection.cpp:1393
 msgctxt "KDbConnection|"
 msgid "Creating table failed."
 msgstr ""
 
-#: KDbConnection.cpp:1390
+#: KDbConnection.cpp:1406
 msgctxt "KDbConnection|"
 msgid "Could not create table without fields."
 msgstr ""
 
-#: KDbConnection.cpp:1400
+#: KDbConnection.cpp:1416
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "System name \"%1\" cannot be used as table name."
 msgstr ""
 
-#: KDbConnection.cpp:1409
+#: KDbConnection.cpp:1425
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "System name \"%1\" cannot be used as one of fields in \"%2\" table."
 msgstr ""
 
-#: KDbConnection.cpp:1425
+#: KDbConnection.cpp:1441
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not create the same table \"%1\" twice."
 msgstr ""
 
-#: KDbConnection.cpp:1439
+#: KDbConnection.cpp:1455
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Table \"%1\" already exists."
 msgstr ""
 
-#: KDbConnection.cpp:1508 KDbConnection.cpp:1537 KDbConnection.cpp:1649
+#: KDbConnection.cpp:1524 KDbConnection.cpp:1553 KDbConnection.cpp:1665
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Table \"%1\" does not exist."
 msgstr ""
 
-#: KDbConnection.cpp:1563
+#: KDbConnection.cpp:1579
 msgctxt "KDbConnection|"
 msgid "Could not delete object's data."
 msgstr ""
 
-#: KDbConnection.cpp:1591 KDbConnection.cpp:1604
+#: KDbConnection.cpp:1607 KDbConnection.cpp:1620
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not delete table \"%1\". %2"
 msgstr ""
 
-#: KDbConnection.cpp:1592
+#: KDbConnection.cpp:1608
 msgctxt "KDbConnection|"
 msgid "Unexpected name or identifier."
 msgstr ""
 
-#: KDbConnection.cpp:1664
+#: KDbConnection.cpp:1680
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not alter table \"%1\" using the same table as destination."
 msgstr ""
 
-#: KDbConnection.cpp:1690
+#: KDbConnection.cpp:1706
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Unknown table \"%1\"."
 msgstr ""
 
-#: KDbConnection.cpp:1695
+#: KDbConnection.cpp:1711
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Invalid table name \"%1\"."
 msgstr ""
 
-#: KDbConnection.cpp:1702
+#: KDbConnection.cpp:1718
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not rename table \"%1\" using the same name."
 msgstr ""
 
-#: KDbConnection.cpp:1713
+#: KDbConnection.cpp:1729
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Could not rename table \"%1\" to \"%2\". Table \"%3\" already exists."
 msgstr ""
 
-#: KDbConnection.cpp:1823
+#: KDbConnection.cpp:1839
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Query \"%1\" does not exist."
 msgstr ""
 
-#: KDbConnection.cpp:1901
+#: KDbConnection.cpp:1946
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Transactions are not supported for \"%1\" driver."
 msgstr ""
 
-#: KDbConnection.cpp:1906
+#: KDbConnection.cpp:1951
 msgctxt "KDbConnection|"
 msgid "Begin transaction failed."
 msgstr ""
 
-#: KDbConnection.cpp:1923
+#: KDbConnection.cpp:1968
 msgctxt "KDbConnection|"
 msgid "Transaction already started."
 msgstr ""
 
-#: KDbConnection.cpp:1965 KDbConnection.cpp:2002
+#: KDbConnection.cpp:2010 KDbConnection.cpp:2047
 msgctxt "KDbConnection|"
 msgid "Transaction not started."
 msgstr ""
 
-#: KDbConnection.cpp:1980
+#: KDbConnection.cpp:2025
 msgctxt "KDbConnection|"
 msgid "Error on commit transaction."
 msgstr ""
 
-#: KDbConnection.cpp:2017
+#: KDbConnection.cpp:2062
 msgctxt "KDbConnection|"
 msgid "Error on rollback transaction."
 msgstr ""
 
-#: KDbConnection.cpp:2168
+#: KDbConnection.cpp:2213
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Invalid object name \"%1\"."
 msgstr ""
 
-#: KDbConnection.cpp:2357
+#: KDbConnection.cpp:2402
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Column \"%1\" does not exist in the query."
 msgstr ""
 
-#: KDbConnection.cpp:2709 KDbConnection.cpp:2714 KDbConnection.cpp:2719
+#: KDbConnection.cpp:2754 KDbConnection.cpp:2759 KDbConnection.cpp:2764
 msgctxt "KDbConnection|Extended schema for a table: loading error"
 msgid "Error while loading extended table schema."
 msgstr ""
 
-#: KDbConnection.cpp:2718
+#: KDbConnection.cpp:2763
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Invalid XML data: %1"
 msgstr ""
 
-#: KDbConnection.cpp:2739
+#: KDbConnection.cpp:2784
 #, qt-format
 msgctxt "KDbConnection|"
 msgid ""
@@ -737,83 +742,83 @@ msgid ""
 "XML data: %4"
 msgstr ""
 
-#: KDbConnection.cpp:3068
+#: KDbConnection.cpp:3113
 msgctxt "KDbConnection|"
 msgid "Could not update record because there is no master table defined."
 msgstr ""
 
-#: KDbConnection.cpp:3075
+#: KDbConnection.cpp:3120
 msgctxt "KDbConnection|"
 msgid ""
 "Could not update record because master table has no primary key defined."
 msgstr ""
 
-#: KDbConnection.cpp:3107
+#: KDbConnection.cpp:3152
 msgctxt "KDbConnection|"
 msgid ""
 "Could not update record because it does not contain entire primary key of "
 "master table."
 msgstr ""
 
-#: KDbConnection.cpp:3118 KDbConnection.cpp:3362
+#: KDbConnection.cpp:3163 KDbConnection.cpp:3407
 #, qt-format
 msgctxt "KDbConnection|"
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr ""
 
-#: KDbConnection.cpp:3146
+#: KDbConnection.cpp:3191
 msgctxt "KDbConnection|"
 msgid "Record updating on the server failed."
 msgstr ""
 
-#: KDbConnection.cpp:3168
+#: KDbConnection.cpp:3213
 msgctxt "KDbConnection|"
 msgid "Could not insert record because there is no master table specified."
 msgstr ""
 
-#: KDbConnection.cpp:3210
+#: KDbConnection.cpp:3255
 msgctxt "KDbConnection|"
 msgid ""
 "Could not insert record because master table has no primary key specified."
 msgstr ""
 
-#: KDbConnection.cpp:3219
+#: KDbConnection.cpp:3264
 msgctxt "KDbConnection|"
 msgid ""
 "Could not insert record because it does not contain entire master table's "
 "primary key."
 msgstr ""
 
-#: KDbConnection.cpp:3262
+#: KDbConnection.cpp:3307
 msgctxt "KDbConnection|"
 msgid "Record inserting on the server failed."
 msgstr ""
 
-#: KDbConnection.cpp:3326
+#: KDbConnection.cpp:3371
 msgctxt "KDbConnection|"
 msgid "Could not delete record because there is no master table specified."
 msgstr ""
 
-#: KDbConnection.cpp:3335
+#: KDbConnection.cpp:3380
 msgctxt "KDbConnection|"
 msgid ""
 "Could not delete record because there is no primary key for master table "
 "specified."
 msgstr ""
 
-#: KDbConnection.cpp:3352
+#: KDbConnection.cpp:3397
 msgctxt "KDbConnection|"
 msgid ""
 "Could not delete record because it does not contain entire master table's "
 "primary key."
 msgstr ""
 
-#: KDbConnection.cpp:3379 KDbConnection.cpp:3402
+#: KDbConnection.cpp:3424 KDbConnection.cpp:3447
 msgctxt "KDbConnection|"
 msgid "Record deletion on the server failed."
 msgstr ""
 
-#: KDbConnection.cpp:3498
+#: KDbConnection.cpp:3543
 msgctxt "KDbConnection|"
 msgid "Unknown error."
 msgstr ""

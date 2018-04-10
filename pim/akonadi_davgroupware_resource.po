@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-08 03:34+0100\n"
+"POT-Creation-Date: 2018-04-10 03:38+0200\n"
 "PO-Revision-Date: 2017-03-25 17:43+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -371,7 +371,7 @@ msgid "Settings Version"
 msgstr "設定版本"
 
 #. i18n: ectx: label, entry (displayName), group (General)
-#: davgroupwareresource.kcfg:14 urlconfigurationdialog.cpp:274
+#: davgroupwareresource.kcfg:14
 #, kde-format
 msgid "Display name"
 msgstr "顯示名稱"
@@ -648,6 +648,12 @@ msgstr "發生錯誤：%1"
 msgid "Connected successfully"
 msgstr "已成功連線"
 
+#: urlconfigurationdialog.cpp:274
+#, fuzzy, kde-format
+#| msgid "Display name"
+msgid "Display Name"
+msgstr "顯示名稱"
+
 #. i18n: ectx: property (title), widget (QGroupBox, remoteProtocol)
 #: urlconfigurationdialog.ui:41
 #, kde-format
@@ -680,8 +686,9 @@ msgstr "遠端行事曆存取"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: urlconfigurationdialog.ui:148
-#, kde-format
-msgid "Remote URL"
+#, fuzzy, kde-format
+#| msgid "Remote URL"
+msgid "Remote URL:"
 msgstr "遠端網址"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)

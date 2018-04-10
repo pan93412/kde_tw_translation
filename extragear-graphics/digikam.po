@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-08 03:25+0200\n"
+"POT-Creation-Date: 2018-04-10 03:26+0200\n"
 "PO-Revision-Date: 2018-03-29 13:11+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -4953,32 +4953,32 @@ msgstr "沒有選擇影像"
 msgid "This is the original image"
 msgstr "這是原始影像"
 
-#: core/libs/database/server/databaseserver.cpp:153
+#: core/libs/database/server/databaseserver.cpp:154
 #, fuzzy, kde-format
 #| msgid "Filter identifier or version is not supported"
 msgid "Database type is not supported."
 msgstr "濾鏡的識別子或版號不被支援"
 
-#: core/libs/database/server/databaseserver.cpp:261
+#: core/libs/database/server/databaseserver.cpp:262
 #, fuzzy, kde-format
 #| msgid "No path to mysqld set in server configuration."
 msgid "No path to mysql server command set in configuration file!"
 msgstr "在伺服器組態設定裡沒有 mysqld 設定的路徑。"
 
-#: core/libs/database/server/databaseserver.cpp:270
+#: core/libs/database/server/databaseserver.cpp:271
 #, fuzzy, kde-format
 #| msgid "No path to mysqld set in server configuration."
 msgid "No path to mysql initialization command set in configuration file!."
 msgstr "在伺服器組態設定裡沒有 mysqld 設定的路徑。"
 
-#: core/libs/database/server/databaseserver.cpp:280
-#: core/libs/database/server/databaseserver.cpp:290
-#: core/libs/database/server/databaseserver.cpp:300
+#: core/libs/database/server/databaseserver.cpp:281
+#: core/libs/database/server/databaseserver.cpp:291
+#: core/libs/database/server/databaseserver.cpp:301
 #, fuzzy, kde-format
 msgid "Cannot create directory %1"
 msgstr "建立目錄失敗。"
 
-#: core/libs/database/server/databaseserver.cpp:383
+#: core/libs/database/server/databaseserver.cpp:384
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to create MySQL server configuration file.\n"
@@ -4994,29 +4994,29 @@ msgstr ""
 "這表示無法讀取預設的組態設定檔 (mysql-global.conf) 或者目標檔案 (mysql.conf) "
 "無法寫入。"
 
-#: core/libs/database/server/databaseserver.cpp:404
+#: core/libs/database/server/databaseserver.cpp:405
 #, fuzzy, kde-format
 #| msgid "Did not find MySQL server default configuration (mysql-global.conf)."
 msgid "Cannot find MySQL server default configuration (mysql-global.conf)."
 msgstr "找不到 MySQL 伺服器預設的組態設定 (mysql-global.conf)。"
 
-#: core/libs/database/server/databaseserver.cpp:471
+#: core/libs/database/server/databaseserver.cpp:472
 #, fuzzy, kde-format
 #| msgid "Could not start database server."
 msgid "Could not start database initializer."
 msgstr "無法啟動資料庫伺服器。"
 
-#: core/libs/database/server/databaseserver.cpp:508
+#: core/libs/database/server/databaseserver.cpp:509
 #, kde-format
 msgid "Could not start database server."
 msgstr "無法啟動資料庫伺服器。"
 
-#: core/libs/database/server/databaseserver.cpp:545
+#: core/libs/database/server/databaseserver.cpp:546
 #, kde-format
 msgid "Invalid database object during database server startup"
 msgstr ""
 
-#: core/libs/database/server/databaseserver.cpp:576
+#: core/libs/database/server/databaseserver.cpp:577
 #, fuzzy, kde-format
 #| msgid ""
 #| "Database process exited unexpectedly during initial connection."
@@ -5025,18 +5025,18 @@ msgid "Database process exited unexpectedly during initial connection."
 msgstr ""
 "資料庫處理在初始化校正期間意外地停止。<p>可執行檔：%1</p>”<p>處理錯誤：%2</p>"
 
-#: core/libs/database/server/databaseserver.cpp:582
+#: core/libs/database/server/databaseserver.cpp:583
 #, kde-format
 msgid "Could not connect to Database after trying for 60 seconds."
 msgstr ""
 
-#: core/libs/database/server/databaseserver.cpp:613
+#: core/libs/database/server/databaseserver.cpp:614
 #, kde-format
 msgid ""
 "Failed to create database<p>Query error: %1</p><p>Database error: %2</p>"
 msgstr "建立資料庫失敗<p>查詢錯誤：%1</p><p>資料庫錯誤：%2</p>"
 
-#: core/libs/database/server/databaseserver.cpp:661
+#: core/libs/database/server/databaseserver.cpp:662
 #, fuzzy, kde-format
 #| msgid ""
 #| "Database process exited unexpectedly during initial connection."
