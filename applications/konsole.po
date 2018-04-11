@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-08 03:23+0200\n"
+"POT-Creation-Date: 2018-04-11 03:26+0200\n"
 "PO-Revision-Date: 2018-03-29 13:21+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2610,17 +2610,17 @@ msgid ""
 "kill it by force?"
 msgstr "程式 %1 正在此工作階段中執行。您確定要將它強制關閉嗎？"
 
-#: SessionController.cpp:1474
+#: SessionController.cpp:1472
 #, kde-format
 msgid "Print Shell"
 msgstr "列印 Shell"
 
-#: SessionController.cpp:1739
+#: SessionController.cpp:1737
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr "儲存 ZModem 下載檔到..."
 
-#: SessionController.cpp:1749
+#: SessionController.cpp:1747
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2630,13 +2630,13 @@ msgstr ""
 "<p>偵測到要使用 ZModem 做檔案傳輸，但是此系統上找不到適合的 ZModem 軟體。</"
 "p><p>您可能需要安裝 rzsz 或 lrzsz 等軟體包。</p>"
 
-#: SessionController.cpp:1761
+#: SessionController.cpp:1759
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>目前的工作階段已經有一個 ZModem 檔案傳輸在進行中。</p>"
 
-#: SessionController.cpp:1772
+#: SessionController.cpp:1770
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
@@ -2645,22 +2645,22 @@ msgstr ""
 "<p>此系統上找不到適合的 ZModem 軟體。</p><p>您可能需要安裝 rzsz 或 lrzsz 等軟"
 "體包。</p>"
 
-#: SessionController.cpp:1778
+#: SessionController.cpp:1776
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr "選擇要用 ZModem 上傳的檔案"
 
-#: SessionController.cpp:1839
+#: SessionController.cpp:1837
 #, kde-format
 msgid "Save Output From %1"
 msgstr "儲存 %1 的輸出"
 
-#: SessionController.cpp:1851
+#: SessionController.cpp:1849
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 是不合法的網址，輸出將無法被儲存。"
 
-#: SessionController.cpp:1927
+#: SessionController.cpp:1925
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -3261,18 +3261,18 @@ msgstr "大小: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "大小: %1 x %2"
 
-#: TerminalDisplay.cpp:3176
+#: TerminalDisplay.cpp:3187
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "您確定要貼上這 %1 個字元嗎？"
 
-#: TerminalDisplay.cpp:3179
+#: TerminalDisplay.cpp:3190
 #, kde-format
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
-#: TerminalDisplay.cpp:3388
+#: TerminalDisplay.cpp:3399
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
@@ -3282,17 +3282,17 @@ msgstr ""
 "<qt>輸出已經被 Ctrl+S <a href=\"http://en.wikipedia.org/wiki/"
 "Software_flow_control\">暫停</a>。按下 <b>Ctrl+Q</b> 回復。</qt>"
 
-#: TerminalDisplay.cpp:3426
+#: TerminalDisplay.cpp:3437
 #, kde-format
 msgid "This terminal is read-only."
 msgstr "此終端器為只讀狀態。"
 
-#: TerminalDisplay.cpp:3714
+#: TerminalDisplay.cpp:3725
 #, kde-format
 msgid "&Paste Location"
 msgstr "貼上位置(&P)"
 
-#: TerminalDisplay.cpp:3731
+#: TerminalDisplay.cpp:3742
 #, kde-format
 msgid "Change &Directory To"
 msgstr "變更目錄為(&D)"

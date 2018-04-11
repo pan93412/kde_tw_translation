@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-11 03:23+0100\n"
+"POT-Creation-Date: 2018-04-11 03:42+0200\n"
 "PO-Revision-Date: 2018-03-25 13:47+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -191,7 +191,7 @@ msgid "No weather stations found for '%1'"
 msgstr "找不到 %1 的天氣站 "
 
 #: package/contents/ui/config/ConfigWeatherStation.qml:75
-#: plugin/locationlistmodel.cpp:79
+#: plugin/locationlistmodel.cpp:139
 #, kde-format
 msgctxt "A weather station location and the weather service it comes from"
 msgid "%1 (%2)"
@@ -276,6 +276,16 @@ msgctxt "High temperature"
 msgid "High: %1"
 msgstr "高：%1"
 
+#: plugin/locationlistmodel.cpp:55 plugin/locationlistmodel.cpp:83
+#, kde-format
+msgid "Cannot find '%1' using %2."
+msgstr ""
+
+#: plugin/locationlistmodel.cpp:80
+#, kde-format
+msgid "Connection to %1 weather server timed out."
+msgstr ""
+
 #: plugin/plugin.cpp:36
 #, kde-format
 msgid "Celsius °C"
@@ -352,113 +362,118 @@ msgctxt "weather services provider name (id)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: weatherapplet.cpp:118
+#: weatherapplet.cpp:162
 #, kde-format
 msgctxt "Degree, unit symbol"
 msgid "°"
 msgstr "°"
 
-#: weatherapplet.cpp:122 weatherapplet.cpp:126
+#: weatherapplet.cpp:166 weatherapplet.cpp:170
 #, kde-format
 msgctxt "temperature, unit"
 msgid "%1%2"
 msgstr "%1%2"
 
-#: weatherapplet.cpp:131
+#: weatherapplet.cpp:175
 #, kde-format
 msgid "N/A"
 msgstr "無"
 
-#: weatherapplet.cpp:251
+#: weatherapplet.cpp:293
 #, kde-format
 msgctxt "certain weather condition (probability percentage)"
 msgid "%1 (%2%)"
 msgstr "%1 (%2%)"
 
-#: weatherapplet.cpp:261 weatherapplet.cpp:273
+#: weatherapplet.cpp:303 weatherapplet.cpp:315
 #, kde-format
 msgctxt "Short for no data available"
 msgid "-"
 msgstr "-"
 
-#: weatherapplet.cpp:296
+#: weatherapplet.cpp:338
 #, kde-format
 msgctxt "Forecast period timeframe"
 msgid "1 Day"
 msgid_plural "%1 Days"
 msgstr[0] "%1 天"
 
-#: weatherapplet.cpp:321
+#: weatherapplet.cpp:362
 #, kde-format
 msgctxt "windchill, unit"
 msgid "Windchill: %1"
 msgstr "風力：%1"
 
-#: weatherapplet.cpp:332
+#: weatherapplet.cpp:373
 #, kde-format
 msgctxt "humidex, unit"
 msgid "Humidex: %1"
 msgstr "濕度：%1"
 
-#: weatherapplet.cpp:340
+#: weatherapplet.cpp:381
 #, kde-format
 msgctxt "ground temperature, unit"
 msgid "Dewpoint: %1"
 msgstr "結露指數：%1"
 
-#: weatherapplet.cpp:350
+#: weatherapplet.cpp:391
 #, kde-format
 msgctxt "pressure, unit"
 msgid "Pressure: %1 %2"
 msgstr "氣壓：%1 %2"
 
-#: weatherapplet.cpp:360
+#: weatherapplet.cpp:401
 #, kde-format
 msgctxt "pressure tendency, rising/falling/steady"
 msgid "Pressure Tendency: %1"
 msgstr "壓力趨勢：%1"
 
-#: weatherapplet.cpp:371
+#: weatherapplet.cpp:412
 #, kde-format
 msgctxt "distance, unit"
 msgid "Visibility: %1 %2"
 msgstr "可見度：%1 %2"
 
-#: weatherapplet.cpp:374
+#: weatherapplet.cpp:415
 #, kde-format
 msgctxt "visibility from distance"
 msgid "Visibility: %1"
 msgstr "可見度：%1"
 
-#: weatherapplet.cpp:382
+#: weatherapplet.cpp:423
 #, kde-format
 msgctxt "content of water in air"
 msgid "Humidity: %1%2"
 msgstr "濕度：%1%2"
 
-#: weatherapplet.cpp:383
+#: weatherapplet.cpp:424
 #, kde-format
 msgctxt "Percent, measure unit"
 msgid "%"
 msgstr "%"
 
-#: weatherapplet.cpp:402
+#: weatherapplet.cpp:443
 #, kde-format
 msgctxt "wind direction, speed"
 msgid "%1 %2 %3"
 msgstr "%1 %2%3"
 
-#: weatherapplet.cpp:405
+#: weatherapplet.cpp:446
 #, kde-format
 msgctxt "Wind condition"
 msgid "Calm"
 msgstr "涼"
 
-#: weatherapplet.cpp:421
+#: weatherapplet.cpp:462
 #, kde-format
 msgctxt "winds exceeding wind speed briefly"
 msgid "Wind Gust: %1 %2"
 msgstr "風速：%1 %2"
+
+#: weatherapplet.cpp:630
+#, kde-format
+msgid "Weather information retrieval for %1 timed out."
+msgstr ""
 
 #~ msgctxt "Not available"
 #~ msgid "N/A"
