@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-10 03:25+0200\n"
+"POT-Creation-Date: 2018-04-12 03:22+0200\n"
 "PO-Revision-Date: 2018-03-29 13:29+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1197,7 +1197,7 @@ msgstr "此網址不合法。您要開啟瀏覽器視窗並進入 Google 搜尋�
 #: ekos/align/align.cpp:1240 ekos/align/align.cpp:1398
 #: ekos/capture/capture.cpp:2627 ekos/capture/capture.cpp:3030
 #: ekos/guide/guide.cpp:748 ekos/scheduler/scheduler.cpp:3214
-#: ekos/scheduler/scheduler.cpp:3511 fitsviewer/fitstab.cpp:299
+#: ekos/scheduler/scheduler.cpp:3511 fitsviewer/fitstab.cpp:305
 #: tools/scriptbuilder.cpp:873 tools/scriptbuilder.cpp:971
 #, kde-format
 msgid "Invalid URL"
@@ -3831,7 +3831,7 @@ msgstr "開啟 Ekos 序列佇列"
 #: ekos/align/align.cpp:1397 ekos/capture/capture.cpp:2626
 #: ekos/capture/capture.cpp:3029 ekos/guide/guide.cpp:747
 #: ekos/scheduler/scheduler.cpp:3213 ekos/scheduler/scheduler.cpp:3510
-#: fitsviewer/fitstab.cpp:298 tools/scriptbuilder.cpp:872
+#: fitsviewer/fitstab.cpp:304 tools/scriptbuilder.cpp:872
 #: tools/scriptbuilder.cpp:970
 #, kde-format
 msgid "Invalid URL: %1"
@@ -5200,7 +5200,7 @@ msgstr ""
 #: ekos/align/align.ui:1207 ekos/align/align.ui:1369 ekos/align/align.ui:1491
 #: ekos/auxiliary/opslogs.ui:318 ekos/ekosmanager.ui:470
 #: ekos/focus/focus.ui:160 ekos/guide/guide.ui:63
-#: ekos/guide/internalguide/guider.ui:213 ekos/opsekos.ui:279
+#: ekos/guide/internalguide/guider.ui:213 ekos/opsekos.ui:292
 #, kde-format
 msgid "Capture"
 msgstr "抓取"
@@ -5361,7 +5361,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, PAHRefreshB)
 #. i18n: ectx: property (text), widget (QPushButton, refreshB)
 #. i18n: ectx: property (text), widget (QPushButton, refreshSourceB)
-#: ekos/align/align.ui:1661 ekos/opsekos.ui:571 hips/opships.ui:116
+#: ekos/align/align.ui:1661 ekos/opsekos.ui:584 hips/opships.ui:116
 #, kde-format
 msgid "Refresh"
 msgstr ""
@@ -7738,20 +7738,20 @@ msgid ""
 "span> filter focus offset in steps.</p></body></html>"
 msgstr "<html><head/><body><p>抓取影像前強制設定溫度值</p></body></html>"
 
-#: ekos/auxiliary/opslogs.cpp:57
+#: ekos/auxiliary/opslogs.cpp:58
 #, fuzzy, kde-format
 #| msgid "Clear all orbit trails"
 msgid "Clear all logs (%1)"
 msgstr "清除所有的軌跡"
 
-#: ekos/auxiliary/opslogs.cpp:148
+#: ekos/auxiliary/opslogs.cpp:149
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to remove the %1 client?"
 msgid "Are you sure you want to delete all logs?"
 msgstr "您確定要移除客戶端 %1 嗎？"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearLogsB)
-#: ekos/auxiliary/opslogs.cpp:158 ekos/auxiliary/opslogs.ui:460
+#: ekos/auxiliary/opslogs.cpp:159 ekos/auxiliary/opslogs.ui:460
 #, fuzzy, kde-format
 #| msgid "Clear all orbit trails"
 msgid "Clear all logs"
@@ -11524,7 +11524,7 @@ msgid ""
 "tr><tr><td>DE:   </td><td>%3 \"</td></tr></table>"
 msgstr ""
 
-#: ekos/guide/guide.cpp:655 ekos/guide/guide.cpp:2719
+#: ekos/guide/guide.cpp:655 ekos/guide/guide.cpp:2720
 #, kde-format
 msgctxt ""
 "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
@@ -11547,12 +11547,12 @@ msgstr "覆寫資料"
 msgid "Guide Data Saved as: %1"
 msgstr "識別座標"
 
-#: ekos/guide/guide.cpp:886 ekos/guide/guide.cpp:3059
+#: ekos/guide/guide.cpp:886 ekos/guide/guide.cpp:3060
 #, kde-format
 msgid "Disabling remote image reception from %1"
 msgstr ""
 
-#: ekos/guide/guide.cpp:893 ekos/guide/guide.cpp:3065
+#: ekos/guide/guide.cpp:893 ekos/guide/guide.cpp:3066
 #, kde-format
 msgid "Enabling remote image reception from %1"
 msgstr ""
@@ -11601,23 +11601,23 @@ msgstr "移動失敗。自動引導已中止。"
 msgid "The CCD does not support Rapid Guiding. Aborting..."
 msgstr "CCD 不支援快速引導。正在中止..."
 
-#: ekos/guide/guide.cpp:1836
+#: ekos/guide/guide.cpp:1837
 #, fuzzy, kde-format
 #| msgid "Calibration completed."
 msgid "Calibration is cleared."
 msgstr "靈敏度校正完成。"
 
-#: ekos/guide/guide.cpp:1852
+#: ekos/guide/guide.cpp:1853
 #, kde-format
 msgid "External guider connected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1863
+#: ekos/guide/guide.cpp:1864
 #, kde-format
 msgid "External guider disconnected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1878 ekos/guide/internalguide/rcalibration.cpp:420
+#: ekos/guide/guide.cpp:1879 ekos/guide/internalguide/rcalibration.cpp:420
 #: ekos/guide/internalguide/rcalibration.cpp:448
 #: ekos/guide/internalguide/rcalibration.cpp:669
 #: ekos/guide/internalguide/rcalibration.cpp:821
@@ -11625,94 +11625,94 @@ msgstr ""
 msgid "Calibration completed."
 msgstr "靈敏度校正完成。"
 
-#: ekos/guide/guide.cpp:1897
+#: ekos/guide/guide.cpp:1898
 #, fuzzy, kde-format
 #| msgid "Calibration completed."
 msgid "Calibration started."
 msgstr "靈敏度校正完成。"
 
-#: ekos/guide/guide.cpp:1903
+#: ekos/guide/guide.cpp:1904
 #, kde-format
 msgid "Guiding resumed."
 msgstr "引導已回復。"
 
-#: ekos/guide/guide.cpp:1906 ekos/guide/internalguide/guider.cpp:221
+#: ekos/guide/guide.cpp:1907 ekos/guide/internalguide/guider.cpp:221
 #: ekos/guide/internalguide/guider.cpp:239
 #: ekos/guide/internalguide/guider.cpp:311
 #, kde-format
 msgid "Autoguiding started."
 msgstr "自動引導已啟動。"
 
-#: ekos/guide/guide.cpp:1917
+#: ekos/guide/guide.cpp:1918
 #, fuzzy, kde-format
 #| msgid "Autoguiding started."
 msgid "Autoguiding aborted."
 msgstr "自動引導已啟動。"
 
-#: ekos/guide/guide.cpp:1922
+#: ekos/guide/guide.cpp:1923
 #, kde-format
 msgid "Guiding suspended."
 msgstr "引導已暫停。"
 
-#: ekos/guide/guide.cpp:1930
+#: ekos/guide/guide.cpp:1931
 #, fuzzy, kde-format
 #| msgctxt "City in British Columbia Canada"
 #| msgid "Dome Creek"
 msgid "Dithering in progress."
 msgstr "Dome Creek"
 
-#: ekos/guide/guide.cpp:1935
+#: ekos/guide/guide.cpp:1936
 #, kde-format
 msgid "Post-dither settling for %1 second..."
 msgid_plural "Post-dither settling for %1 seconds..."
 msgstr[0] ""
 
-#: ekos/guide/guide.cpp:1940
+#: ekos/guide/guide.cpp:1941
 #, fuzzy, kde-format
 #| msgid "Dithering..."
 msgid "Dithering failed!"
 msgstr "移動中..."
 
-#: ekos/guide/guide.cpp:1951
+#: ekos/guide/guide.cpp:1952
 #, fuzzy, kde-format
 #| msgid "Post flip re-alignment completed successfully."
 msgid "Dithering completed successfully."
 msgstr "後翻轉重新調校已成功完成。"
 
-#: ekos/guide/guide.cpp:2008
+#: ekos/guide/guide.cpp:2009
 #, fuzzy, kde-format
 #| msgid "Autofocus failed. Aborting exposure..."
 msgid "Exposure failed. Restarting exposure..."
 msgstr "自動對焦失敗。將中止曝光..."
 
-#: ekos/guide/guide.cpp:2090
+#: ekos/guide/guide.cpp:2091
 #, fuzzy, kde-format
 #| msgid "Autofocus in progress..."
 msgid "Cannot change guider type while active."
 msgstr "自動對焦處理中..."
 
-#: ekos/guide/guide.cpp:2155
+#: ekos/guide/guide.cpp:2156
 #, fuzzy, kde-format
 #| msgid "2. Select guide star"
 msgid "Select guide camera."
 msgstr "2. 選擇導引星體"
 
-#: ekos/guide/guide.cpp:2210 ekos/guide/guide.cpp:2245
+#: ekos/guide/guide.cpp:2211 ekos/guide/guide.cpp:2246
 #, kde-format
 msgid "Select a camera to disable remote streaming."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2339 ekos/guide/internalguide/guider.cpp:140
+#: ekos/guide/guide.cpp:2340 ekos/guide/internalguide/guider.cpp:140
 #, kde-format
 msgid "P: %1"
 msgstr "P：%1"
 
-#: ekos/guide/guide.cpp:2459
+#: ekos/guide/guide.cpp:2460
 #, kde-format
 msgid "You must stop auto guiding before changing this setting."
 msgstr "在變更此設定前，您必須先停止自動引導。"
 
-#: ekos/guide/guide.cpp:2467
+#: ekos/guide/guide.cpp:2468
 #, kde-format
 msgid ""
 "Rapid Guiding is enabled. Guide star will be determined automatically by the "
@@ -11722,12 +11722,12 @@ msgstr ""
 "快速引導已開啟。CCD 驅動程式將自動決定引導的星體。除非您在 CCD 驅動程式設定中"
 "特別指定開啟，不然視訊畫面將不會傳送到 Ekos。"
 
-#: ekos/guide/guide.cpp:2470
+#: ekos/guide/guide.cpp:2471
 #, kde-format
 msgid "Rapid Guiding is disabled."
 msgstr "快速引導已關閉。"
 
-#: ekos/guide/guide.cpp:2706
+#: ekos/guide/guide.cpp:2707
 #, kde-format
 msgctxt ""
 "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
@@ -11737,26 +11737,26 @@ msgid ""
 "tr><tr><td>DE:   </td><td>%3 \"</td></tr></table>"
 msgstr ""
 
-#: ekos/guide/guide.cpp:2839
+#: ekos/guide/guide.cpp:2840
 #, fuzzy, kde-format
 #| msgid "Auto calibration failed."
 msgid "Calibration failed to start!"
 msgstr "自動校正失敗。"
 
-#: ekos/guide/guide.cpp:2979
+#: ekos/guide/guide.cpp:2980
 #, fuzzy, kde-format
 #| msgid "1 star detected."
 #| msgid_plural "%1 stars detected."
 msgid "Auto star selected."
 msgstr "偵測到 %1 個星體。"
 
-#: ekos/guide/guide.cpp:2983
+#: ekos/guide/guide.cpp:2984
 #, fuzzy, kde-format
 #| msgid "Set box size to select a focus star."
 msgid "Failed to select an auto star."
 msgstr "設定盒尺寸以便選擇對焦的星體。"
 
-#: ekos/guide/guide.cpp:2992
+#: ekos/guide/guide.cpp:2993
 #, fuzzy, kde-format
 #| msgid "2. Select guide star"
 msgid "Select a guide star to calibrate."
@@ -13092,7 +13092,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: ekos/guide/opsguide.ui:242 ekos/opsekos.ui:367
+#: ekos/guide/opsguide.ui:242 ekos/opsekos.ui:380
 #, fuzzy, kde-format
 #| msgid "Frame:"
 msgid "frames"
@@ -13681,20 +13681,39 @@ msgstr "極地校準"
 msgid "Reset Mount Model Before Starting Each Job"
 msgstr "子午線翻轉..."
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_StopEkosAfterShutdown)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResetGuideCalibration)
 #: ekos/opsekos.ui:235
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body><p>Enforce temperature value before capturing an "
+#| "image</p></body></html>"
+msgid ""
+"<html><head/><body><p>When guiding is started, always clear calibtion. "
+"Turning off this option can lead to unpredictable guiding failures.</p></"
+"body></html>"
+msgstr "<html><head/><body><p>抓取影像前強制設定溫度值</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetGuideCalibration)
+#: ekos/opsekos.ui:241
+#, fuzzy, kde-format
+#| msgid "Automatic Calibration"
+msgid "Always Reset Guide Calibration"
+msgstr "自動校正"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_StopEkosAfterShutdown)
+#: ekos/opsekos.ui:248
 #, kde-format
 msgid "After shutdown procedure is successfully executed, stop INDI and Ekos."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_StopEkosAfterShutdown)
-#: ekos/opsekos.ui:238
+#: ekos/opsekos.ui:251
 #, kde-format
 msgid "Stop Ekos After Shutdown"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShutdownScriptTerminatesINDI)
-#: ekos/opsekos.ui:245
+#: ekos/opsekos.ui:258
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>Enforce temperature value before capturing an "
@@ -13705,33 +13724,33 @@ msgid ""
 msgstr "<html><head/><body><p>抓取影像前強制設定溫度值</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShutdownScriptTerminatesINDI)
-#: ekos/opsekos.ui:248
+#: ekos/opsekos.ui:261
 #, fuzzy, kde-format
 #| msgid "FITS image failed to load, aborting..."
 msgid "Shutdown Script Terminates INDI"
 msgstr "FITS 影像載入失敗，正在中止..."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SortSchedulerJobs)
-#: ekos/opsekos.ui:255
+#: ekos/opsekos.ui:268
 #, kde-format
 msgid "High priority and altitude jobs are executed first"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SortSchedulerJobs)
-#: ekos/opsekos.ui:258
+#: ekos/opsekos.ui:271
 #, kde-format
 msgid "Sort jobs by Altitude and Priority"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: ekos/opsekos.ui:287 ekos/opsekos.ui:491
+#: ekos/opsekos.ui:300 ekos/opsekos.ui:504
 #, kde-format
 msgid "° C"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: ekos/opsekos.ui:294
+#: ekos/opsekos.ui:307
 #, kde-format
 msgid ""
 "Maximum acceptable difference between requested and measured temperature set "
@@ -13740,7 +13759,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ekos/opsekos.ui:297
+#: ekos/opsekos.ui:310
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Temperature K"
@@ -13749,13 +13768,13 @@ msgstr "溫度 K"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, overlapUnits)
-#: ekos/opsekos.ui:327 ekos/scheduler/mosaic.ui:403
+#: ekos/opsekos.ui:340 ekos/scheduler/mosaic.ui:403
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_5)
-#: ekos/opsekos.ui:334
+#: ekos/opsekos.ui:347
 #, kde-format
 msgid ""
 "<html><head/><body><p>Set HFR Threshold percentage gain. When an autofocus "
@@ -13768,7 +13787,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: ekos/opsekos.ui:337
+#: ekos/opsekos.ui:350
 #, fuzzy, kde-format
 #| msgctxt "City in New Jersey USA"
 #| msgid "Freehold"
@@ -13778,19 +13797,19 @@ msgstr "Freehold"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_11)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_InSequenceCheckFrames)
 #. i18n: ectx: label, entry (InSequenceCheckFrames), group (Capture)
-#: ekos/opsekos.ui:344 ekos/opsekos.ui:354 kstars.kcfg:1599
+#: ekos/opsekos.ui:357 ekos/opsekos.ui:367 kstars.kcfg:1599
 #, kde-format
 msgid "Run In-Sequence HFR check after this many frames."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: ekos/opsekos.ui:347
+#: ekos/opsekos.ui:360
 #, kde-format
 msgid "In-Sequence HFR Check:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_RememberJobProgress)
-#: ekos/opsekos.ui:389
+#: ekos/opsekos.ui:402
 #, kde-format
 msgid ""
 "When loading a sequence file,  resume the sequence starting from the last "
@@ -13798,20 +13817,20 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberJobProgress)
-#: ekos/opsekos.ui:392
+#: ekos/opsekos.ui:405
 #, kde-format
 msgid "Remember Job Progress"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetMountModelAfterMeridian)
-#: ekos/opsekos.ui:402
+#: ekos/opsekos.ui:415
 #, fuzzy, kde-format
 #| msgid "Meridian Flip..."
 msgid "Reset Mount Model After Meridian Flip"
 msgstr "子午線翻轉..."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SaveHFRToFile)
-#: ekos/opsekos.ui:409
+#: ekos/opsekos.ui:422
 #, kde-format
 msgid ""
 "<html><head/><body><p>In-Sequence HFR threshold value controls when the "
@@ -13825,14 +13844,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SaveHFRToFile)
-#: ekos/opsekos.ui:412
+#: ekos/opsekos.ui:425
 #, fuzzy, kde-format
 #| msgid "Save Ekos Sequence Queue"
 msgid "Save Sequence HFR Value to File"
 msgstr "儲存 Ekos 序列佇列"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlatSyncFocus)
-#: ekos/opsekos.ui:419
+#: ekos/opsekos.ui:432
 #, kde-format
 msgid ""
 "<html><head/><body><p>If using a filter wheel and an absolute position "
@@ -13842,13 +13861,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlatSyncFocus)
-#: ekos/opsekos.ui:422
+#: ekos/opsekos.ui:435
 #, kde-format
 msgid "Capture flat frames at the same focus as light frames"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useSummaryPreview)
-#: ekos/opsekos.ui:429
+#: ekos/opsekos.ui:442
 #, fuzzy, kde-format
 #| msgid ""
 #| "Display all captured FITS images in a single tab instead of multiple tabs "
@@ -13857,13 +13876,13 @@ msgid "Display received FITS in the Summary screen preview window."
 msgstr "在單一分頁中顯示所有抓取到的 FITS 影像，而不是每張影像開一個分頁。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useSummaryPreview)
-#: ekos/opsekos.ui:432
+#: ekos/opsekos.ui:445
 #, kde-format
 msgid "Summary Screen Preview"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, darkLibraryTab)
-#: ekos/opsekos.ui:453
+#: ekos/opsekos.ui:466
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Library"
@@ -13871,7 +13890,7 @@ msgid "Dark Library"
 msgstr "函式庫"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearRowB)
-#: ekos/opsekos.ui:461
+#: ekos/opsekos.ui:474
 #, kde-format
 msgid ""
 "Remove one row from the database and delete the associated dark frame from "
@@ -13879,7 +13898,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, clearRowB)
-#: ekos/opsekos.ui:464
+#: ekos/opsekos.ui:477
 #, fuzzy, kde-format
 #| msgid "Clear"
 msgid "Clear Row"
@@ -13887,7 +13906,7 @@ msgstr "清除"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_7)
 #. i18n: ectx: label, entry (MaxDarkTemperatureDiff), group (DarkLibrary)
-#: ekos/opsekos.ui:471 kstars.kcfg:1468
+#: ekos/opsekos.ui:484 kstars.kcfg:1468
 #, kde-format
 msgid ""
 "Maximum acceptable difference between current and recorded dark frame "
@@ -13896,7 +13915,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: ekos/opsekos.ui:474
+#: ekos/opsekos.ui:487
 #, fuzzy, kde-format
 #| msgctxt "City in New Jersey USA"
 #| msgid "Freehold"
@@ -13904,13 +13923,13 @@ msgid "T. Threshold:"
 msgstr "Freehold"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, clearAllB)
-#: ekos/opsekos.ui:481
+#: ekos/opsekos.ui:494
 #, kde-format
 msgid "Remove all dark frames data and files"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, clearAllB)
-#: ekos/opsekos.ui:484
+#: ekos/opsekos.ui:497
 #, fuzzy, kde-format
 #| msgctxt "City in Spain"
 #| msgid "Calar Alto"
@@ -13919,7 +13938,7 @@ msgstr "Calar Alto"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. i18n: ectx: label, entry (DarkLibraryDuration), group (Capture)
-#: ekos/opsekos.ui:498 kstars.kcfg:1603
+#: ekos/opsekos.ui:511 kstars.kcfg:1603
 #, kde-format
 msgid ""
 "Reuse dark frames from the dark library for this many days. If exceeded, a "
@@ -13927,26 +13946,26 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: ekos/opsekos.ui:501
+#: ekos/opsekos.ui:514
 #, kde-format
 msgid "Dark Validity"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, openDarksFolderB)
-#: ekos/opsekos.ui:537
+#: ekos/opsekos.ui:550
 #, kde-format
 msgid "Open folder where dark frames are stored"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openDarksFolderB)
-#: ekos/opsekos.ui:540
+#: ekos/opsekos.ui:553
 #, fuzzy, kde-format
 #| msgid "Use Dark Frame"
 msgid "Darks Folder"
 msgstr "使用黑暗訊框"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: ekos/opsekos.ui:557 kstarslite/qml/modules/helpers/TimeSpinBox.qml:191
+#: ekos/opsekos.ui:570 kstarslite/qml/modules/helpers/TimeSpinBox.qml:191
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:195
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:196
 #: kstarslite/qml/modules/helpers/TimeSpinBox.qml:197
@@ -13957,14 +13976,14 @@ msgid "days"
 msgstr "天"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearExpiredB)
-#: ekos/opsekos.ui:564
+#: ekos/opsekos.ui:577
 #, fuzzy, kde-format
 #| msgid "Clear Fields"
 msgid "Clear Expired"
 msgstr "清除欄位"
 
 #. i18n: ectx: property (toolTip), widget (QTableView, darkTableView)
-#: ekos/opsekos.ui:580
+#: ekos/opsekos.ui:593
 #, fuzzy, kde-format
 #| msgid "Failed to load image at %1"
 msgid "Double click to load dark frame"
@@ -16704,7 +16723,7 @@ msgid "Ready."
 msgstr "就緒。"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, fitsHeaderDialog)
-#: fitsviewer/fitsheaderdialog.ui:14 fitsviewer/fitstab.cpp:194
+#: fitsviewer/fitsheaderdialog.ui:14 fitsviewer/fitstab.cpp:200
 #: fitsviewer/fitsviewer.cpp:139
 #, kde-format
 msgid "FITS Header"
@@ -16840,40 +16859,40 @@ msgstr "HFR：%1"
 msgid "Continue Slew"
 msgstr "中止扭轉"
 
-#: fitsviewer/fitstab.cpp:50
+#: fitsviewer/fitstab.cpp:52
 #, kde-format
 msgid "Save Changes to FITS?"
 msgstr "要儲存變更到 FITS 嗎？"
 
-#: fitsviewer/fitstab.cpp:51
+#: fitsviewer/fitstab.cpp:53
 #, kde-format
 msgid ""
 "The current FITS file has unsaved changes.  Would you like to save before "
 "closing it?"
 msgstr "目前的 FITS 檔中有未儲存的變更。您要在關閉前先儲存嗎？"
 
-#: fitsviewer/fitstab.cpp:194
+#: fitsviewer/fitstab.cpp:200
 #, kde-format
 msgid "FITS record error: %1"
 msgstr "FITS 紀錄錯誤：%1"
 
-#: fitsviewer/fitstab.cpp:248
+#: fitsviewer/fitstab.cpp:254
 #, kde-format
 msgid "Save FITS"
 msgstr "儲存 FITS"
 
-#: fitsviewer/fitstab.cpp:286
+#: fitsviewer/fitstab.cpp:292
 #, kde-format
 msgid "FITS file save error: %1"
 msgstr "FITS 檔案儲存錯誤：%1"
 
-#: fitsviewer/fitstab.cpp:286
+#: fitsviewer/fitstab.cpp:292
 #, kde-format
 msgid "FITS Save"
 msgstr "FITS 儲存"
 
 #. i18n("File saved."), 3);
-#: fitsviewer/fitstab.cpp:292
+#: fitsviewer/fitstab.cpp:298
 #, kde-format
 msgid "File saved to %1"
 msgstr "檔案已儲存到 %1"
@@ -23423,8 +23442,15 @@ msgstr ""
 msgid "Reset mount model before starting each job."
 msgstr "望遠鏡已完成子午線翻轉。"
 
-#. i18n: ectx: label, entry (PreemptiveShutdownTime), group (Scheduler)
+#. i18n: ectx: label, entry (ResetGuideCalibration), group (Scheduler)
 #: kstars.kcfg:2122
+#, fuzzy, kde-format
+#| msgid "Telescope completed the meridian flip."
+msgid "Always Reset guiding calibration before starting each job."
+msgstr "望遠鏡已完成子午線翻轉。"
+
+#. i18n: ectx: label, entry (PreemptiveShutdownTime), group (Scheduler)
+#: kstars.kcfg:2126
 #, kde-format
 msgid ""
 "Maximum number of hours before the next job is due to trigger a pre-emptive "
@@ -23432,13 +23458,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (LeadTime), group (Scheduler)
-#: kstars.kcfg:2126
+#: kstars.kcfg:2130
 #, kde-format
 msgid "Minimum time between jobs in minutes."
 msgstr ""
 
 #. i18n: ectx: label, entry (PreDawnTime), group (Scheduler)
-#: kstars.kcfg:2130
+#: kstars.kcfg:2134
 #, kde-format
 msgid ""
 "Do not permit jobs to be scheduled or executed past this many minutes before "
@@ -23446,100 +23472,100 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (TelescopeFocalLength), group (Scheduler)
-#: kstars.kcfg:2134
+#: kstars.kcfg:2138
 #, fuzzy, kde-format
 #| msgid "Telescope focal length, in millimeters"
 msgid "Telescope focal length in millimeters."
 msgstr "望遠鏡焦距，以 mm 為單位"
 
 #. i18n: ectx: label, entry (CameraPixelWidth), group (Scheduler)
-#: kstars.kcfg:2138
+#: kstars.kcfg:2142
 #, kde-format
 msgid "Camera pixel size width in micrometers."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraPixelHeight), group (Scheduler)
-#: kstars.kcfg:2142
+#: kstars.kcfg:2146
 #, kde-format
 msgid "Camera pixel size height in micrometers."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraWidth), group (Scheduler)
-#: kstars.kcfg:2146
+#: kstars.kcfg:2150
 #, kde-format
 msgid "Camera Width in pixels."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraHeight), group (Scheduler)
-#: kstars.kcfg:2150
+#: kstars.kcfg:2154
 #, kde-format
 msgid "Camera Height in pixels."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraRotation), group (Scheduler)
-#: kstars.kcfg:2154
+#: kstars.kcfg:2158
 #, kde-format
 msgid "Position angle of the camera with respect to north."
 msgstr ""
 
 #. i18n: ectx: label, entry (LastServer), group (INDI Lite)
-#: kstars.kcfg:2160
+#: kstars.kcfg:2164
 #, kde-format
 msgid "The address of last used server"
 msgstr ""
 
 #. i18n: ectx: label, entry (LastServerPort), group (INDI Lite)
-#: kstars.kcfg:2163
+#: kstars.kcfg:2167
 #, kde-format
 msgid "The port of last used server"
 msgstr ""
 
 #. i18n: ectx: label, entry (LastWebManagerPort), group (INDI Lite)
-#: kstars.kcfg:2167
+#: kstars.kcfg:2171
 #, kde-format
 msgid "The port of last used Web Manager"
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSMemoryCache), group (HIPS)
-#: kstars.kcfg:2173
+#: kstars.kcfg:2177
 #, kde-format
 msgid "RAM cache size in MB used to store cached HIPS images."
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSNetCache), group (HIPS)
-#: kstars.kcfg:2177
+#: kstars.kcfg:2181
 #, kde-format
 msgid "Hard disk cache size in MB used to store cached HIPS images."
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSSource), group (HIPS)
-#: kstars.kcfg:2181
+#: kstars.kcfg:2185
 #, kde-format
 msgid "HIPS source catalog title."
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSBiLinearInterpolation), group (HIPS)
-#: kstars.kcfg:2185
+#: kstars.kcfg:2189
 #, kde-format
 msgid "Use Bilinear interpolation when rendering HiPS images?"
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSShowGrid), group (HIPS)
-#: kstars.kcfg:2189
+#: kstars.kcfg:2193
 #, fuzzy, kde-format
 #| msgid "Draw Sun in the sky map?"
 msgid "Show HiPS grid on the sky map."
 msgstr "要在天體圖中畫出太陽嗎？"
 
 #. i18n: ectx: label, entry (ShowHIPS), group (HIPS)
-#: kstars.kcfg:2193
+#: kstars.kcfg:2197
 #, fuzzy, kde-format
 #| msgid "Draw stars in the sky map?"
 msgid "Draw HiPS sources in the sky map?"
 msgstr "要畫出星體嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowHIPS), group (HIPS)
-#: kstars.kcfg:2194
+#: kstars.kcfg:2198
 #, fuzzy, kde-format
 #| msgid "Toggle whether stars are drawn in the sky map."
 msgid "Toggle whether the HIPS sources are drawn in the sky map."
@@ -101794,9 +101820,6 @@ msgstr "設定背景顏色。"
 
 #~ msgid "Auxiliary 3:"
 #~ msgstr "輔助裝置 3："
-
-#~ msgid "Automatic Calibration"
-#~ msgstr "自動校正"
 
 #~ msgid "Never"
 #~ msgstr "永不"

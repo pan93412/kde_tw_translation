@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_maildir_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-04 03:26+0100\n"
+"POT-Creation-Date: 2018-04-12 03:34+0200\n"
 "PO-Revision-Date: 2016-11-14 21:20+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -54,12 +54,12 @@ msgstr "選取的路徑不存在，將建立一個新的 Maildir 資料夾。"
 msgid "The selected path does not exist."
 msgstr "選取的路徑不存在。"
 
-#: libmaildir/maildir.cpp:253 libmaildir/maildir.cpp:258
+#: libmaildir/maildir.cpp:228 libmaildir/maildir.cpp:233
 #, kde-format
 msgid "Error opening %1; this folder is missing."
 msgstr "開啟 %1 時發生錯誤；資料夾已遺失"
 
-#: libmaildir/maildir.cpp:263
+#: libmaildir/maildir.cpp:238
 #, kde-format
 msgid ""
 "Error opening %1; either this is not a valid maildir folder, or you do not "
@@ -67,30 +67,30 @@ msgid ""
 msgstr ""
 "開啟 %1 時發生錯誤；可能是這不是合法的郵件資料夾，或是您沒有足夠的權限存取。"
 
-#: libmaildir/maildir.cpp:489 libmaildir/maildir.cpp:511
-#: libmaildir/maildir.cpp:529 libmaildir/maildir.cpp:549
-#: libmaildir/maildir.cpp:568 libmaildir/maildir.cpp:592
-#: libmaildir/maildir.cpp:667 libmaildir/maildir.cpp:817
+#: libmaildir/maildir.cpp:464 libmaildir/maildir.cpp:486
+#: libmaildir/maildir.cpp:504 libmaildir/maildir.cpp:524
+#: libmaildir/maildir.cpp:543 libmaildir/maildir.cpp:567
+#: libmaildir/maildir.cpp:642 libmaildir/maildir.cpp:792
 #, kde-format
 msgid "Cannot locate mail file %1."
 msgstr "找不到郵件檔 %1。"
 
-#: libmaildir/maildir.cpp:495 libmaildir/maildir.cpp:517
+#: libmaildir/maildir.cpp:470 libmaildir/maildir.cpp:492
 #, kde-format
 msgid "Cannot open mail file %1."
 msgstr "無法開啟郵件檔 %1。"
 
-#: libmaildir/maildir.cpp:600 libmaildir/maildir.cpp:627
+#: libmaildir/maildir.cpp:575 libmaildir/maildir.cpp:602
 #, kde-format
 msgid "Cannot write to mail file %1."
 msgstr "無法寫入郵件檔 %1。"
 
-#: libmaildir/maildir.cpp:641
+#: libmaildir/maildir.cpp:616
 #, kde-format
 msgid "Failed to create mail file %1. The error was: %2"
 msgstr "建立郵件檔 %1 失敗。錯誤為：%2"
 
-#: libmaildir/maildir.cpp:735
+#: libmaildir/maildir.cpp:710
 #, kde-format
 msgid "Failed to update the file name %1 to %2 on the disk. The error was: %3."
 msgstr "更新檔案 %1 的名稱為 %2 失敗。錯誤為：%3"

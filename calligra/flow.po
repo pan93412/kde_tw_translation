@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kivio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-08 02:31+0100\n"
+"POT-Creation-Date: 2018-04-12 03:21+0200\n"
 "PO-Revision-Date: 2011-06-22 09:16+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -20,16 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Frank Weng (a.k.a. Franklin)"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "franklin@goodhorse.idv.tw"
 
 #. i18n: ectx: Menu (file)
 #: part/flow.rc:6
@@ -73,54 +63,84 @@ msgstr "頁面(&P)"
 msgid "&Settings"
 msgstr "設定(&S)"
 
-#: part/FlowAboutData.h:27
-#, kde-format
-msgid "Calligra Flowchart And Diagram Tool"
-msgstr "Calligra 流程圖與圖表工具"
-
 #: part/FlowAboutData.h:32
-#, kde-format
-msgctxt "application name"
+#, fuzzy, kde-format
+#| msgctxt "application name"
+#| msgid "Flow"
 msgid "Flow"
 msgstr "Flow"
 
 #: part/FlowAboutData.h:34
+#, kde-format
+msgid "Calligra Flowchart And Diagram Tool"
+msgstr "Calligra 流程圖與圖表工具"
+
+#: part/FlowAboutData.h:36
 #, fuzzy, kde-format
 #| msgid "(C) 2000-2011, The Flow Team"
-msgid "© 2000-%1, The Flow Team"
+msgid "(c) 2001-2018, The Flow Team"
 msgstr "(C) 2000-2011, Flow 開發團隊"
 
-#: part/FlowAboutData.h:39
+#: part/FlowAboutData.h:37
+#, kde-format
+msgid ""
+"Unmaintained at the time of release of this version. The Calligra community "
+"welcomes interested persons to take over maintainership."
+msgstr ""
+
+#: part/FlowAboutData.h:44
 #, kde-format
 msgid "Yue Liu"
 msgstr "Yue Liu"
 
-#: part/FlowAboutData.h:39
+#: part/FlowAboutData.h:44
 #, kde-format
 msgid "Maintainer"
 msgstr "維護者"
 
-#: part/FlowAboutData.h:40
+#: part/FlowAboutData.h:45
 #, kde-format
 msgid "Peter Simonsson"
 msgstr "Peter Simonsson"
 
-#: part/FlowAboutData.h:40
+#: part/FlowAboutData.h:45
 #, kde-format
 msgid "Former Maintainer"
 msgstr "前任維護者"
 
-#: part/FlowPart.cpp:75
+#: part/FlowAboutData.h:46
+#, kde-format
+msgid "Laurent Montel"
+msgstr ""
+
+#: part/FlowAboutData.h:46
+#, kde-format
+msgid "KF5 Porting"
+msgstr ""
+
+#: part/FlowAboutData.h:47
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#: part/FlowAboutData.h:48
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: part/FlowPart.cpp:76
 #, kde-format
 msgid "Can not find needed text component, Calligra Flow will quit now."
 msgstr ""
 
-#: part/FlowPart.cpp:80
+#: part/FlowPart.cpp:81
 #, kde-format
 msgid "Can not find needed picture component, Calligra Flow will quit now."
 msgstr ""
 
-#: part/FlowPart.cpp:93
+#: part/FlowPart.cpp:94
 #, fuzzy, kde-format
 #| msgid "Collection Error"
 msgid "Installation Error"
@@ -131,10 +151,8 @@ msgstr "收藏錯誤"
 msgid "Configure Flow..."
 msgstr "設定 Flow..."
 
-#: part/main.cpp:35
-#, kde-format
-msgid "File to open"
-msgstr "要開啟的檔案"
+#~ msgid "File to open"
+#~ msgstr "要開啟的檔案"
 
 #, fuzzy
 #~| msgctxt "NAME OF TRANSLATORS"

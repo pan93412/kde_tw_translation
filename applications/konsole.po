@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-11 03:26+0200\n"
+"POT-Creation-Date: 2018-04-12 03:21+0200\n"
 "PO-Revision-Date: 2018-03-29 13:21+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1081,11 +1081,16 @@ msgstr "熱鍵組合"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: EditProfileDialog.ui:829
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Key bindings control how combinations of keystrokes in the terminal "
+#| "window are converted into the stream of characters which are sent to the "
+#| "current terminal program."
 msgid ""
 "Key bindings control how combinations of keystrokes in the terminal window "
-"are converted into the stream of characters which are sent to the current "
-"terminal program."
+"are converted into the stream of characters that is then sent to the current "
+"terminal program. For more information on how to customize the key bindings "
+"check the Konsole Handbook."
 msgstr "組合鍵控制哪些鍵一起按會送特殊的字元串到終端機視窗中。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
