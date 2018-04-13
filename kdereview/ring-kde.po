@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ring-kde\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-07 03:28+0100\n"
+"POT-Creation-Date: 2018-04-13 03:33+0200\n"
 "PO-Revision-Date: 2017-08-01 22:01+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -232,115 +232,120 @@ msgstr "設定 Ring-KDE"
 
 #: src/actioncollection.cpp:170
 #, kde-format
+msgid "Quit"
+msgstr ""
+
+#: src/actioncollection.cpp:172
+#, kde-format
 msgid "Display dialpad"
 msgstr "顯示撥號盤"
 
-#: src/actioncollection.cpp:171
+#: src/actioncollection.cpp:173
 #, kde-format
 msgid "Display volume controls"
 msgstr "顯示音量控制"
 
-#: src/actioncollection.cpp:172
+#: src/actioncollection.cpp:174
 #, kde-format
 msgid "Display account selector"
 msgstr "顯示帳號選擇器"
 
-#: src/actioncollection.cpp:173
+#: src/actioncollection.cpp:175
 #, kde-format
 msgid "Raise Ring-KDE window"
 msgstr "提升 Ring-KDE 視窗"
 
-#: src/actioncollection.cpp:174
+#: src/actioncollection.cpp:176
 #, kde-format
 msgid "Search history"
 msgstr "搜尋歷史"
 
-#: src/actioncollection.cpp:175
+#: src/actioncollection.cpp:177
 #, kde-format
 msgid "Search call"
 msgstr "搜尋通話"
 
-#: src/actioncollection.cpp:176
+#: src/actioncollection.cpp:178
 #, kde-format
 msgid "Search contact"
 msgstr "搜尋聯絡人"
 
-#: src/actioncollection.cpp:177
+#: src/actioncollection.cpp:179
 #, kde-format
 msgid "Search bookmark"
 msgstr "搜尋書籤"
 
-#: src/actioncollection.cpp:178
+#: src/actioncollection.cpp:180
 #, kde-format
 msgid "Show the phone directory"
 msgstr ""
 
-#: src/actioncollection.cpp:180
+#: src/actioncollection.cpp:182
 #, fuzzy, kde-format
 #| msgid "New account"
 msgid "New account wizard"
 msgstr "新增帳戶"
 
-#: src/actioncollection.cpp:181
+#: src/actioncollection.cpp:183
 #, kde-format
 msgid "Show the menu"
 msgstr ""
 
-#: src/actioncollection.cpp:182
+#: src/actioncollection.cpp:184
 #, fuzzy, kde-format
 #| msgid "Add new contact"
 msgid "New contact"
 msgstr "加入新聯絡人"
 
-#: src/actioncollection.cpp:183
+#: src/actioncollection.cpp:185
 #, kde-format
 msgid "Paste"
 msgstr "貼上"
 
-#: src/actioncollection.cpp:184
+#: src/actioncollection.cpp:186
 #, kde-format
 msgid "Display Person"
 msgstr "顯示人物"
 
-#: src/actioncollection.cpp:185
+#: src/actioncollection.cpp:187
 #, kde-format
 msgid "Display history"
 msgstr "顯示歷史"
 
-#: src/actioncollection.cpp:186
+#: src/actioncollection.cpp:188
 #, kde-format
 msgid "Display bookmark"
 msgstr "顯示書籤"
 
-#: src/actioncollection.cpp:187
+#: src/actioncollection.cpp:189
 #, fuzzy, kde-format
 #| msgid "Display name*"
 msgid "Display timeline"
 msgstr "顯示名稱*"
 
-#: src/actioncollection.cpp:188
+#: src/actioncollection.cpp:190
 #, fuzzy, kde-format
 #| msgid "Display Call Number"
 msgid "Display call manager"
 msgstr "顯示通話號碼"
 
-#: src/actioncollection.cpp:189
+#: src/actioncollection.cpp:191
 #, kde-format
 msgid "Configure Toolbars"
 msgstr "設定工具列"
 
-#: src/actioncollection.cpp:190
+#: src/actioncollection.cpp:192
 #, kde-format
 msgid "Add new contact"
 msgstr "加入新聯絡人"
 
-#: src/actioncollection.cpp:191
+#: src/actioncollection.cpp:193
 #, fuzzy, kde-format
 #| msgid "Configure Shortcut"
 msgid "Configure Shortcuts"
 msgstr "設定快捷鍵"
 
-#: src/actioncollection.cpp:192
+#: src/actioncollection.cpp:194
 #, kde-format
 msgid "Configure Notifications"
 msgstr "設定通知"
@@ -1487,68 +1492,76 @@ msgstr ""
 "share/ring-kde/vCard」資料夾</p><p>(4) 按下確定</p><p>這樣就可以存取並編輯您"
 "在 KAddressBook 中的聯絡人</p></body></html>"
 
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/conf/dlggeneralbase.ui:32
+#, kde-format
+msgid ""
+"This module is deprecated and only exists to import history from SFLPhone "
+"1.2 and Ring-KDE 2.x"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, m_pHistoryGB)
-#: src/conf/dlggeneralbase.ui:38
+#: src/conf/dlggeneralbase.ui:51
 #, kde-format
 msgid "Ca&ll History"
 msgstr "通話歷史(&L)"
 
 #. i18n: ectx: property (text), widget (QPushButton, toolButton_historyClear)
-#: src/conf/dlggeneralbase.ui:49
+#: src/conf/dlggeneralbase.ui:62
 #, kde-format
 msgid "Clear History"
 msgstr "清除歷史"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_pKeepHistory)
-#: src/conf/dlggeneralbase.ui:93
+#: src/conf/dlggeneralbase.ui:107
 #, kde-format
 msgid "Keep history forever"
 msgstr "永遠保留歷史"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/conf/dlggeneralbase.ui:103
+#: src/conf/dlggeneralbase.ui:117
 #, kde-format
 msgid "Automatically remove calls after"
 msgstr "在多久之後自動移除通話"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/conf/dlggeneralbase.ui:148
+#: src/conf/dlggeneralbase.ui:162
 #, kde-format
 msgid "days"
 msgstr "天"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/dlggeneralbase.ui:158
+#: src/conf/dlggeneralbase.ui:172
 #, kde-format
 msgid "Display"
 msgstr "顯示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_mergeSameDayPeer)
-#: src/conf/dlggeneralbase.ui:164
+#: src/conf/dlggeneralbase.ui:178
 #, kde-format
 msgid "Merge calls with the same day and peer"
 msgstr "合併同一天與同一個人的通話"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
-#: src/conf/dlggeneralbase.ui:171
+#: src/conf/dlggeneralbase.ui:185
 #, kde-format
 msgid "Display incoming, outgoing and missed for history items"
 msgstr "顯示來電、去電與錯過的歷史項目"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedOutgoingCalls)
-#: src/conf/dlggeneralbase.ui:178
+#: src/conf/dlggeneralbase.ui:192
 #, kde-format
 msgid "Highlight missed outgoing calls"
 msgstr "突顯錯過的去電"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedIncomingCalls)
-#: src/conf/dlggeneralbase.ui:185
+#: src/conf/dlggeneralbase.ui:199
 #, kde-format
 msgid "Highlight missed incoming calls"
 msgstr "突顯錯過的來電"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/conf/dlggeneralbase.ui:192
+#: src/conf/dlggeneralbase.ui:206
 #, kde-format
 msgid "Those settings only take effect after restarting Ring-KDE"
 msgstr "那些設定僅在重新啟動 Ring-KDE 後生效"
@@ -2336,82 +2349,82 @@ msgstr "設定檔"
 msgid "From camera"
 msgstr ""
 
-#: src/ringapplication.cpp:252
+#: src/ringapplication.cpp:256
 #, kde-format
 msgid "Home"
 msgstr ""
 
-#: src/ringapplication.cpp:253
+#: src/ringapplication.cpp:257
 #, kde-format
 msgid "Work"
 msgstr ""
 
-#: src/ringapplication.cpp:254
+#: src/ringapplication.cpp:258
 #, kde-format
 msgid "Msg"
 msgstr ""
 
-#: src/ringapplication.cpp:255
+#: src/ringapplication.cpp:259
 #, kde-format
 msgid "Pref"
 msgstr ""
 
-#: src/ringapplication.cpp:256
+#: src/ringapplication.cpp:260
 #, kde-format
 msgid "Voice"
 msgstr ""
 
-#: src/ringapplication.cpp:257
+#: src/ringapplication.cpp:261
 #, kde-format
 msgid "Fax"
 msgstr ""
 
-#: src/ringapplication.cpp:258
+#: src/ringapplication.cpp:262
 #, kde-format
 msgid "Cell"
 msgstr ""
 
-#: src/ringapplication.cpp:259 src/timeline/qml/mediabuttons.qml:120
+#: src/ringapplication.cpp:263 src/timeline/qml/mediabuttons.qml:120
 #, kde-format
 msgid "Video"
 msgstr "影片"
 
-#: src/ringapplication.cpp:260
+#: src/ringapplication.cpp:264
 #, kde-format
 msgid "Bbs"
 msgstr ""
 
-#: src/ringapplication.cpp:261
+#: src/ringapplication.cpp:265
 #, kde-format
 msgid "Modem"
 msgstr ""
 
-#: src/ringapplication.cpp:262
+#: src/ringapplication.cpp:266
 #, kde-format
 msgid "Car"
 msgstr ""
 
-#: src/ringapplication.cpp:263
+#: src/ringapplication.cpp:267
 #, kde-format
 msgid "Isdn"
 msgstr ""
 
-#: src/ringapplication.cpp:264
+#: src/ringapplication.cpp:268
 #, kde-format
 msgid "Pcs"
 msgstr ""
 
-#: src/ringapplication.cpp:265
+#: src/ringapplication.cpp:269
 #, kde-format
 msgid "Pager"
 msgstr ""
 
-#: src/ringapplication.cpp:266
+#: src/ringapplication.cpp:270
 #, kde-format
 msgid "Preferred"
 msgstr ""
 
-#: src/ringapplication.cpp:314
+#: src/ringapplication.cpp:330
 #, kde-format
 msgid "System root certificates"
 msgstr ""
@@ -2557,24 +2570,24 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:140
+#: src/timeline/qml/viewcontact.qml:141
 #, kde-format
 msgid "Chat/Timeline"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:143
+#: src/timeline/qml/viewcontact.qml:144
 #, fuzzy, kde-format
 #| msgid "Audio"
 msgid "Audio/Video"
 msgstr "音效"
 
-#: src/timeline/qml/viewcontact.qml:146
+#: src/timeline/qml/viewcontact.qml:147
 #, fuzzy, kde-format
 #| msgid "Recording"
 msgid "Calls/Recordings"
 msgstr "錄製"
 
-#: src/timeline/qml/viewcontact.qml:149
+#: src/timeline/qml/viewcontact.qml:150
 #, fuzzy, kde-format
 #| msgid "Configuration"
 msgid "Information"

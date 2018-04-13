@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-12 03:23+0200\n"
+"POT-Creation-Date: 2018-04-13 03:23+0200\n"
 "PO-Revision-Date: 2018-04-01 17:17+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -4093,9 +4093,12 @@ msgstr ""
 #. i18n: context: Action (remove_frames), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:2210
 #, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Remove Keyframe"
+#| msgid_plural "Remove Keyframes"
 msgctxt "action"
-msgid "Remove Frame"
-msgstr "移除影格"
+msgid "Remove Keyframe"
+msgstr "移除關鍵影格"
 
 #. i18n: context: Action (remove_frames), Actions (Animation), ActionCollection (Krita)
 #: krita/krita.action:2212
@@ -4308,8 +4311,40 @@ msgctxt "action"
 msgid "Remove N hold columns from the frame at the current position"
 msgstr "在目前位置插入註腳"
 
+#. i18n: context: Action (mirror_frames), Actions (Animation), ActionCollection (Krita)
+#: krita/krita.action:2405
+#, fuzzy, kde-format
+#| msgid "Drop Frames"
+msgctxt "action"
+msgid "Mirror Frames"
+msgstr "掉格"
+
+#. i18n: context: Action (mirror_frames), Actions (Animation), ActionCollection (Krita)
+#: krita/krita.action:2407
+#, fuzzy, kde-format
+#| msgid "Sort by position"
+msgctxt "action"
+msgid "Mirror frames' position"
+msgstr "依位置排序"
+
+#. i18n: context: Action (mirror_columns), Actions (Animation), ActionCollection (Krita)
+#: krita/krita.action:2418
+#, fuzzy, kde-format
+#| msgid "Mirror Canvas"
+msgctxt "action"
+msgid "Mirror Columns"
+msgstr "鏡射畫布"
+
+#. i18n: context: Action (mirror_columns), Actions (Animation), ActionCollection (Krita)
+#: krita/krita.action:2420
+#, fuzzy, kde-format
+#| msgid "Export Composition"
+msgctxt "action"
+msgid "Mirror columns' position"
+msgstr "匯出合成"
+
 #. i18n: context: Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2410
+#: krita/krita.action:2435
 #, kde-format
 msgctxt "action"
 msgid "Layers"
@@ -4319,7 +4354,7 @@ msgstr "圖層"
 #. i18n: context: Action (activateNextLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activateNextLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activateNextLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2414 krita/krita.action:2416
+#: krita/krita.action:2439 krita/krita.action:2441
 #, kde-format
 msgctxt "action"
 msgid "Activate next layer"
@@ -4329,7 +4364,7 @@ msgstr "啟動下一圖層"
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2426 krita/krita.action:2428
+#: krita/krita.action:2451 krita/krita.action:2453
 #, kde-format
 msgctxt "action"
 msgid "Activate previous layer"
@@ -4339,973 +4374,973 @@ msgstr "啟動前一圖層"
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2438 krita/krita.action:2440
+#: krita/krita.action:2463 krita/krita.action:2465
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Activate previously selected layer"
 msgstr "啟動前一圖層"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2450
+#: krita/krita.action:2475
 #, kde-format
 msgctxt "action"
 msgid "&Group Layer"
 msgstr "群組圖層(&G)"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2452
+#: krita/krita.action:2477
 #, kde-format
 msgctxt "action"
 msgid "Group Layer"
 msgstr "群組圖層"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2462
+#: krita/krita.action:2487
 #, kde-format
 msgctxt "action"
 msgid "&Clone Layer"
 msgstr "複製圖層(&C)"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2464
+#: krita/krita.action:2489
 #, kde-format
 msgctxt "action"
 msgid "Clone Layer"
 msgstr "複製圖層"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2474
+#: krita/krita.action:2499
 #, kde-format
 msgctxt "action"
 msgid "&Vector Layer"
 msgstr "向量圖層(&V)"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2476
+#: krita/krita.action:2501
 #, kde-format
 msgctxt "action"
 msgid "Vector Layer"
 msgstr "向量圖層"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2486
+#: krita/krita.action:2511
 #, kde-format
 msgctxt "action"
 msgid "&Filter Layer..."
 msgstr "濾鏡圖層(&F)..."
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2488
+#: krita/krita.action:2513
 #, kde-format
 msgctxt "action"
 msgid "Filter Layer"
 msgstr "濾鏡圖層"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2498
+#: krita/krita.action:2523
 #, kde-format
 msgctxt "action"
 msgid "&Fill Layer..."
 msgstr "填充圖層(&F)..."
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2500
+#: krita/krita.action:2525
 #, kde-format
 msgctxt "action"
 msgid "Fill Layer"
 msgstr "填充圖層"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2510
+#: krita/krita.action:2535
 #, kde-format
 msgctxt "action"
 msgid "&File Layer..."
 msgstr "圖檔圖層(&F)..."
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2512
+#: krita/krita.action:2537
 #, kde-format
 msgctxt "action"
 msgid "File Layer"
 msgstr "圖檔圖層"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2522
+#: krita/krita.action:2547
 #, kde-format
 msgctxt "action"
 msgid "&Transparency Mask"
 msgstr "建立透明遮罩(&T)"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2524
+#: krita/krita.action:2549
 #, kde-format
 msgctxt "action"
 msgid "Transparency Mask"
 msgstr "建立透明遮罩"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2534
+#: krita/krita.action:2559
 #, kde-format
 msgctxt "action"
 msgid "&Filter Mask..."
 msgstr "建立濾鏡遮罩(&F)..."
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2536
+#: krita/krita.action:2561
 #, kde-format
 msgctxt "action"
 msgid "Filter Mask"
 msgstr "建立濾鏡遮罩"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2546
+#: krita/krita.action:2571
 #, kde-format
 msgctxt "action"
 msgid "&Colorize Mask"
 msgstr "著色遮罩(&C)"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2548
+#: krita/krita.action:2573
 #, kde-format
 msgctxt "action"
 msgid "Colorize Mask"
 msgstr "著色遮罩"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2558
+#: krita/krita.action:2583
 #, kde-format
 msgctxt "action"
 msgid "&Transform Mask..."
 msgstr "建立變形遮罩 (&T)"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2560
+#: krita/krita.action:2585
 #, kde-format
 msgctxt "action"
 msgid "Transform Mask"
 msgstr "建立變形遮罩"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2570
+#: krita/krita.action:2595
 #, kde-format
 msgctxt "action"
 msgid "&Local Selection"
 msgstr "本地選取(&L)"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2572
+#: krita/krita.action:2597
 #, kde-format
 msgctxt "action"
 msgid "Local Selection"
 msgstr "本地選取"
 
 #. i18n: context: Action (isolate_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2582
+#: krita/krita.action:2607
 #, kde-format
 msgctxt "action"
 msgid "&Isolate Layer"
 msgstr "隔離圖層(&I)"
 
 #. i18n: context: Action (isolate_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2584
+#: krita/krita.action:2609
 #, kde-format
 msgctxt "action"
 msgid "Isolate Layer"
 msgstr "隔離圖層"
 
 #. i18n: context: Action (toggle_layer_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2594
+#: krita/krita.action:2619
 #, kde-format
 msgctxt "action"
 msgid "&Toggle layer lock"
 msgstr "切換圖層鎖定(&T)"
 
 #. i18n: context: Action (toggle_layer_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2596
+#: krita/krita.action:2621
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer lock"
 msgstr "切換圖層鎖定"
 
 #. i18n: context: Action (toggle_layer_visibility), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2606
+#: krita/krita.action:2631
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer &visibility"
 msgstr "切換圖層能見度(&V)"
 
 #. i18n: context: Action (toggle_layer_visibility), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2608
+#: krita/krita.action:2633
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer visibility"
 msgstr "切換圖層能見度"
 
 #. i18n: context: Action (toggle_layer_alpha_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2618
+#: krita/krita.action:2643
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer &alpha"
 msgstr "切換圖層 &alpha"
 
 #. i18n: context: Action (toggle_layer_alpha_lock), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2620
+#: krita/krita.action:2645
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha"
 msgstr "切換圖層 alpha"
 
 #. i18n: context: Action (toggle_layer_inherit_alpha), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2630
+#: krita/krita.action:2655
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha &inheritance"
 msgstr "切換圖層的 alpha 繼承(&I)"
 
 #. i18n: context: Action (toggle_layer_inherit_alpha), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2632
+#: krita/krita.action:2657
 #, kde-format
 msgctxt "action"
 msgid "Toggle layer alpha inheritance"
 msgstr "切換圖層的 alpha 繼承"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2642
+#: krita/krita.action:2667
 #, kde-format
 msgctxt "action"
 msgid "&Paint Layer"
 msgstr "繪圖圖層(&P)"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2644
+#: krita/krita.action:2669
 #, kde-format
 msgctxt "action"
 msgid "Paint Layer"
 msgstr "繪圖圖層"
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2654
+#: krita/krita.action:2679
 #, kde-format
 msgctxt "action"
 msgid "&New Layer From Visible"
 msgstr "從可看見的圖層建立新的(&N)"
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2656
+#: krita/krita.action:2681
 #, kde-format
 msgctxt "action"
 msgid "New layer from visible"
 msgstr "從可看見的圖層建立新的"
 
 #. i18n: context: Action (duplicatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2666
+#: krita/krita.action:2691
 #, kde-format
 msgctxt "action"
 msgid "&Duplicate Layer or Mask"
 msgstr "重製圖層或遮罩(&D)"
 
 #. i18n: context: Action (duplicatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2668
+#: krita/krita.action:2693
 #, kde-format
 msgctxt "action"
 msgid "Duplicate Layer or Mask"
 msgstr "重製圖層或遮罩"
 
 #. i18n: context: Action (cut_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2678
+#: krita/krita.action:2703
 #, kde-format
 msgctxt "action"
 msgid "&Cut Selection to New Layer"
 msgstr "將選取範圍剪下並放到新的圖層(&C)"
 
 #. i18n: context: Action (cut_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2680
+#: krita/krita.action:2705
 #, kde-format
 msgctxt "action"
 msgid "Cut Selection to New Layer"
 msgstr "將選取範圍剪下並放到新的圖層"
 
 #. i18n: context: Action (copy_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2690
+#: krita/krita.action:2715
 #, kde-format
 msgctxt "action"
 msgid "Copy &Selection to New Layer"
 msgstr "將選取範圍複製到新的圖層(&S)"
 
 #. i18n: context: Action (copy_selection_to_new_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2692
+#: krita/krita.action:2717
 #, kde-format
 msgctxt "action"
 msgid "Copy Selection to New Layer"
 msgstr "將選取範圍複製到新的圖層"
 
 #. i18n: context: Action (copy_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2702
+#: krita/krita.action:2727
 #, kde-format
 msgctxt "action"
 msgid "Copy Layer"
 msgstr "複製圖層"
 
 #. i18n: context: Action (copy_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2704
+#: krita/krita.action:2729
 #, kde-format
 msgctxt "action"
 msgid "Copy layer to clipboard"
 msgstr "複製圖層到剪貼簿"
 
 #. i18n: context: Action (cut_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2714
+#: krita/krita.action:2739
 #, kde-format
 msgctxt "action"
 msgid "Cut Layer"
 msgstr "裁切圖層"
 
 #. i18n: context: Action (cut_layer_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2716
+#: krita/krita.action:2741
 #, kde-format
 msgctxt "action"
 msgid "Cut layer to clipboard"
 msgstr "裁切圖層到剪貼簿"
 
 #. i18n: context: Action (paste_layer_from_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2726
+#: krita/krita.action:2751
 #, kde-format
 msgctxt "action"
 msgid "Paste Layer"
 msgstr "貼上圖層"
 
 #. i18n: context: Action (paste_layer_from_clipboard), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2728
+#: krita/krita.action:2753
 #, kde-format
 msgctxt "action"
 msgid "Paste layer from clipboard"
 msgstr "從剪貼簿貼上圖層"
 
 #. i18n: context: Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2738
+#: krita/krita.action:2763
 #, kde-format
 msgctxt "action"
 msgid "Quick Group"
 msgstr "快速建立群組"
 
 #. i18n: context: Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2740
+#: krita/krita.action:2765
 #, kde-format
 msgctxt "action"
 msgid "Create a group layer containing selected layers"
 msgstr "建立一包含所選圖層的群組圖層"
 
 #. i18n: context: Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2750
+#: krita/krita.action:2775
 #, kde-format
 msgctxt "action"
 msgid "Quick Ungroup"
 msgstr "快速取消群組"
 
 #. i18n: context: Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2752
+#: krita/krita.action:2777
 #, kde-format
 msgctxt "action"
 msgid "Remove grouping of the layers or remove one layer out of the group"
 msgstr "移除圖層分組或移除群組的一個圖層"
 
 #. i18n: context: Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2762
+#: krita/krita.action:2787
 #, kde-format
 msgctxt "action"
 msgid "Quick Clipping Group"
 msgstr "快速建立繼承透明度群組"
 
 #. i18n: context: Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2764
+#: krita/krita.action:2789
 #, kde-format
 msgctxt "action"
 msgid "Group selected layers and add a layer with clipped alpha channel"
 msgstr "將選取的圖層聚集為群組並且加入一包含裁剪過 alpha 色版的圖層"
 
 #. i18n: context: Action (select_all_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2774
+#: krita/krita.action:2799
 #, kde-format
 msgctxt "action"
 msgid "All Layers"
 msgstr "所有圖層"
 
 #. i18n: context: Action (select_all_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2776
+#: krita/krita.action:2801
 #, kde-format
 msgctxt "action"
 msgid "Select all layers"
 msgstr "選取所有圖層"
 
 #. i18n: context: Action (select_visible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2786
+#: krita/krita.action:2811
 #, kde-format
 msgctxt "action"
 msgid "Visible Layers"
 msgstr "可看見的圖層"
 
 #. i18n: context: Action (select_visible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2788
+#: krita/krita.action:2813
 #, kde-format
 msgctxt "action"
 msgid "Select all visible layers"
 msgstr "選取所有可看見的圖層"
 
 #. i18n: context: Action (select_locked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2798
+#: krita/krita.action:2823
 #, kde-format
 msgctxt "action"
 msgid "Locked Layers"
 msgstr "鎖定的圖層"
 
 #. i18n: context: Action (select_locked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2800
+#: krita/krita.action:2825
 #, kde-format
 msgctxt "action"
 msgid "Select all locked layers"
 msgstr "選取所有鎖定的圖層"
 
 #. i18n: context: Action (select_invisible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2810
+#: krita/krita.action:2835
 #, kde-format
 msgctxt "action"
 msgid "Invisible Layers"
 msgstr "看不見的圖層"
 
 #. i18n: context: Action (select_invisible_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2812
+#: krita/krita.action:2837
 #, kde-format
 msgctxt "action"
 msgid "Select all invisible layers"
 msgstr "選取所有看不見的圖層"
 
 #. i18n: context: Action (select_unlocked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2822
+#: krita/krita.action:2847
 #, kde-format
 msgctxt "action"
 msgid "Unlocked Layers"
 msgstr "未鎖定的圖層"
 
 #. i18n: context: Action (select_unlocked_layers), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2824
+#: krita/krita.action:2849
 #, kde-format
 msgctxt "action"
 msgid "Select all unlocked layers"
 msgstr "選取所有未鎖定的圖層"
 
 #. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2834
+#: krita/krita.action:2859
 #, kde-format
 msgctxt "action"
 msgid "&Save Layer/Mask..."
 msgstr "儲存圖層/遮罩(&S)..."
 
 #. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2836
+#: krita/krita.action:2861
 #, kde-format
 msgctxt "action"
 msgid "Save Layer/Mask"
 msgstr "儲存圖層/遮罩"
 
 #. i18n: context: Action (save_vector_node_to_svg), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2846
+#: krita/krita.action:2871
 #, kde-format
 msgctxt "action"
 msgid "Save Vector Layer as SVG..."
 msgstr "將向量圖層儲存為 SVG..."
 
 #. i18n: context: Action (save_vector_node_to_svg), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2848
+#: krita/krita.action:2873
 #, kde-format
 msgctxt "action"
 msgid "Save Vector Layer as SVG"
 msgstr "將向量圖層儲存為 SVG"
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2858
+#: krita/krita.action:2883
 #, kde-format
 msgctxt "action"
 msgid "Save &Group Layers..."
 msgstr "儲存群組圖層(&G)..."
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2860
+#: krita/krita.action:2885
 #, kde-format
 msgctxt "action"
 msgid "Save Group Layers"
 msgstr "儲存群組圖層"
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2870
+#: krita/krita.action:2895
 #, kde-format
 msgctxt "action"
 msgid "Convert group to &animated layer"
 msgstr "轉換群組為動畫的圖層(&A)"
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2872
+#: krita/krita.action:2897
 #, kde-format
 msgctxt "action"
 msgid "Convert child layers into animation frames"
 msgstr "將子圖層轉換成動畫影格"
 
 #. i18n: context: Action (convert_layer_to_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2882
+#: krita/krita.action:2907
 #, kde-format
 msgctxt "action"
 msgid "to &File Layer"
 msgstr "至圖檔圖層(&F)"
 
 #. i18n: context: Action (convert_layer_to_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2884
+#: krita/krita.action:2909
 #, kde-format
 msgctxt "action"
 msgid "Saves out the layers into a new image and then references that image."
 msgstr "將圖層保存到新影像中，然後引用該影像。"
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2894
+#: krita/krita.action:2919
 #, kde-format
 msgctxt "action"
 msgid "I&mport Layer..."
 msgstr "匯入圖層(&M)..."
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2896
+#: krita/krita.action:2921
 #, kde-format
 msgctxt "action"
 msgid "Import Layer"
 msgstr "匯入圖層"
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2906
+#: krita/krita.action:2931
 #, kde-format
 msgctxt "action"
 msgid "&as Paint Layer..."
 msgstr "作為繪圖圖層(&A)..."
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2908
+#: krita/krita.action:2933
 #, kde-format
 msgctxt "action"
 msgid "as Paint Layer"
 msgstr "作為繪圖圖層"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2918
+#: krita/krita.action:2943
 #, kde-format
 msgctxt "action"
 msgid "as &Transparency Mask..."
 msgstr "作為透明遮罩(&T)..."
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2920
+#: krita/krita.action:2945
 #, kde-format
 msgctxt "action"
 msgid "as Transparency Mask"
 msgstr "作為透明遮罩"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2930
+#: krita/krita.action:2955
 #, kde-format
 msgctxt "action"
 msgid "as &Filter Mask..."
 msgstr "作為濾鏡遮罩(&F)..."
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2932
+#: krita/krita.action:2957
 #, kde-format
 msgctxt "action"
 msgid "as Filter Mask"
 msgstr "作為濾鏡遮罩"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2942
+#: krita/krita.action:2967
 #, kde-format
 msgctxt "action"
 msgid "as &Selection Mask..."
 msgstr "作為選取遮罩(&S)..."
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2944
+#: krita/krita.action:2969
 #, kde-format
 msgctxt "action"
 msgid "as Selection Mask"
 msgstr "作為選取遮罩"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2954
+#: krita/krita.action:2979
 #, kde-format
 msgctxt "action"
 msgid "to &Paint Layer"
 msgstr "至繪圖圖層(&P)"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2956
+#: krita/krita.action:2981
 #, kde-format
 msgctxt "action"
 msgid "to Paint Layer"
 msgstr "至繪圖圖層"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2966
+#: krita/krita.action:2991
 #, kde-format
 msgctxt "action"
 msgid "to &Transparency Mask"
 msgstr "至透明遮罩(&T)"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2968
+#: krita/krita.action:2993
 #, kde-format
 msgctxt "action"
 msgid "to Transparency Mask"
 msgstr "至透明遮罩"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2978
+#: krita/krita.action:3003
 #, kde-format
 msgctxt "action"
 msgid "to &Filter Mask..."
 msgstr "至濾鏡遮罩(&F)"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2980
+#: krita/krita.action:3005
 #, kde-format
 msgctxt "action"
 msgid "to Filter Mask"
 msgstr "至濾鏡遮罩"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2990
+#: krita/krita.action:3015
 #, kde-format
 msgctxt "action"
 msgid "to &Selection Mask"
 msgstr "至選取範圍遮罩(&S)"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2992
+#: krita/krita.action:3017
 #, kde-format
 msgctxt "action"
 msgid "to Selection Mask"
 msgstr "至選取範圍遮罩"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3002
+#: krita/krita.action:3027
 #, kde-format
 msgctxt "action"
 msgid "&Alpha into Mask"
 msgstr "透明範圍成為遮罩(&A)"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3004
+#: krita/krita.action:3029
 #, kde-format
 msgctxt "action"
 msgid "Alpha into Mask"
 msgstr "透明範圍成為遮罩"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3014
+#: krita/krita.action:3039
 #, kde-format
 msgctxt "action"
 msgid "&Write as Alpha"
 msgstr "成為圖層透明範圍(&W)"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3016
+#: krita/krita.action:3041
 #, kde-format
 msgctxt "action"
 msgid "Write as Alpha"
 msgstr "成為圖層透明範圍"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3026
+#: krita/krita.action:3051
 #, kde-format
 msgctxt "action"
 msgid "&Save Merged..."
 msgstr "儲存透明背景(&S)"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3028
+#: krita/krita.action:3053
 #, kde-format
 msgctxt "action"
 msgid "Save Merged"
 msgstr "儲存透明背景"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3038
+#: krita/krita.action:3063
 #, kde-format
 msgctxt "action"
 msgid "Split Layer..."
 msgstr "分割圖層..."
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3040
+#: krita/krita.action:3065
 #, kde-format
 msgctxt "action"
 msgid "Split Layer"
 msgstr "分割圖層"
 
 #. i18n: context: Action (waveletdecompose), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3050
+#: krita/krita.action:3075
 #, kde-format
 msgctxt "action"
 msgid "Wavelet Decompose ..."
 msgstr "小波分解..."
 
 #. i18n: context: Action (waveletdecompose), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3052
+#: krita/krita.action:3077
 #, kde-format
 msgctxt "action"
 msgid "Wavelet Decompose"
 msgstr "小波分解"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3062
+#: krita/krita.action:3087
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer Hori&zontally"
 msgstr "水平鏡射圖層(&Z)"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3064
+#: krita/krita.action:3089
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer Horizontally"
 msgstr "水平鏡射圖層"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3074
+#: krita/krita.action:3099
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer &Vertically"
 msgstr "垂直鏡射圖層(&V)"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3076
+#: krita/krita.action:3101
 #, kde-format
 msgctxt "action"
 msgid "Mirror Layer Vertically"
 msgstr "垂直鏡射圖層"
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3086
+#: krita/krita.action:3111
 #, kde-format
 msgctxt "action"
 msgid "&Rotate Layer..."
 msgstr "旋轉圖層(&R)..."
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3088
+#: krita/krita.action:3113
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer"
 msgstr "旋轉圖層"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3098
+#: krita/krita.action:3123
 #, kde-format
 msgctxt "action"
 msgid "Rotate &Layer 90° to the Right"
 msgstr "向右旋轉圖層 90°(&L)"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3100
+#: krita/krita.action:3125
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer 90° to the Right"
 msgstr "向右旋轉圖層 90°"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3110
+#: krita/krita.action:3135
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer &90° to the Left"
 msgstr "向左旋轉圖層 &90°"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3112
+#: krita/krita.action:3137
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer 90° to the Left"
 msgstr "向左旋轉圖層 90°"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3122
+#: krita/krita.action:3147
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer &180°"
 msgstr "旋轉圖層 &180°"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3124
+#: krita/krita.action:3149
 #, kde-format
 msgctxt "action"
 msgid "Rotate Layer 180°"
 msgstr "旋轉圖層 180°"
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3134
+#: krita/krita.action:3159
 #, kde-format
 msgctxt "action"
 msgid "Scale &Layer to new Size..."
 msgstr "圖層縮放至新的尺寸(&L)..."
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3136
+#: krita/krita.action:3161
 #, kde-format
 msgctxt "action"
 msgid "Scale Layer to new Size"
 msgstr "圖層縮放至新的尺寸"
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3146
+#: krita/krita.action:3171
 #, kde-format
 msgctxt "action"
 msgid "&Shear Layer..."
 msgstr "傾斜圖層(&S)..."
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3148
+#: krita/krita.action:3173
 #, kde-format
 msgctxt "action"
 msgid "Shear Layer"
 msgstr "傾斜圖層"
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3158
+#: krita/krita.action:3183
 #, kde-format
 msgctxt "action"
 msgid "&Offset Layer..."
 msgstr "偏移圖層(&O)..."
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3160
+#: krita/krita.action:3185
 #, kde-format
 msgctxt "action"
 msgid "Offset Layer"
 msgstr "偏移圖層"
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3170
+#: krita/krita.action:3195
 #, kde-format
 msgctxt "action"
 msgid "Clones &Array..."
 msgstr "圖層陣列(&A)"
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3172
+#: krita/krita.action:3197
 #, kde-format
 msgctxt "action"
 msgid "Clones Array"
 msgstr "圖層陣列"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3182
+#: krita/krita.action:3207
 #, kde-format
 msgctxt "action"
 msgid "&Edit metadata..."
 msgstr "編輯詮釋資料(&E)..."
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3184
+#: krita/krita.action:3209
 #, kde-format
 msgctxt "action"
 msgid "Edit metadata"
 msgstr "編輯詮釋資料"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3194
+#: krita/krita.action:3219
 #, kde-format
 msgctxt "action"
 msgid "&Histogram..."
 msgstr "直方圖(&H)"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3196
+#: krita/krita.action:3221
 #, kde-format
 msgctxt "action"
 msgid "Histogram"
 msgstr "直方圖"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3206
+#: krita/krita.action:3231
 #, kde-format
 msgctxt "action"
 msgid "&Convert Layer Color Space..."
 msgstr "轉換圖層的色彩空間(&C)..."
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3208
+#: krita/krita.action:3233
 #, kde-format
 msgctxt "action"
 msgid "Convert Layer Color Space"
 msgstr "轉換圖層的色彩空間"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3218
+#: krita/krita.action:3243
 #, kde-format
 msgctxt "action"
 msgid "&Merge with Layer Below"
 msgstr "與下方圖層合併(&M)"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3220
+#: krita/krita.action:3245
 #, kde-format
 msgctxt "action"
 msgid "Merge with Layer Below"
 msgstr "與下方圖層合併"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3230
+#: krita/krita.action:3255
 #, kde-format
 msgctxt "action"
 msgid "&Flatten Layer"
 msgstr "圖層平面化(&F)"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3232
+#: krita/krita.action:3257
 #, kde-format
 msgctxt "action"
 msgid "Flatten Layer"
 msgstr "圖層平面化"
 
 #. i18n: context: Action (rasterize_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3242
+#: krita/krita.action:3267
 #, kde-format
 msgctxt "action"
 msgid "Ras&terize Layer"
 msgstr "柵格化圖層(&T)"
 
 #. i18n: context: Action (rasterize_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3244
+#: krita/krita.action:3269
 #, kde-format
 msgctxt "action"
 msgid "Rasterize Layer"
 msgstr "柵格化圖層"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3254
+#: krita/krita.action:3279
 #, kde-format
 msgctxt "action"
 msgid "Flatten ima&ge"
 msgstr "影像平面化(&G)"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3256
+#: krita/krita.action:3281
 #, kde-format
 msgctxt "action"
 msgid "Flatten image"
 msgstr "影像平面化"
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3266
+#: krita/krita.action:3291
 #, kde-format
 msgctxt "action"
 msgid "La&yer Style..."
 msgstr "圖層樣式(&)..."
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3268
+#: krita/krita.action:3293
 #, kde-format
 msgctxt "action"
 msgid "Layer Style"
@@ -5315,7 +5350,7 @@ msgstr "圖層樣式"
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3278 krita/krita.action:3280
+#: krita/krita.action:3303 krita/krita.action:3305
 #, kde-format
 msgctxt "action"
 msgid "Move into previous group"
@@ -5325,7 +5360,7 @@ msgstr "將圖層移入前一個群組"
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3290 krita/krita.action:3292
+#: krita/krita.action:3315 krita/krita.action:3317
 #, kde-format
 msgctxt "action"
 msgid "Move into next group"
@@ -5335,21 +5370,21 @@ msgstr "將圖層移入下一個群組"
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3302 krita/krita.action:3304
+#: krita/krita.action:3327 krita/krita.action:3329
 #, kde-format
 msgctxt "action"
 msgid "Rename current layer"
 msgstr "重命名目前的圖層"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3314
+#: krita/krita.action:3339
 #, kde-format
 msgctxt "action"
 msgid "&Remove Layer"
 msgstr "移除圖層(&R)"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3316
+#: krita/krita.action:3341
 #, kde-format
 msgctxt "action"
 msgid "Remove Layer"
@@ -5359,7 +5394,7 @@ msgstr "移除圖層"
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3326 krita/krita.action:3328
+#: krita/krita.action:3351 krita/krita.action:3353
 #, kde-format
 msgctxt "action"
 msgid "Move Layer or Mask Up"
@@ -5369,7 +5404,7 @@ msgstr "圖層或遮罩上移"
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3336 krita/krita.action:3338
+#: krita/krita.action:3361 krita/krita.action:3363
 #, kde-format
 msgctxt "action"
 msgid "Move Layer or Mask Down"
@@ -5379,7 +5414,7 @@ msgstr "圖層或遮罩下移"
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3346 krita/kritamenu.action:972
+#: krita/krita.action:3371 krita/kritamenu.action:972
 #, kde-format
 msgctxt "action"
 msgid "&Properties..."
@@ -5389,7 +5424,7 @@ msgstr "影像屬性(&P)"
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3348 krita/kritamenu.action:974
+#: krita/krita.action:3373 krita/kritamenu.action:974
 #, kde-format
 msgctxt "action"
 msgid "Properties"
@@ -22896,12 +22931,19 @@ msgstr[0] ""
 "移動關鍵影格\n"
 "移動 %1 個關鍵影格"
 
-#: plugins/dockers/animation/kis_time_based_item_model.cpp:350
+#: plugins/dockers/animation/kis_time_based_item_model.cpp:351
 #, fuzzy, kde-format
 msgctxt "(qtundo-format)"
 msgid "Remove frame and shift"
 msgid_plural "Remove %1 frames and shift"
 msgstr[0] "移除所選影格"
+
+#: plugins/dockers/animation/kis_time_based_item_model.cpp:379
+#, fuzzy
+#| msgid "Drop Frames"
+msgctxt "(qtundo-format)"
+msgid "Mirror Frames"
+msgstr "掉格"
 
 #: plugins/dockers/animation/onion_skins_docker.cpp:53
 #, kde-format
@@ -22963,99 +23005,99 @@ msgid "Insert frame"
 msgid_plural "Insert %1 frames"
 msgstr[0] "插入關鍵影格"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:220
+#: plugins/dockers/animation/timeline_frames_view.cpp:222
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Audio playback is not supported in this build!"
 msgstr "此版本不支持音訊播放！"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:227
+#: plugins/dockers/animation/timeline_frames_view.cpp:229
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Mute"
 msgstr "靜音"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:232
+#: plugins/dockers/animation/timeline_frames_view.cpp:234
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Remove audio"
 msgstr "移除音訊"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:239
+#: plugins/dockers/animation/timeline_frames_view.cpp:241
 #, kde-format
 msgctxt "@item:inmenu, slider"
 msgid "Volume:"
 msgstr "音量："
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:270
+#: plugins/dockers/animation/timeline_frames_view.cpp:272
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Zoom Timeline. Hold down and drag left or right."
 msgstr "縮放時間軸。按住並向左或右拖動。"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:508
+#: plugins/dockers/animation/timeline_frames_view.cpp:513
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open audio..."
 msgstr "開啟音訊"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:511
+#: plugins/dockers/animation/timeline_frames_view.cpp:516
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Change audio (%1)..."
 msgstr "改變音訊 (%1)..."
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1273
-#: plugins/dockers/animation/timeline_frames_view.cpp:1304
+#: plugins/dockers/animation/timeline_frames_view.cpp:1281
+#: plugins/dockers/animation/timeline_frames_view.cpp:1312
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Insert left"
 msgstr "在左側插入 %1"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1274
-#: plugins/dockers/animation/timeline_frames_view.cpp:1290
-#: plugins/dockers/animation/timeline_frames_view.cpp:1418
+#: plugins/dockers/animation/timeline_frames_view.cpp:1282
+#: plugins/dockers/animation/timeline_frames_view.cpp:1298
 #: plugins/dockers/animation/timeline_frames_view.cpp:1433
+#: plugins/dockers/animation/timeline_frames_view.cpp:1448
 #, fuzzy, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr "輸入新的樣式名稱"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1289
-#: plugins/dockers/animation/timeline_frames_view.cpp:1320
+#: plugins/dockers/animation/timeline_frames_view.cpp:1297
+#: plugins/dockers/animation/timeline_frames_view.cpp:1328
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Insert right"
 msgstr "在右側插入 %1"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1305
-#: plugins/dockers/animation/timeline_frames_view.cpp:1321
-#: plugins/dockers/animation/timeline_frames_view.cpp:1458
+#: plugins/dockers/animation/timeline_frames_view.cpp:1313
+#: plugins/dockers/animation/timeline_frames_view.cpp:1329
 #: plugins/dockers/animation/timeline_frames_view.cpp:1473
+#: plugins/dockers/animation/timeline_frames_view.cpp:1488
 #, fuzzy, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of columns"
 msgstr "欄數："
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1417
+#: plugins/dockers/animation/timeline_frames_view.cpp:1432
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Insert hold frames"
 msgstr "插入關鍵影格"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1432
+#: plugins/dockers/animation/timeline_frames_view.cpp:1447
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Remove hold frames"
 msgstr "移除所選影格"
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1457
+#: plugins/dockers/animation/timeline_frames_view.cpp:1472
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Insert hold columns"
 msgstr "欄數："
 
-#: plugins/dockers/animation/timeline_frames_view.cpp:1472
+#: plugins/dockers/animation/timeline_frames_view.cpp:1487
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Remove hold columns"
@@ -37897,6 +37939,11 @@ msgstr "顯示裝飾"
 #, kde-format
 msgid "Work Recursively"
 msgstr "遞回操作"
+
+#, fuzzy
+#~ msgctxt "action"
+#~ msgid "Remove Frame"
+#~ msgstr "移除影格"
 
 #, fuzzy
 #~ msgctxt "action"

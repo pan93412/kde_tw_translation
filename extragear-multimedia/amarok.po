@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-05 03:27+0200\n"
+"POT-Creation-Date: 2018-04-13 03:24+0200\n"
 "PO-Revision-Date: 2018-03-29 13:28+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -299,7 +299,7 @@ msgstr "造訪貢獻者的 StackOverflow 檔案"
 #. i18n: ectx: property (text), widget (QTreeWidget, responseDetails)
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#: aboutdialog/OcsPersonItem.ui:137 amarokurls/BookmarkModel.cpp:261
+#: aboutdialog/OcsPersonItem.ui:137 amarokurls/BookmarkModel.cpp:258
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:397
 #: network/NetworkRequests.ui:89 network/NetworkRequests.ui:103
 #: playlistgenerator/TreeModel.cpp:64
@@ -1596,7 +1596,7 @@ msgctxt "The command type of this url is not known"
 msgid "Unknown"
 msgstr "未知"
 
-#: amarokurls/BookmarkCurrentButton.cpp:32 amarokurls/BookmarkModel.cpp:545
+#: amarokurls/BookmarkCurrentButton.cpp:32 amarokurls/BookmarkModel.cpp:536
 #, kde-format
 msgid "New Bookmark"
 msgstr "新增書籤"
@@ -1642,31 +1642,31 @@ msgstr "新增定位標記"
 msgid "Group"
 msgstr "群組"
 
-#: amarokurls/BookmarkModel.cpp:262
+#: amarokurls/BookmarkModel.cpp:259
 #: browsers/playlistbrowser/PodcastModel.cpp:300 playlist/PlaylistModel.cpp:935
 #, kde-format
 msgid "Type"
 msgstr "類型"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: amarokurls/BookmarkModel.cpp:263 network/NetworkRequests.ui:46
+#: amarokurls/BookmarkModel.cpp:260 network/NetworkRequests.ui:46
 #, kde-format
 msgid "URL"
 msgstr "網址"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: amarokurls/BookmarkModel.cpp:264
+#: amarokurls/BookmarkModel.cpp:261
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:63
 #, kde-format
 msgid "Description"
 msgstr "描述"
 
-#: amarokurls/BookmarkModel.cpp:520
+#: amarokurls/BookmarkModel.cpp:511
 #, kde-format
 msgid "New Group"
 msgstr "新群組"
 
-#: amarokurls/BookmarkModel.cpp:546
+#: amarokurls/BookmarkModel.cpp:537
 #: context/applets/similarartists/ArtistWidget.cpp:443
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:162
 #: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:163
@@ -1678,29 +1678,29 @@ msgstr "新群組"
 msgid "none"
 msgstr "無"
 
-#: amarokurls/BookmarkTreeView.cpp:111
+#: amarokurls/BookmarkTreeView.cpp:109
 #, kde-format
 msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "載入(&L)"
 
-#: amarokurls/BookmarkTreeView.cpp:117 browsers/filebrowser/FileView.cpp:412
+#: amarokurls/BookmarkTreeView.cpp:115 browsers/filebrowser/FileView.cpp:412
 #, kde-format
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: amarokurls/BookmarkTreeView.cpp:124
+#: amarokurls/BookmarkTreeView.cpp:122
 #, kde-format
 msgid "&Create timecode track"
 msgstr "建立時間碼軌道(&C)"
 
-#: amarokurls/BookmarkTreeView.cpp:372
+#: amarokurls/BookmarkTreeView.cpp:367
 #, kde-format
 msgid "New Timecode Track"
 msgstr "新增時間碼軌道"
 
-#: amarokurls/BookmarkTreeView.cpp:373 amarokurls/BookmarkTreeView.cpp:374
-#: amarokurls/BookmarkTreeView.cpp:375
+#: amarokurls/BookmarkTreeView.cpp:368 amarokurls/BookmarkTreeView.cpp:369
+#: amarokurls/BookmarkTreeView.cpp:370
 #: context/applets/albums/plugin/AlbumItem.cpp:99
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:486
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:487
@@ -2026,15 +2026,15 @@ msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "%1 首曲目"
 
-#: browsers/CollectionTreeItemModelBase.cpp:230
-#: browsers/CollectionTreeItemModelBase.cpp:291
+#: browsers/CollectionTreeItemModelBase.cpp:261
+#: browsers/CollectionTreeItemModelBase.cpp:354
 #, kde-format
 msgctxt "The Name is not known"
 msgid "Unknown"
 msgstr "未知"
 
-#: browsers/CollectionTreeItemModelBase.cpp:316
-#: core-impl/collections/db/sql/SqlMeta.cpp:411
+#: browsers/CollectionTreeItemModelBase.cpp:379
+#: core-impl/collections/db/sql/SqlMeta.cpp:409
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:98
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:154
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:702
@@ -2045,7 +2045,7 @@ msgstr "未知"
 msgid "Various Artists"
 msgstr "各個演出者"
 
-#: browsers/CollectionTreeItemModelBase.cpp:989
+#: browsers/CollectionTreeItemModelBase.cpp:1089
 #: browsers/CollectionTreeView.cpp:342
 #: context/applets/albums/plugin/AlbumsEngine.cpp:271
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:635
@@ -2057,48 +2057,48 @@ msgstr "各個演出者"
 msgid "Album"
 msgstr "專輯"
 
-#: browsers/CollectionTreeItemModelBase.cpp:989
+#: browsers/CollectionTreeItemModelBase.cpp:1089
 #, kde-format
 msgid "Year - Album"
 msgstr "年份 - 專輯"
 
-#: browsers/CollectionTreeItemModelBase.cpp:991
+#: browsers/CollectionTreeItemModelBase.cpp:1091
 #, kde-format
 msgid "Track Artist"
 msgstr "曲目演出者"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
-#: browsers/CollectionTreeItemModelBase.cpp:993 dialogs/TagGuessOptions.ui:253
+#: browsers/CollectionTreeItemModelBase.cpp:1093 dialogs/TagGuessOptions.ui:253
 #: musicbrainz/MusicBrainzTagsModel.cpp:39 playlist/PlaylistModel.cpp:925
 #, kde-format
 msgid "Album Artist"
 msgstr "專輯的演出者"
 
-#: browsers/CollectionTreeItemModelBase.cpp:995
+#: browsers/CollectionTreeItemModelBase.cpp:1095
 #: context/applets/wikipedia/plugin/WikipediaApplet.cpp:629
 #: playlist/PlaylistModel.cpp:926
 #, kde-format
 msgid "Composer"
 msgstr "作曲家"
 
-#: browsers/CollectionTreeItemModelBase.cpp:997 dialogs/transferdialog.cpp:105
+#: browsers/CollectionTreeItemModelBase.cpp:1097 dialogs/transferdialog.cpp:105
 #: playlist/PlaylistModel.cpp:932 playlist/ProgressiveSearchWidget.cpp:94
 #, kde-format
 msgid "Genre"
 msgstr "風格"
 
-#: browsers/CollectionTreeItemModelBase.cpp:999
+#: browsers/CollectionTreeItemModelBase.cpp:1099
 #: musicbrainz/MusicBrainzTagsModel.cpp:40 playlist/PlaylistModel.cpp:927
 #, kde-format
 msgid "Year"
 msgstr "年份"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1001
+#: browsers/CollectionTreeItemModelBase.cpp:1101
 #, kde-format
 msgid "Label"
 msgstr "標記"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1003 dialogs/transferdialog.cpp:102
+#: browsers/CollectionTreeItemModelBase.cpp:1103 dialogs/transferdialog.cpp:102
 #: playlist/navigators/NavigatorConfigAction.cpp:80
 #, kde-format
 msgid "None"
@@ -2731,7 +2731,7 @@ msgstr[0] "%1 個頻道"
 msgid "Title"
 msgstr "標題"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:302 dialogs/TagDialog.cpp:506
+#: browsers/playlistbrowser/PodcastModel.cpp:302 dialogs/TagDialog.cpp:509
 #, kde-format
 msgid "Summary"
 msgstr "概要"
@@ -3762,7 +3762,7 @@ msgstr "文稿 %1 已成功安裝"
 msgid "Generic"
 msgstr "一般"
 
-#: configdialog/dialogs/ScriptsConfig.cpp:211 dialogs/TagDialog.cpp:508
+#: configdialog/dialogs/ScriptsConfig.cpp:211 dialogs/TagDialog.cpp:511
 #, kde-format
 msgid "Lyrics"
 msgstr "歌詞"
@@ -3917,7 +3917,7 @@ msgstr "新增到黑名單"
 
 #. i18n: ectx: property (text), widget (QToolButton, matchedLabelsButton)
 #: context/applets/labels/LabelsApplet.cpp:94
-#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:509
+#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:512
 #: statsyncing/ui/MatchedTracksPage.ui:87
 #, kde-format
 msgid "Labels"
@@ -4829,16 +4829,6 @@ msgstr "跳到"
 #, kde-format
 msgid "dates"
 msgstr "日期"
-
-#: context/LyricsManager.cpp:135
-#, kde-format
-msgid "Retrieved lyrics is empty"
-msgstr "已取得歌詞是空的"
-
-#: context/LyricsManager.cpp:176
-#, kde-format
-msgid "Lyrics data could not be parsed"
-msgstr "無法剖析歌詞資料。"
 
 #: context/tools/amarokpkg.cpp:84 context/tools/amarokpkg.cpp:97
 #, kde-format
@@ -7618,32 +7608,32 @@ msgctxt "Displayed next to the \"Transcode:\" label. %1 example: 'MP3'"
 msgid "When Needed to %1"
 msgstr "需要 %1 時"
 
-#: covermanager/CoverFetcher.cpp:175 covermanager/CoverFetcher.cpp:338
+#: covermanager/CoverFetcher.cpp:178 covermanager/CoverFetcher.cpp:341
 #, kde-format
 msgid "Fetching Cover"
 msgstr "正在取得封面"
 
-#: covermanager/CoverFetcher.cpp:199
+#: covermanager/CoverFetcher.cpp:202
 #, kde-format
 msgid "There was an error communicating with cover provider: %1"
 msgstr "與封面提供者聯繫時發生錯誤：%1"
 
-#: covermanager/CoverFetcher.cpp:409
+#: covermanager/CoverFetcher.cpp:412
 #, kde-format
 msgid "Retrieved cover successfully for '%1'."
 msgstr "已成功從 %1 取得封面。"
 
-#: covermanager/CoverFetcher.cpp:420
+#: covermanager/CoverFetcher.cpp:425
 #, kde-format
 msgid "Fetching cover for '%1' failed."
 msgstr "取得 %1 的封面失敗。"
 
-#: covermanager/CoverFetcher.cpp:433
+#: covermanager/CoverFetcher.cpp:438
 #, kde-format
 msgid "Canceled fetching cover for '%1'."
 msgstr "已取消抓取 %1 的封面。"
 
-#: covermanager/CoverFetcher.cpp:442
+#: covermanager/CoverFetcher.cpp:447
 #, kde-format
 msgid "Unable to find a cover for '%1'."
 msgstr "找不到 %1 的封面。"
@@ -8655,7 +8645,7 @@ msgid "Expand All"
 msgstr "全部展開"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1392
+#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1383
 #, kde-format
 msgid "MusicBrainz Tagger"
 msgstr "MusicBrainz 標籤器"
@@ -9049,57 +9039,57 @@ msgstr "正規表示式"
 msgid "Character string"
 msgstr "字串"
 
-#: dialogs/TagDialog.cpp:507
+#: dialogs/TagDialog.cpp:510
 #, kde-format
 msgid "Tags"
 msgstr "標籤"
 
-#: dialogs/TagDialog.cpp:663 dialogs/TagDialog.cpp:671
+#: dialogs/TagDialog.cpp:667 dialogs/TagDialog.cpp:675
 #, kde-format
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "未知"
 
-#: dialogs/TagDialog.cpp:708
+#: dialogs/TagDialog.cpp:711
 #, kde-format
 msgid "Track Details: %1 by %2"
 msgstr "曲目資訊：%1 由 %2"
 
-#: dialogs/TagDialog.cpp:714
+#: dialogs/TagDialog.cpp:717
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
 msgid_plural "Information for %1 Tracks"
 msgstr[0] "%1 首曲目的資訊"
 
-#: dialogs/TagDialog.cpp:743 dialogs/TagDialog.cpp:753
+#: dialogs/TagDialog.cpp:746 dialogs/TagDialog.cpp:756
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> 由 <b>%2</b>"
 
-#: dialogs/TagDialog.cpp:745 dialogs/TagDialog.cpp:755
+#: dialogs/TagDialog.cpp:748 dialogs/TagDialog.cpp:758
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: dialogs/TagDialog.cpp:751
+#: dialogs/TagDialog.cpp:754
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> 由 <b>%2</b> 於 <b>%3</b>"
 
-#: dialogs/TagDialog.cpp:761
+#: dialogs/TagDialog.cpp:764
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "正在編輯 %1 個檔案"
 
-#: dialogs/TagDialog.cpp:799
+#: dialogs/TagDialog.cpp:802
 #, kde-format
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "沒有"
 
-#: dialogs/TagDialog.cpp:965
+#: dialogs/TagDialog.cpp:968
 #, kde-format
 msgid "The track is not playable. %1"
 msgstr "此曲目無法播放。%1"
@@ -10248,6 +10238,16 @@ msgstr "目標名稱"
 #, kde-format
 msgid "Now playing"
 msgstr "現正播放"
+
+#: lyrics/LyricsManager.cpp:74
+#, kde-format
+msgid "Retrieved lyrics is empty"
+msgstr "已取得歌詞是空的"
+
+#: lyrics/LyricsManager.cpp:110
+#, kde-format
+msgid "Lyrics data could not be parsed"
+msgstr "無法剖析歌詞資料。"
 
 #: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:694
 #, kde-format
@@ -13810,17 +13810,17 @@ msgctxt "do not translate 'DataDownloader' or 'qt.core'"
 msgid "qt.core must be loaded to use DataDownloader"
 msgstr "必須載入 qt.core 才能使用 DataDownloader"
 
-#: scripting/scriptmanager/ScriptItem.cpp:93
+#: scripting/scriptmanager/ScriptItem.cpp:92
 #, kde-format
 msgid "Terminate"
 msgstr "結束"
 
-#: scripting/scriptmanager/ScriptItem.cpp:181
+#: scripting/scriptmanager/ScriptItem.cpp:180
 #, kde-format
 msgid "Script %1 has been evaluating for over 5 seconds now, terminate?"
 msgstr "文稿 %1 已經執行超過五秒了。要結束它嗎？"
 
-#: scripting/scriptmanager/ScriptItem.cpp:327
+#: scripting/scriptmanager/ScriptItem.cpp:322
 #, kde-format
 msgctxt ""
 "%1 is the name of the offending script, %2 the name of the script author, "
@@ -15261,7 +15261,7 @@ msgstr "正在下載 Mangnatune.com 資料庫..."
 msgid "Updating the local Magnatune database."
 msgstr "正在更新本地端的 Magnatune 資料庫。"
 
-#: services/magnatune/MagnatuneStore.cpp:622
+#: services/magnatune/MagnatuneStore.cpp:621
 #, c-format
 msgid ""
 "The Magnatune.com service accepts the following messages: \n"
@@ -15276,27 +15276,27 @@ msgstr ""
 "單。選定的曲目必須符合「心情」引數所指定的心情。若「心情」引數中含有空格，則"
 "必須以 %%20 取代。"
 
-#: services/magnatune/MagnatuneStore.cpp:633
+#: services/magnatune/MagnatuneStore.cpp:632
 #, kde-format
 msgid "ERROR: No arguments supplied"
 msgstr "錯誤：沒有提供引數"
 
-#: services/magnatune/MagnatuneStore.cpp:638
+#: services/magnatune/MagnatuneStore.cpp:637
 #, kde-format
 msgid "ERROR: Wrong number of arguments for addMoodyTracks"
 msgstr "錯誤：addMoodyTracks 引數的數目不正確"
 
-#: services/magnatune/MagnatuneStore.cpp:648
+#: services/magnatune/MagnatuneStore.cpp:647
 #, kde-format
 msgid "ERROR: Parse error for argument 2 ( count )"
 msgstr "錯誤：引數 2 (計數) 剖析錯誤"
 
-#: services/magnatune/MagnatuneStore.cpp:652
+#: services/magnatune/MagnatuneStore.cpp:651
 #, kde-format
 msgid "ok"
 msgstr "確定"
 
-#: services/magnatune/MagnatuneStore.cpp:655
+#: services/magnatune/MagnatuneStore.cpp:654
 #, kde-format
 msgid "ERROR: Unknown argument."
 msgstr "錯誤：未知的引數。"
