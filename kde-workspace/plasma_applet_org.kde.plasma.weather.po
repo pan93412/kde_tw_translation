@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma_applet_weather\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-04-12 03:37+0200\n"
-"PO-Revision-Date: 2018-03-25 13:47+0800\n"
+"PO-Revision-Date: 2018-04-14 12:28+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -279,12 +279,12 @@ msgstr "高：%1"
 #: plugin/locationlistmodel.cpp:55 plugin/locationlistmodel.cpp:83
 #, kde-format
 msgid "Cannot find '%1' using %2."
-msgstr ""
+msgstr "無法搜尋到「%1」，改使用「%2」。"
 
 #: plugin/locationlistmodel.cpp:80
 #, kde-format
 msgid "Connection to %1 weather server timed out."
-msgstr ""
+msgstr "連結至 %1 天氣伺服器時超出等待時間。"
 
 #: plugin/plugin.cpp:36
 #, kde-format
@@ -473,7 +473,7 @@ msgstr "風速：%1 %2"
 #: weatherapplet.cpp:629
 #, kde-format
 msgid "Weather information retrieval for %1 timed out."
-msgstr ""
+msgstr "查詢 %1 的天氣資訊時超過等待時間。"
 
 #~ msgctxt "Not available"
 #~ msgid "N/A"

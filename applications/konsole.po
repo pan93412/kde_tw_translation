@@ -9,19 +9,20 @@
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2012, 2013, 2014, 2015, 2017.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-04-13 03:21+0200\n"
-"PO-Revision-Date: 2018-03-29 13:21+0800\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2018-04-14 12:07+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -639,8 +640,7 @@ msgstr "此顏色機制中含有透明背景，您的桌面似乎不支援。"
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
-msgstr ""
-"Konsole 在桌面效果開啟前就已經開啟。您需要重新啟動 Konsole 才能看到透明背景。"
+msgstr "Konsole 在桌面效果開啟前就已經開啟。您需要重新啟動 Konsole 才能看到透明背景。"
 
 #: EditProfileDialog.cpp:1215 EditProfileDialog.cpp:1227
 #, kde-format
@@ -1081,7 +1081,7 @@ msgstr "熱鍵組合"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: EditProfileDialog.ui:829
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Key bindings control how combinations of keystrokes in the terminal "
 #| "window are converted into the stream of characters which are sent to the "
@@ -1091,7 +1091,9 @@ msgid ""
 "are converted into the stream of characters that is then sent to the current "
 "terminal program. For more information on how to customize the key bindings "
 "check the Konsole Handbook."
-msgstr "組合鍵控制哪些鍵一起按會送特殊的字元串到終端機視窗中。"
+msgstr ""
+"組合鍵控制哪些鍵一起按會送特殊的字元串到終端機視窗中。"
+"關於如何自訂組合鍵的更多資訊，請參閱 Konsole 手冊。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
 #: EditProfileDialog.ui:849
@@ -1268,25 +1270,25 @@ msgstr "選取的文字要用 ctrl 鍵加上點擊來拖曳。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ctrlRequiredForDragButton)
 #: EditProfileDialog.ui:1073
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Require Ctrl key for drag and drop"
 msgid "Require Ctrl key for drag && drop"
 msgstr "需要 Ctrl 鍵來拖放"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dropUrlsAsText)
 #: EditProfileDialog.ui:1080
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Always paste dropped URLs as text without offering move, copy and link "
 #| "actions."
 msgid ""
 "Always paste dropped files and URLs as text without offering move, copy and "
 "link actions."
-msgstr "貼網址時只貼文字，不加上移動、複製與連結等動作。"
+msgstr "貼網址與檔案時只貼文字，不加上移動、複製與連結等動作。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dropUrlsAsText)
 #: EditProfileDialog.ui:1083
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Disable drag and drop menu for URLs and files"
 msgid "Disable drag && drop menu for files && URLs"
 msgstr "關閉網址與檔案的拖放選單"
@@ -1297,13 +1299,13 @@ msgstr "關閉網址與檔案的拖放選單"
 msgid ""
 "Mouse scroll wheel will emulate up/down key presses in programs that use the "
 "Alternate Screen buffer (e.g. less)"
-msgstr ""
+msgstr "滑鼠滾輪將模擬使用次要螢幕緩衝區（例如 less）的程式中上下按鍵"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableAlternateScrollingButton)
 #: EditProfileDialog.ui:1093
 #, kde-format
 msgid "Enable Alternate Screen buffer scrolling"
-msgstr ""
+msgstr "啟用次要螢幕緩衝區的滾動"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, openLinksByDirectClickButton)
 #: EditProfileDialog.ui:1127
@@ -1315,10 +1317,10 @@ msgstr "被認為是檔案、連結或電子郵件地址的文字，在滑鼠點
 
 #. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
 #: EditProfileDialog.ui:1130
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open files and links by direct click"
 msgid "Open by direct click"
-msgstr "點擊時直接開啟檔案或連結"
+msgstr "點擊時直接開啟"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, underlineLinksButton)
 #: EditProfileDialog.ui:1139

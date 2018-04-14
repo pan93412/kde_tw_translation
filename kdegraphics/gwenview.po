@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-04-10 03:34+0200\n"
-"PO-Revision-Date: 2018-03-25 20:19+0800\n"
+"PO-Revision-Date: 2018-04-14 12:37+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -707,28 +707,28 @@ msgstr "影像操作"
 #: app/imageviewconfigpage.ui:17
 #, kde-format
 msgid "Show transparency with:"
-msgstr ""
+msgstr "顯示透明度由："
 
 #. i18n: ectx: property (text), widget (QRadioButton, surroundingRadioButton)
 #: app/imageviewconfigpage.ui:38
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Transparent background:"
 msgid "Surrounding background"
-msgstr "透明背景："
+msgstr "周遭背景："
 
 #. i18n: ectx: property (text), widget (QRadioButton, checkBoardRadioButton)
 #: app/imageviewconfigpage.ui:71
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Check board"
 msgid "&Checkerboard background"
-msgstr "檢查盤面(&C)"
+msgstr "棋盤背景(&C)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, solidColorRadioButton)
 #: app/imageviewconfigpage.ui:104
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Solid color:"
 msgid "&Solid color background:"
-msgstr "立體顏色(&S)"
+msgstr "立體顏色背景(&S)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: app/imageviewconfigpage.ui:152
@@ -1843,8 +1843,7 @@ msgctxt "@info"
 msgid ""
 "Could not open file for writing, check that you have the necessary rights in "
 "<filename>%1</filename>."
-msgstr ""
-"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+msgstr "無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
 
 #: lib/document/savejob.cpp:132
 #, kde-kuit-format
