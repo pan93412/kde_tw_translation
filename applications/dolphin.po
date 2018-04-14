@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-12 03:21+0200\n"
+"POT-Creation-Date: 2018-04-14 03:16+0200\n"
 "PO-Revision-Date: 2018-04-06 16:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: English <zh-l10n@linux.org.tw>\n"
@@ -195,235 +195,223 @@ msgstr "搜尋"
 msgid "Search for %1"
 msgstr "搜尋 %1"
 
-#: dolphinmainwindow.cpp:1073
+#: dolphinmainwindow.cpp:1072
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "新視窗(&W)"
 
-#: dolphinmainwindow.cpp:1079
+#: dolphinmainwindow.cpp:1076
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "新增分頁"
 
-#: dolphinmainwindow.cpp:1085
+#: dolphinmainwindow.cpp:1082
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "關閉分頁"
 
-#: dolphinmainwindow.cpp:1104
+#: dolphinmainwindow.cpp:1099
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "貼上"
 
-#: dolphinmainwindow.cpp:1109
-#, kde-format
-msgctxt "@action:inmenu Edit"
-msgid "Select All"
-msgstr "全選"
-
-#: dolphinmainwindow.cpp:1115 dolphinpart.cpp:190
+#: dolphinmainwindow.cpp:1106 dolphinpart.cpp:190
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "反向選擇"
 
-#: dolphinmainwindow.cpp:1129
+#: dolphinmainwindow.cpp:1120
 #, kde-format
 msgctxt "@action:intoolbar Stash"
 msgid "Stash"
 msgstr "暫存"
 
-#: dolphinmainwindow.cpp:1130
+#: dolphinmainwindow.cpp:1121
 #, kde-format
 msgctxt "@info"
 msgid "Opens the stash virtual directory in a split window"
 msgstr "在分割視窗中開啟暫存的虛擬目錄"
 
-#: dolphinmainwindow.cpp:1137
-#, kde-format
-msgctxt "@action:inmenu View"
-msgid "Reload"
-msgstr "重新載入"
-
-#: dolphinmainwindow.cpp:1143
+#: dolphinmainwindow.cpp:1130
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "停止"
 
-#: dolphinmainwindow.cpp:1144
+#: dolphinmainwindow.cpp:1131
 #, kde-format
 msgctxt "@info"
 msgid "Stop loading"
 msgstr "停止載入"
 
-#: dolphinmainwindow.cpp:1149
+#: dolphinmainwindow.cpp:1136
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "可編輯位置"
 
-#: dolphinmainwindow.cpp:1154
+#: dolphinmainwindow.cpp:1141
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "取代位置"
 
-#: dolphinmainwindow.cpp:1174
+#: dolphinmainwindow.cpp:1161
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Undo close tab"
 msgstr "復原關閉分頁"
 
-#: dolphinmainwindow.cpp:1189
+#: dolphinmainwindow.cpp:1176
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "顯示過濾器列"
 
-#: dolphinmainwindow.cpp:1195
+#: dolphinmainwindow.cpp:1182
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "比較檔案"
 
-#: dolphinmainwindow.cpp:1203
+#: dolphinmainwindow.cpp:1190
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "開啟終端機"
 
-#: dolphinmainwindow.cpp:1224
+#: dolphinmainwindow.cpp:1211
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next Tab"
 msgstr "下一分頁"
 
-#: dolphinmainwindow.cpp:1225
+#: dolphinmainwindow.cpp:1212
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "跳到下一個分頁"
 
-#: dolphinmainwindow.cpp:1231
+#: dolphinmainwindow.cpp:1218
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous Tab"
 msgstr "前一分頁"
 
-#: dolphinmainwindow.cpp:1232
+#: dolphinmainwindow.cpp:1219
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "跳到前一個分頁"
 
-#: dolphinmainwindow.cpp:1239
+#: dolphinmainwindow.cpp:1226
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Target"
 msgstr "顯示目標"
 
-#: dolphinmainwindow.cpp:1245
+#: dolphinmainwindow.cpp:1232
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "在新分頁開啟"
 
-#: dolphinmainwindow.cpp:1250
+#: dolphinmainwindow.cpp:1237
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tabs"
 msgstr "在新分頁開啟"
 
-#: dolphinmainwindow.cpp:1255
+#: dolphinmainwindow.cpp:1242
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "在新視窗開啟"
 
-#: dolphinmainwindow.cpp:1265
+#: dolphinmainwindow.cpp:1252
 #, kde-format
 msgctxt "@action:inmenu Panels"
 msgid "Unlock Panels"
 msgstr "解除鎖定面板"
 
-#: dolphinmainwindow.cpp:1267
+#: dolphinmainwindow.cpp:1254
 #, kde-format
 msgctxt "@action:inmenu Panels"
 msgid "Lock Panels"
 msgstr "鎖定面板"
 
-#: dolphinmainwindow.cpp:1273
+#: dolphinmainwindow.cpp:1260
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr "資訊"
 
-#: dolphinmainwindow.cpp:1294
+#: dolphinmainwindow.cpp:1281
 #, kde-format
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "資料夾"
 
-#: dolphinmainwindow.cpp:1318
+#: dolphinmainwindow.cpp:1305
 #, kde-format
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "終端機"
 
-#: dolphinmainwindow.cpp:1351
+#: dolphinmainwindow.cpp:1338
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "書籤"
 
-#: dolphinmainwindow.cpp:1383
+#: dolphinmainwindow.cpp:1370
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Panels"
 msgstr "面板"
 
-#: dolphinmainwindow.cpp:1453
+#: dolphinmainwindow.cpp:1440
 #, kde-format
 msgctxt "@action"
 msgid "Control"
 msgstr "控制"
 
-#: dolphinmainwindow.cpp:1569
+#: dolphinmainwindow.cpp:1556
 #, kde-format
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "關閉"
 
-#: dolphinmainwindow.cpp:1570
+#: dolphinmainwindow.cpp:1557
 #, kde-format
 msgctxt "@info"
 msgid "Close left view"
 msgstr "關閉左方檢視"
 
-#: dolphinmainwindow.cpp:1573
+#: dolphinmainwindow.cpp:1560
 #, kde-format
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "關閉"
 
-#: dolphinmainwindow.cpp:1574
+#: dolphinmainwindow.cpp:1561
 #, kde-format
 msgctxt "@info"
 msgid "Close right view"
 msgstr "關閉右方檢視"
 
-#: dolphinmainwindow.cpp:1578
+#: dolphinmainwindow.cpp:1565
 #, kde-format
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "分割"
 
-#: dolphinmainwindow.cpp:1579
+#: dolphinmainwindow.cpp:1566
 #, kde-format
 msgctxt "@info"
 msgid "Split view"
@@ -489,36 +477,36 @@ msgctxt "@action:inmenu Tools"
 msgid "Find File..."
 msgstr "尋找檔案..."
 
-#: dolphinpart.cpp:229
+#: dolphinpart.cpp:226
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open &Terminal"
 msgstr "開啟終端機(&T)"
 
-#: dolphinpart.cpp:299
+#: dolphinpart.cpp:296
 #, kde-format
 msgctxt "@title"
 msgid "Dolphin Part"
 msgstr "Dolphin 部件"
 
-#: dolphinpart.cpp:493
+#: dolphinpart.cpp:490
 #, kde-format
 msgctxt "@title:window"
 msgid "Select"
 msgstr "選取"
 
-#: dolphinpart.cpp:494
+#: dolphinpart.cpp:491
 #, kde-format
 msgid "Select all items matching this pattern:"
 msgstr "選取符合此樣式的所有項目："
 
-#: dolphinpart.cpp:500
+#: dolphinpart.cpp:497
 #, kde-format
 msgctxt "@title:window"
 msgid "Unselect"
 msgstr "取消選取"
 
-#: dolphinpart.cpp:501
+#: dolphinpart.cpp:498
 #, kde-format
 msgid "Unselect all items matching this pattern:"
 msgstr "取消選取符合此樣式的所有項目："
@@ -3224,6 +3212,14 @@ msgstr "# 會取代為遞增的數字，由此數字開始："
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "更新版本資訊中..."
+
+#~ msgctxt "@action:inmenu Edit"
+#~ msgid "Select All"
+#~ msgstr "全選"
+
+#~ msgctxt "@action:inmenu View"
+#~ msgid "Reload"
+#~ msgstr "重新載入"
 
 #~ msgctxt "@label"
 #~ msgid "Image Size"

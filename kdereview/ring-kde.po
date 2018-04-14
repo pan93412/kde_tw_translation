@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ring-kde\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-13 03:33+0200\n"
+"POT-Creation-Date: 2018-04-14 03:28+0200\n"
 "PO-Revision-Date: 2017-08-01 22:01+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -131,7 +131,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_2)
 #: src/accountview/qml/accountlist.qml:223 src/configurator/recording.ui:65
-#: src/timeline/qml/phonenumbers.qml:155
+#: src/timeline/qml/phonenumbers.qml:157
 #, fuzzy, kde-format
 #| msgid "Delete call"
 msgid "Delete"
@@ -2434,6 +2434,14 @@ msgstr ""
 msgid "Write a message and press enter..."
 msgstr ""
 
+#: src/timeline/qml/chatview.qml:66
+#, kde-format
+msgid ""
+"There is nothing yet, enter a message below or place a call using the "
+"buttons\n"
+"found in the header"
+msgstr ""
+
 #: src/timeline/qml/contactheader.qml:117
 #, kde-format
 msgid ""
@@ -2442,6 +2450,7 @@ msgid ""
 msgstr ""
 
 #: src/timeline/qml/contactinfo.qml:88
+#: src/timeline/qml/peerstimelinecategories.qml:25
 #, kde-format
 msgid "Never"
 msgstr ""
@@ -2485,7 +2494,7 @@ msgstr "開啟影像"
 msgid "Contact details"
 msgstr "可見的聯絡人詳細資訊"
 
-#: src/timeline/qml/mediabuttons.qml:73 src/timeline/qml/phonenumbers.qml:169
+#: src/timeline/qml/mediabuttons.qml:73 src/timeline/qml/phonenumbers.qml:171
 #, kde-format
 msgid "Call"
 msgstr "通話"
@@ -2500,7 +2509,7 @@ msgstr ""
 msgid "Chat"
 msgstr ""
 
-#: src/timeline/qml/peerstimeline.qml:123
+#: src/timeline/qml/peerstimeline.qml:108
 #, kde-format
 msgid ""
 "To begin using Ring-KDE, enter an username in the box above and press enter "
@@ -2523,71 +2532,71 @@ msgstr "已取消"
 msgid "Add a phone number or GNU Ring identity"
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:162
+#: src/timeline/qml/phonenumbers.qml:164
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:175
+#: src/timeline/qml/phonenumbers.qml:177
 #, fuzzy, kde-format
 #| msgid "Video"
 msgid "Video call"
 msgstr "影片"
 
-#: src/timeline/qml/phonenumbers.qml:181
+#: src/timeline/qml/phonenumbers.qml:183
 #, fuzzy, kde-format
 #| msgid "Fullscreen"
 msgid "Share screen"
 msgstr "全螢幕"
 
-#: src/timeline/qml/phonenumbers.qml:233
+#: src/timeline/qml/phonenumbers.qml:238
 #, kde-format
 msgid "Never used"
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:234
+#: src/timeline/qml/phonenumbers.qml:239
 #, kde-format
 msgid "Used "
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:234
+#: src/timeline/qml/phonenumbers.qml:239
 #, kde-format
 msgid " time (Last used on: "
 msgstr ""
 
-#: src/timeline/qml/searchbox.qml:109
+#: src/timeline/qml/searchbox.qml:116
 #, kde-format
 msgid "Find someone"
 msgstr ""
 
-#: src/timeline/qml/searchoverlay.qml:110
+#: src/timeline/qml/searchoverlay.qml:111
 #, kde-format
 msgid "Scan a QR Code"
 msgstr ""
 
-#: src/timeline/qml/searchoverlay.qml:118
+#: src/timeline/qml/searchoverlay.qml:119
 #, kde-format
 msgid "Close"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:141
+#: src/timeline/qml/viewcontact.qml:140
 #, kde-format
 msgid "Chat/Timeline"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:144
+#: src/timeline/qml/viewcontact.qml:143
 #, fuzzy, kde-format
 #| msgid "Audio"
 msgid "Audio/Video"
 msgstr "音效"
 
-#: src/timeline/qml/viewcontact.qml:147
+#: src/timeline/qml/viewcontact.qml:146
 #, fuzzy, kde-format
 #| msgid "Recording"
 msgid "Calls/Recordings"
 msgstr "錄製"
 
-#: src/timeline/qml/viewcontact.qml:150
+#: src/timeline/qml/viewcontact.qml:149
 #, fuzzy, kde-format
 #| msgid "Configuration"
 msgid "Information"

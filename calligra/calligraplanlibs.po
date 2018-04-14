@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-23 03:17+0100\n"
+"POT-Creation-Date: 2018-04-14 03:17+0200\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -1539,7 +1539,7 @@ msgid "%1 (Default account)"
 msgstr "%1（預設帳號）"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_resList)
-#: models/kptaccountsmodel.cpp:124 models/kptaccountsmodel.cpp:1035
+#: models/kptaccountsmodel.cpp:124 models/kptaccountsmodel.cpp:1053
 #: models/kptdocumentmodel.cpp:199 models/kptresourceallocationmodel.cpp:329
 #: models/kptresourceappointmentsmodel.cpp:917
 #: models/kptresourceappointmentsmodel.cpp:932
@@ -1553,7 +1553,7 @@ msgid "Name"
 msgstr "名稱"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: models/kptaccountsmodel.cpp:125 models/kptaccountsmodel.cpp:1038
+#: models/kptaccountsmodel.cpp:125 models/kptaccountsmodel.cpp:1054
 #: ui/kptmainprojectpanelbase.ui:335
 #, kde-format
 msgid "Description"
@@ -1593,17 +1593,29 @@ msgid "Delete Account"
 msgid_plural "Delete %1 Accounts"
 msgstr[0] "刪除 %1 個帳號"
 
-#: models/kptaccountsmodel.cpp:841
+#: models/kptaccountsmodel.cpp:855
 #, kde-format
 msgid "Actual total cost: %1, planned total cost: %2"
 msgstr "實際總花費：%1，預計總花費：%2"
 
-#: models/kptaccountsmodel.cpp:1041 models/kptresourceappointmentsmodel.cpp:918
+#: models/kptaccountsmodel.cpp:1055 models/kptresourceappointmentsmodel.cpp:918
 #, kde-format
 msgid "Total"
 msgstr "總計"
 
-#: models/kptaccountsmodel.cpp:1103
+#: models/kptaccountsmodel.cpp:1056
+#, fuzzy, kde-format
+#| msgid "Planned cost"
+msgid "Planned"
+msgstr "預計花費"
+
+#: models/kptaccountsmodel.cpp:1057
+#, fuzzy, kde-format
+#| msgid "Actual cost"
+msgid "Actual"
+msgstr "實際花費"
+
+#: models/kptaccountsmodel.cpp:1119
 #, kde-format
 msgid "The total cost for the account shown as: Actual cost [ Planned cost ]"
 msgstr "此帳號的總花費，顯示為：實際花費【預計花費】"
