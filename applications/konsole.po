@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-13 03:21+0200\n"
+"POT-Creation-Date: 2018-04-15 03:17+0200\n"
 "PO-Revision-Date: 2018-04-14 12:07+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -640,7 +640,8 @@ msgstr "此顏色機制中含有透明背景，您的桌面似乎不支援。"
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
-msgstr "Konsole 在桌面效果開啟前就已經開啟。您需要重新啟動 Konsole 才能看到透明背景。"
+msgstr ""
+"Konsole 在桌面效果開啟前就已經開啟。您需要重新啟動 Konsole 才能看到透明背景。"
 
 #: EditProfileDialog.cpp:1215 EditProfileDialog.cpp:1227
 #, kde-format
@@ -1082,18 +1083,14 @@ msgstr "熱鍵組合"
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: EditProfileDialog.ui:829
 #, kde-format
-#| msgid ""
-#| "Key bindings control how combinations of keystrokes in the terminal "
-#| "window are converted into the stream of characters which are sent to the "
-#| "current terminal program."
 msgid ""
 "Key bindings control how combinations of keystrokes in the terminal window "
 "are converted into the stream of characters that is then sent to the current "
 "terminal program. For more information on how to customize the key bindings "
 "check the Konsole Handbook."
 msgstr ""
-"組合鍵控制哪些鍵一起按會送特殊的字元串到終端機視窗中。"
-"關於如何自訂組合鍵的更多資訊，請參閱 Konsole 手冊。"
+"組合鍵控制哪些鍵一起按會送特殊的字元串到終端機視窗中。關於如何自訂組合鍵的更"
+"多資訊，請參閱 Konsole 手冊。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newKeyBindingsButton)
 #: EditProfileDialog.ui:849
@@ -1271,16 +1268,12 @@ msgstr "選取的文字要用 ctrl 鍵加上點擊來拖曳。"
 #. i18n: ectx: property (text), widget (QCheckBox, ctrlRequiredForDragButton)
 #: EditProfileDialog.ui:1073
 #, kde-format
-#| msgid "Require Ctrl key for drag and drop"
 msgid "Require Ctrl key for drag && drop"
 msgstr "需要 Ctrl 鍵來拖放"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dropUrlsAsText)
 #: EditProfileDialog.ui:1080
 #, kde-format
-#| msgid ""
-#| "Always paste dropped URLs as text without offering move, copy and link "
-#| "actions."
 msgid ""
 "Always paste dropped files and URLs as text without offering move, copy and "
 "link actions."
@@ -1289,7 +1282,6 @@ msgstr "貼網址與檔案時只貼文字，不加上移動、複製與連結等
 #. i18n: ectx: property (text), widget (QCheckBox, dropUrlsAsText)
 #: EditProfileDialog.ui:1083
 #, kde-format
-#| msgid "Disable drag and drop menu for URLs and files"
 msgid "Disable drag && drop menu for files && URLs"
 msgstr "關閉網址與檔案的拖放選單"
 
@@ -1318,7 +1310,6 @@ msgstr "被認為是檔案、連結或電子郵件地址的文字，在滑鼠點
 #. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
 #: EditProfileDialog.ui:1130
 #, kde-format
-#| msgid "Open files and links by direct click"
 msgid "Open by direct click"
 msgstr "點擊時直接開啟"
 
@@ -2331,50 +2322,50 @@ msgstr "Linux 主控台"
 msgid "Solaris console"
 msgstr "Solaris 主控台"
 
-#: Session.cpp:379
+#: Session.cpp:381
 #, kde-format
 msgid "Could not find binary: "
 msgstr "找不到執行檔："
 
-#: Session.cpp:388
+#: Session.cpp:390
 #, kde-format
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "警告："
 
-#: Session.cpp:446
+#: Session.cpp:448
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
 msgstr "找不到 %1，改啟動 %2。請檢查您的設定檔。"
 
-#: Session.cpp:449
+#: Session.cpp:451
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "找不到互動式 shell。"
 
-#: Session.cpp:487
+#: Session.cpp:489
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "無法啟動程式 %1，參數為 %2。"
 
-#: Session.cpp:629
+#: Session.cpp:631
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "工作階段「%1」為無聲息"
 
-#: Session.cpp:678
+#: Session.cpp:680
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "工作階段「%1」的響鈴"
 
-#: Session.cpp:691
+#: Session.cpp:693
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "工作階段「%1」作用中"
 
-#: Session.cpp:898
+#: Session.cpp:900
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2386,23 +2377,23 @@ msgstr ""
 "要的話，這些方法只能由重新編譯 Konsole 來變更為內部使用。<p>這個警告將只會在"
 "這個Konsole 實體中顯示一次。</p>"
 
-#: Session.cpp:925
+#: Session.cpp:927
 #, kde-format
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "已完成"
 
-#: Session.cpp:939 Session.cpp:952
+#: Session.cpp:941 Session.cpp:954
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "程式 %1 當掉了。"
 
-#: Session.cpp:941
+#: Session.cpp:943
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "程式 %1 以 %2 狀態結束。"
 
-#: Session.cpp:1368
+#: Session.cpp:1370
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem 進度"
@@ -3460,7 +3451,7 @@ msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "切換到分頁 %1"
 
-#: Vt102Emulation.cpp:1181
+#: Vt102Emulation.cpp:1186
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "

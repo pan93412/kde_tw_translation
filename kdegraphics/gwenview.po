@@ -712,21 +712,18 @@ msgstr "顯示透明度由："
 #. i18n: ectx: property (text), widget (QRadioButton, surroundingRadioButton)
 #: app/imageviewconfigpage.ui:38
 #, kde-format
-#| msgid "Transparent background:"
 msgid "Surrounding background"
 msgstr "周遭背景："
 
 #. i18n: ectx: property (text), widget (QRadioButton, checkBoardRadioButton)
 #: app/imageviewconfigpage.ui:71
 #, kde-format
-#| msgid "&Check board"
 msgid "&Checkerboard background"
 msgstr "棋盤背景(&C)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, solidColorRadioButton)
 #: app/imageviewconfigpage.ui:104
 #, kde-format
-#| msgid "&Solid color:"
 msgid "&Solid color background:"
 msgstr "立體顏色背景(&S)"
 
@@ -1843,7 +1840,8 @@ msgctxt "@info"
 msgid ""
 "Could not open file for writing, check that you have the necessary rights in "
 "<filename>%1</filename>."
-msgstr "無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+msgstr ""
+"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
 
 #: lib/document/savejob.cpp:132
 #, kde-kuit-format

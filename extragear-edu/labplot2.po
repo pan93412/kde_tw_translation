@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-12 03:22+0200\n"
+"POT-Creation-Date: 2018-04-15 03:18+0200\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -274,7 +274,7 @@ msgstr "移動到"
 #: src/backend/core/AspectTreeModel.cpp:162
 #: src/kdefrontend/datasources/HDF5OptionsWidget.cpp:42
 #: src/kdefrontend/datasources/NetCDFOptionsWidget.cpp:43
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:983
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1000
 #: src/kdefrontend/ui/datapickercurvewidget.ui:33
 #: src/kdefrontend/ui/datapickerimagewidget.ui:33
 #: src/kdefrontend/ui/datasources/databasemanagerwidget.ui:39
@@ -7209,7 +7209,7 @@ msgstr ""
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1526
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1543
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1560
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:983
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1000
 #: src/kdefrontend/ui/datapickerimagewidget.ui:988
 #: src/kdefrontend/ui/fitsheadereditnewkeywordwidget.ui:61
 #: src/kdefrontend/widgets/FITSHeaderEditWidget.cpp:81
@@ -9526,7 +9526,7 @@ msgstr "方向"
 
 #: src/kdefrontend/dockwidgets/XYDataReductionCurveDock.cpp:620
 #: src/kdefrontend/dockwidgets/XYDifferentiationCurveDock.cpp:512
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:882
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:899
 #: src/kdefrontend/dockwidgets/XYFourierFilterCurveDock.cpp:623
 #: src/kdefrontend/dockwidgets/XYFourierTransformCurveDock.cpp:351
 #: src/kdefrontend/dockwidgets/XYIntegrationCurveDock.cpp:426
@@ -9538,7 +9538,7 @@ msgstr ""
 
 #: src/kdefrontend/dockwidgets/XYDataReductionCurveDock.cpp:628
 #: src/kdefrontend/dockwidgets/XYDifferentiationCurveDock.cpp:520
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:886
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:903
 #: src/kdefrontend/dockwidgets/XYFourierFilterCurveDock.cpp:631
 #: src/kdefrontend/dockwidgets/XYFourierTransformCurveDock.cpp:359
 #: src/kdefrontend/dockwidgets/XYIntegrationCurveDock.cpp:434
@@ -9550,7 +9550,7 @@ msgstr ""
 
 #: src/kdefrontend/dockwidgets/XYDataReductionCurveDock.cpp:630
 #: src/kdefrontend/dockwidgets/XYDifferentiationCurveDock.cpp:522
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:888
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:905
 #: src/kdefrontend/dockwidgets/XYFourierFilterCurveDock.cpp:633
 #: src/kdefrontend/dockwidgets/XYFourierTransformCurveDock.cpp:361
 #: src/kdefrontend/dockwidgets/XYIntegrationCurveDock.cpp:436
@@ -9633,7 +9633,7 @@ msgid "t, max"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:154
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:868
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:885
 #, kde-format
 msgid "reduced"
 msgstr ""
@@ -9657,150 +9657,150 @@ msgstr "綠"
 msgid "Number of peaks"
 msgstr "點數"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:781
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:785
 #, fuzzy, kde-format
 #| msgid "Statistics"
 msgid "Fit status: "
 msgstr "統計"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:836
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:853
 #, fuzzy, kde-format
 #| msgid "parametric"
 msgid "Parameters:"
 msgstr "參數繪圖"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:853
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:870
 #, fuzzy, kde-format
 #| msgid "Statistics"
 msgid "t statistic:"
 msgstr "統計"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:854
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:871
 #, fuzzy, kde-format
 msgid "p value:"
 msgstr "數值"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:855
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:872
 #, fuzzy, kde-format
 msgid "conf. interval:"
 msgstr "介面"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:860
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1040
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:877
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1057
 #, kde-format
 msgid "too small"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:865
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:882
 #, kde-format
 msgid "Goodness of fit:"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:866
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:883
 #, kde-format
 msgid "sum of squared residuals"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:869
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:886
 #, kde-format
 msgid "root mean square error"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:870
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:887
 #, kde-format
 msgid "coefficient of determination"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:871
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:888
 #, kde-format
 msgid "adj. coefficient of determination"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:874
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:891
 #, kde-format
 msgid "P > "
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:875
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:892
 #, fuzzy, kde-format
 #| msgid "Statistics"
 msgid "F statistic"
 msgstr "統計"
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, twGoodness)
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:876
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:893
 #: src/kdefrontend/ui/dockwidgets/xyfitcurvedockgeneraltab.ui:352
 #, kde-format
 msgid "P > F"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:878
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:895
 #, kde-format
 msgid "mean absolute error:"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:879
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:896
 #, kde-format
 msgid "Akaike information criterion:"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:880
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:897
 #, kde-format
 msgid "Bayesian information criterion:"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:883
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:900
 #, fuzzy, kde-format
 #| msgid "Orientation"
 msgid "iterations:"
 msgstr "方向"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:884
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:901
 #, kde-format
 msgid "tolerance:"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:889
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:906
 #, kde-format
 msgid "degrees of freedom:"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:890
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:907
 #, fuzzy, kde-format
 #| msgid "Number of points"
 msgid "number of parameters:"
 msgstr "點數"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:891
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:908
 #, fuzzy, kde-format
 #| msgid "orange"
 msgid "X range:"
 msgstr "橘"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:893
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:910
 #, fuzzy, kde-format
 #| msgid "Orientation"
 msgid "Iterations:"
 msgstr "方向"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:983
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1000
 #, fuzzy, kde-format
 #| msgid "error"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:983
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1000
 #, fuzzy, kde-format
 msgid "Error, %"
 msgstr "格式"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:983
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1000
 #, fuzzy, kde-format
 #| msgid "Statistics"
 msgid "t statistic"
 msgstr "統計"
 
-#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:983
+#: src/kdefrontend/dockwidgets/XYFitCurveDock.cpp:1000
 #, kde-format
 msgid "Conf. Interval"
 msgstr ""

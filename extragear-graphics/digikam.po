@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-14 03:18+0200\n"
+"POT-Creation-Date: 2018-04-15 03:18+0200\n"
 "PO-Revision-Date: 2018-03-29 13:11+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -1684,12 +1684,12 @@ msgstr "LibGphoto2"
 #: core/utilities/importui/backend/gpcamera.cpp:1411
 #: core/utilities/importui/backend/gpcamera.cpp:1412
 #: core/utilities/importui/backend/gpcamera.cpp:1413
-#: core/utilities/importui/backend/umscamera.cpp:601
 #: core/utilities/importui/backend/umscamera.cpp:602
 #: core/utilities/importui/backend/umscamera.cpp:603
 #: core/utilities/importui/backend/umscamera.cpp:604
 #: core/utilities/importui/backend/umscamera.cpp:605
 #: core/utilities/importui/backend/umscamera.cpp:606
+#: core/utilities/importui/backend/umscamera.cpp:607
 #, kde-format
 msgid "no"
 msgstr "否"
@@ -1769,12 +1769,12 @@ msgstr "Nepomuk"
 #: core/utilities/importui/backend/gpcamera.cpp:1411
 #: core/utilities/importui/backend/gpcamera.cpp:1412
 #: core/utilities/importui/backend/gpcamera.cpp:1413
-#: core/utilities/importui/backend/umscamera.cpp:601
 #: core/utilities/importui/backend/umscamera.cpp:602
 #: core/utilities/importui/backend/umscamera.cpp:603
 #: core/utilities/importui/backend/umscamera.cpp:604
 #: core/utilities/importui/backend/umscamera.cpp:605
 #: core/utilities/importui/backend/umscamera.cpp:606
+#: core/utilities/importui/backend/umscamera.cpp:607
 #, kde-format
 msgid "yes"
 msgstr "是"
@@ -2598,7 +2598,7 @@ msgid "Map Search"
 msgstr "地圖搜尋"
 
 #: core/app/views/digikamview.cpp:227
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1016
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1018
 #, kde-format
 msgid "Last Search"
 msgstr "上次搜尋"
@@ -4551,7 +4551,7 @@ msgstr ""
 "轉換資料庫時發生錯誤。\n"
 " 詳細資訊：%1"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:211
+#: core/libs/database/coredb/coredbschemaupdater.cpp:213
 #, kde-format
 msgid ""
 "You have insufficient privileges on the database.\n"
@@ -4564,7 +4564,7 @@ msgstr ""
 "%1\n"
 "請檢查您在資料庫上的權限，並重新啟動 digiKam。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:242
+#: core/libs/database/coredb/coredbschemaupdater.cpp:244
 #, kde-format
 msgid ""
 "The database is not valid: the \"DBVersion\" setting does not exist. The "
@@ -4574,7 +4574,7 @@ msgstr ""
 "資料庫無效：此 \"DBVersion\" 設定值不存在。無法校驗目前的資料庫網要版本。試著"
 "以空白資料庫啟動。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:269
+#: core/libs/database/coredb/coredbschemaupdater.cpp:271
 #, kde-format
 msgid ""
 "The database has been used with a more recent version of digiKam and has "
@@ -4586,7 +4586,7 @@ msgstr ""
 "要。(這表示這個 digiKam 版本太舊，或者資料庫不是最新的格式) 請使用 digiKam 較"
 "新的版本。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:330
+#: core/libs/database/coredb/coredbschemaupdater.cpp:332
 #: core/libs/database/similaritydb/similaritydbschemaupdater.cpp:211
 #: core/libs/database/thumbsdb/thumbsdbchemaupdater.cpp:207
 #, kde-format
@@ -4597,7 +4597,7 @@ msgstr ""
 "在資料庫中建立資料表失敗。\n"
 " "
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:351
+#: core/libs/database/coredb/coredbschemaupdater.cpp:353
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to open a database transaction on your database file \"%1\". This "
@@ -4617,7 +4617,7 @@ msgstr ""
 "digikam-devel@kde.org 郵件論壇尋求幫助。也請看看 digiKam 在終端機上輸出什麼訊"
 "息。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:408
+#: core/libs/database/coredb/coredbschemaupdater.cpp:410
 #, fuzzy, kde-format
 #| msgid ""
 #| "The schema updating process from version 4 to 6 failed, caused by an "
@@ -4639,7 +4639,7 @@ msgstr ""
 "和 \"%2\")。很可能您會想要回報這個錯誤到 digikam-devel@kde.org 郵件論壇。也請"
 "看看 digiKam 在終端機上輸出什麼訊息。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:440
+#: core/libs/database/coredb/coredbschemaupdater.cpp:442
 #, kde-format
 msgid ""
 "Failed to update the database schema from version %1 to version %2. Please "
@@ -4649,7 +4649,7 @@ msgstr ""
 "更新綱要版本從版本 %1 到 %2 時失敗。請讀取主控台上的錯誤訊息並到 bugs.kde."
 "org 回報此錯誤。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:625
+#: core/libs/database/coredb/coredbschemaupdater.cpp:627
 #, kde-format
 msgid ""
 "The database update action cannot be found. Please ensure that the dbconfig."
@@ -4659,12 +4659,12 @@ msgstr ""
 "找不到資料庫更新動作。請確定目前板的 digiKam 裡的 dbconfig.xml 檔已安裝在正確"
 "的位置。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:644
+#: core/libs/database/coredb/coredbschemaupdater.cpp:646
 #, kde-format
 msgid "Updated schema to version %1."
 msgstr "更新綱要到版本 %1。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:703
+#: core/libs/database/coredb/coredbschemaupdater.cpp:705
 #, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -4674,12 +4674,12 @@ msgstr ""
 "將舊的資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") 失敗。錯誤訊息：「%3」。請"
 "確認檔案已經複製或者刪除它。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:725
+#: core/libs/database/coredb/coredbschemaupdater.cpp:727
 #, kde-format
 msgid "Copied database file"
 msgstr "複製的資料庫檔案"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:730
+#: core/libs/database/coredb/coredbschemaupdater.cpp:732
 #, kde-format
 msgid ""
 "The old database file (\"%1\") has been copied to the new location (\"%2\") "
@@ -4689,22 +4689,22 @@ msgstr ""
 "已經將舊的資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") ，但是無法開啟。請將檔"
 "案都刪除並重試一次，以空白資料庫啟動。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:751
+#: core/libs/database/coredb/coredbschemaupdater.cpp:753
 #, kde-format
 msgid "Opened new database file"
 msgstr "開啟的新資料庫檔案"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:845
+#: core/libs/database/coredb/coredbschemaupdater.cpp:847
 #, kde-format
 msgid "Prepared table creation"
 msgstr "已準備資料表建立"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:864
+#: core/libs/database/coredb/coredbschemaupdater.cpp:866
 #, kde-format
 msgid "Created tables"
 msgstr "已建立的資料表"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:877
+#: core/libs/database/coredb/coredbschemaupdater.cpp:879
 #, kde-format
 msgid ""
 "No album library path has been found in the configuration file. Giving up "
@@ -4714,7 +4714,7 @@ msgstr ""
 "在組態設定檔中沒有找到相簿櫃路徑。放棄綱要更新處理。請用空白資料庫重試一次，"
 "或者修復您的組態設定。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:899
+#: core/libs/database/coredb/coredbschemaupdater.cpp:901
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was an error associating your albumLibraryPath (\"%1\") with a "
@@ -4738,52 +4738,52 @@ msgstr ""
 "至 digikam-devel@kde.or 郵件論壇尋求意見。此資料庫更新動作會立刻中止，因為我"
 "們不希望從毀損的安裝作出錯誤之假設來建立一個新的資料庫。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:926
+#: core/libs/database/coredb/coredbschemaupdater.cpp:928
 #, kde-format
 msgid "Configured one album root"
 msgstr "已設定一個相簿的根"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:952
+#: core/libs/database/coredb/coredbschemaupdater.cpp:954
 #, kde-format
 msgid "Imported albums"
 msgstr "匯入的相簿"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:988
+#: core/libs/database/coredb/coredbschemaupdater.cpp:990
 #, kde-format
 msgid "Imported images information"
 msgstr "匯入的影像資訊"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1018
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1020
 #, kde-format
 msgid "Last Search (0.9)"
 msgstr "上次搜尋 (0.9)"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1075
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1077
 #, kde-format
 msgid "Initialized and imported file suffix filter"
 msgstr "已初始化且匯入的檔案字根過濾器"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1097
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1099
 #, kde-format
 msgid "Did the initial full scan"
 msgstr "已執行過最初的完整掃描"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1120
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1122
 #, kde-format
 msgid "Imported creation dates"
 msgstr "匯入的建立日期"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1150
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1152
 #, kde-format
 msgid "Imported comments"
 msgstr "匯入的註解"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1176
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1178
 #, kde-format
 msgid "Imported ratings"
 msgstr "匯入的評等"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1187
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1189
 #, kde-format
 msgid "Dropped v3 tables"
 msgstr "刪除的 v3 資料表"
@@ -6209,55 +6209,55 @@ msgstr ""
 "無法顯示影像\n"
 "「%1」"
 
-#: core/libs/dimg/dimg.cpp:3222
+#: core/libs/dimg/dimg.cpp:3232
 #, kde-format
 msgctxt "Color Model: RGB"
 msgid "RGB"
 msgstr "RGB"
 
-#: core/libs/dimg/dimg.cpp:3225
+#: core/libs/dimg/dimg.cpp:3235
 #, kde-format
 msgctxt "Color Model: Grayscale"
 msgid "Grayscale"
 msgstr "灰階"
 
-#: core/libs/dimg/dimg.cpp:3228
+#: core/libs/dimg/dimg.cpp:3238
 #, kde-format
 msgctxt "Color Model: Monochrome"
 msgid "Monochrome"
 msgstr "單色"
 
-#: core/libs/dimg/dimg.cpp:3231
+#: core/libs/dimg/dimg.cpp:3241
 #, kde-format
 msgctxt "Color Model: Indexed"
 msgid "Indexed"
 msgstr "索引色"
 
-#: core/libs/dimg/dimg.cpp:3234
+#: core/libs/dimg/dimg.cpp:3244
 #, kde-format
 msgctxt "Color Model: YCbCr"
 msgid "YCbCr"
 msgstr "YCbCr"
 
-#: core/libs/dimg/dimg.cpp:3237
+#: core/libs/dimg/dimg.cpp:3247
 #, kde-format
 msgctxt "Color Model: CMYK"
 msgid "CMYK"
 msgstr "CMYK"
 
-#: core/libs/dimg/dimg.cpp:3240
+#: core/libs/dimg/dimg.cpp:3250
 #, kde-format
 msgctxt "Color Model: CIE L*a*b*"
 msgid "CIE L*a*b*"
 msgstr "CIE L*a*b*"
 
-#: core/libs/dimg/dimg.cpp:3243
+#: core/libs/dimg/dimg.cpp:3253
 #, kde-format
 msgctxt "Color Model: Uncalibrated (RAW)"
 msgid "Uncalibrated (RAW)"
 msgstr "未經校準 (RAW)"
 
-#: core/libs/dimg/dimg.cpp:3247
+#: core/libs/dimg/dimg.cpp:3257
 #, kde-format
 msgctxt "Color Model: Unknown"
 msgid "Unknown"
@@ -23970,13 +23970,13 @@ msgstr ""
 msgid "Imgur Delete URL"
 msgstr ""
 
-#: core/utilities/assistants/webservices/imgur/imgurtalker.cpp:185
+#: core/utilities/assistants/webservices/imgur/imgurtalker.cpp:186
 #, fuzzy, kde-format
 #| msgid "Could not open: %1"
 msgid "Could not authorize"
 msgstr "無法開啟：%1 "
 
-#: core/utilities/assistants/webservices/imgur/imgurtalker.cpp:367
+#: core/utilities/assistants/webservices/imgur/imgurtalker.cpp:368
 #, fuzzy, kde-format
 #| msgid "Could not open: %1"
 msgid "Could not open file"
@@ -31521,7 +31521,7 @@ msgstr ""
 "縮圖：<b>%1</b><br/>擷取影像：<b>%2</b><br/>刪除項目：<b>%3</b><br/>上傳項"
 "目：<b>%4</b><br/>建立目錄：<b>%5</b><br/>刪除目錄：<b>%6</b><br/><br/>"
 
-#: core/utilities/importui/backend/umscamera.cpp:577
+#: core/utilities/importui/backend/umscamera.cpp:578
 #, kde-format
 msgid ""
 "<b>Mounted Camera</b> driver for USB/IEEE1394 mass storage cameras and Flash "
@@ -31529,7 +31529,7 @@ msgid ""
 msgstr ""
 "USB/IEEE1394 儲存裝置相機和快閃磁碟讀卡機的<b>相機掛載</b>驅動。<br/><br/>"
 
-#: core/utilities/importui/backend/umscamera.cpp:583
+#: core/utilities/importui/backend/umscamera.cpp:584
 #, kde-format
 msgctxt "@info List of device properties"
 msgid ""
@@ -31539,7 +31539,7 @@ msgstr ""
 "標題：<b>%1</b><br/>型號：<b>%2</b><br/>連接埠：<b>%3</b><br/>路徑：<b>%4</"
 "b><br/>UUID: <b>%5</b><br/><br/>"
 
-#: core/utilities/importui/backend/umscamera.cpp:595
+#: core/utilities/importui/backend/umscamera.cpp:596
 #, kde-format
 msgctxt "@info List of supported device operations"
 msgid ""
@@ -31550,7 +31550,7 @@ msgstr ""
 "縮圖：<b>%1</b><br/>擷取影像：<b>%2</b><br/>刪除項目：<b>%3</b><br/>上傳項"
 "目：<b>%4</b><br/>建立目錄：<b>%5</b><br/>刪除目錄：<b>%6</b><br/><br/>"
 
-#: core/utilities/importui/backend/umscamera.cpp:612
+#: core/utilities/importui/backend/umscamera.cpp:613
 #, kde-format
 msgid ""
 "For more information about the <b>Mounted Camera</b> driver, please read the "
@@ -31559,7 +31559,7 @@ msgstr ""
 "請閱讀 digiKam 使用手冊中的<b>支援的數位靜態相機</b>部份來取得更多<b>相機掛載"
 "</b>驅動的相關資訊。"
 
-#: core/utilities/importui/backend/umscamera.cpp:620
+#: core/utilities/importui/backend/umscamera.cpp:621
 #, kde-format
 msgid ""
 "The <b>Mounted Camera</b> driver is a simple interface to a camera disk "

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-09 03:19+0200\n"
+"POT-Creation-Date: 2018-04-15 03:18+0200\n"
 "PO-Revision-Date: 2017-09-27 09:00+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -39,34 +39,40 @@ msgid "Configure..."
 msgstr "設定..."
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:146
+#: ../shell/package/contents/configuration/AppearanceConfig.qml:663
 #, fuzzy, kde-format
 #| msgid "Applets Size"
 msgid "Applets"
 msgstr "小程式大小"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:157
+#: ../shell/package/contents/configuration/AppearanceConfig.qml:380
+#: ../shell/package/contents/configuration/AppearanceConfig.qml:1064
 #, fuzzy, kde-format
 #| msgid "Size: "
-msgid "Size:"
+msgid "Size"
 msgstr "大小："
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:213
-#, kde-format
-msgid "Zoom On Hover:"
+#, fuzzy, kde-format
+#| msgid "Zoom On Hover:"
+msgid "Zoom On Hover"
 msgstr "滑鼠游標置於其上時縮放"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:262
-#, kde-format
-msgid "Screen Height Proportion:"
+#, fuzzy, kde-format
+#| msgid "Screen Height Proportion:"
+msgid "Screen Height Proportion"
 msgstr "螢幕高度比例："
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:316
-#, kde-format
-msgid "Applets Distance:"
+#, fuzzy, kde-format
+#| msgid "Applets Distance:"
+msgid "Applets Distance"
 msgstr "小程式距離："
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:354
-#: settingsdialog.cpp:789
+#: settingsdialog.cpp:807
 #, kde-format
 msgid "Background"
 msgstr "背景"
@@ -77,17 +83,12 @@ msgctxt "show panel"
 msgid "Show"
 msgstr "顯示"
 
-#: ../shell/package/contents/configuration/AppearanceConfig.qml:380
-#: ../shell/package/contents/configuration/AppearanceConfig.qml:1064
-#, kde-format
-msgid "Size: "
-msgstr "大小："
-
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:428
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:785
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:1014
-#, kde-format
-msgid "Opacity: "
+#, fuzzy, kde-format
+#| msgid "Opacity: "
+msgid "Opacity"
 msgstr "不透明度："
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:487
@@ -133,7 +134,8 @@ msgstr "作用中的小工具指示器"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:616
 #, kde-format
-msgid "Style:"
+msgctxt "active indicator style"
+msgid "Style"
 msgstr ""
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:624
@@ -170,12 +172,6 @@ msgstr ""
 #, kde-format
 msgid "Reverse the position of the active indicator e.g. from bottom to top"
 msgstr ""
-
-#: ../shell/package/contents/configuration/AppearanceConfig.qml:663
-#, fuzzy, kde-format
-#| msgid "Applets Size"
-msgid "Applets:"
-msgstr "小程式大小"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:671
 #, kde-format
@@ -300,14 +296,15 @@ msgid "Length"
 msgstr "長度"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:1126
-#, kde-format
-msgid "Maximum: "
+#, fuzzy, kde-format
+#| msgid "Maximum: "
+msgid "Maximum"
 msgstr "最大： "
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:1199
 #, kde-format
-msgid "Offset: "
-msgstr "位移： "
+msgid "Offset"
+msgstr "位移"
 
 #: ../shell/package/contents/configuration/BehaviorConfig.qml:60
 #, kde-format
@@ -436,14 +433,17 @@ msgstr "視窗在下面"
 msgid "Delay"
 msgstr "延遲"
 
-#: ../shell/package/contents/configuration/BehaviorConfig.qml:469
-#, kde-format
-msgid "Show:"
-msgstr "顯示："
+#: ../shell/package/contents/configuration/BehaviorConfig.qml:470
+#, fuzzy, kde-format
+#| msgctxt "show panel"
+#| msgid "Show"
+msgid "Show"
+msgstr "顯示"
 
-#: ../shell/package/contents/configuration/BehaviorConfig.qml:484
-#, kde-format
-msgid "Hide:"
+#: ../shell/package/contents/configuration/BehaviorConfig.qml:486
+#, fuzzy, kde-format
+#| msgid "Hide:"
+msgid "Hide"
 msgstr "隱藏："
 
 #: ../shell/package/contents/configuration/config.qml:27
@@ -451,72 +451,78 @@ msgstr "隱藏："
 msgid "General"
 msgstr "一般"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:261
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:167
+#, fuzzy, kde-format
+#| msgid "Show Latte Dock"
+msgid "Open Latte settings window"
+msgstr "顯示 Latte Dock"
+
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:271
 #, kde-format
 msgid "Advanced"
 msgstr "進階"
 
 #. i18n: ectx: property (text), widget (QLabel, behaviorLbl)
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:315
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:326
 #: ../shell/package/contents/configuration/TweaksConfig.qml:161
 #: settingsdialog.ui:467
 #, kde-format
 msgid "Behavior"
 msgstr "行為"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:320
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:331
 #: ../shell/package/contents/configuration/TasksConfig.qml:56
 #: ../shell/package/contents/configuration/TweaksConfig.qml:51
 #, kde-format
 msgid "Appearance"
 msgstr "外觀"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:325
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:336
 #, kde-format
 msgid "Tasks"
 msgstr "工作"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:332
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:343
 #, kde-format
 msgid "Tweaks"
 msgstr "調整"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:425
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:436
 #, kde-format
 msgid "Copy Dock"
 msgstr "複製 Dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:436
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:447
 #, kde-format
 msgid "Move to:"
 msgstr ""
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:484
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:495
 #, kde-format
 msgid "New Dock"
 msgstr "新 Dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:486
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:497
 #, kde-format
 msgid "Add a new dock"
 msgstr "加入新 dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:502
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:513
 #, kde-format
 msgid "Remove"
 msgstr "移除"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:505
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:516
 #, kde-format
 msgid "Remove current dock"
 msgstr "移除目前的 dock"
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:516
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:527
 #, kde-format
 msgid "Close"
 msgstr ""
 
-#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:518
+#: ../shell/package/contents/configuration/LatteDockConfiguration.qml:529
 #, kde-format
 msgid "Close settings window"
 msgstr ""
@@ -598,75 +604,76 @@ msgstr "透過滑鼠滾輪啟用工作"
 msgid "Enable/Disable the mouse wheel actions in order to cycle through tasks"
 msgstr "啟用／停用滑鼠滾輪的工作間循環動作"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:177
-#, kde-format
-msgid "On middle-click:"
+#: ../shell/package/contents/configuration/TasksConfig.qml:178
+#, fuzzy, kde-format
+#| msgid "On middle-click:"
+msgid "On middle-click"
 msgstr "點擊滑鼠中鍵："
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:184
-#: ../shell/package/contents/configuration/TasksConfig.qml:227
+#: ../shell/package/contents/configuration/TasksConfig.qml:185
+#: ../shell/package/contents/configuration/TasksConfig.qml:229
 #, kde-format
 msgctxt "The click action"
 msgid "None"
 msgstr "無"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:184
-#: ../shell/package/contents/configuration/TasksConfig.qml:227
+#: ../shell/package/contents/configuration/TasksConfig.qml:185
+#: ../shell/package/contents/configuration/TasksConfig.qml:229
 #, kde-format
 msgid "Close Window or Group"
 msgstr "關閉視窗或群組"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:185
-#: ../shell/package/contents/configuration/TasksConfig.qml:228
+#: ../shell/package/contents/configuration/TasksConfig.qml:186
+#: ../shell/package/contents/configuration/TasksConfig.qml:230
 #, kde-format
 msgid "New Instance"
 msgstr "新的實體"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:185
-#: ../shell/package/contents/configuration/TasksConfig.qml:228
+#: ../shell/package/contents/configuration/TasksConfig.qml:186
+#: ../shell/package/contents/configuration/TasksConfig.qml:230
 #, kde-format
 msgid "Minimize/Restore Window or Group"
 msgstr "最小化/復原視窗"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:185
-#: ../shell/package/contents/configuration/TasksConfig.qml:228
+#: ../shell/package/contents/configuration/TasksConfig.qml:186
+#: ../shell/package/contents/configuration/TasksConfig.qml:230
 #, kde-format
 msgid "Cycle Through Tasks"
 msgstr "工作循環切換"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:185
-#: ../shell/package/contents/configuration/TasksConfig.qml:228
+#: ../shell/package/contents/configuration/TasksConfig.qml:186
+#: ../shell/package/contents/configuration/TasksConfig.qml:230
 #, kde-format
 msgid "Toggle Task Grouping"
 msgstr "切換工作分組"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:214
+#: ../shell/package/contents/configuration/TasksConfig.qml:216
 #, kde-format
 msgid "Left Click"
 msgstr "點擊滑鼠左鍵"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:214
+#: ../shell/package/contents/configuration/TasksConfig.qml:216
 #, kde-format
 msgid "Middle Click"
 msgstr "點擊滑鼠中鍵"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:214
+#: ../shell/package/contents/configuration/TasksConfig.qml:216
 #, kde-format
 msgid "Right Click"
 msgstr "點擊滑鼠右鍵"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:243
+#: ../shell/package/contents/configuration/TasksConfig.qml:245
 #, kde-format
 msgid "Launchers Group"
 msgstr "啟動器分組"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:266
+#: ../shell/package/contents/configuration/TasksConfig.qml:268
 #, kde-format
 msgctxt "unique launchers group"
 msgid "Unique"
 msgstr "唯一"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:270
+#: ../shell/package/contents/configuration/TasksConfig.qml:272
 #, fuzzy, kde-format
 #| msgid "Use a unique set of launchers for this dock"
 msgid ""
@@ -674,13 +681,13 @@ msgid ""
 "other dock"
 msgstr "為此 dock 使用唯一的啟動器群集"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:277
+#: ../shell/package/contents/configuration/TasksConfig.qml:279
 #, kde-format
 msgctxt "layout launchers group"
 msgid "Layout"
 msgstr "佈局"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:281
+#: ../shell/package/contents/configuration/TasksConfig.qml:283
 #, kde-format
 msgid ""
 "Use the current layout set of launchers for this dock. This group provides "
@@ -688,13 +695,13 @@ msgid ""
 "layout</b>"
 msgstr ""
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:289
+#: ../shell/package/contents/configuration/TasksConfig.qml:291
 #, kde-format
 msgctxt "global launchers group"
 msgid "Global"
 msgstr "全域"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:293
+#: ../shell/package/contents/configuration/TasksConfig.qml:295
 #, kde-format
 msgid ""
 "Use the global set of launchers for this dock. This group provides launchers "
@@ -702,27 +709,27 @@ msgid ""
 "layouts</b>"
 msgstr ""
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:307
+#: ../shell/package/contents/configuration/TasksConfig.qml:309
 #, kde-format
 msgid "Filters"
 msgstr "過濾器"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:313
+#: ../shell/package/contents/configuration/TasksConfig.qml:315
 #, kde-format
 msgid "Show only tasks from the current screen"
 msgstr "只顯示目前螢幕上的工作"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:324
+#: ../shell/package/contents/configuration/TasksConfig.qml:326
 #, kde-format
 msgid "Show only tasks from the current desktop"
 msgstr "只顯示目前桌面上的工作"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:335
+#: ../shell/package/contents/configuration/TasksConfig.qml:337
 #, kde-format
 msgid "Show only tasks from the current activity"
 msgstr "只顯示目前活動裡的工作"
 
-#: ../shell/package/contents/configuration/TasksConfig.qml:346
+#: ../shell/package/contents/configuration/TasksConfig.qml:348
 #, fuzzy, kde-format
 #| msgid "Show only tasks from the current screen"
 msgid "Show only tasks from launchers"
@@ -1006,7 +1013,7 @@ msgid ""
 "layout(s) <b>[%0]</b> were updated for consistency!!!"
 msgstr ""
 
-#: layoutmanager.cpp:671 layoutmanager.cpp:996 layoutmanager.cpp:1195
+#: layoutmanager.cpp:671 layoutmanager.cpp:996 layoutmanager.cpp:1200
 #, kde-format
 msgid "Default"
 msgstr "預設"
@@ -1017,17 +1024,17 @@ msgstr "預設"
 msgid "Adding layout: <b>%0</b> ..."
 msgstr "正在切換到佈局 <b>%0</b> ..."
 
-#: layoutmanager.cpp:1196
+#: layoutmanager.cpp:1201
 #, kde-format
 msgid "Plasma"
 msgstr "Plasma"
 
-#: layoutmanager.cpp:1197
+#: layoutmanager.cpp:1202
 #, kde-format
 msgid "Unity"
 msgstr "Unity"
 
-#: layoutmanager.cpp:1198
+#: layoutmanager.cpp:1203
 #, kde-format
 msgid "Extended"
 msgstr "延伸"
@@ -1284,30 +1291,30 @@ msgstr "離開 Latte"
 msgid "About Latte"
 msgstr "離開 Latte"
 
-#: settingsdialog.cpp:380
+#: settingsdialog.cpp:386
 #, kde-format
 msgctxt "import layout/configuration"
 msgid "Import Layout/Configuration"
 msgstr "匯入佈局／設定"
 
-#: settingsdialog.cpp:389
+#: settingsdialog.cpp:395
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr "Latte Dock 佈局檔案 v0.2"
 
-#: settingsdialog.cpp:390
+#: settingsdialog.cpp:396
 #, kde-format
 msgctxt "import latte layouts/configuration"
 msgid "Latte Dock Full Configuration file (v0.1, v0.2)"
 msgstr "Latte Dock 完整設定檔 (v0.1, v0.2)"
 
-#: settingsdialog.cpp:406
+#: settingsdialog.cpp:412
 #, kde-format
 msgid "Import: Configuration file version v0.1"
 msgstr "匯入：設定版本 v0.1"
 
-#: settingsdialog.cpp:408
+#: settingsdialog.cpp:414
 #, kde-format
 msgid ""
 "You are going to import an old version <b>v0.1</b> configuration file."
@@ -1319,24 +1326,24 @@ msgstr ""
 "將會抹除所有</b>您目前的設定！！！<br><br> <i>另外，您也可以從這個檔案<b>安全"
 "地匯入</b><br><b>僅包含佈局的部份s...</b></i>"
 
-#: settingsdialog.cpp:413
+#: settingsdialog.cpp:419
 #, kde-format
 msgctxt "import full configuration"
 msgid "Full Configuration"
 msgstr "完整設定"
 
-#: settingsdialog.cpp:415
+#: settingsdialog.cpp:421
 #, kde-format
 msgctxt "import only the layouts"
 msgid "Only Layouts"
 msgstr "僅佈局"
 
-#: settingsdialog.cpp:441
+#: settingsdialog.cpp:447
 #, kde-format
 msgid "Import: Configuration file version v0.2"
 msgstr "匯入：設定檔版本 v0.2"
 
-#: settingsdialog.cpp:443
+#: settingsdialog.cpp:449
 #, kde-format
 msgid ""
 "You are going to import a <b>v0.2</b> configuration file.<br><b>Be careful</"
@@ -1346,25 +1353,25 @@ msgstr ""
 "您將會要匯入舊版本 v0.2</b> 的設定檔。<br>請小心</b>，匯入整個設定檔<b>將會抹"
 "除所有</b>您目前的設定！！！<br><br> <i>您想要繼續嗎？</i>"
 
-#: settingsdialog.cpp:488
+#: settingsdialog.cpp:494
 #, kde-format
 msgctxt "layout"
 msgid "Alternative"
 msgstr "替代"
 
-#: settingsdialog.cpp:518
+#: settingsdialog.cpp:524
 #, kde-format
 msgctxt "export layout/configuration"
 msgid "Export Layout/Configuration"
 msgstr "匯出佈局／設定"
 
-#: settingsdialog.cpp:526
+#: settingsdialog.cpp:532
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr "Latte Dock 佈局檔案 v0.2"
 
-#: settingsdialog.cpp:527
+#: settingsdialog.cpp:533
 #, fuzzy, kde-format
 #| msgctxt "export full configuraion"
 #| msgid "Latte Dock Full Configuration file v0.2"
@@ -1372,43 +1379,43 @@ msgctxt "export full configuration"
 msgid "Latte Dock Full Configuration file v0.2"
 msgstr "Latte Dock 完整設定檔 v0.2"
 
-#: settingsdialog.cpp:541
+#: settingsdialog.cpp:547
 #, kde-format
 msgctxt "export layout"
 msgid "Failed to export layout"
 msgstr "匯出佈局失敗"
 
-#: settingsdialog.cpp:562
+#: settingsdialog.cpp:574
 #, kde-format
 msgctxt "export layout"
 msgid "Open location"
 msgstr "開啟位置"
 
-#: settingsdialog.cpp:563
+#: settingsdialog.cpp:575
 #, kde-format
 msgctxt "export layout"
 msgid "Layout exported successfully"
 msgstr "佈局匯出成功"
 
-#: settingsdialog.cpp:574
+#: settingsdialog.cpp:586
 #, kde-format
 msgctxt "import/export config"
 msgid "Failed to export configuration"
 msgstr "匯出設定失敗"
 
-#: settingsdialog.cpp:581
+#: settingsdialog.cpp:593
 #, kde-format
 msgctxt "import/export config"
 msgid "Open location"
 msgstr "開啟位置"
 
-#: settingsdialog.cpp:582
+#: settingsdialog.cpp:594
 #, kde-format
 msgctxt "import/export config"
 msgid "Full Configuration exported successfully"
 msgstr "完整設定匯出成功"
 
-#: settingsdialog.cpp:737
+#: settingsdialog.cpp:755
 #, fuzzy, kde-format
 #| msgctxt "import-done"
 #| msgid "Layout: <b>%0</b> imported successfully\n"
@@ -1416,27 +1423,27 @@ msgctxt "import-done"
 msgid "Layout: <b>%0</b> imported successfully<br>"
 msgstr "佈局：<b>%0</b> 匯入成功\n"
 
-#: settingsdialog.cpp:790
+#: settingsdialog.cpp:808
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: settingsdialog.cpp:791
+#: settingsdialog.cpp:809
 #, kde-format
 msgid "In Menu"
 msgstr "在選單中"
 
-#: settingsdialog.cpp:792
+#: settingsdialog.cpp:810
 #, kde-format
 msgid "Activities"
 msgstr "活動"
 
-#: settingsdialog.cpp:834 settingsdialog.cpp:1164
+#: settingsdialog.cpp:852 settingsdialog.cpp:1182
 #, kde-format
 msgid "Layout Warning"
 msgstr "佈局警告"
 
-#: settingsdialog.cpp:835
+#: settingsdialog.cpp:853
 #, kde-format
 msgid ""
 "The layout(s) <b>%0</b> have <i>broken configuration</i>!!! Please <b>remove "
@@ -1445,7 +1452,7 @@ msgstr ""
 "佈局 <b>%0</b> 有<i>損壞的設定</i>！！！請<b>移除 它們</b>來改善系統的穩定"
 "性..."
 
-#: settingsdialog.cpp:1165
+#: settingsdialog.cpp:1183
 #, kde-format
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
@@ -1719,11 +1726,22 @@ msgstr ""
 msgid " ms."
 msgstr ""
 
+#~ msgid "Size: "
+#~ msgstr "大小："
+
+#, fuzzy
+#~| msgid "Applets Size"
+#~ msgid "Applets:"
+#~ msgstr "小程式大小"
+
+#~ msgid "Offset: "
+#~ msgstr "位移： "
+
+#~ msgid "Show:"
+#~ msgstr "顯示："
+
 #~ msgid "Zoom Factor"
 #~ msgstr "縮放係數"
-
-#~ msgid "Offset"
-#~ msgstr "位移"
 
 #, fuzzy
 #~| msgid "My Layout"
