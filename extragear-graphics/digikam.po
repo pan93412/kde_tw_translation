@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-15 03:18+0200\n"
+"POT-Creation-Date: 2018-04-16 03:21+0200\n"
 "PO-Revision-Date: 2018-03-29 13:11+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -4157,8 +4157,8 @@ msgid ""
 "Do you want to write the metadata to %1 files now?"
 msgstr "這項操作依照收藏的大小，可能會花很長的時間。您要繼續嗎？"
 
-#: core/libs/album/albumpropsedit.cpp:123
-#: core/libs/album/albumpropsedit.cpp:279
+#: core/libs/album/albumpropsedit.cpp:122
+#: core/libs/album/albumpropsedit.cpp:273
 #: core/utilities/assistants/webservices/common/wssettingswidget.cpp:184
 #: core/utilities/assistants/webservices/smugmug/smugwidget.cpp:129
 #: core/utilities/assistants/webservices/vkontakte/vkalbumchooser.cpp:99
@@ -4166,100 +4166,100 @@ msgstr "這項操作依照收藏的大小，可能會花很長的時間。您要
 msgid "New Album"
 msgstr "新增相簿"
 
-#: core/libs/album/albumpropsedit.cpp:123
+#: core/libs/album/albumpropsedit.cpp:122
 #, kde-format
 msgid "Edit Album"
 msgstr "編輯相簿"
 
-#: core/libs/album/albumpropsedit.cpp:138
+#: core/libs/album/albumpropsedit.cpp:137
 #, kde-format
 msgid "<qt><b>Create new Album in<br/>\"%1\"</b></qt>"
 msgstr "<qt><b>在 \"%1\" 中<br/>建立新的相簿</b></qt>"
 
-#: core/libs/album/albumpropsedit.cpp:142
+#: core/libs/album/albumpropsedit.cpp:141
 #, kde-format
 msgid "<qt><b>\"%1\"<br/>Album Properties</b></qt>"
 msgstr "<qt><b>\"%1\"<br/> 相簿屬性</b></qt>"
 
-#: core/libs/album/albumpropsedit.cpp:153 core/libs/tags/tageditdlg.cpp:145
+#: core/libs/album/albumpropsedit.cpp:152 core/libs/tags/tageditdlg.cpp:145
 #: core/libs/tags/tagsmanager/tagpropwidget.cpp:110
 #: core/utilities/queuemanager/views/workflowdlg.cpp:110
 #, kde-format
 msgid "&Title:"
 msgstr "標題(&T)："
 
-#: core/libs/album/albumpropsedit.cpp:167
+#: core/libs/album/albumpropsedit.cpp:161
 #, fuzzy, kde-format
 #| msgid "Enter title here."
 msgid "Enter album title here..."
 msgstr "在這裡輸入標題。"
 
-#: core/libs/album/albumpropsedit.cpp:170
+#: core/libs/album/albumpropsedit.cpp:164
 #, kde-format
 msgid "Ca&tegory:"
 msgstr "類別(&T)："
 
-#: core/libs/album/albumpropsedit.cpp:177
+#: core/libs/album/albumpropsedit.cpp:171
 #, kde-format
 msgid "Ch&ild Of:"
 msgstr "父類別(&I)："
 
-#: core/libs/album/albumpropsedit.cpp:183
+#: core/libs/album/albumpropsedit.cpp:177
 #, kde-format
 msgid "Ca&ption:"
 msgstr "標題描述(&P)："
 
-#: core/libs/album/albumpropsedit.cpp:188
+#: core/libs/album/albumpropsedit.cpp:182
 #, fuzzy, kde-format
 #| msgid "Enter caption text here."
 msgid "Enter album caption here..."
 msgstr "在這裡輸入標題描述文字。"
 
-#: core/libs/album/albumpropsedit.cpp:192
+#: core/libs/album/albumpropsedit.cpp:186
 #, kde-format
 msgid "Album &date:"
 msgstr "相簿日期(&D)："
 
-#: core/libs/album/albumpropsedit.cpp:198
+#: core/libs/album/albumpropsedit.cpp:192
 #, kde-format
 msgctxt "Selects the date of the oldest image"
 msgid "&Oldest"
 msgstr "最舊(&O)"
 
-#: core/libs/album/albumpropsedit.cpp:199
+#: core/libs/album/albumpropsedit.cpp:193
 #, kde-format
 msgctxt "Calculates the average date"
 msgid "&Average"
 msgstr "平均(&A)"
 
-#: core/libs/album/albumpropsedit.cpp:200
+#: core/libs/album/albumpropsedit.cpp:194
 #, kde-format
 msgctxt "Selects the date of the newest image"
 msgid "Newest"
 msgstr "最新"
 
-#: core/libs/album/albumpropsedit.cpp:281
+#: core/libs/album/albumpropsedit.cpp:275
 #, kde-format
 msgid "Selected Album (Default)"
 msgstr "已選取相簿（預設）"
 
-#: core/libs/album/albumpropsedit.cpp:282
+#: core/libs/album/albumpropsedit.cpp:276
 #, kde-format
 msgctxt "top level folder of album"
 msgid "Root of current collection"
 msgstr "目前收藏的根"
 
-#: core/libs/album/albumpropsedit.cpp:352
+#: core/libs/album/albumpropsedit.cpp:346
 #, kde-format
 msgid "Uncategorized Album"
 msgstr "未分類的相簿"
 
-#: core/libs/album/albumpropsedit.cpp:466
+#: core/libs/album/albumpropsedit.cpp:460
 #, kde-format
 msgid "Could Not Calculate Average"
 msgstr "無法計算平均值"
 
-#: core/libs/album/albumpropsedit.cpp:467
+#: core/libs/album/albumpropsedit.cpp:461
 #, fuzzy, kde-format
 msgid "Could not calculate date average for this album."
 msgstr "無法計算平均值。"
@@ -25654,7 +25654,7 @@ msgstr ""
 "用任何其它的應用程式來協助您建立辨識訓練資料，請小心使用。"
 
 #: core/utilities/facemanagement/facescandialog.cpp:377
-#: core/utilities/setup/metadata/setupmetadata.cpp:518
+#: core/utilities/setup/metadata/setupmetadata.cpp:526
 #, kde-format
 msgctxt "@title:tab"
 msgid "Advanced"
@@ -41566,48 +41566,55 @@ msgstr ""
 "檔案中繼資料通常包含一個旗標，決定影像顯示時是否需要旋轉。開啟此選項表示允許"
 "編輯此欄位。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:429
+#: core/utilities/setup/metadata/setupmetadata.cpp:424
+#, kde-format
+msgid ""
+"<b>Note: These settings affect the album view and not the image editor. The "
+"image editor always changes the image data during the rotation.</b>"
+msgstr ""
+
+#: core/utilities/setup/metadata/setupmetadata.cpp:438
 #, kde-format
 msgctxt "@title:tab"
 msgid "Rotation"
 msgstr "旋轉"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:436
+#: core/utilities/setup/metadata/setupmetadata.cpp:445
 #, kde-format
 msgctxt "@info:label"
 msgid "Select Metadata Fields to Be Displayed"
 msgstr "選擇要顯示的中繼資料欄位"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:450
+#: core/utilities/setup/metadata/setupmetadata.cpp:459
 #, fuzzy, kde-format
 #| msgid "Views"
 msgctxt "@title:tab"
 msgid "Views"
 msgstr "檢視"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:459
+#: core/utilities/setup/metadata/setupmetadata.cpp:468
 #, fuzzy, kde-format
 msgid "Baloo Desktop Search"
 msgstr "上次搜尋"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:463
+#: core/utilities/setup/metadata/setupmetadata.cpp:472
 #, fuzzy, kde-format
 msgid "Store metadata from digiKam in Baloo"
 msgstr "用 Nepomuk 儲存 digiKam 的中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:464
+#: core/utilities/setup/metadata/setupmetadata.cpp:473
 #, fuzzy, kde-format
 msgid ""
 "Turn on this option to push rating, comments and tags from digiKam into the "
 "Baloo storage"
 msgstr "開啟這個選項可將評等、註解和標籤從 digiKam 移動到 Nepomuk 儲存"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:468
+#: core/utilities/setup/metadata/setupmetadata.cpp:477
 #, fuzzy, kde-format
 msgid "Read metadata from Baloo"
 msgstr "從 Nepomuk 讀取中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:469
+#: core/utilities/setup/metadata/setupmetadata.cpp:478
 #, fuzzy, kde-format
 msgid ""
 "Turn on this option if you want to apply changes to rating, comments and "
@@ -41617,13 +41624,13 @@ msgstr ""
 "如果您想要將用 Nepomuk 建立的標籤、評等和標籤變更套用到 digiKam 的中繼資料儲"
 "存區，請開啟這個選項。請注意不會自動編輯影像中繼資料。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:476
+#: core/utilities/setup/metadata/setupmetadata.cpp:485
 #, kde-format
 msgctxt "@title:tab"
 msgid "Baloo"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:492
+#: core/utilities/setup/metadata/setupmetadata.cpp:501
 #, fuzzy, kde-format
 msgid ""
 "<p><a href='http://community.kde.org/Baloo'>Baloo</a> provides the basis to "
@@ -41639,7 +41646,7 @@ msgstr ""
 "入 digiKam 的資料庫時透過 Nepomuk 完成的變更不會自動套用到影像的中繼資料。</"
 "p> "
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:530
+#: core/utilities/setup/metadata/setupmetadata.cpp:538
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Reading and Writing Metadata"
@@ -41647,13 +41654,13 @@ msgctxt "@label"
 msgid "Reading and Writing to Sidecars"
 msgstr "讀取與寫入中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:533
+#: core/utilities/setup/metadata/setupmetadata.cpp:541
 #, kde-format
 msgctxt "@option:check"
 msgid "Read from sidecar files"
 msgstr "從邊車檔讀取"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:535
+#: core/utilities/setup/metadata/setupmetadata.cpp:543
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -41661,42 +41668,42 @@ msgid ""
 "metadata."
 msgstr "開啟此選項，從 XMP 邊車檔讀取中繼資料。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:539
+#: core/utilities/setup/metadata/setupmetadata.cpp:547
 #, kde-format
 msgctxt "@option:check"
 msgid "Write to sidecar files"
 msgstr "寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:541
+#: core/utilities/setup/metadata/setupmetadata.cpp:549
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Turn on this option to save, as specified, metadata to XMP sidecar files."
 msgstr "開啟此選項，將指定的中繼資料寫入 XMP 邊車檔。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:545
+#: core/utilities/setup/metadata/setupmetadata.cpp:553
 #, fuzzy, kde-format
 #| msgid "Write to XMP sidecar for read-only image only"
 msgid "Write to XMP sidecar for read-only item only"
 msgstr "只對唯讀影像寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:546
+#: core/utilities/setup/metadata/setupmetadata.cpp:554
 #, kde-format
 msgid "Write to XMP sidecar only"
 msgstr "只寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:547
+#: core/utilities/setup/metadata/setupmetadata.cpp:555
 #, kde-format
 msgid "Write to image and XMP Sidecar"
 msgstr "寫入影像與 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:548
+#: core/utilities/setup/metadata/setupmetadata.cpp:556
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Specify the exact mode of XMP sidecar writing"
 msgstr "指定 XMP 邊車檔寫入的確切模式"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:567
+#: core/utilities/setup/metadata/setupmetadata.cpp:575
 #, kde-format
 msgid ""
 "<p>Add file types to be recognised as sidecars.</p><p>digiKam (optionally) "
@@ -41708,7 +41715,7 @@ msgid ""
 "must be separated by a semicolon or a space.</p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:583
+#: core/utilities/setup/metadata/setupmetadata.cpp:591
 #, kde-format
 msgid ""
 "<p>Here you can add extra extensions of sidecars files to be processed "
@@ -41718,25 +41725,25 @@ msgid ""
 "always included.</p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:591
+#: core/utilities/setup/metadata/setupmetadata.cpp:599
 #, fuzzy, kde-format
 #| msgid "Enter the editorial usage instructions."
 msgid "Enter additional sidecars file extensions."
 msgstr "輸入編輯使用須知。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:594
+#: core/utilities/setup/metadata/setupmetadata.cpp:602
 #, fuzzy, kde-format
 #| msgid "Enter the editorial usage instructions."
 msgid "Additional &sidecar file extensions"
 msgstr "輸入編輯使用須知。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:609
+#: core/utilities/setup/metadata/setupmetadata.cpp:617
 #, kde-format
 msgctxt "@title:tab"
 msgid "Sidecars"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:802
+#: core/utilities/setup/metadata/setupmetadata.cpp:810
 #, kde-format
 msgctxt "@info"
 msgid ""

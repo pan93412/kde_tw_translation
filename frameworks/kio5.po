@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-05 03:31+0200\n"
+"POT-Creation-Date: 2018-04-16 03:26+0200\n"
 "PO-Revision-Date: 2018-03-29 14:12+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -7264,10 +7264,11 @@ msgid "&Open With"
 msgstr "開啟方式(&O)"
 
 #: widgets/kfileitemactions.cpp:677
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Application"
 msgctxt "@action:inmenu Open With"
-msgid "&Other..."
-msgstr "其他(&O)..."
+msgid "&Other Application..."
+msgstr "應用程式(&A)"
 
 #: widgets/kfileitemactions.cpp:679 widgets/kfileitemactions.cpp:689
 #, kde-format
@@ -8924,6 +8925,10 @@ msgid ""
 msgstr ""
 "遠端主機並未送出任何 SSL 憑證。\n"
 "因為無法建立主機身份，因此將中止。"
+
+#~ msgctxt "@action:inmenu Open With"
+#~ msgid "&Other..."
+#~ msgstr "其他(&O)..."
 
 #~ msgctxt "KFile System Bookmarks"
 #~ msgid "This Month"
