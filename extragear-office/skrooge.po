@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-14 03:21+0200\n"
+"POT-Creation-Date: 2018-04-17 03:32+0200\n"
 "PO-Revision-Date: 2011-09-27 08:55+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -2605,8 +2605,8 @@ msgstr "循環操作已插入。"
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:63
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:871
 #: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:62
-#: skgbankmodeler/skgunitobject.cpp:2156 skgbasegui/skgtablewithgraph.cpp:2738
-#: skgbasegui/skgtablewithgraph.cpp:2755 skgbasegui/skgtreeview.cpp:1241
+#: skgbankmodeler/skgunitobject.cpp:2156 skgbasegui/skgtablewithgraph.cpp:2758
+#: skgbasegui/skgtablewithgraph.cpp:2775 skgbasegui/skgtreeview.cpp:1241
 #: skgbasegui/skgtreeview.cpp:1290 skgbasegui/skgtreeview.cpp:1319
 #, kde-format
 msgctxt "Error message"
@@ -3759,7 +3759,7 @@ msgid "Highlighted only"
 msgstr "操作已複製。"
 
 #: plugins/skrooge/skrooge_bank/skgbankpluginwidget.cpp:135
-#: skgbasegui/skgtablewithgraph.cpp:139
+#: skgbasegui/skgtablewithgraph.cpp:147
 #, fuzzy, kde-format
 msgid "Graph"
 msgstr "圖形"
@@ -10379,7 +10379,7 @@ msgstr "操作已複製。"
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:75
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_base.ui:114
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_base.ui:403
-#: skgbankgui/skgquerycreator.ui:39 skgbasegui/skgtablewithgraph.cpp:122
+#: skgbankgui/skgquerycreator.ui:39 skgbasegui/skgtablewithgraph.cpp:130
 #, kde-format
 msgid "Search"
 msgstr "搜尋"
@@ -15506,7 +15506,7 @@ msgctxt "Noun, user action"
 msgid "Show tool bar"
 msgstr "顯示工具列"
 
-#: skgbasegui/skggraphicsview.cpp:92 skgbasegui/skgtablewithgraph.cpp:158
+#: skgbasegui/skggraphicsview.cpp:92 skgbasegui/skgtablewithgraph.cpp:166
 #: skgbasegui/skgtreeview.cpp:595 skgbasegui/skgwebview.cpp:182
 #, kde-format
 msgctxt "Noun, user action"
@@ -16728,57 +16728,57 @@ msgctxt "The year before the current year"
 msgid "Last year"
 msgstr "過去兩年"
 
-#: skgbasegui/skgtablewithgraph.cpp:125 skgbasegui/skgtablewithgraph.cpp:164
+#: skgbasegui/skgtablewithgraph.cpp:133 skgbasegui/skgtablewithgraph.cpp:172
 #, kde-format
 msgctxt "Noun, a type of graph, with bars stacked upon each other"
 msgid "Stack of lines"
 msgstr ""
 
-#: skgbasegui/skgtablewithgraph.cpp:126 skgbasegui/skgtablewithgraph.cpp:165
+#: skgbasegui/skgtablewithgraph.cpp:134 skgbasegui/skgtablewithgraph.cpp:173
 #, fuzzy, kde-format
 #| msgid "Text document"
 msgctxt "Noun, a type of graph, with bars stacked upon each other"
 msgid "Stack of columns"
 msgstr "文字文件"
 
-#: skgbasegui/skgtablewithgraph.cpp:127 skgbasegui/skgtablewithgraph.cpp:166
+#: skgbasegui/skgtablewithgraph.cpp:135 skgbasegui/skgtablewithgraph.cpp:174
 #, kde-format
 msgctxt "Noun, a type of graph, with bars placed besides each other"
 msgid "Histogram"
 msgstr "直方圖"
 
-#: skgbasegui/skgtablewithgraph.cpp:128 skgbasegui/skgtablewithgraph.cpp:167
+#: skgbasegui/skgtablewithgraph.cpp:136 skgbasegui/skgtablewithgraph.cpp:175
 #, kde-format
 msgctxt "Noun, a type of graph with only points"
 msgid "Point"
 msgstr "點圖"
 
-#: skgbasegui/skgtablewithgraph.cpp:129 skgbasegui/skgtablewithgraph.cpp:168
+#: skgbasegui/skgtablewithgraph.cpp:137 skgbasegui/skgtablewithgraph.cpp:176
 #, kde-format
 msgctxt "Noun, a type of graph with only lines"
 msgid "Line"
 msgstr "線圖"
 
-#: skgbasegui/skgtablewithgraph.cpp:130 skgbasegui/skgtablewithgraph.cpp:169
+#: skgbasegui/skgtablewithgraph.cpp:138 skgbasegui/skgtablewithgraph.cpp:177
 #, fuzzy, kde-format
 #| msgid "Standard"
 msgctxt "Noun, a type of graph, with lines stacked upon each other"
 msgid "Stacked area"
 msgstr "標準"
 
-#: skgbasegui/skgtablewithgraph.cpp:131 skgbasegui/skgtablewithgraph.cpp:170
+#: skgbasegui/skgtablewithgraph.cpp:139 skgbasegui/skgtablewithgraph.cpp:178
 #, kde-format
 msgctxt "Noun, a type of graph, with bubbles"
 msgid "Bubble"
 msgstr ""
 
-#: skgbasegui/skgtablewithgraph.cpp:132 skgbasegui/skgtablewithgraph.cpp:171
+#: skgbasegui/skgtablewithgraph.cpp:140 skgbasegui/skgtablewithgraph.cpp:179
 #, kde-format
 msgctxt "Noun, a type of graph that looks like a sliced pie"
 msgid "Pie"
 msgstr "圓餅圖"
 
-#: skgbasegui/skgtablewithgraph.cpp:133 skgbasegui/skgtablewithgraph.cpp:172
+#: skgbasegui/skgtablewithgraph.cpp:141 skgbasegui/skgtablewithgraph.cpp:180
 #, kde-format
 msgctxt ""
 "Noun, a type of graph that looks like concentric slices of a pie (a la "
@@ -16786,36 +16786,36 @@ msgctxt ""
 msgid "Concentric pie"
 msgstr "同心圓餅圖"
 
-#: skgbasegui/skgtablewithgraph.cpp:134 skgbasegui/skgtablewithgraph.cpp:173
+#: skgbasegui/skgtablewithgraph.cpp:142 skgbasegui/skgtablewithgraph.cpp:181
 #, kde-format
 msgctxt "Noun, a type of graph that looks treemap"
 msgid "Treemap"
 msgstr ""
 
-#: skgbasegui/skgtablewithgraph.cpp:138
+#: skgbasegui/skgtablewithgraph.cpp:146
 #, fuzzy, kde-format
 #| msgid "Total"
 msgid "Table"
 msgstr "表格"
 
-#: skgbasegui/skgtablewithgraph.cpp:140
+#: skgbasegui/skgtablewithgraph.cpp:148
 #, kde-format
 msgid "Text"
 msgstr "文字"
 
-#: skgbasegui/skgtablewithgraph.cpp:183
+#: skgbasegui/skgtablewithgraph.cpp:191
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Reset default colors"
 msgstr "重置預設顏色"
 
-#: skgbasegui/skgtablewithgraph.cpp:188
+#: skgbasegui/skgtablewithgraph.cpp:196
 #, kde-format
 msgctxt "Noun, user action"
 msgid "All values in positive"
 msgstr ""
 
-#: skgbasegui/skgtablewithgraph.cpp:195
+#: skgbasegui/skgtablewithgraph.cpp:203
 #, fuzzy, kde-format
 #| msgctxt "Noun, user action"
 #| msgid "Show limits and average"
@@ -16823,7 +16823,7 @@ msgctxt "Noun, user action"
 msgid "Show limits"
 msgstr "顯示限制與平均"
 
-#: skgbasegui/skgtablewithgraph.cpp:203
+#: skgbasegui/skgtablewithgraph.cpp:214
 #, fuzzy, kde-format
 #| msgctxt "Noun, user action"
 #| msgid "Show legend"
@@ -16831,13 +16831,13 @@ msgctxt "Noun, user action"
 msgid "Show average"
 msgstr "顯示圖例"
 
-#: skgbasegui/skgtablewithgraph.cpp:211
+#: skgbasegui/skgtablewithgraph.cpp:225
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Show tendency line"
 msgstr ""
 
-#: skgbasegui/skgtablewithgraph.cpp:219
+#: skgbasegui/skgtablewithgraph.cpp:236
 #, fuzzy, kde-format
 #| msgctxt "Noun, user action"
 #| msgid "Show tool bar"
@@ -16845,13 +16845,13 @@ msgctxt "Noun, user action"
 msgid "Show Pareto curve"
 msgstr "顯示工具列"
 
-#: skgbasegui/skgtablewithgraph.cpp:227
+#: skgbasegui/skgtablewithgraph.cpp:244
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Show legend"
 msgstr "顯示圖例"
 
-#: skgbasegui/skgtablewithgraph.cpp:235
+#: skgbasegui/skgtablewithgraph.cpp:252
 #, fuzzy, kde-format
 #| msgctxt "Noun, user action"
 #| msgid "Show legend"
@@ -16859,7 +16859,7 @@ msgctxt "Noun, user action"
 msgid "Show origin"
 msgstr "顯示圖例"
 
-#: skgbasegui/skgtablewithgraph.cpp:243
+#: skgbasegui/skgtablewithgraph.cpp:260
 #, fuzzy, kde-format
 #| msgctxt "Noun, user action"
 #| msgid "Show limits and average"
@@ -16867,43 +16867,43 @@ msgctxt "Noun, user action"
 msgid "Show decimals"
 msgstr "顯示限制與平均"
 
-#: skgbasegui/skgtablewithgraph.cpp:487
+#: skgbasegui/skgtablewithgraph.cpp:507
 #, kde-format
 msgid "%1 (raw)"
 msgstr ""
 
-#: skgbasegui/skgtablewithgraph.cpp:955 skgbasegui/skgtablewithgraph.cpp:1122
+#: skgbasegui/skgtablewithgraph.cpp:975 skgbasegui/skgtablewithgraph.cpp:1142
 #: skgbasemodeler/skgdocument.cpp:2424 skgbasemodeler/skgdocument.cpp:2429
 #, kde-format
 msgctxt "Noun, the numerical sum of a list of values"
 msgid "Sum"
 msgstr "總和"
 
-#: skgbasegui/skgtablewithgraph.cpp:959
+#: skgbasegui/skgtablewithgraph.cpp:979
 #, kde-format
 msgctxt "Noun, the numerical average of a list of values"
 msgid "Average"
 msgstr "平均"
 
-#: skgbasegui/skgtablewithgraph.cpp:963
+#: skgbasegui/skgtablewithgraph.cpp:983
 #, kde-format
 msgctxt "Noun, the minimum value of a list of values"
 msgid "Min"
 msgstr "最小值"
 
-#: skgbasegui/skgtablewithgraph.cpp:964
+#: skgbasegui/skgtablewithgraph.cpp:984
 #, kde-format
 msgctxt "Noun, the maximum value of a list of values"
 msgid "Max"
 msgstr "最大值"
 
-#: skgbasegui/skgtablewithgraph.cpp:969
+#: skgbasegui/skgtablewithgraph.cpp:989
 #, kde-format
 msgctxt "Noun"
 msgid "Tendency line"
 msgstr ""
 
-#: skgbasegui/skgtablewithgraph.cpp:1123
+#: skgbasegui/skgtablewithgraph.cpp:1143
 #, kde-format
 msgctxt "Noun, the numerical sum of a list of values"
 msgid "Sum of '%1'"

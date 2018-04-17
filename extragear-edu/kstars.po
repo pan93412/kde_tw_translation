@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-16 03:20+0200\n"
+"POT-Creation-Date: 2018-04-17 03:29+0200\n"
 "PO-Revision-Date: 2018-03-29 13:29+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -6145,7 +6145,7 @@ msgid "Internal or External astrometry.cfg?"
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryWCSIsInternal), group (Align)
-#: ekos/align/opsalign.cpp:45 kstars.kcfg:1849
+#: ekos/align/opsalign.cpp:45 kstars.kcfg:1853
 #, kde-format
 msgid "Internal or External wcsinfo?"
 msgstr ""
@@ -8213,7 +8213,7 @@ msgid "AO"
 msgstr "SAO"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showINDIMessages)
-#: ekos/auxiliary/opslogs.ui:406 indi/opsindi.ui:378
+#: ekos/auxiliary/opslogs.ui:406 indi/opsindi.ui:388
 #, kde-format
 msgid "Display INDI status messages in the status bar"
 msgstr "在狀態列中顯示 INDI 狀態訊息"
@@ -8221,13 +8221,13 @@ msgstr "在狀態列中顯示 INDI 狀態訊息"
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_showINDIMessages)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showINDIMessages)
 #: ekos/auxiliary/opslogs.ui:409 ekos/auxiliary/opslogs.ui:412
-#: indi/opsindi.ui:381 indi/opsindi.ui:384
+#: indi/opsindi.ui:391 indi/opsindi.ui:394
 #, kde-format
 msgid "Display incoming INDI status messages in KStars status bar"
 msgstr "在狀態列中顯示 INDI 狀態訊息"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showINDIMessages)
-#: ekos/auxiliary/opslogs.ui:415 indi/opsindi.ui:387
+#: ekos/auxiliary/opslogs.ui:415 indi/opsindi.ui:397
 #, kde-format
 msgid "INDI messages in status &bar"
 msgstr "狀態列中顯示 INDI 訊息(&B)"
@@ -10422,7 +10422,7 @@ msgstr "斷線"
 
 #: ekos/ekosmanager.cpp:1044 ekos/ekosmanager.cpp:1134
 #: ekos/ekosmanager.cpp:1207 ekos/ekosmanager.cpp:1218
-#: ekos/ekosmanager.cpp:1229 indi/indistd.cpp:439
+#: ekos/ekosmanager.cpp:1229 indi/indistd.cpp:456
 #, kde-format
 msgid "%1 is online."
 msgstr "%1 已上線。"
@@ -11042,7 +11042,7 @@ msgstr "Seattle（西雅圖）"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, FocusSettleTime)
 #. i18n: ectx: whatsthis, entry (FocusSettleTime), group (Focus)
-#: ekos/focus/focus.ui:174 kstars.kcfg:1628
+#: ekos/focus/focus.ui:174 kstars.kcfg:1632
 #, kde-format
 msgid ""
 "Wait for this many seconds after moving the focuser before capturing the "
@@ -13064,7 +13064,7 @@ msgstr "自動延伸"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_GuideAutoSquareSizeEnabled)
 #. i18n: ectx: label, entry (GuideAutoSquareSizeEnabled), group (Guide)
 #: ekos/guide/internalguide/rcalibration.ui:91 ekos/guide/opscalibration.ui:126
-#: kstars.kcfg:1939
+#: kstars.kcfg:1943
 #, fuzzy, kde-format
 #| msgid "Automatically select the calibration star"
 msgid "Automatically select the square size based on the selected star width."
@@ -13246,7 +13246,7 @@ msgstr "貼上慧星名稱的最大距離。"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_DitherSettle)
 #. i18n: ectx: label, entry (DitherSettle), group (Guide)
-#: ekos/guide/opsguide.ui:273 ekos/guide/opsguide.ui:283 kstars.kcfg:1979
+#: ekos/guide/opsguide.ui:273 ekos/guide/opsguide.ui:283 kstars.kcfg:1983
 #, kde-format
 msgid ""
 "After dither is successful, wait for this many seconds before proceeding."
@@ -13457,7 +13457,19 @@ msgstr "靈敏度校正完成。"
 msgid "Failed to clear Alignment Model."
 msgstr "極地校準"
 
-#: ekos/mount/mount.cpp:909
+#: ekos/mount/mount.cpp:907
+#, kde-format
+msgid "GPS is detected. Do you want to switch time and location source to GPS?"
+msgstr ""
+
+#: ekos/mount/mount.cpp:908
+#, fuzzy, kde-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "Settings"
+msgid "GPS Settings"
+msgstr "設定"
+
+#: ekos/mount/mount.cpp:922
 #, kde-format
 msgid ""
 "GPS driver detected. KStars and mount time and location settings are now "
@@ -13616,7 +13628,7 @@ msgstr "開啟限制"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, minAltLabel)
 #. i18n: ectx: whatsthis, entry (MinimumAltLimit), group (Mount)
-#: ekos/mount/mount.ui:562 kstars.kcfg:1481
+#: ekos/mount/mount.ui:562 kstars.kcfg:1485
 #, kde-format
 msgid ""
 "Minimum telescope altitude limit. If the telescope is below this limit, it "
@@ -13701,7 +13713,7 @@ msgstr "儀器"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_EkosTopIcons)
 #. i18n: ectx: label, entry (EkosTopIcons), group (Ekos)
-#: ekos/opsekos.ui:83 kstars.kcfg:1438
+#: ekos/opsekos.ui:83 kstars.kcfg:1442
 #, kde-format
 msgid "Ekos modules icons are placed on the top of pages"
 msgstr ""
@@ -13739,7 +13751,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowEkos)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowFITS)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_independentWindowINDI)
-#: ekos/opsekos.ui:130 fitsviewer/opsfits.ui:107 indi/opsindi.ui:397
+#: ekos/opsekos.ui:130 fitsviewer/opsfits.ui:107 indi/opsindi.ui:407
 #, fuzzy, kde-format
 #| msgctxt "City in Kansas USA"
 #| msgid "Independence"
@@ -13935,7 +13947,7 @@ msgstr "Freehold"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_11)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_InSequenceCheckFrames)
 #. i18n: ectx: label, entry (InSequenceCheckFrames), group (Capture)
-#: ekos/opsekos.ui:357 ekos/opsekos.ui:367 kstars.kcfg:1599
+#: ekos/opsekos.ui:357 ekos/opsekos.ui:367 kstars.kcfg:1603
 #, kde-format
 msgid "Run In-Sequence HFR check after this many frames."
 msgstr ""
@@ -14044,7 +14056,7 @@ msgstr "清除"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_7)
 #. i18n: ectx: label, entry (MaxDarkTemperatureDiff), group (DarkLibrary)
-#: ekos/opsekos.ui:484 kstars.kcfg:1468
+#: ekos/opsekos.ui:484 kstars.kcfg:1472
 #, kde-format
 msgid ""
 "Maximum acceptable difference between current and recorded dark frame "
@@ -14076,7 +14088,7 @@ msgstr "Calar Alto"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #. i18n: ectx: label, entry (DarkLibraryDuration), group (Capture)
-#: ekos/opsekos.ui:511 kstars.kcfg:1603
+#: ekos/opsekos.ui:511 kstars.kcfg:1607
 #, kde-format
 msgid ""
 "Reuse dark frames from the dark library for this many days. If exceeded, a "
@@ -17294,7 +17306,7 @@ msgstr "KStars FITS 檢視器"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_singlePreviewFITS)
 #. i18n: ectx: whatsthis, entry (singlePreviewFITS), group (FITSViewer)
-#: fitsviewer/opsfits.ui:53 kstars.kcfg:1372
+#: fitsviewer/opsfits.ui:53 kstars.kcfg:1376
 #, kde-format
 msgid ""
 "Display all captured FITS images in a single tab instead of multiple tabs "
@@ -17562,7 +17574,7 @@ msgid "SNR:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, displayGroup)
-#: hips/hipsmanager.cpp:96 indi/opsindi.ui:353
+#: hips/hipsmanager.cpp:96 indi/opsindi.ui:363
 #, kde-format
 msgid "Display"
 msgstr "顯示"
@@ -18007,13 +18019,13 @@ msgstr "開啟雙向傳輸二進位資料"
 msgid "Upload"
 msgstr "上傳"
 
-#: indi/indistd.cpp:215 indi/indistd.cpp:219
+#: indi/indistd.cpp:230 indi/indistd.cpp:234
 #, fuzzy, kde-format
 #| msgid "Set Location..."
 msgid "GPS Location"
 msgstr "設定位置..."
 
-#: indi/indistd.cpp:385
+#: indi/indistd.cpp:402
 #, kde-format
 msgid "Data file saved to %1"
 msgstr "資料檔案已儲存到 %1"
@@ -18119,7 +18131,7 @@ msgid "Driver %1 failed to start on the remote INDI server!"
 msgstr "遠端 INDI 焦點器裝置名稱。"
 
 #. i18n: ectx: label, entry (indiServerIsInternal), group (indi)
-#: indi/opsindi.cpp:45 kstars.kcfg:210
+#: indi/opsindi.cpp:45 kstars.kcfg:214
 #, kde-format
 msgid "Internal or External INDI Server?"
 msgstr ""
@@ -18197,7 +18209,7 @@ msgstr ""
 msgid "Time && Location Updates"
 msgstr "日期與位置"
 
-#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useComputerSource)
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useKStarsSource)
 #: indi/opsindi.ui:185
 #, kde-format
 msgid ""
@@ -18206,7 +18218,7 @@ msgid ""
 "KStars settings.</p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_useComputerSource)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_useKStarsSource)
 #: indi/opsindi.ui:188
 #, kde-format
 msgid "KStars Updates All Devices"
@@ -18225,20 +18237,21 @@ msgstr "要依據成功的連線來載入裝置設定嗎？"
 msgid "Synchronize KStars date and time automatically from the update source."
 msgstr "自動從更新來源來同步 KStars 的日期與時間。"
 
-#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useDeviceSource)
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useMountSource)
 #: indi/opsindi.ui:224
 #, kde-format
 msgid ""
-"<html><head/><body><p>GPS/Mount devices are the master source of time and "
+"<html><head/><body><p>Mount handset is the master source of time and "
 "location settings. KStars time and location settings are synchronized with "
-"GPS/Mount settings.</p></body></html>"
+"controller settings.</p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_useDeviceSource)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_useMountSource)
 #: indi/opsindi.ui:227
-#, kde-format
-msgid "GPS && Mount Updates KStars"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Multiple Star"
+msgid "Mount Updates KStars"
+msgstr "多重星體"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useGeographicUpdate)
 #: indi/opsindi.ui:234
@@ -18262,8 +18275,24 @@ msgstr "從更新來源來同步 KStars 的位置設定"
 msgid "Location"
 msgstr "位置："
 
+#. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_useGPSSource)
+#: indi/opsindi.ui:250
+#, kde-format
+msgid ""
+"<html><head/><body><p>GPS driver is the master source of time and location "
+"settings. KStars time and location settings are synchronized with GPS "
+"settings.</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_useGPSSource)
+#: indi/opsindi.ui:253
+#, fuzzy, kde-format
+#| msgid "Update"
+msgid "GPS Updates KStars"
+msgstr "更新"
+
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
-#: indi/opsindi.ui:268
+#: indi/opsindi.ui:278
 #, kde-format
 msgid ""
 "Specify range of ports that INDI Server will bind to when starting new "
@@ -18271,34 +18300,34 @@ msgid ""
 msgstr "指定 INDI 伺服器啟動新驅動程式時監聽的連接埠範圍"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: indi/opsindi.ui:271 kstarslite/qml/indi/INDIControlPanel.qml:192
+#: indi/opsindi.ui:281 kstarslite/qml/indi/INDIControlPanel.qml:192
 #, kde-format, kde-kuit-format
 msgid "Server Port"
 msgstr "伺服器連接埠"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: indi/opsindi.ui:294 tools/obslistwizard.ui:757
+#: indi/opsindi.ui:304 tools/obslistwizard.ui:757
 #, kde-format
 msgid "From:"
 msgstr "從："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: indi/opsindi.ui:301 tools/obslistwizard.ui:771
+#: indi/opsindi.ui:311 tools/obslistwizard.ui:771
 #, kde-format
 msgid "To:"
 msgstr "到："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:359
+#: indi/opsindi.ui:369
 #, kde-format
 msgid "Display the telescope position on the sky map"
 msgstr "在天體圖上顯示望遠鏡位置"
 
 #. i18n: ectx: property (statusTip), widget (QCheckBox, kcfg_showTargetCrosshair)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:362 indi/opsindi.ui:365
+#: indi/opsindi.ui:372 indi/opsindi.ui:375
 #, kde-format
 msgid ""
 "Display a telescope marker on the sky map in order to track the telescope "
@@ -18306,26 +18335,26 @@ msgid ""
 msgstr "在天體圖中顯示望遠鏡的標記，以便追蹤望遠鏡的動作。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showTargetCrosshair)
-#: indi/opsindi.ui:368
+#: indi/opsindi.ui:378
 #, kde-format
 msgid "&Telescope crosshair"
 msgstr "(&T)望遠鏡十字線"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_messageNotificationINDI)
-#: indi/opsindi.ui:404
+#: indi/opsindi.ui:414
 #, kde-format
 msgid "Show INDI messages as desktop notifications instead of dialogs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_messageNotificationINDI)
-#: indi/opsindi.ui:407
+#: indi/opsindi.ui:417
 #, fuzzy, kde-format
 #| msgid "set location"
 msgid "Message notifications"
 msgstr "設定位置"
 
 #. i18n: ectx: property (text), widget (QPushButton, showLogsB)
-#: indi/opsindi.ui:430
+#: indi/opsindi.ui:440
 #, fuzzy, kde-format
 #| msgid "Show &long names"
 msgid "Show INDI Logs"
@@ -19349,197 +19378,206 @@ msgstr "狀態列中顯示 INDI 訊息(&B)"
 msgid "Show INDI messages as desktop notifications instead of dialogs."
 msgstr ""
 
-#. i18n: ectx: label, entry (useComputerSource), group (indi)
+#. i18n: ectx: label, entry (useKStarsSource), group (indi)
 #: kstars.kcfg:178
-#, kde-format
-msgid "Use computer time and location for synchronization?"
+#, fuzzy, kde-format
+#| msgid "Use computer time and location for synchronization?"
+msgid "Use KStars time and location for synchronization?"
 msgstr "要使用電腦的時間與位置來同步嗎？"
 
-#. i18n: ectx: label, entry (useDeviceSource), group (indi)
+#. i18n: ectx: label, entry (useMountSource), group (indi)
 #: kstars.kcfg:182
-#, kde-format
-msgid "Use device time and location for synchronization?"
+#, fuzzy, kde-format
+#| msgid "Use computer time and location for synchronization?"
+msgid "Use mount time and location for synchronization?"
+msgstr "要使用電腦的時間與位置來同步嗎？"
+
+#. i18n: ectx: label, entry (useGPSSource), group (indi)
+#: kstars.kcfg:186
+#, fuzzy, kde-format
+#| msgid "Use device time and location for synchronization?"
+msgid "Use GPS time and location for synchronization?"
 msgstr "要使用裝置的時間與位置來同步嗎？"
 
 #. i18n: ectx: label, entry (fitsDir), group (indi)
-#: kstars.kcfg:186
+#: kstars.kcfg:190
 #, kde-format
 msgid "FITS Default directory"
 msgstr "預設 FITS 目錄"
 
 #. i18n: ectx: whatsthis, entry (fitsDir), group (indi)
-#: kstars.kcfg:187
+#: kstars.kcfg:191
 #, kde-format
 msgid "The default location of saved FITS files"
 msgstr "儲存 FITS 檔案的預設目錄"
 
 #. i18n: ectx: label, entry (serverPortStart), group (indi)
-#: kstars.kcfg:191
+#: kstars.kcfg:195
 #, kde-format
 msgid "INDI Server Start Port"
 msgstr "INDI 伺服器啟始連接埠"
 
 #. i18n: ectx: whatsthis, entry (serverPortStart), group (indi)
-#: kstars.kcfg:192
+#: kstars.kcfg:196
 #, kde-format
 msgid "INDI server will attempt to bind with ports starting from this port"
 msgstr "INDI 伺服器會結合以此埠號算起的連接埠。"
 
 #. i18n: ectx: label, entry (serverPortEnd), group (indi)
-#: kstars.kcfg:196
+#: kstars.kcfg:200
 #, kde-format
 msgid "INDI Server Final Port"
 msgstr "INDI 伺服器終止連接埠"
 
 #. i18n: ectx: whatsthis, entry (serverPortEnd), group (indi)
-#: kstars.kcfg:197
+#: kstars.kcfg:201
 #, kde-format
 msgid "INDI server will attempt to bind with ports ending with this port"
 msgstr "INDI 伺服器會結合此埠號以前的連接埠。"
 
 #. i18n: ectx: label, entry (filterAlias), group (indi)
-#: kstars.kcfg:201
+#: kstars.kcfg:205
 #, kde-format
 msgid "Aliases for filter wheel slots."
 msgstr "過濾器輪槽的別名。"
 
 #. i18n: ectx: whatsthis, entry (filterAlias), group (indi)
-#: kstars.kcfg:202
+#: kstars.kcfg:206
 #, kde-format
 msgid "List of the aliases for filter wheel slots."
 msgstr "過濾器輪槽別名清單。"
 
 #. i18n: ectx: label, entry (indiServer), group (indi)
 #. i18n: ectx: whatsthis, entry (indiServer), group (indi)
-#: kstars.kcfg:205 kstars.kcfg:206
+#: kstars.kcfg:209 kstars.kcfg:210
 #, kde-format
 msgid "PATH to indiserver binary"
 msgstr "indiserver 執行檔路徑"
 
 #. i18n: ectx: label, entry (indiDriversDir), group (indi)
 #. i18n: ectx: whatsthis, entry (indiDriversDir), group (indi)
-#: kstars.kcfg:214 kstars.kcfg:215
+#: kstars.kcfg:218 kstars.kcfg:219
 #, kde-format
 msgid "PATH to indi drivers directory"
 msgstr "indi 驅動程式目錄的路徑"
 
 #. i18n: ectx: label, entry (indiDriversAreInternal), group (indi)
 #. i18n: ectx: label, entry (AstrometrySolverIsInternal), group (Align)
-#: kstars.kcfg:219 kstars.kcfg:1840
+#: kstars.kcfg:223 kstars.kcfg:1844
 #, fuzzy, kde-format
 #| msgid "Options passed to the astrometry solver."
 msgid "Internal or External Astrometry Solver?"
 msgstr "要傳送給 astrometry 識別器的選項。"
 
 #. i18n: ectx: label, entry (streamWindowWidth), group (indi)
-#: kstars.kcfg:223
+#: kstars.kcfg:227
 #, kde-format
 msgid "Video streaming window width"
 msgstr ""
 
 #. i18n: ectx: label, entry (streamWindowHeight), group (indi)
-#: kstars.kcfg:227
+#: kstars.kcfg:231
 #, kde-format
 msgid "Video streaming window height"
 msgstr ""
 
 #. i18n: ectx: label, entry (INDIMountLogging), group (indi)
-#: kstars.kcfg:231
+#: kstars.kcfg:235
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Mount logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIFocuserLogging), group (indi)
-#: kstars.kcfg:235
+#: kstars.kcfg:239
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Focuser logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDICCDLogging), group (indi)
-#: kstars.kcfg:239
+#: kstars.kcfg:243
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI CCD logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIFilterWheelLogging), group (indi)
-#: kstars.kcfg:243
+#: kstars.kcfg:247
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Filter Wheel logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIDomeLogging), group (indi)
-#: kstars.kcfg:247
+#: kstars.kcfg:251
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Dome logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIDetectorLogging), group (indi)
-#: kstars.kcfg:251
+#: kstars.kcfg:255
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Detector logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIWeatherLogging), group (indi)
-#: kstars.kcfg:255
+#: kstars.kcfg:259
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Weather logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIAuxiliaryLogging), group (indi)
-#: kstars.kcfg:259
+#: kstars.kcfg:263
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Auxiliary logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIRotatorLogging), group (indi)
-#: kstars.kcfg:263
+#: kstars.kcfg:267
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Rotator logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIGPSLogging), group (indi)
-#: kstars.kcfg:267
+#: kstars.kcfg:271
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI GPS logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (INDIAOLogging), group (indi)
-#: kstars.kcfg:271
+#: kstars.kcfg:275
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable INDI Adaptive Optics logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: label, entry (CityName), group (Location)
-#: kstars.kcfg:278
+#: kstars.kcfg:282
 #, kde-format
 msgid "City name of geographic location."
 msgstr "地理位置的城市名稱。"
 
 #. i18n: ectx: whatsthis, entry (CityName), group (Location)
-#: kstars.kcfg:279
+#: kstars.kcfg:283
 #, kde-format
 msgid "The City name of the current geographic location."
 msgstr "目前地理位置的城市名稱。"
 
 #. i18n: ectx: label, entry (ProvinceName), group (Location)
-#: kstars.kcfg:283
+#: kstars.kcfg:287
 #, kde-format
 msgid "Province name of geographic location."
 msgstr "地理位置的省名。"
 
 #. i18n: ectx: whatsthis, entry (ProvinceName), group (Location)
-#: kstars.kcfg:284
+#: kstars.kcfg:288
 #, fuzzy, kde-format
 #| msgid ""
 #| "The Province name of the current geographic location.  This is the name "
@@ -19550,62 +19588,62 @@ msgid ""
 msgstr "目前地理位置的省名或州名。"
 
 #. i18n: ectx: label, entry (CountryName), group (Location)
-#: kstars.kcfg:288
+#: kstars.kcfg:292
 #, kde-format
 msgid "Country name of geographic location."
 msgstr "地理位置的國家名稱。"
 
 #. i18n: ectx: whatsthis, entry (CountryName), group (Location)
-#: kstars.kcfg:289
+#: kstars.kcfg:293
 #, kde-format
 msgid "The Country name of the current geographic location."
 msgstr "目前地理位置的國家名稱。"
 
 #. i18n: ectx: label, entry (Longitude), group (Location)
-#: kstars.kcfg:293
+#: kstars.kcfg:297
 #, kde-format
 msgid "Geographic Longitude, in degrees."
 msgstr "地理經度，以度為單位"
 
 #. i18n: ectx: whatsthis, entry (Longitude), group (Location)
-#: kstars.kcfg:294
+#: kstars.kcfg:298
 #, kde-format
 msgid "The longitude of the current geographic location, in decimal degrees."
 msgstr "目前地理位置的經度，以度為單位。"
 
 #. i18n: ectx: label, entry (Latitude), group (Location)
-#: kstars.kcfg:298
+#: kstars.kcfg:302
 #, kde-format
 msgid "Geographic Latitude, in degrees."
 msgstr "地理緯度"
 
 #. i18n: ectx: whatsthis, entry (Latitude), group (Location)
-#: kstars.kcfg:299
+#: kstars.kcfg:303
 #, kde-format
 msgid "The latitude of the current geographic location, in decimal degrees."
 msgstr "目前地理位置的緯度，以度為單位。"
 
 #. i18n: ectx: label, entry (Elevation), group (Location)
-#: kstars.kcfg:303
+#: kstars.kcfg:307
 #, kde-format
 msgid "Elevation above sea level of geographic location, in meters."
 msgstr "地理位置的水平高度，以公尺為單位。"
 
 #. i18n: ectx: label, entry (TimeZone), group (Location)
-#: kstars.kcfg:307
+#: kstars.kcfg:311
 #, kde-format
 msgid "Time Zone offset of geographic location, in hours."
 msgstr "地理位置的時區，以小時為單位。"
 
 #. i18n: ectx: label, entry (DST), group (Location)
-#: kstars.kcfg:311
+#: kstars.kcfg:315
 #, kde-format
 msgid ""
 "Two-letter code for daylight savings time rule used by geographic location."
 msgstr "地理位置的日光節約時間規則代碼，兩個字母。"
 
 #. i18n: ectx: whatsthis, entry (DST), group (Location)
-#: kstars.kcfg:312
+#: kstars.kcfg:316
 #, kde-format
 msgid ""
 "Two-letter code that determines the dates on which daylight savings time "
@@ -19616,13 +19654,13 @@ msgstr ""
 "約時間規則」鍵可以看規則。）"
 
 #. i18n: ectx: label, entry (UseAnimatedSlewing), group (View)
-#: kstars.kcfg:319
+#: kstars.kcfg:323
 #, kde-format
 msgid "Use animated slewing effects when changing focus position?"
 msgstr "改變焦點位置時使用動畫旋轉效果"
 
 #. i18n: ectx: whatsthis, entry (UseAnimatedSlewing), group (View)
-#: kstars.kcfg:320
+#: kstars.kcfg:324
 #, fuzzy, kde-format
 #| msgid ""
 #| "If true, focus changes will cause the sky to visibly spin to the new "
@@ -19636,13 +19674,13 @@ msgstr ""
 "去。"
 
 #. i18n: ectx: label, entry (FOVNames), group (View)
-#: kstars.kcfg:324
+#: kstars.kcfg:328
 #, kde-format
 msgid "Name of selected FOV indicators"
 msgstr "選取的視場指示器名稱"
 
 #. i18n: ectx: whatsthis, entry (FOVNames), group (View)
-#: kstars.kcfg:325
+#: kstars.kcfg:329
 #, fuzzy, kde-format
 #| msgid ""
 #| "The names of the currently selected field-of-view indicators.  The list "
@@ -19654,13 +19692,13 @@ msgid ""
 msgstr "目前選取的視場指示器的名稱。名稱清單列在「設定」─「視場符號」選單中。"
 
 #. i18n: ectx: label, entry (FadePlanetTrails), group (View)
-#: kstars.kcfg:329
+#: kstars.kcfg:333
 #, kde-format
 msgid "Fade planet trails to background color?"
 msgstr "要讓軌跡淡出嗎？"
 
 #. i18n: ectx: whatsthis, entry (FadePlanetTrails), group (View)
-#: kstars.kcfg:330
+#: kstars.kcfg:334
 #, kde-format
 msgid ""
 "If true, trails attached to solar system bodies will fade into the "
@@ -19668,13 +19706,13 @@ msgid ""
 msgstr "勾選此選項的話，行星軌跡會淡出為背景顏色。"
 
 #. i18n: ectx: label, entry (FocusRA), group (View)
-#: kstars.kcfg:334
+#: kstars.kcfg:338
 #, kde-format
 msgid "Right Ascension of focus position"
 msgstr "焦點位置的赤經"
 
 #. i18n: ectx: whatsthis, entry (FocusRA), group (View)
-#: kstars.kcfg:335
+#: kstars.kcfg:339
 #, fuzzy, kde-format
 #| msgid ""
 #| "The right ascension of the initial focus position of the sky map, in "
@@ -19686,13 +19724,13 @@ msgid ""
 msgstr "初始焦點位置的赤經，以小時為單位。此值在程式結束後就不見了。"
 
 #. i18n: ectx: label, entry (FocusDec), group (View)
-#: kstars.kcfg:339
+#: kstars.kcfg:343
 #, kde-format
 msgid "Declination of focus position"
 msgstr "焦點位置的赤緯"
 
 #. i18n: ectx: whatsthis, entry (FocusDec), group (View)
-#: kstars.kcfg:340
+#: kstars.kcfg:344
 #, fuzzy, kde-format
 #| msgid ""
 #| "The declination of the initial focus position of the sky map, in decimal "
@@ -19704,13 +19742,13 @@ msgid ""
 msgstr "初始焦點位置的赤緯，以度為單位。此值在程式結束後就不見了。"
 
 #. i18n: ectx: label, entry (FocusObject), group (View)
-#: kstars.kcfg:344
+#: kstars.kcfg:348
 #, kde-format
 msgid "Name of focused object"
 msgstr "焦點物件的名稱"
 
 #. i18n: ectx: whatsthis, entry (FocusObject), group (View)
-#: kstars.kcfg:345
+#: kstars.kcfg:349
 #, fuzzy, kde-format
 #| msgid ""
 #| "The name of the object that should be centered and tracked on startup.  "
@@ -19725,13 +19763,13 @@ msgstr ""
 "束後就不見了。"
 
 #. i18n: ectx: label, entry (IsTracking), group (View)
-#: kstars.kcfg:349
+#: kstars.kcfg:353
 #, kde-format
 msgid "Is tracking engaged?"
 msgstr "開始就要追蹤嗎？"
 
 #. i18n: ectx: whatsthis, entry (IsTracking), group (View)
-#: kstars.kcfg:350
+#: kstars.kcfg:354
 #, fuzzy, kde-format
 #| msgid ""
 #| "True if the skymap should track on its initial position on startup.  This "
@@ -19742,13 +19780,13 @@ msgid ""
 msgstr "是的話，開始時天體圖就會追蹤它的初始位置。此值在程式結束後就不見了。"
 
 #. i18n: ectx: label, entry (HideOnSlew), group (View)
-#: kstars.kcfg:354
+#: kstars.kcfg:358
 #, kde-format
 msgid "Hide objects while moving?"
 msgstr "移動時要隱藏物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideOnSlew), group (View)
-#: kstars.kcfg:355
+#: kstars.kcfg:359
 #, kde-format
 msgid ""
 "Toggle whether KStars should hide some objects while the display is moving, "
@@ -19756,13 +19794,13 @@ msgid ""
 msgstr "決定 KStars 是否在顯示移動時要隱藏部份物件讓動畫更順利。"
 
 #. i18n: ectx: label, entry (HideCBounds), group (View)
-#: kstars.kcfg:359
+#: kstars.kcfg:363
 #, kde-format
 msgid "Hide constellation boundaries while moving?"
 msgstr "旋轉時要隱藏星座邊界嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideCBounds), group (View)
-#: kstars.kcfg:360
+#: kstars.kcfg:364
 #, kde-format
 msgid ""
 "Toggle whether constellation boundaries are hidden while the display is in "
@@ -19771,39 +19809,39 @@ msgstr "勾選此選項的話，在移動天體圖時會隱藏星座邊界。"
 
 #. i18n: ectx: label, entry (HideCLines), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideCLines)
-#: kstars.kcfg:364 options/opsadvanced.ui:636
+#: kstars.kcfg:368 options/opsadvanced.ui:636
 #, kde-format
 msgid "Hide constellation lines while moving?"
 msgstr "移動時要隱藏星座線條嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideCLines), group (View)
-#: kstars.kcfg:365
+#: kstars.kcfg:369
 #, kde-format
 msgid ""
 "Toggle whether constellation lines are hidden while the display is in motion."
 msgstr "勾選此選項的話，在移動天體圖時會隱藏星座線條。"
 
 #. i18n: ectx: label, entry (SkyCulture), group (View)
-#: kstars.kcfg:369
+#: kstars.kcfg:373
 #, kde-format
 msgid "Sky culture"
 msgstr "天體文化"
 
 #. i18n: ectx: whatsthis, entry (SkyCulture), group (View)
-#: kstars.kcfg:370
+#: kstars.kcfg:374
 #, kde-format
 msgid "Choose sky culture."
 msgstr "選擇天體文化。"
 
 #. i18n: ectx: label, entry (HideCNames), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideCNames)
-#: kstars.kcfg:374 options/opsadvanced.ui:610
+#: kstars.kcfg:378 options/opsadvanced.ui:610
 #, kde-format
 msgid "Hide constellation names while moving?"
 msgstr "移動時要隱藏星座名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideCNames), group (View)
-#: kstars.kcfg:375
+#: kstars.kcfg:379
 #, kde-format
 msgid ""
 "Toggle whether constellation names are hidden while the display is in motion."
@@ -19811,13 +19849,13 @@ msgstr "勾選此選項的話，在移動天體圖時會隱藏星座名稱。"
 
 #. i18n: ectx: label, entry (HideGrids), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideGrids)
-#: kstars.kcfg:379 options/opsadvanced.ui:676
+#: kstars.kcfg:383 options/opsadvanced.ui:676
 #, kde-format
 msgid "Hide coordinate grids while moving?"
 msgstr "移動時要隱藏座標格嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideGrids), group (View)
-#: kstars.kcfg:380
+#: kstars.kcfg:384
 #, kde-format
 msgid ""
 "Toggle whether the coordinate grids are hidden while the display is in "
@@ -19825,13 +19863,13 @@ msgid ""
 msgstr "勾選此選項的話，在移動天體圖時會隱藏座標格。"
 
 #. i18n: ectx: label, entry (HideMilkyWay), group (View)
-#: kstars.kcfg:384
+#: kstars.kcfg:388
 #, kde-format
 msgid "Hide Milky Way contour while moving?"
 msgstr "移動時要隱藏銀河輪廓嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideMilkyWay), group (View)
-#: kstars.kcfg:385
+#: kstars.kcfg:389
 #, kde-format
 msgid ""
 "Toggle whether the Milky Way contour is hidden while the display is in "
@@ -19840,25 +19878,25 @@ msgstr "勾選此選項的話，移動天體圖時會隱藏銀河的輪廓。"
 
 #. i18n: ectx: label, entry (HideIC), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideIC)
-#: kstars.kcfg:389 options/opsadvanced.ui:649
+#: kstars.kcfg:393 options/opsadvanced.ui:649
 #, kde-format
 msgid "Hide IC objects while moving?"
 msgstr "移動時隱藏 IC 物件？"
 
 #. i18n: ectx: whatsthis, entry (HideIC), group (View)
-#: kstars.kcfg:390
+#: kstars.kcfg:394
 #, kde-format
 msgid "Toggle whether IC objects are hidden while the display is in motion."
 msgstr "切換移動顯示時是否要隱藏 IC 物件。"
 
 #. i18n: ectx: label, entry (HideMessier), group (View)
-#: kstars.kcfg:394
+#: kstars.kcfg:398
 #, kde-format
 msgid "Hide Messier objects while moving?"
 msgstr "移動時要隱藏梅西爾物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideMessier), group (View)
-#: kstars.kcfg:395
+#: kstars.kcfg:399
 #, kde-format
 msgid ""
 "Toggle whether Messier objects are hidden while the display is in motion."
@@ -19866,37 +19904,37 @@ msgstr "切換移動顯示時是否要隱藏梅西爾物件。"
 
 #. i18n: ectx: label, entry (HideNGC), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideNGC)
-#: kstars.kcfg:399 options/opsadvanced.ui:623
+#: kstars.kcfg:403 options/opsadvanced.ui:623
 #, kde-format
 msgid "Hide NGC objects while moving?"
 msgstr "移動時要隱藏 NGC 物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideNGC), group (View)
-#: kstars.kcfg:400
+#: kstars.kcfg:404
 #, kde-format
 msgid "Toggle whether NGC objects are hidden while the display is in motion."
 msgstr "切換移動顯示時是否要隱藏 NGC 物件。"
 
 #. i18n: ectx: label, entry (HideOther), group (View)
-#: kstars.kcfg:404
+#: kstars.kcfg:408
 #, kde-format
 msgid "Hide extra objects while moving?"
 msgstr "移動時要隱藏額外物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideOther), group (View)
-#: kstars.kcfg:405
+#: kstars.kcfg:409
 #, kde-format
 msgid "Toggle whether extra objects are hidden while the display is in motion."
 msgstr "切換移動顯示時是否要隱藏額外物件。"
 
 #. i18n: ectx: label, entry (HidePlanets), group (View)
-#: kstars.kcfg:409
+#: kstars.kcfg:413
 #, kde-format
 msgid "Hide solar system objects while moving?"
 msgstr "移動時要隱藏太陽系嗎？"
 
 #. i18n: ectx: whatsthis, entry (HidePlanets), group (View)
-#: kstars.kcfg:410
+#: kstars.kcfg:414
 #, kde-format
 msgid ""
 "Toggle whether solar system objects are hidden while the display is in "
@@ -19905,171 +19943,171 @@ msgstr "勾選此選項的話，天體圖移動時會隱藏太陽系。"
 
 #. i18n: ectx: label, entry (HideStars), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideStars)
-#: kstars.kcfg:414 options/opsadvanced.ui:531
+#: kstars.kcfg:418 options/opsadvanced.ui:531
 #, kde-format
 msgid "Hide faint stars while moving?"
 msgstr "要在移動時隱藏不亮的星體嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideStars), group (View)
-#: kstars.kcfg:415
+#: kstars.kcfg:419
 #, kde-format
 msgid "Toggle whether faint stars are hidden while the display is in motion."
 msgstr "勾選此選項的話，天體圖移動時不亮的星體會被隱藏。"
 
 #. i18n: ectx: label, entry (HideLabels), group (View)
-#: kstars.kcfg:419
+#: kstars.kcfg:423
 #, kde-format
 msgid "Hide object name labels while moving?"
 msgstr "移動時要隱藏物件名稱標籤嗎？"
 
 #. i18n: ectx: whatsthis, entry (HideLabels), group (View)
-#: kstars.kcfg:420
+#: kstars.kcfg:424
 #, kde-format
 msgid "Toggle whether name labels are hidden while the display is in motion."
 msgstr "切換移動顯示時是否要顯示物件名稱標籤。"
 
 #. i18n: ectx: label, entry (ShowAsteroids), group (View)
-#: kstars.kcfg:424
+#: kstars.kcfg:428
 #, kde-format
 msgid "Draw asteroids in the sky map?"
 msgstr "要畫出小行星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowAsteroids), group (View)
-#: kstars.kcfg:425
+#: kstars.kcfg:429
 #, kde-format
 msgid "Toggle whether asteroids are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出小行星。"
 
 #. i18n: ectx: label, entry (ShowAsteroidNames), group (View)
-#: kstars.kcfg:429
+#: kstars.kcfg:433
 #, kde-format
 msgid "Label asteroid names in the sky map?"
 msgstr "要在天體圖中標示小行星名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowAsteroidNames), group (View)
-#: kstars.kcfg:430
+#: kstars.kcfg:434
 #, kde-format
 msgid "Toggle whether asteroid name labels are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出小行星名稱。"
 
 #. i18n: ectx: label, entry (ShowComets), group (View)
-#: kstars.kcfg:434
+#: kstars.kcfg:438
 #, kde-format
 msgid "Draw comets in the sky map?"
 msgstr "要畫出慧星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowComets), group (View)
-#: kstars.kcfg:435
+#: kstars.kcfg:439
 #, kde-format
 msgid "Toggle whether comets are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出慧星。"
 
 #. i18n: ectx: label, entry (ShowCometComas), group (View)
-#: kstars.kcfg:439
+#: kstars.kcfg:443
 #, fuzzy, kde-format
 #| msgid "Draw comets in the sky map?"
 msgid "Draw comet comas in the sky map?"
 msgstr "要畫出慧星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowCometComas), group (View)
-#: kstars.kcfg:440
+#: kstars.kcfg:444
 #, fuzzy, kde-format
 #| msgid "Toggle whether comets are drawn in the sky map."
 msgid "Toggle whether comet comas are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出慧星。"
 
 #. i18n: ectx: label, entry (ShowCometNames), group (View)
-#: kstars.kcfg:444
+#: kstars.kcfg:448
 #, kde-format
 msgid "Label comet names in the sky map?"
 msgstr "要在天體圖中標出慧星名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowCometNames), group (View)
-#: kstars.kcfg:445
+#: kstars.kcfg:449
 #, kde-format
 msgid "Toggle whether comet name labels are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出慧星名稱。"
 
 #. i18n: ectx: label, entry (ShowSupernovae), group (View)
-#: kstars.kcfg:449
+#: kstars.kcfg:453
 #, kde-format
 msgid "Draw supernovae in the sky map?"
 msgstr "要在天體圖中畫出超新星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowSupernovae), group (View)
-#: kstars.kcfg:450
+#: kstars.kcfg:454
 #, kde-format
 msgid "Toggle whether supernovae are drawn in the sky map."
 msgstr "切換是否要在天體圖畫出超新星。"
 
 #. i18n: ectx: label, entry (ShowSupernovaNames), group (View)
-#: kstars.kcfg:454
+#: kstars.kcfg:458
 #, kde-format
 msgid "Label Supernova Names in the sky map?"
 msgstr "要在天體圖中標出超新星名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowSupernovaNames), group (View)
-#: kstars.kcfg:455
+#: kstars.kcfg:459
 #, kde-format
 msgid "Toggle whether supernova name labels are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出超新星名稱。"
 
 #. i18n: ectx: label, entry (MagnitudeLimitShowSupernovae), group (View)
-#: kstars.kcfg:459
+#: kstars.kcfg:463
 #, kde-format
 msgid "Set magnitude limit for supernovae to be shown on the skymap"
 msgstr "設定在天體圖畫出超新星的最暗亮度星等。"
 
 #. i18n: ectx: whatsthis, entry (MagnitudeLimitShowSupernovae), group (View)
-#: kstars.kcfg:460
+#: kstars.kcfg:464
 #, kde-format
 msgid "Set magnitude limit for supernovae to be shown on the skymap."
 msgstr "設定在天體圖畫出超新星的最暗亮度星等。"
 
 #. i18n: ectx: label, entry (ShowSupernovaAlerts), group (View)
-#: kstars.kcfg:464
+#: kstars.kcfg:468
 #, kde-format
 msgid "Show supernova alerts?"
 msgstr "要顯示超新星警告嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowSupernovaAlerts), group (View)
-#: kstars.kcfg:465
+#: kstars.kcfg:469
 #, kde-format
 msgid "Toggle supernova alerts."
 msgstr "切換超新星警告。"
 
 #. i18n: ectx: label, entry (MagnitudeLimitAlertSupernovae), group (View)
-#: kstars.kcfg:469
+#: kstars.kcfg:473
 #, kde-format
 msgid "Set magnitude limit for supernovae to be alerted"
 msgstr "設定在天體圖警告超新星的最暗亮度星等。"
 
 #. i18n: ectx: whatsthis, entry (MagnitudeLimitAlertSupernovae), group (View)
-#: kstars.kcfg:470
+#: kstars.kcfg:474
 #, kde-format
 msgid "Set magnitude limit for supernovae to be alerted."
 msgstr "設定在天體圖警告超新星的最暗亮度星等。"
 
 #. i18n: ectx: label, entry (ShowCBounds), group (View)
-#: kstars.kcfg:474
+#: kstars.kcfg:478
 #, kde-format
 msgid "Draw constellation boundaries in the sky map?"
 msgstr "要畫出星座邊界嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowCBounds), group (View)
-#: kstars.kcfg:475
+#: kstars.kcfg:479
 #, kde-format
 msgid "Toggle whether constellation boundaries are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出星座邊界。"
 
 #. i18n: ectx: label, entry (ShowHighlightedCBound), group (View)
-#: kstars.kcfg:479
+#: kstars.kcfg:483
 #, kde-format
 msgid "Highlight the central constellation boundary in the sky map?"
 msgstr "要在天體圖中突顯出中央的星座邊界嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowHighlightedCBound), group (View)
-#: kstars.kcfg:480
+#: kstars.kcfg:484
 #, kde-format
 msgid ""
 "Toggle whether constellation boundary containing the central focus point is "
@@ -20077,88 +20115,88 @@ msgid ""
 msgstr "切換是否要在天體圖中突顯中央星座邊界。"
 
 #. i18n: ectx: label, entry (ShowCLines), group (View)
-#: kstars.kcfg:484
+#: kstars.kcfg:488
 #, kde-format
 msgid "Draw constellation lines in the sky map?"
 msgstr "要畫出星座線條嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowCLines), group (View)
-#: kstars.kcfg:485
+#: kstars.kcfg:489
 #, kde-format
 msgid "Toggle whether constellation lines are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出星座線條。"
 
 #. i18n: ectx: label, entry (ShowConstellationArt), group (View)
-#: kstars.kcfg:489
+#: kstars.kcfg:493
 #, fuzzy, kde-format
 #| msgid "Draw constellation names in the sky map?"
 msgid "Draw constellation art in the sky map?"
 msgstr "要畫出星座名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowConstellationArt), group (View)
-#: kstars.kcfg:490
+#: kstars.kcfg:494
 #, fuzzy, kde-format
 #| msgid "Toggle whether constellation lines are drawn in the sky map."
 msgid "Toggle whether constellation art drawn in the sky map."
 msgstr "勾選此選項的話，會畫出星座線條。"
 
 #. i18n: ectx: label, entry (ShowCNames), group (View)
-#: kstars.kcfg:494
+#: kstars.kcfg:498
 #, kde-format
 msgid "Draw constellation names in the sky map?"
 msgstr "要畫出星座名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowCNames), group (View)
-#: kstars.kcfg:495
+#: kstars.kcfg:499
 #, kde-format
 msgid "Toggle whether constellation name labels are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出星座名稱。"
 
 #. i18n: ectx: label, entry (ShowDeepSky), group (View)
-#: kstars.kcfg:499
+#: kstars.kcfg:503
 #, kde-format
 msgid "Draw \"deep sky\" objects in the sky map?"
 msgstr "在天體圖中要畫出「深天空」物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowDeepSky), group (View)
-#: kstars.kcfg:500
+#: kstars.kcfg:504
 #, kde-format
 msgid "Toggle whether deep-sky objects are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出深天空物件。"
 
 #. i18n: ectx: label, entry (ShowEcliptic), group (View)
-#: kstars.kcfg:504
+#: kstars.kcfg:508
 #, kde-format
 msgid "Draw ecliptic line in the sky map?"
 msgstr "在天體圖中要畫出黃道嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowEcliptic), group (View)
-#: kstars.kcfg:505
+#: kstars.kcfg:509
 #, kde-format
 msgid "Toggle whether the ecliptic line is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出黃道。"
 
 #. i18n: ectx: label, entry (ShowEquator), group (View)
-#: kstars.kcfg:509
+#: kstars.kcfg:513
 #, kde-format
 msgid "Draw equator line in the sky map?"
 msgstr "在天體圖中要畫出赤道線嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowEquator), group (View)
-#: kstars.kcfg:510
+#: kstars.kcfg:514
 #, kde-format
 msgid "Toggle whether the equator line is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出天體赤道。"
 
 #. i18n: ectx: label, entry (AutoSelectGrid), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSelectGrid)
-#: kstars.kcfg:514 options/opsguides.ui:265
+#: kstars.kcfg:518 options/opsguides.ui:265
 #, kde-format
 msgid "Draw grids according to active coordinate system?"
 msgstr "要使用目前的座標系統繪製格線嗎？"
 
 #. i18n: ectx: whatsthis, entry (AutoSelectGrid), group (View)
-#: kstars.kcfg:515
+#: kstars.kcfg:519
 #, kde-format
 msgid ""
 "Coordinate grids will automatically change according to active coordinate "
@@ -20166,159 +20204,159 @@ msgid ""
 msgstr "座標格線會自動依照目前使用的座標系統做變化。"
 
 #. i18n: ectx: label, entry (ShowEquatorialGrid), group (View)
-#: kstars.kcfg:519
+#: kstars.kcfg:523
 #, kde-format
 msgid "Draw equatorial coordinate grid in the sky map?"
 msgstr "要在天體圖中畫出赤道座標格嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowEquatorialGrid), group (View)
-#: kstars.kcfg:520
+#: kstars.kcfg:524
 #, kde-format
 msgid "Toggle whether the equatorial coordinate grid is drawn in the sky map."
 msgstr "勾選此選項的話，會在天體圖中畫出赤道座標格。"
 
 #. i18n: ectx: label, entry (ShowHorizontalGrid), group (View)
-#: kstars.kcfg:524
+#: kstars.kcfg:528
 #, kde-format
 msgid "Draw horizontal coordinate grid in the sky map?"
 msgstr "要在天體圖中畫出水平座標格嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowHorizontalGrid), group (View)
-#: kstars.kcfg:525
+#: kstars.kcfg:529
 #, kde-format
 msgid "Toggle whether the horizontal coordinate grid is drawn in the sky map."
 msgstr "勾選此選項的話，會在天體圖中畫出水平座標格。"
 
 #. i18n: ectx: label, entry (ShowLocalMeridian), group (View)
-#: kstars.kcfg:529
+#: kstars.kcfg:533
 #, fuzzy, kde-format
 #| msgid "Draw horizon line in the sky map?"
 msgid "Draw local meridian line in the sky map?"
 msgstr "要在天體圖中畫出水平線嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowLocalMeridian), group (View)
-#: kstars.kcfg:530
+#: kstars.kcfg:534
 #, fuzzy, kde-format
 #| msgid "Toggle whether the horizon line is drawn in the sky map."
 msgid "Toggle whether the local meridian line is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出水平線。"
 
 #. i18n: ectx: label, entry (ShowGround), group (View)
-#: kstars.kcfg:534
+#: kstars.kcfg:538
 #, kde-format
 msgid "Draw opaque ground in the sky map?"
 msgstr "要畫出不透明的地面嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowGround), group (View)
-#: kstars.kcfg:535
+#: kstars.kcfg:539
 #, kde-format
 msgid "Toggle whether the region below the horizon is opaque."
 msgstr "切換在水平線下的區域是否為不透明。"
 
 #. i18n: ectx: label, entry (ShowHorizon), group (View)
-#: kstars.kcfg:539
+#: kstars.kcfg:543
 #, kde-format
 msgid "Draw horizon line in the sky map?"
 msgstr "要在天體圖中畫出水平線嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowHorizon), group (View)
-#: kstars.kcfg:540
+#: kstars.kcfg:544
 #, kde-format
 msgid "Toggle whether the horizon line is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出水平線。"
 
 #. i18n: ectx: label, entry (ShowFlags), group (View)
-#: kstars.kcfg:544
+#: kstars.kcfg:548
 #, kde-format
 msgid "Draw flags in the sky map?"
 msgstr "要在天體中畫出旗標嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowFlags), group (View)
-#: kstars.kcfg:545
+#: kstars.kcfg:549
 #, kde-format
 msgid "Toggle whether flags are drawn in the sky map."
 msgstr "切換是否要在天體圖畫出旗標。"
 
 #. i18n: ectx: label, entry (ShowIC), group (View)
-#: kstars.kcfg:549
+#: kstars.kcfg:553
 #, kde-format
 msgid "Draw IC objects in the sky map?"
 msgstr "在天體圖中要畫出 IC 物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowIC), group (View)
-#: kstars.kcfg:550
+#: kstars.kcfg:554
 #, kde-format
 msgid "Toggle whether IC objects are drawn in the sky map."
 msgstr "切換是否要在天體圖中畫出 IC 物件"
 
 #. i18n: ectx: label, entry (ShowNGC), group (View)
-#: kstars.kcfg:554
+#: kstars.kcfg:558
 #, kde-format
 msgid "Draw NGC objects in the sky map?"
 msgstr "在天體圖中要畫出 NGC 物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowNGC), group (View)
-#: kstars.kcfg:555
+#: kstars.kcfg:559
 #, kde-format
 msgid "Toggle whether NGC objects are drawn in the sky map."
 msgstr "切換是否要在天體圖中畫出 NGC 物件"
 
 #. i18n: ectx: label, entry (ShowMessier), group (View)
-#: kstars.kcfg:559
+#: kstars.kcfg:563
 #, kde-format
 msgid "Draw Messier objects in the sky map?"
 msgstr "在天體圖中要畫出梅西爾物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowMessier), group (View)
-#: kstars.kcfg:560
+#: kstars.kcfg:564
 #, kde-format
 msgid "Toggle whether Messier objects are drawn in the sky map."
 msgstr "切換是否要在天體圖中畫出梅西爾物件"
 
 #. i18n: ectx: label, entry (ShowMessierImages), group (View)
-#: kstars.kcfg:564
+#: kstars.kcfg:568
 #, kde-format
 msgid "Draw Messier object images in the sky map?"
 msgstr "在天體圖中要畫出梅西爾物件影像嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowMessierImages), group (View)
-#: kstars.kcfg:565
+#: kstars.kcfg:569
 #, kde-format
 msgid "Toggle whether Messier objects are rendered as images in the sky map."
 msgstr "切換是否要在天體圖中畫出梅西爾物件影像"
 
 #. i18n: ectx: label, entry (ShowOther), group (View)
-#: kstars.kcfg:569
+#: kstars.kcfg:573
 #, kde-format
 msgid "Draw extra deep-sky objects in the sky map?"
 msgstr "在天體圖中要畫出額外的深天空物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowOther), group (View)
-#: kstars.kcfg:570
+#: kstars.kcfg:574
 #, kde-format
 msgid "Toggle whether extra objects are drawn in the sky map."
 msgstr "切換是否要在天體圖中畫出額外的物件。"
 
 #. i18n: ectx: label, entry (ShowMilkyWay), group (View)
-#: kstars.kcfg:574
+#: kstars.kcfg:578
 #, kde-format
 msgid "Draw Milky Way contour in the sky map?"
 msgstr "要畫出銀河輪廓嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowMilkyWay), group (View)
-#: kstars.kcfg:575
+#: kstars.kcfg:579
 #, kde-format
 msgid "Toggle whether the Milky Way contour is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出銀河輪廓。"
 
 #. i18n: ectx: label, entry (FillMilkyWay), group (View)
-#: kstars.kcfg:579
+#: kstars.kcfg:583
 #, kde-format
 msgid "Fill Milky Way contour? (false means use outline only)"
 msgstr "要填入銀河輪廓嗎？（否的話就只畫線條）"
 
 #. i18n: ectx: whatsthis, entry (FillMilkyWay), group (View)
-#: kstars.kcfg:580
+#: kstars.kcfg:584
 #, fuzzy, kde-format
 #| msgid ""
 #| "Toggle whether the Milky Way contour is filled.  When this option is "
@@ -20329,13 +20367,13 @@ msgid ""
 msgstr "切換是否要填入銀河輪廓。"
 
 #. i18n: ectx: label, entry (ShowSolarSystem), group (View)
-#: kstars.kcfg:584
+#: kstars.kcfg:588
 #, kde-format
 msgid "Meta-option for all planets in the sky map."
 msgstr "天體圖中所有行星的中繼資訊。"
 
 #. i18n: ectx: whatsthis, entry (ShowSolarSystem), group (View)
-#: kstars.kcfg:585
+#: kstars.kcfg:589
 #, kde-format
 msgid ""
 "Meta-option to control whether all major planets (and the Sun and Moon) are "
@@ -20343,13 +20381,13 @@ msgid ""
 msgstr "用於控制是否要畫出所有主要行星的中繼資訊。"
 
 #. i18n: ectx: label, entry (ShowPlanetImages), group (View)
-#: kstars.kcfg:589
+#: kstars.kcfg:593
 #, kde-format
 msgid "Draw planets as images in the sky map?"
 msgstr "要在天體圖中將行星畫成影像嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowPlanetImages), group (View)
-#: kstars.kcfg:590
+#: kstars.kcfg:594
 #, kde-format
 msgid ""
 "Toggle whether major planets (and the Sun and Moon) are rendered as images "
@@ -20357,13 +20395,13 @@ msgid ""
 msgstr "勾選此選項的話，會繪出主要行星（以及太陽與月球）的影像。"
 
 #. i18n: ectx: label, entry (ShowPlanetNames), group (View)
-#: kstars.kcfg:594
+#: kstars.kcfg:598
 #, kde-format
 msgid "Label planet names in the sky map?"
 msgstr "要在天體圖中標示行星名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowPlanetNames), group (View)
-#: kstars.kcfg:595
+#: kstars.kcfg:599
 #, kde-format
 msgid ""
 "Toggle whether major planets (and the Sun and Moon) are labeled in the sky "
@@ -20371,170 +20409,170 @@ msgid ""
 msgstr "切換是否要在天體圖中標示行星名稱。"
 
 #. i18n: ectx: label, entry (ShowSun), group (View)
-#: kstars.kcfg:599
+#: kstars.kcfg:603
 #, kde-format
 msgid "Draw Sun in the sky map?"
 msgstr "要在天體圖中畫出太陽嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowSun), group (View)
-#: kstars.kcfg:600
+#: kstars.kcfg:604
 #, kde-format
 msgid "Toggle whether the Sun is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出太陽。"
 
 #. i18n: ectx: label, entry (ShowMoon), group (View)
-#: kstars.kcfg:604
+#: kstars.kcfg:608
 #, kde-format
 msgid "Draw Moon in the sky map?"
 msgstr "要在天體圖中畫出月球嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowMoon), group (View)
-#: kstars.kcfg:605
+#: kstars.kcfg:609
 #, kde-format
 msgid "Toggle whether the Moon is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出月球。"
 
 #. i18n: ectx: label, entry (ShowMercury), group (View)
-#: kstars.kcfg:609
+#: kstars.kcfg:613
 #, kde-format
 msgid "Draw Mercury in the sky map?"
 msgstr "要畫出水星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowMercury), group (View)
-#: kstars.kcfg:610
+#: kstars.kcfg:614
 #, kde-format
 msgid "Toggle whether Mercury is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出水星。"
 
 #. i18n: ectx: label, entry (ShowVenus), group (View)
-#: kstars.kcfg:614
+#: kstars.kcfg:618
 #, kde-format
 msgid "Draw Venus in the sky map?"
 msgstr "要畫出金星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowVenus), group (View)
-#: kstars.kcfg:615
+#: kstars.kcfg:619
 #, kde-format
 msgid "Toggle whether Venus is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出金星。"
 
 #. i18n: ectx: label, entry (ShowMars), group (View)
-#: kstars.kcfg:619
+#: kstars.kcfg:623
 #, kde-format
 msgid "Draw Mars in the sky map?"
 msgstr "要畫出火星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowMars), group (View)
-#: kstars.kcfg:620
+#: kstars.kcfg:624
 #, kde-format
 msgid "Toggle whether Mars is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出火星。"
 
 #. i18n: ectx: label, entry (ShowJupiter), group (View)
-#: kstars.kcfg:624
+#: kstars.kcfg:628
 #, kde-format
 msgid "Draw Jupiter in the sky map?"
 msgstr "要畫出木星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowJupiter), group (View)
-#: kstars.kcfg:625
+#: kstars.kcfg:629
 #, kde-format
 msgid "Toggle whether Jupiter is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出木星。"
 
 #. i18n: ectx: label, entry (ShowSaturn), group (View)
-#: kstars.kcfg:629
+#: kstars.kcfg:633
 #, kde-format
 msgid "Draw Saturn in the sky map?"
 msgstr "要畫出土星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowSaturn), group (View)
-#: kstars.kcfg:630
+#: kstars.kcfg:634
 #, kde-format
 msgid "Toggle whether Saturn is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出土星。"
 
 #. i18n: ectx: label, entry (ShowUranus), group (View)
-#: kstars.kcfg:634
+#: kstars.kcfg:638
 #, kde-format
 msgid "Draw Uranus in the sky map?"
 msgstr "要畫出天王星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowUranus), group (View)
-#: kstars.kcfg:635
+#: kstars.kcfg:639
 #, kde-format
 msgid "Toggle whether Uranus is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出天王星。"
 
 #. i18n: ectx: label, entry (ShowNeptune), group (View)
-#: kstars.kcfg:639
+#: kstars.kcfg:643
 #, kde-format
 msgid "Draw Neptune in the sky map?"
 msgstr "要畫出海王星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowNeptune), group (View)
-#: kstars.kcfg:640
+#: kstars.kcfg:644
 #, kde-format
 msgid "Toggle whether Neptune is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出海王星。"
 
 #. i18n: ectx: label, entry (ShowPluto), group (View)
-#: kstars.kcfg:644
+#: kstars.kcfg:648
 #, kde-format
 msgid "Draw Pluto in the sky map?"
 msgstr "要畫出冥王星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowPluto), group (View)
-#: kstars.kcfg:645
+#: kstars.kcfg:649
 #, kde-format
 msgid "Toggle whether Pluto is drawn in the sky map."
 msgstr "勾選此選項的話，會畫出冥王星。"
 
 #. i18n: ectx: label, entry (ShowStars), group (View)
-#: kstars.kcfg:649
+#: kstars.kcfg:653
 #, kde-format
 msgid "Draw stars in the sky map?"
 msgstr "要畫出星體嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowStars), group (View)
-#: kstars.kcfg:650
+#: kstars.kcfg:654
 #, kde-format
 msgid "Toggle whether stars are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出星體。"
 
 #. i18n: ectx: label, entry (ShowStarMagnitudes), group (View)
-#: kstars.kcfg:654
+#: kstars.kcfg:658
 #, kde-format
 msgid "Label star magnitudes in the sky map?"
 msgstr "要在天體圖中標出星體亮度嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowStarMagnitudes), group (View)
-#: kstars.kcfg:655
+#: kstars.kcfg:659
 #, kde-format
 msgid ""
 "Toggle whether star magnitude (brightness) labels are shown in the sky map."
 msgstr "勾選此選項的話，會標出星體亮度。"
 
 #. i18n: ectx: label, entry (ShowStarNames), group (View)
-#: kstars.kcfg:659
+#: kstars.kcfg:663
 #, kde-format
 msgid "Label star names in the sky map?"
 msgstr "要在天體圖中標出星體名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowStarNames), group (View)
-#: kstars.kcfg:660
+#: kstars.kcfg:664
 #, kde-format
 msgid "Toggle whether star name labels are shown in the sky map."
 msgstr "勾選此選項的話，會標出星體名稱。"
 
 #. i18n: ectx: label, entry (ShowDeepSkyMagnitudes), group (View)
-#: kstars.kcfg:664
+#: kstars.kcfg:668
 #, kde-format
 msgid "Label deep-sky object magnitudes in the sky map?"
 msgstr "要在天體圖中標出深天空星體亮度嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowDeepSkyMagnitudes), group (View)
-#: kstars.kcfg:665
+#: kstars.kcfg:669
 #, kde-format
 msgid ""
 "Toggle whether deep-sky object magnitude (brightness) labels are shown in "
@@ -20542,37 +20580,37 @@ msgid ""
 msgstr "勾選此選項的話，會標出深天空星體亮度。"
 
 #. i18n: ectx: label, entry (ShowDeepSkyNames), group (View)
-#: kstars.kcfg:669
+#: kstars.kcfg:673
 #, kde-format
 msgid "Label deep-sky objects in the sky map?"
 msgstr "在天體圖中要標記的深天空星體嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowDeepSkyNames), group (View)
-#: kstars.kcfg:670
+#: kstars.kcfg:674
 #, kde-format
 msgid "Toggle whether deep-sky object name labels are shown in the sky map."
 msgstr "勾選此選項的話，會標記深天空星體名稱並顯示在天體圖中。"
 
 #. i18n: ectx: label, entry (SlewTimeScale), group (View)
-#: kstars.kcfg:674
+#: kstars.kcfg:678
 #, kde-format
 msgid "Minimum timescale for forced-slewing mode"
 msgstr "強制旋轉模式的最小時間範圍"
 
 #. i18n: ectx: whatsthis, entry (SlewTimeScale), group (View)
-#: kstars.kcfg:675
+#: kstars.kcfg:679
 #, kde-format
 msgid "The timescale above which slewing mode is forced on at all times."
 msgstr "強制旋轉模式的最小時間範圍。"
 
 #. i18n: ectx: label, entry (BoxBGMode), group (View)
-#: kstars.kcfg:679
+#: kstars.kcfg:683
 #, kde-format
 msgid "InfoBoxes Background fill mode"
 msgstr "資訊盒背景填充模式"
 
 #. i18n: ectx: whatsthis, entry (BoxBGMode), group (View)
-#: kstars.kcfg:680
+#: kstars.kcfg:684
 #, kde-format
 msgid ""
 "The background fill mode for the on-screen information boxes: 0=\"no BG\"; 1="
@@ -20580,49 +20618,49 @@ msgid ""
 msgstr "螢幕上的資訊盒的背景填充模式。0=無背景，1=半透明，2=不透明"
 
 #. i18n: ectx: label, entry (Projection), group (View)
-#: kstars.kcfg:684
+#: kstars.kcfg:688
 #, kde-format
 msgid "Mapping projection algorithm"
 msgstr "投影映射演算法"
 
 #. i18n: ectx: whatsthis, entry (Projection), group (View)
-#: kstars.kcfg:685
+#: kstars.kcfg:689
 #, kde-format
 msgid "Algorithm for the mapping projection."
 msgstr "投影映射的演算法"
 
 #. i18n: ectx: label, entry (UseAbbrevConstellNames), group (View)
-#: kstars.kcfg:689
+#: kstars.kcfg:693
 #, kde-format
 msgid "Use abbreviated constellation names?"
 msgstr "要使用簡寫星座名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseAbbrevConstellNames), group (View)
-#: kstars.kcfg:690
+#: kstars.kcfg:694
 #, kde-format
 msgid "Use official IAU abbreviations for constellation names."
 msgstr "使用正式的 IAU 星座簡寫名稱。"
 
 #. i18n: ectx: label, entry (UseLatinConstellNames), group (View)
-#: kstars.kcfg:694
+#: kstars.kcfg:698
 #, kde-format
 msgid "Use Latin constellation names?"
 msgstr "要使用拉丁星座名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseLatinConstellNames), group (View)
-#: kstars.kcfg:695
+#: kstars.kcfg:699
 #, kde-format
 msgid "Use Latin constellation names."
 msgstr "使用拉丁星座名稱。"
 
 #. i18n: ectx: label, entry (UseLocalConstellNames), group (View)
-#: kstars.kcfg:699
+#: kstars.kcfg:703
 #, kde-format
 msgid "Use localized constellation names?"
 msgstr "要使用本地星座名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseLocalConstellNames), group (View)
-#: kstars.kcfg:700
+#: kstars.kcfg:704
 #, kde-format
 msgid ""
 "Use localized constellation names (if localized names are not available, "
@@ -20630,13 +20668,13 @@ msgid ""
 msgstr "使用本地星座名稱（若沒有本地名稱，則使用拉丁名稱）。"
 
 #. i18n: ectx: label, entry (UseAltAz), group (View)
-#: kstars.kcfg:704
+#: kstars.kcfg:708
 #, kde-format
 msgid "Use horizontal coordinate system?"
 msgstr "要使用水平座標系統嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseAltAz), group (View)
-#: kstars.kcfg:705
+#: kstars.kcfg:709
 #, kde-format
 msgid ""
 "Display the sky with horizontal coordinates (when false, equatorial "
@@ -20644,26 +20682,26 @@ msgid ""
 msgstr "在天體圖中顯示水平座標系統（若不使用則改用赤道座標系統）。"
 
 #. i18n: ectx: label, entry (UseAutoLabel), group (View)
-#: kstars.kcfg:709
+#: kstars.kcfg:713
 #, kde-format
 msgid "Automatically label focused object?"
 msgstr "要自動附加名稱標籤到焦點的物件嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseAutoLabel), group (View)
-#: kstars.kcfg:710
+#: kstars.kcfg:714
 #, kde-format
 msgid ""
 "Toggle whether a centered object automatically gets a name label attached."
 msgstr "決定是否對置中的物件自動附加名稱標籤。"
 
 #. i18n: ectx: label, entry (UseAutoTrail), group (View)
-#: kstars.kcfg:714 tools/scriptbuilder.cpp:703
+#: kstars.kcfg:718 tools/scriptbuilder.cpp:703
 #, kde-format
 msgid "Automatically add trail to centered solar system body?"
 msgstr "要自動加上中央的太陽系星體的軌跡嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseAutoTrail), group (View)
-#: kstars.kcfg:715
+#: kstars.kcfg:719
 #, kde-format
 msgid ""
 "Toggle whether a centered solar system object automatically gets a trail "
@@ -20671,26 +20709,26 @@ msgid ""
 msgstr "決定是否置中的太陽系物件會自動附加軌跡。"
 
 #. i18n: ectx: label, entry (UseHoverLabel), group (View)
-#: kstars.kcfg:719
+#: kstars.kcfg:723
 #, kde-format
 msgid "Add temporary label on mouse hover?"
 msgstr "要在滑鼠徘徊其上時附加暫時標籤嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseHoverLabel), group (View)
-#: kstars.kcfg:720
+#: kstars.kcfg:724
 #, kde-format
 msgid ""
 "Toggle whether the object under the mouse cursor gets a transient name label."
 msgstr "決定是否當滑鼠移到某個物件上時顯示暫時的名稱標籤。"
 
 #. i18n: ectx: label, entry (UseRefraction), group (View)
-#: kstars.kcfg:724
+#: kstars.kcfg:728
 #, kde-format
 msgid "Correct positions for atmospheric refraction?"
 msgstr "要修正球體折射位置嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseRefraction), group (View)
-#: kstars.kcfg:725
+#: kstars.kcfg:729
 #, kde-format
 msgid ""
 "Toggle whether object positions are corrected for the effects of atmospheric "
@@ -20698,7 +20736,7 @@ msgid ""
 msgstr "決定物件位置是否要經過球體折射修正（只在使用水平座標系統時有效）"
 
 #. i18n: ectx: label, entry (UseRelativistic), group (View)
-#: kstars.kcfg:729
+#: kstars.kcfg:733
 #, kde-format
 msgid ""
 "Apply relativistic corrections due to the bending of light in sun's "
@@ -20706,7 +20744,7 @@ msgid ""
 msgstr "應用相對論修正在太陽附近重力場影響造成光彎曲的效應。"
 
 #. i18n: ectx: whatsthis, entry (UseRelativistic), group (View)
-#: kstars.kcfg:730
+#: kstars.kcfg:734
 #, kde-format
 msgid ""
 "Toggle whether corrections due to bending of light around the sun are taken "
@@ -20714,13 +20752,13 @@ msgid ""
 msgstr "切換是否要將太陽附近光線彎曲的修正考慮進去"
 
 #. i18n: ectx: label, entry (UseAntialias), group (View)
-#: kstars.kcfg:734
+#: kstars.kcfg:738
 #, kde-format
 msgid "Use antialiasing when drawing the screen?"
 msgstr "繪圖時要使用平滑設定嗎？"
 
 #. i18n: ectx: whatsthis, entry (UseAntialias), group (View)
-#: kstars.kcfg:735
+#: kstars.kcfg:739
 #, fuzzy, kde-format
 #| msgid ""
 #| "Toggle whether the sky is rendered using antialiasing.  Lines and shapes "
@@ -20733,49 +20771,49 @@ msgstr ""
 "決定繪圖時是否使用平滑設定（antialias）。畫面較精緻，但是會花比較久的時間。"
 
 #. i18n: ectx: label, entry (ZoomFactor), group (View)
-#: kstars.kcfg:739
+#: kstars.kcfg:743
 #, kde-format
 msgid "Zoom Factor, in pixels per radian"
 msgstr "縮放比例，以每弧度的像素為單位"
 
 #. i18n: ectx: whatsthis, entry (ZoomFactor), group (View)
-#: kstars.kcfg:740
+#: kstars.kcfg:744
 #, kde-format
 msgid "The zoom level, measured in pixels per radian."
 msgstr "縮放比例，以每弧度的像素為單位"
 
 #. i18n: ectx: label, entry (ZoomScrollFactor), group (View)
-#: kstars.kcfg:746
+#: kstars.kcfg:750
 #, kde-format
 msgid "Zoom scroll sensitivity."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ZoomScrollFactor), group (View)
-#: kstars.kcfg:747
+#: kstars.kcfg:751
 #, kde-format
 msgid "When zooming in or out, change zoom speed factor by this multiplier."
 msgstr ""
 
 #. i18n: ectx: label, entry (MagLimitAsteroid), group (View)
-#: kstars.kcfg:753
+#: kstars.kcfg:757
 #, kde-format
 msgid "Faint limit for asteroids"
 msgstr "小行星亮度限制"
 
 #. i18n: ectx: whatsthis, entry (MagLimitAsteroid), group (View)
-#: kstars.kcfg:754
+#: kstars.kcfg:758
 #, kde-format
 msgid "The faint magnitude limit for drawing asteroids."
 msgstr "設定星體可以畫出小行星的最暗亮度星等。"
 
 #. i18n: ectx: label, entry (MagLimitAsteroidDownload), group (View)
-#: kstars.kcfg:758
+#: kstars.kcfg:762
 #, kde-format
 msgid "Maximum magnitude for asteroids to be downloaded from JPL."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (MagLimitAsteroidDownload), group (View)
-#: kstars.kcfg:759
+#: kstars.kcfg:763
 #, kde-format
 msgid ""
 "The maximum magnitude (visibility) to filter the asteroid data download from "
@@ -20783,38 +20821,38 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AsteroidLabelDensity), group (View)
-#: kstars.kcfg:763
+#: kstars.kcfg:767
 #, kde-format
 msgid "Label density for asteroid names"
 msgstr "小行星名稱標籤的密度"
 
 #. i18n: ectx: whatsthis, entry (AsteroidLabelDensity), group (View)
-#: kstars.kcfg:764
+#: kstars.kcfg:768
 #, kde-format
 msgid "Controls the relative number of asteroid name labels drawn in the map."
 msgstr "控制天體圖中要畫出的小行星的名稱標籤的相對數量。"
 
 #. i18n: ectx: label, entry (MagLimitDrawDeepSky), group (View)
-#: kstars.kcfg:768
+#: kstars.kcfg:772
 #, kde-format
 msgid "Faint limit for deep-sky objects"
 msgstr "深天空物件的亮度限制"
 
 #. i18n: ectx: whatsthis, entry (MagLimitDrawDeepSky), group (View)
-#: kstars.kcfg:769
+#: kstars.kcfg:773
 #, kde-format
 msgid ""
 "The faint magnitude limit for drawing deep-sky objects, when fully zoomed in."
 msgstr "在完全放大時，要繪出深天空物件的亮度限制。"
 
 #. i18n: ectx: label, entry (MagLimitDrawDeepSkyZoomOut), group (View)
-#: kstars.kcfg:773
+#: kstars.kcfg:777
 #, kde-format
 msgid "Faint limit for deep-sky objects when zoomed out"
 msgstr "縮小時的深天空物件亮度限制"
 
 #. i18n: ectx: whatsthis, entry (MagLimitDrawDeepSkyZoomOut), group (View)
-#: kstars.kcfg:774
+#: kstars.kcfg:778
 #, kde-format
 msgid ""
 "The faint magnitude limit for drawing deep-sky objects, when fully zoomed "
@@ -20822,13 +20860,13 @@ msgid ""
 msgstr "在完全縮小時，要繪出深天空物件的亮度限制。"
 
 #. i18n: ectx: label, entry (ShowUnknownMagObjects), group (View)
-#: kstars.kcfg:778
+#: kstars.kcfg:782
 #, kde-format
 msgid "Show deep-sky objects of unknown magnitude"
 msgstr "顯示未知規模的深空天體"
 
 #. i18n: ectx: whatsthis, entry (ShowUnknownMagObjects), group (View)
-#: kstars.kcfg:779
+#: kstars.kcfg:783
 #, kde-format
 msgid ""
 "When enabled, objects whose magnitudes are unknown, or not available to "
@@ -20838,49 +20876,49 @@ msgstr ""
 "制設定。"
 
 #. i18n: ectx: label, entry (MagLimitDrawStar), group (View)
-#: kstars.kcfg:784
+#: kstars.kcfg:788
 #, kde-format
 msgid "Faint limit for stars"
 msgstr "星體亮度限制"
 
 #. i18n: ectx: whatsthis, entry (MagLimitDrawStar), group (View)
-#: kstars.kcfg:785
+#: kstars.kcfg:789
 #, kde-format
 msgid "The faint magnitude limit for drawing stars, when fully zoomed in."
 msgstr "在完全放大時，可以畫出星體的最暗亮度星等"
 
 #. i18n: ectx: label, entry (StarDensity), group (View)
-#: kstars.kcfg:789
+#: kstars.kcfg:793
 #, kde-format
 msgid "Density of stars in the field of view"
 msgstr "視場中星體的密度"
 
 #. i18n: ectx: whatsthis, entry (StarDensity), group (View)
-#: kstars.kcfg:790
+#: kstars.kcfg:794
 #, kde-format
 msgid "Sets the density of stars in the field of view"
 msgstr "設定視場中星體的密度"
 
 #. i18n: ectx: label, entry (MagLimitDrawStarZoomOut), group (View)
-#: kstars.kcfg:795
+#: kstars.kcfg:799
 #, kde-format
 msgid "Faint limit for stars when zoomed out"
 msgstr "縮小時的星體亮度限制"
 
 #. i18n: ectx: whatsthis, entry (MagLimitDrawStarZoomOut), group (View)
-#: kstars.kcfg:796
+#: kstars.kcfg:800
 #, kde-format
 msgid "The faint magnitude limit for drawing stars, when fully zoomed out."
 msgstr "在完全縮小時，可以畫出星體的最暗亮度星等"
 
 #. i18n: ectx: label, entry (MagLimitHideStar), group (View)
-#: kstars.kcfg:801
+#: kstars.kcfg:805
 #, kde-format
 msgid "Faint limit for stars when slewing"
 msgstr "旋轉時星體的亮度限制"
 
 #. i18n: ectx: whatsthis, entry (MagLimitHideStar), group (View)
-#: kstars.kcfg:802
+#: kstars.kcfg:806
 #, kde-format
 msgid ""
 "The faint magnitude limit for drawing stars, when the map is in motion (only "
@@ -20890,38 +20928,38 @@ msgstr ""
 "時有效）"
 
 #. i18n: ectx: label, entry (StarLabelDensity), group (View)
-#: kstars.kcfg:806
+#: kstars.kcfg:810
 #, kde-format
 msgid "Relative density for star name labels and/or magnitudes"
 msgstr "星體名稱與亮度標籤的相對密度"
 
 #. i18n: ectx: whatsthis, entry (StarLabelDensity), group (View)
-#: kstars.kcfg:807
+#: kstars.kcfg:811
 #, kde-format
 msgid "The relative density for drawing star name and magnitude labels."
 msgstr "畫出星體名稱與亮度標籤的相對密度。"
 
 #. i18n: ectx: label, entry (DeepSkyLabelDensity), group (View)
-#: kstars.kcfg:811
+#: kstars.kcfg:815
 #, kde-format
 msgid "Relative density for deep-sky object name labels and/or magnitudes"
 msgstr "深天空星體名稱與亮度標籤的相對密度"
 
 #. i18n: ectx: whatsthis, entry (DeepSkyLabelDensity), group (View)
-#: kstars.kcfg:812
+#: kstars.kcfg:816
 #, kde-format
 msgid ""
 "The relative density for drawing deep-sky object name and magnitude labels."
 msgstr "畫出深天空星體名稱與亮度標籤的相對密度。"
 
 #. i18n: ectx: label, entry (DeepSkyLongLabels), group (View)
-#: kstars.kcfg:816
+#: kstars.kcfg:820
 #, kde-format
 msgid "Show long names in deep-sky object name labels?"
 msgstr "要顯示深天空星體名稱標籤的長名稱嗎？"
 
 #. i18n: ectx: whatsthis, entry (DeepSkyLongLabels), group (View)
-#: kstars.kcfg:817
+#: kstars.kcfg:821
 #, kde-format
 msgid ""
 "If true, long names (common names) for deep-sky objects are shown in the "
@@ -20929,62 +20967,62 @@ msgid ""
 msgstr "若選擇此選項，則深天空星體的長名稱（通用名稱）會顯示在標籤中。"
 
 #. i18n: ectx: label, entry (MaxRadCometName), group (View)
-#: kstars.kcfg:821
+#: kstars.kcfg:825
 #, kde-format
 msgid "Maximum distance from Sun for labeling comets, in AU"
 msgstr "貼上慧星名稱的最大距離（天文單位）"
 
 #. i18n: ectx: whatsthis, entry (MaxRadCometName), group (View)
-#: kstars.kcfg:822
+#: kstars.kcfg:826
 #, kde-format
 msgid "The maximum solar distance for drawing comets."
 msgstr "貼上慧星名稱的最大距離。"
 
 #. i18n: ectx: label, entry (UseGL), group (View)
-#: kstars.kcfg:826
+#: kstars.kcfg:830
 #, kde-format
 msgid "Switch to OpenGL backend"
 msgstr "切換到 OpenGL 後端介面"
 
 #. i18n: ectx: whatsthis, entry (UseGL), group (View)
-#: kstars.kcfg:827
+#: kstars.kcfg:831
 #, kde-format
 msgid "Use experimental OpenGL backend (deprecated)."
 msgstr "使用 OpenGL 的實驗後端（不推薦）。"
 
 #. i18n: ectx: label, entry (RunClock), group (View)
-#: kstars.kcfg:831
+#: kstars.kcfg:835
 #, kde-format
 msgid "Run clock"
 msgstr "執行時鐘"
 
 #. i18n: ectx: whatsthis, entry (RunClock), group (View)
-#: kstars.kcfg:832
+#: kstars.kcfg:836
 #, kde-format
 msgid "The state of the clock (running or not)"
 msgstr "時鐘狀態（是否正在跑）"
 
 #. i18n: ectx: label, entry (ObsListSymbol), group (ObservingList)
-#: kstars.kcfg:838
+#: kstars.kcfg:842
 #, kde-format
 msgid "Use symbols to label observing list objects"
 msgstr "使用符號來標示觀察清單中的物件"
 
 #. i18n: ectx: whatsthis, entry (ObsListSymbol), group (ObservingList)
-#: kstars.kcfg:839
+#: kstars.kcfg:843
 #, kde-format
 msgid ""
 "Objects in the observing list will be highlighted with a symbol in the map."
 msgstr "觀察清單中的物件在天體圖中會以符號標示出來。"
 
 #. i18n: ectx: label, entry (ObsListText), group (ObservingList)
-#: kstars.kcfg:843
+#: kstars.kcfg:847
 #, kde-format
 msgid "Use text to label observing list objects"
 msgstr "用文字來標示觀測清單中的物件"
 
 #. i18n: ectx: whatsthis, entry (ObsListText), group (ObservingList)
-#: kstars.kcfg:844
+#: kstars.kcfg:848
 #, kde-format
 msgid ""
 "Objects in the observing list will be highlighted with a colored name label "
@@ -20992,31 +21030,31 @@ msgid ""
 msgstr "觀察清單中的物件在天體圖中會以彩色名稱標籤標示出來。"
 
 #. i18n: ectx: label, entry (ObsListPreferDSS), group (ObservingList)
-#: kstars.kcfg:848
+#: kstars.kcfg:852
 #, kde-format
 msgid "Prefer Digitized Sky Survey imagery in the observing list"
 msgstr "在觀測清單中預設使用 DSS 影像"
 
 #. i18n: ectx: whatsthis, entry (ObsListPreferDSS), group (ObservingList)
-#: kstars.kcfg:849
+#: kstars.kcfg:853
 #, kde-format
 msgid "The observing list will prefer DSS imagery while downloading imagery."
 msgstr "觀測清單下載影像時，預設使用 DSS 影像。"
 
 #. i18n: ectx: label, entry (ObsListPreferSDSS), group (ObservingList)
-#: kstars.kcfg:853
+#: kstars.kcfg:857
 #, kde-format
 msgid "Prefer Sloan Digital Sky Survey imagery in the observing list"
 msgstr "在觀測清單中預設使用 Sloan DSS 影像"
 
 #. i18n: ectx: whatsthis, entry (ObsListPreferSDSS), group (ObservingList)
-#: kstars.kcfg:854
+#: kstars.kcfg:858
 #, kde-format
 msgid "The observing list will prefer SDSS imagery while downloading imagery."
 msgstr "觀測清單下載影像時，預設使用 SDSS 影像。"
 
 #. i18n: ectx: label, entry (ObsListDemoteHole), group (ObservingList)
-#: kstars.kcfg:858
+#: kstars.kcfg:862
 #, kde-format
 msgid ""
 "While sorting by percentage altitude in the observing list, demote objects "
@@ -21024,7 +21062,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ObsListDemoteHole), group (ObservingList)
-#: kstars.kcfg:859
+#: kstars.kcfg:863
 #, kde-format
 msgid ""
 "Check this if you use a large Dobsonian telescope. Sorting by percentage "
@@ -21039,7 +21077,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (ObsListHoleSize), group (ObservingList)
-#: kstars.kcfg:863
+#: kstars.kcfg:867
 #, kde-format
 msgid ""
 "This is the angular distance from the zenith, in degrees, below which you "
@@ -21047,7 +21085,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ObsListHoleSize), group (ObservingList)
-#: kstars.kcfg:864
+#: kstars.kcfg:868
 #, kde-format
 msgid ""
 "This specifies the angular radius of the Dobsonian hole, i.e. the region "
@@ -21056,19 +21094,19 @@ msgstr ""
 
 #. i18n: ectx: label, entry (ColorSchemeFile), group (Colors)
 #. i18n: ectx: whatsthis, entry (ColorSchemeFile), group (Colors)
-#: kstars.kcfg:870 kstars.kcfg:871
+#: kstars.kcfg:874 kstars.kcfg:875
 #, kde-format
 msgid "The name of the color scheme"
 msgstr "顏色機制名稱："
 
 #. i18n: ectx: label, entry (StarColorMode), group (Colors)
-#: kstars.kcfg:875
+#: kstars.kcfg:879
 #, kde-format
 msgid "Mode for rendering stars"
 msgstr "星體成像模式"
 
 #. i18n: ectx: whatsthis, entry (StarColorMode), group (Colors)
-#: kstars.kcfg:876
+#: kstars.kcfg:880
 #, fuzzy, kde-format
 #| msgid ""
 #| "The method for rendering stars: 0=\"realistic colors\"; 1=\"solid red\"; "
@@ -21079,13 +21117,13 @@ msgid ""
 msgstr "畫出星體的方法。0=實際顏色，1=實心紅色，2=實心黑色，3=實心白色"
 
 #. i18n: ectx: label, entry (StarColorIntensity), group (Colors)
-#: kstars.kcfg:881
+#: kstars.kcfg:885
 #, kde-format
 msgid "Saturation level of star colors"
 msgstr "星體顏色飽和度"
 
 #. i18n: ectx: whatsthis, entry (StarColorIntensity), group (Colors)
-#: kstars.kcfg:882
+#: kstars.kcfg:886
 #, kde-format
 msgid ""
 "The color saturation level of stars (only applicable when using \"realistic "
@@ -21093,37 +21131,37 @@ msgid ""
 msgstr "星體顏色飽和度（只有在使用實際顏色模式時有用）"
 
 #. i18n: ectx: label, entry (AngularRulerColor), group (Colors)
-#: kstars.kcfg:887
+#: kstars.kcfg:891
 #, kde-format
 msgid "Color of angular distance ruler"
 msgstr "角距離尺規顏色"
 
 #. i18n: ectx: whatsthis, entry (AngularRulerColor), group (Colors)
-#: kstars.kcfg:888
+#: kstars.kcfg:892
 #, kde-format
 msgid "The color for the angular-distance measurement ruler."
 msgstr "角距離尺規的顏色。"
 
 #. i18n: ectx: label, entry (BoxBGColor), group (Colors)
-#: kstars.kcfg:892
+#: kstars.kcfg:896
 #, kde-format
 msgid "Background color of InfoBoxes"
 msgstr "資訊盒背景顏色"
 
 #. i18n: ectx: whatsthis, entry (BoxBGColor), group (Colors)
-#: kstars.kcfg:893
+#: kstars.kcfg:897
 #, kde-format
 msgid "The background color of the on-screen information boxes."
 msgstr "螢幕上資訊盒的背景顏色。"
 
 #. i18n: ectx: label, entry (BoxGrabColor), group (Colors)
-#: kstars.kcfg:897
+#: kstars.kcfg:901
 #, kde-format
 msgid "Text color of InfoBoxes when grabbed with mouse"
 msgstr "滑鼠進資訊盒時的文字顏色"
 
 #. i18n: ectx: whatsthis, entry (BoxGrabColor), group (Colors)
-#: kstars.kcfg:898
+#: kstars.kcfg:902
 #, kde-format
 msgid ""
 "The text color for the on-screen information boxes, when activated by a "
@@ -21131,475 +21169,475 @@ msgid ""
 msgstr "當滑鼠點選螢幕上資訊盒時的文字顏色。"
 
 #. i18n: ectx: label, entry (BoxTextColor), group (Colors)
-#: kstars.kcfg:902
+#: kstars.kcfg:906
 #, kde-format
 msgid "Text color of InfoBoxes"
 msgstr "資訊盒文字顏色"
 
 #. i18n: ectx: whatsthis, entry (BoxTextColor), group (Colors)
-#: kstars.kcfg:903
+#: kstars.kcfg:907
 #, kde-format
 msgid "The normal text color of the on-screen information boxes."
 msgstr "螢幕上資訊盒的一般文字顏色。"
 
 #. i18n: ectx: label, entry (CBoundColor), group (Colors)
-#: kstars.kcfg:907
+#: kstars.kcfg:911
 #, kde-format
 msgid "Color of constellation boundaries"
 msgstr "星座邊界顏色"
 
 #. i18n: ectx: whatsthis, entry (CBoundColor), group (Colors)
 #. i18n: ectx: whatsthis, entry (CBoundHighColor), group (Colors)
-#: kstars.kcfg:908 kstars.kcfg:913
+#: kstars.kcfg:912 kstars.kcfg:917
 #, kde-format
 msgid "The color for the constellation boundary lines."
 msgstr "星座邊界的顏色。"
 
 #. i18n: ectx: label, entry (CBoundHighColor), group (Colors)
-#: kstars.kcfg:912
+#: kstars.kcfg:916
 #, kde-format
 msgid "Color of highlighted constellation boundary"
 msgstr "突顯的星座邊界顏色"
 
 #. i18n: ectx: label, entry (CLineColor), group (Colors)
-#: kstars.kcfg:917
+#: kstars.kcfg:921
 #, kde-format
 msgid "Color of constellation lines"
 msgstr "星座線條顏色"
 
 #. i18n: ectx: whatsthis, entry (CLineColor), group (Colors)
-#: kstars.kcfg:918
+#: kstars.kcfg:922
 #, kde-format
 msgid "The color for the constellation figure lines."
 msgstr "星座線條的顏色。"
 
 #. i18n: ectx: label, entry (CNameColor), group (Colors)
-#: kstars.kcfg:922
+#: kstars.kcfg:926
 #, kde-format
 msgid "Color of constellation names"
 msgstr "星座名稱顏色"
 
 #. i18n: ectx: whatsthis, entry (CNameColor), group (Colors)
-#: kstars.kcfg:923
+#: kstars.kcfg:927
 #, kde-format
 msgid "The color for the constellation names."
 msgstr "星座名稱的顏色"
 
 #. i18n: ectx: label, entry (CompassColor), group (Colors)
-#: kstars.kcfg:927
+#: kstars.kcfg:931
 #, kde-format
 msgid "Color of cardinal compass labels along horizon"
 msgstr "主要羅盤標籤顏色"
 
 #. i18n: ectx: whatsthis, entry (CompassColor), group (Colors)
-#: kstars.kcfg:928
+#: kstars.kcfg:932
 #, kde-format
 msgid "The color for the cardinal compass point labels."
 msgstr "主要羅盤標籤的顏色"
 
 #. i18n: ectx: label, entry (EclipticColor), group (Colors)
-#: kstars.kcfg:932
+#: kstars.kcfg:936
 #, kde-format
 msgid "Color of ecliptic line"
 msgstr "黃道線顏色"
 
 #. i18n: ectx: whatsthis, entry (EclipticColor), group (Colors)
-#: kstars.kcfg:933
+#: kstars.kcfg:937
 #, kde-format
 msgid "The color for the ecliptic line."
 msgstr "黃道線顏色。"
 
 #. i18n: ectx: label, entry (EquatorColor), group (Colors)
-#: kstars.kcfg:937
+#: kstars.kcfg:941
 #, kde-format
 msgid "Color of equator line"
 msgstr "赤道線顏色"
 
 #. i18n: ectx: whatsthis, entry (EquatorColor), group (Colors)
-#: kstars.kcfg:938
+#: kstars.kcfg:942
 #, kde-format
 msgid "The color for the equator line."
 msgstr "赤道線顏色。"
 
 #. i18n: ectx: label, entry (EquatorialGridColor), group (Colors)
-#: kstars.kcfg:942
+#: kstars.kcfg:946
 #, kde-format
 msgid "Color of equatorial coordinate grid lines"
 msgstr "赤道座標格線顏色"
 
 #. i18n: ectx: whatsthis, entry (EquatorialGridColor), group (Colors)
-#: kstars.kcfg:943
+#: kstars.kcfg:947
 #, kde-format
 msgid "The color for the equatorial coordinate grid lines."
 msgstr "赤道座標格線顏色。"
 
 #. i18n: ectx: label, entry (HorizontalGridColor), group (Colors)
-#: kstars.kcfg:947
+#: kstars.kcfg:951
 #, kde-format
 msgid "Color of horizontal coordinate grid lines"
 msgstr "水平座標格線顏色"
 
 #. i18n: ectx: whatsthis, entry (HorizontalGridColor), group (Colors)
-#: kstars.kcfg:948
+#: kstars.kcfg:952
 #, kde-format
 msgid "The color for the horizontal coordinate grid lines."
 msgstr "水平座標格線顏色。"
 
 #. i18n: ectx: label, entry (SpecialObjectColor), group (Colors)
-#: kstars.kcfg:952
+#: kstars.kcfg:956
 #, kde-format
 msgid "Color of objects with extra links available"
 msgstr "有額外網址連結的物件顏色"
 
 #. i18n: ectx: whatsthis, entry (SpecialObjectColor), group (Colors)
-#: kstars.kcfg:953
+#: kstars.kcfg:957
 #, kde-format
 msgid "The color for objects which have extra URL links available."
 msgstr "有額外網址連結的物件顏色。"
 
 #. i18n: ectx: label, entry (HorizonColor), group (Colors)
-#: kstars.kcfg:957
+#: kstars.kcfg:961
 #, kde-format
 msgid "Color of horizon line"
 msgstr "地平線顏色"
 
 #. i18n: ectx: whatsthis, entry (HorizonColor), group (Colors)
-#: kstars.kcfg:958
+#: kstars.kcfg:962
 #, kde-format
 msgid "The color for the horizon line and opaque ground."
 msgstr "地平線與不透明地面顏色。"
 
 #. i18n: ectx: label, entry (LocalMeridianColor), group (Colors)
-#: kstars.kcfg:962
+#: kstars.kcfg:966
 #, fuzzy, kde-format
 #| msgid "Color of horizon line"
 msgid "Color of local meridian line"
 msgstr "地平線顏色"
 
 #. i18n: ectx: whatsthis, entry (LocalMeridianColor), group (Colors)
-#: kstars.kcfg:963
+#: kstars.kcfg:967
 #, fuzzy, kde-format
 #| msgid "The color for the ecliptic line."
 msgid "The color for the local meridian line."
 msgstr "黃道線顏色。"
 
 #. i18n: ectx: label, entry (MessierColor), group (Colors)
-#: kstars.kcfg:967
+#: kstars.kcfg:971
 #, kde-format
 msgid "Color of Messier objects"
 msgstr "梅西爾物件顏色"
 
 #. i18n: ectx: whatsthis, entry (MessierColor), group (Colors)
-#: kstars.kcfg:968
+#: kstars.kcfg:972
 #, kde-format
 msgid "The color for Messier object symbols."
 msgstr "梅西爾物件符號顏色。"
 
 #. i18n: ectx: label, entry (NGCColor), group (Colors)
-#: kstars.kcfg:972
+#: kstars.kcfg:976
 #, kde-format
 msgid "Color of NGC objects"
 msgstr "NGC 物件顏色"
 
 #. i18n: ectx: whatsthis, entry (NGCColor), group (Colors)
-#: kstars.kcfg:973
+#: kstars.kcfg:977
 #, kde-format
 msgid "The color for NGC object symbols."
 msgstr "NGC 物件符號顏色。"
 
 #. i18n: ectx: label, entry (ICColor), group (Colors)
-#: kstars.kcfg:977
+#: kstars.kcfg:981
 #, kde-format
 msgid "Color of IC objects"
 msgstr "IC 物件顏色"
 
 #. i18n: ectx: whatsthis, entry (ICColor), group (Colors)
-#: kstars.kcfg:978
+#: kstars.kcfg:982
 #, kde-format
 msgid "The color for IC object symbols."
 msgstr "IC 物件符號顏色。"
 
 #. i18n: ectx: label, entry (MilkyWayWColor), group (Colors)
-#: kstars.kcfg:982
+#: kstars.kcfg:986
 #, kde-format
 msgid "Color of Milky Way contour"
 msgstr "銀河輪廓顏色"
 
 #. i18n: ectx: whatsthis, entry (MilkyWayWColor), group (Colors)
-#: kstars.kcfg:983
+#: kstars.kcfg:987
 #, kde-format
 msgid "The color for the Milky Way contour."
 msgstr "銀河輪廓顏色。"
 
 #. i18n: ectx: label, entry (StarNameColor), group (Colors)
-#: kstars.kcfg:987
+#: kstars.kcfg:991
 #, kde-format
 msgid "Color of star name labels"
 msgstr "星球名稱標籤顏色"
 
 #. i18n: ectx: whatsthis, entry (StarNameColor), group (Colors)
-#: kstars.kcfg:988
+#: kstars.kcfg:992
 #, kde-format
 msgid "The color for star name labels."
 msgstr "星球名稱標籤顏色。"
 
 #. i18n: ectx: label, entry (DeepSkyNameColor), group (Colors)
-#: kstars.kcfg:992
+#: kstars.kcfg:996
 #, kde-format
 msgid "Color of deep-sky object name labels"
 msgstr "深天空星體名稱標籤顏色"
 
 #. i18n: ectx: whatsthis, entry (DeepSkyNameColor), group (Colors)
-#: kstars.kcfg:993
+#: kstars.kcfg:997
 #, kde-format
 msgid "The color for deep-sky object name labels."
 msgstr "深天空星體名稱標籤的顏色。"
 
 #. i18n: ectx: label, entry (PlanetNameColor), group (Colors)
-#: kstars.kcfg:997
+#: kstars.kcfg:1001
 #, kde-format
 msgid "Color of planet name labels"
 msgstr "行星名稱標籤顏色"
 
 #. i18n: ectx: whatsthis, entry (PlanetNameColor), group (Colors)
-#: kstars.kcfg:998
+#: kstars.kcfg:1002
 #, kde-format
 msgid "The color for solar system object labels."
 msgstr "太陽系物件標籤顏色。"
 
 #. i18n: ectx: label, entry (PlanetTrailColor), group (Colors)
-#: kstars.kcfg:1002
+#: kstars.kcfg:1006
 #, kde-format
 msgid "Color of planet trails"
 msgstr "行星軌跡顏色"
 
 #. i18n: ectx: whatsthis, entry (PlanetTrailColor), group (Colors)
-#: kstars.kcfg:1003
+#: kstars.kcfg:1007
 #, kde-format
 msgid "The color for solar system object trails."
 msgstr "太陽系物件軌跡顏色。"
 
 #. i18n: ectx: label, entry (SkyColor), group (Colors)
-#: kstars.kcfg:1007
+#: kstars.kcfg:1011
 #, kde-format
 msgid "Color of sky"
 msgstr "天空顏色"
 
 #. i18n: ectx: whatsthis, entry (SkyColor), group (Colors)
-#: kstars.kcfg:1008
+#: kstars.kcfg:1012
 #, kde-format
 msgid "The color for the sky background."
 msgstr "天空背景顏色。"
 
 #. i18n: ectx: label, entry (ArtificialHorizonColor), group (Colors)
-#: kstars.kcfg:1012
+#: kstars.kcfg:1016
 #, fuzzy, kde-format
 #| msgid "Color of horizon line"
 msgid "Color Artificial Horizon"
 msgstr "地平線顏色"
 
 #. i18n: ectx: whatsthis, entry (ArtificialHorizonColor), group (Colors)
-#: kstars.kcfg:1013
+#: kstars.kcfg:1017
 #, fuzzy, kde-format
 #| msgid "The color for the equatorial coordinate grid lines."
 msgid "The color for the artificial horizon region."
 msgstr "赤道座標格線顏色。"
 
 #. i18n: ectx: label, entry (TelescopeTargetColor), group (Colors)
-#: kstars.kcfg:1017
+#: kstars.kcfg:1021
 #, kde-format
 msgid "Color of telescope symbols"
 msgstr "望遠鏡目的符號顏色"
 
 #. i18n: ectx: whatsthis, entry (TelescopeTargetColor), group (Colors)
-#: kstars.kcfg:1018
+#: kstars.kcfg:1022
 #, kde-format
 msgid "The color for telescope target symbols."
 msgstr "望遠鏡目的符號的顏色。"
 
 #. i18n: ectx: label, entry (VisibleSatColor), group (Colors)
-#: kstars.kcfg:1022
+#: kstars.kcfg:1026
 #, kde-format
 msgid "Color of visible satellites"
 msgstr "可見衛星的顏色"
 
 #. i18n: ectx: whatsthis, entry (VisibleSatColor), group (Colors)
-#: kstars.kcfg:1023
+#: kstars.kcfg:1027
 #, kde-format
 msgid "Color of visible satellites."
 msgstr "可見衛星的顏色。"
 
 #. i18n: ectx: label, entry (SatColor), group (Colors)
-#: kstars.kcfg:1027
+#: kstars.kcfg:1031
 #, kde-format
 msgid "Color of invisible satellites"
 msgstr "不可見衛星的顏色"
 
 #. i18n: ectx: whatsthis, entry (SatColor), group (Colors)
-#: kstars.kcfg:1028
+#: kstars.kcfg:1032
 #, kde-format
 msgid "Color of invisible satellites."
 msgstr "不可見衛星的顏色。"
 
 #. i18n: ectx: label, entry (SatLabelColor), group (Colors)
-#: kstars.kcfg:1032
+#: kstars.kcfg:1036
 #, kde-format
 msgid "Color of satellites labels"
 msgstr "衛星標籤的顏色"
 
 #. i18n: ectx: whatsthis, entry (SatLabelColor), group (Colors)
-#: kstars.kcfg:1033
+#: kstars.kcfg:1037
 #, kde-format
 msgid "Color of satellites labels."
 msgstr "衛星標籤的顏色。"
 
 #. i18n: ectx: label, entry (SupernovaColor), group (Colors)
-#: kstars.kcfg:1037
+#: kstars.kcfg:1041
 #, kde-format
 msgid "Color of supernovae"
 msgstr "超新星顏色"
 
 #. i18n: ectx: whatsthis, entry (SupernovaColor), group (Colors)
-#: kstars.kcfg:1038
+#: kstars.kcfg:1042
 #, kde-format
 msgid "Color of supernova"
 msgstr "超新星顏色"
 
 #. i18n: ectx: label, entry (UserLabelColor), group (Colors)
-#: kstars.kcfg:1042
+#: kstars.kcfg:1046
 #, kde-format
 msgid "Color of user-added labels"
 msgstr "使用者新增物件標籤顏色"
 
 #. i18n: ectx: whatsthis, entry (UserLabelColor), group (Colors)
-#: kstars.kcfg:1043
+#: kstars.kcfg:1047
 #, kde-format
 msgid "The color for user-added object labels."
 msgstr "使用者新增的物件標籤的顏色。"
 
 #. i18n: ectx: label, entry (RAGuideColor), group (Colors)
-#: kstars.kcfg:1047
+#: kstars.kcfg:1051
 #, kde-format
 msgid "Color of RA Guide Error"
 msgstr "RA 引導錯誤的顏色"
 
 #. i18n: ectx: whatsthis, entry (RAGuideColor), group (Colors)
-#: kstars.kcfg:1048
+#: kstars.kcfg:1052
 #, kde-format
 msgid "The color for RA Guide Error bar in Ekos guide module."
 msgstr "Ekos 引導模組中 RA 引導錯誤列的顏色。"
 
 #. i18n: ectx: label, entry (DEGuideColor), group (Colors)
-#: kstars.kcfg:1052
+#: kstars.kcfg:1056
 #, kde-format
 msgid "Color of DEC Guide Error"
 msgstr "DEC 引導錯誤的顏色"
 
 #. i18n: ectx: whatsthis, entry (DEGuideColor), group (Colors)
-#: kstars.kcfg:1053
+#: kstars.kcfg:1057
 #, kde-format
 msgid "The color for DEC Guide Error bar in Ekos guide module."
 msgstr "Ekos 引導模組中 DEC 引導錯誤列的顏色。"
 
 #. i18n: ectx: label, entry (SolverFOVColor), group (Colors)
-#: kstars.kcfg:1057
+#: kstars.kcfg:1061
 #, kde-format
 msgid "Color of solver FOV box"
 msgstr "解析器 FOV 方塊的顏色"
 
 #. i18n: ectx: whatsthis, entry (SolverFOVColor), group (Colors)
-#: kstars.kcfg:1058
+#: kstars.kcfg:1062
 #, kde-format
 msgid "The color for solver FOV box in Ekos alignment module."
 msgstr "Ekos 模組中辨識器視場盒的顏色"
 
 #. i18n: ectx: label, entry (xplanetIsInternal), group (Xplanet)
-#: kstars.kcfg:1064 xplanet/opsxplanet.cpp:29
+#: kstars.kcfg:1068 xplanet/opsxplanet.cpp:29
 #, fuzzy, kde-format
 #| msgid "Options passed to the astrometry solver."
 msgid "Internal or External XPlanet?"
 msgstr "要傳送給 astrometry 識別器的選項。"
 
 #. i18n: ectx: label, entry (XplanetPath), group (Xplanet)
-#: kstars.kcfg:1068
+#: kstars.kcfg:1072
 #, kde-format
 msgid "Path to xplanet binary"
 msgstr "xplanet 執行檔路徑"
 
 #. i18n: ectx: whatsthis, entry (XplanetPath), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetPath)
-#: kstars.kcfg:1069 xplanet/opsxplanet.ui:148
+#: kstars.kcfg:1073 xplanet/opsxplanet.ui:148
 #, kde-format
 msgid "Xplanet binary path"
 msgstr "xplanet 執行檔路徑"
 
 #. i18n: ectx: label, entry (XplanetTitle), group (Xplanet)
-#: kstars.kcfg:1073
+#: kstars.kcfg:1077
 #, kde-format
 msgid "Window title"
 msgstr "視窗標題"
 
 #. i18n: ectx: whatsthis, entry (XplanetTitle), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetTitle)
-#: kstars.kcfg:1074 xplanet/opsxplanet.ui:53
+#: kstars.kcfg:1078 xplanet/opsxplanet.ui:53
 #, kde-format
 msgid "Set the window’s title."
 msgstr "設定視窗標題"
 
 #. i18n: ectx: label, entry (XplanetWidth), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetWidth), group (Xplanet)
-#: kstars.kcfg:1078 kstars.kcfg:1079
+#: kstars.kcfg:1082 kstars.kcfg:1083
 #, kde-format
 msgid "Width of xplanet window"
 msgstr "xplanet 視窗寬度"
 
 #. i18n: ectx: label, entry (XplanetHeight), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetHeight), group (Xplanet)
-#: kstars.kcfg:1083 kstars.kcfg:1084
+#: kstars.kcfg:1087 kstars.kcfg:1088
 #, kde-format
 msgid "Height of xplanet window"
 msgstr "xplanet 視窗高度"
 
 #. i18n: ectx: label, entry (XplanetLabel), group (Xplanet)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetLabel)
-#: kstars.kcfg:1088 xplanet/opsxplanet.ui:674
+#: kstars.kcfg:1092 xplanet/opsxplanet.ui:674
 #, kde-format
 msgid "Show label"
 msgstr "顯示標籤"
 
 #. i18n: ectx: whatsthis, entry (XplanetLabel), group (Xplanet)
-#: kstars.kcfg:1089
+#: kstars.kcfg:1093
 #, kde-format
 msgid "If true, display a label in the upper right corner."
 msgstr "若為真，則會在右上角顯示標籤"
 
 #. i18n: ectx: label, entry (XplanetLabelLocalTime), group (Xplanet)
 #. i18n: ectx: label, entry (XplanetLabelGMT), group (Xplanet)
-#: kstars.kcfg:1093 kstars.kcfg:1098
+#: kstars.kcfg:1097 kstars.kcfg:1102
 #, kde-format
 msgid "Show GMT label"
 msgstr "顯示 GMT 標籤"
 
 #. i18n: ectx: whatsthis, entry (XplanetLabelLocalTime), group (Xplanet)
-#: kstars.kcfg:1094
+#: kstars.kcfg:1098
 #, kde-format
 msgid "Show local time."
 msgstr "顯示本地時間"
 
 #. i18n: ectx: whatsthis, entry (XplanetLabelGMT), group (Xplanet)
-#: kstars.kcfg:1099
+#: kstars.kcfg:1103
 #, kde-format
 msgid "Show GMT instead of local time."
 msgstr "用 GMT 而不用本地時區。"
 
 #. i18n: ectx: label, entry (XplanetLabelString), group (Xplanet)
-#: kstars.kcfg:1103
+#: kstars.kcfg:1107
 #, kde-format
 msgid "Planet string"
 msgstr "行星字串"
 
 #. i18n: ectx: whatsthis, entry (XplanetLabelString), group (Xplanet)
-#: kstars.kcfg:1104
+#: kstars.kcfg:1108
 #, fuzzy, no-c-format, kde-format
 #| msgid ""
 #| "Specify the text of the first line of the label. By default, it says "
@@ -21615,40 +21653,40 @@ msgstr ""
 "代為原始名稱。"
 
 #. i18n: ectx: label, entry (XplanetFontSize), group (Xplanet)
-#: kstars.kcfg:1108
+#: kstars.kcfg:1112
 #, kde-format
 msgid "Font Size"
 msgstr "字型大小"
 
 #. i18n: ectx: whatsthis, entry (XplanetFontSize), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_XplanetFontSize)
-#: kstars.kcfg:1109 xplanet/opsxplanet.ui:549
+#: kstars.kcfg:1113 xplanet/opsxplanet.ui:549
 #, kde-format
 msgid "Specify the point size."
 msgstr "指定點大小。"
 
 #. i18n: ectx: label, entry (XplanetColor), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetColor)
-#: kstars.kcfg:1113 xplanet/opsxplanet.ui:563
+#: kstars.kcfg:1117 xplanet/opsxplanet.ui:563
 #, kde-format
 msgid "Label color"
 msgstr "標籤顏色"
 
 #. i18n: ectx: whatsthis, entry (XplanetColor), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_XplanetColor)
-#: kstars.kcfg:1114 xplanet/opsxplanet.ui:566
+#: kstars.kcfg:1118 xplanet/opsxplanet.ui:566
 #, kde-format
 msgid "Set the color for the label."
 msgstr "設定標籤顏色。"
 
 #. i18n: ectx: label, entry (XplanetDateFormat), group (Xplanet)
-#: kstars.kcfg:1118
+#: kstars.kcfg:1122
 #, kde-format
 msgid "Date format"
 msgstr "日期格式"
 
 #. i18n: ectx: whatsthis, entry (XplanetDateFormat), group (Xplanet)
-#: kstars.kcfg:1119
+#: kstars.kcfg:1123
 #, fuzzy, no-c-format, kde-format
 #| msgid ""
 #| "Specify the format for the date/time label.  This format string is passed "
@@ -21664,40 +21702,40 @@ msgstr ""
 
 #. i18n: ectx: label, entry (XplanetLabelTL), group (Xplanet)
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTL)
-#: kstars.kcfg:1123 xplanet/opsxplanet.ui:580
+#: kstars.kcfg:1127 xplanet/opsxplanet.ui:580
 #, kde-format
 msgid "Top left"
 msgstr "左上"
 
 #. i18n: ectx: label, entry (XplanetLabelTR), group (Xplanet)
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTR)
-#: kstars.kcfg:1127 xplanet/opsxplanet.ui:604
+#: kstars.kcfg:1131 xplanet/opsxplanet.ui:604
 #, kde-format
 msgid "Top right"
 msgstr "右上"
 
 #. i18n: ectx: label, entry (XplanetLabelBR), group (Xplanet)
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBR)
-#: kstars.kcfg:1131 xplanet/opsxplanet.ui:614
+#: kstars.kcfg:1135 xplanet/opsxplanet.ui:614
 #, kde-format
 msgid "Bottom right"
 msgstr "右下"
 
 #. i18n: ectx: label, entry (XplanetLabelBL), group (Xplanet)
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBL)
-#: kstars.kcfg:1135 xplanet/opsxplanet.ui:590
+#: kstars.kcfg:1139 xplanet/opsxplanet.ui:590
 #, kde-format
 msgid "Bottom left"
 msgstr "左下"
 
 #. i18n: ectx: label, entry (XplanetGlare), group (Xplanet)
-#: kstars.kcfg:1139
+#: kstars.kcfg:1143
 #, kde-format
 msgid "Sun Glare"
 msgstr "太陽光"
 
 #. i18n: ectx: whatsthis, entry (XplanetGlare), group (Xplanet)
-#: kstars.kcfg:1140
+#: kstars.kcfg:1144
 #, fuzzy, kde-format
 #| msgid ""
 #| "Draw a glare around the sun with a radius of the specified value larger "
@@ -21708,39 +21746,39 @@ msgid ""
 msgstr "在太陽的週圍畫上陽光。數值決定繪製陽光的半徑範圍。預設值為 28。"
 
 #. i18n: ectx: label, entry (XplanetRandom), group (Xplanet)
-#: kstars.kcfg:1144
+#: kstars.kcfg:1148
 #, kde-format
 msgid "Random latitude and longitude"
 msgstr "隨機經緯度"
 
 #. i18n: ectx: whatsthis, entry (XplanetRandom), group (Xplanet)
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetRandom)
-#: kstars.kcfg:1145 xplanet/opsxplanet.ui:832
+#: kstars.kcfg:1149 xplanet/opsxplanet.ui:832
 #, kde-format
 msgid "Place the observer above a random latitude and longitude"
 msgstr "將觀察者隨機放置在任意經緯度"
 
 #. i18n: ectx: label, entry (XplanetLatLong), group (Xplanet)
-#: kstars.kcfg:1149
+#: kstars.kcfg:1153
 #, kde-format
 msgid "Latitude-Longitude"
 msgstr "緯度─經度"
 
 #. i18n: ectx: whatsthis, entry (XplanetLatLong), group (Xplanet)
-#: kstars.kcfg:1150
+#: kstars.kcfg:1154
 #, kde-format
 msgid "Place the observer above the specified longitude and latitude"
 msgstr "將觀察者放在上述的緯度跟經度"
 
 #. i18n: ectx: label, entry (XplanetLatitude), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_XplanetLatitude)
-#: kstars.kcfg:1154 xplanet/opsxplanet.ui:784
+#: kstars.kcfg:1158 xplanet/opsxplanet.ui:784
 #, kde-format
 msgid "Latitude in degrees"
 msgstr "緯度（以度為單位）"
 
 #. i18n: ectx: whatsthis, entry (XplanetLatitude), group (Xplanet)
-#: kstars.kcfg:1155
+#: kstars.kcfg:1159
 #, fuzzy, kde-format
 #| msgid ""
 #| "Render the target body as seen from above the specified latitude (in "
@@ -21752,13 +21790,13 @@ msgstr "由指定的緯度上方觀察的角度畫出目標本體。預設為 0�
 
 #. i18n: ectx: label, entry (XplanetLongitude), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_XplanetLongitude)
-#: kstars.kcfg:1159 xplanet/opsxplanet.ui:807
+#: kstars.kcfg:1163 xplanet/opsxplanet.ui:807
 #, kde-format
 msgid "Longitude in degrees"
 msgstr "經度（以度為單位）"
 
 #. i18n: ectx: whatsthis, entry (XplanetLongitude), group (Xplanet)
-#: kstars.kcfg:1160
+#: kstars.kcfg:1164
 #, fuzzy, kde-format
 #| msgid ""
 #| "Place the observer above the specified longitude (in degrees).  Longitude "
@@ -21774,13 +21812,13 @@ msgstr ""
 
 #. i18n: ectx: label, entry (XplanetProjection), group (Xplanet)
 #. i18n: ectx: attribute (title), widget (QWidget, XplanetTabProjection)
-#: kstars.kcfg:1164 xplanet/opsxplanet.ui:855
+#: kstars.kcfg:1168 xplanet/opsxplanet.ui:855
 #, kde-format
 msgid "Projection"
 msgstr "投影"
 
 #. i18n: ectx: whatsthis, entry (XplanetProjection), group (Xplanet)
-#: kstars.kcfg:1165
+#: kstars.kcfg:1169
 #, fuzzy, kde-format
 #| msgid ""
 #| "The default is no projection.  Multiple bodies will not be shown if this "
@@ -21791,13 +21829,13 @@ msgid ""
 msgstr "預設為不投影。若指定此選項，則不會畫出多重本體，陰影仍然會繪製。"
 
 #. i18n: ectx: label, entry (XplanetWait), group (Xplanet)
-#: kstars.kcfg:1169
+#: kstars.kcfg:1173
 #, kde-format
 msgid "Update view"
 msgstr "更新檢視"
 
 #. i18n: ectx: whatsthis, entry (XplanetWait), group (Xplanet)
-#: kstars.kcfg:1170
+#: kstars.kcfg:1174
 #, kde-format
 msgid "If true, update view."
 msgstr "就更新檢視。"
@@ -21806,7 +21844,7 @@ msgstr "就更新檢視。"
 #. i18n: ectx: whatsthis, entry (XplanetWaitValue), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_XplanetWaitValue)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_XplanetWaitValue)
-#: kstars.kcfg:1174 kstars.kcfg:1175 xplanet/opsxplanet.ui:236
+#: kstars.kcfg:1178 kstars.kcfg:1179 xplanet/opsxplanet.ui:236
 #: xplanet/opsxplanet.ui:239
 #, kde-format
 msgid "Number of seconds to wait before updating"
@@ -21814,13 +21852,13 @@ msgstr "更新前等待秒數"
 
 #. i18n: ectx: label, entry (XplanetBackground), group (Xplanet)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetBackground)
-#: kstars.kcfg:1179 xplanet/opsxplanet.ui:914
+#: kstars.kcfg:1183 xplanet/opsxplanet.ui:914
 #, kde-format
 msgid "Use background"
 msgstr "使用背景"
 
 #. i18n: ectx: whatsthis, entry (XplanetBackground), group (Xplanet)
-#: kstars.kcfg:1180
+#: kstars.kcfg:1184
 #, kde-format
 msgid ""
 "Use a file as the background image, with the planet to be superimposed upon "
@@ -21831,63 +21869,63 @@ msgstr ""
 "用。也可以提供顏色。"
 
 #. i18n: ectx: label, entry (XplanetBackgroundImage), group (Xplanet)
-#: kstars.kcfg:1184
+#: kstars.kcfg:1188
 #, kde-format
 msgid "Use background image"
 msgstr "使用背景影像"
 
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundImage), group (Xplanet)
-#: kstars.kcfg:1185
+#: kstars.kcfg:1189
 #, kde-format
 msgid "Use a file as the background image."
 msgstr "使用檔案內容做背景影像。"
 
 #. i18n: ectx: label, entry (XplanetBackgroundImagePath), group (Xplanet)
-#: kstars.kcfg:1189
+#: kstars.kcfg:1193
 #, kde-format
 msgid "Background image path"
 msgstr "背景影像路徑"
 
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundImagePath), group (Xplanet)
-#: kstars.kcfg:1190
+#: kstars.kcfg:1194
 #, kde-format
 msgid "The path of the background image."
 msgstr "背景影像路徑。"
 
 #. i18n: ectx: label, entry (XplanetBackgroundColor), group (Xplanet)
-#: kstars.kcfg:1194
+#: kstars.kcfg:1198
 #, kde-format
 msgid "Use background color"
 msgstr "使用背景顏色"
 
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundColor), group (Xplanet)
-#: kstars.kcfg:1195
+#: kstars.kcfg:1199
 #, kde-format
 msgid "Use a color as the background."
 msgstr "使用顏色做背景。"
 
 #. i18n: ectx: label, entry (XplanetBackgroundColorValue), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetBackgroundColorValue)
-#: kstars.kcfg:1199 xplanet/opsxplanet.ui:957
+#: kstars.kcfg:1203 xplanet/opsxplanet.ui:957
 #, kde-format
 msgid "Background color"
 msgstr "背景顏色"
 
 #. i18n: ectx: whatsthis, entry (XplanetBackgroundColorValue), group (Xplanet)
-#: kstars.kcfg:1200
+#: kstars.kcfg:1204
 #, kde-format
 msgid "The color of the background."
 msgstr "背景顏色"
 
 #. i18n: ectx: label, entry (XplanetMagnitude), group (Xplanet)
-#: kstars.kcfg:1204
+#: kstars.kcfg:1208
 #, kde-format
 msgid "Base magnitude"
 msgstr "基礎星等"
 
 #. i18n: ectx: whatsthis, entry (XplanetMagnitude), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_XplanetMagnitude)
-#: kstars.kcfg:1205 xplanet/opsxplanet.ui:297
+#: kstars.kcfg:1209 xplanet/opsxplanet.ui:297
 #, kde-format
 msgid ""
 "A star of the specified magnitude will have a pixel brightness of 1. The "
@@ -21897,90 +21935,90 @@ msgstr ""
 "指定星等的星體，像素亮度設為 1。預設為 10 星等。若此值越大，則星星會越亮。"
 
 #. i18n: ectx: label, entry (XplanetArcFile), group (Xplanet)
-#: kstars.kcfg:1209
+#: kstars.kcfg:1213
 #, kde-format
 msgid "Arc file"
 msgstr "Arc 檔"
 
 #. i18n: ectx: whatsthis, entry (XplanetArcFile), group (Xplanet)
-#: kstars.kcfg:1210
+#: kstars.kcfg:1214
 #, kde-format
 msgid "If checked, use an arc file to be plotted against the background stars."
 msgstr "勾選此選項的話，會使用 arc 檔來繪製背景星星。"
 
 #. i18n: ectx: label, entry (XplanetArcFilePath), group (Xplanet)
-#: kstars.kcfg:1214
+#: kstars.kcfg:1218
 #, kde-format
 msgid "Path to arc file"
 msgstr "arc 檔路徑"
 
 #. i18n: ectx: whatsthis, entry (XplanetArcFilePath), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetArcFilePath)
-#: kstars.kcfg:1215 xplanet/opsxplanet.ui:342
+#: kstars.kcfg:1219 xplanet/opsxplanet.ui:342
 #, kde-format
 msgid "Specify an arc file to be plotted against the background stars."
 msgstr "指定 arc 檔來繪製背景星星。"
 
 #. i18n: ectx: label, entry (XplanetConfigFile), group (Xplanet)
-#: kstars.kcfg:1219
+#: kstars.kcfg:1223
 #, kde-format
 msgid "Config file"
 msgstr "設定檔"
 
 #. i18n: ectx: whatsthis, entry (XplanetConfigFile), group (Xplanet)
-#: kstars.kcfg:1220
+#: kstars.kcfg:1224
 #, kde-format
 msgid "If checked, use a config file."
 msgstr "勾選此選項的話，則使用設定檔。"
 
 #. i18n: ectx: label, entry (XplanetConfigFilePath), group (Xplanet)
-#: kstars.kcfg:1224
+#: kstars.kcfg:1228
 #, kde-format
 msgid "Path to config file"
 msgstr "設定檔路徑"
 
 #. i18n: ectx: whatsthis, entry (XplanetConfigFilePath), group (Xplanet)
-#: kstars.kcfg:1225
+#: kstars.kcfg:1229
 #, kde-format
 msgid "Use the specified configuration file."
 msgstr "使用指定的設定檔。"
 
 #. i18n: ectx: label, entry (XplanetFOV), group (Xplanet)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetFOV)
-#: kstars.kcfg:1229 xplanet/opsxplanet.ui:214
+#: kstars.kcfg:1233 xplanet/opsxplanet.ui:214
 #, kde-format
 msgid "Use kstars's FOV"
 msgstr "使用 kstars 視場"
 
 #. i18n: ectx: whatsthis, entry (XplanetFOV), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetFOV)
-#: kstars.kcfg:1230 xplanet/opsxplanet.ui:211
+#: kstars.kcfg:1234 xplanet/opsxplanet.ui:211
 #, kde-format
 msgid "If checked, use kstars's FOV."
 msgstr "勾選此項目的話，使用 kstars 視場。"
 
 #. i18n: ectx: label, entry (XplanetMarkerFile), group (Xplanet)
-#: kstars.kcfg:1234
+#: kstars.kcfg:1238
 #, kde-format
 msgid "Use marker file"
 msgstr "使用標記檔"
 
 #. i18n: ectx: whatsthis, entry (XplanetMarkerFile), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetMarkerFile)
-#: kstars.kcfg:1235 xplanet/opsxplanet.ui:700
+#: kstars.kcfg:1239 xplanet/opsxplanet.ui:700
 #, kde-format
 msgid "If checked, use the specified marker file."
 msgstr "勾選此選項的話，則使用指定的標記檔。"
 
 #. i18n: ectx: label, entry (XplanetMarkerFilePath), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetMarkerFilePath)
-#: kstars.kcfg:1239 xplanet/opsxplanet.ui:710
+#: kstars.kcfg:1243 xplanet/opsxplanet.ui:710
 #, kde-format
 msgid "Marker file path"
 msgstr "標記檔路徑"
 
 #. i18n: ectx: whatsthis, entry (XplanetMarkerFilePath), group (Xplanet)
-#: kstars.kcfg:1240
+#: kstars.kcfg:1244
 #, kde-format
 msgid ""
 "Specify a file containing user-defined marker data to display against the "
@@ -21988,13 +22026,13 @@ msgid ""
 msgstr "指定包含使用者定義的標記資料的檔案來顯示背景星星。"
 
 #. i18n: ectx: label, entry (XplanetMarkerBounds), group (Xplanet)
-#: kstars.kcfg:1244
+#: kstars.kcfg:1248
 #, kde-format
 msgid "Write marker bounds"
 msgstr "寫入標記邊界"
 
 #. i18n: ectx: whatsthis, entry (XplanetMarkerBounds), group (Xplanet)
-#: kstars.kcfg:1245
+#: kstars.kcfg:1249
 #, kde-format
 msgid ""
 "If checked, write coordinates of the bounding box for each marker in a file."
@@ -22002,27 +22040,27 @@ msgstr "勾選此選項的話，則將每個標記的邊界座標寫入檔案。
 
 #. i18n: ectx: label, entry (XplanetMarkerBoundsPath), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetMarkerBoundsPath)
-#: kstars.kcfg:1249 xplanet/opsxplanet.ui:733
+#: kstars.kcfg:1253 xplanet/opsxplanet.ui:733
 #, kde-format
 msgid "Marker bounds file path"
 msgstr "標記邊界檔路徑"
 
 #. i18n: ectx: whatsthis, entry (XplanetMarkerBoundsPath), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetMarkerBoundsPath)
-#: kstars.kcfg:1250 xplanet/opsxplanet.ui:736
+#: kstars.kcfg:1254 xplanet/opsxplanet.ui:736
 #, kde-format
 msgid "Write coordinates of the bounding box for each marker to this file."
 msgstr "將每個標記的邊界座標寫入此檔案。"
 
 #. i18n: ectx: label, entry (XplanetStarmap), group (Xplanet)
-#: kstars.kcfg:1254
+#: kstars.kcfg:1258
 #, kde-format
 msgid "Star map"
 msgstr "星體圖"
 
 #. i18n: ectx: whatsthis, entry (XplanetStarmap), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetStarmap)
-#: kstars.kcfg:1255 xplanet/opsxplanet.ui:307
+#: kstars.kcfg:1259 xplanet/opsxplanet.ui:307
 #, kde-format
 msgid "If checked, use star map file to draw the background stars."
 msgstr "勾選此選項的話，會使用星體圖檔案來繪製背景星星。"
@@ -22031,21 +22069,21 @@ msgstr "勾選此選項的話，會使用星體圖檔案來繪製背景星星。
 #. i18n: ectx: whatsthis, entry (XplanetStarmapPath), group (Xplanet)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_XplanetStarmapPath)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetStarmapPath)
-#: kstars.kcfg:1259 kstars.kcfg:1260 xplanet/opsxplanet.ui:323
+#: kstars.kcfg:1263 kstars.kcfg:1264 xplanet/opsxplanet.ui:323
 #: xplanet/opsxplanet.ui:326
 #, kde-format
 msgid "Star map file path"
 msgstr "星體圖檔案路徑"
 
 #. i18n: ectx: label, entry (XplanetQuality), group (Xplanet)
-#: kstars.kcfg:1264
+#: kstars.kcfg:1268
 #, kde-format
 msgid "Output file quality"
 msgstr "輸出檔案品質"
 
 #. i18n: ectx: whatsthis, entry (XplanetQuality), group (Xplanet)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_XplanetQuality)
-#: kstars.kcfg:1265 xplanet/opsxplanet.ui:415
+#: kstars.kcfg:1269 xplanet/opsxplanet.ui:415
 #, kde-format
 msgid ""
 "This option is only used when creating JPEG images. The quality can range "
@@ -22053,27 +22091,27 @@ msgid ""
 msgstr "此選項只用於產生 JPEG 影像等。品質範圍從 0 到 100。預設為 80。"
 
 #. i18n: ectx: label, entry (ShowSatellites), group (Satellites)
-#: kstars.kcfg:1271
+#: kstars.kcfg:1275
 #, kde-format
 msgid "Draw satellites in the sky map?"
 msgstr "要在天體圖中畫出衛星嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowSatellites), group (Satellites)
 #. i18n: ectx: whatsthis, entry (ShowVisibleSatellites), group (Satellites)
-#: kstars.kcfg:1272 kstars.kcfg:1277
+#: kstars.kcfg:1276 kstars.kcfg:1281
 #, kde-format
 msgid "Toggle whether satellite tracks are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出衛星軌跡。"
 
 #. i18n: ectx: label, entry (ShowVisibleSatellites), group (Satellites)
-#: kstars.kcfg:1276
+#: kstars.kcfg:1280
 #, kde-format
 msgid "Draw only visible satellites in the sky map"
 msgstr "在天體圖中只畫出可見衛星嗎？"
 
 #. i18n: ectx: label, entry (DrawSatellitesLikeStars), group (Satellites)
 #. i18n: ectx: whatsthis, entry (DrawSatellitesLikeStars), group (Satellites)
-#: kstars.kcfg:1281 kstars.kcfg:1282
+#: kstars.kcfg:1285 kstars.kcfg:1286
 #, kde-format
 msgid ""
 "If selected, satellites will be draw like stars, otherwise, draw satellites "
@@ -22082,38 +22120,38 @@ msgstr ""
 "若選擇此選項，則衛星會比照一般星體被繪出。否則，會將衛星以小的彩色方塊標示。"
 
 #. i18n: ectx: label, entry (ShowSatellitesLabels), group (Satellites)
-#: kstars.kcfg:1286
+#: kstars.kcfg:1290
 #, kde-format
 msgid "Draw satellite labels?"
 msgstr "要畫出衛星標籤嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowSatellitesLabels), group (Satellites)
-#: kstars.kcfg:1287
+#: kstars.kcfg:1291
 #, kde-format
 msgid "Toggle whether satellite labels are drawn in the sky map."
 msgstr "勾選此選項的話，會畫出衛星標籤。"
 
 #. i18n: ectx: label, entry (SelectedSatellites), group (Satellites)
-#: kstars.kcfg:1291
+#: kstars.kcfg:1295
 #, kde-format
 msgid "Selected satellites."
 msgstr "選取的衛星。"
 
 #. i18n: ectx: whatsthis, entry (SelectedSatellites), group (Satellites)
-#: kstars.kcfg:1292
+#: kstars.kcfg:1296
 #, kde-format
 msgid "List of selected satellites."
 msgstr "選取的衛星清單。"
 
 #. i18n: ectx: label, entry (AlwaysRecomputeCoordinates), group (General)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysRecomputeCoordinates)
-#: kstars.kcfg:1297 options/opsadvanced.ui:94
+#: kstars.kcfg:1301 options/opsadvanced.ui:94
 #, kde-format
 msgid "Always recompute coordinates"
 msgstr "總是重新計算座標"
 
 #. i18n: ectx: whatsthis, entry (AlwaysRecomputeCoordinates), group (General)
-#: kstars.kcfg:1298
+#: kstars.kcfg:1302
 #, kde-format
 msgid ""
 "Checking this option causes recomputation of current equatorial coordinates "
@@ -22128,25 +22166,25 @@ msgstr ""
 "時會有些問題。"
 
 #. i18n: ectx: label, entry (DefaultDSSImageSize), group (General)
-#: kstars.kcfg:1302
+#: kstars.kcfg:1306
 #, kde-format
 msgid "Default size for DSS images"
 msgstr "DSS 影像的預設大小"
 
 #. i18n: ectx: whatsthis, entry (DefaultDSSImageSize), group (General)
-#: kstars.kcfg:1303
+#: kstars.kcfg:1307
 #, kde-format
 msgid "The default size for DSS images downloaded from the internet."
 msgstr "從網際網路上下載 DSS 影像時的預設大小。"
 
 #. i18n: ectx: label, entry (DSSPadding), group (General)
-#: kstars.kcfg:1307
+#: kstars.kcfg:1311
 #, kde-format
 msgid "Additional padding around DSS Images of deep-sky objects"
 msgstr "在深天空物件的 DSS 影像週圍描邊"
 
 #. i18n: ectx: whatsthis, entry (DSSPadding), group (General)
-#: kstars.kcfg:1308
+#: kstars.kcfg:1312
 #, kde-format
 msgid ""
 "To include parts of the star field, we add some extra padding around DSS "
@@ -22157,14 +22195,14 @@ msgstr ""
 "邊。"
 
 #. i18n: ectx: label, entry (VerboseLogging), group (General)
-#: kstars.kcfg:1312
+#: kstars.kcfg:1316
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable Verbose Logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: whatsthis, entry (VerboseLogging), group (General)
-#: kstars.kcfg:1313
+#: kstars.kcfg:1317
 #, kde-format
 msgid ""
 "Checking this option causes KStars to generate verbose debug information for "
@@ -22172,41 +22210,41 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (RegularLogging), group (General)
-#: kstars.kcfg:1317
+#: kstars.kcfg:1321
 #, fuzzy, kde-format
 #| msgid "Enable logging"
 msgid "Enable Regular Logging"
 msgstr "開啟紀錄"
 
 #. i18n: ectx: whatsthis, entry (RegularLogging), group (General)
-#: kstars.kcfg:1318
+#: kstars.kcfg:1322
 #, kde-format
 msgid ""
 "Checking this option causes KStars to generate regular debug information."
 msgstr ""
 
 #. i18n: ectx: label, entry (DisableLogging), group (General)
-#: kstars.kcfg:1322
+#: kstars.kcfg:1326
 #, kde-format
 msgid "Disable Verbose Logging"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (DisableLogging), group (General)
-#: kstars.kcfg:1323
+#: kstars.kcfg:1327
 #, kde-format
 msgid ""
 "Checking this option causes KStars to stop generating ANY debug information."
 msgstr ""
 
 #. i18n: ectx: label, entry (LogToDefault), group (General)
-#: kstars.kcfg:1327
+#: kstars.kcfg:1331
 #, fuzzy, kde-format
 #| msgid "Log verbose solver output"
 msgid "Log debug message to default output"
 msgstr "紀錄詳細的識別器輸出"
 
 #. i18n: ectx: whatsthis, entry (LogToDefault), group (General)
-#: kstars.kcfg:1328
+#: kstars.kcfg:1332
 #, kde-format
 msgid ""
 "Checking this option causes KStars log debug messages to the default output "
@@ -22214,13 +22252,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (LogToFile), group (General)
-#: kstars.kcfg:1332
+#: kstars.kcfg:1336
 #, kde-format
 msgid "Log debug message to a log file"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (LogToFile), group (General)
-#: kstars.kcfg:1333
+#: kstars.kcfg:1337
 #, kde-format
 msgid ""
 "Checking this option causes KStars log debug messages to a log file as "
@@ -22228,50 +22266,50 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (FITSLogging), group (General)
-#: kstars.kcfg:1337
+#: kstars.kcfg:1341
 #, kde-format
 msgid "Log FITS Data activity."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (INDILogging), group (General)
-#: kstars.kcfg:1341
+#: kstars.kcfg:1345
 #, fuzzy, kde-format
 #| msgid "INDI services stopped."
 msgid "Log INDI devices activity."
 msgstr "INDI 服務已停止。"
 
 #. i18n: ectx: whatsthis, entry (CaptureLogging), group (General)
-#: kstars.kcfg:1345
+#: kstars.kcfg:1349
 #, kde-format
 msgid "Log Ekos Capture Module activity."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (FocusLogging), group (General)
-#: kstars.kcfg:1349
+#: kstars.kcfg:1353
 #, kde-format
 msgid "Log Ekos Focus Module activity."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (GuideLogging), group (General)
-#: kstars.kcfg:1353
+#: kstars.kcfg:1357
 #, kde-format
 msgid "Log Ekos Guide Module activity."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (AlignmentLogging), group (General)
-#: kstars.kcfg:1357
+#: kstars.kcfg:1361
 #, kde-format
 msgid "Log Ekos Alignment Module activity."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (MountLogging), group (General)
-#: kstars.kcfg:1361
+#: kstars.kcfg:1365
 #, kde-format
 msgid "Log Ekos Mount Module activity."
 msgstr ""
 
 #. i18n: ectx: label, entry (useFITSViewer), group (FITSViewer)
-#: kstars.kcfg:1367
+#: kstars.kcfg:1371
 #, fuzzy, kde-format
 #| msgid ""
 #| "Display all captured FITS images in a single tab instead of multiple tabs "
@@ -22280,20 +22318,20 @@ msgid "Display every image captured in a FITS Viewer window."
 msgstr "在單一分頁中顯示所有抓取到的 FITS 影像，而不是每張影像開一個分頁。"
 
 #. i18n: ectx: label, entry (singlePreviewFITS), group (FITSViewer)
-#: kstars.kcfg:1371
+#: kstars.kcfg:1375
 #, kde-format
 msgid "Preview FITS in a single tab?"
 msgstr "要在單一分頁中預覽 FITS 影像嗎？"
 
 #. i18n: ectx: label, entry (singleWindowCapturedFITS), group (FITSViewer)
-#: kstars.kcfg:1376
+#: kstars.kcfg:1380
 #, fuzzy, kde-format
 #| msgid "Display all FITS in one window?"
 msgid "Display all captured FITS in one window?"
 msgstr "在同一個檢視器中顯示所有 FITS 影像？"
 
 #. i18n: ectx: whatsthis, entry (singleWindowCapturedFITS), group (FITSViewer)
-#: kstars.kcfg:1377
+#: kstars.kcfg:1381
 #, kde-format
 msgid ""
 "Display all captured FITS images in a single FITS Viewer window. By default "
@@ -22302,14 +22340,14 @@ msgstr ""
 "在同一個檢視器中顯示所有 FITS 影像。預設會為不同的相機開啟不同的 FITS 檢視器"
 
 #. i18n: ectx: label, entry (singleWindowOpenedFITS), group (FITSViewer)
-#: kstars.kcfg:1381
+#: kstars.kcfg:1385
 #, fuzzy, kde-format
 #| msgid "Display all FITS in one window?"
 msgid "Display all opened FITS in one window?"
 msgstr "在同一個檢視器中顯示所有 FITS 影像？"
 
 #. i18n: ectx: whatsthis, entry (singleWindowOpenedFITS), group (FITSViewer)
-#: kstars.kcfg:1382
+#: kstars.kcfg:1386
 #, fuzzy, kde-format
 #| msgid ""
 #| "Display all captured FITS images in a single tab instead of multiple tabs "
@@ -22318,25 +22356,25 @@ msgid "Display all opened FITS images in a single FITS Viewer window."
 msgstr "在單一分頁中顯示所有抓取到的 FITS 影像，而不是每張影像開一個分頁。"
 
 #. i18n: ectx: label, entry (independentWindowFITS), group (FITSViewer)
-#: kstars.kcfg:1386
+#: kstars.kcfg:1390
 #, kde-format
 msgid "Make FITS Viewer window independent of KStars main window"
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoDebayer), group (FITSViewer)
-#: kstars.kcfg:1390
+#: kstars.kcfg:1394
 #, kde-format
 msgid "Automatically debayer a FITS image if it is contains a bayer pattern"
 msgstr ""
 
 #. i18n: ectx: label, entry (Auto3DCube), group (FITSViewer)
-#: kstars.kcfg:1394
+#: kstars.kcfg:1398
 #, kde-format
 msgid "Process 3D FITS Cube (RGB). If false, only first channel is processed."
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoWCS), group (FITSViewer)
-#: kstars.kcfg:1398
+#: kstars.kcfg:1402
 #, kde-format
 msgid ""
 "Automatically process World-Coordinate-System (WCS) data when loading a FITS "
@@ -22344,7 +22382,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (LimitedResourcesMode), group (FITSViewer)
-#: kstars.kcfg:1402
+#: kstars.kcfg:1406
 #, kde-format
 msgid ""
 "Conserve CPU and memory by disabling all resource-intensive features in FITS "
@@ -22352,43 +22390,43 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (BortleClass), group (WISettings)
-#: kstars.kcfg:1408
+#: kstars.kcfg:1412
 #, kde-format
 msgid "Bortle dark-sky rating"
 msgstr "Bortle 深天空評等"
 
 #. i18n: ectx: label, entry (TelescopeCheck), group (WISettings)
-#: kstars.kcfg:1412
+#: kstars.kcfg:1416
 #, kde-format
 msgid "Availability of telescope"
 msgstr "單筒望遠鏡可用性"
 
 #. i18n: ectx: label, entry (BinocularsCheck), group (WISettings)
-#: kstars.kcfg:1416
+#: kstars.kcfg:1420
 #, kde-format
 msgid "Availability of binoculars"
 msgstr "雙眼望遠鏡可用性"
 
 #. i18n: ectx: label, entry (BinocularsAperture), group (WISettings)
-#: kstars.kcfg:1420
+#: kstars.kcfg:1424
 #, kde-format
 msgid "Aperture of available binocular"
 msgstr "可用的雙眼望遠鏡光圈"
 
 #. i18n: ectx: label, entry (ScopeListIndex), group (WISettings)
-#: kstars.kcfg:1424
+#: kstars.kcfg:1428
 #, kde-format
 msgid "Index of selected scope from list of scopes"
 msgstr "從範圍清單中選取的範圍索引"
 
 #. i18n: ectx: label, entry (EkosWindowWidth), group (Ekos)
-#: kstars.kcfg:1430
+#: kstars.kcfg:1434
 #, kde-format
 msgid "Ekos window width"
 msgstr ""
 
 #. i18n: ectx: label, entry (EkosWindowHeight), group (Ekos)
-#: kstars.kcfg:1434
+#: kstars.kcfg:1438
 #, fuzzy, kde-format
 #| msgctxt "City in California USA"
 #| msgid "Rowland Heights"
@@ -22396,67 +22434,67 @@ msgid "Ekos window height"
 msgstr "Rowland Heights"
 
 #. i18n: ectx: label, entry (EkosLeftIcons), group (Ekos)
-#: kstars.kcfg:1442
+#: kstars.kcfg:1446
 #, kde-format
 msgid "Ekos modules icons are placed to the left of pages"
 msgstr ""
 
 #. i18n: ectx: label, entry (independentWindowEkos), group (Ekos)
-#: kstars.kcfg:1446
+#: kstars.kcfg:1450
 #, kde-format
 msgid "Make Ekos window independent of KStars main window"
 msgstr ""
 
 #. i18n: ectx: label, entry (profile), group (Ekos)
-#: kstars.kcfg:1450
+#: kstars.kcfg:1454
 #, kde-format
 msgid "Ekos drivers profile"
 msgstr ""
 
 #. i18n: ectx: label, entry (neverLoadConfig), group (Ekos)
-#: kstars.kcfg:1454
+#: kstars.kcfg:1458
 #, kde-format
 msgid "Never load device configuration?"
 msgstr "是否從未載入裝置設定？"
 
 #. i18n: ectx: label, entry (loadConfigOnConnection), group (Ekos)
-#: kstars.kcfg:1458
+#: kstars.kcfg:1462
 #, kde-format
 msgid "Load device configuration upon successful connection?"
 msgstr "要依據成功的連線來載入裝置設定嗎？"
 
 #. i18n: ectx: label, entry (loadDefaultConfig), group (Ekos)
-#: kstars.kcfg:1462
+#: kstars.kcfg:1466
 #, kde-format
 msgid "Always load device default configuration upon successful connection?"
 msgstr "總是依據成功的連線來載入裝置設定嗎？"
 
 #. i18n: ectx: label, entry (shutterfulCCDs), group (DarkLibrary)
-#: kstars.kcfg:1472
+#: kstars.kcfg:1476
 #, kde-format
 msgid "List of CCDs with mechanical or electronic shutters."
 msgstr ""
 
 #. i18n: ectx: label, entry (shutterlessCCDs), group (DarkLibrary)
-#: kstars.kcfg:1475
+#: kstars.kcfg:1479
 #, kde-format
 msgid "List of CCDs without mechanical or electronic shutters."
 msgstr ""
 
 #. i18n: ectx: label, entry (MinimumAltLimit), group (Mount)
-#: kstars.kcfg:1480
+#: kstars.kcfg:1484
 #, kde-format
 msgid "Default minimum mount altitude limit"
 msgstr "預設最小高度限制"
 
 #. i18n: ectx: label, entry (MaximumAltLimit), group (Mount)
-#: kstars.kcfg:1485
+#: kstars.kcfg:1489
 #, kde-format
 msgid "Default maximum mount altitude limit."
 msgstr "預設最大高度限制。"
 
 #. i18n: ectx: whatsthis, entry (MaximumAltLimit), group (Mount)
-#: kstars.kcfg:1486
+#: kstars.kcfg:1490
 #, kde-format
 msgid ""
 "Maximum telescope altitude limit. If the telescope is above this limit, it "
@@ -22464,53 +22502,53 @@ msgid ""
 msgstr "望遠鏡的最小高度限制。如果望遠鏡低於此高度，將會被命令停止。"
 
 #. i18n: ectx: label, entry (EnableAltitudeLimits), group (Mount)
-#: kstars.kcfg:1490
+#: kstars.kcfg:1494
 #, kde-format
 msgid "Enable mount altitude limits."
 msgstr "開啟高度限制。"
 
 #. i18n: ectx: label, entry (DefaultCaptureCCD), group (Capture)
-#: kstars.kcfg:1496
+#: kstars.kcfg:1500
 #, fuzzy, kde-format
 #| msgid "Autofocus in progress..."
 msgid "Default capture module CCD."
 msgstr "自動對焦處理中..."
 
 #. i18n: ectx: label, entry (DefaultObserver), group (Capture)
-#: kstars.kcfg:1499
+#: kstars.kcfg:1503
 #, fuzzy, kde-format
 #| msgid "Default Dome driver"
 msgid "Default observer full name."
 msgstr "預設 Dome 驅動程式"
 
 #. i18n: ectx: label, entry (SyncFOVPA), group (Capture)
-#: kstars.kcfg:1502
+#: kstars.kcfg:1506
 #, kde-format
 msgid "Sync FOV indicator Position Angle with Rotator Settings Position Angle"
 msgstr ""
 
 #. i18n: ectx: label, entry (PAMultiplier), group (Capture)
-#: kstars.kcfg:1506
+#: kstars.kcfg:1510
 #, fuzzy, kde-format
 #| msgid "Position Angle"
 msgid "Position angle multiplier"
 msgstr "位置角度"
 
 #. i18n: ectx: label, entry (PAOffset), group (Capture)
-#: kstars.kcfg:1510
+#: kstars.kcfg:1514
 #, fuzzy, kde-format
 #| msgid "Position Angle"
 msgid "Position angle offset"
 msgstr "位置角度"
 
 #. i18n: ectx: label, entry (GuideDeviation), group (Capture)
-#: kstars.kcfg:1514
+#: kstars.kcfg:1518
 #, kde-format
 msgid "Default maximum permittable guide deviation"
 msgstr "預設最大可允許的引導偏向"
 
 #. i18n: ectx: whatsthis, entry (GuideDeviation), group (Capture)
-#: kstars.kcfg:1515
+#: kstars.kcfg:1519
 #, kde-format
 msgid ""
 "If guide deviation exceeds this limit, the exposure will be automatically "
@@ -22519,13 +22557,13 @@ msgstr ""
 "如果引導偏向大於此值，則會自動中止曝光，只有在回到限制值內時才會回復曝光。"
 
 #. i18n: ectx: label, entry (HFRDeviation), group (Capture)
-#: kstars.kcfg:1519
+#: kstars.kcfg:1523
 #, kde-format
 msgid "Default maximum permittable HFR deviation"
 msgstr "預設最大允許的 HFR 偏向"
 
 #. i18n: ectx: whatsthis, entry (HFRDeviation), group (Capture)
-#: kstars.kcfg:1520
+#: kstars.kcfg:1524
 #, kde-format
 msgid ""
 "If HFR deviation exceeds this limit, the autofocus routine will be "
@@ -22533,32 +22571,32 @@ msgid ""
 msgstr "如果 HFR 偏向大於此值，則會自動開始自動對焦。"
 
 #. i18n: ectx: label, entry (EnforceGuideDeviation), group (Capture)
-#: kstars.kcfg:1524
+#: kstars.kcfg:1528
 #, kde-format
 msgid "Enforce guiding deviation limit."
 msgstr "強制引導偏向限制。"
 
 #. i18n: ectx: label, entry (EnforceAutofocus), group (Capture)
-#: kstars.kcfg:1528
+#: kstars.kcfg:1532
 #, kde-format
 msgid "Enforce Autofocus HFR limit."
 msgstr "強制自動對焦限制。"
 
 #. i18n: ectx: label, entry (EnforceRefocusEveryN), group (Capture)
-#: kstars.kcfg:1532
+#: kstars.kcfg:1536
 #, fuzzy, kde-format
 #| msgid "Enforce Autofocus HFR limit."
 msgid "Enforce Refocus Every N Minutes."
 msgstr "強制自動對焦限制。"
 
 #. i18n: ectx: label, entry (RefocusEveryN), group (Capture)
-#: kstars.kcfg:1536
+#: kstars.kcfg:1540
 #, kde-format
 msgid "Number of minute between forced refocus attempts"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (RefocusEveryN), group (Capture)
-#: kstars.kcfg:1537
+#: kstars.kcfg:1541
 #, kde-format
 msgid ""
 "Sets the time interval before forced autofocus attempts during a capture "
@@ -22566,13 +22604,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoMeridianHours), group (Capture)
-#: kstars.kcfg:1541
+#: kstars.kcfg:1545
 #, kde-format
 msgid "Default hour angle to perform meridian flip"
 msgstr "執行子午線翻轉的預設時角"
 
 #. i18n: ectx: whatsthis, entry (AutoMeridianHours), group (Capture)
-#: kstars.kcfg:1542
+#: kstars.kcfg:1546
 #, kde-format
 msgid ""
 "If the target hour angle exceeds this value, Ekos will command a meridian "
@@ -22582,27 +22620,27 @@ msgstr ""
 "作。"
 
 #. i18n: ectx: label, entry (AutoMeridianFlip), group (Capture)
-#: kstars.kcfg:1545
+#: kstars.kcfg:1549
 #, kde-format
 msgid "Flips the mount when reaching the meridian, if supported."
 msgstr "若支援此功能，則在碰到子午線時自動翻轉。"
 
 #. i18n: ectx: label, entry (ResetMountModelAfterMeridian), group (Capture)
-#: kstars.kcfg:1549
+#: kstars.kcfg:1553
 #, fuzzy, kde-format
 #| msgid "Telescope completed the meridian flip."
 msgid "Reset mount model after meridian flip."
 msgstr "望遠鏡已完成子午線翻轉。"
 
 #. i18n: ectx: label, entry (CalibrationADUValue), group (Capture)
-#: kstars.kcfg:1553
+#: kstars.kcfg:1557
 #, fuzzy, kde-format
 #| msgid "Desired flat field ADU percentage"
 msgid "Desired flat field ADU"
 msgstr "想要的平面場域 ADU 百分比"
 
 #. i18n: ectx: whatsthis, entry (CalibrationADUValue), group (Capture)
-#: kstars.kcfg:1554
+#: kstars.kcfg:1558
 #, fuzzy, kde-format
 #| msgid ""
 #| "If set, Ekos will capture a few flat images to determine the optimal "
@@ -22615,14 +22653,14 @@ msgstr ""
 "百分比。"
 
 #. i18n: ectx: label, entry (CalibrationADUValueTolerance), group (Capture)
-#: kstars.kcfg:1558
+#: kstars.kcfg:1562
 #, fuzzy, kde-format
 #| msgid "Default Focuser tolerance value"
 msgid "ADU Value tolerance"
 msgstr "預設焦點器容忍值"
 
 #. i18n: ectx: whatsthis, entry (CalibrationADUValueTolerance), group (Capture)
-#: kstars.kcfg:1559
+#: kstars.kcfg:1563
 #, kde-format
 msgid ""
 "Maximum difference between measured and target ADU values to deem the value "
@@ -22630,33 +22668,33 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (CalibrationFlatSourceIndex), group (Capture)
-#: kstars.kcfg:1563
+#: kstars.kcfg:1567
 #, kde-format
 msgid "Index of flat source option."
 msgstr ""
 
 #. i18n: ectx: label, entry (CalibrationFlatDurationIndex), group (Capture)
-#: kstars.kcfg:1567
+#: kstars.kcfg:1571
 #, kde-format
 msgid "Index of flat duration option."
 msgstr ""
 
 #. i18n: ectx: label, entry (CalibrationWallAz), group (Capture)
-#: kstars.kcfg:1571
+#: kstars.kcfg:1575
 #, fuzzy, kde-format
 #| msgid "Auto calibration failed."
 msgid "Azimuth of calibration wall location."
 msgstr "自動校正失敗。"
 
 #. i18n: ectx: label, entry (CalibrationWallAlt), group (Capture)
-#: kstars.kcfg:1575
+#: kstars.kcfg:1579
 #, fuzzy, kde-format
 #| msgid "Auto calibration failed."
 msgid "Altitude of calibration wall location."
 msgstr "自動校正失敗。"
 
 #. i18n: ectx: label, entry (MaxTemperatureDiff), group (Capture)
-#: kstars.kcfg:1579
+#: kstars.kcfg:1583
 #, kde-format
 msgid ""
 "Maximum acceptable difference between requested and measured temperature set "
@@ -22664,7 +22702,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (RememberJobProgress), group (Capture)
-#: kstars.kcfg:1583
+#: kstars.kcfg:1587
 #, kde-format
 msgid ""
 "When starting a new capture job, check if files were previously captured and "
@@ -22672,13 +22710,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (FlatSyncFocus), group (Capture)
-#: kstars.kcfg:1587
+#: kstars.kcfg:1591
 #, kde-format
 msgid "Capture flat frames at the same focus position of light frames."
 msgstr ""
 
 #. i18n: ectx: label, entry (HFRThresholdPercentage), group (Capture)
-#: kstars.kcfg:1591
+#: kstars.kcfg:1595
 #, kde-format
 msgid ""
 "Increase autofocus HFR value by this percentage gain and store it in Capture "
@@ -22686,7 +22724,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SaveHFRToFile), group (Capture)
-#: kstars.kcfg:1595
+#: kstars.kcfg:1599
 #, kde-format
 msgid ""
 "When saving a sequence file, save current HFR threshold value. By default, "
@@ -22694,14 +22732,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoStretch), group (Capture)
-#: kstars.kcfg:1607
+#: kstars.kcfg:1611
 #, fuzzy, kde-format
 #| msgid "Display captured sequence images in the FITS Viewer"
 msgid "Perform auto stretch on captured images in FITS Viewer."
 msgstr "在 FITS 檢視器中顯示抓取的序列影像"
 
 #. i18n: ectx: label, entry (useSummaryPreview), group (Capture)
-#: kstars.kcfg:1611
+#: kstars.kcfg:1615
 #, fuzzy, kde-format
 #| msgid ""
 #| "Display all captured FITS images in a single tab instead of multiple tabs "
@@ -22712,27 +22750,27 @@ msgid ""
 msgstr "在單一分頁中顯示所有抓取到的 FITS 影像，而不是每張影像開一個分頁。"
 
 #. i18n: ectx: label, entry (DefaultFocusCCD), group (Focus)
-#: kstars.kcfg:1617
+#: kstars.kcfg:1621
 #, fuzzy, kde-format
 #| msgid "Default Focuser driver"
 msgid "Default focus module CCD."
 msgstr "預設焦點器驅動程式"
 
 #. i18n: ectx: label, entry (DefaultFocusFocuser), group (Focus)
-#: kstars.kcfg:1620
+#: kstars.kcfg:1624
 #, fuzzy, kde-format
 #| msgid "Default Focuser driver"
 msgid "Default focus module focuser."
 msgstr "預設焦點器驅動程式"
 
 #. i18n: ectx: label, entry (FocusTicks), group (Focus)
-#: kstars.kcfg:1623
+#: kstars.kcfg:1627
 #, kde-format
 msgid "Default Focuser step ticks"
 msgstr "預設焦點器單步大小"
 
 #. i18n: ectx: whatsthis, entry (FocusTicks), group (Focus)
-#: kstars.kcfg:1624
+#: kstars.kcfg:1628
 #, kde-format
 msgid ""
 "Step size of the absolute focuser. The step size TICKS should be adjusted so "
@@ -22743,13 +22781,13 @@ msgstr ""
 "過 0.1 像素。當您接近光學焦點時，降低此值。"
 
 #. i18n: ectx: label, entry (FocusTolerance), group (Focus)
-#: kstars.kcfg:1632
+#: kstars.kcfg:1636
 #, kde-format
 msgid "Default Focuser tolerance value"
 msgstr "預設焦點器容忍值"
 
 #. i18n: ectx: whatsthis, entry (FocusTolerance), group (Focus)
-#: kstars.kcfg:1633
+#: kstars.kcfg:1637
 #, kde-format
 msgid ""
 "The tolerance specifies the percentage difference between the current "
@@ -22760,25 +22798,25 @@ msgstr ""
 "在目前焦點位置與焦距調整中的最小取得的差異百分比。調整此值可以避免來回震盪。"
 
 #. i18n: ectx: label, entry (FocusMaxTravel), group (Focus)
-#: kstars.kcfg:1637
+#: kstars.kcfg:1641
 #, kde-format
 msgid "Maximum Focus Travel Distance"
 msgstr "最大焦距"
 
 #. i18n: ectx: whatsthis, entry (FocusMaxTravel), group (Focus)
-#: kstars.kcfg:1638
+#: kstars.kcfg:1642
 #, kde-format
 msgid "Set the maximum travel distance of an absolute focuser."
 msgstr "設定絕對對焦器上的最大焦距。"
 
 #. i18n: ectx: label, entry (FocusExposure), group (Focus)
-#: kstars.kcfg:1642
+#: kstars.kcfg:1646
 #, kde-format
 msgid "Default Focuser exposure value"
 msgstr "預設焦點器曝光值"
 
 #. i18n: ectx: whatsthis, entry (FocusExposure), group (Focus)
-#: kstars.kcfg:1643
+#: kstars.kcfg:1647
 #, kde-format
 msgid ""
 "Specifies exposure value of CCD when performing focusing. Lower this value "
@@ -22789,79 +22827,79 @@ msgstr ""
 "到星體則增加此值。"
 
 #. i18n: ectx: label, entry (FocusBoxSize), group (Focus)
-#: kstars.kcfg:1647
+#: kstars.kcfg:1651
 #, kde-format
 msgid "Default Focuser star selection box size"
 msgstr "預設焦點器星體選取盒尺寸"
 
 #. i18n: ectx: whatsthis, entry (FocusBoxSize), group (Focus)
-#: kstars.kcfg:1648
+#: kstars.kcfg:1652
 #, kde-format
 msgid "Set box size to select a focus star."
 msgstr "設定盒尺寸以便選擇對焦的星體。"
 
 #. i18n: ectx: label, entry (FocusXBin), group (Focus)
-#: kstars.kcfg:1652
+#: kstars.kcfg:1656
 #, kde-format
 msgid "Default CCD X binning in focus mode"
 msgstr "焦點模式中預設 CCD X 旋轉"
 
 #. i18n: ectx: whatsthis, entry (FocusXBin), group (Focus)
-#: kstars.kcfg:1653
+#: kstars.kcfg:1657
 #, kde-format
 msgid "Set horizontal binning of CCD camera while in focus mode."
 msgstr "在焦點模式中，設定 CCD 攝影機的水平旋轉。"
 
 #. i18n: ectx: label, entry (FocusYBin), group (Focus)
-#: kstars.kcfg:1657
+#: kstars.kcfg:1661
 #, kde-format
 msgid "Default CCD Y binning in focus mode"
 msgstr "焦點模式中預設 CCD Y 旋轉"
 
 #. i18n: ectx: whatsthis, entry (FocusYBin), group (Focus)
-#: kstars.kcfg:1658
+#: kstars.kcfg:1662
 #, kde-format
 msgid "Set vertical binning of CCD camera while in focus mode."
 msgstr "在焦點模式中，設定 CCD 攝影機的垂直旋轉。"
 
 #. i18n: ectx: label, entry (FocusSubFrame), group (Focus)
-#: kstars.kcfg:1662
+#: kstars.kcfg:1666
 #, kde-format
 msgid "Subframe the focus star during the autofocus procedure."
 msgstr "在自動對焦過程中，取得焦點星體的子訊框。"
 
 #. i18n: ectx: label, entry (FocusUseFullField), group (Focus)
-#: kstars.kcfg:1666
+#: kstars.kcfg:1670
 #, kde-format
 msgid "Use full frame field to measure HFR."
 msgstr ""
 
 #. i18n: ectx: label, entry (FocusAutoStarEnabled), group (Focus)
-#: kstars.kcfg:1670
+#: kstars.kcfg:1674
 #, kde-format
 msgid "Automatically select a star to focus."
 msgstr "自動選擇要對焦的星體。"
 
 #. i18n: ectx: label, entry (SuspendGuiding), group (Focus)
-#: kstars.kcfg:1674
+#: kstars.kcfg:1678
 #, kde-format
 msgid "Suspend guiding while autofocus in progress."
 msgstr "自動對焦時停止引導。"
 
 #. i18n: ectx: label, entry (UseFocusDarkFrame), group (Focus)
-#: kstars.kcfg:1678
+#: kstars.kcfg:1682
 #, kde-format
 msgid "Take a dark frame and subtract it before running autofocus operation."
 msgstr ""
 
 #. i18n: ectx: label, entry (FocusEffect), group (Focus)
-#: kstars.kcfg:1682
+#: kstars.kcfg:1686
 #, kde-format
 msgid "Image filter to be applied to focus image upon loading."
 msgstr ""
 
 #. i18n: ectx: label, entry (FocusThreshold), group (Focus)
-#: kstars.kcfg:1686
+#: kstars.kcfg:1690
 #, kde-format
 msgid ""
 "Relative percentage strength of centroid edge pixel strength to average "
@@ -22869,61 +22907,61 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (FocusDetection), group (Focus)
-#: kstars.kcfg:1690
+#: kstars.kcfg:1694
 #, fuzzy, kde-format
 #| msgid "Mapping projection algorithm"
 msgid "Star detection algorithm"
 msgstr "投影映射演算法"
 
 #. i18n: ectx: label, entry (FocusAlgorithm), group (Focus)
-#: kstars.kcfg:1694
+#: kstars.kcfg:1698
 #, kde-format
 msgid "Focus process algorithm"
 msgstr ""
 
 #. i18n: ectx: label, entry (FocusFramesCount), group (Focus)
-#: kstars.kcfg:1698
+#: kstars.kcfg:1702
 #, fuzzy, kde-format
 #| msgid "Number of images to capture"
 msgid "Number of focus frames to average for HFR calculations."
 msgstr "抓取的影像數"
 
 #. i18n: ectx: label, entry (DefaultAlignCCD), group (Align)
-#: kstars.kcfg:1704
+#: kstars.kcfg:1708
 #, fuzzy, kde-format
 #| msgid "Default alignment exposure value"
 msgid "Default align module CCD."
 msgstr "預設校準曝光值"
 
 #. i18n: ectx: label, entry (DefaultAlignFW), group (Align)
-#: kstars.kcfg:1707
+#: kstars.kcfg:1711
 #, fuzzy, kde-format
 #| msgid "Default alignment exposure value"
 msgid "Default align module Filter Wheel."
 msgstr "預設校準曝光值"
 
 #. i18n: ectx: label, entry (AlignExposure), group (Align)
-#: kstars.kcfg:1710
+#: kstars.kcfg:1714
 #, kde-format
 msgid "Default alignment exposure value"
 msgstr "預設校準曝光值"
 
 #. i18n: ectx: whatsthis, entry (AlignExposure), group (Align)
-#: kstars.kcfg:1711
+#: kstars.kcfg:1715
 #, kde-format
 msgid ""
 "Specifies exposure value of CCD in seconds when performing plate solving."
 msgstr "指定執行星體自動識別時， CCD 的曝光值，單位為秒。"
 
 #. i18n: ectx: label, entry (SolverBinningIndex), group (Align)
-#: kstars.kcfg:1715
+#: kstars.kcfg:1719
 #, fuzzy, kde-format
 #| msgid "Default CCD X binning while in alignment mode"
 msgid "Default CCD binning index while in alignment mode"
 msgstr "對齊模式中預設 CCD X 旋轉"
 
 #. i18n: ectx: whatsthis, entry (SolverBinningIndex), group (Align)
-#: kstars.kcfg:1716
+#: kstars.kcfg:1720
 #, kde-format
 msgid ""
 "Set binning index of CCD camera while in alignment mode. Default values 0-3 "
@@ -22931,7 +22969,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (AstrometrySolverVerbose), group (Align)
-#: kstars.kcfg:1720
+#: kstars.kcfg:1724
 #, kde-format
 msgid ""
 "Display detailed verbose messages of the astrometry solver process while in "
@@ -22939,13 +22977,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (AstrometryUseRotator), group (Align)
-#: kstars.kcfg:1724
+#: kstars.kcfg:1728
 #, kde-format
 msgid "Use rotator when performing load and slew."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (AstrometryRotatorThreshold), group (Align)
-#: kstars.kcfg:1728
+#: kstars.kcfg:1732
 #, kde-format
 msgid ""
 "Threshold between measured and FITS position angles in arcminutes to "
@@ -22953,13 +22991,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SolverType), group (Align)
-#: kstars.kcfg:1732
+#: kstars.kcfg:1736
 #, kde-format
 msgid "Set solver type (online, offline, remote)."
 msgstr ""
 
 #. i18n: ectx: label, entry (SolverScopeType), group (Align)
-#: kstars.kcfg:1736
+#: kstars.kcfg:1740
 #, kde-format
 msgid ""
 "Index of telescope type to be used when solving an image. 0 for Primary, 1 "
@@ -22967,13 +23005,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SolverGotoOption), group (Align)
-#: kstars.kcfg:1740
+#: kstars.kcfg:1744
 #, kde-format
 msgid "Action to take if solver if successful (Sync, Slew to Target, or None)"
 msgstr "如果辨識成功要執行的動作（同步、旋轉到目標、或是不做任何動作）"
 
 #. i18n: ectx: label, entry (AstrometrySolverWCS), group (Align)
-#: kstars.kcfg:1744
+#: kstars.kcfg:1748
 #, kde-format
 msgid ""
 "World Coordinate System (WCS). WCS is used to encode RA/DEC coordinates in "
@@ -22981,13 +23019,13 @@ msgid ""
 msgstr "世界座標系統 (WCS)。WCS 用於在抓到的 CCD 影像中對赤經/赤緯做編碼。"
 
 #. i18n: ectx: label, entry (AstrometrySolverOverlay), group (Align)
-#: kstars.kcfg:1748
+#: kstars.kcfg:1752
 #, kde-format
 msgid "Display received FITS images unto solver FOV rectangle in the sky map."
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryDifferentialSlewing), group (Align)
-#: kstars.kcfg:1752
+#: kstars.kcfg:1756
 #, kde-format
 msgid ""
 "Do not use Sync when Slew to Target is selected. Use differential slewing to "
@@ -22995,14 +23033,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SolverAccuracyThreshold), group (Align)
-#: kstars.kcfg:1756
+#: kstars.kcfg:1760
 #, kde-format
 msgid ""
 "Accuracy threshold in arcseconds between solution and target coordinates."
 msgstr ""
 
 #. i18n: ectx: label, entry (LockAlignFilterIndex), group (Align)
-#: kstars.kcfg:1760
+#: kstars.kcfg:1764
 #, fuzzy, kde-format
 #| msgid ""
 #| "Use specified filter when performing focus regardless of current filter "
@@ -23013,13 +23051,13 @@ msgid ""
 msgstr "執行對焦時使用指定的過濾器，而不管目前的過濾器設定。"
 
 #. i18n: ectx: label, entry (AlignDarkFrame), group (Align)
-#: kstars.kcfg:1764
+#: kstars.kcfg:1768
 #, kde-format
 msgid "Take a dark frame and subtract it before running astrometry operation."
 msgstr ""
 
 #. i18n: ectx: label, entry (SettlingTime), group (Align)
-#: kstars.kcfg:1768
+#: kstars.kcfg:1772
 #, kde-format
 msgid ""
 "Time to wait in milliseconds after telescope slewing is complete before "
@@ -23027,7 +23065,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryUseNoFITS2FITS), group (Align)
-#: kstars.kcfg:1772
+#: kstars.kcfg:1776
 #, kde-format
 msgid ""
 "Do not sanitize FITS. This option should only be checked if astrometry.net "
@@ -23035,7 +23073,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryUseResort), group (Align)
-#: kstars.kcfg:1776
+#: kstars.kcfg:1780
 #, kde-format
 msgid ""
 "Check this option if your image does not have much nebulosity. If it does "
@@ -23043,7 +23081,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryUseNoVerify), group (Align)
-#: kstars.kcfg:1780
+#: kstars.kcfg:1784
 #, kde-format
 msgid ""
 "This will prevent the solver from looking at an already existing WCS Header "
@@ -23052,7 +23090,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryUseImageScale), group (Align)
-#: kstars.kcfg:1784
+#: kstars.kcfg:1788
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>Enforce temperature value before capturing an "
@@ -23063,35 +23101,35 @@ msgid ""
 msgstr "<html><head/><body><p>抓取影像前強制設定溫度值</p></body></html>"
 
 #. i18n: ectx: label, entry (AstrometryImageScaleLow), group (Align)
-#: kstars.kcfg:1788
+#: kstars.kcfg:1792
 #, fuzzy, kde-format
 #| msgid "Lower right corner"
 msgid "Lower image scale."
 msgstr "右下角"
 
 #. i18n: ectx: label, entry (AstrometryImageScaleHigh), group (Align)
-#: kstars.kcfg:1791
+#: kstars.kcfg:1795
 #, fuzzy, kde-format
 #| msgid "Use images"
 msgid "Upper image scale."
 msgstr "使用影像"
 
 #. i18n: ectx: label, entry (AstrometryAutoUpdateImageScale), group (Align)
-#: kstars.kcfg:1794
+#: kstars.kcfg:1798
 #, kde-format
 msgid ""
 "Automatically update image scale when CCD or Mount parameters are updated."
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryImageScaleUnits), group (Align)
-#: kstars.kcfg:1798
+#: kstars.kcfg:1802
 #, kde-format
 msgid ""
 "Image scale units in arcminutes (aw), degrees (dw), or arcsec per pixel (app)"
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryUseDownsample), group (Align)
-#: kstars.kcfg:1802
+#: kstars.kcfg:1806
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>Maximum telescope altitude limit. If the telescope "
@@ -23102,14 +23140,14 @@ msgstr ""
 "停止。</p></body></html>"
 
 #. i18n: ectx: label, entry (AstrometryDownsample), group (Align)
-#: kstars.kcfg:1806
+#: kstars.kcfg:1810
 #, fuzzy, kde-format
 #| msgid "Delete all Images"
 msgid "Downsample factor"
 msgstr "顯示所有的影像"
 
 #. i18n: ectx: label, entry (AstrometryUsePosition), group (Align)
-#: kstars.kcfg:1810
+#: kstars.kcfg:1814
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>Enforce temperature value before capturing an "
@@ -23120,20 +23158,20 @@ msgid ""
 msgstr "<html><head/><body><p>抓取影像前強制設定溫度值</p></body></html>"
 
 #. i18n: ectx: label, entry (AstrometryPositionRA), group (Align)
-#: kstars.kcfg:1814
+#: kstars.kcfg:1818
 #, kde-format
 msgid ""
 "User supplied Right Ascension value in degrees to be passed to the solver."
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryPositionDE), group (Align)
-#: kstars.kcfg:1817
+#: kstars.kcfg:1821
 #, kde-format
 msgid "User supplied declination value in degrees to be passed to the solver."
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryAutoUpdatePosition), group (Align)
-#: kstars.kcfg:1820
+#: kstars.kcfg:1824
 #, fuzzy, kde-format
 #| msgid ""
 #| "Automatically update the solver's RA & Declination coordinates after "
@@ -23143,7 +23181,7 @@ msgid ""
 msgstr "在望遠鏡扭轉完成後自動更新識別器的赤經與赤緯座標。"
 
 #. i18n: ectx: label, entry (AstrometryRadius), group (Align)
-#: kstars.kcfg:1824
+#: kstars.kcfg:1828
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>Enforce temperature value before capturing an "
@@ -23154,68 +23192,68 @@ msgid ""
 msgstr "<html><head/><body><p>抓取影像前強制設定溫度值</p></body></html>"
 
 #. i18n: ectx: label, entry (AstrometryDetectParity), group (Align)
-#: kstars.kcfg:1828
+#: kstars.kcfg:1832
 #, kde-format
 msgid "Detect parity and reuse it to speed up solver."
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryCustomOptions), group (Align)
-#: kstars.kcfg:1832
+#: kstars.kcfg:1836
 #, fuzzy, kde-format
 #| msgid "Additional options to be the solver"
 msgid "Additional optional astrometry.net options"
 msgstr "識別器額外選項"
 
 #. i18n: ectx: label, entry (AstrometrySolverBinary), group (Align)
-#: kstars.kcfg:1835
+#: kstars.kcfg:1839
 #, kde-format
 msgid "astrometry.net solve-field binary"
 msgstr "astrometry.net 計算器執行檔"
 
 #. i18n: ectx: whatsthis, entry (AstrometrySolverBinary), group (Align)
-#: kstars.kcfg:1836
+#: kstars.kcfg:1840
 #, kde-format
 msgid "Path to astrometry.net solver location."
 msgstr "astrometry.net 設定檔路徑。"
 
 #. i18n: ectx: label, entry (AstrometryWCSInfo), group (Align)
-#: kstars.kcfg:1844
+#: kstars.kcfg:1848
 #, kde-format
 msgid "astrometry.net wcsinfo binary"
 msgstr "astrometry.net wcsinfo 執行檔"
 
 #. i18n: ectx: whatsthis, entry (AstrometryWCSInfo), group (Align)
-#: kstars.kcfg:1845
+#: kstars.kcfg:1849
 #, kde-format
 msgid "Path to astrometry.net wcsinfo location."
 msgstr "astrometry.net wcsinfo 路徑。"
 
 #. i18n: ectx: label, entry (AstrometryConfFile), group (Align)
-#: kstars.kcfg:1853
+#: kstars.kcfg:1857
 #, kde-format
 msgid "astrometry.net configuration file"
 msgstr "astrometry.net 設定檔"
 
 #. i18n: ectx: whatsthis, entry (AstrometryConfFile), group (Align)
-#: kstars.kcfg:1854
+#: kstars.kcfg:1858
 #, kde-format
 msgid "Path to astrometry.net file location."
 msgstr "astrometry.net 設定檔路徑。"
 
 #. i18n: ectx: label, entry (AstrometryConfFileIsInternal), group (Align)
-#: kstars.kcfg:1858
+#: kstars.kcfg:1862
 #, kde-format
 msgid "Internal or External Astrometry.net Conf File?"
 msgstr ""
 
 #. i18n: ectx: label, entry (AstrometryAPIKey), group (Align)
-#: kstars.kcfg:1862
+#: kstars.kcfg:1866
 #, kde-format
 msgid "astrometry.net API Key"
 msgstr "astrometry.net API 金鑰"
 
 #. i18n: ectx: whatsthis, entry (AstrometryAPIKey), group (Align)
-#: kstars.kcfg:1863
+#: kstars.kcfg:1867
 #, kde-format
 msgid ""
 "Key to access astrometry.net online web services. You must register with "
@@ -23225,13 +23263,13 @@ msgstr ""
 "金鑰。"
 
 #. i18n: ectx: label, entry (AstrometryAPIURL), group (Align)
-#: kstars.kcfg:1867
+#: kstars.kcfg:1871
 #, kde-format
 msgid "astrometry.net API URL"
 msgstr "astrometry.net API 網址"
 
 #. i18n: ectx: label, entry (AstrometryUseJPEG), group (Align)
-#: kstars.kcfg:1871
+#: kstars.kcfg:1875
 #, kde-format
 msgid ""
 "Use JPEG format, instead of FITS, to upload images to the astrometry.net "
@@ -23239,35 +23277,35 @@ msgid ""
 msgstr "上傳影像到 astrometry.net 網路服務時，使用 JPEG 格式而不用 FITS 格式。"
 
 #. i18n: ectx: label, entry (AstrometryTimeout), group (Align)
-#: kstars.kcfg:1875
+#: kstars.kcfg:1879
 #, fuzzy, kde-format
 #| msgid "Upload complete. Waiting for astrometry.net solver to complete..."
 msgid "Timeout in seconds to wait for astrometry solver to complete."
 msgstr "上傳完成。等待 astrometry.net 識別器完成..."
 
 #. i18n: ectx: label, entry (DefaultGuideCCD), group (Guide)
-#: kstars.kcfg:1881
+#: kstars.kcfg:1885
 #, fuzzy, kde-format
 #| msgid "Default Guider driver"
 msgid "Default guide module CCD."
 msgstr "預設導引器驅動程式"
 
 #. i18n: ectx: label, entry (DefaultST4Driver), group (Guide)
-#: kstars.kcfg:1884
+#: kstars.kcfg:1888
 #, fuzzy, kde-format
 #| msgid "Default CCD driver"
 msgid "Default guide module ST4 Driver."
 msgstr "預設 CCD 驅動程式"
 
 #. i18n: ectx: label, entry (GuideExposure), group (Guide)
-#: kstars.kcfg:1887
+#: kstars.kcfg:1891
 #, fuzzy, kde-format
 #| msgid "Start Camera/CCD exposure. The duration is in seconds."
 msgid "Guider exposure duration in seconds."
 msgstr "開始相機/CCD 曝光。期間以秒為單位。"
 
 #. i18n: ectx: label, entry (GuiderType), group (Guide)
-#: kstars.kcfg:1891
+#: kstars.kcfg:1895
 #, kde-format
 msgid ""
 "Which guider process to utilize for guiding (0 Internal Guider, 1 PHD2, 2 "
@@ -23275,7 +23313,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (GuideAlgorithm), group (Guide)
-#: kstars.kcfg:1895
+#: kstars.kcfg:1899
 #, kde-format
 msgid ""
 "Which Algorithm to use track guide square (0 smart, 1 fast, 2 threshold, 3 "
@@ -23283,38 +23321,38 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (PHD2Host), group (Guide)
-#: kstars.kcfg:1899
+#: kstars.kcfg:1903
 #, kde-format
 msgid "Host name of external PHD2 service"
 msgstr ""
 
 #. i18n: ectx: label, entry (PHD2Port), group (Guide)
-#: kstars.kcfg:1903
+#: kstars.kcfg:1907
 #, kde-format
 msgid "PHD2 Event Monitoring Port"
 msgstr ""
 
 #. i18n: ectx: label, entry (LinGuiderHost), group (Guide)
-#: kstars.kcfg:1907
+#: kstars.kcfg:1911
 #, kde-format
 msgid "Host name of external lin_guider service"
 msgstr ""
 
 #. i18n: ectx: label, entry (LinGuiderPort), group (Guide)
-#: kstars.kcfg:1911
+#: kstars.kcfg:1915
 #, kde-format
 msgid "Lin_guider Event Monitoring Port"
 msgstr ""
 
 #. i18n: ectx: label, entry (GuideScopeType), group (Guide)
-#: kstars.kcfg:1915
+#: kstars.kcfg:1919
 #, kde-format
 msgid ""
 "Index of telescope type to be used when guiding. 0 for Primary, 1 for Guide"
 msgstr ""
 
 #. i18n: ectx: label, entry (CalibrationPulseDuration), group (Guide)
-#: kstars.kcfg:1919
+#: kstars.kcfg:1923
 #, kde-format
 msgid ""
 "Pulse duration in milliseconds used for guiding pulses during calibration "
@@ -23322,20 +23360,20 @@ msgid ""
 msgstr "在調校階段用於引導脈衝的間隔時間，以毫秒為單位。"
 
 #. i18n: ectx: label, entry (GuideSquareSizeIndex), group (Guide)
-#: kstars.kcfg:1923
+#: kstars.kcfg:1927
 #, kde-format
 msgid ""
 "Guide square size index (0 to 4) corresponding to pixel sizes (8 to 128)."
 msgstr ""
 
 #. i18n: ectx: label, entry (ImageGuidingEnabled), group (Guide)
-#: kstars.kcfg:1927
+#: kstars.kcfg:1931
 #, kde-format
 msgid "Use Image Guiding algorithms instead of classical centroid guiding."
 msgstr ""
 
 #. i18n: ectx: label, entry (GuideRegionAxis), group (Guide)
-#: kstars.kcfg:1931
+#: kstars.kcfg:1935
 #, kde-format
 msgid ""
 "Region Axis Index (0 to 4) corresponding to NxN partition size used Image "
@@ -23343,13 +23381,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (GuideAutoStarEnabled), group (Guide)
-#: kstars.kcfg:1935
+#: kstars.kcfg:1939
 #, kde-format
 msgid "Automatically select calibration star and perform calibration."
 msgstr "自動選取校正的星體並執行校正。"
 
 #. i18n: ectx: label, entry (GuideRemoteImagesEnabled), group (Guide)
-#: kstars.kcfg:1943
+#: kstars.kcfg:1947
 #, kde-format
 msgid ""
 "When using external guiders, enable reception of remote images in Ekos guide "
@@ -23357,44 +23395,44 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoModeIterations), group (Guide)
-#: kstars.kcfg:1947
+#: kstars.kcfg:1951
 #, kde-format
 msgid "Number of automode iterations for calibration process."
 msgstr "調校過程中自動模式的重複次數。"
 
 #. i18n: ectx: label, entry (GuideLostStarTimeout), group (Guide)
-#: kstars.kcfg:1951
+#: kstars.kcfg:1955
 #, kde-format
 msgid "When star tracking is lost, wait this many seconds before aborting."
 msgstr ""
 
 #. i18n: ectx: label, entry (TwoAxisEnabled), group (Guide)
-#: kstars.kcfg:1955
+#: kstars.kcfg:1959
 #, kde-format
 msgid "Use both axes to perform calibration."
 msgstr "執行調校時使用兩個軸。"
 
 #. i18n: ectx: label, entry (RapidGuideEnabled), group (Guide)
-#: kstars.kcfg:1959
+#: kstars.kcfg:1963
 #, kde-format
 msgid "Use driver side Rapid Guide to perform guiding."
 msgstr ""
 
 #. i18n: ectx: label, entry (GuideDarkFrameEnabled), group (Guide)
-#: kstars.kcfg:1963
+#: kstars.kcfg:1967
 #, kde-format
 msgid "Take dark frame for autoguider images."
 msgstr "自動引導影像時使用黑暗訊框。"
 
 #. i18n: ectx: label, entry (GuideSubframeEnabled), group (Guide)
-#: kstars.kcfg:1967
+#: kstars.kcfg:1971
 #, fuzzy, kde-format
 #| msgid "Subframe the image around the guide star"
 msgid "Subframe guide image around selected region"
 msgstr "取得在引導星體週圍的影像子訊框"
 
 #. i18n: ectx: label, entry (DitherPixels), group (Guide)
-#: kstars.kcfg:1971
+#: kstars.kcfg:1975
 #, kde-format
 msgid ""
 "How many pixels to move between subsequent exposures under auto dithering "
@@ -23402,31 +23440,31 @@ msgid ""
 msgstr "在自動移動模式中，連續曝光之間要移動多少像素。"
 
 #. i18n: ectx: label, entry (DitherFrames), group (Guide)
-#: kstars.kcfg:1975
+#: kstars.kcfg:1979
 #, kde-format
 msgid "Dither after this many frames."
 msgstr ""
 
 #. i18n: ectx: label, entry (DitherThreshold), group (Guide)
-#: kstars.kcfg:1983
+#: kstars.kcfg:1987
 #, kde-format
 msgid "Maximum distance (pixels) for guiding to be considered settled."
 msgstr ""
 
 #. i18n: ectx: label, entry (DitherTimeout), group (Guide)
-#: kstars.kcfg:1987
+#: kstars.kcfg:1991
 #, kde-format
 msgid "Time limit (seconds) on dithering to settle down."
 msgstr ""
 
 #. i18n: ectx: label, entry (DitherMaxIterations), group (Guide)
-#: kstars.kcfg:1991
+#: kstars.kcfg:1995
 #, kde-format
 msgid "How many dithering attempts to undertake before giving up."
 msgstr ""
 
 #. i18n: ectx: label, entry (DitherNoGuidingPulse), group (Guide)
-#: kstars.kcfg:1995
+#: kstars.kcfg:1999
 #, fuzzy, kde-format
 #| msgid ""
 #| "Pulse duration in milliseconds used for guiding pulses during calibration "
@@ -23435,27 +23473,27 @@ msgid "Pulse length in milliseconds used for non-guiding dither."
 msgstr "在調校階段用於引導脈衝的間隔時間，以毫秒為單位。"
 
 #. i18n: ectx: label, entry (DitherFailAbortsAutoGuide), group (Guide)
-#: kstars.kcfg:1999
+#: kstars.kcfg:2003
 #, fuzzy, kde-format
 #| msgid "Dithering failed. Autoguiding aborted."
 msgid "If dithering fails then abort autoguide."
 msgstr "移動失敗。自動引導已中止。"
 
 #. i18n: ectx: label, entry (DitherEnabled), group (Guide)
-#: kstars.kcfg:2003
+#: kstars.kcfg:2007
 #, kde-format
 msgid "Use Auto Dithering when guiding."
 msgstr "引導時使用自動移動。"
 
 #. i18n: ectx: label, entry (DitherNoGuiding), group (Guide)
-#: kstars.kcfg:2007
+#: kstars.kcfg:2011
 #, fuzzy, kde-format
 #| msgid "Use Auto Dithering when guiding."
 msgid "Perform dithering even when not guiding."
 msgstr "引導時使用自動移動。"
 
 #. i18n: ectx: label, entry (AOLimit), group (Guide)
-#: kstars.kcfg:2011
+#: kstars.kcfg:2015
 #, kde-format
 msgid ""
 "The Adaptive Optics unit is utilized if the guiding deviation is less than "
@@ -23465,130 +23503,130 @@ msgstr ""
 "引導。"
 
 #. i18n: ectx: label, entry (RAGuideEnabled), group (Guide)
-#: kstars.kcfg:2015
+#: kstars.kcfg:2019
 #, kde-format
 msgid "Enable autoguiding in the RA axis."
 msgstr "開啟赤經軸的自動引導。"
 
 #. i18n: ectx: label, entry (DECGuideEnabled), group (Guide)
-#: kstars.kcfg:2019
+#: kstars.kcfg:2023
 #, kde-format
 msgid "Enable autoguiding in the DEC axis."
 msgstr "開啟赤緯軸的自動引導。"
 
 #. i18n: ectx: label, entry (NorthDECGuideEnabled), group (Guide)
-#: kstars.kcfg:2023
+#: kstars.kcfg:2027
 #, fuzzy, kde-format
 #| msgid "Enable autoguiding in the DEC axis."
 msgid "Enable North autoguiding in the DEC axis."
 msgstr "開啟赤緯軸的自動引導。"
 
 #. i18n: ectx: label, entry (SouthDECGuideEnabled), group (Guide)
-#: kstars.kcfg:2027
+#: kstars.kcfg:2031
 #, fuzzy, kde-format
 #| msgid "Enable autoguiding in the DEC axis."
 msgid "Enable South autoguiding in the DEC axis."
 msgstr "開啟赤緯軸的自動引導。"
 
 #. i18n: ectx: label, entry (EastRAGuideEnabled), group (Guide)
-#: kstars.kcfg:2031
+#: kstars.kcfg:2035
 #, fuzzy, kde-format
 #| msgid "Enable autoguiding in the RA axis."
 msgid "Enable East autoguiding in the RA axis."
 msgstr "開啟赤經軸的自動引導。"
 
 #. i18n: ectx: label, entry (WestRAGuideEnabled), group (Guide)
-#: kstars.kcfg:2035
+#: kstars.kcfg:2039
 #, fuzzy, kde-format
 #| msgid "Enable autoguiding in the RA axis."
 msgid "Enable West autoguiding in the RA axis."
 msgstr "開啟赤經軸的自動引導。"
 
 #. i18n: ectx: label, entry (GuiderAccuracyThreshold), group (Guide)
-#: kstars.kcfg:2072
+#: kstars.kcfg:2076
 #, kde-format
 msgid "Accuracy threshold for the Guide Graphs."
 msgstr ""
 
 #. i18n: ectx: label, entry (RADisplayedOnGuideGraph), group (Guide)
-#: kstars.kcfg:2076
+#: kstars.kcfg:2080
 #, kde-format
 msgid "Display the RA Plot on the Guide Drift Graphics."
 msgstr ""
 
 #. i18n: ectx: label, entry (DEDisplayedOnGuideGraph), group (Guide)
-#: kstars.kcfg:2080
+#: kstars.kcfg:2084
 #, kde-format
 msgid "Display the DEC Plot on the Guide Drift Graphics."
 msgstr ""
 
 #. i18n: ectx: label, entry (RACorrDisplayedOnGuideGraph), group (Guide)
-#: kstars.kcfg:2084
+#: kstars.kcfg:2088
 #, kde-format
 msgid "Display the RA Corrections Plot on the Guide Drift Graphics."
 msgstr ""
 
 #. i18n: ectx: label, entry (DECorrDisplayedOnGuideGraph), group (Guide)
-#: kstars.kcfg:2088
+#: kstars.kcfg:2092
 #, kde-format
 msgid "Display the DEC Corrections Plot on the Guide Drift Graphics."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SchedulerLogging), group (Scheduler)
-#: kstars.kcfg:2094
+#: kstars.kcfg:2098
 #, fuzzy, kde-format
 #| msgid "Open Ekos Sequence Queue"
 msgid "Log Ekos Scheduler Module activity."
 msgstr "開啟 Ekos 序列佇列"
 
 #. i18n: ectx: whatsthis, entry (SortSchedulerJobs), group (Scheduler)
-#: kstars.kcfg:2098
+#: kstars.kcfg:2102
 #, kde-format
 msgid "Sort scheduler jobs by priority and altitude."
 msgstr ""
 
 #. i18n: ectx: label, entry (StopEkosAfterShutdown), group (Scheduler)
-#: kstars.kcfg:2102
+#: kstars.kcfg:2106
 #, kde-format
 msgid ""
 "After shutdown procedure is successfully executed, shutdown INDI and Ekos."
 msgstr ""
 
 #. i18n: ectx: label, entry (ShutdownScriptTerminatesINDI), group (Scheduler)
-#: kstars.kcfg:2106
+#: kstars.kcfg:2110
 #, kde-format
 msgid ""
 "Whether shutdown script, if exists, terminates INDI server in the process."
 msgstr ""
 
 #. i18n: ectx: label, entry (PreemptiveShutdown), group (Scheduler)
-#: kstars.kcfg:2110
+#: kstars.kcfg:2114
 #, kde-format
 msgid "Perform pre-emptive shutdown if no jobs are due for a number of hours."
 msgstr ""
 
 #. i18n: ectx: label, entry (ResetMountModelOnAlignFail), group (Scheduler)
-#: kstars.kcfg:2114
+#: kstars.kcfg:2118
 #, kde-format
 msgid "Reset mount model in case of alignment failure."
 msgstr ""
 
 #. i18n: ectx: label, entry (ResetMountModelBeforeJob), group (Scheduler)
-#: kstars.kcfg:2118
+#: kstars.kcfg:2122
 #, fuzzy, kde-format
 #| msgid "Telescope completed the meridian flip."
 msgid "Reset mount model before starting each job."
 msgstr "望遠鏡已完成子午線翻轉。"
 
 #. i18n: ectx: label, entry (ResetGuideCalibration), group (Scheduler)
-#: kstars.kcfg:2122
+#: kstars.kcfg:2126
 #, fuzzy, kde-format
 #| msgid "Telescope completed the meridian flip."
 msgid "Always Reset guiding calibration before starting each job."
 msgstr "望遠鏡已完成子午線翻轉。"
 
 #. i18n: ectx: label, entry (PreemptiveShutdownTime), group (Scheduler)
-#: kstars.kcfg:2126
+#: kstars.kcfg:2130
 #, kde-format
 msgid ""
 "Maximum number of hours before the next job is due to trigger a pre-emptive "
@@ -23596,13 +23634,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (LeadTime), group (Scheduler)
-#: kstars.kcfg:2130
+#: kstars.kcfg:2134
 #, kde-format
 msgid "Minimum time between jobs in minutes."
 msgstr ""
 
 #. i18n: ectx: label, entry (PreDawnTime), group (Scheduler)
-#: kstars.kcfg:2134
+#: kstars.kcfg:2138
 #, kde-format
 msgid ""
 "Do not permit jobs to be scheduled or executed past this many minutes before "
@@ -23610,100 +23648,100 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (TelescopeFocalLength), group (Scheduler)
-#: kstars.kcfg:2138
+#: kstars.kcfg:2142
 #, fuzzy, kde-format
 #| msgid "Telescope focal length, in millimeters"
 msgid "Telescope focal length in millimeters."
 msgstr "望遠鏡焦距，以 mm 為單位"
 
 #. i18n: ectx: label, entry (CameraPixelWidth), group (Scheduler)
-#: kstars.kcfg:2142
+#: kstars.kcfg:2146
 #, kde-format
 msgid "Camera pixel size width in micrometers."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraPixelHeight), group (Scheduler)
-#: kstars.kcfg:2146
+#: kstars.kcfg:2150
 #, kde-format
 msgid "Camera pixel size height in micrometers."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraWidth), group (Scheduler)
-#: kstars.kcfg:2150
+#: kstars.kcfg:2154
 #, kde-format
 msgid "Camera Width in pixels."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraHeight), group (Scheduler)
-#: kstars.kcfg:2154
+#: kstars.kcfg:2158
 #, kde-format
 msgid "Camera Height in pixels."
 msgstr ""
 
 #. i18n: ectx: label, entry (CameraRotation), group (Scheduler)
-#: kstars.kcfg:2158
+#: kstars.kcfg:2162
 #, kde-format
 msgid "Position angle of the camera with respect to north."
 msgstr ""
 
 #. i18n: ectx: label, entry (LastServer), group (INDI Lite)
-#: kstars.kcfg:2164
+#: kstars.kcfg:2168
 #, kde-format
 msgid "The address of last used server"
 msgstr ""
 
 #. i18n: ectx: label, entry (LastServerPort), group (INDI Lite)
-#: kstars.kcfg:2167
+#: kstars.kcfg:2171
 #, kde-format
 msgid "The port of last used server"
 msgstr ""
 
 #. i18n: ectx: label, entry (LastWebManagerPort), group (INDI Lite)
-#: kstars.kcfg:2171
+#: kstars.kcfg:2175
 #, kde-format
 msgid "The port of last used Web Manager"
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSMemoryCache), group (HIPS)
-#: kstars.kcfg:2177
+#: kstars.kcfg:2181
 #, kde-format
 msgid "RAM cache size in MB used to store cached HIPS images."
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSNetCache), group (HIPS)
-#: kstars.kcfg:2181
+#: kstars.kcfg:2185
 #, kde-format
 msgid "Hard disk cache size in MB used to store cached HIPS images."
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSSource), group (HIPS)
-#: kstars.kcfg:2185
+#: kstars.kcfg:2189
 #, kde-format
 msgid "HIPS source catalog title."
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSBiLinearInterpolation), group (HIPS)
-#: kstars.kcfg:2189
+#: kstars.kcfg:2193
 #, kde-format
 msgid "Use Bilinear interpolation when rendering HiPS images?"
 msgstr ""
 
 #. i18n: ectx: label, entry (HIPSShowGrid), group (HIPS)
-#: kstars.kcfg:2193
+#: kstars.kcfg:2197
 #, fuzzy, kde-format
 #| msgid "Draw Sun in the sky map?"
 msgid "Show HiPS grid on the sky map."
 msgstr "要在天體圖中畫出太陽嗎？"
 
 #. i18n: ectx: label, entry (ShowHIPS), group (HIPS)
-#: kstars.kcfg:2197
+#: kstars.kcfg:2201
 #, fuzzy, kde-format
 #| msgid "Draw stars in the sky map?"
 msgid "Draw HiPS sources in the sky map?"
 msgstr "要畫出星體嗎？"
 
 #. i18n: ectx: whatsthis, entry (ShowHIPS), group (HIPS)
-#: kstars.kcfg:2198
+#: kstars.kcfg:2202
 #, fuzzy, kde-format
 #| msgid "Toggle whether stars are drawn in the sky map."
 msgid "Toggle whether the HIPS sources are drawn in the sky map."

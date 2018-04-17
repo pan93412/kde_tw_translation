@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-30 03:39+0200\n"
+"POT-Creation-Date: 2018-04-17 03:45+0200\n"
 "PO-Revision-Date: 2018-03-25 14:04+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -47,87 +47,87 @@ msgstr "開啟影像"
 msgid "Image Files"
 msgstr "影像檔"
 
-#: imagepackage/contents/ui/config.qml:85
+#: imagepackage/contents/ui/config.qml:87
 #, kde-format
 msgid "Positioning:"
 msgstr "位置："
 
-#: imagepackage/contents/ui/config.qml:94
+#: imagepackage/contents/ui/config.qml:96
 #, kde-format
 msgid "Scaled and Cropped"
 msgstr "調整大小並切割"
 
-#: imagepackage/contents/ui/config.qml:98
+#: imagepackage/contents/ui/config.qml:100
 #, kde-format
 msgid "Scaled"
 msgstr "調整大小"
 
-#: imagepackage/contents/ui/config.qml:102
+#: imagepackage/contents/ui/config.qml:104
 #, kde-format
 msgid "Scaled, Keep Proportions"
 msgstr "調整大小，並保持比例"
 
-#: imagepackage/contents/ui/config.qml:106
+#: imagepackage/contents/ui/config.qml:108
 #, kde-format
 msgid "Centered"
 msgstr "置中"
 
-#: imagepackage/contents/ui/config.qml:110
+#: imagepackage/contents/ui/config.qml:112
 #, kde-format
 msgid "Tiled"
 msgstr "鋪排"
 
-#: imagepackage/contents/ui/config.qml:142
+#: imagepackage/contents/ui/config.qml:144
 #, kde-format
 msgid "Background:"
 msgstr "背景："
 
-#: imagepackage/contents/ui/config.qml:146
+#: imagepackage/contents/ui/config.qml:148
 #, kde-format
 msgid "Blur"
 msgstr "模糊"
 
-#: imagepackage/contents/ui/config.qml:155
+#: imagepackage/contents/ui/config.qml:157
 #, kde-format
 msgid "Select Background Color"
 msgstr "設定背景顏色"
 
-#: imagepackage/contents/ui/config.qml:167
+#: imagepackage/contents/ui/config.qml:169
 #, kde-format
 msgid "Solid color"
 msgstr "純色"
 
-#: imagepackage/contents/ui/config.qml:204
+#: imagepackage/contents/ui/config.qml:206
 #, kde-format
 msgid "Change every:"
 msgstr "變更圖片頻率："
 
-#: imagepackage/contents/ui/config.qml:217
+#: imagepackage/contents/ui/config.qml:219
 #, kde-format
 msgid "Hours"
 msgstr "小時"
 
-#: imagepackage/contents/ui/config.qml:233
+#: imagepackage/contents/ui/config.qml:235
 #, kde-format
 msgid "Minutes"
 msgstr "分鐘"
 
-#: imagepackage/contents/ui/config.qml:249
+#: imagepackage/contents/ui/config.qml:251
 #, kde-format
 msgid "Seconds"
 msgstr "秒"
 
-#: imagepackage/contents/ui/config.qml:383
+#: imagepackage/contents/ui/config.qml:333
 #, kde-format
 msgid "Add Folder..."
 msgstr "新增資料夾 ..."
 
-#: imagepackage/contents/ui/config.qml:389
+#: imagepackage/contents/ui/config.qml:339
 #, kde-format
 msgid "Add Image..."
 msgstr "新增圖像 ..."
 
-#: imagepackage/contents/ui/config.qml:394
+#: imagepackage/contents/ui/config.qml:344
 #, kde-format
 msgid "Get New Wallpapers..."
 msgstr "取得新桌布..."
@@ -142,32 +142,37 @@ msgstr "開啟桌布影像"
 msgid "Next Wallpaper Image"
 msgstr "下一個桌布影像"
 
-#: imagepackage/contents/ui/WallpaperDelegate.qml:115
-#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:89
-#, kde-format
-msgid "Remove wallpaper"
-msgstr "移除桌布"
-
-#: imagepackage/contents/ui/WallpaperDelegate.qml:140
-#, kde-format
-msgid "Open Containing Folder"
-msgstr "開啟存放資料夾"
-
-#: imagepackage/contents/ui/WallpaperDelegate.qml:159
-#, kde-format
-msgid "Restore wallpaper"
-msgstr "回復桌布"
-
-#: imagepackage/contents/ui/WallpaperDelegate.qml:197
+#: imagepackage/contents/ui/WallpaperDelegate.qml:36
 #: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:119
 #, kde-format
 msgid "%1 by %2"
 msgstr "%1，由：%2"
 
+#: imagepackage/contents/ui/WallpaperDelegate.qml:43
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "開啟存放資料夾"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:49
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "回復桌布"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:54
+#, fuzzy, kde-format
+#| msgid "Remove wallpaper"
+msgid "Remove Wallpaper"
+msgstr "移除桌布"
+
 #: imagepackage/platformcontents/phone/ui/config.qml:80
 #, kde-format
 msgid "Add Custom Wallpaper"
 msgstr "新增自訂桌布"
+
+#: imagepackage/platformcontents/phone/ui/WallpaperDelegate.qml:89
+#, kde-format
+msgid "Remove wallpaper"
+msgstr "移除桌布"
 
 #~ msgid "Open..."
 #~ msgstr "開啟..."

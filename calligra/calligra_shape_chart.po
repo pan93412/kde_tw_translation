@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ChartShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-23 03:17+0100\n"
+"POT-Creation-Date: 2018-04-17 03:28+0200\n"
 "PO-Revision-Date: 2011-12-01 12:40+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -52,7 +52,7 @@ msgstr "已堆疊"
 #. i18n: ectx: property (text), widget (QCheckBox, datasetShowPercent)
 #: ChartConfigWidget.cpp:348 ChartConfigWidget.cpp:354
 #: ChartConfigWidget.cpp:360 ChartConfigWidget.cpp:413
-#: ChartConfigWidget.cpp:418 ChartConfigWidget.cpp:423 ChartConfigWidget.ui:625
+#: ChartConfigWidget.cpp:418 ChartConfigWidget.cpp:423 ChartConfigWidget.ui:643
 #, kde-format
 msgid "Percent"
 msgstr "百分比"
@@ -146,17 +146,17 @@ msgstr "自動"
 msgid "Select"
 msgstr ""
 
-#: ChartConfigWidget.cpp:641
+#: ChartConfigWidget.cpp:639
 #, kde-format
 msgid "Data Ranges..."
 msgstr "資料範圍..."
 
-#: ChartConfigWidget.cpp:1093
+#: ChartConfigWidget.cpp:1091
 #, kde-format
 msgid "Axis %1"
 msgstr "%1 軸："
 
-#: ChartConfigWidget.cpp:1237
+#: ChartConfigWidget.cpp:1235
 #, kde-format
 msgid "Data Set %1"
 msgstr "%1 資料集"
@@ -181,7 +181,7 @@ msgstr "繪製區域"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showTitle)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: ChartConfigWidget.ui:56 ChartConfigWidget.ui:672 ChartShape.cpp:485
+#: ChartConfigWidget.ui:56 ChartConfigWidget.ui:690 ChartShape.cpp:485
 #, kde-format
 msgid "Title"
 msgstr "標題"
@@ -270,7 +270,7 @@ msgstr "調整比例..."
 
 #. i18n: ectx: property (text), widget (QPushButton, axisEditFontButton)
 #. i18n: ectx: property (text), widget (QPushButton, legendEditFontButton)
-#: ChartConfigWidget.ui:170 ChartConfigWidget.ui:740
+#: ChartConfigWidget.ui:170 ChartConfigWidget.ui:738
 #, fuzzy, kde-format
 #| msgid "Edit Data..."
 msgid "Edit Fonts..."
@@ -295,7 +295,7 @@ msgid "Custom Type"
 msgstr "自訂型態"
 
 #. i18n: ectx: property (text), widget (QLabel, gapBetweenBarsLabel)
-#: ChartConfigWidget.ui:266
+#: ChartConfigWidget.ui:275
 #, kde-format
 msgid "Gap Between Bars"
 msgstr "長條間隔"
@@ -303,19 +303,19 @@ msgstr "長條間隔"
 #. i18n: ectx: property (suffix), widget (QSpinBox, gapBetweenBars)
 #. i18n: ectx: property (suffix), widget (QSpinBox, gapBetweenSets)
 #. i18n: ectx: property (suffix), widget (QSpinBox, pieExplodeFactor)
-#: ChartConfigWidget.ui:279 ChartConfigWidget.ui:308 ChartConfigWidget.ui:370
+#: ChartConfigWidget.ui:288 ChartConfigWidget.ui:317 ChartConfigWidget.ui:379
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
 
 #. i18n: ectx: property (text), widget (QLabel, gapBetweenSetsLabel)
-#: ChartConfigWidget.ui:301
+#: ChartConfigWidget.ui:310
 #, kde-format
 msgid "Gap Between Sets"
 msgstr "集合間隔"
 
 #. i18n: ectx: property (text), widget (QLabel, barPropertiesLabel)
-#: ChartConfigWidget.ui:328
+#: ChartConfigWidget.ui:337
 #, kde-format
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -341,13 +341,13 @@ msgstr ""
 "size:8pt; font-weight:600;\">長條屬性</span></p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: ChartConfigWidget.ui:389
+#: ChartConfigWidget.ui:398
 #, kde-format
 msgid "Explode Factor"
 msgstr "觸發因數"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: ChartConfigWidget.ui:400
+#: ChartConfigWidget.ui:409
 #, fuzzy, kde-format
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -385,92 +385,86 @@ msgstr ""
 "size:8pt; font-weight:600;\">圓餅屬性</span></p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ChartConfigWidget.ui:429
+#: ChartConfigWidget.ui:438
 #, kde-format
 msgid "Attached Axis"
 msgstr "附加軸"
 
 #. i18n: ectx: property (text), widget (QLabel, datasetMarkerLabel)
-#: ChartConfigWidget.ui:438
+#: ChartConfigWidget.ui:447
 #, kde-format
 msgid "Marker"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, datasetPenLabel)
-#: ChartConfigWidget.ui:464
+#: ChartConfigWidget.ui:473
 #, kde-format
 msgid "Stroke"
 msgstr "劃線"
 
 #. i18n: ectx: property (text), widget (QLabel, datasetColorLabel)
-#: ChartConfigWidget.ui:505
+#: ChartConfigWidget.ui:514
 #, kde-format
 msgid "Fill"
 msgstr "充填"
 
 #. i18n: ectx: property (text), widget (QCheckBox, datasetShowErrorBar)
-#: ChartConfigWidget.ui:566
+#: ChartConfigWidget.ui:584
 #, kde-format
 msgid "Error Bars"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, formatErrorBar)
-#: ChartConfigWidget.ui:591
+#: ChartConfigWidget.ui:609
 #, fuzzy, kde-format
 #| msgid "Insert Rows"
 msgid "Insert"
 msgstr "插入列"
 
 #. i18n: ectx: property (text), widget (QCheckBox, datasetShowCategory)
-#: ChartConfigWidget.ui:604
+#: ChartConfigWidget.ui:622
 #, kde-format
 msgid "Category"
 msgstr "類別"
 
 #. i18n: ectx: property (text), widget (QCheckBox, datasetShowSymbol)
-#: ChartConfigWidget.ui:611
+#: ChartConfigWidget.ui:629
 #, kde-format
 msgid "Symbol"
 msgstr "符號"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dataSetShowNumber)
-#: ChartConfigWidget.ui:618
+#: ChartConfigWidget.ui:636
 #, kde-format
 msgid "Number"
 msgstr "編號"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: ChartConfigWidget.ui:643
+#: ChartConfigWidget.ui:661
 #, kde-format
 msgid "Legend"
 msgstr "圖例"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showLegend)
-#: ChartConfigWidget.ui:649
+#: ChartConfigWidget.ui:667
 #, kde-format
 msgid "Show Legend"
 msgstr "顯示圖例"
 
-#. i18n: ectx: property (text), widget (QCheckBox, legendShowFrame)
-#: ChartConfigWidget.ui:689
-#, kde-format
-msgid "Show Frame"
-msgstr "顯示框架"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ChartConfigWidget.ui:696
+#: ChartConfigWidget.ui:707
 #, kde-format
 msgid "Orientation"
 msgstr "方向"
 
 #. i18n: ectx: property (text), widget (QRadioButton, legendOrientationIsVertical)
-#: ChartConfigWidget.ui:703
+#: ChartConfigWidget.ui:714
 #, kde-format
 msgid "v"
 msgstr "垂直"
 
 #. i18n: ectx: property (text), widget (QRadioButton, legendOrientationIsHorizontal)
-#: ChartConfigWidget.ui:716
+#: ChartConfigWidget.ui:727
 #, kde-format
 msgid "h"
 msgstr "水平"
@@ -571,14 +565,14 @@ msgstr "做某事"
 msgid "Do something else"
 msgstr "做另外的某事"
 
-#: ChartTool.cpp:895
+#: ChartTool.cpp:842
 #, fuzzy
 #| msgid "Show Legend"
 msgctxt "(qtundo-format)"
 msgid "Show Legend"
 msgstr "顯示圖例"
 
-#: ChartTool.cpp:897
+#: ChartTool.cpp:844
 #, fuzzy
 #| msgid "Show Legend"
 msgctxt "(qtundo-format)"
@@ -930,47 +924,33 @@ msgctxt "(qtundo-format)"
 msgid "Set Dataset Axis"
 msgstr "附加軸"
 
-#: commands/LegendCommand.cpp:107
+#: commands/LegendCommand.cpp:91
 #, fuzzy
 #| msgid "Show Legend"
 msgctxt "(qtundo-format)"
 msgid "Set Legend Title"
 msgstr "顯示圖例"
 
-#: commands/LegendCommand.cpp:115
+#: commands/LegendCommand.cpp:99
 #, fuzzy
 #| msgid "Show Legend"
 msgctxt "(qtundo-format)"
 msgid "Set Legend Font"
 msgstr "顯示圖例"
 
-#: commands/LegendCommand.cpp:122
+#: commands/LegendCommand.cpp:106
 #, fuzzy
 #| msgid "Show Legend"
 msgctxt "(qtundo-format)"
 msgid "Set Legend Font size"
 msgstr "顯示圖例"
 
-#: commands/LegendCommand.cpp:129
+#: commands/LegendCommand.cpp:113
 #, fuzzy
 #| msgid "Orientation"
 msgctxt "(qtundo-format)"
 msgid "Set Legend Orientation"
 msgstr "方向"
-
-#: commands/LegendCommand.cpp:137
-#, fuzzy
-#| msgid "Show Legend"
-msgctxt "(qtundo-format)"
-msgid "Show Legend Frame"
-msgstr "顯示圖例"
-
-#: commands/LegendCommand.cpp:139
-#, fuzzy
-#| msgid "Show Legend"
-msgctxt "(qtundo-format)"
-msgid "Hide Legend Frame"
-msgstr "顯示圖例"
 
 #: DataSet.cpp:273
 #, kde-format
@@ -1301,6 +1281,21 @@ msgstr ""
 #, kde-format
 msgid "Title:"
 msgstr "標題："
+
+#~ msgid "Show Frame"
+#~ msgstr "顯示框架"
+
+#, fuzzy
+#~| msgid "Show Legend"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show Legend Frame"
+#~ msgstr "顯示圖例"
+
+#, fuzzy
+#~| msgid "Show Legend"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Hide Legend Frame"
+#~ msgstr "顯示圖例"
 
 #~ msgid ""
 #~ "Are you sure you want to remove this axis? All settings specific to this "

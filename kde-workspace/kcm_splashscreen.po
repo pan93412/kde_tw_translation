@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-07 03:39+0200\n"
+"POT-Creation-Date: 2018-04-17 03:45+0200\n"
 "PO-Revision-Date: 2018-04-14 12:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -38,27 +38,37 @@ msgstr "設定啟動畫面詳情"
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:137
+#: kcm.cpp:127
 #, kde-format
 msgid "None"
 msgstr "無"
 
-#: kcm.cpp:196
+#: kcm.cpp:129
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr ""
+
+#: kcm.cpp:206
 #, kde-format
 msgid "Error"
 msgstr "錯誤"
 
-#: kcm.cpp:196
+#: kcm.cpp:206
 #, kde-format
 msgid "Failed to successfully test the splash screen."
 msgstr "測試啟動畫面失敗。"
 
-#: package/contents/ui/main.qml:142
+#: package/contents/ui/main.qml:26
+#, kde-format
+msgid "This module lets you configure the splash screen theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:46
 #, kde-format
 msgid "Test Splashscreen"
 msgstr "測試開始畫面"
 
-#: package/contents/ui/main.qml:164
+#: package/contents/ui/main.qml:62
 #, kde-format
 msgid "&Get New Theme..."
 msgstr "取得新主題(&G)..."
