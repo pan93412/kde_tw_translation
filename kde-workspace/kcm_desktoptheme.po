@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-07 03:39+0200\n"
+"POT-Creation-Date: 2018-04-18 03:46+0200\n"
 "PO-Revision-Date: 2018-04-14 12:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -41,52 +41,53 @@ msgstr "設定桌面主題"
 msgid "David Rosca"
 msgstr "David Rosca"
 
-#: kcm.cpp:124
+#: kcm.cpp:125
 #, kde-format
 msgid "Theme installed successfully."
 msgstr "主題已成功安裝。"
 
-#: kcm.cpp:127 kcm.cpp:134
+#: kcm.cpp:128 kcm.cpp:135
 #, kde-format
 msgid "Theme installation failed."
 msgstr "主題安裝失敗。"
 
-#: kcm.cpp:280 kcm.cpp:288
+#: kcm.cpp:282 kcm.cpp:290
 #, kde-format
 msgid "Theme removal failed."
 msgstr "主題移除失敗。"
 
-#: package/contents/ui/main.qml:34
+#: package/contents/ui/main.qml:29
 #, kde-format
 msgid "This module lets you configure the desktop theme."
 msgstr "這個模組讓您可以設定桌面主題。"
 
-#: package/contents/ui/main.qml:118
-#, kde-format
-msgid "Edit theme"
+#: package/contents/ui/main.qml:65
+#, fuzzy, kde-format
+#| msgid "Edit theme"
+msgid "Edit Theme"
 msgstr "編輯主題"
 
-#: package/contents/ui/main.qml:177
-#, kde-format
-msgid "Get New Themes..."
-msgstr "取得新主題 ..."
-
-#: package/contents/ui/main.qml:183
-#, kde-format
-msgid "Install from File..."
-msgstr "從檔案安裝 ..."
-
-#: package/contents/ui/main.qml:189
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Remove Theme"
 msgstr "移除主題"
 
-#: package/contents/ui/main.qml:229
+#: package/contents/ui/main.qml:109
+#, kde-format
+msgid "Install from File..."
+msgstr "從檔案安裝 ..."
+
+#: package/contents/ui/main.qml:115
+#, kde-format
+msgid "Get New Themes..."
+msgstr "取得新主題 ..."
+
+#: package/contents/ui/main.qml:127
 #, kde-format
 msgid "Open Theme"
 msgstr "開啟主題"
 
-#: package/contents/ui/main.qml:231
+#: package/contents/ui/main.qml:129
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr "主題檔 (*.zip *.tar.gz *.tar.bz2)"

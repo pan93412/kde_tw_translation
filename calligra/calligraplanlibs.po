@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-14 03:17+0200\n"
+"POT-Creation-Date: 2018-04-18 03:28+0200\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -3328,7 +3328,7 @@ msgctxt "@title:column"
 msgid "Responsible"
 msgstr "負責人"
 
-#: models/kptnodeitemmodel.cpp:2283 models/kptresourcemodel.cpp:1715
+#: models/kptnodeitemmodel.cpp:2283 models/kptresourcemodel.cpp:1716
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Allocation"
@@ -3838,7 +3838,7 @@ msgstr "變更實際完成時間"
 msgid "Resources"
 msgstr "資源"
 
-#: models/kptnodeitemmodel.cpp:3527 models/kptresourcemodel.cpp:1552
+#: models/kptnodeitemmodel.cpp:3527 models/kptresourcemodel.cpp:1553
 msgctxt "(qtundo-format)"
 msgid "Add resource"
 msgstr "新增資源"
@@ -3934,14 +3934,14 @@ msgstr "變更關係時間延遲"
 
 #: models/kptresourceallocationmodel.cpp:161
 #: models/kptresourceallocationmodel.cpp:219
-#: models/kptresourceallocationmodel.cpp:679 models/kptresourcemodel.cpp:1733
+#: models/kptresourceallocationmodel.cpp:679 models/kptresourcemodel.cpp:1734
 #, no-c-format, kde-format
 msgctxt "<value>%"
 msgid "%1%"
 msgstr "%1%"
 
 #: models/kptresourceallocationmodel.cpp:168
-#: models/kptresourceallocationmodel.cpp:685 models/kptresourcemodel.cpp:1737
+#: models/kptresourceallocationmodel.cpp:685 models/kptresourcemodel.cpp:1738
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Not allocated"
@@ -4022,20 +4022,20 @@ msgid ""
 "resource must be part of a group of type Material.</para>"
 msgstr ""
 
-#: models/kptresourceallocationmodel.cpp:687 models/kptresourcemodel.cpp:1739
+#: models/kptresourceallocationmodel.cpp:687 models/kptresourcemodel.cpp:1740
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1 allocated out of %2 available"
 msgstr "已配置 %1 個，有 %2 個可用"
 
-#: models/kptresourceallocationmodel.cpp:725 models/kptresourcemodel.cpp:1759
+#: models/kptresourceallocationmodel.cpp:725 models/kptresourcemodel.cpp:1760
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "%1 resource requested for dynamic allocation"
 msgid_plural "%1 resources requested for dynamic allocation"
 msgstr[0] ""
 
-#: models/kptresourceallocationmodel.cpp:729 models/kptresourcemodel.cpp:1763
+#: models/kptresourceallocationmodel.cpp:729 models/kptresourcemodel.cpp:1764
 #, fuzzy, kde-format
 #| msgid "%1 resource allocated"
 #| msgid_plural "%1 resources allocated"
@@ -4044,7 +4044,7 @@ msgid "%1 resource allocated"
 msgid_plural "%1 resources allocated"
 msgstr[0] "%1 個資源已配置"
 
-#: models/kptresourceallocationmodel.cpp:733 models/kptresourcemodel.cpp:1767
+#: models/kptresourceallocationmodel.cpp:733 models/kptresourcemodel.cpp:1768
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:tooltip"
 #| msgid "%1: %2<nl/>%3: %4"
@@ -4052,7 +4052,7 @@ msgctxt "@info:tooltip"
 msgid "%1<nl/>%2"
 msgstr "%1: %2<nl/>%3: %4"
 
-#: models/kptresourceallocationmodel.cpp:737 models/kptresourcemodel.cpp:1771
+#: models/kptresourceallocationmodel.cpp:737 models/kptresourcemodel.cpp:1772
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4403,7 +4403,7 @@ msgid "Add resource from address book"
 msgid_plural "Add %1 resources from address book"
 msgstr[0] "從通訊錄新增 %1 個資源"
 
-#: models/kptresourcemodel.cpp:1420
+#: models/kptresourcemodel.cpp:1421
 #, fuzzy, kde-format
 #| msgid "Move resource"
 #| msgid_plural "Move %1 resources"
@@ -4412,7 +4412,7 @@ msgid "Move resource"
 msgid_plural "Move %1 resources"
 msgstr[0] "移動 %1 個資源"
 
-#: models/kptresourcemodel.cpp:1439
+#: models/kptresourcemodel.cpp:1440
 #, fuzzy, kde-format
 #| msgid "Copy resource"
 #| msgid_plural "Copy %1 resources"
@@ -4421,7 +4421,7 @@ msgid "Copy resource"
 msgid_plural "Copy %1 resources"
 msgstr[0] "複製 %1 個資源"
 
-#: models/kptresourcemodel.cpp:1541
+#: models/kptresourcemodel.cpp:1542
 msgctxt "(qtundo-format)"
 msgid "Add resource group"
 msgstr "新增資源群組"
