@@ -4,13 +4,13 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2013, 2014.
-# Jeff Huang <s8321414@gmail.com>, 2016.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: choqok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-01-03 04:53+0100\n"
-"PO-Revision-Date: 2016-11-24 08:12+0800\n"
+"PO-Revision-Date: 2018-04-18 11:29+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
@@ -467,7 +467,7 @@ msgid "KDE Micro-Blogging Client."
 msgstr "KDE 微部落格客戶端程式"
 
 #: choqok/main.cpp:46
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "(C) 2008-2010 Mehrdad Momeny\n"
 #| "(C) 2011-2015 Choqok Developers"
@@ -476,7 +476,7 @@ msgid ""
 "(C) 2011-2018 Choqok Developers"
 msgstr ""
 "(C) 2008-2010 Mehrdad Momeny\n"
-"(C) 2011-2015 Choqok 開發團隊"
+"(C) 2011-2018 Choqok 開發團隊"
 
 #: choqok/main.cpp:52
 #, kde-format
@@ -742,10 +742,10 @@ msgstr "中止"
 #: helperlibs/twitterapihelper/twitterapimicroblog.cpp:443
 #: microblogs/pumpio/pumpiomicroblog.cpp:698
 #: microblogs/twitter/twittercomposerwidget.cpp:129
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "New post submitted successfully"
 msgid "New post for account %1 submitted successfully"
-msgstr "新文章已成功發布"
+msgstr "帳號 %1 的貼文已成功發佈"
 
 #: helperlibs/gnusocialapihelper/gnusocialapicomposerwidget.cpp:136
 #: microblogs/pumpio/pumpiocomposerwidget.cpp:141
@@ -1270,10 +1270,10 @@ msgid "Reporting %1 failed. %2"
 msgstr "回報 %1 失敗。%2"
 
 #: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1288
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Report sent successfully"
 msgid "Report sent successfully."
-msgstr "回報成功送出"
+msgstr "回報成功送出。"
 
 #: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1292
 #, kde-format
@@ -1754,12 +1754,12 @@ msgid "Select All"
 msgstr "全部選擇"
 
 #: libchoqok/ui/timelinewidget.cpp:236
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "1 new post in %2(%3)"
 #| msgid_plural "%1 new posts in %2(%3)"
 msgid "1 new post in %2 (%3)"
 msgid_plural "%1 new posts in %2 (%3)"
-msgstr[0] "%1 個新文章於 %2（%3）"
+msgstr[0] "%1 個新文章於 %2 (%3)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libchoqok/ui/uploadmedia_base.ui:22
@@ -2101,10 +2101,10 @@ msgstr "認證錯誤"
 
 #: microblogs/pumpio/pumpioeditaccountwidget.cpp:121
 #: microblogs/twitter/twittereditaccount.cpp:116
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Authorization Error"
 msgid "OAuth authorization error"
-msgstr "認證錯誤"
+msgstr "OAuth 認證錯誤"
 
 #: microblogs/pumpio/pumpioeditaccountwidget.cpp:142
 #: microblogs/twitter/twittereditaccount.cpp:126
@@ -2152,8 +2152,7 @@ msgstr "OAuth 認證"
 msgid ""
 "Click the below button; if everything goes well, you will pointed to Pump.io "
 "website to allow access to Choqok."
-msgstr ""
-"點擊以下按鍵，若沒有問題，您會被指向到 Pump.io 網站，以便允許 Choqok 存取。"
+msgstr "點擊以下按鍵，若沒有問題，您會被指向到 Pump.io 網站，以便允許 Choqok 存取。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, kcfg_authorize)
 #: microblogs/pumpio/pumpioeditaccountwidget.ui:143
@@ -2354,8 +2353,7 @@ msgstr "Twitter 帳號"
 msgid ""
 "Click the below button; if everything goes well, you will pointed to Twitter "
 "website to allow access to Choqok."
-msgstr ""
-"點擊以下按鍵，若沒有問題，您會被指向到 Twitter 網站，以便允許 Choqok 存取。"
+msgstr "點擊以下按鍵，若沒有問題，您會被指向到 Twitter 網站，以便允許 Choqok 存取。"
 
 #. i18n: ectx: property (text), widget (QPushButton, kcfg_authorize)
 #: microblogs/twitter/twittereditaccount_base.ui:154
@@ -2422,10 +2420,10 @@ msgid "Mentions of you"
 msgstr "提及您"
 
 #: microblogs/twitter/twittermicroblog.cpp:240
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Verify credentials"
 msgid "Verify credentials failed. %1"
-msgstr "檢查認證"
+msgstr "憑證驗證失敗。%1"
 
 #: microblogs/twitter/twittermicroblog.cpp:269
 #, kde-format
@@ -3066,8 +3064,7 @@ msgctxt ""
 "probably not be changed in localization."
 msgid ""
 "You can find your API key <a href=\"http://bit.ly/a/your_api_key\">here</a>"
-msgstr ""
-"您可以在<a href=\"http://bit.ly/a/your_api_key\">這裡</a>找到您的 API 金鑰"
+msgstr "您可以在<a href=\"http://bit.ly/a/your_api_key\">這裡</a>找到您的 API 金鑰"
 
 #: plugins/shorteners/bit_ly/bit_ly_config.cpp:111
 #, kde-format
@@ -3372,8 +3369,7 @@ msgstr "認證"
 msgid ""
 "Click the below button; if everything goes well, you will pointed to Flickr."
 "com website to allow access to Choqok."
-msgstr ""
-"點擊以下按鍵，若沒有問題，您會被指向到 Flickr 網站，以便允許 Choqok 存取。"
+msgstr "點擊以下按鍵，若沒有問題，您會被指向到 Flickr 網站，以便允許 Choqok 存取。"
 
 #. i18n: ectx: property (text), widget (QPushButton, authButton)
 #: plugins/uploaders/flickr/flickrprefs.ui:61

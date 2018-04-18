@@ -4,30 +4,31 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013.
+# Jeff Huang <s8321414@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: webkitkde\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-11-18 03:19+0100\n"
-"PO-Revision-Date: 2013-07-04 14:18+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2018-04-18 11:35+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Frank Weng (a.k.a. Franklin)"
+msgstr "Frank Weng (a.k.a. Franklin), Jeff Huang"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "franklin@goodhorse.idv.tw"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 
 #: kwebkitpart.cpp:100
 #, kde-format
@@ -136,11 +137,11 @@ msgid "View Do&cument Source"
 msgstr "檢視文件原始碼(&C)"
 
 #: kwebkitpart.cpp:256
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Resubmit Information"
 msgctxt "Secure Sockets Layer"
 msgid "View SSL Information"
-msgstr "重新提交資訊"
+msgstr "檢視 SSL 資訊"
 
 #: kwebkitpart.cpp:260
 #, kde-format
@@ -158,7 +159,7 @@ msgstr "<h3>尋找文字</h3>顯示一個文字尋找對話框。"
 #: kwebkitpart.cpp:599
 #, kde-format
 msgid "This site is not secured with SSL, or its SSL information is not valid."
-msgstr ""
+msgstr "這個網頁並未使用 SSL 安全機制，或是其 SSL 資訊無效。"
 
 #: kwebkitpart.cpp:600
 #, kde-format
@@ -522,8 +523,7 @@ msgstr "允取存取"
 msgid ""
 "<qt>This untrusted page links to<br/><b>%1</b>.<br/>Do you want to follow "
 "the link?</qt>"
-msgstr ""
-"<qt>此不可信賴的網頁連結到<br /><B>%1</B>。<br />你要跟著連結去嗎？</qt>"
+msgstr "<qt>此不可信賴的網頁連結到<br /><B>%1</B>。<br />你要跟著連結去嗎？</qt>"
 
 #: webpage.cpp:724
 #, kde-format
@@ -627,8 +627,7 @@ msgstr ""
 msgid ""
 "<qt>This site is requesting to open a popup window to<p>%1</p><br/>Do you "
 "want to allow this?</qt>"
-msgstr ""
-"<qt>此網站正試圖開啟一個彈出式視窗到 <p>%1</p><br/>您允許此行為嗎？</qt>"
+msgstr "<qt>此網站正試圖開啟一個彈出式視窗到 <p>%1</p><br/>您允許此行為嗎？</qt>"
 
 #: webpage.cpp:919
 #, kde-format

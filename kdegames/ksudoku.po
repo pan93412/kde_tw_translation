@@ -6,16 +6,16 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2012, 2013.
-# Jeff Huang <s8321414@gmail.com>, 2017.
+# Jeff Huang <s8321414@gmail.com>, 2017, 2018.
 # pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: ksudoku\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-10-24 03:11+0200\n"
-"PO-Revision-Date: 2018-03-27 21:55+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"PO-Revision-Date: 2018-04-18 11:22+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -462,7 +462,7 @@ msgid "Playing Killer Sudoku"
 msgstr "玩殺手數獨"
 
 #: src/gui/ksudoku.cpp:318
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Mathdoku and Killer Sudoku puzzles have to be keyed in by working on one "
 "cage at a time. To start a cage, left click on any unused cell or enter a "
@@ -489,17 +489,6 @@ msgid ""
 "puzzle and make sure there is only one solution. If the check fails, you "
 "have probably made an error somewhere in one of the cages."
 msgstr ""
-"Mathdoku 和 Killer Sudoku 拼圖需要透過一個按鍵去鎖定框架一次。要啟動一個，左"
-"點下任何沒在使用的框架、或是輸入在滑鼠鼠標底下框架內的任何一個數字、或者是輸"
-"入 + - x /。一個小型的框架標籤將會出現在框架裡面。為了要在任何地方擴展框架，"
-"左鍵隔壁的框架，或是移動鼠標到那邊，並且按下空白鍵。\n"
-"\n"
-"你輸入的數字就是這個框架的值，然後它可以有一到多個數字（包含零）。一個大小為 "
-"1 的框架就會在正常的 Sudoku 拼圖上擁有一個數字。它成為玩家的起始值或線索。\n"
-"\n"
-"+ - x / 為運算符號（加、減、乘與除），大小為 2 或其他的框架裡面至少要有一個。"
-"在 Killer Sudoku，運算符號會自動提供，因為它總是 + 或無。\n"
-"\n"
 
 #: src/gui/ksudoku.cpp:348
 #, kde-format
@@ -745,8 +734,7 @@ msgstr "您選擇的儲存格不在所建立的框架中的任何儲存格旁邊
 msgid ""
 "The cage you wish to complete has no cells in it yet. Please click on a cell "
 "or key in + - / x or a number."
-msgstr ""
-"你想完成的框架裡還沒有完成。 請點擊一個單元格或者輸入 +、-、*、/ 或一個數字。"
+msgstr "你想完成的框架裡還沒有完成。 請點擊一個單元格或者輸入 +、-、*、/ 或一個數字。"
 
 #: src/gui/ksudokugame.cpp:476
 #, kde-format
@@ -760,8 +748,7 @@ msgstr "你想完成的框架尚未有值存在。請輸入一個號碼包含著
 msgid ""
 "The cage you wish to complete has more than one cell, but it has no operator "
 "yet. Please key in + - / or x."
-msgstr ""
-"你想要的框架包含著超過一個元件，但是還沒有運算符號。請輸入 + - * 或 /。"
+msgstr "你想要的框架包含著超過一個元件，但是還沒有運算符號。請輸入 + - * 或 /。"
 
 #: src/gui/ksudokugame.cpp:492
 #, kde-format
