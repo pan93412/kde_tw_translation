@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.mediaframe\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-18 03:45+0200\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2018-03-25 13:42+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -29,7 +29,9 @@ msgid "Paths"
 msgstr "路徑"
 
 #: package/contents/ui/ConfigGeneral.qml:52
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change picture every"
+msgctxt "@label:spinbox"
 msgid "Change picture every"
 msgstr "變更圖片頻率："
 
@@ -39,12 +41,16 @@ msgid "s"
 msgstr "秒"
 
 #: package/contents/ui/ConfigGeneral.qml:71
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Fill mode:"
+msgctxt "@label:listbox"
 msgid "Fill mode:"
 msgstr "填充模式："
 
 #: package/contents/ui/ConfigGeneral.qml:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Stretch"
+msgctxt "@item:inlistbox"
 msgid "Stretch"
 msgstr "伸縮"
 
@@ -54,7 +60,9 @@ msgid "The image is scaled to fit the frame"
 msgstr "影像大小依視框調整"
 
 #: package/contents/ui/ConfigGeneral.qml:87
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Preserve aspect fit"
+msgctxt "@item:inlistbox"
 msgid "Preserve aspect fit"
 msgstr "保留縱橫比，不裁切"
 
@@ -64,7 +72,9 @@ msgid "The image is scaled uniformly to fit without cropping"
 msgstr "影像大小依視框調整，但是保持比例不裁切"
 
 #: package/contents/ui/ConfigGeneral.qml:92
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Preserve aspect crop"
+msgctxt "@item:inlistbox"
 msgid "Preserve aspect crop"
 msgstr "保留縱橫比，裁切"
 
@@ -74,7 +84,9 @@ msgid "The image is scaled uniformly to fill, cropping if necessary"
 msgstr "影像大小依視框調整，超過就裁切"
 
 #: package/contents/ui/ConfigGeneral.qml:97
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tile"
+msgctxt "@item:inlistbox"
 msgid "Tile"
 msgstr "鋪排"
 
@@ -84,7 +96,9 @@ msgid "The image is duplicated horizontally and vertically"
 msgstr "圖片水平與垂直複製"
 
 #: package/contents/ui/ConfigGeneral.qml:102
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tile vertically"
+msgctxt "@item:inlistbox"
 msgid "Tile vertically"
 msgstr "垂直平鋪"
 
@@ -94,7 +108,9 @@ msgid "The image is stretched horizontally and tiled vertically"
 msgstr "圖片水平伸展並垂直平鋪"
 
 #: package/contents/ui/ConfigGeneral.qml:107
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tile horizontally"
+msgctxt "@item:inlistbox"
 msgid "Tile horizontally"
 msgstr "水平平鋪"
 
@@ -104,7 +120,9 @@ msgid "The image is stretched vertically and tiled horizontally"
 msgstr "圖片垂直伸展並水平平鋪"
 
 #: package/contents/ui/ConfigGeneral.qml:112
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Pad"
+msgctxt "@item:inlistbox"
 msgid "Pad"
 msgstr "Pad"
 
@@ -114,51 +132,71 @@ msgid "The image is not transformed"
 msgstr "圖片不變動"
 
 #: package/contents/ui/ConfigGeneral.qml:158
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Randomize items"
+msgctxt "@option:check"
 msgid "Randomize items"
 msgstr "隨機項目"
 
 #: package/contents/ui/ConfigGeneral.qml:163
-#, kde-format
-msgid "Pause on mouseover"
+#, fuzzy, kde-format
+#| msgid "Pause on mouseover"
+msgctxt "@option:check"
+msgid "Pause on mouse-over"
 msgstr "在滑鼠經過時暫停"
 
 #: package/contents/ui/ConfigGeneral.qml:168
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background frame"
+msgctxt "@option:check"
 msgid "Background frame"
 msgstr "背景圖框"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Left click image opens in external viewer"
+msgctxt "@option:check"
 msgid "Left click image opens in external viewer"
 msgstr "左鍵點選圖片以在外部檢視器中開啟"
 
 #: package/contents/ui/ConfigPaths.qml:57
-#, kde-format
-msgid "Choose files"
+#, fuzzy, kde-format
+#| msgid "Choose files"
+msgctxt "@title:window"
+msgid "Choose Files"
 msgstr "選擇檔案"
 
 #: package/contents/ui/ConfigPaths.qml:86
-#, kde-format
-msgid "Choose a folder"
+#, fuzzy, kde-format
+#| msgid "Choose a folder"
+msgctxt "@title:window"
+msgid "Choose a Folder"
 msgstr "選擇資料夾"
 
 #: package/contents/ui/ConfigPaths.qml:113
-#, kde-format
-msgid "Add folder..."
+#, fuzzy, kde-format
+#| msgid "Add folder..."
+msgctxt "@action:button"
+msgid "Add Folder..."
 msgstr "新增資料夾..."
 
 #: package/contents/ui/ConfigPaths.qml:119
-#, kde-format
-msgid "Add files..."
+#, fuzzy, kde-format
+#| msgid "Add files..."
+msgctxt "@action:button"
+msgid "Add Files..."
 msgstr "新增檔案..."
 
 #: package/contents/ui/ConfigPaths.qml:126
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Paths:"
+msgctxt "@label:listbox"
 msgid "Paths:"
 msgstr "路徑："
 
 #: package/contents/ui/main.qml:427
-#, kde-format
-msgid "Configure plasmoid..."
+#, fuzzy, kde-format
+#| msgid "Configure plasmoid..."
+msgctxt "@action:button"
+msgid "Configure..."
 msgstr "設定 plasmoid..."

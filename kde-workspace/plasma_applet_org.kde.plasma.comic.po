@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-01 03:29+0100\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2015-06-09 17:34+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -230,7 +230,6 @@ msgid "General"
 msgstr "一般"
 
 #: package/contents/config/config.qml:30
-#: package/contents/ui/configAppearance.qml:58
 #, kde-format
 msgid "Appearance"
 msgstr "外觀"
@@ -246,12 +245,16 @@ msgid "Visit the comic website"
 msgstr "造訪漫畫網站"
 
 #: package/contents/ui/configAdvanced.qml:53
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cache"
+msgctxt "@title:group"
 msgid "Cache"
 msgstr "快取"
 
 #: package/contents/ui/configAdvanced.qml:59
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Comic cache:"
+msgctxt "@label:spinbox"
 msgid "Comic cache:"
 msgstr "漫畫快取："
 
@@ -261,67 +264,100 @@ msgid "strips per comic"
 msgstr " 則/每個漫畫"
 
 #: package/contents/ui/configAdvanced.qml:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Error Handling"
+msgctxt "@title:group"
 msgid "Error Handling"
 msgstr "錯誤處理"
 
 #: package/contents/ui/configAdvanced.qml:79
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Display error when getting comic failed"
+msgctxt "@option:check"
 msgid "Display error when getting comic failed"
 msgstr "取得漫畫失敗時顯示錯誤："
 
+#: package/contents/ui/configAppearance.qml:58
+#, fuzzy, kde-format
+#| msgid "Appearance"
+msgctxt "@title:group"
+msgid "Appearance"
+msgstr "外觀"
+
 #: package/contents/ui/configAppearance.qml:64
-#, kde-format
-msgid "Show arrows only on mouse over"
+#, fuzzy, kde-format
+#| msgid "Show arrows only on mouse over"
+msgctxt "@option:check"
+msgid "Show arrows only on mouse-over"
 msgstr "只有停留其上時顯示箭頭"
 
 #: package/contents/ui/configAppearance.qml:72
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Information"
+msgctxt "@title:group"
 msgid "Information"
 msgstr "資訊"
 
 #: package/contents/ui/configAppearance.qml:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show comic title"
+msgctxt "@option:check"
 msgid "Show comic title"
 msgstr "顯示漫畫標題"
 
 #: package/contents/ui/configAppearance.qml:83
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show comic identifier"
+msgctxt "@option:check"
 msgid "Show comic identifier"
 msgstr "顯示漫畫辨識碼"
 
 #: package/contents/ui/configAppearance.qml:88
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show comic author"
+msgctxt "@option:check"
 msgid "Show comic author"
 msgstr "顯示漫畫作者"
 
 #: package/contents/ui/configAppearance.qml:93
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show comic URL"
+msgctxt "@option:check"
 msgid "Show comic URL"
 msgstr "顯示漫畫網址"
 
 #: package/contents/ui/configGeneral.qml:63
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Comic"
+msgctxt "@title:group"
 msgid "Comic"
 msgstr "漫畫"
 
 #: package/contents/ui/configGeneral.qml:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Get New Comics..."
+msgctxt "@action:button"
 msgid "Get New Comics..."
 msgstr "取得新漫畫..."
 
 #: package/contents/ui/configGeneral.qml:95
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Middle-click on the comic to show it at its original size"
+msgctxt "@option:check"
 msgid "Middle-click on the comic to show it at its original size"
 msgstr "在漫畫上點儀中鍵可以顯示原始大小"
 
 #: package/contents/ui/configGeneral.qml:103
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Update"
+msgctxt "@title:group"
 msgid "Update"
 msgstr "更新"
 
 #: package/contents/ui/configGeneral.qml:110
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Automatically update comic plugins:"
+msgctxt "@label:spinbox"
 msgid "Automatically update comic plugins:"
 msgstr "自動更新漫畫外掛程式："
 
@@ -331,7 +367,9 @@ msgid "days"
 msgstr " 天"
 
 #: package/contents/ui/configGeneral.qml:123
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Check for new comic strips:"
+msgctxt "@label:spinbox"
 msgid "Check for new comic strips:"
 msgstr "檢查有沒有新漫畫："
 
@@ -341,7 +379,9 @@ msgid "minutes"
 msgstr " 分"
 
 #: package/contents/ui/main.qml:191
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure..."
+msgctxt "@action:button"
 msgid "Configure..."
 msgstr "設定..."
 

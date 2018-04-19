@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-01 03:19+0100\n"
+"POT-Creation-Date: 2018-04-19 03:22+0200\n"
 "PO-Revision-Date: 2018-03-24 00:23+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -67,7 +67,7 @@ msgstr "要排除不搜尋的檔案與目錄清單，以逗號分隔。如：\"b
 msgid "SearchHighLight"
 msgstr "搜尋突顯"
 
-#: plugin_search.cpp:783 plugin_search.cpp:1382 replace_matches.cpp:184
+#: plugin_search.cpp:783 plugin_search.cpp:1344 replace_matches.cpp:184
 #, kde-format
 msgid "Line: <b>%1</b>: %2"
 msgstr "行號：<b>%1</b>：%2"
@@ -77,240 +77,253 @@ msgstr "行號：<b>%1</b>：%2"
 msgid "Searching while you type was interrupted. It would have taken too long."
 msgstr "您的輸入搜尋被中斷。它花了太長的時間。"
 
-#: plugin_search.cpp:1173
-#, kde-format
-msgid "<b><i>One match found in current file</i></b>"
-msgid_plural "<b><i>%1 matches found in current file</i></b>"
-msgstr[0] "<b><i>目前檔案中有 %1 筆項目相符</i></b>"
-
-#: plugin_search.cpp:1178
-#, kde-format
-msgid "<b><i>One match found in open files</i></b>"
-msgid_plural "<b><i>%1 matches found in open files</i></b>"
-msgstr[0] "<b><i>已開啟檔案中有 %1 筆項目相符</i></b>"
-
-#: plugin_search.cpp:1183
-#, kde-format
-msgid "<b><i>One match found in folder %2</i></b>"
-msgid_plural "<b><i>%1 matches found in folder %2</i></b>"
-msgstr[0] "<b><i>資料夾 %2 中找到 %1 個相符項目</i></b>"
-
-#: plugin_search.cpp:1194
-#, kde-format
-msgid "<b><i>One match found in project %2 (%3)</i></b>"
-msgid_plural "<b><i>%1 matches found in project %2 (%3)</i></b>"
-msgstr[0] "<b><i>專案 %2 (%3) 中找到 %1 個相符項目</i></b>"
-
-#: plugin_search.cpp:1202
-#, kde-format
-msgid "<b><i>One match found in all open projects (common parent: %2)</i></b>"
-msgid_plural ""
-"<b><i>%1 matches found in all open projects (common parent: %2)</i></b>"
-msgstr[0] ""
-"<b><i>在所有開啟的專案（共同父專案：%2）中找到 %1 個相符項目</i></b>"
-
-#: plugin_search.cpp:1248
+#: plugin_search.cpp:1210
 #, kde-format
 msgid "<b><i>One match found</i></b>"
 msgid_plural "<b><i>%1 matches found</i></b>"
 msgstr[0] "<b><i>找到了 %1 個相符項目</i></b>"
 
-#: plugin_search.cpp:1273
+#: plugin_search.cpp:1235
 #, kde-format
 msgid "<b>Searching: ...%1</b>"
 msgstr "<b>搜尋中：...%1</b>"
 
-#: plugin_search.cpp:1276
+#: plugin_search.cpp:1238
 #, kde-format
 msgid "<b>Searching: %1</b>"
 msgstr "<b>搜尋中：%1</b>"
 
-#: plugin_search.cpp:1458
+#: plugin_search.cpp:1420
 #, kde-format
 msgid "<b>Replacing in: ...%1</b>"
 msgstr "<b>正在取代：...%1</b>"
 
-#: plugin_search.cpp:1461
+#: plugin_search.cpp:1423
 #, kde-format
 msgid "<b>Replacing in: %1</b>"
 msgstr "<b>正在取代：%1</b>"
 
-#: plugin_search.cpp:1691
+#: plugin_search.cpp:1541
+#, fuzzy, kde-format
+#| msgid "<b><i>One match found in current file</i></b>"
+#| msgid_plural "<b><i>%1 matches found in current file</i></b>"
+msgid "<b><i>One match found in current file</i></b>"
+msgid_plural "<b><i>%1 matches (%2 checked) found in current file</i></b>"
+msgstr[0] "<b><i>目前檔案中有 %1 筆項目相符</i></b>"
+
+#: plugin_search.cpp:1546
+#, fuzzy, kde-format
+#| msgid "<b><i>One match found in open files</i></b>"
+#| msgid_plural "<b><i>%1 matches found in open files</i></b>"
+msgid "<b><i>One match found in open files</i></b>"
+msgid_plural "<b><i>%1 matches  (%2 checked) found in open files</i></b>"
+msgstr[0] "<b><i>已開啟檔案中有 %1 筆項目相符</i></b>"
+
+#: plugin_search.cpp:1551
+#, fuzzy, kde-format
+#| msgid "<b><i>One match found in folder %2</i></b>"
+#| msgid_plural "<b><i>%1 matches found in folder %2</i></b>"
+msgid "<b><i>One match found in folder %2</i></b>"
+msgid_plural "<b><i>%1 matches  (%3 checked) found in folder %2</i></b>"
+msgstr[0] "<b><i>資料夾 %2 中找到 %1 個相符項目</i></b>"
+
+#: plugin_search.cpp:1563
+#, fuzzy, kde-format
+#| msgid "<b><i>One match found in project %2 (%3)</i></b>"
+#| msgid_plural "<b><i>%1 matches found in project %2 (%3)</i></b>"
+msgid "<b><i>One match found in project %2 (%3)</i></b>"
+msgid_plural "<b><i>%1 matches  (%4 checked) found in project %2 (%3)</i></b>"
+msgstr[0] "<b><i>專案 %2 (%3) 中找到 %1 個相符項目</i></b>"
+
+#: plugin_search.cpp:1572
+#, fuzzy, kde-format
+#| msgid ""
+#| "<b><i>One match found in all open projects (common parent: %2)</i></b>"
+#| msgid_plural ""
+#| "<b><i>%1 matches found in all open projects (common parent: %2)</i></b>"
+msgid "<b><i>One match found in all open projects (common parent: %2)</i></b>"
+msgid_plural ""
+"<b><i>%1 matches  (%3 checked) found in all open projects (common parent: "
+"%2)</i></b>"
+msgstr[0] ""
+"<b><i>在所有開啟的專案（共同父專案：%2）中找到 %1 個相符項目</i></b>"
+
+#: plugin_search.cpp:1716
 #, kde-format
 msgid "Starting from first match"
 msgstr "從第一個符合的地方開始"
 
-#: plugin_search.cpp:1701
+#: plugin_search.cpp:1726
 #, kde-format
 msgid "Next from cursor"
 msgstr "從游標開始的下一個"
 
-#: plugin_search.cpp:1711
+#: plugin_search.cpp:1736
 #, kde-format
 msgid "Continuing from first match"
 msgstr "從第一個符合的地方繼續"
 
-#: plugin_search.cpp:1806
+#: plugin_search.cpp:1831
 #, kde-format
 msgid "Continuing from last match"
 msgstr "從最後一個符合的地方繼續"
 
-#: plugin_search.cpp:2003
+#: plugin_search.cpp:2028
 #, kde-format
 msgid "Add..."
 msgstr "新增..."
 
-#: plugin_search.cpp:2008
+#: plugin_search.cpp:2033
 #, kde-format
 msgid "Beginning of line"
 msgstr "行開頭"
 
-#: plugin_search.cpp:2009
+#: plugin_search.cpp:2034
 #, kde-format
 msgid "End of line"
 msgstr "行結尾"
 
-#: plugin_search.cpp:2011
+#: plugin_search.cpp:2036
 #, kde-format
 msgid "Any single character (excluding line breaks)"
 msgstr "任何單一字元（不含行中斷）"
 
-#: plugin_search.cpp:2013
+#: plugin_search.cpp:2038
 #, kde-format
 msgid "One or more occurrences"
 msgstr "一次或一次以上"
 
-#: plugin_search.cpp:2014
+#: plugin_search.cpp:2039
 #, kde-format
 msgid "Zero or more occurrences"
 msgstr "零次或一次以上"
 
-#: plugin_search.cpp:2015
+#: plugin_search.cpp:2040
 #, kde-format
 msgid "Zero or one occurrences"
 msgstr "零次或一次"
 
-#: plugin_search.cpp:2016
+#: plugin_search.cpp:2041
 #, kde-format
 msgid "<a> through <b> occurrences"
 msgstr "<a> 次到 <b> 次之間"
 
-#: plugin_search.cpp:2018
+#: plugin_search.cpp:2043
 #, kde-format
 msgid "Group, capturing"
 msgstr "群組，抓取中"
 
-#: plugin_search.cpp:2019
+#: plugin_search.cpp:2044
 #, kde-format
 msgid "Or"
 msgstr "或"
 
-#: plugin_search.cpp:2020
+#: plugin_search.cpp:2045
 #, kde-format
 msgid "Set of characters"
 msgstr "字元集"
 
-#: plugin_search.cpp:2021
+#: plugin_search.cpp:2046
 #, kde-format
 msgid "Negative set of characters"
 msgstr "字元補集"
 
-#: plugin_search.cpp:2022
+#: plugin_search.cpp:2047
 #, kde-format
 msgid "Group, non-capturing"
 msgstr "群組，未抓取"
 
-#: plugin_search.cpp:2023
+#: plugin_search.cpp:2048
 #, kde-format
 msgid "Lookahead"
 msgstr "Lookahead"
 
-#: plugin_search.cpp:2024
+#: plugin_search.cpp:2049
 #, kde-format
 msgid "Negative lookahead"
 msgstr "Negative lookahead"
 
-#: plugin_search.cpp:2027
+#: plugin_search.cpp:2052
 #, kde-format
 msgid "Line break"
 msgstr "行中斷"
 
-#: plugin_search.cpp:2028
+#: plugin_search.cpp:2053
 #, kde-format
 msgid "Tab"
 msgstr "Tab"
 
-#: plugin_search.cpp:2029
+#: plugin_search.cpp:2054
 #, kde-format
 msgid "Word boundary"
 msgstr "字元邊界"
 
-#: plugin_search.cpp:2030
+#: plugin_search.cpp:2055
 #, kde-format
 msgid "Not word boundary"
 msgstr "非字元邊界"
 
-#: plugin_search.cpp:2031
+#: plugin_search.cpp:2056
 #, kde-format
 msgid "Digit"
 msgstr "數字"
 
-#: plugin_search.cpp:2032
+#: plugin_search.cpp:2057
 #, kde-format
 msgid "Non-digit"
 msgstr "非數字"
 
-#: plugin_search.cpp:2033
+#: plugin_search.cpp:2058
 #, kde-format
 msgid "Whitespace (excluding line breaks)"
 msgstr "空白（不含行中斷）"
 
-#: plugin_search.cpp:2034
+#: plugin_search.cpp:2059
 #, kde-format
 msgid "Non-whitespace (excluding line breaks)"
 msgstr "非空白（不含行中斷）"
 
-#: plugin_search.cpp:2035
+#: plugin_search.cpp:2060
 #, kde-format
 msgid "Word character (alphanumerics plus '_')"
 msgstr "單字字元（字母、數字與底線）"
 
-#: plugin_search.cpp:2036
+#: plugin_search.cpp:2061
 #, kde-format
 msgid "Non-word character"
 msgstr "非單字字元"
 
-#: plugin_search.cpp:2084
+#: plugin_search.cpp:2109
 #, kde-format
 msgid "In Current Project"
 msgstr "在目前的專案中"
 
-#: plugin_search.cpp:2092
+#: plugin_search.cpp:2117
 #, kde-format
 msgid "In All Open Projects"
 msgstr "在所有已開啟專案中"
 
-#: plugin_search.cpp:2154
+#: plugin_search.cpp:2179
 #, kde-format
 msgid "Usage: grep [pattern to search for in folder]"
 msgstr "用法：grep 【要在資料夾中搜尋的樣式】"
 
-#: plugin_search.cpp:2157
+#: plugin_search.cpp:2182
 #, kde-format
 msgid "Usage: newGrep [pattern to search for in folder]"
 msgstr "用法：newGrep 【要在資料夾中搜尋的樣式】"
 
-#: plugin_search.cpp:2161 plugin_search.cpp:2164
+#: plugin_search.cpp:2186 plugin_search.cpp:2189
 #, kde-format
 msgid "Usage: search [pattern to search for in open files]"
 msgstr "用法：search 【要在已開啟檔案中搜尋的樣式】"
 
-#: plugin_search.cpp:2168
+#: plugin_search.cpp:2193
 #, kde-format
 msgid "Usage: pgrep [pattern to search for in current project]"
 msgstr "用法：pgrep 【要在目前專案中搜尋的樣式】"
 
-#: plugin_search.cpp:2171
+#: plugin_search.cpp:2196
 #, kde-format
 msgid "Usage: newPGrep [pattern to search for in current project]"
 msgstr "用法：newPGrep 【要在目前專案中搜尋的樣式】"

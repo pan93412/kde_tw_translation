@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.userswitcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-11 03:18+0100\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2016-11-03 19:39+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -23,42 +23,58 @@ msgid "General"
 msgstr "一般"
 
 #: package/contents/ui/configGeneral.qml:34
-#, kde-format
-msgid "User name display"
+#, fuzzy, kde-format
+#| msgid "User name display"
+msgctxt "@title:group"
+msgid "Username Display"
 msgstr "顯示使用者名稱"
 
 #: package/contents/ui/configGeneral.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show full name (if available)"
+msgctxt "@option:radio"
 msgid "Show full name (if available)"
 msgstr "顯示完整名稱（有的話）"
 
 #: package/contents/ui/configGeneral.qml:54
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show login username"
+msgctxt "@option:radio"
 msgid "Show login username"
 msgstr "顯示登入使用者名稱"
 
 #: package/contents/ui/configGeneral.qml:61
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Layout"
+msgctxt "@title:group"
 msgid "Layout"
 msgstr "佈局"
 
 #: package/contents/ui/configGeneral.qml:77
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show only name"
+msgctxt "@option:radio"
 msgid "Show only name"
 msgstr "只顯示名稱"
 
 #: package/contents/ui/configGeneral.qml:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show only avatar"
+msgctxt "@option:radio"
 msgid "Show only avatar"
 msgstr "只顯示頭像"
 
 #: package/contents/ui/configGeneral.qml:93
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show both avatar and name"
+msgctxt "@option:radio"
 msgid "Show both avatar and name"
 msgstr "顯示頭像與名稱"
 
 #: package/contents/ui/configGeneral.qml:99
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show technical information about sessions"
+msgctxt "@option:check"
 msgid "Show technical information about sessions"
 msgstr "顯示工作階段的技術資訊"
 

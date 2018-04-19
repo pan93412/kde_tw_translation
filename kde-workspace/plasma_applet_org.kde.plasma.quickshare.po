@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-01 04:04+0100\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2015-06-09 17:31+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -72,14 +72,18 @@ msgstr "上傳時發生錯誤。"
 msgid "Please, try again."
 msgstr "請再試一次。"
 
-#: contents/ui/settingsGeneral.qml:39
-#, kde-format
-msgid "History Size:"
+#: contents/ui/settingsGeneral.qml:36
+#, fuzzy, kde-format
+#| msgid "History Size:"
+msgctxt "@label:spinbox"
+msgid "History size:"
 msgstr "歷史紀錄大小："
 
-#: contents/ui/settingsGeneral.qml:45
-#, kde-format
-msgid "Copy Automatically:"
+#: contents/ui/settingsGeneral.qml:49
+#, fuzzy, kde-format
+#| msgid "Copy Automatically:"
+msgctxt "@option:check"
+msgid "Copy automatically:"
 msgstr "自動複製："
 
 #: contents/ui/ShareDialog.qml:42

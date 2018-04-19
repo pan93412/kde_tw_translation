@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_fifteenPuzzle\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-24 03:25+0100\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2017-01-24 15:43+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -22,28 +22,42 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: package/contents/config/config.qml:27
-#: package/contents/ui/configAppearance.qml:45
 #, kde-format
 msgid "Appearance"
 msgstr "外觀"
 
+#: package/contents/ui/configAppearance.qml:45
+#, fuzzy, kde-format
+#| msgid "Appearance"
+msgctxt "@title:group"
+msgid "Appearance"
+msgstr "外觀"
+
 #: package/contents/ui/configAppearance.qml:58
-#, kde-format
-msgid "Size"
+#, fuzzy, kde-format
+#| msgid "Size"
+msgctxt "@label:spinbox"
+msgid "Size:"
 msgstr "大小"
 
 #: package/contents/ui/configAppearance.qml:67
-#, kde-format
-msgid "Piece color"
+#, fuzzy, kde-format
+#| msgid "Piece color"
+msgctxt "@label:chooser"
+msgid "Piece color:"
 msgstr "區塊顏色"
 
 #: package/contents/ui/configAppearance.qml:76
-#, kde-format
-msgid "Number color"
+#, fuzzy, kde-format
+#| msgid "Number color"
+msgctxt "@label:chooser"
+msgid "Number color:"
 msgstr "數字顏色"
 
 #: package/contents/ui/configAppearance.qml:86
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Use custom image"
+msgctxt "@option:check"
 msgid "Use custom image"
 msgstr "使用自訂影像"
 
@@ -53,13 +67,17 @@ msgid "Path to custom image"
 msgstr "自訂影像路徑"
 
 #: package/contents/ui/configAppearance.qml:101
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Browse..."
+msgctxt "@info:tooltip"
 msgid "Browse..."
 msgstr "瀏覽..."
 
 #: package/contents/ui/configAppearance.qml:108
-#, kde-format
-msgid "Choose an image"
+#, fuzzy, kde-format
+#| msgid "Choose an image"
+msgctxt "@title:window"
+msgid "Choose an Image"
 msgstr "選擇影像"
 
 #: package/contents/ui/configAppearance.qml:113
@@ -68,7 +86,9 @@ msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
 msgstr "影像檔 (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
 
 #: package/contents/ui/configAppearance.qml:125
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show numerals"
+msgctxt "@option:check"
 msgid "Show numerals"
 msgstr "顯示數字"
 

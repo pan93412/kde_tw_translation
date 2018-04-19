@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_binaryclock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-08 03:37+0100\n"
+"POT-Creation-Date: 2018-04-19 03:39+0200\n"
 "PO-Revision-Date: 2018-03-25 12:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -22,48 +22,68 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: package/contents/config/config.qml:28
-#: package/contents/ui/configGeneral.qml:33
 #, kde-format
 msgid "Appearance"
 msgstr "外觀"
 
-#: package/contents/ui/configGeneral.qml:61
-#, kde-format
+#: package/contents/ui/configGeneral.qml:33
+#, fuzzy, kde-format
+#| msgid "Appearance"
+msgctxt "@title:group"
+msgid "Appearance"
+msgstr "外觀"
+
+#: package/contents/ui/configGeneral.qml:49
+#, fuzzy, kde-format
+#| msgid "Draw grid"
+msgctxt "@option:check"
 msgid "Draw grid"
 msgstr "繪製座標格"
 
-#: package/contents/ui/configGeneral.qml:65
-#, kde-format
+#: package/contents/ui/configGeneral.qml:53
+#, fuzzy, kde-format
+#| msgid "Show inactive LEDs:"
+msgctxt "@option:check"
 msgid "Show inactive LEDs:"
 msgstr "顯示未發亮的 LED："
 
-#: package/contents/ui/configGeneral.qml:69
-#, kde-format
+#: package/contents/ui/configGeneral.qml:57
+#, fuzzy, kde-format
+#| msgid "Display seconds"
+msgctxt "@option:check"
 msgid "Display seconds"
 msgstr "顯示秒數"
 
-#: package/contents/ui/configGeneral.qml:73
-#, kde-format
+#: package/contents/ui/configGeneral.qml:61
+#, fuzzy, kde-format
+#| msgid "Display in BCD format (decimal)"
+msgctxt "@option:check"
 msgid "Display in BCD format (decimal)"
 msgstr "以 BCD 格式顯示（十進制）"
 
-#: package/contents/ui/configGeneral.qml:76
+#: package/contents/ui/configGeneral.qml:64
 #, kde-format
 msgid "Colors:"
 msgstr "顏色："
 
-#: package/contents/ui/configGeneral.qml:82
-#, kde-format
+#: package/contents/ui/configGeneral.qml:70
+#, fuzzy, kde-format
+#| msgid "Use custom color for active LEDs"
+msgctxt "@option:check"
 msgid "Use custom color for active LEDs"
 msgstr "發亮的 LED 使用自訂顏色"
 
-#: package/contents/ui/configGeneral.qml:100
-#, kde-format
+#: package/contents/ui/configGeneral.qml:79
+#, fuzzy, kde-format
+#| msgid "Use custom color for inactive LEDs"
+msgctxt "@option:check"
 msgid "Use custom color for inactive LEDs"
 msgstr "未發亮的 LED 使用自訂顏色"
 
-#: package/contents/ui/configGeneral.qml:118
-#, kde-format
+#: package/contents/ui/configGeneral.qml:88
+#, fuzzy, kde-format
+#| msgid "Use custom color for grid"
+msgctxt "@option:check"
 msgid "Use custom color for grid"
 msgstr "座標格使用自訂顏色"
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevplatform\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-06 03:29+0200\n"
+"POT-Creation-Date: 2018-04-19 03:26+0200\n"
 "PO-Revision-Date: 2014-04-23 15:00+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -2764,46 +2764,46 @@ msgstr "新增工具檢視"
 msgid "Lock the Panel from Hiding"
 msgstr ""
 
-#: shell/openprojectdialog.cpp:115
+#: shell/openprojectdialog.cpp:114
 #, kde-format
 msgid "%1|All Project Files (%1)"
 msgstr "%1 | 所有專案檔（%1）"
 
-#: shell/openprojectdialog.cpp:124
+#: shell/openprojectdialog.cpp:123
 #, kde-format
 msgid "Select Source"
 msgstr "選擇來源"
 
-#: shell/openprojectdialog.cpp:132
+#: shell/openprojectdialog.cpp:131
 #, kde-format
 msgid ""
 "Select a build system setup file, existing KDevelop project, or any folder "
 "to open as a project"
 msgstr "選擇編譯系統設定檔，現有的 KDevelop 專案，或是任何資料夾來開啟成專案"
 
-#: shell/openprojectdialog.cpp:139 shell/openprojectdialog.cpp:159
+#: shell/openprojectdialog.cpp:138 shell/openprojectdialog.cpp:158
 #, kde-format
 msgid "Open Project"
 msgstr "開啟專案"
 
-#: shell/openprojectdialog.cpp:147
+#: shell/openprojectdialog.cpp:146
 #, kde-format
 msgid "Project Information"
 msgstr "專案資訊"
 
-#: shell/openprojectdialog.cpp:208
+#: shell/openprojectdialog.cpp:207
 #, fuzzy, kde-format
 #| msgid "open %1 as project"
 msgid "Open \"%1\" as project"
 msgstr "以專案開啟 %1"
 
-#: shell/openprojectdialog.cpp:212
+#: shell/openprojectdialog.cpp:211
 #, fuzzy, kde-format
 #| msgid "Selected URL is invalid."
 msgid "Selected URL is invalid"
 msgstr "選取的網址不合法。"
 
-#: shell/openprojectdialog.cpp:257
+#: shell/openprojectdialog.cpp:256
 #, fuzzy, kde-format
 #| msgid "Open Existing File"
 msgid "Open existing file \"%1\""
@@ -2998,37 +2998,37 @@ msgstr "專案已開啟"
 msgid "Already opening %1, not opening again"
 msgstr "已開啟 %1，不用再開了"
 
-#: shell/projectcontroller.cpp:477
+#: shell/projectcontroller.cpp:466
 #, kde-format
 msgid "Override"
 msgstr "覆寫"
 
-#: shell/projectcontroller.cpp:478
+#: shell/projectcontroller.cpp:467
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Continue to open the project and use the just provided project configuration."
 msgstr "繼續使用剛剛提供的專案設定來開啟專案。"
 
-#: shell/projectcontroller.cpp:481
+#: shell/projectcontroller.cpp:470
 #, kde-format
 msgid "Open Existing File"
 msgstr "開啟現有的檔案"
 
-#: shell/projectcontroller.cpp:482
+#: shell/projectcontroller.cpp:471
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Continue to open the project but use the existing project configuration."
 msgstr "使用現有的專案設定來開啟專案。"
 
-#: shell/projectcontroller.cpp:485
+#: shell/projectcontroller.cpp:474
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel and do not open the project."
 msgstr "取消，不要開啟專案。"
 
-#: shell/projectcontroller.cpp:487
+#: shell/projectcontroller.cpp:476
 #, kde-format
 msgid ""
 "There already exists a project configuration file at %1.\n"
@@ -3037,34 +3037,34 @@ msgstr ""
 "已經有個專案設定檔在 %1。\n"
 "您要覆寫它，還是要開啟現有的檔案？"
 
-#: shell/projectcontroller.cpp:489
+#: shell/projectcontroller.cpp:478
 #, kde-format
 msgid "Override existing project configuration"
 msgstr "覆蓋現有的專案設定"
 
-#: shell/projectcontroller.cpp:510
+#: shell/projectcontroller.cpp:499
 #, kde-format
 msgid "Unable to create configuration file %1"
 msgstr "無法建立設定檔 %1"
 
-#: shell/projectcontroller.cpp:522
+#: shell/projectcontroller.cpp:511
 #, kde-format
 msgid "Reopen the current project?"
 msgstr "要重新開啟目前的專案嗎？"
 
-#: shell/projectcontroller.cpp:559
+#: shell/projectcontroller.cpp:548
 #, kde-format
 msgctxt "@action"
 msgid "Open / Import Project..."
 msgstr "開啟 / 匯入專案..."
 
-#: shell/projectcontroller.cpp:560
+#: shell/projectcontroller.cpp:549
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open or import project"
 msgstr "開啟 / 匯入專案"
 
-#: shell/projectcontroller.cpp:561
+#: shell/projectcontroller.cpp:550
 #, fuzzy, kde-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -3085,19 +3085,19 @@ msgstr ""
 "KDevelop4 專案檔或讓您在 KDevelop 中開啟現有的專案目錄。開啟的目錄中若沒有 "
 "KDevelop4 專案檔，則會建立新的專案檔。"
 
-#: shell/projectcontroller.cpp:572
+#: shell/projectcontroller.cpp:561
 #, kde-format
 msgctxt "@action"
 msgid "Fetch Project..."
 msgstr "抓取專案..."
 
-#: shell/projectcontroller.cpp:574
+#: shell/projectcontroller.cpp:563
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Fetch project"
 msgstr "抓取專案"
 
-#: shell/projectcontroller.cpp:575
+#: shell/projectcontroller.cpp:564
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3105,82 +3105,82 @@ msgid ""
 "4."
 msgstr "引導使用者抓取專案，並匯入 KDevelop 4。"
 
-#: shell/projectcontroller.cpp:589
+#: shell/projectcontroller.cpp:578
 #, kde-format
 msgctxt "@action"
 msgid "Close Project(s)"
 msgstr "關閉專案"
 
-#: shell/projectcontroller.cpp:591
+#: shell/projectcontroller.cpp:580
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Closes all currently selected projects"
 msgstr "關閉所有目前選取的專案"
 
-#: shell/projectcontroller.cpp:596
+#: shell/projectcontroller.cpp:585
 #, kde-format
 msgid "Open Configuration..."
 msgstr "開啟設定..."
 
-#: shell/projectcontroller.cpp:602
+#: shell/projectcontroller.cpp:591
 #, kde-format
 msgid "Commit Current Project..."
 msgstr "提交目前的專案..."
 
-#: shell/projectcontroller.cpp:603 vcs/vcspluginhelper.cpp:83
+#: shell/projectcontroller.cpp:592 vcs/vcspluginhelper.cpp:83
 #, kde-format
 msgid "Commit..."
 msgstr "提交..."
 
-#: shell/projectcontroller.cpp:614
+#: shell/projectcontroller.cpp:603
 #, kde-format
 msgid "Open Recent Project"
 msgstr "開啟最近的專案"
 
-#: shell/projectcontroller.cpp:615
+#: shell/projectcontroller.cpp:604
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Opens recently opened project."
 msgstr "開啟最近的專案。"
 
-#: shell/projectcontroller.cpp:620
+#: shell/projectcontroller.cpp:609
 #, kde-format
 msgid "Open Project for Current File"
 msgstr "為目前檔案開啟專案"
 
-#: shell/projectcontroller.cpp:753
+#: shell/projectcontroller.cpp:742
 #, kde-format
 msgid "Project already open: %1"
 msgstr "專案已開啟：%1"
 
-#: shell/projectcontroller.cpp:756
+#: shell/projectcontroller.cpp:745
 #, kde-format
 msgid "No active document"
 msgstr "沒有目前的文件。"
 
-#: shell/projectcontroller.cpp:830
+#: shell/projectcontroller.cpp:819
 #, kde-format
 msgid "Project Already Open"
 msgstr "專案已開啟"
 
-#: shell/projectcontroller.cpp:833
+#: shell/projectcontroller.cpp:822
 #, kde-format
 msgid ""
 "The project you're trying to open is already open in at least one other "
 "session.<br>What do you want to do?"
 msgstr "您要開啟的專案已經在另一個工作階段中開啟了。<br>您要怎麼做？"
 
-#: shell/projectcontroller.cpp:837
+#: shell/projectcontroller.cpp:826
 #, kde-format
 msgid "Add project to current session"
 msgstr "將專案加入目前的工作階段"
 
-#: shell/projectcontroller.cpp:841
+#: shell/projectcontroller.cpp:830
 #, kde-format
 msgid "Open session %1"
 msgstr "開啟工作階段 %1"
 
-#: shell/projectcontroller.cpp:899
+#: shell/projectcontroller.cpp:888
 #, kde-format
 msgid "No enabled plugin supports this repository URL: %1"
 msgstr ""

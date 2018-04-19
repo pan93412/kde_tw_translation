@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-17 03:30+0200\n"
+"POT-Creation-Date: 2018-04-19 03:25+0200\n"
 "PO-Revision-Date: 2018-04-01 17:17+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -5619,14 +5619,14 @@ msgstr "匯入/匯出(&I)"
 msgid "Import"
 msgstr "匯入"
 
-#: krita/krita4.xmlgui:199 plugins/dockers/defaultdockers/kis_layer_box.cpp:602
+#: krita/krita4.xmlgui:199 plugins/dockers/defaultdockers/kis_layer_box.cpp:617
 #, kde-format
 msgid "&Convert"
 msgstr "轉換(&C)"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita4.xmlgui:210 krita/krita4.xmlgui:266
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:578
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:593
 #: plugins/extensions/colorrange/wdg_colorrange.ui:130
 #: plugins/extensions/imagesize/imagesize.xmlgui:12
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
@@ -5634,7 +5634,7 @@ msgstr "轉換(&C)"
 msgid "&Select"
 msgstr "選取(&S)"
 
-#: krita/krita4.xmlgui:218 plugins/dockers/defaultdockers/kis_layer_box.cpp:584
+#: krita/krita4.xmlgui:218 plugins/dockers/defaultdockers/kis_layer_box.cpp:599
 #, kde-format
 msgid "&Group"
 msgstr "群組(_G)"
@@ -5649,7 +5649,7 @@ msgstr "變形(_T)"
 msgid "S&plit"
 msgstr "分割(&P)"
 
-#: krita/krita4.xmlgui:242 plugins/dockers/defaultdockers/kis_layer_box.cpp:609
+#: krita/krita4.xmlgui:242 plugins/dockers/defaultdockers/kis_layer_box.cpp:624
 #, kde-format
 msgid "S&plit Alpha"
 msgstr "分割透背範圍(&P)"
@@ -16100,17 +16100,17 @@ msgctxt "Name for a colorgroup"
 msgid "Name"
 msgstr "名稱"
 
-#: libs/ui/kis_popup_palette.cpp:208
+#: libs/ui/kis_popup_palette.cpp:197
 #, kde-format
 msgid "Mirror Canvas"
 msgstr "鏡射畫布"
 
-#: libs/ui/kis_popup_palette.cpp:216
+#: libs/ui/kis_popup_palette.cpp:205
 #, kde-format
 msgid "Canvas Only"
 msgstr "只有畫布"
 
-#: libs/ui/kis_popup_palette.cpp:220
+#: libs/ui/kis_popup_palette.cpp:209
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
@@ -16145,12 +16145,12 @@ msgstr "只有畫布"
 msgid "100%"
 msgstr "100%"
 
-#: libs/ui/kis_popup_palette.cpp:223
+#: libs/ui/kis_popup_palette.cpp:212
 #, kde-format
 msgid "Zoom to 100%"
 msgstr "縮放至100%"
 
-#: libs/ui/kis_popup_palette.cpp:794
+#: libs/ui/kis_popup_palette.cpp:773
 #, kde-format
 msgid ""
 "There are no tags available to show in this popup. To add presets, you need "
@@ -19576,18 +19576,18 @@ msgstr "變更填充漸層"
 msgid "Change the filling pattern"
 msgstr "變更填充圖樣"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:559
+#: libs/ui/widgets/KoFillConfigWidget.cpp:562
 #, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr "漸層"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:563
+#: libs/ui/widgets/KoFillConfigWidget.cpp:566
 #, kde-format
 msgid "Enter gradient name:"
 msgstr "輸入漸層名稱："
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:563
+#: libs/ui/widgets/KoFillConfigWidget.cpp:566
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
@@ -23496,12 +23496,12 @@ msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr "在 <interface>圖層</interface> 面板顯示全域選取範圍作為一個選取遮罩"
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:588
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:603
 #, kde-format
 msgid "&Toggle Locks && Visibility"
 msgstr "切換鎖定及能見度(&T)"
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:595
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:610
 #, kde-format
 msgid "&Add"
 msgstr "新增(&A)"

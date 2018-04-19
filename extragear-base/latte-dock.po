@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-16 03:20+0200\n"
+"POT-Creation-Date: 2018-04-19 03:23+0200\n"
 "PO-Revision-Date: 2018-04-18 12:09+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -41,7 +41,6 @@ msgstr "設定..."
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:146
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:663
 #, kde-format
-#| msgid "Applets Size"
 msgid "Applets"
 msgstr "小程式"
 
@@ -49,30 +48,26 @@ msgstr "小程式"
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:380
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:1064
 #, kde-format
-#| msgid "Size: "
 msgid "Size"
 msgstr "大小"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:213
 #, kde-format
-#| msgid "Zoom On Hover:"
 msgid "Zoom On Hover"
 msgstr "滑鼠游標置於其上時縮放"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:262
 #, kde-format
-#| msgid "Screen Height Proportion:"
 msgid "Screen Height Proportion"
 msgstr "螢幕高度比例"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:316
 #, kde-format
-#| msgid "Applets Distance:"
 msgid "Applets Distance"
 msgstr "小程式距離"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:354
-#: settingsdialog.cpp:810
+#: settingsdialog.cpp:829
 #, kde-format
 msgid "Background"
 msgstr "背景"
@@ -87,7 +82,6 @@ msgstr "顯示"
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:785
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:1014
 #, kde-format
-#| msgid "Opacity: "
 msgid "Opacity"
 msgstr "不透明度"
 
@@ -128,7 +122,6 @@ msgstr "x3"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:585
 #, kde-format
-#| msgid "Active Applet Indicator"
 msgid "Active Indicator"
 msgstr "作用中的指示器"
 
@@ -146,7 +139,6 @@ msgstr "線"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:628
 #, kde-format
-#| msgid "Show indicator for audio streams"
 msgid "Show a line indicator for active tasks/applets"
 msgstr "為作用中工作／小工具顯示線指示器"
 
@@ -158,7 +150,6 @@ msgstr "點"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:640
 #, kde-format
-#| msgid "Show indicator for audio streams"
 msgid "Show a dot indicator for active tasks/applets"
 msgstr "為作用中工作／小工具顯示點指示器"
 
@@ -222,8 +213,6 @@ msgstr "發光"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:733
 #, kde-format
-#| msgctxt "show panel"
-#| msgid "Show"
 msgctxt "show glow"
 msgid "Show"
 msgstr "顯示"
@@ -236,13 +225,11 @@ msgstr "僅作用中"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:765
 #, kde-format
-#| msgid "Active Applet Indicator"
 msgid "Add glow only to active task/applet indicator"
 msgstr "發光僅新增至作用中的工作／小工具指示器"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:771
 #, kde-format
-#| msgid "All"
 msgctxt "Add glow to all task/applet indicators"
 msgid "All"
 msgstr "全部"
@@ -297,7 +284,6 @@ msgstr "長度"
 
 #: ../shell/package/contents/configuration/AppearanceConfig.qml:1126
 #, kde-format
-#| msgid "Maximum: "
 msgid "Maximum"
 msgstr "最大"
 
@@ -428,21 +414,18 @@ msgstr "視窗在下面"
 
 #. i18n: ectx: property (text), widget (QLabel, delayLbl)
 #: ../shell/package/contents/configuration/BehaviorConfig.qml:455
-#: settingsdialog.ui:714
+#: settingsdialog.ui:746
 #, kde-format
 msgid "Delay"
 msgstr "延遲"
 
 #: ../shell/package/contents/configuration/BehaviorConfig.qml:470
 #, kde-format
-#| msgctxt "show panel"
-#| msgid "Show"
 msgid "Show"
 msgstr "顯示"
 
 #: ../shell/package/contents/configuration/BehaviorConfig.qml:486
 #, kde-format
-#| msgid "Hide:"
 msgid "Hide"
 msgstr "隱藏"
 
@@ -453,7 +436,6 @@ msgstr "一般"
 
 #: ../shell/package/contents/configuration/LatteDockConfiguration.qml:167
 #, kde-format
-#| msgid "Show Latte Dock"
 msgid "Open Latte settings window"
 msgstr "開啟 Latte 設定視窗"
 
@@ -465,7 +447,7 @@ msgstr "進階"
 #. i18n: ectx: property (text), widget (QLabel, behaviorLbl)
 #: ../shell/package/contents/configuration/LatteDockConfiguration.qml:326
 #: ../shell/package/contents/configuration/TweaksConfig.qml:161
-#: settingsdialog.ui:467
+#: settingsdialog.ui:499
 #, kde-format
 msgid "Behavior"
 msgstr "行為"
@@ -539,9 +521,6 @@ msgstr "作用中視窗群組的指示器"
 
 #: ../shell/package/contents/configuration/TasksConfig.qml:75
 #, kde-format
-#| msgid ""
-#| "Grouped windows show both a line and a dot when \n"
-#| "one of them is active"
 msgid ""
 "Grouped windows show both a line and a dot when \n"
 "one of them is active and the Line Active Indicator \n"
@@ -607,7 +586,6 @@ msgstr "啟用／停用滑鼠滾輪的工作間循環動作"
 
 #: ../shell/package/contents/configuration/TasksConfig.qml:178
 #, kde-format
-#| msgid "On middle-click:"
 msgid "On middle-click"
 msgstr "點擊滑鼠中鍵"
 
@@ -676,7 +654,6 @@ msgstr "唯一"
 
 #: ../shell/package/contents/configuration/TasksConfig.qml:272
 #, kde-format
-#| msgid "Use a unique set of launchers for this dock"
 msgid ""
 "Use a unique set of launchers for this dock which is independent from any "
 "other dock"
@@ -695,9 +672,8 @@ msgid ""
 "launchers <b>synchronization</b> between different docks in the <b>same "
 "layout</b>"
 msgstr ""
-"為此 dock 使用目前的佈局集。此群組提供了"
-"在同樣<b>佈局</b>的不同 dock 間的啟動器"
-"<b>同步</b>"
+"為此 dock 使用目前的佈局集。此群組提供了在同樣<b>佈局</b>的不同 dock 間的啟動"
+"器<b>同步</b>"
 
 #: ../shell/package/contents/configuration/TasksConfig.qml:291
 #, kde-format
@@ -712,8 +688,8 @@ msgid ""
 "<b>synchronization</b> between different docks and between <b>different "
 "layouts</b>"
 msgstr ""
-"為此 dock 使用全域佈局集。此群組提供了"
-"在不同佈局與不同 dock 間的啟動器<b>同步</b>"
+"為此 dock 使用全域佈局集。此群組提供了在不同佈局與不同 dock 間的啟動器<b>同步"
+"</b>"
 
 #: ../shell/package/contents/configuration/TasksConfig.qml:309
 #, kde-format
@@ -737,7 +713,6 @@ msgstr "只顯示目前活動裡的工作"
 
 #: ../shell/package/contents/configuration/TasksConfig.qml:348
 #, kde-format
-#| msgid "Show only tasks from the current screen"
 msgid "Show only tasks from launchers"
 msgstr "只顯示從啟動器開啟的工作"
 
@@ -758,21 +733,16 @@ msgstr "將邊框厚度縮到最小"
 
 #: ../shell/package/contents/configuration/TweaksConfig.qml:96
 #, kde-format
-#| msgid "Background"
 msgid "Dynamic Background"
 msgstr "動態背景"
 
 #: ../shell/package/contents/configuration/TweaksConfig.qml:103
 #, kde-format
-#| msgid "Show background only for maximized windows"
 msgid "Force solid background for maximized or snapped windows"
 msgstr "在最大化或被捕捉的視窗強制顯示單色背景"
 
 #: ../shell/package/contents/configuration/TweaksConfig.qml:105
 #, kde-format
-#| msgid ""
-#| "The panel background becomes transparent but is shown \n"
-#| "when there is a maximized window"
 msgid ""
 "The panel background removes its transparency setting \n"
 " when there is a maximized or snapped window"
@@ -782,15 +752,11 @@ msgstr ""
 
 #: ../shell/package/contents/configuration/TweaksConfig.qml:116
 #, kde-format
-#| msgid "Show background only for maximized windows"
 msgid "Hide background for not maximized windows"
 msgstr "為非最大化的視窗隱藏背景"
 
 #: ../shell/package/contents/configuration/TweaksConfig.qml:118
 #, kde-format
-#| msgid ""
-#| "The panel background becomes transparent but is shown \n"
-#| "when there is a maximized window"
 msgid ""
 "The panel background becomes transparent except if \n"
 "there is a maximized or snapped window"
@@ -891,19 +857,16 @@ msgstr "新增分隔器來分隔小工具"
 
 #: ../shell/package/contents/configuration/TweaksConfig.qml:265
 #, kde-format
-#| msgid "Remove Tasks"
 msgid "Remove Tasks Applet"
 msgstr "移除工作小工具"
 
 #: ../shell/package/contents/configuration/TweaksConfig.qml:267
 #, kde-format
-#| msgid "Remove Latte plasmoid"
 msgid "Remove Latte Tasks plasmoid"
 msgstr "移除 Latte 工作 plasmoid"
 
 #: ../shell/package/contents/configuration/TypeSelection.qml:71
 #, kde-format
-#| msgid "Dock"
 msgctxt "dock type"
 msgid "Dock"
 msgstr "Dock"
@@ -942,7 +905,6 @@ msgstr "%1 選項"
 
 #: globalshortcuts.cpp:177
 #, kde-format
-#| msgid "Show Latte Dock"
 msgid "Show Dock"
 msgstr "顯示 Dock"
 
@@ -953,25 +915,21 @@ msgstr "顯示 Dock 設定"
 
 #: globalshortcuts.cpp:194
 #, kde-format
-#| msgid "Layouts Editor"
 msgid "Show Layout Settings"
 msgstr "顯示佈局設定"
 
 #: globalshortcuts.cpp:203
 #, kde-format
-#| msgid "Show Latte Dock"
 msgid "Show Latte Settings"
 msgstr "顯示 Latte 設定"
 
 #: globalshortcuts.cpp:218 globalshortcuts.cpp:233
 #, kde-format
-#| msgid "Activate Task Manager Entry %1"
 msgid "Activate Entry %1"
 msgstr "啟用項目 %1"
 
 #: globalshortcuts.cpp:247 globalshortcuts.cpp:258
 #, kde-format
-#| msgid "New Instance for Task Manager Entry %1"
 msgid "New Instance for Entry %1"
 msgstr "項目 %1 的新實體"
 
@@ -1010,7 +968,6 @@ msgstr "正在切換到佈局 <b>%0</b> ..."
 
 #: layoutmanager.cpp:519
 #, kde-format
-#| msgid "Layout Warning"
 msgid "Multiple Layouts Warning"
 msgstr "多重佈局警告"
 
@@ -1020,8 +977,8 @@ msgid ""
 "Latte did not close properly in the previous session. The following "
 "layout(s) <b>[%0]</b> were updated for consistency!!!"
 msgstr ""
-"Latte 在前一個工作階段並未正確關閉。下列的"
-"佈局<b>[%0]</b>已為了一致性而更新！！！"
+"Latte 在前一個工作階段並未正確關閉。下列的佈局<b>[%0]</b>已為了一致性而更"
+"新！！！"
 
 #: layoutmanager.cpp:671 layoutmanager.cpp:996 layoutmanager.cpp:1200
 #, kde-format
@@ -1030,7 +987,6 @@ msgstr "預設"
 
 #: layoutmanager.cpp:911
 #, kde-format
-#| msgid "Switching to layout <b>%0</b> ..."
 msgid "Adding layout: <b>%0</b> ..."
 msgstr "正在新增佈局：<b>%0</b> ..."
 
@@ -1109,8 +1065,6 @@ msgstr "檔案名稱"
 
 #: main.cpp:105
 #, kde-format
-#| msgctxt "command line"
-#| msgid "Import configuration."
 msgctxt "command line"
 msgid "Import full configuration."
 msgstr "匯入完整設定。"
@@ -1157,7 +1111,6 @@ msgstr "設定無法匯入"
 
 #: main.cpp:210
 #, kde-format
-#| msgid "The configuration cannot be imported"
 msgid "The layout cannot be imported"
 msgstr "無法匯入佈局"
 
@@ -1194,7 +1147,6 @@ msgstr "審閱 Latte Dock、CandilDock 與 NowDock"
 
 #: packageplugins/shell/dockpackage.cpp:44
 #, kde-format
-#| msgid "Latte Dock panel"
 msgid "Latte Dock defaults"
 msgstr "Latte Dock 預設"
 
@@ -1210,7 +1162,6 @@ msgstr "Dock 設定使用者介面"
 
 #: packageplugins/shell/dockpackage.cpp:48
 #, kde-format
-#| msgid "Dock configuration UI"
 msgid "Dock secondary configuration UI"
 msgstr "Dock 次要設定使用者介面"
 
@@ -1276,55 +1227,53 @@ msgstr "延伸預設佈局檔"
 
 #: packageplugins/shell/dockpackage.cpp:63
 #, kde-format
-#| msgid "default layout file"
 msgid "multiple layouts hidden file"
 msgstr "多重佈局隱藏檔"
 
-#: settingsdialog.cpp:139
+#: settingsdialog.cpp:140
 #, kde-format
 msgid "File"
 msgstr "檔案"
 
-#: settingsdialog.cpp:142
+#: settingsdialog.cpp:143
 #, kde-format
 msgid "Help"
 msgstr "說明"
 
-#: settingsdialog.cpp:146
+#: settingsdialog.cpp:147
 #, kde-format
 msgid "Quit Latte"
 msgstr "離開 Latte"
 
-#: settingsdialog.cpp:150
+#: settingsdialog.cpp:151
 #, kde-format
-#| msgid "Quit Latte"
 msgid "About Latte"
 msgstr "關於 Latte"
 
-#: settingsdialog.cpp:388
+#: settingsdialog.cpp:407
 #, kde-format
 msgctxt "import layout/configuration"
 msgid "Import Layout/Configuration"
 msgstr "匯入佈局／設定"
 
-#: settingsdialog.cpp:397
+#: settingsdialog.cpp:416
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr "Latte Dock 佈局檔案 v0.2"
 
-#: settingsdialog.cpp:398
+#: settingsdialog.cpp:417
 #, kde-format
 msgctxt "import latte layouts/configuration"
 msgid "Latte Dock Full Configuration file (v0.1, v0.2)"
 msgstr "Latte Dock 完整設定檔 (v0.1, v0.2)"
 
-#: settingsdialog.cpp:414
+#: settingsdialog.cpp:433
 #, kde-format
 msgid "Import: Configuration file version v0.1"
 msgstr "匯入：設定版本 v0.1"
 
-#: settingsdialog.cpp:416
+#: settingsdialog.cpp:435
 #, kde-format
 msgid ""
 "You are going to import an old version <b>v0.1</b> configuration file."
@@ -1336,24 +1285,24 @@ msgstr ""
 "將會抹除所有</b>您目前的設定！！！<br><br> <i>另外，您也可以從這個檔案<b>安全"
 "地匯入</b><br><b>僅包含佈局的部份s...</b></i>"
 
-#: settingsdialog.cpp:421
+#: settingsdialog.cpp:440
 #, kde-format
 msgctxt "import full configuration"
 msgid "Full Configuration"
 msgstr "完整設定"
 
-#: settingsdialog.cpp:423
+#: settingsdialog.cpp:442
 #, kde-format
 msgctxt "import only the layouts"
 msgid "Only Layouts"
 msgstr "僅佈局"
 
-#: settingsdialog.cpp:449
+#: settingsdialog.cpp:468
 #, kde-format
 msgid "Import: Configuration file version v0.2"
 msgstr "匯入：設定檔版本 v0.2"
 
-#: settingsdialog.cpp:451
+#: settingsdialog.cpp:470
 #, kde-format
 msgid ""
 "You are going to import a <b>v0.2</b> configuration file.<br><b>Be careful</"
@@ -1363,97 +1312,93 @@ msgstr ""
 "您將會要匯入舊版本 v0.2</b> 的設定檔。<br>請小心</b>，匯入整個設定檔<b>將會抹"
 "除所有</b>您目前的設定！！！<br><br> <i>您想要繼續嗎？</i>"
 
-#: settingsdialog.cpp:496
+#: settingsdialog.cpp:515
 #, kde-format
 msgctxt "layout"
 msgid "Alternative"
 msgstr "替代"
 
-#: settingsdialog.cpp:526
+#: settingsdialog.cpp:545
 #, kde-format
 msgctxt "export layout/configuration"
 msgid "Export Layout/Configuration"
 msgstr "匯出佈局／設定"
 
-#: settingsdialog.cpp:534
+#: settingsdialog.cpp:553
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr "Latte Dock 佈局檔案 v0.2"
 
-#: settingsdialog.cpp:535
+#: settingsdialog.cpp:554
 #, kde-format
-#| msgctxt "export full configuraion"
-#| msgid "Latte Dock Full Configuration file v0.2"
 msgctxt "export full configuration"
 msgid "Latte Dock Full Configuration file v0.2"
 msgstr "Latte Dock 完整設定檔 v0.2"
 
-#: settingsdialog.cpp:549
+#: settingsdialog.cpp:568
 #, kde-format
 msgctxt "export layout"
 msgid "Failed to export layout"
 msgstr "匯出佈局失敗"
 
-#: settingsdialog.cpp:576
-#, kde-format
-msgctxt "export layout"
-msgid "Open location"
-msgstr "開啟位置"
-
-#: settingsdialog.cpp:577
-#, kde-format
-msgctxt "export layout"
-msgid "Layout exported successfully"
-msgstr "佈局匯出成功"
-
-#: settingsdialog.cpp:588
-#, kde-format
-msgctxt "import/export config"
-msgid "Failed to export configuration"
-msgstr "匯出設定失敗"
-
 #: settingsdialog.cpp:595
 #, kde-format
-msgctxt "import/export config"
+msgctxt "export layout"
 msgid "Open location"
 msgstr "開啟位置"
 
 #: settingsdialog.cpp:596
 #, kde-format
+msgctxt "export layout"
+msgid "Layout exported successfully"
+msgstr "佈局匯出成功"
+
+#: settingsdialog.cpp:607
+#, kde-format
+msgctxt "import/export config"
+msgid "Failed to export configuration"
+msgstr "匯出設定失敗"
+
+#: settingsdialog.cpp:614
+#, kde-format
+msgctxt "import/export config"
+msgid "Open location"
+msgstr "開啟位置"
+
+#: settingsdialog.cpp:615
+#, kde-format
 msgctxt "import/export config"
 msgid "Full Configuration exported successfully"
 msgstr "完整設定匯出成功"
 
-#: settingsdialog.cpp:758
+#: settingsdialog.cpp:777
 #, kde-format
-#| msgctxt "import-done"
-#| msgid "Layout: <b>%0</b> imported successfully\n"
 msgctxt "import-done"
 msgid "Layout: <b>%0</b> imported successfully<br>"
 msgstr "佈局：<b>%0</b> 匯入成功<br>"
 
-#: settingsdialog.cpp:811
+#: settingsdialog.cpp:830
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: settingsdialog.cpp:812
+#: settingsdialog.cpp:831
 #, kde-format
 msgid "In Menu"
 msgstr "在選單中"
 
-#: settingsdialog.cpp:813
+#: settingsdialog.cpp:832
 #, kde-format
 msgid "Activities"
 msgstr "活動"
 
-#: settingsdialog.cpp:855 settingsdialog.cpp:1186
+#: settingsdialog.cpp:875 settingsdialog.cpp:1219
 #, kde-format
 msgid "Layout Warning"
 msgstr "佈局警告"
 
-#: settingsdialog.cpp:856
+#: settingsdialog.cpp:876
 #, kde-format
 msgid ""
 "The layout(s) <b>%0</b> have <i>broken configuration</i>!!! Please <b>remove "
@@ -1462,12 +1407,13 @@ msgstr ""
 "佈局 <b>%0</b> 有<i>損壞的設定</i>！！！請<b>移除 它們</b>來改善系統的穩定"
 "性..."
 
-#: settingsdialog.cpp:1187
+#: settingsdialog.cpp:1220
 #, kde-format
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
 "these names to re-apply the changes..."
-msgstr "有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
+msgstr ""
+"有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
 #: settingsdialog.ui:14
@@ -1498,7 +1444,6 @@ msgstr "單一"
 #. i18n: ectx: property (toolTip), widget (QToolButton, multipleToolBtn)
 #: settingsdialog.ui:66
 #, kde-format
-#| msgid "Layout Warning"
 msgid "Multiple layouts can be present in memory"
 msgstr "記憶中可以有多種佈局"
 
@@ -1512,15 +1457,12 @@ msgstr "多重"
 #. i18n: ectx: property (toolTip), widget (QPushButton, switchButton)
 #: settingsdialog.ui:136
 #, kde-format
-#| msgid "Switch to layout"
 msgid "Switch to selected layout"
 msgstr "切換到選定的佈局"
 
 #. i18n: ectx: property (text), widget (QPushButton, switchButton)
 #: settingsdialog.ui:139
 #, kde-format
-#| msgctxt "switch button"
-#| msgid "Switch"
 msgctxt "switch to layout"
 msgid "Switch"
 msgstr "切換"
@@ -1540,15 +1482,12 @@ msgstr "暫停"
 #. i18n: ectx: property (toolTip), widget (QPushButton, newButton)
 #: settingsdialog.ui:209
 #, kde-format
-#| msgid "My Layout"
 msgid "New layout"
 msgstr "新佈局"
 
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: settingsdialog.ui:212
 #, kde-format
-#| msgctxt "new button"
-#| msgid "New"
 msgctxt "new layout"
 msgid "New"
 msgstr "新的"
@@ -1556,15 +1495,12 @@ msgstr "新的"
 #. i18n: ectx: property (toolTip), widget (QPushButton, copyButton)
 #: settingsdialog.ui:223
 #, kde-format
-#| msgid "Switch to layout"
 msgid "Copy selected layout"
 msgstr "複製選定的佈局"
 
 #. i18n: ectx: property (text), widget (QPushButton, copyButton)
 #: settingsdialog.ui:226
 #, kde-format
-#| msgctxt "copy button"
-#| msgid "Copy"
 msgctxt "copy layout"
 msgid "Copy"
 msgstr "複製"
@@ -1572,143 +1508,146 @@ msgstr "複製"
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeButton)
 #: settingsdialog.ui:240
 #, kde-format
-#| msgid "Remove Tasks"
 msgid "Remove selected layout"
 msgstr "移除選定的佈局"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: settingsdialog.ui:243
 #, kde-format
-#| msgid "Remove"
 msgctxt "remove layout"
 msgid "Remove"
 msgstr "移除"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, importButton)
-#: settingsdialog.ui:314
+#. i18n: ectx: property (toolTip), widget (QPushButton, lockedButton)
+#: settingsdialog.ui:270
 #, kde-format
-#| msgctxt "command line"
-#| msgid "Import configuration."
+msgid "Lock layout and make it read-only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, lockedButton)
+#: settingsdialog.ui:273
+#, fuzzy, kde-format
+#| msgid "Locked"
+msgctxt "locked layout"
+msgid "Locked"
+msgstr "鎖定"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, importButton)
+#: settingsdialog.ui:346
+#, kde-format
 msgid "Import a layout or full configuration file"
 msgstr "匯入佈局或完整設定檔"
 
 #. i18n: ectx: property (text), widget (QPushButton, importButton)
-#: settingsdialog.ui:317
+#: settingsdialog.ui:349
 #, kde-format
-#| msgctxt "import button"
-#| msgid "Import"
 msgctxt "import layout"
 msgid "Import"
 msgstr "匯入"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, exportButton)
-#: settingsdialog.ui:331
+#: settingsdialog.ui:363
 #, kde-format
-#| msgctxt "export layout/configuration"
-#| msgid "Export Layout/Configuration"
 msgid "Export selected layout or full configuration into a file"
 msgstr "匯出選定的佈局或完整設定成檔案"
 
 #. i18n: ectx: property (text), widget (QPushButton, exportButton)
-#: settingsdialog.ui:334
+#: settingsdialog.ui:366
 #, kde-format
-#| msgctxt "export button"
-#| msgid "Export"
 msgctxt "export layout"
 msgid "Export"
 msgstr "匯出"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, downloadButton)
-#: settingsdialog.ui:345
+#: settingsdialog.ui:377
 #, kde-format
 msgid "Download community layouts from the Internet"
 msgstr "從網際網路下載社群佈局"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: settingsdialog.ui:348
+#: settingsdialog.ui:380
 #, kde-format
 msgctxt "download layout"
 msgid "Download"
 msgstr "下載"
 
 #. i18n: ectx: attribute (title), widget (QWidget, preferencesTab)
-#: settingsdialog.ui:386
+#: settingsdialog.ui:418
 #, kde-format
 msgid "Preferences"
 msgstr "偏好設定"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
-#: settingsdialog.ui:495
+#: settingsdialog.ui:527
 #, kde-format
 msgid "Start the application automatically after each relogin"
 msgstr "在每次重新登入後自動啟動應用程式"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
-#: settingsdialog.ui:498
+#: settingsdialog.ui:530
 #, kde-format
 msgid "Enable autostart during startup"
 msgstr "在開機時啟用自動啟動"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
-#: settingsdialog.ui:525
+#: settingsdialog.ui:557
 #, kde-format
 msgid "Provide visual feedback when layouts are added automatically"
 msgstr "當自動新增佈局時提供視覺回饋"
 
 #. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
-#: settingsdialog.ui:528
+#: settingsdialog.ui:560
 #, kde-format
-#| msgid "Show info for layouts automatic switching"
 msgid "Show informative window for layouts automatic switching"
 msgstr "顯示佈局自動切換的資訊視窗"
 
 #. i18n: ectx: property (text), widget (QLabel, mouseSensetivityLbl)
-#: settingsdialog.ui:559
+#: settingsdialog.ui:591
 #, kde-format
 msgid "Mouse Sensitivity"
 msgstr "滑鼠靈敏度"
 
 #. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
-#: settingsdialog.ui:590
+#: settingsdialog.ui:622
 #, kde-format
 msgid "Parabolic Effect"
 msgstr "拋物線特效"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
-#: settingsdialog.ui:621
+#: settingsdialog.ui:653
 #, kde-format
 msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
 msgstr "拋物線特效低靈敏度（低 CPU 使用率與效能）"
 
 #. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
-#: settingsdialog.ui:624
+#: settingsdialog.ui:656
 #, kde-format
 msgctxt "low sensitivity"
 msgid "Low"
 msgstr "低"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
-#: settingsdialog.ui:640
+#: settingsdialog.ui:672
 #, kde-format
 msgid ""
 "Medium sensitivity for parabolic effect (normal cpu usage and performance)"
 msgstr "拋物線特效中靈敏度（一般的 CPU 使用率與效能）"
 
 #. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
-#: settingsdialog.ui:643
+#: settingsdialog.ui:675
 #, kde-format
 msgctxt "medium sensitivity"
 msgid "Medium"
 msgstr "中"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
-#: settingsdialog.ui:659
+#: settingsdialog.ui:691
 #, kde-format
 msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
 msgstr "拋物線特效高靈敏度（高 CPU 使用率與效能）"
 
 #. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
-#: settingsdialog.ui:662
+#: settingsdialog.ui:694
 #, kde-format
 msgctxt "high sensitivity"
 msgid "High"
@@ -1716,23 +1655,23 @@ msgstr "高"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, trackScreensDelayLbl)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, screenTrackerSpinBox)
-#: settingsdialog.ui:740 settingsdialog.ui:763
+#: settingsdialog.ui:772 settingsdialog.ui:795
 #, kde-format
 msgid ""
 "Different hardware can have different delays during screen changes.\n"
 "This tracker is used in order to not lose any screen related update."
 msgstr ""
-"不同的硬體在畫面變更時會有不同的延遲。"
-"這個追蹤器是用於不要遺失任何畫面相關的更新。"
+"不同的硬體在畫面變更時會有不同的延遲。這個追蹤器是用於不要遺失任何畫面相關的"
+"更新。"
 
 #. i18n: ectx: property (text), widget (QLabel, trackScreensDelayLbl)
-#: settingsdialog.ui:743
+#: settingsdialog.ui:775
 #, kde-format
 msgid "Track screen changes after"
 msgstr "追蹤螢幕變更在多久之後"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, screenTrackerSpinBox)
-#: settingsdialog.ui:772
+#: settingsdialog.ui:804
 #, kde-format
 msgid " ms."
 msgstr "毫秒"
@@ -1902,9 +1841,6 @@ msgstr "毫秒"
 
 #~ msgid "Transparency: "
 #~ msgstr "透明度： "
-
-#~ msgid "Locked"
-#~ msgstr "鎖定"
 
 #~ msgid "Sync launchers between all docks"
 #~ msgstr "在所有 dock 間同步啟動器"
