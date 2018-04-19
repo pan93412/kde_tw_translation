@@ -3,14 +3,15 @@
 #
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemloadviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-04-19 03:39+0200\n"
-"PO-Revision-Date: 2017-03-27 09:31+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2018-04-19 21:10+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,182 +31,182 @@ msgid "Colors"
 msgstr "顏色"
 
 #: package/contents/ui/ColorSettings.qml:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Set colors manually"
 msgctxt "@option:check"
 msgid "Set Colors Manually"
 msgstr "手動設定顏色"
 
 #: package/contents/ui/ColorSettings.qml:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "CPU"
 msgctxt "@title:group"
 msgid "CPU"
 msgstr "CPU"
 
 #: package/contents/ui/ColorSettings.qml:57
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "User:"
 msgctxt "@label:chooser"
 msgid "User:"
 msgstr "使用者："
 
 #: package/contents/ui/ColorSettings.qml:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "IOWait:"
 msgctxt "@label:chooser"
 msgid "IOWait:"
-msgstr "輸出入等待："
+msgstr "輸入與輸出等待："
 
 #: package/contents/ui/ColorSettings.qml:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sys:"
 msgctxt "@label:chooser"
 msgid "Sys:"
 msgstr "系統："
 
 #: package/contents/ui/ColorSettings.qml:84
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Nice:"
 msgctxt "@label:chooser"
 msgid "Nice:"
 msgstr "優先權："
 
 #: package/contents/ui/ColorSettings.qml:93
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Memory"
 msgctxt "@title:group"
 msgid "Memory"
 msgstr "記憶體"
 
 #: package/contents/ui/ColorSettings.qml:100
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Application:"
 msgctxt "@label:chooser"
 msgid "Application:"
 msgstr "應用程式："
 
 #: package/contents/ui/ColorSettings.qml:109
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Buffers:"
 msgctxt "@label:chooser"
 msgid "Buffers:"
 msgstr "緩衝區："
 
 #: package/contents/ui/ColorSettings.qml:118
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cached:"
 msgctxt "@label:chooser"
 msgid "Cached:"
 msgstr "已快取："
 
 #: package/contents/ui/ColorSettings.qml:127
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Swap"
 msgctxt "@title:group"
 msgid "Swap"
 msgstr "置換空間"
 
 #: package/contents/ui/ColorSettings.qml:134
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Used swap:"
 msgctxt "@label:chooser"
 msgid "Used swap:"
 msgstr "已使用置換空間："
 
 #: package/contents/ui/ColorSettings.qml:143
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cache"
 msgctxt "@title:group"
 msgid "Cache"
 msgstr "快取"
 
 #: package/contents/ui/ColorSettings.qml:149
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Dirty memory:"
 msgctxt "@label:chooser"
 msgid "Dirty memory:"
 msgstr "已更改，正等待寫入時碟的記憶體："
 
 #: package/contents/ui/ColorSettings.qml:158
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Writeback memory:"
 msgctxt "@label:chooser"
 msgid "Writeback memory:"
 msgstr "正寫入磁碟但尚未完成的記憶體："
 
 #: package/contents/ui/GeneralSettings.qml:57
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show:"
 msgctxt "@label"
 msgid "Show:"
 msgstr "顯示："
 
 #: package/contents/ui/GeneralSettings.qml:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "CPU monitor"
 msgctxt "@option:check"
 msgid "CPU monitor"
 msgstr "CPU 監視器"
 
 #: package/contents/ui/GeneralSettings.qml:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "CPUs separately"
 msgctxt "@option:check"
 msgid "CPUs separately"
 msgstr "個別 CPU"
 
 #: package/contents/ui/GeneralSettings.qml:80
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Memory monitor"
 msgctxt "@option:check"
 msgid "Memory monitor"
 msgstr "記憶體監視器"
 
 #: package/contents/ui/GeneralSettings.qml:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Swap monitor"
 msgctxt "@option:check"
 msgid "Swap monitor"
 msgstr "置換空間監視器"
 
 #: package/contents/ui/GeneralSettings.qml:90
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Cache monitor"
 msgctxt "@option:check"
 msgid "Cache monitor"
 msgstr "快取監視器"
 
 #: package/contents/ui/GeneralSettings.qml:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Monitor type:"
 msgctxt "@label"
 msgid "Monitor type:"
 msgstr "監視器型態："
 
 #: package/contents/ui/GeneralSettings.qml:103
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Bar"
 msgctxt "@option:radio"
 msgid "Bar"
 msgstr "條狀"
 
 #: package/contents/ui/GeneralSettings.qml:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Circular"
 msgctxt "@option:radio"
 msgid "Circular"
 msgstr "圓形"
 
 #: package/contents/ui/GeneralSettings.qml:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Compact Bar"
 msgctxt "@option:radio"
 msgid "Compact bar"
 msgstr "簡潔長條"
 
 #: package/contents/ui/GeneralSettings.qml:122
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Update interval:"
 msgctxt "@label:spinbox"
 msgid "Update interval:"

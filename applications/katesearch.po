@@ -4,19 +4,20 @@
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2012, 2013, 2014, 2015, 2017.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2018-04-19 03:22+0200\n"
-"PO-Revision-Date: 2018-03-24 00:23+0800\n"
-"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"PO-Revision-Date: 2018-04-19 20:59+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: plugin_search.cpp:227
@@ -104,39 +105,39 @@ msgid "<b>Replacing in: %1</b>"
 msgstr "<b>正在取代：%1</b>"
 
 #: plugin_search.cpp:1541
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b><i>One match found in current file</i></b>"
 #| msgid_plural "<b><i>%1 matches found in current file</i></b>"
 msgid "<b><i>One match found in current file</i></b>"
 msgid_plural "<b><i>%1 matches (%2 checked) found in current file</i></b>"
-msgstr[0] "<b><i>目前檔案中有 %1 筆項目相符</i></b>"
+msgstr[0] "<b><i>目前檔案中有 %1 筆項目相符（已搜尋過 %2 筆項目）</i></b>"
 
 #: plugin_search.cpp:1546
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b><i>One match found in open files</i></b>"
 #| msgid_plural "<b><i>%1 matches found in open files</i></b>"
 msgid "<b><i>One match found in open files</i></b>"
 msgid_plural "<b><i>%1 matches  (%2 checked) found in open files</i></b>"
-msgstr[0] "<b><i>已開啟檔案中有 %1 筆項目相符</i></b>"
+msgstr[0] "<b><i>已開啟檔案中有 %1 筆項目相符 （已搜尋過 %2 筆項目）</i></b>"
 
 #: plugin_search.cpp:1551
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b><i>One match found in folder %2</i></b>"
 #| msgid_plural "<b><i>%1 matches found in folder %2</i></b>"
 msgid "<b><i>One match found in folder %2</i></b>"
 msgid_plural "<b><i>%1 matches  (%3 checked) found in folder %2</i></b>"
-msgstr[0] "<b><i>資料夾 %2 中找到 %1 個相符項目</i></b>"
+msgstr[0] "<b><i>資料夾 %2 中找到 %1 個相符項目（已搜尋過 %3 個檔案）</i></b>"
 
 #: plugin_search.cpp:1563
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b><i>One match found in project %2 (%3)</i></b>"
 #| msgid_plural "<b><i>%1 matches found in project %2 (%3)</i></b>"
 msgid "<b><i>One match found in project %2 (%3)</i></b>"
 msgid_plural "<b><i>%1 matches  (%4 checked) found in project %2 (%3)</i></b>"
-msgstr[0] "<b><i>專案 %2 (%3) 中找到 %1 個相符項目</i></b>"
+msgstr[0] "<b><i>專案 %2 (%3) 中找到 %1 個相符項目（已搜尋過 %4 筆資料）</i></b>"
 
 #: plugin_search.cpp:1572
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<b><i>One match found in all open projects (common parent: %2)</i></b>"
 #| msgid_plural ""
@@ -145,8 +146,7 @@ msgid "<b><i>One match found in all open projects (common parent: %2)</i></b>"
 msgid_plural ""
 "<b><i>%1 matches  (%3 checked) found in all open projects (common parent: "
 "%2)</i></b>"
-msgstr[0] ""
-"<b><i>在所有開啟的專案（共同父專案：%2）中找到 %1 個相符項目</i></b>"
+msgstr[0] "<b><i>在所有開啟的專案（共同父專案：%2）中找到 %1 個相符項目（已搜尋過 %3 個資料）</i></b>"
 
 #: plugin_search.cpp:1716
 #, kde-format
